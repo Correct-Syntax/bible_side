@@ -1,6 +1,6 @@
 # BibleSide
 
-BibleSide is an offline Bible app inspired by Material 3 design.
+BibleSide is an offline Bible app inspired by Material 3 design system.
 
 The goal is for multiple translations (KJV, etc) to be added in the future, but integrating the [OET (Open English Translation)](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET) is the primary focus right now.
 
@@ -13,10 +13,10 @@ BibleSide currently implements the OET's "Reader's" version in the main area and
 
 ## TODO/Goals
 
-- [] Add all the OET Bible books currently available  
-- [] Light and dark modes
-- [] Theme and text size customization
-- [] Downplay the chapters and verses for the OET
+- [ ] Add all the OET Bible books currently available  
+- [ ] Light and dark modes
+- [ ] Theme and text size customization
+- [ ] Downplay the chapters and verses for the OET
 
 
 ## Known issues
@@ -25,6 +25,11 @@ BibleSide currently implements the OET's "Reader's" version in the main area and
 - Bug: Scrolling between the two versions is synced too well. Since the Literal version is lengthier, verses can be in different locations or even off screen.
 - Missing feature: Currently only loads the book of Acts.
 - Missing feature: Most buttons don't do anything.
+
+
+## Feedback/Contributing
+
+Feedback is welcome. To help out please open an issue.
 
 
 ## Development
