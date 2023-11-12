@@ -1,5 +1,5 @@
 name: bible_side
-description: A new Flutter project.
+description: Bible app
 publish_to: 'none'
 version: 0.1.0
 
@@ -24,5 +24,17 @@ flutter:
 
 
   assets:
-    - assets/OET/RV/RV_ACTS.json
-    - assets/OET/LV/LV_ACTS.json
+    - assets/OET/RV/ACT.json
+    - assets/OET/LV/ACT.json
+
+    - assets/OET/RV/JHN.json
+    - assets/OET/LV/JHN.json
+
+    - assets/OET/RV/MAT.json
+    - assets/OET/LV/MAT.json
+
+    - assets/OET/RV/MRK.json
+    - assets/OET/LV/MRK.json
+
+    - assets/OET/RV/LUK.json
+    - assets/OET/LV/LUK.json
