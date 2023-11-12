@@ -42,6 +42,12 @@ Build and run with
 flutter run
 ```
 
+
+## OET file conversion
+
+Currently, the ESFM files from [here (OET Reader's version)](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET/tree/main/translatedTexts/ReadersVersion) and [here (OET Literal version)](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET/tree/main/intermediateTexts/auto_edited_VLT_ESFM) are run through [https://usfm-grammar-revant.netlify.app/](https://usfm-grammar-revant.netlify.app/) in ``relaxed`` mode for conversion to JSON.
+
+
 ## License
 
 BibleSide is licensed under the GPL-3.0 license. See LICENSE for more information.
