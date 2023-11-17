@@ -1,0 +1,1883 @@
+{
+  "book": {
+    "bookCode": "PHP",
+    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.01",
+    "meta": [
+      {
+        "usfm": "3.0"
+      },
+      {
+        "ide": "UTF-8"
+      },
+      {
+        "rem": "ESFM v0.6 PHP"
+      },
+      {
+        "rem": "WORDTABLE OET-LV_NT_word_table.tsv"
+      },
+      {
+        "h": "Philippians"
+      },
+      {
+        "toc1": "Philippians"
+      },
+      {
+        "toc2": "Philippians"
+      },
+      {
+        "toc3": "Php"
+      },
+      {
+        "mt2": "Paul's letter to the believers in"
+      },
+      {
+        "mt1": "Philippi"
+      },
+      {
+        "is1": "Introduction"
+      },
+      {
+        "ip": "Paul wrote this letter to the believers in Philippi, a province of Macedonia (Acts 16:6-40). That group of believers was the first group planted by Paul in the Roman empire in Europe, and this letter was written while he was imprisoned in Rome for his preaching of the good message about Yeshua Messiah."
+      },
+      {
+        "ip": "The main reason for Paul's writing this letter was because he wanted to thank the believers there in Philippi for the gift that they had sent to help him in prison. His second reason for writing was so that he could encourage them and strengthen their faith despite difficulties that they would face, as well as his own difficulties. Paul advised them that they need to humble themselves like Yeshua had humbled himself when he was here on the earth. He reminds them again about the goodness and mercy of God, and how their faith in Messiah saves them. It's no longer necessary for them to be constrained by the Law of Moses and human beliefs. Then he wrote about the peace and happiness that God gives to those united in Messiah."
+      },
+      {
+        "ip": "Note that Paul (or his scribe) regularly refer to the ‘messiah’ (Greek ‘Χριστὸς’) in this letter without a preceding article, i.e., no preceding ‘the’, thus he uses the word (which originally meant ‘chosen or anointed one’) as another name for Yeshua (rather than as a title—for example, compare ‘Governor’ with ‘the governor’), hence we capitalise it here as ‘Messiah’."
+      },
+      {
+        "iot": "Main components of Paul's letter"
+      },
+      {
+        "io1": [
+          "Introduction",
+          {
+            "ior": "1:1-11",
+            "closing": "\\ior*"
+          }
+        ]
+      },
+      {
+        "io1": [
+          "Paul's happiness that Messiah is being proclaimed",
+          {
+            "ior": "1:12-30",
+            "closing": "\\ior*"
+          }
+        ]
+      },
+      {
+        "io1": [
+          "Living in Messiah",
+          {
+            "ior": "2:1-18",
+            "closing": "\\ior*"
+          }
+        ]
+      },
+      {
+        "io1": [
+          "Timothy and Epaphroditus",
+          {
+            "ior": "2:19-30",
+            "closing": "\\ior*"
+          }
+        ]
+      },
+      {
+        "io1": [
+          "The warning about enemies and difficulties",
+          {
+            "ior": "3:1–4:9",
+            "closing": "\\ior*"
+          }
+        ]
+      },
+      {
+        "io1": [
+          "Paul and his friends from Philippi",
+          {
+            "ior": "4:10-20",
+            "closing": "\\ior*"
+          }
+        ]
+      },
+      {
+        "io1": [
+          "Concluding remarks",
+          {
+            "ior": "4:21-23",
+            "closing": "\\ior*"
+          }
+        ]
+      },
+      {
+        "rem": [
+          "This is still a very early look into the unfinished text of the",
+          {
+            "em": "Open English Translation",
+            "closing": "\\em*"
+          },
+          "of the Bible. Please double-check the text in advance before using in public."
+        ]
+      },
+      {
+        "ie": ""
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": "1",
+      "contents": [
+        {
+          "rem": "/s1 Greetings from Paul; Salutation"
+        },
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "contents": [
+            "This letter is from Paul¦131652 and Timothy¦131654, slaves¦131655 of Messiah Yeshua. To all the believers in Messiah Yeshua in Philippi,",
+            {
+              "x": [
+                "+",
+                {
+                  "xo": "1:1:"
+                },
+                {
+                  "xt": "Acts 16:12."
+                }
+              ],
+              "closing": "\\x*"
+            },
+            "along with your overseers¦131670 and servants¦131672.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "This letter is from Paul¦131652 and Timothy¦131654, slaves¦131655 of Messiah Yeshua. To all the believers in Messiah Yeshua in Philippi, along with your overseers¦131670 and servants¦131672."
+        },
+        {
+          "verseNumber": "2",
+          "contents": [
+            "May our father¦131679",
+            {
+              "nd": "God¦131678",
+              "closing": "\\nd*"
+            },
+            "and our",
+            {
+              "nd": "master¦131682 Yeshua¦131683 Messiah¦131684",
+              "closing": "\\nd*"
+            },
+            "grant grace¦131673 to you all and fill you with peace¦131676.",
+            {
+              "s1": "Paul's thanking and praying"
+            },
+            {
+              "rem": "/s1 Paul's Prayer for His Readers; Paul's Thanksgiving and Prayer; Paul's Prayer for the Philippians"
+            },
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "May our father¦131679 God¦131678 and our master¦131682 Yeshua¦131683 Messiah¦131684 grant grace¦131673 to you all and fill you with peace¦131676."
+        },
+        {
+          "verseNumber": "3",
+          "contents": [
+            "I thank¦131685 my¦131688",
+            {
+              "nd": "God¦131687",
+              "closing": "\\nd*"
+            },
+            "every¦131690 time that",
+            {
+              "add": "I hear",
+              "closing": "\\add*"
+            },
+            "you¦131693 mentioned¦131692"
+          ],
+          "verseText": "I thank¦131685 my¦131688 God¦131687 every¦131690 time that I hear you¦131693 mentioned¦131692"
+        },
+        {
+          "verseNumber": "4",
+          "contents": [
+            "and every¦131696 time that I pray for you¦131702 all, I'm always¦131694 glad when I make my¦131699 requests"
+          ],
+          "verseText": "and every¦131696 time that I pray for you¦131702 all, I'm always¦131694 glad when I make my¦131699 requests"
+        },
+        {
+          "verseNumber": "5",
+          "contents": [
+            "because¦131708 the good¦131714 message¦131714",
+            {
+              "add": "united",
+              "closing": "\\add*"
+            },
+            "us in fellowship¦131710 from the first¦131717 day¦131718 until¦131719 now."
+          ],
+          "verseText": "because¦131708 the good¦131714 message¦131714 united us in fellowship¦131710 from the first¦131717 day¦131718 until¦131719 now."
+        },
+        {
+          "verseNumber": "6",
+          "contents": [
+            "I'm sure of this: that the one who started a good¦131731 work in you¦131729 all will ensure that it's continued through to the day¦131735 of",
+            {
+              "add": "the return of",
+              "closing": "\\add*"
+            },
+            {
+              "nd": "Messiah¦131736 Yeshua¦131737",
+              "closing": "\\nd*"
+            },
+            "."
+          ],
+          "verseText": "I'm sure of this: that the one who started a good¦131731 work in you¦131729 all will ensure that it's continued through to the day¦131735 of the return of Messiah¦131736 Yeshua¦131737."
+        },
+        {
+          "verseNumber": "7",
+          "contents": [
+            "It's right¦131741 for me to be thinking¦131745 this about¦131746 you because¦131749 I have you all in my¦131761 heart¦131755.",
+            {
+              "add": "You received",
+              "closing": "\\add*"
+            },
+            "grace¦131775 along with me so whether I'm in chains or defending¦131765 and confirming¦131767 the good¦131769 message¦131769, we are fellow¦131772 recipients."
+          ],
+          "verseText": "It's right¦131741 for me to be thinking¦131745 this about¦131746 you because¦131749 I have you all in my¦131761 heart¦131755. You received grace¦131775 along with me so whether I'm in chains or defending¦131765 and confirming¦131767 the good¦131769 message¦131769, we are fellow¦131772 recipients."
+        },
+        {
+          "verseNumber": "8",
+          "contents": [
+            {
+              "nd": "God¦131786",
+              "closing": "\\nd*"
+            },
+            "is my¦131782 witness¦131780 that I long for you¦131791 with all the compassions¦131793 of",
+            {
+              "nd": "Messiah¦131794 Yeshua¦131795",
+              "closing": "\\nd*"
+            },
+            ".",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "God¦131786 is my¦131782 witness¦131780 that I long for you¦131791 with all the compassions¦131793 of Messiah¦131794 Yeshua¦131795."
+        },
+        {
+          "verseNumber": "9",
+          "contents": [
+            "And this is what I'm praying¦131799: that your¦131803 love¦131802 would grow more and more with knowledge¦131811 and all insight¦131814"
+          ],
+          "verseText": "And this is what I'm praying¦131799: that your¦131803 love¦131802 would grow more and more with knowledge¦131811 and all insight¦131814"
+        },
+        {
+          "verseNumber": "10",
+          "contents": [
+            "so that you all will approve¦131817 what's of value¦131820 and so remain sincere¦131823 and blameless until",
+            {
+              "nd": "Messiah¦131829",
+              "closing": "\\nd*"
+            },
+            {
+              "add": "returns",
+              "closing": "\\add*"
+            },
+            ","
+          ],
+          "verseText": "so that you all will approve¦131817 what's of value¦131820 and so remain sincere¦131823 and blameless until Messiah¦131829 returns,"
+        },
+        {
+          "verseNumber": "11",
+          "contents": [
+            "having¦131830 been filled¦131830 with the fruit¦131831 of righteousness¦131833 through¦131836",
+            {
+              "nd": "Yeshua¦131838 Messiah¦131839",
+              "closing": "\\nd*"
+            },
+            ", honouring and¦131843 praising¦131844",
+            {
+              "nd": "God¦131846",
+              "closing": "\\nd*"
+            },
+            ".",
+            {
+              "s1": "Paul's happiness that Messiah is proclaimed"
+            },
+            {
+              "rem": "/s1 Paul's Chains Advance the Gospel; Paul in prison; Paul's Present Circumstances; To Live Is Christ; Paul's Joy That Christ Is Preached"
+            },
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "having¦131830 been filled¦131830 with the fruit¦131831 of righteousness¦131833 through¦131836 Yeshua¦131838 Messiah¦131839, honouring and¦131843 praising¦131844 God¦131846."
+        },
+        {
+          "verseNumber": "12",
+          "contents": [
+            "Brothers¦131851 and sisters, I want you¦131849 to know that the good¦131860 message¦131860 has progressed¦131858 more because of what's happened to me,"
+          ],
+          "verseText": "Brothers¦131851 and sisters, I want you¦131849 to know that the good¦131860 message¦131860 has progressed¦131858 more because of what's happened to me,"
+        },
+        {
+          "verseNumber": "13",
+          "contents": [
+            {
+              "x": [
+                "+",
+                {
+                  "xo": "1:13:"
+                },
+                {
+                  "xt": "Acts 28:30."
+                }
+              ],
+              "closing": "\\x*"
+            },
+            "in that my¦131865 being in chains because of",
+            {
+              "nd": "Messiah¦131870",
+              "closing": "\\nd*"
+            },
+            ", has become¦131871",
+            {
+              "add": "known",
+              "closing": "\\add*"
+            },
+            "in the governor's¦131876 residence¦131876 and¦131877 to all the rest."
+          ],
+          "verseText": "in that my¦131865 being in chains because of Messiah¦131870, has become¦131871 known in the governor's¦131876 residence¦131876 and¦131877 to all the rest."
+        },
+        {
+          "verseNumber": "14",
+          "contents": [
+            "Now, because of my¦131891 imprisonment, more of the brothers¦131885 and¦131881 sisters¦131885 in the",
+            {
+              "nd": "master¦131887",
+              "closing": "\\nd*"
+            },
+            "have become much more daring¦131893 to fearlessly¦131894 tell",
+            {
+              "add": "others",
+              "closing": "\\add*"
+            },
+            "God's message¦131896.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "Now, because of my¦131891 imprisonment, more of the brothers¦131885 and¦131881 sisters¦131885 in the master¦131887 have become much more daring¦131893 to fearlessly¦131894 tell others God's message¦131896."
+        },
+        {
+          "verseNumber": "15",
+          "contents": [
+            "Some do proclaim¦131916",
+            {
+              "nd": "Messiah¦131914",
+              "closing": "\\nd*"
+            },
+            "because of envy and strife¦131907, but others¦131909 do it from their good will."
+          ],
+          "verseText": "Some do proclaim¦131916 Messiah¦131914 because of envy and strife¦131907, but others¦131909 do it from their good will."
+        },
+        {
+          "verseNumber": "16",
+          "contents": [
+            "The ones proclaiming¦131925",
+            {
+              "nd": "Messiah¦131924",
+              "closing": "\\nd*"
+            },
+            "out of selfish¦131922 ambition¦131922 don't¦131926 do it sincerely, but expect that it will add to my¦131934 troubles while I'm here in chains."
+          ],
+          "verseText": "The ones proclaiming¦131925 Messiah¦131924 out of selfish¦131922 ambition¦131922 don't¦131926 do it sincerely, but expect that it will add to my¦131934 troubles while I'm here in chains."
+        },
+        {
+          "verseNumber": "17",
+          "contents": [
+            "The ones who do it out of love¦131939, know that I was appointed¦131946 to defend¦131943 the good¦131945 message¦131945.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "The ones who do it out of love¦131939, know that I was appointed¦131946 to defend¦131943 the good¦131945 message¦131945."
+        },
+        {
+          "verseNumber": "18",
+          "contents": [
+            "What then? I will be happy, excited even, as long as",
+            {
+              "nd": "Messiah¦131958",
+              "closing": "\\nd*"
+            },
+            "is being proclaimed¦131959 in any manner¦131952, whether¦131954 their reason for doing it is suspect or in truth¦131957."
+          ],
+          "verseText": "What then? I will be happy, excited even, as long as Messiah¦131958 is being proclaimed¦131959 in any manner¦131952, whether¦131954 their reason for doing it is suspect or in truth¦131957."
+        },
+        {
+          "verseNumber": "19",
+          "contents": [
+            "I know that this will turn out to be my SALVATION/DELIVERANCE due to your¦131979 prayers and¦131981 from the resources of the",
+            {
+              "nd": "spirit¦131984",
+              "closing": "\\nd*"
+            },
+            "of",
+            {
+              "nd": "Yeshua¦131986 Messiah¦131987",
+              "closing": "\\nd*"
+            },
+            ",",
+            {
+              "rem": "/s1 Paul's Life for Christ"
+            }
+          ],
+          "verseText": "I know that this will turn out to be my SALVATION/DELIVERANCE due to your¦131979 prayers and¦131981 from the resources of the spirit¦131984 of Yeshua¦131986 Messiah¦131987,"
+        },
+        {
+          "verseNumber": "20",
+          "contents": [
+            "as my eager¦131990 expectation¦131990 and hope is that I won't be ashamed¦131997 of anything, but that",
+            {
+              "nd": "Messiah¦132007",
+              "closing": "\\nd*"
+            },
+            "will be magnified¦132006 by my life¦132014, always¦132003 in boldness¦132001 and even now whether¦132012 I go on to live or to die,"
+          ],
+          "verseText": "as my eager¦131990 expectation¦131990 and hope is that I won't be ashamed¦131997 of anything, but that Messiah¦132007 will be magnified¦132006 by my life¦132014, always¦132003 in boldness¦132001 and even now whether¦132012 I go on to live or to die,"
+        },
+        {
+          "verseNumber": "21",
+          "contents": [
+            "because to me, to live is to",
+            {
+              "add": "serve",
+              "closing": "\\add*"
+            },
+            {
+              "nd": "Messiah¦132022",
+              "closing": "\\nd*"
+            },
+            ", and¦132023 to die¦132025 is to",
+            {
+              "add": "also",
+              "closing": "\\add*"
+            },
+            "gain."
+          ],
+          "verseText": "because to me, to live is to serve Messiah¦132022, and¦132023 to die¦132025 is to also gain."
+        },
+        {
+          "verseNumber": "22",
+          "contents": [
+            "If I continue to live in this body, I can continue in productive work, but I don't¦132042 really know which¦132030 is my preference."
+          ],
+          "verseText": "If I continue to live in this body, I can continue in productive work, but I don't¦132042 really know which¦132030 is my preference."
+        },
+        {
+          "verseNumber": "23",
+          "contents": [
+            "I",
+            {
+              "add": "feel",
+              "closing": "\\add*"
+            },
+            "squeezed between the two¦132049: the desire¦132051 to depart¦132057",
+            {
+              "add": "from here",
+              "closing": "\\add*"
+            },
+            "and be with",
+            {
+              "nd": "Messiah¦132060",
+              "closing": "\\nd*"
+            },
+            "which would be much better¦132065,"
+          ],
+          "verseText": "I feel squeezed between the two¦132049: the desire¦132051 to depart¦132057 from here and be with Messiah¦132060 which would be much better¦132065,"
+        },
+        {
+          "verseNumber": "24",
+          "contents": [
+            "or to remain¦132068 on in this body, which¦132066",
+            {
+              "add": "is maybe",
+              "closing": "\\add*"
+            },
+            "more necessary¦132073 because¦132074 of all of you¦132075."
+          ],
+          "verseText": "or to remain¦132068 on in this body, which¦132066 is maybe more necessary¦132073 because¦132074 of all of you¦132075."
+        },
+        {
+          "verseNumber": "25",
+          "contents": [
+            {
+              "add": "Yes,",
+              "closing": "\\add*"
+            },
+            "I'm convinced: I know that I should remain¦132081",
+            {
+              "add": "in this world",
+              "closing": "\\add*"
+            },
+            "and continue¦132083 with you all",
+            {
+              "add": "to assist",
+              "closing": "\\add*"
+            },
+            "in the progress¦132090 of your¦132089 faith¦132094 and the happiness that comes from that,"
+          ],
+          "verseText": "Yes, I'm convinced: I know that I should remain¦132081 in this world and continue¦132083 with you all to assist in the progress¦132090 of your¦132089 faith¦132094 and the happiness that comes from that,"
+        },
+        {
+          "verseNumber": "26",
+          "contents": [
+            "so that when I come to visit you again¦132110,",
+            {
+              "add": "I'll hear",
+              "closing": "\\add*"
+            },
+            "your¦132099 pride in how you are all growing in",
+            {
+              "nd": "Messiah¦132102 Yeshua¦132103",
+              "closing": "\\nd*"
+            },
+            ".",
+            {
+              "rem": "/s1 Unity and witness; Live as Citizens of Heaven"
+            },
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "so that when I come to visit you again¦132110, I'll hear your¦132099 pride in how you are all growing in Messiah¦132102 Yeshua¦132103."
+        },
+        {
+          "verseNumber": "27",
+          "contents": [
+            "Live as citizen¦132119 who're worthy¦132114 of the good message of",
+            {
+              "nd": "Messiah¦132118",
+              "closing": "\\nd*"
+            },
+            ", so that whether¦132121 I'm able to come and see you all, or even if I'm absent¦132127, I'll be able to hear¦132129 everything about you all: that you're standing¦132134 firm in one spirit¦132137, with one heart¦132139 contending¦132140 together¦132140 for the faith¦132142 of the good message"
+          ],
+          "verseText": "Live as citizen¦132119 who're worthy¦132114 of the good message of Messiah¦132118, so that whether¦132121 I'm able to come and see you all, or even if I'm absent¦132127, I'll be able to hear¦132129 everything about you all: that you're standing¦132134 firm in one spirit¦132137, with one heart¦132139 contending¦132140 together¦132140 for the faith¦132142 of the good message"
+        },
+        {
+          "verseNumber": "28",
+          "contents": [
+            "and not being¦132147 frightened¦132147 about anything because of those in opposition¦132152. That will be a sign¦132158 to them that they",
+            {
+              "add": "will face",
+              "closing": "\\add*"
+            },
+            "destruction¦132159 but you¦132162 all will",
+            {
+              "add": "receive",
+              "closing": "\\add*"
+            },
+            "salvation¦132164 from",
+            {
+              "nd": "God¦132168",
+              "closing": "\\nd*"
+            },
+            ","
+          ],
+          "verseText": "and not being¦132147 frightened¦132147 about anything because of those in opposition¦132152. That will be a sign¦132158 to them that they will face destruction¦132159 but you¦132162 all will receive salvation¦132164 from God¦132168,"
+        },
+        {
+          "verseNumber": "29",
+          "contents": [
+            "because it's been granted¦132172 to you on Messiah's behalf for you to believe¦132181 in him, yet also to suffer¦132187 because of him—"
+          ],
+          "verseText": "because it's been granted¦132172 to you on Messiah's behalf for you to believe¦132181 in him, yet also to suffer¦132187 because of him—"
+        },
+        {
+          "verseNumber": "30",
+          "contents": [
+            {
+              "x": [
+                "+",
+                {
+                  "xo": "1:30:"
+                },
+                {
+                  "xt": "Acts 16:19-40."
+                }
+              ],
+              "closing": "\\x*"
+            },
+            "the same¦132189 struggle¦132190 that you¦132194 all saw¦132194 in me, and¦132198 now hear¦132200 it from me."
+          ],
+          "verseText": "the same¦132189 struggle¦132190 that you¦132194 all saw¦132194 in me, and¦132198 now hear¦132200 it from me."
+        }
+      ]
+    },
+    {
+      "chapterNumber": "2",
+      "contents": [
+        {
+          "s1": "Messiah's humility"
+        },
+        {
+          "rem": "/s1 Christ's Humility and Greatness; Unity through Humility; Imitating Christ's Humility"
+        },
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "contents": [
+            "So if you all",
+            {
+              "add": "feel",
+              "closing": "\\add*"
+            },
+            "that",
+            {
+              "nd": "Messiah¦132208",
+              "closing": "\\nd*"
+            },
+            "is encouraging you on and if",
+            {
+              "add": "his",
+              "closing": "\\add*"
+            },
+            "love¦132212 brings comfort and the",
+            {
+              "nd": "spirit¦132216",
+              "closing": "\\nd*"
+            },
+            "brings fellowship¦132215, if anyone¦132218 feels compassion,"
+          ],
+          "verseText": "So if you all feel that Messiah¦132208 is encouraging you on and if his love¦132212 brings comfort and the spirit¦132216 brings fellowship¦132215, if anyone¦132218 feels compassion,"
+        },
+        {
+          "verseNumber": "2",
+          "contents": [
+            "then complete my¦132224 happiness by being in agreement in your thinking and being united in the same love¦132233.",
+            {
+              "f": [
+                "+",
+                {
+                  "fr": "2:2"
+                },
+                {
+                  "ft": "Here Paul repeats about being united in thought, but the repetition seems to only clutter his argument."
+                }
+              ],
+              "closing": "\\f*"
+            }
+          ],
+          "verseText": "then complete my¦132224 happiness by being in agreement in your thinking and being united in the same love¦132233."
+        },
+        {
+          "verseNumber": "3",
+          "contents": [
+            "Don't do anything from selfish¦132242 ambition¦132242 or in vain conceit¦132246, but¦132247 show humility¦132249 and consider¦132251 others to be more important than yourselves,"
+          ],
+          "verseText": "Don't do anything from selfish¦132242 ambition¦132242 or in vain conceit¦132246, but¦132247 show humility¦132249 and consider¦132251 others to be more important than yourselves,"
+        },
+        {
+          "verseNumber": "4",
+          "contents": [
+            "not just looking¦132263 out for your own",
+            {
+              "add": "advantage",
+              "closing": "\\add*"
+            },
+            ", but¦132264 for what others¦132267",
+            {
+              "add": "need",
+              "closing": "\\add*"
+            },
+            ".",
+            {
+              "rem": "/s1 Christ's Humility and Exaltation"
+            }
+          ],
+          "verseText": "not just looking¦132263 out for your own advantage, but¦132264 for what others¦132267 need."
+        },
+        {
+          "verseNumber": "5",
+          "contents": [
+            "This is how you¦132276 all who are also in",
+            {
+              "nd": "Messiah¦132280 Yeshua¦132281",
+              "closing": "\\nd*"
+            },
+            "should be thinking¦132273:"
+          ],
+          "verseText": "This is how you¦132276 all who are also in Messiah¦132280 Yeshua¦132281 should be thinking¦132273:"
+        },
+        {
+          "verseNumber": "6",
+          "contents": [
+            "Yeshua, though he was in the form of God, didn't take advantage¦132288 of being¦132286 considered¦132289 equal¦132292 with God,"
+          ],
+          "verseText": "Yeshua, though he was in the form of God, didn't take advantage¦132288 of being¦132286 considered¦132289 equal¦132292 with God,"
+        },
+        {
+          "verseNumber": "7",
+          "contents": [
+            "but¦132294 emptied¦132296 himself¦132295 and becoming¦132304 like a human, took on the form of a slave¦132298. Then in that human form,"
+          ],
+          "verseText": "but¦132294 emptied¦132296 himself¦132295 and becoming¦132304 like a human, took on the form of a slave¦132298. Then in that human form,"
+        },
+        {
+          "verseNumber": "8",
+          "contents": [
+            "he humbled¦132311 himself¦132312 and became obedient¦132314 all the way to death, even death on the stake¦132320."
+          ],
+          "verseText": "he humbled¦132311 himself¦132312 and became obedient¦132314 all the way to death, even death on the stake¦132320."
+        },
+        {
+          "verseNumber": "9",
+          "contents": [
+            "That's why",
+            {
+              "nd": "God¦132324",
+              "closing": "\\nd*"
+            },
+            "highly¦132326 praised him and gave him authority over every¦132334 other authority,"
+          ],
+          "verseText": "That's why God¦132324 highly¦132326 praised him and gave him authority over every¦132334 other authority,"
+        },
+        {
+          "verseNumber": "10",
+          "contents": [
+            {
+              "x": [
+                "+",
+                {
+                  "xo": "2:10-11:"
+                },
+                {
+                  "xt": "Isa 45:23 (LXX)."
+                }
+              ],
+              "closing": "\\x*"
+            },
+            "so that every¦132342",
+            {
+              "add": "being",
+              "closing": "\\add*"
+            },
+            "in heaven¦132345 and earthly¦132347 and underwater",
+            {
+              "add": "realms¦132349",
+              "closing": "\\add*"
+            },
+            "will bow when",
+            {
+              "nd": "Yeshua¦132340",
+              "closing": "\\nd*"
+            },
+            "is announced"
+          ],
+          "verseText": "so that every¦132342 being in heaven¦132345 and earthly¦132347 and underwater realms¦132349 will bow when Yeshua¦132340 is announced"
+        },
+        {
+          "verseNumber": "11",
+          "contents": [
+            "and¦132350 will honour",
+            {
+              "nd": "God¦132362",
+              "closing": "\\nd*"
+            },
+            "the father¦132363 by testifying that the",
+            {
+              "nd": "master¦132356",
+              "closing": "\\nd*"
+            },
+            "is",
+            {
+              "nd": "Yeshua¦132357 Messiah¦132358",
+              "closing": "\\nd*"
+            },
+            ".",
+            {
+              "s1": "Shining like lights in the world"
+            },
+            {
+              "rem": "/s1 Shining as Stars; Shining as Lights in the World; Shine Brightly for Christ"
+            },
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "and¦132350 will honour God¦132362 the father¦132363 by testifying that the master¦132356 is Yeshua¦132357 Messiah¦132358."
+        },
+        {
+          "verseNumber": "12",
+          "contents": [
+            "So then, my dear friends, work towards your salvation¦132392 with fear¦132387 and¦132388 trembling¦132389—you¦132370 always¦132369 did this in my presence¦132375, so now do it much more in my absence¦132384—"
+          ],
+          "verseText": "So then, my dear friends, work towards your salvation¦132392 with fear¦132387 and¦132388 trembling¦132389—you¦132370 always¦132369 did this in my presence¦132375, so now do it much more in my absence¦132384—"
+        },
+        {
+          "verseNumber": "13",
+          "contents": [
+            "because¦132410",
+            {
+              "nd": "God¦132396",
+              "closing": "\\nd*"
+            },
+            "is the one who works in you¦132403 all to both desire and¦132407 to be living out his good¦132412 pleasure¦132412.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "because¦132410 God¦132396 is the one who works in you¦132403 all to both desire and¦132407 to be living out his good¦132412 pleasure¦132412."
+        },
+        {
+          "verseNumber": "14",
+          "contents": [
+            "Do everything without¦132416 grumbling¦132417 and¦132418 arguing"
+          ],
+          "verseText": "Do everything without¦132416 grumbling¦132417 and¦132418 arguing"
+        },
+        {
+          "verseNumber": "15",
+          "contents": [
+            {
+              "x": [
+                "+",
+                {
+                  "xo": "2:15:"
+                },
+                {
+                  "xt": "Deu 32:5."
+                }
+              ],
+              "closing": "\\x*"
+            },
+            "so that you'll all be blameless and innocent¦132425—blameless children¦132426 of",
+            {
+              "nd": "God¦132427",
+              "closing": "\\nd*"
+            },
+            "among¦132437 a generation¦132433 that's crooked¦132434 and perverted¦132436. Then you'll shine like lights¦132441 in the world¦132443,"
+          ],
+          "verseText": "so that you'll all be blameless and innocent¦132425—blameless children¦132426 of God¦132427 among¦132437 a generation¦132433 that's crooked¦132434 and perverted¦132436. Then you'll shine like lights¦132441 in the world¦132443,"
+        },
+        {
+          "verseNumber": "16",
+          "contents": [
+            "as you live out the message¦132444 of life¦132445, and then I'll be able to boast¦132449 when",
+            {
+              "nd": "Messiah¦132453",
+              "closing": "\\nd*"
+            },
+            {
+              "add": "returns",
+              "closing": "\\add*"
+            },
+            "because¦132454 I didn't waste my time or work for nothing,"
+          ],
+          "verseText": "as you live out the message¦132444 of life¦132445, and then I'll be able to boast¦132449 when Messiah¦132453 returns because¦132454 I didn't waste my time or work for nothing,"
+        },
+        {
+          "verseNumber": "17",
+          "contents": [
+            "but even if I'm",
+            {
+              "add": "to lose my life by",
+              "closing": "\\add*"
+            },
+            "being¦132467 poured¦132467 out",
+            {
+              "add": "like wine",
+              "closing": "\\add*"
+            },
+            "on your sacrifice¦132470 and on the ministry¦132472 of your faith¦132474, I'll be happy and celebrate along with all of you."
+          ],
+          "verseText": "but even if I'm to lose my life by being¦132467 poured¦132467 out like wine on your sacrifice¦132470 and on the ministry¦132472 of your faith¦132474, I'll be happy and celebrate along with all of you."
+        },
+        {
+          "verseNumber": "18",
+          "contents": [
+            "You all should",
+            {
+              "add": "also",
+              "closing": "\\add*"
+            },
+            "be happy and¦132487 celebrating along with me.",
+            {
+              "s1": "Timothy and Epaphroditus"
+            },
+            {
+              "rem": "/s1 Paul Commends Timothy; Paul's plans; Timothy and Epaphroditus"
+            },
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "You all should also be happy and¦132487 celebrating along with me."
+        },
+        {
+          "verseNumber": "19",
+          "contents": [
+            "I'm hoping¦132490 in the",
+            {
+              "nd": "master¦132493 Yeshua¦132495",
+              "closing": "\\nd*"
+            },
+            "to be able to send¦132498 Timothy¦132496 to you all soon, so that I can be encouraged¦132503 when I learn what you're all up to,"
+          ],
+          "verseText": "I'm hoping¦132490 in the master¦132493 Yeshua¦132495 to be able to send¦132498 Timothy¦132496 to you all soon, so that I can be encouraged¦132503 when I learn what you're all up to,"
+        },
+        {
+          "verseNumber": "20",
+          "contents": [
+            "because¦132517 I have no one",
+            {
+              "add": "else",
+              "closing": "\\add*"
+            },
+            "so similar to me in spirit who will be genuinely¦132513 caring¦132517 for how you're all doing."
+          ],
+          "verseText": "because¦132517 I have no one else so similar to me in spirit who will be genuinely¦132513 caring¦132517 for how you're all doing."
+        },
+        {
+          "verseNumber": "21",
+          "contents": [
+            "(There's plenty who search out what they themselves¦132522 need instead of the things of",
+            {
+              "nd": "Yeshua¦132528 Messiah¦132529",
+              "closing": "\\nd*"
+            },
+            "."
+          ],
+          "verseText": "(There's plenty who search out what they themselves¦132522 need instead of the things of Yeshua¦132528 Messiah¦132529."
+        },
+        {
+          "verseNumber": "22",
+          "contents": [
+            "But you¦132535 all know that",
+            {
+              "add": "Timothy",
+              "closing": "\\add*"
+            },
+            "has proven¦132532 himself and has served¦132542 with me in the good¦132549 message¦132549 like a son serving his¦132533 father¦132538.)"
+          ],
+          "verseText": "But you¦132535 all know that Timothy has proven¦132532 himself and has served¦132542 with me in the good¦132549 message¦132549 like a son serving his¦132533 father¦132538.)"
+        },
+        {
+          "verseNumber": "23",
+          "contents": [
+            "So I'll send¦132556 him as soon as I can sort out what's happening to me,"
+          ],
+          "verseText": "So I'll send¦132556 him as soon as I can sort out what's happening to me,"
+        },
+        {
+          "verseNumber": "24",
+          "contents": [
+            "but I'm confident in the",
+            {
+              "nd": "master¦132567",
+              "closing": "\\nd*"
+            },
+            "that I myself¦132570 will also be coming¦132573 soon.",
+            {
+              "rem": "/s1 Paul Commends Epaphroditus"
+            },
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "but I'm confident in the master¦132567 that I myself¦132570 will also be coming¦132573 soon."
+        },
+        {
+          "verseNumber": "25",
+          "contents": [
+            "Meanwhile I thought it was necessary¦132576 to send¦132596 Epaphroditus to you all. He's my brother¦132581 and fellow-worker and fellow-soldier, and your¦132587 ambassador¦132589 and minister¦132592 to my needs."
+          ],
+          "verseText": "Meanwhile I thought it was necessary¦132576 to send¦132596 Epaphroditus to you all. He's my brother¦132581 and fellow-worker and fellow-soldier, and your¦132587 ambassador¦132589 and minister¦132592 to my needs."
+        },
+        {
+          "verseNumber": "26",
+          "contents": [
+            "He's been longing¦132600 to see you all",
+            {
+              "add": "again",
+              "closing": "\\add*"
+            },
+            "and was upset that you heard¦132611 that he'd been sick"
+          ],
+          "verseText": "He's been longing¦132600 to see you all again and was upset that you heard¦132611 that he'd been sick"
+        },
+        {
+          "verseNumber": "27",
+          "contents": [
+            "because he nearly¦132617 died from it, but",
+            {
+              "nd": "God¦132622",
+              "closing": "\\nd*"
+            },
+            "showed¦132624 mercy¦132624 to him, and not only to him but also to me that I wouldn't have yet another hardship to go through."
+          ],
+          "verseText": "because he nearly¦132617 died from it, but God¦132622 showed¦132624 mercy¦132624 to him, and not only to him but also to me that I wouldn't have yet another hardship to go through."
+        },
+        {
+          "verseNumber": "28",
+          "contents": [
+            "So I sent¦132642 him willingly so that when you all see him again¦132647, you'll all be very happy and I'll be less anxious¦132650",
+            {
+              "add": "here",
+              "closing": "\\add*"
+            },
+            "."
+          ],
+          "verseText": "So I sent¦132642 him willingly so that when you all see him again¦132647, you'll all be very happy and I'll be less anxious¦132650 here."
+        },
+        {
+          "verseNumber": "29",
+          "contents": [
+            "So accept¦132652 him in the",
+            {
+              "nd": "master¦132657",
+              "closing": "\\nd*"
+            },
+            "with gratefulness and treat him with honour¦132664,"
+          ],
+          "verseText": "So accept¦132652 him in the master¦132657 with gratefulness and treat him with honour¦132664,"
+        },
+        {
+          "verseNumber": "30",
+          "contents": [
+            "because he nearly died after risking his life¦132679 doing the work of",
+            {
+              "nd": "Messiah¦132671",
+              "closing": "\\nd*"
+            },
+            ", but he was able to minister¦132691 to me in a way that all of you",
+            {
+              "add": "there",
+              "closing": "\\add*"
+            },
+            "couldn't."
+          ],
+          "verseText": "because he nearly died after risking his life¦132679 doing the work of Messiah¦132671, but he was able to minister¦132691 to me in a way that all of you there couldn't."
+        }
+      ]
+    },
+    {
+      "chapterNumber": "3",
+      "contents": [
+        {
+          "s1": "Truly knowing Messiah"
+        },
+        {
+          "rem": "/s1 No Confidence in the Flesh; The Priceless Gain of Knowing Christ; The True Righteousness"
+        },
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "contents": [
+            "So continuing, dear brothers¦132694 and¦132694 sisters¦132694, be happy in the",
+            {
+              "nd": "master¦132698",
+              "closing": "\\nd*"
+            },
+            ". I'm not against writing¦132702 the same¦132701 things¦132701 to you all",
+            {
+              "add": "again",
+              "closing": "\\add*"
+            },
+            "because¦132708 it will keep you safe.",
+            {
+              "rem": "/s1 Breaking with the Past; The Christian's goal"
+            }
+          ],
+          "verseText": "So continuing, dear brothers¦132694 and¦132694 sisters¦132694, be happy in the master¦132698. I'm not against writing¦132702 the same¦132701 things¦132701 to you all again because¦132708 it will keep you safe."
+        },
+        {
+          "verseNumber": "2",
+          "contents": [
+            "Watch out for",
+            {
+              "add": "those",
+              "closing": "\\add*"
+            },
+            "dogs,",
+            {
+              "add": "those",
+              "closing": "\\add*"
+            },
+            "evil¦132716 workers¦132717,",
+            {
+              "add": "those",
+              "closing": "\\add*"
+            },
+            "who say you must be circumcised,",
+            {
+              "f": [
+                "+",
+                {
+                  "fr": "3:2"
+                },
+                {
+                  "ft": "Although it's possible that Paul had three different groups of people in mind here, it's much more likely that he used three different names to describe the one group of people."
+                }
+              ],
+              "closing": "\\f*"
+            }
+          ],
+          "verseText": "Watch out for those dogs, those evil¦132716 workers¦132717, those who say you must be circumcised,"
+        },
+        {
+          "verseNumber": "3",
+          "contents": [
+            "because we¦132721 are the ‘circumcised¦132725’ ones—those of us with God's",
+            {
+              "nd": "spirit¦132728",
+              "closing": "\\nd*"
+            },
+            "and who worship¦132731 and boast¦132733 in",
+            {
+              "nd": "Messiah¦132735 Yeshua¦132736",
+              "closing": "\\nd*"
+            },
+            ". We don't¦132738 trust¦132741 in the physical",
+            {
+              "add": "dimension",
+              "closing": "\\add*"
+            },
+            ","
+          ],
+          "verseText": "because we¦132721 are the ‘circumcised¦132725’ ones—those of us with God's spirit¦132728 and who worship¦132731 and boast¦132733 in Messiah¦132735 Yeshua¦132736. We don't¦132738 trust¦132741 in the physical dimension,"
+        },
+        {
+          "verseNumber": "4",
+          "contents": [
+            "although¦132742 I do have confidence¦132745 even in the physical. If anyone thinks they are more qualified in terms of physical attributes, I am more so:"
+          ],
+          "verseText": "although¦132742 I do have confidence¦132745 even in the physical. If anyone thinks they are more qualified in terms of physical attributes, I am more so:"
+        },
+        {
+          "verseNumber": "5",
+          "contents": [
+            {
+              "x": [
+                "+",
+                {
+                  "xo": "3:5: a"
+                },
+                {
+                  "xt": "Rom 11:1;"
+                },
+                {
+                  "xo": "b"
+                },
+                {
+                  "xt": "Acts 23:6; 26:5."
+                }
+              ],
+              "closing": "\\x*"
+            },
+            "I was cirumcised",
+            {
+              "add": "as a baby",
+              "closing": "\\add*"
+            },
+            "on the eighth¦132761 day¦132761, I'm a descendent¦132763 of Israel from the tribe¦132765 of Benyamin, I'm more ‘Hebrew’ than most Hebrews, obeyed the law as member¦132772 of the Pharisee¦132772 party¦132772,"
+          ],
+          "verseText": "I was cirumcised as a baby on the eighth¦132761 day¦132761, I'm a descendent¦132763 of Israel from the tribe¦132765 of Benyamin, I'm more ‘Hebrew’ than most Hebrews, obeyed the law as member¦132772 of the Pharisee¦132772 party¦132772,"
+        },
+        {
+          "verseNumber": "6",
+          "contents": [
+            {
+              "x": [
+                "+",
+                {
+                  "xo": "3:6:"
+                },
+                {
+                  "xt": "Acts 8:3; 22:4; 26:9-11."
+                }
+              ],
+              "closing": "\\x*"
+            },
+            "zealously persecuted¦132776 assembled¦132778 believers, and without fault in terms of obeying the law."
+          ],
+          "verseText": "zealously persecuted¦132776 assembled¦132778 believers, and without fault in terms of obeying the law."
+        },
+        {
+          "verseNumber": "7",
+          "contents": [
+            "However, all of those things¦132787 which¦132787 were considered advantages, now because¦132794 of",
+            {
+              "nd": "Messiah¦132796",
+              "closing": "\\nd*"
+            },
+            "I consider them disadvantages."
+          ],
+          "verseText": "However, all of those things¦132787 which¦132787 were considered advantages, now because¦132794 of Messiah¦132796 I consider them disadvantages."
+        },
+        {
+          "verseNumber": "8",
+          "contents": [
+            "In fact, I consider everything to be a loss to me because knowing Messiah",
+            {
+              "nd": "Yeshua¦132813",
+              "closing": "\\nd*"
+            },
+            ", my¦132817",
+            {
+              "nd": "master¦132816",
+              "closing": "\\nd*"
+            },
+            ", is superior. It's because of him that I discard everything else, considering it",
+            {
+              "add": "all",
+              "closing": "\\add*"
+            },
+            "to be rubbish¦132826 so that I can gain Messiah"
+          ],
+          "verseText": "In fact, I consider everything to be a loss to me because knowing Messiah Yeshua¦132813, my¦132817 master¦132816, is superior. It's because of him that I discard everything else, considering it all to be rubbish¦132826 so that I can gain Messiah"
+        },
+        {
+          "verseNumber": "9",
+          "contents": [
+            "and will be found¦132832 in him. I don't¦132835 gain my own righteousness by means of the law, but the righteousness that comes through¦132845 faith in",
+            {
+              "nd": "Messiah¦132847",
+              "closing": "\\nd*"
+            },
+            "—God's righteousness which¦132840 depends on faith."
+          ],
+          "verseText": "and will be found¦132832 in him. I don't¦132835 gain my own righteousness by means of the law, but the righteousness that comes through¦132845 faith in Messiah¦132847—God's righteousness which¦132840 depends on faith."
+        },
+        {
+          "verseNumber": "10",
+          "contents": [
+            {
+              "add": "I want",
+              "closing": "\\add*"
+            },
+            "to know¦132856 him and the power¦132860 that brought him back to life, and to join with him in his sufferings¦132869,",
+            {
+              "add": "even",
+              "closing": "\\add*"
+            },
+            "to be conformed¦132871 to his death¦132874,"
+          ],
+          "verseText": "I want to know¦132856 him and the power¦132860 that brought him back to life, and to join with him in his sufferings¦132869, even to be conformed¦132871 to his death¦132874,"
+        },
+        {
+          "verseNumber": "11",
+          "contents": [
+            "if somehow¦132877 I can",
+            {
+              "add": "also be given",
+              "closing": "\\add*"
+            },
+            "life after death.",
+            {
+              "s1": "Striving for the prize"
+            },
+            {
+              "rem": "/s1 Running toward the Goal; Pressing on Toward the Goal"
+            },
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "if somehow¦132877 I can also be given life after death."
+        },
+        {
+          "verseNumber": "12",
+          "contents": [
+            "I haven't already received¦132889",
+            {
+              "add": "that",
+              "closing": "\\add*"
+            },
+            ", or already reached perfection¦132895, but¦132897 I'm running hard to try to grab it¦132889, in the same way that I was grabbed by",
+            {
+              "nd": "Messiah¦132908 Yeshua¦132909",
+              "closing": "\\nd*"
+            },
+            "."
+          ],
+          "verseText": "I haven't already received¦132889 that, or already reached perfection¦132895, but¦132897 I'm running hard to try to grab it¦132889, in the same way that I was grabbed by Messiah¦132908 Yeshua¦132909."
+        },
+        {
+          "verseNumber": "13",
+          "contents": [
+            "Brothers¦132910 and sisters¦132910, I'm not under the illusion that I've already grasped¦132917 it¦132917, but I do do this one thing¦132918: forgetting¦132923 what's behind¦132922 me, and taking long strides towards what's ahead¦132926 of me,"
+          ],
+          "verseText": "Brothers¦132910 and sisters¦132910, I'm not under the illusion that I've already grasped¦132917 it¦132917, but I do do this one thing¦132918: forgetting¦132923 what's behind¦132922 me, and taking long strides towards what's ahead¦132926 of me,"
+        },
+        {
+          "verseNumber": "14",
+          "contents": [
+            "I'm running hard toward the prize¦132935 of being called up to heaven by",
+            {
+              "nd": "God¦132940",
+              "closing": "\\nd*"
+            },
+            "through",
+            {
+              "nd": "Messiah¦132942 Yeshua¦132943",
+              "closing": "\\nd*"
+            },
+            ".",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "I'm running hard toward the prize¦132935 of being called up to heaven by God¦132940 through Messiah¦132942 Yeshua¦132943."
+        },
+        {
+          "verseNumber": "15",
+          "contents": [
+            "Those of us who're mature¦132947 should think that way, and if you don't",
+            {
+              "add": "yet",
+              "closing": "\\add*"
+            },
+            ", then",
+            {
+              "nd": "God¦132960",
+              "closing": "\\nd*"
+            },
+            "will reveal¦132962 everything to you,"
+          ],
+          "verseText": "Those of us who're mature¦132947 should think that way, and if you don't yet, then God¦132960 will reveal¦132962 everything to you,"
+        },
+        {
+          "verseNumber": "16",
+          "contents": [
+            "however, whatever we've already attained¦132966, that should be held onto.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "however, whatever we've already attained¦132966, that should be held onto."
+        },
+        {
+          "verseNumber": "17",
+          "contents": [
+            {
+              "x": [
+                "+",
+                {
+                  "xo": "3:17:"
+                },
+                {
+                  "xt": "1Cor 4:16; 11:1."
+                }
+              ],
+              "closing": "\\x*"
+            },
+            "Brothers¦132979 and sisters, become¦132978 imitators of me, as well as watching",
+            {
+              "add": "others",
+              "closing": "\\add*"
+            },
+            "that have walked a similar path and can be examples¦132988 for all of you¦132987."
+          ],
+          "verseText": "Brothers¦132979 and sisters, become¦132978 imitators of me, as well as watching others that have walked a similar path and can be examples¦132988 for all of you¦132987."
+        },
+        {
+          "verseNumber": "18",
+          "contents": [
+            "As I've often¦132994 told you before and now",
+            {
+              "add": "say it again",
+              "closing": "\\add*"
+            },
+            "with tears, there are many who are against the stake¦133007 of the",
+            {
+              "nd": "messiah¦133009",
+              "closing": "\\nd*"
+            }
+          ],
+          "verseText": "As I've often¦132994 told you before and now say it again with tears, there are many who are against the stake¦133007 of the messiah¦133009"
+        },
+        {
+          "verseNumber": "19",
+          "contents": [
+            "and their end¦133012 is destruction¦133013. Their¦133025",
+            {
+              "nd": "god¦133016",
+              "closing": "\\nd*"
+            },
+            "is their belly¦133018, and they take pride in their shame¦133024—they're",
+            {
+              "add": "only",
+              "closing": "\\add*"
+            },
+            "thinking¦133029 about earthly¦133028 things¦133028."
+          ],
+          "verseText": "and their end¦133012 is destruction¦133013. Their¦133025 god¦133016 is their belly¦133018, and they take pride in their shame¦133024—they're only thinking¦133029 about earthly¦133028 things¦133028."
+        },
+        {
+          "verseNumber": "20",
+          "contents": [
+            "For us, our citizenship¦133033 is in heaven¦133035 and we're waiting¦133041 for our saviour¦133040 to",
+            {
+              "add": "return",
+              "closing": "\\add*"
+            },
+            "from there—the",
+            {
+              "nd": "master¦133042 Yeshua¦133043 Messiah¦133044",
+              "closing": "\\nd*"
+            },
+            "—"
+          ],
+          "verseText": "For us, our citizenship¦133033 is in heaven¦133035 and we're waiting¦133041 for our saviour¦133040 to return from there—the master¦133042 Yeshua¦133043 Messiah¦133044—"
+        },
+        {
+          "verseNumber": "21",
+          "contents": [
+            "who will take these embarrassing bodies of ours and make them similar¦133056 to his resurrected body—he's capable of doing that and to put everything under his control."
+          ],
+          "verseText": "who will take these embarrassing bodies of ours and make them similar¦133056 to his resurrected body—he's capable of doing that and to put everything under his control."
+        }
+      ]
+    },
+    {
+      "chapterNumber": "4",
+      "contents": [
+        {
+          "s1": "Paul's final teaching"
+        },
+        {
+          "rem": "/s1 Instructions"
+        },
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "contents": [
+            "So then, my dear brothers¦133075 and sisters¦133075, my delight and my crown¦133083, I miss you all, so guard your faith in the",
+            {
+              "nd": "master¦133088",
+              "closing": "\\nd*"
+            },
+            ", dear ones.",
+            {
+              "rem": "/s1 Exhortations; Paul's Final Thoughts"
+            }
+          ],
+          "verseText": "So then, my dear brothers¦133075 and sisters¦133075, my delight and my crown¦133083, I miss you all, so guard your faith in the master¦133088, dear ones."
+        },
+        {
+          "verseNumber": "2",
+          "contents": [
+            "Euodia¦133091 and¦133093 Syntyche, you both need to be thinking¦133098 the same¦133097 way in the",
+            {
+              "nd": "master¦133101",
+              "closing": "\\nd*"
+            },
+            ","
+          ],
+          "verseText": "Euodia¦133091 and¦133093 Syntyche, you both need to be thinking¦133098 the same¦133097 way in the master¦133101,"
+        },
+        {
+          "verseNumber": "3",
+          "contents": [
+            "and yes, I'm asking¦133104 you¦133106, my¦133125 true companion¦133109, to help¦133110 those two women who worked hard with me to",
+            {
+              "add": "share",
+              "closing": "\\add*"
+            },
+            "the good¦133115 message¦133115, along with Clement and the others who also worked with me and whose¦133129 names¦133131",
+            {
+              "add": "are written",
+              "closing": "\\add*"
+            },
+            "in the book of life¦133135.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "and yes, I'm asking¦133104 you¦133106, my¦133125 true companion¦133109, to help¦133110 those two women who worked hard with me to share the good¦133115 message¦133115, along with Clement and the others who also worked with me and whose¦133129 names¦133131 are written in the book of life¦133135."
+        },
+        {
+          "verseNumber": "4",
+          "contents": [
+            "Always be happy in the",
+            {
+              "nd": "master¦133138",
+              "closing": "\\nd*"
+            },
+            ". I'll say that again¦133140: be happy."
+          ],
+          "verseText": "Always be happy in the master¦133138. I'll say that again¦133140: be happy."
+        },
+        {
+          "verseNumber": "5",
+          "contents": [
+            "Let your¦133145 gentleness¦133144 be visible to everyone¦133149. The",
+            {
+              "nd": "master¦133151",
+              "closing": "\\nd*"
+            },
+            "is close."
+          ],
+          "verseText": "Let your¦133145 gentleness¦133144 be visible to everyone¦133149. The master¦133151 is close."
+        },
+        {
+          "verseNumber": "6",
+          "contents": [
+            "Don't worry¦133154 about anything, but",
+            {
+              "add": "handle",
+              "closing": "\\add*"
+            },
+            "all situations by letting God know your requests¦133168—praying and telling",
+            {
+              "add": "God",
+              "closing": "\\add*"
+            },
+            "your needs, and also thanking¦133164",
+            {
+              "add": "him",
+              "closing": "\\add*"
+            },
+            "."
+          ],
+          "verseText": "Don't worry¦133154 about anything, but handle all situations by letting God know your requests¦133168—praying and telling God your needs, and also thanking¦133164 him."
+        },
+        {
+          "verseNumber": "7",
+          "contents": [
+            "Then God's peace¦133176 which¦133180 is above¦133181",
+            {
+              "add": "human",
+              "closing": "\\add*"
+            },
+            "understanding will guard¦133185 your hearts¦133187 and¦133189 your thinking¦133191 in",
+            {
+              "nd": "Messiah¦133198 Yeshua¦133199",
+              "closing": "\\nd*"
+            },
+            ".",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "Then God's peace¦133176 which¦133180 is above¦133181 human understanding will guard¦133185 your hearts¦133187 and¦133189 your thinking¦133191 in Messiah¦133198 Yeshua¦133199."
+        },
+        {
+          "verseNumber": "8",
+          "contents": [
+            "Brothers¦133202 and sisters, here's the rest of what you all should be considering: anything that's true or dignified¦133207, anything that's right¦133209 or pure, anything that's lovely¦133213 or admirable¦133215, and anything that's virtuous¦133218 or praiseworthy¦133222."
+          ],
+          "verseText": "Brothers¦133202 and sisters, here's the rest of what you all should be considering: anything that's true or dignified¦133207, anything that's right¦133209 or pure, anything that's lovely¦133213 or admirable¦133215, and anything that's virtuous¦133218 or praiseworthy¦133222."
+        },
+        {
+          "verseNumber": "9",
+          "contents": [
+            "Continue to do everything you all learnt¦133227 or received¦133229 from me, and everything you heard¦133231 or saw¦133233 in me, and the",
+            {
+              "nd": "God¦133240",
+              "closing": "\\nd*"
+            },
+            "of peace¦133242 will be with you all.",
+            {
+              "s1": "Paul's appreciation of their practical help"
+            },
+            {
+              "rem": "/s1 Acknowledgment of the Philippians' Gift; Paul's Thanks for Their Gifts; Thanks and greetings"
+            },
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "Continue to do everything you all learnt¦133227 or received¦133229 from me, and everything you heard¦133231 or saw¦133233 in me, and the God¦133240 of peace¦133242 will be with you all."
+        },
+        {
+          "verseNumber": "10",
+          "contents": [
+            "I was extremely happy in the",
+            {
+              "nd": "master¦133249",
+              "closing": "\\nd*"
+            },
+            "once you all reestablished your consideration for my",
+            {
+              "add": "situation",
+              "closing": "\\add*"
+            },
+            ".",
+            {
+              "add": "Well",
+              "closing": "\\add*"
+            },
+            ", you were thinking about it, but lacked any opportunity",
+            {
+              "add": "to act",
+              "closing": "\\add*"
+            },
+            ","
+          ],
+          "verseText": "I was extremely happy in the master¦133249 once you all reestablished your consideration for my situation. Well, you were thinking about it, but lacked any opportunity to act,"
+        },
+        {
+          "verseNumber": "11",
+          "contents": [
+            "not that I'm talking¦133269 about being in poverty¦133268, because¦133271 I've learnt¦133272 to be content¦133276 in any",
+            {
+              "add": "situation¦133274",
+              "closing": "\\add*"
+            },
+            "."
+          ],
+          "verseText": "not that I'm talking¦133269 about being in poverty¦133268, because¦133271 I've learnt¦133272 to be content¦133276 in any situation¦133274."
+        },
+        {
+          "verseNumber": "12",
+          "contents": [
+            "I've experienced being humbled¦133281",
+            {
+              "add": "with little",
+              "closing": "\\add*"
+            },
+            ", and I've experienced having plenty,",
+            {
+              "add": "but",
+              "closing": "\\add*"
+            },
+            "I've grown through every¦133286 one of those",
+            {
+              "add": "experiences",
+              "closing": "\\add*"
+            },
+            ", sometimes being satisfied¦133292 and sometimes hungry, sometimes having plenty and other times not enough."
+          ],
+          "verseText": "I've experienced being humbled¦133281 with little, and I've experienced having plenty, but I've grown through every¦133286 one of those experiences, sometimes being satisfied¦133292 and sometimes hungry, sometimes having plenty and other times not enough."
+        },
+        {
+          "verseNumber": "13",
+          "contents": [
+            "In every",
+            {
+              "add": "situation",
+              "closing": "\\add*"
+            },
+            "I stay strong¦133300 because of the",
+            {
+              "add": "one",
+              "closing": "\\add*"
+            },
+            "who strengthens¦133303 me.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "In every situation I stay strong¦133300 because of the one who strengthens¦133303 me."
+        },
+        {
+          "verseNumber": "14",
+          "contents": [
+            "However¦133306, you¦133308 all did well to participate¦133309 in my¦133310 hardships."
+          ],
+          "verseText": "However¦133306, you¦133308 all did well to participate¦133309 in my¦133310 hardships."
+        },
+        {
+          "verseNumber": "15",
+          "contents": [
+            "I've know all you Philippians, that when I left¦133324 Macedonia¦133326 to begin¦133320",
+            {
+              "add": "preaching",
+              "closing": "\\add*"
+            },
+            "the good¦133322 message¦133322, no other assembly¦133329 shared¦133330 with me in giving¦133333 and receiving¦133335—only you",
+            {
+              "add": "there",
+              "closing": "\\add*"
+            },
+            "."
+          ],
+          "verseText": "I've know all you Philippians, that when I left¦133324 Macedonia¦133326 to begin¦133320 preaching the good¦133322 message¦133322, no other assembly¦133329 shared¦133330 with me in giving¦133333 and receiving¦133335—only you there."
+        },
+        {
+          "verseNumber": "16",
+          "contents": [
+            {
+              "x": [
+                "+",
+                {
+                  "xo": "4:16:"
+                },
+                {
+                  "xt": "Acts 17:1."
+                }
+              ],
+              "closing": "\\x*"
+            },
+            "Even when I was in Thessalonica¦133344, once you¦133353 sent¦133353 me what I needed—actually twice¦133348—"
+          ],
+          "verseText": "Even when I was in Thessalonica¦133344, once you¦133353 sent¦133353 me what I needed—actually twice¦133348—"
+        },
+        {
+          "verseNumber": "17",
+          "contents": [
+            "not that I was looking¦133356 for a gift¦133358",
+            {
+              "add": "from my perspective",
+              "closing": "\\add*"
+            },
+            ", but¦133359 because I was thrilled to see you¦133367 all accumulating",
+            {
+              "add": "heavenly",
+              "closing": "\\add*"
+            },
+            "rewards."
+          ],
+          "verseText": "not that I was looking¦133356 for a gift¦133358 from my perspective, but¦133359 because I was thrilled to see you¦133367 all accumulating heavenly rewards."
+        },
+        {
+          "verseNumber": "18",
+          "contents": [
+            {
+              "x": [
+                "+",
+                {
+                  "xo": "4:18:"
+                },
+                {
+                  "xt": "Exo 29:18."
+                }
+              ],
+              "closing": "\\x*"
+            },
+            "But",
+            {
+              "add": "now",
+              "closing": "\\add*"
+            },
+            "I've received¦133375 everything",
+            {
+              "add": "I need",
+              "closing": "\\add*"
+            },
+            ". I have plenty¦133372 now that Epaphroditus arrived with what you¦133381 all sent. It was like a fragrant¦133384 sacrifice¦133385 that's acceptable¦133386 to",
+            {
+              "nd": "God¦133389",
+              "closing": "\\nd*"
+            },
+            "and¦133371 which pleases¦133387 him."
+          ],
+          "verseText": "But now I've received¦133375 everything I need. I have plenty¦133372 now that Epaphroditus arrived with what you¦133381 all sent. It was like a fragrant¦133384 sacrifice¦133385 that's acceptable¦133386 to God¦133389 and¦133371 which pleases¦133387 him."
+        },
+        {
+          "verseNumber": "19",
+          "contents": [
+            "My¦133393",
+            {
+              "nd": "God¦133392",
+              "closing": "\\nd*"
+            },
+            "will meet all of your¦133397 needs from his¦133403 riches¦133401 in heaven in",
+            {
+              "nd": "Messiah¦133407 Yeshua¦133408",
+              "closing": "\\nd*"
+            },
+            "—"
+          ],
+          "verseText": "My¦133393 God¦133392 will meet all of your¦133397 needs from his¦133403 riches¦133401 in heaven in Messiah¦133407 Yeshua¦133408—"
+        },
+        {
+          "verseNumber": "20",
+          "contents": [
+            "may our¦133414",
+            {
+              "nd": "God¦133411",
+              "closing": "\\nd*"
+            },
+            "and¦133412 father¦133413 be honoured throughout all the ages.",
+            {
+              "s1": "The ending greetings"
+            },
+            {
+              "rem": "/s1 Paul's Final Greetings; Final Greetings and Benediction"
+            },
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "may our¦133414 God¦133411 and¦133412 father¦133413 be honoured throughout all the ages."
+        },
+        {
+          "verseNumber": "21",
+          "contents": [
+            "Greet¦133424 all of the believers¦133435",
+            {
+              "add": "there",
+              "closing": "\\add*"
+            },
+            "in",
+            {
+              "add": "the name of",
+              "closing": "\\add*"
+            },
+            {
+              "nd": "Messiah¦133428 Yeshua¦133429",
+              "closing": "\\nd*"
+            },
+            ". The brothers¦133435 and¦133435 sisters¦133435 with me",
+            {
+              "add": "here also",
+              "closing": "\\add*"
+            },
+            "greet¦133430 you¦133431 all,"
+          ],
+          "verseText": "Greet¦133424 all of the believers¦133435 there in the name of Messiah¦133428 Yeshua¦133429. The brothers¦133435 and¦133435 sisters¦133435 with me here also greet¦133430 you¦133431 all,"
+        },
+        {
+          "verseNumber": "22",
+          "contents": [
+            "along with all the believers",
+            {
+              "add": "here",
+              "closing": "\\add*"
+            },
+            ", especially those in Caesar's¦133447 household¦133448.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "along with all the believers here, especially those in Caesar's¦133447 household¦133448."
+        },
+        {
+          "verseNumber": "23",
+          "contents": [
+            {
+              "add": "May",
+              "closing": "\\add*"
+            },
+            "the grace¦133450 from the",
+            {
+              "nd": "master¦133452 Yeshua¦133454 Messiah¦133455",
+              "closing": "\\nd*"
+            },
+            "be with all your¦133460 spirits¦133458. May it¦133461 be so¦133461."
+          ],
+          "verseText": "May the grace¦133450 from the master¦133452 Yeshua¦133454 Messiah¦133455 be with all your¦133460 spirits¦133458. May it¦133461 be so¦133461."
+        }
+      ]
+    }
+  ],
+  "_messages": {
+    "_warnings": [
+      "Trailing spaces present at line end. "
+    ]
+  }
+}
