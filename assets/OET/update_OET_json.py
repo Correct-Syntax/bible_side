@@ -1,5 +1,5 @@
 # Script to automatically update the OET .json files from the ESFM sources on GitHub
-# Requirements: Python 3 and the Requests package
+# Requirements: npm, Python 3, and the Python Requests package
 
 import os
 import subprocess
