@@ -13,7 +13,7 @@ BibleSide currently implements the OET's "Reader's" version in the main area and
 
 ## TODO/Goals
 
-- [ ] Add all the OET Bible books currently available  
+- [x] Add all the OET NT Bible books currently available
 - [ ] Light and dark modes
 - [ ] Theme and text size customization
 - [ ] Downplay the chapters and verses for the OET
@@ -23,7 +23,6 @@ BibleSide currently implements the OET's "Reader's" version in the main area and
 
 - Bug: Closing and reopening the literal version bottom sheet causes the reader's version to scroll back to the start.
 - Bug: Scrolling between the two versions is synced too well. Since the Literal version is lengthier, verses can be in different locations or even off screen.
-- Missing feature: Currently only loads the book of Acts.
 - Missing feature: Most buttons don't do anything.
 
 
@@ -45,7 +44,11 @@ flutter run
 
 ## OET file conversion
 
-Currently, the ESFM files from [here (OET Reader's version)](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET/tree/main/translatedTexts/ReadersVersion) and [here (OET Literal version)](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET/tree/main/intermediateTexts/auto_edited_VLT_ESFM) are run through [https://usfm-grammar-revant.netlify.app/](https://usfm-grammar-revant.netlify.app/) in ``relaxed`` mode for conversion to JSON.
+There is a Python script in /assets/EOT that will automatically update the json files from the GitHub sources.
+
+The ESFM files from [here (OET Reader's version)](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET/tree/main/translatedTexts/ReadersVersion) and [here (OET Literal version)](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET/tree/main/intermediateTexts/auto_edited_VLT_ESFM) are run through [usfm-grammar](https://github.com/Bridgeconn/usfm-grammar) in ``relaxed`` mode for conversion to JSON.
+
+Navigate to ``/assets/EOT`` and run the file with ``python update_OET_json.py``.
 
 
 ## License
