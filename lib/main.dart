@@ -48,15 +48,18 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider<AppSettingsProvider>(
-      create: (context) => appSettingsProvider,
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider<AppSettingsProvider>(create: (context) => appSettingsProvider),   
+        ChangeNotifierProvider<AppProvider>(create: (context) => AppProvider()),   
+      ],
       child: Consumer<AppSettingsProvider>(
-        builder: (context, preferencesProvider, child) => MaterialApp(
+        builder: (context, settingsProvider, child) => MaterialApp(
           title: 'BibleSide',
           debugShowCheckedModeBanner: false,
           theme: ThemeData(
             colorScheme: ColorScheme.fromSeed(
-              brightness: preferencesProvider.isDarkTheme ? Brightness.dark : Brightness.light, 
+              brightness: settingsProvider.isDarkTheme ? Brightness.dark : Brightness.light, 
               seedColor: const Color.fromARGB(255, 18, 59, 89)
             ),
             useMaterial3: true,

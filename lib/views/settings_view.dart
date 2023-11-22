@@ -6,7 +6,7 @@ import '../core/provider.dart';
 import '../widgets/nav_drawer.dart';
 
 
-class SettingsView extends StatefulWidget {
+class SettingsView extends StatelessWidget {
   const SettingsView({super.key,
     required this.selectedIndex,
     required this.handleViewChanged,
@@ -14,17 +14,6 @@ class SettingsView extends StatefulWidget {
 
   final Function(int) handleViewChanged;
   final int selectedIndex;
-
-  @override
-  State<SettingsView> createState() => _SettingsViewState();
-}
-
-class _SettingsViewState extends State<SettingsView> {
-
-
-  void handleViewChanged(int selected) {
-
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -51,8 +40,8 @@ class _SettingsViewState extends State<SettingsView> {
         ],
       ),
       drawer: SideNavigationDrawer(
-        selectedIndex: widget.selectedIndex,
-        handleViewChanged: widget.handleViewChanged,
+        selectedIndex: selectedIndex,
+        handleViewChanged: handleViewChanged,
       )
     );
   }
