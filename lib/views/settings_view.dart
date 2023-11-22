@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:material_symbols_icons/symbols.dart';
 
+import '../core/common.dart';
 import '../core/provider.dart';
 import '../widgets/nav_drawer.dart';
 
@@ -36,6 +37,21 @@ class SettingsView extends StatelessWidget {
                 appSettingsProvider.isDarkTheme = value;
               }
             )
+          ),
+          const Divider(height: 0),
+          ListTile(
+            leading: const Icon(Icons.info_outline),
+            title: const Text('BibleSide'),
+            subtitle: FutureBuilder<String>(
+              future: getAppVersion(),
+              builder: (context, snapshot) {
+                if (snapshot.hasData) {
+                  return Text('v${snapshot.data!}');
+                } else {
+                  return Container();
+                }
+              },
+            ),
           ),
         ],
       ),

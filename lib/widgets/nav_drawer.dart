@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../core/common.dart';
+
 
 class SideNavigationDrawer extends StatelessWidget {
   const SideNavigationDrawer({super.key,
@@ -19,9 +21,18 @@ class SideNavigationDrawer extends StatelessWidget {
         children: [
           Padding(
             padding: const EdgeInsets.fromLTRB(28, 16, 16, 40),
-            child: Text(
-              'BibleSide v0.0.1',
-              style: Theme.of(context).textTheme.bodyMedium,
+            child: FutureBuilder<String>(
+              future: getAppVersion(),
+              builder: (context, snapshot) {
+                if (snapshot.hasData) {
+                  return Text(
+                    'BibleSide v${snapshot.data!}',
+                    style: Theme.of(context).textTheme.bodyMedium,
+                  );
+                } else {
+                  return Container();
+                }
+              },
             ),
           ),
           const NavigationDrawerDestination(
