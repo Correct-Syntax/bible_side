@@ -16,18 +16,28 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
 import 'dart:developer';
+import 'package:bible_side/views/settings_view.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:visibility_detector/visibility_detector.dart';
 import 'package:linked_scroll_controller/linked_scroll_controller.dart';
 import 'package:material_symbols_icons/symbols.dart';
 
+import '../core/provider.dart';
 import '../core/reader_text.dart';
-import '../core/reader_widgets.dart';
+import '../widgets/reader_widgets.dart';
+import '../widgets/nav_drawer.dart';
 
 
 class ReaderView extends StatefulWidget {
-  const ReaderView({super.key});
+  const ReaderView({super.key,
+    required this.selectedIndex,
+    required this.handleViewChanged,
+  });
+
+  final Function(int) handleViewChanged;
+  final int selectedIndex;
 
   @override
   State<ReaderView> createState() => _ReaderViewState();
@@ -144,23 +154,24 @@ class _ReaderViewState extends State<ReaderView> {
         child: Row(
           children: <Widget>[
             IconButton(
-              tooltip: 'Open navigation menu',
-              icon: const Icon(Icons.menu),
-              onPressed: () {},
-            ),
-            IconButton(
               tooltip: 'Search',
               icon: const Icon(Icons.search),
               onPressed: () {},
             ),
             IconButton(
               tooltip: 'Study notes',
-              icon: const Icon(Icons.note),
-              onPressed: () {},
+              icon: const Icon(Icons.note_outlined),
+              onPressed: () {
+                
+              },
             ),
           ],
         ),
       ),
+      drawer: SideNavigationDrawer(
+        selectedIndex: widget.selectedIndex,
+        handleViewChanged: widget.handleViewChanged,
+      )
     );
   }
 }

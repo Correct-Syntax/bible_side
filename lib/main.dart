@@ -16,30 +16,54 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
-import 'views/reader_view.dart';
+import 'views/main_view.dart';
+import 'core/provider.dart';
 
 
 void main() {
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
   const MyApp({super.key});
 
   @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  AppSettingsProvider appSettingsProvider = AppSettingsProvider();
+   
+  @override
+  void initState() {
+    super.initState();
+    getCurrentAppTheme();
+  }
+
+  void getCurrentAppTheme() async {
+    appSettingsProvider.isDarkTheme = await appSettingsProvider.appSettings.getIsDarkTheme();
+  }
+
+  @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'BibleSide',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          brightness: Brightness.light, 
-          seedColor: const Color.fromARGB(255, 18, 59, 89)
+    return ChangeNotifierProvider<AppSettingsProvider>(
+      create: (context) => appSettingsProvider,
+      child: Consumer<AppSettingsProvider>(
+        builder: (context, preferencesProvider, child) => MaterialApp(
+          title: 'BibleSide',
+          debugShowCheckedModeBanner: false,
+          theme: ThemeData(
+            colorScheme: ColorScheme.fromSeed(
+              brightness: preferencesProvider.isDarkTheme ? Brightness.dark : Brightness.light, 
+              seedColor: const Color.fromARGB(255, 18, 59, 89)
+            ),
+            useMaterial3: true,
+          ),
+          home: const MainView(),
         ),
-        useMaterial3: true,
       ),
-      home: const ReaderView(),
     );
   }
 }

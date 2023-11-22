@@ -13,6 +13,8 @@ dependencies:
   material_symbols_icons: ^4.2706.0
   linked_scroll_controller: ^0.2.0
   visibility_detector: ^0.4.0+2
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
 
 dev_dependencies:
   flutter_test:
