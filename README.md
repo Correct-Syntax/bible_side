@@ -8,22 +8,19 @@ The OET is a new, open-licensed Bible translation (currently in ``draft`` state)
 
 BibleSide currently implements the OET's "Reader's" version in the main area and a toggle to show the "Literal" and "Reader's" versions side-by-side. The two can be scrolled together for easy comparison. The layout and interface patterns are likely to evolve over time.
 
-**Work in progress. Currently in a minimal prototype state.**
-
 
 ## TODO/Goals
 
 - [x] Add all the OET NT Bible books currently available
-- [ ] Light and dark modes
+- [x] Light and dark modes
 - [ ] Theme and text size customization
 - [ ] Downplay the chapters and verses for the OET
 
 
 ## Known issues
 
-- Bug: Closing and reopening the literal version bottom sheet causes the reader's version to scroll back to the start.
+- Bug (or feature?): Closing and reopening the literal version bottom sheet causes the reader's version to scroll back to the start.
 - Bug: Scrolling between the two versions is synced too well. Since the Literal version is lengthier, verses can be in different locations or even off screen.
-- Missing feature: Most buttons don't do anything.
 
 
 ## Feedback/Contributing
