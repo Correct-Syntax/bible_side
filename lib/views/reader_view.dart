@@ -16,7 +16,6 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
 import 'dart:developer';
-import 'package:bible_side/views/settings_view.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -28,6 +27,7 @@ import '../core/provider.dart';
 import '../core/reader_text.dart';
 import '../widgets/reader_widgets.dart';
 import '../widgets/nav_drawer.dart';
+import '../widgets/reader_navigation.dart';
 
 
 class ReaderView extends StatefulWidget {
@@ -50,8 +50,6 @@ class _ReaderViewState extends State<ReaderView> {
   Map<String, dynamic> readersVersionText = {};
   Map<String, dynamic> literalVersiontext = {};
 
-  late ReaderText mainReaderText;
-  late ReaderText secondaryReaderText;
   late ScrollController readersVersionController;
   late ScrollController literalVersionController;
   late LinkedScrollControllerGroup parentController;
@@ -63,17 +61,26 @@ class _ReaderViewState extends State<ReaderView> {
     parentController = LinkedScrollControllerGroup();
     readersVersionController = parentController.addAndGet();
     literalVersionController = parentController.addAndGet();
-
-    mainReaderText = ReaderText('OET', 'RV', 'JHN');
-    secondaryReaderText = ReaderText('OET', 'LV', 'JHN');
   }
 
 
   @override
   Widget build(BuildContext context) {
+    AppProvider appProvider = Provider.of<AppProvider>(context);
+
     return Scaffold(
       appBar: AppBar(
-        title: Text('Acts'),
+        title: InkWell(
+          onTap: () {
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) => const ReaderNavigation(),
+                fullscreenDialog: true
+              )
+            );
+          },
+          child: Text(bookCodeToBook(appProvider.currentBookCode))
+        ),
         shadowColor: null,
       ),
       bottomSheet: hideLiteralVersion ? null : BottomSheet(
@@ -87,7 +94,11 @@ class _ReaderViewState extends State<ReaderView> {
               child: Padding(
                 padding: const EdgeInsets.only(right: 20.0, left: 20.0),
                 child: FutureBuilder<Map<String, dynamic>>(
-                  future: secondaryReaderText.loadJson(),
+                  future: ReaderText(
+                    appProvider.currentBibleCode, 
+                    'LV', 
+                    appProvider.currentBookCode
+                  ).loadJson(),
                   builder: (context, snapshot) {
                     if (snapshot.hasData && snapshot.data != null) {
                       List<InlineSpan> spans = ReaderContentBuilder().buildReaderTextSpans(snapshot.data!, context);
@@ -118,7 +129,11 @@ class _ReaderViewState extends State<ReaderView> {
               child: Padding(
                 padding: const EdgeInsets.only(top: 20.0, right: 20.0, left: 20.0),
                 child: FutureBuilder<Map<String, dynamic>>(
-                  future: mainReaderText.loadJson(),
+                  future: ReaderText(
+                    appProvider.currentBibleCode,
+                    'RV', 
+                    appProvider.currentBookCode
+                  ).loadJson(),
                   builder: (context, snapshot) {
                     if (snapshot.hasData && snapshot.data != null) {
                       List<InlineSpan> spans = ReaderContentBuilder().buildReaderTextSpans(snapshot.data!, context);
@@ -153,16 +168,21 @@ class _ReaderViewState extends State<ReaderView> {
       bottomNavigationBar: BottomAppBar(
         child: Row(
           children: <Widget>[
+            // IconButton(
+            //   tooltip: 'Search',
+            //   icon: const Icon(Icons.search),
+            //   onPressed: () {},
+            // ),
             IconButton(
-              tooltip: 'Search',
-              icon: const Icon(Icons.search),
-              onPressed: () {},
-            ),
-            IconButton(
-              tooltip: 'Study notes',
+              tooltip: 'Navigation',
               icon: const Icon(Icons.note_outlined),
               onPressed: () {
-                
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => const ReaderNavigation(),
+                    fullscreenDialog: true
+                  )
+                );
               },
             ),
           ],

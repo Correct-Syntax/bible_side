@@ -5,13 +5,37 @@ import 'settings.dart';
 
 class AppProvider with ChangeNotifier {
   int _currentViewIndex = 0;
+
+  String _currentBibleCode = 'OET';
+  String _currentBookCode = 'JHN';
   
+  // currentViewIndex
   int get currentViewIndex {
     return _currentViewIndex;
   }
 
   set currentViewIndex(int value) {
     _currentViewIndex = value;
+    notifyListeners();
+  }
+
+  // currentBibleCode
+  String get currentBibleCode {
+    return _currentBibleCode;
+  }
+
+  set currentBibleCode(String value) {
+    _currentBibleCode = value;
+    notifyListeners();
+  }
+
+  // currentBookCode
+  String get currentBookCode {
+    return _currentBookCode;
+  }
+
+  set currentBookCode(String value) {
+    _currentBookCode = value;
     notifyListeners();
   }
 }
