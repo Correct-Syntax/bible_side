@@ -24,7 +24,6 @@ class MainView extends StatelessWidget {
       : SettingsView(
           selectedIndex: appProvider.currentViewIndex,
           handleViewChanged: (index) {
-            Navigator.of(context).pop();
             appProvider.currentViewIndex = index;
           },
       );
