@@ -1,26 +1,18 @@
 # BibleSide
 
-BibleSide is an offline Bible app inspired by Material 3 design system.
+BibleSide is a simple, offline Bible app inspired by the Material 3 design system.
 
 The goal is for multiple translations (KJV, etc) to be added in the future, but integrating the [OET (Open English Translation)](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET) is the primary focus right now.
 
 The OET is a new, open-licensed Bible translation (currently in ``draft`` state) featuring multiple versions intended to be used together. <sup>Please see the OET README for more info on what makes it different than other translations.</sup>
 
-BibleSide currently implements the OET's "Reader's" version in the main area and a toggle to show the "Literal" and "Reader's" versions side-by-side. The two can be scrolled together for easy comparison. The layout and interface patterns are likely to evolve over time.
-
-
-## TODO/Goals
-
-- [x] Add all the OET NT Bible books currently available
-- [x] Light and dark modes
-- [ ] Theme and text size customization
-- [ ] Downplay the chapters and verses for the OET
+BibleSide implements the OET's "Reader's" version in the main area and a toggle to show the "Literal" and "Reader's" versions side-by-side. The two can be scrolled together for easy comparison. The layout and interface patterns are likely to evolve over time.
 
 
 ## Known issues
 
 - Bug (or feature?): Closing and reopening the literal version bottom sheet causes the reader's version to scroll back to the start.
-- Bug: Scrolling between the two versions is synced too well. Since the Literal version is lengthier, verses can be in different locations or even off screen.
+- Bug: Scrolling between the two versions is synced too well? Since the Literal version is lengthier, verses can be in different locations or even off screen.
 
 
 ## Feedback/Contributing
