@@ -20,6 +20,8 @@ import 'dart:developer';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
+import '../core/bibles.dart';
+
 
 /// Valid types determining how to divide the reader text.
 enum ReaderType {
@@ -28,9 +30,10 @@ enum ReaderType {
 }
 
 
-/// The Base [TextItem] structure
+/// The Base [TextItem] structure used as an intermediate format 
+/// for different input data structures.
 /// 
-/// TextItem represents the content and visual style of a certain type of text. See [TextItemType].
+/// [TextItem] represents the content and visual style of a certain type of text. See [TextItemType].
 class TextItem {
   final String text;
   final TextItemType type;
@@ -54,6 +57,7 @@ enum TextItemType {
   verseNumber,
   verseText,
   verseLink,
+  newParagraph,
 }
 
 
@@ -86,7 +90,7 @@ class TextItemStyles {
 class ReaderTextItems {
   ReaderTextItems(this.readerType);
 
-  final ReaderType readerType; // TODO: specify a reader type for styling specific to that reader
+  final ReaderType readerType; // UNUSED: can specify a reader type for styling specific to that reader
 
 
   static TextItem bookHeading(String book, BuildContext context) {
@@ -115,7 +119,7 @@ class ReaderTextItems {
 
   static TextItem verseNumber(String verseNumber, BuildContext context) {
     return TextItem(
-      text: '\n$verseNumber ',
+      text: ' $verseNumber ',
       type: TextItemType.verseNumber,
       style: TextItemStyles.bodyMedium(context)
     );
@@ -145,13 +149,98 @@ class ReaderTextItems {
       },
     );
   }
+
+  static TextItem newParagraph(BuildContext context) {
+    return TextItem(
+      text: '\n',
+      type: TextItemType.newParagraph,
+      style: TextItemStyles.text(context)
+    );
+  }
 }
 
 
 
 class ReaderContentBuilder {
 
-  List<TextItem> buildTextItemsFromJson(Map<String, dynamic> json, BuildContext context) {
+  /// Builds a list of [RichText] [TextSpan]s based on [jsonData]. 
+  /// If [splitByParagraph] is true, the text will be split by paragraph instead of by verse.
+  List<InlineSpan> buildReaderTextSpans(Map<String, dynamic> jsonData, BuildContext context, bool splitByParagraph) {
+    List<InlineSpan> spans = [];
+    WidgetSpan spacer = const WidgetSpan(
+      alignment: PlaceholderAlignment.top,
+      baseline: TextBaseline.alphabetic,
+      child: SizedBox(height: 30)
+    );
+    WidgetSpan largeSpacer = const WidgetSpan(
+      alignment: PlaceholderAlignment.top,
+      baseline: TextBaseline.alphabetic,
+      child: SizedBox(height: 50)
+    );
+
+    List<TextItem> textItems = buildTextItemsFromJson(BibleVersion.theOET, jsonData, context, splitByParagraph);
+
+    // Convert TextItems to RichText TextSpans
+    for (var item in textItems) {
+
+      // Add space between chapters
+      if (item.type == TextItemType.chapterHeading && item.text != ('Chapter 1')) {
+        spans.add(largeSpacer);
+      }
+
+      TextSpan span;
+      if (item.callback == null) {
+        span = TextSpan(
+          text: item.text,
+          style: item.style,
+        );
+      } else {
+        // Link
+        span = TextSpan(
+          text: item.text,
+          style: item.style,
+          recognizer: TapGestureRecognizer()..onTap = () => item.callback!(context),
+        );
+      }
+
+      if (splitByParagraph == true) {
+        // Add the space between paragraphs
+        if (item.type == TextItemType.newParagraph) {
+          spans.add(spacer);
+        }
+      } else {
+        // Add the space between verses
+        if (item.type == TextItemType.verseNumber) {
+          spans.add(spacer);
+        }
+      }
+      spans.add(span);
+    }
+    return spans;
+  }
+
+
+  /// Creates the TextItems from the given json data using a specific version implementation.
+  /// 
+  /// This method can have multiple versions, each with their own 
+  /// specific json data to TextItems implementation:
+  /// ```if (..) {
+  ///   return buildTextItemsFromKJVJson(json, context, splitByParagraph);
+  /// } else if (..) {
+  ///   return buildTextItemsFromOETJson(json, context, splitByParagraph);
+  /// }```
+  List<TextItem> buildTextItemsFromJson(BibleVersion version, Map<String, dynamic> json, BuildContext context, bool splitByParagraph) {
+    if (version == BibleVersion.theOET) {
+      return buildTextItemsFromOETJson(json, context, splitByParagraph);
+    } else {
+      return [];
+    }
+  }
+
+
+  /// This is the OET-specific implementation of building a list of [TextItems] from the [json].
+  /// The json data is expected to be from the OET, otherwise it will error.
+  List<TextItem> buildTextItemsFromOETJson(Map<String, dynamic> json, BuildContext context, bool splitByParagraph) {
     List<TextItem> textItems = [];
 
     // Book data
@@ -173,79 +262,74 @@ class ReaderContentBuilder {
     
     // Loop through chapter data
     for (Map<String, dynamic>chapter in chaptersData) {
-      // Create chapter number
-      textItems.add(ReaderTextItems.chapterHeading(chapter['chapterNumber'], context));
+      bool isNewParagraph = false;
 
-      //log(chapter.toString());
+      // Handle chapters
+      String chapterText = chapter['chapterNumber'];
+      textItems.add(ReaderTextItems.chapterHeading(chapterText, context));
+      if (splitByParagraph == true) {
+        textItems.add(ReaderTextItems.newParagraph(context));
+      }
+      
+      // Handle chapter contents
       // At this point we don't know what the datatype is going to be
       for (var chapterContents in chapter["contents"]) {
         //log(chapterContents.toString());
 
         if (chapterContents is List<dynamic>) {
+
+          // Handle chapter section headings
           if (chapterContents[0] is Map<String, dynamic>) {
             //log(chapterContents[0].toString());
-            textItems.add(ReaderTextItems.sectionHeading(chapterContents[0]["s1"][0], context));
+            //textItems.add(ReaderTextItems.sectionHeading(chapterContents[0]["s1"][0], context));
           }
         } else if (chapterContents is Map<String, dynamic>) {
           for (String key in chapterContents.keys) {
-            //log(key.toString());
+
+            // Handle new paragraphs
+            if (key == "contents") {
+              if (splitByParagraph == true) {
+                // We're looking for the indication of a new paragraph: "p" representing /p in the ESFM
+                for (var innerMap in chapterContents[key]) {
+                  if (innerMap is Map) {
+                    //log(innerMap.toString());
+                    if (innerMap.containsKey("p")) {
+                      isNewParagraph = true;
+                    }
+                  }
+                }
+              }
+            }
+
+            // Handle verse numbers
             if (key == "verseNumber") {
-              textItems.add(ReaderTextItems.verseNumber(chapterContents[key], context));
-            } else if (key == "verseText") {
+              String verseNumberText = chapterContents[key];
+
+              // Verse numbers can either be th beginning of a verse or, in splitByParagraph
+              // mode, potentially the beginning of a paragraph.
+              if (isNewParagraph == true) {
+                // Add a new break between paragraphs
+                textItems.add(ReaderTextItems.newParagraph(context));
+                isNewParagraph = false;
+              } else {
+                if (splitByParagraph != true) {
+                  // Add newline between each verse
+                  verseNumberText = "\n$verseNumberText"; 
+                }
+              }
+              textItems.add(ReaderTextItems.verseNumber(verseNumberText, context));
+
+            // Handle verse text
+            } else if (key == "verseText") {         
               // Note: we remove Strongs numbers for now
               textItems.add(ReaderTextItems.verseText(chapterContents[key].replaceAll(RegExp(r"¦([0-9])\w+"), ''), context));
 
-              textItems.add(ReaderTextItems.verseLinkText('G5676', (context){log('hello');}, context));
-            }
+              //textItems.add(ReaderTextItems.verseLinkText('G5676', (context){log('hello');}, context));
+            } 
           }
         }
       }
     }
     return textItems;
-  }
-
-
-  /// 
-  List<InlineSpan> buildReaderTextSpans(Map<String, dynamic> jsonData, BuildContext context) {
-    List<InlineSpan> spans = [];
-
-    for (var item in buildTextItemsFromJson(jsonData, context)) {
-
-      // Add space between chapters
-      if (item.type == TextItemType.chapterHeading && item.text != ('Chapter 1')) {
-        spans.add(const WidgetSpan(
-          alignment: PlaceholderAlignment.top,
-          baseline: TextBaseline.alphabetic,
-          child: SizedBox(height: 50)
-        ));
-      } 
-
-      TextSpan span;
-      if (item.callback == null) {
-        span = TextSpan(
-          text: item.text,
-          style: item.style,
-        );
-      } else {
-        // Link
-        span = TextSpan(
-          text: item.text,
-          style: item.style,
-          recognizer: TapGestureRecognizer()..onTap = () => item.callback!(context),
-        );
-      }
-
-      if (item.type == TextItemType.verseNumber) {
-        // Add space between verses
-        spans.add(const WidgetSpan(
-          alignment: PlaceholderAlignment.top,
-          baseline: TextBaseline.alphabetic,
-          child: SizedBox(height: 30)
-        ));
-      }
-
-      spans.add(span);
-    }
-    return spans;
   }
 }

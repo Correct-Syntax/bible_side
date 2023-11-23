@@ -101,7 +101,7 @@ class _ReaderViewState extends State<ReaderView> {
                   ).loadJson(),
                   builder: (context, snapshot) {
                     if (snapshot.hasData && snapshot.data != null) {
-                      List<InlineSpan> spans = ReaderContentBuilder().buildReaderTextSpans(snapshot.data!, context);
+                      List<InlineSpan> spans = ReaderContentBuilder().buildReaderTextSpans(snapshot.data!, context, false);
           
                       return RichText(
                         text: TextSpan(
@@ -136,8 +136,9 @@ class _ReaderViewState extends State<ReaderView> {
                   ).loadJson(),
                   builder: (context, snapshot) {
                     if (snapshot.hasData && snapshot.data != null) {
-                      List<InlineSpan> spans = ReaderContentBuilder().buildReaderTextSpans(snapshot.data!, context);
+                      List<InlineSpan> spans = ReaderContentBuilder().buildReaderTextSpans(snapshot.data!, context, true);
                       return RichText(
+                        //textHeightBehavior: TextHeightBehavior(),
                         text: TextSpan(
                           children: spans
                         )
