@@ -72,6 +72,10 @@ class TextItemStyles {
     return Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 20, fontWeight: FontWeight.w500);
   }
 
+  static TextStyle sectionHeading(context) {
+    return Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 20, fontWeight: FontWeight.w500);
+  }
+
   static TextStyle bodyMedium(context) {
     return Theme.of(context).textTheme.bodyMedium!;
   }
@@ -113,7 +117,7 @@ class ReaderTextItems {
     return TextItem(
       text: '\n$heading ',
       type: TextItemType.sectionHeading,
-      style: TextItemStyles.bodyMedium(context)
+      style: TextItemStyles.sectionHeading(context)
     );
   }
 
@@ -261,7 +265,7 @@ class ReaderContentBuilder {
     List<dynamic> chaptersData = json['chapters'];
     
     // Loop through chapter data
-    for (Map<String, dynamic>chapter in chaptersData) {
+    for (Map<String, dynamic> chapter in chaptersData) {
       bool isNewParagraph = false;
 
       // Handle chapters
@@ -277,14 +281,15 @@ class ReaderContentBuilder {
         //log(chapterContents.toString());
 
         if (chapterContents is List<dynamic>) {
-
-          // Handle chapter section headings
-          if (chapterContents[0] is Map<String, dynamic>) {
-            //log(chapterContents[0].toString());
-            //textItems.add(ReaderTextItems.sectionHeading(chapterContents[0]["s1"][0], context));
-          }
+          
         } else if (chapterContents is Map<String, dynamic>) {
           for (String key in chapterContents.keys) {
+
+            // Handle chapter section headings
+            if (key == 's1') {
+              //log(chapterContents.toString());
+              textItems.add(ReaderTextItems.sectionHeading(chapterContents["s1"], context));
+            }
 
             // Handle new paragraphs
             if (key == "contents") {
