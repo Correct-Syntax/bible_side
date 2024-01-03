@@ -12,8 +12,8 @@ LV_source_url = "https://raw.githubusercontent.com/Freely-Given-org/OpenEnglishT
 
 download_dir = "/.temp"
 
-RV_local_path = "/RV/"
-LV_local_path = "/LV/"
+RV_local_path = "/OET-RV/"
+LV_local_path = "/OET-LV/"
 
 # Currently only includes the NT
 RV_file_mapping = {
