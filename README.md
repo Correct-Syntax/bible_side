@@ -29,6 +29,11 @@ BibleSide is built with Flutter using Stacked Architecture.
 - Hit ``F5`` to run the code in the emulator.
 
 
+## Note on Bible versions
+
+Bible versions are treated as separate Bibles. e.g: The OET-RV and OET-LV are treated as a separate bible version.
+
+
 ## OET file conversion
 
 There is a Python script in ``/assets/bibles`` that will automatically update the json files from the GitHub sources.
