@@ -1,6 +1,6 @@
 # BibleSide
 
-BibleSide is a simple, offline Bible app inspired by the Material 3 design system.
+BibleSide is a simple, offline Bible app inspired by the Material 3 design system, featuring the OET.
 
 The goal is for multiple translations (KJV, etc) to be added in the future, but integrating the [OET (Open English Translation)](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET) is the primary focus right now.
 
@@ -15,29 +15,27 @@ BibleSide implements the OET's "Reader's" version in the main area and a toggle 
 - Bug: Scrolling between the two versions is synced too well? Since the Literal version is lengthier, verses can be in different locations or even off screen.
 
 
-## Feedback/Contributing
+## Feedback/contributing
 
-Feedback is welcome. To help out please open an issue.
+Feedback and contributions are welcome. To help out please open an issue.
 
 
 ## Development
 
-BibleSide uses Flutter.
+BibleSide is built with Flutter using Stacked Architecture.
 
-Build and run with
-
-```bash
-flutter run
-```
+- Run ``flutter pub get`` to install the dependencies.
+- Choose an emulator or a connected device.
+- Hit ``F5`` to run the code in the emulator.
 
 
 ## OET file conversion
 
-There is a Python script in /assets/EOT that will automatically update the json files from the GitHub sources.
+There is a Python script in ``/assets/bibles`` that will automatically update the json files from the GitHub sources.
 
 The ESFM files from [here (OET Reader's version)](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET/tree/main/translatedTexts/ReadersVersion) and [here (OET Literal version)](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET/tree/main/intermediateTexts/auto_edited_VLT_ESFM) are run through [usfm-grammar](https://github.com/Bridgeconn/usfm-grammar) in ``relaxed`` mode for conversion to JSON.
 
-Navigate to ``/assets/EOT`` and run the file with ``python update_OET_json.py``.
+Navigate to ``/assets/bibles`` and run the file with ``python update_OET_json.py``.
 
 
 ## License
