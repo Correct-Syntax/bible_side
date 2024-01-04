@@ -15,12 +15,11 @@ class ReaderService {
   Map<String, dynamic> get topJson => _biblesService.topJson;
   Map<String, dynamic> get bottomJson => _biblesService.bottomJson;
 
-  List<InlineSpan> getPaginatedVerses(int pageKey, BuildContext context) {
-    _biblesService.setChapter(pageKey);
-    return buildTextItemsFromOETJson(topJson, false, pageKey, context);
+  List<Map<String, dynamic>> getPaginatedVerses(int pageKey, BuildContext context) {
+    return buildTextFromOETJson(topJson, false, pageKey, context);
   }
 
-  List<InlineSpan> buildTextItemsFromOETJson(Map<String, dynamic> json,
+  List<Map<String, dynamic>> buildTextFromOETJson(Map<String, dynamic> json,
       bool splitByParagraph, int pageKey, BuildContext context) {
     List<InlineSpan> spans = [];
     List<TextSpan> verseSpans = [];
@@ -63,7 +62,6 @@ class ReaderService {
     bool isNewParagraph = false;
     bool isSection = false;
     for (Map<String, dynamic> item in chapterContents) {
-      //log('>> '+item.toString()+'\n\n');
 
       for (String key in item.keys) {
         //log(key.toString()+'>>'+item.toString());
@@ -152,6 +150,9 @@ class ReaderService {
     // for (var item in textItems) {
     //   log(item.type.name.toString()+' | '+item.text.toString()+'\n');
     // }
-    return spans;
+    return [{
+      'spans': spans,
+      'chapter': chapterNumber,
+    }];
   }
 }

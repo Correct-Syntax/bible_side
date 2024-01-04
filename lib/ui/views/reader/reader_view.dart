@@ -2,6 +2,7 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:material_symbols_icons/symbols.dart';
 import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
+import 'package:visibility_detector/visibility_detector.dart';
 import 'package:stacked/stacked.dart';
 
 import '../../widgets/common/side_navigation_drawer/side_navigation_drawer.dart';
@@ -20,23 +21,22 @@ class ReaderView extends StackedView<ReaderViewModel> {
     await viewModel.initilize();
     viewModel.pagingController.addPageRequestListener((pageKey) {
       fetchChapter(pageKey, viewModel);
-      viewModel.updateInterface();
+      //viewModel.updateInterface();
     });
     viewModel.updateInterface();
     super.onViewModelReady(viewModel);
   }
 
   Future<void> fetchChapter(int pageKey, ReaderViewModel viewModel) async {
-    List<InlineSpan> newPage = viewModel.getPaginatedVerses(pageKey);
+    List<Map<String, dynamic>> newPage = viewModel.getPaginatedVerses(pageKey);
 
-    final List<InlineSpan> newItems = newPage;
-    final bool isLastPage = newItems.isEmpty;
+    final bool isLastPage = newPage.isEmpty;
 
     if (isLastPage) {
-      viewModel.pagingController.appendLastPage(newItems);
+      viewModel.pagingController.appendLastPage(newPage);
     } else {
       final int nextPageKey = pageKey + 1;
-      viewModel.pagingController.appendPage(newItems, nextPageKey);
+      viewModel.pagingController.appendPage(newPage, nextPageKey);
     }
     viewModel.updateInterface();
     log('Fetched chapter');
@@ -69,15 +69,19 @@ class ReaderView extends StackedView<ReaderViewModel> {
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 14.0),
         child: SafeArea(
-          child: PagedListView<int, InlineSpan>(
+          child: PagedListView<int, Map<String, dynamic>>(
             pagingController: viewModel.pagingController,
-            builderDelegate: PagedChildBuilderDelegate<InlineSpan>(
+            builderDelegate: PagedChildBuilderDelegate<Map<String, dynamic>>(
                 itemBuilder: (context, item, index) {
-              return Container(
-                margin: const EdgeInsets.symmetric(vertical: 1.0),
-                child: RichText(text: item),
+              return VisibilityDetector(
+                key: ValueKey('${item['chapter']}'),
+                onVisibilityChanged: (VisibilityInfo visibilityInfo) => viewModel.setChapter(item['chapter']),
+                child: Container(
+                  margin: const EdgeInsets.symmetric(vertical: 1.0),
+                  child: RichText(text: TextSpan(children: item['spans'])),
+                ),
               );
-            }),
+            },),
           ),
         ),
       ),

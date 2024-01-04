@@ -23,8 +23,7 @@ class ReaderViewModel extends ReactiveViewModel {
 
   final BuildContext context;
 
-  PagingController<int, InlineSpan> pagingController =
-      PagingController<int, InlineSpan>(
+  PagingController<int, Map<String, dynamic>> pagingController = PagingController(
     firstPageKey: 1,
   );
 
@@ -37,7 +36,16 @@ class ReaderViewModel extends ReactiveViewModel {
     rebuildUi();
   }
 
-  List<InlineSpan> getPaginatedVerses(int pageKey) {
+  void setChapter(dynamic chapter) {
+    if (chapter.runtimeType == String) {
+      _biblesService.setChapter(int.parse(chapter));
+    } else {
+      _biblesService.setChapter(chapter);
+    }
+    rebuildUi();
+  }
+
+  List<Map<String, dynamic>> getPaginatedVerses(int pageKey) {
     return _readerService.getPaginatedVerses(pageKey, context);
   }
 
