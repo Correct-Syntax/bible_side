@@ -28,7 +28,7 @@ class BiblesService with ListenableServiceMixin {
     // TODO: fetch settings
 
     await loadBibleVersion(AreaType.top);
-    //await loadBibleVersion(AreaType.bottom);
+    await loadBibleVersion(AreaType.bottom);
   }
 
   void setChapter(int newChapter) {

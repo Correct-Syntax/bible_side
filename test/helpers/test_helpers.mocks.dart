@@ -1144,9 +1144,10 @@ class MockReaderService extends _i1.Mock implements _i12.ReaderService {
       ) as Map<String, dynamic>);
 
   @override
-  List<_i4.InlineSpan> getPaginatedVerses(
+  List<Map<String, dynamic>> getPaginatedVerses(
     int? pageKey,
     _i4.BuildContext? context,
+    _i8.AreaType? areaType,
   ) =>
       (super.noSuchMethod(
         Invocation.method(
@@ -1154,14 +1155,32 @@ class MockReaderService extends _i1.Mock implements _i12.ReaderService {
           [
             pageKey,
             context,
+            areaType,
           ],
         ),
-        returnValue: <_i4.InlineSpan>[],
-        returnValueForMissingStub: <_i4.InlineSpan>[],
-      ) as List<_i4.InlineSpan>);
+        returnValue: <Map<String, dynamic>>[],
+        returnValueForMissingStub: <Map<String, dynamic>>[],
+      ) as List<Map<String, dynamic>>);
 
   @override
-  List<_i4.InlineSpan> buildTextItemsFromOETJson(
+  List<Map<String, dynamic>> getBottomPaginatedVerses(
+    int? pageKey,
+    _i4.BuildContext? context,
+  ) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #getBottomPaginatedVerses,
+          [
+            pageKey,
+            context,
+          ],
+        ),
+        returnValue: <Map<String, dynamic>>[],
+        returnValueForMissingStub: <Map<String, dynamic>>[],
+      ) as List<Map<String, dynamic>>);
+
+  @override
+  List<Map<String, dynamic>> buildTextFromOETJson(
     Map<String, dynamic>? json,
     bool? splitByParagraph,
     int? pageKey,
@@ -1169,7 +1188,7 @@ class MockReaderService extends _i1.Mock implements _i12.ReaderService {
   ) =>
       (super.noSuchMethod(
         Invocation.method(
-          #buildTextItemsFromOETJson,
+          #buildTextFromOETJson,
           [
             json,
             splitByParagraph,
@@ -1177,9 +1196,9 @@ class MockReaderService extends _i1.Mock implements _i12.ReaderService {
             context,
           ],
         ),
-        returnValue: <_i4.InlineSpan>[],
-        returnValueForMissingStub: <_i4.InlineSpan>[],
-      ) as List<_i4.InlineSpan>);
+        returnValue: <Map<String, dynamic>>[],
+        returnValueForMissingStub: <Map<String, dynamic>>[],
+      ) as List<Map<String, dynamic>>);
 }
 
 /// A class which mocks [JsonService].

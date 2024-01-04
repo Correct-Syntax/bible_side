@@ -2,6 +2,7 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 
 import '../app/app.locator.dart';
+import '../common/enums.dart';
 import '../models/text_item.dart';
 import '../ui/views/reader/widgets/inline_spans.dart';
 import 'bibles_service.dart';
@@ -15,8 +16,16 @@ class ReaderService {
   Map<String, dynamic> get topJson => _biblesService.topJson;
   Map<String, dynamic> get bottomJson => _biblesService.bottomJson;
 
-  List<Map<String, dynamic>> getPaginatedVerses(int pageKey, BuildContext context) {
-    return buildTextFromOETJson(topJson, false, pageKey, context);
+  List<Map<String, dynamic>> getPaginatedVerses(
+      int pageKey, BuildContext context, AreaType areaType) {
+    
+    if (areaType == AreaType.top) {
+      return buildTextFromOETJson(topJson, true, pageKey, context);
+    } else if (areaType == AreaType.bottom) {
+      return buildTextFromOETJson(bottomJson, false, pageKey, context);
+    } else {
+      return [];
+    }
   }
 
   List<Map<String, dynamic>> buildTextFromOETJson(Map<String, dynamic> json,
@@ -62,7 +71,6 @@ class ReaderService {
     bool isNewParagraph = false;
     bool isSection = false;
     for (Map<String, dynamic> item in chapterContents) {
-
       for (String key in item.keys) {
         //log(key.toString()+'>>'+item.toString());
         if (key == 's1') {
@@ -150,9 +158,11 @@ class ReaderService {
     // for (var item in textItems) {
     //   log(item.type.name.toString()+' | '+item.text.toString()+'\n');
     // }
-    return [{
-      'spans': spans,
-      'chapter': chapterNumber,
-    }];
+    return [
+      {
+        'spans': spans,
+        'chapter': chapterNumber,
+      }
+    ];
   }
 }
