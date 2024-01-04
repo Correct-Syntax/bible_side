@@ -1,5 +1,0 @@
-
-
-enum BibleVersion {
-  theOET,
-}

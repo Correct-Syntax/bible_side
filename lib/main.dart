@@ -1,71 +1,53 @@
-/*
-BibleSide Copyright 2023 Noah Rahm
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
-*/
-
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+import 'package:stacked_themes/stacked_themes.dart';
+import 'package:stacked_services/stacked_services.dart';
 
-import 'views/main_view.dart';
-import 'core/provider.dart';
+// import 'app/app.bottomsheets.dart';
+// import 'app/app.dialogs.dart';
+import 'app/app.locator.dart';
+import 'app/app.router.dart';
 
-
-void main() {
-  runApp(const MyApp());
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await setupLocator();
+  await ThemeManager.initialise();
+  //setupDialogUi();
+  //setupBottomSheetUi();
+  runApp(const MainApp());
 }
 
-class MyApp extends StatefulWidget {
-  const MyApp({super.key});
-
-  @override
-  State<MyApp> createState() => _MyAppState();
-}
-
-class _MyAppState extends State<MyApp> {
-  AppSettingsProvider appSettingsProvider = AppSettingsProvider();
-   
-  @override
-  void initState() {
-    super.initState();
-    getCurrentAppTheme();
-  }
-
-  void getCurrentAppTheme() async {
-    appSettingsProvider.isDarkTheme = await appSettingsProvider.appSettings.getIsDarkTheme();
-  }
+class MainApp extends StatelessWidget {
+  const MainApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MultiProvider(
-      providers: [
-        ChangeNotifierProvider<AppSettingsProvider>(create: (context) => appSettingsProvider),   
-        ChangeNotifierProvider<AppProvider>(create: (context) => AppProvider()),   
-      ],
-      child: Consumer<AppSettingsProvider>(
-        builder: (context, settingsProvider, child) => MaterialApp(
-          title: 'BibleSide',
-          debugShowCheckedModeBanner: false,
-          theme: ThemeData(
-            colorScheme: ColorScheme.fromSeed(
-              brightness: settingsProvider.isDarkTheme ? Brightness.dark : Brightness.light, 
-              seedColor: const Color.fromARGB(255, 18, 59, 89)
-            ),
-            useMaterial3: true,
-          ),
-          home: const MainView(),
+    return ThemeBuilder(
+      darkTheme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(
+          brightness: Brightness.dark,
+          seedColor: const Color.fromARGB(255, 18, 59, 89),
         ),
+        useMaterial3: true,
+      ),
+      lightTheme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(
+          brightness: Brightness.light,
+          seedColor: const Color.fromARGB(255, 18, 59, 89),
+        ),
+        useMaterial3: true,
+      ),
+      builder: (context, regularTheme, darkTheme, themeMode) => MaterialApp(
+        title: 'BibleSide',
+        debugShowCheckedModeBanner: false,
+        theme: regularTheme,
+        darkTheme: darkTheme,
+        themeMode: themeMode,
+        initialRoute: Routes.startupView,
+        onGenerateRoute: StackedRouter().onGenerateRoute,
+        navigatorKey: StackedService.navigatorKey,
+        navigatorObservers: [
+          StackedService.routeObserver,
+        ],
       ),
     );
   }
