@@ -3,7 +3,6 @@ Map<String, String> bookMapping = {
   'MRK': 'Mark',
   'LUK': 'Luke',
   'JHN': 'John',
-  'JHN_TEST': 'John (test)',
   'ACT': 'Acts',
   'ROM': 'Romans',
   'CO1': '1 Corinthians',
