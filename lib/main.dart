@@ -25,7 +25,7 @@ class MainApp extends StatelessWidget {
       darkTheme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
           brightness: Brightness.dark,
-          seedColor: const Color.fromARGB(255, 18, 59, 89),
+          seedColor: const Color(0xFF123B59),
         ),
         useMaterial3: true,
       ),
@@ -37,7 +37,7 @@ class MainApp extends StatelessWidget {
         useMaterial3: true,
       ),
       builder: (context, regularTheme, darkTheme, themeMode) => MaterialApp(
-        title: 'BibleSide',
+        title: 'Bibleside',
         debugShowCheckedModeBanner: false,
         theme: regularTheme,
         darkTheme: darkTheme,

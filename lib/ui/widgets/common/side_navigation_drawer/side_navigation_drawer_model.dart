@@ -11,6 +11,6 @@ class SideNavigationDrawerModel extends FutureViewModel<String> {
 
   Future<String> getAppVersion() async {
     String appVersion = await _appInfoService.getAppVersion();
-    return 'BibleSide v$appVersion';
+    return 'Bibleside v$appVersion';
   }
 }

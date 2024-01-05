@@ -36,7 +36,7 @@ class SettingsView extends StackedView<SettingsViewModel> {
               const Divider(height: 0),
               ListTile(
                 leading: const Icon(Icons.info_outline),
-                title: const Text('BibleSide'),
+                title: const Text('Bibleside'),
                 subtitle: Text(viewModel.isBusy ? '' : viewModel.data!),
               ),
             ],

@@ -1,12 +1,12 @@
-# BibleSide
+# Bibleside
 
-BibleSide is a simple, offline Bible app inspired by the Material 3 design system, featuring the OET.
+Bibleside is a simple, offline Bible app inspired by the Material 3 design system, featuring the OET.
 
 The goal is for multiple translations (KJV, etc) to be added in the future, but integrating the [OET (Open English Translation)](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET) is the primary focus right now.
 
 The OET is a new, open-licensed Bible translation (currently in ``draft`` state) featuring multiple versions intended to be used together. <sup>Please see the OET README for more info on what makes it different than other translations.</sup>
 
-BibleSide implements the OET's "Reader's" version in the main area and a toggle to show the "Literal" and "Reader's" versions side-by-side. The two can be scrolled together for easy comparison. The layout and interface patterns are likely to evolve over time.
+Bibleside implements the OET's "Reader's" version in the main area and a toggle to show the "Literal" and "Reader's" versions side-by-side. The two can be scrolled together for easy comparison. The layout and interface patterns are likely to evolve over time.
 
 
 ## Known issues
@@ -22,7 +22,7 @@ Feedback and contributions are welcome. To help out please open an issue.
 
 ## Development
 
-BibleSide is built with Flutter using Stacked Architecture.
+Bibleside is built with Flutter using Stacked Architecture.
 
 - Run ``flutter pub get`` to install the dependencies.
 - Choose an emulator or a connected device.
@@ -45,4 +45,4 @@ Navigate to ``/assets/bibles`` and run the file with ``python update_OET_json.py
 
 ## License
 
-BibleSide is licensed under the GPL-3.0 license. See LICENSE for more information.
+Bibleside is licensed under the GPL-3.0 license. See LICENSE for more information.

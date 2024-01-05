@@ -1163,23 +1163,6 @@ class MockReaderService extends _i1.Mock implements _i12.ReaderService {
       ) as List<Map<String, dynamic>>);
 
   @override
-  List<Map<String, dynamic>> getBottomPaginatedVerses(
-    int? pageKey,
-    _i4.BuildContext? context,
-  ) =>
-      (super.noSuchMethod(
-        Invocation.method(
-          #getBottomPaginatedVerses,
-          [
-            pageKey,
-            context,
-          ],
-        ),
-        returnValue: <Map<String, dynamic>>[],
-        returnValueForMissingStub: <Map<String, dynamic>>[],
-      ) as List<Map<String, dynamic>>);
-
-  @override
   List<Map<String, dynamic>> buildTextFromOETJson(
     Map<String, dynamic>? json,
     bool? splitByParagraph,

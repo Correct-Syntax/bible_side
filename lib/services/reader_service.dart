@@ -18,7 +18,6 @@ class ReaderService {
 
   List<Map<String, dynamic>> getPaginatedVerses(
       int pageKey, BuildContext context, AreaType areaType) {
-    
     if (areaType == AreaType.top) {
       return buildTextFromOETJson(topJson, true, pageKey, context);
     } else if (areaType == AreaType.bottom) {

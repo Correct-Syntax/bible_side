@@ -11,6 +11,7 @@ import 'package:bible_side/services/side_navigation_service.dart';
 import 'package:stacked_themes/stacked_themes.dart';
 import 'package:bible_side/services/reader_service.dart';
 import 'package:bible_side/services/json_service.dart';
+import 'package:bible_side/ui/views/reader_navigation/reader_navigation_view.dart';
 // @stacked-import
 
 @StackedApp(
@@ -19,6 +20,7 @@ import 'package:bible_side/services/json_service.dart';
     MaterialRoute(page: StartupView),
     MaterialRoute(page: SettingsView),
     MaterialRoute(page: ReaderView),
+    MaterialRoute(page: ReaderNavigationView),
 // @stacked-route
   ],
   dependencies: [

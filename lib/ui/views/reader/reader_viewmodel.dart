@@ -11,7 +11,7 @@ import '../../../services/reader_service.dart';
 import '../../../services/side_navigation_service.dart';
 
 class ReaderViewModel extends ReactiveViewModel {
-  final _sideNavigationService = locator<SideNavigationService>();  
+  final _sideNavigationService = locator<SideNavigationService>();
   final _biblesService = locator<BiblesService>();
   final _readerService = locator<ReaderService>();
 
@@ -87,7 +87,8 @@ class ReaderViewModel extends ReactiveViewModel {
     rebuildUi();
   }
 
-  List<Map<String, dynamic>> getPaginatedVerses(int pageKey, AreaType areaType) {
+  List<Map<String, dynamic>> getPaginatedVerses(
+      int pageKey, AreaType areaType) {
     log(areaType.toString());
     return _readerService.getPaginatedVerses(pageKey, context, areaType);
   }

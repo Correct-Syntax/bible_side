@@ -27,7 +27,7 @@ class StartupView extends StackedView<StartupViewModel> {
             const Text(
               'Loading in Bibles...',
               style: TextStyle(
-                color: Color.fromARGB(200, 255, 255, 255),              
+                color: Color.fromARGB(200, 255, 255, 255),
                 fontSize: 13.0,
                 fontWeight: FontWeight.w500,
               ),

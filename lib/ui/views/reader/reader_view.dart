@@ -60,7 +60,8 @@ class ReaderView extends StackedView<ReaderViewModel> {
               enableDrag: false,
               builder: (BuildContext context) {
                 return Padding(
-                  padding: const EdgeInsets.only(top: 20.0, left: 14.0, right: 14.0),
+                  padding:
+                      const EdgeInsets.only(top: 20.0, left: 14.0, right: 14.0),
                   child: PagedListView<int, Map<String, dynamic>>(
                     scrollController: viewModel.bottomController,
                     pagingController: viewModel.bottomPagingController,
@@ -75,7 +76,8 @@ class ReaderView extends StackedView<ReaderViewModel> {
                           child: Container(
                             margin: const EdgeInsets.symmetric(vertical: 1.0),
                             child: RichText(
-                                text: TextSpan(children: item['spans']),),
+                              text: TextSpan(children: item['spans']),
+                            ),
                           ),
                         );
                       },
@@ -99,7 +101,9 @@ class ReaderView extends StackedView<ReaderViewModel> {
                       viewModel.setChapter(item['chapter']),
                   child: Container(
                     margin: const EdgeInsets.symmetric(vertical: 1.0),
-                    child: RichText(text: TextSpan(children: item['spans']),),
+                    child: RichText(
+                      text: TextSpan(children: item['spans']),
+                    ),
                   ),
                 );
               },
