@@ -28,7 +28,8 @@ InlineSpan headingSectionSpan(BuildContext context, String verseText,
         Expanded(
           child: Container(
             decoration: BoxDecoration(
-              border: Border.all(width: 1, color: Colors.white70),
+              border: Border.all(
+                  width: 1, color: Theme.of(context).colorScheme.outline),
             ),
             padding: const EdgeInsets.all(4.0),
             margin: const EdgeInsets.only(left: 10.0),
