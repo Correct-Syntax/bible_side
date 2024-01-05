@@ -33,11 +33,11 @@ Future<void> setupLocator({
   locator.registerLazySingleton(() => BottomSheetService());
   locator.registerLazySingleton(() => DialogService());
   locator.registerLazySingleton(() => NavigationService());
+  locator.registerLazySingleton(() => ThemeService());
   locator.registerLazySingleton(() => BiblesService());
   locator.registerLazySingleton(() => SettingsService());
   locator.registerLazySingleton(() => AppInfoService());
   locator.registerLazySingleton(() => SideNavigationService());
-  locator.registerLazySingleton(() => ThemeService());
   locator.registerLazySingleton(() => ReaderService());
   locator.registerLazySingleton(() => JsonService());
 }

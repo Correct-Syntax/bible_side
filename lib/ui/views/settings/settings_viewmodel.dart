@@ -1,5 +1,4 @@
 import 'package:stacked/stacked.dart';
-import 'package:stacked_themes/stacked_themes.dart';
 
 import '../../../app/app.locator.dart';
 import '../../../services/app_info_service.dart';
@@ -7,7 +6,6 @@ import '../../../services/settings_service.dart';
 import '../../../services/side_navigation_service.dart';
 
 class SettingsViewModel extends FutureViewModel<String> {
-  final _themeService = locator<ThemeService>();
   final _settingsService = locator<SettingsService>();
   final _appInfoService = locator<AppInfoService>();
   final _sideNavigationService = locator<SideNavigationService>();
@@ -24,8 +22,6 @@ class SettingsViewModel extends FutureViewModel<String> {
   }
 
   void setIsDarkTheme(bool value) async {
-    _themeService.setThemeMode(
-        value == true ? ThemeManagerMode.dark : ThemeManagerMode.light);
     await _settingsService.setIsDarkTheme(value);
     rebuildUi();
   }

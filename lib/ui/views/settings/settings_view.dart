@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
+import 'package:stacked_themes/stacked_themes.dart';
 
 import '../../widgets/common/side_navigation_drawer/side_navigation_drawer.dart';
 import 'settings_viewmodel.dart';
@@ -30,7 +31,13 @@ class SettingsView extends StackedView<SettingsViewModel> {
                 subtitle: const Text('Toggle dark interface theme'),
                 trailing: Switch(
                   value: viewModel.isDarkTheme,
-                  onChanged: viewModel.setIsDarkTheme,
+                  onChanged: (bool value) async {
+                    var themeManger = getThemeManager(context);
+                    viewModel.setIsDarkTheme(value);
+                    themeManger.setThemeMode(
+                      value == true ? ThemeMode.dark : ThemeMode.light,
+                    );
+                  },
                 ),
               ),
               const Divider(height: 0),
