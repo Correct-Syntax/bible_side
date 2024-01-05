@@ -13,11 +13,26 @@ class StartupView extends StackedView<StartupViewModel> {
     StartupViewModel viewModel,
     Widget? child,
   ) {
-    return const Scaffold(
+    return Scaffold(
+      backgroundColor: const Color(0xFF1F3D57),
       body: Center(
         child: Column(
           mainAxisSize: MainAxisSize.min,
-          children: [],
+          children: [
+            Image.asset(
+              'assets/images/logo.png',
+              width: 260,
+            ),
+            const SizedBox(height: 20),
+            const Text(
+              'Loading in Bibles...',
+              style: TextStyle(
+                color: Color.fromARGB(200, 255, 255, 255),              
+                fontSize: 13.0,
+                fontWeight: FontWeight.w500,
+              ),
+            ),
+          ],
         ),
       ),
     );
