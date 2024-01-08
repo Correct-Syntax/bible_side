@@ -43,6 +43,11 @@ The ESFM files from [here (OET Reader's version)](https://github.com/Freely-Give
 Navigate to ``/assets/bibles`` and run the file with ``python update_OET_json.py``.
 
 
+## Updating the OET sections
+
+After converting the OET ESFM to json, navigate to ``/assets/bibles`` and run the ``update_OET_sections.py`` file in ``/assets/bibles``. This will generate a .dart file mapping of the OET sections for use in Bibleside.
+
+
 ## License
 
 Bibleside is licensed under the GPL-3.0 license. See LICENSE for more information.
