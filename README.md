@@ -11,8 +11,8 @@ Bibleside implements the OET's "Reader's" version in the main area and a toggle 
 
 ## Known issues
 
-- Bug (or feature?): Closing and reopening the literal version bottom sheet causes the reader's version to scroll back to the start.
 - Bug: Scrolling between the two versions is synced too well? Since the Literal version is lengthier, verses can be in different locations or even off screen.
+- Inner sections of the Reader's version are misaligned.
 
 
 ## Feedback/contributing
