@@ -23,15 +23,6 @@ class StartupView extends StackedView<StartupViewModel> {
               'assets/images/logo.png',
               width: 260,
             ),
-            const SizedBox(height: 20),
-            const Text(
-              'Loading in Bibles...',
-              style: TextStyle(
-                color: Color.fromARGB(200, 255, 255, 255),
-                fontSize: 13.0,
-                fontWeight: FontWeight.w500,
-              ),
-            ),
           ],
         ),
       ),
