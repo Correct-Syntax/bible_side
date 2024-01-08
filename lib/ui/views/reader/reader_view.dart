@@ -34,14 +34,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
     return Scaffold(
       appBar: AppBar(
         title: InkWell(
-          onTap: () {
-            // Navigator.of(context).push(
-            //   MaterialPageRoute(
-            //     builder: (context) => const ReaderNavigation(),
-            //     fullscreenDialog: true
-            //   )
-            // );
-          },
+          onTap: viewModel.onNavigationBtn,
           child: Text(
             viewModel.getcurrentNavigationString(
               viewModel.bookCode,

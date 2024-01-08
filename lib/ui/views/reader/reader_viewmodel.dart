@@ -3,8 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
 import 'package:linked_scroll_controller/linked_scroll_controller.dart';
 import 'package:stacked/stacked.dart';
+import 'package:stacked_services/stacked_services.dart';
 
 import '../../../app/app.locator.dart';
+import '../../../app/app.router.dart';
 import '../../../common/enums.dart';
 import '../../../services/bibles_service.dart';
 import '../../../services/reader_service.dart';
@@ -14,6 +16,7 @@ class ReaderViewModel extends ReactiveViewModel {
   final _sideNavigationService = locator<SideNavigationService>();
   final _biblesService = locator<BiblesService>();
   final _readerService = locator<ReaderService>();
+  final _navigationService = locator<NavigationService>();
 
   int get currentIndex => _sideNavigationService.currentIndex;
 
@@ -89,7 +92,6 @@ class ReaderViewModel extends ReactiveViewModel {
 
   List<Map<String, dynamic>> getPaginatedVerses(
       int pageKey, AreaType areaType) {
-    log(areaType.toString());
     return _readerService.getPaginatedVerses(pageKey, context, areaType);
   }
 
@@ -100,6 +102,10 @@ class ReaderViewModel extends ReactiveViewModel {
   String getcurrentNavigationString(String bookCode, int chapter) {
     final navStr = '${_biblesService.bookCodeToBook(bookCode)} $chapter';
     return navStr;
+  }
+
+  void onNavigationBtn() {
+    _navigationService.navigateToReaderNavigationView();
   }
 
   void toggleBottomSheet() {

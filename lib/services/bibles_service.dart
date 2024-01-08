@@ -10,9 +10,9 @@ class BiblesService with ListenableServiceMixin {
   final _jsonService = locator<JsonService>();
 
   BiblesService() {
-    listenToReactiveValues([chapter, bookCode]);
+    listenToReactiveValues([chapter, bookCode, topBibleCode, bottomBibleCode, viewBy]);
   }
-
+  // Idea: generate 
   // BibleVersion topBibleVersion = BibleVersion.oetReaders;
   // BibleVersion bottomBibleVersion = BibleVersion.oetLiteral;
 
@@ -24,15 +24,30 @@ class BiblesService with ListenableServiceMixin {
   String topBibleCode = 'OET-RV';
   String bottomBibleCode = 'OET-LV';
 
+  ViewBy viewBy = ViewBy.chapter;
+
   Future<void> initilize() async {
     // TODO: fetch settings
+    await reloadBiblesJson();
+  }
 
+  Future<void> reloadBiblesJson() async {
     await loadBibleVersion(AreaType.top);
     await loadBibleVersion(AreaType.bottom);
   }
 
+  void setBookCode(String book) {
+    bookCode = book;
+    notifyListeners();
+  }
+
   void setChapter(int newChapter) {
     chapter = newChapter;
+    notifyListeners();
+  }
+
+  void setViewBy(ViewBy view) {
+    viewBy = view;
     notifyListeners();
   }
 

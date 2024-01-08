@@ -793,6 +793,22 @@ class MockBiblesService extends _i1.Mock implements _i7.BiblesService {
       );
 
   @override
+  _i8.ViewBy get viewBy => (super.noSuchMethod(
+        Invocation.getter(#viewBy),
+        returnValue: _i8.ViewBy.chapter,
+        returnValueForMissingStub: _i8.ViewBy.chapter,
+      ) as _i8.ViewBy);
+
+  @override
+  set viewBy(_i8.ViewBy? _viewBy) => super.noSuchMethod(
+        Invocation.setter(
+          #viewBy,
+          _viewBy,
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
   int get listenersCount => (super.noSuchMethod(
         Invocation.getter(#listenersCount),
         returnValue: 0,
@@ -810,10 +826,38 @@ class MockBiblesService extends _i1.Mock implements _i7.BiblesService {
       ) as _i5.Future<void>);
 
   @override
+  _i5.Future<void> reloadBiblesJson() => (super.noSuchMethod(
+        Invocation.method(
+          #reloadBiblesJson,
+          [],
+        ),
+        returnValue: _i5.Future<void>.value(),
+        returnValueForMissingStub: _i5.Future<void>.value(),
+      ) as _i5.Future<void>);
+
+  @override
+  void setBookCode(String? book) => super.noSuchMethod(
+        Invocation.method(
+          #setBookCode,
+          [book],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
   void setChapter(int? newChapter) => super.noSuchMethod(
         Invocation.method(
           #setChapter,
           [newChapter],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  void setViewBy(_i8.ViewBy? view) => super.noSuchMethod(
+        Invocation.method(
+          #setViewBy,
+          [view],
         ),
         returnValueForMissingStub: null,
       );

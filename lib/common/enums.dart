@@ -5,7 +5,14 @@ enum BibleVersion {
   kjv,
 }
 
+// Reader screen areas
 enum AreaType {
   top,
   bottom,
+}
+
+// Methods of viewing Bibles
+enum ViewBy {
+  chapter,
+  section,
 }

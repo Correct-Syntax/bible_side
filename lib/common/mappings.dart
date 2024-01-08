@@ -1,3 +1,4 @@
+// Mapping book codes to full book name
 Map<String, String> bookMapping = {
   'MAT': 'Matthew',
   'MRK': 'Mark',
@@ -26,4 +27,35 @@ Map<String, String> bookMapping = {
   'JN3': '3 John',
   'JDE': 'Jude',
   'REV': 'Revelation',
+};
+
+// Mapping book code to number of chapters in each book
+Map<String, int> bookNumOfChaptersMapping = {
+  'MAT': 28,
+  'MRK': 16,
+  'LUK': 24,
+  'JHN': 21,
+  'ACT': 28,
+  'ROM': 16,
+  'CO1': 16,
+  'CO2': 13,
+  'GAL': 6,
+  'EPH': 6,
+  'PHP': 4,
+  'COL': 4,
+  'TH1': 5,
+  'TH2': 3,
+  'TI1': 6,
+  'TI2': 4,
+  'TIT': 3,
+  'PHM': 1,
+  'HEB': 13,
+  'JAM': 5,
+  'PE1': 5,
+  'PE2': 3,
+  'JN1': 5,
+  'JN2': 1,
+  'JN3': 1,
+  'JDE': 1,
+  'REV': 22,
 };
