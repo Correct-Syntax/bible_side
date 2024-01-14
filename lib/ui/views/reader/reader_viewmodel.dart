@@ -24,6 +24,8 @@ class ReaderViewModel extends ReactiveViewModel {
   String get bookCode => _biblesService.bookCode;
   int get chapter => _biblesService.chapter;
 
+  int get sectionIndex => _biblesService.chapter;
+
   ReaderViewModel({required this.context});
 
   final BuildContext context;
@@ -32,15 +34,21 @@ class ReaderViewModel extends ReactiveViewModel {
   late ScrollController bottomController;
   late LinkedScrollControllerGroup parentController;
 
+  final Key downListKey = UniqueKey();
+
   bool showBottomSheet = true;
 
-  PagingController<int, Map<String, dynamic>> topPagingController =
-      PagingController(
+  PagingController<int, Map<String, dynamic>> topPagingUpController = PagingController(
+    firstPageKey: 1,
+  );
+  PagingController<int, Map<String, dynamic>> topPagingDownController = PagingController(
     firstPageKey: 1,
   );
 
-  PagingController<int, Map<String, dynamic>> bottomPagingController =
-      PagingController(
+  PagingController<int, Map<String, dynamic>> bottomPagingUpController = PagingController(
+    firstPageKey: 1,
+  );
+  PagingController<int, Map<String, dynamic>> bottomPagingDownController = PagingController(
     firstPageKey: 1,
   );
 
@@ -48,6 +56,53 @@ class ReaderViewModel extends ReactiveViewModel {
     parentController = LinkedScrollControllerGroup();
     topController = parentController.addAndGet();
     bottomController = parentController.addAndGet();
+
+    await initReader();
+  }
+
+  Future<void> initReader() async {
+    await _biblesService.reloadBiblesJson();
+
+    // Top
+    topPagingUpController = PagingController(
+      firstPageKey: sectionIndex,
+    );
+    topPagingDownController = PagingController(
+      firstPageKey: sectionIndex,
+    );
+
+    topPagingUpController.addPageRequestListener((pageKey) {
+      fetchUpChapter(pageKey, Area.top);
+      updateInterface();
+    });
+    topPagingDownController.addPageRequestListener((pageKey) {
+      fetchDownChapter(pageKey, Area.top);
+      updateInterface();
+    });
+
+    // Bottom
+    bottomPagingUpController = PagingController(
+      firstPageKey: sectionIndex,
+    );
+    bottomPagingDownController = PagingController(
+      firstPageKey: sectionIndex,
+    );
+
+    bottomPagingUpController.addPageRequestListener((pageKey) {
+      fetchUpChapter(pageKey, Area.bottom);
+      //updateInterface();
+    });
+    bottomPagingDownController.addPageRequestListener((pageKey) {
+      fetchDownChapter(pageKey, Area.bottom);
+      //updateInterface();
+    });
+
+    await fetchDownChapter(sectionIndex, Area.top);
+    await fetchDownChapter(sectionIndex, Area.bottom);
+
+    log(sectionIndex.toString());
+
+    rebuildUi();
   }
 
   void setCurrentIndex(int index) {
@@ -55,30 +110,56 @@ class ReaderViewModel extends ReactiveViewModel {
     rebuildUi();
   }
 
-  Future<void> fetchChapter(int pageKey, AreaType areaType) async {
-    List<Map<String, dynamic>> newPage = getPaginatedVerses(pageKey, areaType);
+  Future<void> fetchUpChapter(int pageKey, Area area) async {
+    pageKey -= 1;
+
+    List<Map<String, dynamic>> newPage = getPaginatedVerses(pageKey, area);
+
+    final bool isLastPage = pageKey == 1;
+    final int nextPageKey = pageKey;
+
+    if (area == Area.top) {
+      if (isLastPage) {
+        topPagingUpController.appendLastPage(newPage);
+      } else {
+        topPagingUpController.appendPage(newPage, nextPageKey);
+      }
+      topPagingUpController.notifyListeners();
+    } else if (area == Area.bottom) {
+      if (isLastPage) {
+        bottomPagingUpController.appendLastPage(newPage);
+      } else {
+        bottomPagingUpController.appendPage(newPage, nextPageKey);
+      }
+      bottomPagingUpController.notifyListeners();
+    }
+
+    log('Fetched up chapter for $area');
+  }
+
+  Future<void> fetchDownChapter(int pageKey, Area area) async {
+    List<Map<String, dynamic>> newPage = getPaginatedVerses(pageKey, area);
 
     final bool isLastPage = newPage.isEmpty;
     final int nextPageKey = pageKey + 1;
 
-    if (areaType == AreaType.top) {
+    if (area == Area.top) {
       if (isLastPage) {
-        topPagingController.appendLastPage(newPage);
+        topPagingDownController.appendLastPage(newPage);
       } else {
-        topPagingController.appendPage(newPage, nextPageKey);
+        topPagingDownController.appendPage(newPage, nextPageKey);
       }
-      topPagingController.notifyListeners();
-    } else if (areaType == AreaType.bottom) {
+      topPagingDownController.notifyListeners();
+    } else if (area == Area.bottom) {
       if (isLastPage) {
-        bottomPagingController.appendLastPage(newPage);
+        bottomPagingDownController.appendLastPage(newPage);
       } else {
-        bottomPagingController.appendPage(newPage, nextPageKey);
+        bottomPagingDownController.appendPage(newPage, nextPageKey);
       }
-      bottomPagingController.notifyListeners();
+      bottomPagingDownController.notifyListeners();
     }
 
-    rebuildUi();
-    log('Fetched chapter $areaType');
+    log('Fetched down chapter for $area');
   }
 
   void setChapter(dynamic chapter) {
@@ -90,9 +171,8 @@ class ReaderViewModel extends ReactiveViewModel {
     rebuildUi();
   }
 
-  List<Map<String, dynamic>> getPaginatedVerses(
-      int pageKey, AreaType areaType) {
-    return _readerService.getPaginatedVerses(pageKey, context, areaType);
+  List<Map<String, dynamic>> getPaginatedVerses(int pageKey, Area area) {
+    return _readerService.getNewPage(context, pageKey, area);
   }
 
   String getcurrentBookName() {
@@ -114,9 +194,11 @@ class ReaderViewModel extends ReactiveViewModel {
   }
 
   void updateInterface() {
-    topPagingController.notifyListeners();
-    bottomPagingController.notifyListeners();
-    rebuildUi();
+    topPagingUpController.notifyListeners();
+    bottomPagingUpController.notifyListeners();
+
+    topPagingDownController.notifyListeners();
+    bottomPagingDownController.notifyListeners();
   }
 
   @override

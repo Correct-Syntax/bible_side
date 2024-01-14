@@ -9,6 +9,5 @@ class HomeViewModel extends ReactiveViewModel {
   int get currentIndex => _sideNavigationService.currentIndex;
 
   @override
-  List<ListenableServiceMixin> get listenableServices =>
-      [_sideNavigationService];
+  List<ListenableServiceMixin> get listenableServices => [_sideNavigationService];
 }

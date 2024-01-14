@@ -793,6 +793,44 @@ class MockBiblesService extends _i1.Mock implements _i7.BiblesService {
       );
 
   @override
+  String get reference => (super.noSuchMethod(
+        Invocation.getter(#reference),
+        returnValue: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#reference),
+        ),
+        returnValueForMissingStub: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#reference),
+        ),
+      ) as String);
+
+  @override
+  set reference(String? _reference) => super.noSuchMethod(
+        Invocation.setter(
+          #reference,
+          _reference,
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  int get sectionIndex => (super.noSuchMethod(
+        Invocation.getter(#sectionIndex),
+        returnValue: 0,
+        returnValueForMissingStub: 0,
+      ) as int);
+
+  @override
+  set sectionIndex(int? _sectionIndex) => super.noSuchMethod(
+        Invocation.setter(
+          #sectionIndex,
+          _sectionIndex,
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
   _i8.ViewBy get viewBy => (super.noSuchMethod(
         Invocation.getter(#viewBy),
         returnValue: _i8.ViewBy.chapter,
@@ -849,6 +887,15 @@ class MockBiblesService extends _i1.Mock implements _i7.BiblesService {
         Invocation.method(
           #setChapter,
           [newChapter],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  void setSectionIndex(int? index) => super.noSuchMethod(
+        Invocation.method(
+          #setSectionIndex,
+          [index],
         ),
         returnValueForMissingStub: null,
       );
@@ -1210,6 +1257,7 @@ class MockReaderService extends _i1.Mock implements _i12.ReaderService {
   List<Map<String, dynamic>> buildTextFromOETJson(
     Map<String, dynamic>? json,
     bool? splitByParagraph,
+    _i8.ViewBy? viewBy,
     int? pageKey,
     _i4.BuildContext? context,
   ) =>
@@ -1219,6 +1267,7 @@ class MockReaderService extends _i1.Mock implements _i12.ReaderService {
           [
             json,
             splitByParagraph,
+            viewBy,
             pageKey,
             context,
           ],

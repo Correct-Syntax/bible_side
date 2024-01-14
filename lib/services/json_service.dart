@@ -4,8 +4,7 @@ import 'package:flutter/services.dart';
 const String basePath = 'assets/bibles';
 
 class JsonService {
-  Future<Map<String, dynamic>> loadBookJson(
-      String bibleCode, String bookCode) async {
+  Future<Map<String, dynamic>> loadBookJson(String bibleCode, String bookCode) async {
     return loadJsonFromAssets('$basePath/$bibleCode/$bookCode.json');
   }
 

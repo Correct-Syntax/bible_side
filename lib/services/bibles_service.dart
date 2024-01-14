@@ -10,9 +10,9 @@ class BiblesService with ListenableServiceMixin {
   final _jsonService = locator<JsonService>();
 
   BiblesService() {
-    listenToReactiveValues([chapter, bookCode, topBibleCode, bottomBibleCode, viewBy]);
+    listenToReactiveValues([chapter, bookCode, topBibleCode, bottomBibleCode, sectionIndex, viewBy]);
   }
-  // Idea: generate 
+
   // BibleVersion topBibleVersion = BibleVersion.oetReaders;
   // BibleVersion bottomBibleVersion = BibleVersion.oetLiteral;
 
@@ -21,19 +21,22 @@ class BiblesService with ListenableServiceMixin {
 
   int chapter = 1;
   String bookCode = 'JHN';
+
   String topBibleCode = 'OET-RV';
   String bottomBibleCode = 'OET-LV';
+
+  String reference = '1:1';
+  int sectionIndex = 1;
 
   ViewBy viewBy = ViewBy.chapter;
 
   Future<void> initilize() async {
     // TODO: fetch settings
-    await reloadBiblesJson();
   }
 
   Future<void> reloadBiblesJson() async {
-    await loadBibleVersion(AreaType.top);
-    await loadBibleVersion(AreaType.bottom);
+    await loadBibleVersion(Area.top);
+    await loadBibleVersion(Area.bottom);
   }
 
   void setBookCode(String book) {
@@ -46,15 +49,20 @@ class BiblesService with ListenableServiceMixin {
     notifyListeners();
   }
 
+  void setSectionIndex(int index) {
+    sectionIndex = index;
+    notifyListeners();
+  }
+
   void setViewBy(ViewBy view) {
     viewBy = view;
     notifyListeners();
   }
 
-  Future<void> loadBibleVersion(AreaType areaType) async {
-    if (areaType == AreaType.top) {
+  Future<void> loadBibleVersion(Area pane) async {
+    if (pane == Area.top) {
       topJson = await _jsonService.loadBookJson(topBibleCode, bookCode);
-    } else if (areaType == AreaType.bottom) {
+    } else if (pane == Area.bottom) {
       bottomJson = await _jsonService.loadBookJson(bottomBibleCode, bookCode);
     }
   }

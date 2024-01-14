@@ -10,25 +10,58 @@ import 'bibles_service.dart';
 class ReaderService {
   final _biblesService = locator<BiblesService>();
 
-  String get topBibleCode => _biblesService.topBibleCode;
-  String get topBookCode => _biblesService.bookCode;
-
   Map<String, dynamic> get topJson => _biblesService.topJson;
   Map<String, dynamic> get bottomJson => _biblesService.bottomJson;
 
-  List<Map<String, dynamic>> getPaginatedVerses(
-      int pageKey, BuildContext context, AreaType areaType) {
-    if (areaType == AreaType.top) {
-      return buildTextFromOETJson(topJson, true, pageKey, context);
-    } else if (areaType == AreaType.bottom) {
-      return buildTextFromOETJson(bottomJson, false, pageKey, context);
+  String get topBibleCode => _biblesService.topBibleCode;
+  String get bottomBibleCode => _biblesService.bottomBibleCode;
+
+  //String get bookCode => _biblesService.bookCode;
+
+  ViewBy get viewBy => _biblesService.viewBy;
+
+  /// A "Page" is a chapter in Chapter mode and a section in Section mode.
+  /// An "Area" is the area in the reader where bible text is displayed and scrolled.
+
+  /// Get a new page at [pageKey] for the current bible, book, etc and the given [Area].
+  List<Map<String, dynamic>> getNewPage(BuildContext context, int pageKey, Area area) {
+    if (area == Area.top) {
+      return pageFromJson(context, topJson, topBibleCode, viewBy, pageKey);
+    } else if (area == Area.bottom) {
+      return pageFromJson(context, bottomJson, bottomBibleCode, viewBy, pageKey);
     } else {
       return [];
     }
   }
 
-  List<Map<String, dynamic>> buildTextFromOETJson(Map<String, dynamic> json,
-      bool splitByParagraph, int pageKey, BuildContext context) {
+  /// Get a page at [pageKey] that fits all of the given parameters.
+  List<Map<String, dynamic>> pageFromJson(
+      BuildContext context, Map<String, dynamic> json, String bibleCode, ViewBy viewBy, int pageKey) {
+    if (bibleCode == 'OET-LV') {
+      if (viewBy == ViewBy.chapter) {
+        return chapterFromOETJson(context, json, true, pageKey);
+      } else if (viewBy == ViewBy.section) {
+        return sectionFromOETJson(context, json, true, pageKey);
+      } else {
+        return [];
+      }
+    } else if (bibleCode == 'OET-RV') {
+      if (viewBy == ViewBy.chapter) {
+        return chapterFromOETJson(context, json, false, pageKey);
+      } else if (viewBy == ViewBy.section) {
+        return sectionFromOETJson(context, json, false, pageKey);
+      } else {
+        return [];
+      }
+    } else {
+      // Default to KJV
+      return chapterFromKJVJson(context, json, pageKey);
+    }
+  }
+
+  /// Get a single chapter defined by [pageKey] from the OET json.
+  List<Map<String, dynamic>> chapterFromOETJson(
+      BuildContext context, Map<String, dynamic> json, bool splitByParagraph, int pageKey) {
     List<InlineSpan> spans = [];
     List<TextSpan> verseSpans = [];
 
@@ -41,12 +74,10 @@ class ReaderService {
     //log(bookData.toString());
     List<dynamic> bookDataMeta = bookData['meta'];
 
-    // Idea: in the same way that we break up chapters by looking for a particular
-    // chapter number, we could find a section by id.
-
     // Chapters
     List<dynamic> chaptersData = json['chapters'];
 
+    // Get the chapter at [pageKey]
     String chapterNumber = '';
     List<dynamic> chapterContents = [];
     for (Map<String, dynamic> chapter in chaptersData) {
@@ -160,7 +191,40 @@ class ReaderService {
     return [
       {
         'spans': spans,
-        'chapter': chapterNumber,
+        'page': chapterNumber,
+      }
+    ];
+  }
+
+  /// Get a single section defined by [pageKey] from the OET json.
+  List<Map<String, dynamic>> sectionFromOETJson(
+      BuildContext context, Map<String, dynamic> json, bool splitByParagraph, int pageKey) {
+    List<InlineSpan> spans = [];
+
+    // In the same way that we break up chapters by looking for a particular
+    // chapter number, we find a section by the index.
+
+    // return [
+    //   {
+    //     'spans': spans,
+    //     'page': 1,
+    //   }
+    // ];
+    // TODO: implement getting the section
+    // Use the chapter method temporarily
+    return chapterFromOETJson(context, json, false, pageKey);
+  }
+
+  /// Get a single chapter defined by [pageKey] from the KJV json.
+  List<Map<String, dynamic>> chapterFromKJVJson(BuildContext context, Map<String, dynamic> json, int pageKey) {
+    List<InlineSpan> spans = [];
+
+    // Get the chapter at [pageKey]
+
+    return [
+      {
+        'spans': spans,
+        'page': 1,
       }
     ];
   }

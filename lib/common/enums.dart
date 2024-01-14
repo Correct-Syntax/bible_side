@@ -1,4 +1,4 @@
-// Supported translations of the Bible
+// Supported translations (versions) of the Bible
 enum BibleVersion {
   oetReaders,
   oetLiteral,
@@ -6,7 +6,7 @@ enum BibleVersion {
 }
 
 // Reader screen areas
-enum AreaType {
+enum Area {
   top,
   bottom,
 }

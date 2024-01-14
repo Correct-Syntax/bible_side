@@ -14,8 +14,7 @@ class ReaderNavigationView extends StackedView<ReaderNavigationViewModel> {
 
   @override
   void onViewModelReady(ReaderNavigationViewModel viewModel) =>
-      SchedulerBinding.instance
-          .addPostFrameCallback((timeStamp) => viewModel.initilize());
+      SchedulerBinding.instance.addPostFrameCallback((timeStamp) => viewModel.initilize());
 
   @override
   Widget builder(
@@ -38,8 +37,8 @@ class _ReaderNavigationView extends StackedHookView<ReaderNavigationViewModel> {
   Widget builder(BuildContext context, ReaderNavigationViewModel viewModel) {
     final TickerProvider tickerProvider = useSingleTickerProvider();
 
-    viewModel.tabController =
-        useTabController(initialIndex: viewModel.viewBy == ViewBy.chapter ? 0 : 1, initialLength: 2, vsync: tickerProvider);
+    viewModel.tabController = useTabController(
+        initialIndex: viewModel.viewBy == ViewBy.chapter ? 0 : 1, initialLength: 2, vsync: tickerProvider);
 
     return Scaffold(
       appBar: AppBar(
@@ -49,7 +48,9 @@ class _ReaderNavigationView extends StackedHookView<ReaderNavigationViewModel> {
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(
-                        horizontal: 18.0, vertical: 30.0,),
+            horizontal: 18.0,
+            vertical: 30.0,
+          ),
           child: Column(
             children: [
               Visibility(
@@ -57,8 +58,7 @@ class _ReaderNavigationView extends StackedHookView<ReaderNavigationViewModel> {
                 child: Expanded(
                   child: GridView.builder(
                     itemCount: bookMapping.length,
-                    gridDelegate:
-                        const SliverGridDelegateWithMaxCrossAxisExtent(
+                    gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
                       maxCrossAxisExtent: 120,
                       childAspectRatio: 4 / 2,
                       crossAxisSpacing: 18,
@@ -104,8 +104,7 @@ class _ReaderNavigationView extends StackedHookView<ReaderNavigationViewModel> {
                               // By chapter
                               GridView.builder(
                                 itemCount: viewModel.bookChapters.length,
-                                gridDelegate:
-                                    const SliverGridDelegateWithMaxCrossAxisExtent(
+                                gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
                                   maxCrossAxisExtent: 100,
                                   childAspectRatio: 4 / 2,
                                   crossAxisSpacing: 18,
@@ -140,10 +139,10 @@ class _ReaderNavigationView extends StackedHookView<ReaderNavigationViewModel> {
                                         crossAxisAlignment: CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            viewModel.sections[index][0],
+                                            viewModel.getFirstSectionHeading(index),
                                             style: TextItemStyles.sectionHeading(context),
                                           ),
-                                          for (var altSection in (viewModel.sections[index].skip(1))) 
+                                          for (var altSection in viewModel.getAlternativeSectionHeadings(index))
                                             Padding(
                                               padding: const EdgeInsets.only(left: 12.0),
                                               child: Text(

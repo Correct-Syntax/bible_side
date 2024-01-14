@@ -37,24 +37,15 @@ enum TextItemType {
 /// [TextItem] styles
 class TextItemStyles {
   static TextStyle bookHeading(context) {
-    return Theme.of(context)
-        .textTheme
-        .headlineSmall!
-        .copyWith(fontWeight: FontWeight.w500);
+    return Theme.of(context).textTheme.headlineSmall!.copyWith(fontWeight: FontWeight.w500);
   }
 
   static TextStyle chapterHeading(context) {
-    return Theme.of(context)
-        .textTheme
-        .bodyMedium!
-        .copyWith(fontSize: 20, fontWeight: FontWeight.w500);
+    return Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 20, fontWeight: FontWeight.w500);
   }
 
   static TextStyle sectionHeading(context) {
-    return Theme.of(context)
-        .textTheme
-        .bodyMedium!
-        .copyWith(fontSize: 18, fontWeight: FontWeight.w500);
+    return Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 18, fontWeight: FontWeight.w500);
   }
 
   static TextStyle bodyMedium(context) {
@@ -74,8 +65,7 @@ class TextItemStyles {
 class ReaderTextItems {
   ReaderTextItems(this.readerType);
 
-  final ReaderType
-      readerType; // UNUSED: can specify a reader type for styling specific to that reader
+  final ReaderType readerType; // UNUSED: can specify a reader type for styling specific to that reader
 
   static TextItem bookHeading(String book) {
     return TextItem(
