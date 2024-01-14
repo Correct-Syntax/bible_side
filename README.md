@@ -22,7 +22,7 @@ Feedback and contributions are welcome. To help out please open an issue.
 
 ## Development
 
-Bibleside is built with Flutter using Stacked Architecture.
+Bibleside is built with Flutter using [Stacked Architecture](https://stacked.filledstacks.com/).
 
 - Run ``flutter pub get`` to install the dependencies.
 - Choose an emulator or a connected device.
@@ -45,7 +45,7 @@ Navigate to ``/assets/bibles`` and run the file with ``python update_OET_json.py
 
 ## Updating the OET sections
 
-After converting the OET ESFM to json, navigate to ``/assets/bibles`` and run the ``update_OET_sections.py`` file in ``/assets/bibles``. This will generate a .dart file mapping of the OET sections for use in Bibleside.
+After converting the OET ESFM to json, navigate to ``/assets/bibles`` and run the ``update_OET_sections.py`` file. This will generate a .dart file mapping of the OET sections for use in Bibleside.
 
 
 ## License
