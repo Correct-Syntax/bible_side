@@ -1,7 +1,7 @@
 {
   "book": {
     "bookCode": "MRK",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.04",
+    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.07",
     "meta": [
       {
         "usfm": "3.0"
@@ -857,6 +857,18 @@
               "closing": "\\wj*"
             },
             "”",
+            {
+              "f": [
+                "+",
+                {
+                  "fr": "2:5"
+                },
+                {
+                  "ft": "Yeshua's hearers would have taken this as a claim to be God, as they knew that only God could forgive sins."
+                }
+              ],
+              "closing": "\\f*"
+            },
             {
               "p": ""
             }
@@ -1867,11 +1879,11 @@
           "verseNumber": "14",
           "contents": [
             {
-              "wj": "The one spreading seed is spreading the good message.",
+              "wj": "The one spreading seed is spreading the good message¦24728.",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "The one spreading seed is spreading the good message."
+          "verseText": "The one spreading seed is spreading the good message¦24728."
         },
         {
           "verseNumber": "15",
@@ -1887,11 +1899,11 @@
           "verseNumber": "16",
           "contents": [
             {
-              "wj": "And similarly, there's some that falls onto rocky¦24780 places¦24780 where the people who hear¦24786 the good message happily accept it¦24794,",
+              "wj": "And similarly, there's some that falls onto rocky¦24780 places¦24780 where the people who hear¦24786 the good message¦24788 happily accept it¦24794,",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "And similarly, there's some that falls onto rocky¦24780 places¦24780 where the people who hear¦24786 the good message happily accept it¦24794,"
+          "verseText": "And similarly, there's some that falls onto rocky¦24780 places¦24780 where the people who hear¦24786 the good message¦24788 happily accept it¦24794,"
         },
         {
           "verseNumber": "17",
@@ -1903,23 +1915,23 @@
               "add": [
                 "changes",
                 {
-                  "add": "*. So when they get mocked or attacked about accepting the good message, they quickly stumble¦24816.",
+                  "add": "*. So when they get mocked or attacked about accepting the good message¦24812, they quickly stumble¦24816.",
                   "closing": "\\wj*"
                 }
               ]
             }
           ],
-          "verseText": "but don't¦24796 make strong roots, just temporary¦24802 changes *. So when they get mocked or attacked about accepting the good message, they quickly stumble¦24816."
+          "verseText": "but don't¦24796 make strong roots, just temporary¦24802 changes *. So when they get mocked or attacked about accepting the good message¦24812, they quickly stumble¦24816."
         },
         {
           "verseNumber": "18",
           "contents": [
             {
-              "wj": "Others are the ones where the seed was spread among¦24825 the thistles. They heard¦24837 the good message,",
+              "wj": "Others are the ones where the seed was spread among¦24825 the thistles. They heard¦24837 the good message¦24835,",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "Others are the ones where the seed was spread among¦24825 the thistles. They heard¦24837 the good message,"
+          "verseText": "Others are the ones where the seed was spread among¦24825 the thistles. They heard¦24837 the good message¦24835,"
         },
         {
           "verseNumber": "19",
@@ -1935,7 +1947,7 @@
           "verseNumber": "20",
           "contents": [
             {
-              "wj": "But lastly, the seed that landed on the good¦24883 soil represents the people who hear¦24888 the good message, accept¦24892 it and are fruitful¦24894 thirty¦24899, sixty¦24903, or even a hundred¦24907 times over.",
+              "wj": "But lastly, the seed that landed on the good¦24883 soil represents the people who hear¦24888 the good message¦24890, accept¦24892 it and are fruitful¦24894 thirty¦24899, sixty¦24903, or even a hundred¦24907 times over.",
               "closing": "\\wj*"
             },
             "”",
@@ -1952,7 +1964,7 @@
               "p": ""
             }
           ],
-          "verseText": "But lastly, the seed that landed on the good¦24883 soil represents the people who hear¦24888 the good message, accept¦24892 it and are fruitful¦24894 thirty¦24899, sixty¦24903, or even a hundred¦24907 times over.”"
+          "verseText": "But lastly, the seed that landed on the good¦24883 soil represents the people who hear¦24888 the good message¦24890, accept¦24892 it and are fruitful¦24894 thirty¦24899, sixty¦24903, or even a hundred¦24907 times over.”"
         },
         {
           "verseNumber": "21",
@@ -2198,9 +2210,9 @@
         {
           "verseNumber": "33",
           "contents": [
-            "And so as much as they¦25193 could handle it, Yeshua shared the good message with them via many similar word pictures."
+            "And so as much as they¦25193 could handle it, Yeshua shared the good message¦25191 with them via many similar word pictures."
           ],
-          "verseText": "And so as much as they¦25193 could handle it, Yeshua shared the good message with them via many similar word pictures."
+          "verseText": "And so as much as they¦25193 could handle it, Yeshua shared the good message¦25191 with them via many similar word pictures."
         },
         {
           "verseNumber": "34",
@@ -2796,9 +2808,14 @@
         {
           "verseNumber": "1",
           "contents": [
-            "So Yeshua left¦26352 there¦26353 and went back with his followers¦26362 to his hometown¦26359."
+            "So Yeshua left¦26352 Capernaum¦26353 and went back with his followers¦26362 to",
+            {
+              "add": "Nazareth,",
+              "closing": "\\add*"
+            },
+            "his birthplace¦26359."
           ],
-          "verseText": "So Yeshua left¦26352 there¦26353 and went back with his followers¦26362 to his hometown¦26359."
+          "verseText": "So Yeshua left¦26352 Capernaum¦26353 and went back with his followers¦26362 to Nazareth, his birthplace¦26359."
         },
         {
           "verseNumber": "2",
@@ -10123,12 +10140,12 @@
         {
           "verseNumber": "5",
           "contents": [
-            "So they went on into the burial chamber and were toally stunned to find a young¦37228 man¦37228 dressed in white¦37236, sitting¦37230 in there on the side.",
+            "So they went on into the burial chamber and were totally stunned to find a young¦37228 man¦37228 dressed in white¦37236, sitting¦37230 in there on the side.",
             {
               "p": ""
             }
           ],
-          "verseText": "So they went on into the burial chamber and were toally stunned to find a young¦37228 man¦37228 dressed in white¦37236, sitting¦37230 in there on the side."
+          "verseText": "So they went on into the burial chamber and were totally stunned to find a young¦37228 man¦37228 dressed in white¦37236, sitting¦37230 in there on the side."
         },
         {
           "verseNumber": "6",

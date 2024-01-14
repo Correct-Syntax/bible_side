@@ -1,7 +1,7 @@
 {
   "book": {
     "bookCode": "2CO",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.0.06",
+    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.00",
     "meta": [
       {
         "usfm": "3.0"
@@ -37,13 +37,10 @@
         "is1": "Introduction"
       },
       {
-        "ip": [
-          {
-            "bk": "Paul's second letter to the believers in Corinth",
-            "closing": "\\bk*"
-          },
-          "was written from Macedonia at a time when his relationship with the believers there wasn't very good."
-        ]
+        "ip": "This is Paul's second letter to the believers in Corinth that we have in our Bibles, but could easily have been his third or fourth letter to them. We deduce this from his reference to other letters, e.g., see https://www.GotQuestions.org/how-many-letters-Corinthians.html, but we don't have copies of them."
+      },
+      {
+        "ip": "This letter from Paul to the believers in Corinth was written from Macedonia at a time when his relationship with the believers there wasn't very good."
       },
       {
         "ip": "In first part of this document, Paul tells about his relationship with the believers there in Corinth. He explains his sadness concerning the shame of the believers and their disobedience of him. Then he tells again about his happiness that his anger faded after the believers repented of their sin and then their good relationship was restored. He urged the believers to continue to collect a gift of aid for poor believers in Yerusalem."
@@ -707,7 +704,7 @@
           "contents": [
             "so that we can't be exploited¦122277 by Satan¦122280 (because¦122282 we're not ignorant about his¦122283 intentions).",
             {
-              "s1": "Paul's very brief ministry in Troas"
+              "s1": "Paul's brief ministry in Troas"
             },
             {
               "rem": "/s1 Ministers of the New Covenant; Paul's Anxiety in Troas"
@@ -1015,47 +1012,72 @@
               ],
               "closing": "\\x*"
             },
-            "◘"
+            "The system which was inscribed on stone¦122543",
+            {
+              "add": "tablets",
+              "closing": "\\add*"
+            },
+            "and which results in death¦122537 was so incredible",
+            {
+              "add": "when it was given",
+              "closing": "\\add*"
+            },
+            "that the Israeli's couldn't even",
+            {
+              "add": "bring themselves",
+              "closing": "\\add*"
+            },
+            "to look at Moses' face because¦122558 it shone so brightly. But if that system is being¦122566 nullified¦122566,"
           ],
-          "verseText": "◘"
+          "verseText": "The system which was inscribed on stone¦122543 tablets and which results in death¦122537 was so incredible when it was given that the Israeli's couldn't even bring themselves to look at Moses' face because¦122558 it shone so brightly. But if that system is being¦122566 nullified¦122566,"
         },
         {
           "verseNumber": "8",
           "contents": [
-            "◘"
+            "won't this system via the",
+            {
+              "nd": "spirit¦122573",
+              "closing": "\\nd*"
+            },
+            "be even greater?"
           ],
-          "verseText": "◘"
+          "verseText": "won't this system via the spirit¦122573 be even greater?"
         },
         {
           "verseNumber": "9",
           "contents": [
-            "◘"
+            "If the system that brought condemnation¦122584 was incredible, how much greater is the system that leads to righteousness¦122592,"
           ],
-          "verseText": "◘"
+          "verseText": "If the system that brought condemnation¦122584 was incredible, how much greater is the system that leads to righteousness¦122592,"
         },
         {
           "verseNumber": "10",
           "contents": [
-            "◘"
+            "because that",
+            {
+              "add": "earlier system",
+              "closing": "\\add*"
+            },
+            "seems ordinary now when compared with the more incredible greatness of the new system,"
           ],
-          "verseText": "◘"
+          "verseText": "because that earlier system seems ordinary now when compared with the more incredible greatness of the new system,"
         },
         {
           "verseNumber": "11",
           "contents": [
-            "◘",
+            "and if what ended up being¦122615 replaced was incredible, how much more incredible is the system that lasts.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "and if what ended up being¦122615 replaced was incredible, how much more incredible is the system that lasts."
         },
         {
           "verseNumber": "12",
           "contents": [
-            "◘"
+            "So then, since that's our expectation, we¦122630 can be very bold,"
           ],
-          "verseText": "◘"
+          "verseText": "So then, since that's our expectation, we¦122630 can be very bold,"
         },
         {
           "verseNumber": "13",
@@ -1072,23 +1094,42 @@
               ],
               "closing": "\\x*"
             },
-            "◘"
+            "not just like Moses putting¦122635 a veil over his¦122640 face¦122639 because¦122642 the Israeli's couldn't even look¦122645 at him¦122640",
+            {
+              "add": "when introducing",
+              "closing": "\\add*"
+            },
+            "a system that would be replaced."
           ],
-          "verseText": "◘"
+          "verseText": "not just like Moses putting¦122635 a veil over his¦122640 face¦122639 because¦122642 the Israeli's couldn't even look¦122645 at him¦122640 when introducing a system that would be replaced."
         },
         {
           "verseNumber": "14",
           "contents": [
-            "◘"
+            "But their¦122659 thinking¦122658 was inflexible because",
+            {
+              "add": "even",
+              "closing": "\\add*"
+            },
+            "until¦122660 this very day, the same veil remains¦122674 during the public¦122670 reading¦122670 of the Hebrew scriptures—it's not opened up",
+            {
+              "add": "because it's only",
+              "closing": "\\add*"
+            },
+            {
+              "nd": "Messiah¦122679",
+              "closing": "\\nd*"
+            },
+            "that nullifies¦122680 it."
           ],
-          "verseText": "◘"
+          "verseText": "But their¦122659 thinking¦122658 was inflexible because even until¦122660 this very day, the same veil remains¦122674 during the public¦122670 reading¦122670 of the Hebrew scriptures—it's not opened up because it's only Messiah¦122679 that nullifies¦122680 it."
         },
         {
           "verseNumber": "15",
           "contents": [
-            "◘"
+            "So these days whenever¦122684 Moses' writings are being¦122687 read, a veil lies across their¦122694 hearts¦122693,"
           ],
-          "verseText": "◘"
+          "verseText": "So these days whenever¦122684 Moses' writings are being¦122687 read, a veil lies across their¦122694 hearts¦122693,"
         },
         {
           "verseNumber": "16",
@@ -1105,23 +1146,38 @@
               ],
               "closing": "\\x*"
             },
-            "◘"
+            "but whenever¦122710",
+            {
+              "add": "that heart",
+              "closing": "\\add*"
+            },
+            "might turn¦122714 towards the",
+            {
+              "nd": "master¦122716",
+              "closing": "\\nd*"
+            },
+            ", the veil will be removed."
           ],
-          "verseText": "◘"
+          "verseText": "but whenever¦122710 that heart might turn¦122714 towards the master¦122716, the veil will be removed."
         },
         {
           "verseNumber": "17",
           "contents": [
-            "◘"
+            "Now the master is the spirit, and there's freedom¦122732 wherever¦122726 the master's spirit is."
           ],
-          "verseText": "◘"
+          "verseText": "Now the master is the spirit, and there's freedom¦122732 wherever¦122726 the master's spirit is."
         },
         {
           "verseNumber": "18",
           "contents": [
-            "◘"
+            "All of us who've had our faces unveiled¦122736 are reflecting¦122742 the master's greatness, and that same image¦122747 transforms¦122748 us from greatness to greatness. This comes from the master who is the",
+            {
+              "nd": "spirit¦122758",
+              "closing": "\\nd*"
+            },
+            "."
           ],
-          "verseText": "◘"
+          "verseText": "All of us who've had our faces unveiled¦122736 are reflecting¦122742 the master's greatness, and that same image¦122747 transforms¦122748 us from greatness to greatness. This comes from the master who is the spirit¦122758."
         }
       ]
     },
@@ -1129,7 +1185,7 @@
       "chapterNumber": "4",
       "contents": [
         {
-          "s1": "The wealth intahu of kuren inggimu from land"
+          "s1": "The treasure placed in human containers"
         },
         {
           "rem": "/s1 Treasure in Clay Jars; Treasures in Jars of Clay; Spiritual Treasure in Clay Pots; Treasure in Perishable Containers"
@@ -1140,37 +1196,71 @@
         {
           "verseNumber": "1",
           "contents": [
-            "◘"
+            "So because we have this ministry as a result of God's mercy¦122766, we're not discouraged"
           ],
-          "verseText": "◘"
+          "verseText": "So because we have this ministry as a result of God's mercy¦122766, we're not discouraged"
         },
         {
           "verseNumber": "2",
           "contents": [
-            "◘"
+            "but rather, we have renounced¦122771 any shameful¦122775 things that were hidden¦122773 and continue our",
+            {
+              "add": "spiritual",
+              "closing": "\\add*"
+            },
+            "journey. Avoiding deception and",
+            {
+              "add": "taking care",
+              "closing": "\\add*"
+            },
+            "not to distort God's message¦122783, we present the truth¦122790",
+            {
+              "add": "clearly",
+              "closing": "\\add*"
+            },
+            "even as we commend¦122791 ourselves¦122794 to everyone's¦122796 conscience¦122797 before¦122799 God."
           ],
-          "verseText": "◘"
+          "verseText": "but rather, we have renounced¦122771 any shameful¦122775 things that were hidden¦122773 and continue our spiritual journey. Avoiding deception and taking care not to distort God's message¦122783, we present the truth¦122790 clearly even as we commend¦122791 ourselves¦122794 to everyone's¦122796 conscience¦122797 before¦122799 God."
         },
         {
           "verseNumber": "3",
           "contents": [
-            "◘"
+            "But even if our¦122809 good¦122808 message¦122808 is concealed, it's concealed from those who are perishing¦122812."
           ],
-          "verseText": "◘"
+          "verseText": "But even if our¦122809 good¦122808 message¦122808 is concealed, it's concealed from those who are perishing¦122812."
         },
         {
           "verseNumber": "4",
           "contents": [
-            "◘"
+            "The god of this age has blinded¦122822 the thinking¦122824 of the unbelievers¦122826 so that the light of the good message¦122837 about the greatness of the",
+            {
+              "nd": "messiah¦122842",
+              "closing": "\\nd*"
+            },
+            "who's God's image¦122845, doesn't radiate¦122832 out to them,"
           ],
-          "verseText": "◘"
+          "verseText": "The god of this age has blinded¦122822 the thinking¦122824 of the unbelievers¦122826 so that the light of the good message¦122837 about the greatness of the messiah¦122842 who's God's image¦122845, doesn't radiate¦122832 out to them,"
         },
         {
           "verseNumber": "5",
           "contents": [
-            "◘"
+            "because it's not us ourselves that we're proclaiming¦122851, but the",
+            {
+              "nd": "master¦122856 Yeshua¦122865 Messiah¦122855",
+              "closing": "\\nd*"
+            },
+            ".",
+            {
+              "nd": "We¦122854",
+              "closing": "\\nd*"
+            },
+            {
+              "add": "serve",
+              "closing": "\\add*"
+            },
+            "as your¦122861 slaves¦122859 because of him,"
           ],
-          "verseText": "◘"
+          "verseText": "because it's not us ourselves that we're proclaiming¦122851, but the master¦122856 Yeshua¦122865 Messiah¦122855. We¦122854 serve as your¦122861 slaves¦122859 because of him,"
         },
         {
           "verseNumber": "6",
@@ -1187,57 +1277,82 @@
               ],
               "closing": "\\x*"
             },
-            "◘",
+            "because¦122885 the God who said¦122871, ‘Light will be shining¦122876 out of the darkness¦122874’, shined¦122879 in our¦122883 hearts¦122882 so that we could experience God's greatness in the face¦122895 of",
+            {
+              "nd": "Yeshua¦122896 Messiah¦122897",
+              "closing": "\\nd*"
+            },
+            ".",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "because¦122885 the God who said¦122871, ‘Light will be shining¦122876 out of the darkness¦122874’, shined¦122879 in our¦122883 hearts¦122882 so that we could experience God's greatness in the face¦122895 of Yeshua¦122896 Messiah¦122897."
         },
         {
           "verseNumber": "7",
           "contents": [
-            "◘"
+            "So we¦122898 have this treasure¦122901 stored in containers made from the dirt, so that the excellence¦122908 of the power¦122910 will be from",
+            {
+              "nd": "God¦122913",
+              "closing": "\\nd*"
+            },
+            "and¦122914 not from us",
+            {
+              "add": "ourselves",
+              "closing": "\\add*"
+            },
+            "."
           ],
-          "verseText": "◘"
+          "verseText": "So we¦122898 have this treasure¦122901 stored in containers made from the dirt, so that the excellence¦122908 of the power¦122910 will be from God¦122913 and¦122914 not from us ourselves."
         },
         {
           "verseNumber": "8",
           "contents": [
-            "◘"
+            "We might be oppressed¦122920 but we won't be crushed¦122925, perplexed¦122926 but we won't despair¦122929,"
           ],
-          "verseText": "◘"
+          "verseText": "We might be oppressed¦122920 but we won't be crushed¦122925, perplexed¦122926 but we won't despair¦122929,"
         },
         {
           "verseNumber": "9",
           "contents": [
-            "◘"
+            "persecuted¦122930 but we won't be abandoned¦122933, and struck¦122934 down but we won't perish¦122937."
           ],
-          "verseText": "◘"
+          "verseText": "persecuted¦122930 but we won't be abandoned¦122933, and struck¦122934 down but we won't perish¦122937."
         },
         {
           "verseNumber": "10",
           "contents": [
-            "◘"
+            "We always¦122938 carry¦122947 around in our bodies the death¦122940 of Yeshua, so that the life¦122951 of Yeshua may also be revealed¦122962 in our bodies,"
           ],
-          "verseText": "◘"
+          "verseText": "We always¦122938 carry¦122947 around in our bodies the death¦122940 of Yeshua, so that the life¦122951 of Yeshua may also be revealed¦122962 in our bodies,"
         },
         {
           "verseNumber": "11",
           "contents": [
-            "◘"
+            "because¦122972 we¦122966 who are alive are always¦122964 being¦122971 given¦122971 over to death¦122970 for",
+            {
+              "nd": "Yeshua's¦122973",
+              "closing": "\\nd*"
+            },
+            "sake, so that his life¦122977 may also be revealed¦122982 in our¦122988 mortal¦122986 bodies."
           ],
-          "verseText": "◘"
+          "verseText": "because¦122972 we¦122966 who are alive are always¦122964 being¦122971 given¦122971 over to death¦122970 for Yeshua's¦122973 sake, so that his life¦122977 may also be revealed¦122982 in our¦122988 mortal¦122986 bodies."
         },
         {
           "verseNumber": "12",
           "contents": [
-            "◘",
+            "So then, death¦122992 is working in us, but¦122997 life¦122998",
+            {
+              "add": "is working",
+              "closing": "\\add*"
+            },
+            "in all of you¦123000.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "So then, death¦122992 is working in us, but¦122997 life¦122998 is working in all of you¦123000."
         },
         {
           "verseNumber": "13",
@@ -1254,23 +1369,33 @@
               ],
               "closing": "\\x*"
             },
-            "◘"
+            "We have the same¦123004 spirit¦123005 of faith¦123007 as what's written¦123010: ‘I believed¦123011, therefore I talked about it.’ We also believe so we also talk about it,"
           ],
-          "verseText": "◘"
+          "verseText": "We have the same¦123004 spirit¦123005 of faith¦123007 as what's written¦123010: ‘I believed¦123011, therefore I talked about it.’ We also believe so we also talk about it,"
         },
         {
           "verseNumber": "14",
           "contents": [
-            "◘"
+            "knowing¦123021 that the one who brought Yeshua back to life, will also bring us back to life along with Yeshua, and¦123035 will be presenting¦123036 us along with all of you¦123038."
           ],
-          "verseText": "◘"
+          "verseText": "knowing¦123021 that the one who brought Yeshua back to life, will also bring us back to life along with Yeshua, and¦123035 will be presenting¦123036 us along with all of you¦123038."
         },
         {
           "verseNumber": "15",
           "contents": [
-            "◘",
+            "All of this is for you, so that after",
             {
-              "s1": "The living by means of faith"
+              "add": "experiencing",
+              "closing": "\\add*"
+            },
+            "much grace¦123046, you all will be even more thankful¦123052 and thus honour",
+            {
+              "nd": "God¦123058",
+              "closing": "\\nd*"
+            },
+            ".",
+            {
+              "s1": "Valuing what's actually important"
             },
             {
               "rem": "/s1 Living by Faith"
@@ -1279,28 +1404,33 @@
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "All of this is for you, so that after experiencing much grace¦123046, you all will be even more thankful¦123052 and thus honour God¦123058."
         },
         {
           "verseNumber": "16",
           "contents": [
-            "◘"
+            "Because of that we're not discouraged because even if our outer person is being ruined¦123071, our inner person is being renewed¦123077 day by day"
           ],
-          "verseText": "◘"
+          "verseText": "Because of that we're not discouraged because even if our outer person is being ruined¦123071, our inner person is being renewed¦123077 day by day"
         },
         {
           "verseNumber": "17",
           "contents": [
-            "◘"
+            "because¦123096 our small, temporary troubles will produce¦123095 an excess of great honour for us."
           ],
-          "verseText": "◘"
+          "verseText": "because¦123096 our small, temporary troubles will produce¦123095 an excess of great honour for us."
         },
         {
           "verseNumber": "18",
           "contents": [
-            "◘"
+            "We don't¦123097 just look at what we can see, but include the things that can't be seen, because¦123107 visible things are temporary¦123109, but the things that last forever are invisible",
+            {
+              "add": "to our¦123099 eyes",
+              "closing": "\\add*"
+            },
+            "."
           ],
-          "verseText": "◘"
+          "verseText": "We don't¦123097 just look at what we can see, but include the things that can't be seen, because¦123107 visible things are temporary¦123109, but the things that last forever are invisible to our¦123099 eyes."
         }
       ]
     },
@@ -1308,7 +1438,7 @@
       "chapterNumber": "5",
       "contents": [
         {
-          "s1": "The new body"
+          "s1": "Our future bodies"
         },
         {
           "rem": "/s1 Our Heavenly Dwelling; New Bodies"
@@ -1319,68 +1449,118 @@
         {
           "verseNumber": "1",
           "contents": [
-            "◘"
+            "We know that when the temporary, earthly¦123120 home",
+            {
+              "add": "(our¦123121 body)",
+              "closing": "\\add*"
+            },
+            "that we live in is demolished, we will have a building¦123127 from",
+            {
+              "nd": "God¦123129",
+              "closing": "\\nd*"
+            },
+            "that's not built by human hands—an eternal¦123134 house in the heavens¦123137."
           ],
-          "verseText": "◘"
+          "verseText": "We know that when the temporary, earthly¦123120 home (our¦123121 body) that we live in is demolished, we will have a building¦123127 from God¦123129 that's not built by human hands—an eternal¦123134 house in the heavens¦123137."
         },
         {
           "verseNumber": "2",
           "contents": [
-            "◘"
+            "Actually, that's also why we¦123142 groan¦123142—wanting to be clothed¦123149 in our¦123145 heavenly¦123148",
+            {
+              "add": "bodies",
+              "closing": "\\add*"
+            },
+            "."
           ],
-          "verseText": "◘"
+          "verseText": "Actually, that's also why we¦123142 groan¦123142—wanting to be clothed¦123149 in our¦123145 heavenly¦123148 bodies."
         },
         {
           "verseNumber": "3",
           "contents": [
-            "◘"
+            "Yes, once we're properly dressed¦123156 we won't feel naked¦123158"
           ],
-          "verseText": "◘"
+          "verseText": "Yes, once we're properly dressed¦123156 we won't feel naked¦123158"
         },
         {
           "verseNumber": "4",
           "contents": [
-            "◘"
+            "because while we live in these temporary homes we are groaning¦123167. It's not that we want to dispose of these temporary homes, but we want to be",
+            {
+              "add": "permanently",
+              "closing": "\\add*"
+            },
+            "clothed¦123176 so that our mortal¦123180",
+            {
+              "add": "parts",
+              "closing": "\\add*"
+            },
+            "might be enveloped by life¦123183."
           ],
-          "verseText": "◘"
+          "verseText": "because while we live in these temporary homes we are groaning¦123167. It's not that we want to dispose of these temporary homes, but we want to be permanently clothed¦123176 so that our mortal¦123180 parts might be enveloped by life¦123183."
         },
         {
           "verseNumber": "5",
           "contents": [
-            "◘",
+            "It's",
+            {
+              "nd": "God¦123192",
+              "closing": "\\nd*"
+            },
+            "who prepared¦123186 us for this reason—yes, the one who deposited¦123198 the",
+            {
+              "nd": "spirit¦123200",
+              "closing": "\\nd*"
+            },
+            "into us.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "It's God¦123192 who prepared¦123186 us for this reason—yes, the one who deposited¦123198 the spirit¦123200 into us."
         },
         {
           "verseNumber": "6",
           "contents": [
-            "◘"
+            "Because of that, we're always¦123203 confident¦123201 and¦123204 known¦123205 that while we're at home¦123207 in our bodies, we are distanced from the",
+            {
+              "nd": "master¦123215",
+              "closing": "\\nd*"
+            },
+            ","
           ],
-          "verseText": "◘"
+          "verseText": "Because of that, we're always¦123203 confident¦123201 and¦123204 known¦123205 that while we're at home¦123207 in our bodies, we are distanced from the master¦123215,"
         },
         {
           "verseNumber": "7",
           "contents": [
-            "◘"
+            "but we¦123219 walk¦123219 by faith¦123217 and not by how things look."
           ],
-          "verseText": "◘"
+          "verseText": "but we¦123219 walk¦123219 by faith¦123217 and not by how things look."
         },
         {
           "verseNumber": "8",
           "contents": [
-            "◘"
+            "And we do have confidence¦123223 and look forward to being absent¦123231 out of these bodies and being at home¦123236 with the",
+            {
+              "nd": "master¦123239",
+              "closing": "\\nd*"
+            },
+            ","
           ],
-          "verseText": "◘"
+          "verseText": "And we do have confidence¦123223 and look forward to being absent¦123231 out of these bodies and being at home¦123236 with the master¦123239,"
         },
         {
           "verseNumber": "9",
           "contents": [
-            "◘"
+            "so that's why we're ambitious¦123242 to please¦123248 the master, whether¦123244 we're",
+            {
+              "add": "still",
+              "closing": "\\add*"
+            },
+            "in these bodily homes or absent¦123247 from them."
           ],
-          "verseText": "◘"
+          "verseText": "so that's why we're ambitious¦123242 to please¦123248 the master, whether¦123244 we're still in these bodily homes or absent¦123247 from them."
         },
         {
           "verseNumber": "10",
@@ -1397,9 +1577,19 @@
               ],
               "closing": "\\x*"
             },
-            "◘",
+            "Yes, we must all stand at our court hearing in front of the",
             {
-              "s1": "The pegpeuliey of good love"
+              "nd": "messiah¦123261",
+              "closing": "\\nd*"
+            },
+            ", so that each of us may receive¦123263",
+            {
+              "add": "justice",
+              "closing": "\\add*"
+            },
+            "for what we did while in these bodies, whether¦123273 it¦123256 was good¦123274 or evil¦123277.",
+            {
+              "s1": "It's time to get saved"
             },
             {
               "rem": "/s1 Friendship with God through Christ; The Ministry of Reconciliation; We Are God's Ambassadors; The message of reconciliation"
@@ -1408,90 +1598,172 @@
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "Yes, we must all stand at our court hearing in front of the messiah¦123261, so that each of us may receive¦123263 justice for what we did while in these bodies, whether¦123273 it¦123256 was good¦123274 or evil¦123277."
         },
         {
           "verseNumber": "11",
           "contents": [
-            "◘"
+            "Because of that, having¦123278 known¦123278 the fear¦123281 of the",
+            {
+              "nd": "master¦123283",
+              "closing": "\\nd*"
+            },
+            ", we are persuading¦123285 people¦123284, but",
+            {
+              "nd": "God¦123287",
+              "closing": "\\nd*"
+            },
+            "sees what we're doing, and I'm hoping¦123290 that your¦123296 consciences¦123295 also see the same."
           ],
-          "verseText": "◘"
+          "verseText": "Because of that, having¦123278 known¦123278 the fear¦123281 of the master¦123283, we are persuading¦123285 people¦123284, but God¦123287 sees what we're doing, and I'm hoping¦123290 that your¦123296 consciences¦123295 also see the same."
         },
         {
           "verseNumber": "12",
           "contents": [
-            "◘"
+            "Again, we're not trying to promote ourselves¦123301 to you, but we're giving¦123306 you all an opportunity¦123305 to take pride in us, so that you can",
+            {
+              "add": "respond to",
+              "closing": "\\add*"
+            },
+            "those who take pride in",
+            {
+              "add": "outside",
+              "closing": "\\add*"
+            },
+            "appearances¦123318 rather than in what is in the heart¦123324."
           ],
-          "verseText": "◘"
+          "verseText": "Again, we're not trying to promote ourselves¦123301 to you, but we're giving¦123306 you all an opportunity¦123305 to take pride in us, so that you can respond to those who take pride in outside appearances¦123318 rather than in what is in the heart¦123324."
         },
         {
           "verseNumber": "13",
           "contents": [
-            "◘"
+            "If we're being crazy, it's",
+            {
+              "add": "to serve",
+              "closing": "\\add*"
+            },
+            {
+              "nd": "God¦123328",
+              "closing": "\\nd*"
+            },
+            ", or if we're being sensible¦123330, it's for all of you¦123331,"
           ],
-          "verseText": "◘"
+          "verseText": "If we're being crazy, it's to serve God¦123328, or if we're being sensible¦123330, it's for all of you¦123331,"
         },
         {
           "verseNumber": "14",
           "contents": [
-            "◘"
+            "because¦123345 the",
+            {
+              "nd": "messiah's¦123337",
+              "closing": "\\nd*"
+            },
+            "love controls us since we are convinced that he died for everyone. Hence we've all died"
           ],
-          "verseText": "◘"
+          "verseText": "because¦123345 the messiah's¦123337 love controls us since we are convinced that he died for everyone. Hence we've all died"
         },
         {
           "verseNumber": "15",
           "contents": [
-            "◘",
+            "and he died for everyone, so that anyone who's living, won't be living for themselves¦123361 any more, but for the one who died for them and then came back to life from the dead.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "and he died for everyone, so that anyone who's living, won't be living for themselves¦123361 any more, but for the one who died for them and then came back to life from the dead."
         },
         {
           "verseNumber": "16",
           "contents": [
-            "◘"
+            "So from now on, we don't just know people in the physical dimension, and even if we have known",
+            {
+              "nd": "Messiah¦123385",
+              "closing": "\\nd*"
+            },
+            "physically, that's no longer¦123388 how we know him."
           ],
-          "verseText": "◘"
+          "verseText": "So from now on, we don't just know people in the physical dimension, and even if we have known Messiah¦123385 physically, that's no longer¦123388 how we know him."
         },
         {
           "verseNumber": "17",
           "contents": [
-            "◘"
+            "So them if anyone¦123392 is in",
+            {
+              "nd": "Messiah¦123394",
+              "closing": "\\nd*"
+            },
+            ", they're a",
+            {
+              "em": "new",
+              "closing": "\\em*"
+            },
+            "creation¦123396—the old has gone, and wow, it's",
+            {
+              "add": "now",
+              "closing": "\\add*"
+            },
+            "become¦123401 new!"
           ],
-          "verseText": "◘"
+          "verseText": "So them if anyone¦123392 is in Messiah¦123394, they're a new creation¦123396—the old has gone, and wow, it's now become¦123401 new!"
         },
         {
           "verseNumber": "18",
           "contents": [
-            "◘"
+            "Everything is",
+            {
+              "add": "from",
+              "closing": "\\add*"
+            },
+            {
+              "nd": "God¦123410",
+              "closing": "\\nd*"
+            },
+            ", the one who reconciled us to himself¦123414 by",
+            {
+              "nd": "Messiah¦123417",
+              "closing": "\\nd*"
+            },
+            "and¦123418 who has given¦123419 the ministry of reconciliation to us."
           ],
-          "verseText": "◘"
+          "verseText": "Everything is from God¦123410, the one who reconciled us to himself¦123414 by Messiah¦123417 and¦123418 who has given¦123419 the ministry of reconciliation to us."
         },
         {
           "verseNumber": "19",
           "contents": [
-            "◘",
+            {
+              "nd": "God¦123428",
+              "closing": "\\nd*"
+            },
+            "was in",
+            {
+              "nd": "Messiah¦123431",
+              "closing": "\\nd*"
+            },
+            "reconciling the world¦123432 to himself¦123434, not listing their¦123440 sins against them, and¦123441 having¦123442 given the message¦123448 of reconciliation to us.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "God¦123428 was in Messiah¦123431 reconciling the world¦123432 to himself¦123434, not listing their¦123440 sins against them, and¦123441 having¦123442 given the message¦123448 of reconciliation to us."
         },
         {
           "verseNumber": "20",
           "contents": [
-            "◘"
+            "Because of that, we are ambassadors¦123454 for Messiah, as though¦123455 God is encouraging",
+            {
+              "add": "others",
+              "closing": "\\add*"
+            },
+            "through¦123459 us, so we implore you for Messiah: Make your peace with God."
           ],
-          "verseText": "◘"
+          "verseText": "Because of that, we are ambassadors¦123454 for Messiah, as though¦123455 God is encouraging others through¦123459 us, so we implore you for Messiah: Make your peace with God."
         },
         {
           "verseNumber": "21",
           "contents": [
-            "◘"
+            "God took the one who hadn't experienced sin and made him into sin for us so that in him, we could become¦123478 not guilty in God's sight."
           ],
-          "verseText": "◘"
+          "verseText": "God took the one who hadn't experienced sin and made him into sin for us so that in him, we could become¦123478 not guilty in God's sight."
         }
       ]
     },
@@ -1504,9 +1776,9 @@
         {
           "verseNumber": "1",
           "contents": [
-            "◘"
+            "Since we're working¦123484 together¦123484, we want to encourage you¦123498 all not to accept God's grace¦123493 wastefully"
           ],
-          "verseText": "◘"
+          "verseText": "Since we're working¦123484 together¦123484, we want to encourage you¦123498 all not to accept God's grace¦123493 wastefully"
         },
         {
           "verseNumber": "2",
@@ -1523,15 +1795,27 @@
               ],
               "closing": "\\x*"
             },
-            "◘",
+            "because he said,",
             {
-              "q1": "…"
+              "q1": "‘I listened to you at the right time,"
             },
             {
-              "q2": "…"
+              "q1": "and I helped you on the day when you were saved.’"
             },
             {
-              "m": "…"
+              "m": [
+                "Listen, today is the right time",
+                {
+                  "add": "to ask",
+                  "closing": "\\add*"
+                },
+                ". And listen",
+                {
+                  "add": "again",
+                  "closing": "\\add*"
+                },
+                ", today is the right day to get saved."
+              ]
             },
             {
               "rem": "/s1 Paul's Hardships"
@@ -1540,21 +1824,21 @@
               "p": ""
             }
           ],
-          "verseText": "◘ … … …"
+          "verseText": "because he said, ‘I listened to you at the right time, and I helped you on the day when you were saved.’ Listen, today is the right time to ask. And listen again, today is the right day to get saved."
         },
         {
           "verseNumber": "3",
           "contents": [
-            "◘"
+            "Don't give anyone a reason to stumble¦123526, so that the ministry won't be tarnished,"
           ],
-          "verseText": "◘"
+          "verseText": "Don't give anyone a reason to stumble¦123526, so that the ministry won't be tarnished,"
         },
         {
           "verseNumber": "4",
           "contents": [
-            "◘"
+            "but as God's servants¦123541 we commend¦123535 ourselves¦123538 in every¦123534 way—by great¦123544 endurance¦123543 when facing afflictions, hardships, calamities,"
           ],
-          "verseText": "◘"
+          "verseText": "but as God's servants¦123541 we commend¦123535 ourselves¦123538 in every¦123534 way—by great¦123544 endurance¦123543 when facing afflictions, hardships, calamities,"
         },
         {
           "verseNumber": "5",
@@ -1571,68 +1855,88 @@
               ],
               "closing": "\\x*"
             },
-            "◘"
+            "beatings¦123552, imprisonments, riots, labours, sleepless nights, hunger,"
           ],
-          "verseText": "◘"
+          "verseText": "beatings¦123552, imprisonments, riots, labours, sleepless nights, hunger,"
         },
         {
           "verseNumber": "6",
           "contents": [
-            "◘"
+            "by purity¦123564, knowledge¦123566, patience¦123568, kindness¦123570, the holy",
+            {
+              "nd": "spirit¦123572",
+              "closing": "\\nd*"
+            },
+            ", genuine love¦123575,"
           ],
-          "verseText": "◘"
+          "verseText": "by purity¦123564, knowledge¦123566, patience¦123568, kindness¦123570, the holy spirit¦123572, genuine love¦123575,"
         },
         {
           "verseNumber": "7",
           "contents": [
-            "◘"
+            "in truthful¦123579 speech and in the power¦123581 of",
+            {
+              "nd": "God¦123582",
+              "closing": "\\nd*"
+            },
+            ". Hold the weapons¦123585 of righteousness in",
+            {
+              "add": "both",
+              "closing": "\\add*"
+            },
+            "your right and left hands"
           ],
-          "verseText": "◘"
+          "verseText": "in truthful¦123579 speech and in the power¦123581 of God¦123582. Hold the weapons¦123585 of righteousness in both your right and left hands"
         },
         {
           "verseNumber": "8",
           "contents": [
-            "◘"
+            "whether in victory or dishonour¦123595, through bad reports and good¦123599 reports, even if being called fakes (but being genuine)."
           ],
-          "verseText": "◘"
+          "verseText": "whether in victory or dishonour¦123595, through bad reports and good¦123599 reports, even if being called fakes (but being genuine)."
         },
         {
           "verseNumber": "9",
           "contents": [
-            "◘"
+            "We're regarded as unknowns despite being well-known, considered to be dying¦123611 off yet very much alive, being beaten but not yet being killed,"
           ],
-          "verseText": "◘"
+          "verseText": "We're regarded as unknowns despite being well-known, considered to be dying¦123611 off yet very much alive, being beaten but not yet being killed,"
         },
         {
           "verseNumber": "10",
           "contents": [
-            "◘",
+            "regarded as sad but always¦123622 happy, as poor but making¦123629 many people rich, as having¦123632 nothing¦123631 but possessing everything.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "regarded as sad but always¦123622 happy, as poor but making¦123629 many people rich, as having¦123632 nothing¦123631 but possessing everything."
         },
         {
           "verseNumber": "11",
           "contents": [
-            "◘"
+            "We've shared our thoughts with you¦123641 all from Corinth and our hearts¦123644 have been expanded."
           ],
-          "verseText": "◘"
+          "verseText": "We've shared our thoughts with you¦123641 all from Corinth and our hearts¦123644 have been expanded."
         },
         {
           "verseNumber": "12",
           "contents": [
-            "◘"
+            "You haven't been restricted by us, but your¦123657 own compassions¦123656 restrict you all."
           ],
-          "verseText": "◘"
+          "verseText": "You haven't been restricted by us, but your¦123657 own compassions¦123656 restrict you all."
         },
         {
           "verseNumber": "13",
           "contents": [
-            "◘",
+            "In return, you¦123667",
             {
-              "s1": "Don't all pakigsabeka of that not egpalintutuu"
+              "add": "also",
+              "closing": "\\add*"
+            },
+            "should be expanded. (Yes, I know it's like I'm talking¦123664 to children¦123663.)",
+            {
+              "s1": "Don't be teamed with unbelievers"
             },
             {
               "rem": "/s1 Do Not Be Yoked With Unbelievers; Church life and discipline; The Temple of the Living God; Warning against Pagan Influences"
@@ -1641,21 +1945,26 @@
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "In return, you¦123667 also should be expanded. (Yes, I know it's like I'm talking¦123664 to children¦123663.)"
         },
         {
           "verseNumber": "14",
           "contents": [
-            "◘"
+            "Don't be teamed together with unbelievers¦123671, because¦123673 how can there be a partnership¦123674 between obeying and¦123677 disobeying God, or in other words, how can light¦123683 socialise with darkness¦123686?"
           ],
-          "verseText": "◘"
+          "verseText": "Don't be teamed together with unbelievers¦123671, because¦123673 how can there be a partnership¦123674 between obeying and¦123677 disobeying God, or in other words, how can light¦123683 socialise with darkness¦123686?"
         },
         {
           "verseNumber": "15",
           "contents": [
-            "◘"
+            "So what harmony¦123689 can",
+            {
+              "nd": "Messiah¦123690",
+              "closing": "\\nd*"
+            },
+            "have with Satan, or what does a believer¦123697 have in common with an unbeliever¦123700?"
           ],
-          "verseText": "◘"
+          "verseText": "So what harmony¦123689 can Messiah¦123690 have with Satan, or what does a believer¦123697 have in common with an unbeliever¦123700?"
         },
         {
           "verseNumber": "16",
@@ -1678,21 +1987,24 @@
               ],
               "closing": "\\x*"
             },
-            "◘",
+            "What agreement¦123703 can God's temple have with idols¦123707, because¦123710 we¦123708 are the temple of the living¦123716 God? As God said¦123719,",
             {
-              "q1": "…"
+              "q1": "‘I will live with them"
             },
             {
-              "q1": "…"
+              "q2": "and I will walk¦123727 among¦123727 them."
             },
             {
-              "q2": "…"
+              "q1": "I will be their¦123730 God"
+            },
+            {
+              "q2": "and they¦123733 will be my¦123736 people¦123737.’"
             },
             {
               "m": ""
             }
           ],
-          "verseText": "◘ … … …"
+          "verseText": "What agreement¦123703 can God's temple have with idols¦123707, because¦123710 we¦123708 are the temple of the living¦123716 God? As God said¦123719, ‘I will live with them and I will walk¦123727 among¦123727 them. I will be their¦123730 God and they¦123733 will be my¦123736 people¦123737.’"
         },
         {
           "verseNumber": "17",
@@ -1709,21 +2021,26 @@
               ],
               "closing": "\\x*"
             },
-            "◘",
+            "Therefore¦123738 the",
             {
-              "q1": "…"
+              "nd": "master¦123747",
+              "closing": "\\nd*"
+            },
+            "says,",
+            {
+              "q1": "‘Come out from among them and be separate."
             },
             {
-              "q2": "…"
+              "q1": "Touch nothing that's ceremonially prohibited"
             },
             {
-              "q2": "…"
+              "q2": "and then I will accept you¦123754."
             },
             {
               "q1": ""
             }
           ],
-          "verseText": "◘ … … …"
+          "verseText": "Therefore¦123738 the master¦123747 says, ‘Come out from among them and be separate. Touch nothing that's ceremonially prohibited and then I will accept you¦123754."
         },
         {
           "verseNumber": "18",
@@ -1740,15 +2057,22 @@
               ],
               "closing": "\\x*"
             },
-            "◘",
+            "I will be a Father for you,",
             {
-              "q2": "…"
+              "q1": "and you will be my sons¦123765 and daughters¦123767,’"
             },
             {
-              "q2": "…"
+              "m": [
+                "says the all-powerful",
+                {
+                  "nd": "master¦123769",
+                  "closing": "\\nd*"
+                },
+                "."
+              ]
             }
           ],
-          "verseText": "◘ … …"
+          "verseText": "I will be a Father for you, and you will be my sons¦123765 and daughters¦123767,’ says the all-powerful master¦123769."
         }
       ]
     },
@@ -1761,9 +2085,14 @@
         {
           "verseNumber": "1",
           "contents": [
-            "◘",
+            "Dear brothers and sisters, because we have those promises¦123775 we should avoid doing anything that would defile¦123781 our bodies or our spirits¦123784, thus staying pure due to our respect for",
             {
-              "s1": "The kahale of Paul"
+              "nd": "God¦123792",
+              "closing": "\\nd*"
+            },
+            ".",
+            {
+              "s1": "Paul's happiness about those in Corinth"
             },
             {
               "rem": "/s1 Paul's Joy at the Church's Repentance"
@@ -1772,31 +2101,46 @@
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "Dear brothers and sisters, because we have those promises¦123775 we should avoid doing anything that would defile¦123781 our bodies or our spirits¦123784, thus staying pure due to our respect for God¦123792."
         },
         {
           "verseNumber": "2",
           "contents": [
-            "◘"
+            "Please do accept us because¦123794 we didn't wrong¦123796 anyone, and we didn't corrupt¦123798 or exploit¦123800 anyone."
           ],
-          "verseText": "◘"
+          "verseText": "Please do accept us because¦123794 we didn't wrong¦123796 anyone, and we didn't corrupt¦123798 or exploit¦123800 anyone."
         },
         {
           "verseNumber": "3",
           "contents": [
-            "◘"
+            "I'm not pronouncing condemnation¦123803 because¦123807 I've said¦123806 previously¦123806 that you¦123815 all are in our¦123814 hearts¦123812 so together we'll die¦123818 and¦123819 together we'll live",
+            {
+              "add": "again",
+              "closing": "\\add*"
+            },
+            "."
           ],
-          "verseText": "◘"
+          "verseText": "I'm not pronouncing condemnation¦123803 because¦123807 I've said¦123806 previously¦123806 that you¦123815 all are in our¦123814 hearts¦123812 so together we'll die¦123818 and¦123819 together we'll live again."
         },
         {
           "verseNumber": "4",
           "contents": [
-            "◘",
+            "I",
+            {
+              "add": "feel",
+              "closing": "\\add*"
+            },
+            "very bold towards¦123824 you all and boast¦123828 a lot about you. I'm filled¦123831 with encouragement and",
+            {
+              "add": "even",
+              "closing": "\\add*"
+            },
+            "in our¦123842 troubles I'm overflowing¦123834 with happiness .",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "I feel very bold towards¦123824 you all and boast¦123828 a lot about you. I'm filled¦123831 with encouragement and even in our¦123842 troubles I'm overflowing¦123834 with happiness ."
         },
         {
           "verseNumber": "5",
@@ -1813,98 +2157,154 @@
               ],
               "closing": "\\x*"
             },
-            "◘"
+            "Actually, since we arrived in Macedonia¦123849 we've had no physical rest but¦123859 we've been oppressed¦123862 in every¦123861 way—on the outside¦123863 there's quarrels¦123864 and on the inside¦123865 we've had our¦123847 fears¦123866,"
           ],
-          "verseText": "◘"
+          "verseText": "Actually, since we arrived in Macedonia¦123849 we've had no physical rest but¦123859 we've been oppressed¦123862 in every¦123861 way—on the outside¦123863 there's quarrels¦123864 and on the inside¦123865 we've had our¦123847 fears¦123866,"
         },
         {
           "verseNumber": "6",
           "contents": [
-            "◘"
+            "but the",
+            {
+              "nd": "God¦123876",
+              "closing": "\\nd*"
+            },
+            "who comforts those who're humble¦123872, comforted us with the arrival of Titos¦123881."
           ],
-          "verseText": "◘"
+          "verseText": "but the God¦123876 who comforts those who're humble¦123872, comforted us with the arrival of Titos¦123881."
         },
         {
           "verseNumber": "7",
           "contents": [
-            "◘",
+            "It wasn't just his¦123888 coming¦123887, but also because¦123910 he'd been comforted¦123893 by all of you. He told us about your longing¦123903 for me, and your mourning¦123906",
+            {
+              "add": "for my troubles",
+              "closing": "\\add*"
+            },
+            "and your zeal for me, and it really cheered me up.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "It wasn't just his¦123888 coming¦123887, but also because¦123910 he'd been comforted¦123893 by all of you. He told us about your longing¦123903 for me, and your mourning¦123906 for my troubles and your zeal for me, and it really cheered me up."
         },
         {
           "verseNumber": "8",
           "contents": [
-            "◘"
+            "Yes, because¦123940 even if I made you sad with my letter, I don't¦123925 regret",
+            {
+              "add": "sending",
+              "closing": "\\add*"
+            },
+            "it. (",
+            {
+              "add": "Well,",
+              "closing": "\\add*"
+            },
+            "for a while I was sad for you that I had sent the letter.)"
           ],
-          "verseText": "◘"
+          "verseText": "Yes, because¦123940 even if I made you sad with my letter, I don't¦123925 regret sending it. (Well, for a while I was sad for you that I had sent the letter.)"
         },
         {
           "verseNumber": "9",
           "contents": [
-            "◘"
+            {
+              "add": "Anyway,",
+              "closing": "\\add*"
+            },
+            "now I'm happy, not that it made you sad, but because that sadness led to turning away from your sin because",
+            {
+              "add": "that",
+              "closing": "\\add*"
+            },
+            "sorrow was according¦123957 to God's",
+            {
+              "add": "values",
+              "closing": "\\add*"
+            },
+            "so you didn't lose anything because of us."
           ],
-          "verseText": "◘"
+          "verseText": "Anyway, now I'm happy, not that it made you sad, but because that sadness led to turning away from your sin because that sorrow was according¦123957 to God's values so you didn't lose anything because of us."
         },
         {
           "verseNumber": "10",
           "contents": [
-            "◘"
+            "Because sorrow according¦123967 to God's",
+            {
+              "add": "values",
+              "closing": "\\add*"
+            },
+            "brings repentance¦123970 that leads to salvation¦123972 without regrets, but the world's¦123979 sorrow leads to death¦123981."
           ],
-          "verseText": "◘"
+          "verseText": "Because sorrow according¦123967 to God's values brings repentance¦123970 that leads to salvation¦123972 without regrets, but the world's¦123979 sorrow leads to death¦123981."
         },
         {
           "verseNumber": "11",
           "contents": [
-            "◘",
+            "See how this sorrow¦123990 according¦123988 to God's",
+            {
+              "add": "values",
+              "closing": "\\add*"
+            },
+            "has produced¦123993 earnestness¦123997 in you all, but also eagerness to clear yourselves, resentment¦124002, fear¦124004, longing¦124007, zeal, and vengeance¦124012. You have proved yourselves innocent in the matter¦124021 in every¦124014 area.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "See how this sorrow¦123990 according¦123988 to God's values has produced¦123993 earnestness¦123997 in you all, but also eagerness to clear yourselves, resentment¦124002, fear¦124004, longing¦124007, zeal, and vengeance¦124012. You have proved yourselves innocent in the matter¦124021 in every¦124014 area."
         },
         {
           "verseNumber": "12",
           "contents": [
-            "◘"
+            "So if I also wrote¦124025 to you all, not on account of the one having done wrong, nor on account of the one having been wronged, but on account of your¦124045 earnestness¦124044 that would be revealed¦124042 to us all before¦124053",
+            {
+              "nd": "God¦124055",
+              "closing": "\\nd*"
+            },
+            ","
           ],
-          "verseText": "◘"
+          "verseText": "So if I also wrote¦124025 to you all, not on account of the one having done wrong, nor on account of the one having been wronged, but on account of your¦124045 earnestness¦124044 that would be revealed¦124042 to us all before¦124053 God¦124055,"
         },
         {
           "verseNumber": "13",
           "contents": [
-            "◘",
+            "then we've been comforted because of this.",
             {
-              "p": "…◘"
+              "p": [
+                "And",
+                {
+                  "add": "talking about",
+                  "closing": "\\add*"
+                },
+                "our¦124063 comfort, we were quite thrilled at Titos' happiness because his¦124078 pirit has been refreshed¦124075 by all of you¦124081."
+              ]
             },
             {
               "p": ""
             }
           ],
-          "verseText": "◘ …◘"
+          "verseText": "then we've been comforted because of this. And talking about our¦124063 comfort, we were quite thrilled at Titos' happiness because his¦124078 pirit has been refreshed¦124075 by all of you¦124081."
         },
         {
           "verseNumber": "14",
           "contents": [
-            "◘"
+            "Yes, if I've boasted anything¦124084 about you all to him, I wasn't disgraced¦124091, but as we spoke¦124099 the truth to you all about everything, so also did our¦124106 boasting to Titos¦124109 become¦124111 true"
           ],
-          "verseText": "◘"
+          "verseText": "Yes, if I've boasted anything¦124084 about you all to him, I wasn't disgraced¦124091, but as we spoke¦124099 the truth to you all about everything, so also did our¦124106 boasting to Titos¦124109 become¦124111 true"
         },
         {
           "verseNumber": "15",
           "contents": [
-            "◘"
+            "and his¦124115 affection towards¦124117 you all increased when he's reminded¦124121 about your¦124124 obedience¦124125 and how you accepted him with fear¦124129 and trembling¦124131."
           ],
-          "verseText": "◘"
+          "verseText": "and his¦124115 affection towards¦124117 you all increased when he's reminded¦124121 about your¦124124 obedience¦124125 and how you accepted him with fear¦124129 and trembling¦124131."
         },
         {
           "verseNumber": "16",
           "contents": [
-            "◘"
+            "I'm thrilled that I can have confidence¦124139 in you¦124141 all about everything¦124138."
           ],
-          "verseText": "◘"
+          "verseText": "I'm thrilled that I can have confidence¦124139 in you¦124141 all about everything¦124138."
         }
       ]
     },
@@ -1912,10 +2312,10 @@
       "chapterNumber": "8",
       "contents": [
         {
-          "s1": "The peggibahet of pegbehey not egpalelehed"
+          "s1": "Encouragement to be generous"
         },
         {
-          "rem": "/s1 Christian Giving; The collection for the church in Jerusalem; A Call to Generous Giving; Generosity Encouraged; Encouragement to Be Generous"
+          "rem": "/s1 Christian Giving; The collection for the church in Jerusalem; A Call to Generous Giving; Generosity Encouraged"
         },
         {
           "p": null
@@ -1935,113 +2335,163 @@
               ],
               "closing": "\\x*"
             },
-            "◘"
+            "And then, brothers¦124145 and¦124145 sisters¦124145, we¦124142 want you¦124144 to know about how",
+            {
+              "nd": "God¦124149",
+              "closing": "\\nd*"
+            },
+            "showed kindness to the assemblies¦124154 in Macedonia¦124157"
           ],
-          "verseText": "◘"
+          "verseText": "And then, brothers¦124145 and¦124145 sisters¦124145, we¦124142 want you¦124144 to know about how God¦124149 showed kindness to the assemblies¦124154 in Macedonia¦124157"
         },
         {
           "verseNumber": "2",
           "contents": [
-            "◘"
+            "in that as they proved¦124161 themselves in",
+            {
+              "add": "a time of",
+              "closing": "\\add*"
+            },
+            "persecution, they continued to show great positivity and¦124168 from the depth¦124171 of their poverty¦124173, their generosity¦124182",
+            {
+              "add": "resulted in",
+              "closing": "\\add*"
+            },
+            "plentiful¦124175 riches¦124180."
           ],
-          "verseText": "◘"
+          "verseText": "in that as they proved¦124161 themselves in a time of persecution, they continued to show great positivity and¦124168 from the depth¦124171 of their poverty¦124173, their generosity¦124182 resulted in plentiful¦124175 riches¦124180."
         },
         {
           "verseNumber": "3",
           "contents": [
-            "◘"
+            "So I'm testifying¦124187 about their ability, and besides¦124189 that, they voluntarily¦124192"
           ],
-          "verseText": "◘"
+          "verseText": "So I'm testifying¦124187 about their ability, and besides¦124189 that, they voluntarily¦124192"
         },
         {
           "verseNumber": "4",
           "contents": [
-            "◘"
+            "and enthusiastically begged us to to allow them the grace¦124200 and fellowship¦124203 that would come from their service¦124205 to other believers."
           ],
-          "verseText": "◘"
+          "verseText": "and enthusiastically begged us to to allow them the grace¦124200 and fellowship¦124203 that would come from their service¦124205 to other believers."
         },
         {
           "verseNumber": "5",
           "contents": [
-            "◘"
+            "It wasn't something that we¦124215 expected of them, but¦124217 they¦124219 gave¦124219 themselves¦124218—firstly¦124221 to the",
+            {
+              "nd": "master¦124224",
+              "closing": "\\nd*"
+            },
+            ", and¦124225 also to us by God's will."
           ],
-          "verseText": "◘"
+          "verseText": "It wasn't something that we¦124215 expected of them, but¦124217 they¦124219 gave¦124219 themselves¦124218—firstly¦124221 to the master¦124224, and¦124225 also to us by God's will."
         },
         {
           "verseNumber": "6",
           "contents": [
-            "◘"
+            "So we encouraged Titos¦124234 that just as he began¦124238 to do previously¦124238, that he would go on to cultivate this",
+            {
+              "add": "generosity",
+              "closing": "\\add*"
+            },
+            "in you."
           ],
-          "verseText": "◘"
+          "verseText": "So we encouraged Titos¦124234 that just as he began¦124238 to do previously¦124238, that he would go on to cultivate this generosity in you."
         },
         {
           "verseNumber": "7",
           "contents": [
-            "◘",
+            "But since you're all prolific in everything¦124252—in faith¦124256 and speech¦124258 and knowledge¦124260 and all earnestness¦124263 and in the love¦124272 from us to you all—make sure that you're all prolific in this grace¦124278",
+            {
+              "add": "of giving",
+              "closing": "\\add*"
+            },
+            ".",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "But since you're all prolific in everything¦124252—in faith¦124256 and speech¦124258 and knowledge¦124260 and all earnestness¦124263 and in the love¦124272 from us to you all—make sure that you're all prolific in this grace¦124278 of giving."
         },
         {
           "verseNumber": "8",
           "contents": [
-            "◘"
+            "I'm not saying this as a command¦124282, but¦124284 approving¦124296 the genuineness¦124295 of your¦124293 love¦124294 through¦124285 the earnestness¦124288 of others¦124287."
           ],
-          "verseText": "◘"
+          "verseText": "I'm not saying this as a command¦124282, but¦124284 approving¦124296 the genuineness¦124295 of your¦124293 love¦124294 through¦124285 the earnestness¦124288 of others¦124287."
         },
         {
           "verseNumber": "9",
           "contents": [
-            "◘",
+            "because¦124307 you all have experienced the grace¦124300 of our¦124303",
+            {
+              "nd": "master¦124302 Yeshua¦124304 Messiah¦124305",
+              "closing": "\\nd*"
+            },
+            ": that although he was rich, he became¦124310 poor so that all of you in your¦124307 poverty¦124317 might become rich.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "because¦124307 you all have experienced the grace¦124300 of our¦124303 master¦124302 Yeshua¦124304 Messiah¦124305: that although he was rich, he became¦124310 poor so that all of you in your¦124307 poverty¦124317 might become rich."
         },
         {
           "verseNumber": "10",
           "contents": [
-            "◘"
+            "And I'm giving¦124323 my opinion¦124320 on this because¦124325 it's beneficial¦124327 for you¦124326 all not only to do what began¦124337 last year¦124339, but¦124333 to do it willingly¦124336."
           ],
-          "verseText": "◘"
+          "verseText": "And I'm giving¦124323 my opinion¦124320 on this because¦124325 it's beneficial¦124327 for you¦124326 all not only to do what began¦124337 last year¦124339, but¦124333 to do it willingly¦124336."
         },
         {
           "verseNumber": "11",
           "contents": [
-            "◘"
+            "Now you should see this through so that you're all not just ready to be willing¦124351, but also to actually accomplish that from what you have,"
           ],
-          "verseText": "◘"
+          "verseText": "Now you should see this through so that you're all not just ready to be willing¦124351, but also to actually accomplish that from what you have,"
         },
         {
           "verseNumber": "12",
           "contents": [
-            "◘",
+            "because if the readiness¦124362 is there, it¦124369 is acceptable¦124369 according to what a person has, not according to what they do not have.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "because if the readiness¦124362 is there, it¦124369 is acceptable¦124369 according to what a person has, not according to what they do not have."
         },
         {
           "verseNumber": "13",
           "contents": [
-            "◘"
+            {
+              "add": "Of course,",
+              "closing": "\\add*"
+            },
+            "it's not that others¦124377 should be relaxing¦124378 while you¦124379 all endure difficulty, but¦124382 with an aim of equality¦124384."
           ],
-          "verseText": "◘"
+          "verseText": "Of course, it's not that others¦124377 should be relaxing¦124378 while you¦124379 all endure difficulty, but¦124382 with an aim of equality¦124384."
         },
         {
           "verseNumber": "14",
           "contents": [
-            "◘"
+            "At the present¦124387 time, your excess",
+            {
+              "add": "will help",
+              "closing": "\\add*"
+            },
+            "those who're in need—",
+            {
+              "add": "another time",
+              "closing": "\\add*"
+            },
+            "their excess might meet your needto bring about equality¦124410."
           ],
-          "verseText": "◘"
+          "verseText": "At the present¦124387 time, your excess will help those who're in need—another time their excess might meet your needto bring about equality¦124410."
         },
         {
           "verseNumber": "15",
           "contents": [
+            "As the scriptures say:",
             {
               "x": [
                 "+",
@@ -2054,15 +2504,28 @@
               ],
               "closing": "\\x*"
             },
-            "◘",
             {
-              "q1": "…"
+              "q1": [
+                "‘The person who",
+                {
+                  "add": "gathered",
+                  "closing": "\\add*"
+                },
+                "much didn't have too much,"
+              ]
             },
             {
-              "q2": "…"
+              "q1": [
+                "and¦124418 the person who",
+                {
+                  "add": "gathered",
+                  "closing": "\\add*"
+                },
+                "little¦124421 didn't have any lack.’"
+              ]
             },
             {
-              "s1": "Titu and the others rin"
+              "s1": "Concerning Titos and his companions"
             },
             {
               "rem": "/s1 Titos Sent to Corinth; Titos and His Companions; Commendation of Titos"
@@ -2071,45 +2534,52 @@
               "p": ""
             }
           ],
-          "verseText": "◘ … …"
+          "verseText": "As the scriptures say: ‘The person who gathered much didn't have too much, and¦124418 the person who gathered little¦124421 didn't have any lack.’"
         },
         {
           "verseNumber": "16",
           "contents": [
-            "◘"
+            "But may",
+            {
+              "nd": "God¦124427",
+              "closing": "\\nd*"
+            },
+            "be thanked¦124424 for putting the same¦124433 earnestness¦124434 for you¦124436 all into Titos' mind¦124439"
           ],
-          "verseText": "◘"
+          "verseText": "But may God¦124427 be thanked¦124424 for putting the same¦124433 earnestness¦124434 for you¦124436 all into Titos' mind¦124439"
         },
         {
           "verseNumber": "17",
           "contents": [
-            "◘"
+            "because indeed¦124443 he accepted our appeal¦124444, but being¦124448 so earnest¦124446 he volunteered¦124449 to visit you all."
           ],
-          "verseText": "◘"
+          "verseText": "because indeed¦124443 he accepted our appeal¦124444, but being¦124448 so earnest¦124446 he volunteered¦124449 to visit you all."
         },
         {
           "verseNumber": "18",
           "contents": [
-            "◘"
+            "And we¦124453 sent¦124453 another brother¦124458 along with him¦124456, who is praised¦124463 by all the assemblies¦124470 for his good¦124466 message¦124466,"
           ],
-          "verseText": "◘"
+          "verseText": "And we¦124453 sent¦124453 another brother¦124458 along with him¦124456, who is praised¦124463 by all the assemblies¦124470 for his good¦124466 message¦124466,"
         },
         {
           "verseNumber": "19",
           "contents": [
-            "◘",
+            "and not only that, he was also chosen¦124476 by the assemblies¦124479 as our travelling¦124480 companion¦124480 as we bring this gift as our service for the",
             {
-              "p": ""
-            }
+              "nd": "master's¦124496",
+              "closing": "\\nd*"
+            },
+            "honour and for our readiness¦124499."
           ],
-          "verseText": "◘"
+          "verseText": "and not only that, he was also chosen¦124476 by the assemblies¦124479 as our travelling¦124480 companion¦124480 as we bring this gift as our service for the master's¦124496 honour and for our readiness¦124499."
         },
         {
           "verseNumber": "20",
           "contents": [
-            "◘"
+            "We want to avoid¦124502 the possibility of being¦124513 criticised in our excitement in serving this way,"
           ],
-          "verseText": "◘"
+          "verseText": "We want to avoid¦124502 the possibility of being¦124513 criticised in our excitement in serving this way,"
         },
         {
           "verseNumber": "21",
@@ -2126,33 +2596,53 @@
               ],
               "closing": "\\x*"
             },
-            "◘",
+            "because we¦124517 are providing¦124517 good¦124519, not only towards the",
+            {
+              "nd": "master¦124525",
+              "closing": "\\nd*"
+            },
+            ", but¦124526 also for people¦124529.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "because we¦124517 are providing¦124517 good¦124519, not only towards the master¦124525, but¦124526 also for people¦124529."
         },
         {
           "verseNumber": "22",
           "contents": [
-            "◘"
+            "We also sent¦124530 with them another brother¦124534 who we approved¦124537 of in many ways—often¦124540 being¦124542 diligent, but now much more diligent because of",
+            {
+              "add": "his",
+              "closing": "\\add*"
+            },
+            "high confidence¦124547 in you¦124552 all."
           ],
-          "verseText": "◘"
+          "verseText": "We also sent¦124530 with them another brother¦124534 who we approved¦124537 of in many ways—often¦124540 being¦124542 diligent, but now much more diligent because of his high confidence¦124547 in you¦124552 all."
         },
         {
           "verseNumber": "23",
           "contents": [
-            "◘"
+            "Concerning Titos¦124555, he is my partner¦124556 and your fellow-worker¦124561, and the",
+            {
+              "add": "accompanying",
+              "closing": "\\add*"
+            },
+            "brothers¦124563 are ambassadors¦124565 of the assemblies¦124566 which are Messiah's splendor,"
           ],
-          "verseText": "◘"
+          "verseText": "Concerning Titos¦124555, he is my partner¦124556 and your fellow-worker¦124561, and the accompanying brothers¦124563 are ambassadors¦124565 of the assemblies¦124566 which are Messiah's splendor,"
         },
         {
           "verseNumber": "24",
           "contents": [
-            "◘"
+            "so show them signs of your¦124576 love¦124575 and",
+            {
+              "add": "fulfill",
+              "closing": "\\add*"
+            },
+            "what we boasted¦124579 about¦124580 you all in the various assemblies¦124591."
           ],
-          "verseText": "◘"
+          "verseText": "so show them signs of your¦124576 love¦124575 and fulfill what we boasted¦124579 about¦124580 you all in the various assemblies¦124591."
         }
       ]
     },
@@ -2160,7 +2650,7 @@
       "chapterNumber": "9",
       "contents": [
         {
-          "s1": "The aid there to believers"
+          "s1": "Preparing the aid for the believers"
         },
         {
           "rem": "/s1 The Collection for Christians at Jerusalem; Help for Needy Believers"
@@ -2171,35 +2661,83 @@
         {
           "verseNumber": "1",
           "contents": [
-            "◘"
+            "It's unnecessary for me to write to you¦124608 all about",
+            {
+              "add": "this",
+              "closing": "\\add*"
+            },
+            "ministry to the believers"
           ],
-          "verseText": "◘"
+          "verseText": "It's unnecessary for me to write to you¦124608 all about this ministry to the believers"
         },
         {
           "verseNumber": "2",
           "contents": [
-            "◘"
+            "because I know about your readiness¦124613",
+            {
+              "add": "to help",
+              "closing": "\\add*"
+            },
+            "and I've been boasting¦124618 about it to those from Macedonia¦124620—that",
+            {
+              "add": "you all",
+              "closing": "\\add*"
+            },
+            "in Achaia were ready last year¦124625—and your zeal provoked¦124633 more of them",
+            {
+              "add": "to act",
+              "closing": "\\add*"
+            },
+            "."
           ],
-          "verseText": "◘"
+          "verseText": "because I know about your readiness¦124613 to help and I've been boasting¦124618 about it to those from Macedonia¦124620—that you all in Achaia were ready last year¦124625—and your zeal provoked¦124633 more of them to act."
         },
         {
           "verseNumber": "3",
           "contents": [
-            "◘"
+            "But I sent¦124636 the brothers¦124639 so that our¦124645 boasting¦124643 about¦124647 you all won't be invalidated in this regard¦124652, so that you'll be prepared¦124658 just as I had told",
+            {
+              "add": "them",
+              "closing": "\\add*"
+            },
+            "."
           ],
-          "verseText": "◘"
+          "verseText": "But I sent¦124636 the brothers¦124639 so that our¦124645 boasting¦124643 about¦124647 you all won't be invalidated in this regard¦124652, so that you'll be prepared¦124658 just as I had told them."
         },
         {
           "verseNumber": "4",
           "contents": [
-            "◘"
+            "Otherwise if somehow¦124661 some might come¦124664 with me from Macedonia¦124667 and find you unprepared¦124671, then we (or might we say you all as well) might be disgraced¦124672 by",
+            {
+              "add": "our",
+              "closing": "\\add*"
+            },
+            "confidence¦124682."
           ],
-          "verseText": "◘"
+          "verseText": "Otherwise if somehow¦124661 some might come¦124664 with me from Macedonia¦124667 and find you unprepared¦124671, then we (or might we say you all as well) might be disgraced¦124672 by our confidence¦124682."
         },
         {
           "verseNumber": "5",
           "contents": [
-            "◘",
+            "That's why I considered¦124688 it necessary¦124686 to encourage the brothers¦124691 to go¦124693 ahead¦124693 to you all",
+            {
+              "add": "there",
+              "closing": "\\add*"
+            },
+            "so they could prearrange¦124698 the gift that you'd previously¦124700 promised¦124700 so that it would be ready¦124705 as a blessing and not",
+            {
+              "add": "appear",
+              "closing": "\\add*"
+            },
+            "as",
+            {
+              "add": "our",
+              "closing": "\\add*"
+            },
+            "greediness¦124714.",
+            {
+              "s1": "Showing generosity"
+            },
             {
               "rem": "/s1 Sowing Generously"
             },
@@ -2207,32 +2745,58 @@
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "That's why I considered¦124688 it necessary¦124686 to encourage the brothers¦124691 to go¦124693 ahead¦124693 to you all there so they could prearrange¦124698 the gift that you'd previously¦124700 promised¦124700 so that it would be ready¦124705 as a blessing and not appear as our greediness¦124714."
         },
         {
           "verseNumber": "6",
           "contents": [
-            "◘"
+            "Also this: the person who plants sparingly will also harvest sparingly, and¦124723 the person sowing generously will also have a generous harvest."
           ],
-          "verseText": "◘"
+          "verseText": "Also this: the person who plants sparingly will also harvest sparingly, and¦124723 the person sowing generously will also have a generous harvest."
         },
         {
           "verseNumber": "7",
           "contents": [
-            "◘"
+            "Let each person do what their own heart¦124737 tells them—not out of sorrow¦124740 or from pressure, but because¦124745",
+            {
+              "nd": "God¦124749",
+              "closing": "\\nd*"
+            },
+            "loves those who're cheerful¦124744 givers¦124746."
           ],
-          "verseText": "◘"
+          "verseText": "Let each person do what their own heart¦124737 tells them—not out of sorrow¦124740 or from pressure, but because¦124745 God¦124749 loves those who're cheerful¦124744 givers¦124746."
         },
         {
           "verseNumber": "8",
           "contents": [
-            "◘"
+            "And",
+            {
+              "nd": "God¦124754",
+              "closing": "\\nd*"
+            },
+            "is able to shower generosity onto you all so that you'll be content¦124765 having¦124766 everything¦124762",
+            {
+              "add": "you need",
+              "closing": "\\add*"
+            },
+            ", thus able to be prolific in doing good¦124771",
+            {
+              "add": "to others",
+              "closing": "\\add*"
+            },
+            "."
           ],
-          "verseText": "◘"
+          "verseText": "And God¦124754 is able to shower generosity onto you all so that you'll be content¦124765 having¦124766 everything¦124762 you need, thus able to be prolific in doing good¦124771 to others."
         },
         {
           "verseNumber": "9",
           "contents": [
+            "As it's written¦124773",
+            {
+              "add": "in the scriptures",
+              "closing": "\\add*"
+            },
+            ":",
             {
               "x": [
                 "+",
@@ -2245,18 +2809,30 @@
               ],
               "closing": "\\x*"
             },
-            "◘",
             {
-              "q1": "…"
+              "q1": [
+                "‘He distributed",
+                {
+                  "add": "his gifts",
+                  "closing": "\\add*"
+                },
+                "and gave¦124775 to the poor,"
+              ]
             },
             {
-              "q2": "…"
+              "q1": [
+                {
+                  "add": "now",
+                  "closing": "\\add*"
+                },
+                "his righteousness¦124779 will remain¦124781 to the end of the age.’"
+              ]
             },
             {
               "p": ""
             }
           ],
-          "verseText": "◘ … …"
+          "verseText": "As it's written¦124773 in the scriptures: ‘He distributed his gifts and gave¦124775 to the poor, now his righteousness¦124779 will remain¦124781 to the end of the age.’"
         },
         {
           "verseNumber": "10",
@@ -2273,44 +2849,103 @@
               ],
               "closing": "\\x*"
             },
-            "◘"
+            "Thus",
+            {
+              "add": "God",
+              "closing": "\\add*"
+            },
+            "who supplies the seed to the person sowing¦124791 and supplies our food, will be supplying and multiplying¦124799 your seeds",
+            {
+              "add": "as you sow in others",
+              "closing": "\\add*"
+            },
+            "and will increase the harvest",
+            {
+              "add": "resulting",
+              "closing": "\\add*"
+            },
+            "from your righteousness¦124811."
           ],
-          "verseText": "◘"
+          "verseText": "Thus God who supplies the seed to the person sowing¦124791 and supplies our food, will be supplying and multiplying¦124799 your seeds as you sow in others and will increase the harvest resulting from your righteousness¦124811."
         },
         {
           "verseNumber": "11",
           "contents": [
-            "◘"
+            "You will be enriched towards generosity¦124818 in every¦124814 way, which¦124821 will lead us all to give thanks¦124825 to",
+            {
+              "nd": "God¦124827",
+              "closing": "\\nd*"
+            },
+            "."
           ],
-          "verseText": "◘"
+          "verseText": "You will be enriched towards generosity¦124818 in every¦124814 way, which¦124821 will lead us all to give thanks¦124825 to God¦124827."
         },
         {
           "verseNumber": "12",
           "contents": [
-            "◘"
+            "Serving in this",
+            {
+              "add": "kind of",
+              "closing": "\\add*"
+            },
+            "ministry¦124833 meets the needs¦124840 of the believers, but¦124843 also",
+            {
+              "add": "leads to",
+              "closing": "\\add*"
+            },
+            "plenty¦124845 of",
+            {
+              "add": "occasions to",
+              "closing": "\\add*"
+            },
+            "give thanks¦124848 to",
+            {
+              "nd": "God¦124852",
+              "closing": "\\nd*"
+            },
+            "."
           ],
-          "verseText": "◘"
+          "verseText": "Serving in this kind of ministry¦124833 meets the needs¦124840 of the believers, but¦124843 also leads to plenty¦124845 of occasions to give thanks¦124848 to God¦124852."
         },
         {
           "verseNumber": "13",
           "contents": [
-            "◘"
+            "In proving yourselves by this ministry, they will honour",
+            {
+              "nd": "God¦124862",
+              "closing": "\\nd*"
+            },
+            "as it displays your commitment to the good¦124871 message¦124871 of the",
+            {
+              "nd": "messiah¦124873",
+              "closing": "\\nd*"
+            },
+            ", and your generosity¦124875 toward them and towards everyone,"
           ],
-          "verseText": "◘"
+          "verseText": "In proving yourselves by this ministry, they will honour God¦124862 as it displays your commitment to the good¦124871 message¦124871 of the messiah¦124873, and your generosity¦124875 toward them and towards everyone,"
         },
         {
           "verseNumber": "14",
           "contents": [
-            "◘"
+            "and they will wish the best for you all and pray for you because¦124892 of God's overflowing goodness to you all."
           ],
-          "verseText": "◘"
+          "verseText": "and they will wish the best for you all and pray for you because¦124892 of God's overflowing goodness to you all."
         },
         {
           "verseNumber": "15",
           "contents": [
-            "◘"
+            {
+              "add": "Yes,",
+              "closing": "\\add*"
+            },
+            "we thank",
+            {
+              "nd": "God¦124904",
+              "closing": "\\nd*"
+            },
+            "for his¦124908 incredible gift¦124909."
           ],
-          "verseText": "◘"
+          "verseText": "Yes, we thank God¦124904 for his¦124908 incredible gift¦124909."
         }
       ]
     },
@@ -2318,7 +2953,7 @@
       "chapterNumber": "10",
       "contents": [
         {
-          "s1": "The pegpangatarengan of Paul concerning the katenged din"
+          "s1": "Paul's defence of his authority"
         },
         {
           "rem": "/s1 The challenge to Paul's authority; Paul Defends His Ministry; Paul's Defense of His Ministry; Paul Defends His Authority"
@@ -2329,127 +2964,221 @@
         {
           "verseNumber": "1",
           "contents": [
-            "◘"
+            "Now I myself¦124910, Paul¦124913, am indeed¦124927 humble¦124928 when I'm with you all, but when I'm absent¦124931 I'm bolder. I implore you all by the humility and gentleness of the",
+            {
+              "nd": "messiah¦124923",
+              "closing": "\\nd*"
+            }
           ],
-          "verseText": "◘"
+          "verseText": "Now I myself¦124910, Paul¦124913, am indeed¦124927 humble¦124928 when I'm with you all, but when I'm absent¦124931 I'm bolder. I implore you all by the humility and gentleness of the messiah¦124923"
         },
         {
           "verseNumber": "2",
           "contents": [
-            "◘"
+            "and I beg you¦124937 so that when I come I won't have to be as bold as I'm expecting to counter those who consider us to be motivated by worldly desires."
           ],
-          "verseText": "◘"
+          "verseText": "and I beg you¦124937 so that when I come I won't have to be as bold as I'm expecting to counter those who consider us to be motivated by worldly desires."
         },
         {
           "verseNumber": "3",
           "contents": [
-            "◘"
+            "We might be living in this world, but it's not people that we're at war with,"
           ],
-          "verseText": "◘"
+          "verseText": "We might be living in this world, but it's not people that we're at war with,"
         },
         {
           "verseNumber": "4",
           "contents": [
-            "◘"
+            "because the weapons¦124969 that we use in war are not physical but¦124976",
+            {
+              "add": "come with",
+              "closing": "\\add*"
+            },
+            "God's power¦124977 for tearing¦124981 down",
+            {
+              "add": "anti-God institutions",
+              "closing": "\\add*"
+            },
+            "and nullifying",
+            {
+              "add": "their",
+              "closing": "\\add*"
+            },
+            "arguments¦124983."
           ],
-          "verseText": "◘"
+          "verseText": "because the weapons¦124969 that we use in war are not physical but¦124976 come with God's power¦124977 for tearing¦124981 down anti-God institutions and nullifying their arguments¦124983."
         },
         {
           "verseNumber": "5",
           "contents": [
-            "◘"
+            {
+              "add": "We attack",
+              "closing": "\\add*"
+            },
+            "every",
+            {
+              "add": "theory",
+              "closing": "\\add*"
+            },
+            "that's used to argue against¦124990",
+            {
+              "add": "the possibility of",
+              "closing": "\\add*"
+            },
+            "knowing",
+            {
+              "nd": "God¦124994",
+              "closing": "\\nd*"
+            },
+            ", and capturing all thinking¦124998",
+            {
+              "add": "so it",
+              "closing": "\\add*"
+            },
+            "becomes obedient¦125001 to the",
+            {
+              "nd": "messiah¦125003",
+              "closing": "\\nd*"
+            },
+            ","
           ],
-          "verseText": "◘"
+          "verseText": "We attack every theory that's used to argue against¦124990 the possibility of knowing God¦124994, and capturing all thinking¦124998 so it becomes obedient¦125001 to the messiah¦125003,"
         },
         {
           "verseNumber": "6",
           "contents": [
-            "◘",
+            "and¦125004 being ready¦125006 to stand against all disobedience¦125010 for whenever¦125011 your¦125014 obedience¦125016 might be complete.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "and¦125004 being ready¦125006 to stand against all disobedience¦125010 for whenever¦125011 your¦125014 obedience¦125016 might be complete."
         },
         {
           "verseNumber": "7",
           "contents": [
-            "◘"
+            "You all are looking¦125020 at the",
+            {
+              "add": "outside",
+              "closing": "\\add*"
+            },
+            "appearance¦125019 of things. Anyone who has personally decided to",
+            {
+              "add": "follow",
+              "closing": "\\add*"
+            },
+            "Messiah needs to take this into account: just as they belong to Messiah, so also do we¦125044."
           ],
-          "verseText": "◘"
+          "verseText": "You all are looking¦125020 at the outside appearance¦125019 of things. Anyone who has personally decided to follow Messiah needs to take this into account: just as they belong to Messiah, so also do we¦125044."
         },
         {
           "verseNumber": "8",
           "contents": [
-            "◘"
+            "So if I boast¦125052 too often about our¦125057 authority¦125056 (which¦125058 the",
+            {
+              "nd": "master¦125061",
+              "closing": "\\nd*"
+            },
+            "gave¦125059 us for building¦125064 you up rather than for tearing¦125068 you down), I won't be ashamed¦125071 of it"
           ],
-          "verseText": "◘"
+          "verseText": "So if I boast¦125052 too often about our¦125057 authority¦125056 (which¦125058 the master¦125061 gave¦125059 us for building¦125064 you up rather than for tearing¦125068 you down), I won't be ashamed¦125071 of it"
         },
         {
           "verseNumber": "9",
           "contents": [
-            "◘"
+            "so that hopefully I won't be terrifying¦125077 you¦125078 all with my letters¦125081."
           ],
-          "verseText": "◘"
+          "verseText": "so that hopefully I won't be terrifying¦125077 you¦125078 all with my letters¦125081."
         },
         {
           "verseNumber": "10",
           "contents": [
-            "◘"
+            "Some are saying¦125087, “His letters¦125085 are heavy¦125089 and strongly-worded¦125091, but when he's actually here, he's weak and his words get mocked.”"
           ],
-          "verseText": "◘"
+          "verseText": "Some are saying¦125087, “His letters¦125085 are heavy¦125089 and strongly-worded¦125091, but when he's actually here, he's weak and his words get mocked.”"
         },
         {
           "verseNumber": "11",
           "contents": [
-            "◘",
+            "Those people should",
+            {
+              "add": "reconsider and",
+              "closing": "\\add*"
+            },
+            "realise that as we are in our letters¦125112 when we're absent¦125113, that's also how we'll work when we're present¦125116.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "Those people should reconsider and realise that as we are in our letters¦125112 when we're absent¦125113, that's also how we'll work when we're present¦125116."
         },
         {
           "verseNumber": "12",
           "contents": [
-            "◘"
+            "We don't¦125119 dare to classify¦125123 ourselves¦125126 or compare with some of those who commend¦125130 themselves, but they measure¦125138 and compare themselves with each other—not understanding¦125146",
+            {
+              "add": "what they're doing",
+              "closing": "\\add*"
+            },
+            "."
           ],
-          "verseText": "◘"
+          "verseText": "We don't¦125119 dare to classify¦125123 ourselves¦125126 or compare with some of those who commend¦125130 themselves, but they measure¦125138 and compare themselves with each other—not understanding¦125146 what they're doing."
         },
         {
           "verseNumber": "13",
           "contents": [
-            "◘"
+            "But we¦125147 won't boast¦125154 about immeasurable¦125153 things—only those domains¦125160 where",
+            {
+              "nd": "God¦125165",
+              "closing": "\\nd*"
+            },
+            "alloted¦125162 a measure to us",
+            {
+              "add": "which¦125161 was",
+              "closing": "\\add*"
+            },
+            "to reach¦125167 all of you¦125170."
           ],
-          "verseText": "◘"
+          "verseText": "But we¦125147 won't boast¦125154 about immeasurable¦125153 things—only those domains¦125160 where God¦125165 alloted¦125162 a measure to us which¦125161 was to reach¦125167 all of you¦125170."
         },
         {
           "verseNumber": "14",
           "contents": [
-            "◘"
+            "In not reaching¦125177 you we don't¦125171 overextend¦125180 ourselves¦125181, because¦125183 we came¦125186 your¦125185 way with the good¦125189 message¦125189 about the",
+            {
+              "nd": "messiah¦125191",
+              "closing": "\\nd*"
+            },
+            "."
           ],
-          "verseText": "◘"
+          "verseText": "In not reaching¦125177 you we don't¦125171 overextend¦125180 ourselves¦125181, because¦125183 we came¦125186 your¦125185 way with the good¦125189 message¦125189 about the messiah¦125191."
         },
         {
           "verseNumber": "15",
           "contents": [
-            "◘"
+            "We don't¦125192 boast¦125197 of things we can't measure like other peoples' work, but¦125202 we have hope that as your¦125208 faith¦125206 grows, you'll see us as more important in more areas"
           ],
-          "verseText": "◘"
+          "verseText": "We don't¦125192 boast¦125197 of things we can't measure like other peoples' work, but¦125202 we have hope that as your¦125208 faith¦125206 grows, you'll see us as more important in more areas"
         },
         {
           "verseNumber": "16",
           "contents": [
-            "◘",
+            "so we can preach¦125223 the good¦125223 message¦125223 to the areas beyond¦125221 you¦125222—not boasting¦125231 about things already",
+            {
+              "add": "done",
+              "closing": "\\add*"
+            },
+            "in others' areas.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "so we can preach¦125223 the good¦125223 message¦125223 to the areas beyond¦125221 you¦125222—not boasting¦125231 about things already done in others' areas."
         },
         {
           "verseNumber": "17",
           "contents": [
+            "But",
             {
               "x": [
                 "+",
@@ -2462,16 +3191,26 @@
               ],
               "closing": "\\x*"
             },
-            "◘"
+            "‘if anyone does boast, they should boast in the",
+            {
+              "nd": "master¦125236",
+              "closing": "\\nd*"
+            },
+            "’,"
           ],
-          "verseText": "◘"
+          "verseText": "But ‘if anyone does boast, they should boast in the master¦125236 ’,"
         },
         {
           "verseNumber": "18",
           "contents": [
-            "◘"
+            "because it's not the people who commend themselves that are approved¦125247, but¦125249 those who the",
+            {
+              "nd": "master¦125252",
+              "closing": "\\nd*"
+            },
+            "commends."
           ],
-          "verseText": "◘"
+          "verseText": "because it's not the people who commend themselves that are approved¦125247, but¦125249 those who the master¦125252 commends."
         }
       ]
     },
@@ -2479,7 +3218,7 @@
       "chapterNumber": "11",
       "contents": [
         {
-          "s1": "Paul and the not true/correct apostles"
+          "s1": "Paul and the fake missionaries"
         },
         {
           "rem": "/s1 Paul speaks as a fool; Paul and the False Apostles"
@@ -2490,16 +3229,26 @@
         {
           "verseNumber": "1",
           "contents": [
-            "◘"
+            "I wish you all could tolerate a bit of foolishness¦125261 from me, but yes, you do tolerate me,"
           ],
-          "verseText": "◘"
+          "verseText": "I wish you all could tolerate a bit of foolishness¦125261 from me, but yes, you do tolerate me,"
         },
         {
           "verseNumber": "2",
           "contents": [
-            "◘"
+            "because¦125273 I'm jealous of you all with godly jealousy as I had committed you to your",
+            {
+              "add": "future",
+              "closing": "\\add*"
+            },
+            "husband¦125276—a pure bride to present¦125279 to the",
+            {
+              "nd": "messiah¦125281",
+              "closing": "\\nd*"
+            },
+            "."
           ],
-          "verseText": "◘"
+          "verseText": "because¦125273 I'm jealous of you all with godly jealousy as I had committed you to your future husband¦125276—a pure bride to present¦125279 to the messiah¦125281."
         },
         {
           "verseNumber": "3",
@@ -2516,50 +3265,75 @@
               ],
               "closing": "\\x*"
             },
-            "◘"
+            "But I'm afraid that just as the crafty¦125295 serpent¦125288 somehow¦125285 deceived¦125290 Heva (Eve), your¦125301 thinking¦125300 might get corrupted¦125298 from its sincerity¦125304 and¦125305 purity¦125307 in the",
+            {
+              "nd": "messiah¦125311",
+              "closing": "\\nd*"
+            },
+            "."
           ],
-          "verseText": "◘"
+          "verseText": "But I'm afraid that just as the crafty¦125295 serpent¦125288 somehow¦125285 deceived¦125290 Heva (Eve), your¦125301 thinking¦125300 might get corrupted¦125298 from its sincerity¦125304 and¦125305 purity¦125307 in the messiah¦125311."
         },
         {
           "verseNumber": "4",
           "contents": [
-            "◘",
+            "Indeed even if another",
+            {
+              "nd": "Yeshua¦125318",
+              "closing": "\\nd*"
+            },
+            "came and proclaimed something different from what we proclaimed, or if you receive another spirit¦125324 that you hadn't received already, or a good message¦125331",
+            {
+              "add": "different",
+              "closing": "\\add*"
+            },
+            "from what you've already heard, you might tolerate¦125337 it.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "Indeed even if another Yeshua¦125318 came and proclaimed something different from what we proclaimed, or if you receive another spirit¦125324 that you hadn't received already, or a good message¦125331 different from what you've already heard, you might tolerate¦125337 it."
         },
         {
           "verseNumber": "5",
           "contents": [
-            "◘"
+            "I reckon that I wasn't deficient¦125344 compared to the ‘super¦125346 missionaries’,"
           ],
-          "verseText": "◘"
+          "verseText": "I reckon that I wasn't deficient¦125344 compared to the ‘super¦125346 missionaries’,"
         },
         {
           "verseNumber": "6",
           "contents": [
-            "◘",
+            "but even if my speaking is just ordinary¦125351,",
+            {
+              "add": "my",
+              "closing": "\\add*"
+            },
+            "my knowledge¦125357 isn't and I've made everything clear to you¦125366 all in every way.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "but even if my speaking is just ordinary¦125351, my my knowledge¦125357 isn't and I've made everything clear to you¦125366 all in every way."
         },
         {
           "verseNumber": "7",
           "contents": [
-            "◘"
+            "Or did I disobey",
+            {
+              "nd": "God¦125379",
+              "closing": "\\nd*"
+            },
+            "when I humbled¦125371 myself¦125370 so that all of you might be elevated, because¦125375 I shared the good message with you all without any personal gain?"
           ],
-          "verseText": "◘"
+          "verseText": "Or did I disobey God¦125379 when I humbled¦125371 myself¦125370 so that all of you might be elevated, because¦125375 I shared the good message with you all without any personal gain?"
         },
         {
           "verseNumber": "8",
           "contents": [
-            "◘"
+            "I've ‘robbed¦125385’ other assemblies¦125384 in order to support¦125387 my ministry to all of you¦125390,"
           ],
-          "verseText": "◘"
+          "verseText": "I've ‘robbed¦125385’ other assemblies¦125384 in order to support¦125387 my ministry to all of you¦125390,"
         },
         {
           "verseNumber": "9",
@@ -2576,54 +3350,94 @@
               ],
               "closing": "\\x*"
             },
-            "◘"
+            "and when I was with you and needed",
+            {
+              "add": "something",
+              "closing": "\\add*"
+            },
+            ", I wasn't a burden to anyone, because¦125402 the believers¦125407 who came from Macedonia¦125410 supplied what I needed. Thus I have kept¦125418 myself¦125416 from being¦125393 a burden to you in any way, and will keep doing so."
           ],
-          "verseText": "◘"
+          "verseText": "and when I was with you and needed something, I wasn't a burden to anyone, because¦125402 the believers¦125407 who came from Macedonia¦125410 supplied what I needed. Thus I have kept¦125418 myself¦125416 from being¦125393 a burden to you in any way, and will keep doing so."
         },
         {
           "verseNumber": "10",
           "contents": [
-            "◘"
+            "The",
+            {
+              "nd": "messiah's¦125423",
+              "closing": "\\nd*"
+            },
+            "truth¦125422 is in me such that my boasting¦125428 in the regions¦125437 of Achaia won't be stopped¦125432."
           ],
-          "verseText": "◘"
+          "verseText": "The messiah's¦125423 truth¦125422 is in me such that my boasting¦125428 in the regions¦125437 of Achaia won't be stopped¦125432."
         },
         {
           "verseNumber": "11",
           "contents": [
-            "◘",
+            "Why's that? Because¦125442 I don't¦125443 love you¦125445 all?",
+            {
+              "nd": "God¦125447",
+              "closing": "\\nd*"
+            },
+            "knows that I do.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "Why's that? Because¦125442 I don't¦125443 love you¦125445 all? God¦125447 knows that I do."
         },
         {
           "verseNumber": "12",
           "contents": [
-            "◘"
+            "But what I'm doing, I'll keep on doing, so that I can deny the opportunity to those",
+            {
+              "add": "people",
+              "closing": "\\add*"
+            },
+            "who're looking for an opportunity so that what they boast¦125464 about, we'll already be doing,"
           ],
-          "verseText": "◘"
+          "verseText": "But what I'm doing, I'll keep on doing, so that I can deny the opportunity to those people who're looking for an opportunity so that what they boast¦125464 about, we'll already be doing,"
         },
         {
           "verseNumber": "13",
           "contents": [
-            "◘"
+            "because¦125476 they are false¦125472 ambassadors¦125477",
+            {
+              "add": "and deceitful¦125474 workers¦125473",
+              "closing": "\\add*"
+            },
+            "—masquerading¦125475 themselves¦125475 as Messiah's missionaries,"
           ],
-          "verseText": "◘"
+          "verseText": "because¦125476 they are false¦125472 ambassadors¦125477 and deceitful¦125474 workers¦125473—masquerading¦125475 themselves¦125475 as Messiah's missionaries,"
         },
         {
           "verseNumber": "14",
           "contents": [
-            "◘"
+            "and that's no surprise because¦125484 Satan¦125486 himself¦125483 masquerades¦125487 as",
+            {
+              "add": "a",
+              "closing": "\\add*"
+            },
+            "messenger¦125489 of light¦125490."
           ],
-          "verseText": "◘"
+          "verseText": "and that's no surprise because¦125484 Satan¦125486 himself¦125483 masquerades¦125487 as a messenger¦125489 of light¦125490."
         },
         {
           "verseNumber": "15",
           "contents": [
-            "◘",
+            "So then it's no great¦125492",
             {
-              "s1": "The boasting of Paul concerning the suffering din"
+              "add": "surprise",
+              "closing": "\\add*"
+            },
+            "if his¦125498 servants are masquerading¦125499 as God's servants,",
+            {
+              "add": "but",
+              "closing": "\\add*"
+            },
+            "their end will be the consequence of their actions.",
+            {
+              "s1": "Paul's boasting about his sufferings"
             },
             {
               "rem": "/s1 Paul's Sufferings as an Apostle; Paul Boasts About His Sufferings; Paul's Many Trials"
@@ -2632,56 +3446,86 @@
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "So then it's no great¦125492 surprise if his¦125498 servants are masquerading¦125499 as God's servants, but their end will be the consequence of their actions."
         },
         {
           "verseNumber": "16",
           "contents": [
-            "◘"
+            "I'll say it again: no one should suppose¦125516 that I'm foolish, but if they do, at least accept me as foolish so that I can also boast¦125534 a little¦125531."
           ],
-          "verseText": "◘"
+          "verseText": "I'll say it again: no one should suppose¦125516 that I'm foolish, but if they do, at least accept me as foolish so that I can also boast¦125534 a little¦125531."
         },
         {
           "verseNumber": "17",
           "contents": [
-            "◘"
+            "When I say that, I'm not talking¦125536",
+            {
+              "add": "words from",
+              "closing": "\\add*"
+            },
+            "the",
+            {
+              "nd": "master¦125540",
+              "closing": "\\nd*"
+            },
+            ", but¦125542 like a fool confidently¦125549 boasting¦125551."
           ],
-          "verseText": "◘"
+          "verseText": "When I say that, I'm not talking¦125536 words from the master¦125540, but¦125542 like a fool confidently¦125549 boasting¦125551."
         },
         {
           "verseNumber": "18",
           "contents": [
-            "◘"
+            "Many boast like worldly",
+            {
+              "add": "people",
+              "closing": "\\add*"
+            },
+            ", so I'll boast as well,"
           ],
-          "verseText": "◘"
+          "verseText": "Many boast like worldly people, so I'll boast as well,"
         },
         {
           "verseNumber": "19",
           "contents": [
-            "◘"
+            "because you¦125562 prudent¦125565",
+            {
+              "add": "ones",
+              "closing": "\\add*"
+            },
+            "happily tolerate¦125562 foolish¦125564 people."
           ],
-          "verseText": "◘"
+          "verseText": "because you¦125562 prudent¦125565 ones happily tolerate¦125562 foolish¦125564 people."
         },
         {
           "verseNumber": "20",
           "contents": [
-            "◘"
+            "Yes, you tolerate¦125567 those who'll enslave¦125572 you all, those who'll exploit¦125575 you, those who'll take",
+            {
+              "add": "advantage of",
+              "closing": "\\add*"
+            },
+            "you all, those who promote themselves, and anyone whacks you in the face¦125586."
           ],
-          "verseText": "◘"
+          "verseText": "Yes, you tolerate¦125567 those who'll enslave¦125572 you all, those who'll exploit¦125575 you, those who'll take advantage of you all, those who promote themselves, and anyone whacks you in the face¦125586."
         },
         {
           "verseNumber": "21",
           "contents": [
-            "◘"
+            "I'm talking¦125605 about dishonour¦125590 as if we¦125594 were weak, but¦125599 (speaking¦125605 foolishly¦125604 again), anything that anyone¦125601 else is brave enough to do, then I will also be brave enough",
+            {
+              "add": "to match",
+              "closing": "\\add*"
+            },
+            "."
           ],
-          "verseText": "◘"
+          "verseText": "I'm talking¦125605 about dishonour¦125590 as if we¦125594 were weak, but¦125599 (speaking¦125605 foolishly¦125604 again), anything that anyone¦125601 else is brave enough to do, then I will also be brave enough to match."
         },
         {
           "verseNumber": "22",
           "contents": [
-            "◘"
+            "Are they Hebrews? I am too. Are they Israelis? So am I. Are they descendants of Abraham¦125616? Me also."
           ],
-          "verseText": "◘"
+          "verseText": "Are they Hebrews? I am too. Are they Israelis? So am I. Are they descendants of Abraham¦125616? Me also."
         },
         {
           "verseNumber": "23",
@@ -2698,9 +3542,19 @@
               ],
               "closing": "\\x*"
             },
-            "◘"
+            "Are they¦125621 Messiah's servants?",
+            {
+              "add": "Well,",
+              "closing": "\\add*"
+            },
+            "I'm above¦125624 them (speaking¦125623 insanely¦125622 now): I've worked harder, been in prison¦125633 more often,",
+            {
+              "add": "endured",
+              "closing": "\\add*"
+            },
+            "uncountable beatings¦125637, and been close to death¦125641 more often."
           ],
-          "verseText": "◘"
+          "verseText": "Are they¦125621 Messiah's servants? Well, I'm above¦125624 them (speaking¦125623 insanely¦125622 now): I've worked harder, been in prison¦125633 more often, endured uncountable beatings¦125637, and been close to death¦125641 more often."
         },
         {
           "verseNumber": "24",
@@ -2717,9 +3571,14 @@
               ],
               "closing": "\\x*"
             },
-            "◘"
+            "I've received¦125649 the thirty-nine lashes from the Jewish",
+            {
+              "add": "leadership",
+              "closing": "\\add*"
+            },
+            "five¦125645 times¦125645,"
           ],
-          "verseText": "◘"
+          "verseText": "I've received¦125649 the thirty-nine lashes from the Jewish leadership five¦125645 times¦125645,"
         },
         {
           "verseNumber": "25",
@@ -2742,9 +3601,9 @@
               ],
               "closing": "\\x*"
             },
-            "◘"
+            "was beaten three times with rods, was stoned¦125653 once, shipwrecked¦125655 three times, and I was in the ocean for a day¦125656 and a night¦125656."
           ],
-          "verseText": "◘"
+          "verseText": "was beaten three times with rods, was stoned¦125653 once, shipwrecked¦125655 three times, and I was in the ocean for a day¦125656 and a night¦125656."
         },
         {
           "verseNumber": "26",
@@ -2767,47 +3626,96 @@
               ],
               "closing": "\\x*"
             },
-            "◘"
+            "I've done",
+            {
+              "add": "many long",
+              "closing": "\\add*"
+            },
+            "trips, crossed dangerous rivers¦125664, risked being robbed¦125666,",
+            {
+              "add": "was persecuted",
+              "closing": "\\add*"
+            },
+            "by my own people as well as by non-Jews¦125672, have been in danger in the city¦125675, in the wilderness¦125678 and on the ocean,",
+            {
+              "add": "as well as being attacked",
+              "closing": "\\add*"
+            },
+            "by false¦125684",
+            {
+              "add": "teachers",
+              "closing": "\\add*"
+            },
+            "."
           ],
-          "verseText": "◘"
+          "verseText": "I've done many long trips, crossed dangerous rivers¦125664, risked being robbed¦125666, was persecuted by my own people as well as by non-Jews¦125672, have been in danger in the city¦125675, in the wilderness¦125678 and on the ocean, as well as being attacked by false¦125684 teachers."
         },
         {
           "verseNumber": "27",
           "contents": [
-            "◘"
+            "I've worked often and worked hard, often needing to keep guard,",
+            {
+              "add": "suffered",
+              "closing": "\\add*"
+            },
+            "famine¦125693 and thirst¦125695, fasted often, and been cold¦125700 and lacking clothing."
           ],
-          "verseText": "◘"
+          "verseText": "I've worked often and worked hard, often needing to keep guard, suffered famine¦125693 and thirst¦125695, fasted often, and been cold¦125700 and lacking clothing."
         },
         {
           "verseNumber": "28",
           "contents": [
-            "◘"
+            {
+              "add": "Then",
+              "closing": "\\add*"
+            },
+            "apart from all those external¦125705 things, I've been opposed¦125707 every day¦125713—",
+            {
+              "add": "not to mention",
+              "closing": "\\add*"
+            },
+            "my concern for all the assemblies¦125718."
           ],
-          "verseText": "◘"
+          "verseText": "Then apart from all those external¦125705 things, I've been opposed¦125707 every day¦125713—not to mention my concern for all the assemblies¦125718."
         },
         {
           "verseNumber": "29",
           "contents": [
-            "◘",
+            "What person falters and I don't falter with them? Who stumbles¦125725",
+            {
+              "add": "in their walk with God",
+              "closing": "\\add*"
+            },
+            "and I don't suffer with them?",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "What person falters and I don't falter with them? Who stumbles¦125725 in their walk with God and I don't suffer with them?"
         },
         {
           "verseNumber": "30",
           "contents": [
-            "If it's appropriate¦125732 to be boasting, what I'll boast about would be my¦125736 weaknesses¦125735."
+            "If it's appropriate¦125732 to be boasting, what I'd boast about would be my¦125736 weaknesses¦125735."
           ],
-          "verseText": "If it's appropriate¦125732 to be boasting, what I'll boast about would be my¦125736 weaknesses¦125735."
+          "verseText": "If it's appropriate¦125732 to be boasting, what I'd boast about would be my¦125736 weaknesses¦125735."
         },
         {
           "verseNumber": "31",
           "contents": [
-            "◘"
+            "The",
+            {
+              "nd": "god¦125739",
+              "closing": "\\nd*"
+            },
+            "and¦125740 father¦125741 of the",
+            {
+              "nd": "master¦125743 Yeshua¦125745",
+              "closing": "\\nd*"
+            },
+            "—the one who should be praised for all the ages—knows that I'm not lying¦125756."
           ],
-          "verseText": "◘"
+          "verseText": "The god¦125739 and¦125740 father¦125741 of the master¦125743 Yeshua¦125745—the one who should be praised for all the ages—knows that I'm not lying¦125756."
         },
         {
           "verseNumber": "32",
@@ -2824,16 +3732,26 @@
               ],
               "closing": "\\x*"
             },
-            "◘"
+            "The governor¦125760 of Aretas¦125761 (appointed by the king¦125763) had guards¦125764",
+            {
+              "add": "around",
+              "closing": "\\add*"
+            },
+            "the city¦125767 of Damascus to try to arrest¦125769 me,"
           ],
-          "verseText": "◘"
+          "verseText": "The governor¦125760 of Aretas¦125761 (appointed by the king¦125763) had guards¦125764 around the city¦125767 of Damascus to try to arrest¦125769 me,"
         },
         {
           "verseNumber": "33",
           "contents": [
-            "◘"
+            "but¦125772 I was lowered¦125777 down from a window¦125774 in the",
+            {
+              "add": "city",
+              "closing": "\\add*"
+            },
+            "wall in a basket¦125776 and¦125781 thus able to escape¦125782 his¦125785 clutch."
           ],
-          "verseText": "◘"
+          "verseText": "but¦125772 I was lowered¦125777 down from a window¦125774 in the city wall in a basket¦125776 and¦125781 thus able to escape¦125782 his¦125785 clutch."
         }
       ]
     },
@@ -2841,7 +3759,7 @@
       "chapterNumber": "12",
       "contents": [
         {
-          "s1": "The impakita of God ki Paul"
+          "s1": "What God showed Paul"
         },
         {
           "rem": "/s1 Paul's Visions and Revelations; Paul's Vision and His Thorn in the Flesh"
@@ -2852,75 +3770,172 @@
         {
           "verseNumber": "1",
           "contents": [
-            "http://bibledifferences.net/2019/04/24/156-boast/"
+            "It's not appropriate¦125788 or beneficial¦125792 to be boasting¦125786, so I'll come to",
+            {
+              "add": "the",
+              "closing": "\\add*"
+            },
+            "visions¦125800 and revelations¦125802 from the",
+            {
+              "nd": "master¦125803",
+              "closing": "\\nd*"
+            },
+            ".",
+            {
+              "f": [
+                "+",
+                {
+                  "fr": "12:1"
+                },
+                {
+                  "ft": "See http://bibledifferences.net/2019/04/24/156-boast."
+                }
+              ],
+              "closing": "\\f*"
+            }
           ],
-          "verseText": "http://bibledifferences.net/2019/04/24/156-boast/"
+          "verseText": "It's not appropriate¦125788 or beneficial¦125792 to be boasting¦125786, so I'll come to the visions¦125800 and revelations¦125802 from the master¦125803."
         },
         {
           "verseNumber": "2",
           "contents": [
-            "◘"
+            "Fourteen years¦125809 ago I observed a man¦125805 who was a believer in",
+            {
+              "nd": "Messiah¦125807",
+              "closing": "\\nd*"
+            },
+            "who was pulled",
+            {
+              "add": "up",
+              "closing": "\\add*"
+            },
+            "to the third¦125830 heaven¦125831. (I didn't know whether¦125811 this physically happened or just in the spiritual",
+            {
+              "add": "realm",
+              "closing": "\\add*"
+            },
+            ".)"
           ],
-          "verseText": "◘"
+          "verseText": "Fourteen years¦125809 ago I observed a man¦125805 who was a believer in Messiah¦125807 who was pulled up to the third¦125830 heaven¦125831. (I didn't know whether¦125811 this physically happened or just in the spiritual realm.)"
         },
         {
           "verseNumber": "3",
           "contents": [
-            "◘"
+            "And I know that man¦125836 (",
+            {
+              "nd": "God¦125848",
+              "closing": "\\nd*"
+            },
+            "only knows if it was in the physical or",
+            {
+              "add": "just",
+              "closing": "\\add*"
+            },
+            "the spiritual",
+            {
+              "add": "realm",
+              "closing": "\\add*"
+            },
+            ")"
           ],
-          "verseText": "◘"
+          "verseText": "And I know that man¦125836 (God¦125848 only knows if it was in the physical or just the spiritual realm)"
         },
         {
           "verseNumber": "4",
           "contents": [
-            "◘"
+            "was pulled",
+            {
+              "add": "up",
+              "closing": "\\add*"
+            },
+            "into paradise¦125854 and¦125855 heard¦125856 messages¦125858 which¦125859 can't be put into words (because",
+            {
+              "add": "living",
+              "closing": "\\add*"
+            },
+            "people aren't allow to speak¦125863 them)."
           ],
-          "verseText": "◘"
+          "verseText": "was pulled up into paradise¦125854 and¦125855 heard¦125856 messages¦125858 which¦125859 can't be put into words (because living people aren't allow to speak¦125863 them)."
         },
         {
           "verseNumber": "5",
           "contents": [
-            "◘"
+            "I'm",
+            {
+              "add": "prepared",
+              "closing": "\\add*"
+            },
+            "to boast about that man¦125866, but¦125869 I won't boast about myself¦125870 because I won't boast",
+            {
+              "add": "at all",
+              "closing": "\\add*"
+            },
+            "except¦125874",
+            {
+              "add": "about",
+              "closing": "\\add*"
+            },
+            "my weaknesses¦125878,"
           ],
-          "verseText": "◘"
+          "verseText": "I'm prepared to boast about that man¦125866, but¦125869 I won't boast about myself¦125870 because I won't boast at all except¦125874 about my weaknesses¦125878,"
         },
         {
           "verseNumber": "6",
           "contents": [
-            "◘",
+            "because even if I did want¦125882 to boast¦125884, I wouldn't be being foolish¦125888, because I would be speaking¦125891 the truth¦125889. But I'll refrain¦125892 in case anyone¦125895 reckons that I'm more than what they can see or hear¦125904 about me.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "because even if I did want¦125882 to boast¦125884, I wouldn't be being foolish¦125888, because I would be speaking¦125891 the truth¦125889. But I'll refrain¦125892 in case anyone¦125895 reckons that I'm more than what they can see or hear¦125904 about me."
         },
         {
           "verseNumber": "7",
           "contents": [
-            "◘"
+            "So to keep my head from getting too big because of those incredible revelations¦125912, I was given¦125917 a ‘thorn¦125919’ in my body—Satan's¦125924 messenger¦125922 to harass me and keep me from becoming conceited."
           ],
-          "verseText": "◘"
+          "verseText": "So to keep my head from getting too big because of those incredible revelations¦125912, I was given¦125917 a ‘thorn¦125919’ in my body—Satan's¦125924 messenger¦125922 to harass me and keep me from becoming conceited."
         },
         {
           "verseNumber": "8",
           "contents": [
-            "◘"
+            "Three times I begged the",
+            {
+              "nd": "master¦125936",
+              "closing": "\\nd*"
+            },
+            "that it might leave me"
           ],
-          "verseText": "◘"
+          "verseText": "Three times I begged the master¦125936 that it might leave me"
         },
         {
           "verseNumber": "9",
           "contents": [
-            "◘"
+            "and he told me, “Is my grace¦125948 good enough for you?",
+            {
+              "add": "My¦125949",
+              "closing": "\\add*"
+            },
+            "power reaches its conclusion through weakness.” Therefore¦125959 I'll quite gladly¦125958 boast¦125961 about my weaknesses so that the",
+            {
+              "nd": "messiah's¦125973",
+              "closing": "\\nd*"
+            },
+            "power can take residence¦125967 in me."
           ],
-          "verseText": "◘"
+          "verseText": "and he told me, “Is my grace¦125948 good enough for you? My¦125949 power reaches its conclusion through weakness.” Therefore¦125959 I'll quite gladly¦125958 boast¦125961 about my weaknesses so that the messiah's¦125973 power can take residence¦125967 in me."
         },
         {
           "verseNumber": "10",
           "contents": [
-            "◘",
+            "So then I take pleasure¦125975 in weaknesses¦125977, in insults¦125979 and hardships, in persecutions¦125984 and distresses for",
             {
-              "s1": "The pegkasasew of Paul of from-Corinth"
+              "nd": "Messiah¦125989",
+              "closing": "\\nd*"
+            },
+            "because¦125991 whenever¦125990 I might be faltering¦125992, that's when I'm powerful¦125994.",
+            {
+              "s1": "Paul's concerns about the believers there"
             },
             {
               "rem": "/s1 Paul's final appeal; Paul's Concern for the Corinthian Church; Paul's Concern for the Corinthians"
@@ -2929,93 +3944,185 @@
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "So then I take pleasure¦125975 in weaknesses¦125977, in insults¦125979 and hardships, in persecutions¦125984 and distresses for Messiah¦125989 because¦125991 whenever¦125990 I might be faltering¦125992, that's when I'm powerful¦125994."
         },
         {
           "verseNumber": "11",
           "contents": [
-            "◘"
+            "You have forced me to become¦125996 foolish¦125997, because I should have been commended¦126009 by you all because I'm no less than those ‘super¦126016 missionaries’ even if I am",
+            {
+              "add": "just",
+              "closing": "\\add*"
+            },
+            "‘nothing’."
           ],
-          "verseText": "◘"
+          "verseText": "You have forced me to become¦125996 foolish¦125997, because I should have been commended¦126009 by you all because I'm no less than those ‘super¦126016 missionaries’ even if I am just ‘nothing’."
         },
         {
           "verseNumber": "12",
           "contents": [
-            "◘"
+            "Indeed, I persevered to deliver missionary results among¦126028 you all, as well as signs, wonders¦126037, and miracles¦126039."
           ],
-          "verseText": "◘"
+          "verseText": "Indeed, I persevered to deliver missionary results among¦126028 you all, as well as signs, wonders¦126037, and miracles¦126039."
         },
         {
           "verseNumber": "13",
           "contents": [
-            "◘",
+            "In what way were you all treated less than the rest of the assemblies¦126049, except¦126050 that I didn't load you with any burdens¦126056? Forgive¦126058 me for this mistake.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "In what way were you all treated less than the rest of the assemblies¦126049, except¦126050 that I didn't load you with any burdens¦126056? Forgive¦126058 me for this mistake."
         },
         {
           "verseNumber": "14",
           "contents": [
-            "◘"
+            "Now listen, I'm ready¦126066 to visit you all for the third¦126064 time and I won't be aiming to burden¦126073 you down because¦126088 I'm not after what you have, but rather",
+            {
+              "add": "my interest is in",
+              "closing": "\\add*"
+            },
+            "you yourselves. The children shouldn't be saving",
+            {
+              "add": "to support",
+              "closing": "\\add*"
+            },
+            "the parents, but the parents",
+            {
+              "add": "should support",
+              "closing": "\\add*"
+            },
+            "the children."
           ],
-          "verseText": "◘"
+          "verseText": "Now listen, I'm ready¦126066 to visit you all for the third¦126064 time and I won't be aiming to burden¦126073 you down because¦126088 I'm not after what you have, but rather my interest is in you yourselves. The children shouldn't be saving to support the parents, but the parents should support the children."
         },
         {
           "verseNumber": "15",
           "contents": [
-            "◘",
+            "I'm happy to invest everything I have, including all of myself, for the sake of your¦126105 souls¦126104. Am I being loved¦126114 less the more that I love you all?",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "I'm happy to invest everything I have, including all of myself, for the sake of your¦126105 souls¦126104. Am I being loved¦126114 less the more that I love you all?"
         },
         {
           "verseNumber": "16",
           "contents": [
-            "◘"
+            "So that's that. I'm didn't burden¦126121 you all, but being¦126125 crafty¦126126",
+            {
+              "add": "by nature",
+              "closing": "\\add*"
+            },
+            ", I took¦126129 you all by trickery."
           ],
-          "verseText": "◘"
+          "verseText": "So that's that. I'm didn't burden¦126121 you all, but being¦126125 crafty¦126126 by nature, I took¦126129 you all by trickery."
         },
         {
           "verseNumber": "17",
           "contents": [
-            "◘"
+            "Did any of those that I sent¦126133 to you exploit¦126138 you all?"
           ],
-          "verseText": "◘"
+          "verseText": "Did any of those that I sent¦126133 to you exploit¦126138 you all?"
         },
         {
           "verseNumber": "18",
           "contents": [
-            "◘",
+            "I urged¦126140 Titos",
+            {
+              "add": "to go there",
+              "closing": "\\add*"
+            },
+            "along with another believer. Surely¦126146 Titos must have exploited¦126147 you all?",
+            {
+              "add": "No,",
+              "closing": "\\add*"
+            },
+            "didn't we all do the same things as",
+            {
+              "add": "guided by",
+              "closing": "\\add*"
+            },
+            "the same spirit¦126153.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "I urged¦126140 Titos to go there along with another believer. Surely¦126146 Titos must have exploited¦126147 you all? No, didn't we all do the same things as guided by the same spirit¦126153."
         },
         {
           "verseNumber": "19",
           "contents": [
-            "◘"
+            {
+              "add": "Now",
+              "closing": "\\add*"
+            },
+            "you're already supposing¦126162 that we're defending¦126165",
+            {
+              "add": "ourselves",
+              "closing": "\\add*"
+            },
+            "?",
+            {
+              "add": "Actually,",
+              "closing": "\\add*"
+            },
+            "we're speaking¦126172",
+            {
+              "add": "as followers of",
+              "closing": "\\add*"
+            },
+            {
+              "nd": "Messiah¦126171",
+              "closing": "\\nd*"
+            },
+            "knowing that",
+            {
+              "nd": "God¦126169",
+              "closing": "\\nd*"
+            },
+            "is watching, and dear friends, everything has been",
+            {
+              "add": "with the aim of",
+              "closing": "\\add*"
+            },
+            "building¦126180 you up."
           ],
-          "verseText": "◘"
+          "verseText": "Now you're already supposing¦126162 that we're defending¦126165 ourselves? Actually, we're speaking¦126172 as followers of Messiah¦126171 knowing that God¦126169 is watching, and dear friends, everything has been with the aim of building¦126180 you up."
         },
         {
           "verseNumber": "20",
           "contents": [
-            "◘"
+            "You see, I'm worried that when I come¦126185, I might not find you",
+            {
+              "add": "living",
+              "closing": "\\add*"
+            },
+            "how I'd want, and you all might not find me how you'd want.",
+            {
+              "add": "I'm worried that I might find",
+              "closing": "\\add*"
+            },
+            "strife¦126199 and jealousy¦126200, anger and selfish¦126203 ambition¦126203, slander¦126204 and gossip¦126205, and conceit¦126206 and disturbances¦126207."
           ],
-          "verseText": "◘"
+          "verseText": "You see, I'm worried that when I come¦126185, I might not find you living how I'd want, and you all might not find me how you'd want. I'm worried that I might find strife¦126199 and jealousy¦126200, anger and selfish¦126203 ambition¦126203, slander¦126204 and gossip¦126205, and conceit¦126206 and disturbances¦126207."
         },
         {
           "verseNumber": "21",
           "contents": [
-            "◘"
+            {
+              "add": "I'm worried that",
+              "closing": "\\add*"
+            },
+            "when I come¦126211,",
+            {
+              "nd": "God¦126218",
+              "closing": "\\nd*"
+            },
+            "will humble¦126215 me there with you¦126221 all, and I might be upset about many who've sinned¦126226 in the past and haven't repented¦126229 from the impurity¦126232 and sexual¦126234 immorality¦126234 and self-centred living that they¦126238 practiced¦126238."
           ],
-          "verseText": "◘"
+          "verseText": "I'm worried that when I come¦126211, God¦126218 will humble¦126215 me there with you¦126221 all, and I might be upset about many who've sinned¦126226 in the past and haven't repented¦126229 from the impurity¦126232 and sexual¦126234 immorality¦126234 and self-centred living that they¦126238 practiced¦126238."
         }
       ]
     },
@@ -3023,7 +4130,7 @@
       "chapterNumber": "13",
       "contents": [
         {
-          "s1": "The ending teaching and greetings"
+          "s1": "Testing yourselves"
         },
         {
           "rem": "/s1 Paul's Final Advice; Final Warnings and Greetings; Further Warning"
@@ -3034,6 +4141,12 @@
         {
           "verseNumber": "1",
           "contents": [
+            "This is the third time¦126240 that I'll be coming¦126244 there to you¦126247 all. ‘Every account must be confirmed by at least two¦126251,",
+            {
+              "add": "preferably",
+              "closing": "\\add*"
+            },
+            "three¦126255, witnesses¦126252.’",
             {
               "x": [
                 "+",
@@ -3045,74 +4158,151 @@
                 }
               ],
               "closing": "\\x*"
-            },
-            "◘"
+            }
           ],
-          "verseText": "◘"
+          "verseText": "This is the third time¦126240 that I'll be coming¦126244 there to you¦126247 all. ‘Every account must be confirmed by at least two¦126251, preferably three¦126255, witnesses¦126252.’"
         },
         {
           "verseNumber": "2",
           "contents": [
-            "◘"
+            "I said¦126259 previously on my second¦126265 visit and while I'm absent¦126267 I'll say it again to those who sinned¦126271 previously and to all the rest",
+            {
+              "add": "as well",
+              "closing": "\\add*"
+            },
+            ": if I come¦126278 back",
+            {
+              "add": "to find",
+              "closing": "\\add*"
+            },
+            "the same¦126280 again, I won't be sparing¦126283 anyone¦126283,"
           ],
-          "verseText": "◘"
+          "verseText": "I said¦126259 previously on my second¦126265 visit and while I'm absent¦126267 I'll say it again to those who sinned¦126271 previously and to all the rest as well: if I come¦126278 back to find the same¦126280 again, I won't be sparing¦126283 anyone¦126283,"
         },
         {
           "verseNumber": "3",
           "contents": [
-            "◘"
+            "because you're all wanting proof¦126286 that I speak¦126291 from",
+            {
+              "nd": "Messiah¦126292",
+              "closing": "\\nd*"
+            },
+            "who isn't incapable of",
+            {
+              "add": "handling",
+              "closing": "\\add*"
+            },
+            "you all but is quite able",
+            {
+              "add": "to do what he wants",
+              "closing": "\\add*"
+            },
+            "."
           ],
-          "verseText": "◘"
+          "verseText": "because you're all wanting proof¦126286 that I speak¦126291 from Messiah¦126292 who isn't incapable of handling you all but is quite able to do what he wants."
         },
         {
           "verseNumber": "4",
           "contents": [
-            "◘",
+            "Although he was executed¦126306 in weakness¦126308,",
+            {
+              "add": "now",
+              "closing": "\\add*"
+            },
+            "he's living by God's power. We also falter¦126317 in him, but will be living with him by God's power towards¦126331 you all.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "Although he was executed¦126306 in weakness¦126308, now he's living by God's power. We also falter¦126317 in him, but will be living with him by God's power towards¦126331 you all."
         },
         {
           "verseNumber": "5",
           "contents": [
-            "◘"
+            "Test yourselves to check if you're",
+            {
+              "add": "living",
+              "closing": "\\add*"
+            },
+            "in the faith¦126339—you yourselves can decide that. Or can't you all recognise¦126344 whether¦126335 or not",
+            {
+              "nd": "Messiah¦126347 Yeshua¦126348",
+              "closing": "\\nd*"
+            },
+            "is living in you? Surely you're not that unqualified¦126355?"
           ],
-          "verseText": "◘"
+          "verseText": "Test yourselves to check if you're living in the faith¦126339—you yourselves can decide that. Or can't you all recognise¦126344 whether¦126335 or not Messiah¦126347 Yeshua¦126348 is living in you? Surely you're not that unqualified¦126355?"
         },
         {
           "verseNumber": "6",
           "contents": [
-            "◘"
+            "But I'm hoping¦126357 that you¦126360 all will know that we're not unqualified¦126365."
           ],
-          "verseText": "◘"
+          "verseText": "But I'm hoping¦126357 that you¦126360 all will know that we're not unqualified¦126365."
         },
         {
           "verseNumber": "7",
           "contents": [
-            "◘"
+            "And we're asking",
+            {
+              "nd": "God¦126371",
+              "closing": "\\nd*"
+            },
+            "that you won't do evil¦126375—not so that we'll be seen¦126381 to be approved¦126380, but so that you all will be doing¦126388 good¦126387,",
+            {
+              "add": "even if",
+              "closing": "\\add*"
+            },
+            "we may seem unqualified¦126392,"
           ],
-          "verseText": "◘"
+          "verseText": "And we're asking God¦126371 that you won't do evil¦126375—not so that we'll be seen¦126381 to be approved¦126380, but so that you all will be doing¦126388 good¦126387, even if we may seem unqualified¦126392,"
         },
         {
           "verseNumber": "8",
           "contents": [
-            "◘"
+            "because¦126402 we're not able",
+            {
+              "add": "to do",
+              "closing": "\\add*"
+            },
+            "anything¦126397 against¦126398 the truth—only",
+            {
+              "em": "for",
+              "closing": "\\em*"
+            },
+            "the truth."
           ],
-          "verseText": "◘"
+          "verseText": "because¦126402 we're not able to do anything¦126397 against¦126398 the truth—only for the truth."
         },
         {
           "verseNumber": "9",
           "contents": [
-            "◘"
+            "So we're glad whenever¦126407 we falter¦126409, but you all might be quite capable as we also desire that you all",
+            {
+              "add": "grow to",
+              "closing": "\\add*"
+            },
+            "perfection."
           ],
-          "verseText": "◘"
+          "verseText": "So we're glad whenever¦126407 we falter¦126409, but you all might be quite capable as we also desire that you all grow to perfection."
         },
         {
           "verseNumber": "10",
           "contents": [
-            "◘",
+            "I'm writing¦126426 these¦126423 things while I'm absent¦126424, so that when I'm present¦126428 I won't have to treat¦126431",
+            {
+              "add": "you all",
+              "closing": "\\add*"
+            },
+            "severely¦126430 according¦126432 to the authority¦126434 that the",
+            {
+              "nd": "master¦126439",
+              "closing": "\\nd*"
+            },
+            "gave¦126440 me for building¦126443 and¦126444 not for tearing¦126447 down.",
+            {
+              "s1": "Paul's final greetings and prayer"
+            },
             {
               "rem": "/s1 Paul's Final Greetings; Final Greetings and Benediction"
             },
@@ -3120,7 +4310,7 @@
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "I'm writing¦126426 these¦126423 things while I'm absent¦126424, so that when I'm present¦126428 I won't have to treat¦126431 you all severely¦126430 according¦126432 to the authority¦126434 that the master¦126439 gave¦126440 me for building¦126443 and¦126444 not for tearing¦126447 down."
         },
         {
           "verseNumber": "11",

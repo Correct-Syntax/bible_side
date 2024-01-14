@@ -1,7 +1,7 @@
 {
   "book": {
     "bookCode": "TIT",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.01",
+    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.02",
     "meta": [
       {
         "usfm": "3.0"
@@ -757,8 +757,6 @@
     }
   ],
   "_messages": {
-    "_warnings": [
-      "Trailing spaces present at line end. "
-    ]
+    "_warnings": []
   }
 }

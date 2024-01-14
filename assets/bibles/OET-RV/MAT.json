@@ -1,7 +1,7 @@
 {
   "book": {
     "bookCode": "MAT",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.04",
+    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.08",
     "meta": [
       {
         "usfm": "3.0"
@@ -143,19 +143,7 @@
           "s1": "The Jewish ancestors of the messiah"
         },
         {
-          "rem": "/s1 The ancestry of the Messiah"
-        },
-        {
-          "rem": "/s1 The Record of Jesus' Ancestors"
-        },
-        {
-          "rem": "/s1 The Genealogy of Jesus"
-        },
-        {
-          "rem": "/s1 The Genealogy of Jesus the Messiah"
-        },
-        {
-          "rem": "/s1 The Ancestors of Jesus Christ"
+          "rem": "/s1 The ancestry of the Messiah; The Record of Jesus' Ancestors; The Genealogy of Jesus; The Genealogy of Jesus the Messiah; The Ancestors of Jesus Christ"
         },
         {
           "r": "(Luk. 3:23-38)"
@@ -340,16 +328,10 @@
               "s1": "The birth of the messiah"
             },
             {
-              "rem": "/s1 The Birth of Jesus the Messiah"
+              "rem": "/s1 The Birth of Jesus the Messiah; The Birth of Jesus Christ; The birth and infancy of Jesus"
             },
             {
-              "rem": "/s1 The Birth of Jesus Christ"
-            },
-            {
-              "rem": "/s1 The birth and infancy of Jesus"
-            },
-            {
-              "r": "(Luk. 2:1-7)"
+              "r": "(Luk. 1:26-38; 2:1-7)"
             },
             {
               "rem": "/r (Luke 2.1-7)"
@@ -409,14 +391,19 @@
         {
           "verseNumber": "20",
           "contents": [
-            "But as he was pondering this, one of God's messengers¦347 appeared to him in a dream¦351 and told him, “Don't to be afraid¦359 to marry Maria¦361 because¦366 the baby in her has been conceived by the holy",
+            "But as he was pondering this, one of God's messengers¦347 appeared to him in a dream¦351 and told him, “Yosef, descendant of",
+            {
+              "add": "King",
+              "closing": "\\add*"
+            },
+            "David¦357, don't¦358 to be afraid¦359 to marry Maria¦361 because¦366 the baby in her has been conceived by the holy",
             {
               "nd": "spirit¦371",
               "closing": "\\nd*"
             },
             "."
           ],
-          "verseText": "But as he was pondering this, one of God's messengers¦347 appeared to him in a dream¦351 and told him, “Don't to be afraid¦359 to marry Maria¦361 because¦366 the baby in her has been conceived by the holy spirit¦371."
+          "verseText": "But as he was pondering this, one of God's messengers¦347 appeared to him in a dream¦351 and told him, “Yosef, descendant of King David¦357, don't¦358 to be afraid¦359 to marry Maria¦361 because¦366 the baby in her has been conceived by the holy spirit¦371."
         },
         {
           "verseNumber": "21",
@@ -467,7 +454,12 @@
               ],
               "closing": "\\x*"
             },
-            "“Look. The virgin¦412 will get pregnant and she will have a son, and they¦420 will call him¦424 Immanuel¦425 (Grk: Immanouel) which¦426 means ‘",
+            "“Listen, the virgin¦412 will get pregnant and she will have a son, and they¦420 will call him¦424 Immanuel¦425",
+            {
+              "add": "(in Hebrew)",
+              "closing": "\\add*"
+            },
+            "which¦426 means ‘",
             {
               "nd": "God¦432",
               "closing": "\\nd*"
@@ -477,7 +469,7 @@
               "p": ""
             }
           ],
-          "verseText": "“Look. The virgin¦412 will get pregnant and she will have a son, and they¦420 will call him¦424 Immanuel¦425 (Grk: Immanouel) which¦426 means ‘ God¦432 with us.’ ”"
+          "verseText": "“Listen, the virgin¦412 will get pregnant and she will have a son, and they¦420 will call him¦424 Immanuel¦425 (in Hebrew) which¦426 means ‘ God¦432 with us.’ ”"
         },
         {
           "verseNumber": "24",
@@ -519,13 +511,7 @@
           "s1": "Easterners come to worship the new king"
         },
         {
-          "rem": "/s1 The Visit of the Wise Men"
-        },
-        {
-          "rem": "/s1 The Visit of the Magi"
-        },
-        {
-          "rem": "/s1 Visitors from the East"
+          "rem": "/s1 The Visit of the Wise Men; The Visit of the Magi; Visitors from the East"
         },
         {
           "p": null
@@ -717,9 +703,6 @@
               "rem": "/s1 The Massacre of the Infants"
             },
             {
-              "rem": "/s1 The Killing of the Children"
-            },
-            {
               "p": ""
             }
           ],
@@ -770,10 +753,7 @@
               "s1": "Yosef's family return to Nazareth"
             },
             {
-              "rem": "/s1 The Return from Egypt"
-            },
-            {
-              "rem": "/s1 The Return to Nazareth"
+              "rem": "/s1 The Return from Egypt; The Return to Nazareth"
             },
             {
               "p": ""
@@ -874,16 +854,7 @@
           "s1": "Yohan-the-Immerser's preaching"
         },
         {
-          "rem": "/s1 The Proclamation of John the Baptist"
-        },
-        {
-          "rem": "/s1 John the Baptist and Jesus"
-        },
-        {
-          "rem": "/s1 The Preaching of John the Baptist"
-        },
-        {
-          "rem": "/s1 John the Baptist Prepares the Way"
+          "rem": "/s1 The Proclamation of John the Baptist; John the Baptist and Jesus; The Preaching of John the Baptist; John the Baptist Prepares the Way"
         },
         {
           "r": "(Mrk. 1:1-8; Luk. 3:1-18; Jn 1:19-28)"
@@ -1229,9 +1200,6 @@
           "s1": "Yeshua is tempted by the devil"
         },
         {
-          "rem": "/s1 The temptation of Jesus"
-        },
-        {
           "rem": "/s1 The Temptation of Jesus"
         },
         {
@@ -1489,19 +1457,7 @@
               "s1": "Yeshua begins his ministry"
             },
             {
-              "rem": "/s1 The Ministry of Jesus Begins"
-            },
-            {
-              "rem": "/s1 Jesus Begins to Preach"
-            },
-            {
-              "rem": "/s1 Jesus Begins His Ministry in Galilee"
-            },
-            {
-              "rem": "/s1 The first disciples"
-            },
-            {
-              "rem": "/s1 Jesus Begins His Work in Galilee"
+              "rem": "/s1 The Ministry of Jesus Begins; Jesus Begins to Preach; Jesus Begins His Ministry in Galilee; The first disciples; Jesus Begins His Work in Galilee"
             },
             {
               "r": "(Mrk. 1:14-15; Luk. 4:14-15)"
@@ -1635,16 +1591,7 @@
               "s1": "Yeshua calls his first four followers"
             },
             {
-              "rem": "/s1 The Calling of the First Disciples"
-            },
-            {
-              "rem": "/s1 The First Disciples"
-            },
-            {
-              "rem": "/s1 Jesus Calls the First Disciples"
-            },
-            {
-              "rem": "/s1 Jesus Calls Four Fishermen"
+              "rem": "/s1 The Calling of the First Disciples; The First Disciples; Jesus Calls the First Disciples; Jesus Calls Four Fishermen"
             },
             {
               "r": "(Mrk. 1:16-20; Luk. 5:1-11)"
@@ -1707,16 +1654,7 @@
               "s1": "Yeshua's healing is very popular"
             },
             {
-              "rem": "/s1 The Ministry of Jesus in Galilee"
-            },
-            {
-              "rem": "/s1 Jesus Teaches, Preaches, and Heals"
-            },
-            {
-              "rem": "/s1 Jesus Heals the Sick"
-            },
-            {
-              "rem": "/s1 Jesus Ministers to Crowds of People"
+              "rem": "/s1 The Ministry of Jesus in Galilee; Jesus Teaches, Preaches, and Heals; Jesus Heals the Sick; Jesus Ministers to Crowds of People"
             },
             {
               "r": "(Luk. 6:17-19)"
@@ -1777,10 +1715,7 @@
           "s1": "Yeshua's sermon on the hillside"
         },
         {
-          "rem": "/s1 The Sermon on the Mount"
-        },
-        {
-          "rem": "/s1 The Beatitudes"
+          "rem": "/s1 The Sermon on the Mount; The Beatitudes"
         },
         {
           "r": "(Luk. 6:20-23)"
@@ -2071,9 +2006,6 @@
               "s1": "Being salt and light"
             },
             {
-              "rem": "/s1 Salt and Light"
-            },
-            {
               "rem": "/s1 Teaching about Salt and Light"
             },
             {
@@ -2182,13 +2114,7 @@
               "s1": "Moses' law won't be broken"
             },
             {
-              "rem": "/s1 The Law and the Prophets"
-            },
-            {
-              "rem": "/s1 The Fulfillment of the Law"
-            },
-            {
-              "rem": "/s1 Teaching about the Law"
+              "rem": "/s1 The Law and the Prophets; The Fulfillment of the Law; Teaching about the Law"
             },
             {
               "p": ""
@@ -2265,13 +2191,7 @@
               "s1": "Teaching about murder and anger"
             },
             {
-              "rem": "/s1 Murder"
-            },
-            {
-              "rem": "/s1 Teaching about Anger"
-            },
-            {
-              "rem": "/s1 Concerning Anger"
+              "rem": "/s1 Murder; Teaching about Anger; Concerning Anger"
             },
             {
               "p": ""
@@ -2365,13 +2285,7 @@
               "s1": "Teaching about adultery and lust"
             },
             {
-              "rem": "/s1 Adultery"
-            },
-            {
-              "rem": "/s1 Concerning Adultery"
-            },
-            {
-              "rem": "/s1 Teaching about Adultery"
+              "rem": "/s1 Concerning Adultery; Teaching about Adultery"
             },
             {
               "p": ""
@@ -2465,13 +2379,7 @@
               "s1": "Teaching about divorce"
             },
             {
-              "rem": "/s1 Concerning Divorce"
-            },
-            {
-              "rem": "/s1 Divorce"
-            },
-            {
-              "rem": "/s1 Teaching about Divorce"
+              "rem": "/s1 Concerning Divorce; Teaching about Divorce"
             },
             {
               "r": "(Mat. 19:9; Mrk. 10:11-12; Luk. 16:18)"
@@ -2539,13 +2447,7 @@
               "s1": "Teaching about oaths and honesty"
             },
             {
-              "rem": "/s1 Teaching about Vows"
-            },
-            {
-              "rem": "/s1 Concerning Oaths"
-            },
-            {
-              "rem": "/s1 Oaths"
+              "rem": "/s1 Teaching about Vows; Concerning Oaths"
             },
             {
               "p": ""
@@ -2675,13 +2577,7 @@
               "s1": "Teaching about being taken advantage of"
             },
             {
-              "rem": "/s1 Concerning Retaliation"
-            },
-            {
-              "rem": "/s1 Teaching about Revenge"
-            },
-            {
-              "rem": "/s1 An Eye for an Eye"
+              "rem": "/s1 Concerning Retaliation; Teaching about Revenge; An Eye for an Eye"
             },
             {
               "r": "(Luk. 6:29-30)"
@@ -2760,9 +2656,6 @@
             },
             {
               "rem": "/s1 Teaching about Love for Enemies"
-            },
-            {
-              "rem": "/s1 Love for Enemies"
             },
             {
               "r": "(Luk. 6:27-28,32-36)"
@@ -2874,16 +2767,7 @@
           "s1": "Giving to the poor"
         },
         {
-          "rem": "/s1 Giving to the Needy"
-        },
-        {
-          "rem": "/s1 Concerning Almsgiving"
-        },
-        {
-          "rem": "/s1 Teaching about Charity"
-        },
-        {
-          "rem": "/s1 Teaching about Giving to the Needy"
+          "rem": "/s1 Giving to the Needy; Concerning Almsgiving; Teaching about Charity; Teaching about Giving to the Needy"
         },
         {
           "p": null
@@ -2951,19 +2835,10 @@
               "closing": "\\wj*"
             },
             {
-              "s1": "The teaching about praying"
+              "s1": "Teaching about praying"
             },
             {
-              "rem": "/s1 Concerning Prayer"
-            },
-            {
-              "rem": "/s1 Prayer"
-            },
-            {
-              "rem": "/s1 Teaching about Prayer"
-            },
-            {
-              "rem": "/s1 Teaching about Prayer and Fasting"
+              "rem": "/s1 Concerning Prayer; Teaching about Prayer; Teaching about Prayer and Fasting"
             },
             {
               "r": "(Luk. 11:2-4)"
@@ -3217,16 +3092,10 @@
               "closing": "\\wj*"
             },
             {
-              "s1": "The teaching about fasting"
-            },
-            {
-              "rem": "/s1 Teaching about Fasting"
+              "s1": "Teaching about fasting"
             },
             {
               "rem": "/s1 Concerning Fasting"
-            },
-            {
-              "rem": "/s1 Fasting"
             },
             {
               "p": ""
@@ -3266,16 +3135,7 @@
               "s1": "Wealth in heaven"
             },
             {
-              "rem": "/s1 Treasures in Heaven"
-            },
-            {
-              "rem": "/s1 Concerning Treasures"
-            },
-            {
-              "rem": "/s1 Teaching about Money and Possessions"
-            },
-            {
-              "rem": "/s1 Riches in Heaven"
+              "rem": "/s1 Treasures in Heaven; Concerning Treasures; Teaching about Money and Possessions; Riches in Heaven"
             },
             {
               "r": "(Luk. 12:33-34)"
@@ -3341,10 +3201,7 @@
               "s1": "The eyes"
             },
             {
-              "rem": "/s1 The Light of the Body"
-            },
-            {
-              "rem": "/s1 The Sound Eye"
+              "rem": "/s1 The Light of the Body; The Sound Eye"
             },
             {
               "r": "(Luk. 11:34-36)"
@@ -3380,10 +3237,7 @@
               "s1": "God and wealth"
             },
             {
-              "rem": "/s1 Serving Two Masters"
-            },
-            {
-              "rem": "/s1 God and Possessions"
+              "rem": "/s1 Serving Two Masters; God and Possessions"
             },
             {
               "r": "(Luk. 16:13; 12:22-31)"
@@ -3599,10 +3453,7 @@
           "s1": "Teaching about judging"
         },
         {
-          "rem": "/s1 Judging Others"
-        },
-        {
-          "rem": "/s1 Don't Condemn Others"
+          "rem": "/s1 Judging Others; Don't Condemn Others"
         },
         {
           "r": "(Luk. 6:37-38,41-42)"
@@ -3702,13 +3553,7 @@
               "s1": "Requesting, searching, and knocking"
             },
             {
-              "rem": "/s1 Effective Prayer"
-            },
-            {
-              "rem": "/s1 Ask, Search, Knock"
-            },
-            {
-              "rem": "/s1 Ask, Seek, Knock"
+              "rem": "/s1 Effective Prayer; Ask, Search, Knock; Ask, Seek, Knock"
             },
             {
               "r": "(Luk. 11:9-13)"
@@ -3808,13 +3653,10 @@
               "closing": "\\wj*"
             },
             {
-              "s1": "The narrow gate"
+              "s1": "The wide and narrow gates"
             },
             {
-              "rem": "/s1 The Narrow and Wide Gates"
-            },
-            {
-              "rem": "/s1 The Narrow Gate"
+              "rem": "/s1 The Narrow and Wide Gates; The Narrow Gate"
             },
             {
               "r": "(Luk. 13:24)"
@@ -3850,10 +3692,7 @@
               "s1": "Recognising the tree by the fruit"
             },
             {
-              "rem": "/s1 The Tree and Its Fruit"
-            },
-            {
-              "rem": "/s1 A Tree and Its Fruit"
+              "rem": "/s1 The Tree and Its Fruit; A Tree and Its Fruit"
             },
             {
               "r": "(Luk. 6:43-44)"
@@ -3953,13 +3792,7 @@
               "s1": "Words need actions"
             },
             {
-              "rem": "/s1 Concerning Self-Deception"
-            },
-            {
-              "rem": "/s1 I Never Knew You"
-            },
-            {
-              "rem": "/s1 True Disciples"
+              "rem": "/s1 Concerning Self-Deception; I Never Knew You; True Disciples"
             },
             {
               "r": "(Luk. 13:25-27)"
@@ -4048,16 +3881,7 @@
               "s1": "The importance of foundations"
             },
             {
-              "rem": "/s1 The Wise and Foolish Builders"
-            },
-            {
-              "rem": "/s1 The Two House Builders"
-            },
-            {
-              "rem": "/s1 Hearers and Doers"
-            },
-            {
-              "rem": "/s1 Building on a Solid Foundation"
+              "rem": "/s1 The Wise and Foolish Builders; The Two House Builders; Hearers and Doers; Building on a Solid Foundation"
             },
             {
               "r": "(Luk. 6:47-49)"
@@ -4171,19 +3995,7 @@
           "s1": "Yeshua heals a man with leprosy"
         },
         {
-          "rem": "/s1 Jesus Heals a Man"
-        },
-        {
-          "rem": "/s1 Jesus Cleanses a Leper"
-        },
-        {
-          "rem": "/s1 Jesus Heals a Man with Leprosy"
-        },
-        {
-          "rem": "/s1 Miracles and teaching"
-        },
-        {
-          "rem": "/s1 The Man With Leprosy"
+          "rem": "/s1 Jesus Heals a Man; Jesus Cleanses a Leper; Jesus Heals a Man with Leprosy; Miracles and teaching; The Man With Leprosy"
         },
         {
           "r": "(Mrk. 1:40-45; Luk. 5:12-16)"
@@ -4283,16 +4095,7 @@
               "s1": "Yeshua heals a Roman's slave"
             },
             {
-              "rem": "/s1 The Faith of the Centurion"
-            },
-            {
-              "rem": "/s1 Jesus Heals a Centurion's Servant"
-            },
-            {
-              "rem": "/s1 Jesus Heals a Roman Officer's Servant"
-            },
-            {
-              "rem": "/s1 Faith of the Roman Officer"
+              "rem": "/s1 The Faith of the Centurion; Jesus Heals a Centurion's Servant; Jesus Heals a Roman Officer's Servant; Faith of the Roman Officer"
             },
             {
               "r": "(Luk. 7:1-10)"
@@ -4455,13 +4258,7 @@
               "s1": "Yeshua heals the people"
             },
             {
-              "rem": "/s1 Jesus Heals Many at Peter's House"
-            },
-            {
-              "rem": "/s1 Jesus Heals Many"
-            },
-            {
-              "rem": "/s1 Jesus Heals Many People"
+              "rem": "/s1 Jesus Heals Many at Peter's House; Jesus Heals Many People"
             },
             {
               "r": "(Mrk. 1:29-34; Luk. 4:38-41)"
@@ -4524,13 +4321,7 @@
               "s1": "Some wanted to follow Yeshua"
             },
             {
-              "rem": "/s1 Would-Be Followers of Jesus"
-            },
-            {
-              "rem": "/s1 The Cost of Following Jesus"
-            },
-            {
-              "rem": "/s1 The Would-Be Followers of Jesus"
+              "rem": "/s1 The Cost of Following Jesus; The Would-Be Followers of Jesus"
             },
             {
               "r": "(Luk. 9:57-62)"
@@ -4664,13 +4455,7 @@
               "s1": "Yeshua commands the wind"
             },
             {
-              "rem": "/s1 Jesus Calms a Storm"
-            },
-            {
-              "rem": "/s1 Jesus Calms the Storm"
-            },
-            {
-              "rem": "/s1 Jesus Stills the Storm"
+              "rem": "/s1 Jesus Calms a Storm; Jesus Calms the Storm; Jesus Stills the Storm"
             },
             {
               "r": "(Mrk. 4:35-41; Luk. 8:22-25)"
@@ -4746,16 +4531,7 @@
               "s1": "Yeshua banishes demons into a herd of pigs"
             },
             {
-              "rem": "/s1 Jesus Heals Two Men with Demons"
-            },
-            {
-              "rem": "/s1 Jesus Heals the Gadarene Demoniacs"
-            },
-            {
-              "rem": "/s1 The Healing of Two Demon-possessed Men"
-            },
-            {
-              "rem": "/s1 Jesus Heals Two Demon-Possessed Men"
+              "rem": "/s1 Jesus Heals Two Men with Demons; Jesus Heals the Gadarene Demoniacs; The Healing of Two Demon-possessed Men; Jesus Heals Two Demon-Possessed Men"
             },
             {
               "r": "(Mrk. 5:1-20; Luk. 8:26-39)"
@@ -4861,10 +4637,7 @@
           "s1": "Yeshua forgives and heals a paralysed man"
         },
         {
-          "rem": "/s1 Jesus Heals a Paralyzed Man"
-        },
-        {
-          "rem": "/s1 Jesus Heals a Paralytic"
+          "rem": "/s1 Jesus Heals a Paralyzed Man; Jesus Heals a Paralytic"
         },
         {
           "r": "(Mrk. 2:1-12; Luk. 5:17-26)"
@@ -4961,16 +4734,10 @@
             },
             "for giving such authority¦4988 to men.",
             {
-              "s1": "Yeshua calls Matthew and they dine with sinners"
+              "s1": "Yeshua calls Matthew and they dine with ‘sinners’"
             },
             {
-              "rem": "/s1 Jesus Calls Matthew"
-            },
-            {
-              "rem": "/s1 The Call of Matthew"
-            },
-            {
-              "rem": "/s1 The Calling of Matthew"
+              "rem": "/s1 Jesus Calls Matthew; The Call of Matthew; The Calling of Matthew"
             },
             {
               "r": "(Mark 2:13-17; Luke 5:27-32)"
@@ -5076,13 +4843,7 @@
               "s1": "Yeshua is asked about fasting"
             },
             {
-              "rem": "/s1 Jesus Questioned About Fasting"
-            },
-            {
-              "rem": "/s1 A Discussion about Fasting"
-            },
-            {
-              "rem": "/s1 The Question about Fasting"
+              "rem": "/s1 Jesus Questioned About Fasting; A Discussion about Fasting; The Question about Fasting"
             },
             {
               "r": "(Mark 2:18-22; Luke 5:33-39)"
@@ -11142,10 +10903,7 @@
               "s1": "Yeshua speaks again about his forthcoming death"
             },
             {
-              "rem": "/s1 Jesus Again Predicts His Death"
-            },
-            {
-              "rem": "/s1 Jesus Speaks Again about His Death"
+              "rem": "/s1 Jesus Again Predicts His Death; Jesus Speaks Again about His Death"
             },
             {
               "r": "(Mrk. 9:30-32; Luk. 9:43b-45)"
@@ -11177,13 +10935,13 @@
               "nd": "Yeshua¦11891",
               "closing": "\\nd*"
             },
-            "told them,“",
+            "told them, “",
             {
               "wj": "humanity's child is going¦11892 to be handed over to the people¦11900,",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "Another time when they were all together in Galilee¦11887, Yeshua¦11891 told them,“humanity's child is going¦11892 to be handed over to the people¦11900,"
+          "verseText": "Another time when they were all together in Galilee¦11887, Yeshua¦11891 told them, “humanity's child is going¦11892 to be handed over to the people¦11900,"
         },
         {
           "verseNumber": "23",
@@ -11202,13 +10960,7 @@
               "s1": "Paying the temple tax"
             },
             {
-              "rem": "/s1 Payment of the Temple Tax"
-            },
-            {
-              "rem": "/s1 Jesus and the Temple Tax"
-            },
-            {
-              "rem": "/s1 The Temple Tax"
+              "rem": "/s1 Payment of the Temple Tax; Jesus and the Temple Tax"
             },
             {
               "p": ""
