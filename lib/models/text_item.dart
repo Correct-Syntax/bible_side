@@ -37,23 +37,34 @@ enum TextItemType {
 /// [TextItem] styles
 class TextItemStyles {
   static TextStyle bookHeading(context) {
-    return Theme.of(context).textTheme.headlineSmall!.copyWith(fontWeight: FontWeight.w500);
+    return Theme.of(context).textTheme.headlineSmall!.copyWith(fontFamily: 'RobotoSerif', fontWeight: FontWeight.w500);
   }
 
   static TextStyle chapterHeading(context) {
-    return Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 26, fontWeight: FontWeight.w500);
+    return Theme.of(context)
+        .textTheme
+        .bodyMedium!
+        .copyWith(fontFamily: 'RobotoSerif', fontSize: 26, fontWeight: FontWeight.w500);
   }
 
   static TextStyle sectionHeading(context) {
-    return Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 18, fontWeight: FontWeight.w500);
+    return Theme.of(context)
+        .textTheme
+        .bodyMedium!
+        .copyWith(fontFamily: 'RobotoSerif', fontSize: 18, fontWeight: FontWeight.w500);
   }
 
   static TextStyle bodyMedium(context) {
-    return Theme.of(context).textTheme.bodyMedium!;
+    return Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 10.0);
   }
 
   static TextStyle text(context) {
-    return Theme.of(context).textTheme.bodyLarge!.copyWith(fontSize: 20);
+    return Theme.of(context).textTheme.bodyLarge!.copyWith(
+          fontFamily: 'RobotoSerif',
+          fontSize: 19,
+          letterSpacing: 0.4,
+          height: 1.7,
+        );
   }
 
   static TextStyle link(context) {

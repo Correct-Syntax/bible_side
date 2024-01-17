@@ -215,7 +215,6 @@ class ReaderService {
     return chapterFromOETJson(context, json, false, pageKey);
   }
 
-
   /// Get a single chapter defined by [pageKey] from the KJV json.
   List<Map<String, dynamic>> chapterFromKJVJson(BuildContext context, Map<String, dynamic> json, int pageKey) {
     List<InlineSpan> spans = [];
@@ -252,7 +251,7 @@ class ReaderService {
               text: item['text'],
               style: TextItemStyles.text(context),
             ),
-          ]
+          ],
         ),
       );
     }
