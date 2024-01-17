@@ -41,7 +41,7 @@ class TextItemStyles {
   }
 
   static TextStyle chapterHeading(context) {
-    return Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 20, fontWeight: FontWeight.w500);
+    return Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 26, fontWeight: FontWeight.w500);
   }
 
   static TextStyle sectionHeading(context) {

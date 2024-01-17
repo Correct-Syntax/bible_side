@@ -215,16 +215,52 @@ class ReaderService {
     return chapterFromOETJson(context, json, false, pageKey);
   }
 
+
   /// Get a single chapter defined by [pageKey] from the KJV json.
   List<Map<String, dynamic>> chapterFromKJVJson(BuildContext context, Map<String, dynamic> json, int pageKey) {
     List<InlineSpan> spans = [];
 
+    // Chapters
+    List<dynamic> chaptersData = json['chapters'];
+
     // Get the chapter at [pageKey]
+    String chapterNumber = '';
+    List<dynamic> chapterContents = [];
+
+    for (var chapter in chaptersData) {
+      chapterNumber = chapter['chapter'];
+
+      if (chapterNumber == pageKey.toString()) {
+        spans.add(TextSpan(
+          text: chapterNumber == '1' ? '$chapterNumber ' : '\n$chapterNumber ',
+          style: TextItemStyles.chapterHeading(context),
+        ));
+        chapterContents = chapter['verses'];
+        break;
+      }
+    }
+
+    for (Map item in chapterContents) {
+      spans.add(
+        TextSpan(
+          children: [
+            TextSpan(
+              text: ' ${item['verse']} ',
+              style: TextItemStyles.bodyMedium(context),
+            ),
+            TextSpan(
+              text: item['text'],
+              style: TextItemStyles.text(context),
+            ),
+          ]
+        ),
+      );
+    }
 
     return [
       {
         'spans': spans,
-        'page': 1,
+        'page': chapterNumber,
       }
     ];
   }
