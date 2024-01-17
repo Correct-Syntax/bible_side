@@ -85,11 +85,6 @@ class ReaderService {
       //log(chapterNumber.toString()+pageKey.toString());
       if (chapterNumber == pageKey.toString()) {
         sectionChapterReference = chapterNumber;
-        spans.add(TextSpan(
-          text: 'Chapter $chapterNumber',
-          style: TextItemStyles.chapterHeading(context),
-        ));
-
         chapterContents = chapter['contents'];
         break;
       }
@@ -138,7 +133,7 @@ class ReaderService {
           } else {
             if (splitByParagraph != true) {
               // Add newline between each verse
-              verseNumberText = '\n$verseNumberText';
+              verseNumberText = verseNumberText == '1' ? verseNumberText : '\n$verseNumberText';
             }
           }
           sectionVerseReference = verseNumberText;
@@ -160,7 +155,7 @@ class ReaderService {
                 verseText,
                 sectionChapterReference,
                 sectionVerseReference,
-                sectionText,
+                sectionText,              
               ),
             );
             isSection = false;
