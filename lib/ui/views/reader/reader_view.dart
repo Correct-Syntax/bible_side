@@ -45,7 +45,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
               enableDrag: false,
               builder: (BuildContext context) {
                 return Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 14.0),
+                  padding: const EdgeInsets.symmetric(horizontal: 24.0),
                   child: Scrollable(
                     controller: viewModel.bottomController,
                     viewportBuilder: (BuildContext context, ViewportOffset position) {
@@ -95,7 +95,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
               onClosing: () {},
             ),
       body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 14.0),
+        padding: const EdgeInsets.symmetric(horizontal: 24.0),
         child: Scrollable(
           controller: viewModel.topController,
           viewportBuilder: (BuildContext context, ViewportOffset position) {
