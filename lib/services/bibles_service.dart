@@ -3,54 +3,73 @@ import 'package:stacked/stacked.dart';
 
 import '../app/app.locator.dart';
 import '../common/enums.dart';
-import '../common/mappings.dart';
+import '../common/books.dart';
 import 'json_service.dart';
+import 'settings_service.dart';
 
 class BiblesService with ListenableServiceMixin {
+  final _settingsService = locator<SettingsService>();
   final _jsonService = locator<JsonService>();
 
   BiblesService() {
-    listenToReactiveValues([chapter, bookCode, topBibleCode, bottomBibleCode, sectionIndex, viewBy]);
+    listenToReactiveValues([
+      bookCode,
+      booksMapping,
+      viewBy,
+    ]);
   }
 
-  // BibleVersion topBibleVersion = BibleVersion.oetReaders;
-  // BibleVersion bottomBibleVersion = BibleVersion.oetLiteral;
+  Map<String, dynamic> primaryAreaJson = {};
+  Map<String, dynamic> secondaryAreaJson = {};
 
-  Map<String, dynamic> topJson = {};
-  Map<String, dynamic> bottomJson = {};
+  Map<String, String> booksMapping = {};
 
-  int chapter = 1;
-  String bookCode = 'JHN';
-
-  String topBibleCode = 'OET-RV';
-  String bottomBibleCode = 'OET-LV';
-
-  String reference = '1:1';
-  int sectionIndex = 1;
+  String get primaryAreaBible => _settingsService.primaryAreaBible;
+  String get secondaryAreaBible => _settingsService.secondaryAreaBible;
+  String get bookCode => _settingsService.bookCode;
+  int get chapterNumber => _settingsService.chapterNumber;
+  int get sectionNumber => _settingsService.sectionNumber;
 
   ViewBy viewBy = ViewBy.chapter;
 
   Future<void> initilize() async {
-    // TODO: fetch settings
+    setMappingBasedOnBible(primaryAreaBible);
   }
 
   Future<void> reloadBiblesJson() async {
-    await loadBibleVersion(Area.top);
-    await loadBibleVersion(Area.bottom);
+    await loadBibleVersion(Area.primary);
+    await loadBibleVersion(Area.secondary);
   }
 
-  void setBookCode(String book) {
-    bookCode = book;
+  void setPrimaryAreaBible(String bibleCode) {
+    _settingsService.setPrimaryAreaBible(bibleCode);
+    setMappingBasedOnBible(bibleCode);
+    notifyListeners();
+  }
+
+  void setSecondaryAreaBible(String bibleCode) {
+    _settingsService.setSecondaryAreaBible(bibleCode);
+
+    notifyListeners();
+  }
+
+  void setBook(String book) {
+    _settingsService.setBook(book);
     notifyListeners();
   }
 
   void setChapter(int newChapter) {
-    chapter = newChapter;
+    _settingsService.setChapterNumber(newChapter);
     notifyListeners();
   }
 
-  void setSectionIndex(int index) {
-    sectionIndex = index;
+  void setSection(int index) {
+    _settingsService.setSectionNumber(index);
+    notifyListeners();
+  }
+
+  void setBooksMapping(BookMapping mapping) {
+    booksMapping = getBookMapping(mapping);
     notifyListeners();
   }
 
@@ -60,18 +79,26 @@ class BiblesService with ListenableServiceMixin {
   }
 
   Future<void> loadBibleVersion(Area pane) async {
-    if (pane == Area.top) {
-      topJson = await _jsonService.loadBookJson(topBibleCode, bookCode);
-    } else if (pane == Area.bottom) {
-      bottomJson = await _jsonService.loadBookJson(bottomBibleCode, bookCode);
+    if (pane == Area.primary) {
+      primaryAreaJson = await _jsonService.loadBookJson(primaryAreaBible, bookCode);
+    } else if (pane == Area.secondary) {
+      secondaryAreaJson = await _jsonService.loadBookJson(secondaryAreaBible, bookCode);
     }
   }
 
   String bookCodeToBook(String bookCode) {
-    return bookMapping[bookCode]!;
+    return booksMapping[bookCode]!;
   }
 
   String bookToBookCode(String book) {
-    return bookMapping.keys.firstWhere((item) => bookMapping[item] == book);
+    return booksMapping.keys.firstWhere((item) => booksMapping[item] == book);
+  }
+
+  void setMappingBasedOnBible(String bibleCode) {
+    if (bibleCode == 'OET-RV' || bibleCode == 'OET-LV') {
+      setBooksMapping(BookMapping.oet);
+    } else {
+      setBooksMapping(BookMapping.traditional);
+    }
   }
 }

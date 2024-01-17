@@ -5,7 +5,6 @@ import 'package:stacked/stacked.dart';
 import 'package:stacked_hooks/stacked_hooks.dart';
 
 import '../../../common/enums.dart';
-import '../../../common/mappings.dart';
 import '../../../models/text_item.dart';
 import 'reader_navigation_viewmodel.dart';
 
@@ -57,7 +56,7 @@ class _ReaderNavigationView extends StackedHookView<ReaderNavigationViewModel> {
                 visible: viewModel.showBooksNavigation,
                 child: Expanded(
                   child: GridView.builder(
-                    itemCount: bookMapping.length,
+                    itemCount: viewModel.booksMapping.length,
                     gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
                       maxCrossAxisExtent: 120,
                       childAspectRatio: 4 / 2,
@@ -70,7 +69,7 @@ class _ReaderNavigationView extends StackedHookView<ReaderNavigationViewModel> {
                         onTap: () => viewModel.onTapBookItem(index),
                         child: Center(
                           child: Text(
-                            bookMapping.values.elementAt(index),
+                            viewModel.booksMapping.values.elementAt(index),
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                             style: Theme.of(context).textTheme.bodyLarge,

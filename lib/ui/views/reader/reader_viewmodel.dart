@@ -20,11 +20,11 @@ class ReaderViewModel extends ReactiveViewModel {
 
   int get currentIndex => _sideNavigationService.currentIndex;
 
-  String get topBibleCode => _biblesService.topBibleCode;
+  String get primaryAreaBible => _biblesService.primaryAreaBible;
   String get bookCode => _biblesService.bookCode;
-  int get chapter => _biblesService.chapter;
+  int get chapter => _biblesService.chapterNumber;
 
-  int get sectionIndex => _biblesService.chapter;
+  int get sectionIndex => _biblesService.chapterNumber; // TODO
 
   ReaderViewModel({required this.context});
 
@@ -72,11 +72,11 @@ class ReaderViewModel extends ReactiveViewModel {
     );
 
     topPagingUpController.addPageRequestListener((pageKey) {
-      fetchUpChapter(pageKey, Area.top);
+      fetchUpChapter(pageKey, Area.primary);
       updateInterface();
     });
     topPagingDownController.addPageRequestListener((pageKey) {
-      fetchDownChapter(pageKey, Area.top);
+      fetchDownChapter(pageKey, Area.primary);
       updateInterface();
     });
 
@@ -89,16 +89,16 @@ class ReaderViewModel extends ReactiveViewModel {
     );
 
     bottomPagingUpController.addPageRequestListener((pageKey) {
-      fetchUpChapter(pageKey, Area.bottom);
+      fetchUpChapter(pageKey, Area.secondary);
       //updateInterface();
     });
     bottomPagingDownController.addPageRequestListener((pageKey) {
-      fetchDownChapter(pageKey, Area.bottom);
+      fetchDownChapter(pageKey, Area.secondary);
       //updateInterface();
     });
 
-    await fetchDownChapter(sectionIndex, Area.top);
-    await fetchDownChapter(sectionIndex, Area.bottom);
+    await fetchDownChapter(sectionIndex, Area.primary);
+    await fetchDownChapter(sectionIndex, Area.secondary);
 
     log(sectionIndex.toString());
 
@@ -118,14 +118,14 @@ class ReaderViewModel extends ReactiveViewModel {
     final bool isLastPage = pageKey == 1;
     final int nextPageKey = pageKey;
 
-    if (area == Area.top) {
+    if (area == Area.primary) {
       if (isLastPage) {
         topPagingUpController.appendLastPage(newPage);
       } else {
         topPagingUpController.appendPage(newPage, nextPageKey);
       }
       topPagingUpController.notifyListeners();
-    } else if (area == Area.bottom) {
+    } else if (area == Area.secondary) {
       if (isLastPage) {
         bottomPagingUpController.appendLastPage(newPage);
       } else {
@@ -143,14 +143,14 @@ class ReaderViewModel extends ReactiveViewModel {
     final bool isLastPage = newPage.isEmpty;
     final int nextPageKey = pageKey + 1;
 
-    if (area == Area.top) {
+    if (area == Area.primary) {
       if (isLastPage) {
         topPagingDownController.appendLastPage(newPage);
       } else {
         topPagingDownController.appendPage(newPage, nextPageKey);
       }
       topPagingDownController.notifyListeners();
-    } else if (area == Area.bottom) {
+    } else if (area == Area.secondary) {
       if (isLastPage) {
         bottomPagingDownController.appendLastPage(newPage);
       } else {
@@ -165,7 +165,7 @@ class ReaderViewModel extends ReactiveViewModel {
   void setChapter(dynamic chapter) {
     if (chapter.runtimeType == String) {
       _biblesService.setChapter(int.parse(chapter));
-    } else {
+    } else if (chapter.runtimeType == int) {
       _biblesService.setChapter(chapter);
     }
     rebuildUi();

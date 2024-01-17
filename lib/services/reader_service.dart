@@ -6,17 +6,17 @@ import '../common/enums.dart';
 import '../models/text_item.dart';
 import '../ui/views/reader/widgets/inline_spans.dart';
 import 'bibles_service.dart';
+import 'settings_service.dart';
 
 class ReaderService {
+  final _settingsService = locator<SettingsService>();
   final _biblesService = locator<BiblesService>();
 
-  Map<String, dynamic> get topJson => _biblesService.topJson;
-  Map<String, dynamic> get bottomJson => _biblesService.bottomJson;
+  Map<String, dynamic> get primaryAreaJson => _biblesService.primaryAreaJson;
+  Map<String, dynamic> get secondaryAreaJson => _biblesService.secondaryAreaJson;
 
-  String get topBibleCode => _biblesService.topBibleCode;
-  String get bottomBibleCode => _biblesService.bottomBibleCode;
-
-  //String get bookCode => _biblesService.bookCode;
+  String get primaryAreaBible => _settingsService.primaryAreaBible;
+  String get secondaryAreaBible => _settingsService.secondaryAreaBible;
 
   ViewBy get viewBy => _biblesService.viewBy;
 
@@ -25,10 +25,10 @@ class ReaderService {
 
   /// Get a new page at [pageKey] for the current bible, book, etc and the given [Area].
   List<Map<String, dynamic>> getNewPage(BuildContext context, int pageKey, Area area) {
-    if (area == Area.top) {
-      return pageFromJson(context, topJson, topBibleCode, viewBy, pageKey);
-    } else if (area == Area.bottom) {
-      return pageFromJson(context, bottomJson, bottomBibleCode, viewBy, pageKey);
+    if (area == Area.primary) {
+      return pageFromJson(context, primaryAreaJson, primaryAreaBible, viewBy, pageKey);
+    } else if (area == Area.secondary) {
+      return pageFromJson(context, secondaryAreaJson, secondaryAreaBible, viewBy, pageKey);
     } else {
       return [];
     }

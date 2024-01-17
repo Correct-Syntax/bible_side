@@ -12,7 +12,7 @@ class StartupViewModel extends BaseViewModel {
   final _biblesService = locator<BiblesService>();
 
   Future runStartupLogic() async {
-    _settingsService.initilize();
+    await _settingsService.initilize();
 
     await _biblesService.initilize();
 

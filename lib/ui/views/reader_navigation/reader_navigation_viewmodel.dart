@@ -6,16 +6,20 @@ import 'package:stacked_services/stacked_services.dart';
 import '../../../app/app.locator.dart';
 import '../../../app/app.router.dart';
 import '../../../common/enums.dart';
-import '../../../common/mappings.dart';
+import '../../../common/books.dart';
 import '../../../common/oet_rv_sections.dart';
 import '../../../services/bibles_service.dart';
+import '../../../services/settings_service.dart';
 
 class ReaderNavigationViewModel extends BaseViewModel {
+  final _settingsService = locator<SettingsService>();
   final _biblesService = locator<BiblesService>();
   final _navigationService = locator<NavigationService>();
 
-  String get bookCode => _biblesService.bookCode;
+  String get bookCode => _settingsService.bookCode;
   ViewBy get viewBy => _biblesService.viewBy;
+
+  Map<String, String> get booksMapping => _biblesService.booksMapping;
 
   bool showBooksNavigation = true;
   bool showSectionNavigation = false;
@@ -40,7 +44,7 @@ class ReaderNavigationViewModel extends BaseViewModel {
   }
 
   Future<void> onTapBookItem(int index) async {
-    _biblesService.setBookCode(bookMapping.keys.elementAt(index));
+    _biblesService.setBook(booksMapping.keys.elementAt(index));
 
     // Generate list of chapters
     int numOfChapters =
@@ -67,7 +71,7 @@ class ReaderNavigationViewModel extends BaseViewModel {
     String sectionHeading = sections[index][0];
     log(sectionHeading);
     int sectionIndex = 1;
-    _biblesService.setSectionIndex(sectionIndex);
+    _biblesService.setSection(sectionIndex);
 
     _navigationService.navigateToReaderView();
     await _biblesService.reloadBiblesJson();

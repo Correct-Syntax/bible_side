@@ -1,18 +1,17 @@
-// Supported translations (versions) of the Bible
-enum BibleVersion {
-  oetReaders,
-  oetLiteral,
-  kjv,
-}
-
 // Reader screen areas
 enum Area {
-  top,
-  bottom,
+  primary,
+  secondary,
 }
 
 // Methods of viewing Bibles
 enum ViewBy {
   chapter,
   section,
+}
+
+// Books mapping for ordering and names
+enum BookMapping {
+  traditional,
+  oet,
 }
