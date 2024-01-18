@@ -105,8 +105,8 @@ class _ReaderNavigationView extends StackedHookView<ReaderNavigationViewModel> {
                                 itemCount: viewModel.bookChapters.length,
                                 gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
                                   maxCrossAxisExtent: 100,
-                                  childAspectRatio: 4 / 2,
-                                  crossAxisSpacing: 18,
+                                  childAspectRatio: 4 / 3,
+                                  crossAxisSpacing: 10,
                                   mainAxisSpacing: 18,
                                 ),
                                 itemBuilder: (BuildContext context, int index) {
@@ -118,7 +118,7 @@ class _ReaderNavigationView extends StackedHookView<ReaderNavigationViewModel> {
                                         viewModel.bookChapters[index],
                                         maxLines: 1,
                                         overflow: TextOverflow.ellipsis,
-                                        style: Theme.of(context).textTheme.bodyLarge,
+                                        style: Theme.of(context).textTheme.bodyLarge!.copyWith(fontFamily: 'RobotoSerif'),
                                       ),
                                     ),
                                   );

@@ -33,8 +33,8 @@ class SideNavigationDrawer extends StackedView<SideNavigationDrawerModel> {
           ),
           const NavigationDrawerDestination(
             label: Text('Reader'),
-            icon: Icon(Icons.book_outlined),
-            selectedIcon: Icon(Icons.book),
+            icon: Icon(Icons.library_books_outlined),
+            selectedIcon: Icon(Icons.library_books),
           ),
           const NavigationDrawerDestination(
             label: Text('Bibles'),

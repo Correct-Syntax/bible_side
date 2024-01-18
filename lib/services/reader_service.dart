@@ -85,6 +85,12 @@ class ReaderService {
       //log(chapterNumber.toString()+pageKey.toString());
       if (chapterNumber == pageKey.toString()) {
         sectionChapterReference = chapterNumber;
+        if (splitByParagraph == true) {
+          spans.add(TextSpan(
+            text: '$chapterNumber ',
+            style: TextItemStyles.chapterHeading(context),
+          ));
+        }
         chapterContents = chapter['contents'];
         break;
       }

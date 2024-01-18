@@ -24,11 +24,12 @@ class BiblesView extends StackedView<BiblesViewModel> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const Padding(
-              padding: EdgeInsets.only(top: 20.0, left: 12.0, bottom: 10.0),
+              padding: EdgeInsets.only(top: 20.0, left: 16.0, bottom: 10.0),
               child: Text(
-                'Primary Reader Area',
+                'Primary',
                 style: TextStyle(
-                  fontSize: 18.0,
+                  fontSize: 16.0,
+                  fontWeight: FontWeight.w500,
                 ),
               ),
             ),
@@ -37,8 +38,9 @@ class BiblesView extends StackedView<BiblesViewModel> {
                 onTap: () => viewModel.setPrimaryAreaBible(bibleCode),
                 title: Text(
                   bibleCode,
-                  style: const TextStyle(
+                  style: TextStyle(
                     fontSize: 16.0,
+                    fontWeight: bibleCode == viewModel.primaryAreaBible ? FontWeight.w500 : FontWeight.normal,
                   ),
                 ),
                 subtitle: Text(
@@ -58,11 +60,12 @@ class BiblesView extends StackedView<BiblesViewModel> {
               child: const Divider(),
             ),
             const Padding(
-              padding: EdgeInsets.only(left: 12.0, bottom: 10.0),
+              padding: EdgeInsets.only(left: 16.0, bottom: 10.0),
               child: Text(
-                'Secondary Reader Area',
+                'Secondary',
                 style: TextStyle(
-                  fontSize: 18.0,
+                  fontSize: 16.0,
+                  fontWeight: FontWeight.w500,
                 ),
               ),
             ),
@@ -71,8 +74,9 @@ class BiblesView extends StackedView<BiblesViewModel> {
                 onTap: () => viewModel.setSecondaryAreaBible(bibleCode),
                 title: Text(
                   bibleCode,
-                  style: const TextStyle(
+                  style: TextStyle(
                     fontSize: 16.0,
+                    fontWeight: bibleCode == viewModel.secondaryAreaBible ? FontWeight.w500 : FontWeight.normal,
                   ),
                 ),
                 subtitle: Text(

@@ -12,7 +12,7 @@ InlineSpan headingSectionSpan(BuildContext context, String verseText,
           child: RichText(
             text: TextSpan(
               children: [
-                verseReference == '1' ? TextSpan(
+                verseReference.trim() == '1' ? TextSpan(
                   text: '$chapterReference ',
                   style: TextItemStyles.chapterHeading(context),
                 ) : const TextSpan(text: ''),
