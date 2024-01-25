@@ -36,7 +36,7 @@ class ReaderViewModel extends ReactiveViewModel {
 
   final Key downListKey = UniqueKey();
 
-  bool showBottomSheet = true;
+  bool showSecondaryArea = true;
 
   PagingController<int, Map<String, dynamic>> topPagingUpController = PagingController(
     firstPageKey: 1,
@@ -188,8 +188,12 @@ class ReaderViewModel extends ReactiveViewModel {
     _navigationService.navigateToReaderNavigationView();
   }
 
-  void toggleBottomSheet() {
-    showBottomSheet = !showBottomSheet;
+  void onBiblesBtn() {
+    _navigationService.navigateToBiblesView();
+  }
+
+  void toggleSecondaryArea() {
+    showSecondaryArea = !showSecondaryArea;
     rebuildUi();
   }
 

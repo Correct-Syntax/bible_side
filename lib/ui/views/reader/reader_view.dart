@@ -89,12 +89,12 @@ class ReaderView extends StackedView<ReaderViewModel> {
               ),
             ),
           ),
-          if (viewModel.showBottomSheet)
+          if (viewModel.showSecondaryArea)
             const Padding(
               padding: EdgeInsets.symmetric(vertical: 1.0),
               child: Divider(),
             ),
-          if (viewModel.showBottomSheet)
+          if (viewModel.showSecondaryArea)
             Expanded(
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 24.0),
@@ -147,10 +147,10 @@ class ReaderView extends StackedView<ReaderViewModel> {
         ],
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: viewModel.toggleBottomSheet,
+        onPressed: viewModel.toggleSecondaryArea,
         elevation: 0.0,
         tooltip: 'Toggle literal version',
-        child: Icon(viewModel.showBottomSheet ? Symbols.expand_less : Symbols.expand_more),
+        child: Icon(viewModel.showSecondaryArea ? Symbols.expand_less : Symbols.expand_more),
       ),
       drawer: SideNavigationDrawer(
         selectedIndex: viewModel.currentIndex,
