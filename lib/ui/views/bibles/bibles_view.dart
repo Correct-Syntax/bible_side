@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
 
 import '../../../common/bibles.dart';
-import '../../widgets/common/side_navigation_drawer/side_navigation_drawer.dart';
 import 'bibles_viewmodel.dart';
 
 class BiblesView extends StackedView<BiblesViewModel> {
@@ -99,10 +98,6 @@ class BiblesView extends StackedView<BiblesViewModel> {
                 ),
             ],
           ),
-        ),
-        drawer: SideNavigationDrawer(
-          selectedIndex: viewModel.currentIndex,
-          onViewChanged: viewModel.setCurrentIndex,
         ),
       ),
     );

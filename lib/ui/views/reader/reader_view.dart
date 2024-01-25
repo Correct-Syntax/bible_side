@@ -50,8 +50,8 @@ class ReaderView extends StackedView<ReaderViewModel> {
               child: Row(
                 children: [
                   Icon(
-                    Symbols.book_2, 
-                    color: Theme.of(context).iconTheme.color, 
+                    Symbols.book_2,
+                    color: Theme.of(context).iconTheme.color,
                     size: 18.0,
                   ),
                   const SizedBox(width: 3.0),
