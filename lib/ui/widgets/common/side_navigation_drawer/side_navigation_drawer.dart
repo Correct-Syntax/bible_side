@@ -31,20 +31,21 @@ class SideNavigationDrawer extends StackedView<SideNavigationDrawerModel> {
               style: Theme.of(context).textTheme.bodyMedium,
             ),
           ),
-          const NavigationDrawerDestination(
-            label: Text('Reader'),
-            icon: Icon(Icons.library_books_outlined),
-            selectedIcon: Icon(Icons.library_books),
+          NavigationDrawerDestination(
+            label: Text(
+              'Reader',
+              style: Theme.of(context).textTheme.bodyLarge!.copyWith(fontWeight: FontWeight.w500),
+            ),
+            icon: const Icon(Icons.library_books_outlined),
+            selectedIcon: const Icon(Icons.library_books),
           ),
-          const NavigationDrawerDestination(
-            label: Text('Bibles'),
-            icon: Icon(Icons.book_outlined),
-            selectedIcon: Icon(Icons.book),
-          ),
-          const NavigationDrawerDestination(
-            label: Text('Settings'),
-            icon: Icon(Icons.settings_outlined),
-            selectedIcon: Icon(Icons.settings),
+          NavigationDrawerDestination(
+            label: Text(
+              'Settings',
+              style: Theme.of(context).textTheme.bodyLarge!.copyWith(fontWeight: FontWeight.w500),
+            ),
+            icon: const Icon(Icons.settings_outlined),
+            selectedIcon: const Icon(Icons.settings),
           ),
         ],
       ),

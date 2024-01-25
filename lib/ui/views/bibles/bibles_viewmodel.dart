@@ -1,10 +1,13 @@
 import 'package:stacked/stacked.dart';
+import 'package:stacked_services/stacked_services.dart';
 
 import '../../../app/app.locator.dart';
+import '../../../app/app.router.dart';
 import '../../../services/bibles_service.dart';
 import '../../../services/side_navigation_service.dart';
 
 class BiblesViewModel extends BaseViewModel {
+  final _navigationService = locator<NavigationService>();
   final _sideNavigationService = locator<SideNavigationService>();
   final _biblesService = locator<BiblesService>();
 
@@ -26,5 +29,9 @@ class BiblesViewModel extends BaseViewModel {
   void setSecondaryAreaBible(String bibleCode) {
     _biblesService.setSecondaryAreaBible(bibleCode);
     rebuildUi();
+  }
+
+  void onPopInvoked(bool onPopInvoked) async {
+    _navigationService.navigateToReaderView();
   }
 }

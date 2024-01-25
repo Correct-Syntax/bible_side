@@ -33,9 +33,40 @@ class ReaderView extends StackedView<ReaderViewModel> {
               viewModel.bookCode,
               viewModel.chapter,
             ),
+            style: Theme.of(context).textTheme.titleLarge!.copyWith(fontWeight: FontWeight.w500),
           ),
         ),
         shadowColor: null,
+        actions: [
+          InkWell(
+            borderRadius: BorderRadius.circular(40.0),
+            onTap: viewModel.onBiblesBtn,
+            child: Container(
+              padding: const EdgeInsets.symmetric(horizontal: 14.0, vertical: 6.0),
+              decoration: BoxDecoration(
+                color: Theme.of(context).dialogBackgroundColor,
+                borderRadius: BorderRadius.circular(40.0),
+              ),
+              child: Row(
+                children: [
+                  Icon(
+                    Symbols.book_2, 
+                    color: Theme.of(context).iconTheme.color, 
+                    size: 18.0,
+                  ),
+                  const SizedBox(width: 3.0),
+                  Text(
+                    viewModel.primaryAreaBible,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: Theme.of(context).textTheme.bodyLarge!.copyWith(fontWeight: FontWeight.w500),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          const SizedBox(width: 14.0),
+        ],
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -147,10 +178,11 @@ class ReaderView extends StackedView<ReaderViewModel> {
         ],
       ),
       floatingActionButton: FloatingActionButton(
+        mini: true,
         onPressed: viewModel.toggleSecondaryArea,
         elevation: 0.0,
         tooltip: 'Toggle literal version',
-        child: Icon(viewModel.showSecondaryArea ? Symbols.expand_less : Symbols.expand_more),
+        child: Icon(viewModel.showSecondaryArea ? Icons.library_books : Icons.library_books_outlined),
       ),
       drawer: SideNavigationDrawer(
         selectedIndex: viewModel.currentIndex,

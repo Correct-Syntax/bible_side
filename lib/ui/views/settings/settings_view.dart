@@ -19,7 +19,10 @@ class SettingsView extends StackedView<SettingsViewModel> {
       onPopInvoked: viewModel.onPopInvoked,
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('Settings'),
+          title: Text(
+            'Settings',
+            style: Theme.of(context).textTheme.titleLarge!.copyWith(fontWeight: FontWeight.w500),
+          ),
           shadowColor: null,
         ),
         body: SafeArea(
