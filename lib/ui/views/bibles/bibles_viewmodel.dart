@@ -1,7 +1,6 @@
 import 'package:stacked/stacked.dart';
 
 import '../../../app/app.locator.dart';
-import '../../../common/enums.dart';
 import '../../../services/bibles_service.dart';
 import '../../../services/side_navigation_service.dart';
 

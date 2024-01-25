@@ -38,42 +38,38 @@ enum TextItemType {
 class TextItemStyles {
   static TextStyle bookHeading(context) {
     return Theme.of(context).textTheme.headlineSmall!.copyWith(
-      fontFamily: 'RobotoSerif', 
-      fontWeight: FontWeight.w500,
-    );
+          fontFamily: 'RobotoSerif',
+          fontWeight: FontWeight.w500,
+        );
   }
 
   static TextStyle chapterHeading(context) {
-    return Theme.of(context)
-        .textTheme
-        .bodyMedium!
-        .copyWith(
-          fontFamily: 'RobotoSerif', 
-          fontSize: 26, 
+    return Theme.of(context).textTheme.bodyMedium!.copyWith(
+          fontFamily: 'RobotoSerif',
+          fontSize: 26,
           fontWeight: FontWeight.w500,
         );
   }
 
   static TextStyle sectionHeading(context) {
-    return Theme.of(context)
-        .textTheme
-        .bodyMedium!
-        .copyWith(
-          fontFamily: 'RobotoSerif', 
-          fontSize: 18, 
+    return Theme.of(context).textTheme.bodyMedium!.copyWith(
+          fontFamily: 'RobotoSerif',
+          fontSize: 18,
           fontWeight: FontWeight.w500,
         );
   }
 
   static TextStyle bodyMedium(context) {
-    return Theme.of(context).textTheme.bodyMedium!.copyWith(fontSize: 10.0);
+    return Theme.of(context).textTheme.bodyMedium!.copyWith(
+          fontSize: 11.0,
+        );
   }
 
   static TextStyle text(context) {
     return Theme.of(context).textTheme.bodyLarge!.copyWith(
           fontFamily: 'RobotoSerif',
-          fontSize: 19,
-          letterSpacing: 0.4,
+          fontSize: 18,
+          letterSpacing: 0.3,
           height: 1.7,
         );
   }

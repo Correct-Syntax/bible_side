@@ -118,7 +118,8 @@ class _ReaderNavigationView extends StackedHookView<ReaderNavigationViewModel> {
                                         viewModel.bookChapters[index],
                                         maxLines: 1,
                                         overflow: TextOverflow.ellipsis,
-                                        style: Theme.of(context).textTheme.bodyLarge!.copyWith(fontFamily: 'RobotoSerif'),
+                                        style:
+                                            Theme.of(context).textTheme.bodyLarge!.copyWith(fontFamily: 'RobotoSerif'),
                                       ),
                                     ),
                                   );
