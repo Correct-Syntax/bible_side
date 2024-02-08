@@ -37,7 +37,7 @@ def read_json_file(path):
   
 
 def format_section(chapterNumber, verseNumber, section):
-  return (f'{chapterNumber}:{verseNumber} {section}').replace('/s1', '') 
+  return (f'{chapterNumber}:{verseNumber} {section}').replace('/s1 ', '').replace('/r ', '') 
 
 
 def generate_mappings_file():
