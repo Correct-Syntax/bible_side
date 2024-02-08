@@ -153,6 +153,8 @@ class ReaderService {
             if (splitByParagraph != true) {
               // Add newline between each verse
               verseNumberText = verseNumberText == '1' ? ' $verseNumberText ' : '\n$verseNumberText';
+            } else {
+              verseNumberText = ' $verseNumberText ';
             }
           }
           sectionVerseReference = verseNumberText;
@@ -164,8 +166,12 @@ class ReaderService {
             ));
           }
         } else if (key == 'verseText') {
-          // Note: we remove Strongs numbers for now
-          String verseText = item[key].replaceAll(RegExp(r'¦([0-9])\w+'), '');
+          // Note: we remove Strongs numbers and markings related to links for now
+          String verseText = item[key]
+            .replaceAll(RegExp(r'¦([0-9])*\d+'), '')
+            .replaceAll(' +', ' ')
+            .replaceAll('>', ' ')
+            .replaceAll('=', ' ');
 
           if (isSection == true && isNext == true) {
             spans.add(
