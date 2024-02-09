@@ -5,6 +5,7 @@ class SettingsService with ListenableServiceMixin {
   SettingsService() {
     listenToReactiveValues([
       isDarkTheme,
+      showSecondaryArea,
       primaryAreaBible,
       secondaryAreaBible,
       bookCode,
@@ -13,26 +14,36 @@ class SettingsService with ListenableServiceMixin {
     ]);
   }
 
+  // Interface
   static const _kIsDarkTheme = 'IS_DARK_THEME';
+  static const _kShowSecondaryArea = 'SHOW_SECONDARY_AREA';
+
+  // Bibles
   static const _kPrimaryAreaBibleCode = 'PRIMARY_AREA_BIBLE_CODE';
   static const _kSecondaryAreaBibleCode = 'SECONDARY_AREA_BIBLE_CODE';
   static const _kBookCode = 'BOOK_CODE';
   static const _kChapterNumber = 'CHAPTER_NUMBER';
   static const _kSectionNumber = 'SECTION_NUMBER';
 
-  // TODO
-  // setting to turn off verse numbers, chapter numbers
-  // setting to turn off headings
+  // Reader view specifics
+  static const _kShowMarks = 'SHOW_MARKS';
+  static const _kShowChaptersAndVerses = 'SHOW_CHAPTERS_AND_VERSES';
 
   bool isDarkTheme = false;
+  bool showSecondaryArea = true;
+
   String primaryAreaBible = 'OET-RV';
   String secondaryAreaBible = 'OET-LV';
   String bookCode = 'JHN';
   int chapterNumber = 1;
   int sectionNumber = 1;
 
+  bool showMarks = true;
+  bool showChaptersAndVerses = true;
+
   Future<void> initilize() async {
     isDarkTheme = await getIsDarkTheme();
+    showSecondaryArea = await getShowSecondaryArea();
     primaryAreaBible = await getPrimaryAreaBible();
     secondaryAreaBible = await getSecondaryAreaBible();
     bookCode = await getBook();
@@ -40,6 +51,7 @@ class SettingsService with ListenableServiceMixin {
     sectionNumber = await getSectionNumber();
 
     await setIsDarkTheme(isDarkTheme);
+    await setShowSecondaryArea(showSecondaryArea);
     await setPrimaryAreaBible(primaryAreaBible);
     await setSecondaryAreaBible(secondaryAreaBible);
     await setBook(bookCode);
@@ -59,6 +71,20 @@ class SettingsService with ListenableServiceMixin {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     isDarkTheme = prefs.getBool(_kIsDarkTheme) ?? false;
     return isDarkTheme;
+  }
+
+  // Show secondary area
+  Future<void> setShowSecondaryArea(bool value) async {
+    showSecondaryArea = value;
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setBool(_kShowSecondaryArea, value);
+    notifyListeners();
+  }
+
+  Future<bool> getShowSecondaryArea() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    showSecondaryArea = prefs.getBool(_kShowSecondaryArea) ?? false;
+    return showSecondaryArea;
   }
 
   // Primary area bible code
@@ -129,5 +155,33 @@ class SettingsService with ListenableServiceMixin {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     sectionNumber = prefs.getInt(_kSectionNumber) ?? 1;
     return sectionNumber;
+  }
+
+  // Show marks
+  Future<void> setShowMarks(bool value) async {
+    showMarks = value;
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setBool(_kShowMarks, value);
+    notifyListeners();
+  }
+
+  Future<bool> getShowMarks() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    showMarks = prefs.getBool(_kShowMarks) ?? true;
+    return showMarks;
+  }
+
+  // Show chapter and verse numbers
+  Future<void> setShowChaptersAndVerses(bool value) async {
+    showChaptersAndVerses = value;
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setBool(_kShowChaptersAndVerses, value);
+    notifyListeners();
+  }
+
+  Future<bool> getShowChaptersAndVerses() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    showChaptersAndVerses = prefs.getBool(_kShowChaptersAndVerses) ?? true;
+    return showChaptersAndVerses;
   }
 }

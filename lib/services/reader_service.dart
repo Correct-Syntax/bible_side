@@ -168,10 +168,10 @@ class ReaderService {
         } else if (key == 'verseText') {
           // Note: we remove Strongs numbers and markings related to links for now
           String verseText = item[key]
-            .replaceAll(RegExp(r'¦([0-9])*\d+'), '')
-            .replaceAll(' +', ' ')
-            .replaceAll('>', ' ')
-            .replaceAll('=', ' ');
+              .replaceAll(RegExp(r'¦([0-9])*\d+'), '')
+              .replaceAll(' +', ' ')
+              .replaceAll('>', ' ')
+              .replaceAll('=', ' ');
 
           if (isSection == true && isNext == true) {
             spans.add(

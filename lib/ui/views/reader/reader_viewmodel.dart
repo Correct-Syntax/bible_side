@@ -10,12 +10,14 @@ import '../../../app/app.router.dart';
 import '../../../common/enums.dart';
 import '../../../services/bibles_service.dart';
 import '../../../services/reader_service.dart';
+import '../../../services/settings_service.dart';
 import '../../../services/side_navigation_service.dart';
 
 class ReaderViewModel extends ReactiveViewModel {
   final _sideNavigationService = locator<SideNavigationService>();
   final _biblesService = locator<BiblesService>();
   final _readerService = locator<ReaderService>();
+  final _settingsService = locator<SettingsService>();
   final _navigationService = locator<NavigationService>();
 
   int get currentIndex => _sideNavigationService.currentIndex;
@@ -26,6 +28,8 @@ class ReaderViewModel extends ReactiveViewModel {
 
   int get sectionIndex => _biblesService.chapterNumber; // TODO
 
+  bool get showSecondaryArea => _settingsService.showSecondaryArea;
+
   ReaderViewModel({required this.context});
 
   final BuildContext context;
@@ -35,8 +39,6 @@ class ReaderViewModel extends ReactiveViewModel {
   late LinkedScrollControllerGroup parentController;
 
   final Key downListKey = UniqueKey();
-
-  bool showSecondaryArea = true;
 
   PagingController<int, Map<String, dynamic>> topPagingUpController = PagingController(
     firstPageKey: 1,
@@ -193,7 +195,7 @@ class ReaderViewModel extends ReactiveViewModel {
   }
 
   void toggleSecondaryArea() {
-    showSecondaryArea = !showSecondaryArea;
+    _settingsService.setShowSecondaryArea(!showSecondaryArea);
     rebuildUi();
   }
 
