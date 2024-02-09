@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
 
-import '../bibles/bibles_view.dart';
 import '../reader/reader_view.dart';
 import '../settings/settings_view.dart';
 import 'home_viewmodel.dart';
@@ -11,10 +10,8 @@ class HomeView extends StackedView<HomeViewModel> {
 
   Widget getViewForIndex(int index) {
     switch (index) {
-      case 2:
-        return const SettingsView();
       case 1:
-        return const BiblesView();
+        return const SettingsView();
       default:
         return const ReaderView();
     }
