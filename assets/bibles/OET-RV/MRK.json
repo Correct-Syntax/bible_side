@@ -1,7 +1,7 @@
 {
   "book": {
     "bookCode": "MRK",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.07",
+    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.10",
     "meta": [
       {
         "usfm": "3.0"
@@ -169,7 +169,7 @@
               "s1": "The ministry of Yohan the immerser (The return of ‘Eliyah’)"
             },
             {
-              "r": "(Mat. 3:1-12; Luk. 3:1-18; Jhn. 1:19-28)"
+              "r": "(Mat. 3:1-12; Luke 3:1-18; Jhn. 1:19-28)"
             },
             {
               "p": ""
@@ -180,7 +180,7 @@
         {
           "verseNumber": "2",
           "contents": [
-            "The prophet¦21769 Isayah wrote:",
+            "The prophet¦21769 Isayah¦21765 wrote¦21762:",
             {
               "x": [
                 "+",
@@ -194,7 +194,7 @@
               "closing": "\\x*"
             },
             {
-              "q1": "“See, I am sending¦21772 my¦21776 messenger¦21775 to you,"
+              "q1": "“See¦21770, I am sending¦21772 my¦21776 messenger¦21775 to you,"
             },
             {
               "q1": "the one who will be preparing¦21781 your¦21779 path¦21783."
@@ -203,7 +203,7 @@
               "q1": ""
             }
           ],
-          "verseText": "The prophet¦21769 Isayah wrote: “See, I am sending¦21772 my¦21776 messenger¦21775 to you, the one who will be preparing¦21781 your¦21779 path¦21783."
+          "verseText": "The prophet¦21769 Isayah¦21765 wrote¦21762: “See¦21770, I am sending¦21772 my¦21776 messenger¦21775 to you, the one who will be preparing¦21781 your¦21779 path¦21783."
         },
         {
           "verseNumber": "3",
@@ -299,7 +299,7 @@
               "rem": "/s1 The Baptism and Temptation of Jesus"
             },
             {
-              "r": "(Mat. 3:13–4:11; Luk. 3:21-22; 4:1-13)"
+              "r": "(Mat. 3:13–4:11; Luke 3:21-22; 4:1-13)"
             },
             {
               "p": ""
@@ -379,7 +379,7 @@
               "rem": "/s1 Proclaiming the kingdom; The Calling of the First Disciples; The Beginning of the Galilean Ministry; Jesus Calls Four Fishermen"
             },
             {
-              "r": "(Mat. 4:12-22; Luk. 4:14-15; 5:1-11)"
+              "r": "(Mat. 4:12-22; Luke 4:14-15; 5:1-11)"
             },
             {
               "p": ""
@@ -480,7 +480,7 @@
               "rem": "/s1 The Man with an Unclean Spirit; Jesus Casts Out an Evil Spirit; A Man with an Evil Spirit; Jesus Drives Out an Evil Spirit"
             },
             {
-              "r": "(Luk. 4:31-37)"
+              "r": "(Luke 4:31-37)"
             },
             {
               "p": ""
@@ -592,7 +592,7 @@
               "rem": "/s1 Jesus Heals Many at Simon's House"
             },
             {
-              "r": "(Mat. 8:14-17; Luk. 4:38-41)"
+              "r": "(Mat. 8:14-17; Luke 4:38-41)"
             },
             {
               "p": ""
@@ -654,7 +654,7 @@
               "rem": "/s1 Jesus Prays in a Solitary Place; Jesus Preaches in Galilee; A Preaching Tour in Galilee"
             },
             {
-              "r": "(Luk. 4:42-44)"
+              "r": "(Luke 4:42-44)"
             },
             {
               "p": ""
@@ -721,7 +721,7 @@
               "rem": "/s1 Jesus Cleanses a Leper; A Man With Leprosy"
             },
             {
-              "r": "(Mat. 8:1-4; Luk. 5:12-16)"
+              "r": "(Mat. 8:1-4; Luke 5:12-16)"
             },
             {
               "p": ""
@@ -782,7 +782,7 @@
             },
             "“",
             {
-              "wj": "Don't talk to anyone—just go to the priest¦22762 and show him¦22749 that you're well, and as a testimony¦22777 of that, make the offering¦22764 that Moses commanded¦22774.",
+              "wj": "Don't talk to anyone¦22751—just go to the priest¦22762 and show him¦22749 that you're well, and as a testimony¦22777 of that, make the offering¦22764 that Moses commanded¦22774.",
               "closing": "\\wj*"
             },
             "”",
@@ -790,7 +790,7 @@
               "p": ""
             }
           ],
-          "verseText": "“Don't talk to anyone—just go to the priest¦22762 and show him¦22749 that you're well, and as a testimony¦22777 of that, make the offering¦22764 that Moses commanded¦22774.”"
+          "verseText": "“Don't talk to anyone¦22751—just go to the priest¦22762 and show him¦22749 that you're well, and as a testimony¦22777 of that, make the offering¦22764 that Moses commanded¦22774.”"
         },
         {
           "verseNumber": "45",
@@ -811,7 +811,7 @@
           "rem": "/s1 Jesus Heals a Paralytic"
         },
         {
-          "r": "(Mat. 9:1-8; Luk. 5:17-26)"
+          "r": "(Mat. 9:1-8; Luke 5:17-26)"
         },
         {
           "p": null
@@ -847,13 +847,9 @@
         {
           "verseNumber": "5",
           "contents": [
+            "Yeshua, observing their¦22912 faith¦22911, said to the man, “",
             {
-              "nd": "Yeshua¦22909",
-              "closing": "\\nd*"
-            },
-            ", observing their¦22912 faith¦22911, said to the man, “",
-            {
-              "wj": "Son¦22917, your¦22922 sins¦22925 are forgiven¦22919!",
+              "wj": "Son, your¦22922 sins are forgiven¦22919!",
               "closing": "\\wj*"
             },
             "”",
@@ -873,7 +869,7 @@
               "p": ""
             }
           ],
-          "verseText": "Yeshua¦22909, observing their¦22912 faith¦22911, said to the man, “Son¦22917, your¦22922 sins¦22925 are forgiven¦22919!”"
+          "verseText": "Yeshua, observing their¦22912 faith¦22911, said to the man, “Son, your¦22922 sins are forgiven¦22919!”"
         },
         {
           "verseNumber": "6",
@@ -922,7 +918,7 @@
           "verseNumber": "10",
           "contents": [
             {
-              "wj": "But¦23038 so you all can see that humanity's child"
+              "wj": "But so you all can see that humanity's child"
             },
             {
               "em": [
@@ -935,7 +931,7 @@
               ]
             }
           ],
-          "verseText": "But¦23038 so you all can see that humanity's child does * have authority¦23032 here on the earth¦23043 to forgive¦23044 sins¦23045,” he turned and said to the paralysed¦23048 man¦23038,"
+          "verseText": "But so you all can see that humanity's child does * have authority¦23032 here on the earth¦23043 to forgive¦23044 sins¦23045,” he turned and said to the paralysed¦23048 man¦23038,"
         },
         {
           "verseNumber": "11",
@@ -968,7 +964,7 @@
               "rem": "/s1 The Calling of Levi; Jesus Calls Levi (Matthew)"
             },
             {
-              "r": "(Mat. 9:9-13; Luk. 5:27-32)"
+              "r": "(Mat. 9:9-13; Luke 5:27-32)"
             },
             {
               "p": ""
@@ -1036,7 +1032,7 @@
               "rem": "/s1 Jesus Questioned About Fasting; A Discussion about Fasting"
             },
             {
-              "r": "(Mat. 9:14-17; Luk. 5:33-39)"
+              "r": "(Mat. 9:14-17; Luke 5:33-39)"
             },
             {
               "p": ""
@@ -1132,7 +1128,7 @@
               "rem": "/s1 The Question about the Sabbath; Pronouncement about the Sabbath; A Discussion about the Sabbath; Lord of the Sabbath"
             },
             {
-              "r": "(Mat. 12:1-8; Luk. 6:1-5)"
+              "r": "(Mat. 12:1-8; Luke 6:1-5)"
             },
             {
               "p": ""
@@ -1237,7 +1233,7 @@
           "rem": "/s1 Jesus Heals on the Sabbath; The Man with a Withered Hand; The Man with a Paralyzed Hand"
         },
         {
-          "r": "(Mat. 12:9-14; Luk. 6:6-11)"
+          "r": "(Mat. 12:9-14; Luke 6:6-11)"
         },
         {
           "p": null
@@ -1374,7 +1370,7 @@
               "rem": "/s1 Jesus Appoints the Twelve; The Appointing of the Twelve Apostles; Jesus Chooses the Twelve Apostles"
             },
             {
-              "r": "(Mat. 10:1-4; Luk. 6:12-16)"
+              "r": "(Mat. 10:1-4; Luke 6:12-16)"
             },
             {
               "p": ""
@@ -1438,7 +1434,7 @@
               "rem": "/s1 Jesus and Beelzebul; Jesus and Beelzebub; Jesus and the Prince of Demons"
             },
             {
-              "r": "(Mat. 12:22-32; Luk. 11:14-23; 12:10)"
+              "r": "(Mat. 12:22-32; Luke 11:14-23; 12:10)"
             },
             {
               "p": ""
@@ -1586,7 +1582,7 @@
               "rem": "/s1 The True Family of Jesus; Jesus' Mother and Brothers; The True Kindred of Jesus"
             },
             {
-              "r": "(Mat. 12:46-50; Luk. 8:19-21)"
+              "r": "(Mat. 12:46-50; Luke 8:19-21)"
             },
             {
               "p": ""
@@ -1638,7 +1634,7 @@
           "verseNumber": "35",
           "contents": [
             {
-              "wj": "For anyone who obeys"
+              "wj": "Anyone who obeys"
             },
             {
               "nd": [
@@ -1651,7 +1647,7 @@
               ]
             }
           ],
-          "verseText": "For anyone who obeys God¦24390 *, that person is my brother¦24393 and my sister¦24396 and my mother¦24399.”"
+          "verseText": "Anyone who obeys God¦24390 *, that person is my brother¦24393 and my sister¦24396 and my mother¦24399.”"
         }
       ]
     },
@@ -1665,7 +1661,7 @@
           "rem": "/s1 Parables; Story of the Farmer Scattering Seed; The Parable of the Sower"
         },
         {
-          "r": "(Mat. 13:1-9; Luk. 8:4-8)"
+          "r": "(Mat. 13:1-9; Luke 8:4-8)"
         },
         {
           "p": null
@@ -1692,20 +1688,20 @@
         {
           "verseNumber": "2",
           "contents": [
-            "And he taught¦24457 them many different things¦24462 in parables¦24461, including this one:"
+            "And he taught¦24457 them many different things in parables¦24461, including this one:"
           ],
-          "verseText": "And he taught¦24457 them many different things¦24462 in parables¦24461, including this one:"
+          "verseText": "And he taught¦24457 them many different things in parables¦24461, including this one:"
         },
         {
           "verseNumber": "3",
           "contents": [
             "“",
             {
-              "wj": "Listen. Once there was a farmer who went to spread some seed.",
+              "wj": "Listen¦24474. Once there was a farmer who went to spread some seed.",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "“Listen. Once there was a farmer who went to spread some seed."
+          "verseText": "“Listen¦24474. Once there was a farmer who went to spread some seed."
         },
         {
           "verseNumber": "4",
@@ -1777,7 +1773,7 @@
               "rem": "/s1 The Purpose of the Parables"
             },
             {
-              "r": "(Mat. 13:10-17; Luk. 8:9-10)"
+              "r": "(Mat. 13:10-17; Luke 8:9-10)"
             },
             {
               "p": ""
@@ -1856,7 +1852,7 @@
               "rem": "/s1 Jesus Explains the Parable of the Sower"
             },
             {
-              "r": "(Mat. 13:18-23; Luk. 8:11-15)"
+              "r": "(Mat. 13:18-23; Luke 8:11-15)"
             },
             {
               "p": ""
@@ -1937,17 +1933,17 @@
           "verseNumber": "19",
           "contents": [
             {
-              "wj": "but contemporary topics, or the lure of money, or the appetite for other¦24861 things¦24861 choke their good intentions and the message¦24866 becomes¦24870 unfruitful¦24868 in them.",
+              "wj": "but contemporary topics, or the lure of money, or the appetite for other¦24861 things choke their good intentions and the message¦24866 becomes¦24870 unfruitful¦24868 in them.",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "but contemporary topics, or the lure of money, or the appetite for other¦24861 things¦24861 choke their good intentions and the message¦24866 becomes¦24870 unfruitful¦24868 in them."
+          "verseText": "but contemporary topics, or the lure of money, or the appetite for other¦24861 things choke their good intentions and the message¦24866 becomes¦24870 unfruitful¦24868 in them."
         },
         {
           "verseNumber": "20",
           "contents": [
             {
-              "wj": "But lastly, the seed that landed on the good¦24883 soil represents the people who hear¦24888 the good message¦24890, accept¦24892 it and are fruitful¦24894 thirty¦24899, sixty¦24903, or even a hundred¦24907 times over.",
+              "wj": "But lastly, the seed that landed on the good soil represents the people who hear¦24888 the good message¦24890, accept¦24892 it and are fruitful¦24894 thirty¦24899, sixty¦24903, or even a hundred¦24907 times over.",
               "closing": "\\wj*"
             },
             "”",
@@ -1958,13 +1954,13 @@
               "rem": "/s1 A Lamp under a Bushel Basket; A Lamp on a Stand; A Lamp under a Bowl; Illustration of the Lamp"
             },
             {
-              "r": "(Luk. 8:16-18)"
+              "r": "(Luke 8:16-18)"
             },
             {
               "p": ""
             }
           ],
-          "verseText": "But lastly, the seed that landed on the good¦24883 soil represents the people who hear¦24888 the good message¦24890, accept¦24892 it and are fruitful¦24894 thirty¦24899, sixty¦24903, or even a hundred¦24907 times over.”"
+          "verseText": "But lastly, the seed that landed on the good soil represents the people who hear¦24888 the good message¦24890, accept¦24892 it and are fruitful¦24894 thirty¦24899, sixty¦24903, or even a hundred¦24907 times over.”"
         },
         {
           "verseNumber": "21",
@@ -2161,7 +2157,7 @@
               "rem": "/s1 Illustration of the Mustard Seed; The Parable of the Mustard Seed"
             },
             {
-              "r": "(Mat. 13:31-32,34; Luk. 13:18-19)"
+              "r": "(Mat. 13:31-32,34; Luke 13:18-19)"
             },
             {
               "p": ""
@@ -2225,7 +2221,7 @@
               "rem": "/s1 Jesus Calms a Storm; Miracles; Jesus Stills a Storm"
             },
             {
-              "r": "(Mat. 8:23-27; Luk. 8:22-25)"
+              "r": "(Mat. 8:23-27; Luke 8:22-25)"
             },
             {
               "p": ""
@@ -2334,7 +2330,7 @@
           "rem": "/s1 Jesus Heals a Demon-Possessed Man; Jesus Heals the Gerasene Demoniac; Jesus Heals a Man with Evil Spirits; The Healing of a Demon-possessed Man"
         },
         {
-          "r": "(Mat. 8:28-34; Luk. 8:26-39)"
+          "r": "(Mat. 8:28-34; Luke 8:26-39)"
         },
         {
           "p": null
@@ -2414,9 +2410,9 @@
         {
           "verseNumber": "8",
           "contents": [
-            "Because¦25548 Yeshua had already started saying¦25547, “",
+            "Because Yeshua had already started saying¦25547, “",
             {
-              "wj": "Come out of the man¦25561 you ungodly spirit¦25554!",
+              "wj": "Come out of the man¦25561 you ungodly¦25556 spirit¦25554!",
               "closing": "\\wj*"
             },
             "”",
@@ -2424,7 +2420,7 @@
               "p": ""
             }
           ],
-          "verseText": "Because¦25548 Yeshua had already started saying¦25547, “Come out of the man¦25561 you ungodly spirit¦25554!”"
+          "verseText": "Because Yeshua had already started saying¦25547, “Come out of the man¦25561 you ungodly¦25556 spirit¦25554!”"
         },
         {
           "verseNumber": "9",
@@ -2468,12 +2464,12 @@
         {
           "verseNumber": "13",
           "contents": [
-            "Yeshua agreed to that, so the ungodly spirits¦25661 came out of the man, went into the pigs, and the entire herd of some two thousand¦25683 pigs rushed¦25671 down the steep¦25676 bank into the sea and were drowned¦25685.",
+            "Yeshua agreed to that, so the ungodly¦25663 spirits¦25661 came out of the man, went into the pigs, and the entire herd of some two thousand¦25683 pigs rushed¦25671 down the steep¦25676 bank into the sea and were drowned¦25685.",
             {
               "p": ""
             }
           ],
-          "verseText": "Yeshua agreed to that, so the ungodly spirits¦25661 came out of the man, went into the pigs, and the entire herd of some two thousand¦25683 pigs rushed¦25671 down the steep¦25676 bank into the sea and were drowned¦25685."
+          "verseText": "Yeshua agreed to that, so the ungodly¦25663 spirits¦25661 came out of the man, went into the pigs, and the entire herd of some two thousand¦25683 pigs rushed¦25671 down the steep¦25676 bank into the sea and were drowned¦25685."
         },
         {
           "verseNumber": "14",
@@ -2555,7 +2551,7 @@
               "rem": "/s1 A Girl Restored to Life and a Woman Healed; A Dead Girl and a Sick Woman; Jesus Heals in Response to Faith; Jairus' Daughter and the Woman Who Touched Jesus' Cloak"
             },
             {
-              "r": "(Mat. 9:18-26; Luk. 8:40-56)"
+              "r": "(Mat. 9:18-26; Luke 8:40-56)"
             },
             {
               "p": ""
@@ -2729,9 +2725,9 @@
         {
           "verseNumber": "37",
           "contents": [
-            "And Yeshua didn't allow¦26185 anyone to accompany¦26196 him¦26191 other than Peter, and Yacob¦26208 and his brother¦26207, Yohan¦26205."
+            "And Yeshua didn't allow¦26185 anyone¦26186 to accompany¦26196 him¦26191 other than Peter, and Yacob¦26208 and his brother¦26207, Yohan¦26205."
           ],
-          "verseText": "And Yeshua didn't allow¦26185 anyone to accompany¦26196 him¦26191 other than Peter, and Yacob¦26208 and his brother¦26207, Yohan¦26205."
+          "verseText": "And Yeshua didn't allow¦26185 anyone¦26186 to accompany¦26196 him¦26191 other than Peter, and Yacob¦26208 and his brother¦26207, Yohan¦26205."
         },
         {
           "verseNumber": "38",
@@ -2797,10 +2793,10 @@
           "s1": "Yeshua's community can't believe he's from God"
         },
         {
-          "rem": "/s1 Jesus Is Rejected at Nazareth; A Prophet Without Honor; The Rejection of Jesus at Nazareth"
+          "rem": "/s1 Jesus Is Rejected at Nazareth; A Prophet Without Honour; The Rejection of Jesus at Nazareth"
         },
         {
-          "r": "(Mat. 13:53-58; Luk. 4:16-30)"
+          "r": "(Mat. 13:53-58; Luke 4:16-30)"
         },
         {
           "p": null
@@ -2808,14 +2804,14 @@
         {
           "verseNumber": "1",
           "contents": [
-            "So Yeshua left¦26352 Capernaum¦26353 and went back with his followers¦26362 to",
+            "So Yeshua left¦26352 Capernaum and went back with his followers¦26362 to",
             {
               "add": "Nazareth,",
               "closing": "\\add*"
             },
-            "his birthplace¦26359."
+            "his birthplace."
           ],
-          "verseText": "So Yeshua left¦26352 Capernaum¦26353 and went back with his followers¦26362 to Nazareth, his birthplace¦26359."
+          "verseText": "So Yeshua left¦26352 Capernaum and went back with his followers¦26362 to Nazareth, his birthplace."
         },
         {
           "verseNumber": "2",
@@ -2883,7 +2879,7 @@
               "rem": "/s1 Jesus Sends Out the Twelve Disciples; Jesus Sends Out the Twelve Apostles; Death of John the Baptist; The Mission of the Twelve"
             },
             {
-              "r": "(Mat. 10:5-15; Luk. 9:1-6)"
+              "r": "(Mat. 10:5-15; Luke 9:1-6)"
             },
             {
               "p": ""
@@ -2987,7 +2983,7 @@
               "rem": "/s1 The Death of John the Baptist; John the Baptist Beheaded"
             },
             {
-              "r": "(Mat. 14:1-12; Luk. 9:7-9)"
+              "r": "(Mat. 14:1-12; Luke 9:7-9)"
             },
             {
               "p": ""
@@ -3064,9 +3060,9 @@
               ],
               "closing": "\\x*"
             },
-            "Because¦26749 Herod¦26751 himself¦26747 had had Yohan¦26755 arrested and put in prison¦26766 because he had married¦26779 Herodias, his¦26775 brother¦26774 Philip's wife¦26771."
+            "Because Herod¦26751 himself¦26747 had had Yohan¦26755 arrested and put in prison¦26766 because he had married¦26779 Herodias, his¦26775 brother¦26774 Philip's wife¦26771."
           ],
-          "verseText": "Because¦26749 Herod¦26751 himself¦26747 had had Yohan¦26755 arrested and put in prison¦26766 because he had married¦26779 Herodias, his¦26775 brother¦26774 Philip's wife¦26771."
+          "verseText": "Because Herod¦26751 himself¦26747 had had Yohan¦26755 arrested and put in prison¦26766 because he had married¦26779 Herodias, his¦26775 brother¦26774 Philip's wife¦26771."
         },
         {
           "verseNumber": "18",
@@ -3085,12 +3081,12 @@
         {
           "verseNumber": "20",
           "contents": [
-            "because¦26818 he respected Yohan as a righteous¦26826 and holy teacher and so he kept him alive. He often enjoyed hearing¦26843 from Yohan and thought a lot about what he said.",
+            "because he respected Yohan as a righteous¦26826 and holy teacher and so he kept him alive. He often enjoyed hearing¦26843 from Yohan and thought a lot about what he said.",
             {
               "p": ""
             }
           ],
-          "verseText": "because¦26818 he respected Yohan as a righteous¦26826 and holy teacher and so he kept him alive. He often enjoyed hearing¦26843 from Yohan and thought a lot about what he said."
+          "verseText": "because he respected Yohan as a righteous¦26826 and holy teacher and so he kept him alive. He often enjoyed hearing¦26843 from Yohan and thought a lot about what he said."
         },
         {
           "verseNumber": "21",
@@ -3168,7 +3164,7 @@
               "rem": "/s1 Miracles of feeding and their significance; Jesus Feeds Five Thousand; Feeding the Five Thousand"
             },
             {
-              "r": "(Jn 6:1-14; Mat. 14:13-21; Luk. 9:10-17)"
+              "r": "(Jn 6:1-14; Mat. 14:13-21; Luke 9:10-17)"
             },
             {
               "p": ""
@@ -3237,9 +3233,9 @@
               ],
               "closing": "\\x*"
             },
-            "So when Yeshua got out of the boat, he saw¦27185 a big crowd¦27190 and felt sorry for them because¦27199 they seemed like sheep¦27202 without a shepherd¦27205, so he started teaching¦27209 them many things¦27212."
+            "So when Yeshua got out of the boat, he saw¦27185 a big crowd¦27190 and felt sorry for them because¦27199 they seemed like sheep¦27202 without a shepherd¦27205, so he started teaching¦27209 them many things."
           ],
-          "verseText": "So when Yeshua got out of the boat, he saw¦27185 a big crowd¦27190 and felt sorry for them because¦27199 they seemed like sheep¦27202 without a shepherd¦27205, so he started teaching¦27209 them many things¦27212."
+          "verseText": "So when Yeshua got out of the boat, he saw¦27185 a big crowd¦27190 and felt sorry for them because¦27199 they seemed like sheep¦27202 without a shepherd¦27205, so he started teaching¦27209 them many things."
         },
         {
           "verseNumber": "35",
@@ -3522,7 +3518,7 @@
           "contents": [
             "And he answered¦27845, “",
             {
-              "wj": "Isayah got it exactly right¦27849 when he expressed God's thoughts about you hypocrites¦27857 and wrote:",
+              "wj": "Isayah¦27852 got it exactly right¦27849 when he expressed God's thoughts about you hypocrites¦27857 and wrote¦27860:",
               "closing": "\\wj*"
             },
             {
@@ -3557,7 +3553,7 @@
               "q1": ""
             }
           ],
-          "verseText": "And he answered¦27845, “Isayah got it exactly right¦27849 when he expressed God's thoughts about you hypocrites¦27857 and wrote: ‘These people¦27865 honour¦27871 me with their lips¦27868, but their real desires are far away from mine."
+          "verseText": "And he answered¦27845, “Isayah¦27852 got it exactly right¦27849 when he expressed God's thoughts about you hypocrites¦27857 and wrote¦27860: ‘These people¦27865 honour¦27871 me with their lips¦27868, but their real desires are far away from mine."
         },
         {
           "verseNumber": "7",
@@ -3985,9 +3981,9 @@
         {
           "verseNumber": "36",
           "contents": [
-            "The Yeshua advised that they shouldn't tell anyone, but the more he¦28521 said that, the more they seemed to spread it¦28539 around."
+            "The Yeshua advised that they shouldn't tell anyone¦28524, but the more he¦28521 said that, the more they seemed to spread it¦28539 around."
           ],
-          "verseText": "The Yeshua advised that they shouldn't tell anyone, but the more he¦28521 said that, the more they seemed to spread it¦28539 around."
+          "verseText": "The Yeshua advised that they shouldn't tell anyone¦28524, but the more he¦28521 said that, the more they seemed to spread it¦28539 around."
         },
         {
           "verseNumber": "37",
@@ -4365,7 +4361,7 @@
               "rem": "/s1 The cross foreshadowed; Peter's Confession of Christ; Peter's Declaration about Jesus"
             },
             {
-              "r": "(Mat. 16:13-20; Luk. 9:18-21)"
+              "r": "(Mat. 16:13-20; Luke 9:18-21)"
             },
             {
               "p": ""
@@ -4456,7 +4452,7 @@
               "rem": "/s1 Jesus Foretells His Death and Resurrection; Jesus Speaks about His Suffering and Death; Jesus Predicts His Death"
             },
             {
-              "r": "(Mat. 16:21-28; Luk. 9:22-27)"
+              "r": "(Mat. 16:21-28; Luke 9:22-27)"
             },
             {
               "p": ""
@@ -4542,11 +4538,11 @@
           "verseNumber": "36",
           "contents": [
             {
-              "wj": "Because¦29414 it¦29416 doesn't benefit¦29416 a person¦29418 if they gain everything in the world¦29424 but lose their soul¦29432.",
+              "wj": "Because it¦29416 doesn't benefit¦29416 a person¦29418 if they gain everything in the world¦29424 but lose their soul¦29432.",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "Because¦29414 it¦29416 doesn't benefit¦29416 a person¦29418 if they gain everything in the world¦29424 but lose their soul¦29432."
+          "verseText": "Because it¦29416 doesn't benefit¦29416 a person¦29418 if they gain everything in the world¦29424 but lose their soul¦29432."
         },
         {
           "verseNumber": "37",
@@ -4588,7 +4584,7 @@
               "rem": "/s1 The Transfiguration"
             },
             {
-              "r": "(Mat. 17:1-13; Luk. 9:28-36)"
+              "r": "(Mat. 17:1-13; Luke 9:28-36)"
             },
             {
               "p": ""
@@ -4683,7 +4679,7 @@
         {
           "verseNumber": "8",
           "contents": [
-            "When they looked¦29683 around¦29683, they couldn't see anyone else there any more, except¦29690 for",
+            "When they looked¦29683 around¦29683, they couldn't see anyone¦29686 else there any more, except¦29690 for",
             {
               "nd": "Yeshua¦29694",
               "closing": "\\nd*"
@@ -4696,7 +4692,7 @@
               "p": ""
             }
           ],
-          "verseText": "When they looked¦29683 around¦29683, they couldn't see anyone else there any more, except¦29690 for Yeshua¦29694 himself."
+          "verseText": "When they looked¦29683 around¦29683, they couldn't see anyone¦29686 else there any more, except¦29690 for Yeshua¦29694 himself."
         },
         {
           "verseNumber": "9",
@@ -4755,7 +4751,7 @@
               "rem": "/s1 Jesus Heals a Boy with an Evil Spirit; The Healing of a Boy with a Spirit; The Healing of a Boy with an Evil Spirit; Jesus Heals a Boy Possessed by an Evil Spirit"
             },
             {
-              "r": "(Mat. 17:14-21; Luk. 9:37-43a)"
+              "r": "(Mat. 17:14-21; Luke 9:37-43a)"
             },
             {
               "p": ""
@@ -4958,7 +4954,7 @@
               "rem": "/s1 Learning what discipleship means; Jesus Again Predicts His Death; Jesus Again Foretells His Death and Resurrection; Jesus Speaks Again about His Death"
             },
             {
-              "r": "(Mat. 17:22-23; Luk. 9:43b-45)"
+              "r": "(Mat. 17:22-23; Luke 9:43b-45)"
             },
             {
               "p": ""
@@ -4978,7 +4974,7 @@
           "contents": [
             "while he was teaching¦30219 his¦30223 apprentices¦30222. He told them, “",
             {
-              "wj": "humanity's child will be arrested and executed, but after¦30244 three¦30246 days¦30248 he'll come back to life.",
+              "wj": "Humanity's child will be arrested and executed, but after¦30244 three¦30246 days¦30248 he'll come back to life.",
               "closing": "\\wj*"
             },
             "”",
@@ -4986,7 +4982,7 @@
               "p": ""
             }
           ],
-          "verseText": "while he was teaching¦30219 his¦30223 apprentices¦30222. He told them, “humanity's child will be arrested and executed, but after¦30244 three¦30246 days¦30248 he'll come back to life.”"
+          "verseText": "while he was teaching¦30219 his¦30223 apprentices¦30222. He told them, “Humanity's child will be arrested and executed, but after¦30244 three¦30246 days¦30248 he'll come back to life.”"
         },
         {
           "verseNumber": "32",
@@ -4999,7 +4995,7 @@
               "rem": "/s1 The Greatest in the Kingdom; Who Is the Greatest?"
             },
             {
-              "r": "(Mat. 18:1-5; Luk. 9:46-48)"
+              "r": "(Mat. 18:1-5; Luke 9:46-48)"
             },
             {
               "p": ""
@@ -5084,7 +5080,7 @@
             },
             "“",
             {
-              "wj": "Whoever¦30342 welcomes young children¦30349 on my¦30357 behalf, welcomes me, and¦30360 anyone who welcomes me is not actually welcoming me, but¦30371 welcoming the one who sent¦30373 me here.",
+              "wj": "Whoever¦30342 welcomes young children¦30349 on my¦30357 behalf, welcomes me, and¦30360 anyone¦30345 who welcomes me is not actually welcoming me, but¦30371 welcoming the one who sent¦30373 me here.",
               "closing": "\\wj*"
             },
             "”",
@@ -5095,13 +5091,13 @@
               "rem": "/s1 Whoever Is Not Against Us Is for Us; Another Exorcist; Using the Name of Jesus"
             },
             {
-              "r": "(Luk. 9:49-50)"
+              "r": "(Luke 9:49-50)"
             },
             {
               "p": ""
             }
           ],
-          "verseText": "“Whoever¦30342 welcomes young children¦30349 on my¦30357 behalf, welcomes me, and¦30360 anyone who welcomes me is not actually welcoming me, but¦30371 welcoming the one who sent¦30373 me here.”"
+          "verseText": "“Whoever¦30342 welcomes young children¦30349 on my¦30357 behalf, welcomes me, and¦30360 anyone¦30345 who welcomes me is not actually welcoming me, but¦30371 welcoming the one who sent¦30373 me here.”"
         },
         {
           "verseNumber": "38",
@@ -5122,11 +5118,11 @@
             },
             "responded, “",
             {
-              "wj": "No, don't¦30417 stop him¦30419 because¦30421 anyone who does a miracle¦30425 using my¦30430 name¦30429 won't just quickly¦30434 turn around and slander me.",
+              "wj": "No, don't¦30417 stop him¦30419 because¦30421 anyone¦30420 who does a miracle¦30425 using my¦30430 name¦30429 won't just quickly¦30434 turn around and slander me.",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "Yeshua¦30414 responded, “No, don't¦30417 stop him¦30419 because¦30421 anyone who does a miracle¦30425 using my¦30430 name¦30429 won't just quickly¦30434 turn around and slander me."
+          "verseText": "Yeshua¦30414 responded, “No, don't¦30417 stop him¦30419 because¦30421 anyone¦30420 who does a miracle¦30425 using my¦30430 name¦30429 won't just quickly¦30434 turn around and slander me."
         },
         {
           "verseNumber": "40",
@@ -5166,7 +5162,13 @@
               "closing": "\\x*"
             },
             {
-              "wj": "Anyone who gives you water¦30457 to drink¦30454 because you are followers of God's"
+              "wj": [
+                {
+                  "nd": "Anyone¦30464",
+                  "closing": "\\nd*"
+                },
+                "who gives you water¦30457 to drink¦30454 because you are followers of God's"
+              ]
             },
             {
               "nd": [
@@ -5184,24 +5186,24 @@
               "rem": "/s1 Causing to Sin; Temptations to Sin"
             },
             {
-              "r": "(Mat. 18:6-9; Luk. 17:1-2)"
+              "r": "(Mat. 18:6-9; Luke 17:1-2)"
             },
             {
               "p": ""
             }
           ],
-          "verseText": "Anyone who gives you water¦30457 to drink¦30454 because you are followers of God's chosen¦30464 * one and who does it because they are working for me, I can assure you that they'll receive their reward¦30476."
+          "verseText": "Anyone¦30464 who gives you water¦30457 to drink¦30454 because you are followers of God's chosen¦30464 * one and who does it because they are working for me, I can assure you that they'll receive their reward¦30476."
         },
         {
           "verseNumber": "42",
           "contents": [
             "“",
             {
-              "wj": "But anyone who causes a young person to falter from their trust in me, it¦30495 would be better¦30494 if they were thrown¦30514 into the sea¦30518 with a heavy¦30506 weight tied around their neck.",
+              "wj": "But anyone¦30483 who causes a young person to falter from their trust in me, it¦30495 would be better¦30494 if they were thrown¦30514 into the sea¦30518 with a heavy¦30506 weight tied around their neck.",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "“But anyone who causes a young person to falter from their trust in me, it¦30495 would be better¦30494 if they were thrown¦30514 into the sea¦30518 with a heavy¦30506 weight tied around their neck."
+          "verseText": "“But anyone¦30483 who causes a young person to falter from their trust in me, it¦30495 would be better¦30494 if they were thrown¦30514 into the sea¦30518 with a heavy¦30506 weight tied around their neck."
         },
         {
           "verseNumber": "43",
@@ -5358,7 +5360,7 @@
           "rem": "/s1 Discussion about Divorce and Marriage; Teaching about Divorce; Jesus Teaches about Divorce"
         },
         {
-          "r": "(Mat. 19:1-12; Luk. 16:18)"
+          "r": "(Mat. 19:1-12; Luke 16:18)"
         },
         {
           "p": null
@@ -5499,7 +5501,7 @@
           "contents": [
             {
               "wj": [
-                "So if it's",
+                "So¦30856 if it's",
                 {
                   "nd": "God¦30858",
                   "closing": "\\nd*"
@@ -5521,7 +5523,7 @@
               "p": ""
             }
           ],
-          "verseText": "So if it's God¦30858 who joins them together¦30860 like that, no person¦30861 has the authority * to separate¦30863 them.”"
+          "verseText": "So¦30856 if it's God¦30858 who joins them together¦30860 like that, no person¦30861 has the authority * to separate¦30863 them.”"
         },
         {
           "verseNumber": "10",
@@ -5569,7 +5571,7 @@
               "rem": "/s1 The Little Children and Jesus; Jesus Blesses Little Children; Jesus Blesses the Children"
             },
             {
-              "r": "(Mat. 19:13-15; Luk. 18:15-17)"
+              "r": "(Mat. 19:13-15; Luke 18:15-17)"
             },
             {
               "p": ""
@@ -5639,7 +5641,7 @@
               "rem": "/s1 The Rich Man; The Rich Young Man"
             },
             {
-              "r": "(Mat. 19:16-30; Luk. 18:18-30)"
+              "r": "(Mat. 19:16-30; Luke 18:18-30)"
             },
             {
               "p": ""
@@ -5752,12 +5754,12 @@
             },
             "looked up at him with genuine love and said¦31118, “",
             {
-              "wj": "There's one thing¦31125 still to be done: sell everything you have and give¦31134 the money to the poor—then you'll have wealth in heaven¦31141. After that, come¦31144 and follow¦31145 me.",
+              "wj": "There's one thing still to be done: sell everything you have and give¦31134 the money to the poor—then you'll have wealth in heaven¦31141. After that, come¦31144 and follow¦31145 me.",
               "closing": "\\wj*"
             },
             "”"
           ],
-          "verseText": "Yeshua¦31111 looked up at him with genuine love and said¦31118, “There's one thing¦31125 still to be done: sell everything you have and give¦31134 the money to the poor—then you'll have wealth in heaven¦31141. After that, come¦31144 and follow¦31145 me.”"
+          "verseText": "Yeshua¦31111 looked up at him with genuine love and said¦31118, “There's one thing still to be done: sell everything you have and give¦31134 the money to the poor—then you'll have wealth in heaven¦31141. After that, come¦31144 and follow¦31145 me.”"
         },
         {
           "verseNumber": "22",
@@ -5862,11 +5864,11 @@
           "contents": [
             "He answered, “",
             {
-              "wj": "Yes I can assure you¦31328 all that anyone who left their home or farm, and left their siblings or parents or children¦31348 because of me and my¦31352 teaching,",
+              "wj": "Yes I can assure you¦31328 all that anyone¦31330 who left their home or farm, and left their siblings or parents or children¦31348 because of me and my¦31352 teaching,",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "He answered, “Yes I can assure you¦31328 all that anyone who left their home or farm, and left their siblings or parents or children¦31348 because of me and my¦31352 teaching,"
+          "verseText": "He answered, “Yes I can assure you¦31328 all that anyone¦31330 who left their home or farm, and left their siblings or parents or children¦31348 because of me and my¦31352 teaching,"
         },
         {
           "verseNumber": "30",
@@ -5905,7 +5907,7 @@
               "rem": "/s1 Jesus Again Predicts His Death; A Third Time Jesus Foretells His Death and Resurrection; Jesus Speaks a Third Time about His Death"
             },
             {
-              "r": "(Mat. 20:17-19; Luk. 18:31-34)"
+              "r": "(Mat. 20:17-19; Luke 18:31-34)"
             },
             {
               "p": ""
@@ -6142,7 +6144,7 @@
           "verseNumber": "45",
           "contents": [
             {
-              "wj": "Even¦31740 humanity's child didn't come to be served¦31743, but¦31744 to serve¦31745 others and¦31746 to give¦31747 his¦31750 life¦31749 as a ransom¦31752 to set many people free.",
+              "wj": "Even humanity's child didn't come to be served¦31743, but¦31744 to serve¦31745 others and¦31746 to give¦31747 his¦31750 life¦31749 as a ransom¦31752 to set many people free.",
               "closing": "\\wj*"
             },
             "”",
@@ -6153,13 +6155,13 @@
               "rem": "/s1 Blind Bartimaeus Receives His Sight; The Healing of Blind Bartimaeus; Jesus Heals Blind Bartimaeus"
             },
             {
-              "r": "(Mat. 20:29-34; Luk. 18:35-43)"
+              "r": "(Mat. 20:29-34; Luke 18:35-43)"
             },
             {
               "p": ""
             }
           ],
-          "verseText": "Even¦31740 humanity's child didn't come to be served¦31743, but¦31744 to serve¦31745 others and¦31746 to give¦31747 his¦31750 life¦31749 as a ransom¦31752 to set many people free.”"
+          "verseText": "Even humanity's child didn't come to be served¦31743, but¦31744 to serve¦31745 others and¦31746 to give¦31747 his¦31750 life¦31749 as a ransom¦31752 to set many people free.”"
         },
         {
           "verseNumber": "46",
@@ -6278,7 +6280,7 @@
           "rem": "/s1 The Triumphant Entry into Jerusalem; Jesus' Triumphal Entry into Jerusalem; The challenge to Jerusalem"
         },
         {
-          "r": "(Jn 12:12-19; Mat. 21:1-11; Luk. 19:28-40)"
+          "r": "(Jn 12:12-19; Mat. 21:1-11; Luke 19:28-40)"
         },
         {
           "p": null
@@ -6448,7 +6450,7 @@
               "rem": "/s1 Jesus Goes to the Temple; Jesus Cleanses the Temple; Jesus Clears the Temple"
             },
             {
-              "r": "(Jn 2:13-22; Mat. 21:12-17; Luk. 19:45-48)"
+              "r": "(Jn 2:13-22; Mat. 21:12-17; Luke 19:45-48)"
             },
             {
               "p": ""
@@ -6647,7 +6649,7 @@
               "rem": "/s1 The Authority of Jesus Challenged; The Authority of Jesus Questioned; The Question about Jesus' Authority"
             },
             {
-              "r": "(Mat. 21:23-27; Luk. 20:1-8)"
+              "r": "(Mat. 21:23-27; Luke 20:1-8)"
             },
             {
               "p": ""
@@ -6746,14 +6748,14 @@
                 },
                 "also responded, “",
                 {
-                  "wj": "Well then, I won't tell you¦32718 about my authority¦32723 to do those things¦32725 either.",
+                  "wj": "Well then, I won't tell you¦32718 about my authority¦32723 to do those things either.",
                   "closing": "\\wj*"
                 },
                 "”"
               ]
             }
           ],
-          "verseText": "So they¦32704 answered¦32700, “We don't¦32705 know.” And Yeshua¦32710 also responded, “Well then, I won't tell you¦32718 about my authority¦32723 to do those things¦32725 either.”"
+          "verseText": "So they¦32704 answered¦32700, “We don't¦32705 know.” And Yeshua¦32710 also responded, “Well then, I won't tell you¦32718 about my authority¦32723 to do those things either.”"
         }
       ]
     },
@@ -6767,7 +6769,7 @@
           "rem": "/s1 The Parable of the Wicked Tenants; Story of the Evil Farmers; The Parable of the Tenants in the Vineyard"
         },
         {
-          "r": "(Mat. 21:33-46; Luk. 20:9-19)"
+          "r": "(Mat. 21:33-46; Luke 20:9-19)"
         },
         {
           "p": null
@@ -7005,7 +7007,7 @@
               "rem": "/s1 Paying Taxes to Caesar; The Question about Paying Taxes; Taxes for Caesar"
             },
             {
-              "r": "(Mat. 22:15-22; Luk. 20:20-26)"
+              "r": "(Mat. 22:15-22; Luke 20:20-26)"
             },
             {
               "p": ""
@@ -7112,7 +7114,7 @@
               "rem": "/s1 The Question about Rising from Death; Discussion about Resurrection; The Question about the Resurrection; Marriage at the Resurrection"
             },
             {
-              "r": "(Mat. 22:23-33; Luk. 20:27-40)"
+              "r": "(Mat. 22:23-33; Luke 20:27-40)"
             },
             {
               "p": ""
@@ -7260,7 +7262,7 @@
               "rem": "/s1 The Most Important Commandment; The Great Commandment; The Greatest Commandment; The First Commandment"
             },
             {
-              "r": "(Mat. 22:34-40; Luk. 10:25-28)"
+              "r": "(Mat. 22:34-40; Luke 10:25-28)"
             },
             {
               "p": ""
@@ -7457,7 +7459,7 @@
               "rem": "/s1 Whose Son Is the Messiah?; The Question about the Messiah; Whose Son Is the Christ; The Question about David's Son"
             },
             {
-              "r": "(Mat. 22:41-46; Luk. 20:41-44)"
+              "r": "(Mat. 22:41-46; Luke 20:41-44)"
             },
             {
               "p": ""
@@ -7572,7 +7574,7 @@
               "rem": "/s1 Jesus Warns against the Teachers of the Law; Jesus Denounces the Scribes"
             },
             {
-              "r": "(Mat. 23:1-36; Luk. 20:45-47)"
+              "r": "(Mat. 23:1-36; Luke 20:45-47)"
             },
             {
               "p": ""
@@ -7624,7 +7626,7 @@
               "rem": "/s1 The Widow's Offering"
             },
             {
-              "r": "(Luk. 21:1-4)"
+              "r": "(Luke 21:1-4)"
             },
             {
               "p": ""
@@ -7708,7 +7710,7 @@
           "rem": "/s1 Warnings about the end; Jesus Speaks of the Destruction of the Temple; The Destruction of the Temple Foretold; Signs of the End of the Age; Jesus Foretells the Future"
         },
         {
-          "r": "(Mat. 24:1-2; Luk. 21:5-6)"
+          "r": "(Mat. 24:1-2; Luke 21:5-6)"
         },
         {
           "p": null
@@ -7769,7 +7771,7 @@
               "rem": "/s1 Troubles and Persecutions"
             },
             {
-              "r": "(Mat. 24:3-14; Luk. 21:7-19)"
+              "r": "(Mat. 24:3-14; Luke 21:7-19)"
             },
             {
               "p": ""
@@ -7971,7 +7973,7 @@
               "rem": "/s1 The Desolating Sacrilege; The Awful Horror"
             },
             {
-              "r": "(Mat. 24:15-28; Luk. 21:20-24)"
+              "r": "(Mat. 24:15-28; Luke 21:20-24)"
             },
             {
               "p": ""
@@ -8109,7 +8111,7 @@
           "verseNumber": "21",
           "contents": [
             {
-              "wj": "So don't¦34298 believe¦34299 it¦34299 if you¦34285 hear someone say¦34286, ‘Look, the"
+              "wj": "So don't¦34298 believe¦34299 it¦34299 if you¦34285 hear someone say¦34286, ‘Look¦34288, the"
             },
             {
               "nd": [
@@ -8121,7 +8123,7 @@
               ]
             }
           ],
-          "verseText": "So don't¦34298 believe¦34299 it¦34299 if you¦34285 hear someone say¦34286, ‘Look, the messiah¦34292 * has arrived here.’ or ‘There's the one that God has sent.’"
+          "verseText": "So don't¦34298 believe¦34299 it¦34299 if you¦34285 hear someone say¦34286, ‘Look¦34288, the messiah¦34292 * has arrived here.’ or ‘There's the one that God has sent.’"
         },
         {
           "verseNumber": "22",
@@ -8147,7 +8149,7 @@
               "rem": "/s1 The Coming of the Son of Man"
             },
             {
-              "r": "(Mat. 24:29-31; Luk. 21:25-28)"
+              "r": "(Mat. 24:29-31; Luke 21:25-28)"
             },
             {
               "p": ""
@@ -8228,11 +8230,11 @@
               "closing": "\\x*"
             },
             {
-              "wj": "Then¦34381 the people will see humanity's child in the clouds¦34386 coming¦34382 with incredible power¦34390 and¦34392 brightness.",
+              "wj": "Then the people will see humanity's child in the clouds¦34386 coming¦34382 with incredible power¦34390 and¦34392 brightness.",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "Then¦34381 the people will see humanity's child in the clouds¦34386 coming¦34382 with incredible power¦34390 and¦34392 brightness."
+          "verseText": "Then the people will see humanity's child in the clouds¦34386 coming¦34382 with incredible power¦34390 and¦34392 brightness."
         },
         {
           "verseNumber": "27",
@@ -8248,7 +8250,7 @@
               "rem": "/s1 The Lesson of the Fig Tree"
             },
             {
-              "r": "(Mat. 24:32-35; Luk. 21:29-33)"
+              "r": "(Mat. 24:32-35; Luke 21:29-33)"
             },
             {
               "p": ""
@@ -8271,7 +8273,7 @@
           "verseNumber": "29",
           "contents": [
             {
-              "wj": "So too whenever¦34454 you see¦34456 all these¦34458 things¦34458 happening, you know that the end"
+              "wj": "So too whenever¦34454 you see¦34456 all these¦34458 things happening, you know that the end"
             },
             {
               "add": [
@@ -8283,7 +8285,7 @@
               ]
             }
           ],
-          "verseText": "So too whenever¦34454 you see¦34456 all these¦34458 things¦34458 happening, you know that the end of this current world * is close."
+          "verseText": "So too whenever¦34454 you see¦34456 all these¦34458 things happening, you know that the end of this current world * is close."
         },
         {
           "verseNumber": "30",
@@ -8376,11 +8378,11 @@
           "verseNumber": "35",
           "contents": [
             {
-              "wj": "So you all watch¦34580 and stay alert, because¦34584 you don't¦34582 know when the master¦34587 of the house¦34589 might return—perhaps one evening¦34592 or at midnight¦34595, or at dawn or maybe mid-morning.",
+              "wj": "So¦34581 you all watch¦34580 and stay alert, because¦34584 you don't¦34582 know when the master¦34587 of the house¦34589 might return—perhaps one evening¦34592 or at midnight¦34595, or at dawn or maybe mid-morning.",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "So you all watch¦34580 and stay alert, because¦34584 you don't¦34582 know when the master¦34587 of the house¦34589 might return—perhaps one evening¦34592 or at midnight¦34595, or at dawn or maybe mid-morning."
+          "verseText": "So¦34581 you all watch¦34580 and stay alert, because¦34584 you don't¦34582 know when the master¦34587 of the house¦34589 might return—perhaps one evening¦34592 or at midnight¦34595, or at dawn or maybe mid-morning."
         },
         {
           "verseNumber": "36",
@@ -8415,7 +8417,7 @@
           "rem": "/s1 The Plot against Jesus; The trial and crucifixion of Jesus; Jesus Anointed at Bethany; The Plot to Kill Jesus"
         },
         {
-          "r": "(Jn 11:45-53; Mat. 26:1-5; Luk. 22:1-2)"
+          "r": "(Jn 11:45-53; Mat. 26:1-5; Luke 22:1-2)"
         },
         {
           "p": null
@@ -8562,7 +8564,7 @@
               "rem": "/s1 Judas Agrees to Betray Jesus"
             },
             {
-              "r": "(Mat. 26:14-16; Luk. 22:3-6)"
+              "r": "(Mat. 26:14-16; Luke 22:3-6)"
             },
             {
               "p": ""
@@ -8593,7 +8595,7 @@
               "rem": "/s1 The Lord's Supper; The Last Supper; The Passover with the Disciples; Jesus Eats the Passover Meal with His Disciples; Communion"
             },
             {
-              "r": "(Jn 13:21-30; Mat. 26:17-25; Luk. 22:7-14, 21-23)"
+              "r": "(Jn 13:21-30; Mat. 26:17-25; Luke 22:7-14, 21-23)"
             },
             {
               "p": ""
@@ -8654,7 +8656,7 @@
               "s1": "Yeshua shocks his trainees at the Passover meal"
             },
             {
-              "r": "(Jn 13:21-30; Mat. 26:20-30; Luk. 22:14-23; 1 Cor. 11:23-25)"
+              "r": "(Jn 13:21-30; Mat. 26:20-30; Luke 22:14-23; 1 Cor. 11:23-25)"
             },
             {
               "p": ""
@@ -8847,7 +8849,7 @@
               "rem": "/s1 Jesus Predicts Peter's Denial"
             },
             {
-              "r": "(Jn 13:36-38; Mat. 26:31-35; Luk. 22:31-34)"
+              "r": "(Jn 13:36-38; Mat. 26:31-35; Luke 22:31-34)"
             },
             {
               "p": ""
@@ -8929,7 +8931,7 @@
             },
             "responded, “",
             {
-              "wj": "I can assure you that you'll renounce¦35290 me three¦35286 times this very night¦35279, before¦35281 the rooster¦35284 crows early tomorrow morning.",
+              "wj": "I can assure you that you'll renounce¦35291 me three¦35287 times this very night¦35279, before¦35281 the rooster¦35284 crows early tomorrow morning.",
               "closing": "\\wj*"
             },
             "”",
@@ -8937,12 +8939,12 @@
               "p": ""
             }
           ],
-          "verseText": "And Yeshua¦35269 responded, “I can assure you that you'll renounce¦35290 me three¦35286 times this very night¦35279, before¦35281 the rooster¦35284 crows early tomorrow morning.”"
+          "verseText": "And Yeshua¦35269 responded, “I can assure you that you'll renounce¦35291 me three¦35287 times this very night¦35279, before¦35281 the rooster¦35284 crows early tomorrow morning.”"
         },
         {
           "verseNumber": "31",
           "contents": [
-            "But Peter argued forcibly, “Even if I had to die¦35310 with you, I would never disown you!”",
+            "But Peter argued forcibly, “Even if I had to die¦35311 with you, I would never disown you!”",
             {
               "p": "And all the others said similar things."
             },
@@ -8953,34 +8955,34 @@
               "rem": "/s1 Jesus Prays in Gethsemane"
             },
             {
-              "r": "(Mat. 26:36-46; Luk. 22:39-46)"
+              "r": "(Mat. 26:36-46; Luke 22:39-46)"
             },
             {
               "p": ""
             }
           ],
-          "verseText": "But Peter argued forcibly, “Even if I had to die¦35310 with you, I would never disown you!” And all the others said similar things."
+          "verseText": "But Peter argued forcibly, “Even if I had to die¦35311 with you, I would never disown you!” And all the others said similar things."
         },
         {
           "verseNumber": "32",
           "contents": [
-            "They walked along until¦35341 they came to a piece of land called Gethsemane¦35332 where Yeshua told his¦35337 trainees to sit down while he prayed."
+            "They walked along until¦35342 they came to a piece of land called Gethsemane¦35333 where Yeshua told his¦35338 trainees to sit down while he prayed."
           ],
-          "verseText": "They walked along until¦35341 they came to a piece of land called Gethsemane¦35332 where Yeshua told his¦35337 trainees to sit down while he prayed."
+          "verseText": "They walked along until¦35342 they came to a piece of land called Gethsemane¦35333 where Yeshua told his¦35338 trainees to sit down while he prayed."
         },
         {
           "verseNumber": "33",
           "contents": [
-            "He took Peter and Yacob¦35350 and Yohan¦35353 further in with him where he stared off in a daze but was obviously very distressed¦35361."
+            "He took Peter and Yacob¦35351 and Yohan¦35354 further in with him where he stared off in a daze but was obviously very distressed¦35362."
           ],
-          "verseText": "He took Peter and Yacob¦35350 and Yohan¦35353 further in with him where he stared off in a daze but was obviously very distressed¦35361."
+          "verseText": "He took Peter and Yacob¦35351 and Yohan¦35354 further in with him where he stared off in a daze but was obviously very distressed¦35362."
         },
         {
           "verseNumber": "34",
           "contents": [
             "He told the three of them, “",
             {
-              "wj": "My¦35370 soul¦35369 is deathly¦35372 sad! You guys just stay here and¦35375 keep alert.",
+              "wj": "My¦35371 soul¦35370 is deathly¦35373 sad! You guys just stay here and¦35376 keep alert.",
               "closing": "\\wj*"
             },
             "”",
@@ -8988,21 +8990,21 @@
               "p": ""
             }
           ],
-          "verseText": "He told the three of them, “My¦35370 soul¦35369 is deathly¦35372 sad! You guys just stay here and¦35375 keep alert.”"
+          "verseText": "He told the three of them, “My¦35371 soul¦35370 is deathly¦35373 sad! You guys just stay here and¦35376 keep alert.”"
         },
         {
           "verseNumber": "35",
           "contents": [
-            "He went ahead a little¦35380 way where he knelt on the ground¦35388 with his head down and prayed¦35391—asking if it was possible¦35394 to avoid what was ahead of him."
+            "He went ahead a little¦35381 way where he knelt on the ground¦35389 with his head down and prayed¦35392—asking if it was possible¦35395 to avoid what was ahead of him."
           ],
-          "verseText": "He went ahead a little¦35380 way where he knelt on the ground¦35388 with his head down and prayed¦35391—asking if it was possible¦35394 to avoid what was ahead of him."
+          "verseText": "He went ahead a little¦35381 way where he knelt on the ground¦35389 with his head down and prayed¦35392—asking if it was possible¦35395 to avoid what was ahead of him."
         },
         {
           "verseNumber": "36",
           "contents": [
             "But he said, “",
             {
-              "wj": "Father, I know that you can do anything. Let me avoid this suffering, but yes I know, it doesn't matter what I want¦35435 but what you've"
+              "wj": "Father, I know that you can do anything. Let me avoid this suffering, but yes I know, it doesn't matter what I want¦35436 but what you've"
             },
             {
               "add": [
@@ -9018,24 +9020,24 @@
               "p": ""
             }
           ],
-          "verseText": "But he said, “Father, I know that you can do anything. Let me avoid this suffering, but yes I know, it doesn't matter what I want¦35435 but what you've planned *.”"
+          "verseText": "But he said, “Father, I know that you can do anything. Let me avoid this suffering, but yes I know, it doesn't matter what I want¦35436 but what you've planned *.”"
         },
         {
           "verseNumber": "37",
           "contents": [
             "Then he went back and found the others sleeping. He asked Peter, “",
             {
-              "wj": "Simon¦35447, are you asleep? Couldn't you stay awake even for a single hour¦35453?",
+              "wj": "Simon¦35448, are you asleep? Couldn't you stay awake even for a single hour¦35454?",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "Then he went back and found the others sleeping. He asked Peter, “Simon¦35447, are you asleep? Couldn't you stay awake even for a single hour¦35453?"
+          "verseText": "Then he went back and found the others sleeping. He asked Peter, “Simon¦35448, are you asleep? Couldn't you stay awake even for a single hour¦35454?"
         },
         {
           "verseNumber": "38",
           "contents": [
             {
-              "wj": "You all need to stay alert and be careful not to give into temptation¦35463. I know your spirits¦35466 are enthusiastic on one hand, but it's still easy to give in to the moment.",
+              "wj": "You all need to stay alert and be careful not to give into temptation¦35464. I know your spirits¦35467 are enthusiastic on one hand, but it's still easy to give in to the moment.",
               "closing": "\\wj*"
             },
             "”",
@@ -9043,41 +9045,41 @@
               "p": ""
             }
           ],
-          "verseText": "You all need to stay alert and be careful not to give into temptation¦35463. I know your spirits¦35466 are enthusiastic on one hand, but it's still easy to give in to the moment.”"
+          "verseText": "You all need to stay alert and be careful not to give into temptation¦35464. I know your spirits¦35467 are enthusiastic on one hand, but it's still easy to give in to the moment.”"
         },
         {
           "verseNumber": "39",
           "contents": [
-            "Then he went further in again¦35473 and prayed¦35475 as before,"
+            "Then he went further in again¦35474 and prayed¦35476 as before,"
           ],
-          "verseText": "Then he went further in again¦35473 and prayed¦35475 as before,"
+          "verseText": "Then he went further in again¦35474 and prayed¦35476 as before,"
         },
         {
           "verseNumber": "40",
           "contents": [
-            "but when he returned again¦35481, he found¦35484 them all asleep because¦35489 they were tired, but they couldn't really find any excuse to give.",
+            "but when he returned again¦35482, he found¦35485 them all asleep because¦35490 they were tired, but they couldn't really find any excuse to give.",
             {
               "p": ""
             }
           ],
-          "verseText": "but when he returned again¦35481, he found¦35484 them all asleep because¦35489 they were tired, but they couldn't really find any excuse to give."
+          "verseText": "but when he returned again¦35482, he found¦35485 them all asleep because¦35490 they were tired, but they couldn't really find any excuse to give."
         },
         {
           "verseNumber": "41",
           "contents": [
-            "The third¦35508 time that Yeshua returned, he said to them, “",
+            "The third¦35509 time that Yeshua returned, he said to them, “",
             {
-              "wj": "Ah, you're all sleeping¦35512 again and having a good rest. It's well earned but the time has come for humanity's child to be handed over to evil men.",
+              "wj": "Ah, you're all sleeping¦35513 again and having a good rest. It's well earned but the time has come for humanity's child to be handed over to evil men.",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "The third¦35508 time that Yeshua returned, he said to them, “Ah, you're all sleeping¦35512 again and having a good rest. It's well earned but the time has come for humanity's child to be handed over to evil men."
+          "verseText": "The third¦35509 time that Yeshua returned, he said to them, “Ah, you're all sleeping¦35513 again and having a good rest. It's well earned but the time has come for humanity's child to be handed over to evil men."
         },
         {
           "verseNumber": "42",
           "contents": [
             {
-              "wj": "Come on—get up—we¦35538 need to go! Look, the one who'll hand me over is on his way.",
+              "wj": "Come on—get up—we¦35539 need to go! Look¦35540, the one who'll hand me over is on his way.",
               "closing": "\\wj*"
             },
             "”",
@@ -9088,30 +9090,30 @@
               "rem": "/s1 Jesus Arrested; Jesus Is Betrayed and Arrested; The Arrest of Jesus; The Betrayal and Arrest of Jesus"
             },
             {
-              "r": "(Jn 18:3-12; Mat. 26:47-56; Luk. 22:47-53)"
+              "r": "(Jn 18:3-12; Mat. 26:47-56; Luke 22:47-53)"
             },
             {
               "p": ""
             }
           ],
-          "verseText": "Come on—get up—we¦35538 need to go! Look, the one who'll hand me over is on his way.”"
+          "verseText": "Come on—get up—we¦35539 need to go! Look¦35540, the one who'll hand me over is on his way.”"
         },
         {
           "verseNumber": "43",
           "contents": [
-            "Even while Yeshua was still¦35550 speaking¦35552, Yudas reached him, followed by a crowd¦35566 from the chief¦35575 priests¦35575, and the religious¦35579 teachers¦35579, and the elders¦35582—many armed with swords¦35569 and clubs¦35571."
+            "Even while Yeshua was still¦35551 speaking¦35553, Yudas reached him, followed by a crowd¦35567 from the chief¦35576 priests¦35576, and the religious¦35580 teachers¦35580, and the elders¦35583—many armed with swords¦35570 and clubs¦35572."
           ],
-          "verseText": "Even while Yeshua was still¦35550 speaking¦35552, Yudas reached him, followed by a crowd¦35566 from the chief¦35575 priests¦35575, and the religious¦35579 teachers¦35579, and the elders¦35582—many armed with swords¦35569 and clubs¦35571."
+          "verseText": "Even while Yeshua was still¦35551 speaking¦35553, Yudas reached him, followed by a crowd¦35567 from the chief¦35576 priests¦35576, and the religious¦35580 teachers¦35580, and the elders¦35583—many armed with swords¦35570 and clubs¦35572."
         },
         {
           "verseNumber": "44",
           "contents": [
-            "Yudas had prearranged a signal¦35590 with them that anyone who he greeted with a kiss¦35596, they should grab that person and lead him away under guard.",
+            "Yudas had prearranged a signal¦35591 with them that anyone who he greeted with a kiss¦35597, they should grab that person and lead him away under guard.",
             {
               "p": ""
             }
           ],
-          "verseText": "Yudas had prearranged a signal¦35590 with them that anyone who he greeted with a kiss¦35596, they should grab that person and lead him away under guard."
+          "verseText": "Yudas had prearranged a signal¦35591 with them that anyone who he greeted with a kiss¦35597, they should grab that person and lead him away under guard."
         },
         {
           "verseNumber": "45",
@@ -9130,32 +9132,24 @@
         {
           "verseNumber": "47",
           "contents": [
-            "But one of the ones with Yeshua that was beside him¦35658, drew his¦35658 sword¦35647 and¦35656 struck¦35650 a slave¦35653 of the chief¦35655 priest¦35655, cutting off the man's ear¦35660."
+            "But one of the ones with Yeshua that was beside him¦35659, drew his¦35659 sword¦35648 and¦35657 struck¦35651 a slave¦35654 of the chief¦35656 priest¦35656, cutting off the man's ear¦35661."
           ],
-          "verseText": "But one of the ones with Yeshua that was beside him¦35658, drew his¦35658 sword¦35647 and¦35656 struck¦35650 a slave¦35653 of the chief¦35655 priest¦35655, cutting off the man's ear¦35660."
+          "verseText": "But one of the ones with Yeshua that was beside him¦35659, drew his¦35659 sword¦35648 and¦35657 struck¦35651 a slave¦35654 of the chief¦35656 priest¦35656, cutting off the man's ear¦35661."
         },
         {
           "verseNumber": "48",
           "contents": [
             {
-              "nd": "Yeshua¦35666",
+              "nd": "Yeshua¦35667",
               "closing": "\\nd*"
             },
             "spoke to the crowd, “",
             {
-              "wj": ""
-            },
-            {
-              "nd": [
-                "Did",
-                {
-                  "nd": "* you all bring swords¦35675 and¦35676 clubs¦35677 to try to capture¦35678 me like you'd chase down a thief?",
-                  "closing": "\\wj*"
-                }
-              ]
+              "wj": "Did you all bring swords¦35676 and¦35677 clubs¦35678 to try to capture¦35679 me like you'd chase down a thief?",
+              "closing": "\\wj*"
             }
           ],
-          "verseText": "Yeshua¦35666 spoke to the crowd, “Did * you all bring swords¦35675 and¦35676 clubs¦35677 to try to capture¦35678 me like you'd chase down a thief?"
+          "verseText": "Yeshua¦35667 spoke to the crowd, “Did you all bring swords¦35676 and¦35677 clubs¦35678 to try to capture¦35679 me like you'd chase down a thief?"
         },
         {
           "verseNumber": "49",
@@ -9173,7 +9167,7 @@
               "closing": "\\x*"
             },
             {
-              "wj": "I was standing there teaching¦35688 in the temple¦35687 every¦35680 day¦35681 and you could have arrested me, but it's happened this way to ensure that the what's written in scriptures¦35698 will be fulfilled¦35696.",
+              "wj": "I was standing there teaching¦35689 in the temple¦35688 every¦35681 day¦35682 and you could have arrested me, but it's happened this way to ensure that the what's written in scriptures¦35699 will be fulfilled¦35697.",
               "closing": "\\wj*"
             },
             "”",
@@ -9181,7 +9175,7 @@
               "p": ""
             }
           ],
-          "verseText": "I was standing there teaching¦35688 in the temple¦35687 every¦35680 day¦35681 and you could have arrested me, but it's happened this way to ensure that the what's written in scriptures¦35698 will be fulfilled¦35696.”"
+          "verseText": "I was standing there teaching¦35689 in the temple¦35688 every¦35681 day¦35682 and you could have arrested me, but it's happened this way to ensure that the what's written in scriptures¦35699 will be fulfilled¦35697.”"
         },
         {
           "verseNumber": "50",
@@ -9193,9 +9187,9 @@
         {
           "verseNumber": "51",
           "contents": [
-            "One young¦35714 fellow was wearing a single linen¦35723 robe, and when the crowd tried to grab him,"
+            "One young¦35715 fellow was wearing a single linen¦35724 robe, and when the crowd tried to grab him,"
           ],
-          "verseText": "One young¦35714 fellow was wearing a single linen¦35723 robe, and when the crowd tried to grab him,"
+          "verseText": "One young¦35715 fellow was wearing a single linen¦35724 robe, and when the crowd tried to grab him,"
         },
         {
           "verseNumber": "52",
@@ -9205,7 +9199,7 @@
               "add": "in the struggle",
               "closing": "\\add*"
             },
-            "and he ran away stark naked¦35740.",
+            "and he ran away stark naked¦35741.",
             {
               "s1": "The mock trial where Yeshua is sentenced to death"
             },
@@ -9213,61 +9207,61 @@
               "rem": "/s1 Jesus before the Council; Before the Sanhedrin"
             },
             {
-              "r": "(Jn 18:13-14,19-24; Mat. 26:57-68; Luk. 22:54-55,63-71)"
+              "r": "(Jn 18:13-14,19-24; Mat. 26:57-68; Luke 22:54-55,63-71)"
             },
             {
               "p": ""
             }
           ],
-          "verseText": "it came off in the struggle and he ran away stark naked¦35740."
+          "verseText": "it came off in the struggle and he ran away stark naked¦35741."
         },
         {
           "verseNumber": "53",
           "contents": [
             "The guards led",
             {
-              "nd": "Yeshua¦35747",
+              "nd": "Yeshua¦35748",
               "closing": "\\nd*"
             },
-            "away to the chief priest's residence, and all the chief priests¦35760 and the elders¦35765 and the religious¦35769 teachers¦35769 gathered there also."
+            "away to the chief priest's residence, and all the chief priests¦35761 and the elders¦35766 and the religious¦35770 teachers¦35770 gathered there also."
           ],
-          "verseText": "The guards led Yeshua¦35747 away to the chief priest's residence, and all the chief priests¦35760 and the elders¦35765 and the religious¦35769 teachers¦35769 gathered there also."
+          "verseText": "The guards led Yeshua¦35748 away to the chief priest's residence, and all the chief priests¦35761 and the elders¦35766 and the religious¦35770 teachers¦35770 gathered there also."
         },
         {
           "verseNumber": "54",
           "contents": [
-            "Peter¦35772 followed¦35775 along from a distance and went in as far as the courtyard¦35782 of the residence where he joined the servants who were sitting¦35788 around the fire¦35797 keeping warm."
+            "Peter¦35773 followed¦35776 along from a distance and went in as far as the courtyard¦35783 of the residence where he joined the servants who were sitting¦35789 around the fire¦35798 keeping warm."
           ],
-          "verseText": "Peter¦35772 followed¦35775 along from a distance and went in as far as the courtyard¦35782 of the residence where he joined the servants who were sitting¦35788 around the fire¦35797 keeping warm."
+          "verseText": "Peter¦35773 followed¦35776 along from a distance and went in as far as the courtyard¦35783 of the residence where he joined the servants who were sitting¦35789 around the fire¦35798 keeping warm."
         },
         {
           "verseNumber": "55",
           "contents": [
-            "Inside, the chief¦35800 priests¦35800 and all the council¦35804 were trying to establish a case against¦35806",
+            "Inside, the chief¦35801 priests¦35801 and all the council¦35805 were trying to establish a case against¦35807",
             {
-              "nd": "Yeshua¦35808",
+              "nd": "Yeshua¦35809",
               "closing": "\\nd*"
             },
-            "so he could be sentenced to death¦35814, but they weren't coming up with anything."
+            "so he could be sentenced to death¦35815, but they weren't coming up with anything."
           ],
-          "verseText": "Inside, the chief¦35800 priests¦35800 and all the council¦35804 were trying to establish a case against¦35806 Yeshua¦35808 so he could be sentenced to death¦35814, but they weren't coming up with anything."
+          "verseText": "Inside, the chief¦35801 priests¦35801 and all the council¦35805 were trying to establish a case against¦35807 Yeshua¦35809 so he could be sentenced to death¦35815, but they weren't coming up with anything."
         },
         {
           "verseNumber": "56",
           "contents": [
-            "Several were making up charges against¦35825 him¦35826, but¦35827 none of the accusers' stories agreed with each other.",
+            "Several were making up charges against¦35826 him¦35827, but¦35828 none of the accusers' stories agreed with each other.",
             {
               "p": ""
             }
           ],
-          "verseText": "Several were making up charges against¦35825 him¦35826, but¦35827 none of the accusers' stories agreed with each other."
+          "verseText": "Several were making up charges against¦35826 him¦35827, but¦35828 none of the accusers' stories agreed with each other."
         },
         {
           "verseNumber": "57",
           "contents": [
-            "Eventually some of them stood¦35836 up and offered this false¦35837 charge:"
+            "Eventually some of them stood¦35837 up and offered this false¦35838 charge:"
           ],
-          "verseText": "Eventually some of them stood¦35836 up and offered this false¦35837 charge:"
+          "verseText": "Eventually some of them stood¦35837 up and offered this false¦35838 charge:"
         },
         {
           "verseNumber": "58",
@@ -9284,44 +9278,44 @@
               ],
               "closing": "\\x*"
             },
-            "“We heard¦35845 him say that he would demolish this temple¦35854 made by many labourers, and within three¦35860 days¦35861 he'd build¦35865 another¦35862 one without any helpers.”"
+            "“We heard¦35846 him say that he would demolish this temple¦35855 made by many labourers, and within three¦35861 days¦35862 he'd build¦35866 another¦35863 one without any helpers.”"
           ],
-          "verseText": "“We heard¦35845 him say that he would demolish this temple¦35854 made by many labourers, and within three¦35860 days¦35861 he'd build¦35865 another¦35862 one without any helpers.”"
+          "verseText": "“We heard¦35846 him say that he would demolish this temple¦35855 made by many labourers, and within three¦35861 days¦35862 he'd build¦35866 another¦35863 one without any helpers.”"
         },
         {
           "verseNumber": "59",
           "contents": [
-            "But even then, they couldn't get their¦35874 accusations to align with each other.",
+            "But even then, they couldn't get their¦35875 accusations to align with each other.",
             {
               "p": ""
             }
           ],
-          "verseText": "But even then, they couldn't get their¦35874 accusations to align with each other."
+          "verseText": "But even then, they couldn't get their¦35875 accusations to align with each other."
         },
         {
           "verseNumber": "60",
           "contents": [
-            "Nevertheless the chief¦35878 priest¦35878 in the middle of the council stood¦35876 up and asked¦35882",
+            "Nevertheless the chief¦35879 priest¦35879 in the middle of the council stood¦35877 up and asked¦35883",
             {
-              "nd": "Yeshua¦35884",
+              "nd": "Yeshua¦35885",
               "closing": "\\nd*"
             },
-            ", “Aren't you going to defend yourself? These men¦35891 are accusing you of these¦35891 things.”",
+            ", “Aren't you going to defend yourself? These men¦35892 are accusing you of these¦35892 things.”",
             {
               "p": ""
             }
           ],
-          "verseText": "Nevertheless the chief¦35878 priest¦35878 in the middle of the council stood¦35876 up and asked¦35882 Yeshua¦35884, “Aren't you going to defend yourself? These men¦35891 are accusing you of these¦35891 things.”"
+          "verseText": "Nevertheless the chief¦35879 priest¦35879 in the middle of the council stood¦35877 up and asked¦35883 Yeshua¦35885, “Aren't you going to defend yourself? These men¦35892 are accusing you of these¦35892 things.”"
         },
         {
           "verseNumber": "61",
           "contents": [
-            "But Yeshua didn't say anything. So the chief¦35910 priest¦35910 asked again, “Is it true that you're the",
+            "But Yeshua didn't say anything. So the chief¦35911 priest¦35911 asked again, “Is it true that you're the",
             {
-              "nd": "chosen¦35924",
+              "nd": "chosen¦35925",
               "closing": "\\nd*"
             },
-            "one that God promised to send—the son of the blessed¦35930",
+            "one that God promised to send—the son of the blessed¦35931",
             {
               "add": "God",
               "closing": "\\add*"
@@ -9331,7 +9325,7 @@
               "p": ""
             }
           ],
-          "verseText": "But Yeshua didn't say anything. So the chief¦35910 priest¦35910 asked again, “Is it true that you're the chosen¦35924 one that God promised to send—the son of the blessed¦35930 God?”"
+          "verseText": "But Yeshua didn't say anything. So the chief¦35911 priest¦35911 asked again, “Is it true that you're the chosen¦35925 one that God promised to send—the son of the blessed¦35931 God?”"
         },
         {
           "verseNumber": "62",
@@ -9349,27 +9343,27 @@
               "closing": "\\x*"
             },
             {
-              "nd": "Yeshua¦35934",
+              "nd": "Yeshua¦35935",
               "closing": "\\nd*"
             },
-            "replied, “I am. And you¦35942 will all see humanity's child sitting¦35950 in the honoured position by the powerful¦35952 God and¦35953 coming¦35954 through the clouds¦35958 in the sky¦35961.”",
+            "replied, “I am. And you¦35943 will all see humanity's child sitting¦35951 in the honoured position by the powerful¦35953 God and¦35954 coming¦35955 through the clouds¦35959 in the sky¦35962.”",
             {
               "p": ""
             }
           ],
-          "verseText": "Yeshua¦35934 replied, “I am. And you¦35942 will all see humanity's child sitting¦35950 in the honoured position by the powerful¦35952 God and¦35953 coming¦35954 through the clouds¦35958 in the sky¦35961.”"
+          "verseText": "Yeshua¦35935 replied, “I am. And you¦35943 will all see humanity's child sitting¦35951 in the honoured position by the powerful¦35953 God and¦35954 coming¦35955 through the clouds¦35959 in the sky¦35962.”"
         },
         {
           "verseNumber": "63",
           "contents": [
-            "Then the chief¦35964 priest¦35964 tore his own robe",
+            "Then the chief¦35965 priest¦35965 tore his own robe",
             {
               "add": "to show his disgust",
               "closing": "\\add*"
             },
-            "and shouted, “We certainly don't need any more witnesses¦35976 now!"
+            "and shouted, “We certainly don't need any more witnesses¦35977 now!"
           ],
-          "verseText": "Then the chief¦35964 priest¦35964 tore his own robe to show his disgust and shouted, “We certainly don't need any more witnesses¦35976 now!"
+          "verseText": "Then the chief¦35965 priest¦35965 tore his own robe to show his disgust and shouted, “We certainly don't need any more witnesses¦35977 now!"
         },
         {
           "verseNumber": "64",
@@ -9386,20 +9380,20 @@
               ],
               "closing": "\\x*"
             },
-            "You yourselves all heard¦35979 him¦35999 insult God. What sentence does that deserve?”",
+            "You yourselves all heard¦35980 him¦36000 insult God. What sentence does that deserve?”",
             {
-              "p": "So the leaders there agreed that Yeshua needed to be sentenced to death¦36004."
+              "p": "So the leaders there agreed that Yeshua needed to be sentenced to death¦36005."
             },
             {
               "p": ""
             }
           ],
-          "verseText": "You yourselves all heard¦35979 him¦35999 insult God. What sentence does that deserve?” So the leaders there agreed that Yeshua needed to be sentenced to death¦36004."
+          "verseText": "You yourselves all heard¦35980 him¦36000 insult God. What sentence does that deserve?” So the leaders there agreed that Yeshua needed to be sentenced to death¦36005."
         },
         {
           "verseNumber": "65",
           "contents": [
-            "Then various people started spitting¦36008 on him, and blindfolding¦36011 him and beating¦36019 him saying¦36023, “Ha, tell us who that was!” Even the servants joined in to slap him.",
+            "Then various people started spitting¦36009 on him, and blindfolding¦36012 him and beating¦36020 him saying¦36024, “Ha, tell us who that was!” Even the servants joined in to slap him.",
             {
               "s1": "Peter disowns Yeshua"
             },
@@ -9407,35 +9401,35 @@
               "rem": "/s1 Peter Denies Jesus"
             },
             {
-              "r": "(Jn 18:15-18,25-27; Mat. 26:69-75; Luk. 22:56-62)"
+              "r": "(Jn 18:15-18,25-27; Mat. 26:69-75; Luke 22:56-62)"
             },
             {
               "p": ""
             }
           ],
-          "verseText": "Then various people started spitting¦36008 on him, and blindfolding¦36011 him and beating¦36019 him saying¦36023, “Ha, tell us who that was!” Even the servants joined in to slap him."
+          "verseText": "Then various people started spitting¦36009 on him, and blindfolding¦36012 him and beating¦36020 him saying¦36024, “Ha, tell us who that was!” Even the servants joined in to slap him."
         },
         {
           "verseNumber": "66",
           "contents": [
-            "Meanwhile, Peter was down in the courtyard¦36050 when one of the chief¦36060 priest's¦36060 servant¦36057 girl came out,"
+            "Meanwhile, Peter was down in the courtyard¦36051 when one of the chief¦36061 priest's¦36061 servant¦36058 girl came out,"
           ],
-          "verseText": "Meanwhile, Peter was down in the courtyard¦36050 when one of the chief¦36060 priest's¦36060 servant¦36057 girl came out,"
+          "verseText": "Meanwhile, Peter was down in the courtyard¦36051 when one of the chief¦36061 priest's¦36061 servant¦36058 girl came out,"
         },
         {
           "verseNumber": "67",
           "contents": [
-            "and seeing Peter warming¦36065 himself¦36065, she¦36069 looked more closely and said, “Hey, you were with that",
+            "and seeing Peter warming¦36066 himself¦36066, she¦36070 looked more closely and said, “Hey, you were with that",
             {
-              "nd": "Yeshua¦36083",
+              "nd": "Yeshua¦36084",
               "closing": "\\nd*"
             },
-            "from Nazareth¦36077!”",
+            "from Nazareth¦36078!”",
             {
               "p": ""
             }
           ],
-          "verseText": "and seeing Peter warming¦36065 himself¦36065, she¦36069 looked more closely and said, “Hey, you were with that Yeshua¦36083 from Nazareth¦36077!”"
+          "verseText": "and seeing Peter warming¦36066 himself¦36066, she¦36070 looked more closely and said, “Hey, you were with that Yeshua¦36084 from Nazareth¦36078!”"
         },
         {
           "verseNumber": "68",
@@ -9450,42 +9444,42 @@
         {
           "verseNumber": "69",
           "contents": [
-            "But the girl¦36115 that had seen¦36116 him¦36117 said to some of the others standing around, “That guy's one of them.”",
+            "But the girl¦36116 that had seen¦36117 him¦36118 said to some of the others standing around, “That guy's one of them.”",
             {
               "p": ""
             }
           ],
-          "verseText": "But the girl¦36115 that had seen¦36116 him¦36117 said to some of the others standing around, “That guy's one of them.”"
+          "verseText": "But the girl¦36116 that had seen¦36117 him¦36118 said to some of the others standing around, “That guy's one of them.”"
         },
         {
           "verseNumber": "70",
           "contents": [
             "But again Peter denied it.",
             {
-              "p": "A little¦36146 while later, some of those standing there said, “You must be one of them because¦36160 you're¦36158 from Galilee¦36161.”"
+              "p": "A little¦36147 while later, some of those standing there said, “You must be one of them because¦36161 you're¦36159 from Galilee¦36162.”"
             },
             {
               "p": ""
             }
           ],
-          "verseText": "But again Peter denied it. A little¦36146 while later, some of those standing there said, “You must be one of them because¦36160 you're¦36158 from Galilee¦36161.”"
+          "verseText": "But again Peter denied it. A little¦36147 while later, some of those standing there said, “You must be one of them because¦36161 you're¦36159 from Galilee¦36162.”"
         },
         {
           "verseNumber": "71",
           "contents": [
-            "Now Peter started swearing¦36175 and cursing¦36171 and said, “I've never even met that fellow that you're all talking¦36183 about!”",
+            "Now Peter started swearing¦36176 and cursing¦36172 and said, “I've never even met that fellow that you're all talking¦36184 about!”",
             {
               "p": ""
             }
           ],
-          "verseText": "Now Peter started swearing¦36175 and cursing¦36171 and said, “I've never even met that fellow that you're all talking¦36183 about!”"
+          "verseText": "Now Peter started swearing¦36176 and cursing¦36172 and said, “I've never even met that fellow that you're all talking¦36184 about!”"
         },
         {
           "verseNumber": "72",
           "contents": [
-            "And right then the rooster crowed¦36190 for the second¦36188 time¦36188. Peter remembered now what Yeshua had told him—how he would renounce¦36218 Yeshua three¦36216 times before the rooster crows—and he broke¦36221 down and cried."
+            "And right then the rooster crowed¦36191 for the second¦36189 time¦36189. Peter remembered now what Yeshua had told him—how he would renounce¦36219 Yeshua three¦36217 times before the rooster crows—and he broke¦36222 down and cried."
           ],
-          "verseText": "And right then the rooster crowed¦36190 for the second¦36188 time¦36188. Peter remembered now what Yeshua had told him—how he would renounce¦36218 Yeshua three¦36216 times before the rooster crows—and he broke¦36221 down and cried."
+          "verseText": "And right then the rooster crowed¦36191 for the second¦36189 time¦36189. Peter remembered now what Yeshua had told him—how he would renounce¦36219 Yeshua three¦36217 times before the rooster crows—and he broke¦36222 down and cried."
         }
       ]
     },
@@ -9499,7 +9493,7 @@
           "rem": "/s1 Jesus Before Pilate; Jesus' Trial before Pilate"
         },
         {
-          "r": "(Jn 18:28-38; Mat. 27:1-2,11-14; Luk. 23:1-5)"
+          "r": "(Jn 18:28-38; Mat. 27:1-2,11-14; Luke 23:1-5)"
         },
         {
           "p": null
@@ -9507,24 +9501,24 @@
         {
           "verseNumber": "1",
           "contents": [
-            "First thing in the morning¦36230, the chief¦36236 priests¦36236 called a meeting with the elders¦36239 and the religious¦36243 teachers¦36243 and all the council¦36248, and they ordered that",
+            "First thing in the morning¦36231, the chief¦36237 priests¦36237 called a meeting with the elders¦36240 and the religious¦36244 teachers¦36244 and all the council¦36249, and they ordered that",
             {
-              "nd": "Yeshua¦36252",
+              "nd": "Yeshua¦36253",
               "closing": "\\nd*"
             },
-            "be tied up and taken over to Governor Pilate¦36262."
+            "be tied up and taken over to Governor Pilate¦36263."
           ],
-          "verseText": "First thing in the morning¦36230, the chief¦36236 priests¦36236 called a meeting with the elders¦36239 and the religious¦36243 teachers¦36243 and all the council¦36248, and they ordered that Yeshua¦36252 be tied up and taken over to Governor Pilate¦36262."
+          "verseText": "First thing in the morning¦36231, the chief¦36237 priests¦36237 called a meeting with the elders¦36240 and the religious¦36244 teachers¦36244 and all the council¦36249, and they ordered that Yeshua¦36253 be tied up and taken over to Governor Pilate¦36263."
         },
         {
           "verseNumber": "2",
           "contents": [
-            "There Pilate¦36267 asked¦36264 him, “Are you the king¦36272 of the Jews¦36274?”",
+            "There Pilate¦36268 asked¦36265 him, “Are you the king¦36273 of the Jews¦36275?”",
             {
               "p": [
                 "“",
                 {
-                  "wj": "You said it¦36283,",
+                  "wj": "You said it¦36284,",
                   "closing": "\\wj*"
                 },
                 "” replied Yeshua."
@@ -9534,34 +9528,34 @@
               "p": ""
             }
           ],
-          "verseText": "There Pilate¦36267 asked¦36264 him, “Are you the king¦36272 of the Jews¦36274?” “You said it¦36283,” replied Yeshua."
+          "verseText": "There Pilate¦36268 asked¦36265 him, “Are you the king¦36273 of the Jews¦36275?” “You said it¦36284,” replied Yeshua."
         },
         {
           "verseNumber": "3",
           "contents": [
-            "Then the chief¦36289 priests¦36289 started hurling accusations¦36285 against¦36287 Yeshua."
+            "Then the chief¦36290 priests¦36290 started hurling accusations¦36286 against¦36288 Yeshua."
           ],
-          "verseText": "Then the chief¦36289 priests¦36289 started hurling accusations¦36285 against¦36287 Yeshua."
+          "verseText": "Then the chief¦36290 priests¦36290 started hurling accusations¦36286 against¦36288 Yeshua."
         },
         {
           "verseNumber": "4",
           "contents": [
-            "So Pilate¦36297 asked¦36299 him¦36301 again, “Don't you have anything to say? Listen to all these accusations¦36311 they're making against you.”",
+            "So Pilate¦36298 asked¦36300 him¦36302 again, “Don't you have anything to say? Listen¦36308 to all these accusations¦36312 they're making against you.”",
             {
               "p": ""
             }
           ],
-          "verseText": "So Pilate¦36297 asked¦36299 him¦36301 again, “Don't you have anything to say? Listen to all these accusations¦36311 they're making against you.”"
+          "verseText": "So Pilate¦36298 asked¦36300 him¦36302 again, “Don't you have anything to say? Listen¦36308 to all these accusations¦36312 they're making against you.”"
         },
         {
           "verseNumber": "5",
           "contents": [
-            "But Pilate¦36322 was astounded that",
+            "But Pilate¦36323 was astounded that",
             {
-              "nd": "Yeshua¦36315",
+              "nd": "Yeshua¦36316",
               "closing": "\\nd*"
             },
-            "didn't answer¦36318 any further.",
+            "didn't answer¦36319 any further.",
             {
               "s1": "Pilate agrees to execute an innocent man"
             },
@@ -9569,103 +9563,103 @@
               "rem": "/s1 Jesus Is Sentenced to Death; Pilate Hands Jesus over to Be Crucified"
             },
             {
-              "r": "(Jn 18:39–19:16; Mat. 27:15-26; Luk. 23:13-25)"
+              "r": "(Jn 18:39–19:16; Mat. 27:15-26; Luke 23:13-25)"
             },
             {
               "p": ""
             }
           ],
-          "verseText": "But Pilate¦36322 was astounded that Yeshua¦36315 didn't answer¦36318 any further."
+          "verseText": "But Pilate¦36323 was astounded that Yeshua¦36316 didn't answer¦36319 any further."
         },
         {
           "verseNumber": "6",
           "contents": [
-            "Now at time of the Jewish Passover, Pilate would normally pardon one prisoner¦36334 for them and release him."
+            "Now at time of the Jewish Passover, Pilate would normally pardon one prisoner¦36335 for them and release him."
           ],
-          "verseText": "Now at time of the Jewish Passover, Pilate would normally pardon one prisoner¦36334 for them and release him."
+          "verseText": "Now at time of the Jewish Passover, Pilate would normally pardon one prisoner¦36335 for them and release him."
         },
         {
           "verseNumber": "7",
           "contents": [
-            "There was another prisoner at the time named Barabbas¦36346 who was an activist accused of murder¦36356."
+            "There was another prisoner at the time named Barabbas¦36347 who was an activist accused of murder¦36357."
           ],
-          "verseText": "There was another prisoner at the time named Barabbas¦36346 who was an activist accused of murder¦36356."
+          "verseText": "There was another prisoner at the time named Barabbas¦36347 who was an activist accused of murder¦36357."
         },
         {
           "verseNumber": "8",
           "contents": [
-            "By now, the crowd¦36365 had arrived and asked Pilate to release a prisoner as usual at Passover."
+            "By now, the crowd¦36366 had arrived and asked Pilate to release a prisoner as usual at Passover."
           ],
-          "verseText": "By now, the crowd¦36365 had arrived and asked Pilate to release a prisoner as usual at Passover."
+          "verseText": "By now, the crowd¦36366 had arrived and asked Pilate to release a prisoner as usual at Passover."
         },
         {
           "verseNumber": "9",
           "contents": [
-            "So he asked them, “Do you want me to release the King of the Jews¦36388 for you?”"
+            "So he asked them, “Do you want me to release the King of the Jews¦36389 for you?”"
           ],
-          "verseText": "So he asked them, “Do you want me to release the King of the Jews¦36388 for you?”"
+          "verseText": "So he asked them, “Do you want me to release the King of the Jews¦36389 for you?”"
         },
         {
           "verseNumber": "10",
           "contents": [
-            "This was because Pilate was well aware that the chief¦36401 priests¦36401 had brought Yeshua because they were jealous of his",
+            "This was because Pilate was well aware that the chief¦36402 priests¦36402 had brought Yeshua because they were jealous of his",
             {
               "add": "popularity",
               "closing": "\\add*"
             },
             "."
           ],
-          "verseText": "This was because Pilate was well aware that the chief¦36401 priests¦36401 had brought Yeshua because they were jealous of his popularity."
+          "verseText": "This was because Pilate was well aware that the chief¦36402 priests¦36402 had brought Yeshua because they were jealous of his popularity."
         },
         {
           "verseNumber": "11",
           "contents": [
-            "But the chief¦36404 priests¦36404 stirred¦36406 up the crowd¦36409 to start saying that it was Barabbas¦36415 that they wanted released."
+            "But the chief¦36405 priests¦36405 stirred¦36407 up the crowd¦36410 to start saying that it was Barabbas¦36416 that they wanted released."
           ],
-          "verseText": "But the chief¦36404 priests¦36404 stirred¦36406 up the crowd¦36409 to start saying that it was Barabbas¦36415 that they wanted released."
+          "verseText": "But the chief¦36405 priests¦36405 stirred¦36407 up the crowd¦36410 to start saying that it was Barabbas¦36416 that they wanted released."
         },
         {
           "verseNumber": "12",
           "contents": [
-            "So Pilate¦36420 asked again¦36421, “Then what should I do with this man that you¦36432 call the King of the Jews¦36437?”",
+            "So¦36429 Pilate¦36421 asked again¦36422, “Then what should I do with this man that you¦36433 call the King of the Jews¦36438?”",
             {
               "p": ""
             }
           ],
-          "verseText": "So Pilate¦36420 asked again¦36421, “Then what should I do with this man that you¦36432 call the King of the Jews¦36437?”"
+          "verseText": "So¦36429 Pilate¦36421 asked again¦36422, “Then what should I do with this man that you¦36433 call the King of the Jews¦36438?”"
         },
         {
           "verseNumber": "13",
           "contents": [
-            "The crowd yelled¦36441 back, “Execute¦36444 him¦36445 on a pole.”",
+            "The crowd yelled¦36442 back, “Execute¦36445 him¦36446 on a pole.”",
             {
               "p": ""
             }
           ],
-          "verseText": "The crowd yelled¦36441 back, “Execute¦36444 him¦36445 on a pole.”"
+          "verseText": "The crowd yelled¦36442 back, “Execute¦36445 him¦36446 on a pole.”"
         },
         {
           "verseNumber": "14",
           "contents": [
-            "Pilate¦36448 demanded, “What has he even done wrong?”",
+            "Pilate¦36449 demanded, “What has he even done wrong?”",
             {
-              "p": "But they just yelled¦36460 louder, “Execute¦36463 him on a pole!”"
+              "p": "But they just yelled¦36461 louder, “Execute¦36464 him on a pole!”"
             },
             {
               "p": ""
             }
           ],
-          "verseText": "Pilate¦36448 demanded, “What has he even done wrong?” But they just yelled¦36460 louder, “Execute¦36463 him on a pole!”"
+          "verseText": "Pilate¦36449 demanded, “What has he even done wrong?” But they just yelled¦36461 louder, “Execute¦36464 him on a pole!”"
         },
         {
           "verseNumber": "15",
           "contents": [
-            "Now Pilate¦36467 wanted to placate the crowd¦36470, so he had Barabbas¦36481 released while he had",
+            "Now Pilate¦36468 wanted to placate the crowd¦36471, so he had Barabbas¦36482 released while he had",
             {
-              "nd": "Yeshua¦36487",
+              "nd": "Yeshua¦36488",
               "closing": "\\nd*"
             },
-            "flogged¦36488 and then handed over to the execution¦36492 squad.",
+            "flogged¦36489 and then handed over to the execution¦36493 squad.",
             {
               "s1": "The battalion plays with their mock “king”"
             },
@@ -9679,14 +9673,14 @@
               "p": ""
             }
           ],
-          "verseText": "Now Pilate¦36467 wanted to placate the crowd¦36470, so he had Barabbas¦36481 released while he had Yeshua¦36487 flogged¦36488 and then handed over to the execution¦36492 squad."
+          "verseText": "Now Pilate¦36468 wanted to placate the crowd¦36471, so he had Barabbas¦36482 released while he had Yeshua¦36488 flogged¦36489 and then handed over to the execution¦36493 squad."
         },
         {
           "verseNumber": "16",
           "contents": [
-            "So the soldiers¦36495 led Yeshua inside the palace¦36502 that was the governor's¦36506 residence¦36506, and¦36507 called in the rest of the battalion."
+            "So the soldiers¦36496 led Yeshua inside the palace¦36503 that was the governor's¦36507 residence¦36507, and¦36508 called in the rest of the battalion."
           ],
-          "verseText": "So the soldiers¦36495 led Yeshua inside the palace¦36502 that was the governor's¦36506 residence¦36506, and¦36507 called in the rest of the battalion."
+          "verseText": "So the soldiers¦36496 led Yeshua inside the palace¦36503 that was the governor's¦36507 residence¦36507, and¦36508 called in the rest of the battalion."
         },
         {
           "verseNumber": "17",
@@ -9696,28 +9690,28 @@
               "add": "mocked Yeshua",
               "closing": "\\add*"
             },
-            "by dressing¦36514 him in a kingly robe, and after someone twisted¦36522 some thorns¦36523 together¦36522 into a mock crown¦36524, they pressed it onto his head,"
+            "by dressing¦36515 him in a kingly robe, and after someone twisted¦36523 some thorns¦36524 together¦36523 into a mock crown¦36525, they pressed it onto his head,"
           ],
-          "verseText": "They mocked Yeshua by dressing¦36514 him in a kingly robe, and after someone twisted¦36522 some thorns¦36523 together¦36522 into a mock crown¦36524, they pressed it onto his head,"
+          "verseText": "They mocked Yeshua by dressing¦36515 him in a kingly robe, and after someone twisted¦36523 some thorns¦36524 together¦36523 into a mock crown¦36525, they pressed it onto his head,"
         },
         {
           "verseNumber": "18",
           "contents": [
-            "and¦36525 began¦36526 saluting him¦36528, “Greetings¦36531, King of the Jews¦36536.”"
+            "and¦36526 began¦36527 saluting him¦36529, “Greetings¦36532, King of the Jews¦36537.”"
           ],
-          "verseText": "and¦36525 began¦36526 saluting him¦36528, “Greetings¦36531, King of the Jews¦36536.”"
+          "verseText": "and¦36526 began¦36527 saluting him¦36529, “Greetings¦36532, King of the Jews¦36537.”"
         },
         {
           "verseNumber": "19",
           "contents": [
-            "They took turns whacking his¦36539 head with a stick and spitting¦36548 on him, while others knelt down in front of him and pretended to be bowing to him."
+            "They took turns whacking his¦36540 head with a stick and spitting¦36549 on him, while others knelt down in front of him and pretended to be bowing to him."
           ],
-          "verseText": "They took turns whacking his¦36539 head with a stick and spitting¦36548 on him, while others knelt down in front of him and pretended to be bowing to him."
+          "verseText": "They took turns whacking his¦36540 head with a stick and spitting¦36549 on him, while others knelt down in front of him and pretended to be bowing to him."
         },
         {
           "verseNumber": "20",
           "contents": [
-            "After they'd finished having fun mocked¦36559 him, they took the purple¦36564 robe off him, and put his¦36571 own robe back on him. Then they led him outside towards the execution¦36579 spot.",
+            "After they'd finished having fun mocked¦36560 him, they took the purple¦36565 robe off him, and put his¦36572 own robe back on him. Then they led him outside towards the execution¦36580 spot.",
             {
               "s1": "Yeshua is publicly executed along with thieves"
             },
@@ -9725,13 +9719,13 @@
               "rem": "/s1 The Crucifixion of Jesus; Jesus Is Crucified"
             },
             {
-              "r": "(Jn 19:17-27; Mat. 27:32-44; Luk. 23:26-43)"
+              "r": "(Jn 19:17-27; Mat. 27:32-44; Luke 23:26-43)"
             },
             {
               "p": ""
             }
           ],
-          "verseText": "After they'd finished having fun mocked¦36559 him, they took the purple¦36564 robe off him, and put his¦36571 own robe back on him. Then they led him outside towards the execution¦36579 spot."
+          "verseText": "After they'd finished having fun mocked¦36560 him, they took the purple¦36565 robe off him, and put his¦36572 own robe back on him. Then they led him outside towards the execution¦36580 spot."
         },
         {
           "verseNumber": "21",
@@ -9748,23 +9742,23 @@
               ],
               "closing": "\\x*"
             },
-            "As they walked out of the city, they came across a man¦36586 coming¦36592 in from the country¦36595. He was Simon¦36588 from Cyrene, the father¦36597 of Alexander¦36598 and Rufus, and the soldiers forced him¦36605 to carry¦36602 the execution pole,"
+            "As they walked out of the city, they came across a man¦36587 coming¦36593 in from the country¦36596. He was Simon¦36589 from Cyrene, the father¦36598 of Alexander¦36599 and Rufus, and the soldiers forced him¦36606 to carry¦36603 the execution¦36605 pole,"
           ],
-          "verseText": "As they walked out of the city, they came across a man¦36586 coming¦36592 in from the country¦36595. He was Simon¦36588 from Cyrene, the father¦36597 of Alexander¦36598 and Rufus, and the soldiers forced him¦36605 to carry¦36602 the execution pole,"
+          "verseText": "As they walked out of the city, they came across a man¦36587 coming¦36593 in from the country¦36596. He was Simon¦36589 from Cyrene, the father¦36598 of Alexander¦36599 and Rufus, and the soldiers forced him¦36606 to carry¦36603 the execution¦36605 pole,"
         },
         {
           "verseNumber": "22",
           "contents": [
-            "and so they¦36608 all arrived at Golgotha¦36614 (which¦36616 means “Place¦36621 of the skull¦36621”)."
+            "and so they¦36609 all arrived at Golgotha¦36615 (which¦36617 means “Place¦36622 of the skull¦36622”)."
           ],
-          "verseText": "and so they¦36608 all arrived at Golgotha¦36614 (which¦36616 means “Place¦36621 of the skull¦36621”)."
+          "verseText": "and so they¦36609 all arrived at Golgotha¦36615 (which¦36617 means “Place¦36622 of the skull¦36622”)."
         },
         {
           "verseNumber": "23",
           "contents": [
-            "There the soldiers went to give some spiced wine to Yeshua, but¦36633 he¦36635 declined it."
+            "There the soldiers went to give some spiced wine to Yeshua, but¦36634 he¦36636 declined it."
           ],
-          "verseText": "There the soldiers went to give some spiced wine to Yeshua, but¦36633 he¦36635 declined it."
+          "verseText": "There the soldiers went to give some spiced wine to Yeshua, but¦36634 he¦36636 declined it."
         },
         {
           "verseNumber": "24",
@@ -9781,38 +9775,38 @@
               ],
               "closing": "\\x*"
             },
-            "So they¦36641 carried out the execution¦36637, taking Yeshua's clothes¦36644 and¦36651 drawing straws to see who would get what."
+            "So they¦36642 carried out the execution¦36638, taking Yeshua's clothes¦36645 and¦36652 drawing straws to see who would get what."
           ],
-          "verseText": "So they¦36641 carried out the execution¦36637, taking Yeshua's clothes¦36644 and¦36651 drawing straws to see who would get what."
+          "verseText": "So they¦36642 carried out the execution¦36638, taking Yeshua's clothes¦36645 and¦36652 drawing straws to see who would get what."
         },
         {
           "verseNumber": "25",
           "contents": [
-            "By now it¦36654 was 9am, and¦36659 they¦36661 affixed Yeshua to the pole."
+            "By now it¦36655 was 9am, and¦36660 they¦36662 affixed Yeshua to the pole."
           ],
-          "verseText": "By now it¦36654 was 9am, and¦36659 they¦36661 affixed Yeshua to the pole."
+          "verseText": "By now it¦36655 was 9am, and¦36660 they¦36662 affixed Yeshua to the pole."
         },
         {
           "verseNumber": "26",
           "contents": [
-            "The charge¦36669 had been written out and attached",
+            "The charge¦36670 had been written out and attached",
             {
               "add": "at the top",
               "closing": "\\add*"
             },
-            ": “The King of the Jews¦36677.”"
+            ": “The King of the Jews¦36678.”"
           ],
-          "verseText": "The charge¦36669 had been written out and attached at the top: “The King of the Jews¦36677.”"
+          "verseText": "The charge¦36670 had been written out and attached at the top: “The King of the Jews¦36678.”"
         },
         {
           "verseNumber": "27",
           "contents": [
-            "That morning, two¦36684 thieves were also executed¦36681 there—one on each side of Yeshua.",
+            "That morning, two¦36685 thieves were also executed¦36682 there—one on each side of Yeshua.",
             {
               "p": ""
             }
           ],
-          "verseText": "That morning, two¦36684 thieves were also executed¦36681 there—one on each side of Yeshua."
+          "verseText": "That morning, two¦36685 thieves were also executed¦36682 there—one on each side of Yeshua."
         },
         {
           "verseNumber": "28",
@@ -9842,38 +9836,38 @@
               ],
               "closing": "\\x*"
             },
-            "As people passed by on the path, they insulted Yeshua, shaking¦36712 their¦36715 heads¦36714 and shouting, “Hoy there! You who reckoned you¦36720 could demolish the temple¦36723 and rebuild it¦36725 in three¦36727 days¦36728."
+            "As people passed by on the path, they insulted Yeshua, shaking¦36713 their¦36716 heads¦36715 and shouting, “Hoy there! You who reckoned you¦36721 could demolish the temple¦36724 and rebuild it¦36726 in three¦36728 days¦36729."
           ],
-          "verseText": "As people passed by on the path, they insulted Yeshua, shaking¦36712 their¦36715 heads¦36714 and shouting, “Hoy there! You who reckoned you¦36720 could demolish the temple¦36723 and rebuild it¦36725 in three¦36727 days¦36728."
+          "verseText": "As people passed by on the path, they insulted Yeshua, shaking¦36713 their¦36716 heads¦36715 and shouting, “Hoy there! You who reckoned you¦36721 could demolish the temple¦36724 and rebuild it¦36726 in three¦36728 days¦36729."
         },
         {
           "verseNumber": "30",
           "contents": [
-            "Come down from that pole and save¦36730 yourself¦36731.”",
+            "Come down from that pole and save¦36731 yourself¦36732.”",
             {
               "p": ""
             }
           ],
-          "verseText": "Come down from that pole and save¦36730 yourself¦36731.”"
+          "verseText": "Come down from that pole and save¦36731 yourself¦36732.”"
         },
         {
           "verseNumber": "31",
           "contents": [
-            "Similarly¦36738 the chief¦36742 priests¦36742 and the religious¦36749 teachers¦36749 laughed together and mocked, “He did miracles for others¦36751, but he can't even save¦36756 himself¦36753."
+            "Similarly¦36739 the chief¦36743 priests¦36743 and the religious¦36750 teachers¦36750 laughed together and mocked, “He did miracles for others¦36752, but he can't even save¦36757 himself¦36754."
           ],
-          "verseText": "Similarly¦36738 the chief¦36742 priests¦36742 and the religious¦36749 teachers¦36749 laughed together and mocked, “He did miracles for others¦36751, but he can't even save¦36756 himself¦36753."
+          "verseText": "Similarly¦36739 the chief¦36743 priests¦36743 and the religious¦36750 teachers¦36750 laughed together and mocked, “He did miracles for others¦36752, but he can't even save¦36757 himself¦36754."
         },
         {
           "verseNumber": "32",
           "contents": [
             "The so-called ‘",
             {
-              "nd": "chosen¦36758",
+              "nd": "chosen¦36759",
               "closing": "\\nd*"
             },
-            "one’ or ‘King of Israel’. Now, if he'd just come¦36763 down from there, then we'd be able to believe¦36772 him.”",
+            "one’ or ‘King of Israel’. Now, if he'd just come¦36764 down from there, then we'd be able to believe¦36773 him.”",
             {
-              "p": "Even the other two being executed¦36776 with him were deriding¦36779 him."
+              "p": "Even the other two being executed¦36777 with him were deriding¦36780 him."
             },
             {
               "s1": "Yeshua breathes his last"
@@ -9882,20 +9876,20 @@
               "rem": "/s1 The Death of Jesus"
             },
             {
-              "r": "(Jn 19:28-30; Mat. 27:45-56; Luk. 23:44-49)"
+              "r": "(Jn 19:28-30; Mat. 27:45-56; Luke 23:44-49)"
             },
             {
               "p": ""
             }
           ],
-          "verseText": "The so-called ‘ chosen¦36758 one’ or ‘King of Israel’. Now, if he'd just come¦36763 down from there, then we'd be able to believe¦36772 him.” Even the other two being executed¦36776 with him were deriding¦36779 him."
+          "verseText": "The so-called ‘ chosen¦36759 one’ or ‘King of Israel’. Now, if he'd just come¦36764 down from there, then we'd be able to believe¦36773 him.” Even the other two being executed¦36777 with him were deriding¦36780 him."
         },
         {
           "verseNumber": "33",
           "contents": [
-            "At noon, it got dark everywhere, until¦36795 3pm,"
+            "At noon, it got dark everywhere, until¦36796 3pm,"
           ],
-          "verseText": "At noon, it got dark everywhere, until¦36795 3pm,"
+          "verseText": "At noon, it got dark everywhere, until¦36796 3pm,"
         },
         {
           "verseNumber": "34",
@@ -9914,12 +9908,12 @@
             },
             "when",
             {
-              "nd": "Yeshua¦36807",
+              "nd": "Yeshua¦36808",
               "closing": "\\nd*"
             },
-            "shouted¦36805 loudly¦36809, “",
+            "shouted¦36806 loudly¦36810, “",
             {
-              "wj": "My¦36824 God, my¦36824 God, why have you¦36831 abandoned¦36831 me?",
+              "wj": "My¦36825 God, my¦36825 God, why have you¦36832 abandoned¦36832 me?",
               "closing": "\\wj*"
             },
             "”",
@@ -9927,14 +9921,14 @@
               "p": ""
             }
           ],
-          "verseText": "when Yeshua¦36807 shouted¦36805 loudly¦36809, “My¦36824 God, my¦36824 God, why have you¦36831 abandoned¦36831 me?”"
+          "verseText": "when Yeshua¦36808 shouted¦36806 loudly¦36810, “My¦36825 God, my¦36825 God, why have you¦36832 abandoned¦36832 me?”"
         },
         {
           "verseNumber": "35",
           "contents": [
-            "Some of the people standing nearby thought he was calling¦36847 the prophet Eliyah."
+            "Some of the people standing nearby thought he was calling¦36848 the prophet Eliyah."
           ],
-          "verseText": "Some of the people standing nearby thought he was calling¦36847 the prophet Eliyah."
+          "verseText": "Some of the people standing nearby thought he was calling¦36848 the prophet Eliyah."
         },
         {
           "verseNumber": "36",
@@ -9951,27 +9945,27 @@
               ],
               "closing": "\\x*"
             },
-            "One of them ran, and soaked a sponge¦36857 in some sour wine, then put it on a stick and held it up for Yeshua to drink¦36863, saying¦36865, “Hang on. Let's see¦36869 if Eliyah does come to get him down.”",
+            "One of them ran, and soaked a sponge¦36858 in some sour wine, then put it on a stick and held it up for Yeshua to drink¦36864, saying¦36866, “Hang on. Let's see¦36870 if Eliyah does come to get him down.”",
             {
               "p": ""
             }
           ],
-          "verseText": "One of them ran, and soaked a sponge¦36857 in some sour wine, then put it on a stick and held it up for Yeshua to drink¦36863, saying¦36865, “Hang on. Let's see¦36869 if Eliyah does come to get him down.”"
+          "verseText": "One of them ran, and soaked a sponge¦36858 in some sour wine, then put it on a stick and held it up for Yeshua to drink¦36864, saying¦36866, “Hang on. Let's see¦36870 if Eliyah does come to get him down.”"
         },
         {
           "verseNumber": "37",
           "contents": [
             "But just then",
             {
-              "nd": "Yeshua¦36877",
+              "nd": "Yeshua¦36878",
               "closing": "\\nd*"
             },
-            "uttered a loud¦36880 cry¦36879 and exhaled his last breath.",
+            "uttered a loud¦36881 cry¦36880 and exhaled his last breath.",
             {
               "p": ""
             }
           ],
-          "verseText": "But just then Yeshua¦36877 uttered a loud¦36880 cry¦36879 and exhaled his last breath."
+          "verseText": "But just then Yeshua¦36878 uttered a loud¦36881 cry¦36880 and exhaled his last breath."
         },
         {
           "verseNumber": "38",
@@ -9988,19 +9982,19 @@
               ],
               "closing": "\\x*"
             },
-            "(Back in the temple¦36886, the curtain¦36884 tore down the middle from the top to the bottom¦36895.)"
+            "(Back in the temple¦36887, the curtain¦36885 tore down the middle from the top to the bottom¦36896.)"
           ],
-          "verseText": "(Back in the temple¦36886, the curtain¦36884 tore down the middle from the top to the bottom¦36895.)"
+          "verseText": "(Back in the temple¦36887, the curtain¦36885 tore down the middle from the top to the bottom¦36896.)"
         },
         {
           "verseNumber": "39",
           "contents": [
-            "The Roman centurion¦36899 who had been standing back watching everything, said¦36915 when Yeshua died, “This man¦36919 was definitely God's son.”",
+            "The Roman centurion¦36900 who had been standing back watching everything, said¦36916 when Yeshua died, “This man¦36920 was definitely God's son.”",
             {
               "p": ""
             }
           ],
-          "verseText": "The Roman centurion¦36899 who had been standing back watching everything, said¦36915 when Yeshua died, “This man¦36919 was definitely God's son.”"
+          "verseText": "The Roman centurion¦36900 who had been standing back watching everything, said¦36916 when Yeshua died, “This man¦36920 was definitely God's son.”"
         },
         {
           "verseNumber": "40",
@@ -10017,14 +10011,14 @@
               ],
               "closing": "\\x*"
             },
-            "Further back, there was also a group of women¦36930 observing¦36933 everything. These included Maria from Magdala¦36941, Maria the mother¦36953 of young Yacob¦36946 and Joses, and Salome,"
+            "Further back, there was also a group of women¦36931 observing¦36934 everything. These included Maria from Magdala¦36942, Maria the mother¦36954 of young Yacob¦36947 and Joses, and Salome,"
           ],
-          "verseText": "Further back, there was also a group of women¦36930 observing¦36933 everything. These included Maria from Magdala¦36941, Maria the mother¦36953 of young Yacob¦36946 and Joses, and Salome,"
+          "verseText": "Further back, there was also a group of women¦36931 observing¦36934 everything. These included Maria from Magdala¦36942, Maria the mother¦36954 of young Yacob¦36947 and Joses, and Salome,"
         },
         {
           "verseNumber": "41",
           "contents": [
-            "and others who had followed¦36963 Yeshua around Galilee¦36962 and helped look after¦36965 him, along with many others who had come¦36975 down with him to Yerusalem¦36978.",
+            "and others who had followed¦36964 Yeshua around Galilee¦36963 and helped look after¦36966 him, along with many others who had come¦36976 down with him to Yerusalem¦36979.",
             {
               "s1": "Yosef boldly lays the body in a burial chamber"
             },
@@ -10032,39 +10026,39 @@
               "rem": "/s1 The Burial of Jesus"
             },
             {
-              "r": "(Jn 19:38-42; Mat. 27:57-61; Luk. 23:50-56)"
+              "r": "(Jn 19:38-42; Mat. 27:57-61; Luke 23:50-56)"
             },
             {
               "p": ""
             }
           ],
-          "verseText": "and others who had followed¦36963 Yeshua around Galilee¦36962 and helped look after¦36965 him, along with many others who had come¦36975 down with him to Yerusalem¦36978."
+          "verseText": "and others who had followed¦36964 Yeshua around Galilee¦36963 and helped look after¦36966 him, along with many others who had come¦36976 down with him to Yerusalem¦36979."
         },
         {
           "verseNumber": "42",
           "contents": [
-            "As evening¦36981 came, it was now the Preparation Day, i.e., the day before the Rest Day."
+            "As evening¦36982 came, it was now the Preparation Day, i.e., the day before the Rest Day."
           ],
-          "verseText": "As evening¦36981 came, it was now the Preparation Day, i.e., the day before the Rest Day."
+          "verseText": "As evening¦36982 came, it was now the Preparation Day, i.e., the day before the Rest Day."
         },
         {
           "verseNumber": "43",
           "contents": [
-            "Yosef (who'd come¦36994 from the city of Arimathea¦36999 and one who was waiting¦37008 for the coming of God's kingdom¦37010), a prominent¦37001 council¦37002 member¦37002, steeled himself¦37006 up and went in to see the governor to get permission to transfer",
+            "Yosef (who'd come¦36995 from the city of Arimathea¦37000 and one who was waiting¦37009 for the coming of God's kingdom¦37011), a prominent¦37002 council¦37003 member¦37003, steeled himself¦37007 up and went in to see the governor to get permission to transfer",
             {
-              "nd": "Yeshua's¦37025",
+              "nd": "Yeshua's¦37026",
               "closing": "\\nd*"
             },
-            "body¦37023."
+            "body¦37024."
           ],
-          "verseText": "Yosef (who'd come¦36994 from the city of Arimathea¦36999 and one who was waiting¦37008 for the coming of God's kingdom¦37010), a prominent¦37001 council¦37002 member¦37002, steeled himself¦37006 up and went in to see the governor to get permission to transfer Yeshua's¦37025 body¦37023."
+          "verseText": "Yosef (who'd come¦36995 from the city of Arimathea¦37000 and one who was waiting¦37009 for the coming of God's kingdom¦37011), a prominent¦37002 council¦37003 member¦37003, steeled himself¦37007 up and went in to see the governor to get permission to transfer Yeshua's¦37026 body¦37024."
         },
         {
           "verseNumber": "44",
           "contents": [
-            "Governor Pilate¦37028 didn't think he'd be dead yet, so he called¦37037 an army commander to find out if Yeshua had indeed died."
+            "Governor Pilate¦37029 didn't think he'd be dead yet, so he called¦37038 an army commander to find out if Yeshua had indeed died."
           ],
-          "verseText": "Governor Pilate¦37028 didn't think he'd be dead yet, so he called¦37037 an army commander to find out if Yeshua had indeed died."
+          "verseText": "Governor Pilate¦37029 didn't think he'd be dead yet, so he called¦37038 an army commander to find out if Yeshua had indeed died."
         },
         {
           "verseNumber": "45",
@@ -10081,16 +10075,16 @@
               "add": "and his companions",
               "closing": "\\add*"
             },
-            "went and bought¦37067 some linen burial cloth and then, removing Yeshua's body from the pole, wrapped¦37075 it in the cloth and placed it in a burial chamber that had been chiseled into a rockface. Then they rolled¦37098 a rock¦37096 across the opening."
+            "went and bought¦37068 some linen burial cloth and then, removing Yeshua's body from the pole, wrapped¦37076 it in the cloth and placed it in a burial chamber that had been chiseled into a rockface. Then they rolled¦37099 a rock¦37097 across the opening."
           ],
-          "verseText": "So Yosef and his companions went and bought¦37067 some linen burial cloth and then, removing Yeshua's body from the pole, wrapped¦37075 it in the cloth and placed it in a burial chamber that had been chiseled into a rockface. Then they rolled¦37098 a rock¦37096 across the opening."
+          "verseText": "So Yosef and his companions went and bought¦37068 some linen burial cloth and then, removing Yeshua's body from the pole, wrapped¦37076 it in the cloth and placed it in a burial chamber that had been chiseled into a rockface. Then they rolled¦37099 a rock¦37097 across the opening."
         },
         {
           "verseNumber": "47",
           "contents": [
-            "Others were watching and noted where¦37127 the body had been laid, including Maria from Magdala¦37113 and Maria the mother¦37116 of Joses."
+            "Others were watching and noted where¦37128 the body had been laid, including Maria from Magdala¦37114 and Maria the mother¦37117 of Joses."
           ],
-          "verseText": "Others were watching and noted where¦37127 the body had been laid, including Maria from Magdala¦37113 and Maria the mother¦37116 of Joses."
+          "verseText": "Others were watching and noted where¦37128 the body had been laid, including Maria from Magdala¦37114 and Maria the mother¦37117 of Joses."
         }
       ]
     },
@@ -10104,7 +10098,7 @@
           "rem": "/s1 The Resurrection of Jesus"
         },
         {
-          "r": "(Jn 20:1-10; Mat. 28:1-8; Luk. 24:1-12)"
+          "r": "(Jn 20:1-10; Mat. 28:1-8; Luke 24:1-12)"
         },
         {
           "p": null
@@ -10112,16 +10106,16 @@
         {
           "verseNumber": "1",
           "contents": [
-            "After the Rest Day was over, Maria from Magdala¦37138 and Maria the mother¦37141 of Yacob¦37143 and Salome, went and bought¦37147 some traditional burial spices¦37148 that evening to take to the burial chamber and place with the body."
+            "After the Rest Day was over, Maria from Magdala¦37139 and Maria the mother¦37142 of Yacob¦37144 and Salome, went and bought¦37148 some traditional burial spices¦37149 that evening to take to the burial chamber and place with the body."
           ],
-          "verseText": "After the Rest Day was over, Maria from Magdala¦37138 and Maria the mother¦37141 of Yacob¦37143 and Salome, went and bought¦37147 some traditional burial spices¦37148 that evening to take to the burial chamber and place with the body."
+          "verseText": "After the Rest Day was over, Maria from Magdala¦37139 and Maria the mother¦37142 of Yacob¦37144 and Salome, went and bought¦37148 some traditional burial spices¦37149 that evening to take to the burial chamber and place with the body."
         },
         {
           "verseNumber": "2",
           "contents": [
-            "Then very early¦37158 on Sunday morning they¦37166 went to the chamber, arriving just as the sun¦37175 was rising."
+            "Then very early¦37159 on Sunday morning they¦37167 went to the chamber, arriving just as the sun¦37176 was rising."
           ],
-          "verseText": "Then very early¦37158 on Sunday morning they¦37166 went to the chamber, arriving just as the sun¦37175 was rising."
+          "verseText": "Then very early¦37159 on Sunday morning they¦37167 went to the chamber, arriving just as the sun¦37176 was rising."
         },
         {
           "verseNumber": "3",
@@ -10133,31 +10127,31 @@
         {
           "verseNumber": "4",
           "contents": [
-            "However, when they looked¦37198 they saw that the very large¦37210 rock had already been rolled¦37202 away."
+            "However, when they looked¦37199 they saw that the very large¦37211 rock had already been rolled¦37203 away."
           ],
-          "verseText": "However, when they looked¦37198 they saw that the very large¦37210 rock had already been rolled¦37202 away."
+          "verseText": "However, when they looked¦37199 they saw that the very large¦37211 rock had already been rolled¦37203 away."
         },
         {
           "verseNumber": "5",
           "contents": [
-            "So they went on into the burial chamber and were totally stunned to find a young¦37228 man¦37228 dressed in white¦37236, sitting¦37230 in there on the side.",
+            "So they went on into the burial chamber and were totally stunned to find a young¦37229 man¦37229 dressed in white¦37237, sitting¦37231 in there on the side.",
             {
               "p": ""
             }
           ],
-          "verseText": "So they went on into the burial chamber and were totally stunned to find a young¦37228 man¦37228 dressed in white¦37236, sitting¦37230 in there on the side."
+          "verseText": "So they went on into the burial chamber and were totally stunned to find a young¦37229 man¦37229 dressed in white¦37237, sitting¦37231 in there on the side."
         },
         {
           "verseNumber": "6",
           "contents": [
-            "He assured them, “Don't be surprised. I know you're looking¦37256 for¦37256",
+            "He assured them, “Don't be surprised. I know you're looking¦37257 for¦37257",
             {
-              "nd": "Yeshua¦37255",
+              "nd": "Yeshua¦37256",
               "closing": "\\nd*"
             },
-            "from Nazareth¦37258, the one who was executed¦37261 on a pole. But see¦37266 there where¦37274 his body was—he's not there because he came back to life."
+            "from Nazareth¦37259, the one who was executed¦37262 on a pole. But see¦37267 there where¦37275 his body was—he's not there because he came back to life."
           ],
-          "verseText": "He assured them, “Don't be surprised. I know you're looking¦37256 for¦37256 Yeshua¦37255 from Nazareth¦37258, the one who was executed¦37261 on a pole. But see¦37266 there where¦37274 his body was—he's not there because he came back to life."
+          "verseText": "He assured them, “Don't be surprised. I know you're looking¦37257 for¦37257 Yeshua¦37256 from Nazareth¦37259, the one who was executed¦37262 on a pole. But see¦37267 there where¦37275 his body was—he's not there because he came back to life."
         },
         {
           "verseNumber": "7",
@@ -10174,17 +10168,17 @@
               ],
               "closing": "\\x*"
             },
-            "So you three should go and tell his¦37283 trainees, and Peter in particular, that he's going to go up ahead of them to Galilee¦37294 and you'll all see him up there¦37295, just as he already told you.”",
+            "So you three should go and tell his¦37284 trainees, and Peter in particular, that he's going to go up ahead of them to Galilee¦37295 and you'll all see him up there¦37296, just as he already told you.”",
             {
               "p": ""
             }
           ],
-          "verseText": "So you three should go and tell his¦37283 trainees, and Peter in particular, that he's going to go up ahead of them to Galilee¦37294 and you'll all see him up there¦37295, just as he already told you.”"
+          "verseText": "So you three should go and tell his¦37284 trainees, and Peter in particular, that he's going to go up ahead of them to Galilee¦37295 and you'll all see him up there¦37296, just as he already told you.”"
         },
         {
           "verseNumber": "8",
           "contents": [
-            "So they left the chamber and took off running, still stunned and shaking and too scared to stop and to talk to anyone.",
+            "So they left the chamber and took off running, still stunned and shaking and too scared to stop and to talk to anyone¦37324.",
             {
               "rem": "It's not certain whether or not the following longer ending of this document was actually penned by Mark, or whether it was appended slightly later. Expert scholars are divided on this, and hence it's included here for your consideration:"
             },
@@ -10206,7 +10200,7 @@
               "rem": "/s2 [The most reliable early manuscripts and other ancient witnesses do not have Mark 16.9-20.]"
             }
           ],
-          "verseText": "So they left the chamber and took off running, still stunned and shaking and too scared to stop and to talk to anyone."
+          "verseText": "So they left the chamber and took off running, still stunned and shaking and too scared to stop and to talk to anyone¦37324."
         },
         {
           "verseNumber": "9",
@@ -10247,7 +10241,7 @@
               "rem": "/s1 Jesus Appears to Two Disciples; Jesus Appears to Two Followers"
             },
             {
-              "r": "(Luk. 24:13-35)"
+              "r": "(Luke 24:13-35)"
             },
             {
               "p": ""
@@ -10284,7 +10278,7 @@
               "rem": "/s1 Jesus Appears to the Eleven; Jesus Commissions the Disciples"
             },
             {
-              "r": "(Jn 20:19-23; Mat. 28:16-20; Luk. 24:36-49; Acts 1:6-8)"
+              "r": "(Jn 20:19-23; Mat. 28:16-20; Luke 24:36-49; Acts 1:6-8)"
             },
             {
               "p": ""
@@ -10306,6 +10300,12 @@
           "verseNumber": "15",
           "contents": [
             {
+              "add": "Then he instructed them, “"
+            },
+            {
+              "wj": "Travel around all the world"
+            },
+            {
               "x": [
                 "+",
                 {
@@ -10317,17 +10317,10 @@
               ],
               "closing": "\\x*"
             },
+            "and tell the good message to everyone.",
             {
-              "add": "Then he instructed them, “"
-            },
-            {
-              "wj": [
-                "Travel around all the world and tell the good message to everyone.",
-                {
-                  "add": "*",
-                  "closing": "\\wj*"
-                }
-              ]
+              "wj": "*",
+              "closing": "\\add*"
             }
           ],
           "verseText": "Then he instructed them, “Travel around all the world and tell the good message to everyone. *"
@@ -10336,14 +10329,14 @@
           "verseNumber": "16",
           "contents": [
             {
-              "wj": ""
+              "add": ""
             },
             {
-              "add": [
+              "wj": [
                 "Anyone who believes and gets immersed in water will be saved, however, those who refuse to believe will be condemned to death.",
                 {
-                  "add": "*",
-                  "closing": "\\wj*"
+                  "wj": "*",
+                  "closing": "\\add*"
                 }
               ]
             }
@@ -10354,14 +10347,14 @@
           "verseNumber": "17",
           "contents": [
             {
-              "wj": ""
+              "add": ""
             },
             {
-              "add": [
+              "wj": [
                 "Those who believe will be able to do miracles: they'll be able to use my authority to command demons to leave and to speak new languages,",
                 {
-                  "add": "*",
-                  "closing": "\\wj*"
+                  "wj": "*",
+                  "closing": "\\add*"
                 }
               ]
             }
@@ -10372,16 +10365,15 @@
           "verseNumber": "18",
           "contents": [
             {
-              "wj": ""
+              "add": ""
             },
             {
-              "add": [
+              "wj": [
                 "and they'll be able to pick up snakes. If they drink anything poisonous, it won't hurt them, and they will place their hands on people and make them better.",
                 {
-                  "add": "*",
-                  "closing": "\\wj*"
-                },
-                "”"
+                  "wj": "*”",
+                  "closing": "\\add*"
+                }
               ]
             },
             {
@@ -10396,7 +10388,7 @@
               "rem": "/s1 The Ascension of Jesus; Jesus Is Taken Up to Heaven"
             },
             {
-              "r": "(Luk. 24:50-53; Acts 1:9-11)"
+              "r": "(Luke 24:50-53; Acts 1:9-11)"
             },
             {
               "p": ""
@@ -10408,19 +10400,22 @@
           "verseNumber": "19",
           "contents": [
             {
-              "x": [
-                "+",
+              "add": [
+                "When Yeshua had finished speaking, he was lifted up into heaven and seated in the honoured place",
                 {
-                  "xo": "16:19:"
+                  "x": [
+                    "+",
+                    {
+                      "xo": "16:19:"
+                    },
+                    {
+                      "xt": "Acts 1:9-11."
+                    }
+                  ],
+                  "closing": "\\x*"
                 },
-                {
-                  "xt": "Acts 1:9-11."
-                }
+                "next to God."
               ],
-              "closing": "\\x*"
-            },
-            {
-              "add": "When Yeshua had finished speaking, he was lifted up into heaven and seated in the honoured place next to God.",
               "closing": "\\add*"
             }
           ],

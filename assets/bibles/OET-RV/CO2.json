@@ -1,7 +1,7 @@
 {
   "book": {
     "bookCode": "2CO",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.00",
+    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.02",
     "meta": [
       {
         "usfm": "3.0"
@@ -618,9 +618,9 @@
         {
           "verseNumber": "3",
           "contents": [
-            "So I wrote¦122140 this same¦122143 thing¦122143, so that when I came, I wouldn't get your¦122164 upsets when I should be being happy, having trusted¦122155 in you all that my happiness is in you."
+            "So I wrote¦122140 this same¦122143 thing, so that when I came, I wouldn't get your¦122164 upsets when I should be being happy, having trusted¦122155 in you all that my happiness is in you."
           ],
-          "verseText": "So I wrote¦122140 this same¦122143 thing¦122143, so that when I came, I wouldn't get your¦122164 upsets when I should be being happy, having trusted¦122155 in you all that my happiness is in you."
+          "verseText": "So I wrote¦122140 this same¦122143 thing, so that when I came, I wouldn't get your¦122164 upsets when I should be being happy, having trusted¦122155 in you all that my happiness is in you."
         },
         {
           "verseNumber": "4",
@@ -691,13 +691,18 @@
         {
           "verseNumber": "10",
           "contents": [
-            "But anyone that you forgive for anything, I also forgive, because¦122261 what I've also forgiven (if I have forgiven anything), it was for you all in the presence¦122273 of",
+            "But",
+            {
+              "nd": "anyone¦122274",
+              "closing": "\\nd*"
+            },
+            "that you forgive for anything, I also forgive, because¦122261 what I've also forgiven (if I have forgiven anything), it was for you all in the presence¦122273 of",
             {
               "nd": "Messiah¦122274",
               "closing": "\\nd*"
             }
           ],
-          "verseText": "But anyone that you forgive for anything, I also forgive, because¦122261 what I've also forgiven (if I have forgiven anything), it was for you all in the presence¦122273 of Messiah¦122274"
+          "verseText": "But anyone¦122274 that you forgive for anything, I also forgive, because¦122261 what I've also forgiven (if I have forgiven anything), it was for you all in the presence¦122273 of Messiah¦122274"
         },
         {
           "verseNumber": "11",
@@ -1075,9 +1080,9 @@
         {
           "verseNumber": "12",
           "contents": [
-            "So then, since that's our expectation, we¦122630 can be very bold,"
+            "So¦122625 then, since that's our expectation, we¦122630 can be very bold,"
           ],
-          "verseText": "So then, since that's our expectation, we¦122630 can be very bold,"
+          "verseText": "So¦122625 then, since that's our expectation, we¦122630 can be very bold,"
         },
         {
           "verseNumber": "13",
@@ -1658,9 +1663,14 @@
               "nd": "messiah's¦123337",
               "closing": "\\nd*"
             },
-            "love controls us since we are convinced that he died for everyone. Hence we've all died"
+            "love controls us since we are convinced that he died for",
+            {
+              "nd": "everyone¦123337",
+              "closing": "\\nd*"
+            },
+            ". Hence we've all died"
           ],
-          "verseText": "because¦123345 the messiah's¦123337 love controls us since we are convinced that he died for everyone. Hence we've all died"
+          "verseText": "because¦123345 the messiah's¦123337 love controls us since we are convinced that he died for everyone¦123337. Hence we've all died"
         },
         {
           "verseNumber": "15",
@@ -1687,7 +1697,7 @@
         {
           "verseNumber": "17",
           "contents": [
-            "So them if anyone¦123392 is in",
+            "So then if anyone¦123392 is in",
             {
               "nd": "Messiah¦123394",
               "closing": "\\nd*"
@@ -1704,7 +1714,7 @@
             },
             "become¦123401 new!"
           ],
-          "verseText": "So them if anyone¦123392 is in Messiah¦123394, they're a new creation¦123396—the old has gone, and wow, it's now become¦123401 new!"
+          "verseText": "So then if anyone¦123392 is in Messiah¦123394, they're a new creation¦123396—the old has gone, and wow, it's now become¦123401 new!"
         },
         {
           "verseNumber": "18",
@@ -1804,7 +1814,7 @@
             },
             {
               "m": [
-                "Listen, today is the right time",
+                "Listen¦123514, today is the right time",
                 {
                   "add": "to ask",
                   "closing": "\\add*"
@@ -1824,21 +1834,21 @@
               "p": ""
             }
           ],
-          "verseText": "because he said, ‘I listened to you at the right time, and I helped you on the day when you were saved.’ Listen, today is the right time to ask. And listen again, today is the right day to get saved."
+          "verseText": "because he said, ‘I listened to you at the right time, and I helped you on the day when you were saved.’ Listen¦123514, today is the right time to ask. And listen again, today is the right day to get saved."
         },
         {
           "verseNumber": "3",
           "contents": [
-            "Don't give anyone a reason to stumble¦123526, so that the ministry won't be tarnished,"
+            "Don't give anyone¦123522 a reason to stumble¦123526, so that the ministry won't be tarnished,"
           ],
-          "verseText": "Don't give anyone a reason to stumble¦123526, so that the ministry won't be tarnished,"
+          "verseText": "Don't give anyone¦123522 a reason to stumble¦123526, so that the ministry won't be tarnished,"
         },
         {
           "verseNumber": "4",
           "contents": [
-            "but as God's servants¦123541 we commend¦123535 ourselves¦123538 in every¦123534 way—by great¦123544 endurance¦123543 when facing afflictions, hardships, calamities,"
+            "but as God's servants¦123541 we commend¦123535 ourselves¦123538 in every¦123534 way—by great¦123544 endurance¦123543 when facing afflictions, hardships¦123548, calamities,"
           ],
-          "verseText": "but as God's servants¦123541 we commend¦123535 ourselves¦123538 in every¦123534 way—by great¦123544 endurance¦123543 when facing afflictions, hardships, calamities,"
+          "verseText": "but as God's servants¦123541 we commend¦123535 ourselves¦123538 in every¦123534 way—by great¦123544 endurance¦123543 when facing afflictions, hardships¦123548, calamities,"
         },
         {
           "verseNumber": "5",
@@ -2276,14 +2286,14 @@
                   "add": "talking about",
                   "closing": "\\add*"
                 },
-                "our¦124063 comfort, we were quite thrilled at Titos' happiness because his¦124078 pirit has been refreshed¦124075 by all of you¦124081."
+                "our¦124063 comfort, we were quite thrilled at Titos' happiness because his¦124078 spirit¦124077 has been refreshed¦124075 by all of you¦124081."
               ]
             },
             {
               "p": ""
             }
           ],
-          "verseText": "then we've been comforted because of this. And talking about our¦124063 comfort, we were quite thrilled at Titos' happiness because his¦124078 pirit has been refreshed¦124075 by all of you¦124081."
+          "verseText": "then we've been comforted because of this. And talking about our¦124063 comfort, we were quite thrilled at Titos' happiness because his¦124078 spirit¦124077 has been refreshed¦124075 by all of you¦124081."
         },
         {
           "verseNumber": "14",
@@ -2371,9 +2381,9 @@
         {
           "verseNumber": "4",
           "contents": [
-            "and enthusiastically begged us to to allow them the grace¦124200 and fellowship¦124203 that would come from their service¦124205 to other believers."
+            "and enthusiastically begged us to allow them the grace¦124200 and fellowship¦124203 that would come from their service¦124205 to other believers."
           ],
-          "verseText": "and enthusiastically begged us to to allow them the grace¦124200 and fellowship¦124203 that would come from their service¦124205 to other believers."
+          "verseText": "and enthusiastically begged us to allow them the grace¦124200 and fellowship¦124203 that would come from their service¦124205 to other believers."
         },
         {
           "verseNumber": "5",
@@ -2484,9 +2494,9 @@
               "add": "another time",
               "closing": "\\add*"
             },
-            "their excess might meet your needto bring about equality¦124410."
+            "their excess might meet your need to bring about equality¦124410."
           ],
-          "verseText": "At the present¦124387 time, your excess will help those who're in need—another time their excess might meet your needto bring about equality¦124410."
+          "verseText": "At the present¦124387 time, your excess will help those who're in need—another time their excess might meet your need to bring about equality¦124410."
         },
         {
           "verseNumber": "15",
@@ -2920,9 +2930,14 @@
               "nd": "messiah¦124873",
               "closing": "\\nd*"
             },
-            ", and your generosity¦124875 toward them and towards everyone,"
+            ", and your generosity¦124875 toward them and towards",
+            {
+              "nd": "everyone¦124873",
+              "closing": "\\nd*"
+            },
+            ","
           ],
-          "verseText": "In proving yourselves by this ministry, they will honour God¦124862 as it displays your commitment to the good¦124871 message¦124871 of the messiah¦124873, and your generosity¦124875 toward them and towards everyone,"
+          "verseText": "In proving yourselves by this ministry, they will honour God¦124862 as it displays your commitment to the good¦124871 message¦124871 of the messiah¦124873, and your generosity¦124875 toward them and towards everyone¦124873,"
         },
         {
           "verseNumber": "14",
@@ -3062,14 +3077,19 @@
               "add": "outside",
               "closing": "\\add*"
             },
-            "appearance¦125019 of things. Anyone who has personally decided to",
+            "appearance¦125019 of things.",
+            {
+              "nd": "Anyone¦125028",
+              "closing": "\\nd*"
+            },
+            "who has personally decided to",
             {
               "add": "follow",
               "closing": "\\add*"
             },
-            "Messiah needs to take this into account: just as they belong to Messiah, so also do we¦125044."
+            "Messiah needs¦125031 to take this into account: just as they belong to Messiah, so also do we¦125044."
           ],
-          "verseText": "You all are looking¦125020 at the outside appearance¦125019 of things. Anyone who has personally decided to follow Messiah needs to take this into account: just as they belong to Messiah, so also do we¦125044."
+          "verseText": "You all are looking¦125020 at the outside appearance¦125019 of things. Anyone¦125028 who has personally decided to follow Messiah needs¦125031 to take this into account: just as they belong to Messiah, so also do we¦125044."
         },
         {
           "verseNumber": "8",
@@ -3100,7 +3120,7 @@
         {
           "verseNumber": "11",
           "contents": [
-            "Those people should",
+            "Those people should¦125103",
             {
               "add": "reconsider and",
               "closing": "\\add*"
@@ -3110,7 +3130,7 @@
               "p": ""
             }
           ],
-          "verseText": "Those people should reconsider and realise that as we are in our letters¦125112 when we're absent¦125113, that's also how we'll work when we're present¦125116."
+          "verseText": "Those people should¦125103 reconsider and realise that as we are in our letters¦125112 when we're absent¦125113, that's also how we'll work when we're present¦125116."
         },
         {
           "verseNumber": "12",
@@ -3132,14 +3152,14 @@
               "nd": "God¦125165",
               "closing": "\\nd*"
             },
-            "alloted¦125162 a measure to us",
+            "allotted¦125162 a measure to us",
             {
               "add": "which¦125161 was",
               "closing": "\\add*"
             },
             "to reach¦125167 all of you¦125170."
           ],
-          "verseText": "But we¦125147 won't boast¦125154 about immeasurable¦125153 things—only those domains¦125160 where God¦125165 alloted¦125162 a measure to us which¦125161 was to reach¦125167 all of you¦125170."
+          "verseText": "But we¦125147 won't boast¦125154 about immeasurable¦125153 things—only those domains¦125160 where God¦125165 allotted¦125162 a measure to us which¦125161 was to reach¦125167 all of you¦125170."
         },
         {
           "verseNumber": "14",
@@ -3191,14 +3211,14 @@
               ],
               "closing": "\\x*"
             },
-            "‘if anyone does boast, they should boast in the",
+            "‘if anyone does boast, they should¦125237 boast in the",
             {
               "nd": "master¦125236",
               "closing": "\\nd*"
             },
             "’,"
           ],
-          "verseText": "But ‘if anyone does boast, they should boast in the master¦125236 ’,"
+          "verseText": "But ‘if anyone does boast, they should¦125237 boast in the master¦125236 ’,"
         },
         {
           "verseNumber": "18",
@@ -3355,9 +3375,9 @@
               "add": "something",
               "closing": "\\add*"
             },
-            ", I wasn't a burden to anyone, because¦125402 the believers¦125407 who came from Macedonia¦125410 supplied what I needed. Thus I have kept¦125418 myself¦125416 from being¦125393 a burden to you in any way, and will keep doing so."
+            ", I wasn't a burden to anyone¦125400, because¦125402 the believers¦125407 who came from Macedonia¦125410 supplied what I needed. Thus I have kept¦125418 myself¦125416 from being¦125393 a burden to you in any way, and will keep doing so."
           ],
-          "verseText": "and when I was with you and needed something, I wasn't a burden to anyone, because¦125402 the believers¦125407 who came from Macedonia¦125410 supplied what I needed. Thus I have kept¦125418 myself¦125416 from being¦125393 a burden to you in any way, and will keep doing so."
+          "verseText": "and when I was with you and needed something, I wasn't a burden to anyone¦125400, because¦125402 the believers¦125407 who came from Macedonia¦125410 supplied what I needed. Thus I have kept¦125418 myself¦125416 from being¦125393 a burden to you in any way, and will keep doing so."
         },
         {
           "verseNumber": "10",
@@ -3499,14 +3519,14 @@
         {
           "verseNumber": "20",
           "contents": [
-            "Yes, you tolerate¦125567 those who'll enslave¦125572 you all, those who'll exploit¦125575 you, those who'll take",
+            "Yes, you tolerate¦125567 those who'll enslave¦125572 you all, those who'll exploit you, those who'll take",
             {
               "add": "advantage of",
               "closing": "\\add*"
             },
             "you all, those who promote themselves, and anyone whacks you in the face¦125586."
           ],
-          "verseText": "Yes, you tolerate¦125567 those who'll enslave¦125572 you all, those who'll exploit¦125575 you, those who'll take advantage of you all, those who promote themselves, and anyone whacks you in the face¦125586."
+          "verseText": "Yes, you tolerate¦125567 those who'll enslave¦125572 you all, those who'll exploit you, those who'll take advantage of you all, those who promote themselves, and anyone whacks you in the face¦125586."
         },
         {
           "verseNumber": "21",
@@ -3928,7 +3948,7 @@
         {
           "verseNumber": "10",
           "contents": [
-            "So then I take pleasure¦125975 in weaknesses¦125977, in insults¦125979 and hardships, in persecutions¦125984 and distresses for",
+            "So¦125974 then I take pleasure¦125975 in weaknesses¦125977, in insults¦125979 and hardships¦125982, in persecutions¦125984 and distresses¦125987 for",
             {
               "nd": "Messiah¦125989",
               "closing": "\\nd*"
@@ -3944,7 +3964,7 @@
               "p": ""
             }
           ],
-          "verseText": "So then I take pleasure¦125975 in weaknesses¦125977, in insults¦125979 and hardships, in persecutions¦125984 and distresses for Messiah¦125989 because¦125991 whenever¦125990 I might be faltering¦125992, that's when I'm powerful¦125994."
+          "verseText": "So¦125974 then I take pleasure¦125975 in weaknesses¦125977, in insults¦125979 and hardships¦125982, in persecutions¦125984 and distresses¦125987 for Messiah¦125989 because¦125991 whenever¦125990 I might be faltering¦125992, that's when I'm powerful¦125994."
         },
         {
           "verseNumber": "11",

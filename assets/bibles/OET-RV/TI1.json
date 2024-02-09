@@ -1,7 +1,7 @@
 {
   "book": {
     "bookCode": "1TI",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.01",
+    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.03",
     "meta": [
       {
         "usfm": "3.0"
@@ -132,7 +132,7 @@
               "add": "I'm writing",
               "closing": "\\add*"
             },
-            "to Timothy,",
+            "to Timothy¦137782,",
             {
               "x": [
                 "+",
@@ -197,7 +197,7 @@
               "p": ""
             }
           ],
-          "verseText": "I'm writing to Timothy, my true child¦137784 in the faith¦137786: may you receive grace¦137787, mercy¦137788, and peace¦137789 from God¦137791 the father¦137792 and from our¦137800 master¦137799, Yeshua¦137796 the messiah¦137795."
+          "verseText": "I'm writing to Timothy¦137782, my true child¦137784 in the faith¦137786: may you receive grace¦137787, mercy¦137788, and peace¦137789 from God¦137791 the father¦137792 and from our¦137800 master¦137799, Yeshua¦137796 the messiah¦137795."
         },
         {
           "verseNumber": "3",
@@ -323,7 +323,7 @@
         {
           "verseNumber": "13",
           "contents": [
-            "even though I used to be a slanderer¦137950 and persecutor¦137952 and abuser,",
+            "even though I used to be a slanderer¦137950 and persecutor¦137952 and abuser¦137954,",
             {
               "x": [
                 "+",
@@ -338,7 +338,7 @@
             },
             "but I was shown¦137956 mercy¦137956 because¦137957 I did it¦137959 in unbelief¦137961 due to my ignorance."
           ],
-          "verseText": "even though I used to be a slanderer¦137950 and persecutor¦137952 and abuser, but I was shown¦137956 mercy¦137956 because¦137957 I did it¦137959 in unbelief¦137961 due to my ignorance."
+          "verseText": "even though I used to be a slanderer¦137950 and persecutor¦137952 and abuser¦137954, but I was shown¦137956 mercy¦137956 because¦137957 I did it¦137959 in unbelief¦137961 due to my ignorance."
         },
         {
           "verseNumber": "14",
@@ -370,7 +370,12 @@
         {
           "verseNumber": "15",
           "contents": [
-            "This saying¦137979 is trustworthy and¦137980 worth¦137983 being accepted¦137982 by everyone:",
+            "This saying¦137979 is trustworthy and¦137980 worth¦137983 being accepted¦137982 by",
+            {
+              "nd": "everyone¦137985",
+              "closing": "\\nd*"
+            },
+            ":",
             {
               "nd": "Yeshua¦137986",
               "closing": "\\nd*"
@@ -382,7 +387,7 @@
             },
             "came¦137987 into this world¦137990 to save¦137992 sinners¦137991, of which I was the worst."
           ],
-          "verseText": "This saying¦137979 is trustworthy and¦137980 worth¦137983 being accepted¦137982 by everyone: Yeshua¦137986 the messiah¦137985 came¦137987 into this world¦137990 to save¦137992 sinners¦137991, of which I was the worst."
+          "verseText": "This saying¦137979 is trustworthy and¦137980 worth¦137983 being accepted¦137982 by everyone¦137985: Yeshua¦137986 the messiah¦137985 came¦137987 into this world¦137990 to save¦137992 sinners¦137991, of which I was the worst."
         },
         {
           "verseNumber": "16",
@@ -524,7 +529,12 @@
         {
           "verseNumber": "5",
           "contents": [
-            "There's only one God and also one mediator¦138145 between¦138146 God and mankind¦138148 and that's the man",
+            "There's only one God and also one mediator¦138145",
+            {
+              "nd": "between¦138146",
+              "closing": "\\nd*"
+            },
+            "God and mankind¦138148 and that's the man",
             {
               "nd": "Yeshua¦138151",
               "closing": "\\nd*"
@@ -552,7 +562,7 @@
         {
           "verseNumber": "7",
           "contents": [
-            "I was appointed",
+            "I was appointed¦138166",
             {
               "x": [
                 "+",
@@ -575,7 +585,7 @@
               "p": ""
             }
           ],
-          "verseText": "I was appointed to proclaim¦138168 that message and as an missionary—no lies, I'm telling you the truth here in the messiah¦138174—and also as a teacher¦138177 of knowledge¦138181 and the truth to non-Jews¦138178."
+          "verseText": "I was appointed¦138166 to proclaim¦138168 that message and as an missionary—no lies, I'm telling you the truth here in the messiah¦138174—and also as a teacher¦138177 of knowledge¦138181 and the truth to non-Jews¦138178."
         },
         {
           "verseNumber": "8",
@@ -590,7 +600,7 @@
         {
           "verseNumber": "9",
           "contents": [
-            "Similarly¦138201 women¦138204 should wear respectable¦138207 clothes¦138206 that are sensible and modest,",
+            "Similarly¦138201 women¦138204 should wear respectable¦138207 clothes¦138206 that are sensible and modest¦138209,",
             {
               "x": [
                 "+",
@@ -605,7 +615,7 @@
             },
             "not with braids¦138217 or gold¦138221 or pearls¦138223 or expensive¦138226 clothing"
           ],
-          "verseText": "Similarly¦138201 women¦138204 should wear respectable¦138207 clothes¦138206 that are sensible and modest, not with braids¦138217 or gold¦138221 or pearls¦138223 or expensive¦138226 clothing"
+          "verseText": "Similarly¦138201 women¦138204 should wear respectable¦138207 clothes¦138206 that are sensible and modest¦138209, not with braids¦138217 or gold¦138221 or pearls¦138223 or expensive¦138226 clothing"
         },
         {
           "verseNumber": "10",
@@ -709,7 +719,7 @@
         {
           "verseNumber": "2",
           "contents": [
-            "So it's fitting¦138301 that an overseer¦138304 be above reproach,",
+            "So¦138302 it's fitting¦138301 that an overseer¦138304 be above reproach,",
             {
               "x": [
                 "+",
@@ -724,7 +734,7 @@
             },
             "be the husband¦138309 of one wife¦138308, sober¦138310, sensible¦138312, respectable¦138313, hospitable¦138314, a good teacher¦138315,"
           ],
-          "verseText": "So it's fitting¦138301 that an overseer¦138304 be above reproach, be the husband¦138309 of one wife¦138308, sober¦138310, sensible¦138312, respectable¦138313, hospitable¦138314, a good teacher¦138315,"
+          "verseText": "So¦138302 it's fitting¦138301 that an overseer¦138304 be above reproach, be the husband¦138309 of one wife¦138308, sober¦138310, sensible¦138312, respectable¦138313, hospitable¦138314, a good teacher¦138315,"
         },
         {
           "verseNumber": "3",
@@ -948,7 +958,7 @@
         {
           "verseNumber": "5",
           "contents": [
-            "because¦138571 it's made acceptable by God's declaration and¦138575 by prayer.",
+            "because it's made acceptable by God's declaration and¦138575 by prayer.",
             {
               "s1": "The good servant of the messiah Yeshua"
             },
@@ -962,12 +972,12 @@
               "p": ""
             }
           ],
-          "verseText": "because¦138571 it's made acceptable by God's declaration and¦138575 by prayer."
+          "verseText": "because it's made acceptable by God's declaration and¦138575 by prayer."
         },
         {
           "verseNumber": "6",
           "contents": [
-            "If you explain these things¦138577 to the believers¦138580 then you'll be a good servant¦138583 of",
+            "If you explain these things to the believers¦138580 then you'll be a good servant¦138583 of",
             {
               "nd": "Yeshua¦138585",
               "closing": "\\nd*"
@@ -979,7 +989,7 @@
             },
             ", growing in the messages¦138589 of faith¦138591 and of the good teachings¦138595 that you have followed¦138598."
           ],
-          "verseText": "If you explain these things¦138577 to the believers¦138580 then you'll be a good servant¦138583 of Yeshua¦138585 the messiah¦138584, growing in the messages¦138589 of faith¦138591 and of the good teachings¦138595 that you have followed¦138598."
+          "verseText": "If you explain these things to the believers¦138580 then you'll be a good servant¦138583 of Yeshua¦138585 the messiah¦138584, growing in the messages¦138589 of faith¦138591 and of the good teachings¦138595 that you have followed¦138598."
         },
         {
           "verseNumber": "7",
@@ -1020,19 +1030,19 @@
         {
           "verseNumber": "11",
           "contents": [
-            "so command¦138664 and¦138666 teach¦138667 these¦138665 things¦138665.",
+            "so command¦138664 and¦138666 teach¦138667 these¦138665 things.",
             {
               "p": ""
             }
           ],
-          "verseText": "so command¦138664 and¦138666 teach¦138667 these¦138665 things¦138665."
+          "verseText": "so command¦138664 and¦138666 teach¦138667 these¦138665 things."
         },
         {
           "verseNumber": "12",
           "contents": [
-            "Don't let anyone despise¦138672 you just because¦138676 you're young, but¦138673 be an example¦138674 for the believers¦138677 in your¦138669 speech¦138679 and conduct¦138681, and in love¦138683, faith¦138687, and purity¦138689."
+            "Don't let anyone¦138668 despise you just because¦138676 you're young, but¦138673 be an example¦138674 for the believers¦138677 in your¦138669 speech¦138679 and conduct¦138681, and in love¦138683, faith¦138687, and purity¦138689."
           ],
-          "verseText": "Don't let anyone despise¦138672 you just because¦138676 you're young, but¦138673 be an example¦138674 for the believers¦138677 in your¦138669 speech¦138679 and conduct¦138681, and in love¦138683, faith¦138687, and purity¦138689."
+          "verseText": "Don't let anyone¦138668 despise you just because¦138676 you're young, but¦138673 be an example¦138674 for the believers¦138677 in your¦138669 speech¦138679 and conduct¦138681, and in love¦138683, faith¦138687, and purity¦138689."
         },
         {
           "verseNumber": "13",
@@ -1051,9 +1061,9 @@
         {
           "verseNumber": "15",
           "contents": [
-            "Keep these¦138720 things in your thoughts so that everyone will be able to see your progress¦138725."
+            "Keep these things in your thoughts so that everyone will be able to see your progress¦138725."
           ],
-          "verseText": "Keep these¦138720 things in your thoughts so that everyone will be able to see your progress¦138725."
+          "verseText": "Keep these things in your thoughts so that everyone will be able to see your progress¦138725."
         },
         {
           "verseNumber": "16",
@@ -1098,9 +1108,9 @@
         {
           "verseNumber": "1",
           "contents": [
-            "Don't scold an elder¦138747 harshly¦138749, but¦138750 encourage him¦138751 as a father¦138753. Encourage younger¦138754 men¦138754 as brothers¦138756,"
+            "Don't scold an elder¦138747 harshly¦138749, but¦138750 encourage him as a father¦138753. Encourage younger¦138754 men¦138754 as brothers¦138756,"
           ],
-          "verseText": "Don't scold an elder¦138747 harshly¦138749, but¦138750 encourage him¦138751 as a father¦138753. Encourage younger¦138754 men¦138754 as brothers¦138756,"
+          "verseText": "Don't scold an elder¦138747 harshly¦138749, but¦138750 encourage him as a father¦138753. Encourage younger¦138754 men¦138754 as brothers¦138756,"
         },
         {
           "verseNumber": "2",
@@ -1130,7 +1140,7 @@
         {
           "verseNumber": "4",
           "contents": [
-            "because if a widow¦138774 has children¦138775 or grandchildren, then they should be learning¦138779 to show their godliness to their own relatives first¦138780, and to be repaying their parents¦138789",
+            "because if a widow¦138774 has children¦138775 or grandchildren, then they should¦138779 be learning¦138779 to show their godliness to their own relatives first¦138780, and to be repaying their parents¦138789",
             {
               "add": "and grandparents",
               "closing": "\\add*"
@@ -1142,7 +1152,7 @@
             },
             "expects."
           ],
-          "verseText": "because if a widow¦138774 has children¦138775 or grandchildren, then they should be learning¦138779 to show their godliness to their own relatives first¦138780, and to be repaying their parents¦138789 and grandparents because this is what God¦138798 expects."
+          "verseText": "because if a widow¦138774 has children¦138775 or grandchildren, then they should¦138779 be learning¦138779 to show their godliness to their own relatives first¦138780, and to be repaying their parents¦138789 and grandparents because this is what God¦138798 expects."
         },
         {
           "verseNumber": "5",
@@ -1166,14 +1176,14 @@
         {
           "verseNumber": "7",
           "contents": [
-            "You should teach these¦138827 things¦138827,",
+            "You should teach these¦138827 things,",
             {
               "add": "Timothy",
               "closing": "\\add*"
             },
             ", so that the people don't anger God,"
           ],
-          "verseText": "You should teach these¦138827 things¦138827, Timothy, so that the people don't anger God,"
+          "verseText": "You should teach these¦138827 things, Timothy, so that the people don't anger God,"
         },
         {
           "verseNumber": "8",
@@ -1241,9 +1251,9 @@
         {
           "verseNumber": "13",
           "contents": [
-            "Plus they often follow others in idly going¦138905 around¦138905 houses¦138908, and not just being idle but also gossipping¦138915 and meddling¦138917 and chatting about things¦138919 they shouldn't."
+            "Plus they often follow others in idly going¦138905 around¦138905 houses¦138908, and not just being idle but also gossipping¦138915 and meddling¦138917 and chatting about things they shouldn't."
           ],
-          "verseText": "Plus they often follow others in idly going¦138905 around¦138905 houses¦138908, and not just being idle but also gossipping¦138915 and meddling¦138917 and chatting about things¦138919 they shouldn't."
+          "verseText": "Plus they often follow others in idly going¦138905 around¦138905 houses¦138908, and not just being idle but also gossipping¦138915 and meddling¦138917 and chatting about things they shouldn't."
         },
         {
           "verseNumber": "14",
@@ -1270,7 +1280,7 @@
               "add": "relatives",
               "closing": "\\add*"
             },
-            ", they should continue to help them and not burden the assembly, so then the assembly can assist¦138951 the really¦138960",
+            ", they should¦138951 continue to help them and not burden the assembly, so then the assembly can assist¦138951 the really¦138960",
             {
               "add": "needy",
               "closing": "\\add*"
@@ -1280,14 +1290,14 @@
               "p": ""
             }
           ],
-          "verseText": "If any believing¦138947 woman¦138947 has widowed relatives, they should continue to help them and not burden the assembly, so then the assembly can assist¦138951 the really¦138960 needy widows."
+          "verseText": "If any believing¦138947 woman¦138947 has widowed relatives, they should¦138951 continue to help them and not burden the assembly, so then the assembly can assist¦138951 the really¦138960 needy widows."
         },
         {
           "verseNumber": "17",
           "contents": [
-            "An elder¦138966 who has led well should be considered¦138969 worthy¦138969 of double¦138967 honour¦138968, especially those who work hard in studying and¦138975 teaching¦138976 the message¦138974,"
+            "An elder¦138966 who has led well should¦138969 be considered¦138969 worthy¦138969 of double¦138967 honour¦138968, especially those who work hard in studying and¦138975 teaching¦138976 the message¦138974,"
           ],
-          "verseText": "An elder¦138966 who has led well should be considered¦138969 worthy¦138969 of double¦138967 honour¦138968, especially those who work hard in studying and¦138975 teaching¦138976 the message¦138974,"
+          "verseText": "An elder¦138966 who has led well should¦138969 be considered¦138969 worthy¦138969 of double¦138967 honour¦138968, especially those who work hard in studying and¦138975 teaching¦138976 the message¦138974,"
         },
         {
           "verseNumber": "18",
@@ -1346,7 +1356,7 @@
         {
           "verseNumber": "21",
           "contents": [
-            "I am telling you these¦139035 things¦139035 in the sight of",
+            "I am telling you these¦139035 things in the sight of",
             {
               "nd": "God¦139024",
               "closing": "\\nd*"
@@ -1363,12 +1373,12 @@
             },
             "and the chosen messengers¦139033 so that you can put them into practice without any favouritism or partiality¦139042."
           ],
-          "verseText": "I am telling you these¦139035 things¦139035 in the sight of God¦139024 and Yeshua¦139028 the messiah¦139027 and the chosen messengers¦139033 so that you can put them into practice without any favouritism or partiality¦139042."
+          "verseText": "I am telling you these¦139035 things in the sight of God¦139024 and Yeshua¦139028 the messiah¦139027 and the chosen messengers¦139033 so that you can put them into practice without any favouritism or partiality¦139042."
         },
         {
           "verseNumber": "22",
           "contents": [
-            "Don't rush to lay hands on anyone",
+            "Don't rush to lay hands on anyone¦139045",
             {
               "f": [
                 "+",
@@ -1391,7 +1401,7 @@
               "p": ""
             }
           ],
-          "verseText": "Don't rush to lay hands on anyone and don't join in other people's sinful schemes, but strive to keep yourself¦139051 pure."
+          "verseText": "Don't rush to lay hands on anyone¦139045 and don't join in other people's sinful schemes, but strive to keep yourself¦139051 pure."
         },
         {
           "verseNumber": "23",
@@ -1433,9 +1443,9 @@
         {
           "verseNumber": "1",
           "contents": [
-            "Those who are bonded into slavery¦139105 should consider¦139113 their¦139107 masters¦139109 to be worthy¦139112 of honour¦139111, so that God's name¦139117 and¦139120 message won't be slandered¦139123,"
+            "Those who are bonded into slavery¦139105 should¦139113 consider¦139113 their¦139107 masters¦139109 to be worthy¦139112 of honour¦139111, so that God's name¦139117 and¦139120 message won't be slandered¦139123,"
           ],
-          "verseText": "Those who are bonded into slavery¦139105 should consider¦139113 their¦139107 masters¦139109 to be worthy¦139112 of honour¦139111, so that God's name¦139117 and¦139120 message won't be slandered¦139123,"
+          "verseText": "Those who are bonded into slavery¦139105 should¦139113 consider¦139113 their¦139107 masters¦139109 to be worthy¦139112 of honour¦139111, so that God's name¦139117 and¦139120 message won't be slandered¦139123,"
         },
         {
           "verseNumber": "2",
@@ -1452,7 +1462,7 @@
             },
             "because the ones benefitting¦139146 from their good work are beloved¦139142 believers.",
             {
-              "s1": "Proper teaching¦139148 and true contentment"
+              "s1": "Proper teaching and true contentment"
             },
             {
               "rem": "/s1 Love of Money"
@@ -1470,7 +1480,7 @@
                   "add": "principles",
                   "closing": "\\add*"
                 },
-                "are what you should be teaching and encouraging",
+                "are what you should¦139131 be teaching¦139148 and encouraging",
                 {
                   "add": "the believers to do",
                   "closing": "\\add*"
@@ -1479,7 +1489,7 @@
               ]
             }
           ],
-          "verseText": "and the ones having¦139127 masters who are also believers shouldn't despise¦139131 their masters because we're all brothers¦139133. On the contrary, let them serve well because the ones benefitting¦139146 from their good work are beloved¦139142 believers. Those principles are what you should be teaching and encouraging the believers to do."
+          "verseText": "and the ones having¦139127 masters who are also believers shouldn't despise¦139131 their masters because we're all brothers¦139133. On the contrary, let them serve well because the ones benefitting¦139146 from their good work are beloved¦139142 believers. Those principles are what you should¦139131 be teaching¦139148 and encouraging the believers to do."
         },
         {
           "verseNumber": "3",
@@ -1596,9 +1606,9 @@
               "add": "Timothy",
               "closing": "\\add*"
             },
-            ", as a godly person¦139281, flee from those things¦139284 and instead pursue¦139286 righteousness¦139288, godliness, faith¦139290, love¦139291, endurance¦139292, and gentleness¦139293."
+            ", as a godly person¦139281, flee from those things and instead pursue¦139286 righteousness¦139288, godliness, faith¦139290, love¦139291, endurance¦139292, and gentleness¦139293."
           ],
-          "verseText": "But you¦139278, Timothy, as a godly person¦139281, flee from those things¦139284 and instead pursue¦139286 righteousness¦139288, godliness, faith¦139290, love¦139291, endurance¦139292, and gentleness¦139293."
+          "verseText": "But you¦139278, Timothy, as a godly person¦139281, flee from those things and instead pursue¦139286 righteousness¦139288, godliness, faith¦139290, love¦139291, endurance¦139292, and gentleness¦139293."
         },
         {
           "verseNumber": "12",
@@ -1671,12 +1681,7 @@
               "nd": "master¦139368",
               "closing": "\\nd*"
             },
-            "over all",
-            {
-              "nd": "masters",
-              "closing": "\\nd*"
-            },
-            ","
+            "over all masters,"
           ],
           "verseText": "He will be revealed in his own time—the blessed¦139359 and only God, the king¦139364 over all rulers and the master¦139368 over all masters,"
         },

@@ -1,7 +1,7 @@
 {
   "book": {
     "bookCode": "GAL",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.03",
+    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.04",
     "meta": [
       {
         "usfm": "3.0"
@@ -292,9 +292,9 @@
               "add": "first",
               "closing": "\\add*"
             },
-            "preached to you, then they should be cursed¦126631."
+            "preached to you, then they should¦126632 be cursed¦126631."
           ],
-          "verseText": "Even if either we ourselves or even a messenger¦126621 out of heaven¦126623 were to preach a different ‘good message’ which disagrees with the good message that we first preached to you, then they should be cursed¦126631."
+          "verseText": "Even if either we ourselves or even a messenger¦126621 out of heaven¦126623 were to preach a different ‘good message’ which disagrees with the good message that we first preached to you, then they should¦126632 be cursed¦126631."
         },
         {
           "verseNumber": "9",
@@ -396,7 +396,7 @@
         {
           "verseNumber": "14",
           "contents": [
-            "I was progressing¦126724 in Yudaism",
+            "I was progressing¦126724 in Judaism¦126727",
             {
               "x": [
                 "+",
@@ -409,12 +409,12 @@
               ],
               "closing": "\\x*"
             },
-            "quicker than many of my¦126734 contempories¦126730, being¦126739 so much more zealous¦126738 in observing our ancient traditions¦126743.",
+            "quicker than many of my¦126734 contemporaries¦126730, being¦126739 so much more zealous¦126738 in observing our ancient traditions¦126743.",
             {
               "p": ""
             }
           ],
-          "verseText": "I was progressing¦126724 in Yudaism quicker than many of my¦126734 contempories¦126730, being¦126739 so much more zealous¦126738 in observing our ancient traditions¦126743."
+          "verseText": "I was progressing¦126724 in Judaism¦126727 quicker than many of my¦126734 contemporaries¦126730, being¦126739 so much more zealous¦126738 in observing our ancient traditions¦126743."
         },
         {
           "verseNumber": "15",
@@ -424,7 +424,7 @@
               "add": "God",
               "closing": "\\add*"
             },
-            "who'd planned this from even before I was born",
+            "who'd planned this from even before I was born,",
             {
               "x": [
                 "+",
@@ -437,7 +437,7 @@
               ],
               "closing": "\\x*"
             },
-            ", because of his¦126762 grace¦126761 he called¦126758 me"
+            "because of his¦126762 grace¦126761 he called¦126758 me"
           ],
           "verseText": "But God who'd planned this from even before I was born, because of his¦126762 grace¦126761 he called¦126758 me"
         },
@@ -931,12 +931,7 @@
               "nd": "spirit¦127338",
               "closing": "\\nd*"
             },
-            "from obeying all the rules, or was",
-            {
-              "nd": "it",
-              "closing": "\\nd*"
-            },
-            "by faith¦127343 when you heard?"
+            "from obeying all the rules, or was it by faith¦127343 when you heard?"
           ],
           "verseText": "So I just want to ask you one thing: did you receive¦127339 the spirit¦127338 from obeying all the rules, or was it by faith¦127343 when you heard?"
         },
@@ -955,14 +950,14 @@
         {
           "verseNumber": "4",
           "contents": [
-            "You vainly endured so many things¦127353—it was vain wasn't it?"
+            "You vainly endured so many things—it was vain wasn't it?"
           ],
-          "verseText": "You vainly endured so many things¦127353—it was vain wasn't it?"
+          "verseText": "You vainly endured so many things—it was vain wasn't it?"
         },
         {
           "verseNumber": "5",
           "contents": [
-            "So the one who gave the",
+            "So¦127361 the one who gave the",
             {
               "nd": "spirit¦127365",
               "closing": "\\nd*"
@@ -980,7 +975,7 @@
               "p": ""
             }
           ],
-          "verseText": "So the one who gave the spirit¦127365 to you and worked miracles¦127368 among¦127369 you all, did all that come about from obeying the rules or by the faith¦127380 that came from hearing¦127379 the good message?"
+          "verseText": "So¦127361 the one who gave the spirit¦127365 to you and worked miracles¦127368 among¦127369 you all, did all that come about from obeying the rules or by the faith¦127380 that came from hearing¦127379 the good message?"
         },
         {
           "verseNumber": "6",
@@ -1153,7 +1148,12 @@
               "nd": "messiah¦127499",
               "closing": "\\nd*"
             },
-            "saved us from the curse of the law by becoming¦127507 the curse for our sake, because¦127511 it's written¦127512, ‘anyone who is hung on a tree¦127519 is cursed’.",
+            "saved us from the curse of the law by becoming¦127507 the curse for our sake, because¦127511 it's written¦127512, ‘",
+            {
+              "nd": "anyone¦127499",
+              "closing": "\\nd*"
+            },
+            "who is hung on a tree¦127519 is cursed’.",
             {
               "x": [
                 "+",
@@ -1167,7 +1167,7 @@
               "closing": "\\x*"
             }
           ],
-          "verseText": "The messiah¦127499 saved us from the curse of the law by becoming¦127507 the curse for our sake, because¦127511 it's written¦127512, ‘anyone who is hung on a tree¦127519 is cursed’."
+          "verseText": "The messiah¦127499 saved us from the curse of the law by becoming¦127507 the curse for our sake, because¦127511 it's written¦127512, ‘ anyone¦127499 who is hung on a tree¦127519 is cursed’."
         },
         {
           "verseNumber": "14",
@@ -1280,7 +1280,7 @@
               ],
               "closing": "\\x*"
             },
-            "Because¦127614 if the inheritance¦127619 now came by obeying the law, then it could no longer¦127620 be the result of the promise, but",
+            "Because if the inheritance¦127619 now came by obeying the law, then it could no longer¦127620 be the result of the promise, but",
             {
               "nd": "God¦127630",
               "closing": "\\nd*"
@@ -1290,19 +1290,19 @@
               "rem": "/s1 The Purpose of the Law"
             }
           ],
-          "verseText": "Because¦127614 if the inheritance¦127619 now came by obeying the law, then it could no longer¦127620 be the result of the promise, but God¦127630 had already granted¦127628 to Abraham¦127625 via the promise."
+          "verseText": "Because if the inheritance¦127619 now came by obeying the law, then it could no longer¦127620 be the result of the promise, but God¦127630 had already granted¦127628 to Abraham¦127625 via the promise."
         },
         {
           "verseNumber": "19",
           "contents": [
-            "So what was the law for then? Because of sinfulness, it¦127639 was added¦127639 until¦127640 the promised¦127647 descendant would come¦127643. It was directed¦127648 through¦127649 messengers¦127650 and entrusted to",
+            "So¦127632 what was the law for then? Because of sinfulness, it¦127639 was added¦127639 until¦127640 the promised¦127647 descendant would come¦127643. It was directed¦127648 through¦127649 messengers¦127650 and entrusted to",
             {
               "add": "Moses as",
               "closing": "\\add*"
             },
             "a mediator¦127654."
           ],
-          "verseText": "So what was the law for then? Because of sinfulness, it¦127639 was added¦127639 until¦127640 the promised¦127647 descendant would come¦127643. It was directed¦127648 through¦127649 messengers¦127650 and entrusted to Moses as a mediator¦127654."
+          "verseText": "So¦127632 what was the law for then? Because of sinfulness, it¦127639 was added¦127639 until¦127640 the promised¦127647 descendant would come¦127643. It was directed¦127648 through¦127649 messengers¦127650 and entrusted to Moses as a mediator¦127654."
         },
         {
           "verseNumber": "20",
@@ -1328,9 +1328,9 @@
         {
           "verseNumber": "21",
           "contents": [
-            "So does the law oppose God's promises¦127671? Certainly not, because if the law was able to give¦127683 life¦127683, you could become¦127675 guiltless by obeying the law."
+            "So¦127667 does the law oppose God's promises¦127671? Certainly not, because if the law was able to give¦127683 life¦127683, you could become¦127675 guiltless by obeying the law."
           ],
-          "verseText": "So does the law oppose God's promises¦127671? Certainly not, because if the law was able to give¦127683 life¦127683, you could become¦127675 guiltless by obeying the law."
+          "verseText": "So¦127667 does the law oppose God's promises¦127671? Certainly not, because if the law was able to give¦127683 life¦127683, you could become¦127675 guiltless by obeying the law."
         },
         {
           "verseNumber": "22",
@@ -1340,7 +1340,11 @@
               "add": "explain that",
               "closing": "\\add*"
             },
-            "everyone is imprisoned¦127697 by sin¦127703 so that by faith¦127708 in",
+            {
+              "nd": "everyone¦127710",
+              "closing": "\\nd*"
+            },
+            "is imprisoned¦127697 by sin¦127703 so that by faith¦127708 in",
             {
               "nd": "Yeshua¦127709",
               "closing": "\\nd*"
@@ -1355,17 +1359,17 @@
               "p": ""
             }
           ],
-          "verseText": "The scriptures¦127699 explain that everyone is imprisoned¦127697 by sin¦127703 so that by faith¦127708 in Yeshua¦127709 the messiah¦127710, the promise¦127706 could be granted to those who believe¦127713."
+          "verseText": "The scriptures¦127699 explain that everyone¦127710 is imprisoned¦127697 by sin¦127703 so that by faith¦127708 in Yeshua¦127709 the messiah¦127710, the promise¦127706 could be granted to those who believe¦127713."
         },
         {
           "verseNumber": "23",
           "contents": [
-            "Before¦127714 faith could come, were were guarded¦127722 under¦127720 the law—imprisoned¦127724 so that faith could be revealed¦127729.",
+            "Before¦127714 faith could come, we were guarded¦127722 under¦127720 the law—imprisoned¦127724 so that faith could be revealed¦127729.",
             {
               "rem": "/s1 God's Children through Faith"
             }
           ],
-          "verseText": "Before¦127714 faith could come, were were guarded¦127722 under¦127720 the law—imprisoned¦127724 so that faith could be revealed¦127729."
+          "verseText": "Before¦127714 faith could come, we were guarded¦127722 under¦127720 the law—imprisoned¦127724 so that faith could be revealed¦127729."
         },
         {
           "verseNumber": "24",
@@ -1417,14 +1421,19 @@
         {
           "verseNumber": "27",
           "contents": [
-            "because everyone who's been immersed¦127768",
+            "because",
+            {
+              "nd": "everyone¦127767",
+              "closing": "\\nd*"
+            },
+            "who's been immersed¦127768",
             {
               "add": "to obey",
               "closing": "\\add*"
             },
             "the messiah, is now cloaked in the messiah."
           ],
-          "verseText": "because everyone who's been immersed¦127768 to obey the messiah, is now cloaked in the messiah."
+          "verseText": "because everyone¦127767 who's been immersed¦127768 to obey the messiah, is now cloaked in the messiah."
         },
         {
           "verseNumber": "28",
@@ -1686,9 +1695,9 @@
         {
           "verseNumber": "15",
           "contents": [
-            "So where¦128023 are your generous attitudes now? I know that back then, you would have almost dug your own eyes¦128036 out to give them to me."
+            "So¦128024 where¦128023 are your generous attitudes now? I know that back then, you would have almost dug your own eyes¦128036 out to give them to me."
           ],
-          "verseText": "So where¦128023 are your generous attitudes now? I know that back then, you would have almost dug your own eyes¦128036 out to give them to me."
+          "verseText": "So¦128024 where¦128023 are your generous attitudes now? I know that back then, you would have almost dug your own eyes¦128036 out to give them to me."
         },
         {
           "verseNumber": "16",
@@ -1730,9 +1739,9 @@
         {
           "verseNumber": "18",
           "contents": [
-            "It's good to be enthusiastic about things¦128066 that are always¦128067 good, and not only at the times when I'm with you all."
+            "It's good to be enthusiastic about things that are always¦128067 good, and not only at the times when I'm with you all."
           ],
-          "verseText": "It's good to be enthusiastic about things¦128066 that are always¦128067 good, and not only at the times when I'm with you all."
+          "verseText": "It's good to be enthusiastic about things that are always¦128067 good, and not only at the times when I'm with you all."
         },
         {
           "verseNumber": "19",
@@ -1955,14 +1964,14 @@
         {
           "verseNumber": "31",
           "contents": [
-            "So, brothers¦128286 and¦128286 sisters¦128286, we're not",
+            "So¦128284, brothers¦128286 and¦128286 sisters¦128286, we're not",
             {
               "add": "descendants",
               "closing": "\\add*"
             },
             "of the slave girl¦128289, but¦128291 of the free woman¦128293."
           ],
-          "verseText": "So, brothers¦128286 and¦128286 sisters¦128286, we're not descendants of the slave girl¦128289, but¦128291 of the free woman¦128293."
+          "verseText": "So¦128284, brothers¦128286 and¦128286 sisters¦128286, we're not descendants of the slave girl¦128289, but¦128291 of the free woman¦128293."
         }
       ]
     },
@@ -2033,19 +2042,19 @@
         {
           "verseNumber": "5",
           "contents": [
-            "Because¦128347 we who are in the",
+            "Because we who are in the",
             {
               "nd": "spirit¦128348",
               "closing": "\\nd*"
             },
             "are eagerly¦128354 waiting¦128354 for the righteousness¦128352 that we are expecting to receive by faith¦128350."
           ],
-          "verseText": "Because¦128347 we who are in the spirit¦128348 are eagerly¦128354 waiting¦128354 for the righteousness¦128352 that we are expecting to receive by faith¦128350."
+          "verseText": "Because we who are in the spirit¦128348 are eagerly¦128354 waiting¦128354 for the righteousness¦128352 that we are expecting to receive by faith¦128350."
         },
         {
           "verseNumber": "6",
           "contents": [
-            "Because¦128356 in the",
+            "Because in the",
             {
               "nd": "messiah¦128357 Yeshua¦128358",
               "closing": "\\nd*"
@@ -2055,7 +2064,7 @@
               "p": ""
             }
           ],
-          "verseText": "Because¦128356 in the messiah¦128357 Yeshua¦128358, it's not circumcision¦128360 that achieves anything¦128361, nor uncircumcision¦128364, but¦128365 faith¦128366 worked out through¦128367 love¦128368."
+          "verseText": "Because in the messiah¦128357 Yeshua¦128358, it's not circumcision¦128360 that achieves anything¦128361, nor uncircumcision¦128364, but¦128365 faith¦128366 worked out through¦128367 love¦128368."
         },
         {
           "verseNumber": "7",
@@ -2103,12 +2112,12 @@
               "add": "from the truth",
               "closing": "\\add*"
             },
-            ". The one who will bear the judgement is the one who has been confusing you, anyone who that was.",
+            ". The one who will bear the judgement is the one who has been confusing you, anyone¦128404 who that was.",
             {
               "p": ""
             }
           ],
-          "verseText": "I am trusting¦128398 in the master¦128402 that you won't be thinking¦128406 anything different from the truth. The one who will bear the judgement is the one who has been confusing you, anyone who that was."
+          "verseText": "I am trusting¦128398 in the master¦128402 that you won't be thinking¦128406 anything different from the truth. The one who will bear the judgement is the one who has been confusing you, anyone¦128404 who that was."
         },
         {
           "verseNumber": "11",
@@ -2157,9 +2166,9 @@
               ],
               "closing": "\\x*"
             },
-            "Because¦128466 the entire law can be fulfilled¦128472 by obeying one rule: Love your¦128480 neighbour¦128479 like yourself¦128482."
+            "Because the entire law can be fulfilled¦128472 by obeying one rule: Love your¦128480 neighbour¦128479 like yourself¦128482."
           ],
-          "verseText": "Because¦128466 the entire law can be fulfilled¦128472 by obeying one rule: Love your¦128480 neighbour¦128479 like yourself¦128482."
+          "verseText": "Because the entire law can be fulfilled¦128472 by obeying one rule: Love your¦128480 neighbour¦128479 like yourself¦128482."
         },
         {
           "verseNumber": "15",
@@ -2218,9 +2227,9 @@
               ],
               "closing": "\\x*"
             },
-            "Because¦128507 our earthly desires oppose the spirit, and the spirit opposes our earthly desires—they oppose each other so that's why you end up doing¦128533 things that you didn't really want to do."
+            "Because our earthly desires oppose the spirit, and the spirit opposes our earthly desires—they oppose each other so that's why you end up doing¦128533 things that you didn't really want to do."
           ],
-          "verseText": "Because¦128507 our earthly desires oppose the spirit, and the spirit opposes our earthly desires—they oppose each other so that's why you end up doing¦128533 things that you didn't really want to do."
+          "verseText": "Because our earthly desires oppose the spirit, and the spirit opposes our earthly desires—they oppose each other so that's why you end up doing¦128533 things that you didn't really want to do."
         },
         {
           "verseNumber": "18",
@@ -2419,12 +2428,12 @@
         {
           "verseNumber": "6",
           "contents": [
-            "Those who are being¦128721 taught should share all their blessings with those who are instructing¦128721.",
+            "Those who are being¦128721 taught should¦128718 share all their blessings with those who are instructing¦128721.",
             {
               "p": ""
             }
           ],
-          "verseText": "Those who are being¦128721 taught should share all their blessings with those who are instructing¦128721."
+          "verseText": "Those who are being¦128721 taught should¦128718 share all their blessings with those who are instructing¦128721."
         },
         {
           "verseNumber": "7",
@@ -2480,7 +2489,7 @@
         {
           "verseNumber": "10",
           "contents": [
-            "So then as time¦128786 allows it, we should be working¦128789 towards good¦128792 for everybody and especially for fellow believers.",
+            "So¦128784 then as time¦128786 allows it, we should be working¦128789 towards good¦128792 for everybody and especially for fellow believers.",
             {
               "s1": "Paul's final advice"
             },
@@ -2500,7 +2509,7 @@
               "p": ""
             }
           ],
-          "verseText": "So then as time¦128786 allows it, we should be working¦128789 towards good¦128792 for everybody and especially for fellow believers."
+          "verseText": "So¦128784 then as time¦128786 allows it, we should be working¦128789 towards good¦128792 for everybody and especially for fellow believers."
         },
         {
           "verseNumber": "11",
@@ -2584,7 +2593,7 @@
           "verseNumber": "15",
           "contents": [
             {
-              "sig": "Because¦128881 obeying Moses' law is nothing, and not needing to obey it is nothing, but¦128888 being a new creation¦128890"
+              "sig": "Because obeying Moses' law is nothing, and not needing to obey it is nothing, but¦128888 being a new creation¦128890"
             },
             {
               "+add": [
@@ -2596,7 +2605,7 @@
               ]
             }
           ],
-          "verseText": "Because¦128881 obeying Moses' law is nothing, and not needing to obey it is nothing, but¦128888 being a new creation¦128890 is everything *."
+          "verseText": "Because obeying Moses' law is nothing, and not needing to obey it is nothing, but¦128888 being a new creation¦128890 is everything *."
         },
         {
           "verseNumber": "16",

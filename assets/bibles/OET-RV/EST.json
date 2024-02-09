@@ -1,0 +1,2392 @@
+{
+  "book": {
+    "bookCode": "EST",
+    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.01",
+    "meta": [
+      {
+        "usfm": "3.0"
+      },
+      {
+        "ide": "UTF-8"
+      },
+      {
+        "rem": "ESFM v0.6 EST"
+      },
+      {
+        "rem": "disabledWORDTABLE OET_OT_word_table.tsv"
+      },
+      {
+        "h": "Esther"
+      },
+      {
+        "toc1": "Esther"
+      },
+      {
+        "toc2": "Esther"
+      },
+      {
+        "toc3": "Est."
+      },
+      {
+        "mt1": "Esther"
+      },
+      {
+        "is1": "Introduction"
+      },
+      {
+        "ip": "This account tells about the life of a young Jewish woman named Esther. These events happened back when King Ahasuerus (more widely known as King Xerxes) ruled over the kingdom of Persia. After Queen Vashti was banished for refusing to dance in front the king's guests at a drinking party, Esther was chosen as the new queen without revealing her Jewish background. But there was a high official called Haman who was offended by Esther's Jewish guardian and in his anger, determined to annihilate all of the Jews from the kingdom. This account reveals how Ether's courage and her love for her Jewish people leads her to help them and eventually helps to save their lives."
+      },
+      {
+        "ip": "The account also reveals the source of a Jewish feast named ‘Purim’, which to this day is a time when Jewish people celebrate how God saved them from their enemy, Haman."
+      },
+      {
+        "iot": "Main components of this account"
+      },
+      {
+        "io1": [
+          "Esther becomes Queen of Persia",
+          {
+            "ior": "1:1–2:23",
+            "closing": "\\ior*"
+          }
+        ]
+      },
+      {
+        "io1": [
+          "Haman's threat to the Jews",
+          {
+            "ior": "3:1–5:14",
+            "closing": "\\ior*"
+          }
+        ]
+      },
+      {
+        "io1": [
+          "Haman's execution",
+          {
+            "ior": "6:1–7:10",
+            "closing": "\\ior*"
+          }
+        ]
+      },
+      {
+        "io1": [
+          "The Jewish people destroy their enemies",
+          {
+            "ior": "8:1–10:3",
+            "closing": "\\ior*"
+          }
+        ]
+      },
+      {
+        "rem": [
+          "This is still a very early look into the unfinished text of the",
+          {
+            "em": "Open English Translation",
+            "closing": "\\em*"
+          },
+          "of the Bible. Please double-check the text in advance before using in public."
+        ]
+      },
+      {
+        "ie": ""
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": "1",
+      "contents": [
+        {
+          "s1": "Queen Vashti refuses King Ahasuerus"
+        },
+        {
+          "rem": "/s1 King Ahasuerus's banquet; Queen Vashti Deposed; Queen Vashti Defies King Xerxes; King Ahasuerus Deposes Queen Vashti; The King's Banquet"
+        },
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "contents": [
+            "The following events happened during the reign of",
+            {
+              "add": "King",
+              "closing": "\\add*"
+            },
+            "Ahasuerus.",
+            {
+              "x": [
+                "+",
+                {
+                  "xo": "1:1:"
+                },
+                {
+                  "xt": "Ezr 4:6."
+                }
+              ],
+              "closing": "\\x*"
+            },
+            "(",
+            {
+              "add": "Also known as King Xerxes,",
+              "closing": "\\add*"
+            },
+            "he ruled",
+            {
+              "add": "the empire of Persia",
+              "closing": "\\add*"
+            },
+            "with 127 provinces from India all the way across to Ethiopia.)"
+          ],
+          "verseText": "The following events happened during the reign of King Ahasuerus. (Also known as King Xerxes, he ruled the empire of Persia with 127 provinces from India all the way across to Ethiopia.)"
+        },
+        {
+          "verseNumber": "2",
+          "contents": [
+            "In those days, he ruled his empire from",
+            {
+              "add": "a city called",
+              "closing": "\\add*"
+            },
+            "Shushan,",
+            {
+              "f": [
+                "+",
+                {
+                  "fr": "1:2"
+                },
+                {
+                  "ft": "Known as ‘Susa’ in many 20th century translations, even though earlier English translations often got it correct."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            {
+              "add": "Persia's",
+              "closing": "\\add*"
+            },
+            "capital.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "In those days, he ruled his empire from a city called Shushan, Persia's capital."
+        },
+        {
+          "verseNumber": "3",
+          "contents": [
+            "In the third year of his reign, he hosted a celebration for all of his officials and for every important person who worked for him, as well as the officers who served in the army of the",
+            {
+              "add": "combined empire",
+              "closing": "\\add*"
+            },
+            "of Persia and Media, the wealthy landowners, and the officials of the provinces. The king was present in person",
+            {
+              "add": "to host the celebration",
+              "closing": "\\add*"
+            }
+          ],
+          "verseText": "In the third year of his reign, he hosted a celebration for all of his officials and for every important person who worked for him, as well as the officers who served in the army of the combined empire of Persia and Media, the wealthy landowners, and the officials of the provinces. The king was present in person to host the celebration"
+        },
+        {
+          "verseNumber": "4",
+          "contents": [
+            "which, over a period of six months, would display the incredible wealth and prestige of his empire and his personal wealth and power.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "which, over a period of six months, would display the incredible wealth and prestige of his empire and his personal wealth and power."
+        },
+        {
+          "verseNumber": "5",
+          "contents": [
+            "Then at the end of that time, the king hosted",
+            {
+              "add": "another",
+              "closing": "\\add*"
+            },
+            "celebration, but this time for all the people in the royal fort in Shushan, from the nobles to the least prestigious. He held this celebration over an entire week in the enclosed garden of the royal palace."
+          ],
+          "verseText": "Then at the end of that time, the king hosted another celebration, but this time for all the people in the royal fort in Shushan, from the nobles to the least prestigious. He held this celebration over an entire week in the enclosed garden of the royal palace."
+        },
+        {
+          "verseNumber": "6",
+          "contents": [
+            "There were white and blue curtains hanging from white and purple cords attached to silver rings on marble pillars. The guests reclined on gold and silver couches set on a mosaic floor that was made of red and white marble, and mother-of-pearl and other expensive stones."
+          ],
+          "verseText": "There were white and blue curtains hanging from white and purple cords attached to silver rings on marble pillars. The guests reclined on gold and silver couches set on a mosaic floor that was made of red and white marble, and mother-of-pearl and other expensive stones."
+        },
+        {
+          "verseNumber": "7",
+          "contents": [
+            "Drinks were served in golden goblets, and each one was a unique design. The king's wine seemed limitless as he displayed his generosity,"
+          ],
+          "verseText": "Drinks were served in golden goblets, and each one was a unique design. The king's wine seemed limitless as he displayed his generosity,"
+        },
+        {
+          "verseNumber": "8",
+          "contents": [
+            "and it was served according to his rule: There is no compulsion to drink, but all of his servants were to give each guest however much they wanted.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "and it was served according to his rule: There is no compulsion to drink, but all of his servants were to give each guest however much they wanted."
+        },
+        {
+          "verseNumber": "9",
+          "contents": [
+            "Meanwhile, Queen Vashti was hosting a celebration for the women",
+            {
+              "add": "in a different part",
+              "closing": "\\add*"
+            },
+            "of the king's royal palace.",
+            {
+              "rem": "/s1 Queen Vashti Deposed"
+            },
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "Meanwhile, Queen Vashti was hosting a celebration for the women in a different part of the king's royal palace."
+        },
+        {
+          "verseNumber": "10",
+          "contents": [
+            "On the seventh day of the celebrations, when the king was feeling cheery from his wine-drinking, he ordered seven of his chief servants (Mehuman, Biztha, Harbona, Bigtha, Abagtha, Zethar, and Karkas)"
+          ],
+          "verseText": "On the seventh day of the celebrations, when the king was feeling cheery from his wine-drinking, he ordered seven of his chief servants (Mehuman, Biztha, Harbona, Bigtha, Abagtha, Zethar, and Karkas)"
+        },
+        {
+          "verseNumber": "11",
+          "contents": [
+            "to bring Queen Vashti, wearing her royal crown, to him in order to show her beauty to the people and the officials, because she was very attractive."
+          ],
+          "verseText": "to bring Queen Vashti, wearing her royal crown, to him in order to show her beauty to the people and the officials, because she was very attractive."
+        },
+        {
+          "verseNumber": "12",
+          "contents": [
+            "But when the servants came and told her the king's comand, Queen Vashti refused to come. When the king found this out, he got very angry and",
+            {
+              "add": "sat there",
+              "closing": "\\add*"
+            },
+            "raging."
+          ],
+          "verseText": "But when the servants came and told her the king's comand, Queen Vashti refused to come. When the king found this out, he got very angry and sat there raging."
+        },
+        {
+          "verseNumber": "13",
+          "contents": [
+            "So he",
+            {
+              "add": "called over",
+              "closing": "\\add*"
+            },
+            "his advisors who knew the law and could make good decisions, and discussed with them what he should do."
+          ],
+          "verseText": "So he called over his advisors who knew the law and could make good decisions, and discussed with them what he should do."
+        },
+        {
+          "verseNumber": "14",
+          "contents": [
+            "(His closest advisors were Karshena, Shethar, Admatha, Tarshish, Meres, Marsena, and Memukan. These seven officials were from",
+            {
+              "add": "various places in the empire",
+              "closing": "\\add*"
+            },
+            "of Persia and Media and they advised the king personally,",
+            {
+              "add": "thus making them",
+              "closing": "\\add*"
+            },
+            "the most powerful officials in the empire.)"
+          ],
+          "verseText": "(His closest advisors were Karshena, Shethar, Admatha, Tarshish, Meres, Marsena, and Memukan. These seven officials were from various places in the empire of Persia and Media and they advised the king personally, thus making them the most powerful officials in the empire.)"
+        },
+        {
+          "verseNumber": "15",
+          "contents": [
+            "“According to",
+            {
+              "add": "our",
+              "closing": "\\add*"
+            },
+            "law,”",
+            {
+              "add": "the king asked,",
+              "closing": "\\add*"
+            },
+            "“what should be done with Queen Vashti, since she refused to obey my command when the servants passed it on to her?”",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "“According to our law,” the king asked, “what should be done with Queen Vashti, since she refused to obey my command when the servants passed it on to her?”"
+        },
+        {
+          "verseNumber": "16",
+          "contents": [
+            "Then Memukan answered the king,",
+            {
+              "add": "speaking loudly enough that",
+              "closing": "\\add*"
+            },
+            "both the king and his officials could hear. “Queen Vashti has done wrong,” he said, “and not only against the king. She has also done wrong against all the officials and people groups in all the provinces that King Ahasuerus",
+            {
+              "add": "rules",
+              "closing": "\\add*"
+            },
+            "!"
+          ],
+          "verseText": "Then Memukan answered the king, speaking loudly enough that both the king and his officials could hear. “Queen Vashti has done wrong,” he said, “and not only against the king. She has also done wrong against all the officials and people groups in all the provinces that King Ahasuerus rules!"
+        },
+        {
+          "verseNumber": "17",
+          "contents": [
+            {
+              "add": "Soon",
+              "closing": "\\add*"
+            },
+            "women all over the empire will hear about what the queen did and they'll say, ‘King Ahasuerus commanded his servants to bring Queen Vashti to him, but she didn't go! Then women will stop respecting their husbands."
+          ],
+          "verseText": "Soon women all over the empire will hear about what the queen did and they'll say, ‘King Ahasuerus commanded his servants to bring Queen Vashti to him, but she didn't go! Then women will stop respecting their husbands."
+        },
+        {
+          "verseNumber": "18",
+          "contents": [
+            "Even today, the leading women of Persia and Media will hear what the queen did and start doing the same to",
+            {
+              "add": "their husbands who are",
+              "closing": "\\add*"
+            },
+            "officials, and this will cause",
+            {
+              "add": "a wave of",
+              "closing": "\\add*"
+            },
+            "contempt and anger."
+          ],
+          "verseText": "Even today, the leading women of Persia and Media will hear what the queen did and start doing the same to their husbands who are officials, and this will cause a wave of contempt and anger."
+        },
+        {
+          "verseNumber": "19",
+          "contents": [
+            "If it pleases you",
+            {
+              "add": "to do so",
+              "closing": "\\add*"
+            },
+            ",",
+            {
+              "add": "your majesty",
+              "closing": "\\add*"
+            },
+            ", you should personally issue a royal decree and have it added to the laws of Persia and Media which cannot be repealed. This decree should say that Vashti can never again come into your presence, and then you should choose a different woman for the royal position—someone who's better than her."
+          ],
+          "verseText": "If it pleases you to do so, your majesty, you should personally issue a royal decree and have it added to the laws of Persia and Media which cannot be repealed. This decree should say that Vashti can never again come into your presence, and then you should choose a different woman for the royal position—someone who's better than her."
+        },
+        {
+          "verseNumber": "20",
+          "contents": [
+            "Your decree will be proclaimed right through your empire, even though it's so huge, and then all women, irrespective of their status or position, will honour their husbands.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "Your decree will be proclaimed right through your empire, even though it's so huge, and then all women, irrespective of their status or position, will honour their husbands."
+        },
+        {
+          "verseNumber": "21",
+          "contents": [
+            "This seemed like a good idea to the king and his officials, so King Ahasuerus followed the advice of Memukan"
+          ],
+          "verseText": "This seemed like a good idea to the king and his officials, so King Ahasuerus followed the advice of Memukan"
+        },
+        {
+          "verseNumber": "22",
+          "contents": [
+            "and sent letters to every province in his empire. He wrote to every province using its own alphabet and to each people group in its own language. The letters said that men should be the masters over their wives and children, and that a husband should be able to give orders to his wife in his own native language",
+            {
+              "add": "that she should understand and obey",
+              "closing": "\\add*"
+            },
+            "."
+          ],
+          "verseText": "and sent letters to every province in his empire. He wrote to every province using its own alphabet and to each people group in its own language. The letters said that men should be the masters over their wives and children, and that a husband should be able to give orders to his wife in his own native language that she should understand and obey."
+        }
+      ]
+    },
+    {
+      "chapterNumber": "2",
+      "contents": [
+        {
+          "s1": "Beautiful Esther enters the king's harem"
+        },
+        {
+          "rem": "/s1 Esther becomes queen; Esther Becomes Queen; Esther Made Queen"
+        },
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "contents": [
+            "Some time later when King Ahasuerus no longer felt so angry, he",
+            {
+              "add": "started to miss",
+              "closing": "\\add*"
+            },
+            "Vashti. But when she'd disobeyed his command, he had made a decree",
+            {
+              "add": "that she could never come into his presence again",
+              "closing": "\\add*"
+            },
+            "."
+          ],
+          "verseText": "Some time later when King Ahasuerus no longer felt so angry, he started to miss Vashti. But when she'd disobeyed his command, he had made a decree that she could never come into his presence again."
+        },
+        {
+          "verseNumber": "2",
+          "contents": [
+            "So some of the young men who served the king suggested to him, “",
+            {
+              "add": "Your majesty, you should get a new wife for yourself.",
+              "closing": "\\add*"
+            },
+            "You could tell your servants to look for young virgins who are very beautiful."
+          ],
+          "verseText": "So some of the young men who served the king suggested to him, “Your majesty, you should get a new wife for yourself. You could tell your servants to look for young virgins who are very beautiful."
+        },
+        {
+          "verseNumber": "3",
+          "contents": [
+            "You could assign officers in each province of your empire to bring every virgin who is very beautiful here to your capital city of Shushan. They could stay in the harem for virgins under the custody of Hegai, the castrated royal guardian who takes care of the young women who live there and he could arrange for them to receive beauty treatments."
+          ],
+          "verseText": "You could assign officers in each province of your empire to bring every virgin who is very beautiful here to your capital city of Shushan. They could stay in the harem for virgins under the custody of Hegai, the castrated royal guardian who takes care of the young women who live there and he could arrange for them to receive beauty treatments."
+        },
+        {
+          "verseNumber": "4",
+          "contents": [
+            "Then you could decide which young woman you like best and then make her queen instead of Vashti.”",
+            {
+              "p": "The king liked what they suggested, so he did it."
+            },
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "Then you could decide which young woman you like best and then make her queen instead of Vashti.” The king liked what they suggested, so he did it."
+        },
+        {
+          "verseNumber": "5",
+          "contents": [
+            "At that time, there was a Jewish man named Mordekai living in the capital city of Shushan. (He was from the tribe of Benjamin: his father was Jair, his grandfather was Shimei, and his great-grandfather was Kish"
+          ],
+          "verseText": "At that time, there was a Jewish man named Mordekai living in the capital city of Shushan. (He was from the tribe of Benjamin: his father was Jair, his grandfather was Shimei, and his great-grandfather was Kish"
+        },
+        {
+          "verseNumber": "6",
+          "contents": [
+            "who'd been taken away from Jerusalem and led to Babylon when King Nebuchadnezzer of Babylon had exiled Jeconiah, the king of Judah, along with many of his people.",
+            {
+              "x": [
+                "+",
+                {
+                  "xo": "2:6:"
+                },
+                {
+                  "xt": "2Ki 24:10-16; 2Ch 36:10."
+                }
+              ],
+              "closing": "\\x*"
+            },
+            ")"
+          ],
+          "verseText": "who'd been taken away from Jerusalem and led to Babylon when King Nebuchadnezzer of Babylon had exiled Jeconiah, the king of Judah, along with many of his people.)"
+        },
+        {
+          "verseNumber": "7",
+          "contents": [
+            "Now Mordekai was taking care of his cousin, who was an orphan. When her father and mother had died, Mordekai had adopted her as his own daughter. Her",
+            {
+              "add": "Hebrew",
+              "closing": "\\add*"
+            },
+            "name was Hadassah, and her",
+            {
+              "add": "Persian",
+              "closing": "\\add*"
+            },
+            "name was Esther. Esther was now a young woman and she was exceptionally attractive.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "Now Mordekai was taking care of his cousin, who was an orphan. When her father and mother had died, Mordekai had adopted her as his own daughter. Her Hebrew name was Hadassah, and her Persian name was Esther. Esther was now a young woman and she was exceptionally attractive."
+        },
+        {
+          "verseNumber": "8",
+          "contents": [
+            "So when the king's command and decree became known, many young women were being brought into the capital city of Shushan and placed under Hegai's charge, and this is what happened to Esther. (Hegai was the overseer of the women.)"
+          ],
+          "verseText": "So when the king's command and decree became known, many young women were being brought into the capital city of Shushan and placed under Hegai's charge, and this is what happened to Esther. (Hegai was the overseer of the women.)"
+        },
+        {
+          "verseNumber": "9",
+          "contents": [
+            "Hegai was very impressed with Esther, and he treated her favourably. He quickly arranged for Esther to receive her beauty treatments and her allotment of food, as well as choosing seven female servants from the king's palace and assigning them to be her personal attendants. He also moved Esther and her attendants to the best rooms in the harem for virgins."
+          ],
+          "verseText": "Hegai was very impressed with Esther, and he treated her favourably. He quickly arranged for Esther to receive her beauty treatments and her allotment of food, as well as choosing seven female servants from the king's palace and assigning them to be her personal attendants. He also moved Esther and her attendants to the best rooms in the harem for virgins."
+        },
+        {
+          "verseNumber": "10",
+          "contents": [
+            "(Esther hadn't revealed her family ties or her Jewishness to anyone, because Mordekai had instructed her not to.)",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "(Esther hadn't revealed her family ties or her Jewishness to anyone, because Mordekai had instructed her not to.)"
+        },
+        {
+          "verseNumber": "11",
+          "contents": [
+            "Every day Mordekai would walk around in front of the courtyard of the women's harem to find out",
+            {
+              "add": "from others",
+              "closing": "\\add*"
+            },
+            "how Esther was doing and how she was being treated.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "Every day Mordekai would walk around in front of the courtyard of the women's harem to find out from others how Esther was doing and how she was being treated."
+        },
+        {
+          "verseNumber": "12",
+          "contents": [
+            "Each young woman would get twelve months of beauty treatment according to the",
+            {
+              "add": "Persian",
+              "closing": "\\add*"
+            },
+            "law for women—there would be six months of applying oil of myrrh, then six months of perfumes and other lotions",
+            {
+              "add": "designed for",
+              "closing": "\\add*"
+            },
+            "women. Then their turn would come, one at a time, to be taken to King Ahasuerus."
+          ],
+          "verseText": "Each young woman would get twelve months of beauty treatment according to the Persian law for women—there would be six months of applying oil of myrrh, then six months of perfumes and other lotions designed for women. Then their turn would come, one at a time, to be taken to King Ahasuerus."
+        },
+        {
+          "verseNumber": "13",
+          "contents": [
+            "The young woman was allowed to take whatever she wanted from the harem when she went to the king's house."
+          ],
+          "verseText": "The young woman was allowed to take whatever she wanted from the harem when she went to the king's house."
+        },
+        {
+          "verseNumber": "14",
+          "contents": [
+            "She'd be taken across in the evening, and in the morning she'd be led out to the other harem which was for the concubines. (That harem was overseen by Shaashgaz, another castrated royal guardian.) The women taken there wouldn't go again to the king's house unless he had especially liked them and summoned her back by name.",
+            {
+              "s1": "Esther becomes queen"
+            },
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "She'd be taken across in the evening, and in the morning she'd be led out to the other harem which was for the concubines. (That harem was overseen by Shaashgaz, another castrated royal guardian.) The women taken there wouldn't go again to the king's house unless he had especially liked them and summoned her back by name."
+        },
+        {
+          "verseNumber": "15",
+          "contents": [
+            "Now Esther was the daughter of Mordekai's uncle, Abihail, from whom Mordekai had adopted her as his own daughter. When it was her turn to go to the king, she didn't ask for anything other than what Hegai, the king's trusted official in charge of the harem, had advised, and everyone who saw Esther liked her."
+          ],
+          "verseText": "Now Esther was the daughter of Mordekai's uncle, Abihail, from whom Mordekai had adopted her as his own daughter. When it was her turn to go to the king, she didn't ask for anything other than what Hegai, the king's trusted official in charge of the harem, had advised, and everyone who saw Esther liked her."
+        },
+        {
+          "verseNumber": "16",
+          "contents": [
+            "So Esther was taken to King Ahasuerus at his royal palace in January, in the seventh year of his reign,"
+          ],
+          "verseText": "So Esther was taken to King Ahasuerus at his royal palace in January, in the seventh year of his reign,"
+        },
+        {
+          "verseNumber": "17",
+          "contents": [
+            "and the king loved Esther more than any of the other women. He treated her more kindly and more favourably than any of the other young women",
+            {
+              "add": "who had become his concubines",
+              "closing": "\\add*"
+            },
+            ". He put a royal crown on her head and made her the",
+            {
+              "add": "new",
+              "closing": "\\add*"
+            },
+            "queen to replace Vashti."
+          ],
+          "verseText": "and the king loved Esther more than any of the other women. He treated her more kindly and more favourably than any of the other young women who had become his concubines. He put a royal crown on her head and made her the new queen to replace Vashti."
+        },
+        {
+          "verseNumber": "18",
+          "contents": [
+            "Then the king hosted a large celebration and invited all his officials and servants to a feast to celebrate Esther",
+            {
+              "add": "becoming queen",
+              "closing": "\\add*"
+            },
+            ". He proclaimed that this would be a time to celebrate for people in all of the provinces of his empire when they wouldn't have to pay taxes, and he gave",
+            {
+              "add": "many",
+              "closing": "\\add*"
+            },
+            "generous gifts.",
+            {
+              "s1": "Mordekai and Esther earn the king's favour"
+            },
+            {
+              "rem": "/s1 Mordecai Discovers a Plot; Mordecai and Haman; Mordecai Saves the King's Life; Mordecai Uncovers a Conspiracy"
+            },
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "Then the king hosted a large celebration and invited all his officials and servants to a feast to celebrate Esther becoming queen. He proclaimed that this would be a time to celebrate for people in all of the provinces of his empire when they wouldn't have to pay taxes, and he gave many generous gifts."
+        },
+        {
+          "verseNumber": "19",
+          "contents": [
+            {
+              "add": "Later on,",
+              "closing": "\\add*"
+            },
+            "King Ahasuerus had",
+            {
+              "add": "his officers",
+              "closing": "\\add*"
+            },
+            "bring more virgins",
+            {
+              "add": "to Shushan",
+              "closing": "\\add*"
+            },
+            ". During this time, Mordekai",
+            {
+              "add": "had been given a position by the king so",
+              "closing": "\\add*"
+            },
+            "he sat",
+            {
+              "add": "there",
+              "closing": "\\add*"
+            },
+            "at the king's gate."
+          ],
+          "verseText": "Later on, King Ahasuerus had his officers bring more virgins to Shushan. During this time, Mordekai had been given a position by the king so he sat there at the king's gate."
+        },
+        {
+          "verseNumber": "20",
+          "contents": [
+            "Esther had still not told anyone that",
+            {
+              "add": "she was Jewish",
+              "closing": "\\add*"
+            },
+            "because Mordekai had warned her not to tell anyone.",
+            {
+              "add": "What's more,",
+              "closing": "\\add*"
+            },
+            "she continued to follow all of Mordekai's instructions, just as she had done when she was still under his guardianship.",
+            {
+              "rem": "/s1 Mordekai's Loyalty to the King"
+            },
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "Esther had still not told anyone that she was Jewish because Mordekai had warned her not to tell anyone. What's more, she continued to follow all of Mordekai's instructions, just as she had done when she was still under his guardianship."
+        },
+        {
+          "verseNumber": "21",
+          "contents": [
+            "One day when Mordekai was",
+            {
+              "add": "on duty",
+              "closing": "\\add*"
+            },
+            "at the king's gate, two of the king's guards who protected the doorway",
+            {
+              "add": "to the king's private rooms",
+              "closing": "\\add*"
+            },
+            "became angry with the king and so they planned to assassinate King Ahasuerus. (Their names were Bigthan and Teresh.)"
+          ],
+          "verseText": "One day when Mordekai was on duty at the king's gate, two of the king's guards who protected the doorway to the king's private rooms became angry with the king and so they planned to assassinate King Ahasuerus. (Their names were Bigthan and Teresh.)"
+        },
+        {
+          "verseNumber": "22",
+          "contents": [
+            "But when Mordekai heard what they were planning, he told Queen Esther about it and she told the king, explaining that Mordekai had given her the information."
+          ],
+          "verseText": "But when Mordekai heard what they were planning, he told Queen Esther about it and she told the king, explaining that Mordekai had given her the information."
+        },
+        {
+          "verseNumber": "23",
+          "contents": [
+            "When the matter was investigated and",
+            {
+              "add": "the facts",
+              "closing": "\\add*"
+            },
+            "discovered, both conspirators were impaled on",
+            {
+              "add": "sharpened wooden",
+              "closing": "\\add*"
+            },
+            "poles, and in the presence of the king, the incident was recorded in the royal record of events."
+          ],
+          "verseText": "When the matter was investigated and the facts discovered, both conspirators were impaled on sharpened wooden poles, and in the presence of the king, the incident was recorded in the royal record of events."
+        }
+      ]
+    },
+    {
+      "chapterNumber": "3",
+      "contents": [
+        {
+          "s1": "Haman plans to annihilate the Jews"
+        },
+        {
+          "rem": "/s1 Haman's Plot against the Jews; Haman Plots to Destroy the Jews; Haman Undertakes to Destroy the Jews; Haman's Plot to Destroy the Jews"
+        },
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "contents": [
+            "Some time later, King Ahasuerus promoted Haman, one of his officials (and the son of Hammedatha",
+            {
+              "add": "who was a descendant",
+              "closing": "\\add*"
+            },
+            "of Agag). The king gave Haman a very important position—more important than any of his other officials."
+          ],
+          "verseText": "Some time later, King Ahasuerus promoted Haman, one of his officials (and the son of Hammedatha who was a descendant of Agag). The king gave Haman a very important position—more important than any of his other officials."
+        },
+        {
+          "verseNumber": "2",
+          "contents": [
+            "Then the king commanded that all his other officials had to bow down in front of Haman to honour him, and they were doing this at the king's gate, except for Mordekai who refused to bow down to reverence Haman."
+          ],
+          "verseText": "Then the king commanded that all his other officials had to bow down in front of Haman to honour him, and they were doing this at the king's gate, except for Mordekai who refused to bow down to reverence Haman."
+        },
+        {
+          "verseNumber": "3",
+          "contents": [
+            "“Why are you disobeying the king's command?” asked the other royal servants at the king's gate."
+          ],
+          "verseText": "“Why are you disobeying the king's command?” asked the other royal servants at the king's gate."
+        },
+        {
+          "verseNumber": "4",
+          "contents": [
+            "Mordekai told them that it was because he was a Jew",
+            {
+              "add": "(and Jews only worship Yahweh)",
+              "closing": "\\add*"
+            },
+            ". He didn't listen to their",
+            {
+              "add": "warnings",
+              "closing": "\\add*"
+            },
+            "so they told Haman about it to see if he would tolerate Mordekai in keeping refusing to bow down."
+          ],
+          "verseText": "Mordekai told them that it was because he was a Jew (and Jews only worship Yahweh). He didn't listen to their warnings so they told Haman about it to see if he would tolerate Mordekai in keeping refusing to bow down."
+        },
+        {
+          "verseNumber": "5",
+          "contents": [
+            "When Haman saw that Mordekai would not bow down to him or show him reverence, he was furious."
+          ],
+          "verseText": "When Haman saw that Mordekai would not bow down to him or show him reverence, he was furious."
+        },
+        {
+          "verseNumber": "6",
+          "contents": [
+            "But Hamas despised the idea of just punishing Mordekai because he'd been told that Mordekai",
+            {
+              "add": "didn't bow to him because",
+              "closing": "\\add*"
+            },
+            "Mordekai was a Jew. So Haman decided to annihilate all of Mordekai's people, i.e., all the Jews throughout the kingdom of Ahasuerus.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "But Hamas despised the idea of just punishing Mordekai because he'd been told that Mordekai didn't bow to him because Mordekai was a Jew. So Haman decided to annihilate all of Mordekai's people, i.e., all the Jews throughout the kingdom of Ahasuerus."
+        },
+        {
+          "verseNumber": "7",
+          "contents": [
+            "In early April of the twelfth year of King Ahasuerus' reign, Haman got his servants to throw dice",
+            {
+              "add": "to select the best month and the best day to kill the Jews",
+              "closing": "\\add*"
+            },
+            ", and the 13th of March was chosen.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "In early April of the twelfth year of King Ahasuerus' reign, Haman got his servants to throw dice to select the best month and the best day to kill the Jews, and the 13th of March was chosen."
+        },
+        {
+          "verseNumber": "8",
+          "contents": [
+            "Then Haman",
+            {
+              "add": "went to",
+              "closing": "\\add*"
+            },
+            "King Ahasuerus and said, “",
+            {
+              "add": "Your Majesty,",
+              "closing": "\\add*"
+            },
+            "there is a certain group of people who live among the other peoples in every province of your empire. They have their own set of laws, so they don't obey your laws. It's not good for you to allow them to continue to live in your empire."
+          ],
+          "verseText": "Then Haman went to King Ahasuerus and said, “Your Majesty, there is a certain group of people who live among the other peoples in every province of your empire. They have their own set of laws, so they don't obey your laws. It's not good for you to allow them to continue to live in your empire."
+        },
+        {
+          "verseNumber": "9",
+          "contents": [
+            "Your majesty, if you approve of this plan, then write a decree saying that all of the Jews must be destroyed.",
+            {
+              "add": "When they're dead, we can take all of their possessions, and from that",
+              "closing": "\\add*"
+            },
+            "I will give 300 tons of silver to your administrators for them to put into your royal treasuries.”",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "Your majesty, if you approve of this plan, then write a decree saying that all of the Jews must be destroyed. When they're dead, we can take all of their possessions, and from that I will give 300 tons of silver to your administrators for them to put into your royal treasuries.”"
+        },
+        {
+          "verseNumber": "10",
+          "contents": [
+            {
+              "add": "This seemed sensible to",
+              "closing": "\\add*"
+            },
+            "the king so he removed his signet ring from his finger and he gave it",
+            {
+              "f": [
+                "+",
+                {
+                  "fr": "3:10"
+                },
+                {
+                  "ft": "Having the king's signet ring enabled Haman to stamp the king's seal (like a signature) onto the newly drafted laws."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            "to Haman (the son of Hammedatha, the Agagite, the adversary of the Jews)."
+          ],
+          "verseText": "This seemed sensible to the king so he removed his signet ring from his finger and he gave it to Haman (the son of Hammedatha, the Agagite, the adversary of the Jews)."
+        },
+        {
+          "verseNumber": "11",
+          "contents": [
+            "The king told Haman, “You can keep the money for yourself, and you can do whatever you want to do with those people.”",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "The king told Haman, “You can keep the money for yourself, and you can do whatever you want to do with those people.”"
+        },
+        {
+          "verseNumber": "12",
+          "contents": [
+            "On the thirteenth day of that same month, Haman called in the royal scribes, and he dictated a letter to them. He told them to send copies to the royal officials, the governors of each province, and the leaders of each people group",
+            {
+              "add": "within the empire",
+              "closing": "\\add*"
+            },
+            ". The scribes translated the letter so it could be sent to each province using its own alphabet and to each people group in its own language. To show that he was sending the letter under the king's own authority, Haman sealed each copy of the letter with the ring that had the king's official seal on it."
+          ],
+          "verseText": "On the thirteenth day of that same month, Haman called in the royal scribes, and he dictated a letter to them. He told them to send copies to the royal officials, the governors of each province, and the leaders of each people group within the empire. The scribes translated the letter so it could be sent to each province using its own alphabet and to each people group in its own language. To show that he was sending the letter under the king's own authority, Haman sealed each copy of the letter with the ring that had the king's official seal on it."
+        },
+        {
+          "verseNumber": "13",
+          "contents": [
+            "Couriers delivered the letters to the officials in every province in the empire. The letters said to completely destroy all the Jews, including the children and women, on a single day. That was to be the thirteenth day of March early in the following year. The letters also stated that those who killed the Jews could take everything that belonged to them."
+          ],
+          "verseText": "Couriers delivered the letters to the officials in every province in the empire. The letters said to completely destroy all the Jews, including the children and women, on a single day. That was to be the thirteenth day of March early in the following year. The letters also stated that those who killed the Jews could take everything that belonged to them."
+        },
+        {
+          "verseNumber": "14",
+          "contents": [
+            "The letter told the officials to display copies where everyone could see them—that way all the people in every single province would know that the king had commanded this, and they could get ready for when the day came.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "The letter told the officials to display copies where everyone could see them—that way all the people in every single province would know that the king had commanded this, and they could get ready for when the day came."
+        },
+        {
+          "verseNumber": "15",
+          "contents": [
+            "So couriers hurried off with the letters as the king had commanded. A herald in the capital city of Shushan also proclaimed what the letters said. Then the king and Haman relaxed and drank together, but there was",
+            {
+              "add": "total",
+              "closing": "\\add*"
+            },
+            "confusion in Shushan",
+            {
+              "add": "about how all of this would work out",
+              "closing": "\\add*"
+            },
+            "."
+          ],
+          "verseText": "So couriers hurried off with the letters as the king had commanded. A herald in the capital city of Shushan also proclaimed what the letters said. Then the king and Haman relaxed and drank together, but there was total confusion in Shushan about how all of this would work out."
+        }
+      ]
+    },
+    {
+      "chapterNumber": "4",
+      "contents": [
+        {
+          "s1": "Mordekai asks the queen for help"
+        },
+        {
+          "rem": "/s1 Mordecai Asks for Esther's Help; Esther Agrees to Help the Jews; Esther plans to rescue the Jews; Mordecai Requests Esther's Help; Mordecai Persuades Esther to Help"
+        },
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "contents": [
+            "When Mordekai found out about what had been done, he tore his clothes and dressed in sackcloth and",
+            {
+              "add": "threw",
+              "closing": "\\add*"
+            },
+            "ashes",
+            {
+              "add": "over himself (as a sign of mourning or distress)",
+              "closing": "\\add*"
+            },
+            "and went out into the city centre, wailing loudly and bitterly."
+          ],
+          "verseText": "When Mordekai found out about what had been done, he tore his clothes and dressed in sackcloth and threw ashes over himself (as a sign of mourning or distress) and went out into the city centre, wailing loudly and bitterly."
+        },
+        {
+          "verseNumber": "2",
+          "contents": [
+            "But no one was wearing mourning garb was allowed inside the king's gate, so when Mordekai reached the gate, he had to stay just outside it."
+          ],
+          "verseText": "But no one was wearing mourning garb was allowed inside the king's gate, so when Mordekai reached the gate, he had to stay just outside it."
+        },
+        {
+          "verseNumber": "3",
+          "contents": [
+            "In every province of the empire, the letter that said to destroy the Jews was publicly displayed and when the Jews heard about it, they were incredibly upset. They skipped meals and wailed loudly, and many of them also wore sackcloth and threw ashes on themselves and lay on the ground.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "In every province of the empire, the letter that said to destroy the Jews was publicly displayed and when the Jews heard about it, they were incredibly upset. They skipped meals and wailed loudly, and many of them also wore sackcloth and threw ashes on themselves and lay on the ground."
+        },
+        {
+          "verseNumber": "4",
+          "contents": [
+            "When",
+            {
+              "add": "Queen",
+              "closing": "\\add*"
+            },
+            "Esther's young female attendants came with her guardians and told her",
+            {
+              "add": "what was going on outside",
+              "closing": "\\add*"
+            },
+            ", even the queen became very scared. She sent Mordekai some good clothes to wear instead of the sackcloth, but he wouldn't accept them."
+          ],
+          "verseText": "When Queen Esther's young female attendants came with her guardians and told her what was going on outside, even the queen became very scared. She sent Mordekai some good clothes to wear instead of the sackcloth, but he wouldn't accept them."
+        },
+        {
+          "verseNumber": "5",
+          "contents": [
+            "The king had assigned some of the royal guardians to Esther personally, so Esther called for one of them—a man named Hathak. She told him to go out and speak with Mordekai and find out what he was so distressed about."
+          ],
+          "verseText": "The king had assigned some of the royal guardians to Esther personally, so Esther called for one of them—a man named Hathak. She told him to go out and speak with Mordekai and find out what he was so distressed about."
+        },
+        {
+          "verseNumber": "6",
+          "contents": [
+            "So Hathak went out to",
+            {
+              "add": "talk to",
+              "closing": "\\add*"
+            },
+            "Mordekai who was out in the plaza in front of the king's gate."
+          ],
+          "verseText": "So Hathak went out to talk to Mordekai who was out in the plaza in front of the king's gate."
+        },
+        {
+          "verseNumber": "7",
+          "contents": [
+            "Mordekai told him everything that Haman was planning to do and even told him how much money Haman had said the king would get for his treasuries if",
+            {
+              "add": "the king commanded people",
+              "closing": "\\add*"
+            },
+            "to kill all the Jews."
+          ],
+          "verseText": "Mordekai told him everything that Haman was planning to do and even told him how much money Haman had said the king would get for his treasuries if the king commanded people to kill all the Jews."
+        },
+        {
+          "verseNumber": "8",
+          "contents": [
+            "Mordekai also gave Hathak a copy of the letter that the announcers had read out loud in Shushan, that said that people must kill all the Jews. He told Hathak to show the letter to Esther so that she would know exactly what it said and also told him to urge her to go to the king personally and to beg him desperately to save her people",
+            {
+              "add": "from destruction",
+              "closing": "\\add*"
+            },
+            "."
+          ],
+          "verseText": "Mordekai also gave Hathak a copy of the letter that the announcers had read out loud in Shushan, that said that people must kill all the Jews. He told Hathak to show the letter to Esther so that she would know exactly what it said and also told him to urge her to go to the king personally and to beg him desperately to save her people from destruction."
+        },
+        {
+          "verseNumber": "9",
+          "contents": [
+            "So Hathak returned to the queen and told her what Mordekai had said,"
+          ],
+          "verseText": "So Hathak returned to the queen and told her what Mordekai had said,"
+        },
+        {
+          "verseNumber": "10",
+          "contents": [
+            "and Esther told him to go back to Mordekai with this message:"
+          ],
+          "verseText": "and Esther told him to go back to Mordekai with this message:"
+        },
+        {
+          "verseNumber": "11",
+          "contents": [
+            "“There's a law about going to the king that applies to everyone in the kingdom, both men and women. If anyone goes into the inner courtyard of the palace, where the king can see them, and the king has not summoned them, that person will be executed. Only if the king holds out his golden scepter to them, then they will live. (Everyone in the whole empire knows this law.) The king hasn't called for me in over a month",
+            {
+              "add": ", and if I go in without being summoned, I could be put to death",
+              "closing": "\\add*"
+            },
+            ".”",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "“There's a law about going to the king that applies to everyone in the kingdom, both men and women. If anyone goes into the inner courtyard of the palace, where the king can see them, and the king has not summoned them, that person will be executed. Only if the king holds out his golden scepter to them, then they will live. (Everyone in the whole empire knows this law.) The king hasn't called for me in over a month, and if I go in without being summoned, I could be put to death.”"
+        },
+        {
+          "verseNumber": "12",
+          "contents": [
+            {
+              "add": "So Hathak",
+              "closing": "\\add*"
+            },
+            "went back to Mordekai and told him what the queen had said."
+          ],
+          "verseText": "So Hathak went back to Mordekai and told him what the queen had said."
+        },
+        {
+          "verseNumber": "13",
+          "contents": [
+            "Mordekai told",
+            {
+              "add": "Hathak",
+              "closing": "\\add*"
+            },
+            "to tell this to Esther: “Don't imagine that just because you live there in the king's palace that you'll be safe when they kill all the other Jews."
+          ],
+          "verseText": "Mordekai told Hathak to tell this to Esther: “Don't imagine that just because you live there in the king's palace that you'll be safe when they kill all the other Jews."
+        },
+        {
+          "verseNumber": "14",
+          "contents": [
+            "If you say nothing at all now, someone from some other place will rescue the Jews, but you and your relatives will not survive. Who knows, perhaps it was for a time just like this that",
+            {
+              "add": "God allowed",
+              "closing": "\\add*"
+            },
+            "you to become queen?”",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "If you say nothing at all now, someone from some other place will rescue the Jews, but you and your relatives will not survive. Who knows, perhaps it was for a time just like this that God allowed you to become queen?”"
+        },
+        {
+          "verseNumber": "15",
+          "contents": [
+            "Then Esther sent this reply to Mordekai:"
+          ],
+          "verseText": "Then Esther sent this reply to Mordekai:"
+        },
+        {
+          "verseNumber": "16",
+          "contents": [
+            "“Go and assemble all the Jews who live here in Shushan, and tell them to fast and pray for my sake—tell them to not eat or drink anything for three days and three nights. My female attendants and I will also fast in the same way. At the end of the three days, I will go in to talk to the king even though it's against the law. I will do that even if it costs me my life.”",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "“Go and assemble all the Jews who live here in Shushan, and tell them to fast and pray for my sake—tell them to not eat or drink anything for three days and three nights. My female attendants and I will also fast in the same way. At the end of the three days, I will go in to talk to the king even though it's against the law. I will do that even if it costs me my life.”"
+        },
+        {
+          "verseNumber": "17",
+          "contents": [
+            "So Mordekai went and did everything that Esther had told him to do."
+          ],
+          "verseText": "So Mordekai went and did everything that Esther had told him to do."
+        }
+      ]
+    },
+    {
+      "chapterNumber": "5",
+      "contents": [
+        {
+          "s1": "Esther goes to the king without an invitation"
+        },
+        {
+          "rem": "/s1 Esther's Banquet; Esther Invites the King and Haman to a Banquet; Esther's Request to the King"
+        },
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "contents": [
+            "Three days later, the",
+            {
+              "add": "Queen",
+              "closing": "\\add*"
+            },
+            "Esther put on her royal robes and",
+            {
+              "add": "went and",
+              "closing": "\\add*"
+            },
+            "stood in the inner courtyard of the palace, across from the king's house. He was in the royal palace, sitting on the royal throne and facing the room's entrance."
+          ],
+          "verseText": "Three days later, the Queen Esther put on her royal robes and went and stood in the inner courtyard of the palace, across from the king's house. He was in the royal palace, sitting on the royal throne and facing the room's entrance."
+        },
+        {
+          "verseNumber": "2",
+          "contents": [
+            "As soon as the king noticed Esther standing there in the courtyard, he was very pleased to see her. So he held out his golden scepter to her and Esther came up",
+            {
+              "add": "to the throne",
+              "closing": "\\add*"
+            },
+            "and touched the top of the scepter."
+          ],
+          "verseText": "As soon as the king noticed Esther standing there in the courtyard, he was very pleased to see her. So he held out his golden scepter to her and Esther came up to the throne and touched the top of the scepter."
+        },
+        {
+          "verseNumber": "3",
+          "contents": [
+            "“Why have you come here, Queen Esther?” the king asked. “What do you want? Tell me, and I'll give you anything you ask for—even half of the empire.”",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "“Why have you come here, Queen Esther?” the king asked. “What do you want? Tell me, and I'll give you anything you ask for—even half of the empire.”"
+        },
+        {
+          "verseNumber": "4",
+          "contents": [
+            "“If it pleases your majesty,” Esther replied, “please come with Haman today to the banquet that I've prepared for you.”",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "“If it pleases your majesty,” Esther replied, “please come with Haman today to the banquet that I've prepared for you.”"
+        },
+        {
+          "verseNumber": "5",
+          "contents": [
+            "The king said to his servants, “",
+            {
+              "add": "Go and",
+              "closing": "\\add*"
+            },
+            "get Haman” the king told his servants, “and bring him quickly so that we can do what the queen has asked us.” So the king and Haman went to the banquet that Esther had had prepared for them."
+          ],
+          "verseText": "The king said to his servants, “Go and get Haman” the king told his servants, “and bring him quickly so that we can do what the queen has asked us.” So the king and Haman went to the banquet that Esther had had prepared for them."
+        },
+        {
+          "verseNumber": "6",
+          "contents": [
+            "While they were drinking wine, the king said to Esther, “Now please tell me what you",
+            {
+              "add": "really",
+              "closing": "\\add*"
+            },
+            "want. I'll give you anything you ask for, no matter how much it is. I truly mean what I am saying.”",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "While they were drinking wine, the king said to Esther, “Now please tell me what you really want. I'll give you anything you ask for, no matter how much it is. I truly mean what I am saying.”"
+        },
+        {
+          "verseNumber": "7",
+          "contents": [
+            "“This is what I",
+            {
+              "add": "really",
+              "closing": "\\add*"
+            },
+            "want.” Esther replied."
+          ],
+          "verseText": "“This is what I really want.” Esther replied."
+        },
+        {
+          "verseNumber": "8",
+          "contents": [
+            "“Your majesty, if you're pleased with me and if you're happy to give me what I want, please come with Haman to",
+            {
+              "add": "another",
+              "closing": "\\add*"
+            },
+            "banquet that I'll prepare for you tomorrow and I'll answer your question then.”",
+            {
+              "s1": "Haman's anger with Mordekai and his execution plan"
+            },
+            {
+              "rem": "/s1 Haman Plots to Kill Mordecai; Haman's Plan to Kill Mordecai; Haman Plans to Have Mordecai Hanged; Haman's Rage Against Mordecai"
+            },
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "“Your majesty, if you're pleased with me and if you're happy to give me what I want, please come with Haman to another banquet that I'll prepare for you tomorrow and I'll answer your question then.”"
+        },
+        {
+          "verseNumber": "9",
+          "contents": [
+            "Haman was feeling very happy as he left",
+            {
+              "add": "the banquet",
+              "closing": "\\add*"
+            },
+            "that day. But then he saw Mordekai sitting at the king's gate and noticed that Mordekai didn't stand up or show fearful reverence to him. This made Haman furious with Mordekai"
+          ],
+          "verseText": "Haman was feeling very happy as he left the banquet that day. But then he saw Mordekai sitting at the king's gate and noticed that Mordekai didn't stand up or show fearful reverence to him. This made Haman furious with Mordekai"
+        },
+        {
+          "verseNumber": "10",
+          "contents": [
+            "but he restrained himself and went home. Then he sent for his friends and brought in his wife, Zeresh,"
+          ],
+          "verseText": "but he restrained himself and went home. Then he sent for his friends and brought in his wife, Zeresh,"
+        },
+        {
+          "verseNumber": "11",
+          "contents": [
+            "boasting to them about how rich he was and about how many sons he had, and how the king had promoted him",
+            {
+              "add": "many times",
+              "closing": "\\add*"
+            },
+            "and given him a position above all of the other officials and administrators."
+          ],
+          "verseText": "boasting to them about how rich he was and about how many sons he had, and how the king had promoted him many times and given him a position above all of the other officials and administrators."
+        },
+        {
+          "verseNumber": "12",
+          "contents": [
+            "“And that is not all,” Haman added. “I was the only one that Queen Esther invited to go with the king to a banquet that she prepared for us today. And she's also invited only me to go with the king again tomorrow."
+          ],
+          "verseText": "“And that is not all,” Haman added. “I was the only one that Queen Esther invited to go with the king to a banquet that she prepared for us today. And she's also invited only me to go with the king again tomorrow."
+        },
+        {
+          "verseNumber": "13",
+          "contents": [
+            "However, I still can't be happy as long as I keep seeing that Jew, Mordekai, sitting there at the king's gate.”",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "However, I still can't be happy as long as I keep seeing that Jew, Mordekai, sitting there at the king's gate.”"
+        },
+        {
+          "verseNumber": "14",
+          "contents": [
+            "Then Zeresh his wife and all his friends said to him, “Get them to install 25-metre high pole, and in the morning get permission from the king, and get them to impale Mordekai on it. Then you can go with the king to the banquet and enjoy yourself.”",
+            {
+              "p": "That idea sounded good to Haman, so he got the pole erected."
+            }
+          ],
+          "verseText": "Then Zeresh his wife and all his friends said to him, “Get them to install 25-metre high pole, and in the morning get permission from the king, and get them to impale Mordekai on it. Then you can go with the king to the banquet and enjoy yourself.” That idea sounded good to Haman, so he got the pole erected."
+        }
+      ]
+    },
+    {
+      "chapterNumber": "6",
+      "contents": [
+        {
+          "s1": "The king honours Mordekai"
+        },
+        {
+          "rem": "/s1 Haman executed; The King Honours Mordecai; Mordecai Honoured"
+        },
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "contents": [
+            "That night the king was unable to sleep so he ordered the royal chronicles to be fetched and to be read to him."
+          ],
+          "verseText": "That night the king was unable to sleep so he ordered the royal chronicles to be fetched and to be read to him."
+        },
+        {
+          "verseNumber": "2",
+          "contents": [
+            "The chronicles mentioned that Bigthan and Teresh, two of the royal guardians who protected the doorway to the king's private quarters, had planned to assassinate the king, but that Mordekai had reported it."
+          ],
+          "verseText": "The chronicles mentioned that Bigthan and Teresh, two of the royal guardians who protected the doorway to the king's private quarters, had planned to assassinate the king, but that Mordekai had reported it."
+        },
+        {
+          "verseNumber": "3",
+          "contents": [
+            "“What honour or recognition did I give Mordekai for saving my life?” the king asked.",
+            {
+              "p": "“Nothing was done for him,” replied the young men who were attending him."
+            },
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "“What honour or recognition did I give Mordekai for saving my life?” the king asked. “Nothing was done for him,” replied the young men who were attending him."
+        },
+        {
+          "verseNumber": "4",
+          "contents": [
+            "At that moment, Haman had entered the outer courtyard of the king's house. He had come to tell the king that he wanted to execute Mordekai on the pole that he'd had set up for him.",
+            {
+              "p": "“Who's out in the courtyard?” the king asked."
+            },
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "At that moment, Haman had entered the outer courtyard of the king's house. He had come to tell the king that he wanted to execute Mordekai on the pole that he'd had set up for him. “Who's out in the courtyard?” the king asked."
+        },
+        {
+          "verseNumber": "5",
+          "contents": [
+            "“Haman's out there standing in the courtyard,” replied the young men.",
+            {
+              "p": "“Bring him in then,” the king instructed."
+            },
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "“Haman's out there standing in the courtyard,” replied the young men. “Bring him in then,” the king instructed."
+        },
+        {
+          "verseNumber": "6",
+          "contents": [
+            "When Haman came in, the king asked him, “What should I do for a man that I would really like to honour?”",
+            {
+              "p": "Haman thought to himself, “Surely it must be me that the king would like to honour more than anyone else?”"
+            }
+          ],
+          "verseText": "When Haman came in, the king asked him, “What should I do for a man that I would really like to honour?” Haman thought to himself, “Surely it must be me that the king would like to honour more than anyone else?”"
+        },
+        {
+          "verseNumber": "7",
+          "contents": [
+            "so he replied to the king, “If you really want to honour someone,"
+          ],
+          "verseText": "so he replied to the king, “If you really want to honour someone,"
+        },
+        {
+          "verseNumber": "8",
+          "contents": [
+            "tell your servants to bring one of your own royal robes that you have already worn yourself and also bring a horse that you have already ridden yourself and put a royal crown on its head."
+          ],
+          "verseText": "tell your servants to bring one of your own royal robes that you have already worn yourself and also bring a horse that you have already ridden yourself and put a royal crown on its head."
+        },
+        {
+          "verseNumber": "9",
+          "contents": [
+            "Then have one of your most noble officials present the man with the robe and the horse. Have your servants put the robe on the man whom you really want to honour and have them seat that man on the horse and then lead the horse through the public square of the city while they shout out",
+            {
+              "add": "to everyone",
+              "closing": "\\add*"
+            },
+            "in front of them, ‘The king is doing this because he really wants to honour this man!’ ”",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "Then have one of your most noble officials present the man with the robe and the horse. Have your servants put the robe on the man whom you really want to honour and have them seat that man on the horse and then lead the horse through the public square of the city while they shout out to everyone in front of them, ‘The king is doing this because he really wants to honour this man!’ ”"
+        },
+        {
+          "verseNumber": "10",
+          "contents": [
+            "The king",
+            {
+              "add": "agreed so",
+              "closing": "\\add*"
+            },
+            "he replied to Haman, “Go quickly and take the robe and the horse and do what you've just described for Mordekai the Jew who sits by the gate to the palace. Make sure that you do absolutely everything that you've said.”",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "The king agreed so he replied to Haman, “Go quickly and take the robe and the horse and do what you've just described for Mordekai the Jew who sits by the gate to the palace. Make sure that you do absolutely everything that you've said.”"
+        },
+        {
+          "verseNumber": "11",
+          "contents": [
+            "So Haman got the robe and the horse and put the robe on Mordekai, seated him on the horse, and then led the horse through the public square of the city. As he did, he shouted out to everyone in front of him, “The king is doing this because he really wants to honour this man!”",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "So Haman got the robe and the horse and put the robe on Mordekai, seated him on the horse, and then led the horse through the public square of the city. As he did, he shouted out to everyone in front of him, “The king is doing this because he really wants to honour this man!”"
+        },
+        {
+          "verseNumber": "12",
+          "contents": [
+            "Afterwards, Mordekai returned to the king's gate but Haman hurried to his house, covering his head like a mourner."
+          ],
+          "verseText": "Afterwards, Mordekai returned to the king's gate but Haman hurried to his house, covering his head like a mourner."
+        },
+        {
+          "verseNumber": "13",
+          "contents": [
+            {
+              "add": "At home",
+              "closing": "\\add*"
+            },
+            "he explained to Zeresh his wife and to all his friends everything that had happened to him. Then his advisors and his wife said to him, “Mordekai has begun to defeat you and since he is one of the Jewish people, you won't win against him—instead, he'll certainly defeat you.”",
+            {
+              "s1": "Haman's execution"
+            },
+            {
+              "rem": "/s1 Haman Is Put to Death; Haman's Downfall and Mordecai's Advancement"
+            },
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "At home he explained to Zeresh his wife and to all his friends everything that had happened to him. Then his advisors and his wife said to him, “Mordekai has begun to defeat you and since he is one of the Jewish people, you won't win against him—instead, he'll certainly defeat you.”"
+        },
+        {
+          "verseNumber": "14",
+          "contents": [
+            "While they were still talking together,",
+            {
+              "add": "some of",
+              "closing": "\\add*"
+            },
+            "the royal guardians arrived to bring Haman quickly to the banquet that Esther had had prepared."
+          ],
+          "verseText": "While they were still talking together, some of the royal guardians arrived to bring Haman quickly to the banquet that Esther had had prepared."
+        }
+      ]
+    },
+    {
+      "chapterNumber": "7",
+      "contents": [
+        {
+          "rem": "/s1 The King Executes Haman; Haman Hanged"
+        },
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "contents": [
+            "So the king and Haman went to Queen Esther's",
+            {
+              "add": "banquet",
+              "closing": "\\add*"
+            },
+            "."
+          ],
+          "verseText": "So the king and Haman went to Queen Esther's banquet."
+        },
+        {
+          "verseNumber": "2",
+          "contents": [
+            "While they were drinking wine at that second banquet, the king asked Esther again, “Now please tell me what you really want, Queen Esther. Tell me, and I'll do it for you—I'll give you anything you ask for, no matter what it is.”",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "While they were drinking wine at that second banquet, the king asked Esther again, “Now please tell me what you really want, Queen Esther. Tell me, and I'll do it for you—I'll give you anything you ask for, no matter what it is.”"
+        },
+        {
+          "verseNumber": "3",
+          "contents": [
+            "“Your majesty,” Queen Esther replied, “if you are pleased with me, I hope you'll be willing to do what I ask. Please allow me to live, and please save my people. That is what I am asking for"
+          ],
+          "verseText": "“Your majesty,” Queen Esther replied, “if you are pleased with me, I hope you'll be willing to do what I ask. Please allow me to live, and please save my people. That is what I am asking for"
+        },
+        {
+          "verseNumber": "4",
+          "contents": [
+            "because someone has turned me and my people over",
+            {
+              "add": "to our enemies",
+              "closing": "\\add*"
+            },
+            "and they're going to completely destroy us. If someone had",
+            {
+              "add": "just",
+              "closing": "\\add*"
+            },
+            "sold the men and even the women to be slaves, I wouldn't have said anything, because that wouldn't have been important enough to bother your majesty with.”",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "because someone has turned me and my people over to our enemies and they're going to completely destroy us. If someone had just sold the men and even the women to be slaves, I wouldn't have said anything, because that wouldn't have been important enough to bother your majesty with.”"
+        },
+        {
+          "verseNumber": "5",
+          "contents": [
+            "“Who has done this?” King Ahasuerus asked her. “Where is the man who has dared to do such a thing?”",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "“Who has done this?” King Ahasuerus asked her. “Where is the man who has dared to do such a thing?”"
+        },
+        {
+          "verseNumber": "6",
+          "contents": [
+            "“The man who is our bitter enemy is this evil man Haman!” answered Esther.",
+            {
+              "p": [
+                {
+                  "add": "By this time,",
+                  "closing": "\\add*"
+                },
+                "Haman was terrified standing there in front of the king and the queen."
+              ]
+            }
+          ],
+          "verseText": "“The man who is our bitter enemy is this evil man Haman!” answered Esther. By this time, Haman was terrified standing there in front of the king and the queen."
+        },
+        {
+          "verseNumber": "7",
+          "contents": [
+            "Now the king became so angry that he got up and abandoned his wine-drinking at the banquet and went outside into the palace garden. But Haman stayed inside to beg his life from Queen Esther because he recognized that the king wanted to",
+            {
+              "add": "execute",
+              "closing": "\\add*"
+            },
+            "him."
+          ],
+          "verseText": "Now the king became so angry that he got up and abandoned his wine-drinking at the banquet and went outside into the palace garden. But Haman stayed inside to beg his life from Queen Esther because he recognized that the king wanted to execute him."
+        },
+        {
+          "verseNumber": "8",
+          "contents": [
+            {
+              "add": "As he was pleading for his life,",
+              "closing": "\\add*"
+            },
+            "Haman",
+            {
+              "add": "knelt down",
+              "closing": "\\add*"
+            },
+            "very close to Esther as she was",
+            {
+              "add": "reclining",
+              "closing": "\\add*"
+            },
+            "on a couch. When the king returned from the palace garden to the room where they had been drinking wine, he",
+            {
+              "add": "saw this and",
+              "closing": "\\add*"
+            },
+            "exclaimed, “",
+            {
+              "add": "Now",
+              "closing": "\\add*"
+            },
+            "he's even trying to rape the queen in my presence and in my own house!”",
+            {
+              "p": [
+                "As soon as the king said this, some of his servants covered Haman's face",
+                {
+                  "add": "(as a sign that he would be executed)",
+                  "closing": "\\add*"
+                },
+                "."
+              ]
+            }
+          ],
+          "verseText": "As he was pleading for his life, Haman knelt down very close to Esther as she was reclining on a couch. When the king returned from the palace garden to the room where they had been drinking wine, he saw this and exclaimed, “Now he's even trying to rape the queen in my presence and in my own house!” As soon as the king said this, some of his servants covered Haman's face (as a sign that he would be executed)."
+        },
+        {
+          "verseNumber": "9",
+          "contents": [
+            "Then Harbona, who was one of the guardians who served the king personally, said, “Your majesty, Haman has also set up a pole twenty-five metres high at his house because he wants to hang Mordekai on it. But Mordekai saved your life.”",
+            {
+              "p": "“Execute Haman on it!” the king commanded."
+            },
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "Then Harbona, who was one of the guardians who served the king personally, said, “Your majesty, Haman has also set up a pole twenty-five metres high at his house because he wants to hang Mordekai on it. But Mordekai saved your life.” “Execute Haman on it!” the king commanded."
+        },
+        {
+          "verseNumber": "10",
+          "contents": [
+            "So they impaled Haman on the pole that he had set up for Mordekai, and then the king's anger dissipated.."
+          ],
+          "verseText": "So they impaled Haman on the pole that he had set up for Mordekai, and then the king's anger dissipated.."
+        }
+      ]
+    },
+    {
+      "chapterNumber": "8",
+      "contents": [
+        {
+          "s1": "The Jews are enabled to defend themselves"
+        },
+        {
+          "rem": "/s1 Esther Saves the Jews; The King's Edict in Behalf of the Jews; A Decree to Help the Jews; The Jews Are Told to Fight Back"
+        },
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "contents": [
+            "That same day, King Ahasuerus gave Queen Esther all the property that had belonged to Haman, the enemy of the Jews. Esther told the king that Mordekai was",
+            {
+              "add": "her cousin and that he had been like a father",
+              "closing": "\\add*"
+            },
+            "to her, and",
+            {
+              "add": "so the king summoned",
+              "closing": "\\add*"
+            },
+            "Mordekai to come to him."
+          ],
+          "verseText": "That same day, King Ahasuerus gave Queen Esther all the property that had belonged to Haman, the enemy of the Jews. Esther told the king that Mordekai was her cousin and that he had been like a father to her, and so the king summoned Mordekai to come to him."
+        },
+        {
+          "verseNumber": "2",
+          "contents": [
+            "Then the king removed his signet ring which he had retrieved from Haman, and gave it to Mordekai. The queen also put Mordekai in charge of all the property that had belonged to Haman.",
+            {
+              "rem": "/s1 The triumphant Jews destroy their enemies"
+            },
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "Then the king removed his signet ring which he had retrieved from Haman, and gave it to Mordekai. The queen also put Mordekai in charge of all the property that had belonged to Haman."
+        },
+        {
+          "verseNumber": "3",
+          "contents": [
+            "Then Esther came to speak to the king again, and she knelt down and put her face right on top of his feet. She cried as she begged him to stop Haman's terrible plan to destroy the Jews."
+          ],
+          "verseText": "Then Esther came to speak to the king again, and she knelt down and put her face right on top of his feet. She cried as she begged him to stop Haman's terrible plan to destroy the Jews."
+        },
+        {
+          "verseNumber": "4",
+          "contents": [
+            "The king held out his golden scepter toward Esther, so she stood up and waited facing the king."
+          ],
+          "verseText": "The king held out his golden scepter toward Esther, so she stood up and waited facing the king."
+        },
+        {
+          "verseNumber": "5",
+          "contents": [
+            "“Your majesty,” she said, “if you think that it's the right thing to do, and if you're pleased with me, please write a new letter revoking the letters that Haman (the son of Hammedatha, the Agagite) sent out",
+            {
+              "add": "instructing the people",
+              "closing": "\\add*"
+            },
+            "to destroy all the Jews throughout your empire."
+          ],
+          "verseText": "“Your majesty,” she said, “if you think that it's the right thing to do, and if you're pleased with me, please write a new letter revoking the letters that Haman (the son of Hammedatha, the Agagite) sent out instructing the people to destroy all the Jews throughout your empire."
+        },
+        {
+          "verseNumber": "6",
+          "contents": [
+            "I couldn't bear to see the terrible thing that is about to happen to my people. I",
+            {
+              "add": "certainly",
+              "closing": "\\add*"
+            },
+            "couldn't bear to see",
+            {
+              "add": "all",
+              "closing": "\\add*"
+            },
+            "my relatives destroyed!”",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "I couldn't bear to see the terrible thing that is about to happen to my people. I certainly couldn't bear to see all my relatives destroyed!”"
+        },
+        {
+          "verseNumber": "7",
+          "contents": [
+            "Then king Ahasuerus said to Queen Esther and to Mordekai the Jew, “Listen, I've given the house of Haman to Esther, and they've executed him on the pole because he attempted to destroy the Jews."
+          ],
+          "verseText": "Then king Ahasuerus said to Queen Esther and to Mordekai the Jew, “Listen, I've given the house of Haman to Esther, and they've executed him on the pole because he attempted to destroy the Jews."
+        },
+        {
+          "verseNumber": "8",
+          "contents": [
+            "But as you",
+            {
+              "add": "both",
+              "closing": "\\add*"
+            },
+            "know, no one can revoke a letter that has my name and my official seal on it. So this is what you should do: write",
+            {
+              "add": "a new letter",
+              "closing": "\\add*"
+            },
+            "to help the Jews, as you think best and put my name on it and seal the letter with my signet ring.”",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "But as you both know, no one can revoke a letter that has my name and my official seal on it. So this is what you should do: write a new letter to help the Jews, as you think best and put my name on it and seal the letter with my signet ring.”"
+        },
+        {
+          "verseNumber": "9",
+          "contents": [
+            "It was now June, and the king sent for his scribes and they wrote a letter to the Jews containing everything that Mordekai dictated. It was also addressed to royal officials, and to the governors and leaders in each province. The empire had 127 provinces, extending all the way from India",
+            {
+              "add": "in the east",
+              "closing": "\\add*"
+            },
+            "to Ethiopia",
+            {
+              "add": "in the west",
+              "closing": "\\add*"
+            },
+            ". The scribes wrote to every province using its own alphabet and to each people group in its own language, and to the Jews in their language and using their alphabet."
+          ],
+          "verseText": "It was now June, and the king sent for his scribes and they wrote a letter to the Jews containing everything that Mordekai dictated. It was also addressed to royal officials, and to the governors and leaders in each province. The empire had 127 provinces, extending all the way from India in the east to Ethiopia in the west. The scribes wrote to every province using its own alphabet and to each people group in its own language, and to the Jews in their language and using their alphabet."
+        },
+        {
+          "verseNumber": "10",
+          "contents": [
+            "The letters were written in King Ahasuerus' name, and",
+            {
+              "add": "each one",
+              "closing": "\\add*"
+            },
+            "was sealed with the king's signet ring. Then the letters were distributed by mounted couriers riding on swift horses bred from the royal mares.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "The letters were written in King Ahasuerus' name, and each one was sealed with the king's signet ring. Then the letters were distributed by mounted couriers riding on swift horses bred from the royal mares."
+        },
+        {
+          "verseNumber": "11",
+          "contents": [
+            "The letters stated that the king permitted the Jews in each and every city to get together and defend themselves, and what's more to destroy, kill, and annihilate all the forces of any people or province hostile to them, including women and children, and",
+            {
+              "add": "then",
+              "closing": "\\add*"
+            },
+            "to plunder their possessions."
+          ],
+          "verseText": "The letters stated that the king permitted the Jews in each and every city to get together and defend themselves, and what's more to destroy, kill, and annihilate all the forces of any people or province hostile to them, including women and children, and then to plunder their possessions."
+        },
+        {
+          "verseNumber": "12",
+          "contents": [
+            {
+              "add": "This was to take place",
+              "closing": "\\add*"
+            },
+            "on a certain day in every province throughout the empire: the 13th of March",
+            {
+              "x": [
+                "+",
+                {
+                  "xo": "8:12:"
+                },
+                {
+                  "xt": "3:7."
+                }
+              ],
+              "closing": "\\x*"
+            },
+            {
+              "add": "(the same day on which Haman's law was to take effect)",
+              "closing": "\\add*"
+            },
+            "."
+          ],
+          "verseText": "This was to take place on a certain day in every province throughout the empire: the 13th of March (the same day on which Haman's law was to take effect)."
+        },
+        {
+          "verseNumber": "13",
+          "contents": [
+            "A copy of the decree was to be included as law in every province and to be displayed to all the people so that the Jews could be prepared to fight back against their enemies on that day."
+          ],
+          "verseText": "A copy of the decree was to be included as law in every province and to be displayed to all the people so that the Jews could be prepared to fight back against their enemies on that day."
+        },
+        {
+          "verseNumber": "14",
+          "contents": [
+            "So the couriers on the royal horses rode out quickly under the king's orders to deliver the letters. The new law was also proclaimed throughout the capital city of Shushan.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "So the couriers on the royal horses rode out quickly under the king's orders to deliver the letters. The new law was also proclaimed throughout the capital city of Shushan."
+        },
+        {
+          "verseNumber": "15",
+          "contents": [
+            "The king",
+            {
+              "add": "gave",
+              "closing": "\\add*"
+            },
+            "Mordekai royal clothing that was blue and white, with a large gold crown, and a purple robe made from fine linen. The people of Shushan cheered happily when Mordekai exited",
+            {
+              "add": "the palace",
+              "closing": "\\add*"
+            },
+            "."
+          ],
+          "verseText": "The king gave Mordekai royal clothing that was blue and white, with a large gold crown, and a purple robe made from fine linen. The people of Shushan cheered happily when Mordekai exited the palace."
+        },
+        {
+          "verseNumber": "16",
+          "contents": [
+            "For the Jews, it was",
+            {
+              "add": "a time",
+              "closing": "\\add*"
+            },
+            "of light and happiness, and they were honoured",
+            {
+              "add": "by those around them",
+              "closing": "\\add*"
+            },
+            "."
+          ],
+          "verseText": "For the Jews, it was a time of light and happiness, and they were honoured by those around them."
+        },
+        {
+          "verseNumber": "17",
+          "contents": [
+            "In every single province and in every single city, wherever the letter announcing the king's decree was brought, the Jews were very cheerful and had big celebrations. Many people from other groups in the empire became afraid of the Jews, so they",
+            {
+              "add": "converted to Judaism",
+              "closing": "\\add*"
+            },
+            "themselves."
+          ],
+          "verseText": "In every single province and in every single city, wherever the letter announcing the king's decree was brought, the Jews were very cheerful and had big celebrations. Many people from other groups in the empire became afraid of the Jews, so they converted to Judaism themselves."
+        }
+      ]
+    },
+    {
+      "chapterNumber": "9",
+      "contents": [
+        {
+          "s1": "The Jews destroy their enemies"
+        },
+        {
+          "rem": "/s1 The Jews Destroy Their Enemies; Triumph of the Jews; The Victory of the Jews; Destruction of the Enemies of the Jews"
+        },
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "contents": [
+            {
+              "add": "Finally",
+              "closing": "\\add*"
+            },
+            "when the 13th of March arrived, it was time for everyone to do what the letters from the king said that he had decreed for them to do. The enemies of the Jews had expected to destroy the Jews on that day but just the opposite happened—instead, it was the Jews who destroyed their enemies."
+          ],
+          "verseText": "Finally when the 13th of March arrived, it was time for everyone to do what the letters from the king said that he had decreed for them to do. The enemies of the Jews had expected to destroy the Jews on that day but just the opposite happened—instead, it was the Jews who destroyed their enemies."
+        },
+        {
+          "verseNumber": "2",
+          "contents": [
+            "Throughout the empire, the Jews joined together in their cities to defend themselves against those who wanted to harm them. No one was able to fight back against them because everyone",
+            {
+              "add": "else",
+              "closing": "\\add*"
+            },
+            "in the empire had become afraid of them."
+          ],
+          "verseText": "Throughout the empire, the Jews joined together in their cities to defend themselves against those who wanted to harm them. No one was able to fight back against them because everyone else in the empire had become afraid of them."
+        },
+        {
+          "verseNumber": "3",
+          "contents": [
+            "All the leaders in each province, the royal officials, the governors, and everyone who worked for the king helped the Jews because they had become afraid of Mordekai"
+          ],
+          "verseText": "All the leaders in each province, the royal officials, the governors, and everyone who worked for the king helped the Jews because they had become afraid of Mordekai"
+        },
+        {
+          "verseNumber": "4",
+          "contents": [
+            "because he was",
+            {
+              "add": "now",
+              "closing": "\\add*"
+            },
+            "a very important royal official, and his fame spread throughout the provinces as he became more and more powerful."
+          ],
+          "verseText": "because he was now a very important royal official, and his fame spread throughout the provinces as he became more and more powerful."
+        },
+        {
+          "verseNumber": "5",
+          "contents": [
+            "So the Jews took their weapons and fought against all of their enemies and completely destroyed them. They were able to do everything that they wanted to do against their enemies.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "So the Jews took their weapons and fought against all of their enemies and completely destroyed them. They were able to do everything that they wanted to do against their enemies."
+        },
+        {
+          "verseNumber": "6",
+          "contents": [
+            "In the capital city of Shushan, the Jews killed 500 men"
+          ],
+          "verseText": "In the capital city of Shushan, the Jews killed 500 men"
+        },
+        {
+          "verseNumber": "7",
+          "contents": [
+            "including",
+            {
+              "add": "Haman's ten sons",
+              "closing": "\\add*"
+            },
+            "Parshandatha, Dalphon, Aspatha,"
+          ],
+          "verseText": "including Haman's ten sons Parshandatha, Dalphon, Aspatha,"
+        },
+        {
+          "verseNumber": "8",
+          "contents": [
+            "Poratha, Adalia, Aridatha,"
+          ],
+          "verseText": "Poratha, Adalia, Aridatha,"
+        },
+        {
+          "verseNumber": "9",
+          "contents": [
+            "Parmashta, Arisai, Aridai, and Vaizatha."
+          ],
+          "verseText": "Parmashta, Arisai, Aridai, and Vaizatha."
+        },
+        {
+          "verseNumber": "10",
+          "contents": [
+            "Those were the ten sons of Haman (son of Hammedatha), the enemy of the Jews, but the Jews didn't take their possessions.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "Those were the ten sons of Haman (son of Hammedatha), the enemy of the Jews, but the Jews didn't take their possessions."
+        },
+        {
+          "verseNumber": "11",
+          "contents": [
+            "At the end of the day, the king received a report about how many people the Jews had killed in the capital city of Shushan"
+          ],
+          "verseText": "At the end of the day, the king received a report about how many people the Jews had killed in the capital city of Shushan"
+        },
+        {
+          "verseNumber": "12",
+          "contents": [
+            "and he told Queen Esther, “Here in the capital city of Shushan the Jews have killed 500 men, including Haman's ten sons. In the rest of my empire, they must have killed many more than that! So tell me what else you want and I'll do it for you. I'll do whatever you ask, so do tell me.”",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "and he told Queen Esther, “Here in the capital city of Shushan the Jews have killed 500 men, including Haman's ten sons. In the rest of my empire, they must have killed many more than that! So tell me what else you want and I'll do it for you. I'll do whatever you ask, so do tell me.”"
+        },
+        {
+          "verseNumber": "13",
+          "contents": [
+            "“If it seems like a good plan to you, your majesty,” Esther replied, “then please allow the Jews who live here in Shushan to do again tomorrow what you allowed them to do today. Also, command that the bodies of Haman's ten sons be impaled on the wooden pole.”"
+          ],
+          "verseText": "“If it seems like a good plan to you, your majesty,” Esther replied, “then please allow the Jews who live here in Shushan to do again tomorrow what you allowed them to do today. Also, command that the bodies of Haman's ten sons be impaled on the wooden pole.”"
+        },
+        {
+          "verseNumber": "14",
+          "contents": [
+            "Then the king ordered for this to be done and a decree was made throughout in Shushan, and they",
+            {
+              "add": "publicly",
+              "closing": "\\add*"
+            },
+            "impaled",
+            {
+              "add": "the bodies of",
+              "closing": "\\add*"
+            },
+            "Haman's ten sons."
+          ],
+          "verseText": "Then the king ordered for this to be done and a decree was made throughout in Shushan, and they publicly impaled the bodies of Haman's ten sons."
+        },
+        {
+          "verseNumber": "15",
+          "contents": [
+            "So the next day on the 14th, the Jews in Shushan gathered together again and killed 300",
+            {
+              "add": "more",
+              "closing": "\\add*"
+            },
+            "men in Shushan. But",
+            {
+              "add": "once again",
+              "closing": "\\add*"
+            },
+            "they did not take the things that belonged to those men.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "So the next day on the 14th, the Jews in Shushan gathered together again and killed 300 more men in Shushan. But once again they did not take the things that belonged to those men."
+        },
+        {
+          "verseNumber": "16",
+          "contents": [
+            "The Jews in the other parts of the empire, who had gathered together to fight for their lives had defeated their enemies and killed 75,000 of them. But they",
+            {
+              "add": "too",
+              "closing": "\\add*"
+            },
+            "did not take the things that had belonged to their enemies."
+          ],
+          "verseText": "The Jews in the other parts of the empire, who had gathered together to fight for their lives had defeated their enemies and killed 75,000 of them. But they too did not take the things that had belonged to their enemies."
+        },
+        {
+          "verseNumber": "17",
+          "contents": [
+            "That all happened on the 13th",
+            {
+              "add": "(as the law had said)",
+              "closing": "\\add*"
+            },
+            ", and then they stopped on the 14th and made it a day of feasting and celebration.",
+            {
+              "rem": "/s1 Purim Celebrated; The Feast of Purim Inaugurated"
+            }
+          ],
+          "verseText": "That all happened on the 13th (as the law had said), and then they stopped on the 14th and made it a day of feasting and celebration."
+        },
+        {
+          "verseNumber": "18",
+          "contents": [
+            "But the Jews in Shushan had gathered together",
+            {
+              "add": "and fought their enemies",
+              "closing": "\\add*"
+            },
+            "on both the 13th and the 14th, so they stopped on the 15th and made it a day of feasting and celebration."
+          ],
+          "verseText": "But the Jews in Shushan had gathered together and fought their enemies on both the 13th and the 14th, so they stopped on the 15th and made it a day of feasting and celebration."
+        },
+        {
+          "verseNumber": "19",
+          "contents": [
+            "So that's why the Jews who live in the rural villages observe this holiday on the 14th rather than the 15th. They celebrate with feasting and by giving gifts to each other.",
+            {
+              "s1": "The celebration named ‘Purim’"
+            },
+            {
+              "rem": "/s1 The Festival of Purim; The feast of Purim"
+            },
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "So that's why the Jews who live in the rural villages observe this holiday on the 14th rather than the 15th. They celebrate with feasting and by giving gifts to each other."
+        },
+        {
+          "verseNumber": "20",
+          "contents": [
+            "Now Mordekai recorded everything that had happened and sent letters to all the Jews throughout the empire, in both the near provinces and the far away ones."
+          ],
+          "verseText": "Now Mordekai recorded everything that had happened and sent letters to all the Jews throughout the empire, in both the near provinces and the far away ones."
+        },
+        {
+          "verseNumber": "21",
+          "contents": [
+            "That decree established an annual holiday on the 14th and 15th of March every year,",
+            {
+              "f": [
+                "+",
+                {
+                  "fr": "9:21"
+                },
+                {
+                  "ft": "The OET-RV gives an approximate time of the year in our calendars, but the Jewish calendar is largely a lunar calendar so the dates of the feast in our calendars moves around a little. In 2024 for example, ‘Purim’ begins on the evening of March 23 in Israel and concludes at sundown on March 24."
+                }
+              ],
+              "closing": "\\f*"
+            }
+          ],
+          "verseText": "That decree established an annual holiday on the 14th and 15th of March every year,"
+        },
+        {
+          "verseNumber": "22",
+          "contents": [
+            "because those were the days when the Jews no longer",
+            {
+              "add": "had to oppose",
+              "closing": "\\add*"
+            },
+            "their enemies and that was the month when their sorrow and mourning had changed into a good day. Now they were instructed to make them days of feasting and happiness, and sending of gifts—to each other but also to the needy."
+          ],
+          "verseText": "because those were the days when the Jews no longer had to oppose their enemies and that was the month when their sorrow and mourning had changed into a good day. Now they were instructed to make them days of feasting and happiness, and sending of gifts—to each other but also to the needy."
+        },
+        {
+          "verseNumber": "23",
+          "contents": [
+            "The Jews had already celebrated those days that way, so they",
+            {
+              "add": "readily",
+              "closing": "\\add*"
+            },
+            "agreed to do what Mordekai had written.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "The Jews had already celebrated those days that way, so they readily agreed to do what Mordekai had written."
+        },
+        {
+          "verseNumber": "24",
+          "contents": [
+            "Yes, Haman (the son of Hammedatha, the Agagite), the enemy of all the Jews, had plotted to annihilate them, and he had thrown a ‘Pur’ (which is ‘lot’ or perhaps ‘dice’)",
+            {
+              "add": "choose the date",
+              "closing": "\\add*"
+            },
+            "to crush them and to destroy them."
+          ],
+          "verseText": "Yes, Haman (the son of Hammedatha, the Agagite), the enemy of all the Jews, had plotted to annihilate them, and he had thrown a ‘Pur’ (which is ‘lot’ or perhaps ‘dice’) choose the date to crush them and to destroy them."
+        },
+        {
+          "verseNumber": "25",
+          "contents": [
+            "But",
+            {
+              "add": "instead they would remember how Queen Esther stood",
+              "closing": "\\add*"
+            },
+            "in front of the king, and how he had said in the letter, “Let his evil plot that he plotted concerning the Jews return on his head, and let them execute him and his sons on the pole.”"
+          ],
+          "verseText": "But instead they would remember how Queen Esther stood in front of the king, and how he had said in the letter, “Let his evil plot that he plotted concerning the Jews return on his head, and let them execute him and his sons on the pole.”"
+        },
+        {
+          "verseNumber": "26",
+          "contents": [
+            "Therefore they called this celebration ‘Purim’",
+            {
+              "f": [
+                "+",
+                {
+                  "fr": "9:26"
+                },
+                {
+                  "ft": "Plural of Hebrew ‘Pur’ meaning ‘lot/dice’."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            "because of what they had experienced and because of the contents of",
+            {
+              "add": "Mordekai's",
+              "closing": "\\add*"
+            },
+            "letter."
+          ],
+          "verseText": "Therefore they called this celebration ‘Purim’ because of what they had experienced and because of the contents of Mordekai's letter."
+        },
+        {
+          "verseNumber": "27",
+          "contents": [
+            "The Jews agreed to establish those two days as holidays and to observe them on those specific days as they'd been instructed. They agreed that they and their descendants and everyone who became part of the Jewish people would celebrate it every year."
+          ],
+          "verseText": "The Jews agreed to establish those two days as holidays and to observe them on those specific days as they'd been instructed. They agreed that they and their descendants and everyone who became part of the Jewish people would celebrate it every year."
+        },
+        {
+          "verseNumber": "28",
+          "contents": [
+            "So that's why every Jewish family in every generation",
+            {
+              "add": "since",
+              "closing": "\\add*"
+            },
+            "has celebrated these days as holidays, wherever they live. The Jewish community and its descendants will always faithfully observe this festival of ‘Purim’.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "So that's why every Jewish family in every generation since has celebrated these days as holidays, wherever they live. The Jewish community and its descendants will always faithfully observe this festival of ‘Purim’."
+        },
+        {
+          "verseNumber": "29",
+          "contents": [
+            "Then Queen Esther (the daughter of Abihail), with",
+            {
+              "add": "help from",
+              "closing": "\\add*"
+            },
+            "Mordekai the Jew, wrote a second letter about ‘Purim’."
+          ],
+          "verseText": "Then Queen Esther (the daughter of Abihail), with help from Mordekai the Jew, wrote a second letter about ‘Purim’."
+        },
+        {
+          "verseNumber": "30",
+          "contents": [
+            "He sent this",
+            {
+              "add": "second",
+              "closing": "\\add*"
+            },
+            "letter to all the Jews throughout the empire of King Ahasuerus, with words of peace and truth"
+          ],
+          "verseText": "He sent this second letter to all the Jews throughout the empire of King Ahasuerus, with words of peace and truth"
+        },
+        {
+          "verseNumber": "31",
+          "contents": [
+            "to set up the ‘Purim’ celebration on the given dates according to what Mordekai the Jew and Queen Esther had determined for them.",
+            {
+              "add": "They also confirmed",
+              "closing": "\\add*"
+            },
+            "that the Jews should continue the times of fasting and mourning that they had established for themselves and their future descendants."
+          ],
+          "verseText": "to set up the ‘Purim’ celebration on the given dates according to what Mordekai the Jew and Queen Esther had determined for them. They also confirmed that the Jews should continue the times of fasting and mourning that they had established for themselves and their future descendants."
+        },
+        {
+          "verseNumber": "32",
+          "contents": [
+            "So Esther's decree confirmed these regulations about ‘Purim’ and they were written into the",
+            {
+              "add": "official",
+              "closing": "\\add*"
+            },
+            "record."
+          ],
+          "verseText": "So Esther's decree confirmed these regulations about ‘Purim’ and they were written into the official record."
+        }
+      ]
+    },
+    {
+      "chapterNumber": "10",
+      "contents": [
+        {
+          "s1": "The grandeur of King Ahasuerus and Mordekai"
+        },
+        {
+          "rem": "/s1 The Greatness of Mordecai; The Greatness of Xerxes and Mordecai"
+        },
+        {
+          "p": null
+        },
+        {
+          "verseNumber": "1",
+          "contents": [
+            "Then King Ahasuerus imposed a tax",
+            {
+              "add": "on everyone",
+              "closing": "\\add*"
+            },
+            "throughout his empire, including",
+            {
+              "add": "those",
+              "closing": "\\add*"
+            },
+            "on the islands of the",
+            {
+              "add": "Mediterranean",
+              "closing": "\\add*"
+            },
+            "Sea."
+          ],
+          "verseText": "Then King Ahasuerus imposed a tax on everyone throughout his empire, including those on the islands of the Mediterranean Sea."
+        },
+        {
+          "verseNumber": "2",
+          "contents": [
+            "Everything he accomplished through his power and strength is written down in the",
+            {
+              "add": "royal",
+              "closing": "\\add*"
+            },
+            "chronicles of the kings of Media and Persia, as well as the complete account of the high position to which the king promoted Mordekai."
+          ],
+          "verseText": "Everything he accomplished through his power and strength is written down in the royal chronicles of the kings of Media and Persia, as well as the complete account of the high position to which the king promoted Mordekai."
+        },
+        {
+          "verseNumber": "3",
+          "contents": [
+            "Mordekai the Jew was second-in-command to the king Ahasuerus, and a leader among the Jews. He was popular with most of his own people, seeking good for them and teaching all his descendants",
+            {
+              "add": "how to live in",
+              "closing": "\\add*"
+            },
+            "peace."
+          ],
+          "verseText": "Mordekai the Jew was second-in-command to the king Ahasuerus, and a leader among the Jews. He was popular with most of his own people, seeking good for them and teaching all his descendants how to live in peace."
+        }
+      ]
+    }
+  ],
+  "_messages": {
+    "_warnings": [
+      "Trailing spaces present at line end. "
+    ]
+  }
+}
