@@ -24,7 +24,6 @@ Bibleside implements the OET's "Reader's" version in the main area and a toggle 
 ## Known issues
 
 - Bug: Scrolling between the two versions is synced too well? Since the Literal version is lengthier, verses can be in different locations or even off screen.
-- Inner sections of the Reader's version are misaligned.
 
 
 ## Feedback/contributing
@@ -57,7 +56,7 @@ Navigate to ``/assets/bibles`` and run the file with ``python update_OET_json.py
 
 ## Updating the OET sections
 
-After converting the OET ESFM to json, navigate to ``/assets/bibles`` and run the ``update_OET_sections.py`` file. This will generate a .dart file mapping of the OET sections for use in Bibleside.
+After converting the OET ESFM to json, navigate to the folder with ``cd assets/bibles`` and run ``python update_OET_sections.py``. This will generate two dart files mapping the OET sections for use in Bibleside. Move back to the root folder with ``cd ../..`` and run ``dart format ./lib -l 120`` to format the file.
 
 
 ## License
