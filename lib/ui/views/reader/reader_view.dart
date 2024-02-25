@@ -82,7 +82,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
                     center: viewModel.downListKey,
                     slivers: [
                       PagedSliverList(
-                        pagingController: viewModel.topPagingUpController,
+                        pagingController: viewModel.primaryPagingUpController,
                         builderDelegate: PagedChildBuilderDelegate<Map<String, dynamic>>(
                           itemBuilder: (context, item, index) => VisibilityDetector(
                             key: ValueKey('${item['page']}'),
@@ -99,7 +99,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
                       ),
                       PagedSliverList(
                         key: viewModel.downListKey,
-                        pagingController: viewModel.topPagingDownController,
+                        pagingController: viewModel.primaryPagingDownController,
                         builderDelegate: PagedChildBuilderDelegate<Map<String, dynamic>>(
                           itemBuilder: (context, item, index) => VisibilityDetector(
                             key: ValueKey('${item['page']}'),
@@ -137,7 +137,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
                       center: viewModel.downListKey,
                       slivers: [
                         PagedSliverList(
-                          pagingController: viewModel.bottomPagingUpController,
+                          pagingController: viewModel.secondaryPagingUpController,
                           builderDelegate: PagedChildBuilderDelegate<Map<String, dynamic>>(
                             itemBuilder: (context, item, index) => VisibilityDetector(
                               key: ValueKey('${item['page']}'),
@@ -154,7 +154,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
                         ),
                         PagedSliverList(
                           key: viewModel.downListKey,
-                          pagingController: viewModel.bottomPagingDownController,
+                          pagingController: viewModel.secondaryPagingDownController,
                           builderDelegate: PagedChildBuilderDelegate<Map<String, dynamic>>(
                             itemBuilder: (context, item, index) => VisibilityDetector(
                               key: ValueKey('${item['page']}'),

@@ -40,17 +40,17 @@ class ReaderViewModel extends ReactiveViewModel {
 
   final Key downListKey = UniqueKey();
 
-  PagingController<int, Map<String, dynamic>> topPagingUpController = PagingController(
+  PagingController<int, Map<String, dynamic>> primaryPagingUpController = PagingController(
     firstPageKey: 1,
   );
-  PagingController<int, Map<String, dynamic>> topPagingDownController = PagingController(
+  PagingController<int, Map<String, dynamic>> primaryPagingDownController = PagingController(
     firstPageKey: 1,
   );
 
-  PagingController<int, Map<String, dynamic>> bottomPagingUpController = PagingController(
+  PagingController<int, Map<String, dynamic>> secondaryPagingUpController = PagingController(
     firstPageKey: 1,
   );
-  PagingController<int, Map<String, dynamic>> bottomPagingDownController = PagingController(
+  PagingController<int, Map<String, dynamic>> secondaryPagingDownController = PagingController(
     firstPageKey: 1,
   );
 
@@ -59,50 +59,45 @@ class ReaderViewModel extends ReactiveViewModel {
     topController = parentController.addAndGet();
     bottomController = parentController.addAndGet();
 
-    await initReader();
+    await refreshReader();
   }
 
-  Future<void> initReader() async {
+  Future<void> refreshReader() async {
     await _biblesService.reloadBiblesJson();
 
-    // Top
-    topPagingUpController = PagingController(
+    // Primary area
+    primaryPagingUpController = PagingController(
       firstPageKey: sectionIndex,
     );
-    topPagingDownController = PagingController(
-      firstPageKey: sectionIndex,
-    );
-
-    topPagingUpController.addPageRequestListener((pageKey) {
+    primaryPagingUpController.addPageRequestListener((pageKey) {
       fetchUpChapter(pageKey, Area.primary);
-      updateInterface();
     });
-    topPagingDownController.addPageRequestListener((pageKey) {
+    primaryPagingDownController = PagingController(
+      firstPageKey: sectionIndex,
+    );
+    primaryPagingDownController.addPageRequestListener((pageKey) {
       fetchDownChapter(pageKey, Area.primary);
-      updateInterface();
     });
 
-    // Bottom
-    bottomPagingUpController = PagingController(
+    // Secondary area
+    secondaryPagingUpController = PagingController(
       firstPageKey: sectionIndex,
     );
-    bottomPagingDownController = PagingController(
-      firstPageKey: sectionIndex,
-    );
-
-    bottomPagingUpController.addPageRequestListener((pageKey) {
+    secondaryPagingUpController.addPageRequestListener((pageKey) {
       fetchUpChapter(pageKey, Area.secondary);
-      //updateInterface();
     });
-    bottomPagingDownController.addPageRequestListener((pageKey) {
+    secondaryPagingDownController = PagingController(
+      firstPageKey: sectionIndex,
+    );
+    secondaryPagingDownController.addPageRequestListener((pageKey) {
       fetchDownChapter(pageKey, Area.secondary);
-      //updateInterface();
     });
 
+    // Refresh for first section/chapter
     await fetchDownChapter(sectionIndex, Area.primary);
     await fetchDownChapter(sectionIndex, Area.secondary);
 
-    log(sectionIndex.toString());
+    //log(sectionIndex.toString());
 
     rebuildUi();
   }
@@ -122,21 +117,20 @@ class ReaderViewModel extends ReactiveViewModel {
 
     if (area == Area.primary) {
       if (isLastPage) {
-        topPagingUpController.appendLastPage(newPage);
+        primaryPagingUpController.appendLastPage(newPage);
       } else {
-        topPagingUpController.appendPage(newPage, nextPageKey);
+        primaryPagingUpController.appendPage(newPage, nextPageKey);
       }
-      topPagingUpController.notifyListeners();
     } else if (area == Area.secondary) {
       if (isLastPage) {
-        bottomPagingUpController.appendLastPage(newPage);
+        secondaryPagingUpController.appendLastPage(newPage);
       } else {
-        bottomPagingUpController.appendPage(newPage, nextPageKey);
+        secondaryPagingUpController.appendPage(newPage, nextPageKey);
       }
-      bottomPagingUpController.notifyListeners();
     }
+    updatePagingControllers();
 
-    log('Fetched up chapter for $area');
+    log('Fetched UP for $area');
   }
 
   Future<void> fetchDownChapter(int pageKey, Area area) async {
@@ -147,21 +141,20 @@ class ReaderViewModel extends ReactiveViewModel {
 
     if (area == Area.primary) {
       if (isLastPage) {
-        topPagingDownController.appendLastPage(newPage);
+        primaryPagingDownController.appendLastPage(newPage);
       } else {
-        topPagingDownController.appendPage(newPage, nextPageKey);
+        primaryPagingDownController.appendPage(newPage, nextPageKey);
       }
-      topPagingDownController.notifyListeners();
     } else if (area == Area.secondary) {
       if (isLastPage) {
-        bottomPagingDownController.appendLastPage(newPage);
+        secondaryPagingDownController.appendLastPage(newPage);
       } else {
-        bottomPagingDownController.appendPage(newPage, nextPageKey);
+        secondaryPagingDownController.appendPage(newPage, nextPageKey);
       }
-      bottomPagingDownController.notifyListeners();
     }
+    updatePagingControllers();
 
-    log('Fetched down chapter for $area');
+    log('Fetched DOWN for $area');
   }
 
   void setChapter(dynamic chapter) {
@@ -199,12 +192,12 @@ class ReaderViewModel extends ReactiveViewModel {
     rebuildUi();
   }
 
-  void updateInterface() {
-    topPagingUpController.notifyListeners();
-    bottomPagingUpController.notifyListeners();
+  void updatePagingControllers() {
+    primaryPagingUpController.notifyListeners();
+    primaryPagingDownController.notifyListeners();
 
-    topPagingDownController.notifyListeners();
-    bottomPagingDownController.notifyListeners();
+    secondaryPagingUpController.notifyListeners();
+    secondaryPagingDownController.notifyListeners();
   }
 
   @override
