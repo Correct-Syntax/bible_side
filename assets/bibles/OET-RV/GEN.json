@@ -1,7 +1,7 @@
 {
   "book": {
     "bookCode": "GEN",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.0.01",
+    "description": "- Open English Translation—Readers' Version (OET-RV) v0.0.03",
     "meta": [
       {
         "usfm": "3.0"
@@ -35,35 +35,35 @@
       },
       {
         "ip": [
-          "The meaning/salvation of speech",
+          "The meaning of the word",
           {
             "bk": "Hinisis",
             "closing": "\\bk*"
           },
-          ", “bunsuranan”. This document, here it's written the making of sky/heaven and of land, the migpuunan of person, and the bunsuranan of sale and suffering here of world. Nasulat again here the story concerning the people chosen by God and the carrying din them there to inged promised din them."
+          "is ‘source’ or ‘beginning’. This document, here it's written the making of sky/heaven and of land, the source of person, and the beginning of sin and suffering here of world. Written again here the account concerning the people chosen by God and the carrying din them there to place he promised them."
         ]
       },
       {
         "ip": "Divided of two this the document:"
       },
       {
-        "ip": "1.) The making of world and the story concerning the people. Kayi egkabasa the story concerning Adan and ki Iba, the concerning Kain and ki Abil, and the concerning Noah and the pegsipuk of water, and the concerning the matikang house there to Babil."
+        "ip": "1.) The making of world and the account concerning the people. Here can be read the account concerning Adam and ki Eve, the concerning Kain and ki Abil, and the concerning Noah and the pegsipuk of water, and the concerning the tall house there to Babil."
       },
       {
-        "ip": "2.) The story concerning the first elders of Israilita. Abraham the first elder of Israilita neyimu mabantug tenged of faith and trusting din and of obedience din of suhu of God. Egpakasinundul also the story concerning the anak din Isaac, and the apu din Yacob (named ded also ki Israel), and the ten and two (12) anak of Yacob iyan migpuunan of ten and two (12) descendants of Israel. Nahuhud also here the concerning the anak of Yacob Husi and the what happened kandin iyan impuunan of nekeendiye of Egypt Yacob other of children din."
+        "ip": "2.) The account concerning the first elders of Israilita. Abraham the first elder of Israilita became famous due to faith and trusting din and of obedience din of suhu of God. Egpakasinundul also the account concerning his child Isaac, and the apu din Yacob (named ded also ki Israel), and the ten and two (12) child of Yacob iyan source of ten and two (12) descendants of Israel. Told also here the concerning the child of Yacob Yosef and the what happened kandin iyan reason of went to of Egypt Yacob other of his children."
       },
       {
-        "ip": "Egkabasa ta again here the story concerning the various people nabuhal-buhal here of ampew of land and migmannenasud e. Labew of all, nahuhud here the large work of God making of sky/heaven and land and of all nakatahu here."
+        "ip": "Egkabasa ta again here the account concerning the various people proliferated here of ampew of land and migmannenasud e. Labew of all, told here the large work of God making of sky/heaven and land and of all nakatahu here."
       },
       {
-        "ip": "There in final of story, egkahuhud the without ending promise of God of people din. Kene eglingawan of God the promise din and not din iya egbalaharen the people din because egpanuluen and egbulihan din them. And/Now sikandin the eggukum and eglegpad of all eggimu of bad."
+        "ip": "There in final of account, is told the without ending promise of God of his people. Not forgotten of God his promise and not din indeed ignore the his people because taught and helping din them. And/Now he the judging and punishing of all doing of bad."
       },
       {
         "iot": "Main components of this account"
       },
       {
         "io1": [
-          "The making of God of sky/heaven and of world",
+          "God's creation of space and the earth",
           {
             "ior": "1:1–2:25",
             "closing": "\\ior*"
@@ -72,7 +72,7 @@
       },
       {
         "io1": [
-          "The bunsuranan of sale and of suffering",
+          "The beginning of sin and of suffering",
           {
             "ior": "3:1-24",
             "closing": "\\ior*"
@@ -81,7 +81,7 @@
       },
       {
         "io1": [
-          "The story ki Adan going to ki Noah",
+          "The accounts from Adam through to Noah",
           {
             "ior": "4:1–5:32",
             "closing": "\\ior*"
@@ -90,7 +90,7 @@
       },
       {
         "io1": [
-          "Noah and the pegsipuk of water",
+          "Noah and the worldwide flood",
           {
             "ior": "6:1–10:32",
             "closing": "\\ior*"
@@ -99,7 +99,7 @@
       },
       {
         "io1": [
-          "The matikang house there to Babil",
+          "The tower at Babel",
           {
             "ior": "11:1-9",
             "closing": "\\ior*"
@@ -108,7 +108,7 @@
       },
       {
         "io1": [
-          "The story ki Sim going to ki Abraham",
+          "The accounts Shem through to Abraham",
           {
             "ior": "11:10-32",
             "closing": "\\ior*"
@@ -117,7 +117,7 @@
       },
       {
         "io1": [
-          "The elders of me Hebrews: Abraham, Isaac, and Yacob",
+          "The Hebrews patriarchs: Abraham, Isaac, and Yacob",
           {
             "ior": "12:1–35:29",
             "closing": "\\ior*"
@@ -126,7 +126,7 @@
       },
       {
         "io1": [
-          "The descendants of Isaw",
+          "The descendants of Esau",
           {
             "ior": "36:1-43",
             "closing": "\\ior*"
@@ -135,7 +135,7 @@
       },
       {
         "io1": [
-          "Husi and the siblings din",
+          "Yosef and his brothers",
           {
             "ior": "37:1–45:28",
             "closing": "\\ior*"
@@ -144,7 +144,7 @@
       },
       {
         "io1": [
-          "The me Hebrews there to Egypt",
+          "The Hebrews in Egypt",
           {
             "ior": "46:1–50:26",
             "closing": "\\ior*"
@@ -182,20 +182,39 @@
         {
           "verseNumber": "1",
           "contents": [
-            "In the beginning, Elohim created the heavens and the earth."
+            "In the beginning, God",
+            {
+              "f": [
+                "+",
+                {
+                  "fr": "1:1"
+                },
+                {
+                  "ft": "As per common practice, we use ‘God’ through the Hebrew scriptures for the word ‘elohim’. Note that ‘elohim’ is a Hebrew language plural, and is translated more literally as ‘gods’ in a few places. However the connected Hebrew verb translated ‘created’ here is clearly a singular form, so the singular noun ‘God’ fits better here and everywhere where ‘elohim’ is used with other verbs marked as being singular. The mysterious plurality of God is confirmed in v26 where ‘our’ is used to refer to him/them."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            "created the heavens and the earth."
           ],
-          "verseText": "In the beginning, Elohim created the heavens and the earth."
+          "verseText": "In the beginning, God created the heavens and the earth."
         },
         {
           "verseNumber": "2",
           "contents": [
-            "The earth was formless and empty and darkness covered the surface of the depths and the Spirit of Elohim was hovering over the surface of the waters."
+            "The earth was formless and empty and darkness covered the surface of the depth",
+            {
+              "add": "waters",
+              "closing": "\\add*"
+            },
+            "and God's spirit was hovering over the surface of the waters."
           ],
-          "verseText": "The earth was formless and empty and darkness covered the surface of the depths and the Spirit of Elohim was hovering over the surface of the waters."
+          "verseText": "The earth was formless and empty and darkness covered the surface of the depth waters and God's spirit was hovering over the surface of the waters."
         },
         {
           "verseNumber": "3",
           "contents": [
+            "Then God said, “Let there be light,” and light came into existence,",
             {
               "x": [
                 "+",
@@ -207,31 +226,51 @@
                 }
               ],
               "closing": "\\x*"
-            },
-            "◘"
+            }
           ],
-          "verseText": "◘"
+          "verseText": "Then God said, “Let there be light,” and light came into existence,"
         },
         {
           "verseNumber": "4",
           "contents": [
-            "◘"
+            "and God observed that the light was good. Then he separated the light from the darkness."
           ],
-          "verseText": "◘"
+          "verseText": "and God observed that the light was good. Then he separated the light from the darkness."
         },
         {
           "verseNumber": "5",
           "contents": [
-            "◘",
+            "God named the light",
+            {
+              "em": "daytime",
+              "closing": "\\em*"
+            },
+            ", and the darkness he named",
+            {
+              "em": "nighttime",
+              "closing": "\\em*"
+            },
+            ". Then evening came, and",
+            {
+              "add": "later",
+              "closing": "\\add*"
+            },
+            "morning came,",
+            {
+              "add": "and that was the end of the",
+              "closing": "\\add*"
+            },
+            "first day.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "God named the light daytime, and the darkness he named nighttime. Then evening came, and later morning came, and that was the end of the first day."
         },
         {
           "verseNumber": "6",
           "contents": [
+            "Then God said, “Let there be a large space in the middle of the waters, and let it separate the two lots of waters.”",
             {
               "x": [
                 "+",
@@ -243,162 +282,292 @@
                 }
               ],
               "closing": "\\x*"
-            },
-            "◘"
+            }
           ],
-          "verseText": "◘"
+          "verseText": "Then God said, “Let there be a large space in the middle of the waters, and let it separate the two lots of waters.”"
         },
         {
           "verseNumber": "7",
           "contents": [
-            "◘"
+            "So God made the large space and separated between the waters that were underneath from the waters that were above it. Everything happened",
+            {
+              "add": "exactly",
+              "closing": "\\add*"
+            },
+            "as he commanded,"
           ],
-          "verseText": "◘"
+          "verseText": "So God made the large space and separated between the waters that were underneath from the waters that were above it. Everything happened exactly as he commanded,"
         },
         {
           "verseNumber": "8",
           "contents": [
-            "◘",
+            "and he named the space",
+            {
+              "em": "sky",
+              "closing": "\\em*"
+            },
+            ". Then evening came, and",
+            {
+              "add": "later",
+              "closing": "\\add*"
+            },
+            "morning came,",
+            {
+              "add": "and that was the end of",
+              "closing": "\\add*"
+            },
+            "the second day.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "and he named the space sky. Then evening came, and later morning came, and that was the end of the second day."
         },
         {
           "verseNumber": "9",
           "contents": [
-            "◘"
+            "Then God said, “Let the waters under the sky be gathered to one place, and let the dry ground appear.” Everything happened",
+            {
+              "add": "exactly",
+              "closing": "\\add*"
+            },
+            "as he commanded,"
           ],
-          "verseText": "◘"
+          "verseText": "Then God said, “Let the waters under the sky be gathered to one place, and let the dry ground appear.” Everything happened exactly as he commanded,"
         },
         {
           "verseNumber": "10",
           "contents": [
-            "◘"
+            "and he named the ground that appeared",
+            {
+              "em": "land",
+              "closing": "\\em*"
+            },
+            ", and he named the gathered waters",
+            {
+              "add": "seas",
+              "closing": "\\add*"
+            },
+            ", and he saw that",
+            {
+              "add": "what he had done",
+              "closing": "\\add*"
+            },
+            "was good."
           ],
-          "verseText": "◘"
+          "verseText": "and he named the ground that appeared land, and he named the gathered waters seas, and he saw that what he had done was good."
         },
         {
           "verseNumber": "11",
           "contents": [
-            "◘"
+            "Then God said, “Let the land sprout vegetation: every plant yielding seed, every fruit tree bearing its own fruit that has its seed inside it, on the earth.” Everything happened",
+            {
+              "add": "exactly",
+              "closing": "\\add*"
+            },
+            "as he commanded,"
           ],
-          "verseText": "◘"
+          "verseText": "Then God said, “Let the land sprout vegetation: every plant yielding seed, every fruit tree bearing its own fruit that has its seed inside it, on the earth.” Everything happened exactly as he commanded,"
         },
         {
           "verseNumber": "12",
           "contents": [
-            "◘"
+            "so the land started producing vegetation, every plant producing its own seed, and every tree bearing fruit that has its seed inside it. And God saw that",
+            {
+              "add": "what he had done",
+              "closing": "\\add*"
+            },
+            "was good."
           ],
-          "verseText": "◘"
+          "verseText": "so the land started producing vegetation, every plant producing its own seed, and every tree bearing fruit that has its seed inside it. And God saw that what he had done was good."
         },
         {
           "verseNumber": "13",
           "contents": [
-            "◘",
+            "Then evening came, and",
+            {
+              "add": "later",
+              "closing": "\\add*"
+            },
+            "morning came,",
+            {
+              "add": "and that was the end of",
+              "closing": "\\add*"
+            },
+            "the third day.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "Then evening came, and later morning came, and that was the end of the third day."
         },
         {
           "verseNumber": "14",
           "contents": [
-            "◘"
+            "Then God said, “Let there be lights in the sky to separate daytime from nighttime, so they'll be signs, and for",
+            {
+              "add": "indicating",
+              "closing": "\\add*"
+            },
+            "seasons, and for",
+            {
+              "add": "tracking",
+              "closing": "\\add*"
+            },
+            "days and years."
           ],
-          "verseText": "◘"
+          "verseText": "Then God said, “Let there be lights in the sky to separate daytime from nighttime, so they'll be signs, and for indicating seasons, and for tracking days and years."
         },
         {
           "verseNumber": "15",
           "contents": [
-            "◘"
+            "They must function as lights in the sky that shine",
+            {
+              "add": "light",
+              "closing": "\\add*"
+            },
+            "on the earth.” Everything happened",
+            {
+              "add": "exactly",
+              "closing": "\\add*"
+            },
+            "as he commanded,"
           ],
-          "verseText": "◘"
+          "verseText": "They must function as lights in the sky that shine light on the earth.” Everything happened exactly as he commanded,"
         },
         {
           "verseNumber": "16",
           "contents": [
-            "◘"
+            "so God made the two large lights, the larger, brighter light to rule the day, and the smaller light to rule the night, and he",
+            {
+              "add": "also",
+              "closing": "\\add*"
+            },
+            "made the stars."
           ],
-          "verseText": "◘"
+          "verseText": "so God made the two large lights, the larger, brighter light to rule the day, and the smaller light to rule the night, and he also made the stars."
         },
         {
           "verseNumber": "17",
           "contents": [
-            "◘"
+            "He put those lights in the sky to shine",
+            {
+              "add": "light",
+              "closing": "\\add*"
+            },
+            "on the earth,"
           ],
-          "verseText": "◘"
+          "verseText": "He put those lights in the sky to shine light on the earth,"
         },
         {
           "verseNumber": "18",
           "contents": [
-            "◘"
+            "and to oversee the daytime and the nighttime, and to distinguish between the light and the darkness. And God saw that",
+            {
+              "add": "what he had done",
+              "closing": "\\add*"
+            },
+            "was good."
           ],
-          "verseText": "◘"
+          "verseText": "and to oversee the daytime and the nighttime, and to distinguish between the light and the darkness. And God saw that what he had done was good."
         },
         {
           "verseNumber": "19",
           "contents": [
-            "◘",
+            "Then evening came, and",
+            {
+              "add": "later",
+              "closing": "\\add*"
+            },
+            "morning came,",
+            {
+              "add": "and that was the end of",
+              "closing": "\\add*"
+            },
+            "the fourth day.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "Then evening came, and later morning came, and that was the end of the fourth day."
         },
         {
           "verseNumber": "20",
           "contents": [
-            "◘"
+            "Then God said, “Let the waters be full of with swarms of living creatures, and let birds fly in the sky above the earth.”"
           ],
-          "verseText": "◘"
+          "verseText": "Then God said, “Let the waters be full of with swarms of living creatures, and let birds fly in the sky above the earth.”"
         },
         {
           "verseNumber": "21",
           "contents": [
-            "◘"
+            "So God created the great sea creatures and every kind of living creature that moves which the waters swarm with, and every kind of winged bird. And God saw that",
+            {
+              "add": "what he had done",
+              "closing": "\\add*"
+            },
+            "was good,"
           ],
-          "verseText": "◘"
+          "verseText": "So God created the great sea creatures and every kind of living creature that moves which the waters swarm with, and every kind of winged bird. And God saw that what he had done was good,"
         },
         {
           "verseNumber": "22",
           "contents": [
-            "◘"
+            "and he blessed them, saying, “Be fruitful and multiply and fill the waters in the seas, and let the birds multiply on the earth.”"
           ],
-          "verseText": "◘"
+          "verseText": "and he blessed them, saying, “Be fruitful and multiply and fill the waters in the seas, and let the birds multiply on the earth.”"
         },
         {
           "verseNumber": "23",
           "contents": [
-            "◘",
+            "Then evening came, and",
+            {
+              "add": "later",
+              "closing": "\\add*"
+            },
+            "morning came,",
+            {
+              "add": "and that was the end of",
+              "closing": "\\add*"
+            },
+            "the fifth day.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "Then evening came, and later morning came, and that was the end of the fifth day."
         },
         {
           "verseNumber": "24",
           "contents": [
-            "◘"
+            "Then God said, “Let the land bring forth every kind of living creature: livestock and every crawling creature and every kind of living thing on the earth.” Everything happened",
+            {
+              "add": "exactly",
+              "closing": "\\add*"
+            },
+            "as he commanded,"
           ],
-          "verseText": "◘"
+          "verseText": "Then God said, “Let the land bring forth every kind of living creature: livestock and every crawling creature and every kind of living thing on the earth.” Everything happened exactly as he commanded,"
         },
         {
           "verseNumber": "25",
           "contents": [
-            "◘",
+            "so he made every kind of creature of the earth, and every kind of livestock, and every kind of crawling creature on the ground. And God saw that",
+            {
+              "add": "what he had done",
+              "closing": "\\add*"
+            },
+            "was good.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "so he made every kind of creature of the earth, and every kind of livestock, and every kind of crawling creature on the ground. And God saw that what he had done was good."
         },
         {
           "verseNumber": "26",
           "contents": [
+            "Then God said, “Let us make man in our image, according to our likeness, and let them rule over the fish in the sea and over the birds in the sky and over the livestock and over all the earth, and over every creature moving on the earth.”",
             {
               "x": [
                 "+",
@@ -410,14 +579,19 @@
                 }
               ],
               "closing": "\\x*"
-            },
-            "◘"
+            }
           ],
-          "verseText": "◘"
+          "verseText": "Then God said, “Let us make man in our image, according to our likeness, and let them rule over the fish in the sea and over the birds in the sky and over the livestock and over all the earth, and over every creature moving on the earth.”"
         },
         {
           "verseNumber": "27",
           "contents": [
+            "Then God created humankind in his image,",
+            {
+              "add": "yes,",
+              "closing": "\\add*"
+            },
+            "created in the image of God—male and female he created them.",
             {
               "x": [
                 "+",
@@ -429,38 +603,57 @@
                 }
               ],
               "closing": "\\x*"
-            },
-            "◘"
+            }
           ],
-          "verseText": "◘"
+          "verseText": "Then God created humankind in his image, yes, created in the image of God—male and female he created them."
         },
         {
           "verseNumber": "28",
           "contents": [
-            "◘"
+            "Then God blessed them and told them, “Be fruitful and multiply, and fill the earth and take control of it. You're in charge of the fish in the sea and the birds in the sky and over every living thing that moves on the earth.”"
           ],
-          "verseText": "◘"
+          "verseText": "Then God blessed them and told them, “Be fruitful and multiply, and fill the earth and take control of it. You're in charge of the fish in the sea and the birds in the sky and over every living thing that moves on the earth.”"
         },
         {
           "verseNumber": "29",
           "contents": [
-            "◘"
+            "Then God said, “Look, I've given you every plant throughout the whole earth that yields seed, and every tree that has fruit with a seed or seeds inside it. They will be yours for food,"
           ],
-          "verseText": "◘"
+          "verseText": "Then God said, “Look, I've given you every plant throughout the whole earth that yields seed, and every tree that has fruit with a seed or seeds inside it. They will be yours for food,"
         },
         {
           "verseNumber": "30",
           "contents": [
-            "◘"
+            "and to every living thing on the earth, and to every bird in the sky, and to everything moving on the earth that has living breath in it, I've given every green plant for food.” Everything happened",
+            {
+              "add": "exactly",
+              "closing": "\\add*"
+            },
+            "as he commanded,"
           ],
-          "verseText": "◘"
+          "verseText": "and to every living thing on the earth, and to every bird in the sky, and to everything moving on the earth that has living breath in it, I've given every green plant for food.” Everything happened exactly as he commanded,"
         },
         {
           "verseNumber": "31",
           "contents": [
-            "◘"
+            "and he saw everything that he'd made, and wow, it was",
+            {
+              "em": "very",
+              "closing": "\\em*"
+            },
+            "good. Then evening came, and",
+            {
+              "add": "later",
+              "closing": "\\add*"
+            },
+            "morning came,",
+            {
+              "add": "and that was the end of",
+              "closing": "\\add*"
+            },
+            "the sixth day."
           ],
-          "verseText": "◘"
+          "verseText": "and he saw everything that he'd made, and wow, it was very good. Then evening came, and later morning came, and that was the end of the sixth day."
         }
       ]
     },
@@ -473,13 +666,14 @@
         {
           "verseNumber": "1",
           "contents": [
-            "◘"
+            "So the heavens and the earth were completed, along with everything in them."
           ],
-          "verseText": "◘"
+          "verseText": "So the heavens and the earth were completed, along with everything in them."
         },
         {
           "verseNumber": "2",
           "contents": [
+            "By the seventh day God had finished his work, so he rested on the seventh day from all his work that he'd done.",
             {
               "x": [
                 "+",
@@ -491,15 +685,22 @@
                 }
               ],
               "closing": "\\x*"
-            },
-            "◘"
+            }
           ],
-          "verseText": "◘"
+          "verseText": "By the seventh day God had finished his work, so he rested on the seventh day from all his work that he'd done."
         },
         {
           "verseNumber": "3",
           "contents": [
-            "◘",
+            "Then God blessed the seventh day and declared it to be different from the other days, because on that",
+            {
+              "add": "first Saturday",
+              "closing": "\\add*"
+            },
+            ", he rested from all his work of creating.",
+            {
+              "s1": "The garden at Eden"
+            },
             {
               "rem": "/s1 Adam and Eve"
             },
@@ -507,44 +708,64 @@
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "Then God blessed the seventh day and declared it to be different from the other days, because on that first Saturday, he rested from all his work of creating."
         },
         {
           "verseNumber": "4",
           "contents": [
-            "◘",
+            "What follows tells",
             {
-              "s1": "The inged named of Idin"
+              "f": [
+                "+",
+                {
+                  "fr": "2:4"
+                },
+                {
+                  "ft": "This little formula is sometimes known as a ‘toledoth’ (or ‘tōlədōt’, from the Hebrew word) and seems to mark a new section, but it's debated whether this part belongs at the bottom of the previous section, or at the top of the following section. We're assuming the later here."
+                }
+              ],
+              "closing": "\\f*"
             },
+            {
+              "add": "more details about",
+              "closing": "\\add*"
+            },
+            "the history of what God did when he created the heavens and the earth:",
             {
               "rem": "/s1 The Garden of Eden; The Man and Woman in Eden; Another Account of the Creation"
             },
             {
-              "p": "…◘"
+              "p": "During the time when Yahweh God made the earth and the heavens,"
             }
           ],
-          "verseText": "◘ …◘"
+          "verseText": "What follows tells more details about the history of what God did when he created the heavens and the earth: During the time when Yahweh God made the earth and the heavens,"
         },
         {
           "verseNumber": "5",
           "contents": [
-            "◘"
+            "there weren't yet any bushes growing on the earth, and no plants had yet sprung up in the fields, because Yahweh God had not yet made it rain, and nor were there any people yet to till the ground."
           ],
-          "verseText": "◘"
+          "verseText": "there weren't yet any bushes growing on the earth, and no plants had yet sprung up in the fields, because Yahweh God had not yet made it rain, and nor were there any people yet to till the ground."
         },
         {
           "verseNumber": "6",
           "contents": [
-            "◘",
+            "However, a mist came up from the ground and watered the entire surface of the land.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "However, a mist came up from the ground and watered the entire surface of the land."
         },
         {
           "verseNumber": "7",
           "contents": [
+            "Then Yahweh God formed the",
+            {
+              "add": "first",
+              "closing": "\\add*"
+            },
+            "man out of the dust on the ground and he breathed into his nostrils the breath of life, and the man became a living person.",
             {
               "x": [
                 "+",
@@ -557,23 +778,33 @@
               ],
               "closing": "\\x*"
             },
-            "◘",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "Then Yahweh God formed the first man out of the dust on the ground and he breathed into his nostrils the breath of life, and the man became a living person."
         },
         {
           "verseNumber": "8",
           "contents": [
-            "◘"
+            "Now in the east, Yahweh God had planted a garden in Eden, and he put the man there that he had formed."
           ],
-          "verseText": "◘"
+          "verseText": "Now in the east, Yahweh God had planted a garden in Eden, and he put the man there that he had formed."
         },
         {
           "verseNumber": "9",
           "contents": [
+            "He",
+            {
+              "add": "also",
+              "closing": "\\add*"
+            },
+            "caused all kinds of trees to grow there—",
+            {
+              "add": "some",
+              "closing": "\\add*"
+            },
+            "that are pleasant to look at and good for food. In the middle of the garden was the tree of life and the tree of the knowledge of good and evil",
             {
               "x": [
                 "+",
@@ -586,138 +817,191 @@
               ],
               "closing": "\\x*"
             },
-            "◘",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "He also caused all kinds of trees to grow there—some that are pleasant to look at and good for food. In the middle of the garden was the tree of life and the tree of the knowledge of good and evil"
         },
         {
           "verseNumber": "10",
           "contents": [
-            "◘"
+            "A river flowed out of Eden to water the garden, and then from there it split into four rivers."
           ],
-          "verseText": "◘"
+          "verseText": "A river flowed out of Eden to water the garden, and then from there it split into four rivers."
         },
         {
           "verseNumber": "11",
           "contents": [
-            "◘"
+            "The first river was named Pishon, and it winds around through the entire region of Havilah, where there's gold."
           ],
-          "verseText": "◘"
+          "verseText": "The first river was named Pishon, and it winds around through the entire region of Havilah, where there's gold."
         },
         {
           "verseNumber": "12",
           "contents": [
-            "◘"
+            "The gold from there is",
+            {
+              "add": "very pure",
+              "closing": "\\add*"
+            },
+            ", and there's also",
+            {
+              "add": "a type of fragrant resin",
+              "closing": "\\add*"
+            },
+            "and onyx",
+            {
+              "add": "gemstones",
+              "closing": "\\add*"
+            },
+            "there."
           ],
-          "verseText": "◘"
+          "verseText": "The gold from there is very pure, and there's also a type of fragrant resin and onyx gemstones there."
         },
         {
           "verseNumber": "13",
           "contents": [
-            "◘"
+            "The second river was named Gihon, and it winds through the entire region of Cush."
           ],
-          "verseText": "◘"
+          "verseText": "The second river was named Gihon, and it winds through the entire region of Cush."
         },
         {
           "verseNumber": "14",
           "contents": [
-            "◘",
+            "The third river was named Tigris, and it flowed east of the Asshur",
+            {
+              "add": "region",
+              "closing": "\\add*"
+            },
+            ", and then the fourth river was",
+            {
+              "add": "named",
+              "closing": "\\add*"
+            },
+            "Frat.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "The third river was named Tigris, and it flowed east of the Asshur region, and then the fourth river was named Frat."
         },
         {
           "verseNumber": "15",
           "contents": [
-            "◘"
+            "Yahweh God took the man and put him in the garden at Eden to cultivate and maintain it"
           ],
-          "verseText": "◘"
+          "verseText": "Yahweh God took the man and put him in the garden at Eden to cultivate and maintain it"
         },
         {
           "verseNumber": "16",
           "contents": [
-            "◘"
+            "and instructed him, “You can eat as much",
+            {
+              "add": "fruit",
+              "closing": "\\add*"
+            },
+            "as you want from any tree in the garden,"
           ],
-          "verseText": "◘"
+          "verseText": "and instructed him, “You can eat as much fruit as you want from any tree in the garden,"
         },
         {
           "verseNumber": "17",
           "contents": [
-            "◘",
+            "but you mustn't eat from the tree of the knowledge of good and evil, because the day you eat its",
+            {
+              "add": "fruit",
+              "closing": "\\add*"
+            },
+            "you'll certainly die.”",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "but you mustn't eat from the tree of the knowledge of good and evil, because the day you eat its fruit you'll certainly die.”"
         },
         {
           "verseNumber": "18",
           "contents": [
-            "◘",
+            "Then Yahweh God said, “It's not good for the man to be alone, so I'll make a suitable helper for him.”",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "Then Yahweh God said, “It's not good for the man to be alone, so I'll make a suitable helper for him.”"
         },
         {
           "verseNumber": "19",
           "contents": [
-            "◘"
+            "Now Yahweh God had formed every living thing of the field and every bird of the sky from the ground, so he brought them to the man to see what he would call them, and whatever the man called each living creature, that would become its name."
           ],
-          "verseText": "◘"
+          "verseText": "Now Yahweh God had formed every living thing of the field and every bird of the sky from the ground, so he brought them to the man to see what he would call them, and whatever the man called each living creature, that would become its name."
         },
         {
           "verseNumber": "20",
           "contents": [
-            "◘",
+            "The man gave names to all the",
+            {
+              "add": "various",
+              "closing": "\\add*"
+            },
+            "livestock and to the birds of the sky and to every living creature in the fields, but none of them was a suitable",
+            {
+              "add": "companion",
+              "closing": "\\add*"
+            },
+            "to help him.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "The man gave names to all the various livestock and to the birds of the sky and to every living creature in the fields, but none of them was a suitable companion to help him."
         },
         {
           "verseNumber": "21",
           "contents": [
-            "◘"
+            "So Yahweh God caused the man to go into a deep sleep, and then while he was sleeping, he removed one of his ribs and closed up",
+            {
+              "add": "over",
+              "closing": "\\add*"
+            },
+            "its place with flesh."
           ],
-          "verseText": "◘"
+          "verseText": "So Yahweh God caused the man to go into a deep sleep, and then while he was sleeping, he removed one of his ribs and closed up over its place with flesh."
         },
         {
           "verseNumber": "22",
           "contents": [
-            "◘"
+            "Then Yahweh God used the rib which he had taken from the man to form into a woman, and he brought her to the man,"
           ],
-          "verseText": "◘"
+          "verseText": "Then Yahweh God used the rib which he had taken from the man to form into a woman, and he brought her to the man,"
         },
         {
           "verseNumber": "23",
           "contents": [
-            "◘",
+            "and the man said:",
             {
-              "q1": "…"
+              "q1": "“Now this is bone from my bones"
             },
             {
-              "q1": "…"
+              "q2": "and flesh from my flesh."
             },
             {
-              "q1": "…"
+              "q1": "She'll be named ‘woman’"
+            },
+            {
+              "q2": "because she came from a man.”"
             },
             {
               "m": ""
             }
           ],
-          "verseText": "◘ … … …"
+          "verseText": "and the man said: “Now this is bone from my bones and flesh from my flesh. She'll be named ‘woman’ because she came from a man.”"
         },
         {
           "verseNumber": "24",
           "contents": [
+            "So that's why a man leaves his father and mother, and becomes united to his wife, and the two of them become one being.",
             {
               "x": [
                 "+",
@@ -730,19 +1014,18 @@
               ],
               "closing": "\\x*"
             },
-            "◘",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "So that's why a man leaves his father and mother, and becomes united to his wife, and the two of them become one being."
         },
         {
           "verseNumber": "25",
           "contents": [
-            "◘"
+            "At that time, both the man and his wife were naked, but they had no sense of shame."
           ],
-          "verseText": "◘"
+          "verseText": "At that time, both the man and his wife were naked, but they had no sense of shame."
         }
       ]
     },
@@ -750,7 +1033,7 @@
       "chapterNumber": "3",
       "contents": [
         {
-          "s1": "The pegsupak of person of God"
+          "s1": "The couple disobey God"
         },
         {
           "rem": "/s1 The Fall of Man; Human Disobedience; The Man and Woman Sin; The First Sin and Its Punishment"
@@ -761,6 +1044,17 @@
         {
           "verseNumber": "1",
           "contents": [
+            "Now the snake was the craftiest of all the animals that Yahweh God had created, and",
+            {
+              "add": "one day",
+              "closing": "\\add*"
+            },
+            "he asked the woman, “Did God really command you to not eat",
+            {
+              "add": "fruit",
+              "closing": "\\add*"
+            },
+            "from any of the trees in the garden?”",
             {
               "x": [
                 "+",
@@ -773,114 +1067,197 @@
               ],
               "closing": "\\x*"
             },
-            "◘",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "Now the snake was the craftiest of all the animals that Yahweh God had created, and one day he asked the woman, “Did God really command you to not eat fruit from any of the trees in the garden?”"
         },
         {
           "verseNumber": "2",
           "contents": [
-            "◘"
+            "“No,” answered the woman, “we can eat the fruit from",
+            {
+              "add": "any",
+              "closing": "\\add*"
+            },
+            "of the trees in the garden,"
           ],
-          "verseText": "◘"
+          "verseText": "“No,” answered the woman, “we can eat the fruit from any of the trees in the garden,"
         },
         {
           "verseNumber": "3",
           "contents": [
-            "◘",
+            "except from the tree that is in the centre. He commanded",
+            {
+              "add": "us",
+              "closing": "\\add*"
+            },
+            "to not eat that fruit or even touch it, because if we do, we will die!”",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "except from the tree that is in the centre. He commanded us to not eat that fruit or even touch it, because if we do, we will die!”"
         },
         {
           "verseNumber": "4",
           "contents": [
-            "◘"
+            "But the serpent said to the woman, “It's not definite that you'll die."
           ],
-          "verseText": "◘"
+          "verseText": "But the serpent said to the woman, “It's not definite that you'll die."
         },
         {
           "verseNumber": "5",
           "contents": [
-            "◘",
+            "Actually, God knows that as soon as you eat fruit from that tree, you'll understand new things, so that you will know",
+            {
+              "add": "what's",
+              "closing": "\\add*"
+            },
+            "right and",
+            {
+              "add": "what's",
+              "closing": "\\add*"
+            },
+            "wrong just like God does.”",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "Actually, God knows that as soon as you eat fruit from that tree, you'll understand new things, so that you will know what's right and what's wrong just like God does.”"
         },
         {
           "verseNumber": "6",
           "contents": [
-            "◘"
+            "The woman saw that the tree's",
+            {
+              "add": "fruit looked",
+              "closing": "\\add*"
+            },
+            "good to eat and that the tree itself was very atractive, plus she wanted",
+            {
+              "add": "to eat",
+              "closing": "\\add*"
+            },
+            "the fruit so that it would make her wise. So she picked some of the fruit and ate it and she also gave",
+            {
+              "add": "some of it",
+              "closing": "\\add*"
+            },
+            "to her husband",
+            {
+              "add": "who was there",
+              "closing": "\\add*"
+            },
+            "with her, and he ate it",
+            {
+              "add": "too",
+              "closing": "\\add*"
+            },
+            "."
           ],
-          "verseText": "◘"
+          "verseText": "The woman saw that the tree's fruit looked good to eat and that the tree itself was very atractive, plus she wanted to eat the fruit so that it would make her wise. So she picked some of the fruit and ate it and she also gave some of it to her husband who was there with her, and he ate it too."
         },
         {
           "verseNumber": "7",
           "contents": [
-            "◘",
+            {
+              "add": "Immediately",
+              "closing": "\\add*"
+            },
+            "they both had new understanding and they felt their nakedness. So they sewed",
+            {
+              "add": "some",
+              "closing": "\\add*"
+            },
+            "fig leaves together and made skirts for themselves.",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "Immediately they both had new understanding and they felt their nakedness. So they sewed some fig leaves together and made skirts for themselves."
         },
         {
           "verseNumber": "8",
           "contents": [
-            "◘"
+            {
+              "add": "Late that afternoon,",
+              "closing": "\\add*"
+            },
+            "during the cool time of the day, the man and his wife heard Yahweh God's voice as he walked in the garden, but they hid from him behind some trees in the garden,"
           ],
-          "verseText": "◘"
+          "verseText": "Late that afternoon, during the cool time of the day, the man and his wife heard Yahweh God's voice as he walked in the garden, but they hid from him behind some trees in the garden,"
         },
         {
           "verseNumber": "9",
           "contents": [
-            "◘",
+            "so Yahweh God called out to the man, “",
+            {
+              "add": "Adam,",
+              "closing": "\\add*"
+            },
+            "where are you?”",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "so Yahweh God called out to the man, “Adam, where are you?”"
         },
         {
           "verseNumber": "10",
           "contents": [
-            "◘",
+            "“I heard you",
+            {
+              "add": "walking",
+              "closing": "\\add*"
+            },
+            "in the garden,” he replied, “but I was scared because I was naked, so I hid",
+            {
+              "add": "myself",
+              "closing": "\\add*"
+            },
+            ".”",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "“I heard you walking in the garden,” he replied, “but I was scared because I was naked, so I hid myself.”"
         },
         {
           "verseNumber": "11",
           "contents": [
-            "◘",
+            "“Who told you that you're naked?” Yahweh God asked. “Have you eaten",
+            {
+              "add": "the fruit",
+              "closing": "\\add*"
+            },
+            "that I told you not to eat?”",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "“Who told you that you're naked?” Yahweh God asked. “Have you eaten the fruit that I told you not to eat?”"
         },
         {
           "verseNumber": "12",
           "contents": [
-            "◘",
+            "“The woman that you put here beside me,” answered the man, “she gave me",
+            {
+              "add": "some",
+              "closing": "\\add*"
+            },
+            "fruit from the tree and I ate it.”",
             {
               "p": ""
             }
           ],
-          "verseText": "◘"
+          "verseText": "“The woman that you put here beside me,” answered the man, “she gave me some fruit from the tree and I ate it.”"
         },
         {
           "verseNumber": "13",
           "contents": [
+            "Then Yahweh God asked the woman, “What did you do?”",
             {
               "x": [
                 "+",
@@ -893,21 +1270,27 @@
               ],
               "closing": "\\x*"
             },
-            "◘",
+            {
+              "p": [
+                "“The snake tricked me, so I ate",
+                {
+                  "add": "some of the fruit",
+                  "closing": "\\add*"
+                },
+                ",” the woman replied."
+              ]
+            },
+            {
+              "s1": "The peglegpad of God due to sin"
+            },
             {
               "rem": "/s1 God Pronounces Judgment"
-            },
-            {
-              "p": "…◘"
-            },
-            {
-              "s1": "The peglegpad of God tenged of sale"
             },
             {
               "p": ""
             }
           ],
-          "verseText": "◘ …◘"
+          "verseText": "Then Yahweh God asked the woman, “What did you do?” “The snake tricked me, so I ate some of the fruit,” the woman replied."
         },
         {
           "verseNumber": "14",
@@ -1014,7 +1397,7 @@
           "contents": [
             "◘",
             {
-              "s1": "The scolding of Adan and ki Iba ligkat of pinamulaan"
+              "s1": "The scolding of Adam and ki Eve ligkat of pinamulaan"
             },
             {
               "rem": "/s1 Adam and Eve Are Sent Out of the Garden"
@@ -1347,7 +1730,7 @@
       "chapterNumber": "5",
       "contents": [
         {
-          "s1": "The descendants of Adan"
+          "s1": "The descendants of Adam"
         },
         {
           "rem": "/s1 From Adam to Noah; Adam's Descendants to Noah and His Sons; The Descendants of Adam"
@@ -7064,7 +7447,7 @@
           "contents": [
             "◘",
             {
-              "s1": "The birth of Isaw and of Yacob"
+              "s1": "The birth of Esau and of Yacob"
             },
             {
               "rem": "/s1 The Birth and Youth of Esau and Jacob; The Births of Jacob and Esau; Jacob and Esau; The Birth of Esau and Jacob"
@@ -7168,7 +7551,7 @@
           "contents": [
             "◘",
             {
-              "s1": "The sale of Isaw of katenged din isip panganey"
+              "s1": "The sin of Esau of katenged din isip panganey"
             },
             {
               "rem": "/s1 Esau Sells His Rights as the First-Born Son; Esau Sells His Birthright"
@@ -7604,7 +7987,7 @@
           "contents": [
             "◘",
             {
-              "s1": "The marriage of Isaw of two Hitihanen"
+              "s1": "The marriage of Esau of two Hitihanen"
             },
             {
               "rem": "/s1 Esau's Foreign Wives; Esau's Hittite Wives"
@@ -7934,7 +8317,7 @@
               "q2": "…"
             },
             {
-              "s1": "The pegpeyimmimenew of Isaw of blessing of Isaac"
+              "s1": "The pegpeyimmimenew of Esau of blessing of Isaac"
             },
             {
               "rem": "/s1 Esau's Lost Blessing; Esau Begs for Isaac's Blessing"
@@ -8231,7 +8614,7 @@
           "contents": [
             "◘",
             {
-              "s1": "The peg-asawe e again of Isaw"
+              "s1": "The peg-asawe e again of Esau"
             },
             {
               "rem": "/s1 Esau Marries Ishmael's Daughter; Esau Takes Another Wife"
@@ -9559,7 +9942,7 @@
       "chapterNumber": "32",
       "contents": [
         {
-          "s1": "The pegpeuyan of Yacob of iggusey rin ki Isaw"
+          "s1": "The pegpeuyan of Yacob of iggusey rin ki Esau"
         },
         {
           "rem": "/s1 Jacob Prepares to Meet Esau; Jacob Sends Gifts to Esau"
@@ -9887,7 +10270,7 @@
       "chapterNumber": "33",
       "contents": [
         {
-          "s1": "The pegsinug-ung of Isaw ki Yacob"
+          "s1": "The pegsinug-ung of Esau ki Yacob"
         },
         {
           "rem": "/s1 Jacob and Esau Meet; Jacob Meets Esau; Jacob and Esau Make Peace"
@@ -10566,7 +10949,7 @@
           "contents": [
             "◘",
             {
-              "s1": "The me lukes anak of Yacob"
+              "s1": "The me lukes child of Yacob"
             },
             {
               "rem": "/s1 The Sons of Jacob"
@@ -10681,7 +11064,7 @@
       "chapterNumber": "36",
       "contents": [
         {
-          "s1": "The descendants of Isaw"
+          "s1": "The descendants of Esau"
         },
         {
           "rem": "/s1 The Descendants of Esau; Descendants of Esau; Esau's Descendants"
@@ -10972,7 +11355,7 @@
           "contents": [
             "◘",
             {
-              "s1": "The kings of inged Idum"
+              "s1": "The kings of place Idum"
             },
             {
               "rem": "/s1 The Rulers of Edom; Rulers of Edom"
@@ -11086,7 +11469,7 @@
       "chapterNumber": "37",
       "contents": [
         {
-          "s1": "Husi and the me kakey rin lukes"
+          "s1": "Yosef and the me kakey rin lukes"
         },
         {
           "rem": "/s1 Joseph; Joseph Dreams of Greatness; Joseph's Dreams; Joseph and His Brothers"
@@ -11199,7 +11582,7 @@
             },
             "◘",
             {
-              "s1": "The sale ki Husi of me kakey rin"
+              "s1": "The sin ki Yosef of me kakey rin"
             },
             {
               "rem": "/s1 Joseph Is Sold and Taken to Egypt; Joseph Is Sold by His Brothers; Joseph Sold by His Brothers"
@@ -11714,7 +12097,7 @@
       "chapterNumber": "39",
       "contents": [
         {
-          "s1": "Husi and the asawa of Putipar"
+          "s1": "Yosef and the asawa of Putipar"
         },
         {
           "rem": "/s1 Joseph and Potiphar's Wife; Joseph in Potiphar's House"
@@ -11928,7 +12311,7 @@
       "chapterNumber": "40",
       "contents": [
         {
-          "s1": "The pegguhud of Husi of meaning/salvation of dream of two pinirisu"
+          "s1": "The pegguhud of Yosef of meaning/salvation of dream of two pinirisu"
         },
         {
           "rem": "/s1 The Dreams of Two Prisoners; Joseph Interprets Two Dreams; The Cupbearer and the Baker; Joseph Interprets the Prisoners' Dreams"
@@ -12124,7 +12507,7 @@
       "chapterNumber": "41",
       "contents": [
         {
-          "s1": "The pegluwas of Husi of dream of King of Egypt"
+          "s1": "The pegluwas of Yosef of dream of King of Egypt"
         },
         {
           "rem": "/s1 Pharaoh's Dreams; Joseph Interprets Pharaoh's Dream; Joseph Interprets the King's Dreams"
@@ -12412,7 +12795,7 @@
           "contents": [
             "◘",
             {
-              "s1": "The pegpiyal ki Husi of inged Egypt"
+              "s1": "The pegpiyal ki Yosef of place Egypt"
             },
             {
               "rem": "/s1 Joseph's Rise to Power; Joseph Is Made Governor over Egypt; Joseph Made Ruler of Egypt"
@@ -12636,7 +13019,7 @@
       "chapterNumber": "42",
       "contents": [
         {
-          "s1": "The going of siblings of Husi of Egypt"
+          "s1": "The going of siblings of Yosef of Egypt"
         },
         {
           "rem": "/s1 Joseph's Brothers Go to Egypt to Buy Grain; Joseph's Brothers Go to Egypt"
@@ -12873,7 +13256,7 @@
           "contents": [
             "◘",
             {
-              "s1": "The returning home of me kakey of Husi there to Kanaan"
+              "s1": "The returning home of me kakey of Yosef there to Kanaan"
             },
             {
               "rem": "/s1 Joseph's Brothers Return to Canaan"
@@ -12997,7 +13380,7 @@
       "chapterNumber": "43",
       "contents": [
         {
-          "s1": "The return of me kakey of Husi there to Egypt migduruma ki Benyamin"
+          "s1": "The return of me kakey of Yosef there to Egypt migduruma ki Benyamin"
         },
         {
           "rem": "/s1 Joseph's Brothers Return to Egypt with Benjamin; The Brothers Come Again, Bringing Benjamin; The Brothers Return to Egypt; The Second Journey to Egypt"
@@ -13422,7 +13805,7 @@
           "contents": [
             "◘",
             {
-              "s1": "The pegpeyimmimenew of Huda ki Husi"
+              "s1": "The pegpeyimmimenew of Huda ki Yosef"
             },
             {
               "rem": "/s1 Judah Speaks for His Brothers; Judah Pleads for Benjamin's Release; Judah Pleads for Benjamin"
@@ -13564,7 +13947,7 @@
       "chapterNumber": "45",
       "contents": [
         {
-          "s1": "The pegpeila of Husi of siblings din"
+          "s1": "The pegpeila of Yosef of his brothers"
         },
         {
           "rem": "/s1 Joseph Tells His Brothers Who He Is; Joseph Reveals Himself to His Brothers; Joseph Makes Himself Known; Joseph Reveals His Identity"
@@ -14236,7 +14619,7 @@
           "contents": [
             "◘",
             {
-              "s1": "The pegmandu of Husi at time of famine"
+              "s1": "The pegmandu of Yosef at time of famine"
             },
             {
               "rem": "/s1 Joseph's Leadership in the Famine; Joseph and the Famine; The Famine; The Famine in Egypt"
@@ -14707,7 +15090,7 @@
       "chapterNumber": "49",
       "contents": [
         {
-          "s1": "The announcement of Yacob of egkeulaula of children din"
+          "s1": "The announcement of Yacob of egkeulaula of his children"
         },
         {
           "rem": "/s1 Jacob Blesses His Sons; The Last Words of Jacob; Jacob's Last Words to His Sons"
@@ -15530,7 +15913,7 @@
           "contents": [
             "◘",
             {
-              "s1": "The pegpasalig of Husi of siblings din"
+              "s1": "The pegpasalig of Yosef of his brothers"
             },
             {
               "rem": "/s1 Joseph Forgives His Brothers; Joseph Reassures His Brothers"
@@ -15594,7 +15977,7 @@
           "contents": [
             "◘",
             {
-              "s1": "The death of Husi"
+              "s1": "Yosef's death"
             },
             {
               "rem": "/s1 Joseph's Last Days and Death; The Death of Joseph"
@@ -15608,27 +15991,58 @@
         {
           "verseNumber": "22",
           "contents": [
-            "◘"
+            "Yosef continued to live in Egypt, along with",
+            {
+              "add": "the rest of",
+              "closing": "\\add*"
+            },
+            "his father Yacob's family, until he was 110 years old."
           ],
-          "verseText": "◘"
+          "verseText": "Yosef continued to live in Egypt, along with the rest of his father Yacob's family, until he was 110 years old."
         },
         {
           "verseNumber": "23",
           "contents": [
-            "◘"
+            "He lived long enough to see his son Ephraim's children, grandchildren, and great-grandchildren. The children of his grandson Machir, who was Manasseh's son, also grew up around him."
           ],
-          "verseText": "◘"
+          "verseText": "He lived long enough to see his son Ephraim's children, grandchildren, and great-grandchildren. The children of his grandson Machir, who was Manasseh's son, also grew up around him."
         },
         {
           "verseNumber": "24",
           "contents": [
-            "◘"
+            "Then",
+            {
+              "add": "one day",
+              "closing": "\\add*"
+            },
+            "Yosef said to his brothers, “I'm about to die, but God will definitely help you all and take you",
+            {
+              "add": "and your descendants",
+              "closing": "\\add*"
+            },
+            "from this country to the land that he vowed to give to Abraham, Isaac, and Yacob."
           ],
-          "verseText": "◘"
+          "verseText": "Then one day Yosef said to his brothers, “I'm about to die, but God will definitely help you all and take you and your descendants from this country to the land that he vowed to give to Abraham, Isaac, and Yacob."
         },
         {
           "verseNumber": "25",
           "contents": [
+            "When God does that, you must take my body",
+            {
+              "add": "back to Canaan with you and bury it there",
+              "closing": "\\add*"
+            },
+            ".” Then Yosef had",
+            {
+              "add": "his brothers and the rest of the descendants of Israel",
+              "closing": "\\add*"
+            },
+            "vow",
+            {
+              "add": "that they would do that",
+              "closing": "\\add*"
+            },
+            ".",
             {
               "x": [
                 "+",
@@ -15640,22 +16054,38 @@
                 }
               ],
               "closing": "\\x*"
-            },
-            "◘"
+            }
           ],
-          "verseText": "◘"
+          "verseText": "When God does that, you must take my body back to Canaan with you and bury it there.” Then Yosef had his brothers and the rest of the descendants of Israel vow that they would do that."
         },
         {
           "verseNumber": "26",
           "contents": [
-            "◘"
+            "Then Yosef died at the age of 110, and",
+            {
+              "add": "the specialists",
+              "closing": "\\add*"
+            },
+            "embalmed",
+            {
+              "add": "his body",
+              "closing": "\\add*"
+            },
+            "and it was put in a coffin in",
+            {
+              "add": "a tomb in",
+              "closing": "\\add*"
+            },
+            "Egypt."
           ],
-          "verseText": "◘"
+          "verseText": "Then Yosef died at the age of 110, and the specialists embalmed his body and it was put in a coffin in a tomb in Egypt."
         }
       ]
     }
   ],
   "_messages": {
-    "_warnings": []
+    "_warnings": [
+      "Trailing spaces present at line end. "
+    ]
   }
 }
