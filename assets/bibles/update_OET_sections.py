@@ -55,9 +55,6 @@ Map<String, List<Map<String, Map<String, int>>>> sectionStartEndMappingForOET = 
 """
 
 
-# TODO: fix sections offset
-# shift after verse 1 (see Mark chapter 1)
-# offset = 1
 def generate_headings_mappings_file():
   file_list = os.listdir(RV_local_path)
 
@@ -79,6 +76,7 @@ def generate_headings_mappings_file():
         if 'verseNumber' in item:
           verse_number = item['verseNumber']
 
+        # Outer section - usually the first verse
         if 's1' in item:
           s1 = item['s1']
           sections_list.append(format_section(chapter_number, verse_number, s1))
@@ -90,25 +88,27 @@ def generate_headings_mappings_file():
         if 'contents' in item:
           for inner_item in item['contents']:
             if type(inner_item) == dict:
-
+              
+              # Inner sections
               if 's1' in inner_item:
-                if sections_list == []:
-                  sections_list.append('-')
-                chapter_sections_list.append(sections_list)
-                sections_list = []
+                if len(sections_list) != 0:
+                  chapter_sections_list.append(sections_list)
+                  sections_list = []
 
                 s1 = inner_item['s1']
-                sections_list.append(format_section(chapter_number, verse_number, s1))
 
-              if 'rem' in inner_item:
-                rem = inner_item['rem']
-                sections_list.append(format_section(chapter_number, verse_number, rem))
+                if verse_number == '1':
+                  the_verse_number = '1'
+                else:
+                  # Inner sections are shifted forward 1 verse
+                  the_verse_number = str(int(verse_number)+1)
+                sections_list.append(format_section(chapter_number, the_verse_number, s1))
 
-      if sections_list == []:
-        sections_list.append('-')
-      chapter_sections_list.append(sections_list)
-    
-    sections_mapping[book_code] = chapter_sections_list
+      if len(sections_list) != 0:
+        chapter_sections_list.append(sections_list)
+
+    if len(chapter_sections_list) != 0:
+      sections_mapping[book_code] = chapter_sections_list
 
   contents = section_headings_dart_file_template.format(str(sections_mapping))
 
@@ -134,12 +134,9 @@ def generate_start_end_mappings_file(sections_mapping):
 
       # Section end
       if index+1 < list_length:
+        # A section can be spread over two chapters
         next_section = book_sections[index+1][0]
-        # Check if the next section is still in the same chapter
-        if (next_section.startswith(start_chapter_ref)):
-          end = next_section
-        else:
-          end = start
+        end = next_section
       else:
         end = start
 
@@ -173,12 +170,12 @@ def read_json_file(path):
   
 
 def format_section(chapterNumber, verseNumber, section):
-  return (f'{chapterNumber}:{verseNumber} {section}').replace('/s1 ', '').replace('/s2 ', '').replace('/r ', '') # also /d ??
+  return (f'{chapterNumber}:{verseNumber} {section}').replace('/s1 ', '').replace('/s2 ', '').replace(' /s3', '').replace(' /d', '').replace('/r ', '')
 
 
 def section_ref_from_section(section):
   r = re.search(r'(\d*:\d*)', string=section)
-  section_ref = r.group(0) if r else "0:0" # For cases where there isn't a match
+  section_ref = r.group(0)
   return section_ref
 
 
