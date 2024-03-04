@@ -41,7 +41,10 @@ class _ReaderNavigationView extends StackedHookView<ReaderNavigationViewModel> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Navigation'),
+        title: Text(
+          'Navigation',
+          style: Theme.of(context).textTheme.titleLarge!.copyWith(fontWeight: FontWeight.w500),
+        ),
         actions: [],
       ),
       body: SafeArea(
@@ -91,8 +94,8 @@ class _ReaderNavigationView extends StackedHookView<ReaderNavigationViewModel> {
                         TabBar(
                           controller: viewModel.tabController,
                           tabs: const [
-                            Tab(text: 'By Chapter'),
                             Tab(text: 'By Section'),
+                            Tab(text: 'By Chapter'),
                           ],
                         ),
                         const SizedBox(height: 22.0),
@@ -100,6 +103,37 @@ class _ReaderNavigationView extends StackedHookView<ReaderNavigationViewModel> {
                           child: TabBarView(
                             controller: viewModel.tabController,
                             children: [
+                              // By section
+                              ListView.builder(
+                                itemCount: viewModel.sections.length,
+                                itemBuilder: (BuildContext context, int index) {
+                                  return Padding(
+                                    padding: const EdgeInsets.only(bottom: 20.0),
+                                    child: InkWell(
+                                      borderRadius: BorderRadius.circular(12.0),
+                                      onTap: () => viewModel.onTapSectionItem(index),
+                                      child: Column(
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            viewModel.getFirstSectionHeading(index),
+                                            style: TextItemStyles.sectionHeading(context),
+                                          ),
+                                          for (String altSection in viewModel.getAlternativeSectionHeadings(index))
+                                            Padding(
+                                              padding: const EdgeInsets.only(left: 12.0),
+                                              child: Text(
+                                                altSection,
+                                                style: Theme.of(context).textTheme.bodyLarge,
+                                              ),
+                                            ),
+                                        ],
+                                      ),
+                                    ),
+                                  );
+                                },
+                              ),
+
                               // By chapter
                               GridView.builder(
                                 itemCount: viewModel.bookChapters.length,
@@ -120,37 +154,6 @@ class _ReaderNavigationView extends StackedHookView<ReaderNavigationViewModel> {
                                         overflow: TextOverflow.ellipsis,
                                         style:
                                             Theme.of(context).textTheme.bodyLarge!.copyWith(fontFamily: 'RobotoSerif'),
-                                      ),
-                                    ),
-                                  );
-                                },
-                              ),
-
-                              // By section
-                              ListView.builder(
-                                itemCount: viewModel.sections.length,
-                                itemBuilder: (BuildContext context, int index) {
-                                  return Padding(
-                                    padding: const EdgeInsets.only(bottom: 20.0),
-                                    child: InkWell(
-                                      borderRadius: BorderRadius.circular(12.0),
-                                      onTap: () => viewModel.onTapSectionItem(index),
-                                      child: Column(
-                                        crossAxisAlignment: CrossAxisAlignment.start,
-                                        children: [
-                                          Text(
-                                            viewModel.getFirstSectionHeading(index),
-                                            style: TextItemStyles.sectionHeading(context),
-                                          ),
-                                          for (var altSection in viewModel.getAlternativeSectionHeadings(index))
-                                            Padding(
-                                              padding: const EdgeInsets.only(left: 12.0),
-                                              child: Text(
-                                                altSection,
-                                                style: Theme.of(context).textTheme.bodyLarge,
-                                              ),
-                                            ),
-                                        ],
                                       ),
                                     ),
                                   );
