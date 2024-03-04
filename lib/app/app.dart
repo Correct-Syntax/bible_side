@@ -38,11 +38,11 @@ import 'package:bible_side/ui/views/bibles/bibles_view.dart';
     LazySingleton(classType: JsonService),
 // @stacked-service
   ],
-  bottomsheets: [
-    // @stacked-bottom-sheet
-  ],
-  dialogs: [
-    // @stacked-dialog
-  ],
+  // bottomsheets: [
+  //   // @stacked-bottom-sheet
+  // ],
+  // dialogs: [
+  //   // @stacked-dialog
+  // ],
 )
 class App {}

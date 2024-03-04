@@ -679,153 +679,51 @@ class MockDialogService extends _i1.Mock implements _i2.DialogService {
 /// See the documentation for Mockito's code generation for more information.
 class MockBiblesService extends _i1.Mock implements _i7.BiblesService {
   @override
-  Map<String, dynamic> get topJson => (super.noSuchMethod(
-        Invocation.getter(#topJson),
+  Map<String, dynamic> get primaryAreaJson => (super.noSuchMethod(
+        Invocation.getter(#primaryAreaJson),
         returnValue: <String, dynamic>{},
         returnValueForMissingStub: <String, dynamic>{},
       ) as Map<String, dynamic>);
 
   @override
-  set topJson(Map<String, dynamic>? _topJson) => super.noSuchMethod(
+  set primaryAreaJson(Map<String, dynamic>? _primaryAreaJson) =>
+      super.noSuchMethod(
         Invocation.setter(
-          #topJson,
-          _topJson,
+          #primaryAreaJson,
+          _primaryAreaJson,
         ),
         returnValueForMissingStub: null,
       );
 
   @override
-  Map<String, dynamic> get bottomJson => (super.noSuchMethod(
-        Invocation.getter(#bottomJson),
+  Map<String, dynamic> get secondaryAreaJson => (super.noSuchMethod(
+        Invocation.getter(#secondaryAreaJson),
         returnValue: <String, dynamic>{},
         returnValueForMissingStub: <String, dynamic>{},
       ) as Map<String, dynamic>);
 
   @override
-  set bottomJson(Map<String, dynamic>? _bottomJson) => super.noSuchMethod(
+  set secondaryAreaJson(Map<String, dynamic>? _secondaryAreaJson) =>
+      super.noSuchMethod(
         Invocation.setter(
-          #bottomJson,
-          _bottomJson,
+          #secondaryAreaJson,
+          _secondaryAreaJson,
         ),
         returnValueForMissingStub: null,
       );
 
   @override
-  int get chapter => (super.noSuchMethod(
-        Invocation.getter(#chapter),
-        returnValue: 0,
-        returnValueForMissingStub: 0,
-      ) as int);
+  Map<String, String> get booksMapping => (super.noSuchMethod(
+        Invocation.getter(#booksMapping),
+        returnValue: <String, String>{},
+        returnValueForMissingStub: <String, String>{},
+      ) as Map<String, String>);
 
   @override
-  set chapter(int? _chapter) => super.noSuchMethod(
+  set booksMapping(Map<String, String>? _booksMapping) => super.noSuchMethod(
         Invocation.setter(
-          #chapter,
-          _chapter,
-        ),
-        returnValueForMissingStub: null,
-      );
-
-  @override
-  String get bookCode => (super.noSuchMethod(
-        Invocation.getter(#bookCode),
-        returnValue: _i3.dummyValue<String>(
-          this,
-          Invocation.getter(#bookCode),
-        ),
-        returnValueForMissingStub: _i3.dummyValue<String>(
-          this,
-          Invocation.getter(#bookCode),
-        ),
-      ) as String);
-
-  @override
-  set bookCode(String? _bookCode) => super.noSuchMethod(
-        Invocation.setter(
-          #bookCode,
-          _bookCode,
-        ),
-        returnValueForMissingStub: null,
-      );
-
-  @override
-  String get topBibleCode => (super.noSuchMethod(
-        Invocation.getter(#topBibleCode),
-        returnValue: _i3.dummyValue<String>(
-          this,
-          Invocation.getter(#topBibleCode),
-        ),
-        returnValueForMissingStub: _i3.dummyValue<String>(
-          this,
-          Invocation.getter(#topBibleCode),
-        ),
-      ) as String);
-
-  @override
-  set topBibleCode(String? _topBibleCode) => super.noSuchMethod(
-        Invocation.setter(
-          #topBibleCode,
-          _topBibleCode,
-        ),
-        returnValueForMissingStub: null,
-      );
-
-  @override
-  String get bottomBibleCode => (super.noSuchMethod(
-        Invocation.getter(#bottomBibleCode),
-        returnValue: _i3.dummyValue<String>(
-          this,
-          Invocation.getter(#bottomBibleCode),
-        ),
-        returnValueForMissingStub: _i3.dummyValue<String>(
-          this,
-          Invocation.getter(#bottomBibleCode),
-        ),
-      ) as String);
-
-  @override
-  set bottomBibleCode(String? _bottomBibleCode) => super.noSuchMethod(
-        Invocation.setter(
-          #bottomBibleCode,
-          _bottomBibleCode,
-        ),
-        returnValueForMissingStub: null,
-      );
-
-  @override
-  String get reference => (super.noSuchMethod(
-        Invocation.getter(#reference),
-        returnValue: _i3.dummyValue<String>(
-          this,
-          Invocation.getter(#reference),
-        ),
-        returnValueForMissingStub: _i3.dummyValue<String>(
-          this,
-          Invocation.getter(#reference),
-        ),
-      ) as String);
-
-  @override
-  set reference(String? _reference) => super.noSuchMethod(
-        Invocation.setter(
-          #reference,
-          _reference,
-        ),
-        returnValueForMissingStub: null,
-      );
-
-  @override
-  int get sectionIndex => (super.noSuchMethod(
-        Invocation.getter(#sectionIndex),
-        returnValue: 0,
-        returnValueForMissingStub: 0,
-      ) as int);
-
-  @override
-  set sectionIndex(int? _sectionIndex) => super.noSuchMethod(
-        Invocation.setter(
-          #sectionIndex,
-          _sectionIndex,
+          #booksMapping,
+          _booksMapping,
         ),
         returnValueForMissingStub: null,
       );
@@ -845,6 +743,79 @@ class MockBiblesService extends _i1.Mock implements _i7.BiblesService {
         ),
         returnValueForMissingStub: null,
       );
+
+  @override
+  String get primaryAreaBible => (super.noSuchMethod(
+        Invocation.getter(#primaryAreaBible),
+        returnValue: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#primaryAreaBible),
+        ),
+        returnValueForMissingStub: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#primaryAreaBible),
+        ),
+      ) as String);
+
+  @override
+  String get secondaryAreaBible => (super.noSuchMethod(
+        Invocation.getter(#secondaryAreaBible),
+        returnValue: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#secondaryAreaBible),
+        ),
+        returnValueForMissingStub: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#secondaryAreaBible),
+        ),
+      ) as String);
+
+  @override
+  String get bookCode => (super.noSuchMethod(
+        Invocation.getter(#bookCode),
+        returnValue: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#bookCode),
+        ),
+        returnValueForMissingStub: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#bookCode),
+        ),
+      ) as String);
+
+  @override
+  int get chapterNumber => (super.noSuchMethod(
+        Invocation.getter(#chapterNumber),
+        returnValue: 0,
+        returnValueForMissingStub: 0,
+      ) as int);
+
+  @override
+  int get sectionNumber => (super.noSuchMethod(
+        Invocation.getter(#sectionNumber),
+        returnValue: 0,
+        returnValueForMissingStub: 0,
+      ) as int);
+
+  @override
+  String get sectionReference => (super.noSuchMethod(
+        Invocation.getter(#sectionReference),
+        returnValue: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#sectionReference),
+        ),
+        returnValueForMissingStub: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#sectionReference),
+        ),
+      ) as String);
+
+  @override
+  int get sectionIndex => (super.noSuchMethod(
+        Invocation.getter(#sectionIndex),
+        returnValue: 0,
+        returnValueForMissingStub: 0,
+      ) as int);
 
   @override
   int get listenersCount => (super.noSuchMethod(
@@ -874,9 +845,27 @@ class MockBiblesService extends _i1.Mock implements _i7.BiblesService {
       ) as _i5.Future<void>);
 
   @override
-  void setBookCode(String? book) => super.noSuchMethod(
+  void setPrimaryAreaBible(String? bibleCode) => super.noSuchMethod(
         Invocation.method(
-          #setBookCode,
+          #setPrimaryAreaBible,
+          [bibleCode],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  void setSecondaryAreaBible(String? bibleCode) => super.noSuchMethod(
+        Invocation.method(
+          #setSecondaryAreaBible,
+          [bibleCode],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  void setBook(String? book) => super.noSuchMethod(
+        Invocation.method(
+          #setBook,
           [book],
         ),
         returnValueForMissingStub: null,
@@ -892,10 +881,28 @@ class MockBiblesService extends _i1.Mock implements _i7.BiblesService {
       );
 
   @override
-  void setSectionIndex(int? index) => super.noSuchMethod(
+  void setSection(int? index) => super.noSuchMethod(
         Invocation.method(
-          #setSectionIndex,
+          #setSection,
           [index],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  void setSectionReference(String? reference) => super.noSuchMethod(
+        Invocation.method(
+          #setSectionReference,
+          [reference],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  void setBooksMapping(_i8.BookMapping? mapping) => super.noSuchMethod(
+        Invocation.method(
+          #setBooksMapping,
+          [mapping],
         ),
         returnValueForMissingStub: null,
       );
@@ -910,11 +917,10 @@ class MockBiblesService extends _i1.Mock implements _i7.BiblesService {
       );
 
   @override
-  _i5.Future<void> loadBibleVersion(_i8.AreaType? areaType) =>
-      (super.noSuchMethod(
+  _i5.Future<void> loadBibleVersion(_i8.Area? pane) => (super.noSuchMethod(
         Invocation.method(
           #loadBibleVersion,
-          [areaType],
+          [pane],
         ),
         returnValue: _i5.Future<void>.value(),
         returnValueForMissingStub: _i5.Future<void>.value(),
@@ -963,6 +969,15 @@ class MockBiblesService extends _i1.Mock implements _i7.BiblesService {
           ),
         ),
       ) as String);
+
+  @override
+  void setMappingBasedOnBible(String? bibleCode) => super.noSuchMethod(
+        Invocation.method(
+          #setMappingBasedOnBible,
+          [bibleCode],
+        ),
+        returnValueForMissingStub: null,
+      );
 
   @override
   void listenToReactiveValues(List<dynamic>? reactiveValues) =>
@@ -1023,6 +1038,174 @@ class MockSettingsService extends _i1.Mock implements _i9.SettingsService {
       );
 
   @override
+  bool get showSecondaryArea => (super.noSuchMethod(
+        Invocation.getter(#showSecondaryArea),
+        returnValue: false,
+        returnValueForMissingStub: false,
+      ) as bool);
+
+  @override
+  set showSecondaryArea(bool? _showSecondaryArea) => super.noSuchMethod(
+        Invocation.setter(
+          #showSecondaryArea,
+          _showSecondaryArea,
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  String get primaryAreaBible => (super.noSuchMethod(
+        Invocation.getter(#primaryAreaBible),
+        returnValue: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#primaryAreaBible),
+        ),
+        returnValueForMissingStub: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#primaryAreaBible),
+        ),
+      ) as String);
+
+  @override
+  set primaryAreaBible(String? _primaryAreaBible) => super.noSuchMethod(
+        Invocation.setter(
+          #primaryAreaBible,
+          _primaryAreaBible,
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  String get secondaryAreaBible => (super.noSuchMethod(
+        Invocation.getter(#secondaryAreaBible),
+        returnValue: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#secondaryAreaBible),
+        ),
+        returnValueForMissingStub: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#secondaryAreaBible),
+        ),
+      ) as String);
+
+  @override
+  set secondaryAreaBible(String? _secondaryAreaBible) => super.noSuchMethod(
+        Invocation.setter(
+          #secondaryAreaBible,
+          _secondaryAreaBible,
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  String get bookCode => (super.noSuchMethod(
+        Invocation.getter(#bookCode),
+        returnValue: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#bookCode),
+        ),
+        returnValueForMissingStub: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#bookCode),
+        ),
+      ) as String);
+
+  @override
+  set bookCode(String? _bookCode) => super.noSuchMethod(
+        Invocation.setter(
+          #bookCode,
+          _bookCode,
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  int get chapterNumber => (super.noSuchMethod(
+        Invocation.getter(#chapterNumber),
+        returnValue: 0,
+        returnValueForMissingStub: 0,
+      ) as int);
+
+  @override
+  set chapterNumber(int? _chapterNumber) => super.noSuchMethod(
+        Invocation.setter(
+          #chapterNumber,
+          _chapterNumber,
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  int get sectionNumber => (super.noSuchMethod(
+        Invocation.getter(#sectionNumber),
+        returnValue: 0,
+        returnValueForMissingStub: 0,
+      ) as int);
+
+  @override
+  set sectionNumber(int? _sectionNumber) => super.noSuchMethod(
+        Invocation.setter(
+          #sectionNumber,
+          _sectionNumber,
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  String get sectionReference => (super.noSuchMethod(
+        Invocation.getter(#sectionReference),
+        returnValue: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#sectionReference),
+        ),
+        returnValueForMissingStub: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#sectionReference),
+        ),
+      ) as String);
+
+  @override
+  set sectionReference(String? _sectionReference) => super.noSuchMethod(
+        Invocation.setter(
+          #sectionReference,
+          _sectionReference,
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  bool get showMarks => (super.noSuchMethod(
+        Invocation.getter(#showMarks),
+        returnValue: false,
+        returnValueForMissingStub: false,
+      ) as bool);
+
+  @override
+  set showMarks(bool? _showMarks) => super.noSuchMethod(
+        Invocation.setter(
+          #showMarks,
+          _showMarks,
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  bool get showChaptersAndVerses => (super.noSuchMethod(
+        Invocation.getter(#showChaptersAndVerses),
+        returnValue: false,
+        returnValueForMissingStub: false,
+      ) as bool);
+
+  @override
+  set showChaptersAndVerses(bool? _showChaptersAndVerses) => super.noSuchMethod(
+        Invocation.setter(
+          #showChaptersAndVerses,
+          _showChaptersAndVerses,
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
   int get listenersCount => (super.noSuchMethod(
         Invocation.getter(#listenersCount),
         returnValue: 0,
@@ -1030,13 +1213,14 @@ class MockSettingsService extends _i1.Mock implements _i9.SettingsService {
       ) as int);
 
   @override
-  void initilize() => super.noSuchMethod(
+  _i5.Future<void> initilize() => (super.noSuchMethod(
         Invocation.method(
           #initilize,
           [],
         ),
-        returnValueForMissingStub: null,
-      );
+        returnValue: _i5.Future<void>.value(),
+        returnValueForMissingStub: _i5.Future<void>.value(),
+      ) as _i5.Future<void>);
 
   @override
   _i5.Future<void> setIsDarkTheme(bool? value) => (super.noSuchMethod(
@@ -1052,6 +1236,238 @@ class MockSettingsService extends _i1.Mock implements _i9.SettingsService {
   _i5.Future<bool> getIsDarkTheme() => (super.noSuchMethod(
         Invocation.method(
           #getIsDarkTheme,
+          [],
+        ),
+        returnValue: _i5.Future<bool>.value(false),
+        returnValueForMissingStub: _i5.Future<bool>.value(false),
+      ) as _i5.Future<bool>);
+
+  @override
+  _i5.Future<void> setShowSecondaryArea(bool? value) => (super.noSuchMethod(
+        Invocation.method(
+          #setShowSecondaryArea,
+          [value],
+        ),
+        returnValue: _i5.Future<void>.value(),
+        returnValueForMissingStub: _i5.Future<void>.value(),
+      ) as _i5.Future<void>);
+
+  @override
+  _i5.Future<bool> getShowSecondaryArea() => (super.noSuchMethod(
+        Invocation.method(
+          #getShowSecondaryArea,
+          [],
+        ),
+        returnValue: _i5.Future<bool>.value(false),
+        returnValueForMissingStub: _i5.Future<bool>.value(false),
+      ) as _i5.Future<bool>);
+
+  @override
+  _i5.Future<void> setPrimaryAreaBible(String? value) => (super.noSuchMethod(
+        Invocation.method(
+          #setPrimaryAreaBible,
+          [value],
+        ),
+        returnValue: _i5.Future<void>.value(),
+        returnValueForMissingStub: _i5.Future<void>.value(),
+      ) as _i5.Future<void>);
+
+  @override
+  _i5.Future<String> getPrimaryAreaBible() => (super.noSuchMethod(
+        Invocation.method(
+          #getPrimaryAreaBible,
+          [],
+        ),
+        returnValue: _i5.Future<String>.value(_i3.dummyValue<String>(
+          this,
+          Invocation.method(
+            #getPrimaryAreaBible,
+            [],
+          ),
+        )),
+        returnValueForMissingStub:
+            _i5.Future<String>.value(_i3.dummyValue<String>(
+          this,
+          Invocation.method(
+            #getPrimaryAreaBible,
+            [],
+          ),
+        )),
+      ) as _i5.Future<String>);
+
+  @override
+  _i5.Future<void> setSecondaryAreaBible(String? value) => (super.noSuchMethod(
+        Invocation.method(
+          #setSecondaryAreaBible,
+          [value],
+        ),
+        returnValue: _i5.Future<void>.value(),
+        returnValueForMissingStub: _i5.Future<void>.value(),
+      ) as _i5.Future<void>);
+
+  @override
+  _i5.Future<String> getSecondaryAreaBible() => (super.noSuchMethod(
+        Invocation.method(
+          #getSecondaryAreaBible,
+          [],
+        ),
+        returnValue: _i5.Future<String>.value(_i3.dummyValue<String>(
+          this,
+          Invocation.method(
+            #getSecondaryAreaBible,
+            [],
+          ),
+        )),
+        returnValueForMissingStub:
+            _i5.Future<String>.value(_i3.dummyValue<String>(
+          this,
+          Invocation.method(
+            #getSecondaryAreaBible,
+            [],
+          ),
+        )),
+      ) as _i5.Future<String>);
+
+  @override
+  _i5.Future<void> setBook(String? value) => (super.noSuchMethod(
+        Invocation.method(
+          #setBook,
+          [value],
+        ),
+        returnValue: _i5.Future<void>.value(),
+        returnValueForMissingStub: _i5.Future<void>.value(),
+      ) as _i5.Future<void>);
+
+  @override
+  _i5.Future<String> getBook() => (super.noSuchMethod(
+        Invocation.method(
+          #getBook,
+          [],
+        ),
+        returnValue: _i5.Future<String>.value(_i3.dummyValue<String>(
+          this,
+          Invocation.method(
+            #getBook,
+            [],
+          ),
+        )),
+        returnValueForMissingStub:
+            _i5.Future<String>.value(_i3.dummyValue<String>(
+          this,
+          Invocation.method(
+            #getBook,
+            [],
+          ),
+        )),
+      ) as _i5.Future<String>);
+
+  @override
+  _i5.Future<void> setChapterNumber(int? value) => (super.noSuchMethod(
+        Invocation.method(
+          #setChapterNumber,
+          [value],
+        ),
+        returnValue: _i5.Future<void>.value(),
+        returnValueForMissingStub: _i5.Future<void>.value(),
+      ) as _i5.Future<void>);
+
+  @override
+  _i5.Future<int> getChapterNumber() => (super.noSuchMethod(
+        Invocation.method(
+          #getChapterNumber,
+          [],
+        ),
+        returnValue: _i5.Future<int>.value(0),
+        returnValueForMissingStub: _i5.Future<int>.value(0),
+      ) as _i5.Future<int>);
+
+  @override
+  _i5.Future<void> setSectionNumber(int? value) => (super.noSuchMethod(
+        Invocation.method(
+          #setSectionNumber,
+          [value],
+        ),
+        returnValue: _i5.Future<void>.value(),
+        returnValueForMissingStub: _i5.Future<void>.value(),
+      ) as _i5.Future<void>);
+
+  @override
+  _i5.Future<int> getSectionNumber() => (super.noSuchMethod(
+        Invocation.method(
+          #getSectionNumber,
+          [],
+        ),
+        returnValue: _i5.Future<int>.value(0),
+        returnValueForMissingStub: _i5.Future<int>.value(0),
+      ) as _i5.Future<int>);
+
+  @override
+  _i5.Future<void> setSectionReference(String? value) => (super.noSuchMethod(
+        Invocation.method(
+          #setSectionReference,
+          [value],
+        ),
+        returnValue: _i5.Future<void>.value(),
+        returnValueForMissingStub: _i5.Future<void>.value(),
+      ) as _i5.Future<void>);
+
+  @override
+  _i5.Future<String> getSectionReference() => (super.noSuchMethod(
+        Invocation.method(
+          #getSectionReference,
+          [],
+        ),
+        returnValue: _i5.Future<String>.value(_i3.dummyValue<String>(
+          this,
+          Invocation.method(
+            #getSectionReference,
+            [],
+          ),
+        )),
+        returnValueForMissingStub:
+            _i5.Future<String>.value(_i3.dummyValue<String>(
+          this,
+          Invocation.method(
+            #getSectionReference,
+            [],
+          ),
+        )),
+      ) as _i5.Future<String>);
+
+  @override
+  _i5.Future<void> setShowMarks(bool? value) => (super.noSuchMethod(
+        Invocation.method(
+          #setShowMarks,
+          [value],
+        ),
+        returnValue: _i5.Future<void>.value(),
+        returnValueForMissingStub: _i5.Future<void>.value(),
+      ) as _i5.Future<void>);
+
+  @override
+  _i5.Future<bool> getShowMarks() => (super.noSuchMethod(
+        Invocation.method(
+          #getShowMarks,
+          [],
+        ),
+        returnValue: _i5.Future<bool>.value(false),
+        returnValueForMissingStub: _i5.Future<bool>.value(false),
+      ) as _i5.Future<bool>);
+
+  @override
+  _i5.Future<void> setShowChaptersAndVerses(bool? value) => (super.noSuchMethod(
+        Invocation.method(
+          #setShowChaptersAndVerses,
+          [value],
+        ),
+        returnValue: _i5.Future<void>.value(),
+        returnValueForMissingStub: _i5.Future<void>.value(),
+      ) as _i5.Future<void>);
+
+  @override
+  _i5.Future<bool> getShowChaptersAndVerses() => (super.noSuchMethod(
+        Invocation.method(
+          #getShowChaptersAndVerses,
           [],
         ),
         returnValue: _i5.Future<bool>.value(false),
@@ -1195,58 +1611,91 @@ class MockSideNavigationService extends _i1.Mock
 /// See the documentation for Mockito's code generation for more information.
 class MockReaderService extends _i1.Mock implements _i12.ReaderService {
   @override
-  String get topBibleCode => (super.noSuchMethod(
-        Invocation.getter(#topBibleCode),
-        returnValue: _i3.dummyValue<String>(
-          this,
-          Invocation.getter(#topBibleCode),
-        ),
-        returnValueForMissingStub: _i3.dummyValue<String>(
-          this,
-          Invocation.getter(#topBibleCode),
-        ),
-      ) as String);
-
-  @override
-  String get topBookCode => (super.noSuchMethod(
-        Invocation.getter(#topBookCode),
-        returnValue: _i3.dummyValue<String>(
-          this,
-          Invocation.getter(#topBookCode),
-        ),
-        returnValueForMissingStub: _i3.dummyValue<String>(
-          this,
-          Invocation.getter(#topBookCode),
-        ),
-      ) as String);
-
-  @override
-  Map<String, dynamic> get topJson => (super.noSuchMethod(
-        Invocation.getter(#topJson),
+  Map<String, dynamic> get primaryAreaJson => (super.noSuchMethod(
+        Invocation.getter(#primaryAreaJson),
         returnValue: <String, dynamic>{},
         returnValueForMissingStub: <String, dynamic>{},
       ) as Map<String, dynamic>);
 
   @override
-  Map<String, dynamic> get bottomJson => (super.noSuchMethod(
-        Invocation.getter(#bottomJson),
+  Map<String, dynamic> get secondaryAreaJson => (super.noSuchMethod(
+        Invocation.getter(#secondaryAreaJson),
         returnValue: <String, dynamic>{},
         returnValueForMissingStub: <String, dynamic>{},
       ) as Map<String, dynamic>);
 
   @override
-  List<Map<String, dynamic>> getPaginatedVerses(
-    int? pageKey,
+  String get primaryAreaBible => (super.noSuchMethod(
+        Invocation.getter(#primaryAreaBible),
+        returnValue: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#primaryAreaBible),
+        ),
+        returnValueForMissingStub: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#primaryAreaBible),
+        ),
+      ) as String);
+
+  @override
+  String get secondaryAreaBible => (super.noSuchMethod(
+        Invocation.getter(#secondaryAreaBible),
+        returnValue: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#secondaryAreaBible),
+        ),
+        returnValueForMissingStub: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#secondaryAreaBible),
+        ),
+      ) as String);
+
+  @override
+  String get bookCode => (super.noSuchMethod(
+        Invocation.getter(#bookCode),
+        returnValue: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#bookCode),
+        ),
+        returnValueForMissingStub: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#bookCode),
+        ),
+      ) as String);
+
+  @override
+  String get sectionReference => (super.noSuchMethod(
+        Invocation.getter(#sectionReference),
+        returnValue: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#sectionReference),
+        ),
+        returnValueForMissingStub: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#sectionReference),
+        ),
+      ) as String);
+
+  @override
+  _i8.ViewBy get viewBy => (super.noSuchMethod(
+        Invocation.getter(#viewBy),
+        returnValue: _i8.ViewBy.chapter,
+        returnValueForMissingStub: _i8.ViewBy.chapter,
+      ) as _i8.ViewBy);
+
+  @override
+  List<Map<String, dynamic>> getNewPage(
     _i4.BuildContext? context,
-    _i8.AreaType? areaType,
+    int? pageKey,
+    _i8.Area? area,
   ) =>
       (super.noSuchMethod(
         Invocation.method(
-          #getPaginatedVerses,
+          #getNewPage,
           [
-            pageKey,
             context,
-            areaType,
+            pageKey,
+            area,
           ],
         ),
         returnValue: <Map<String, dynamic>>[],
@@ -1254,22 +1703,22 @@ class MockReaderService extends _i1.Mock implements _i12.ReaderService {
       ) as List<Map<String, dynamic>>);
 
   @override
-  List<Map<String, dynamic>> buildTextFromOETJson(
+  List<Map<String, dynamic>> pageFromJson(
+    _i4.BuildContext? context,
     Map<String, dynamic>? json,
-    bool? splitByParagraph,
+    String? bibleCode,
     _i8.ViewBy? viewBy,
     int? pageKey,
-    _i4.BuildContext? context,
   ) =>
       (super.noSuchMethod(
         Invocation.method(
-          #buildTextFromOETJson,
+          #pageFromJson,
           [
+            context,
             json,
-            splitByParagraph,
+            bibleCode,
             viewBy,
             pageKey,
-            context,
           ],
         ),
         returnValue: <Map<String, dynamic>>[],

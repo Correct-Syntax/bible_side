@@ -32,6 +32,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
             viewModel.getcurrentNavigationString(
               viewModel.bookCode,
               viewModel.chapter,
+              viewModel.sectionReference,
             ),
             style: Theme.of(context).textTheme.titleLarge!.copyWith(fontWeight: FontWeight.w500),
           ),
@@ -75,7 +76,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 24.0),
               child: Scrollable(
-                controller: viewModel.topController,
+                controller: viewModel.primaryAreaController,
                 viewportBuilder: (BuildContext context, ViewportOffset position) {
                   return Viewport(
                     offset: position,
@@ -130,7 +131,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 24.0),
                 child: Scrollable(
-                  controller: viewModel.bottomController,
+                  controller: viewModel.secondaryAreaController,
                   viewportBuilder: (BuildContext context, ViewportOffset position) {
                     return Viewport(
                       offset: position,

@@ -30,6 +30,10 @@ class BiblesService with ListenableServiceMixin {
   int get chapterNumber => _settingsService.chapterNumber;
   int get sectionNumber => _settingsService.sectionNumber;
 
+  String get sectionReference => _settingsService.sectionReference;
+
+  int get sectionIndex => _settingsService.sectionNumber;
+
   ViewBy viewBy = ViewBy.chapter;
 
   Future<void> initilize() async {
@@ -68,6 +72,11 @@ class BiblesService with ListenableServiceMixin {
     notifyListeners();
   }
 
+  void setSectionReference(String reference) {
+    _settingsService.setSectionReference(reference);
+    notifyListeners();
+  }
+
   void setBooksMapping(BookMapping mapping) {
     booksMapping = getBookMapping(mapping);
     notifyListeners();
@@ -93,6 +102,10 @@ class BiblesService with ListenableServiceMixin {
   String bookToBookCode(String book) {
     return booksMapping.keys.firstWhere((item) => booksMapping[item] == book);
   }
+
+  // List<int> sectionHeadingToIndex() {
+
+  // }
 
   void setMappingBasedOnBible(String bibleCode) {
     if (bibleCode == 'OET-RV' || bibleCode == 'OET-LV') {

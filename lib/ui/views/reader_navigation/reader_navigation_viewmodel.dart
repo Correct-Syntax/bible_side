@@ -7,7 +7,7 @@ import '../../../app/app.locator.dart';
 import '../../../app/app.router.dart';
 import '../../../common/enums.dart';
 import '../../../common/books.dart';
-import '../../../common/oet_rv_sections.dart';
+import '../../../common/oet_rv_section_headings.dart';
 import '../../../services/bibles_service.dart';
 import '../../../services/settings_service.dart';
 
@@ -52,7 +52,7 @@ class ReaderNavigationViewModel extends BaseViewModel {
     bookChapters = [for (int i = 1; i <= numOfChapters; i++) i.toString()];
 
     // Generate sections
-    sections = bookSectionNameMapping[bookCode]!;
+    sections = sectionHeadingsMappingForOET[bookCode]!;
 
     showBooksNavigation = false;
     showSectionNavigation = true;
@@ -70,8 +70,11 @@ class ReaderNavigationViewModel extends BaseViewModel {
   Future<void> onTapSectionItem(int index) async {
     String sectionHeading = sections[index][0];
     log(sectionHeading);
-    int sectionIndex = 1;
-    _biblesService.setSection(sectionIndex);
+
+    RegExp regex = RegExp(r'(\d*:\d*)');
+    String reference = regex.stringMatch(sectionHeading)!;
+    _biblesService.setSectionReference(reference.toString());
+    _biblesService.setSection(index);
 
     _navigationService.navigateToReaderView();
     await _biblesService.reloadBiblesJson();
