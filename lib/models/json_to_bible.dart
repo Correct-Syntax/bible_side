@@ -26,7 +26,7 @@ abstract class JsonToBible {
     return listOfStringMatches;
   }
 
-  List<Map<String, dynamic>> getSection(int page, Map<String, Map<String, int>> sectionReferences) {
+  List<Map<String, dynamic>> getSection(int page, Map<String, dynamic> sectionReferences) {
     List<InlineSpan> spans = [];
 
     return [
@@ -49,7 +49,7 @@ abstract class JsonToBible {
   }
 
   /// For debugging sections
-  List<Map<String, dynamic>> getSectionDebug(Map<String, Map<String, int>> sectionReferences) {
+  List<Map<String, dynamic>> getSectionDebug(Map<String, dynamic> sectionReferences) {
     return [
       {
         'spans': [

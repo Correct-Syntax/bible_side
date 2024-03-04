@@ -8,12 +8,19 @@ import '../text_item.dart';
 
 // Shared code between the OET bible implementations
 mixin OETBaseMixin {
+  /// Given a [reference] like "1:3 Yeshua, alive, tells them to wait",
+  /// returns "Yeshua, alive, tells them to wait".
+  String sectionHeadingFromReference(String reference) {
+    RegExp regex = RegExp(r'(\d*:\d*)');
+    return reference.split(regex).last;
+  }
+
   /// Get the section json between [sectionReferences]
   ///
   /// [sectionReferences] is a list of 2 strings formatted like ['1:11', '1:12']
   ///
   /// Returns a list of json contents
-  List<dynamic> getJsonForSection(Map<String, dynamic> json, Map<String, Map<String, int>> sectionReferences) {
+  List<dynamic> getJsonForSection(Map<String, dynamic> json, Map<String, dynamic> sectionReferences) {
     List<dynamic> sectionContents = [];
 
     // First get the chapter json where this section appears
@@ -91,21 +98,26 @@ class OETReadersBibleImpl extends JsonToBible with OETBaseMixin {
 
   /// Get the section spans for [page], based on [sectionReferences]
   @override
-  List<Map<String, dynamic>> getSection(int page, Map<String, Map<String, int>> sectionReferences) {
+  List<Map<String, dynamic>> getSection(int page, Map<String, dynamic> sectionReferences) {
     List<InlineSpan> spans = [];
     List<TextSpan> verseSpans = [];
 
-    String sectionText = '';
-    String sectionChapterReference = '';
-    String sectionVerseReference = '';
+    Map<String, int> sectionReferencesStart = sectionReferences['start']!;
+
+    String sectionText = sectionReferences['section'];
+    String sectionChapterReference = sectionReferencesStart['chapter'].toString();
+    String sectionVerseReference = sectionReferencesStart['verse'].toString();
 
     List<dynamic> jsonForSection = getJsonForSection(json, sectionReferences);
 
     bool isNewParagraph = false;
     bool isNext = false;
-    bool isSection = false;
+    bool isSection = true;
     for (Map<String, dynamic> item in jsonForSection) {
       //log(item.toString());
+      if (isSection == true && isNext == false) {
+        isNext = true;
+      }
 
       for (String key in item.keys) {
         if (key == 's1') {
@@ -154,14 +166,13 @@ class OETReadersBibleImpl extends JsonToBible with OETBaseMixin {
         } else if (key == 'verseText') {
           String verseText;
 
-          verseText = item[key];
-          // .replaceAll(RegExp(r'¦([0-9])*\d+'), '')
-          // .replaceAll(' +', ' ')
-          // .replaceAll('>', ' ')
-          // .replaceAll('=', ' ');
+          verseText = item[key] //;
+              .replaceAll(RegExp(r'¦([0-9])*\d+'), '')
+              .replaceAll(' +', ' ')
+              .replaceAll('>', ' ')
+              .replaceAll('=', ' ');
 
           wordSpans.add(TextSpan(text: verseText));
-          //}
 
           if (isSection == true && isNext == true) {
             spans.add(

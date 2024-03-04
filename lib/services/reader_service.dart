@@ -41,7 +41,7 @@ class ReaderService {
   /// Get a page at [pageKey] that fits all of the given parameters.
   List<Map<String, dynamic>> pageFromJson(
       BuildContext context, Map<String, dynamic> json, String bibleCode, ViewBy viewBy, int pageKey) {
-    Map<String, Map<String, int>>? sectionReferences = sectionStartEndMappingForOET[bookCode]?[pageKey];
+    Map<String, dynamic>? sectionReferences = sectionStartEndMappingForOET[bookCode]?[pageKey];
 
     if (sectionReferences == null) {
       return [];
