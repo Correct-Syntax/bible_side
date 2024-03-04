@@ -99,12 +99,15 @@ class ReaderViewModel extends ReactiveViewModel {
       fetchDownChapter(pageKey, Area.secondary);
     });
 
+    initialRefresh = true;
+    numberOfSections = sectionStartEndMappingForOET[bookCode]!.length;
+
     // Refresh for first section/chapter
     await fetchDownChapter(sectionIndex, Area.primary);
     await fetchDownChapter(sectionIndex, Area.secondary);
 
-    initialRefresh = true;
-    numberOfSections = sectionStartEndMappingForOET[bookCode]!.length;
+    await fetchUpChapter(sectionIndex, Area.primary);
+    await fetchUpChapter(sectionIndex, Area.secondary);
 
     rebuildUi();
   }
@@ -115,36 +118,42 @@ class ReaderViewModel extends ReactiveViewModel {
   }
 
   Future<void> fetchUpChapter(int pageKey, Area area) async {
-    if (initialRefresh == true) {
-      pageKey -= 1;
-      initialRefresh = false;
-    }
-
-    int key = (pageKey.abs());
-
-    List<Map<String, dynamic>> newPage = getPaginatedVerses(key, area);
-
-    final int nextPageKey = pageKey - 1;
-
-    final bool isLastPage;
     if (sectionIndex != 0) {
-      isLastPage = key == 0;
-    } else {
-      isLastPage = true;
-    }
+      if (initialRefresh == true) {
+        pageKey -= 1;
+        initialRefresh = false;
+      }
 
-    if (area == Area.primary) {
-      if (isLastPage) {
-        primaryPagingUpController.appendLastPage(newPage);
+      int key = (pageKey.abs());
+
+      List<Map<String, dynamic>> newPage = getPaginatedVerses(key, area);
+
+      final int nextPageKey = pageKey - 1;
+
+      final bool isLastPage;
+      if (sectionIndex != 0) {
+        isLastPage = key == 0;
       } else {
-        primaryPagingUpController.appendPage(newPage, nextPageKey);
+        isLastPage = true;
       }
-    } else if (area == Area.secondary) {
-      if (isLastPage) {
-        secondaryPagingUpController.appendLastPage(newPage);
-      } else {
-        secondaryPagingUpController.appendPage(newPage, nextPageKey);
+
+      if (area == Area.primary) {
+        if (isLastPage) {
+          primaryPagingUpController.appendLastPage(newPage);
+        } else {
+          primaryPagingUpController.appendPage(newPage, nextPageKey);
+        }
+      } else if (area == Area.secondary) {
+        if (isLastPage) {
+          secondaryPagingUpController.appendLastPage(newPage);
+        } else {
+          secondaryPagingUpController.appendPage(newPage, nextPageKey);
+        }
       }
+    } else {
+      // If the sectionIndex is the first one, we know there isn't any previous pages
+      primaryPagingUpController.appendLastPage([]);
+      secondaryPagingUpController.appendLastPage([]);
     }
     updatePagingControllers();
 
@@ -155,7 +164,12 @@ class ReaderViewModel extends ReactiveViewModel {
     List<Map<String, dynamic>> newPage = getPaginatedVerses(pageKey, area);
 
     final int nextPageKey = pageKey + 1;
-    final bool isLastPage = pageKey == (numberOfSections - 1);
+    final bool isLastPage;
+    if (sectionIndex != (numberOfSections - 1)) {
+      isLastPage = pageKey == (numberOfSections - 1);
+    } else {
+      isLastPage = true;
+    }
 
     if (area == Area.primary) {
       if (isLastPage) {
@@ -170,6 +184,7 @@ class ReaderViewModel extends ReactiveViewModel {
         secondaryPagingDownController.appendPage(newPage, nextPageKey);
       }
     }
+
     updatePagingControllers();
 
     log('Fetched DOWN for $area');
