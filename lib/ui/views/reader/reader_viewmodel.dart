@@ -25,11 +25,8 @@ class ReaderViewModel extends ReactiveViewModel {
 
   String get primaryAreaBible => _biblesService.primaryAreaBible;
   String get bookCode => _biblesService.bookCode;
-  int get chapter => _biblesService.chapterNumber;
-
-  int get sectionIndex => _biblesService.sectionIndex; // TODO
-
-  String get sectionReference => _settingsService.sectionReference;
+  int get chapterNumber => _biblesService.chapterNumber;
+  int get sectionNumber => _biblesService.sectionNumber;
 
   bool get showSecondaryArea => _settingsService.showSecondaryArea;
 
@@ -73,13 +70,13 @@ class ReaderViewModel extends ReactiveViewModel {
 
     // Primary area
     primaryPagingUpController = PagingController(
-      firstPageKey: sectionIndex,
+      firstPageKey: sectionNumber,
     );
     primaryPagingUpController.addPageRequestListener((pageKey) {
       fetchUpChapter(pageKey, Area.primary);
     });
     primaryPagingDownController = PagingController(
-      firstPageKey: sectionIndex,
+      firstPageKey: sectionNumber,
     );
     primaryPagingDownController.addPageRequestListener((pageKey) {
       fetchDownChapter(pageKey, Area.primary);
@@ -87,13 +84,13 @@ class ReaderViewModel extends ReactiveViewModel {
 
     // Secondary area
     secondaryPagingUpController = PagingController(
-      firstPageKey: sectionIndex,
+      firstPageKey: sectionNumber,
     );
     secondaryPagingUpController.addPageRequestListener((pageKey) {
       fetchUpChapter(pageKey, Area.secondary);
     });
     secondaryPagingDownController = PagingController(
-      firstPageKey: sectionIndex,
+      firstPageKey: sectionNumber,
     );
     secondaryPagingDownController.addPageRequestListener((pageKey) {
       fetchDownChapter(pageKey, Area.secondary);
@@ -103,11 +100,11 @@ class ReaderViewModel extends ReactiveViewModel {
     numberOfSections = sectionStartEndMappingForOET[bookCode]!.length;
 
     // Refresh for first section/chapter
-    await fetchDownChapter(sectionIndex, Area.primary);
-    await fetchDownChapter(sectionIndex, Area.secondary);
+    await fetchDownChapter(sectionNumber, Area.primary);
+    await fetchDownChapter(sectionNumber, Area.secondary);
 
-    await fetchUpChapter(sectionIndex, Area.primary);
-    await fetchUpChapter(sectionIndex, Area.secondary);
+    await fetchUpChapter(sectionNumber, Area.primary);
+    await fetchUpChapter(sectionNumber, Area.secondary);
 
     rebuildUi();
   }
@@ -118,7 +115,7 @@ class ReaderViewModel extends ReactiveViewModel {
   }
 
   Future<void> fetchUpChapter(int pageKey, Area area) async {
-    if (sectionIndex != 0) {
+    if (sectionNumber != 0) {
       if (initialRefresh == true) {
         pageKey -= 1;
         initialRefresh = false;
@@ -131,7 +128,7 @@ class ReaderViewModel extends ReactiveViewModel {
       final int nextPageKey = pageKey - 1;
 
       final bool isLastPage;
-      if (sectionIndex != 0) {
+      if (sectionNumber != 0) {
         isLastPage = key == 0;
       } else {
         isLastPage = true;
@@ -165,7 +162,7 @@ class ReaderViewModel extends ReactiveViewModel {
 
     final int nextPageKey = pageKey + 1;
     final bool isLastPage;
-    if (sectionIndex != (numberOfSections - 1)) {
+    if (sectionNumber != (numberOfSections - 1)) {
       isLastPage = pageKey == (numberOfSections - 1);
     } else {
       isLastPage = true;
@@ -207,9 +204,9 @@ class ReaderViewModel extends ReactiveViewModel {
     return _biblesService.bookCodeToBook(bookCode);
   }
 
-  String getcurrentNavigationString(String bookCode, int chapter, String ref) {
+  String getcurrentNavigationString(String bookCode, int chapter, int section) {
     //final navStr = '${_biblesService.bookCodeToBook(bookCode)} $chapter';
-    final navStr = '${_biblesService.bookCodeToBook(bookCode)} $ref';
+    final navStr = '${_biblesService.bookCodeToBook(bookCode)}';
     return navStr;
   }
 

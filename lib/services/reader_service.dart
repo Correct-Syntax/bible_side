@@ -20,8 +20,6 @@ class ReaderService {
   String get secondaryAreaBible => _settingsService.secondaryAreaBible;
   String get bookCode => _settingsService.bookCode;
 
-  String get sectionReference => _biblesService.sectionReference;
-
   ViewBy get viewBy => _biblesService.viewBy;
 
   /// A "Page" is a chapter in Chapter mode and a section in Section mode.

@@ -71,9 +71,9 @@ class ReaderNavigationViewModel extends BaseViewModel {
     String sectionHeading = sections[index][0];
     log(sectionHeading);
 
-    RegExp regex = RegExp(r'(\d*:\d*)');
-    String reference = regex.stringMatch(sectionHeading)!;
-    _biblesService.setSectionReference(reference.toString());
+    // RegExp regex = RegExp(r'(\d*:\d*)');
+    // String reference = regex.stringMatch(sectionHeading)!;
+    // _biblesService.setSectionReference(reference.toString());
     _biblesService.setSection(index);
 
     _navigationService.navigateToReaderView();

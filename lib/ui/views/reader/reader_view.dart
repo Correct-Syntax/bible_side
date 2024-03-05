@@ -31,8 +31,8 @@ class ReaderView extends StackedView<ReaderViewModel> {
           child: Text(
             viewModel.getcurrentNavigationString(
               viewModel.bookCode,
-              viewModel.chapter,
-              viewModel.sectionReference,
+              viewModel.chapterNumber,
+              viewModel.sectionNumber,
             ),
             style: Theme.of(context).textTheme.titleLarge!.copyWith(fontWeight: FontWeight.w500),
           ),

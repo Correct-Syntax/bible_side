@@ -11,7 +11,6 @@ class SettingsService with ListenableServiceMixin {
       bookCode,
       chapterNumber,
       sectionNumber,
-      sectionReference,
     ]);
   }
 
@@ -25,7 +24,6 @@ class SettingsService with ListenableServiceMixin {
   static const _kBookCode = 'BOOK_CODE';
   static const _kChapterNumber = 'CHAPTER_NUMBER';
   static const _kSectionNumber = 'SECTION_NUMBER';
-  static const _kSectionReference = 'SECTION_REFERENCE';
 
   // Reader view specifics
   static const _kShowMarks = 'SHOW_MARKS';
@@ -38,9 +36,7 @@ class SettingsService with ListenableServiceMixin {
   String secondaryAreaBible = 'OET-LV';
   String bookCode = 'JHN';
   int chapterNumber = 1;
-  int sectionNumber = 1;
-
-  String sectionReference = '1:1';
+  int sectionNumber = 0; // Section number starts at zero since it represents an index
 
   bool showMarks = true;
   bool showChaptersAndVerses = true;
@@ -54,8 +50,6 @@ class SettingsService with ListenableServiceMixin {
     chapterNumber = await getChapterNumber();
     sectionNumber = await getSectionNumber();
 
-    sectionReference = await getSectionReference();
-
     await setIsDarkTheme(isDarkTheme);
     await setShowSecondaryArea(showSecondaryArea);
     await setPrimaryAreaBible(primaryAreaBible);
@@ -63,8 +57,6 @@ class SettingsService with ListenableServiceMixin {
     await setBook(bookCode);
     await setChapterNumber(chapterNumber);
     await setSectionNumber(sectionNumber);
-
-    await setSectionReference(sectionReference);
   }
 
   // Is dark theme
@@ -161,22 +153,8 @@ class SettingsService with ListenableServiceMixin {
 
   Future<int> getSectionNumber() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    sectionNumber = prefs.getInt(_kSectionNumber) ?? 1;
+    sectionNumber = prefs.getInt(_kSectionNumber) ?? 0;
     return sectionNumber;
-  }
-
-  // Section reference
-  Future<void> setSectionReference(String value) async {
-    sectionReference = value;
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    prefs.setString(_kSectionReference, value);
-    notifyListeners();
-  }
-
-  Future<String> getSectionReference() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    sectionReference = prefs.getString(_kSectionReference) ?? '1:1';
-    return sectionReference;
   }
 
   // Show marks
