@@ -19,11 +19,15 @@ Bibleside implements the OET's "Reader's" version in the main area and a toggle 
 - [x] Open English Translation [Readers Version](https://openenglishtranslation.bible/Design/ReadersVersion)
 - [x] Open English Translation [Literal Version](https://openenglishtranslation.bible/Design/LiteralVersion)
 - [x] King James Version
+- [ ] WEB (World English Bible)
+
+Others?
 
 
-## Known issues
+## Known issues/TODO
 
 - Bug: Scrolling between the two versions is synced too well? Since the Literal version is lengthier, verses can be in different locations or even off screen.
+- Some sections are missing or have misplaced starting points (fix in update_OET_sections.py)
 
 
 ## Feedback/contributing
@@ -37,7 +41,7 @@ Bibleside is built with Flutter using [Stacked Architecture](https://stacked.fil
 
 - Run ``flutter pub get`` to install the dependencies.
 - Choose an emulator or a connected device.
-- Hit ``F5`` to run the code in the emulator.
+- Hit ``F5`` to run the code in the emulator, or open and terminal and run with ``flutter run``.
 
 
 ## Note on Bible versions
