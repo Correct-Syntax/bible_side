@@ -96,6 +96,12 @@ class ReaderView extends StackedView<ReaderViewModel> {
                               ),
                             ),
                           ),
+                          noItemsFoundIndicatorBuilder: (_) {
+                            return const SizedBox();
+                          },
+                          noMoreItemsIndicatorBuilder: (_) {
+                            return const SizedBox();
+                          },
                         ),
                       ),
                       PagedSliverList(
@@ -113,6 +119,12 @@ class ReaderView extends StackedView<ReaderViewModel> {
                               ),
                             ),
                           ),
+                          noItemsFoundIndicatorBuilder: (_) {
+                            return const SizedBox();
+                          },
+                          noMoreItemsIndicatorBuilder: (_) {
+                            return const SizedBox();
+                          },
                         ),
                       ),
                     ],
@@ -151,6 +163,12 @@ class ReaderView extends StackedView<ReaderViewModel> {
                                 ),
                               ),
                             ),
+                            noItemsFoundIndicatorBuilder: (_) {
+                              return const SizedBox();
+                            },
+                            noMoreItemsIndicatorBuilder: (_) {
+                              return const SizedBox();
+                            },
                           ),
                         ),
                         PagedSliverList(
@@ -168,6 +186,12 @@ class ReaderView extends StackedView<ReaderViewModel> {
                                 ),
                               ),
                             ),
+                            noItemsFoundIndicatorBuilder: (_) {
+                              return const SizedBox();
+                            },
+                            noMoreItemsIndicatorBuilder: (_) {
+                              return const SizedBox();
+                            },
                           ),
                         ),
                       ],
