@@ -13,9 +13,7 @@ class BiblesService with ListenableServiceMixin {
 
   BiblesService() {
     listenToReactiveValues([
-      bookCode,
       booksMapping,
-      viewBy,
     ]);
   }
 
@@ -24,14 +22,12 @@ class BiblesService with ListenableServiceMixin {
 
   Map<String, String> booksMapping = {};
 
-  ViewBy viewBy = ViewBy.chapter;
-
   String get primaryAreaBible => _settingsService.primaryAreaBible;
   String get secondaryAreaBible => _settingsService.secondaryAreaBible;
   String get bookCode => _settingsService.bookCode;
   int get chapterNumber => _settingsService.chapterNumber;
   int get sectionNumber => _settingsService.sectionNumber;
-
+  ViewBy get viewBy => _settingsService.viewBy;
 
   Future<void> initilize() async {
     setMappingBasedOnBible(primaryAreaBible);
@@ -74,8 +70,8 @@ class BiblesService with ListenableServiceMixin {
     notifyListeners();
   }
 
-  void setViewBy(ViewBy view) {
-    viewBy = view;
+  void setViewBy(ViewBy viewBy) {
+    _settingsService.setNavViewBy(viewBy);
     notifyListeners();
   }
 

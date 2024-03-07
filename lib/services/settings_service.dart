@@ -1,6 +1,8 @@
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:stacked/stacked.dart';
 
+import '../common/enums.dart';
+
 class SettingsService with ListenableServiceMixin {
   SettingsService() {
     listenToReactiveValues([
@@ -11,6 +13,8 @@ class SettingsService with ListenableServiceMixin {
       bookCode,
       chapterNumber,
       sectionNumber,
+      recentBooks,
+      viewBy,
     ]);
   }
 
@@ -25,6 +29,10 @@ class SettingsService with ListenableServiceMixin {
   static const _kChapterNumber = 'CHAPTER_NUMBER';
   static const _kSectionNumber = 'SECTION_NUMBER';
 
+  // Navigation
+  static const _kNavRecentBooks = 'NAV_RECENT_BOOKS';
+  static const _kNavViewBy = 'NAV_VIEW_BY';
+
   // Reader view specifics
   static const _kShowMarks = 'SHOW_MARKS';
   static const _kShowChaptersAndVerses = 'SHOW_CHAPTERS_AND_VERSES';
@@ -38,6 +46,9 @@ class SettingsService with ListenableServiceMixin {
   int chapterNumber = 1;
   int sectionNumber = 0; // Section number starts at zero since it represents an index
 
+  List<String> recentBooks = [];
+  ViewBy viewBy = ViewBy.section;
+
   bool showMarks = true;
   bool showChaptersAndVerses = true;
 
@@ -49,6 +60,8 @@ class SettingsService with ListenableServiceMixin {
     bookCode = await getBook();
     chapterNumber = await getChapterNumber();
     sectionNumber = await getSectionNumber();
+    recentBooks = await getNavRecentBooks();
+    viewBy = await getNavViewBy();
 
     await setIsDarkTheme(isDarkTheme);
     await setShowSecondaryArea(showSecondaryArea);
@@ -57,6 +70,8 @@ class SettingsService with ListenableServiceMixin {
     await setBook(bookCode);
     await setChapterNumber(chapterNumber);
     await setSectionNumber(sectionNumber);
+    await setNavRecentBooks(recentBooks);
+    await setNavViewBy(viewBy);
   }
 
   // Is dark theme
@@ -155,6 +170,34 @@ class SettingsService with ListenableServiceMixin {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     sectionNumber = prefs.getInt(_kSectionNumber) ?? 0;
     return sectionNumber;
+  }
+
+  // Recent books
+  Future<void> setNavRecentBooks(List<String> value) async {
+    recentBooks = value;
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setStringList(_kNavRecentBooks, value);
+    notifyListeners();
+  }
+
+  Future<List<String>> getNavRecentBooks() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    recentBooks = prefs.getStringList(_kNavRecentBooks) ?? [];
+    return recentBooks;
+  }
+
+  // View by
+  Future<void> setNavViewBy(ViewBy value) async {
+    viewBy = value;
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setString(_kNavViewBy, value.name);
+    notifyListeners();
+  }
+
+  Future<ViewBy> getNavViewBy() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    viewBy = ViewBy.values.byName(prefs.getString(_kNavViewBy) ?? 'section');
+    return viewBy;
   }
 
   // Show marks
