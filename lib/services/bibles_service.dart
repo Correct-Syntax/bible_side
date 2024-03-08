@@ -27,6 +27,7 @@ class BiblesService with ListenableServiceMixin {
   String get bookCode => _settingsService.bookCode;
   int get chapterNumber => _settingsService.chapterNumber;
   int get sectionNumber => _settingsService.sectionNumber;
+  List<String> get recentBooks => _settingsService.recentBooks;
   ViewBy get viewBy => _settingsService.viewBy;
 
   Future<void> initilize() async {
@@ -97,5 +98,23 @@ class BiblesService with ListenableServiceMixin {
     } else {
       setBooksMapping(BookMapping.traditional);
     }
+  }
+
+  void addBookToRecentHistory(String book) {
+    List<String> previousHistory = [];
+    previousHistory = recentBooks;
+
+    // Avoid inserting a duplicate
+    if (previousHistory.contains(book) == false) {
+      previousHistory.insert(0, book);
+    }
+    List<String> newHistory = previousHistory;
+
+    // Constrain list to 3 books
+    if (previousHistory.length >= 3) {
+      newHistory = newHistory.sublist(0, 3);
+    }
+    log(newHistory.toString());
+    _settingsService.setNavRecentBooks(newHistory);
   }
 }

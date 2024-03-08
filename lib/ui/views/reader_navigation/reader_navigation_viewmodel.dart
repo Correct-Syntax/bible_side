@@ -17,6 +17,7 @@ class ReaderNavigationViewModel extends BaseViewModel {
   final _navigationService = locator<NavigationService>();
 
   String get bookCode => _settingsService.bookCode;
+  List<String> get recentBooks => _settingsService.recentBooks;
   ViewBy get viewBy => _biblesService.viewBy;
 
   Map<String, String> get booksMapping => _biblesService.booksMapping;
@@ -31,7 +32,7 @@ class ReaderNavigationViewModel extends BaseViewModel {
 
   Future<void> initilize() async {
     tabController.addListener(() {
-      _biblesService.setViewBy(tabController.index == 0 ? ViewBy.chapter : ViewBy.section);
+      _biblesService.setViewBy(tabController.index == 0 ? ViewBy.section : ViewBy.chapter);
     });
   }
 
@@ -44,7 +45,10 @@ class ReaderNavigationViewModel extends BaseViewModel {
   }
 
   Future<void> onTapBookItem(int index) async {
-    _biblesService.setBook(booksMapping.keys.elementAt(index));
+    String book = booksMapping.keys.elementAt(index);
+    log('sel $index $book');
+    _biblesService.setBook(book);
+    _biblesService.addBookToRecentHistory(book);
 
     // Generate list of chapters
     int numOfChapters =

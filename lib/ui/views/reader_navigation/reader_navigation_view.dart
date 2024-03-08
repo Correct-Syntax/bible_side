@@ -37,7 +37,10 @@ class _ReaderNavigationView extends StackedHookView<ReaderNavigationViewModel> {
     final TickerProvider tickerProvider = useSingleTickerProvider();
 
     viewModel.tabController = useTabController(
-        initialIndex: viewModel.viewBy == ViewBy.chapter ? 0 : 1, initialLength: 2, vsync: tickerProvider);
+      initialIndex: viewModel.viewBy == ViewBy.section ? 0 : 1,
+      initialLength: 2,
+      vsync: tickerProvider,
+    );
 
     return Scaffold(
       appBar: AppBar(
@@ -58,28 +61,88 @@ class _ReaderNavigationView extends StackedHookView<ReaderNavigationViewModel> {
               Visibility(
                 visible: viewModel.showBooksNavigation,
                 child: Expanded(
-                  child: GridView.builder(
-                    itemCount: viewModel.booksMapping.length,
-                    gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-                      maxCrossAxisExtent: 120,
-                      childAspectRatio: 4 / 2,
-                      crossAxisSpacing: 18,
-                      mainAxisSpacing: 8,
-                    ),
-                    itemBuilder: (BuildContext context, int index) {
-                      return InkWell(
-                        borderRadius: BorderRadius.circular(12.0),
-                        onTap: () => viewModel.onTapBookItem(index),
-                        child: Center(
-                          child: Text(
-                            viewModel.booksMapping.values.elementAt(index),
-                            maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
-                            style: Theme.of(context).textTheme.bodyLarge,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Expanded(
+                        child: GridView.builder(
+                          itemCount: viewModel.booksMapping.length,
+                          gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+                            maxCrossAxisExtent: 120,
+                            childAspectRatio: 4 / 2,
+                            crossAxisSpacing: 18,
+                            mainAxisSpacing: 8,
                           ),
+                          itemBuilder: (BuildContext context, int index) {
+                            return InkWell(
+                              borderRadius: BorderRadius.circular(12.0),
+                              onTap: () => viewModel.onTapBookItem(index),
+                              child: Center(
+                                child: Text(
+                                  viewModel.booksMapping.values.elementAt(index),
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: Theme.of(context).textTheme.bodyLarge,
+                                ),
+                              ),
+                            );
+                          },
                         ),
-                      );
-                    },
+                      ),
+                      Container(
+                        margin: const EdgeInsets.symmetric(vertical: 10.0),
+                        child: const Divider(),
+                      ),
+                      const Padding(
+                        padding: EdgeInsets.only(bottom: 7.0),
+                        child: Row(
+                          children: [
+                            Icon(
+                              Icons.history,
+                              size: 16.0,
+                            ),
+                            SizedBox(width: 4),
+                            Text(
+                              'RECENT',
+                              style: TextStyle(
+                                fontSize: 12.0,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(
+                        height: 67,
+                        child: GridView.builder(
+                          itemCount: viewModel.recentBooks.length,
+                          gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+                            maxCrossAxisExtent: 120,
+                            childAspectRatio: 4 / 2,
+                            crossAxisSpacing: 18,
+                            mainAxisSpacing: 8,
+                          ),
+                          itemBuilder: (BuildContext context, int index) {
+                            String bookCode = viewModel.recentBooks.elementAt(index);
+                            String book = viewModel.booksMapping[bookCode]!;
+                            int bookIndex = viewModel.booksMapping.values.toList().indexOf(book);
+
+                            return InkWell(
+                              borderRadius: BorderRadius.circular(12.0),
+                              onTap: () => viewModel.onTapBookItem(bookIndex),
+                              child: Center(
+                                child: Text(
+                                  book,
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: Theme.of(context).textTheme.bodyLarge,
+                                ),
+                              ),
+                            );
+                          },
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ),
