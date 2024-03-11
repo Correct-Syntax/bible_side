@@ -1,4 +1,3 @@
-import 'dart:developer';
 import 'package:stacked/stacked.dart';
 
 import '../app/app.locator.dart';
@@ -114,7 +113,6 @@ class BiblesService with ListenableServiceMixin {
     if (previousHistory.length >= 3) {
       newHistory = newHistory.sublist(0, 3);
     }
-    log(newHistory.toString());
     _settingsService.setNavRecentBooks(newHistory);
   }
 }

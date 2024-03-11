@@ -28,6 +28,8 @@ class ReaderViewModel extends ReactiveViewModel {
   int get chapterNumber => _biblesService.chapterNumber;
   int get sectionNumber => _biblesService.sectionNumber;
 
+  ViewBy get viewBy => _biblesService.viewBy;
+
   bool get showSecondaryArea => _settingsService.showSecondaryArea;
 
   ReaderViewModel({required this.context});
@@ -56,6 +58,7 @@ class ReaderViewModel extends ReactiveViewModel {
 
   int numberOfSections = 0;
   bool initialRefresh = false;
+  int currentPage = 0;
 
   Future<void> initilize() async {
     areasParentController = LinkedScrollControllerGroup();
@@ -68,43 +71,49 @@ class ReaderViewModel extends ReactiveViewModel {
   Future<void> refreshReader() async {
     await _biblesService.reloadBiblesJson();
 
+    if (viewBy == ViewBy.section) {
+      currentPage = sectionNumber;
+    } else {
+      currentPage = chapterNumber;
+    }
+
     // Primary area
     primaryPagingUpController = PagingController(
-      firstPageKey: sectionNumber,
+      firstPageKey: currentPage,
     );
     primaryPagingUpController.addPageRequestListener((pageKey) {
-      fetchUpChapter(pageKey, Area.primary);
+      fetchUp(pageKey, viewBy, Area.primary);
     });
     primaryPagingDownController = PagingController(
-      firstPageKey: sectionNumber,
+      firstPageKey: currentPage,
     );
     primaryPagingDownController.addPageRequestListener((pageKey) {
-      fetchDownChapter(pageKey, Area.primary);
+      fetchDown(pageKey, viewBy, Area.primary);
     });
 
     // Secondary area
     secondaryPagingUpController = PagingController(
-      firstPageKey: sectionNumber,
+      firstPageKey: currentPage,
     );
     secondaryPagingUpController.addPageRequestListener((pageKey) {
-      fetchUpChapter(pageKey, Area.secondary);
+      fetchUp(pageKey, viewBy, Area.secondary);
     });
     secondaryPagingDownController = PagingController(
-      firstPageKey: sectionNumber,
+      firstPageKey: currentPage,
     );
     secondaryPagingDownController.addPageRequestListener((pageKey) {
-      fetchDownChapter(pageKey, Area.secondary);
+      fetchDown(pageKey, viewBy, Area.secondary);
     });
 
     initialRefresh = true;
     numberOfSections = sectionStartEndMappingForOET[bookCode]!.length;
 
     // Refresh for first section/chapter
-    await fetchDownChapter(sectionNumber, Area.primary);
-    await fetchDownChapter(sectionNumber, Area.secondary);
+    await fetchDown(currentPage, viewBy, Area.primary);
+    await fetchDown(currentPage, viewBy, Area.secondary);
 
-    await fetchUpChapter(sectionNumber, Area.primary);
-    await fetchUpChapter(sectionNumber, Area.secondary);
+    await fetchUp(currentPage, viewBy, Area.primary);
+    await fetchUp(currentPage, viewBy, Area.secondary);
 
     rebuildUi();
   }
@@ -114,8 +123,26 @@ class ReaderViewModel extends ReactiveViewModel {
     rebuildUi();
   }
 
-  Future<void> fetchUpChapter(int pageKey, Area area) async {
-    if (sectionNumber != 0) {
+  Future<void> fetchUp(int pageKey, ViewBy viewBy, Area area) async {
+    if (viewBy == ViewBy.section) {
+      await fetchUpSection(pageKey, area);
+    } else if (viewBy == ViewBy.chapter) {
+      await fetchUpChapter(pageKey, area);
+    }
+    log('UP | $viewBy | $area | $pageKey');
+  }
+
+  Future<void> fetchDown(int pageKey, ViewBy viewBy, Area area) async {
+    if (viewBy == ViewBy.section) {
+      await fetchDownSection(pageKey, area);
+    } else if (viewBy == ViewBy.chapter) {
+      await fetchDownChapter(pageKey, area);
+    }
+    log('DOWN | $viewBy | $area | $pageKey');
+  }
+
+  Future<void> fetchUpSection(int pageKey, Area area) async {
+    if (currentPage != 0) {
       if (initialRefresh == true) {
         pageKey -= 1;
         initialRefresh = false;
@@ -128,7 +155,7 @@ class ReaderViewModel extends ReactiveViewModel {
       final int nextPageKey = pageKey - 1;
 
       final bool isLastPage;
-      if (sectionNumber != 0) {
+      if (currentPage != 0) {
         isLastPage = key == 0;
       } else {
         isLastPage = true;
@@ -153,16 +180,38 @@ class ReaderViewModel extends ReactiveViewModel {
       secondaryPagingUpController.appendLastPage([]);
     }
     updatePagingControllers();
-
-    log('Fetched UP for $area');
   }
 
-  Future<void> fetchDownChapter(int pageKey, Area area) async {
+  Future<void> fetchUpChapter(int pageKey, Area area) async {
+    pageKey -= 1;
+
+    List<Map<String, dynamic>> newPage = getPaginatedVerses(pageKey, area);
+
+    final bool isLastPage = pageKey == 1;
+    final int nextPageKey = pageKey;
+
+    if (area == Area.primary) {
+      if (isLastPage) {
+        primaryPagingUpController.appendLastPage(newPage);
+      } else {
+        primaryPagingUpController.appendPage(newPage, nextPageKey);
+      }
+    } else if (area == Area.secondary) {
+      if (isLastPage) {
+        secondaryPagingUpController.appendLastPage(newPage);
+      } else {
+        secondaryPagingUpController.appendPage(newPage, nextPageKey);
+      }
+    }
+    updatePagingControllers();
+  }
+
+  Future<void> fetchDownSection(int pageKey, Area area) async {
     List<Map<String, dynamic>> newPage = getPaginatedVerses(pageKey, area);
 
     final int nextPageKey = pageKey + 1;
     final bool isLastPage;
-    if (sectionNumber != (numberOfSections - 1)) {
+    if (currentPage != (numberOfSections - 1)) {
       isLastPage = pageKey == (numberOfSections - 1);
     } else {
       isLastPage = true;
@@ -181,10 +230,29 @@ class ReaderViewModel extends ReactiveViewModel {
         secondaryPagingDownController.appendPage(newPage, nextPageKey);
       }
     }
-
     updatePagingControllers();
+  }
 
-    log('Fetched DOWN for $area');
+  Future<void> fetchDownChapter(int pageKey, Area area) async {
+    List<Map<String, dynamic>> newPage = getPaginatedVerses(pageKey, area);
+
+    final bool isLastPage = newPage.isEmpty;
+    final int nextPageKey = pageKey + 1;
+
+    if (area == Area.primary) {
+      if (isLastPage) {
+        primaryPagingDownController.appendLastPage(newPage);
+      } else {
+        primaryPagingDownController.appendPage(newPage, nextPageKey);
+      }
+    } else if (area == Area.secondary) {
+      if (isLastPage) {
+        secondaryPagingDownController.appendLastPage(newPage);
+      } else {
+        secondaryPagingDownController.appendPage(newPage, nextPageKey);
+      }
+    }
+    updatePagingControllers();
   }
 
   void setChapter(dynamic chapter) {

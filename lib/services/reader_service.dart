@@ -5,7 +5,8 @@ import '../app/app.locator.dart';
 import '../common/enums.dart';
 import '../common/oet_rv_section_start_end.dart';
 import '../models/bibles/kjv_bible.dart';
-import '../models/bibles/oet_bibles.dart';
+import '../models/bibles/oet_lv_bible.dart';
+import '../models/bibles/oet_rv_bible.dart';
 import 'bibles_service.dart';
 import 'settings_service.dart';
 
@@ -28,9 +29,9 @@ class ReaderService {
   /// Get a new page at [pageKey] for the current bible, book, etc and the given [Area].
   List<Map<String, dynamic>> getNewPage(BuildContext context, int pageKey, Area area) {
     if (area == Area.primary) {
-      return pageFromJson(context, primaryAreaJson, primaryAreaBible, ViewBy.section, pageKey);
+      return pageFromJson(context, primaryAreaJson, primaryAreaBible, viewBy, pageKey);
     } else if (area == Area.secondary) {
-      return pageFromJson(context, secondaryAreaJson, secondaryAreaBible, ViewBy.section, pageKey);
+      return pageFromJson(context, secondaryAreaJson, secondaryAreaBible, viewBy, pageKey);
     } else {
       return [];
     }
@@ -39,16 +40,18 @@ class ReaderService {
   /// Get a page at [pageKey] that fits all of the given parameters.
   List<Map<String, dynamic>> pageFromJson(
       BuildContext context, Map<String, dynamic> json, String bibleCode, ViewBy viewBy, int pageKey) {
-    Map<String, dynamic>? sectionReferences = sectionStartEndMappingForOET[bookCode]?[pageKey];
-
-    if (sectionReferences == null) {
-      return [];
+    Map<String, dynamic>? sectionReferences;
+    if (viewBy == ViewBy.section) {
+      sectionReferences = sectionStartEndMappingForOET[bookCode]?[pageKey];
     }
 
     if (bibleCode == 'OET-LV') {
       var bibleImpl = OETLiteralBibleImpl(context, json);
       switch (viewBy) {
         case ViewBy.section:
+          if (sectionReferences == null) {
+            return [];
+          }
           return bibleImpl.getSection(pageKey, sectionReferences);
         case ViewBy.chapter:
           return bibleImpl.getChapter(pageKey);
@@ -59,6 +62,9 @@ class ReaderService {
       var bibleImpl = OETReadersBibleImpl(context, json);
       switch (viewBy) {
         case ViewBy.section:
+          if (sectionReferences == null) {
+            return [];
+          }
           List<Map<String, dynamic>> section = bibleImpl.getSection(pageKey, sectionReferences);
           return section;
         case ViewBy.chapter:

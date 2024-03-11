@@ -46,7 +46,6 @@ class ReaderNavigationViewModel extends BaseViewModel {
 
   Future<void> onTapBookItem(int index) async {
     String book = booksMapping.keys.elementAt(index);
-    log('sel $index $book');
     _biblesService.setBook(book);
     _biblesService.addBookToRecentHistory(book);
 
