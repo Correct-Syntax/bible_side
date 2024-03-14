@@ -136,12 +136,7 @@ class OETReadersBibleImpl extends JsonToBible with OETBaseMixin {
     List<InlineSpan> spans = [];
     List<TextSpan> verseSpans = [];
 
-    log('*********** $page');
-
-    bool splitByParagraph = true;
-
     String sectionText = '';
-    String sectionChapterReference = '';
     String sectionVerseReference = '';
 
     Map<String, List<dynamic>> jsonForChapter = getJsonForChapter(json, page);
@@ -149,6 +144,14 @@ class OETReadersBibleImpl extends JsonToBible with OETBaseMixin {
     if (jsonForChapter.isNotEmpty) {
       String chapterNumber = jsonForChapter.keys.first;
       List<dynamic> chapterContentsJson = jsonForChapter.values.first;
+
+      // Add first chapter number
+      if (chapterNumber == '1') {
+        spans.add(TextSpan(
+          text: '$chapterNumber ',
+          style: TextItemStyles.chapterHeading(context),
+        ));
+      }
 
       // In the current json, the section heading is placed in the verse
       // before the actual section, so we delay splitting the section with isNext
@@ -161,7 +164,6 @@ class OETReadersBibleImpl extends JsonToBible with OETBaseMixin {
           isNext = true;
         }
         for (String key in item.keys) {
-          //log(key.toString()+'>>'+item.toString());
           if (key == 's1') {
             sectionText = item['s1'];
             isSection = true;
@@ -184,24 +186,19 @@ class OETReadersBibleImpl extends JsonToBible with OETBaseMixin {
               }
             }
           }
-          //log(section.toString());
+
           List<TextSpan> wordSpans = [];
+
           // Handle verse numbers
           if (key == 'verseNumber') {
             String verseNumberText = item[key];
 
-            // Verse numbers can either be the beginning of a verse or, in splitByParagraph
-            // mode, potentially the beginning of a paragraph.
             if (isNewParagraph == true) {
               // Add a new break between paragraphs
+              verseNumberText = verseNumberText == '1' ? ' $verseNumberText ' : verseNumberText;
               isNewParagraph = false;
             } else {
-              if (splitByParagraph != true) {
-                // Add newline between each verse
-                verseNumberText = verseNumberText == '1' ? ' $verseNumberText ' : '\n$verseNumberText';
-              } else {
-                verseNumberText = ' $verseNumberText ';
-              }
+              verseNumberText = ' $verseNumberText ';
             }
             sectionVerseReference = verseNumberText;
 
@@ -228,7 +225,7 @@ class OETReadersBibleImpl extends JsonToBible with OETBaseMixin {
                 headingSectionSpan(
                   context,
                   verseText,
-                  sectionChapterReference,
+                  chapterNumber,
                   sectionVerseReference,
                   sectionText,
                 ),
@@ -241,7 +238,6 @@ class OETReadersBibleImpl extends JsonToBible with OETBaseMixin {
             if (verseSpans.length == 1) {
               TextSpan verseTextSpan = TextSpan(
                 children: wordSpans,
-                //text: verseText,
                 style: TextItemStyles.text(context),
               );
               verseSpans.add(const TextSpan(text: ' ')); // spacer

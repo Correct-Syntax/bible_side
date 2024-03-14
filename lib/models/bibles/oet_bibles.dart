@@ -1,4 +1,6 @@
-// Shared code between the OET bible implementations
+/// Shared code between the OET bible implementations
+/// LV is displayed by verse
+/// RV is displayed by paragraph
 mixin OETBaseMixin {
   /// Given a [reference] like "1:3 Yeshua, alive, tells them to wait",
   /// returns "Yeshua, alive, tells them to wait".
@@ -83,6 +85,3 @@ mixin OETBaseMixin {
     };
   }
 }
-
-/// LV is displayed by verse
-/// RV is displayed by paragraph

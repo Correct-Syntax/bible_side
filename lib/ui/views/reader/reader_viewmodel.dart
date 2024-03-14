@@ -273,9 +273,11 @@ class ReaderViewModel extends ReactiveViewModel {
   }
 
   String getcurrentNavigationString(String bookCode, int chapter, int section) {
-    //final navStr = '${_biblesService.bookCodeToBook(bookCode)} $chapter';
-    final navStr = '${_biblesService.bookCodeToBook(bookCode)}';
-    return navStr;
+    if (viewBy == ViewBy.section) {
+      return '${_biblesService.bookCodeToBook(bookCode)}';
+    } else {
+      return '${_biblesService.bookCodeToBook(bookCode)} $chapter';
+    }
   }
 
   void onNavigationBtn() {
