@@ -599,7 +599,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 2, 'verse': 9}
     },
     {
-      'section': 'The kaap-apuan of King David',
+      'section': 'The ancestor(s) of King David',
       'start': {'chapter': 2, 'verse': 9},
       'end': {'chapter': 2, 'verse': 18}
     },
@@ -759,7 +759,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 9, 'verse': 35}
     },
     {
-      'section': 'The kaap-apuan and descendants of King Saul',
+      'section': 'The ancestor(s) and descendants of King Saul',
       'start': {'chapter': 9, 'verse': 35},
       'end': {'chapter': 10, 'verse': 1}
     },
@@ -794,7 +794,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 14, 'verse': 8}
     },
     {
-      'section': 'The pegkatalu of me Pilistihanen',
+      'section': 'The defeat of me Pilistihanen',
       'start': {'chapter': 14, 'verse': 8},
       'end': {'chapter': 15, 'verse': 1}
     },
@@ -834,7 +834,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 19, 'verse': 1}
     },
     {
-      'section': 'The pegkatalu of me from-Amun and me from-Sirya',
+      'section': 'The defeat of me from-Amun and me from-Sirya',
       'start': {'chapter': 19, 'verse': 1},
       'end': {'chapter': 20, 'verse': 1}
     },
@@ -1006,7 +1006,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 9, 'verse': 1}
     },
     {
-      'section': 'Miggendiye ki Solomon the rayna of Siyiba',
+      'section': 'Went ki Solomon the queen of Siyiba',
       'start': {'chapter': 9, 'verse': 1},
       'end': {'chapter': 9, 'verse': 13}
     },
@@ -1071,7 +1071,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 16, 'verse': 1}
     },
     {
-      'section': 'The peglusud of Israel of Huda',
+      'section': 'The invasion of Israel of Huda',
       'start': {'chapter': 16, 'verse': 1},
       'end': {'chapter': 16, 'verse': 7}
     },
@@ -1146,7 +1146,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 23, 'verse': 16}
     },
     {
-      'section': 'The agreements inggimu of Hihuyada',
+      'section': 'The agreements made by Hihuyada',
       'start': {'chapter': 23, 'verse': 16},
       'end': {'chapter': 24, 'verse': 1}
     },
@@ -1216,12 +1216,12 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 32, 'verse': 1}
     },
     {
-      'section': 'The peglusud of from-Asirya of Huda',
+      'section': 'The invasion of from-Asirya of Huda',
       'start': {'chapter': 32, 'verse': 1},
       'end': {'chapter': 32, 'verse': 24}
     },
     {
-      'section': 'The pegderalu of Isikiyas',
+      'section': 'The sickness of Isikiyas',
       'start': {'chapter': 32, 'verse': 24},
       'end': {'chapter': 32, 'verse': 27}
     },
@@ -1363,7 +1363,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 9, 'verse': 1}
     },
     {
-      'section': 'The katenged of apostle',
+      'section': "The missionary's responsibilities",
       'start': {'chapter': 9, 'verse': 1},
       'end': {'chapter': 10, 'verse': 1}
     },
@@ -1403,7 +1403,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 14, 'verse': 26}
     },
     {
-      'section': 'The correct paahi of worshipping',
+      'section': 'The correct means of worshipping',
       'start': {'chapter': 14, 'verse': 26},
       'end': {'chapter': 15, 'verse': 1}
     },
@@ -1771,12 +1771,12 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 2, 'verse': 26}
     },
     {
-      'section': 'The pegkatalu of Sihun',
+      'section': 'The defeat of Sihun',
       'start': {'chapter': 2, 'verse': 26},
       'end': {'chapter': 3, 'verse': 1}
     },
     {
-      'section': 'The pegkatalu of Ug',
+      'section': 'The defeat of Ug',
       'start': {'chapter': 3, 'verse': 1},
       'end': {'chapter': 3, 'verse': 12}
     },
@@ -1906,7 +1906,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 15, 'verse': 1}
     },
     {
-      'section': 'The igkapitu year(s)',
+      'section': 'The seventh year(s)',
       'start': {'chapter': 15, 'verse': 1},
       'end': {'chapter': 15, 'verse': 12}
     },
@@ -1971,12 +1971,12 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 19, 'verse': 14}
     },
     {
-      'section': 'The me daan palinneu of eletanan',
+      'section': 'The me daan sign of eletanan',
       'start': {'chapter': 19, 'verse': 14},
       'end': {'chapter': 19, 'verse': 15}
     },
     {
-      'section': 'The concerning the me talagpamalehet',
+      'section': 'The concerning the witnesses',
       'start': {'chapter': 19, 'verse': 15},
       'end': {'chapter': 20, 'verse': 1}
     },
@@ -1996,7 +1996,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 21, 'verse': 15}
     },
     {
-      'section': 'The egkapanunud of kinakakayan child lukes',
+      'section': 'The egkapanunud of kinakakayan child male',
       'start': {'chapter': 21, 'verse': 15},
       'end': {'chapter': 21, 'verse': 18}
     },
@@ -2056,7 +2056,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 25, 'verse': 5}
     },
     {
-      'section': 'The katenged of suled of migpatey',
+      'section': 'The authority of suled of migpatey',
       'start': {'chapter': 25, 'verse': 5},
       'end': {'chapter': 25, 'verse': 11}
     },
@@ -2183,7 +2183,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 3, 'verse': 1}
     },
     {
-      'section': 'The time of minsan what',
+      'section': 'The time of even what',
       'start': {'chapter': 3, 'verse': 1},
       'end': {'chapter': 3, 'verse': 16}
     },
@@ -2464,7 +2464,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 6, 'verse': 1}
     },
     {
-      'section': 'The pegsaad of God egluwasen the people',
+      'section': 'The promise of God egluwasen the people',
       'start': {'chapter': 6, 'verse': 1},
       'end': {'chapter': 6, 'verse': 14}
     },
@@ -2534,7 +2534,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 13, 'verse': 1}
     },
     {
-      'section': 'The panganey child lukes',
+      'section': 'The panganey child male',
       'start': {'chapter': 13, 'verse': 1},
       'end': {'chapter': 13, 'verse': 3}
     },
@@ -2649,7 +2649,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 23, 'verse': 10}
     },
     {
-      'section': 'The igkapitu year(s) and the igkapitu day',
+      'section': 'The seventh year(s) and the seventh day',
       'start': {'chapter': 23, 'verse': 10},
       'end': {'chapter': 23, 'verse': 14}
     },
@@ -2926,7 +2926,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 4, 'verse': 1}
     },
     {
-      'section': 'The pegpahunsiling of Isikil of peglusud of Yerusalem',
+      'section': 'The pegpahunsiling of Isikil of invasion of Yerusalem',
       'start': {'chapter': 4, 'verse': 1},
       'end': {'chapter': 5, 'verse': 1}
     },
@@ -3021,7 +3021,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 16, 'verse': 23}
     },
     {
-      'section': 'The langet of God of Yerusalem',
+      'section': 'The anger of God of Yerusalem',
       'start': {'chapter': 16, 'verse': 23},
       'end': {'chapter': 16, 'verse': 35}
     },
@@ -3281,7 +3281,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 39, 'verse': 1}
     },
     {
-      'section': 'The pegkatalu of Gug',
+      'section': 'The defeat of Gug',
       'start': {'chapter': 39, 'verse': 1},
       'end': {'chapter': 39, 'verse': 11}
     },
@@ -3603,7 +3603,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 10, 'verse': 18}
     },
     {
-      'section': 'The me lukes nakaasawa of me lapu',
+      'section': 'The males nakaasawa of me lapu',
       'start': {'chapter': 10, 'verse': 18},
       'end': {'chapter': 10, 'verse': 18}
     }
@@ -3712,217 +3712,222 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 3, 'verse': 14}
     },
     {
-      'section': 'The peglegpad of God due to sin',
+      'section': "God's judgements after they disobeyed",
       'start': {'chapter': 3, 'verse': 14},
       'end': {'chapter': 3, 'verse': 22}
     },
     {
-      'section': 'The scolding of Adam and ki Eve ligkat of pinamulaan',
+      'section': 'The humans get expelled from the garden',
       'start': {'chapter': 3, 'verse': 22},
       'end': {'chapter': 4, 'verse': 1}
     },
     {
-      'section': 'Kain and Abil',
+      'section': 'Kayin and Abel',
       'start': {'chapter': 4, 'verse': 1},
       'end': {'chapter': 4, 'verse': 17}
     },
     {
-      'section': 'The descendants of Kain',
+      'section': "Kayin's descendants",
       'start': {'chapter': 4, 'verse': 17},
       'end': {'chapter': 4, 'verse': 25}
     },
     {
-      'section': 'The descendants of Sit',
+      'section': "Shet's descendants",
       'start': {'chapter': 4, 'verse': 25},
       'end': {'chapter': 5, 'verse': 1}
     },
     {
-      'section': 'The descendants of Adam',
+      'section': "Adam's (important) descendants",
       'start': {'chapter': 5, 'verse': 1},
       'end': {'chapter': 6, 'verse': 1}
     },
     {
-      'section': 'The bad me work of people',
+      'section': "Humankind's evil",
       'start': {'chapter': 6, 'verse': 1},
       'end': {'chapter': 6, 'verse': 9}
     },
     {
-      'section': 'The making of Noah of arka',
+      'section': 'Noah makes a barge',
       'start': {'chapter': 6, 'verse': 9},
       'end': {'chapter': 7, 'verse': 1}
     },
     {
-      'section': 'The pegsipuk of water',
+      'section': 'The global flood',
       'start': {'chapter': 7, 'verse': 1},
       'end': {'chapter': 8, 'verse': 1}
     },
     {
-      'section': 'The pegtigkus of water',
+      'section': 'Waiting for the land to dry',
       'start': {'chapter': 8, 'verse': 1},
       'end': {'chapter': 8, 'verse': 20}
     },
     {
-      'section': 'The sacrificing of Noah',
+      'section': "Noah's sacrifice and Yahweh's promise",
       'start': {'chapter': 8, 'verse': 20},
       'end': {'chapter': 9, 'verse': 1}
     },
     {
-      'section': 'The agreement of God there to Noah',
+      'section': "God's agreement with Noah",
       'start': {'chapter': 9, 'verse': 1},
       'end': {'chapter': 9, 'verse': 18}
     },
     {
-      'section': 'The children of Noah',
+      'section': "Noah's children",
       'start': {'chapter': 9, 'verse': 18},
       'end': {'chapter': 10, 'verse': 1}
     },
     {
-      'section': 'The descendants of children of Noah',
+      'section': "Noah's grandchildren and their clans",
       'start': {'chapter': 10, 'verse': 1},
       'end': {'chapter': 11, 'verse': 1}
     },
     {
-      'section': 'The titikangi house there to Babil',
+      'section': 'The tower at Babel',
       'start': {'chapter': 11, 'verse': 1},
       'end': {'chapter': 11, 'verse': 10}
     },
     {
-      'section': 'The descendants of Sim',
+      'section': "Shem's descendants",
       'start': {'chapter': 11, 'verse': 10},
       'end': {'chapter': 11, 'verse': 27}
     },
     {
-      'section': 'The descendants of Tira',
+      'section': "Terah's descendants",
       'start': {'chapter': 11, 'verse': 27},
       'end': {'chapter': 12, 'verse': 1}
     },
     {
-      'section': 'The calling of God ki Abram',
+      'section': 'God commissions Abram to go',
       'start': {'chapter': 12, 'verse': 1},
       'end': {'chapter': 12, 'verse': 10}
     },
     {
-      'section': 'Abram there to Egypt',
+      'section': 'Abram goes to Egypt',
       'start': {'chapter': 12, 'verse': 10},
       'end': {'chapter': 13, 'verse': 1}
     },
     {
-      'section': 'The pegpasuwayey of Abram ki Lut',
+      'section': 'Abram and Lot part ways',
       'start': {'chapter': 13, 'verse': 1},
       'end': {'chapter': 13, 'verse': 14}
     },
     {
-      'section': 'The peggalin of Abram there to Hibrun',
+      'section': 'God promises Abram the land',
       'start': {'chapter': 13, 'verse': 14},
       'end': {'chapter': 14, 'verse': 1}
     },
     {
-      'section': 'The pegpangabang of Abram ki Lut',
+      'section': 'Five kings defend against four attackers',
       'start': {'chapter': 14, 'verse': 1},
+      'end': {'chapter': 14, 'verse': 12}
+    },
+    {
+      'section': 'Abram rescues Lot',
+      'start': {'chapter': 14, 'verse': 12},
       'end': {'chapter': 14, 'verse': 17}
     },
     {
-      'section': 'The blessing of Milkisidik ki Abram',
+      'section': 'The blessing of Melchizedek ki Abram',
       'start': {'chapter': 14, 'verse': 17},
       'end': {'chapter': 15, 'verse': 1}
     },
     {
-      'section': 'The pegsaad of God ki Abram',
+      'section': 'God agreement with Abram',
       'start': {'chapter': 15, 'verse': 1},
       'end': {'chapter': 16, 'verse': 1}
     },
     {
-      'section': 'The talaanak Hagar and Ismail',
+      'section': "Hagar and her son Ishma'el",
       'start': {'chapter': 16, 'verse': 1},
       'end': {'chapter': 17, 'verse': 1}
     },
     {
-      'section': 'The circumcision the palinneu of agreement',
+      'section': 'Circumcision as a confirmation of the agreement',
       'start': {'chapter': 17, 'verse': 1},
       'end': {'chapter': 18, 'verse': 1}
     },
     {
-      'section': 'The pegsaad of God egpaanaken Sara of lukes',
+      'section': 'The promise of God egpaanaken Sara of male',
       'start': {'chapter': 18, 'verse': 1},
       'end': {'chapter': 18, 'verse': 16}
     },
     {
-      'section': 'The pegpeyid‑u-mercy of Abraham concerning the Sodom',
+      'section': 'Abraham bargains with Yahweh about Sodom',
       'start': {'chapter': 18, 'verse': 16},
       'end': {'chapter': 19, 'verse': 1}
     },
     {
-      'section': 'The pegkamakasesale very of people there to Sodom',
+      'section': 'Sexual depravity in Sodom',
       'start': {'chapter': 19, 'verse': 1},
       'end': {'chapter': 19, 'verse': 12}
     },
     {
-      'section': 'The peg-awe of Lut of Sodom',
+      'section': 'Lot and family leave Sodom',
       'start': {'chapter': 19, 'verse': 12},
       'end': {'chapter': 19, 'verse': 23}
     },
     {
-      'section': 'The pegdereet of Sodom and Gomorrah',
+      'section': 'The destruction of Sodom and Gomorrah',
       'start': {'chapter': 19, 'verse': 23},
       'end': {'chapter': 19, 'verse': 30}
     },
     {
-      'section': 'The origin of Moabites and Amonites',
+      'section': 'The sad origin of Moabites and Ammonites',
       'start': {'chapter': 19, 'verse': 30},
       'end': {'chapter': 20, 'verse': 1}
     },
     {
-      'section': 'Abraham and Abimilik',
+      'section': 'Abraham and Abimelech and Sarah',
       'start': {'chapter': 20, 'verse': 1},
       'end': {'chapter': 21, 'verse': 1}
     },
     {
-      'section': 'The birth of Isaac',
+      'section': "Isaac's birth",
       'start': {'chapter': 21, 'verse': 1},
-      'end': {'chapter': 21, 'verse': 9}
+      'end': {'chapter': 21, 'verse': 8}
     },
     {
-      'section': 'The scolding of Hagar and ki Ismail',
-      'start': {'chapter': 21, 'verse': 9},
+      'section': "Hagar is expelled with Ishma'el",
+      'start': {'chapter': 21, 'verse': 8},
       'end': {'chapter': 21, 'verse': 22}
     },
     {
-      'section': 'The agreement of Abimilik and of Abraham',
+      'section': "Abraham and Abimelech's agreement",
       'start': {'chapter': 21, 'verse': 22},
       'end': {'chapter': 22, 'verse': 1}
     },
     {
-      'section': 'The testing of God ki Abraham',
+      'section': 'God tests Abraham over Isaac',
       'start': {'chapter': 22, 'verse': 1},
       'end': {'chapter': 22, 'verse': 20}
     },
     {
-      'section': 'The descendants of Nahur',
+      'section': "Nahor's descendants",
       'start': {'chapter': 22, 'verse': 20},
       'end': {'chapter': 23, 'verse': 1}
     },
     {
-      'section': 'The death and burial ki Sara',
+      'section': "Sarah's death and burial",
       'start': {'chapter': 23, 'verse': 1},
       'end': {'chapter': 24, 'verse': 1}
     },
     {
-      'section': 'The marriage of Isaac',
+      'section': "Isaac's marriage",
       'start': {'chapter': 24, 'verse': 1},
       'end': {'chapter': 25, 'verse': 1}
     },
     {
-      'section': 'The other descendants of Abraham',
+      'section': "Abraham's other descendants",
       'start': {'chapter': 25, 'verse': 1},
-      'end': {'chapter': 25, 'verse': 7}
+      'end': {'chapter': 25, 'verse': 5}
     },
     {
-      'section': 'The death and the burial ki Abraham',
-      'start': {'chapter': 25, 'verse': 7},
+      'section': "Abraham's death and burial",
+      'start': {'chapter': 25, 'verse': 5},
       'end': {'chapter': 25, 'verse': 12}
     },
     {
-      'section': 'The descendants of Ismail',
+      'section': "Ishma'el's Descendants",
       'start': {'chapter': 25, 'verse': 12},
       'end': {'chapter': 25, 'verse': 19}
     },
@@ -3932,12 +3937,12 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 25, 'verse': 27}
     },
     {
-      'section': 'The sin of Esau of katenged din isip panganey',
+      'section': 'The sin of Esau of authority din isip panganey',
       'start': {'chapter': 25, 'verse': 27},
       'end': {'chapter': 26, 'verse': 1}
     },
     {
-      'section': 'The peggalin of Isaac there to Girara',
+      'section': 'The transfer of Isaac there to Girara',
       'start': {'chapter': 26, 'verse': 1},
       'end': {'chapter': 26, 'verse': 26}
     },
@@ -3962,7 +3967,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 27, 'verse': 46}
     },
     {
-      'section': 'The pegpeyipanew of Isaac ki Yacob peendiye ki Laban',
+      'section': 'The journey of Isaac ki Yacob peendiye ki Laban',
       'start': {'chapter': 27, 'verse': 46},
       'end': {'chapter': 28, 'verse': 6}
     },
@@ -4042,7 +4047,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 35, 'verse': 22}
     },
     {
-      'section': 'The me lukes child of Yacob',
+      'section': 'The sons of Yacob',
       'start': {'chapter': 35, 'verse': 22},
       'end': {'chapter': 35, 'verse': 27}
     },
@@ -4067,7 +4072,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 37, 'verse': 1}
     },
     {
-      'section': 'Yosef and the me kakey rin lukes',
+      'section': 'Yosef and the me kakey rin male',
       'start': {'chapter': 37, 'verse': 1},
       'end': {'chapter': 37, 'verse': 12}
     },
@@ -4375,7 +4380,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 2, 'verse': 1}
     },
     {
-      'section': 'The peglegpad of Israel like woman egpamelegye of body',
+      'section': 'The peglegpad of Israel like woman selling of body',
       'start': {'chapter': 2, 'verse': 1},
       'end': {'chapter': 2, 'verse': 14}
     },
@@ -4572,17 +4577,17 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 7, 'verse': 10}
     },
     {
-      'section': 'The palinneu of Imanwil',
+      'section': 'The sign of Imanwil',
       'start': {'chapter': 7, 'verse': 10},
       'end': {'chapter': 8, 'verse': 1}
     },
     {
-      'section': 'The birth of child of Isayas lukes',
+      'section': 'The birth of child of Isayas male',
       'start': {'chapter': 8, 'verse': 1},
       'end': {'chapter': 8, 'verse': 5}
     },
     {
-      'section': 'The peglusud of King of Asirya',
+      'section': 'The invasion of King of Asirya',
       'start': {'chapter': 8, 'verse': 5},
       'end': {'chapter': 8, 'verse': 11}
     },
@@ -4627,7 +4632,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 10, 'verse': 28}
     },
     {
-      'section': 'The peglusud of enemies',
+      'section': 'The invasion of enemies',
       'start': {'chapter': 10, 'verse': 28},
       'end': {'chapter': 11, 'verse': 1}
     },
@@ -4687,7 +4692,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 17, 'verse': 12}
     },
     {
-      'section': 'The pegkatalu of enemies nations',
+      'section': 'The defeat of enemies nations',
       'start': {'chapter': 17, 'verse': 12},
       'end': {'chapter': 18, 'verse': 1}
     },
@@ -4832,7 +4837,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 31, 'verse': 1}
     },
     {
-      'section': 'The pegpangabang of God of Yerusalem',
+      'section': 'The assisting of God of Yerusalem',
       'start': {'chapter': 31, 'verse': 1},
       'end': {'chapter': 32, 'verse': 1}
     },
@@ -4892,7 +4897,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 38, 'verse': 1}
     },
     {
-      'section': 'The pegderalu and pegkeulii of Isikiyas',
+      'section': 'The sickness and pegkeulii of Isikiyas',
       'start': {'chapter': 38, 'verse': 1},
       'end': {'chapter': 39, 'verse': 1}
     },
@@ -4937,7 +4942,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 42, 'verse': 18}
     },
     {
-      'section': 'Ware migtuman Israel',
+      'section': 'Ware obeyed Israel',
       'start': {'chapter': 42, 'verse': 18},
       'end': {'chapter': 43, 'verse': 1}
     },
@@ -4947,7 +4952,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 43, 'verse': 8}
     },
     {
-      'section': 'The calling of God of Israel isip talagpamalehet',
+      'section': 'The calling of God of Israel isip witness',
       'start': {'chapter': 43, 'verse': 8},
       'end': {'chapter': 43, 'verse': 14}
     },
@@ -5097,7 +5102,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 59, 'verse': 16}
     },
     {
-      'section': 'The pegpangabang of Master of his people',
+      'section': 'The assisting of Master of his people',
       'start': {'chapter': 59, 'verse': 16},
       'end': {'chapter': 60, 'verse': 1}
     },
@@ -5107,7 +5112,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 61, 'verse': 1}
     },
     {
-      'section': 'The pegpangabang of Israel',
+      'section': 'The assisting of Israel',
       'start': {'chapter': 61, 'verse': 1},
       'end': {'chapter': 62, 'verse': 1}
     },
@@ -5137,7 +5142,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 65, 'verse': 17}
     },
     {
-      'section': 'The new inggimu of God',
+      'section': 'The new made by God',
       'start': {'chapter': 65, 'verse': 17},
       'end': {'chapter': 66, 'verse': 1}
     },
@@ -5338,7 +5343,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 8, 'verse': 1}
     },
     {
-      'section': 'The pegkatalu of me from-Midiyan',
+      'section': 'The defeat of me from-Midiyan',
       'start': {'chapter': 8, 'verse': 1},
       'end': {'chapter': 8, 'verse': 29}
     },
@@ -5475,7 +5480,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 2, 'verse': 4}
     },
     {
-      'section': 'The sin of me kaap-apuan of me Israilita',
+      'section': 'The sin of ancestors of me Israilita',
       'start': {'chapter': 2, 'verse': 4},
       'end': {'chapter': 2, 'verse': 9}
     },
@@ -5495,7 +5500,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 2, 'verse': 26}
     },
     {
-      'section': 'Eleg eglegparan the people of Israel',
+      'section': 'Eleg punished the people of Israel',
       'start': {'chapter': 2, 'verse': 26},
       'end': {'chapter': 3, 'verse': 1}
     },
@@ -5745,7 +5750,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 21, 'verse': 1}
     },
     {
-      'section': 'The tagne of pegkatalu of Yerusalem',
+      'section': 'The tagne of defeat of Yerusalem',
       'start': {'chapter': 21, 'verse': 1},
       'end': {'chapter': 21, 'verse': 11}
     },
@@ -6065,7 +6070,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 50, 'verse': 11}
     },
     {
-      'section': 'The pegkatalu of Babylon',
+      'section': 'The defeat of Babylon',
       'start': {'chapter': 50, 'verse': 11},
       'end': {'chapter': 50, 'verse': 17}
     },
@@ -6100,7 +6105,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 51, 'verse': 36}
     },
     {
-      'section': 'The pegpangabang of God of Israel',
+      'section': 'The assisting of God of Israel',
       'start': {'chapter': 51, 'verse': 36},
       'end': {'chapter': 51, 'verse': 41}
     },
@@ -7006,7 +7011,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 2, 'verse': 1}
     },
     {
-      'section': 'The me tahasiliban insuhu going to Hiriku',
+      'section': 'The me tahasiliban commanded going to Hiriku',
       'start': {'chapter': 2, 'verse': 1},
       'end': {'chapter': 3, 'verse': 1}
     },
@@ -7046,7 +7051,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 8, 'verse': 1}
     },
     {
-      'section': 'The pegkatalu and the demolition of Ay',
+      'section': 'The defeat and the demolition of Ay',
       'start': {'chapter': 8, 'verse': 1},
       'end': {'chapter': 8, 'verse': 30}
     },
@@ -7061,7 +7066,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 10, 'verse': 1}
     },
     {
-      'section': 'The pegkatalu of me Amurihanen',
+      'section': 'The defeat of me Amurihanen',
       'start': {'chapter': 10, 'verse': 1},
       'end': {'chapter': 10, 'verse': 16}
     },
@@ -7071,12 +7076,12 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 10, 'verse': 28}
     },
     {
-      'section': 'The peglusud of Josh. of other me Amurihanen',
+      'section': 'The invasion of Josh. of other me Amurihanen',
       'start': {'chapter': 10, 'verse': 28},
       'end': {'chapter': 11, 'verse': 1}
     },
     {
-      'section': 'The peglusud of Josh. engki King Habin',
+      'section': 'The invasion of Josh. engki King Habin',
       'start': {'chapter': 11, 'verse': 1},
       'end': {'chapter': 11, 'verse': 16}
     },
@@ -7241,7 +7246,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 24, 'verse': 1}
     },
     {
-      'section': 'The pegsaad again of descendants of Israel',
+      'section': 'The promise again of descendants of Israel',
       'start': {'chapter': 24, 'verse': 1},
       'end': {'chapter': 24, 'verse': 29}
     },
@@ -7398,7 +7403,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 10, 'verse': 1}
     },
     {
-      'section': 'The pegpanumbaley there to Solomon of rayna of Siyiba',
+      'section': 'The pegpanumbaley there to Solomon of queen of Siyiba',
       'start': {'chapter': 10, 'verse': 1},
       'end': {'chapter': 10, 'verse': 14}
     },
@@ -7548,17 +7553,17 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 20, 'verse': 1}
     },
     {
-      'section': 'The peglusud of Bin-Hadad of Israel',
+      'section': 'The invasion of Bin-Hadad of Israel',
       'start': {'chapter': 20, 'verse': 1},
       'end': {'chapter': 20, 'verse': 23}
     },
     {
-      'section': 'The second peglusud of me from-Sirya',
+      'section': 'The second invasion of me from-Sirya',
       'start': {'chapter': 20, 'verse': 23},
       'end': {'chapter': 20, 'verse': 35}
     },
     {
-      'section': 'The scolding of prophet of inggimu of Ahab',
+      'section': 'The scolding of prophet of made by Ahab',
       'start': {'chapter': 20, 'verse': 35},
       'end': {'chapter': 21, 'verse': 1}
     },
@@ -7630,12 +7635,12 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 6, 'verse': 8}
     },
     {
-      'section': 'The pegkatalu of soldiers of Sirya',
+      'section': 'The defeat of soldiers of Sirya',
       'start': {'chapter': 6, 'verse': 8},
       'end': {'chapter': 6, 'verse': 24}
     },
     {
-      'section': 'The peglusud of Sirya of Samarya',
+      'section': 'The invasion of Sirya of Samarya',
       'start': {'chapter': 6, 'verse': 24},
       'end': {'chapter': 8, 'verse': 1}
     },
@@ -7670,22 +7675,22 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 9, 'verse': 30}
     },
     {
-      'section': 'The killing ki Rayna Hisibil',
+      'section': 'The killing ki Queen Hisibil',
       'start': {'chapter': 9, 'verse': 30},
       'end': {'chapter': 10, 'verse': 1}
     },
     {
-      'section': 'Impangimatayan the descendants of Ahab',
+      'section': 'Killed the descendants of Ahab',
       'start': {'chapter': 10, 'verse': 1},
       'end': {'chapter': 10, 'verse': 12}
     },
     {
-      'section': 'Impangimatayan the me karumaan of Ahasiyas',
+      'section': 'Killed the relatives of Ahasiyas',
       'start': {'chapter': 10, 'verse': 12},
       'end': {'chapter': 10, 'verse': 15}
     },
     {
-      'section': 'Impangimatayan the all karumaan of Ahab',
+      'section': 'Killed the all relatives of Ahab',
       'start': {'chapter': 10, 'verse': 15},
       'end': {'chapter': 10, 'verse': 32}
     },
@@ -7695,12 +7700,12 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 11, 'verse': 1}
     },
     {
-      'section': 'Ataliya rayna of Huda',
+      'section': 'Ataliya queen of Huda',
       'start': {'chapter': 11, 'verse': 1},
       'end': {'chapter': 11, 'verse': 17}
     },
     {
-      'section': 'The agreements inggimu of Hihuyada',
+      'section': 'The agreements made by Hihuyada',
       'start': {'chapter': 11, 'verse': 17},
       'end': {'chapter': 12, 'verse': 1}
     },
@@ -7790,7 +7795,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 17, 'verse': 5}
     },
     {
-      'section': 'The pegkatalu of Samarya',
+      'section': 'The defeat of Samarya',
       'start': {'chapter': 17, 'verse': 5},
       'end': {'chapter': 17, 'verse': 24}
     },
@@ -7805,7 +7810,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 18, 'verse': 13}
     },
     {
-      'section': 'The peglusud of Sinakirib of Huda',
+      'section': 'The invasion of Sinakirib of Huda',
       'start': {'chapter': 18, 'verse': 13},
       'end': {'chapter': 19, 'verse': 1}
     },
@@ -7815,7 +7820,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 19, 'verse': 8}
     },
     {
-      'section': 'The pegpanginaaldek again of Asirya',
+      'section': 'The threatening again of Asirya',
       'start': {'chapter': 19, 'verse': 8},
       'end': {'chapter': 19, 'verse': 20}
     },
@@ -7825,7 +7830,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 20, 'verse': 1}
     },
     {
-      'section': 'The pegderalu of Isikiyas and the pegkeulii rin',
+      'section': 'The sickness of Isikiyas and the pegkeulii rin',
       'start': {'chapter': 20, 'verse': 1},
       'end': {'chapter': 20, 'verse': 12}
     },
@@ -7865,7 +7870,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 23, 'verse': 24}
     },
     {
-      'section': 'The other pad inggimu of King Husiyas',
+      'section': 'The other pad made by King Husiyas',
       'start': {'chapter': 23, 'verse': 24},
       'end': {'chapter': 23, 'verse': 31}
     },
@@ -7895,7 +7900,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 25, 'verse': 1}
     },
     {
-      'section': 'The pegkatalu of Yerusalem',
+      'section': 'The defeat of Yerusalem',
       'start': {'chapter': 25, 'verse': 1},
       'end': {'chapter': 25, 'verse': 8}
     },
@@ -8152,7 +8157,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 25, 'verse': 1}
     },
     {
-      'section': 'The igkapitu year(s)',
+      'section': 'The seventh year(s)',
       'start': {'chapter': 25, 'verse': 1},
       'end': {'chapter': 25, 'verse': 8}
     },
@@ -9188,7 +9193,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 7, 'verse': 28}
     },
     {
-      'section': 'The katenged of Yeshua',
+      'section': "Yeshua's authority",
       'start': {'chapter': 7, 'verse': 28},
       'end': {'chapter': 8, 'verse': 1}
     },
@@ -9258,7 +9263,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 10, 'verse': 1}
     },
     {
-      'section': 'The pegpeyipanew of Yeshua of 12 follower din',
+      'section': 'Yeshua commissions the twelve',
       'start': {'chapter': 10, 'verse': 1},
       'end': {'chapter': 10, 'verse': 5}
     },
@@ -9658,7 +9663,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 24, 'verse': 36}
     },
     {
-      'section': 'Ware nataheyi the day of return din',
+      'section': 'Ware known the day of return din',
       'start': {'chapter': 24, 'verse': 36},
       'end': {'chapter': 24, 'verse': 45}
     },
@@ -9800,7 +9805,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 1, 'verse': 10}
     },
     {
-      'section': 'The peglusud of enemy of Yerusalem',
+      'section': 'The invasion of enemy of Yerusalem',
       'start': {'chapter': 1, 'verse': 10},
       'end': {'chapter': 2, 'verse': 1}
     },
@@ -10529,12 +10534,12 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 3, 'verse': 1}
     },
     {
-      'section': 'The me lukes child of Aarun',
+      'section': 'The sons of Aarun',
       'start': {'chapter': 3, 'verse': 1},
       'end': {'chapter': 3, 'verse': 40}
     },
     {
-      'section': 'The peglekat of me kinakakayan',
+      'section': 'The opening of me kinakakayan',
       'start': {'chapter': 3, 'verse': 40},
       'end': {'chapter': 4, 'verse': 1}
     },
@@ -10599,7 +10604,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 10, 'verse': 1}
     },
     {
-      'section': 'The me trumpita pelata',
+      'section': 'The trumpets pelata',
       'start': {'chapter': 10, 'verse': 1},
       'end': {'chapter': 10, 'verse': 11}
     },
@@ -10649,7 +10654,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 14, 'verse': 39}
     },
     {
-      'section': 'The peglusud of descendants of Israel natalu them',
+      'section': 'The invasion of descendants of Israel natalu them',
       'start': {'chapter': 14, 'verse': 39},
       'end': {'chapter': 15, 'verse': 1}
     },
@@ -10729,7 +10734,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 21, 'verse': 1}
     },
     {
-      'section': 'The pegkatalu of me Kanaanen',
+      'section': 'The defeat of me Kanaanen',
       'start': {'chapter': 21, 'verse': 1},
       'end': {'chapter': 21, 'verse': 10}
     },
@@ -10739,7 +10744,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 21, 'verse': 21}
     },
     {
-      'section': 'The pegkatalu of Sihun and of Ug',
+      'section': 'The defeat of Sihun and of Ug',
       'start': {'chapter': 21, 'verse': 21},
       'end': {'chapter': 22, 'verse': 1}
     },
@@ -10844,7 +10849,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 26, 'verse': 51}
     },
     {
-      'section': 'The most of all lukes and the pegbaad-part of land',
+      'section': 'The most of all male and the pegbaad-part of land',
       'start': {'chapter': 26, 'verse': 51},
       'end': {'chapter': 26, 'verse': 57}
     },
@@ -10889,7 +10894,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 29, 'verse': 1}
     },
     {
-      'section': 'The igmanubad of Feast of Pegparahing of me Trumpita',
+      'section': 'The igmanubad of Feast of Pegparahing of Trumpets',
       'start': {'chapter': 29, 'verse': 1},
       'end': {'chapter': 29, 'verse': 7}
     },
@@ -10909,7 +10914,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 31, 'verse': 1}
     },
     {
-      'section': 'The pegkatalu of me from-Midiyan',
+      'section': 'The defeat of me from-Midiyan',
       'start': {'chapter': 31, 'verse': 1},
       'end': {'chapter': 31, 'verse': 13}
     },
@@ -11308,102 +11313,112 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 4, 'verse': 1}
     },
     {
-      'section': 'The worshipping there to sky/heaven',
+      'section': 'Worshipping in heaven',
       'start': {'chapter': 4, 'verse': 1},
       'end': {'chapter': 5, 'verse': 1}
     },
     {
-      'section': 'The linulun document and the Nati Karniru',
+      'section': 'The scroll and the lamb',
       'start': {'chapter': 5, 'verse': 1},
       'end': {'chapter': 6, 'verse': 1}
     },
     {
-      'section': 'The peglekat of me piket',
+      'section': 'The lamb breaks the first six seals',
       'start': {'chapter': 6, 'verse': 1},
       'end': {'chapter': 7, 'verse': 1}
     },
     {
-      'section': 'The 144,000 person nakulitan',
+      'section': 'The 144,000 marked Israelis',
       'start': {'chapter': 7, 'verse': 1},
       'end': {'chapter': 7, 'verse': 9}
     },
     {
-      'section': 'The susuluhi person nangukumbale of maangkag',
+      'section': 'The huge crowd dressed in white',
       'start': {'chapter': 7, 'verse': 9},
       'end': {'chapter': 8, 'verse': 1}
     },
     {
-      'section': 'The peglekat of igkapitu piket',
+      'section': 'The lamb of seventh seal',
       'start': {'chapter': 8, 'verse': 1},
       'end': {'chapter': 8, 'verse': 6}
     },
     {
-      'section': 'The seven trumpita',
+      'section': 'The first four trumpets',
       'start': {'chapter': 8, 'verse': 6},
       'end': {'chapter': 9, 'verse': 1}
     },
     {
-      'section': 'The Fifth Trumpet Brings the First Terror',
+      'section': 'The fifth trumpet brings the first terror',
       'start': {'chapter': 9, 'verse': 1},
+      'end': {'chapter': 9, 'verse': 13}
+    },
+    {
+      'section': 'The sixth trumpet brings the second terror',
+      'start': {'chapter': 9, 'verse': 13},
       'end': {'chapter': 10, 'verse': 1}
     },
     {
-      'section': 'The messenger and the deisek linulun document',
+      'section': 'The messenger and the small scroll',
       'start': {'chapter': 10, 'verse': 1},
       'end': {'chapter': 11, 'verse': 1}
     },
     {
-      'section': 'The two talagpamalehet',
+      'section': 'The two witnesses',
       'start': {'chapter': 11, 'verse': 1},
       'end': {'chapter': 11, 'verse': 15}
     },
     {
-      'section': 'The igkapitu trumpita',
+      'section': 'The seventh trumpet brings the third terror',
       'start': {'chapter': 11, 'verse': 15},
       'end': {'chapter': 12, 'verse': 1}
     },
     {
-      'section': 'The woman and the salimbaweng',
+      'section': 'The woman and the dinosaur',
       'start': {'chapter': 12, 'verse': 1},
+      'end': {'chapter': 12, 'verse': 18}
+    },
+    {
+      'section': 'The two wild animals',
+      'start': {'chapter': 12, 'verse': 18},
       'end': {'chapter': 13, 'verse': 1}
     },
     {
-      'section': 'The two mananap makaliyas-liyas',
+      'section': 'The Two Beasts',
       'start': {'chapter': 13, 'verse': 1},
       'end': {'chapter': 14, 'verse': 1}
     },
     {
-      'section': 'The Nati Karniru and the 144,000 people',
+      'section': 'The lamb and the 144,000',
       'start': {'chapter': 14, 'verse': 1},
       'end': {'chapter': 14, 'verse': 6}
     },
     {
-      'section': 'The three messenger',
+      'section': 'The three messengers',
       'start': {'chapter': 14, 'verse': 6},
       'end': {'chapter': 14, 'verse': 14}
     },
     {
-      'section': 'The peggaani of world',
+      'section': 'The harvest of the world',
       'start': {'chapter': 14, 'verse': 14},
       'end': {'chapter': 15, 'verse': 1}
     },
     {
-      'section': 'The messengers mig-uyan of ending me salerep',
+      'section': 'The messengers bringing the final plagues',
       'start': {'chapter': 15, 'verse': 1},
       'end': {'chapter': 16, 'verse': 1}
     },
     {
-      'section': 'The me yahung intahuan of langet of God',
+      'section': "The pouring out of God's anger",
       'start': {'chapter': 16, 'verse': 1},
       'end': {'chapter': 17, 'verse': 1}
     },
     {
-      'section': 'The is told woman egpamelegye of body',
+      'section': 'The immoral woman drunk with blood',
       'start': {'chapter': 17, 'verse': 1},
       'end': {'chapter': 18, 'verse': 1}
     },
     {
-      'section': 'The demolition of Babylon',
+      'section': "Babylon's fall",
       'start': {'chapter': 18, 'verse': 1},
       'end': {'chapter': 19, 'verse': 1}
     },
@@ -11413,32 +11428,32 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 19, 'verse': 5}
     },
     {
-      'section': 'The feast of wedding of Nati Karniru',
+      'section': "The lamb's wedding reception",
       'start': {'chapter': 19, 'verse': 5},
       'end': {'chapter': 19, 'verse': 11}
     },
     {
-      'section': 'The migpangudde of maangkag kudde',
+      'section': 'The horse-rider of white horse',
       'start': {'chapter': 19, 'verse': 11},
       'end': {'chapter': 20, 'verse': 1}
     },
     {
-      'section': 'The 1,000 year(s)',
+      'section': 'The thousand years',
       'start': {'chapter': 20, 'verse': 1},
       'end': {'chapter': 20, 'verse': 7}
     },
     {
-      'section': 'The pegkatalu of Satan',
+      'section': "Satan's defeat",
       'start': {'chapter': 20, 'verse': 7},
       'end': {'chapter': 20, 'verse': 11}
     },
     {
-      'section': 'The ending judging',
+      'section': 'The dead are revived for judgement',
       'start': {'chapter': 20, 'verse': 11},
       'end': {'chapter': 21, 'verse': 1}
     },
     {
-      'section': 'The new sky/heaven and the new land',
+      'section': 'The new sky and the new earth',
       'start': {'chapter': 21, 'verse': 1},
       'end': {'chapter': 21, 'verse': 9}
     },
@@ -11854,12 +11869,12 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 14, 'verse': 1}
     },
     {
-      'section': 'The peglusud of Diyunatan of me from-Pilistiya',
+      'section': 'The invasion of Diyunatan of me from-Pilistiya',
       'start': {'chapter': 14, 'verse': 1},
       'end': {'chapter': 14, 'verse': 16}
     },
     {
-      'section': 'The pegkatalu of me from-Pilistiya',
+      'section': 'The defeat of me from-Pilistiya',
       'start': {'chapter': 14, 'verse': 16},
       'end': {'chapter': 14, 'verse': 24}
     },
@@ -11949,7 +11964,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 22, 'verse': 1}
     },
     {
-      'section': 'The peggeles-geles of David minsan hendei',
+      'section': 'The peggeles-geles of David even hendei',
       'start': {'chapter': 22, 'verse': 1},
       'end': {'chapter': 22, 'verse': 6}
     },
@@ -12041,7 +12056,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 3, 'verse': 1}
     },
     {
-      'section': 'The children lukes of David',
+      'section': 'The children male of David',
       'start': {'chapter': 3, 'verse': 1},
       'end': {'chapter': 3, 'verse': 6}
     },
@@ -12330,7 +12345,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 2, 'verse': 17}
     },
     {
-      'section': "Pauls' desire to visit Thessalonica again",
+      'section': "Paul's desire to visit Thessalonica again",
       'start': {'chapter': 2, 'verse': 17},
       'end': {'chapter': 4, 'verse': 1}
     },
@@ -12540,7 +12555,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 1, 'verse': 7}
     },
     {
-      'section': 'The me kudde revelation ki Sakariyas',
+      'section': 'The me horse revelation ki Sakariyas',
       'start': {'chapter': 1, 'verse': 7},
       'end': {'chapter': 1, 'verse': 18}
     },
@@ -12550,7 +12565,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 2, 'verse': 1}
     },
     {
-      'section': 'The person mig-uyan of igseked',
+      'section': 'The person bringing of igseked',
       'start': {'chapter': 2, 'verse': 1},
       'end': {'chapter': 2, 'verse': 6}
     },

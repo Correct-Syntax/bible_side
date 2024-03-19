@@ -228,7 +228,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       "2:1 The Descendants of Judah; Descendants of Israel; The Sons of Israel and the Descendants of Judah; Israel's Sons"
     ],
     ['2:3 The descendants of Huda'],
-    ['2:9 The kaap-apuan of King David'],
+    ['2:9 The ancestor(s) of King David'],
     ['2:18 The descendants of Kalib'],
     ['2:25 The descendants of Hiramil'],
     ['2:42 The other descendants of Kalib'],
@@ -274,7 +274,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ['8:33 The descendants of King Saul'],
     ['9:1 The people nekeuli from pegkarakep', '9:1 The restored community; The People Who Returned from Captivity'],
     ['9:14 The nekeuli me Libita'],
-    ['9:35 The kaap-apuan and descendants of King Saul'],
+    ['9:35 The ancestor(s) and descendants of King Saul'],
     [
       '10:1 The death of King Saul and of his children',
       '10:1 David succeeds Saul; Saul Takes His Life; Death of Saul and His Sons; The Death of King Saul',
@@ -300,7 +300,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       "14:1 David's Palace and Family; David Established at Jerusalem; David's House and Family; David's Activities in Jerusalem",
       '14:1 (2 Samuel 5.11-16)'
     ],
-    ['14:8 The pegkatalu of me Pilistihanen'],
+    ['14:8 The defeat of me Pilistihanen'],
     [
       '15:1 The carrying of Tahuanan of Kasabutan',
       '15:1 Preparing to Move the Ark; Getting Ready to Move the Covenant Box; The Ark Brought to Jerusalem'
@@ -320,7 +320,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '18:1 (2 Samuel 8.1-18)'
     ],
     [
-      '19:1 The pegkatalu of me from-Amun and me from-Sirya',
+      '19:1 The defeat of me from-Amun and me from-Sirya',
       '19:1 The Battle Against the Ammonites; David Defeats the Ammonites and the Syrians; David Defeats the Ammonites; Defeat of the Ammonites and Arameans',
       '19:1 (2 Samuel 10.1-19)'
     ],
@@ -407,7 +407,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '8:1 (1 Kings 9.10-28)'
     ],
     [
-      '9:1 Miggendiye ki Solomon the rayna of Siyiba',
+      '9:1 Went ki Solomon the queen of Siyiba',
       "9:1 The Queen of Sheba Visits Solomon; The Queen of Sheba's Visit; The Visit of the Queen of Sheba; Visit of the Queen of Sheba",
       '9:1 (1 Kings 10.1-13)'
     ],
@@ -440,7 +440,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ['14:9 The pegbubunu of from-Itiyupiya'],
     ['15:1 The speech of Asariyas', "15:1 Asa's Religious Reforms; Asa's Reforms; Asa's Reform"],
     [
-      '16:1 The peglusud of Israel of Huda',
+      '16:1 The invasion of Israel of Huda',
       "16:1 Troubles with Israel; Final Years of Asa's Reign; Alliance with Aram Condemned; Asa's Last Years",
       '16:1 (1 Kings 15.17-22)'
     ],
@@ -476,7 +476,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '23:1 Revolt against Athaliah; The Revolt against Athaliah',
       '23:1 (2 Kings 11.4-16)'
     ],
-    ['23:16 The agreements inggimu of Hihuyada'],
+    ['23:16 The agreements made by Hihuyada'],
     [
       '24:1 The kingdom of Huwas of Huda',
       '24:1 King Joash of Judah; Joash Repairs the Temple',
@@ -521,10 +521,10 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       "31:1 Pagan Shrines Destroyed; Hezekiah's Religious Reforms; Hezekiah Reforms Religious Life"
     ],
     [
-      '32:1 The peglusud of from-Asirya of Huda',
+      '32:1 The invasion of from-Asirya of Huda',
       "32:1 Sennacherib Threatens Jerusalem; Sennacherib's Invasion; Assyria Invades Judah; The Assyrians Threaten Jerusalem"
     ],
-    ['32:24 The pegderalu of Isikiyas'],
+    ['32:24 The sickness of Isikiyas'],
     ['32:27 The me wealth of Isikiyas'],
     ['32:32 The final of kingdom of Isikiyas'],
     [
@@ -592,7 +592,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '8:1 Food Sacrificed to Idols; The Question about Food Offered to Idols'
     ],
     [
-      '9:1 The katenged of apostle',
+      "9:1 The missionary's responsibilities",
       '9:1 Paul Gives Up His Rights; Rights and Duties of an Apostle; The Rights of an Apostle'
     ],
     [
@@ -608,7 +608,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '14:1 Comparing prophesying with speaking in other languages',
       '14:1 The Gifts of Tongues and Prophecy; Gifts of Prophecy and Tongues; More about Gifts from the Spirit'
     ],
-    ['14:26 The correct paahi of worshipping'],
+    ['14:26 The correct means of worshipping'],
     ["15:1 The messiah's resurrection", '15:1 The resurrection of the dead; The Resurrection of Christ'],
     ['15:12 Life after death'],
     ['15:35 Our new immortal bodies'],
@@ -740,9 +740,9 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ['1:34 The pegparusa of descendants of Israel'],
     ['2:1 The pegkaleleug of descendants of Israel', "2:1 Remembering Israel's Wanderings; Wanderings in the Desert"],
     ['2:10 The tribes there to near Kanaan'],
-    ['2:26 The pegkatalu of Sihun'],
+    ['2:26 The defeat of Sihun'],
     [
-      '3:1 The pegkatalu of Ug',
+      '3:1 The defeat of Ug',
       '3:1 Victory over Og of Bashan; Israel Conquers King Og; Defeat of Og King of Bashan; Defeat of King Og',
       '3:1 (Numbers 21.31-35)'
     ],
@@ -798,7 +798,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ],
     ['14:3 The malindit and malinis mananap'],
     [
-      '15:1 The igkapitu year(s)',
+      '15:1 The seventh year(s)',
       '15:1 Release for Debtors; Laws concerning the Sabbatical Year; The Seventh Year; The Year for Canceling Debts',
       '15:1 (Leviticus 25.1-7)'
     ],
@@ -825,15 +825,15 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '19:1 Cities of Refuge; Laws concerning the Cities of Refuge; The Cities of Refuge',
       '19:1 (Numbers 35.9-34; Joshua 20.1-9)'
     ],
-    ['19:14 The me daan palinneu of eletanan'],
-    ['19:15 The concerning the me talagpamalehet'],
+    ['19:14 The me daan sign of eletanan'],
+    ['19:15 The concerning the witnesses'],
     ['20:1 The laws of gira', '20:1 Concerning War; Going to War; Regulations concerning War; Rules of Warfare'],
     [
       '21:1 The peggusey of innimatayan of heles just',
       '21:1 Law concerning Murder by Persons Unknown; Atonement for an Unsolved Murder; Concerning Unsolved Murders; Cleansing for Unsolved Murder'
     ],
     ['21:10 The pegsahipe of women naddakep'],
-    ['21:15 The egkapanunud of kinakakayan child lukes'],
+    ['21:15 The egkapanunud of kinakakayan child male'],
     ['21:18 The masinupaken child'],
     ['22:1 The other pad law'],
     ['22:13 The laws concerning the bansa'],
@@ -851,7 +851,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ['24:7 The law concerning the egtangag of other'],
     ['24:8 The laws concerning the ibung'],
     ['25:1 The parusa of sinned by means of lampes'],
-    ['25:5 The katenged of suled of migpatey'],
+    ['25:5 The authority of suled of migpatey'],
     ['25:11 Ke egpekeg-ehet the two person'],
     ["25:13 Don't all panlimbung"],
     ['25:17 The suhu of pegpangimatey of me Amalikanen'],
@@ -906,7 +906,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ],
     ['1:12 The nabaybayaan of matagseb'],
     ['2:1 The Futility of Pleasure; Pleasures Are Meaningless; The Futility of Self-Indulgence'],
-    ['3:1 The time of minsan what', '3:1 Everything Has Its Time; A Time for Everything'],
+    ['3:1 The time of even what', '3:1 Everything Has Its Time; A Time for Everything'],
     ['3:16 Ware correct judging here of world'],
     ['4:1 Oppression, Toil, Friendlessness'],
     [
@@ -1028,7 +1028,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ],
     ['5:22 The pegsagsahukul of Moses there to God'],
     ["6:1 Israel's Deliverance Assured; Promises of Deliverance"],
-    ['6:1 The pegsaad of God egluwasen the people'],
+    ['6:1 The promise of God egluwasen the people'],
     ['6:14 The elder of Moses and of Aarun'],
     ['6:28 The pegsuhu of God engki Moses'],
     ["7:1 Aaron's Staff Becomes a Snake"],
@@ -1052,7 +1052,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ['12:29 The pegpangimatey of me panganey child'],
     ['12:43 The tulumanen of feast of peglihad of Messenger'],
     [
-      '13:1 The panganey child lukes',
+      '13:1 The panganey child male',
       '13:1 Dedication of the Firstborn; Dedication of the First-Born; Consecration of the Firstborn'
     ],
     ['13:3 The Feast of Paan Ware Patulin'],
@@ -1093,7 +1093,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '23:1 The teaching concerning the good behaviour',
       '23:1 Justice for All; Justice and Fairness; Laws of Justice and Mercy; A Call for Justice'
     ],
-    ['23:10 The igkapitu year(s) and the igkapitu day'],
+    ['23:10 The seventh year(s) and the seventh day'],
     ['23:14 The three feast of each year(s)'],
     ['23:20 The me promise and me teaching'],
     [
@@ -1214,7 +1214,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ['2:1 The making ki Isikil prophet', "2:1 Ezekiel's Call and Commission; Ezekiel's Call; The Vision of the Scroll"],
     ['3:22 The pegkeummew of Isikil'],
     [
-      '4:1 The pegpahunsiling of Isikil of peglusud of Yerusalem',
+      '4:1 The pegpahunsiling of Isikil of invasion of Yerusalem',
       '4:1 A Sign of the Coming Siege; The Siege of Jerusalem Portrayed; Ezekiel Acts Out the Siege of Jerusalem; Siege of Jerusalem Symbolized'
     ],
     [
@@ -1271,7 +1271,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '16:1 The maddeet hinimuwan of Yerusalem',
       "16:1 Jerusalem—an Unfaithful Wife; Jerusalem the Unfaithful; An Allegory of Unfaithful Jerusalem; God's Faithless Bride"
     ],
-    ['16:23 The langet of God of Yerusalem'],
+    ['16:23 The anger of God of Yerusalem'],
     ['16:35 The peglegpad of God of Yerusalem'],
     ['16:44 Ke what the mother like ded the child woman'],
     ['16:59 The agreement without ending'],
@@ -1387,7 +1387,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '38:1 Gog as the Instrument of God; A Message for Gog; A Prophecy Against Gog; Invasion by Gog'
     ],
     ['38:18 The peglegpad of God ki Gug'],
-    ['39:1 The pegkatalu of Gug', "39:1 The Defeat of Gog; The Slaughter of Gog's Armies; Gog's Armies Destroyed"],
+    ['39:1 The defeat of Gug', "39:1 The Defeat of Gog; The Slaughter of Gog's Armies; Gog's Armies Destroyed"],
     ['39:11 The peglebeng ki Gug'],
     ['39:21 The pegpalibed of Israel'],
     [
@@ -1501,7 +1501,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '10:1 The peg-angken of people of their sin',
       "10:1 The Plan for Ending Mixed Marriages; The People's Confession of Sin; The People Confess Their Sin; The People's Response"
     ],
-    ['10:18 The me lukes nakaasawa of me lapu']
+    ['10:18 The males nakaasawa of me lapu']
   ],
   'GAL': [
     ['1:1 Greetings from Paul', '1:1 Salutation'],
@@ -1542,92 +1542,93 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '3:1 The couple disobey God',
       '3:1 The Fall of Man; Human Disobedience; The Man and Woman Sin; The First Sin and Its Punishment'
     ],
-    ['3:14 The peglegpad of God due to sin'],
-    ['3:22 The scolding of Adam and ki Eve ligkat of pinamulaan'],
-    ['4:1 Kain and Abil', '4:1 Cain Murders Abel; Cain, Abel, and Seth; Cain and Abel'],
-    ['4:17 The descendants of Kain'],
-    ['4:25 The descendants of Sit'],
+    ["3:14 God's judgements after they disobeyed"],
+    ['3:22 The humans get expelled from the garden'],
+    ['4:1 Kayin and Abel', '4:1 Cain Murders Abel; Cain, Abel, and Seth; Cain and Abel'],
+    ["4:17 Kayin's descendants"],
+    ["4:25 Shet's descendants"],
     [
-      '5:1 The descendants of Adam',
+      "5:1 Adam's (important) descendants",
       "5:1 From Adam to Noah; Adam's Descendants to Noah and His Sons; The Descendants of Adam",
       '5:1 (1 Chronicles 1.1-4)'
     ],
     [
-      '6:1 The bad me work of people',
+      "6:1 Humankind's evil",
       '6:1 Noah and the Flood; Human Wickedness; The Wickedness of Humankind; The Flood; The flood and the tower of Babel'
     ],
-    ['6:9 The making of Noah of arka'],
-    ['7:1 The pegsipuk of water', '7:1 The Flood Covers the Earth; The Flood; The Great Flood'],
-    ['8:1 The pegtigkus of water', '8:1 The End of the Flood; The Flood Recedes; The Flood Subsides'],
-    ['8:20 The sacrificing of Noah'],
+    ['6:9 Noah makes a barge'],
+    ['7:1 The global flood', '7:1 The Flood Covers the Earth; The Flood; The Great Flood'],
+    ['8:1 Waiting for the land to dry', '8:1 The End of the Flood; The Flood Recedes; The Flood Subsides'],
+    ["8:20 Noah's sacrifice and Yahweh's promise"],
+    ["9:1 God's agreement with Noah", "9:1 God's Covenant With Noah; The Covenant with Noah"],
+    ["9:18 Noah's children"],
     [
-      '9:1 The agreement of God there to Noah',
-      "9:1 God's Covenant With Noah; God's Covenant with Noah; The Covenant with Noah"
-    ],
-    ['9:18 The children of Noah'],
-    [
-      '10:1 The descendants of children of Noah',
+      "10:1 Noah's grandchildren and their clans",
       "10:1 The Descendants of Noah's Sons; Nations Descended from Noah; The Table of Nations",
       '10:1 (1 Chronicles 1.5-23)'
     ],
-    ['11:1 The titikangi house there to Babil', '11:1 The Tower of Babel; The Tower of Babylon'],
-    ['11:10 The descendants of Sim'],
-    ['11:27 The descendants of Tira'],
-    ['12:1 The calling of God ki Abram', "12:1 Abram's travels; The Call of Abram; God's Call to Abram"],
-    ['12:10 Abram there to Egypt'],
-    ['13:1 The pegpasuwayey of Abram ki Lut', '13:1 Abram and Lot Separate; Abram and Lot'],
-    ['13:14 The peggalin of Abram there to Hibrun'],
-    ['14:1 The pegpangabang of Abram ki Lut', "14:1 Lot's Captivity and Rescue; Abram Rescues Lot"],
-    ['14:17 The blessing of Milkisidik ki Abram'],
+    ['11:1 The tower at Babel', '11:1 The Tower of Babel; The Tower of Babylon'],
+    ["11:10 Shem's descendants"],
+    ["11:27 Terah's descendants"],
+    ['12:1 God commissions Abram to go', "12:1 Abram's travels; The Call of Abram; God's Call to Abram"],
+    ['12:10 Abram goes to Egypt'],
+    ['13:1 Abram and Lot part ways', '13:1 Abram and Lot Separate'],
+    ['13:14 God promises Abram the land'],
+    ['14:1 Five kings defend against four attackers', "14:1 Lot's Captivity and Rescue; Abram Rescues Lot"],
+    ['14:12 Abram rescues Lot'],
+    ['14:17 The blessing of Melchizedek ki Abram'],
     [
-      '15:1 The pegsaad of God ki Abram',
+      '15:1 God agreement with Abram',
       "15:1 The Lord's Covenant with Abram; God's Covenant With Abram; God's Covenant with Abram; The Lord's covenant with Abram"
     ],
-    ['16:1 The talaanak Hagar and Ismail', '16:1 The Birth of Ishmael; Hagar and Ishmael'],
+    ["16:1 Hagar and her son Ishma'el", '16:1 The Birth of Ishmael; Hagar and Ishmael'],
     [
-      '17:1 The circumcision the palinneu of agreement',
+      '17:1 Circumcision as a confirmation of the agreement',
       '17:1 The Sign of the Covenant; Abram Is Named Abraham; Circumcision, the Sign of the Covenant; The Covenant of Circumcision'
     ],
     [
-      '18:1 The pegsaad of God egpaanaken Sara of lukes',
+      '18:1 The promise of God egpaanaken Sara of male',
       '18:1 A Son Is Promised to Abraham; The Three Visitors; A Son Promised to Sarah; A Son Promised to Abraham and Sarah'
     ],
-    ['18:16 The pegpeyid‑u-mercy of Abraham concerning the Sodom'],
+    ['18:16 Abraham bargains with Yahweh about Sodom'],
     [
-      '19:1 The pegkamakasesale very of people there to Sodom',
+      '19:1 Sexual depravity in Sodom',
       '19:1 Sodom and Gomorrah Destroyed; The Depravity of Sodom; The Sinfulness of Sodom'
     ],
-    ['19:12 The peg-awe of Lut of Sodom'],
-    ['19:23 The pegdereet of Sodom and Gomorrah'],
-    ['19:30 The origin of Moabites and Amonites'],
-    ['20:1 Abraham and Abimilik', '20:1 Abraham Deceives Abimelech; Abraham and Abimelech; Abraham and Sarah at Gerar'],
-    ['21:1 The birth of Isaac', '21:1 The Birth of Isaac; The early years of Isaac'],
-    ['21:9 The scolding of Hagar and ki Ismail'],
-    ['21:22 The agreement of Abimilik and of Abraham'],
+    ['19:12 Lot and family leave Sodom'],
+    ['19:23 The destruction of Sodom and Gomorrah'],
+    ['19:30 The sad origin of Moabites and Ammonites'],
     [
-      '22:1 The testing of God ki Abraham',
+      '20:1 Abraham and Abimelech and Sarah',
+      '20:1 Abraham Deceives Abimelech; Abraham and Abimelech; Abraham and Sarah at Gerar'
+    ],
+    ["21:1 Isaac's birth", '21:1 The Birth of Isaac; The early years of Isaac'],
+    ["21:8 Hagar is expelled with Ishma'el"],
+    ["21:22 Abraham and Abimelech's agreement"],
+    [
+      '22:1 God tests Abraham over Isaac',
       "22:1 Abraham's Obedience Tested; The Command to Sacrifice Isaac; Abraham Tested; God Commands Abraham to Offer Isaac"
     ],
-    ['22:20 The descendants of Nahur'],
+    ["22:20 Nahor's descendants"],
     [
-      '23:1 The death and burial ki Sara',
+      "23:1 Sarah's death and burial",
       "23:1 Sarah Dies and Abraham Buys a Burial Ground; The Burial of Sarah; Sarah's Death and Burial; The Death of Sarah"
     ],
     [
-      '24:1 The marriage of Isaac',
+      "24:1 Isaac's marriage",
       '24:1 A Wife for Isaac; Isaac and Rebecca; Isaac and Rebekah; The Marriage of Isaac and Rebekah; Isaac Marries Rebekah'
     ],
     [
-      '25:1 The other descendants of Abraham',
+      "25:1 Abraham's other descendants",
       '25:1 Other Descendants of Abraham; Abraham Marries Keturah; The Death of Abraham',
       '25:1 (1 Chronicles 1.32,33)'
     ],
-    ['25:7 The death and the burial ki Abraham'],
-    ['25:12 The descendants of Ismail'],
+    ["25:5 Abraham's death and burial"],
+    ["25:12 Ishma'el's Descendants"],
     ['25:19 The birth of Esau and of Yacob'],
-    ['25:27 The sin of Esau of katenged din isip panganey'],
+    ['25:27 The sin of Esau of authority din isip panganey'],
     [
-      '26:1 The peggalin of Isaac there to Girara',
+      '26:1 The transfer of Isaac there to Girara',
       '26:1 Isaac and Abimelech; Isaac Lives at Gerar; Isaac at Gerar and Beersheba; Isaac Deceives Abimelech'
     ],
     ['26:26 The pegpasabutey of Isaac and Abimilik'],
@@ -1637,7 +1638,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       "27:1 Jacob Gets Isaac's Blessing; Jacob Steals Esau's Blessing; Jacob and Esau; Isaac Blesses Jacob"
     ],
     ['27:30 The pegpeyimmimenew of Esau of blessing of Isaac'],
-    ['27:46 The pegpeyipanew of Isaac ki Yacob peendiye ki Laban'],
+    ['27:46 The journey of Isaac ki Yacob peendiye ki Laban'],
     ['28:6 The peg-asawe e again of Esau'],
     ['28:10 The pegkataheinep of Yacob there to Bitil'],
     [
@@ -1665,7 +1666,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       "35:1 Jacob Returns to Bethel; Jacob's Return to Bethel; God Blesses Jacob at Bethel"
     ],
     ['35:16 The death of Rakil'],
-    ['35:22 The me lukes child of Yacob'],
+    ['35:22 The sons of Yacob'],
     ['35:27 The death of Isaac'],
     [
       '36:1 The descendants of Esau',
@@ -1675,7 +1676,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ['36:20 The descendants of Siir'],
     ['36:31 The kings of place Idum'],
     [
-      '37:1 Yosef and the me kakey rin lukes',
+      '37:1 Yosef and the me kakey rin male',
       "37:1 Joseph; Joseph Dreams of Greatness; Joseph's Dreams; Joseph and His Brothers"
     ],
     ['37:12 The sin ki Yosef of me kakey rin'],
@@ -1808,7 +1809,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
   'HOS': [
     ['1:1 The asawa and children of Husiyas'],
     ['1:10 The pegpalibed of Israel there to God'],
-    ['2:1 The peglegpad of Israel like woman egpamelegye of body'],
+    ['2:1 The peglegpad of Israel like woman selling of body'],
     ['2:14 The love of God of his people'],
     [
       '3:1 The love of God of his people',
@@ -1889,12 +1890,12 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '7:1 The speech for ki King Ahas',
       '7:1 A Message for King Ahaz; Isaiah Reassures King Ahaz; A Message for Ahaz; The Sign of Immanuel; Isaiah and King Ahaz'
     ],
-    ['7:10 The palinneu of Imanwil'],
+    ['7:10 The sign of Imanwil'],
     [
-      '8:1 The birth of child of Isayas lukes',
+      '8:1 The birth of child of Isayas male',
       "8:1 Isaiah's Son as a Sign to the People; The Coming Assyrian Invasion; Assyria, the Lord's Instrument; Isaiah's Son a Sign of the Assyrian Invasion"
     ],
-    ['8:5 The peglusud of King of Asirya'],
+    ['8:5 The invasion of King of Asirya'],
     ['8:11 The warning of Master of prophet'],
     ['8:16 The warning concerning the peg-question of saping'],
     ['8:21 The time of pegkalaggew'],
@@ -1903,7 +1904,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ['10:5 Inggamit of God the Asirya'],
     ['10:20 The return of nenasame'],
     ['10:24 The pegdusa of Master of Asirya'],
-    ['10:28 The peglusud of enemies'],
+    ['10:28 The invasion of enemies'],
     ['11:1 The malinawen kingdom', "11:1 A Branch from David's Line; The Peaceful Kingdom; The Branch From Jesse"],
     ['11:10 The pegpanguli of naddakep'],
     [
@@ -1927,7 +1928,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '17:1 The pegdusa of God of Damasku',
       '17:1 An Oracle Against Damascus; God Will Punish Syria and Israel; An Oracle concerning Damascus; A Message about Damascus and Israel'
     ],
-    ['17:12 The pegkatalu of enemies nations'],
+    ['17:12 The defeat of enemies nations'],
     [
       '18:1 The speech of God there to Itiyupiya',
       '18:1 A Prophecy Against Cush; A Message about Ethiopia; God Will Punish Ethiopia; An Oracle concerning Ethiopia'
@@ -1993,7 +1994,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ['30:19 The blessing of God of his people'],
     ['30:27 The pegparusa of Master of Asirya'],
     [
-      '31:1 The pegpangabang of God of Yerusalem',
+      '31:1 The assisting of God of Yerusalem',
       '31:1 God Will Protect Jerusalem; Alliance with Egypt Is Futile; The Futility of Relying on Egypt; Woe to Those Who Rely on Egypt'
     ],
     [
@@ -2028,7 +2029,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ['37:8 The pegginaaldek again of Asirya'],
     ['37:21 The speech of Isayas ki Isikiyas'],
     [
-      '38:1 The pegderalu and pegkeulii of Isikiyas',
+      '38:1 The sickness and pegkeulii of Isikiyas',
       "38:1 King Hezekiah's Illness and Recovery; Hezekiah's Illness; Hezekiah's Sickness and Recovery",
       '38:1 (2 Kings 20.1-11; 2 Chronicles 32.24-26)'
     ],
@@ -2053,12 +2054,12 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ],
     ['42:10 The song of pegdeyrey'],
     ['42:14 The promise of God egbulig of his people'],
-    ['42:18 Ware migtuman Israel'],
+    ['42:18 Ware obeyed Israel'],
     [
       '43:1 The promise of pegluwas',
       "43:1 God Promises to Rescue His People; Israel's Only Savior; The Savior of Israel; Restoration and Protection Promised"
     ],
-    ['43:8 The calling of God of Israel isip talagpamalehet'],
+    ['43:8 The calling of God of Israel isip witness'],
     ['43:14 The peglegpad of Babylon'],
     ['43:22 The sin of people of Israel'],
     ['44:1 Ware like God', "44:1 Israel the Chosen; The Lord Is the Only God; God's Blessing on Israel"],
@@ -2118,13 +2119,13 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       "59:1 Warnings against Sin; Sin, Confession and Redemption; The Prophet Condemns the People's Sins; Injustice and Oppression to Be Punished"
     ],
     ['59:9 The telling of people of sins dan'],
-    ['59:16 The pegpangabang of Master of his people'],
+    ['59:16 The assisting of Master of his people'],
     [
       '60:1 The coming katelesan of Yerusalem',
       '60:1 The Future Glory of Jerusalem; Future Glory for Jerusalem; The Ingathering of the Dispersed; The Glory of Zion; Promise of the new Jerusalem'
     ],
     [
-      '61:1 The pegpangabang of Israel',
+      '61:1 The assisting of Israel',
       "61:1 Good News for the Oppressed; The Good News of Deliverance; The Year of the Lord's Favour"
     ],
     [
@@ -2141,7 +2142,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '65:1 The judging',
       "65:1 God's Punishment of the Rebellious; Judgment and Final Salvation; Judgment and Salvation; Judgement and final salvation; The Righteousness of God's Judgment"
     ],
-    ['65:17 The new inggimu of God'],
+    ['65:17 The new made by God'],
     [
       '66:1 The judging and the egkapallateng',
       '66:1 Judgment and Hope; The Lord Judges the Nations; The Worship God Demands'
@@ -2223,7 +2224,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '7:1 Gideon Defeats the Midianites; Gideon Surprises and Routs the Midianites'
     ],
     [
-      '8:1 The pegkatalu of me from-Midiyan',
+      '8:1 The defeat of me from-Midiyan',
       "8:1 Gideon Kills Zebah and Zalmunna; Zebah and Zalmunna; Gideon's Triumph and Vengeance; The Final Defeat of the Midianites"
     ],
     ['8:29 The death of Gidyun'],
@@ -2278,11 +2279,11 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '2:1 The pegsamsamili of me Israilita of God',
       "2:1 God's appeal to Israel and Judah; The Lord's Case against His People; God Pleads with Israel to Repent; Israel Forsakes God; God's Care for Israel"
     ],
-    ['2:4 The sin of me kaap-apuan of me Israilita'],
+    ['2:4 The sin of ancestors of me Israilita'],
     ['2:9 The pegkasu of God of his people'],
     ['2:14 The impangkusan of pegsupak of me Israilita'],
     ['2:20 Ware migsimba of God the me Israilita'],
-    ['2:26 Eleg eglegparan the people of Israel'],
+    ['2:26 Eleg punished the people of Israel'],
     ['3:1 The me Israilita not me matinumanen', '3:1 Unfaithful Israel'],
     ['3:6 The peg-ikul of me from-Huda of me from-Israel'],
     ['3:19 The pegpakasale of Israel'],
@@ -2369,7 +2370,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ],
     ['20:7 The pegsagsahukul of Hirimiyas of Master'],
     [
-      '21:1 The tagne of pegkatalu of Yerusalem',
+      '21:1 The tagne of defeat of Yerusalem',
       "21:1 Jerusalem Will Fall to Nebuchadrezzar; Warnings to kings and people; God Rejects Zedekiah's Request; No Deliverance from Babylon; Jerusalem's Defeat Is Predicted"
     ],
     ['21:11 The peglegpad of Master of kings of Huda'],
@@ -2510,14 +2511,14 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       "50:1 Babylon's Capture; A Message About Babylon; A Message about Babylon; Judgment on Babylon"
     ],
     ['50:4 The returning home of me from-Israel'],
-    ['50:11 The pegkatalu of Babylon'],
+    ['50:11 The defeat of Babylon'],
     ['50:17 Nekeuli e the people of Israel'],
     ['50:21 The judging of God of Babylon'],
     ['51:1 The timul pad speech of God concerning the Babylon', '51:1 Further Judgment on Babylonia'],
     ['51:15 The song of praising of God'],
     ['51:20 The buntuk of God'],
     ['51:24 The peglegpad of Babylon'],
-    ['51:36 The pegpangabang of God of Israel'],
+    ['51:36 The assisting of God of Israel'],
     ['51:41 The what happened of Babylon'],
     ['51:50 The speech of God of me Israilita there to Babylon'],
     ['51:54 The other pad karereetan egkeulaula of Babylon'],
@@ -2914,7 +2915,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ],
     ['1:10 The pegsuhu of Josh. of people'],
     [
-      '2:1 The me tahasiliban insuhu going to Hiriku',
+      '2:1 The me tahasiliban commanded going to Hiriku',
       '2:1 In central Canaan; Rahab Protects the Spies; Rahab and the Spies; Spies Sent to Jericho; Joshua Sends Spies into Jericho'
     ],
     [
@@ -2931,7 +2932,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ['6:1 The demolition of Hiriku', '6:1 Jericho Taken and Destroyed; The Fall of Jericho'],
     ['7:1 The sin of Akan', "7:1 Ai Defeats the Israelites; The Sin of Achan and Its Punishment; Achan's Sin"],
     [
-      '8:1 The pegkatalu and the demolition of Ay',
+      '8:1 The defeat and the demolition of Ay',
       '8:1 Ai Destroyed; The Capture and Destruction of Ai; The Israelites Defeat Ai; Ai Captured by a Stratagem and Destroyed'
     ],
     ['8:30 The pegbasa of Law there to bubungan of Ibal'],
@@ -2940,13 +2941,13 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '9:1 The Gibeonites Save Themselves by Trickery; The Gibeonite Deception; The Gibeonites Deceive Israel; The Gibeonites Deceive Joshua'
     ],
     [
-      '10:1 The pegkatalu of me Amurihanen',
+      '10:1 The defeat of me Amurihanen',
       '10:1 The Amorites Are Defeated; The Sun Stands Still; The conquest of the south; Israel Defeats the Southern Kings'
     ],
     ['10:16 The capturing of five King me Amurihanen'],
-    ['10:28 The peglusud of Josh. of other me Amurihanen'],
+    ['10:28 The invasion of Josh. of other me Amurihanen'],
     [
-      '11:1 The peglusud of Josh. engki King Habin',
+      '11:1 The invasion of Josh. engki King Habin',
       '11:1 Joshua Defeats Jabin and His Allies; The conquest of the north; Israel Defeats the Northern Kings; The United Kings of Northern Canaan Defeated; Northern Kings Defeated'
     ],
     ['11:16 The pegkaangken of Josh. of all land'],
@@ -3015,7 +3016,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       "23:1 Joshua's Farewell to the Leaders; Joshua Exhorts the People; Joshua's farewell and death; Joshua's Final Words to Israel; Joshua's Farewell Address"
     ],
     [
-      '24:1 The pegsaad again of descendants of Israel',
+      '24:1 The promise again of descendants of Israel',
       "24:1 The Covenant Renewed at Shechem; The Lord's Covenant Renewed; Joshua Speaks to the People at Shechem; The Tribes Renew the Covenant"
     ],
     ['24:29 The death of Josh. and of Ilyasar']
@@ -3079,7 +3080,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ['9:10 The agreement of Solomon and of Hiram'],
     ['9:15 The other pad became of Solomon'],
     [
-      '10:1 The pegpanumbaley there to Solomon of rayna of Siyiba',
+      '10:1 The pegpanumbaley there to Solomon of queen of Siyiba',
       "10:1 The Queen of Sheba Visits Solomon; The Queen of Sheba's Visit; The Visit of the Queen of Sheba; Visit of the Queen of Sheba",
       '10:1 (2 Chronicles 9.1-12)'
     ],
@@ -3136,11 +3137,11 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ],
     ['19:19 The peg-alam of God ki Ilisyu'],
     [
-      '20:1 The peglusud of Bin-Hadad of Israel',
+      '20:1 The invasion of Bin-Hadad of Israel',
       "20:1 War with Syria; Ahab's Wars with the Arameans; Ben-Hadad Attacks Samaria"
     ],
-    ['20:23 The second peglusud of me from-Sirya'],
-    ['20:35 The scolding of prophet of inggimu of Ahab'],
+    ['20:23 The second invasion of me from-Sirya'],
+    ['20:35 The scolding of prophet of made by Ahab'],
     ['21:1 The vineyard of Nabut', "21:1 Naboth's Vineyard"],
     [
       '22:1 prophet Mikiyas and King Ahab',
@@ -3175,8 +3176,8 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '6:1 The wasey miggampung',
       '6:1 The Recovery of the Ax Head; An Axhead Floats; The Floating Ax Head; The Miracle of the Ax Head'
     ],
-    ['6:8 The pegkatalu of soldiers of Sirya'],
-    ['6:24 The peglusud of Sirya of Samarya'],
+    ['6:8 The defeat of soldiers of Sirya'],
+    ['6:24 The invasion of Sirya of Samarya'],
     [
       '8:1 The return of woman from-Sunam',
       "8:1 The Shunammite Woman's Land Restored; The Shunammite's Land Restored; The Woman from Shunem Returns; The Woman from Shunem Returns Home"
@@ -3189,19 +3190,19 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '9:1 Anointing of Jehu; Jehu Is Anointed King of Israel; Jehu Anointed King of Israel'
     ],
     ['9:14 The killing ki Huram and ki Ahasiyas'],
-    ['9:30 The killing ki Rayna Hisibil'],
+    ['9:30 The killing ki Queen Hisibil'],
     [
-      '10:1 Impangimatayan the descendants of Ahab',
+      '10:1 Killed the descendants of Ahab',
       "10:1 The Descendants of Ahab Are Killed; Massacre of Ahab's Descendants; Ahab's Family Killed; Jehu Kills Ahab's Family"
     ],
-    ['10:12 Impangimatayan the me karumaan of Ahasiyas'],
-    ['10:15 Impangimatayan the all karumaan of Ahab'],
+    ['10:12 Killed the relatives of Ahasiyas'],
+    ['10:15 Killed the all relatives of Ahab'],
     ['10:32 The dying of Hihu'],
     [
-      '11:1 Ataliya rayna of Huda',
+      '11:1 Ataliya queen of Huda',
       '11:1 Athaliah Rules in Judah; Queen Athaliah of Judah; Athaliah Reigns over Judah; Athaliah and Joash'
     ],
-    ['11:17 The agreements inggimu of Hihuyada'],
+    ['11:17 The agreements made by Hihuyada'],
     [
       '12:1 The kingdom of Huwas of Huda',
       '12:1 King Joash of Judah; The Temple Repaired; Joash Repairs the Temple',
@@ -3241,23 +3242,23 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '17:1 The kingdom of Husiyas of Israel',
       '17:1 Hoshea Reigns over Israel; King Hoshea of Israel; Hoshea Rules in Israel; Hoshea Last King of Israel'
     ],
-    ['17:5 The pegkatalu of Samarya'],
+    ['17:5 The defeat of Samarya'],
     ['17:24 The living of from-Asirya there to Israel'],
     [
       '18:1 The kingdom of Isikiyas of Huda',
       "18:1 Hezekiah King of Judah; Hezekiah's Reign over Judah; Judah under Hezekiah; Hezekiah Rules in Judah; King Hezekiah of Judah",
       '18:1 (2 Chronicles 29.1,2; 31.1)'
     ],
-    ['18:13 The peglusud of Sinakirib of Huda'],
+    ['18:13 The invasion of Sinakirib of Huda'],
     [
       '19:1 The peg-question of Isikiyas ki Isayas',
       "19:1 Jerusalem's Deliverance Foretold; Hezekiah Seeks the Lord's Help; The King Asks Isaiah's Advice; Hezekiah Consults Isaiah",
       '19:1 (Isaiah 37.1-7)'
     ],
-    ['19:8 The pegpanginaaldek again of Asirya'],
+    ['19:8 The threatening again of Asirya'],
     ['19:20 The speech of Isayas ki Isikiyas'],
     [
-      '20:1 The pegderalu of Isikiyas and the pegkeulii rin',
+      '20:1 The sickness of Isikiyas and the pegkeulii rin',
       "20:1 King Hezekiah's Illness and Recovery; Hezekiah's Illness; Hezekiah's Sickness and Recovery"
     ],
     ['20:12 The servants talagpangguhud from Babylon'],
@@ -3278,17 +3279,13 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       "23:1 Josiah Renews the Covenant; Josiah's Religious Reforms; Josiah's Reformation; Josiah Does Away with Pagan Worship"
     ],
     ['23:21 The pegsahakeen of Peglihad of Spirit'],
-    ['23:24 The other pad inggimu of King Husiyas'],
+    ['23:24 The other pad made by King Husiyas'],
     ['23:31 The kingdom of Huwakas of Huda'],
     ['23:36 The kingdom of Huwakim of Huda'],
     ['24:1 Judah Overrun by Enemies'],
     ['24:8 The kingdom of Huwakin of Huda'],
     ['24:18 The kingdom of Sidikiyas of Huda'],
-    [
-      '25:1 The pegkatalu of Yerusalem',
-      '25:1 The Fall of Jerusalem',
-      '25:1 (2 Chronicles 36.13-21; Jeremiah 52.3b-11)'
-    ],
+    ['25:1 The defeat of Yerusalem', '25:1 The Fall of Jerusalem', '25:1 (2 Chronicles 36.13-21; Jeremiah 52.3b-11)'],
     ['25:8 The demolition of temple'],
     ['25:18 Impandakep the Jews and exiled there to Babylon'],
     ['25:22 The gubirnadur there to Huda Gidaliyas www'],
@@ -3405,7 +3402,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ['24:5 The paan ighalad there to God'],
     ['24:10 The pegbatu of person migbaley-house of God'],
     [
-      '25:1 The igkapitu year(s)',
+      '25:1 The seventh year(s)',
       '25:1 The Sabbatical Year; The Seventh Year; The Sabbath Year',
       '25:1 (Deuteronomy 15.1-11)'
     ],
@@ -3711,11 +3708,10 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ["2:19 Yosef's family return to Nazareth"],
     [
       "3:1 Yohan-the-Immerser's preaching",
-      '3:1 The Proclamation of John the Baptist; John the Baptist and Jesus; The Preaching of John the Baptist; John the Baptist Prepares the Way',
-      '3:1 (Mark 1.1-8; Luke 3.1-18; John 1.19-28)'
+      '3:1 The Proclamation of John the Baptist; John the Baptist and Jesus; The Preaching of John the Baptist; John the Baptist Prepares the Way'
     ],
     ['3:13 Yeshua gets immersed in the river'],
-    ['4:1 Yeshua is tempted by the devil', '4:1 The Temptation of Jesus', '4:1 (Mark 1.12,13; Luke 4.1-13)'],
+    ['4:1 Yeshua is tempted by the devil', '4:1 The Temptation of Jesus'],
     ['4:12 Yeshua begins his ministry'],
     ['4:18 Yeshua calls his first four followers'],
     ["4:23 Yeshua's healing is very popular"],
@@ -3737,42 +3733,30 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ['6:19 Wealth in heaven'],
     ['6:22 The eyes'],
     ['6:24 God and wealth'],
-    ['7:1 Teaching about judging', "7:1 Judging Others; Don't Condemn Others", '7:1 (Luke 6.37,38,41,42)'],
+    ['7:1 Teaching about judging', "7:1 Judging Others; Don't Condemn Others"],
     ['7:7 Requesting, searching, and knocking'],
     ['7:13 The wide and narrow gates'],
     ['7:15 Recognising the tree by the fruit'],
     ['7:21 Words need actions'],
     ['7:24 The importance of foundations'],
-    ['7:28 The katenged of Yeshua'],
+    ["7:28 Yeshua's authority"],
     [
       '8:1 Yeshua heals a man with leprosy',
-      '8:1 Jesus Heals a Man; Jesus Cleanses a Leper; Jesus Heals a Man with Leprosy; Miracles and teaching; The Man With Leprosy',
-      '8:1 (Mark 1.40-45; Luke 5.12-16)'
+      '8:1 Jesus Heals a Man; Jesus Cleanses a Leper; Jesus Heals a Man with Leprosy; Miracles and teaching; The Man With Leprosy'
     ],
     ["8:5 Yeshua heals a Roman's slave"],
     ['8:14 Yeshua heals the people'],
     ['8:18 Some wanted to follow Yeshua'],
     ['8:23 Yeshua commands the wind'],
     ['8:28 Yeshua banishes demons into a herd of pigs'],
-    [
-      '9:1 Yeshua forgives and heals a paralysed man',
-      '9:1 Jesus Heals a Paralyzed Man; Jesus Heals a Paralytic',
-      '9:1 (Mark 2.1-12; Luke 5.17-26)'
-    ],
+    ['9:1 Yeshua forgives and heals a paralysed man', '9:1 Jesus Heals a Paralyzed Man; Jesus Heals a Paralytic'],
     ['9:9 Yeshua calls Matthew and they dine with ‘sinners’'],
     ['9:14 Yeshua is asked about fasting'],
     ['9:18 Yeshua raises a dead girl and heals a woman from bleeding'],
     ['9:27 Yeshua heals two blind men'],
     ["9:32 Yeshua heals a man who couldn't talk"],
     ['9:35 The large harvest'],
-    [
-      '10:1 The pegpeyipanew of Yeshua of 12 follower din',
-      '10:1 Jesus Sends Out the Twelve Apostles',
-      '10:1 Jesus Sends Out the Twelve',
-      '10:1 The Twelve Apostles',
-      '10:1 The Twelve are commissioned',
-      '10:1 (Mark 3.13-19; Luke 6.12-16)'
-    ],
+    ['10:1 Yeshua commissions the twelve', '10:1 Jesus Sends Out the Twelve Apostles; The Twelve are commissioned'],
     ['10:5 Yeshua sends out the twelve'],
     ['10:16 The coming persecution'],
     ['10:26 Who to fear'],
@@ -3782,8 +3766,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     [
       '11:1 Yeshua and Yohan-the-Immerser',
       '11:1 Jesus and John the Baptist',
-      '11:1 The Messengers from John the Baptist',
-      '11:1 (Luke 7.18-35)'
+      '11:1 The Messengers from John the Baptist'
     ],
     ['11:20 Cities that rejected the messiah'],
     ["11:25 Yeshua's load is light"],
@@ -3793,8 +3776,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '12:1 The Question about the Sabbath',
       '12:1 Opposition to Jesus',
       '12:1 Plucking Grain on the Sabbath',
-      '12:1 Controversy about the Sabbath',
-      '12:1 (Mark 2.23-28; Luke 6.1-5)'
+      '12:1 Controversy about the Sabbath'
     ],
     ['12:9 The man with the clawed fist'],
     ['12:15 Yeshua was chosen by God'],
@@ -3807,8 +3789,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '13:1 The parable about spreading seed',
       '13:1 Parables',
       '13:1 Story of the Farmer Scattering Seed',
-      '13:1 The Parable of the Sower',
-      '13:1 (Mark 4.1-9; Luke 8.4-8)'
+      '13:1 The Parable of the Sower'
     ],
     ["13:10 Yeshua's use of parables"],
     ['13:18 The meaning/salvation of parable concerning the planting'],
@@ -3825,8 +3806,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '14:1 The beheading of Yohan-the-Immerser',
       '14:1 The Death of John the Baptist',
       '14:1 Death of John the Baptist',
-      '14:1 John the Baptist Beheaded',
-      '14:1 (Mark 6.14-29; Luke 9.7-9)'
+      '14:1 John the Baptist Beheaded'
     ],
     ['14:13 The feeding of 5,000 families'],
     ['14:22 Yeshua and Peter walk on the lake'],
@@ -3836,8 +3816,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '15:1 The Tradition of the Elders',
       '15:1 The Teaching of the Ancestors',
       '15:1 Clean and Unclean',
-      '15:1 Jesus Teaches about Inner Purity',
-      '15:1 (Mark 7.1-13)'
+      '15:1 Jesus Teaches about Inner Purity'
     ],
     ['15:10 True ‘dirtiness’'],
     ['15:21 The non-Jewish woman with amazing faith'],
@@ -3847,20 +3826,18 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '16:1 Requesting a sign in the sky',
       '16:1 The Demand for a Miracle',
       '16:1 Leaders Demand a Miraculous Sign',
-      '16:1 The Demand for a Sign',
-      '16:1 (Mark 8.11-13; Luke 12.54-56)'
+      '16:1 The Demand for a Sign'
     ],
     ['16:5 The yeast of the Pharisees and Sadducees'],
     ["16:13 Peter acknowledges Yeshua as God's son"],
     ['16:21 Yeshua talks about future suffering and death'],
-    ["17:1 Yeshua's face shines brightly", '17:1 The Transfiguration', '17:1 (Mark 9.2-13; Luke 9.28-36)'],
+    ["17:1 Yeshua's face shines brightly", '17:1 The Transfiguration'],
     ['17:14 Yeshua drives a demon out of a boy'],
     ['17:21 Yeshua speaks again about his forthcoming death'],
     ['17:24 Paying the temple tax'],
     [
       '18:1 Who is the greatest?',
-      '18:1 True Greatness; Who Is the Greatest?; The Greatest in the Kingdom of Heaven; Teaching about the kingdom',
-      '18:1 (Mark 9.33-37; Luke 9.46-48)'
+      '18:1 True Greatness; Who Is the Greatest?; The Greatest in the Kingdom of Heaven; Teaching about the kingdom'
     ],
     ['18:10 Finding the lost sheep'],
     ['18:15 Confronting an offender'],
@@ -3872,8 +3849,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '19:1 Divorce',
       '19:1 Teaching about Divorce',
       '19:1 Jesus Teaches about Divorce',
-      '19:1 On the road to Jerusalem',
-      '19:1 (Mark 10.1-12)'
+      '19:1 On the road to Jerusalem'
     ],
     ['19:13 Yeshua blesses the children'],
     ['19:16 Answering the rich man'],
@@ -3892,8 +3868,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '21:1 Jesus in the temple',
       '21:1 The Triumphant Entry into Jerusalem',
       '21:1 The Triumphal Entry',
-      "21:1 Jesus' Triumphal Entry into Jerusalem",
-      '21:1 (Mark 11.1-11; Luke 19.28-40; John 12.12-19)'
+      "21:1 Jesus' Triumphal Entry into Jerusalem"
     ],
     ['21:12 Anger aroused in the temple'],
     ['21:18 Yeshua kills the fig tree'],
@@ -3902,10 +3877,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ['21:33 The parable about the evil tenants'],
     [
       '22:1 The parable about the wedding reception',
-      '22:1 Story of the Great Feast',
-      '22:1 The Parable of the Wedding Banquet',
-      '22:1 The Parable of the Wedding Feast',
-      '22:1 (Luke 14.15-24)'
+      '22:1 Story of the Great Feast; The Parable of the Wedding Banquet; The Parable of the Wedding Feast'
     ],
     ['22:15 The question about paying tax'],
     ['22:23 The question about marriage in heaven'],
@@ -3916,8 +3888,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '23:1 Jesus Denounces Scribes and Pharisees',
       '23:1 Jesus Warns the Religious Leaders',
       '23:1 Jesus Warns against the Teachers of the Law and the Pharisees',
-      '23:1 Seven Woes',
-      '23:1 (Mark 12.38,39; Luke 11.43,46; 20.45,46)'
+      '23:1 Seven Woes'
     ],
     ["23:13 Yeshua reveals the hypocrisy of those who're religious"],
     ['23:29 Punishment for mistreating prophets'],
@@ -3928,14 +3899,13 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '24:1 Jesus Speaks of the Destruction of the Temple',
       '24:1 The Destruction of the Temple Foretold',
       '24:1 Signs of the End of the Age',
-      '24:1 Jesus Foretells the Future',
-      '24:1 (Mark 13.1,2; Luke 21.5,6)'
+      '24:1 Jesus Foretells the Future'
     ],
     ['24:3 Future calamities and persecution'],
     ['24:15 Desecration and false teachers'],
     ['24:29 The miraculous appearance of the messiah'],
     ['24:32 Watch the fig tree'],
-    ['24:36 Ware nataheyi the day of return din'],
+    ['24:36 Ware known the day of return din'],
     ['24:45 The watchful servant and the slacker'],
     [
       '25:1 The parable about not being prepared',
@@ -3951,8 +3921,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '26:1 The Plot against Jesus',
       '26:1 The trial and crucifixion of Jesus',
       '26:1 The Plot Against Jesus',
-      '26:1 The Plot to Kill Jesus',
-      '26:1 (Mark 14.1,2; Luke 22.1,2; John 11.45-53)'
+      '26:1 The Plot to Kill Jesus'
     ],
     ['26:6 Yeshua is anointed with lotion'],
     ['26:14 Yudas agrees to turn in Yeshua'],
@@ -3967,8 +3936,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '27:1 Yeshua is taken to Pilate',
       '27:1 Judas Hangs Himself',
       '27:1 Jesus Brought before Pilate',
-      '27:1 Jesus Is Taken to Pilate',
-      '27:1 (Mark 15.1; Luke 23.1,2; John 18.28-32)'
+      '27:1 Jesus Is Taken to Pilate'
     ],
     ["27:3 Yudas' regret and suicide"],
     ['27:11 Yeshua faces Pilate'],
@@ -3982,15 +3950,14 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '28:1 The women encounter the messenger and then meet Yeshua',
       '28:1 The resurrection',
       '28:1 The Resurrection',
-      '28:1 The Resurrection of Jesus',
-      '28:1 (Mark 16.1-10; Luke 24.1-12; John 20.1-10)'
+      '28:1 The Resurrection of Jesus'
     ],
     ['28:11 The guards are paid to lie'],
     ['28:16 Yeshua commissions his apprentices as missionaries']
   ],
   'MIC': [
     ['1:1 The peglungku of Samarya and of Yerusalem'],
-    ['1:10 The peglusud of enemy of Yerusalem'],
+    ['1:10 The invasion of enemy of Yerusalem'],
     [
       '2:1 The peglegpad of me talagdeeg-deeg',
       "2:1 Man's Plans and God's; Judgment against Wealthy Oppressors; The Fate of Those Who Oppress the Poor; Social Evils Denounced"
@@ -4226,11 +4193,8 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '2:1 The pegkateil of descendants there to kampu',
       "2:1 The Arrangement of the Tribal Camps; The Arrangement of the Tribes in Camp; The Order of Encampment and Marching; Organization for Israel's Camp"
     ],
-    [
-      '3:1 The me lukes child of Aarun',
-      "3:1 The Levites; The Sons of Aaron; Levites Appointed for Service; Aaron's Sons"
-    ],
-    ['3:40 The peglekat of me kinakakayan'],
+    ['3:1 The sons of Aarun', "3:1 The Levites; The Sons of Aaron; Levites Appointed for Service; Aaron's Sons"],
+    ['3:40 The opening of me kinakakayan'],
     [
       '4:1 The work of descendants of Kuhat',
       '4:1 The Duties of the Levite Clan of Kohath; Duties of the Kohathite Clan; The Kohathites'
@@ -4255,7 +4219,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ],
     ['8:5 The peghalad of me Libita'],
     ['9:1 The pegsahakeen of Peglihad of Messenger', '9:1 The Passover; The Passover at Sinai; The Second Passover'],
-    ['10:1 The me trumpita pelata', '10:1 The Silver Trumpets'],
+    ['10:1 The trumpets pelata', '10:1 The Silver Trumpets'],
     ['10:11 The peg-awe of descendants of Israel of Sinay'],
     [
       '11:1 The place Tabira',
@@ -4275,7 +4239,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ['14:1 The pegsagsahukul of descendants of Israel', '14:1 The People Complain; The People Rebel'],
     ['14:11 The peghangyu of Moses of God'],
     ['14:26 The peglegpad of me sagsahukulen'],
-    ['14:39 The peglusud of descendants of Israel natalu them'],
+    ['14:39 The invasion of descendants of Israel natalu them'],
     [
       '15:1 The laws concerning the igmanubad',
       '15:1 Supplementary Offerings; Laws about Sacrifice; Laws concerning Offerings; Various Offerings'
@@ -4310,9 +4274,9 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ],
     ['20:14 Ware pabayaa of King of place Idum the descendants of Israel'],
     ['20:22 The death of Aarun'],
-    ['21:1 The pegkatalu of me Kanaanen', '21:1 Victory over the Canaanites; The Bronze Serpent; Arad Destroyed'],
+    ['21:1 The defeat of me Kanaanen', '21:1 Victory over the Canaanites; The Bronze Serpent; Arad Destroyed'],
     ['21:10 The peg-alingkus dan there to Muwab'],
-    ['21:21 The pegkatalu of Sihun and of Ug'],
+    ['21:21 The defeat of Sihun and of Ug'],
     [
       '22:1 The pegpeumew of Balak ki Balaam',
       '22:1 Israel in the plains of Moab; Balak Summons Balaam to Curse Israel; The King of Moab Sends for Balaam; Balak Sends for Balaam; Balak Summons Balaam'
@@ -4339,7 +4303,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ['26:42 The descendants of Dan'],
     ['26:44 The descendants of Asir'],
     ['26:48 The descendants of Naptali'],
-    ['26:51 The most of all lukes and the pegbaad-part of land'],
+    ['26:51 The most of all male and the pegbaad-part of land'],
     ['26:57 The descendants of Libi'],
     ['27:1 The women child of Silupihad', "27:1 The Daughters of Zelophehad; Zelophehad's Daughters"],
     ['27:12 The peg-alam ki Josh. isip liwan ki Moses'],
@@ -4353,7 +4317,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ['28:16 The me halad of Feast of Paan Ware Patulin'],
     ['28:26 The igmanubad of Feast of Pegsawit'],
     [
-      '29:1 The igmanubad of Feast of Pegparahing of me Trumpita',
+      '29:1 The igmanubad of Feast of Pegparahing of Trumpets',
       '29:1 Offerings at the Festival of Trumpets; The Offerings at the New Year Festival; Feast of Trumpets; Offerings for the Festival of Trumpets',
       '29:1 (Leviticus 23.23-25)'
     ],
@@ -4364,7 +4328,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '30:1 Rules about Vows; Vows Made by Women; Vows; Laws concerning Vows'
     ],
     [
-      '31:1 The pegkatalu of me from-Midiyan',
+      '31:1 The defeat of me from-Midiyan',
       '31:1 Vengeance on the Midianites; Conquest of the Midianites; The Holy War against Midian; War against Midian'
     ],
     ['31:13 The returning home of soldiers'],
@@ -4536,50 +4500,49 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ['3:7 The message to the assembly in Filadelfia'],
     ['3:14 The message to the assembly in Laodicea'],
     [
-      '4:1 The worshipping there to sky/heaven',
+      '4:1 Worshipping in heaven',
       '4:1 Visions of heaven; Worship in Heaven; The Heavenly Worship; The Throne in Heaven'
     ],
-    ['5:1 The linulun document and the Nati Karniru', '5:1 The Lamb Opens the Scroll; The Scroll and the Lamb'],
-    ['6:1 The peglekat of me piket', '6:1 The Lamb Breaks the First Six Seals; The Seven Seals'],
+    ['5:1 The scroll and the lamb', '5:1 The Lamb Opens the Scroll; The Scroll and the Lamb'],
+    ['6:1 The lamb breaks the first six seals', '6:1 The Seven Seals'],
     [
-      '7:1 The 144,000 person nakulitan',
+      '7:1 The 144,000 marked Israelis',
       "7:1 The 144,000 of Israel Sealed; The 144,000 People of Israel; God's People Will Be Preserved"
     ],
-    ['7:9 The susuluhi person nangukumbale of maangkag'],
+    ['7:9 The huge crowd dressed in white'],
+    ['8:1 The lamb of seventh seal', '8:1 The Seventh Seal and the Golden Censer; The Lamb Breaks the Seventh Seal'],
+    ['8:6 The first four trumpets'],
+    ['9:1 The fifth trumpet brings the first terror'],
+    ['9:13 The sixth trumpet brings the second terror'],
     [
-      '8:1 The peglekat of igkapitu piket',
-      '8:1 The Seventh Seal and the Golden Censer; The Lamb Breaks the Seventh Seal'
-    ],
-    ['8:6 The seven trumpita'],
-    ['9:1 The Fifth Trumpet Brings the First Terror'],
-    [
-      '10:1 The messenger and the deisek linulun document',
+      '10:1 The messenger and the small scroll',
       '10:1 The Angel with the Little Scroll; The Angel and the Small Scroll'
     ],
-    ['11:1 The two talagpamalehet', '11:1 The Two Witnesses'],
-    ['11:15 The igkapitu trumpita'],
-    ['12:1 The woman and the salimbaweng', '12:1 The Woman and the Dragon; Seven visions'],
-    ['13:1 The two mananap makaliyas-liyas', '13:1 The Two Beasts'],
-    ['14:1 The Nati Karniru and the 144,000 people', '14:1 The Lamb and the 144,000; The Lamb and His People'],
-    ['14:6 The three messenger'],
-    ['14:14 The peggaani of world'],
+    ['11:1 The two witnesses', '11:1 The Two Witnesses'],
+    ['11:15 The seventh trumpet brings the third terror'],
+    ['12:1 The woman and the dinosaur', '12:1 The Woman and the Dragon; Seven visions'],
+    ['12:18 The two wild animals'],
+    ['13:1 The Two Beasts'],
+    ['14:1 The lamb and the 144,000', '14:1 The Lamb and the 144,000; The Lamb and His People'],
+    ['14:6 The three messengers'],
+    ['14:14 The harvest of the world'],
     [
-      '15:1 The messengers mig-uyan of ending me salerep',
+      '15:1 The messengers bringing the final plagues',
       '15:1 The Song of Moses and of the Lamb; The Angels with the Last Plagues; The Angels with the Seven Last Plagues; The seven bowls; Seven Angels with Seven Plagues'
     ],
-    ['16:1 The me yahung intahuan of langet of God', "16:1 The Bowls of God's Anger; The Seven Bowls of God's Wrath"],
+    ["16:1 The pouring out of God's anger", "16:1 The Bowls of God's Anger; The Seven Bowls of God's Wrath"],
     [
-      '17:1 The is told woman egpamelegye of body',
+      '17:1 The immoral woman drunk with blood',
       '17:1 The Woman and the Beast; The Great Prostitute; The Great Whore and the Beast; The Famous Prostitute'
     ],
-    ['18:1 The demolition of Babylon', '18:1 The Fall of Babylon'],
+    ["18:1 Babylon's fall", '18:1 The Fall of Babylon'],
     ['19:1 Hallelujah!; The Rejoicing in Heaven; Songs of Victory in Heaven'],
-    ['19:5 The feast of wedding of Nati Karniru'],
-    ['19:11 The migpangudde of maangkag kudde'],
-    ['20:1 The 1,000 year(s)', '20:1 The Thousand Years'],
-    ['20:7 The pegkatalu of Satan'],
-    ['20:11 The ending judging'],
-    ['21:1 The new sky/heaven and the new land', '21:1 The New Heaven and the New Earth; The New Jerusalem'],
+    ["19:5 The lamb's wedding reception"],
+    ['19:11 The horse-rider of white horse'],
+    ['20:1 The thousand years'],
+    ["20:7 Satan's defeat"],
+    ['20:11 The dead are revived for judgement'],
+    ['21:1 The new sky and the new earth', '21:1 The New Heaven and the New Earth; The New Jerusalem'],
     ['21:9 The new Yerusalem'],
     ['22:1 The River of Life'],
     ["22:6 Yeshua's return"],
@@ -4724,8 +4687,8 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '13:1 The scolding of Samwil ki Saul',
       "13:1 Continued War with Philistia; Campaign against the Philistines; Samuel Rebukes Saul; War against the Philistines; Saul's Unlawful Sacrifice"
     ],
-    ['14:1 The peglusud of Diyunatan of me from-Pilistiya', "14:1 Jonathan's Daring Deed; Jonathan's Daring Plan"],
-    ['14:16 The pegkatalu of me from-Pilistiya'],
+    ['14:1 The invasion of Diyunatan of me from-Pilistiya', "14:1 Jonathan's Daring Deed; Jonathan's Daring Plan"],
+    ['14:16 The defeat of me from-Pilistiya'],
     ['14:24 The neneyitabu of neimpusan e the gira'],
     ['14:47 The kingdom of Saul and the pamilya rin'],
     [
@@ -4762,7 +4725,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ],
     ['21:10 The going of David of Gat'],
     [
-      '22:1 The peggeles-geles of David minsan hendei',
+      '22:1 The peggeles-geles of David even hendei',
       '22:1 David as outlaw captain; The Slaughter of the Priests; David at Adullam and Mizpah; David and His Followers at Adullam; David at the Cave of Adullam'
     ],
     ['22:6 The pegpangimatey of me priest'],
@@ -4808,7 +4771,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
     ],
     ['2:8 The pegpeehetey of pamilya of David and of Saul'],
     ['3:1 Abner Defects to David'],
-    ['3:1 The children lukes of David'],
+    ['3:1 The children male of David'],
     ['3:6 The pegpasakup of Abnir ki David'],
     ['3:22 The killing ki Abnir'],
     ['3:31 The peglebeng ki Abnir'],
@@ -4920,7 +4883,7 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '2:1 Paul recalls his visit to Thessalonica',
       "2:1 Paul remembers his visit to Thessalonica; Paul's Work in Thessalonica; Paul and the church at Thessalonica; Paul's Ministry in Thessalonica"
     ],
-    ["2:17 Pauls' desire to visit Thessalonica again"],
+    ["2:17 Paul's desire to visit Thessalonica again"],
     [
       '4:1 Living to please God',
       '4:1 Live to Please God; A Life That Pleases God; A Life Pleasing to God; Christian conduct; Living to Please God'
@@ -5026,10 +4989,10 @@ Map<String, List<List<String>>> sectionHeadingsMappingForOET = {
       '1:1 The pegpalibed of God of his people',
       "1:1 Israel Urged to Repent; Zechariah's commission; A Call to Return to the Lord; The Lord Calls His People to Return to Him"
     ],
-    ['1:7 The me kudde revelation ki Sakariyas'],
+    ['1:7 The me horse revelation ki Sakariyas'],
     ['1:18 The me sungey revelation ki Sakariyas'],
     [
-      '2:1 The person mig-uyan of igseked',
+      '2:1 The person bringing of igseked',
       '2:1 Third Vision: The Man with a Measuring Line; A Man With a Measuring Line; The Vision of the Measuring Line; Future Prosperity of Jerusalem'
     ],
     ['2:6 The pegpeuli of God of nenaddakep'],

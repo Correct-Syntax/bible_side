@@ -1,7 +1,7 @@
 {
   "book": {
     "bookCode": "1CO",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.00",
+    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.07",
     "meta": [
       {
         "usfm": "3.0"
@@ -2071,7 +2071,7 @@
         {
           "verseNumber": "8",
           "contents": [
-            "so that we¦115667 can be feasting¦115667, not with old yeast or with yeast of evil and wicknedness, but with unleavened¦115682 bread¦115682 of sincerity¦115683 and of truth¦115685.",
+            "so that we¦115667 can be feasting¦115667, not with old yeast or with yeast of evil and wickedness¦115679, but with unleavened¦115682 bread¦115682 of sincerity¦115683 and of truth¦115685.",
             {
               "x": [
                 "+",
@@ -2091,7 +2091,7 @@
               "p": ""
             }
           ],
-          "verseText": "so that we¦115667 can be feasting¦115667, not with old yeast or with yeast of evil and wicknedness, but with unleavened¦115682 bread¦115682 of sincerity¦115683 and of truth¦115685."
+          "verseText": "so that we¦115667 can be feasting¦115667, not with old yeast or with yeast of evil and wickedness¦115679, but with unleavened¦115682 bread¦115682 of sincerity¦115683 and of truth¦115685."
         },
         {
           "verseNumber": "9",
@@ -2374,7 +2374,7 @@
         {
           "verseNumber": "12",
           "contents": [
-            "Some might say, ‘Everything is permissle for me,’ but not everything is beneficial¦115983. Everything might be permissible for me, but I don't¦115981 want those things to have control over me.",
+            "Some might say, ‘Everything is permissible for me,’ but not everything is beneficial¦115983. Everything might be permissible for me, but I don't¦115981 want those things to have control over me.",
             {
               "x": [
                 "+",
@@ -2388,7 +2388,7 @@
               "closing": "\\x*"
             }
           ],
-          "verseText": "Some might say, ‘Everything is permissle for me,’ but not everything is beneficial¦115983. Everything might be permissible for me, but I don't¦115981 want those things to have control over me."
+          "verseText": "Some might say, ‘Everything is permissible for me,’ but not everything is beneficial¦115983. Everything might be permissible for me, but I don't¦115981 want those things to have control over me."
         },
         {
           "verseNumber": "13",
@@ -2582,9 +2582,9 @@
               "add": "to me",
               "closing": "\\add*"
             },
-            ": “It is good for a man not to touch¦116165 a woman¦116163.”"
+            ": “It's good for a man not to touch¦116165 a woman¦116163.”"
           ],
-          "verseText": "Now concerning¦116156 what you all wrote¦116159 to me: “It is good for a man not to touch¦116165 a woman¦116163.”"
+          "verseText": "Now concerning¦116156 what you all wrote¦116159 to me: “It's good for a man not to touch¦116165 a woman¦116163.”"
         },
         {
           "verseNumber": "2",
@@ -2601,16 +2601,16 @@
               "add": "in terms of sexual needs¦116189",
               "closing": "\\add*"
             },
-            "."
+            ":"
           ],
-          "verseText": "Both husbands and wives have a marital duty to each other in terms of sexual needs¦116189."
+          "verseText": "Both husbands and wives have a marital duty to each other in terms of sexual needs¦116189:"
         },
         {
           "verseNumber": "4",
           "contents": [
-            "Wives' bodies belong to their husbands, not to themselves, and similarly, husbands' bodies belong to their wives, not to themselves."
+            "wives' bodies belong to their husbands, not to themselves, and similarly, husbands' bodies belong to their wives, not to themselves."
           ],
-          "verseText": "Wives' bodies belong to their husbands, not to themselves, and similarly, husbands' bodies belong to their wives, not to themselves."
+          "verseText": "wives' bodies belong to their husbands, not to themselves, and similarly, husbands' bodies belong to their wives, not to themselves."
         },
         {
           "verseNumber": "5",
@@ -2664,21 +2664,28 @@
         {
           "verseNumber": "8",
           "contents": [
-            "Now to the unmarried and¦116292 to the widows¦116294 I say that it's good¦116296 if they¦116302 remain¦116302",
+            "Now to the unmarried¦116291 and¦116292 to the widows¦116294 I say that it's good¦116296 if they¦116302 remain¦116302 like me,",
             {
-              "add": "unmarried",
-              "closing": "\\add*"
-            },
-            "like me,"
+              "f": [
+                "+",
+                {
+                  "fr": "7:8"
+                },
+                {
+                  "ft": "This is intentionally left ambiguous because we can't be certain what Paul meant here."
+                }
+              ],
+              "closing": "\\f*"
+            }
           ],
-          "verseText": "Now to the unmarried and¦116292 to the widows¦116294 I say that it's good¦116296 if they¦116302 remain¦116302 unmarried like me,"
+          "verseText": "Now to the unmarried¦116291 and¦116292 to the widows¦116294 I say that it's good¦116296 if they¦116302 remain¦116302 like me,"
         },
         {
           "verseNumber": "9",
           "contents": [
             "but¦116308 if they don't¦116309 have self-control, they should¦116311 marry because¦116314 it's better¦116313 to marry than to burn",
             {
-              "add": "with sexual desires",
+              "add": "with sexual desire",
               "closing": "\\add*"
             },
             ".",
@@ -2686,7 +2693,7 @@
               "p": ""
             }
           ],
-          "verseText": "but¦116308 if they don't¦116309 have self-control, they should¦116311 marry because¦116314 it's better¦116313 to marry than to burn with sexual desires."
+          "verseText": "but¦116308 if they don't¦116309 have self-control, they should¦116311 marry because¦116314 it's better¦116313 to marry than to burn with sexual desire."
         },
         {
           "verseNumber": "10",
@@ -2735,16 +2742,16 @@
               "nd": "master¦116359",
               "closing": "\\nd*"
             },
-            ") that if any brother¦116362 has an unbelieving¦116365 wife¦116363 and she agrees to live with him, he shouldn't divorce her."
+            ") that if any believing husband¦116362 has an unbelieving¦116365 wife¦116363 and she agrees to live with him, he shouldn't divorce her."
           ],
-          "verseText": "But to the rest I say (I, not the master¦116359) that if any brother¦116362 has an unbelieving¦116365 wife¦116363 and she agrees to live with him, he shouldn't divorce her."
+          "verseText": "But to the rest I say (I, not the master¦116359) that if any believing husband¦116362 has an unbelieving¦116365 wife¦116363 and she agrees to live with him, he shouldn't divorce her."
         },
         {
           "verseNumber": "13",
           "contents": [
-            "Similarly, if any woman¦116377 has an unbelieving¦116383 husband and he agrees to live with her, she shouldn't divorce her husband."
+            "Similarly, if any woman¦116377 has an unbelieving¦116383 husband and he agrees to live with her, she shouldn't divorce him."
           ],
-          "verseText": "Similarly, if any woman¦116377 has an unbelieving¦116383 husband and he agrees to live with her, she shouldn't divorce her husband."
+          "verseText": "Similarly, if any woman¦116377 has an unbelieving¦116383 husband and he agrees to live with her, she shouldn't divorce him."
         },
         {
           "verseNumber": "14",
@@ -2759,9 +2766,9 @@
               "add": "exposed to faith",
               "closing": "\\add*"
             },
-            "through the brother¦116414, otherwise¦116416 your¦116420 children¦116419 would be ‘defiled’, but now they are declared innocent."
+            "through the believing husband¦116414, otherwise¦116416 your¦116420 children¦116419 would be ‘defiled’, but now they are declared innocent."
           ],
-          "verseText": "You see, the unbelieving husband¦116400 is exposed to faith through his wife, and the unbelieving wife is exposed to faith through the brother¦116414, otherwise¦116416 your¦116420 children¦116419 would be ‘defiled’, but now they are declared innocent."
+          "verseText": "You see, the unbelieving husband¦116400 is exposed to faith through his wife, and the unbelieving wife is exposed to faith through the believing husband¦116414, otherwise¦116416 your¦116420 children¦116419 would be ‘defiled’, but now they are declared innocent."
         },
         {
           "verseNumber": "15",
@@ -2771,19 +2778,23 @@
               "add": "that person",
               "closing": "\\add*"
             },
-            "go. In such cases, the brother¦116436 or the sister¦116439 is not tied down",
+            "go. In such cases, the believing spouse is not tied down",
             {
               "add": "to serving their departed spouse",
               "closing": "\\add*"
             },
             ", but¦116444",
             {
+              "add": "rather",
+              "closing": "\\add*"
+            },
+            {
               "nd": "God¦116450",
               "closing": "\\nd*"
             },
             "has called¦116446 us to peace¦116445."
           ],
-          "verseText": "But if the unbeliever¦116430 departs, let that person go. In such cases, the brother¦116436 or the sister¦116439 is not tied down to serving their departed spouse, but¦116444 God¦116450 has called¦116446 us to peace¦116445."
+          "verseText": "But if the unbeliever¦116430 departs, let that person go. In such cases, the believing spouse is not tied down to serving their departed spouse, but¦116444 rather God¦116450 has called¦116446 us to peace¦116445."
         },
         {
           "verseNumber": "16",
@@ -2814,7 +2825,7 @@
         {
           "verseNumber": "17",
           "contents": [
-            "Neverthless, each person should¦116486 live according to how the",
+            "Nevertheless, each person should¦116486 live according to how the",
             {
               "nd": "master¦116476",
               "closing": "\\nd*"
@@ -2826,7 +2837,7 @@
             },
             "has called¦116481 them. That's what I teach in all the assemblies¦116492."
           ],
-          "verseText": "Neverthless, each person should¦116486 live according to how the master¦116476 has assigned them and how God¦116483 has called¦116481 them. That's what I teach in all the assemblies¦116492."
+          "verseText": "Nevertheless, each person should¦116486 live according to how the master¦116476 has assigned them and how God¦116483 has called¦116481 them. That's what I teach in all the assemblies¦116492."
         },
         {
           "verseNumber": "18",
@@ -2836,9 +2847,9 @@
               "add": "previously",
               "closing": "\\add*"
             },
-            "circumcised, shouldn't become uncircumcised. Anyone who was called who was uncircumcised, shouldn't get circumcised."
+            "circumcised, shouldn't become ‘uncircumcised’. Anyone who was called who was uncircumcised, shouldn't get circumcised."
           ],
-          "verseText": "Anyone who was called and who was previously circumcised, shouldn't become uncircumcised. Anyone who was called who was uncircumcised, shouldn't get circumcised."
+          "verseText": "Anyone who was called and who was previously circumcised, shouldn't become ‘uncircumcised’. Anyone who was called who was uncircumcised, shouldn't get circumcised."
         },
         {
           "verseNumber": "19",
@@ -2855,9 +2866,9 @@
         {
           "verseNumber": "20",
           "contents": [
-            "Each person should¦116531 maintain the position that they were in when they were called¦116527."
+            "Each person should¦116531 maintain the position they were in when they were called¦116527:"
           ],
-          "verseText": "Each person should¦116531 maintain the position that they were in when they were called¦116527."
+          "verseText": "Each person should¦116531 maintain the position they were in when they were called¦116527:"
         },
         {
           "verseNumber": "21",
@@ -2986,9 +2997,9 @@
         {
           "verseNumber": "29",
           "contents": [
-            "But brothers¦116653 and¦116653 sisters¦116653, I will say this: the time is short¦116656, so from now on, even those who're married should live as if they're not,"
+            "But brothers¦116653 and¦116653 sisters¦116653, I will say this: the time is short¦116656, so from now on, even those who're married should live as if they're not."
           ],
-          "verseText": "But brothers¦116653 and¦116653 sisters¦116653, I will say this: the time is short¦116656, so from now on, even those who're married should live as if they're not,"
+          "verseText": "But brothers¦116653 and¦116653 sisters¦116653, I will say this: the time is short¦116656, so from now on, even those who're married should live as if they're not."
         },
         {
           "verseNumber": "30",
@@ -3054,12 +3065,12 @@
               "add": "from the world",
               "closing": "\\add*"
             },
-            "— but married¦116761 women are concerned about worldly affairs—wanting to please¦116767 their husbands¦116770.",
+            "—but married¦116761 women are concerned about worldly affairs—wanting to please¦116767 their husbands¦116770.",
             {
               "p": ""
             }
           ],
-          "verseText": "are concerning about things of the master¦116749—so that both their bodies and their spirits¦116758 can be separate from the world— but married¦116761 women are concerned about worldly affairs—wanting to please¦116767 their husbands¦116770."
+          "verseText": "are concerning about things of the master¦116749—so that both their bodies and their spirits¦116758 can be separate from the world—but married¦116761 women are concerned about worldly affairs—wanting to please¦116767 their husbands¦116770."
         },
         {
           "verseNumber": "35",
@@ -3097,7 +3108,19 @@
                   "fr": "7:36-38"
                 },
                 {
-                  "ft": "Yes, this sounds strange, but it's not certain here (and in the next two verses) if Paul is writing about a father and his unmarried daughter who's engaged, or about an engaged man deciding about his fiancée."
+                  "ft": [
+                    "Yes, ‘his unmarried woman’ sounds strange, but it's not certain here (and in the next two verses) if Paul is writing about a father and",
+                    {
+                      "em": "his unmarried daughter who's engaged",
+                      "closing": "\\em*"
+                    },
+                    ", or about an engaged man deciding about",
+                    {
+                      "em": "his fiancée",
+                      "closing": "\\em*"
+                    },
+                    "."
+                  ]
                 }
               ],
               "closing": "\\f*"
@@ -3116,19 +3139,19 @@
         {
           "verseNumber": "38",
           "contents": [
-            "That way, anyone allowing his unmarried woman to marry does well, but anyone who doesn't makes a better¦116875 decision.",
+            "That way, anyone allowing his unmarried woman to marry does well, but anyone who doesn't, makes a better¦116875 decision.",
             {
               "p": ""
             }
           ],
-          "verseText": "That way, anyone allowing his unmarried woman to marry does well, but anyone who doesn't makes a better¦116875 decision."
+          "verseText": "That way, anyone allowing his unmarried woman to marry does well, but anyone who doesn't, makes a better¦116875 decision."
         },
         {
           "verseNumber": "39",
           "contents": [
-            "A wife is committed to her¦116887 husband as long as he lives, but if he passes away, she's free to marry whoever she want to, as long as he's a believer."
+            "A wife is committed to her¦116887 husband as long as he lives, but if he passes away, she's free to marry whoever she wants to, as long as he's a believer."
           ],
-          "verseText": "A wife is committed to her¦116887 husband as long as he lives, but if he passes away, she's free to marry whoever she want to, as long as he's a believer."
+          "verseText": "A wife is committed to her¦116887 husband as long as he lives, but if he passes away, she's free to marry whoever she wants to, as long as he's a believer."
         },
         {
           "verseNumber": "40",
@@ -3400,7 +3423,7 @@
       "chapterNumber": "9",
       "contents": [
         {
-          "s1": "The katenged of apostle"
+          "s1": "The missionary's responsibilities"
         },
         {
           "rem": "/s1 Paul Gives Up His Rights; Rights and Duties of an Apostle; The Rights of an Apostle"
@@ -3474,19 +3497,19 @@
               "add": "to support ourselves",
               "closing": "\\add*"
             },
-            "."
+            "?"
           ],
-          "verseText": "Or it is only Barnabas¦117263 and¦117262 I who have to work to support ourselves."
+          "verseText": "Or it is only Barnabas¦117263 and¦117262 I who have to work to support ourselves?"
         },
         {
           "verseNumber": "7",
           "contents": [
-            "What soldier¦117271 has to pay their own expenses? Who plants¦117276 a vineyard¦117277 and isn't",
+            "What soldier¦117271 has to pay his own expenses? Who plants¦117276 a vineyard¦117277 and isn't",
             {
               "add": "allowed",
               "closing": "\\add*"
             },
-            "to eat its fruit¦117283? Or who shepherds¦117289 a flock and isn't",
+            "to eat its¦117284 fruit¦117283? Or who shepherds¦117289 a flock and isn't",
             {
               "add": "allowed",
               "closing": "\\add*"
@@ -3501,7 +3524,7 @@
               "p": ""
             }
           ],
-          "verseText": "What soldier¦117271 has to pay their own expenses? Who plants¦117276 a vineyard¦117277 and isn't allowed to eat its fruit¦117283? Or who shepherds¦117289 a flock and isn't allowed to drink the milk they produce?"
+          "verseText": "What soldier¦117271 has to pay his own expenses? Who plants¦117276 a vineyard¦117277 and isn't allowed to eat its¦117284 fruit¦117283? Or who shepherds¦117289 a flock and isn't allowed to drink the milk they produce?"
         },
         {
           "verseNumber": "8",
@@ -3562,7 +3585,7 @@
               "add": "saying",
               "closing": "\\add*"
             },
-            "the anyone who's ploughing",
+            "that anyone who's ploughing",
             {
               "add": "a field",
               "closing": "\\add*"
@@ -3579,7 +3602,7 @@
             },
             "should expect a share of the harvest."
           ],
-          "verseText": "Isn't he saying that on our behalf? Yes, it was written¦117338 for our sake saying the anyone who's ploughing a field should expect to be paid, and anyone who threshes¦117350 the grain should expect a share of the harvest."
+          "verseText": "Isn't he saying that on our behalf? Yes, it was written¦117338 for our sake saying that anyone who's ploughing a field should expect to be paid, and anyone who threshes¦117350 the grain should expect a share of the harvest."
         },
         {
           "verseNumber": "11",
@@ -3686,9 +3709,9 @@
               "add": "any",
               "closing": "\\add*"
             },
-            "of those rights, and¦117450 even now, I'm not writing this to ask for material support for myself—I'd rather¦117460 die¦117461 that have someone deprive me of this reason for boasting¦117466."
+            "of those rights, and¦117450 even now, I'm not writing this to ask for material support for myself—I'd rather¦117460 die¦117461 than have someone deprive me of this reason for boasting¦117466."
           ],
-          "verseText": "But I haven't taken advantage of any of those rights, and¦117450 even now, I'm not writing this to ask for material support for myself—I'd rather¦117460 die¦117461 that have someone deprive me of this reason for boasting¦117466."
+          "verseText": "But I haven't taken advantage of any of those rights, and¦117450 even now, I'm not writing this to ask for material support for myself—I'd rather¦117460 die¦117461 than have someone deprive me of this reason for boasting¦117466."
         },
         {
           "verseNumber": "16",
@@ -3775,9 +3798,9 @@
               "add": "our religious",
               "closing": "\\add*"
             },
-            "rules, I behave like them (although not so far as to disobey God's law, because I am under Messiah's law) in order¦117584 to win them over."
+            "rules, I behave like them (although not so far as to disobey God's law, because I'm under Messiah's law) in order¦117584 to win them over."
           ],
-          "verseText": "To those outside our religious rules, I behave like them (although not so far as to disobey God's law, because I am under Messiah's law) in order¦117584 to win them over."
+          "verseText": "To those outside our religious rules, I behave like them (although not so far as to disobey God's law, because I'm under Messiah's law) in order¦117584 to win them over."
         },
         {
           "verseNumber": "22",
@@ -3810,9 +3833,9 @@
         {
           "verseNumber": "23",
           "contents": [
-            "I do all that for the sake of the good¦117614 message¦117614, so that I will share in it's blessings."
+            "I do all that for the sake of the good¦117614 message¦117614, so that I'll share in its blessings."
           ],
-          "verseText": "I do all that for the sake of the good¦117614 message¦117614, so that I will share in it's blessings."
+          "verseText": "I do all that for the sake of the good¦117614 message¦117614, so that I'll share in its blessings."
         },
         {
           "verseNumber": "24",
@@ -4811,14 +4834,14 @@
         {
           "verseNumber": "20",
           "contents": [
-            "So¦118531 then, when you¦118532 gather together¦118530 in one one, it's not to",
+            "So¦118531 then, when you¦118532 gather together¦118530 in one place¦118535, it's not to",
             {
               "add": "celebrate by",
               "closing": "\\add*"
             },
             "eating the master's¦118538 dinner"
           ],
-          "verseText": "So¦118531 then, when you¦118532 gather together¦118530 in one one, it's not to celebrate by eating the master's¦118538 dinner"
+          "verseText": "So¦118531 then, when you¦118532 gather together¦118530 in one place¦118535, it's not to celebrate by eating the master's¦118538 dinner"
         },
         {
           "verseNumber": "21",
@@ -6126,7 +6149,7 @@
             },
             "among¦120011 you¦120012 all!”",
             {
-              "s1": "The correct paahi of worshipping"
+              "s1": "The correct means of worshipping"
             },
             {
               "rem": "/s1 Orderly Worship; Order in the Church; A Call to Orderly Worship"
@@ -7021,12 +7044,12 @@
         {
           "verseNumber": "41",
           "contents": [
-            "The sun, the moon¦120881, and the stars all have their own diffrent types of beauty, and even the beauty of stars differs from one to another.",
+            "The sun, the moon¦120881, and the stars all have their own different types of beauty, and even the beauty of stars differs from one to another.",
             {
               "p": ""
             }
           ],
-          "verseText": "The sun, the moon¦120881, and the stars all have their own diffrent types of beauty, and even the beauty of stars differs from one to another."
+          "verseText": "The sun, the moon¦120881, and the stars all have their own different types of beauty, and even the beauty of stars differs from one to another."
         },
         {
           "verseNumber": "42",
