@@ -105,9 +105,9 @@ class Tokenizer {
         List<String> punctuation = tokenizeLeftoverPunctuation(splitToken.last);
         tokenList.add(splitToken.first);
 
-        // Remove punctuaction from the numerical token
-        tokenList.add(splitToken.last.replaceAll(RegExp(r'([.,:;“”])'), ''));
-        // Then re-add the punctuaction as individual tokens
+        // Remove punctuation from the numerical token
+        tokenList.add(splitToken.last.replaceAll(RegExp(r'([!?.,:;“”‘’)])'), ''));
+        // Then re-add the punctuation as individual tokens
         tokenList.addAll(punctuation);
 
         finalTokens.add(tokenList);
