@@ -8,7 +8,8 @@
 import 'package:bible_side/ui/views/bibles/bibles_view.dart' as _i7;
 import 'package:bible_side/ui/views/home/home_view.dart' as _i2;
 import 'package:bible_side/ui/views/reader/reader_view.dart' as _i5;
-import 'package:bible_side/ui/views/reader_navigation/reader_navigation_view.dart' as _i6;
+import 'package:bible_side/ui/views/reader_navigation/reader_navigation_view.dart'
+    as _i6;
 import 'package:bible_side/ui/views/settings/settings_view.dart' as _i4;
 import 'package:bible_side/ui/views/startup/startup_view.dart' as _i3;
 import 'package:flutter/material.dart' as _i8;
@@ -118,119 +119,167 @@ extension NavigatorStateExtension on _i9.NavigationService {
     int? routerId,
     bool preventDuplicates = true,
     Map<String, String>? parameters,
-    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)? transition,
+    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)?
+        transition,
   ]) async {
     return navigateTo<dynamic>(Routes.homeView,
-        id: routerId, preventDuplicates: preventDuplicates, parameters: parameters, transition: transition);
+        id: routerId,
+        preventDuplicates: preventDuplicates,
+        parameters: parameters,
+        transition: transition);
   }
 
   Future<dynamic> navigateToStartupView([
     int? routerId,
     bool preventDuplicates = true,
     Map<String, String>? parameters,
-    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)? transition,
+    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)?
+        transition,
   ]) async {
     return navigateTo<dynamic>(Routes.startupView,
-        id: routerId, preventDuplicates: preventDuplicates, parameters: parameters, transition: transition);
+        id: routerId,
+        preventDuplicates: preventDuplicates,
+        parameters: parameters,
+        transition: transition);
   }
 
   Future<dynamic> navigateToSettingsView([
     int? routerId,
     bool preventDuplicates = true,
     Map<String, String>? parameters,
-    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)? transition,
+    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)?
+        transition,
   ]) async {
     return navigateTo<dynamic>(Routes.settingsView,
-        id: routerId, preventDuplicates: preventDuplicates, parameters: parameters, transition: transition);
+        id: routerId,
+        preventDuplicates: preventDuplicates,
+        parameters: parameters,
+        transition: transition);
   }
 
   Future<dynamic> navigateToReaderView([
     int? routerId,
     bool preventDuplicates = true,
     Map<String, String>? parameters,
-    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)? transition,
+    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)?
+        transition,
   ]) async {
     return navigateTo<dynamic>(Routes.readerView,
-        id: routerId, preventDuplicates: preventDuplicates, parameters: parameters, transition: transition);
+        id: routerId,
+        preventDuplicates: preventDuplicates,
+        parameters: parameters,
+        transition: transition);
   }
 
   Future<dynamic> navigateToReaderNavigationView([
     int? routerId,
     bool preventDuplicates = true,
     Map<String, String>? parameters,
-    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)? transition,
+    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)?
+        transition,
   ]) async {
     return navigateTo<dynamic>(Routes.readerNavigationView,
-        id: routerId, preventDuplicates: preventDuplicates, parameters: parameters, transition: transition);
+        id: routerId,
+        preventDuplicates: preventDuplicates,
+        parameters: parameters,
+        transition: transition);
   }
 
   Future<dynamic> navigateToBiblesView([
     int? routerId,
     bool preventDuplicates = true,
     Map<String, String>? parameters,
-    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)? transition,
+    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)?
+        transition,
   ]) async {
     return navigateTo<dynamic>(Routes.biblesView,
-        id: routerId, preventDuplicates: preventDuplicates, parameters: parameters, transition: transition);
+        id: routerId,
+        preventDuplicates: preventDuplicates,
+        parameters: parameters,
+        transition: transition);
   }
 
   Future<dynamic> replaceWithHomeView([
     int? routerId,
     bool preventDuplicates = true,
     Map<String, String>? parameters,
-    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)? transition,
+    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)?
+        transition,
   ]) async {
     return replaceWith<dynamic>(Routes.homeView,
-        id: routerId, preventDuplicates: preventDuplicates, parameters: parameters, transition: transition);
+        id: routerId,
+        preventDuplicates: preventDuplicates,
+        parameters: parameters,
+        transition: transition);
   }
 
   Future<dynamic> replaceWithStartupView([
     int? routerId,
     bool preventDuplicates = true,
     Map<String, String>? parameters,
-    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)? transition,
+    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)?
+        transition,
   ]) async {
     return replaceWith<dynamic>(Routes.startupView,
-        id: routerId, preventDuplicates: preventDuplicates, parameters: parameters, transition: transition);
+        id: routerId,
+        preventDuplicates: preventDuplicates,
+        parameters: parameters,
+        transition: transition);
   }
 
   Future<dynamic> replaceWithSettingsView([
     int? routerId,
     bool preventDuplicates = true,
     Map<String, String>? parameters,
-    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)? transition,
+    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)?
+        transition,
   ]) async {
     return replaceWith<dynamic>(Routes.settingsView,
-        id: routerId, preventDuplicates: preventDuplicates, parameters: parameters, transition: transition);
+        id: routerId,
+        preventDuplicates: preventDuplicates,
+        parameters: parameters,
+        transition: transition);
   }
 
   Future<dynamic> replaceWithReaderView([
     int? routerId,
     bool preventDuplicates = true,
     Map<String, String>? parameters,
-    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)? transition,
+    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)?
+        transition,
   ]) async {
     return replaceWith<dynamic>(Routes.readerView,
-        id: routerId, preventDuplicates: preventDuplicates, parameters: parameters, transition: transition);
+        id: routerId,
+        preventDuplicates: preventDuplicates,
+        parameters: parameters,
+        transition: transition);
   }
 
   Future<dynamic> replaceWithReaderNavigationView([
     int? routerId,
     bool preventDuplicates = true,
     Map<String, String>? parameters,
-    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)? transition,
+    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)?
+        transition,
   ]) async {
     return replaceWith<dynamic>(Routes.readerNavigationView,
-        id: routerId, preventDuplicates: preventDuplicates, parameters: parameters, transition: transition);
+        id: routerId,
+        preventDuplicates: preventDuplicates,
+        parameters: parameters,
+        transition: transition);
   }
 
   Future<dynamic> replaceWithBiblesView([
     int? routerId,
     bool preventDuplicates = true,
     Map<String, String>? parameters,
-    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)? transition,
+    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)?
+        transition,
   ]) async {
     return replaceWith<dynamic>(Routes.biblesView,
-        id: routerId, preventDuplicates: preventDuplicates, parameters: parameters, transition: transition);
+        id: routerId,
+        preventDuplicates: preventDuplicates,
+        parameters: parameters,
+        transition: transition);
   }
 }
