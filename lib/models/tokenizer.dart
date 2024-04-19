@@ -25,11 +25,12 @@ String text3 = 'holy¦113961>ones¦113961,  the¦113964>ones¦113964';
 
 /// [Tokenizer.tokenize] converts [text] into a list of tokens.
 ///
-/// Each token represents:
+/// Each token represents either:
 /// 1. A single word with punctuation.
 /// 2. A numerical value (e.g: 113960). It can be assumed that wherever there is
 /// a numerical token, it "belongs" to the preceding token.
 /// 3. If it contains special symbols, a string of words with punctuation.
+/// 4. Punctuation marks following the preceding token.
 ///
 /// Special symbols >, _, / and all punctuation marks are preserved within the tokens.
 ///
