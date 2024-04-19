@@ -1,4 +1,3 @@
-
 /// Mapping book codes to the full book name
 Map<String, dynamic> booksMapping = {
   'TORAH': {
@@ -116,9 +115,8 @@ Map<String, dynamic> booksMapping = {
     'books': {
       'REV': 'Revelation',
     }
-  }    
+  }
 };
-
 
 /// Mapping bookCodes to the number of chapters in each book
 Map<String, int> bookNumOfChaptersMapping = {

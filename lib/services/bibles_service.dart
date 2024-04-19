@@ -27,8 +27,7 @@ class BiblesService with ListenableServiceMixin {
   List<String> get recentBooks => _settingsService.recentBooks;
   ViewBy get viewBy => _settingsService.viewBy;
 
-  Future<void> initilize() async {
-  }
+  Future<void> initilize() async {}
 
   Future<void> reloadBiblesJson() async {
     await loadBibleVersion(Area.primary);
@@ -75,7 +74,7 @@ class BiblesService with ListenableServiceMixin {
   }
 
   String bookCodeToBook(String bookCode) {
-    return booksMapping[bookCode]!;
+    return ''; // booksMapping[bookCode]!;
   }
 
   String bookToBookCode(String book) {

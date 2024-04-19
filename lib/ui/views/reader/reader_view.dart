@@ -7,6 +7,8 @@ import 'package:stacked/stacked.dart';
 
 import '../../widgets/common/side_navigation_drawer/side_navigation_drawer.dart';
 import 'reader_viewmodel.dart';
+import 'widgets/primary_reader_appbar/primary_reader_appbar.dart';
+import 'widgets/secondary_reader_appbar/secondary_reader_appbar.dart';
 
 class ReaderView extends StackedView<ReaderViewModel> {
   const ReaderView({Key? key}) : super(key: key);
@@ -24,51 +26,64 @@ class ReaderView extends StackedView<ReaderViewModel> {
     Widget? child,
   ) {
     return Scaffold(
-      appBar: AppBar(
-        title: InkWell(
-          onTap: viewModel.onNavigationBtn,
-          borderRadius: BorderRadius.circular(12.0),
-          child: Text(
-            viewModel.getcurrentNavigationString(
-              viewModel.bookCode,
-              viewModel.chapterNumber,
-              viewModel.sectionNumber,
-            ),
-            style: Theme.of(context).textTheme.titleLarge!.copyWith(fontWeight: FontWeight.w500),
+      appBar: PreferredSize(
+        preferredSize: Size(double.infinity, kToolbarHeight),
+        child: SafeArea(
+          child: SecondaryReaderAppbar(
+            currentBook: 'John',
+            currentBibleVersion: viewModel.primaryAreaBible, // secondaryAreaBible
+            onTapBook: () {},
+            onTapBibleVersion: () {},
+            onTapClose: () {},
           ),
         ),
-        shadowColor: null,
-        actions: [
-          InkWell(
-            borderRadius: BorderRadius.circular(40.0),
-            onTap: viewModel.onBiblesBtn,
-            child: Container(
-              padding: const EdgeInsets.symmetric(horizontal: 14.0, vertical: 6.0),
-              decoration: BoxDecoration(
-                color: Theme.of(context).dialogBackgroundColor,
-                borderRadius: BorderRadius.circular(40.0),
-              ),
-              child: Row(
-                children: [
-                  Icon(
-                    Symbols.book_2,
-                    color: Theme.of(context).iconTheme.color,
-                    size: 18.0,
-                  ),
-                  const SizedBox(width: 3.0),
-                  Text(
-                    viewModel.primaryAreaBible,
-                    maxLines: 1,
-                    overflow: TextOverflow.ellipsis,
-                    style: Theme.of(context).textTheme.bodyLarge!.copyWith(fontWeight: FontWeight.w500),
-                  ),
-                ],
-              ),
-            ),
-          ),
-          const SizedBox(width: 14.0),
-        ],
       ),
+
+      // AppBar(
+      //   title: InkWell(
+      //     onTap: viewModel.onNavigationBtn,
+      //     borderRadius: BorderRadius.circular(12.0),
+      //     child: Text(
+      //       viewModel.getcurrentNavigationString(
+      //         viewModel.bookCode,
+      //         viewModel.chapterNumber,
+      //         viewModel.sectionNumber,
+      //       ),
+      //       style: Theme.of(context).textTheme.titleLarge!.copyWith(fontWeight: FontWeight.w500),
+      //     ),
+      //   ),
+      //   shadowColor: null,
+      //   actions: [
+      //     InkWell(
+      //       borderRadius: BorderRadius.circular(40.0),
+      //       onTap: viewModel.onBiblesBtn,
+      //       child: Container(
+      //         padding: const EdgeInsets.symmetric(horizontal: 14.0, vertical: 6.0),
+      //         decoration: BoxDecoration(
+      //           color: Theme.of(context).dialogBackgroundColor,
+      //           borderRadius: BorderRadius.circular(40.0),
+      //         ),
+      //         child: Row(
+      //           children: [
+      //             Icon(
+      //               Symbols.book_2,
+      //               color: Theme.of(context).iconTheme.color,
+      //               size: 18.0,
+      //             ),
+      //             const SizedBox(width: 3.0),
+      //             Text(
+      //               viewModel.primaryAreaBible,
+      //               maxLines: 1,
+      //               overflow: TextOverflow.ellipsis,
+      //               style: Theme.of(context).textTheme.bodyLarge!.copyWith(fontWeight: FontWeight.w500),
+      //             ),
+      //           ],
+      //         ),
+      //       ),
+      //     ),
+      //     const SizedBox(width: 14.0),
+      //   ],
+      // ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
@@ -205,6 +220,14 @@ class ReaderView extends StackedView<ReaderViewModel> {
       drawer: SideNavigationDrawer(
         selectedIndex: viewModel.currentIndex,
         onViewChanged: viewModel.setCurrentIndex,
+      ),
+      bottomNavigationBar: PrimaryReaderAppbar(
+        currentBook: 'John 1',
+        currentBibleVersion: viewModel.primaryAreaBible,
+        onTapSearch: () {},
+        onTapBook: () {},
+        onTapBibleVersion: () {},
+        onTapMenu: () {},
       ),
     );
   }
