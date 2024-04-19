@@ -19,8 +19,6 @@ class BiblesService with ListenableServiceMixin {
   Map<String, dynamic> primaryAreaJson = {};
   Map<String, dynamic> secondaryAreaJson = {};
 
-  Map<String, String> booksMapping = {};
-
   String get primaryAreaBible => _settingsService.primaryAreaBible;
   String get secondaryAreaBible => _settingsService.secondaryAreaBible;
   String get bookCode => _settingsService.bookCode;
@@ -30,7 +28,6 @@ class BiblesService with ListenableServiceMixin {
   ViewBy get viewBy => _settingsService.viewBy;
 
   Future<void> initilize() async {
-    setMappingBasedOnBible(primaryAreaBible);
   }
 
   Future<void> reloadBiblesJson() async {
@@ -40,7 +37,6 @@ class BiblesService with ListenableServiceMixin {
 
   void setPrimaryAreaBible(String bibleCode) {
     _settingsService.setPrimaryAreaBible(bibleCode);
-    setMappingBasedOnBible(bibleCode);
     notifyListeners();
   }
 
@@ -65,11 +61,6 @@ class BiblesService with ListenableServiceMixin {
     notifyListeners();
   }
 
-  void setBooksMapping(BookMapping mapping) {
-    booksMapping = getBookMapping(mapping);
-    notifyListeners();
-  }
-
   void setViewBy(ViewBy viewBy) {
     _settingsService.setNavViewBy(viewBy);
     notifyListeners();
@@ -89,14 +80,6 @@ class BiblesService with ListenableServiceMixin {
 
   String bookToBookCode(String book) {
     return booksMapping.keys.firstWhere((item) => booksMapping[item] == book);
-  }
-
-  void setMappingBasedOnBible(String bibleCode) {
-    if (bibleCode == 'OET-RV' || bibleCode == 'OET-LV') {
-      setBooksMapping(BookMapping.oet);
-    } else {
-      setBooksMapping(BookMapping.traditional);
-    }
   }
 
   void addBookToRecentHistory(String book) {

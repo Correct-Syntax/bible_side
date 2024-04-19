@@ -202,13 +202,6 @@ class ReaderView extends StackedView<ReaderViewModel> {
             ),
         ],
       ),
-      floatingActionButton: FloatingActionButton(
-        mini: true,
-        onPressed: viewModel.toggleSecondaryArea,
-        elevation: 0.0,
-        tooltip: 'Toggle literal version',
-        child: Icon(viewModel.showSecondaryArea ? Icons.library_books : Icons.library_books_outlined),
-      ),
       drawer: SideNavigationDrawer(
         selectedIndex: viewModel.currentIndex,
         onViewChanged: viewModel.setCurrentIndex,

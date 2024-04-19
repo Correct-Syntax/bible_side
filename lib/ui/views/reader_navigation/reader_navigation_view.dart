@@ -64,31 +64,31 @@ class _ReaderNavigationView extends StackedHookView<ReaderNavigationViewModel> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Expanded(
-                        child: GridView.builder(
-                          itemCount: viewModel.booksMapping.length,
-                          gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-                            maxCrossAxisExtent: 120,
-                            childAspectRatio: 4 / 2,
-                            crossAxisSpacing: 18,
-                            mainAxisSpacing: 8,
-                          ),
-                          itemBuilder: (BuildContext context, int index) {
-                            return InkWell(
-                              borderRadius: BorderRadius.circular(12.0),
-                              onTap: () => viewModel.onTapBookItem(index),
-                              child: Center(
-                                child: Text(
-                                  viewModel.booksMapping.values.elementAt(index),
-                                  maxLines: 1,
-                                  overflow: TextOverflow.ellipsis,
-                                  style: Theme.of(context).textTheme.bodyLarge,
-                                ),
-                              ),
-                            );
-                          },
-                        ),
-                      ),
+                      // Expanded(
+                      //   child: GridView.builder(
+                      //     itemCount: viewModel.booksMapping.length,
+                      //     gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+                      //       maxCrossAxisExtent: 120,
+                      //       childAspectRatio: 4 / 2,
+                      //       crossAxisSpacing: 18,
+                      //       mainAxisSpacing: 8,
+                      //     ),
+                      //     itemBuilder: (BuildContext context, int index) {
+                      //       return InkWell(
+                      //         borderRadius: BorderRadius.circular(12.0),
+                      //         onTap: () => viewModel.onTapBookItem(index),
+                      //         child: Center(
+                      //           child: Text(
+                      //             viewModel.booksMapping.values.elementAt(index),
+                      //             maxLines: 1,
+                      //             overflow: TextOverflow.ellipsis,
+                      //             style: Theme.of(context).textTheme.bodyLarge,
+                      //           ),
+                      //         ),
+                      //       );
+                      //     },
+                      //   ),
+                      // ),
                       Container(
                         margin: const EdgeInsets.symmetric(vertical: 10.0),
                         child: const Divider(),
@@ -112,36 +112,36 @@ class _ReaderNavigationView extends StackedHookView<ReaderNavigationViewModel> {
                           ],
                         ),
                       ),
-                      SizedBox(
-                        height: 67,
-                        child: GridView.builder(
-                          itemCount: viewModel.recentBooks.length,
-                          gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-                            maxCrossAxisExtent: 120,
-                            childAspectRatio: 4 / 2,
-                            crossAxisSpacing: 18,
-                            mainAxisSpacing: 8,
-                          ),
-                          itemBuilder: (BuildContext context, int index) {
-                            String bookCode = viewModel.recentBooks.elementAt(index);
-                            String book = viewModel.booksMapping[bookCode]!;
-                            int bookIndex = viewModel.booksMapping.values.toList().indexOf(book);
+                      // SizedBox(
+                      //   height: 67,
+                      //   child: GridView.builder(
+                      //     itemCount: viewModel.recentBooks.length,
+                      //     gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+                      //       maxCrossAxisExtent: 120,
+                      //       childAspectRatio: 4 / 2,
+                      //       crossAxisSpacing: 18,
+                      //       mainAxisSpacing: 8,
+                      //     ),
+                      //     itemBuilder: (BuildContext context, int index) {
+                      //       String bookCode = viewModel.recentBooks.elementAt(index);
+                      //       String book = viewModel.booksMapping[bookCode]!;
+                      //       int bookIndex = viewModel.booksMapping.values.toList().indexOf(book);
 
-                            return InkWell(
-                              borderRadius: BorderRadius.circular(12.0),
-                              onTap: () => viewModel.onTapBookItem(bookIndex),
-                              child: Center(
-                                child: Text(
-                                  book,
-                                  maxLines: 1,
-                                  overflow: TextOverflow.ellipsis,
-                                  style: Theme.of(context).textTheme.bodyLarge,
-                                ),
-                              ),
-                            );
-                          },
-                        ),
-                      ),
+                      //       return InkWell(
+                      //         borderRadius: BorderRadius.circular(12.0),
+                      //         onTap: () => viewModel.onTapBookItem(bookIndex),
+                      //         child: Center(
+                      //           child: Text(
+                      //             book,
+                      //             maxLines: 1,
+                      //             overflow: TextOverflow.ellipsis,
+                      //             style: Theme.of(context).textTheme.bodyLarge,
+                      //           ),
+                      //         ),
+                      //       );
+                      //     },
+                      //   ),
+                      // ),
                     ],
                   ),
                 ),

@@ -20,7 +20,7 @@ class ReaderNavigationViewModel extends BaseViewModel {
   List<String> get recentBooks => _settingsService.recentBooks;
   ViewBy get viewBy => _biblesService.viewBy;
 
-  Map<String, String> get booksMapping => _biblesService.booksMapping;
+  //Map<String, String> get booksMapping => _biblesService.booksMapping;
 
   bool showBooksNavigation = true;
   bool showSectionNavigation = false;
@@ -78,6 +78,9 @@ class ReaderNavigationViewModel extends BaseViewModel {
     // String reference = regex.stringMatch(sectionHeading)!;
     // _biblesService.setSectionReference(reference.toString());
     _biblesService.setSection(index);
+
+    // For bibles that do not have a by section implementation
+    //_biblesService.setChapter();
 
     _navigationService.navigateToReaderView();
     await _biblesService.reloadBiblesJson();
