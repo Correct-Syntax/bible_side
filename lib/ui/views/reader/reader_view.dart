@@ -224,7 +224,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
       bottomNavigationBar: PrimaryReaderAppbar(
         currentBook: 'John 1',
         currentBibleVersion: viewModel.primaryAreaBible,
-        onTapSearch: () {},
+        onTapSearch: viewModel.onSearchView,
         onTapBook: () {},
         onTapBibleVersion: () {},
         onTapMenu: () {},

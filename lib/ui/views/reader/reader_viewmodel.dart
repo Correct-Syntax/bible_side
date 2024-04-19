@@ -321,6 +321,10 @@ class ReaderViewModel extends ReactiveViewModel {
     _navigationService.navigateToReaderNavigationView();
   }
 
+  void onSearchView() {
+    _navigationService.navigateToSearchView();
+  }
+
   void onBiblesBtn() {
     _navigationService.navigateToBiblesView();
   }
