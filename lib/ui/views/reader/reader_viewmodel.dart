@@ -31,6 +31,7 @@ class ReaderViewModel extends ReactiveViewModel {
   ViewBy get viewBy => _biblesService.viewBy;
 
   bool get showSecondaryArea => _settingsService.showSecondaryArea;
+  bool get linkReaderAreaScrolling => _settingsService.linkReaderAreaScrolling;
 
   ReaderViewModel({required this.context});
 
@@ -61,9 +62,14 @@ class ReaderViewModel extends ReactiveViewModel {
   int currentPage = 0;
 
   Future<void> initilize() async {
-    areasParentController = LinkedScrollControllerGroup();
-    primaryAreaController = areasParentController.addAndGet();
-    secondaryAreaController = areasParentController.addAndGet();
+    if (linkReaderAreaScrolling == true) {
+      areasParentController = LinkedScrollControllerGroup();
+      primaryAreaController = areasParentController.addAndGet();
+      secondaryAreaController = areasParentController.addAndGet();
+    } else {
+      primaryAreaController = ScrollController();
+      secondaryAreaController = ScrollController();
+    }
 
     await refreshReader();
   }
@@ -175,12 +181,43 @@ class ReaderViewModel extends ReactiveViewModel {
         }
       }
     } else {
-      // If the sectionIndex is the first one, we know there isn't any previous pages
+      // If the currentPage is the first one, we know there isn't any previous pages
       primaryPagingUpController.appendLastPage([]);
       secondaryPagingUpController.appendLastPage([]);
     }
     updatePagingControllers();
   }
+
+  // Future<void> fetchUpChapter(int pageKey, Area area) async {
+  //   if (currentPage != 1) {
+  //     pageKey -= 1;
+
+  //     List<Map<String, dynamic>> newPage = getPaginatedVerses(pageKey, area);
+
+  //     final bool isLastPage = pageKey == 0;
+  //     final int nextPageKey = pageKey;
+
+  //     if (area == Area.primary) {
+  //       if (isLastPage) {
+  //         primaryPagingUpController.appendLastPage(newPage);
+  //       } else {
+  //         primaryPagingUpController.appendPage(newPage, nextPageKey);
+  //       }
+  //     } else if (area == Area.secondary) {
+  //       if (isLastPage) {
+  //         secondaryPagingUpController.appendLastPage(newPage);
+  //       } else {
+  //         secondaryPagingUpController.appendPage(newPage, nextPageKey);
+  //       }
+  //     }
+  //   } else {
+  //     // If the currentPage is the first one, we know there isn't any previous pages
+  //     primaryPagingUpController.appendLastPage([]);
+  //     secondaryPagingUpController.appendLastPage([]);
+  //   }
+
+  //   updatePagingControllers();
+  // }
 
   Future<void> fetchUpChapter(int pageKey, Area area) async {
     pageKey -= 1;
@@ -256,9 +293,9 @@ class ReaderViewModel extends ReactiveViewModel {
   }
 
   void setChapter(dynamic chapter) {
-    if (chapter.runtimeType == String) {
+    if (chapter is String) {
       _biblesService.setChapter(int.parse(chapter));
-    } else if (chapter.runtimeType == int) {
+    } else if (chapter is int) {
       _biblesService.setChapter(chapter);
     }
     rebuildUi();

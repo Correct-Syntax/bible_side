@@ -36,6 +36,7 @@ class SettingsService with ListenableServiceMixin {
   // Reader view specifics
   static const _kShowMarks = 'SHOW_MARKS';
   static const _kShowChaptersAndVerses = 'SHOW_CHAPTERS_AND_VERSES';
+  static const _kLinkReaderAreaScrolling = 'LINK_READER_AREA_SCROLLING';
 
   bool isDarkTheme = false;
   bool showSecondaryArea = true;
@@ -51,6 +52,7 @@ class SettingsService with ListenableServiceMixin {
 
   bool showMarks = true;
   bool showChaptersAndVerses = true;
+  bool linkReaderAreaScrolling = true;
 
   Future<void> initilize() async {
     isDarkTheme = await getIsDarkTheme();
@@ -62,6 +64,9 @@ class SettingsService with ListenableServiceMixin {
     sectionNumber = await getSectionNumber();
     recentBooks = await getNavRecentBooks();
     viewBy = await getNavViewBy();
+    showMarks = await getShowMarks();
+    showChaptersAndVerses = await getShowChaptersAndVerses();
+    linkReaderAreaScrolling = await getLinkReaderAreaScrolling();
 
     await setIsDarkTheme(isDarkTheme);
     await setShowSecondaryArea(showSecondaryArea);
@@ -72,6 +77,9 @@ class SettingsService with ListenableServiceMixin {
     await setSectionNumber(sectionNumber);
     await setNavRecentBooks(recentBooks);
     await setNavViewBy(viewBy);
+    await setShowMarks(showMarks);
+    await setShowChaptersAndVerses(showChaptersAndVerses);
+    await setLinkReaderAreaScrolling(linkReaderAreaScrolling);
   }
 
   // Is dark theme
@@ -226,5 +234,19 @@ class SettingsService with ListenableServiceMixin {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     showChaptersAndVerses = prefs.getBool(_kShowChaptersAndVerses) ?? true;
     return showChaptersAndVerses;
+  }
+
+  // Link reader area scrolling
+  Future<void> setLinkReaderAreaScrolling(bool value) async {
+    linkReaderAreaScrolling = value;
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setBool(_kLinkReaderAreaScrolling, value);
+    notifyListeners();
+  }
+
+  Future<bool> getLinkReaderAreaScrolling() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    linkReaderAreaScrolling = prefs.getBool(_kLinkReaderAreaScrolling) ?? true;
+    return linkReaderAreaScrolling;
   }
 }
