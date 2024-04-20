@@ -1,7 +1,10 @@
+import 'dart:developer';
+
 /// Mapping book codes to the full book name
 Map<String, dynamic> booksMapping = {
   'TORAH': {
     'name': 'Torah',
+    'color': 0xFFFFC107,
     'books': {
       'GEN': 'Genesis',
       'EXO': 'Exodus',
@@ -12,6 +15,7 @@ Map<String, dynamic> booksMapping = {
   },
   'HISTORY': {
     'name': 'History',
+    'color': 0xFF13FF07,
     'books': {
       'JOS': 'Joshua',
       'JDG': 'Judges',
@@ -29,6 +33,7 @@ Map<String, dynamic> booksMapping = {
   },
   'POETRY_WISDOM': {
     'name': 'Poetry/Wisdom',
+    'color': 0xFF07FFA0,
     'books': {
       'JOB': 'Job',
       'PSA': 'Psalms',
@@ -39,6 +44,7 @@ Map<String, dynamic> booksMapping = {
   },
   'MAJOR_PROPHETS': {
     'name': 'Major Prophets',
+    'color': 0xFF07FBFF,
     'books': {
       'ISA': 'Isaiah',
       'JER': 'Jeremiah',
@@ -49,6 +55,7 @@ Map<String, dynamic> booksMapping = {
   },
   'MINOR_PROPHETS': {
     'name': 'Minor Prophets',
+    'color': 0xFF07A0FF,
     'books': {
       'HOS': 'Hosea',
       'JOL': 'Joel',
@@ -66,6 +73,7 @@ Map<String, dynamic> booksMapping = {
   },
   'GOSPELS': {
     'name': 'Gospels',
+    'color': 0xFF074DFF,
     'books': {
       'JHN': 'John',
       'MRK': 'Mark',
@@ -75,12 +83,14 @@ Map<String, dynamic> booksMapping = {
   },
   'ACTS': {
     'name': 'Acts',
+    'color': 0xFF7F07FF,
     'books': {
       'ACT': 'Acts',
     }
   },
   'PAULS_EPISTLES': {
     'name': "Paul's Epistles",
+    'color': 0xFFE207FF,
     'books': {
       'ROM': 'Romans',
       'CO1': '1 Corinthians',
@@ -99,6 +109,7 @@ Map<String, dynamic> booksMapping = {
   },
   'GENERAL_EPISTLES': {
     'name': 'General Epistles',
+    'color': 0xFFFF07B9,
     'books': {
       'HEB': 'Hebrews',
       'JAM': 'James',
@@ -112,6 +123,7 @@ Map<String, dynamic> booksMapping = {
   },
   'REVELATION': {
     'name': 'Revelation',
+    'color': 0xFFFF0756,
     'books': {
       'REV': 'Revelation',
     }
@@ -187,3 +199,58 @@ Map<String, int> bookNumOfChaptersMapping = {
   'JDE': 1,
   'REV': 22,
 };
+
+class BooksMapping {
+  static String bookNameFromBookCode(String bookCode) {
+    String bookName = '';
+
+    for (var item in booksMapping.keys) {
+      for (var innerItem in booksMapping[item]['books'].keys) {
+        if (innerItem == bookCode) {
+          bookName = booksMapping[item]['books'][innerItem];
+          break;
+        }
+      }
+    }
+    return bookName;
+  }
+
+  static int colorFromBookCode(String bookCode) {
+    bool thisColor = false;
+    int color = 0xFF9C9FA6;
+
+    for (var item in booksMapping.keys) {
+      color = booksMapping[item]['color'];
+      for (var innerItem in booksMapping[item]['books'].keys) {
+        if (innerItem == bookCode) {
+          thisColor = true;
+          break;
+        }
+      }
+      if (thisColor == true) {
+        break;
+      }
+    }
+    return color;
+  }
+
+  static String bibleDivisionCodeFromIndex(int index) {
+    return booksMapping.keys.toList()[index];
+  }
+
+  static String bibleDivisionNameFromCode(String bibleDivisionCode) {
+    return booksMapping[bibleDivisionCode]['name'];
+  }
+
+  static int colorFromBibleDivisionCode(String bibleDivisionCode) {
+    return booksMapping[bibleDivisionCode]['color'];
+  }
+
+  static int numOfBooksFromBibleDivisionCode(String bibleDivisionCode) {
+    return booksMapping[bibleDivisionCode]['books'].keys.length;
+  }
+
+  static Map<String, String> booksMappingFromBibleDivisionCode(String bibleDivisionCode) {
+    return booksMapping[bibleDivisionCode]['books'];
+  }
+}

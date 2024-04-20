@@ -32,7 +32,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
           child: SecondaryReaderAppbar(
             currentBook: 'John',
             currentBibleVersion: viewModel.primaryAreaBible, // secondaryAreaBible
-            onTapBook: () {},
+            onTapBook: viewModel.onTapBook,
             onTapBibleVersion: () {},
             onTapClose: () {},
           ),
@@ -222,10 +222,10 @@ class ReaderView extends StackedView<ReaderViewModel> {
         onViewChanged: viewModel.setCurrentIndex,
       ),
       bottomNavigationBar: PrimaryReaderAppbar(
-        currentBook: 'John 1',
+        currentBook: 'John',
         currentBibleVersion: viewModel.primaryAreaBible,
         onTapSearch: viewModel.onSearchView,
-        onTapBook: () {},
+        onTapBook: viewModel.onTapBook,
         onTapBibleVersion: () {},
         onTapMenu: () {},
       ),

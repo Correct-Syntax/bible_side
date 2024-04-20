@@ -4,7 +4,12 @@ import 'package:stacked/stacked.dart';
 import 'bible_division_indicator_model.dart';
 
 class BibleDivisionIndicator extends StackedView<BibleDivisionIndicatorModel> {
-  const BibleDivisionIndicator({super.key});
+  const BibleDivisionIndicator({
+    super.key,
+    required this.color,
+  });
+
+  final int color;
 
   @override
   Widget builder(
@@ -16,7 +21,7 @@ class BibleDivisionIndicator extends StackedView<BibleDivisionIndicatorModel> {
       width: 7.0,
       height: 7.0,
       decoration: BoxDecoration(
-        color: Color(0xff074DFF),
+        color: Color(color),
         borderRadius: BorderRadius.circular(100.0),
       ),
     );

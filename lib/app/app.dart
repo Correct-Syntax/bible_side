@@ -14,6 +14,9 @@ import 'package:bible_side/services/json_service.dart';
 import 'package:bible_side/ui/views/reader_navigation/reader_navigation_view.dart';
 import 'package:bible_side/ui/views/bibles/bibles_view.dart';
 import 'package:bible_side/ui/views/search/search_view.dart';
+import 'package:bible_side/ui/views/navigation_bible_divisions/navigation_bible_divisions_view.dart';
+import 'package:bible_side/ui/views/navigation_books/navigation_books_view.dart';
+import 'package:bible_side/ui/views/navigation_sections_chapters/navigation_sections_chapters_view.dart';
 // @stacked-import
 
 @StackedApp(
@@ -25,6 +28,9 @@ import 'package:bible_side/ui/views/search/search_view.dart';
     MaterialRoute(page: ReaderNavigationView),
     MaterialRoute(page: BiblesView),
     MaterialRoute(page: SearchView),
+    MaterialRoute(page: NavigationBibleDivisionsView),
+    MaterialRoute(page: NavigationBooksView),
+    MaterialRoute(page: NavigationSectionsChaptersView),
 // @stacked-route
   ],
   dependencies: [

@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:phosphor_flutter/phosphor_flutter.dart';
 import 'package:stacked/stacked.dart';
 
+import '../../../../../common/books.dart';
 import '../../../../../common/enums.dart';
+import '../../../../widgets/common/bible_division_indicator/bible_division_indicator.dart';
 import 'reader_selector_btn_model.dart';
 
 class ReaderSelectorBtn extends StackedView<ReaderSelectorBtnModel> {
@@ -10,16 +12,12 @@ class ReaderSelectorBtn extends StackedView<ReaderSelectorBtnModel> {
     super.key,
     required this.areaType,
     required this.isActive,
-    required this.currentBook,
-    required this.currentBibleVersion,
     required this.onTapBook,
     required this.onTapBibleVersion,
   });
 
   final Area areaType;
   final bool isActive;
-  final String currentBook;
-  final String currentBibleVersion;
   final Function() onTapBook;
   final Function() onTapBibleVersion;
 
@@ -48,20 +46,15 @@ class ReaderSelectorBtn extends StackedView<ReaderSelectorBtnModel> {
                     alignment: Alignment.topLeft,
                     child: Padding(
                       padding: const EdgeInsets.only(bottom: 13.0),
-                      child: Container(
-                        width: 7.0,
-                        height: 7.0,
-                        decoration: BoxDecoration(
-                          color: Color(0xff074DFF),
-                          borderRadius: BorderRadius.circular(100.0),
-                        ),
+                      child: BibleDivisionIndicator(
+                        color: BooksMapping.colorFromBookCode(viewModel.bookCode),
                       ),
                     ),
                   ),
                   Padding(
                     padding: const EdgeInsets.only(left: 4.0),
                     child: Text(
-                      currentBook,
+                      BooksMapping.bookNameFromBookCode(viewModel.bookCode),
                       style: TextStyle(
                         fontSize: 15.0,
                         color: Color(0xffE8E8E9),
@@ -82,7 +75,7 @@ class ReaderSelectorBtn extends StackedView<ReaderSelectorBtnModel> {
                   Padding(
                     padding: const EdgeInsets.only(right: 5.0),
                     child: Text(
-                      currentBibleVersion,
+                      viewModel.primaryAreaBible,
                       style: TextStyle(
                         fontSize: 15.0,
                         color: Color(0xffE8E8E9),

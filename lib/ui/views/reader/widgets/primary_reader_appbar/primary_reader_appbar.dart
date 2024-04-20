@@ -51,8 +51,6 @@ class PrimaryReaderAppbar extends StackedView<PrimaryReaderAppbarModel> {
           ReaderSelectorBtn(
             areaType: Area.primary,
             isActive: false,
-            currentBook: currentBook,
-            currentBibleVersion: currentBibleVersion,
             onTapBook: onTapBook,
             onTapBibleVersion: onTapBibleVersion,
           ),

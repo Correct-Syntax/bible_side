@@ -42,8 +42,6 @@ class SecondaryReaderAppbar extends StackedView<SecondaryReaderAppbarModel> {
           ReaderSelectorBtn(
             areaType: Area.secondary,
             isActive: false,
-            currentBook: currentBook,
-            currentBibleVersion: currentBibleVersion,
             onTapBook: onTapBook,
             onTapBibleVersion: onTapBibleVersion,
           ),

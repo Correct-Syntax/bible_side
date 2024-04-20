@@ -20,8 +20,6 @@ class ReaderNavigationViewModel extends BaseViewModel {
   List<String> get recentBooks => _settingsService.recentBooks;
   ViewBy get viewBy => _biblesService.viewBy;
 
-  //Map<String, String> get booksMapping => _biblesService.booksMapping;
-
   bool showBooksNavigation = true;
   bool showSectionNavigation = false;
 
