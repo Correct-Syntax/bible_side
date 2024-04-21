@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 /// Mapping book codes to the full book name
 Map<String, dynamic> booksMapping = {
   'TORAH': {

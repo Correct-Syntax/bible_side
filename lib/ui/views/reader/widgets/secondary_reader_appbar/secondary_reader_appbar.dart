@@ -9,15 +9,13 @@ import 'secondary_reader_appbar_model.dart';
 class SecondaryReaderAppbar extends StackedView<SecondaryReaderAppbarModel> {
   const SecondaryReaderAppbar({
     super.key,
-    required this.currentBook,
-    required this.currentBibleVersion,
+    required this.isReaderAreaPopupActive,
     required this.onTapBook,
     required this.onTapBibleVersion,
     required this.onTapClose,
   });
 
-  final String currentBook;
-  final String currentBibleVersion;
+  final bool isReaderAreaPopupActive;
   final Function() onTapBook;
   final Function() onTapBibleVersion;
   final Function() onTapClose;
@@ -29,7 +27,7 @@ class SecondaryReaderAppbar extends StackedView<SecondaryReaderAppbarModel> {
     Widget? child,
   ) {
     return Container(
-      padding: EdgeInsets.symmetric(vertical: 10.0),
+      padding: const EdgeInsets.symmetric(vertical: 10.0),
       color: Color(0xff161718),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -40,8 +38,8 @@ class SecondaryReaderAppbar extends StackedView<SecondaryReaderAppbarModel> {
             height: 29,
           ),
           ReaderSelectorBtn(
-            areaType: Area.secondary,
-            isActive: false,
+            readerArea: Area.secondary,
+            isActive: isReaderAreaPopupActive,
             onTapBook: onTapBook,
             onTapBibleVersion: onTapBibleVersion,
           ),

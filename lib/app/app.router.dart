@@ -5,6 +5,7 @@
 // **************************************************************************
 
 // ignore_for_file: no_leading_underscores_for_library_prefixes
+import 'package:bible_side/common/enums.dart' as _i13;
 import 'package:bible_side/ui/views/bibles/bibles_view.dart' as _i7;
 import 'package:bible_side/ui/views/home/home_view.dart' as _i2;
 import 'package:bible_side/ui/views/navigation_bible_divisions/navigation_bible_divisions_view.dart' as _i9;
@@ -18,7 +19,7 @@ import 'package:bible_side/ui/views/startup/startup_view.dart' as _i3;
 import 'package:flutter/material.dart' as _i12;
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart' as _i1;
-import 'package:stacked_services/stacked_services.dart' as _i13;
+import 'package:stacked_services/stacked_services.dart' as _i14;
 
 class Routes {
   static const homeView = '/home-view';
@@ -131,8 +132,9 @@ class StackedRouter extends _i1.RouterBase {
       );
     },
     _i7.BiblesView: (data) {
+      final args = data.getArgs<BiblesViewArguments>(nullOk: false);
       return _i12.MaterialPageRoute<dynamic>(
-        builder: (context) => const _i7.BiblesView(),
+        builder: (context) => _i7.BiblesView(key: args.key, readerArea: args.readerArea),
         settings: data,
       );
     },
@@ -169,6 +171,33 @@ class StackedRouter extends _i1.RouterBase {
 
   @override
   Map<Type, _i1.StackedRouteFactory> get pagesMap => _pagesMap;
+}
+
+class BiblesViewArguments {
+  const BiblesViewArguments({
+    this.key,
+    required this.readerArea,
+  });
+
+  final _i12.Key? key;
+
+  final _i13.Area readerArea;
+
+  @override
+  String toString() {
+    return '{"key": "$key", "readerArea": "$readerArea"}';
+  }
+
+  @override
+  bool operator ==(covariant BiblesViewArguments other) {
+    if (identical(this, other)) return true;
+    return other.key == key && other.readerArea == readerArea;
+  }
+
+  @override
+  int get hashCode {
+    return key.hashCode ^ readerArea.hashCode;
+  }
 }
 
 class NavigationBooksViewArguments {
@@ -225,7 +254,7 @@ class NavigationSectionsChaptersViewArguments {
   }
 }
 
-extension NavigatorStateExtension on _i13.NavigationService {
+extension NavigatorStateExtension on _i14.NavigationService {
   Future<dynamic> navigateToHomeView([
     int? routerId,
     bool preventDuplicates = true,
@@ -276,14 +305,20 @@ extension NavigatorStateExtension on _i13.NavigationService {
         id: routerId, preventDuplicates: preventDuplicates, parameters: parameters, transition: transition);
   }
 
-  Future<dynamic> navigateToBiblesView([
+  Future<dynamic> navigateToBiblesView({
+    _i12.Key? key,
+    required _i13.Area readerArea,
     int? routerId,
     bool preventDuplicates = true,
     Map<String, String>? parameters,
     Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)? transition,
-  ]) async {
+  }) async {
     return navigateTo<dynamic>(Routes.biblesView,
-        id: routerId, preventDuplicates: preventDuplicates, parameters: parameters, transition: transition);
+        arguments: BiblesViewArguments(key: key, readerArea: readerArea),
+        id: routerId,
+        preventDuplicates: preventDuplicates,
+        parameters: parameters,
+        transition: transition);
   }
 
   Future<dynamic> navigateToSearchView([
@@ -388,14 +423,20 @@ extension NavigatorStateExtension on _i13.NavigationService {
         id: routerId, preventDuplicates: preventDuplicates, parameters: parameters, transition: transition);
   }
 
-  Future<dynamic> replaceWithBiblesView([
+  Future<dynamic> replaceWithBiblesView({
+    _i12.Key? key,
+    required _i13.Area readerArea,
     int? routerId,
     bool preventDuplicates = true,
     Map<String, String>? parameters,
     Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)? transition,
-  ]) async {
+  }) async {
     return replaceWith<dynamic>(Routes.biblesView,
-        id: routerId, preventDuplicates: preventDuplicates, parameters: parameters, transition: transition);
+        arguments: BiblesViewArguments(key: key, readerArea: readerArea),
+        id: routerId,
+        preventDuplicates: preventDuplicates,
+        parameters: parameters,
+        transition: transition);
   }
 
   Future<dynamic> replaceWithSearchView([

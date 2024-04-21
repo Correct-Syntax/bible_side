@@ -17,8 +17,8 @@ class ReaderService {
   Map<String, dynamic> get primaryAreaJson => _biblesService.primaryAreaJson;
   Map<String, dynamic> get secondaryAreaJson => _biblesService.secondaryAreaJson;
 
-  String get primaryAreaBible => _settingsService.primaryAreaBible;
-  String get secondaryAreaBible => _settingsService.secondaryAreaBible;
+  String get primaryBible => _settingsService.primaryBible;
+  String get secondaryBible => _settingsService.secondaryBible;
   String get bookCode => _settingsService.bookCode;
 
   ViewBy get viewBy => _biblesService.viewBy;
@@ -29,9 +29,9 @@ class ReaderService {
   /// Get a new page at [pageKey] for the current bible, book, etc and the given [Area].
   List<Map<String, dynamic>> getNewPage(BuildContext context, int pageKey, Area area) {
     if (area == Area.primary) {
-      return pageFromJson(context, primaryAreaJson, primaryAreaBible, viewBy, pageKey);
+      return pageFromJson(context, primaryAreaJson, primaryBible, viewBy, pageKey);
     } else if (area == Area.secondary) {
-      return pageFromJson(context, secondaryAreaJson, secondaryAreaBible, viewBy, pageKey);
+      return pageFromJson(context, secondaryAreaJson, secondaryBible, viewBy, pageKey);
     } else {
       return [];
     }

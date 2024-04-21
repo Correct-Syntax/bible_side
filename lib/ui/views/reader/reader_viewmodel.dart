@@ -23,7 +23,8 @@ class ReaderViewModel extends ReactiveViewModel {
 
   int get currentIndex => _sideNavigationService.currentIndex;
 
-  String get primaryAreaBible => _biblesService.primaryAreaBible;
+  String get primaryAreaBible => _settingsService.primaryBible;
+  String get secondaryAreaBible => _settingsService.secondaryBible;
   String get bookCode => _biblesService.bookCode;
   int get chapterNumber => _biblesService.chapterNumber;
   int get sectionNumber => _biblesService.sectionNumber;
@@ -56,6 +57,9 @@ class ReaderViewModel extends ReactiveViewModel {
   PagingController<int, Map<String, dynamic>> secondaryPagingDownController = PagingController(
     firstPageKey: 1,
   );
+
+  bool isPrimaryReaderAreaPopupActive = false;
+  bool isSecondaryReaderAreaPopupActive = false;
 
   int numberOfSections = 0;
   bool initialRefresh = false;
@@ -305,32 +309,35 @@ class ReaderViewModel extends ReactiveViewModel {
     return _readerService.getNewPage(context, pageKey, area);
   }
 
-  String getcurrentBookName() {
-    return _biblesService.bookCodeToBook(bookCode);
-  }
-
-  String getcurrentNavigationString(String bookCode, int chapter, int section) {
-    if (viewBy == ViewBy.section) {
-      return '${_biblesService.bookCodeToBook(bookCode)}';
-    } else {
-      return '${_biblesService.bookCodeToBook(bookCode)} $chapter';
-    }
-  }
-
   void onNavigationBtn() {
     _navigationService.navigateToReaderNavigationView();
+  }
+
+  void onTapCloseSecondaryArea() {
+    _settingsService.setShowSecondaryArea(false);
+    rebuildUi();
   }
 
   void onTapBook() {
     _navigationService.navigateToNavigationBibleDivisionsView();
   }
 
-  void onSearchView() {
-    _navigationService.navigateToSearchView();
+  void onTapBibleVersion(Area? area) {
+    if (area == Area.primary) {
+      isPrimaryReaderAreaPopupActive = !isPrimaryReaderAreaPopupActive;
+      isSecondaryReaderAreaPopupActive = false;
+    } else if (area == Area.secondary) {
+      isSecondaryReaderAreaPopupActive = !isSecondaryReaderAreaPopupActive;
+      isPrimaryReaderAreaPopupActive = false;
+    } else {
+      isPrimaryReaderAreaPopupActive = false;
+      isSecondaryReaderAreaPopupActive = false;
+    }
+    rebuildUi();
   }
 
-  void onBiblesBtn() {
-    _navigationService.navigateToBiblesView();
+  void onTapSearch() {
+    _navigationService.navigateToSearchView();
   }
 
   void toggleSecondaryArea() {
@@ -347,5 +354,5 @@ class ReaderViewModel extends ReactiveViewModel {
   }
 
   @override
-  List<ListenableServiceMixin> get listenableServices => [_biblesService];
+  List<ListenableServiceMixin> get listenableServices => [_settingsService, _biblesService];
 }

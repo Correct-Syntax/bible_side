@@ -2,10 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
 
 import '../../../common/bibles.dart';
+import '../../../common/enums.dart';
+import '../../common/ui_helpers.dart';
 import 'bibles_viewmodel.dart';
 
 class BiblesView extends StackedView<BiblesViewModel> {
-  const BiblesView({Key? key}) : super(key: key);
+  const BiblesView({
+    Key? key,
+    required this.readerArea,
+  }) : super(key: key);
+
+  final Area readerArea;
 
   @override
   Widget builder(
@@ -13,84 +20,60 @@ class BiblesView extends StackedView<BiblesViewModel> {
     BiblesViewModel viewModel,
     Widget? child,
   ) {
+    bool isPortrait = isPortraitOrientation(context);
     return PopScope(
       canPop: false,
       onPopInvoked: viewModel.onPopInvoked,
       child: Scaffold(
+        backgroundColor: Theme.of(context).colorScheme.background,
         appBar: AppBar(
-          title: Text(
-            'Bibles',
-            style: Theme.of(context).textTheme.titleLarge!.copyWith(fontWeight: FontWeight.w500),
-          ),
-          shadowColor: null,
+          centerTitle: true,
+          scrolledUnderElevation: 0.0,
+          title: isPortrait
+              ? null
+              : Text(
+                  viewModel.getTitle(),
+                  style: TextStyle(
+                    fontSize: 18.0,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
         ),
-        body: SingleChildScrollView(
+        body: Container(
+          padding: EdgeInsets.only(top: isPortrait ? 26.0 : 0.0, left: 10.0, right: 10.0),
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisSize: MainAxisSize.min,
             children: [
-              const Padding(
-                padding: EdgeInsets.only(top: 20.0, left: 16.0, bottom: 10.0),
-                child: Text(
-                  'Primary',
-                  style: TextStyle(
-                    fontSize: 16.0,
-                    fontWeight: FontWeight.w500,
+              if (isPortrait)
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 36.0),
+                  child: Text(
+                    viewModel.getTitle(),
+                    style: const TextStyle(
+                      fontSize: 26.0,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                 ),
-              ),
               for (String bibleCode in bibleVersionsMapping.keys)
                 ListTile(
-                  onTap: () => viewModel.setPrimaryAreaBible(bibleCode),
+                  onTap: () => readerArea == Area.primary
+                      ? viewModel.setPrimaryAreaBible(bibleCode)
+                      : viewModel.setSecondaryAreaBible(bibleCode),
                   title: Text(
                     bibleCode,
                     style: TextStyle(
                       fontSize: 16.0,
-                      fontWeight: bibleCode == viewModel.primaryAreaBible ? FontWeight.w500 : FontWeight.normal,
+                      fontWeight: bibleCode == viewModel.currentBibleCode() ? FontWeight.bold : FontWeight.w500,
                     ),
                   ),
                   subtitle: Text(
                     bibleVersionsMapping[bibleCode]!,
                     style: const TextStyle(
-                      fontSize: 13.0,
+                      fontSize: 11.0,
                     ),
                   ),
-                  trailing: bibleCode == viewModel.primaryAreaBible
-                      ? const Icon(
-                          Icons.check,
-                        )
-                      : null,
-                ),
-              Container(
-                margin: const EdgeInsets.symmetric(vertical: 20.0),
-                child: const Divider(),
-              ),
-              const Padding(
-                padding: EdgeInsets.only(left: 16.0, bottom: 10.0),
-                child: Text(
-                  'Secondary',
-                  style: TextStyle(
-                    fontSize: 16.0,
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-              ),
-              for (String bibleCode in bibleVersionsMapping.keys)
-                ListTile(
-                  onTap: () => viewModel.setSecondaryAreaBible(bibleCode),
-                  title: Text(
-                    bibleCode,
-                    style: TextStyle(
-                      fontSize: 16.0,
-                      fontWeight: bibleCode == viewModel.secondaryAreaBible ? FontWeight.w500 : FontWeight.normal,
-                    ),
-                  ),
-                  subtitle: Text(
-                    bibleVersionsMapping[bibleCode]!,
-                    style: const TextStyle(
-                      fontSize: 13.0,
-                    ),
-                  ),
-                  trailing: bibleCode == viewModel.secondaryAreaBible
+                  trailing: bibleCode == viewModel.currentBibleCode()
                       ? const Icon(
                           Icons.check,
                         )
@@ -107,5 +90,5 @@ class BiblesView extends StackedView<BiblesViewModel> {
   BiblesViewModel viewModelBuilder(
     BuildContext context,
   ) =>
-      BiblesViewModel();
+      BiblesViewModel(readerArea: readerArea);
 }

@@ -705,28 +705,28 @@ class MockBiblesService extends _i1.Mock implements _i7.BiblesService {
       );
 
   @override
-  String get primaryAreaBible => (super.noSuchMethod(
-        Invocation.getter(#primaryAreaBible),
+  String get primaryBible => (super.noSuchMethod(
+        Invocation.getter(#primaryBible),
         returnValue: _i3.dummyValue<String>(
           this,
-          Invocation.getter(#primaryAreaBible),
+          Invocation.getter(#primaryBible),
         ),
         returnValueForMissingStub: _i3.dummyValue<String>(
           this,
-          Invocation.getter(#primaryAreaBible),
+          Invocation.getter(#primaryBible),
         ),
       ) as String);
 
   @override
-  String get secondaryAreaBible => (super.noSuchMethod(
-        Invocation.getter(#secondaryAreaBible),
+  String get secondaryBible => (super.noSuchMethod(
+        Invocation.getter(#secondaryBible),
         returnValue: _i3.dummyValue<String>(
           this,
-          Invocation.getter(#secondaryAreaBible),
+          Invocation.getter(#secondaryBible),
         ),
         returnValueForMissingStub: _i3.dummyValue<String>(
           this,
-          Invocation.getter(#secondaryAreaBible),
+          Invocation.getter(#secondaryBible),
         ),
       ) as String);
 
@@ -863,50 +863,6 @@ class MockBiblesService extends _i1.Mock implements _i7.BiblesService {
       ) as _i5.Future<void>);
 
   @override
-  String bookCodeToBook(String? bookCode) => (super.noSuchMethod(
-        Invocation.method(
-          #bookCodeToBook,
-          [bookCode],
-        ),
-        returnValue: _i3.dummyValue<String>(
-          this,
-          Invocation.method(
-            #bookCodeToBook,
-            [bookCode],
-          ),
-        ),
-        returnValueForMissingStub: _i3.dummyValue<String>(
-          this,
-          Invocation.method(
-            #bookCodeToBook,
-            [bookCode],
-          ),
-        ),
-      ) as String);
-
-  @override
-  String bookToBookCode(String? book) => (super.noSuchMethod(
-        Invocation.method(
-          #bookToBookCode,
-          [book],
-        ),
-        returnValue: _i3.dummyValue<String>(
-          this,
-          Invocation.method(
-            #bookToBookCode,
-            [book],
-          ),
-        ),
-        returnValueForMissingStub: _i3.dummyValue<String>(
-          this,
-          Invocation.method(
-            #bookToBookCode,
-            [book],
-          ),
-        ),
-      ) as String);
-
-  @override
   void addBookToRecentHistory(String? book) => super.noSuchMethod(
         Invocation.method(
           #addBookToRecentHistory,
@@ -964,15 +920,6 @@ class MockSettingsService extends _i1.Mock implements _i9.SettingsService {
       ) as bool);
 
   @override
-  set isDarkTheme(bool? _isDarkTheme) => super.noSuchMethod(
-        Invocation.setter(
-          #isDarkTheme,
-          _isDarkTheme,
-        ),
-        returnValueForMissingStub: null,
-      );
-
-  @override
   bool get showSecondaryArea => (super.noSuchMethod(
         Invocation.getter(#showSecondaryArea),
         returnValue: false,
@@ -980,57 +927,30 @@ class MockSettingsService extends _i1.Mock implements _i9.SettingsService {
       ) as bool);
 
   @override
-  set showSecondaryArea(bool? _showSecondaryArea) => super.noSuchMethod(
-        Invocation.setter(
-          #showSecondaryArea,
-          _showSecondaryArea,
-        ),
-        returnValueForMissingStub: null,
-      );
-
-  @override
-  String get primaryAreaBible => (super.noSuchMethod(
-        Invocation.getter(#primaryAreaBible),
+  String get primaryBible => (super.noSuchMethod(
+        Invocation.getter(#primaryBible),
         returnValue: _i3.dummyValue<String>(
           this,
-          Invocation.getter(#primaryAreaBible),
+          Invocation.getter(#primaryBible),
         ),
         returnValueForMissingStub: _i3.dummyValue<String>(
           this,
-          Invocation.getter(#primaryAreaBible),
+          Invocation.getter(#primaryBible),
         ),
       ) as String);
 
   @override
-  set primaryAreaBible(String? _primaryAreaBible) => super.noSuchMethod(
-        Invocation.setter(
-          #primaryAreaBible,
-          _primaryAreaBible,
-        ),
-        returnValueForMissingStub: null,
-      );
-
-  @override
-  String get secondaryAreaBible => (super.noSuchMethod(
-        Invocation.getter(#secondaryAreaBible),
+  String get secondaryBible => (super.noSuchMethod(
+        Invocation.getter(#secondaryBible),
         returnValue: _i3.dummyValue<String>(
           this,
-          Invocation.getter(#secondaryAreaBible),
+          Invocation.getter(#secondaryBible),
         ),
         returnValueForMissingStub: _i3.dummyValue<String>(
           this,
-          Invocation.getter(#secondaryAreaBible),
+          Invocation.getter(#secondaryBible),
         ),
       ) as String);
-
-  @override
-  set secondaryAreaBible(String? _secondaryAreaBible) => super.noSuchMethod(
-        Invocation.setter(
-          #secondaryAreaBible,
-          _secondaryAreaBible,
-        ),
-        returnValueForMissingStub: null,
-      );
 
   @override
   String get bookCode => (super.noSuchMethod(
@@ -1046,29 +966,11 @@ class MockSettingsService extends _i1.Mock implements _i9.SettingsService {
       ) as String);
 
   @override
-  set bookCode(String? _bookCode) => super.noSuchMethod(
-        Invocation.setter(
-          #bookCode,
-          _bookCode,
-        ),
-        returnValueForMissingStub: null,
-      );
-
-  @override
   int get chapterNumber => (super.noSuchMethod(
         Invocation.getter(#chapterNumber),
         returnValue: 0,
         returnValueForMissingStub: 0,
       ) as int);
-
-  @override
-  set chapterNumber(int? _chapterNumber) => super.noSuchMethod(
-        Invocation.setter(
-          #chapterNumber,
-          _chapterNumber,
-        ),
-        returnValueForMissingStub: null,
-      );
 
   @override
   int get sectionNumber => (super.noSuchMethod(
@@ -1078,29 +980,11 @@ class MockSettingsService extends _i1.Mock implements _i9.SettingsService {
       ) as int);
 
   @override
-  set sectionNumber(int? _sectionNumber) => super.noSuchMethod(
-        Invocation.setter(
-          #sectionNumber,
-          _sectionNumber,
-        ),
-        returnValueForMissingStub: null,
-      );
-
-  @override
   List<String> get recentBooks => (super.noSuchMethod(
         Invocation.getter(#recentBooks),
         returnValue: <String>[],
         returnValueForMissingStub: <String>[],
       ) as List<String>);
-
-  @override
-  set recentBooks(List<String>? _recentBooks) => super.noSuchMethod(
-        Invocation.setter(
-          #recentBooks,
-          _recentBooks,
-        ),
-        returnValueForMissingStub: null,
-      );
 
   @override
   _i8.ViewBy get viewBy => (super.noSuchMethod(
@@ -1110,29 +994,11 @@ class MockSettingsService extends _i1.Mock implements _i9.SettingsService {
       ) as _i8.ViewBy);
 
   @override
-  set viewBy(_i8.ViewBy? _viewBy) => super.noSuchMethod(
-        Invocation.setter(
-          #viewBy,
-          _viewBy,
-        ),
-        returnValueForMissingStub: null,
-      );
-
-  @override
   bool get showMarks => (super.noSuchMethod(
         Invocation.getter(#showMarks),
         returnValue: false,
         returnValueForMissingStub: false,
       ) as bool);
-
-  @override
-  set showMarks(bool? _showMarks) => super.noSuchMethod(
-        Invocation.setter(
-          #showMarks,
-          _showMarks,
-        ),
-        returnValueForMissingStub: null,
-      );
 
   @override
   bool get showChaptersAndVerses => (super.noSuchMethod(
@@ -1142,29 +1008,11 @@ class MockSettingsService extends _i1.Mock implements _i9.SettingsService {
       ) as bool);
 
   @override
-  set showChaptersAndVerses(bool? _showChaptersAndVerses) => super.noSuchMethod(
-        Invocation.setter(
-          #showChaptersAndVerses,
-          _showChaptersAndVerses,
-        ),
-        returnValueForMissingStub: null,
-      );
-
-  @override
   bool get linkReaderAreaScrolling => (super.noSuchMethod(
         Invocation.getter(#linkReaderAreaScrolling),
         returnValue: false,
         returnValueForMissingStub: false,
       ) as bool);
-
-  @override
-  set linkReaderAreaScrolling(bool? _linkReaderAreaScrolling) => super.noSuchMethod(
-        Invocation.setter(
-          #linkReaderAreaScrolling,
-          _linkReaderAreaScrolling,
-        ),
-        returnValueForMissingStub: null,
-      );
 
   @override
   int get listenersCount => (super.noSuchMethod(
@@ -1606,28 +1454,28 @@ class MockReaderService extends _i1.Mock implements _i12.ReaderService {
       ) as Map<String, dynamic>);
 
   @override
-  String get primaryAreaBible => (super.noSuchMethod(
-        Invocation.getter(#primaryAreaBible),
+  String get primaryBible => (super.noSuchMethod(
+        Invocation.getter(#primaryBible),
         returnValue: _i3.dummyValue<String>(
           this,
-          Invocation.getter(#primaryAreaBible),
+          Invocation.getter(#primaryBible),
         ),
         returnValueForMissingStub: _i3.dummyValue<String>(
           this,
-          Invocation.getter(#primaryAreaBible),
+          Invocation.getter(#primaryBible),
         ),
       ) as String);
 
   @override
-  String get secondaryAreaBible => (super.noSuchMethod(
-        Invocation.getter(#secondaryAreaBible),
+  String get secondaryBible => (super.noSuchMethod(
+        Invocation.getter(#secondaryBible),
         returnValue: _i3.dummyValue<String>(
           this,
-          Invocation.getter(#secondaryAreaBible),
+          Invocation.getter(#secondaryBible),
         ),
         returnValueForMissingStub: _i3.dummyValue<String>(
           this,
-          Invocation.getter(#secondaryAreaBible),
+          Invocation.getter(#secondaryBible),
         ),
       ) as String);
 

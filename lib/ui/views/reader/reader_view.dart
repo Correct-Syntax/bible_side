@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:material_symbols_icons/symbols.dart';
 import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
 import 'package:visibility_detector/visibility_detector.dart';
 import 'package:stacked/stacked.dart';
 
+import '../../../common/enums.dart';
 import '../../widgets/common/side_navigation_drawer/side_navigation_drawer.dart';
 import 'reader_viewmodel.dart';
 import 'widgets/primary_reader_appbar/primary_reader_appbar.dart';
+import 'widgets/reader_area_popup/reader_area_popup.dart';
 import 'widgets/secondary_reader_appbar/secondary_reader_appbar.dart';
 
 class ReaderView extends StackedView<ReaderViewModel> {
@@ -26,193 +27,166 @@ class ReaderView extends StackedView<ReaderViewModel> {
     Widget? child,
   ) {
     return Scaffold(
-      appBar: PreferredSize(
-        preferredSize: Size(double.infinity, kToolbarHeight),
-        child: SafeArea(
-          child: SecondaryReaderAppbar(
-            currentBook: 'John',
-            currentBibleVersion: viewModel.primaryAreaBible, // secondaryAreaBible
-            onTapBook: viewModel.onTapBook,
-            onTapBibleVersion: () {},
-            onTapClose: () {},
-          ),
-        ),
-      ),
-
-      // AppBar(
-      //   title: InkWell(
-      //     onTap: viewModel.onNavigationBtn,
-      //     borderRadius: BorderRadius.circular(12.0),
-      //     child: Text(
-      //       viewModel.getcurrentNavigationString(
-      //         viewModel.bookCode,
-      //         viewModel.chapterNumber,
-      //         viewModel.sectionNumber,
-      //       ),
-      //       style: Theme.of(context).textTheme.titleLarge!.copyWith(fontWeight: FontWeight.w500),
-      //     ),
-      //   ),
-      //   shadowColor: null,
-      //   actions: [
-      //     InkWell(
-      //       borderRadius: BorderRadius.circular(40.0),
-      //       onTap: viewModel.onBiblesBtn,
-      //       child: Container(
-      //         padding: const EdgeInsets.symmetric(horizontal: 14.0, vertical: 6.0),
-      //         decoration: BoxDecoration(
-      //           color: Theme.of(context).dialogBackgroundColor,
-      //           borderRadius: BorderRadius.circular(40.0),
-      //         ),
-      //         child: Row(
-      //           children: [
-      //             Icon(
-      //               Symbols.book_2,
-      //               color: Theme.of(context).iconTheme.color,
-      //               size: 18.0,
-      //             ),
-      //             const SizedBox(width: 3.0),
-      //             Text(
-      //               viewModel.primaryAreaBible,
-      //               maxLines: 1,
-      //               overflow: TextOverflow.ellipsis,
-      //               style: Theme.of(context).textTheme.bodyLarge!.copyWith(fontWeight: FontWeight.w500),
-      //             ),
-      //           ],
-      //         ),
-      //       ),
-      //     ),
-      //     const SizedBox(width: 14.0),
-      //   ],
-      // ),
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
+      appBar: viewModel.showSecondaryArea
+          ? PreferredSize(
+              preferredSize: const Size(double.infinity, kToolbarHeight),
+              child: SafeArea(
+                child: SecondaryReaderAppbar(
+                  isReaderAreaPopupActive: viewModel.isSecondaryReaderAreaPopupActive,
+                  onTapBook: viewModel.onTapBook,
+                  onTapBibleVersion: () => viewModel.onTapBibleVersion(Area.secondary),
+                  onTapClose: viewModel.onTapCloseSecondaryArea,
+                ),
+              ),
+            )
+          : null,
+      body: Stack(
         children: [
-          Expanded(
-            child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 24.0),
-              child: Scrollable(
-                controller: viewModel.primaryAreaController,
-                viewportBuilder: (BuildContext context, ViewportOffset position) {
-                  return Viewport(
-                    offset: position,
-                    center: viewModel.downListKey,
-                    slivers: [
-                      PagedSliverList(
-                        pagingController: viewModel.primaryPagingUpController,
-                        builderDelegate: PagedChildBuilderDelegate<Map<String, dynamic>>(
-                          itemBuilder: (context, item, index) => VisibilityDetector(
-                            key: ValueKey('${item['page']}'),
-                            onVisibilityChanged: (VisibilityInfo visibilityInfo) =>
-                                viewModel.setChapter(item['chapter']),
-                            child: Container(
-                              margin: const EdgeInsets.symmetric(vertical: 1.0),
-                              child: RichText(
-                                text: TextSpan(children: item['spans']),
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              if (viewModel.showSecondaryArea)
+                Expanded(
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 24.0),
+                    child: Scrollable(
+                      controller: viewModel.secondaryAreaController,
+                      viewportBuilder: (BuildContext context, ViewportOffset position) {
+                        return Viewport(
+                          offset: position,
+                          center: viewModel.downListKey,
+                          slivers: [
+                            PagedSliverList(
+                              pagingController: viewModel.secondaryPagingUpController,
+                              builderDelegate: PagedChildBuilderDelegate<Map<String, dynamic>>(
+                                itemBuilder: (context, item, index) => VisibilityDetector(
+                                  key: ValueKey('${item['page']}'),
+                                  onVisibilityChanged: (VisibilityInfo visibilityInfo) =>
+                                      viewModel.setChapter(item['page']),
+                                  child: Container(
+                                    margin: const EdgeInsets.symmetric(vertical: 1.0),
+                                    child: RichText(
+                                      text: TextSpan(children: item['spans']),
+                                    ),
+                                  ),
+                                ),
+                                noItemsFoundIndicatorBuilder: (_) {
+                                  return const SizedBox();
+                                },
+                                noMoreItemsIndicatorBuilder: (_) {
+                                  return const SizedBox();
+                                },
                               ),
                             ),
-                          ),
-                          noItemsFoundIndicatorBuilder: (_) {
-                            return const SizedBox();
-                          },
-                          noMoreItemsIndicatorBuilder: (_) {
-                            return const SizedBox();
-                          },
-                        ),
-                      ),
-                      PagedSliverList(
-                        key: viewModel.downListKey,
-                        pagingController: viewModel.primaryPagingDownController,
-                        builderDelegate: PagedChildBuilderDelegate<Map<String, dynamic>>(
-                          itemBuilder: (context, item, index) => VisibilityDetector(
-                            key: ValueKey('${item['page']}'),
-                            onVisibilityChanged: (VisibilityInfo visibilityInfo) =>
-                                viewModel.setChapter(item['chapter']),
-                            child: Container(
-                              margin: const EdgeInsets.symmetric(vertical: 1.0),
-                              child: RichText(
-                                text: TextSpan(children: item['spans']),
+                            PagedSliverList(
+                              key: viewModel.downListKey,
+                              pagingController: viewModel.secondaryPagingDownController,
+                              builderDelegate: PagedChildBuilderDelegate<Map<String, dynamic>>(
+                                itemBuilder: (context, item, index) => VisibilityDetector(
+                                  key: ValueKey('${item['page']}'),
+                                  onVisibilityChanged: (VisibilityInfo visibilityInfo) =>
+                                      viewModel.setChapter(item['page']),
+                                  child: Container(
+                                    margin: const EdgeInsets.symmetric(vertical: 1.0),
+                                    child: RichText(
+                                      text: TextSpan(children: item['spans']),
+                                    ),
+                                  ),
+                                ),
+                                noItemsFoundIndicatorBuilder: (_) {
+                                  return const SizedBox();
+                                },
+                                noMoreItemsIndicatorBuilder: (_) {
+                                  return const SizedBox();
+                                },
                               ),
                             ),
+                          ],
+                        );
+                      },
+                    ),
+                  ),
+                ),
+              if (viewModel.showSecondaryArea)
+                const Padding(
+                  padding: EdgeInsets.symmetric(vertical: 1.0),
+                  child: Divider(),
+                ),
+              Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 24.0),
+                  child: Scrollable(
+                    controller: viewModel.primaryAreaController,
+                    viewportBuilder: (BuildContext context, ViewportOffset position) {
+                      return Viewport(
+                        offset: position,
+                        center: viewModel.downListKey,
+                        slivers: [
+                          PagedSliverList(
+                            pagingController: viewModel.primaryPagingUpController,
+                            builderDelegate: PagedChildBuilderDelegate<Map<String, dynamic>>(
+                              itemBuilder: (context, item, index) => VisibilityDetector(
+                                key: ValueKey('${item['page']}'),
+                                onVisibilityChanged: (VisibilityInfo visibilityInfo) =>
+                                    viewModel.setChapter(item['chapter']),
+                                child: Container(
+                                  margin: const EdgeInsets.symmetric(vertical: 1.0),
+                                  child: RichText(
+                                    text: TextSpan(children: item['spans']),
+                                  ),
+                                ),
+                              ),
+                              noItemsFoundIndicatorBuilder: (_) {
+                                return const SizedBox();
+                              },
+                              noMoreItemsIndicatorBuilder: (_) {
+                                return const SizedBox();
+                              },
+                            ),
                           ),
-                          noItemsFoundIndicatorBuilder: (_) {
-                            return const SizedBox();
-                          },
-                          noMoreItemsIndicatorBuilder: (_) {
-                            return const SizedBox();
-                          },
-                        ),
-                      ),
-                    ],
-                  );
-                },
+                          PagedSliverList(
+                            key: viewModel.downListKey,
+                            pagingController: viewModel.primaryPagingDownController,
+                            builderDelegate: PagedChildBuilderDelegate<Map<String, dynamic>>(
+                              itemBuilder: (context, item, index) => VisibilityDetector(
+                                key: ValueKey('${item['page']}'),
+                                onVisibilityChanged: (VisibilityInfo visibilityInfo) =>
+                                    viewModel.setChapter(item['chapter']),
+                                child: Container(
+                                  margin: const EdgeInsets.symmetric(vertical: 1.0),
+                                  child: RichText(
+                                    text: TextSpan(children: item['spans']),
+                                  ),
+                                ),
+                              ),
+                              noItemsFoundIndicatorBuilder: (_) {
+                                return const SizedBox();
+                              },
+                              noMoreItemsIndicatorBuilder: (_) {
+                                return const SizedBox();
+                              },
+                            ),
+                          ),
+                        ],
+                      );
+                    },
+                  ),
+                ),
+              ),
+            ],
+          ),
+          if (viewModel.isSecondaryReaderAreaPopupActive)
+            Align(
+              alignment: Alignment.topCenter,
+              child: ReaderAreaPopup(
+                readerArea: Area.secondary,
               ),
             ),
-          ),
-          if (viewModel.showSecondaryArea)
-            const Padding(
-              padding: EdgeInsets.symmetric(vertical: 1.0),
-              child: Divider(),
-            ),
-          if (viewModel.showSecondaryArea)
-            Expanded(
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 24.0),
-                child: Scrollable(
-                  controller: viewModel.secondaryAreaController,
-                  viewportBuilder: (BuildContext context, ViewportOffset position) {
-                    return Viewport(
-                      offset: position,
-                      center: viewModel.downListKey,
-                      slivers: [
-                        PagedSliverList(
-                          pagingController: viewModel.secondaryPagingUpController,
-                          builderDelegate: PagedChildBuilderDelegate<Map<String, dynamic>>(
-                            itemBuilder: (context, item, index) => VisibilityDetector(
-                              key: ValueKey('${item['page']}'),
-                              onVisibilityChanged: (VisibilityInfo visibilityInfo) =>
-                                  viewModel.setChapter(item['page']),
-                              child: Container(
-                                margin: const EdgeInsets.symmetric(vertical: 1.0),
-                                child: RichText(
-                                  text: TextSpan(children: item['spans']),
-                                ),
-                              ),
-                            ),
-                            noItemsFoundIndicatorBuilder: (_) {
-                              return const SizedBox();
-                            },
-                            noMoreItemsIndicatorBuilder: (_) {
-                              return const SizedBox();
-                            },
-                          ),
-                        ),
-                        PagedSliverList(
-                          key: viewModel.downListKey,
-                          pagingController: viewModel.secondaryPagingDownController,
-                          builderDelegate: PagedChildBuilderDelegate<Map<String, dynamic>>(
-                            itemBuilder: (context, item, index) => VisibilityDetector(
-                              key: ValueKey('${item['page']}'),
-                              onVisibilityChanged: (VisibilityInfo visibilityInfo) =>
-                                  viewModel.setChapter(item['page']),
-                              child: Container(
-                                margin: const EdgeInsets.symmetric(vertical: 1.0),
-                                child: RichText(
-                                  text: TextSpan(children: item['spans']),
-                                ),
-                              ),
-                            ),
-                            noItemsFoundIndicatorBuilder: (_) {
-                              return const SizedBox();
-                            },
-                            noMoreItemsIndicatorBuilder: (_) {
-                              return const SizedBox();
-                            },
-                          ),
-                        ),
-                      ],
-                    );
-                  },
-                ),
+          if (viewModel.isPrimaryReaderAreaPopupActive)
+            Align(
+              alignment: Alignment.bottomCenter,
+              child: ReaderAreaPopup(
+                readerArea: Area.primary,
               ),
             ),
         ],
@@ -222,11 +196,10 @@ class ReaderView extends StackedView<ReaderViewModel> {
         onViewChanged: viewModel.setCurrentIndex,
       ),
       bottomNavigationBar: PrimaryReaderAppbar(
-        currentBook: 'John',
-        currentBibleVersion: viewModel.primaryAreaBible,
-        onTapSearch: viewModel.onSearchView,
+        isReaderAreaPopupActive: viewModel.isPrimaryReaderAreaPopupActive,
+        onTapSearch: viewModel.onTapSearch,
         onTapBook: viewModel.onTapBook,
-        onTapBibleVersion: () {},
+        onTapBibleVersion: () => viewModel.onTapBibleVersion(Area.primary),
         onTapMenu: () {},
       ),
     );

@@ -16,8 +16,8 @@ class BiblesService with ListenableServiceMixin {
   Map<String, dynamic> primaryAreaJson = {};
   Map<String, dynamic> secondaryAreaJson = {};
 
-  String get primaryAreaBible => _settingsService.primaryAreaBible;
-  String get secondaryAreaBible => _settingsService.secondaryAreaBible;
+  String get primaryBible => _settingsService.primaryBible;
+  String get secondaryBible => _settingsService.secondaryBible;
   String get bookCode => _settingsService.bookCode;
   int get chapterNumber => _settingsService.chapterNumber;
   int get sectionNumber => _settingsService.sectionNumber;
@@ -57,9 +57,9 @@ class BiblesService with ListenableServiceMixin {
 
   Future<void> loadBibleVersion(Area pane) async {
     if (pane == Area.primary) {
-      primaryAreaJson = await _jsonService.loadBookJson(primaryAreaBible, bookCode);
+      primaryAreaJson = await _jsonService.loadBookJson(primaryBible, bookCode);
     } else if (pane == Area.secondary) {
-      secondaryAreaJson = await _jsonService.loadBookJson(secondaryAreaBible, bookCode);
+      secondaryAreaJson = await _jsonService.loadBookJson(secondaryBible, bookCode);
     }
   }
 

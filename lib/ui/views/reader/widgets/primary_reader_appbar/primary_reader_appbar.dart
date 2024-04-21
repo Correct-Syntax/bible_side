@@ -9,16 +9,14 @@ import 'primary_reader_appbar_model.dart';
 class PrimaryReaderAppbar extends StackedView<PrimaryReaderAppbarModel> {
   const PrimaryReaderAppbar({
     super.key,
-    required this.currentBook,
-    required this.currentBibleVersion,
+    required this.isReaderAreaPopupActive,
     required this.onTapSearch,
     required this.onTapBook,
     required this.onTapBibleVersion,
     required this.onTapMenu,
   });
 
-  final String currentBook;
-  final String currentBibleVersion;
+  final bool isReaderAreaPopupActive;
   final Function() onTapSearch;
   final Function() onTapBook;
   final Function() onTapBibleVersion;
@@ -49,8 +47,8 @@ class PrimaryReaderAppbar extends StackedView<PrimaryReaderAppbarModel> {
             ),
           ),
           ReaderSelectorBtn(
-            areaType: Area.primary,
-            isActive: false,
+            readerArea: Area.primary,
+            isActive: isReaderAreaPopupActive,
             onTapBook: onTapBook,
             onTapBibleVersion: onTapBibleVersion,
           ),

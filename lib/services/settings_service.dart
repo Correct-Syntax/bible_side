@@ -44,9 +44,9 @@ class SettingsService with ListenableServiceMixin {
   bool get showSecondaryArea => _showSecondaryArea;
 
   String _primaryAreaBible = 'OET-RV';
-  String get primaryAreaBible => _primaryAreaBible;
+  String get primaryBible => _primaryAreaBible;
   String _secondaryAreaBible = 'OET-LV';
-  String get secondaryAreaBible => _secondaryAreaBible;
+  String get secondaryBible => _secondaryAreaBible;
   String _bookCode = 'JHN';
   String get bookCode => _bookCode;
   int _chapterNumber = 1;

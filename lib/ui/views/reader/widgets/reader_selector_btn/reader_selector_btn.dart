@@ -10,13 +10,13 @@ import 'reader_selector_btn_model.dart';
 class ReaderSelectorBtn extends StackedView<ReaderSelectorBtnModel> {
   const ReaderSelectorBtn({
     super.key,
-    required this.areaType,
+    required this.readerArea,
     required this.isActive,
     required this.onTapBook,
     required this.onTapBibleVersion,
   });
 
-  final Area areaType;
+  final Area readerArea;
   final bool isActive;
   final Function() onTapBook;
   final Function() onTapBibleVersion;
@@ -75,7 +75,7 @@ class ReaderSelectorBtn extends StackedView<ReaderSelectorBtnModel> {
                   Padding(
                     padding: const EdgeInsets.only(right: 5.0),
                     child: Text(
-                      viewModel.primaryAreaBible,
+                      readerArea == Area.primary ? viewModel.primaryBible : viewModel.secondaryBible,
                       style: TextStyle(
                         fontSize: 15.0,
                         color: Color(0xffE8E8E9),
@@ -83,24 +83,14 @@ class ReaderSelectorBtn extends StackedView<ReaderSelectorBtnModel> {
                       ),
                     ),
                   ),
-                  if (areaType == Area.primary)
-                    PhosphorIcon(
-                      isActive == true
-                          ? PhosphorIcons.caretDown(PhosphorIconsStyle.bold)
-                          : PhosphorIcons.caretUp(PhosphorIconsStyle.bold),
-                      color: Color(0xffE8E8E9),
-                      size: 16.0,
-                      semanticLabel: isActive == true ? 'Caret down' : 'Caret up',
-                    ),
-                  if (areaType == Area.secondary)
-                    PhosphorIcon(
-                      isActive == true
-                          ? PhosphorIcons.caretUp(PhosphorIconsStyle.bold)
-                          : PhosphorIcons.caretDown(PhosphorIconsStyle.bold),
-                      color: Color(0xffE8E8E9),
-                      size: 16.0,
-                      semanticLabel: isActive == true ? 'Caret up' : 'Caret down',
-                    ),
+                  PhosphorIcon(
+                    isActive == true
+                        ? PhosphorIcons.caretUp(PhosphorIconsStyle.bold)
+                        : PhosphorIcons.caretDown(PhosphorIconsStyle.bold),
+                    color: Color(0xffE8E8E9),
+                    size: 16.0,
+                    semanticLabel: isActive == true ? 'Caret up' : 'Caret down',
+                  ),
                 ],
               ),
             ),
