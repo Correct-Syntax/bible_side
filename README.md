@@ -1,17 +1,10 @@
 ![Bibleside](/assets/images/logo-banner.jpg)
 
-Bibleside is a simple, offline Bible app inspired by the Material 3 design system, featuring the OET.
+Bibleside is an offline Bible app featuring the OET (Open English Translation).
 
 The [OET (Open English Translation)](https://openenglishtranslation.bible) is a new, open-licensed Bible translation (currently in ``draft`` state) featuring multiple versions intended to be used together. <sup>Please see the OET website for more info on what makes it different than other translations.</sup>
 
 Bibleside implements the OET's "Reader's" version in the main area and a toggle to show the "Literal" and "Reader's" versions side-by-side. The two can be scrolled together for easy comparison.
-
-
-## Features
-
-- [x] Runs fully offline
-- [x] Two reader areas that can be scrolled together, side-by-side.
-- [x] Light and dark modes
 
 
 ## Bible versions
