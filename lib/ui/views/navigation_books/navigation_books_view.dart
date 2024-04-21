@@ -3,6 +3,7 @@ import 'package:phosphor_flutter/phosphor_flutter.dart';
 import 'package:stacked/stacked.dart';
 
 import '../../../common/books.dart';
+import '../../common/ui_helpers.dart';
 import '../../widgets/common/bible_division_indicator/bible_division_indicator.dart';
 import 'navigation_books_viewmodel.dart';
 
@@ -20,37 +21,53 @@ class NavigationBooksView extends StackedView<NavigationBooksViewModel> {
     NavigationBooksViewModel viewModel,
     Widget? child,
   ) {
+    bool isPortrait = isPortraitOrientation(context);
     return Scaffold(
       backgroundColor: Theme.of(context).colorScheme.background,
-      appBar: AppBar(),
+      appBar: AppBar(
+        centerTitle: true,
+        scrolledUnderElevation: 0.0,
+        title: isPortrait
+            ? null
+            : Text(
+                BooksMapping.bibleDivisionNameFromCode(bibleDivisionCode),
+                style: TextStyle(
+                  fontSize: 18.0,
+                  fontWeight: FontWeight.w500,
+                ),
+              ),
+      ),
       body: Container(
-        padding: const EdgeInsets.only(top: 26.0, left: 25.0, right: 25.0),
+        padding: EdgeInsets.only(top: isPortrait ? 26.0 : 0.0, left: 25.0, right: 25.0),
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Align(
-                  alignment: Alignment.topLeft,
-                  child: Padding(
-                    padding: const EdgeInsets.only(bottom: 13.0, right: 8),
-                    child: BibleDivisionIndicator(
-                      color: BooksMapping.colorFromBibleDivisionCode(bibleDivisionCode),
+            if (isPortrait)
+              Padding(
+                padding: const EdgeInsets.only(bottom: 36.0),
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Align(
+                      alignment: Alignment.topLeft,
+                      child: Padding(
+                        padding: const EdgeInsets.only(bottom: 13.0, right: 8),
+                        child: BibleDivisionIndicator(
+                          color: BooksMapping.colorFromBibleDivisionCode(bibleDivisionCode),
+                        ),
+                      ),
                     ),
-                  ),
+                    Text(
+                      BooksMapping.bibleDivisionNameFromCode(bibleDivisionCode),
+                      style: const TextStyle(
+                        fontSize: 26.0,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
                 ),
-                Text(
-                  BooksMapping.bibleDivisionNameFromCode(bibleDivisionCode),
-                  style: const TextStyle(
-                    fontSize: 26.0,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-              ],
-            ),
-            const SizedBox(height: 36.0),
+              ),
             Expanded(
               child: ListView.builder(
                 itemCount: BooksMapping.numOfBooksFromBibleDivisionCode(bibleDivisionCode),

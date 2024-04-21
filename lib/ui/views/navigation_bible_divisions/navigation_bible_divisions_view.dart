@@ -1,4 +1,6 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:phosphor_flutter/phosphor_flutter.dart';
 import 'package:stacked/stacked.dart';
 
@@ -17,9 +19,19 @@ class NavigationBibleDivisionsView extends StackedView<NavigationBibleDivisionsV
   ) {
     return Scaffold(
       backgroundColor: Theme.of(context).colorScheme.background,
-      appBar: AppBar(),
+      appBar: AppBar(
+        centerTitle: true,
+        scrolledUnderElevation: 0.0,
+        title: Text(
+          'Primary Bible Nav', // TODO: change titles based on area and scroll linking
+          style: TextStyle(
+            fontSize: 18.0,
+            fontWeight: FontWeight.w500,
+          ),
+        ),
+      ),
       body: Container(
-        padding: const EdgeInsets.only(top: 26.0, left: 25.0, right: 25.0),
+        padding: const EdgeInsets.only(top: 12.0),
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
@@ -31,7 +43,7 @@ class NavigationBibleDivisionsView extends StackedView<NavigationBibleDivisionsV
                   return InkWell(
                     onTap: () => viewModel.onTapBibleDivisionItem(bibleDivisionCode),
                     child: Padding(
-                      padding: const EdgeInsets.symmetric(vertical: 14.0),
+                      padding: const EdgeInsets.symmetric(vertical: 13.0, horizontal: 25.0),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         crossAxisAlignment: CrossAxisAlignment.center,
@@ -69,57 +81,69 @@ class NavigationBibleDivisionsView extends StackedView<NavigationBibleDivisionsV
               ),
             ),
             Container(
-              margin: const EdgeInsets.symmetric(vertical: 10.0),
-              child: const Divider(),
-            ),
-            Padding(
-              padding: const EdgeInsets.only(bottom: 7.0),
-              child: Row(
+              color: Color(0xff161718),
+              padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+              child: Column(
                 children: [
-                  PhosphorIcon(
-                    PhosphorIcons.clockCounterClockwise(PhosphorIconsStyle.regular),
-                    color: Colors.white,
-                    size: 18.0,
-                    semanticLabel: 'Caret right',
-                  ),
-                  const SizedBox(width: 4),
-                  const Text(
-                    'RECENT',
-                    style: TextStyle(
-                      fontSize: 12.0,
-                      fontWeight: FontWeight.w500,
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            SizedBox(
-              height: 67,
-              child: GridView.builder(
-                itemCount: viewModel.recentBooks.length,
-                gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-                  maxCrossAxisExtent: 120,
-                  childAspectRatio: 4 / 2,
-                  crossAxisSpacing: 18,
-                  mainAxisSpacing: 8,
-                ),
-                itemBuilder: (BuildContext context, int index) {
-                  String bookCode = viewModel.recentBooks.elementAt(index);
-                  return InkWell(
-                    borderRadius: BorderRadius.circular(12.0),
-                    onTap: () => viewModel.onTapRecentBookItem(bookCode),
-                    child: Center(
-                      child: Text(
-                        BooksMapping.bookNameFromBookCode(bookCode),
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
-                        style: const TextStyle(
-                          fontSize: 16.0,
+                  Row(
+                    children: [
+                      PhosphorIcon(
+                        PhosphorIcons.clockCounterClockwise(PhosphorIconsStyle.regular),
+                        color: Colors.white,
+                        size: 16.0,
+                      ),
+                      const SizedBox(width: 4),
+                      const Text(
+                        'RECENT',
+                        style: TextStyle(
+                          fontSize: 12.0,
+                          fontWeight: FontWeight.w500,
                         ),
                       ),
-                    ),
-                  );
-                },
+                    ],
+                  ),
+                  const SizedBox(height: 7.0),
+                  SizedBox(
+                    height: 50,
+                    child: viewModel.recentBooks.isNotEmpty
+                        ? GridView.builder(
+                            itemCount: viewModel.recentBooks.length,
+                            gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+                              maxCrossAxisExtent: 120,
+                              childAspectRatio: 4 / 2,
+                              crossAxisSpacing: 18,
+                              mainAxisSpacing: 8,
+                            ),
+                            itemBuilder: (BuildContext context, int index) {
+                              String bookCode = viewModel.recentBooks.elementAt(index);
+                              return InkWell(
+                                borderRadius: BorderRadius.circular(12.0),
+                                onTap: () => viewModel.onTapRecentBookItem(bookCode),
+                                child: Center(
+                                  child: Text(
+                                    BooksMapping.bookNameFromBookCode(bookCode),
+                                    maxLines: 1,
+                                    overflow: TextOverflow.ellipsis,
+                                    style: const TextStyle(
+                                      fontSize: 16.0,
+                                    ),
+                                  ),
+                                ),
+                              );
+                            },
+                          )
+                        : const Padding(
+                            padding: EdgeInsets.only(top: 14.0),
+                            child: Text(
+                              'Your recent books will appear here.',
+                              style: TextStyle(
+                                color: Colors.white60,
+                                fontSize: 13.0,
+                              ),
+                            ),
+                          ),
+                  ),
+                ],
               ),
             ),
           ],

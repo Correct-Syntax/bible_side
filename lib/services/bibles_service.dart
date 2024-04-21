@@ -2,7 +2,6 @@ import 'package:stacked/stacked.dart';
 
 import '../app/app.locator.dart';
 import '../common/enums.dart';
-import '../common/books.dart';
 import 'json_service.dart';
 import 'settings_service.dart';
 
@@ -11,9 +10,7 @@ class BiblesService with ListenableServiceMixin {
   final _jsonService = locator<JsonService>();
 
   BiblesService() {
-    listenToReactiveValues([
-      booksMapping,
-    ]);
+    listenToReactiveValues([]);
   }
 
   Map<String, dynamic> primaryAreaJson = {};
@@ -36,33 +33,26 @@ class BiblesService with ListenableServiceMixin {
 
   void setPrimaryAreaBible(String bibleCode) {
     _settingsService.setPrimaryAreaBible(bibleCode);
-    notifyListeners();
   }
 
   void setSecondaryAreaBible(String bibleCode) {
     _settingsService.setSecondaryAreaBible(bibleCode);
-
-    notifyListeners();
   }
 
   void setBook(String book) {
     _settingsService.setBook(book);
-    notifyListeners();
   }
 
   void setChapter(int newChapter) {
     _settingsService.setChapterNumber(newChapter);
-    notifyListeners();
   }
 
   void setSection(int newSection) {
     _settingsService.setSectionNumber(newSection);
-    notifyListeners();
   }
 
   void setViewBy(ViewBy viewBy) {
     _settingsService.setNavViewBy(viewBy);
-    notifyListeners();
   }
 
   Future<void> loadBibleVersion(Area pane) async {
@@ -71,14 +61,6 @@ class BiblesService with ListenableServiceMixin {
     } else if (pane == Area.secondary) {
       secondaryAreaJson = await _jsonService.loadBookJson(secondaryAreaBible, bookCode);
     }
-  }
-
-  String bookCodeToBook(String bookCode) {
-    return ''; // booksMapping[bookCode]!;
-  }
-
-  String bookToBookCode(String book) {
-    return booksMapping.keys.firstWhere((item) => booksMapping[item] == book);
   }
 
   void addBookToRecentHistory(String book) {
