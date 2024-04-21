@@ -43,67 +43,70 @@ class ReaderView extends StackedView<ReaderViewModel> {
       body: Stack(
         children: [
           Column(
+            mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              if (viewModel.showSecondaryArea)
-                Expanded(
-                  child: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 24.0),
-                    child: Scrollable(
-                      controller: viewModel.secondaryAreaController,
-                      viewportBuilder: (BuildContext context, ViewportOffset position) {
-                        return Viewport(
-                          offset: position,
-                          center: viewModel.downListKey,
-                          slivers: [
-                            PagedSliverList(
-                              pagingController: viewModel.secondaryPagingUpController,
-                              builderDelegate: PagedChildBuilderDelegate<Map<String, dynamic>>(
-                                itemBuilder: (context, item, index) => VisibilityDetector(
-                                  key: ValueKey('${item['page']}'),
-                                  onVisibilityChanged: (VisibilityInfo visibilityInfo) =>
-                                      viewModel.setChapter(item['page']),
-                                  child: Container(
-                                    margin: const EdgeInsets.symmetric(vertical: 1.0),
-                                    child: RichText(
-                                      text: TextSpan(children: item['spans']),
+                Visibility(
+                  visible: viewModel.showSecondaryArea,
+                  child: Expanded(
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 24.0),
+                      child: Scrollable(
+                        controller: viewModel.secondaryAreaController,
+                        viewportBuilder: (BuildContext context, ViewportOffset position) {
+                          return Viewport(
+                            offset: position,
+                            center: viewModel.downListKey,
+                            slivers: [
+                              PagedSliverList(
+                                pagingController: viewModel.secondaryPagingUpController,
+                                builderDelegate: PagedChildBuilderDelegate<Map<String, dynamic>>(
+                                  itemBuilder: (context, item, index) => VisibilityDetector(
+                                    key: ValueKey('${item['page']}'),
+                                    onVisibilityChanged: (VisibilityInfo visibilityInfo) =>
+                                        viewModel.setChapter(item['page']),
+                                    child: Container(
+                                      margin: const EdgeInsets.symmetric(vertical: 1.0),
+                                      child: RichText(
+                                        text: TextSpan(children: item['spans']),
+                                      ),
                                     ),
                                   ),
+                                  noItemsFoundIndicatorBuilder: (_) {
+                                    return const SizedBox();
+                                  },
+                                  noMoreItemsIndicatorBuilder: (_) {
+                                    return const SizedBox();
+                                  },
                                 ),
-                                noItemsFoundIndicatorBuilder: (_) {
-                                  return const SizedBox();
-                                },
-                                noMoreItemsIndicatorBuilder: (_) {
-                                  return const SizedBox();
-                                },
                               ),
-                            ),
-                            PagedSliverList(
-                              key: viewModel.downListKey,
-                              pagingController: viewModel.secondaryPagingDownController,
-                              builderDelegate: PagedChildBuilderDelegate<Map<String, dynamic>>(
-                                itemBuilder: (context, item, index) => VisibilityDetector(
-                                  key: ValueKey('${item['page']}'),
-                                  onVisibilityChanged: (VisibilityInfo visibilityInfo) =>
-                                      viewModel.setChapter(item['page']),
-                                  child: Container(
-                                    margin: const EdgeInsets.symmetric(vertical: 1.0),
-                                    child: RichText(
-                                      text: TextSpan(children: item['spans']),
+                              PagedSliverList(
+                                key: viewModel.downListKey,
+                                pagingController: viewModel.secondaryPagingDownController,
+                                builderDelegate: PagedChildBuilderDelegate<Map<String, dynamic>>(
+                                  itemBuilder: (context, item, index) => VisibilityDetector(
+                                    key: ValueKey('${item['page']}'),
+                                    onVisibilityChanged: (VisibilityInfo visibilityInfo) =>
+                                        viewModel.setChapter(item['page']),
+                                    child: Container(
+                                      margin: const EdgeInsets.symmetric(vertical: 1.0),
+                                      child: RichText(
+                                        text: TextSpan(children: item['spans']),
+                                      ),
                                     ),
                                   ),
+                                  noItemsFoundIndicatorBuilder: (_) {
+                                    return const SizedBox();
+                                  },
+                                  noMoreItemsIndicatorBuilder: (_) {
+                                    return const SizedBox();
+                                  },
                                 ),
-                                noItemsFoundIndicatorBuilder: (_) {
-                                  return const SizedBox();
-                                },
-                                noMoreItemsIndicatorBuilder: (_) {
-                                  return const SizedBox();
-                                },
                               ),
-                            ),
-                          ],
-                        );
-                      },
+                            ],
+                          );
+                        },
+                      ),
                     ),
                   ),
                 ),
