@@ -6,15 +6,15 @@ import '../common/enums.dart';
 class SettingsService with ListenableServiceMixin {
   SettingsService() {
     listenToReactiveValues([
-      isDarkTheme,
-      showSecondaryArea,
-      primaryAreaBible,
-      secondaryAreaBible,
-      bookCode,
-      chapterNumber,
-      sectionNumber,
-      recentBooks,
-      viewBy,
+      _isDarkTheme,
+      _showSecondaryArea,
+      _primaryAreaBible,
+      _secondaryAreaBible,
+      _bookCode,
+      _chapterNumber,
+      _sectionNumber,
+      _recentBooks,
+      _viewBy,
     ]);
   }
 
@@ -38,53 +38,65 @@ class SettingsService with ListenableServiceMixin {
   static const _kShowChaptersAndVerses = 'SHOW_CHAPTERS_AND_VERSES';
   static const _kLinkReaderAreaScrolling = 'LINK_READER_AREA_SCROLLING';
 
-  bool isDarkTheme = false;
-  bool showSecondaryArea = true;
+  bool _isDarkTheme = false;
+  bool get isDarkTheme => _isDarkTheme;
+  bool _showSecondaryArea = true;
+  bool get showSecondaryArea => _showSecondaryArea;
 
-  String primaryAreaBible = 'OET-RV';
-  String secondaryAreaBible = 'OET-LV';
-  String bookCode = 'JHN';
-  int chapterNumber = 1;
-  int sectionNumber = 0; // Section number starts at zero since it represents an index
+  String _primaryAreaBible = 'OET-RV';
+  String get primaryAreaBible => _primaryAreaBible;
+  String _secondaryAreaBible = 'OET-LV';
+  String get secondaryAreaBible => _secondaryAreaBible;
+  String _bookCode = 'JHN';
+  String get bookCode => _bookCode;
+  int _chapterNumber = 1;
+  int get chapterNumber => _chapterNumber;
+  int _sectionNumber = 0; // Section number starts at zero since it represents an index
+  int get sectionNumber => _sectionNumber;
 
-  List<String> recentBooks = [];
-  ViewBy viewBy = ViewBy.section;
+  List<String> _recentBooks = [];
+  List<String> get recentBooks => _recentBooks;
+  ViewBy _viewBy = ViewBy.section;
+  ViewBy get viewBy => _viewBy;
 
-  bool showMarks = true;
-  bool showChaptersAndVerses = true;
-  bool linkReaderAreaScrolling = true;
+  bool _showMarks = true;
+  bool get showMarks => _showMarks;
+  bool _showChaptersAndVerses = true;
+  bool get showChaptersAndVerses => _showChaptersAndVerses;
+  bool _linkReaderAreaScrolling = true;
+  bool get linkReaderAreaScrolling => _linkReaderAreaScrolling;
 
   Future<void> initilize() async {
-    isDarkTheme = await getIsDarkTheme();
-    showSecondaryArea = await getShowSecondaryArea();
-    primaryAreaBible = await getPrimaryAreaBible();
-    secondaryAreaBible = await getSecondaryAreaBible();
-    bookCode = await getBook();
-    chapterNumber = await getChapterNumber();
-    sectionNumber = await getSectionNumber();
-    recentBooks = await getNavRecentBooks();
-    viewBy = await getNavViewBy();
-    showMarks = await getShowMarks();
-    showChaptersAndVerses = await getShowChaptersAndVerses();
-    linkReaderAreaScrolling = await getLinkReaderAreaScrolling();
+    _isDarkTheme = await getIsDarkTheme();
+    _showSecondaryArea = await getShowSecondaryArea();
+    _primaryAreaBible = await getPrimaryAreaBible();
+    _secondaryAreaBible = await getSecondaryAreaBible();
+    _bookCode = await getBook();
+    _chapterNumber = await getChapterNumber();
+    _sectionNumber = await getSectionNumber();
+    _recentBooks = await getNavRecentBooks();
+    _viewBy = await getNavViewBy();
+    _showMarks = await getShowMarks();
+    _showChaptersAndVerses = await getShowChaptersAndVerses();
+    _linkReaderAreaScrolling = await getLinkReaderAreaScrolling();
 
-    await setIsDarkTheme(isDarkTheme);
-    await setShowSecondaryArea(showSecondaryArea);
-    await setPrimaryAreaBible(primaryAreaBible);
-    await setSecondaryAreaBible(secondaryAreaBible);
-    await setBook(bookCode);
-    await setChapterNumber(chapterNumber);
-    await setSectionNumber(sectionNumber);
-    await setNavRecentBooks(recentBooks);
-    await setNavViewBy(viewBy);
-    await setShowMarks(showMarks);
-    await setShowChaptersAndVerses(showChaptersAndVerses);
-    await setLinkReaderAreaScrolling(linkReaderAreaScrolling);
+    await setIsDarkTheme(_isDarkTheme);
+    await setShowSecondaryArea(_showSecondaryArea);
+    await setPrimaryAreaBible(_primaryAreaBible);
+    await setSecondaryAreaBible(_secondaryAreaBible);
+    await setBook(_bookCode);
+    await setChapterNumber(_chapterNumber);
+    await setSectionNumber(_sectionNumber);
+    await setNavRecentBooks(_recentBooks);
+    await setNavViewBy(_viewBy);
+    await setShowMarks(_showMarks);
+    await setShowChaptersAndVerses(_showChaptersAndVerses);
+    await setLinkReaderAreaScrolling(_linkReaderAreaScrolling);
   }
 
   // Is dark theme
   Future<void> setIsDarkTheme(bool value) async {
-    isDarkTheme = value;
+    _isDarkTheme = value;
     SharedPreferences prefs = await SharedPreferences.getInstance();
     prefs.setBool(_kIsDarkTheme, value);
     notifyListeners();
@@ -92,13 +104,13 @@ class SettingsService with ListenableServiceMixin {
 
   Future<bool> getIsDarkTheme() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    isDarkTheme = prefs.getBool(_kIsDarkTheme) ?? false;
-    return isDarkTheme;
+    _isDarkTheme = prefs.getBool(_kIsDarkTheme) ?? false;
+    return _isDarkTheme;
   }
 
   // Show secondary area
   Future<void> setShowSecondaryArea(bool value) async {
-    showSecondaryArea = value;
+    _showSecondaryArea = value;
     SharedPreferences prefs = await SharedPreferences.getInstance();
     prefs.setBool(_kShowSecondaryArea, value);
     notifyListeners();
@@ -106,13 +118,13 @@ class SettingsService with ListenableServiceMixin {
 
   Future<bool> getShowSecondaryArea() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    showSecondaryArea = prefs.getBool(_kShowSecondaryArea) ?? false;
-    return showSecondaryArea;
+    _showSecondaryArea = prefs.getBool(_kShowSecondaryArea) ?? false;
+    return _showSecondaryArea;
   }
 
   // Primary area bible code
   Future<void> setPrimaryAreaBible(String value) async {
-    primaryAreaBible = value;
+    _primaryAreaBible = value;
     SharedPreferences prefs = await SharedPreferences.getInstance();
     prefs.setString(_kPrimaryAreaBibleCode, value);
     notifyListeners();
@@ -120,13 +132,13 @@ class SettingsService with ListenableServiceMixin {
 
   Future<String> getPrimaryAreaBible() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    primaryAreaBible = prefs.getString(_kPrimaryAreaBibleCode) ?? 'OET-RV';
-    return primaryAreaBible;
+    _primaryAreaBible = prefs.getString(_kPrimaryAreaBibleCode) ?? 'OET-RV';
+    return _primaryAreaBible;
   }
 
   // Secondary area bible code
   Future<void> setSecondaryAreaBible(String value) async {
-    secondaryAreaBible = value;
+    _secondaryAreaBible = value;
     SharedPreferences prefs = await SharedPreferences.getInstance();
     prefs.setString(_kSecondaryAreaBibleCode, value);
     notifyListeners();
@@ -134,13 +146,13 @@ class SettingsService with ListenableServiceMixin {
 
   Future<String> getSecondaryAreaBible() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    secondaryAreaBible = prefs.getString(_kSecondaryAreaBibleCode) ?? 'OET-LV';
-    return secondaryAreaBible;
+    _secondaryAreaBible = prefs.getString(_kSecondaryAreaBibleCode) ?? 'OET-LV';
+    return _secondaryAreaBible;
   }
 
   // Book code
   Future<void> setBook(String value) async {
-    bookCode = value;
+    _bookCode = value;
     SharedPreferences prefs = await SharedPreferences.getInstance();
     prefs.setString(_kBookCode, value);
     notifyListeners();
@@ -148,13 +160,13 @@ class SettingsService with ListenableServiceMixin {
 
   Future<String> getBook() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    bookCode = prefs.getString(_kBookCode) ?? 'JHN';
-    return bookCode;
+    _bookCode = prefs.getString(_kBookCode) ?? 'JHN';
+    return _bookCode;
   }
 
   // Chapter number
   Future<void> setChapterNumber(int value) async {
-    chapterNumber = value;
+    _chapterNumber = value;
     SharedPreferences prefs = await SharedPreferences.getInstance();
     prefs.setInt(_kChapterNumber, value);
     notifyListeners();
@@ -162,13 +174,13 @@ class SettingsService with ListenableServiceMixin {
 
   Future<int> getChapterNumber() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    chapterNumber = prefs.getInt(_kChapterNumber) ?? 1;
-    return chapterNumber;
+    _chapterNumber = prefs.getInt(_kChapterNumber) ?? 1;
+    return _chapterNumber;
   }
 
   // Section number
   Future<void> setSectionNumber(int value) async {
-    sectionNumber = value;
+    _sectionNumber = value;
     SharedPreferences prefs = await SharedPreferences.getInstance();
     prefs.setInt(_kSectionNumber, value);
     notifyListeners();
@@ -176,13 +188,13 @@ class SettingsService with ListenableServiceMixin {
 
   Future<int> getSectionNumber() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    sectionNumber = prefs.getInt(_kSectionNumber) ?? 0;
-    return sectionNumber;
+    _sectionNumber = prefs.getInt(_kSectionNumber) ?? 0;
+    return _sectionNumber;
   }
 
   // Recent books
   Future<void> setNavRecentBooks(List<String> value) async {
-    recentBooks = value;
+    _recentBooks = value;
     SharedPreferences prefs = await SharedPreferences.getInstance();
     prefs.setStringList(_kNavRecentBooks, value);
     notifyListeners();
@@ -190,13 +202,13 @@ class SettingsService with ListenableServiceMixin {
 
   Future<List<String>> getNavRecentBooks() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    recentBooks = prefs.getStringList(_kNavRecentBooks) ?? [];
-    return recentBooks;
+    _recentBooks = prefs.getStringList(_kNavRecentBooks) ?? [];
+    return _recentBooks;
   }
 
   // View by
   Future<void> setNavViewBy(ViewBy value) async {
-    viewBy = value;
+    _viewBy = value;
     SharedPreferences prefs = await SharedPreferences.getInstance();
     prefs.setString(_kNavViewBy, value.name);
     notifyListeners();
@@ -204,13 +216,13 @@ class SettingsService with ListenableServiceMixin {
 
   Future<ViewBy> getNavViewBy() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    viewBy = ViewBy.values.byName(prefs.getString(_kNavViewBy) ?? 'section');
-    return viewBy;
+    _viewBy = ViewBy.values.byName(prefs.getString(_kNavViewBy) ?? 'section');
+    return _viewBy;
   }
 
   // Show marks
   Future<void> setShowMarks(bool value) async {
-    showMarks = value;
+    _showMarks = value;
     SharedPreferences prefs = await SharedPreferences.getInstance();
     prefs.setBool(_kShowMarks, value);
     notifyListeners();
@@ -218,13 +230,13 @@ class SettingsService with ListenableServiceMixin {
 
   Future<bool> getShowMarks() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    showMarks = prefs.getBool(_kShowMarks) ?? true;
-    return showMarks;
+    _showMarks = prefs.getBool(_kShowMarks) ?? true;
+    return _showMarks;
   }
 
   // Show chapter and verse numbers
   Future<void> setShowChaptersAndVerses(bool value) async {
-    showChaptersAndVerses = value;
+    _showChaptersAndVerses = value;
     SharedPreferences prefs = await SharedPreferences.getInstance();
     prefs.setBool(_kShowChaptersAndVerses, value);
     notifyListeners();
@@ -232,13 +244,13 @@ class SettingsService with ListenableServiceMixin {
 
   Future<bool> getShowChaptersAndVerses() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    showChaptersAndVerses = prefs.getBool(_kShowChaptersAndVerses) ?? true;
-    return showChaptersAndVerses;
+    _showChaptersAndVerses = prefs.getBool(_kShowChaptersAndVerses) ?? true;
+    return _showChaptersAndVerses;
   }
 
   // Link reader area scrolling
   Future<void> setLinkReaderAreaScrolling(bool value) async {
-    linkReaderAreaScrolling = value;
+    _linkReaderAreaScrolling = value;
     SharedPreferences prefs = await SharedPreferences.getInstance();
     prefs.setBool(_kLinkReaderAreaScrolling, value);
     notifyListeners();
@@ -246,7 +258,7 @@ class SettingsService with ListenableServiceMixin {
 
   Future<bool> getLinkReaderAreaScrolling() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    linkReaderAreaScrolling = prefs.getBool(_kLinkReaderAreaScrolling) ?? true;
-    return linkReaderAreaScrolling;
+    _linkReaderAreaScrolling = prefs.getBool(_kLinkReaderAreaScrolling) ?? true;
+    return _linkReaderAreaScrolling;
   }
 }
