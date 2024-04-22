@@ -1,15 +1,18 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:phosphor_flutter/phosphor_flutter.dart';
 import 'package:stacked/stacked.dart';
 
 import '../../../common/books.dart';
+import '../../../common/enums.dart';
 import '../../widgets/common/bible_division_indicator/bible_division_indicator.dart';
 import 'navigation_bible_divisions_viewmodel.dart';
 
 class NavigationBibleDivisionsView extends StackedView<NavigationBibleDivisionsViewModel> {
-  const NavigationBibleDivisionsView({Key? key}) : super(key: key);
+  const NavigationBibleDivisionsView({Key? key,
+    required this.readerArea,
+  }) : super(key: key);
+
+  final Area readerArea;
 
   @override
   Widget builder(
@@ -23,7 +26,7 @@ class NavigationBibleDivisionsView extends StackedView<NavigationBibleDivisionsV
         centerTitle: true,
         scrolledUnderElevation: 0.0,
         title: Text(
-          'Primary Bible Nav', // TODO: change titles based on area and scroll linking
+          viewModel.getTitle(),
           style: TextStyle(
             fontSize: 18.0,
             fontWeight: FontWeight.w500,
@@ -156,5 +159,5 @@ class NavigationBibleDivisionsView extends StackedView<NavigationBibleDivisionsV
   NavigationBibleDivisionsViewModel viewModelBuilder(
     BuildContext context,
   ) =>
-      NavigationBibleDivisionsViewModel();
+      NavigationBibleDivisionsViewModel(readerArea: readerArea);
 }

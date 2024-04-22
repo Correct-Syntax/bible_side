@@ -33,7 +33,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
               child: SafeArea(
                 child: SecondaryReaderAppbar(
                   isReaderAreaPopupActive: viewModel.isSecondaryReaderAreaPopupActive,
-                  onTapBook: viewModel.onTapBook,
+                  onTapBook: () => viewModel.onTapBook(Area.secondary),
                   onTapBibleVersion: () => viewModel.onTapBibleVersion(Area.secondary),
                   onTapClose: viewModel.onTapCloseSecondaryArea,
                 ),
@@ -201,7 +201,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
       bottomNavigationBar: PrimaryReaderAppbar(
         isReaderAreaPopupActive: viewModel.isPrimaryReaderAreaPopupActive,
         onTapSearch: viewModel.onTapSearch,
-        onTapBook: viewModel.onTapBook,
+        onTapBook: () => viewModel.onTapBook(Area.primary),
         onTapBibleVersion: () => viewModel.onTapBibleVersion(Area.primary),
         onTapMenu: () {},
       ),

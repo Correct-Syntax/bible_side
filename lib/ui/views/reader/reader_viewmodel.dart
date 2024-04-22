@@ -318,8 +318,8 @@ class ReaderViewModel extends ReactiveViewModel {
     rebuildUi();
   }
 
-  void onTapBook() {
-    _navigationService.navigateToNavigationBibleDivisionsView();
+  void onTapBook(Area area) {
+    _navigationService.navigateToNavigationBibleDivisionsView(readerArea: area);
   }
 
   void onTapBibleVersion(Area? area) {
