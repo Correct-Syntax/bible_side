@@ -3,6 +3,7 @@ import 'package:phosphor_flutter/phosphor_flutter.dart';
 import 'package:stacked/stacked.dart';
 
 import '../../../common/books.dart';
+import '../../../common/themes.dart';
 import '../../common/ui_helpers.dart';
 import '../../widgets/common/bible_division_indicator/bible_division_indicator.dart';
 import 'navigation_sections_chapters_viewmodel.dart';
@@ -29,8 +30,9 @@ class NavigationSectionsChaptersView extends StackedView<NavigationSectionsChapt
   ) {
     bool isPortrait = isPortraitOrientation(context);
     return Scaffold(
-      backgroundColor: Theme.of(context).colorScheme.background,
+      backgroundColor: context.theme.appColors.background,
       appBar: AppBar(
+        backgroundColor: context.theme.appColors.background,
         centerTitle: true,
         scrolledUnderElevation: 0.0,
         title: isPortrait
@@ -38,6 +40,7 @@ class NavigationSectionsChaptersView extends StackedView<NavigationSectionsChapt
             : Text(
                 BooksMapping.bookNameFromBookCode(bookCode),
                 style: TextStyle(
+                  color: context.theme.appColors.primary,
                   fontSize: 18.0,
                   fontWeight: FontWeight.w500,
                 ),
@@ -51,10 +54,10 @@ class NavigationSectionsChaptersView extends StackedView<NavigationSectionsChapt
             if (isPortrait)
               Column(
                 children: [
-                  const Text(
+                  Text(
                     'The book of',
                     style: TextStyle(
-                      color: Colors.white54,
+                      color: context.theme.appColors.secondary,
                       fontSize: 12.0,
                     ),
                   ),
@@ -73,7 +76,8 @@ class NavigationSectionsChaptersView extends StackedView<NavigationSectionsChapt
                       ),
                       Text(
                         BooksMapping.bookNameFromBookCode(bookCode),
-                        style: const TextStyle(
+                        style: TextStyle(
+                          color: context.theme.appColors.primary,
                           fontSize: 28.0,
                           fontWeight: FontWeight.bold,
                         ),
@@ -101,7 +105,8 @@ class NavigationSectionsChaptersView extends StackedView<NavigationSectionsChapt
                               children: [
                                 Text(
                                   viewModel.getFirstSectionHeading(index),
-                                  style: const TextStyle(
+                                  style: TextStyle(
+                                    color: context.theme.appColors.primary,
                                     fontSize: 16.0,
                                   ),
                                 ),
@@ -111,7 +116,7 @@ class NavigationSectionsChaptersView extends StackedView<NavigationSectionsChapt
                                     child: Text(
                                       alternativeSection,
                                       style: TextStyle(
-                                        color: Colors.white70,
+                                        color: context.theme.appColors.secondary,
                                         fontSize: 13.0,
                                       ),
                                     ),
@@ -123,7 +128,7 @@ class NavigationSectionsChaptersView extends StackedView<NavigationSectionsChapt
                             padding: const EdgeInsets.only(top: 4.0),
                             child: PhosphorIcon(
                               PhosphorIcons.caretRight(PhosphorIconsStyle.bold),
-                              color: Colors.white,
+                              color: context.theme.appColors.primary,
                               size: 18.0,
                               semanticLabel: 'Caret right',
                             ),

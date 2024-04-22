@@ -4,11 +4,13 @@ import 'package:stacked/stacked.dart';
 
 import '../../../common/books.dart';
 import '../../../common/enums.dart';
+import '../../../common/themes.dart';
 import '../../widgets/common/bible_division_indicator/bible_division_indicator.dart';
 import 'navigation_bible_divisions_viewmodel.dart';
 
 class NavigationBibleDivisionsView extends StackedView<NavigationBibleDivisionsViewModel> {
-  const NavigationBibleDivisionsView({Key? key,
+  const NavigationBibleDivisionsView({
+    Key? key,
     required this.readerArea,
   }) : super(key: key);
 
@@ -21,13 +23,15 @@ class NavigationBibleDivisionsView extends StackedView<NavigationBibleDivisionsV
     Widget? child,
   ) {
     return Scaffold(
-      backgroundColor: Theme.of(context).colorScheme.background,
+      backgroundColor: context.theme.appColors.background,
       appBar: AppBar(
+        backgroundColor: context.theme.appColors.background,
         centerTitle: true,
         scrolledUnderElevation: 0.0,
         title: Text(
           viewModel.getTitle(),
           style: TextStyle(
+            color: context.theme.appColors.primary,
             fontSize: 18.0,
             fontWeight: FontWeight.w500,
           ),
@@ -46,7 +50,7 @@ class NavigationBibleDivisionsView extends StackedView<NavigationBibleDivisionsV
                   return InkWell(
                     onTap: () => viewModel.onTapBibleDivisionItem(bibleDivisionCode),
                     child: Padding(
-                      padding: const EdgeInsets.symmetric(vertical: 13.0, horizontal: 25.0),
+                      padding: const EdgeInsets.symmetric(vertical: 15.0, horizontal: 25.0),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         crossAxisAlignment: CrossAxisAlignment.center,
@@ -64,7 +68,8 @@ class NavigationBibleDivisionsView extends StackedView<NavigationBibleDivisionsV
                               ),
                               Text(
                                 BooksMapping.bibleDivisionNameFromCode(bibleDivisionCode),
-                                style: const TextStyle(
+                                style: TextStyle(
+                                  color: context.theme.appColors.primary,
                                   fontSize: 16.0,
                                 ),
                               ),
@@ -72,7 +77,7 @@ class NavigationBibleDivisionsView extends StackedView<NavigationBibleDivisionsV
                           ),
                           PhosphorIcon(
                             PhosphorIcons.caretRight(PhosphorIconsStyle.bold),
-                            color: Colors.white,
+                            color: context.theme.appColors.primary,
                             size: 18.0,
                             semanticLabel: 'Caret right',
                           ),
@@ -84,7 +89,7 @@ class NavigationBibleDivisionsView extends StackedView<NavigationBibleDivisionsV
               ),
             ),
             Container(
-              color: Color(0xff161718),
+              color: context.theme.appColors.appbarBackground,
               padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
               child: Column(
                 children: [
@@ -92,13 +97,14 @@ class NavigationBibleDivisionsView extends StackedView<NavigationBibleDivisionsV
                     children: [
                       PhosphorIcon(
                         PhosphorIcons.clockCounterClockwise(PhosphorIconsStyle.regular),
-                        color: Colors.white,
+                        color: context.theme.appColors.primaryOnDark,
                         size: 16.0,
                       ),
                       const SizedBox(width: 4),
-                      const Text(
+                      Text(
                         'RECENT',
                         style: TextStyle(
+                          color: context.theme.appColors.primaryOnDark,
                           fontSize: 12.0,
                           fontWeight: FontWeight.w500,
                         ),
@@ -127,7 +133,8 @@ class NavigationBibleDivisionsView extends StackedView<NavigationBibleDivisionsV
                                     BooksMapping.bookNameFromBookCode(bookCode),
                                     maxLines: 1,
                                     overflow: TextOverflow.ellipsis,
-                                    style: const TextStyle(
+                                    style: TextStyle(
+                                      color: context.theme.appColors.primaryOnDark,
                                       fontSize: 16.0,
                                     ),
                                   ),
@@ -135,12 +142,12 @@ class NavigationBibleDivisionsView extends StackedView<NavigationBibleDivisionsV
                               );
                             },
                           )
-                        : const Padding(
-                            padding: EdgeInsets.only(top: 14.0),
+                        : Padding(
+                            padding: const EdgeInsets.only(top: 14.0),
                             child: Text(
                               'Your recent books will appear here.',
                               style: TextStyle(
-                                color: Colors.white60,
+                                color: context.theme.appColors.secondaryOnDark,
                                 fontSize: 13.0,
                               ),
                             ),

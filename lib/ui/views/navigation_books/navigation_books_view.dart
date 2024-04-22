@@ -3,6 +3,7 @@ import 'package:phosphor_flutter/phosphor_flutter.dart';
 import 'package:stacked/stacked.dart';
 
 import '../../../common/books.dart';
+import '../../../common/themes.dart';
 import '../../common/ui_helpers.dart';
 import '../../widgets/common/bible_division_indicator/bible_division_indicator.dart';
 import 'navigation_books_viewmodel.dart';
@@ -23,8 +24,9 @@ class NavigationBooksView extends StackedView<NavigationBooksViewModel> {
   ) {
     bool isPortrait = isPortraitOrientation(context);
     return Scaffold(
-      backgroundColor: Theme.of(context).colorScheme.background,
+      backgroundColor: context.theme.appColors.background,
       appBar: AppBar(
+        backgroundColor: context.theme.appColors.background,
         centerTitle: true,
         scrolledUnderElevation: 0.0,
         title: isPortrait
@@ -32,13 +34,14 @@ class NavigationBooksView extends StackedView<NavigationBooksViewModel> {
             : Text(
                 BooksMapping.bibleDivisionNameFromCode(bibleDivisionCode),
                 style: TextStyle(
+                  color: context.theme.appColors.primary,
                   fontSize: 18.0,
                   fontWeight: FontWeight.w500,
                 ),
               ),
       ),
       body: Container(
-        padding: EdgeInsets.only(top: isPortrait ? 26.0 : 0.0, left: 25.0, right: 25.0),
+        padding: EdgeInsets.only(top: isPortrait ? 26.0 : 0.0),
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
@@ -60,7 +63,8 @@ class NavigationBooksView extends StackedView<NavigationBooksViewModel> {
                     ),
                     Text(
                       BooksMapping.bibleDivisionNameFromCode(bibleDivisionCode),
-                      style: const TextStyle(
+                      style: TextStyle(
+                        color: context.theme.appColors.primary,
                         fontSize: 26.0,
                         fontWeight: FontWeight.bold,
                       ),
@@ -77,20 +81,21 @@ class NavigationBooksView extends StackedView<NavigationBooksViewModel> {
                   return InkWell(
                     onTap: () => viewModel.onTapBookItem(key),
                     child: Padding(
-                      padding: const EdgeInsets.symmetric(vertical: 14.0),
+                      padding: const EdgeInsets.symmetric(vertical: 14.0, horizontal: 25.0),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Text(
                             '${booksMapping[key]}',
-                            style: const TextStyle(
+                            style: TextStyle(
+                              color: context.theme.appColors.primary,
                               fontSize: 16.0,
                             ),
                           ),
                           PhosphorIcon(
                             PhosphorIcons.caretRight(PhosphorIconsStyle.bold),
-                            color: Colors.white,
+                            color: context.theme.appColors.primary,
                             size: 18.0,
                             semanticLabel: 'Caret right',
                           ),

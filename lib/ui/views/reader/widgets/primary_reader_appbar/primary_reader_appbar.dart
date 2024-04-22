@@ -3,6 +3,7 @@ import 'package:stacked/stacked.dart';
 import 'package:phosphor_flutter/phosphor_flutter.dart';
 
 import '../../../../../common/enums.dart';
+import '../../../../../common/themes.dart';
 import '../reader_selector_btn/reader_selector_btn.dart';
 import 'primary_reader_appbar_model.dart';
 
@@ -29,7 +30,7 @@ class PrimaryReaderAppbar extends StackedView<PrimaryReaderAppbarModel> {
     Widget? child,
   ) {
     return Container(
-      color: Color(0xff161718),
+      color: context.theme.appColors.appbarBackground,
       height: kToolbarHeight,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -40,7 +41,7 @@ class PrimaryReaderAppbar extends StackedView<PrimaryReaderAppbarModel> {
               padding: const EdgeInsets.all(16.0),
               child: PhosphorIcon(
                 PhosphorIcons.magnifyingGlass(PhosphorIconsStyle.bold),
-                color: Colors.white,
+                color: context.theme.appColors.primary,
                 size: 20.0,
                 semanticLabel: 'Search',
               ),
@@ -58,7 +59,7 @@ class PrimaryReaderAppbar extends StackedView<PrimaryReaderAppbarModel> {
               padding: const EdgeInsets.all(16.0),
               child: PhosphorIcon(
                 PhosphorIcons.list(PhosphorIconsStyle.bold),
-                color: Color(0xffE8E8E9),
+                color: context.theme.appColors.primary,
                 size: 20.0,
                 semanticLabel: 'Menu',
               ),

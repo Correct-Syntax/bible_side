@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
 
+import '../../../common/themes.dart';
+import '../../common/ui_helpers.dart';
 import 'search_viewmodel.dart';
-import 'widgets/searchbar/searchbar.dart';
 
 class SearchView extends StackedView<SearchViewModel> {
   const SearchView({Key? key}) : super(key: key);
@@ -13,22 +14,37 @@ class SearchView extends StackedView<SearchViewModel> {
     SearchViewModel viewModel,
     Widget? child,
   ) {
+    bool isPortrait = isPortraitOrientation(context);
     return Scaffold(
-      backgroundColor: Theme.of(context).colorScheme.background,
-      appBar: AppBar(),
+      backgroundColor: context.theme.appColors.background,
+      appBar: AppBar(
+        backgroundColor: context.theme.appColors.background,
+        centerTitle: true,
+        scrolledUnderElevation: 0.0,
+        title: isPortrait
+            ? null
+            : Text(
+                'Search',
+                style: TextStyle(
+                  color: context.theme.appColors.primary,
+                  fontSize: 18.0,
+                  fontWeight: FontWeight.w500,
+                ),
+              ),
+      ),
       body: SingleChildScrollView(
         child: Container(
           padding: const EdgeInsets.only(top: 26.0, left: 25.0, right: 25.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Searchbar(),
+              //Searchbar(),
               Padding(
                 padding: const EdgeInsets.only(top: 12.0),
                 child: Text(
                   'Sorry, search is not implemented yet.',
                   style: TextStyle(
-                    color: Color(0xff9C9FA6),
+                    color: context.theme.appColors.primary,
                     fontSize: 13.0,
                   ),
                 ),

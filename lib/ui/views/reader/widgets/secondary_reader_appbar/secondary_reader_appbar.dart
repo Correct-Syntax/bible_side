@@ -3,6 +3,7 @@ import 'package:phosphor_flutter/phosphor_flutter.dart';
 import 'package:stacked/stacked.dart';
 
 import '../../../../../common/enums.dart';
+import '../../../../../common/themes.dart';
 import '../reader_selector_btn/reader_selector_btn.dart';
 import 'secondary_reader_appbar_model.dart';
 
@@ -28,7 +29,7 @@ class SecondaryReaderAppbar extends StackedView<SecondaryReaderAppbarModel> {
   ) {
     return Container(
       padding: const EdgeInsets.symmetric(vertical: 10.0),
-      color: Color(0xff161718),
+      color: context.theme.appColors.appbarBackground,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -49,7 +50,7 @@ class SecondaryReaderAppbar extends StackedView<SecondaryReaderAppbarModel> {
               padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 9.0),
               child: PhosphorIcon(
                 PhosphorIcons.x(PhosphorIconsStyle.bold),
-                color: Colors.white,
+                color: context.theme.appColors.secondaryOnDark,
                 size: 20.0,
                 semanticLabel: 'Close',
               ),

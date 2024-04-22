@@ -4,6 +4,7 @@ import 'package:stacked/stacked.dart';
 
 import '../../../../../common/books.dart';
 import '../../../../../common/enums.dart';
+import '../../../../../common/themes.dart';
 import '../../../../widgets/common/bible_division_indicator/bible_division_indicator.dart';
 import 'reader_selector_btn_model.dart';
 
@@ -31,7 +32,7 @@ class ReaderSelectorBtn extends StackedView<ReaderSelectorBtnModel> {
       height: 36,
       padding: const EdgeInsets.symmetric(horizontal: 4.0),
       decoration: BoxDecoration(
-        color: Color(0xff1F2123),
+        color: context.theme.appColors.readerSelectorBackground,
         borderRadius: BorderRadius.circular(5.0),
       ),
       child: Row(
@@ -57,7 +58,7 @@ class ReaderSelectorBtn extends StackedView<ReaderSelectorBtnModel> {
                       BooksMapping.bookNameFromBookCode(viewModel.bookCode),
                       style: TextStyle(
                         fontSize: 15.0,
-                        color: Color(0xffE8E8E9),
+                        color: context.theme.appColors.primaryOnDark,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
@@ -78,7 +79,7 @@ class ReaderSelectorBtn extends StackedView<ReaderSelectorBtnModel> {
                       readerArea == Area.primary ? viewModel.primaryBible : viewModel.secondaryBible,
                       style: TextStyle(
                         fontSize: 15.0,
-                        color: Color(0xffE8E8E9),
+                        color: context.theme.appColors.primaryOnDark,
                         fontWeight: FontWeight.w600,
                       ),
                     ),
@@ -87,7 +88,7 @@ class ReaderSelectorBtn extends StackedView<ReaderSelectorBtnModel> {
                     isActive == true
                         ? PhosphorIcons.caretUp(PhosphorIconsStyle.bold)
                         : PhosphorIcons.caretDown(PhosphorIconsStyle.bold),
-                    color: Color(0xffE8E8E9),
+                    color: context.theme.appColors.primaryOnDark,
                     size: 16.0,
                     semanticLabel: isActive == true ? 'Caret up' : 'Caret down',
                   ),

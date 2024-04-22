@@ -4,6 +4,7 @@ import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
 import 'package:visibility_detector/visibility_detector.dart';
 import 'package:stacked/stacked.dart';
 
+import '../../../common/themes.dart';
 import '../../../common/enums.dart';
 import '../../widgets/common/side_navigation_drawer/side_navigation_drawer.dart';
 import 'reader_viewmodel.dart';
@@ -27,6 +28,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
     Widget? child,
   ) {
     return Scaffold(
+      backgroundColor: context.theme.appColors.background,
       appBar: viewModel.showSecondaryArea
           ? PreferredSize(
               preferredSize: const Size(double.infinity, kToolbarHeight),
@@ -46,70 +48,70 @@ class ReaderView extends StackedView<ReaderViewModel> {
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-                Visibility(
-                  visible: viewModel.showSecondaryArea,
-                  child: Expanded(
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 24.0),
-                      child: Scrollable(
-                        controller: viewModel.secondaryAreaController,
-                        viewportBuilder: (BuildContext context, ViewportOffset position) {
-                          return Viewport(
-                            offset: position,
-                            center: viewModel.downListKey,
-                            slivers: [
-                              PagedSliverList(
-                                pagingController: viewModel.secondaryPagingUpController,
-                                builderDelegate: PagedChildBuilderDelegate<Map<String, dynamic>>(
-                                  itemBuilder: (context, item, index) => VisibilityDetector(
-                                    key: ValueKey('${item['page']}'),
-                                    onVisibilityChanged: (VisibilityInfo visibilityInfo) =>
-                                        viewModel.setChapter(item['page']),
-                                    child: Container(
-                                      margin: const EdgeInsets.symmetric(vertical: 1.0),
-                                      child: RichText(
-                                        text: TextSpan(children: item['spans']),
-                                      ),
+              Visibility(
+                visible: viewModel.showSecondaryArea,
+                child: Expanded(
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 24.0),
+                    child: Scrollable(
+                      controller: viewModel.secondaryAreaController,
+                      viewportBuilder: (BuildContext context, ViewportOffset position) {
+                        return Viewport(
+                          offset: position,
+                          center: viewModel.downListKey,
+                          slivers: [
+                            PagedSliverList(
+                              pagingController: viewModel.secondaryPagingUpController,
+                              builderDelegate: PagedChildBuilderDelegate<Map<String, dynamic>>(
+                                itemBuilder: (context, item, index) => VisibilityDetector(
+                                  key: ValueKey('${item['page']}'),
+                                  onVisibilityChanged: (VisibilityInfo visibilityInfo) =>
+                                      viewModel.setChapter(item['page']),
+                                  child: Container(
+                                    margin: const EdgeInsets.symmetric(vertical: 1.0),
+                                    child: RichText(
+                                      text: TextSpan(children: item['spans']),
                                     ),
                                   ),
-                                  noItemsFoundIndicatorBuilder: (_) {
-                                    return const SizedBox();
-                                  },
-                                  noMoreItemsIndicatorBuilder: (_) {
-                                    return const SizedBox();
-                                  },
                                 ),
+                                noItemsFoundIndicatorBuilder: (_) {
+                                  return const SizedBox();
+                                },
+                                noMoreItemsIndicatorBuilder: (_) {
+                                  return const SizedBox();
+                                },
                               ),
-                              PagedSliverList(
-                                key: viewModel.downListKey,
-                                pagingController: viewModel.secondaryPagingDownController,
-                                builderDelegate: PagedChildBuilderDelegate<Map<String, dynamic>>(
-                                  itemBuilder: (context, item, index) => VisibilityDetector(
-                                    key: ValueKey('${item['page']}'),
-                                    onVisibilityChanged: (VisibilityInfo visibilityInfo) =>
-                                        viewModel.setChapter(item['page']),
-                                    child: Container(
-                                      margin: const EdgeInsets.symmetric(vertical: 1.0),
-                                      child: RichText(
-                                        text: TextSpan(children: item['spans']),
-                                      ),
+                            ),
+                            PagedSliverList(
+                              key: viewModel.downListKey,
+                              pagingController: viewModel.secondaryPagingDownController,
+                              builderDelegate: PagedChildBuilderDelegate<Map<String, dynamic>>(
+                                itemBuilder: (context, item, index) => VisibilityDetector(
+                                  key: ValueKey('${item['page']}'),
+                                  onVisibilityChanged: (VisibilityInfo visibilityInfo) =>
+                                      viewModel.setChapter(item['page']),
+                                  child: Container(
+                                    margin: const EdgeInsets.symmetric(vertical: 1.0),
+                                    child: RichText(
+                                      text: TextSpan(children: item['spans']),
                                     ),
                                   ),
-                                  noItemsFoundIndicatorBuilder: (_) {
-                                    return const SizedBox();
-                                  },
-                                  noMoreItemsIndicatorBuilder: (_) {
-                                    return const SizedBox();
-                                  },
                                 ),
+                                noItemsFoundIndicatorBuilder: (_) {
+                                  return const SizedBox();
+                                },
+                                noMoreItemsIndicatorBuilder: (_) {
+                                  return const SizedBox();
+                                },
                               ),
-                            ],
-                          );
-                        },
-                      ),
+                            ),
+                          ],
+                        );
+                      },
                     ),
                   ),
                 ),
+              ),
               if (viewModel.showSecondaryArea)
                 const Padding(
                   padding: EdgeInsets.symmetric(vertical: 1.0),
@@ -179,14 +181,14 @@ class ReaderView extends StackedView<ReaderViewModel> {
             ],
           ),
           if (viewModel.isSecondaryReaderAreaPopupActive)
-            Align(
+            const Align(
               alignment: Alignment.topCenter,
               child: ReaderAreaPopup(
                 readerArea: Area.secondary,
               ),
             ),
           if (viewModel.isPrimaryReaderAreaPopupActive)
-            Align(
+            const Align(
               alignment: Alignment.bottomCenter,
               child: ReaderAreaPopup(
                 readerArea: Area.primary,

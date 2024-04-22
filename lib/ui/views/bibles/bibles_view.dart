@@ -3,6 +3,7 @@ import 'package:stacked/stacked.dart';
 
 import '../../../common/bibles.dart';
 import '../../../common/enums.dart';
+import '../../../common/themes.dart';
 import '../../common/ui_helpers.dart';
 import 'bibles_viewmodel.dart';
 
@@ -25,8 +26,9 @@ class BiblesView extends StackedView<BiblesViewModel> {
       canPop: false,
       onPopInvoked: viewModel.onPopInvoked,
       child: Scaffold(
-        backgroundColor: Theme.of(context).colorScheme.background,
+        backgroundColor: context.theme.appColors.background,
         appBar: AppBar(
+          backgroundColor: context.theme.appColors.background,
           centerTitle: true,
           scrolledUnderElevation: 0.0,
           title: isPortrait
@@ -34,6 +36,7 @@ class BiblesView extends StackedView<BiblesViewModel> {
               : Text(
                   viewModel.getTitle(),
                   style: TextStyle(
+                    color: context.theme.appColors.primary,
                     fontSize: 18.0,
                     fontWeight: FontWeight.w500,
                   ),
@@ -49,7 +52,8 @@ class BiblesView extends StackedView<BiblesViewModel> {
                   padding: const EdgeInsets.only(bottom: 36.0),
                   child: Text(
                     viewModel.getTitle(),
-                    style: const TextStyle(
+                    style: TextStyle(
+                      color: context.theme.appColors.primary,
                       fontSize: 26.0,
                       fontWeight: FontWeight.bold,
                     ),
@@ -63,19 +67,22 @@ class BiblesView extends StackedView<BiblesViewModel> {
                   title: Text(
                     bibleCode,
                     style: TextStyle(
+                      color: context.theme.appColors.primary,
                       fontSize: 16.0,
                       fontWeight: bibleCode == viewModel.currentBibleCode() ? FontWeight.bold : FontWeight.w500,
                     ),
                   ),
                   subtitle: Text(
                     bibleVersionsMapping[bibleCode]!,
-                    style: const TextStyle(
+                    style: TextStyle(
+                      color: context.theme.appColors.primary,
                       fontSize: 11.0,
                     ),
                   ),
                   trailing: bibleCode == viewModel.currentBibleCode()
-                      ? const Icon(
+                      ? Icon(
                           Icons.check,
+                          color: context.theme.appColors.primary,
                         )
                       : null,
                 ),

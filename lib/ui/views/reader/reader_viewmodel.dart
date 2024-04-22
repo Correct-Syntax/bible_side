@@ -315,6 +315,8 @@ class ReaderViewModel extends ReactiveViewModel {
 
   void onTapCloseSecondaryArea() {
     _settingsService.setShowSecondaryArea(false);
+    isPrimaryReaderAreaPopupActive = false;
+    isSecondaryReaderAreaPopupActive = false;
     rebuildUi();
   }
 
