@@ -17,7 +17,6 @@ class SettingsViewModel extends FutureViewModel<String> {
 
   bool get isDarkTheme => _settingsService.isDarkTheme;
 
-
   void changeTextScaling(double value) {
     _settingsService.setTextScaling(value);
     rebuildUi();

@@ -35,6 +35,7 @@ class SideNavigationDrawer extends StackedView<SideNavigationDrawerModel> {
                 padding: const EdgeInsets.only(left: 2.0, right: 32.0),
                 child: Image.asset(
                   'assets/images/logo.png',
+                  color: Colors.white,
                   height: 30.0,
                 ),
               ),
@@ -67,7 +68,7 @@ class SideNavigationDrawer extends StackedView<SideNavigationDrawerModel> {
                   PhosphorIcon(
                     PhosphorIcons.magnifyingGlass(PhosphorIconsStyle.regular),
                     color: context.theme.appColors.primaryOnDark,
-                    size: 22.0,
+                    size: 24.0,
                   ),
                   const SizedBox(width: 12.0),
                   Text(
@@ -75,6 +76,7 @@ class SideNavigationDrawer extends StackedView<SideNavigationDrawerModel> {
                     style: TextStyle(
                       color: context.theme.appColors.primaryOnDark,
                       fontSize: 16.0,
+                      fontWeight: FontWeight.w500,
                     ),
                   ),
                 ],
@@ -95,7 +97,7 @@ class SideNavigationDrawer extends StackedView<SideNavigationDrawerModel> {
                   PhosphorIcon(
                     PhosphorIcons.gear(PhosphorIconsStyle.regular),
                     color: context.theme.appColors.primaryOnDark,
-                    size: 22.0,
+                    size: 24.0,
                   ),
                   const SizedBox(width: 12.0),
                   Text(
@@ -103,6 +105,7 @@ class SideNavigationDrawer extends StackedView<SideNavigationDrawerModel> {
                     style: TextStyle(
                       color: context.theme.appColors.primaryOnDark,
                       fontSize: 16.0,
+                      fontWeight: FontWeight.w500,
                     ),
                   ),
                 ],

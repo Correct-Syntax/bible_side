@@ -8,7 +8,6 @@ class SettingsTextPreviewModel extends ReactiveViewModel {
 
   double get textScaling => _settingsService.textScaling;
 
-
   @override
   List<ListenableServiceMixin> get listenableServices => [_settingsService];
 }

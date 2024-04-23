@@ -77,6 +77,7 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
     required this.secondaryOnDark,
     required this.primaryIcon,
     required this.secondaryIcon,
+    required this.appbarIcon,
     required this.background,
     required this.appbarBackground,
     required this.popupBackground,
@@ -84,7 +85,6 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
     required this.switchBackground,
     required this.sliderAccent,
     required this.divider,
-
   });
 
   final Color primary;
@@ -93,6 +93,7 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
   final Color secondaryOnDark;
   final Color primaryIcon;
   final Color secondaryIcon;
+  final Color appbarIcon;
   final Color background;
   final Color appbarBackground;
   final Color popupBackground;
@@ -112,6 +113,7 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
       secondaryOnDark: secondaryOnDark,
       primaryIcon: primaryIcon,
       secondaryIcon: secondaryIcon,
+      appbarIcon: appbarIcon,
       background: background,
       appbarBackground: appbarBackground,
       popupBackground: popupBackground,
@@ -138,6 +140,7 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
       secondaryOnDark: Color.lerp(secondaryOnDark, other.secondaryOnDark, t)!,
       primaryIcon: Color.lerp(primaryIcon, other.primaryIcon, t)!,
       secondaryIcon: Color.lerp(secondaryIcon, other.secondaryIcon, t)!,
+      appbarIcon: Color.lerp(appbarIcon, other.appbarIcon, t)!,
       background: Color.lerp(background, other.background, t)!,
       appbarBackground: Color.lerp(appbarBackground, other.appbarBackground, t)!,
       popupBackground: Color.lerp(popupBackground, other.popupBackground, t)!,
@@ -164,6 +167,7 @@ class AppTheme {
     secondaryOnDark: LightThemePalette.white70,
     primaryIcon: LightThemePalette.white,
     secondaryIcon: LightThemePalette.white,
+    appbarIcon: LightThemePalette.white,
     background: LightThemePalette.white,
     appbarBackground: LightThemePalette.mediumBlue,
     popupBackground: LightThemePalette.mediumBlue,
@@ -185,8 +189,9 @@ class AppTheme {
     secondary: DarkThemePalette.white70,
     primaryOnDark: DarkThemePalette.white,
     secondaryOnDark: DarkThemePalette.white70,
-    primaryIcon: LightThemePalette.white,
-    secondaryIcon: LightThemePalette.white,
+    primaryIcon: DarkThemePalette.white,
+    secondaryIcon: DarkThemePalette.white,
+    appbarIcon: DarkThemePalette.white,
     background: DarkThemePalette.darkGray,
     appbarBackground: DarkThemePalette.almostBlack,
     popupBackground: DarkThemePalette.almostBlack,

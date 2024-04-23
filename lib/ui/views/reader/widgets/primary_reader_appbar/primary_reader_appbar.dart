@@ -41,7 +41,7 @@ class PrimaryReaderAppbar extends StackedView<PrimaryReaderAppbarModel> {
               padding: const EdgeInsets.all(16.0),
               child: PhosphorIcon(
                 PhosphorIcons.magnifyingGlass(PhosphorIconsStyle.bold),
-                color: context.theme.appColors.primary,
+                color: context.theme.appColors.appbarIcon,
                 size: 20.0,
                 semanticLabel: 'Search',
               ),
@@ -59,7 +59,7 @@ class PrimaryReaderAppbar extends StackedView<PrimaryReaderAppbarModel> {
               padding: const EdgeInsets.all(16.0),
               child: PhosphorIcon(
                 PhosphorIcons.list(PhosphorIconsStyle.bold),
-                color: context.theme.appColors.primary,
+                color: context.theme.appColors.appbarIcon,
                 size: 20.0,
                 semanticLabel: 'Menu',
               ),

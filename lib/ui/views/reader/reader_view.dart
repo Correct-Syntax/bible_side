@@ -118,9 +118,11 @@ class ReaderView extends StackedView<ReaderViewModel> {
                 ),
               ),
               if (viewModel.showSecondaryArea)
-                const Padding(
-                  padding: EdgeInsets.symmetric(vertical: 1.0),
-                  child: Divider(),
+                Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 1.0),
+                  child: Divider(
+                    color: context.theme.appColors.divider,
+                  ),
                 ),
               Expanded(
                 child: Padding(
