@@ -1,16 +1,17 @@
 import 'package:stacked/stacked.dart';
+import 'package:stacked_services/stacked_services.dart';
 
 import '../../../../app/app.locator.dart';
-import '../../../../services/app_info_service.dart';
+import '../../../../app/app.router.dart';
 
-class SideNavigationDrawerModel extends FutureViewModel<String> {
-  final _appInfoService = locator<AppInfoService>();
+class SideNavigationDrawerModel extends BaseViewModel {
+  final _navigationService = locator<NavigationService>();
 
-  @override
-  Future<String> futureToRun() => getAppVersion();
+  void onTapSearch() {
+    _navigationService.navigateToSearchView();
+  }
 
-  Future<String> getAppVersion() async {
-    String appVersion = await _appInfoService.getAppVersion();
-    return 'Bibleside v$appVersion';
+  void onTapSettings() {
+    _navigationService.navigateToSettingsView();
   }
 }

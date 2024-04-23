@@ -31,6 +31,7 @@ class ReaderViewModel extends ReactiveViewModel {
 
   ViewBy get viewBy => _biblesService.viewBy;
 
+  double get textScaling => _settingsService.textScaling;
   bool get showSecondaryArea => _settingsService.showSecondaryArea;
   bool get linkReaderAreaScrolling => _settingsService.linkReaderAreaScrolling;
 
@@ -307,10 +308,6 @@ class ReaderViewModel extends ReactiveViewModel {
 
   List<Map<String, dynamic>> getPaginatedVerses(int pageKey, Area area) {
     return _readerService.getNewPage(context, pageKey, area);
-  }
-
-  void onNavigationBtn() {
-    _navigationService.navigateToReaderNavigationView();
   }
 
   void onTapCloseSecondaryArea() {

@@ -19,6 +19,9 @@ abstract class LightThemePalette {
   // Medium gray
   static const mediumSlate = Color(0xFF515358);
 
+  // Medium gray 10%
+  static const mediumSlate10 = Color.fromRGBO(81, 83, 88, 0.1);
+
   // Medium-dark gray
   static const mediumDarkSlate = Color(0xFF414548);
 }
@@ -26,6 +29,9 @@ abstract class LightThemePalette {
 abstract class DarkThemePalette {
   // White
   static const white = Color(0xFFFFFFFF);
+
+  // White 10% opacity
+  static const white10 = Color.fromRGBO(255, 255, 255, 0.1);
 
   // White 70% opacity
   static const white70 = Color.fromRGBO(255, 255, 255, 0.7);
@@ -75,6 +81,10 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
     required this.appbarBackground,
     required this.popupBackground,
     required this.readerSelectorBackground,
+    required this.switchBackground,
+    required this.sliderAccent,
+    required this.divider,
+
   });
 
   final Color primary;
@@ -87,6 +97,9 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
   final Color appbarBackground;
   final Color popupBackground;
   final Color readerSelectorBackground;
+  final Color switchBackground;
+  final Color sliderAccent;
+  final Color divider;
 
   @override
   ThemeExtension<AppColorsExtension> copyWith({
@@ -103,6 +116,9 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
       appbarBackground: appbarBackground,
       popupBackground: popupBackground,
       readerSelectorBackground: readerSelectorBackground,
+      switchBackground: switchBackground,
+      sliderAccent: sliderAccent,
+      divider: divider,
     );
   }
 
@@ -126,6 +142,9 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
       appbarBackground: Color.lerp(appbarBackground, other.appbarBackground, t)!,
       popupBackground: Color.lerp(popupBackground, other.popupBackground, t)!,
       readerSelectorBackground: Color.lerp(readerSelectorBackground, other.readerSelectorBackground, t)!,
+      switchBackground: Color.lerp(switchBackground, other.switchBackground, t)!,
+      sliderAccent: Color.lerp(sliderAccent, other.sliderAccent, t)!,
+      divider: Color.lerp(divider, other.divider, t)!,
     );
   }
 }
@@ -149,6 +168,9 @@ class AppTheme {
     appbarBackground: LightThemePalette.mediumBlue,
     popupBackground: LightThemePalette.mediumBlue,
     readerSelectorBackground: LightThemePalette.darkBlue,
+    switchBackground: LightThemePalette.mediumBlue,
+    sliderAccent: LightThemePalette.mediumBlue,
+    divider: LightThemePalette.mediumSlate10,
   );
 
   // Dark theme
@@ -169,6 +191,9 @@ class AppTheme {
     appbarBackground: DarkThemePalette.almostBlack,
     popupBackground: DarkThemePalette.almostBlack,
     readerSelectorBackground: DarkThemePalette.darkGray,
+    switchBackground: DarkThemePalette.white,
+    sliderAccent: DarkThemePalette.white,
+    divider: DarkThemePalette.white10,
   );
 }
 

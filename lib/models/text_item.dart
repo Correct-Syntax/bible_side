@@ -46,7 +46,7 @@ class TextItemStyles {
   static TextStyle chapterHeading(context) {
     return Theme.of(context).textTheme.bodyMedium!.copyWith(
           fontFamily: 'RobotoSerif',
-          fontSize: 26,
+          fontSize: 26.0,
           fontWeight: FontWeight.w500,
         );
   }
@@ -54,7 +54,7 @@ class TextItemStyles {
   static TextStyle sectionHeading(context) {
     return Theme.of(context).textTheme.bodyMedium!.copyWith(
           fontFamily: 'RobotoSerif',
-          fontSize: 18,
+          fontSize: 17.0,
           fontWeight: FontWeight.w500,
         );
   }
@@ -68,7 +68,7 @@ class TextItemStyles {
   static TextStyle text(context) {
     return Theme.of(context).textTheme.bodyLarge!.copyWith(
           fontFamily: 'RobotoSerif',
-          fontSize: 18,
+          fontSize: 15.0,
           letterSpacing: 0.3,
           height: 1.7,
         );

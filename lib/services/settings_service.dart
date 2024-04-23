@@ -34,6 +34,7 @@ class SettingsService with ListenableServiceMixin {
   static const _kNavViewBy = 'NAV_VIEW_BY';
 
   // Reader view specifics
+  static const _kTextScaling = 'TEXT_SCALING';
   static const _kShowMarks = 'SHOW_MARKS';
   static const _kShowChaptersAndVerses = 'SHOW_CHAPTERS_AND_VERSES';
   static const _kLinkReaderAreaScrolling = 'LINK_READER_AREA_SCROLLING';
@@ -59,6 +60,8 @@ class SettingsService with ListenableServiceMixin {
   ViewBy _viewBy = ViewBy.section;
   ViewBy get viewBy => _viewBy;
 
+  double _textScaling = 1.0;
+  double get textScaling => _textScaling;
   bool _showMarks = true;
   bool get showMarks => _showMarks;
   bool _showChaptersAndVerses = true;
@@ -76,6 +79,7 @@ class SettingsService with ListenableServiceMixin {
     _sectionNumber = await getSectionNumber();
     _recentBooks = await getNavRecentBooks();
     _viewBy = await getNavViewBy();
+    _textScaling = await getTextScaling();
     _showMarks = await getShowMarks();
     _showChaptersAndVerses = await getShowChaptersAndVerses();
     _linkReaderAreaScrolling = await getLinkReaderAreaScrolling();
@@ -89,6 +93,7 @@ class SettingsService with ListenableServiceMixin {
     await setSectionNumber(_sectionNumber);
     await setNavRecentBooks(_recentBooks);
     await setNavViewBy(_viewBy);
+    await setTextScaling(_textScaling);
     await setShowMarks(_showMarks);
     await setShowChaptersAndVerses(_showChaptersAndVerses);
     await setLinkReaderAreaScrolling(_linkReaderAreaScrolling);
@@ -218,6 +223,20 @@ class SettingsService with ListenableServiceMixin {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     _viewBy = ViewBy.values.byName(prefs.getString(_kNavViewBy) ?? 'section');
     return _viewBy;
+  }
+
+  // Text scaling
+  Future<void> setTextScaling(double value) async {
+    _textScaling = value;
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setDouble(_kTextScaling, value);
+    notifyListeners();
+  }
+
+  Future<double> getTextScaling() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    _textScaling = prefs.getDouble(_kTextScaling) ?? 1.0;
+    return _textScaling;
   }
 
   // Show marks

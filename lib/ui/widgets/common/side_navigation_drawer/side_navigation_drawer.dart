@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:phosphor_flutter/phosphor_flutter.dart';
 import 'package:stacked/stacked.dart';
 
+import '../../../../common/themes.dart';
 import 'side_navigation_drawer_model.dart';
 
 class SideNavigationDrawer extends StackedView<SideNavigationDrawerModel> {
   const SideNavigationDrawer({
     super.key,
-    required this.selectedIndex,
-    required this.onViewChanged,
+    required this.closeNavigation,
   });
 
-  final int selectedIndex;
-  final Function(int) onViewChanged;
+  final Function() closeNavigation;
 
   @override
   Widget builder(
@@ -19,33 +19,95 @@ class SideNavigationDrawer extends StackedView<SideNavigationDrawerModel> {
     SideNavigationDrawerModel viewModel,
     Widget? child,
   ) {
-    return SafeArea(
-      child: NavigationDrawer(
-        onDestinationSelected: onViewChanged,
-        selectedIndex: selectedIndex,
+    return Container(
+      width: 270.0,
+      padding: const EdgeInsets.only(top: 50.0, left: 20.0, right: 20.0),
+      color: context.theme.appColors.appbarBackground,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisSize: MainAxisSize.max,
         children: [
-          Padding(
-            padding: const EdgeInsets.fromLTRB(28, 16, 16, 40),
-            child: Text(
-              viewModel.isBusy ? '' : viewModel.data!,
-              style: Theme.of(context).textTheme.bodyMedium,
+          Row(
+            mainAxisAlignment: MainAxisAlignment.start,
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Padding(
+                padding: const EdgeInsets.only(left: 2.0, right: 32.0),
+                child: Image.asset(
+                  'assets/images/logo.png',
+                  height: 30.0,
+                ),
+              ),
+              InkWell(
+                onTap: closeNavigation,
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 14.0, vertical: 14.0),
+                  child: PhosphorIcon(
+                    PhosphorIcons.x(PhosphorIconsStyle.bold),
+                    color: context.theme.appColors.secondaryOnDark,
+                    size: 20.0,
+                    semanticLabel: 'Close',
+                  ),
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 45.0),
+          InkWell(
+            onTap: () {
+              closeNavigation();
+              viewModel.onTapSearch();
+            },
+            child: Padding(
+              padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 2.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.start,
+                mainAxisSize: MainAxisSize.max,
+                children: [
+                  PhosphorIcon(
+                    PhosphorIcons.magnifyingGlass(PhosphorIconsStyle.regular),
+                    color: context.theme.appColors.primaryOnDark,
+                    size: 22.0,
+                  ),
+                  const SizedBox(width: 12.0),
+                  Text(
+                    'Search',
+                    style: TextStyle(
+                      color: context.theme.appColors.primaryOnDark,
+                      fontSize: 16.0,
+                    ),
+                  ),
+                ],
+              ),
             ),
           ),
-          NavigationDrawerDestination(
-            label: Text(
-              'Reader',
-              style: Theme.of(context).textTheme.bodyLarge!.copyWith(fontWeight: FontWeight.w500),
+          InkWell(
+            onTap: () {
+              closeNavigation();
+              viewModel.onTapSettings();
+            },
+            child: Padding(
+              padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 2.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.start,
+                mainAxisSize: MainAxisSize.max,
+                children: [
+                  PhosphorIcon(
+                    PhosphorIcons.gear(PhosphorIconsStyle.regular),
+                    color: context.theme.appColors.primaryOnDark,
+                    size: 22.0,
+                  ),
+                  const SizedBox(width: 12.0),
+                  Text(
+                    'Settings',
+                    style: TextStyle(
+                      color: context.theme.appColors.primaryOnDark,
+                      fontSize: 16.0,
+                    ),
+                  ),
+                ],
+              ),
             ),
-            icon: const Icon(Icons.library_books_outlined),
-            selectedIcon: const Icon(Icons.library_books),
-          ),
-          NavigationDrawerDestination(
-            label: Text(
-              'Settings',
-              style: Theme.of(context).textTheme.bodyLarge!.copyWith(fontWeight: FontWeight.w500),
-            ),
-            icon: const Icon(Icons.settings_outlined),
-            selectedIcon: const Icon(Icons.settings),
           ),
         ],
       ),

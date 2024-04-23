@@ -12,6 +12,8 @@ import 'widgets/primary_reader_appbar/primary_reader_appbar.dart';
 import 'widgets/reader_area_popup/reader_area_popup.dart';
 import 'widgets/secondary_reader_appbar/secondary_reader_appbar.dart';
 
+final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
+
 class ReaderView extends StackedView<ReaderViewModel> {
   const ReaderView({Key? key}) : super(key: key);
 
@@ -28,6 +30,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
     Widget? child,
   ) {
     return Scaffold(
+      key: _scaffoldKey,
       backgroundColor: context.theme.appColors.background,
       appBar: viewModel.showSecondaryArea
           ? PreferredSize(
@@ -70,6 +73,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
                                   child: Container(
                                     margin: const EdgeInsets.symmetric(vertical: 1.0),
                                     child: RichText(
+                                      textScaler: TextScaler.linear(viewModel.textScaling),
                                       text: TextSpan(children: item['spans']),
                                     ),
                                   ),
@@ -93,6 +97,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
                                   child: Container(
                                     margin: const EdgeInsets.symmetric(vertical: 1.0),
                                     child: RichText(
+                                      textScaler: TextScaler.linear(viewModel.textScaling),
                                       text: TextSpan(children: item['spans']),
                                     ),
                                   ),
@@ -137,6 +142,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
                                 child: Container(
                                   margin: const EdgeInsets.symmetric(vertical: 1.0),
                                   child: RichText(
+                                    textScaler: TextScaler.linear(viewModel.textScaling),
                                     text: TextSpan(children: item['spans']),
                                   ),
                                 ),
@@ -160,6 +166,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
                                 child: Container(
                                   margin: const EdgeInsets.symmetric(vertical: 1.0),
                                   child: RichText(
+                                    textScaler: TextScaler.linear(viewModel.textScaling),
                                     text: TextSpan(children: item['spans']),
                                   ),
                                 ),
@@ -196,16 +203,15 @@ class ReaderView extends StackedView<ReaderViewModel> {
             ),
         ],
       ),
-      drawer: SideNavigationDrawer(
-        selectedIndex: viewModel.currentIndex,
-        onViewChanged: viewModel.setCurrentIndex,
+      endDrawer: SideNavigationDrawer(
+        closeNavigation: () => _scaffoldKey.currentState?.closeEndDrawer(),
       ),
       bottomNavigationBar: PrimaryReaderAppbar(
         isReaderAreaPopupActive: viewModel.isPrimaryReaderAreaPopupActive,
         onTapSearch: viewModel.onTapSearch,
         onTapBook: () => viewModel.onTapBook(Area.primary),
         onTapBibleVersion: () => viewModel.onTapBibleVersion(Area.primary),
-        onTapMenu: () {},
+        onTapMenu: () => _scaffoldKey.currentState?.openEndDrawer(),
       ),
     );
   }
