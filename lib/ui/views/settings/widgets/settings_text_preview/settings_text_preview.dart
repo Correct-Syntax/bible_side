@@ -30,7 +30,7 @@ class SettingsTextPreview extends StackedView<SettingsTextPreviewModel> {
           textScaler: TextScaler.linear(viewModel.textScaling),
           text: const TextSpan(
             style: TextStyle(
-              fontFamily: 'RobotoSerif',
+              fontFamily: 'Merriweather',
               fontSize: 15.0,
               letterSpacing: 0.3,
               height: 1.7,

@@ -38,14 +38,14 @@ enum TextItemType {
 class TextItemStyles {
   static TextStyle bookHeading(context) {
     return Theme.of(context).textTheme.headlineSmall!.copyWith(
-          fontFamily: 'RobotoSerif',
+          fontFamily: 'Merriweather',
           fontWeight: FontWeight.w500,
         );
   }
 
   static TextStyle chapterHeading(context) {
     return Theme.of(context).textTheme.bodyMedium!.copyWith(
-          fontFamily: 'RobotoSerif',
+          fontFamily: 'Merriweather',
           fontSize: 26.0,
           fontWeight: FontWeight.w500,
         );
@@ -53,7 +53,7 @@ class TextItemStyles {
 
   static TextStyle sectionHeading(context) {
     return Theme.of(context).textTheme.bodyMedium!.copyWith(
-          fontFamily: 'RobotoSerif',
+          fontFamily: 'Merriweather',
           fontSize: 17.0,
           fontWeight: FontWeight.w500,
         );
@@ -67,7 +67,7 @@ class TextItemStyles {
 
   static TextStyle text(context) {
     return Theme.of(context).textTheme.bodyLarge!.copyWith(
-          fontFamily: 'RobotoSerif',
+          fontFamily: 'Merriweather',
           fontSize: 15.0,
           letterSpacing: 0.3,
           height: 1.7,
