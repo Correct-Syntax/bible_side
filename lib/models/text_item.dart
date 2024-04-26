@@ -1,6 +1,8 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
+import '../common/themes.dart';
+
 /// Valid types determining how to divide the reader text.
 enum ReaderType { verse, paragraph }
 
@@ -36,42 +38,47 @@ enum TextItemType {
 
 /// [TextItem] styles
 class TextItemStyles {
-  static TextStyle bookHeading(context) {
-    return Theme.of(context).textTheme.headlineSmall!.copyWith(
-          fontFamily: 'Merriweather',
-          fontWeight: FontWeight.w500,
-        );
+  static TextStyle bookHeading(BuildContext context) {
+    return TextStyle(
+      color: context.theme.appColors.readerText,
+      fontFamily: 'Merriweather',
+      fontWeight: FontWeight.w500,
+    );
   }
 
-  static TextStyle chapterHeading(context) {
-    return Theme.of(context).textTheme.bodyMedium!.copyWith(
-          fontFamily: 'Merriweather',
-          fontSize: 26.0,
-          fontWeight: FontWeight.w500,
-        );
+  static TextStyle chapterHeading(BuildContext context) {
+    return TextStyle(
+      color: context.theme.appColors.readerText,
+      fontFamily: 'Merriweather',
+      fontSize: 26.0,
+      fontWeight: FontWeight.w500,
+    );
   }
 
-  static TextStyle sectionHeading(context) {
-    return Theme.of(context).textTheme.bodyMedium!.copyWith(
-          fontFamily: 'Merriweather',
-          fontSize: 17.0,
-          fontWeight: FontWeight.w500,
-        );
+  static TextStyle sectionHeading(BuildContext context) {
+    return TextStyle(
+      color: context.theme.appColors.readerText,
+      fontFamily: 'Merriweather',
+      fontSize: 17.0,
+      fontWeight: FontWeight.w500,
+    );
   }
 
-  static TextStyle bodyMedium(context) {
-    return Theme.of(context).textTheme.bodyMedium!.copyWith(
-          fontSize: 11.0,
-        );
+  static TextStyle bodyMedium(BuildContext context) {
+    return TextStyle(
+      color: context.theme.appColors.readerText,
+      fontSize: 11.0,
+    );
   }
 
-  static TextStyle text(context) {
-    return Theme.of(context).textTheme.bodyLarge!.copyWith(
-          fontFamily: 'Merriweather',
-          fontSize: 15.0,
-          letterSpacing: 0.3,
-          height: 1.7,
-        );
+  static TextStyle text(BuildContext context) {
+    return TextStyle(
+      color: context.theme.appColors.readerText,
+      fontFamily: 'Merriweather',
+      fontSize: 15.0,
+      letterSpacing: 0.3,
+      height: 1.7,
+    );
   }
 
   static TextStyle link(context) {

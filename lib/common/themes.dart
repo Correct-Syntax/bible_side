@@ -1,5 +1,25 @@
 import 'package:flutter/material.dart';
 
+abstract class ReaderTextPalette {
+  // Red letters for Words of the Messiah
+  static const redLetterRed = Color(0xFFC24545);
+
+  // Add article +
+  static const addArticleOrange = Color(0xFFCB9169);
+
+  // Add extra >
+  static const addExtraGreen = Color(0xFF5EC651);
+
+  // Add copula =
+  static const addCopulaPink = Color(0xFFC260B1);
+
+  // Add unused -
+
+  // Add direct object ~
+
+  // Add owner ^
+}
+
 abstract class LightThemePalette {
   // White
   static const white = Color(0xFFFFFFFF);
@@ -85,6 +105,11 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
     required this.switchBackground,
     required this.sliderAccent,
     required this.divider,
+    required this.readerText,
+    required this.readerRedLetter,
+    required this.readerAddArticle,
+    required this.readerAddExtra,
+    required this.addCopulaPink,
   });
 
   final Color primary;
@@ -101,6 +126,11 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
   final Color switchBackground;
   final Color sliderAccent;
   final Color divider;
+  final Color readerText;
+  final Color readerRedLetter;
+  final Color readerAddArticle;
+  final Color readerAddExtra;
+  final Color addCopulaPink;
 
   @override
   ThemeExtension<AppColorsExtension> copyWith({
@@ -121,6 +151,11 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
       switchBackground: switchBackground,
       sliderAccent: sliderAccent,
       divider: divider,
+      readerText: readerText,
+      readerRedLetter: readerRedLetter,
+      readerAddArticle: readerAddArticle,
+      readerAddExtra: readerAddExtra,
+      addCopulaPink: addCopulaPink,
     );
   }
 
@@ -148,6 +183,11 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
       switchBackground: Color.lerp(switchBackground, other.switchBackground, t)!,
       sliderAccent: Color.lerp(sliderAccent, other.sliderAccent, t)!,
       divider: Color.lerp(divider, other.divider, t)!,
+      readerText: Color.lerp(readerText, other.readerText, t)!,
+      readerRedLetter: Color.lerp(readerRedLetter, other.readerRedLetter, t)!,
+      readerAddArticle: Color.lerp(readerAddArticle, other.readerAddArticle, t)!,
+      readerAddExtra: Color.lerp(readerAddExtra, other.readerAddExtra, t)!,
+      addCopulaPink: Color.lerp(addCopulaPink, other.addCopulaPink, t)!,
     );
   }
 }
@@ -175,6 +215,11 @@ class AppTheme {
     switchBackground: LightThemePalette.mediumBlue,
     sliderAccent: LightThemePalette.mediumBlue,
     divider: LightThemePalette.mediumSlate10,
+    readerText: LightThemePalette.mediumSlate,
+    readerRedLetter: ReaderTextPalette.redLetterRed,
+    readerAddArticle: ReaderTextPalette.addArticleOrange,
+    readerAddExtra: ReaderTextPalette.addExtraGreen,
+    addCopulaPink: ReaderTextPalette.addCopulaPink,
   );
 
   // Dark theme
@@ -199,6 +244,11 @@ class AppTheme {
     switchBackground: DarkThemePalette.white,
     sliderAccent: DarkThemePalette.white,
     divider: DarkThemePalette.white10,
+    readerText: DarkThemePalette.mediumLightGray,
+    readerRedLetter: ReaderTextPalette.redLetterRed,
+    readerAddArticle: ReaderTextPalette.addArticleOrange,
+    readerAddExtra: ReaderTextPalette.addExtraGreen,
+    addCopulaPink: ReaderTextPalette.addCopulaPink,
   );
 }
 

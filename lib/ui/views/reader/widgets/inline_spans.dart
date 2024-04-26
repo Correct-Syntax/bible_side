@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
 
+import '../../../../common/themes.dart';
 import '../../../../models/text_item.dart';
 
 InlineSpan headingSectionSpan(
-    BuildContext context, String verseText, String chapterReference, String verseReference, String sectionText) {
+  BuildContext context,
+  String verseText,
+  String chapterReference,
+  String verseReference,
+  String sectionText,
+) {
   return WidgetSpan(
     child: Row(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -34,7 +40,7 @@ InlineSpan headingSectionSpan(
         Expanded(
           child: Container(
             decoration: BoxDecoration(
-              border: Border.all(width: 1, color: Theme.of(context).colorScheme.outline),
+              border: Border.all(width: 1, color: context.theme.appColors.readerText),
             ),
             padding: const EdgeInsets.all(4.0),
             margin: const EdgeInsets.only(top: 20.0, left: 10.0),
