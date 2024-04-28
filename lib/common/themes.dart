@@ -195,6 +195,11 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
 class AppTheme {
   // Light theme
   static final light = ThemeData.light().copyWith(
+    textSelectionTheme: const TextSelectionThemeData(
+      cursorColor: Colors.white,
+      selectionColor: Color(0xFF96BAD9),
+      selectionHandleColor: LightThemePalette.mediumBlue,
+    ),
     extensions: [
       _lightAppColors,
     ],
@@ -224,6 +229,11 @@ class AppTheme {
 
   // Dark theme
   static final dark = ThemeData.dark().copyWith(
+    textSelectionTheme: const TextSelectionThemeData(
+      cursorColor: Colors.white,
+      selectionColor: Color(0xFF444748),
+      selectionHandleColor: Colors.white,
+    ),
     extensions: [
       _darkAppColors,
     ],

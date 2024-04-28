@@ -74,9 +74,9 @@ class ReaderView extends StackedView<ReaderViewModel> {
                                       viewModel.setChapter(item['page']),
                                   child: Container(
                                     margin: const EdgeInsets.symmetric(vertical: 1.0),
-                                    child: RichText(
+                                    child: SelectableText.rich(
+                                      TextSpan(children: item['spans']),
                                       textScaler: TextScaler.linear(viewModel.textScaling),
-                                      text: TextSpan(children: item['spans']),
                                     ),
                                   ),
                                 ),
@@ -98,9 +98,9 @@ class ReaderView extends StackedView<ReaderViewModel> {
                                       viewModel.setChapter(item['page']),
                                   child: Container(
                                     margin: const EdgeInsets.symmetric(vertical: 1.0),
-                                    child: RichText(
+                                    child: SelectableText.rich(
+                                      TextSpan(children: item['spans']),
                                       textScaler: TextScaler.linear(viewModel.textScaling),
-                                      text: TextSpan(children: item['spans']),
                                     ),
                                   ),
                                 ),
@@ -145,9 +145,9 @@ class ReaderView extends StackedView<ReaderViewModel> {
                                     viewModel.setChapter(item['chapter']),
                                 child: Container(
                                   margin: const EdgeInsets.symmetric(vertical: 1.0),
-                                  child: RichText(
+                                  child: SelectableText.rich(
+                                    TextSpan(children: item['spans']),
                                     textScaler: TextScaler.linear(viewModel.textScaling),
-                                    text: TextSpan(children: item['spans']),
                                   ),
                                 ),
                               ),
@@ -169,9 +169,9 @@ class ReaderView extends StackedView<ReaderViewModel> {
                                     viewModel.setChapter(item['chapter']),
                                 child: Container(
                                   margin: const EdgeInsets.symmetric(vertical: 1.0),
-                                  child: RichText(
+                                  child: SelectableText.rich(
+                                    TextSpan(children: item['spans']),
                                     textScaler: TextScaler.linear(viewModel.textScaling),
-                                    text: TextSpan(children: item['spans']),
                                   ),
                                 ),
                               ),
