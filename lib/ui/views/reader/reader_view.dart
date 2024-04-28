@@ -66,6 +66,8 @@ class ReaderView extends StackedView<ReaderViewModel> {
                             PagedSliverList(
                               pagingController: viewModel.secondaryPagingUpController,
                               builderDelegate: PagedChildBuilderDelegate<Map<String, dynamic>>(
+                                animateTransitions: true,
+                                transitionDuration: const Duration(milliseconds: 250),
                                 itemBuilder: (context, item, index) => VisibilityDetector(
                                   key: ValueKey('${item['page']}'),
                                   onVisibilityChanged: (VisibilityInfo visibilityInfo) =>
@@ -78,18 +80,18 @@ class ReaderView extends StackedView<ReaderViewModel> {
                                     ),
                                   ),
                                 ),
-                                noItemsFoundIndicatorBuilder: (_) {
-                                  return const SizedBox();
-                                },
-                                noMoreItemsIndicatorBuilder: (_) {
-                                  return const SizedBox();
-                                },
+                                firstPageProgressIndicatorBuilder: (_) => const SizedBox(),
+                                newPageProgressIndicatorBuilder: (_) => const SizedBox(),
+                                noItemsFoundIndicatorBuilder: (_) => const SizedBox(),
+                                noMoreItemsIndicatorBuilder: (_) => const SizedBox(),
                               ),
                             ),
                             PagedSliverList(
                               key: viewModel.downListKey,
                               pagingController: viewModel.secondaryPagingDownController,
                               builderDelegate: PagedChildBuilderDelegate<Map<String, dynamic>>(
+                                animateTransitions: true,
+                                transitionDuration: const Duration(milliseconds: 250),
                                 itemBuilder: (context, item, index) => VisibilityDetector(
                                   key: ValueKey('${item['page']}'),
                                   onVisibilityChanged: (VisibilityInfo visibilityInfo) =>
@@ -102,12 +104,10 @@ class ReaderView extends StackedView<ReaderViewModel> {
                                     ),
                                   ),
                                 ),
-                                noItemsFoundIndicatorBuilder: (_) {
-                                  return const SizedBox();
-                                },
-                                noMoreItemsIndicatorBuilder: (_) {
-                                  return const SizedBox();
-                                },
+                                firstPageProgressIndicatorBuilder: (_) => const SizedBox(),
+                                newPageProgressIndicatorBuilder: (_) => const SizedBox(),
+                                noItemsFoundIndicatorBuilder: (_) => const SizedBox(),
+                                noMoreItemsIndicatorBuilder: (_) => const SizedBox(),
                               ),
                             ),
                           ],
@@ -137,6 +137,8 @@ class ReaderView extends StackedView<ReaderViewModel> {
                           PagedSliverList(
                             pagingController: viewModel.primaryPagingUpController,
                             builderDelegate: PagedChildBuilderDelegate<Map<String, dynamic>>(
+                              animateTransitions: true,
+                              transitionDuration: const Duration(milliseconds: 250),
                               itemBuilder: (context, item, index) => VisibilityDetector(
                                 key: ValueKey('${item['page']}'),
                                 onVisibilityChanged: (VisibilityInfo visibilityInfo) =>
@@ -149,18 +151,18 @@ class ReaderView extends StackedView<ReaderViewModel> {
                                   ),
                                 ),
                               ),
-                              noItemsFoundIndicatorBuilder: (_) {
-                                return const SizedBox();
-                              },
-                              noMoreItemsIndicatorBuilder: (_) {
-                                return const SizedBox();
-                              },
+                              firstPageProgressIndicatorBuilder: (_) => const SizedBox(),
+                              newPageProgressIndicatorBuilder: (_) => const SizedBox(),
+                              noItemsFoundIndicatorBuilder: (_) => const SizedBox(),
+                              noMoreItemsIndicatorBuilder: (_) => const SizedBox(),
                             ),
                           ),
                           PagedSliverList(
                             key: viewModel.downListKey,
                             pagingController: viewModel.primaryPagingDownController,
                             builderDelegate: PagedChildBuilderDelegate<Map<String, dynamic>>(
+                              animateTransitions: true,
+                              transitionDuration: const Duration(milliseconds: 250),
                               itemBuilder: (context, item, index) => VisibilityDetector(
                                 key: ValueKey('${item['page']}'),
                                 onVisibilityChanged: (VisibilityInfo visibilityInfo) =>
@@ -173,12 +175,10 @@ class ReaderView extends StackedView<ReaderViewModel> {
                                   ),
                                 ),
                               ),
-                              noItemsFoundIndicatorBuilder: (_) {
-                                return const SizedBox();
-                              },
-                              noMoreItemsIndicatorBuilder: (_) {
-                                return const SizedBox();
-                              },
+                              firstPageProgressIndicatorBuilder: (_) => const SizedBox(),
+                              newPageProgressIndicatorBuilder: (_) => const SizedBox(),
+                              noItemsFoundIndicatorBuilder: (_) => const SizedBox(),
+                              noMoreItemsIndicatorBuilder: (_) => const SizedBox(),
                             ),
                           ),
                         ],
