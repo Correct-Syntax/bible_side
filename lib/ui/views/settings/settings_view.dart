@@ -144,7 +144,7 @@ class SettingsView extends StackedView<SettingsViewModel> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        'Show special markings',
+                        'Show OET-LV special markings',
                         style: TextStyle(
                           color: context.theme.appColors.primary,
                           fontSize: 16.0,

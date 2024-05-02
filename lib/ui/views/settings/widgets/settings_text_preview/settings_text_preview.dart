@@ -27,20 +27,22 @@ class SettingsTextPreview extends StackedView<SettingsTextPreviewModel> {
       child: SingleChildScrollView(
         child: RichText(
           textScaler: TextScaler.linear(viewModel.textScaling),
-          text: const TextSpan(
-              style: TextStyle(
-                fontFamily: 'Merriweather',
-                fontSize: 15.0,
-                letterSpacing: 0.3,
-                height: 1.7,
-              ),
-              children: [
-                // TODO: use actual text
-                TextSpan(text: '1 ', style: TextStyle(fontSize: 20.0)),
-                TextSpan(
-                    text:
-                        'In the beginning was the message, and the message was with God, and the message was and is God')
-              ]),
+          text: TextSpan(
+            style: TextStyle(
+              color: context.theme.appColors.readerText,
+              fontFamily: 'Merriweather',
+              fontSize: 15.0,
+              letterSpacing: 0.3,
+              height: 1.7,
+            ),
+            children: [
+              // TODO: use actual text
+              TextSpan(text: '1 ', style: TextStyle(fontSize: 20.0)),
+              TextSpan(
+                  text:
+                      'In the beginning was the message, and the message was with God, and the message was and is God')
+            ],
+          ),
         ),
       ),
     );
