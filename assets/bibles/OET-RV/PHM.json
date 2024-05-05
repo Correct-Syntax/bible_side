@@ -120,19 +120,27 @@
               "add": "This letter is from",
               "closing": "\\add*"
             },
-            "Paul¦141540 a prisoner¦141541 of",
+            "Paul¦141552 a prisoner¦141553 of",
             {
-              "nd": "messiah¦141542 Yeshua¦141543",
-              "closing": "\\nd*"
+              "nd": ""
             },
-            "and our brother¦141547 Timothy¦141545.",
             {
-              "add": "I'm writing",
-              "closing": "\\add*"
-            },
-            "to our dear co-worker Philemon,"
+              "nd": [
+                "messiah¦141554",
+                {
+                  "nd": "* Yeshua¦141555",
+                  "closing": "\\nd*"
+                },
+                "and our brother¦141559 Timothy¦141557.",
+                {
+                  "add": "I'm writing",
+                  "closing": "\\add*"
+                },
+                "to our dear co-worker Philemon,"
+              ]
+            }
           ],
-          "verseText": "This letter is from Paul¦141540 a prisoner¦141541 of messiah¦141542 Yeshua¦141543 and our brother¦141547 Timothy¦141545. I'm writing to our dear co-worker Philemon,"
+          "verseText": "This letter is from Paul¦141552 a prisoner¦141553 of messiah¦141554 * Yeshua¦141555 and our brother¦141559 Timothy¦141557. I'm writing to our dear co-worker Philemon,"
         },
         {
           "verseNumber": "2",
@@ -154,35 +162,35 @@
               "add": "our",
               "closing": "\\add*"
             },
-            "sister¦141557 Apphia and our fellow-soldier¦141562 Archippus and to the assembly¦141569",
+            "sister¦141569 Apphia and our fellow-soldier¦141574 Archippus and to the assembly¦141581",
             {
               "add": "that meets",
               "closing": "\\add*"
             },
-            "in your¦141568 home."
+            "in your¦141580 home."
           ],
-          "verseText": "as well as our sister¦141557 Apphia and our fellow-soldier¦141562 Archippus and to the assembly¦141569 that meets in your¦141568 home."
+          "verseText": "as well as our sister¦141569 Apphia and our fellow-soldier¦141574 Archippus and to the assembly¦141581 that meets in your¦141580 home."
         },
         {
           "verseNumber": "3",
           "contents": [
             {
-              "add": "May you¦141571 all experience",
+              "add": "May you¦141583 all experience",
               "closing": "\\add*"
             },
-            "grace¦141570 and peace¦141573 from our¦141577 father¦141576",
+            "grace¦141582 and peace¦141585 from our¦141589 father¦141588",
             {
-              "nd": "God¦141575",
+              "nd": "God¦141587",
               "closing": "\\nd*"
             },
             "and from the",
             {
-              "nd": "master¦141579",
+              "nd": "master¦141591",
               "closing": "\\nd*"
             },
             ",",
             {
-              "nd": "Yeshua¦141580",
+              "nd": "Yeshua¦141592",
               "closing": "\\nd*"
             },
             {
@@ -190,7 +198,7 @@
               "closing": "\\add*"
             },
             {
-              "nd": "messiah¦141581",
+              "nd": "messiah¦141593",
               "closing": "\\nd*"
             },
             ".",
@@ -210,7 +218,7 @@
               "p": ""
             }
           ],
-          "verseText": "May you¦141571 all experience grace¦141570 and peace¦141573 from our¦141577 father¦141576 God¦141575 and from the master¦141579, Yeshua¦141580 the messiah¦141581."
+          "verseText": "May you¦141583 all experience grace¦141582 and peace¦141585 from our¦141589 father¦141588 God¦141587 and from the master¦141591, Yeshua¦141592 the messiah¦141593."
         },
         {
           "verseNumber": "4",
@@ -219,14 +227,14 @@
               "add": "Philemon,",
               "closing": "\\add*"
             },
-            "I'm always¦141586 thanking¦141582 my",
+            "I'm always¦141598 thanking¦141594 my",
             {
-              "nd": "God¦141584",
+              "nd": "God¦141596",
               "closing": "\\nd*"
             },
-            "and mentioning¦141587 you¦141588 in my prayers¦141592"
+            "and mentioning¦141599 you¦141600 in my prayers¦141604"
           ],
-          "verseText": "Philemon, I'm always¦141586 thanking¦141582 my God¦141584 and mentioning¦141587 you¦141588 in my prayers¦141592"
+          "verseText": "Philemon, I'm always¦141598 thanking¦141594 my God¦141596 and mentioning¦141599 you¦141600 in my prayers¦141604"
         },
         {
           "verseNumber": "5",
@@ -235,14 +243,22 @@
               "add": "after",
               "closing": "\\add*"
             },
-            "hearing¦141594 your faith¦141600 and about your love¦141597 for the",
+            "hearing¦141606 your faith¦141612 and about your love¦141609 for the",
             {
-              "nd": "master¦141606 Yeshua¦141607",
-              "closing": "\\nd*"
+              "nd": ""
             },
-            "and for all the believers."
+            {
+              "nd": [
+                "master¦141618",
+                {
+                  "nd": "* Yeshua¦141619",
+                  "closing": "\\nd*"
+                },
+                "and for all the believers."
+              ]
+            }
           ],
-          "verseText": "after hearing¦141594 your faith¦141600 and about your love¦141597 for the master¦141606 Yeshua¦141607 and for all the believers."
+          "verseText": "after hearing¦141606 your faith¦141612 and about your love¦141609 for the master¦141618 * Yeshua¦141619 and for all the believers."
         },
         {
           "verseNumber": "6",
@@ -251,23 +267,23 @@
               "add": "I pray that",
               "closing": "\\add*"
             },
-            "the fellowship¦141615 of your¦141618 faith¦141617 may become¦141620 active¦141619 in the knowledge¦141622 of every¦141623 good¦141624 thing in us toward¦141629",
+            "the fellowship¦141627 of your¦141630 faith¦141629 may become¦141632 active¦141631 in the knowledge¦141634 of every¦141635 good¦141636 thing in us toward¦141641",
             {
               "add": "the",
               "closing": "\\add*"
             },
             {
-              "nd": "messiah¦141630",
+              "nd": "messiah¦141642",
               "closing": "\\nd*"
             },
             ". [WHAT DOES THAT MEAN???]"
           ],
-          "verseText": "I pray that the fellowship¦141615 of your¦141618 faith¦141617 may become¦141620 active¦141619 in the knowledge¦141622 of every¦141623 good¦141624 thing in us toward¦141629 the messiah¦141630. [WHAT DOES THAT MEAN???]"
+          "verseText": "I pray that the fellowship¦141627 of your¦141630 faith¦141629 may become¦141632 active¦141631 in the knowledge¦141634 of every¦141635 good¦141636 thing in us toward¦141641 the messiah¦141642. [WHAT DOES THAT MEAN???]"
         },
         {
           "verseNumber": "7",
           "contents": [
-            "Because¦141634 I was very happy and encouraged by your¦141643 love¦141642, because¦141644 the hearts¦141646 of the believers have been refreshed¦141649 by you, brother¦141652.",
+            "Because¦141646 I was very happy and encouraged by your¦141655 love¦141654, because¦141656 the hearts¦141658 of the believers have been refreshed¦141661 by you, brother¦141664.",
             {
               "s1": "Paul's request to Philemon concerning Onesimus"
             },
@@ -287,36 +303,36 @@
               "p": ""
             }
           ],
-          "verseText": "Because¦141634 I was very happy and encouraged by your¦141643 love¦141642, because¦141644 the hearts¦141646 of the believers have been refreshed¦141649 by you, brother¦141652."
+          "verseText": "Because¦141646 I was very happy and encouraged by your¦141655 love¦141654, because¦141656 the hearts¦141658 of the believers have been refreshed¦141661 by you, brother¦141664."
         },
         {
           "verseNumber": "8",
           "contents": [
-            "Therefore¦141653, with the help of the",
+            "Therefore¦141665, with the help of the",
             {
-              "nd": "messiah¦141656",
+              "nd": "messiah¦141668",
               "closing": "\\nd*"
             },
             ", I would be brave enough to tell you what you need to do,"
           ],
-          "verseText": "Therefore¦141653, with the help of the messiah¦141656, I would be brave enough to tell you what you need to do,"
+          "verseText": "Therefore¦141665, with the help of the messiah¦141668, I would be brave enough to tell you what you need to do,"
         },
         {
           "verseNumber": "9",
           "contents": [
-            "but because¦141663 of love¦141666 as Paul¦141672, an older¦141673 man¦141673 and¦141676 now also a prisoner¦141678 for",
+            "but because¦141675 of love¦141678 as Paul¦141684, an older¦141685 man¦141685 and¦141688 now also a prisoner¦141690 for",
             {
-              "nd": "Yeshua¦141680",
+              "nd": "Yeshua¦141692",
               "closing": "\\nd*"
             },
             "the",
             {
-              "nd": "messiah¦141679",
+              "nd": "messiah¦141691",
               "closing": "\\nd*"
             },
-            ", I'm just going to encourage you¦141668 to do it."
+            ", I'm just going to encourage you¦141680 to do it."
           ],
-          "verseText": "but because¦141663 of love¦141666 as Paul¦141672, an older¦141673 man¦141673 and¦141676 now also a prisoner¦141678 for Yeshua¦141680 the messiah¦141679, I'm just going to encourage you¦141668 to do it."
+          "verseText": "but because¦141675 of love¦141678 as Paul¦141684, an older¦141685 man¦141685 and¦141688 now also a prisoner¦141690 for Yeshua¦141692 the messiah¦141691, I'm just going to encourage you¦141680 to do it."
         },
         {
           "verseNumber": "10",
@@ -333,31 +349,31 @@
               ],
               "closing": "\\x*"
             },
-            "So I'm going to encourage you¦141683 concerning Onesimus who became my",
+            "So I'm going to encourage you¦141695 concerning Onesimus who became my",
             {
               "add": "spiritual",
               "closing": "\\add*"
             },
             "‘son’ since I've been imprisoned."
           ],
-          "verseText": "So I'm going to encourage you¦141683 concerning Onesimus who became my spiritual ‘son’ since I've been imprisoned."
+          "verseText": "So I'm going to encourage you¦141695 concerning Onesimus who became my spiritual ‘son’ since I've been imprisoned."
         },
         {
           "verseNumber": "11",
           "contents": [
-            "Before he was useless¦141699 to you, but now he's useful¦141706 to both of us.",
+            "Before he was useless¦141711 to you, but now he's useful¦141718 to both of us.",
             {
               "p": ""
             }
           ],
-          "verseText": "Before he was useless¦141699 to you, but now he's useful¦141706 to both of us."
+          "verseText": "Before he was useless¦141711 to you, but now he's useful¦141718 to both of us."
         },
         {
           "verseNumber": "12",
           "contents": [
-            "I sent¦141708 him¦141712 to you¦141710 (even though in my heart¦141717"
+            "I sent¦141720 him¦141724 to you¦141722 (even though in my heart¦141729"
           ],
-          "verseText": "I sent¦141708 him¦141712 to you¦141710 (even though in my heart¦141717"
+          "verseText": "I sent¦141720 him¦141724 to you¦141722 (even though in my heart¦141729"
         },
         {
           "verseNumber": "13",
@@ -367,14 +383,14 @@
               "add": "here",
               "closing": "\\add*"
             },
-            ") so that he might be serving¦141730 me",
+            ") so that he might be serving¦141742 me",
             {
               "add": "here due to",
               "closing": "\\add*"
             },
-            "the bonds¦141734 of the good¦141736 message¦141736"
+            "the bonds¦141746 of the good¦141748 message¦141748"
           ],
-          "verseText": "I wanted to keep him here) so that he might be serving¦141730 me here due to the bonds¦141734 of the good¦141736 message¦141736"
+          "verseText": "I wanted to keep him here) so that he might be serving¦141742 me here due to the bonds¦141746 of the good¦141748 message¦141748"
         },
         {
           "verseNumber": "14",
@@ -384,41 +400,41 @@
               "add": "hearing",
               "closing": "\\add*"
             },
-            "your¦141752 opinion¦141741, so that you're not doing good¦141751 because you have to, but rather because you want to.",
+            "your¦141764 opinion¦141753, so that you're not doing good¦141763 because you have to, but rather because you want to.",
             {
               "p": ""
             }
           ],
-          "verseText": "but I didn't want to do anything without hearing your¦141752 opinion¦141741, so that you're not doing good¦141751 because you have to, but rather because you want to."
+          "verseText": "but I didn't want to do anything without hearing your¦141764 opinion¦141753, so that you're not doing good¦141763 because you have to, but rather because you want to."
         },
         {
           "verseNumber": "15",
           "contents": [
-            "It was possibly¦141757 because¦141759 of that that he¦141761 was separated¦141761",
+            "It was possibly¦141769 because¦141771 of that that he¦141773 was separated¦141773",
             {
               "add": "from you",
               "closing": "\\add*"
             },
-            "for a while, so that on the eternal¦141765",
+            "for a while, so that on the eternal¦141777",
             {
               "add": "scale",
               "closing": "\\add*"
             },
-            "you could fully¦141767 accept him¦141766,"
+            "you could fully¦141779 accept him¦141778,"
           ],
-          "verseText": "It was possibly¦141757 because¦141759 of that that he¦141761 was separated¦141761 from you for a while, so that on the eternal¦141765 scale you could fully¦141767 accept him¦141766,"
+          "verseText": "It was possibly¦141769 because¦141771 of that that he¦141773 was separated¦141773 from you for a while, so that on the eternal¦141777 scale you could fully¦141779 accept him¦141778,"
         },
         {
           "verseNumber": "16",
           "contents": [
-            "no longer¦141768 as a slave but better than a slave—a dear brother to me most of you but preferably",
+            "no longer¦141780 as a slave but better than a slave—a dear brother to me most of you but preferably",
             {
               "add": "also",
               "closing": "\\add*"
             },
             "to you—a brother in the body and in the",
             {
-              "nd": "master¦141787",
+              "nd": "master¦141799",
               "closing": "\\nd*"
             },
             ".",
@@ -426,28 +442,28 @@
               "p": ""
             }
           ],
-          "verseText": "no longer¦141768 as a slave but better than a slave—a dear brother to me most of you but preferably also to you—a brother in the body and in the master¦141787."
+          "verseText": "no longer¦141780 as a slave but better than a slave—a dear brother to me most of you but preferably also to you—a brother in the body and in the master¦141799."
         },
         {
           "verseNumber": "17",
           "contents": [
-            "Therefore¦141789, if you consider me as your partner¦141793, accept him¦141795 like you'd accept me,"
+            "Therefore¦141801, if you consider me as your partner¦141805, accept him¦141807 like you'd accept me,"
           ],
-          "verseText": "Therefore¦141789, if you consider me as your partner¦141793, accept him¦141795 like you'd accept me,"
+          "verseText": "Therefore¦141801, if you consider me as your partner¦141805, accept him¦141807 like you'd accept me,"
         },
         {
           "verseNumber": "18",
           "contents": [
-            "but¦141800 if he¦141802 did anything wrong¦141802 to you or owes you anything, charge it to me."
+            "but¦141812 if he¦141814 did anything wrong¦141814 to you or owes you anything, charge it to me."
           ],
-          "verseText": "but¦141800 if he¦141802 did anything wrong¦141802 to you or owes you anything, charge it to me."
+          "verseText": "but¦141812 if he¦141814 did anything wrong¦141814 to you or owes you anything, charge it to me."
         },
         {
           "verseNumber": "19",
           "contents": [
             {
               "sig": [
-                "I, Paul¦141812, wrote¦141813 this bit in my own handwriting. I will pay back anything",
+                "I, Paul¦141824, wrote¦141825 this bit in my own handwriting. I will pay back anything",
                 {
                   "+add": "he owes you",
                   "closing": "\\+add*"
@@ -459,35 +475,35 @@
               "add": [
                 "pretty much",
                 {
-                  "add": "* owe yourself¦141825 to me.",
+                  "add": "* owe yourself¦141837 to me.",
                   "closing": "\\sig*"
                 }
               ]
             }
           ],
-          "verseText": "I, Paul¦141812, wrote¦141813 this bit in my own handwriting. I will pay back anything he owes you, then I won't need to be reminding you that you pretty much * owe yourself¦141825 to me."
+          "verseText": "I, Paul¦141824, wrote¦141825 this bit in my own handwriting. I will pay back anything he owes you, then I won't need to be reminding you that you pretty much * owe yourself¦141837 to me."
         },
         {
           "verseNumber": "20",
           "contents": [
             {
               "sig": [
-                "Yes, brother¦141831,",
+                "Yes, brother¦141843,",
                 {
                   "+add": "with both of us being",
                   "closing": "\\+add*"
                 },
                 "in the",
                 {
-                  "+nd": "master¦141836",
+                  "+nd": "master¦141848",
                   "closing": "\\+nd*"
                 },
-                ", I might¦141834",
+                ", I might¦141846",
                 {
                   "+add": "hopefully",
                   "closing": "\\+add*"
                 },
-                "benefit¦141834 from you¦141833—refresh¦141837 my¦141838 heart¦141840 in",
+                "benefit¦141846 from you¦141845—refresh¦141849 my¦141850 heart¦141852 in",
                 {
                   "+add": "the",
                   "closing": "\\+add*"
@@ -496,7 +512,7 @@
             },
             {
               "+nd": [
-                "messiah¦141842",
+                "messiah¦141854",
                 {
                   "+nd": "*.",
                   "closing": "\\sig*"
@@ -507,19 +523,19 @@
               "p": ""
             }
           ],
-          "verseText": "Yes, brother¦141831, with both of us being in the master¦141836, I might¦141834 hopefully benefit¦141834 from you¦141833—refresh¦141837 my¦141838 heart¦141840 in the messiah¦141842 *."
+          "verseText": "Yes, brother¦141843, with both of us being in the master¦141848, I might¦141846 hopefully benefit¦141846 from you¦141845—refresh¦141849 my¦141850 heart¦141852 in the messiah¦141854 *."
         },
         {
           "verseNumber": "21",
           "contents": [
             {
-              "sig": "I wrote¦141848 to you because I was sure that you'd obey"
+              "sig": "I wrote¦141860 to you because I was sure that you'd obey"
             },
             {
               "+add": [
                 "my request",
                 {
-                  "+add": "*, in fact knowing¦141850 that you'd do even more than what I ask.",
+                  "+add": "*, in fact knowing¦141862 that you'd do even more than what I ask.",
                   "closing": "\\sig*"
                 }
               ]
@@ -531,7 +547,7 @@
               "p": ""
             }
           ],
-          "verseText": "I wrote¦141848 to you because I was sure that you'd obey my request *, in fact knowing¦141850 that you'd do even more than what I ask."
+          "verseText": "I wrote¦141860 to you because I was sure that you'd obey my request *, in fact knowing¦141862 that you'd do even more than what I ask."
         },
         {
           "verseNumber": "22",
@@ -542,7 +558,7 @@
                   "+add": "Go ahead and",
                   "closing": "\\+add*"
                 },
-                "prepare¦141861 somewhere for me to stay because¦141865 I'm hoping¦141864 that I'll be able to visit",
+                "prepare¦141873 somewhere for me to stay because¦141877 I'm hoping¦141876 that I'll be able to visit",
                 {
                   "+add": "thanks",
                   "closing": "\\+add*"
@@ -569,7 +585,7 @@
               "rem": "/s1 Final Greetings and Benediction"
             }
           ],
-          "verseText": "Go ahead and prepare¦141861 somewhere for me to stay because¦141865 I'm hoping¦141864 that I'll be able to visit thanks to you all praying for me *."
+          "verseText": "Go ahead and prepare¦141873 somewhere for me to stay because¦141877 I'm hoping¦141876 that I'll be able to visit thanks to you all praying for me *."
         },
         {
           "verseNumber": "23",
@@ -588,9 +604,9 @@
             },
             {
               "sig": [
-                "Epaphras¦141876, my¦141879 fellow¦141878 prisoner in",
+                "Epaphras¦141888, my¦141891 fellow¦141890 prisoner in",
                 {
-                  "+nd": "Yeshua¦141882",
+                  "+nd": "Yeshua¦141894",
                   "closing": "\\+nd*"
                 },
                 "the"
@@ -598,15 +614,15 @@
             },
             {
               "+nd": [
-                "messiah¦141881",
+                "messiah¦141893",
                 {
-                  "+nd": "*, sends his greetings¦141873",
+                  "+nd": "*, sends his greetings¦141885",
                   "closing": "\\sig*"
                 }
               ]
             }
           ],
-          "verseText": "Epaphras¦141876, my¦141879 fellow¦141878 prisoner in Yeshua¦141882 the messiah¦141881 *, sends his greetings¦141873"
+          "verseText": "Epaphras¦141888, my¦141891 fellow¦141890 prisoner in Yeshua¦141894 the messiah¦141893 *, sends his greetings¦141885"
         },
         {
           "verseNumber": "24",
@@ -642,14 +658,14 @@
               "closing": "\\x*"
             },
             {
-              "sig": "as do my¦141889 fellow-workers¦141888 Mark, Aristarchus¦141884, Demas, and Luke.",
+              "sig": "as do my¦141901 fellow-workers¦141900 Mark, Aristarchus¦141896, Demas, and Luke.",
               "closing": "\\sig*"
             },
             {
               "p": ""
             }
           ],
-          "verseText": "as do my¦141889 fellow-workers¦141888 Mark, Aristarchus¦141884, Demas, and Luke."
+          "verseText": "as do my¦141901 fellow-workers¦141900 Mark, Aristarchus¦141896, Demas, and Luke."
         },
         {
           "verseNumber": "25",
@@ -660,35 +676,35 @@
                   "+add": "May",
                   "closing": "\\+add*"
                 },
-                "the grace¦141891 of our¦141894",
+                "the grace¦141903 of our¦141906",
                 {
-                  "+nd": "master¦141893",
+                  "+nd": "master¦141905",
                   "closing": "\\+nd*"
                 },
                 ",",
                 {
-                  "+nd": "Yeshua¦141895",
+                  "+nd": "Yeshua¦141907",
                   "closing": "\\+nd*"
                 },
                 "the",
                 {
-                  "+nd": "messiah¦141896",
+                  "+nd": "messiah¦141908",
                   "closing": "\\+nd*"
                 },
-                ", be with the spirit¦141899 of you¦141900 all"
+                ", be with the spirit¦141911 of you¦141912 all"
               ]
             },
             {
               "+add": [
                 "there",
                 {
-                  "+add": "*. May it¦141901 be so¦141901.",
+                  "+add": "*. May it¦141913 be so¦141913.",
                   "closing": "\\sig*"
                 }
               ]
             }
           ],
-          "verseText": "May the grace¦141891 of our¦141894 master¦141893, Yeshua¦141895 the messiah¦141896, be with the spirit¦141899 of you¦141900 all there *. May it¦141901 be so¦141901."
+          "verseText": "May the grace¦141903 of our¦141906 master¦141905, Yeshua¦141907 the messiah¦141908, be with the spirit¦141911 of you¦141912 all there *. May it¦141913 be so¦141913."
         }
       ]
     }

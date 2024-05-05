@@ -1,7 +1,7 @@
 {
   "book": {
     "bookCode": "JAS",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.02",
+    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.03",
     "meta": [
       {
         "usfm": "3.0"
@@ -195,32 +195,40 @@
               "add": "This letter is from",
               "closing": "\\add*"
             },
-            "Yacob¦147429, a slave¦147435 for",
+            "Yacob¦147441, a slave¦147447 for",
             {
-              "nd": "God¦147430",
+              "nd": "God¦147442",
               "closing": "\\nd*"
             },
-            "and¦147431 for the",
+            "and¦147443 for the",
             {
-              "nd": "master¦147432 Yeshua¦147433",
-              "closing": "\\nd*"
+              "nd": ""
             },
-            "the",
             {
-              "nd": "messiah¦147434",
-              "closing": "\\nd*"
+              "nd": [
+                "master¦147444",
+                {
+                  "nd": "* Yeshua¦147445",
+                  "closing": "\\nd*"
+                },
+                "the",
+                {
+                  "nd": "messiah¦147446",
+                  "closing": "\\nd*"
+                },
+                ".",
+                {
+                  "add": "It's written",
+                  "closing": "\\add*"
+                },
+                "to the tribes¦147450 who have ended up dispersed¦147454",
+                {
+                  "add": "into many nations",
+                  "closing": "\\add*"
+                },
+                ":"
+              ]
             },
-            ".",
-            {
-              "add": "It's written",
-              "closing": "\\add*"
-            },
-            "to the tribes¦147438 who have ended up dispersed¦147442",
-            {
-              "add": "into many nations",
-              "closing": "\\add*"
-            },
-            ":",
             {
               "x": [
                 "+",
@@ -253,69 +261,69 @@
               "p": ""
             }
           ],
-          "verseText": "This letter is from Yacob¦147429, a slave¦147435 for God¦147430 and¦147431 for the master¦147432 Yeshua¦147433 the messiah¦147434. It's written to the tribes¦147438 who have ended up dispersed¦147442 into many nations: Greetings."
+          "verseText": "This letter is from Yacob¦147441, a slave¦147447 for God¦147442 and¦147443 for the master¦147444 * Yeshua¦147445 the messiah¦147446. It's written to the tribes¦147450 who have ended up dispersed¦147454 into many nations: Greetings."
         },
         {
           "verseNumber": "2",
           "contents": [
-            "Be cheerful¦147445 my¦147448 fellow¦147447 believers¦147447, when you¦147451 face a range¦147452 of difficult situations,"
+            "Be cheerful¦147457 my¦147460 fellow¦147459 believers¦147459, when you¦147463 face a range¦147464 of difficult situations,"
           ],
-          "verseText": "Be cheerful¦147445 my¦147448 fellow¦147447 believers¦147447, when you¦147451 face a range¦147452 of difficult situations,"
+          "verseText": "Be cheerful¦147457 my¦147460 fellow¦147459 believers¦147459, when you¦147463 face a range¦147464 of difficult situations,"
         },
         {
           "verseNumber": "3",
           "contents": [
-            "knowing¦147454 that you¦147458 will learn endurance¦147462 as your¦147458 faith¦147460 is tested."
+            "knowing¦147466 that you¦147470 will learn endurance¦147474 as your¦147470 faith¦147472 is tested."
           ],
-          "verseText": "knowing¦147454 that you¦147458 will learn endurance¦147462 as your¦147458 faith¦147460 is tested."
+          "verseText": "knowing¦147466 that you¦147470 will learn endurance¦147474 as your¦147470 faith¦147472 is tested."
         },
         {
           "verseNumber": "4",
           "contents": [
-            "Let that endurance¦147465 do its¦147467 perfect work so that you¦147470 all might become perfect and¦147472 mature—not lacking¦147476 anything.",
+            "Let that endurance¦147477 do its¦147479 perfect work so that you¦147482 all might become perfect and¦147484 mature—not lacking¦147488 anything.",
             {
               "p": ""
             }
           ],
-          "verseText": "Let that endurance¦147465 do its¦147467 perfect work so that you¦147470 all might become perfect and¦147472 mature—not lacking¦147476 anything."
+          "verseText": "Let that endurance¦147477 do its¦147479 perfect work so that you¦147482 all might become perfect and¦147484 mature—not lacking¦147488 anything."
         },
         {
           "verseNumber": "5",
           "contents": [
-            "If anyone¦147479 of you is lacking¦147481 wisdom¦147482, then it should¦147483 be requested¦147483 from",
+            "If anyone¦147491 of you is lacking¦147493 wisdom¦147494, then it should¦147495 be requested¦147495 from",
             {
-              "nd": "God¦147489",
+              "nd": "God¦147501",
               "closing": "\\nd*"
             },
-            "who gives it generously¦147491 and without disparagement, and so it will be given¦147497 to you,"
+            "who gives it generously¦147503 and without disparagement, and so it will be given¦147509 to you,"
           ],
-          "verseText": "If anyone¦147479 of you is lacking¦147481 wisdom¦147482, then it should¦147483 be requested¦147483 from God¦147489 who gives it generously¦147491 and without disparagement, and so it will be given¦147497 to you,"
+          "verseText": "If anyone¦147491 of you is lacking¦147493 wisdom¦147494, then it should¦147495 be requested¦147495 from God¦147501 who gives it generously¦147503 and without disparagement, and so it will be given¦147509 to you,"
         },
         {
           "verseNumber": "6",
           "contents": [
-            "but¦147500 the person who's asking should¦147499 demonstrate their faith¦147502 and not be doubting. That's because¦147506 a person who doubts is like a wave on the sea¦147510 that's just blown¦147511 and tossed¦147513 around"
+            "but¦147512 the person who's asking should¦147511 demonstrate their faith¦147514 and not be doubting. That's because¦147518 a person who doubts is like a wave on the sea¦147522 that's just blown¦147523 and tossed¦147525 around"
           ],
-          "verseText": "but¦147500 the person who's asking should¦147499 demonstrate their faith¦147502 and not be doubting. That's because¦147506 a person who doubts is like a wave on the sea¦147510 that's just blown¦147511 and tossed¦147513 around"
+          "verseText": "but¦147512 the person who's asking should¦147511 demonstrate their faith¦147514 and not be doubting. That's because¦147518 a person who doubts is like a wave on the sea¦147522 that's just blown¦147523 and tossed¦147525 around"
         },
         {
           "verseNumber": "7",
           "contents": [
-            "and a person¦147518 like that shouldn't expect to get anything¦147522 from the",
+            "and a person¦147530 like that shouldn't expect to get anything¦147534 from the",
             {
-              "nd": "master¦147526",
+              "nd": "master¦147538",
               "closing": "\\nd*"
             },
             {
               "rem": "/s1 Poverty and Riches"
             }
           ],
-          "verseText": "and a person¦147518 like that shouldn't expect to get anything¦147522 from the master¦147526"
+          "verseText": "and a person¦147530 like that shouldn't expect to get anything¦147534 from the master¦147538"
         },
         {
           "verseNumber": "8",
           "contents": [
-            "because that person is doubled-minded¦147528, and everything they attempt ends up in difficulty.",
+            "because that person is doubled-minded¦147540, and everything they attempt ends up in difficulty.",
             {
               "s1": "Behaviour of the poor and the wealthy"
             },
@@ -323,19 +331,19 @@
               "p": ""
             }
           ],
-          "verseText": "because that person is doubled-minded¦147528, and everything they attempt ends up in difficulty."
+          "verseText": "because that person is doubled-minded¦147540, and everything they attempt ends up in difficulty."
         },
         {
           "verseNumber": "9",
           "contents": [
-            "Those of humbler¦147540 means can boast¦147535 about their greatness"
+            "Those of humbler¦147552 means can boast¦147547 about their greatness"
           ],
-          "verseText": "Those of humbler¦147540 means can boast¦147535 about their greatness"
+          "verseText": "Those of humbler¦147552 means can boast¦147547 about their greatness"
         },
         {
           "verseNumber": "10",
           "contents": [
-            "whereas the wealthy¦147547 can boast about their weakness because¦147553 they'll pass away just like the daisies in the grass¦147556.",
+            "whereas the wealthy¦147559 can boast about their weakness because¦147565 they'll pass away just like the daisies in the grass¦147568.",
             {
               "x": [
                 "+",
@@ -349,12 +357,12 @@
               "closing": "\\x*"
             }
           ],
-          "verseText": "whereas the wealthy¦147547 can boast about their weakness because¦147553 they'll pass away just like the daisies in the grass¦147556."
+          "verseText": "whereas the wealthy¦147559 can boast about their weakness because¦147565 they'll pass away just like the daisies in the grass¦147568."
         },
         {
           "verseNumber": "11",
           "contents": [
-            "When the sun¦147561 rises with its¦147572 scorching¦147564 heat and withers¦147566 the grass¦147568, the flowers¦147571 will drop and lose all their beauty¦147576. So too for rich people who'll fade away right in the middle of all their projects.",
+            "When the sun¦147573 rises with its¦147584 scorching¦147576 heat and withers¦147578 the grass¦147580, the flowers¦147583 will drop and lose all their beauty¦147588. So too for rich people who'll fade away right in the middle of all their projects.",
             {
               "s1": "Testing and temptation"
             },
@@ -368,62 +376,62 @@
               "p": ""
             }
           ],
-          "verseText": "When the sun¦147561 rises with its¦147572 scorching¦147564 heat and withers¦147566 the grass¦147568, the flowers¦147571 will drop and lose all their beauty¦147576. So too for rich people who'll fade away right in the middle of all their projects."
+          "verseText": "When the sun¦147573 rises with its¦147584 scorching¦147576 heat and withers¦147578 the grass¦147580, the flowers¦147583 will drop and lose all their beauty¦147588. So too for rich people who'll fade away right in the middle of all their projects."
         },
         {
           "verseNumber": "12",
           "contents": [
-            "Any person who's enduring¦147595 testing circumstances is fortunate, because¦147598 once they've passed the test, they'll receive¦147601 a crown¦147603 of life¦147605 that Yeshua promised¦147607 to those who love him¦147612."
+            "Any person who's enduring¦147607 testing circumstances is fortunate, because¦147610 once they've passed the test, they'll receive¦147613 a crown¦147615 of life¦147617 that Yeshua promised¦147619 to those who love him¦147624."
           ],
-          "verseText": "Any person who's enduring¦147595 testing circumstances is fortunate, because¦147598 once they've passed the test, they'll receive¦147601 a crown¦147603 of life¦147605 that Yeshua promised¦147607 to those who love him¦147612."
+          "verseText": "Any person who's enduring¦147607 testing circumstances is fortunate, because¦147610 once they've passed the test, they'll receive¦147613 a crown¦147615 of life¦147617 that Yeshua promised¦147619 to those who love him¦147624."
         },
         {
           "verseNumber": "13",
           "contents": [
-            "No one should¦147615 say ‘It's God tempting me’ when they're being tempted, because¦147623 God can't be tempted to do evil¦147627 and he doesn't tempt others,"
+            "No one should¦147627 say ‘It's God tempting me’ when they're being tempted, because¦147635 God can't be tempted to do evil¦147639 and he doesn't tempt others,"
           ],
-          "verseText": "No one should¦147615 say ‘It's God tempting me’ when they're being tempted, because¦147623 God can't be tempted to do evil¦147627 and he doesn't tempt others,"
+          "verseText": "No one should¦147627 say ‘It's God tempting me’ when they're being tempted, because¦147635 God can't be tempted to do evil¦147639 and he doesn't tempt others,"
         },
         {
           "verseNumber": "14",
           "contents": [
-            "but¦147633 rather they're being tempted¦147634 by their own lusts. They're being drawn¦147639 away and¦147640 enticed¦147641",
+            "but¦147645 rather they're being tempted¦147646 by their own lusts. They're being drawn¦147651 away and¦147652 enticed¦147653",
             {
               "add": "into what they know is wrong",
               "closing": "\\add*"
             },
             ","
           ],
-          "verseText": "but¦147633 rather they're being tempted¦147634 by their own lusts. They're being drawn¦147639 away and¦147640 enticed¦147641 into what they know is wrong,"
+          "verseText": "but¦147645 rather they're being tempted¦147646 by their own lusts. They're being drawn¦147651 away and¦147652 enticed¦147653 into what they know is wrong,"
         },
         {
           "verseNumber": "15",
           "contents": [
-            "and after the desire¦147644 is conceived¦147645 it leads to sin, and once the sin is concluded it leads to death¦147653.",
+            "and after the desire¦147656 is conceived¦147657 it leads to sin, and once the sin is concluded it leads to death¦147665.",
             {
               "p": ""
             }
           ],
-          "verseText": "and after the desire¦147644 is conceived¦147645 it leads to sin, and once the sin is concluded it leads to death¦147653."
+          "verseText": "and after the desire¦147656 is conceived¦147657 it leads to sin, and once the sin is concluded it leads to death¦147665."
         },
         {
           "verseNumber": "16",
           "contents": [
-            "Don't be led astray, my¦147657 dear brothers¦147656 and¦147656 sisters¦147656."
+            "Don't be led astray, my¦147669 dear brothers¦147668 and¦147668 sisters¦147668."
           ],
-          "verseText": "Don't be led astray, my¦147657 dear brothers¦147656 and¦147656 sisters¦147656."
+          "verseText": "Don't be led astray, my¦147669 dear brothers¦147668 and¦147668 sisters¦147668."
         },
         {
           "verseNumber": "17",
           "contents": [
-            "Every¦147659 gift¦147664 that's good¦147661 and¦147662 perfect¦147665 comes from heaven. It comes down from the father¦147672 of lights¦147674, none of which are changing or casting moving shadows¦147684."
+            "Every¦147671 gift¦147676 that's good¦147673 and¦147674 perfect¦147677 comes from heaven. It comes down from the father¦147684 of lights¦147686, none of which are changing or casting moving shadows¦147696."
           ],
-          "verseText": "Every¦147659 gift¦147664 that's good¦147661 and¦147662 perfect¦147665 comes from heaven. It comes down from the father¦147672 of lights¦147674, none of which are changing or casting moving shadows¦147684."
+          "verseText": "Every¦147671 gift¦147676 that's good¦147673 and¦147674 perfect¦147677 comes from heaven. It comes down from the father¦147684 of lights¦147686, none of which are changing or casting moving shadows¦147696."
         },
         {
           "verseNumber": "18",
           "contents": [
-            "Once he had decided it, he created us by his spoken commands so that we'd become a kind of special first¦147695 ‘harvest’ out of all of his creatures.",
+            "Once he had decided it, he created us by his spoken commands so that we'd become a kind of special first¦147707 ‘harvest’ out of all of his creatures.",
             {
               "s1": "Listening then doing"
             },
@@ -440,96 +448,96 @@
               "p": ""
             }
           ],
-          "verseText": "Once he had decided it, he created us by his spoken commands so that we'd become a kind of special first¦147695 ‘harvest’ out of all of his creatures."
+          "verseText": "Once he had decided it, he created us by his spoken commands so that we'd become a kind of special first¦147707 ‘harvest’ out of all of his creatures."
         },
         {
           "verseNumber": "19",
           "contents": [
-            "So my¦147706 dear brothers¦147705 and sisters¦147705, note this: Everyone should be quick¦147714 to listen¦147717 but¦147711 slow to speak¦147721, and should be slow to get angry"
+            "So my¦147718 dear brothers¦147717 and sisters¦147717, note this: Everyone should be quick¦147726 to listen¦147729 but¦147723 slow to speak¦147733, and should be slow to get angry"
           ],
-          "verseText": "So my¦147706 dear brothers¦147705 and sisters¦147705, note this: Everyone should be quick¦147714 to listen¦147717 but¦147711 slow to speak¦147721, and should be slow to get angry"
+          "verseText": "So my¦147718 dear brothers¦147717 and sisters¦147717, note this: Everyone should be quick¦147726 to listen¦147729 but¦147723 slow to speak¦147733, and should be slow to get angry"
         },
         {
           "verseNumber": "20",
           "contents": [
-            "because¦147726 when people get very angry, it doesn't lead to the good behaviour that",
+            "because¦147738 when people get very angry, it doesn't lead to the good behaviour that",
             {
-              "nd": "God¦147729",
+              "nd": "God¦147741",
               "closing": "\\nd*"
             },
             "expects."
           ],
-          "verseText": "because¦147726 when people get very angry, it doesn't lead to the good behaviour that God¦147729 expects."
+          "verseText": "because¦147738 when people get very angry, it doesn't lead to the good behaviour that God¦147741 expects."
         },
         {
           "verseNumber": "21",
           "contents": [
-            "So¦147733 discard all",
+            "So¦147745 discard all",
             {
               "add": "moral",
               "closing": "\\add*"
             },
-            "filth¦147736 and the evil¦147740 that's plentiful, and humbly accept the message¦147747 that's implanted¦147746 in you¦147753 all and which is capable of saving your¦147753 souls¦147752.",
+            "filth¦147748 and the evil¦147752 that's plentiful, and humbly accept the message¦147759 that's implanted¦147758 in you¦147765 all and which is capable of saving your¦147765 souls¦147764.",
             {
               "p": ""
             }
           ],
-          "verseText": "So¦147733 discard all moral filth¦147736 and the evil¦147740 that's plentiful, and humbly accept the message¦147747 that's implanted¦147746 in you¦147753 all and which is capable of saving your¦147753 souls¦147752."
+          "verseText": "So¦147745 discard all moral filth¦147748 and the evil¦147752 that's plentiful, and humbly accept the message¦147759 that's implanted¦147758 in you¦147765 all and which is capable of saving your¦147765 souls¦147764."
         },
         {
           "verseNumber": "22",
           "contents": [
-            "Don't delude¦147763 yourselves¦147764 by just listening¦147761 to the message¦147757, but put it into practice",
+            "Don't delude¦147775 yourselves¦147776 by just listening¦147773 to the message¦147769, but put it into practice",
             {
               "add": "in your daily lives",
               "closing": "\\add*"
             },
             "."
           ],
-          "verseText": "Don't delude¦147763 yourselves¦147764 by just listening¦147761 to the message¦147757, but put it into practice in your daily lives."
+          "verseText": "Don't delude¦147775 yourselves¦147776 by just listening¦147773 to the message¦147769, but put it into practice in your daily lives."
         },
         {
           "verseNumber": "23",
           "contents": [
-            "Anyone who is just a listener¦147768 of the message¦147769 and¦147771 does nothing with it is like someone who looks at their face¦147780 in a mirror¦147785"
+            "Anyone who is just a listener¦147780 of the message¦147781 and¦147783 does nothing with it is like someone who looks at their face¦147792 in a mirror¦147797"
           ],
-          "verseText": "Anyone who is just a listener¦147768 of the message¦147769 and¦147771 does nothing with it is like someone who looks at their face¦147780 in a mirror¦147785"
+          "verseText": "Anyone who is just a listener¦147780 of the message¦147781 and¦147783 does nothing with it is like someone who looks at their face¦147792 in a mirror¦147797"
         },
         {
           "verseNumber": "24",
           "contents": [
-            "but goes away after having a look and then immediately¦147792 forgets what they looked like."
+            "but goes away after having a look and then immediately¦147804 forgets what they looked like."
           ],
-          "verseText": "but goes away after having a look and then immediately¦147792 forgets what they looked like."
+          "verseText": "but goes away after having a look and then immediately¦147804 forgets what they looked like."
         },
         {
           "verseNumber": "25",
           "contents": [
-            "However the person who investigates¦147798 the perfect¦147801 law that gives freedom¦147804, and then sticks with it, not being just an observer that forgets¦147810 about it but¦147797 rather a person who puts it into practice, this person will prosper in whatever they do.",
+            "However the person who investigates¦147810 the perfect¦147813 law that gives freedom¦147816, and then sticks with it, not being just an observer that forgets¦147822 about it but¦147809 rather a person who puts it into practice, this person will prosper in whatever they do.",
             {
               "p": ""
             }
           ],
-          "verseText": "However the person who investigates¦147798 the perfect¦147801 law that gives freedom¦147804, and then sticks with it, not being just an observer that forgets¦147810 about it but¦147797 rather a person who puts it into practice, this person will prosper in whatever they do."
+          "verseText": "However the person who investigates¦147810 the perfect¦147813 law that gives freedom¦147816, and then sticks with it, not being just an observer that forgets¦147822 about it but¦147809 rather a person who puts it into practice, this person will prosper in whatever they do."
         },
         {
           "verseNumber": "26",
           "contents": [
-            "If anyone¦147824 supposes¦147825 that they're religious but¦147837 doesn't guard what comes out of their mouth, then that person's religion is only skin deep and hasn't affected their heart¦147839."
+            "If anyone¦147836 supposes¦147837 that they're religious but¦147849 doesn't guard what comes out of their mouth, then that person's religion is only skin deep and hasn't affected their heart¦147851."
           ],
-          "verseText": "If anyone¦147824 supposes¦147825 that they're religious but¦147837 doesn't guard what comes out of their mouth, then that person's religion is only skin deep and hasn't affected their heart¦147839."
+          "verseText": "If anyone¦147836 supposes¦147837 that they're religious but¦147849 doesn't guard what comes out of their mouth, then that person's religion is only skin deep and hasn't affected their heart¦147851."
         },
         {
           "verseNumber": "27",
           "contents": [
-            "A person who wants to truly serve our¦147853",
+            "A person who wants to truly serve our¦147865",
             {
-              "nd": "God¦147854",
+              "nd": "God¦147866",
               "closing": "\\nd*"
             },
-            "and father¦147857 with a pure heart would be visiting¦147860 orphans¦147861 and widows¦147863 in their¦147867 difficulties and staying unstained by worldly¦147875 ideas."
+            "and father¦147869 with a pure heart would be visiting¦147872 orphans¦147873 and widows¦147875 in their¦147879 difficulties and staying unstained by worldly¦147887 ideas."
           ],
-          "verseText": "A person who wants to truly serve our¦147853 God¦147854 and father¦147857 with a pure heart would be visiting¦147860 orphans¦147861 and widows¦147863 in their¦147867 difficulties and staying unstained by worldly¦147875 ideas."
+          "verseText": "A person who wants to truly serve our¦147865 God¦147866 and father¦147869 with a pure heart would be visiting¦147872 orphans¦147873 and widows¦147875 in their¦147879 difficulties and staying unstained by worldly¦147887 ideas."
         }
       ]
     },
@@ -560,19 +568,27 @@
         {
           "verseNumber": "1",
           "contents": [
-            "My¦147877 dear brothers¦147876 and¦147876 sisters¦147876, as you live out your faith¦147883 in our¦147886 honoured",
+            "My¦147889 dear brothers¦147888 and¦147888 sisters¦147888, as you live out your faith¦147895 in our¦147898 honoured",
             {
-              "nd": "master¦147885 Yeshua¦147887",
-              "closing": "\\nd*"
+              "nd": ""
             },
-            "the",
             {
-              "nd": "messiah¦147888",
-              "closing": "\\nd*"
-            },
-            ", don't¦147878 show favouritism¦147880 to others."
+              "nd": [
+                "master¦147897",
+                {
+                  "nd": "* Yeshua¦147899",
+                  "closing": "\\nd*"
+                },
+                "the",
+                {
+                  "nd": "messiah¦147900",
+                  "closing": "\\nd*"
+                },
+                ", don't¦147890 show favouritism¦147892 to others."
+              ]
+            }
           ],
-          "verseText": "My¦147877 dear brothers¦147876 and¦147876 sisters¦147876, as you live out your faith¦147883 in our¦147886 honoured master¦147885 Yeshua¦147887 the messiah¦147888, don't¦147878 show favouritism¦147880 to others."
+          "verseText": "My¦147889 dear brothers¦147888 and¦147888 sisters¦147888, as you live out your faith¦147895 in our¦147898 honoured master¦147897 * Yeshua¦147899 the messiah¦147900, don't¦147890 show favouritism¦147892 to others."
         },
         {
           "verseNumber": "2",
@@ -582,47 +598,47 @@
               "add": "example",
               "closing": "\\add*"
             },
-            ", if a man in nicely cut clothes and wearing an expensive gold¦147899 ring came into to your¦147897 meeting as well as a poor man in filthy¦147908 clothes"
+            ", if a man in nicely cut clothes and wearing an expensive gold¦147911 ring came into to your¦147909 meeting as well as a poor man in filthy¦147920 clothes"
           ],
-          "verseText": "For example, if a man in nicely cut clothes and wearing an expensive gold¦147899 ring came into to your¦147897 meeting as well as a poor man in filthy¦147908 clothes"
+          "verseText": "For example, if a man in nicely cut clothes and wearing an expensive gold¦147911 ring came into to your¦147909 meeting as well as a poor man in filthy¦147920 clothes"
         },
         {
           "verseNumber": "3",
           "contents": [
-            "and you told the well-dressed one, ‘You sit here in this good¦147926 chair,’ while telling the poor man, ‘You stand¦147932 over here,’ or ‘You sit here on the mat,’"
+            "and you told the well-dressed one, ‘You sit here in this good¦147938 chair,’ while telling the poor man, ‘You stand¦147944 over here,’ or ‘You sit here on the mat,’"
           ],
-          "verseText": "and you told the well-dressed one, ‘You sit here in this good¦147926 chair,’ while telling the poor man, ‘You stand¦147932 over here,’ or ‘You sit here on the mat,’"
+          "verseText": "and you told the well-dressed one, ‘You sit here in this good¦147938 chair,’ while telling the poor man, ‘You stand¦147944 over here,’ or ‘You sit here on the mat,’"
         },
         {
           "verseNumber": "4",
           "contents": [
-            "wouldn't that discrimination show that you¦147948 have judged¦147953 them with evil¦147955 motives."
+            "wouldn't that discrimination show that you¦147960 have judged¦147965 them with evil¦147967 motives."
           ],
-          "verseText": "wouldn't that discrimination show that you¦147948 have judged¦147953 them with evil¦147955 motives."
+          "verseText": "wouldn't that discrimination show that you¦147960 have judged¦147965 them with evil¦147967 motives."
         },
         {
           "verseNumber": "5",
           "contents": [
-            "Listen my¦147958 dear brothers¦147957 and sisters¦147957, didn't",
+            "Listen my¦147970 dear brothers¦147969 and sisters¦147969, didn't",
             {
-              "nd": "God¦147962",
+              "nd": "God¦147974",
               "closing": "\\nd*"
             },
-            "chose¦147963 the poor in this world¦147968 to be rich in faith¦147973 and participants in the kingdom¦147978 which¦147979 he promises¦147980 to those who love him?"
+            "chose¦147975 the poor in this world¦147980 to be rich in faith¦147985 and participants in the kingdom¦147990 which¦147991 he promises¦147992 to those who love him?"
           ],
-          "verseText": "Listen my¦147958 dear brothers¦147957 and sisters¦147957, didn't God¦147962 chose¦147963 the poor in this world¦147968 to be rich in faith¦147973 and participants in the kingdom¦147978 which¦147979 he promises¦147980 to those who love him?"
+          "verseText": "Listen my¦147970 dear brothers¦147969 and sisters¦147969, didn't God¦147974 chose¦147975 the poor in this world¦147980 to be rich in faith¦147985 and participants in the kingdom¦147990 which¦147991 he promises¦147992 to those who love him?"
         },
         {
           "verseNumber": "6",
           "contents": [
-            "But you dishonour¦147986 the poor, even though it's the wealthier people who oppress¦147993 you and bring court¦148001 cases against you."
+            "But you dishonour¦147998 the poor, even though it's the wealthier people who oppress¦148005 you and bring court¦148013 cases against you."
           ],
-          "verseText": "But you dishonour¦147986 the poor, even though it's the wealthier people who oppress¦147993 you and bring court¦148001 cases against you."
+          "verseText": "But you dishonour¦147998 the poor, even though it's the wealthier people who oppress¦148005 you and bring court¦148013 cases against you."
         },
         {
           "verseNumber": "7",
           "contents": [
-            "And aren't they¦148004 the ones who slander¦148005 the very God that you¦148012 pray to?",
+            "And aren't they¦148016 the ones who slander¦148017 the very God that you¦148024 pray to?",
             {
               "s1": "Judgement and mercy"
             },
@@ -630,12 +646,12 @@
               "p": ""
             }
           ],
-          "verseText": "And aren't they¦148004 the ones who slander¦148005 the very God that you¦148012 pray to?"
+          "verseText": "And aren't they¦148016 the ones who slander¦148017 the very God that you¦148024 pray to?"
         },
         {
           "verseNumber": "8",
           "contents": [
-            "However if you are obeying the golden law, then when you love your¦148025 neighbour¦148024 as yourself¦148027,",
+            "However if you are obeying the golden law, then when you love your¦148037 neighbour¦148036 as yourself¦148039,",
             {
               "x": [
                 "+",
@@ -648,23 +664,23 @@
               ],
               "closing": "\\x*"
             },
-            "you'll be doing¦148030 well according¦148019 to the scriptures¦148021."
+            "you'll be doing¦148042 well according¦148031 to the scriptures¦148033."
           ],
-          "verseText": "However if you are obeying the golden law, then when you love your¦148025 neighbour¦148024 as yourself¦148027, you'll be doing¦148030 well according¦148019 to the scriptures¦148021."
+          "verseText": "However if you are obeying the golden law, then when you love your¦148037 neighbour¦148036 as yourself¦148039, you'll be doing¦148042 well according¦148031 to the scriptures¦148033."
         },
         {
           "verseNumber": "9",
           "contents": [
-            "But if you're showing¦148033 favouritism¦148033, then you're all sinning by breaking the law."
+            "But if you're showing¦148045 favouritism¦148045, then you're all sinning by breaking the law."
           ],
-          "verseText": "But if you're showing¦148033 favouritism¦148033, then you're all sinning by breaking the law."
+          "verseText": "But if you're showing¦148045 favouritism¦148045, then you're all sinning by breaking the law."
         },
         {
           "verseNumber": "10",
           "contents": [
-            "Because¦148044 anyone¦148056 who tries to keep¦148049 the law but¦148054 slips up in one area, they're still guilty of breaking the law."
+            "Because¦148056 anyone¦148068 who tries to keep¦148061 the law but¦148066 slips up in one area, they're still guilty of breaking the law."
           ],
-          "verseText": "Because¦148044 anyone¦148056 who tries to keep¦148049 the law but¦148054 slips up in one area, they're still guilty of breaking the law."
+          "verseText": "Because¦148056 anyone¦148068 who tries to keep¦148061 the law but¦148066 slips up in one area, they're still guilty of breaking the law."
         },
         {
           "verseNumber": "11",
@@ -693,21 +709,21 @@
               ],
               "closing": "\\x*"
             },
-            "so if you're¦148077 not committing adultery but you murder someone, then you've broken the law."
+            "so if you're¦148089 not committing adultery but you murder someone, then you've broken the law."
           ],
-          "verseText": "The same God who said, ‘Don't commit adultery,’ also said, ‘Don't murder,’ so if you're¦148077 not committing adultery but you murder someone, then you've broken the law."
+          "verseText": "The same God who said, ‘Don't commit adultery,’ also said, ‘Don't murder,’ so if you're¦148089 not committing adultery but you murder someone, then you've broken the law."
         },
         {
           "verseNumber": "12",
           "contents": [
-            "So speak¦148088 and¦148089 live your life knowing that you're going¦148096 to be judged¦148097 by the law that gives freedom¦148095,"
+            "So speak¦148100 and¦148101 live your life knowing that you're going¦148108 to be judged¦148109 by the law that gives freedom¦148107,"
           ],
-          "verseText": "So speak¦148088 and¦148089 live your life knowing that you're going¦148096 to be judged¦148097 by the law that gives freedom¦148095,"
+          "verseText": "So speak¦148100 and¦148101 live your life knowing that you're going¦148108 to be judged¦148109 by the law that gives freedom¦148107,"
         },
         {
           "verseNumber": "13",
           "contents": [
-            "because¦148099 judgement will be dispensed without mercy to those who haven't been putting mercy into practice. Yes, mercy wins out over judgement.",
+            "because¦148111 judgement will be dispensed without mercy to those who haven't been putting mercy into practice. Yes, mercy wins out over judgement.",
             {
               "s1": "Faith in action"
             },
@@ -727,79 +743,79 @@
               "p": ""
             }
           ],
-          "verseText": "because¦148099 judgement will be dispensed without mercy to those who haven't been putting mercy into practice. Yes, mercy wins out over judgement."
+          "verseText": "because¦148111 judgement will be dispensed without mercy to those who haven't been putting mercy into practice. Yes, mercy wins out over judgement."
         },
         {
           "verseNumber": "14",
           "contents": [
-            "My¦148118 fellow¦148117 believers¦148117, what would I gain if I said that someone had faith but it didn't alter how they live their life? Faith like that wouldn't be able to save them."
+            "My¦148130 fellow¦148129 believers¦148129, what would I gain if I said that someone had faith but it didn't alter how they live their life? Faith like that wouldn't be able to save them."
           ],
-          "verseText": "My¦148118 fellow¦148117 believers¦148117, what would I gain if I said that someone had faith but it didn't alter how they live their life? Faith like that wouldn't be able to save them."
+          "verseText": "My¦148130 fellow¦148129 believers¦148129, what would I gain if I said that someone had faith but it didn't alter how they live their life? Faith like that wouldn't be able to save them."
         },
         {
           "verseNumber": "15",
           "contents": [
-            "If a fellow believer is lacking¦148145 clothes or food,"
+            "If a fellow believer is lacking¦148157 clothes or food,"
           ],
-          "verseText": "If a fellow believer is lacking¦148145 clothes or food,"
+          "verseText": "If a fellow believer is lacking¦148157 clothes or food,"
         },
         {
           "verseNumber": "16",
           "contents": [
-            "and one of you says to them, ‘Go in peace¦148162 and be warm and satisfied¦148166,’ but don't¦148168 help with their¦148174 physical needs, what use would that be?"
+            "and one of you says to them, ‘Go in peace¦148174 and be warm and satisfied¦148178,’ but don't¦148180 help with their¦148186 physical needs, what use would that be?"
           ],
-          "verseText": "and one of you says to them, ‘Go in peace¦148162 and be warm and satisfied¦148166,’ but don't¦148168 help with their¦148174 physical needs, what use would that be?"
+          "verseText": "and one of you says to them, ‘Go in peace¦148174 and be warm and satisfied¦148178,’ but don't¦148180 help with their¦148186 physical needs, what use would that be?"
         },
         {
           "verseNumber": "17",
           "contents": [
-            "In other words, faith¦148182 without the corresponding lifestyle is just dead¦148188.",
+            "In other words, faith¦148194 without the corresponding lifestyle is just dead¦148200.",
             {
               "p": ""
             }
           ],
-          "verseText": "In other words, faith¦148182 without the corresponding lifestyle is just dead¦148188."
+          "verseText": "In other words, faith¦148194 without the corresponding lifestyle is just dead¦148200."
         },
         {
           "verseNumber": "18",
           "contents": [
-            "No doubt someone¦148194 will say, ‘Well you have the faith and I do the good deeds.’ So show me your¦148207 faith without¦148208 good deeds and I'll demonstrate my faith",
+            "No doubt someone¦148206 will say, ‘Well you have the faith and I do the good deeds.’ So show me your¦148219 faith without¦148220 good deeds and I'll demonstrate my faith",
             {
               "em": "by",
               "closing": "\\em*"
             },
             "my good deeds."
           ],
-          "verseText": "No doubt someone¦148194 will say, ‘Well you have the faith and I do the good deeds.’ So show me your¦148207 faith without¦148208 good deeds and I'll demonstrate my faith by my good deeds."
+          "verseText": "No doubt someone¦148206 will say, ‘Well you have the faith and I do the good deeds.’ So show me your¦148219 faith without¦148220 good deeds and I'll demonstrate my faith by my good deeds."
         },
         {
           "verseNumber": "19",
           "contents": [
             "You believe that there's one",
             {
-              "nd": "God¦148232",
+              "nd": "God¦148244",
               "closing": "\\nd*"
             },
-            "and you're¦148235 right, but even the demons¦148238 believe that and shudder¦148241."
+            "and you're¦148247 right, but even the demons¦148250 believe that and shudder¦148253."
           ],
-          "verseText": "You believe that there's one God¦148232 and you're¦148235 right, but even the demons¦148238 believe that and shudder¦148241."
+          "verseText": "You believe that there's one God¦148244 and you're¦148247 right, but even the demons¦148250 believe that and shudder¦148253."
         },
         {
           "verseNumber": "20",
           "contents": [
-            "But the vain person¦148247 still wants to know¦148245 if faith¦148251 without good deeds is wasted?"
+            "But the vain person¦148259 still wants to know¦148257 if faith¦148263 without good deeds is wasted?"
           ],
-          "verseText": "But the vain person¦148247 still wants to know¦148245 if faith¦148251 without good deeds is wasted?"
+          "verseText": "But the vain person¦148259 still wants to know¦148257 if faith¦148263 without good deeds is wasted?"
         },
         {
           "verseNumber": "21",
           "contents": [
-            "Wasn't our¦148261 ancestor Abraham¦148258 considered right with God due to his",
+            "Wasn't our¦148273 ancestor Abraham¦148270 considered right with God due to his",
             {
               "em": "actions",
               "closing": "\\em*"
             },
-            "when he offered¦148266 up his son Isaac¦148267 on the altar¦148273?",
+            "when he offered¦148278 up his son Isaac¦148279 on the altar¦148285?",
             {
               "x": [
                 "+",
@@ -813,19 +829,19 @@
               "closing": "\\x*"
             }
           ],
-          "verseText": "Wasn't our¦148261 ancestor Abraham¦148258 considered right with God due to his actions when he offered¦148266 up his son Isaac¦148267 on the altar¦148273?"
+          "verseText": "Wasn't our¦148273 ancestor Abraham¦148270 considered right with God due to his actions when he offered¦148278 up his son Isaac¦148279 on the altar¦148285?"
         },
         {
           "verseNumber": "22",
           "contents": [
-            "So his faith was working¦148278 together¦148278 with his actions, and it was by his actions that his faith was perfected¦148289."
+            "So his faith was working¦148290 together¦148290 with his actions, and it was by his actions that his faith was perfected¦148301."
           ],
-          "verseText": "So his faith was working¦148278 together¦148278 with his actions, and it was by his actions that his faith was perfected¦148289."
+          "verseText": "So his faith was working¦148290 together¦148290 with his actions, and it was by his actions that his faith was perfected¦148301."
         },
         {
           "verseNumber": "23",
           "contents": [
-            "This fulfilled¦148291 the scripture¦148293 that says, ‘Abraham¦148298 believed¦148296 in God and so he was consider to be right¦148305 with God, and was called¦148309 a friend¦148307 of God.’",
+            "This fulfilled¦148303 the scripture¦148305 that says, ‘Abraham¦148310 believed¦148308 in God and so he was consider to be right¦148317 with God, and was called¦148321 a friend¦148319 of God.’",
             {
               "x": [
                 "+",
@@ -845,24 +861,24 @@
               "closing": "\\x*"
             }
           ],
-          "verseText": "This fulfilled¦148291 the scripture¦148293 that says, ‘Abraham¦148298 believed¦148296 in God and so he was consider to be right¦148305 with God, and was called¦148309 a friend¦148307 of God.’"
+          "verseText": "This fulfilled¦148303 the scripture¦148305 that says, ‘Abraham¦148310 believed¦148308 in God and so he was consider to be right¦148317 with God, and was called¦148321 a friend¦148319 of God.’"
         },
         {
           "verseNumber": "24",
           "contents": [
-            "So you can see that a person¦148317 is considered right with God due to his actions, and¦148318 not just by their ‘faith¦148321’."
+            "So you can see that a person¦148329 is considered right with God due to his actions, and¦148330 not just by their ‘faith¦148333’."
           ],
-          "verseText": "So you can see that a person¦148317 is considered right with God due to his actions, and¦148318 not just by their ‘faith¦148321’."
+          "verseText": "So you can see that a person¦148329 is considered right with God due to his actions, and¦148330 not just by their ‘faith¦148333’."
         },
         {
           "verseNumber": "25",
           "contents": [
-            "Similarly the prostitute¦148329 Rahab was made right by her actions when she welcomed¦148334 the",
+            "Similarly the prostitute¦148341 Rahab was made right by her actions when she welcomed¦148346 the",
             {
               "add": "Hebrew",
               "closing": "\\add*"
             },
-            "messengers¦148337 and¦148338 then helped them get away by a different route.",
+            "messengers¦148349 and¦148350 then helped them get away by a different route.",
             {
               "x": [
                 "+",
@@ -876,14 +892,14 @@
               "closing": "\\x*"
             }
           ],
-          "verseText": "Similarly the prostitute¦148329 Rahab was made right by her actions when she welcomed¦148334 the Hebrew messengers¦148337 and¦148338 then helped them get away by a different route."
+          "verseText": "Similarly the prostitute¦148341 Rahab was made right by her actions when she welcomed¦148346 the Hebrew messengers¦148349 and¦148350 then helped them get away by a different route."
         },
         {
           "verseNumber": "26",
           "contents": [
-            "Just like a body¦148345 is dead once the spirit¦148347 has departed, so too faith¦148353 is dead if it's not demonstrated by good deeds."
+            "Just like a body¦148357 is dead once the spirit¦148359 has departed, so too faith¦148365 is dead if it's not demonstrated by good deeds."
           ],
-          "verseText": "Just like a body¦148345 is dead once the spirit¦148347 has departed, so too faith¦148353 is dead if it's not demonstrated by good deeds."
+          "verseText": "Just like a body¦148357 is dead once the spirit¦148359 has departed, so too faith¦148365 is dead if it's not demonstrated by good deeds."
         }
       ]
     },
@@ -911,71 +927,71 @@
         {
           "verseNumber": "1",
           "contents": [
-            "My¦148364 brothers¦148363 and¦148363 sisters¦148363, not everyone should desire to be a teacher because we¦148369 know that us teachers¦148361 will be judged more strictly."
+            "My¦148376 brothers¦148375 and¦148375 sisters¦148375, not everyone should desire to be a teacher because we¦148381 know that us teachers¦148373 will be judged more strictly."
           ],
-          "verseText": "My¦148364 brothers¦148363 and¦148363 sisters¦148363, not everyone should desire to be a teacher because we¦148369 know that us teachers¦148361 will be judged more strictly."
+          "verseText": "My¦148376 brothers¦148375 and¦148375 sisters¦148375, not everyone should desire to be a teacher because we¦148381 know that us teachers¦148373 will be judged more strictly."
         },
         {
           "verseNumber": "2",
           "contents": [
-            "We all stumble in many ways¦148370. If there was someone who never said anything wrong, this person would be perfect¦148381 and also able to have self-control over their entire¦148373 body¦148389."
+            "We all stumble in many ways¦148382. If there was someone who never said anything wrong, this person would be perfect¦148393 and also able to have self-control over their entire¦148385 body¦148401."
           ],
-          "verseText": "We all stumble in many ways¦148370. If there was someone who never said anything wrong, this person would be perfect¦148381 and also able to have self-control over their entire¦148373 body¦148389."
+          "verseText": "We all stumble in many ways¦148382. If there was someone who never said anything wrong, this person would be perfect¦148393 and also able to have self-control over their entire¦148385 body¦148401."
         },
         {
           "verseNumber": "3",
           "contents": [
-            "With horses¦148396, we can put the bridle¦148398 in it's mouth¦148402 so we can make them do what we want, and so we can direct¦148417 the whole animal."
+            "With horses¦148408, we can put the bridle¦148410 in it's mouth¦148414 so we can make them do what we want, and so we can direct¦148429 the whole animal."
           ],
-          "verseText": "With horses¦148396, we can put the bridle¦148398 in it's mouth¦148402 so we can make them do what we want, and so we can direct¦148417 the whole animal."
+          "verseText": "With horses¦148408, we can put the bridle¦148410 in it's mouth¦148414 so we can make them do what we want, and so we can direct¦148429 the whole animal."
         },
         {
           "verseNumber": "4",
           "contents": [
-            "Similarly, even huge ships¦148422 that are being driven¦148431 on by strong winds¦148429 are controlled by a small rudder¦148435 and¦148426 can be steered wherever¦148436 the captain desires."
+            "Similarly, even huge ships¦148434 that are being driven¦148443 on by strong winds¦148441 are controlled by a small rudder¦148447 and¦148438 can be steered wherever¦148448 the captain desires."
           ],
-          "verseText": "Similarly, even huge ships¦148422 that are being driven¦148431 on by strong winds¦148429 are controlled by a small rudder¦148435 and¦148426 can be steered wherever¦148436 the captain desires."
+          "verseText": "Similarly, even huge ships¦148434 that are being driven¦148443 on by strong winds¦148441 are controlled by a small rudder¦148447 and¦148438 can be steered wherever¦148448 the captain desires."
         },
         {
           "verseNumber": "5",
           "contents": [
-            "So too the tongue¦148448 is only small¦148449 but can make extensive claims.",
+            "So too the tongue¦148460 is only small¦148461 but can make extensive claims.",
             {
-              "p": "Yes, a tiny flame can ignite an entire forest¦148461"
+              "p": "Yes, a tiny flame can ignite an entire forest¦148473"
             }
           ],
-          "verseText": "So too the tongue¦148448 is only small¦148449 but can make extensive claims. Yes, a tiny flame can ignite an entire forest¦148461"
+          "verseText": "So too the tongue¦148460 is only small¦148461 but can make extensive claims. Yes, a tiny flame can ignite an entire forest¦148473"
         },
         {
           "verseNumber": "6",
           "contents": [
-            "and the tongue is a fire producing a torrent of depravity. It's a part of our physical body¦148485 but capable of staining¦148482 us all over and setting¦148487 our worlds¦148468 on fire, because the tongue itself is set on fire from hell."
+            "and the tongue is a fire producing a torrent of depravity. It's a part of our physical body¦148497 but capable of staining¦148494 us all over and setting¦148499 our worlds¦148480 on fire, because the tongue itself is set on fire from hell."
           ],
-          "verseText": "and the tongue is a fire producing a torrent of depravity. It's a part of our physical body¦148485 but capable of staining¦148482 us all over and setting¦148487 our worlds¦148468 on fire, because the tongue itself is set on fire from hell."
+          "verseText": "and the tongue is a fire producing a torrent of depravity. It's a part of our physical body¦148497 but capable of staining¦148494 us all over and setting¦148499 our worlds¦148480 on fire, because the tongue itself is set on fire from hell."
         },
         {
           "verseNumber": "7",
           "contents": [
-            "Every kind of wild animal and birds¦148504 and reptiles¦148505 and sea¦148508 creature¦148508 can be tamed and has been tamed by mankind"
+            "Every kind of wild animal and birds¦148516 and reptiles¦148517 and sea¦148520 creature¦148520 can be tamed and has been tamed by humankind¦148529"
           ],
-          "verseText": "Every kind of wild animal and birds¦148504 and reptiles¦148505 and sea¦148508 creature¦148508 can be tamed and has been tamed by mankind"
+          "verseText": "Every kind of wild animal and birds¦148516 and reptiles¦148517 and sea¦148520 creature¦148520 can be tamed and has been tamed by humankind¦148529"
         },
         {
           "verseNumber": "8",
           "contents": [
-            "but¦148520 no one is able to tame the tongue¦148521—it's an erratically evil¦148530 body part that's full of deadly¦148533 poison¦148532."
+            "but¦148532 no one is able to tame the tongue¦148533—it's an erratically evil¦148542 body part that's full of deadly¦148545 poison¦148544."
           ],
-          "verseText": "but¦148520 no one is able to tame the tongue¦148521—it's an erratically evil¦148530 body part that's full of deadly¦148533 poison¦148532."
+          "verseText": "but¦148532 no one is able to tame the tongue¦148533—it's an erratically evil¦148542 body part that's full of deadly¦148545 poison¦148544."
         },
         {
           "verseNumber": "9",
           "contents": [
-            "We use it to bless¦148536 our",
+            "We use it to bless¦148548 our",
             {
-              "nd": "master¦148538",
+              "nd": "master¦148550",
               "closing": "\\nd*"
             },
-            "and father¦148541, yet we use it to curse our fellow humans who are made in God's image.",
+            "and father¦148553, yet we use it to curse our fellow humans who are made in God's image.",
             {
               "x": [
                 "+",
@@ -989,31 +1005,31 @@
               "closing": "\\x*"
             }
           ],
-          "verseText": "We use it to bless¦148536 our master¦148538 and father¦148541, yet we use it to curse our fellow humans who are made in God's image."
+          "verseText": "We use it to bless¦148548 our master¦148550 and father¦148553, yet we use it to curse our fellow humans who are made in God's image."
         },
         {
           "verseNumber": "10",
           "contents": [
-            "Both blessings¦148559 and curses¦148561 come out of the same¦148556 mouth¦148557! My¦148565 brothers¦148564 and sisters¦148564, it shouldn't be like that."
+            "Both blessings¦148571 and curses¦148573 come out of the same¦148568 mouth¦148569! My¦148577 brothers¦148576 and sisters¦148576, it shouldn't be like that."
           ],
-          "verseText": "Both blessings¦148559 and curses¦148561 come out of the same¦148556 mouth¦148557! My¦148565 brothers¦148564 and sisters¦148564, it shouldn't be like that."
+          "verseText": "Both blessings¦148571 and curses¦148573 come out of the same¦148568 mouth¦148569! My¦148577 brothers¦148576 and sisters¦148576, it shouldn't be like that."
         },
         {
           "verseNumber": "11",
           "contents": [
-            "Surely¦148569 a spring¦148573 flowing out of a single cavity can't produce both good-tasting and¦148581 bitter¦148583",
+            "Surely¦148581 a spring¦148585 flowing out of a single cavity can't produce both good-tasting and¦148593 bitter¦148595",
             {
               "add": "water",
               "closing": "\\add*"
             },
             "."
           ],
-          "verseText": "Surely¦148569 a spring¦148573 flowing out of a single cavity can't produce both good-tasting and¦148581 bitter¦148583 water."
+          "verseText": "Surely¦148581 a spring¦148585 flowing out of a single cavity can't produce both good-tasting and¦148593 bitter¦148595 water."
         },
         {
           "verseNumber": "12",
           "contents": [
-            "A fig¦148588 tree¦148588 can't produce olives¦148590 and a grape vine¦148593 can't produce figs¦148594, my¦148587 brothers¦148586 and sisters¦148586, just like a salty supply can't give fresh water¦148604.",
+            "A fig¦148600 tree¦148600 can't produce olives¦148602 and a grape vine¦148605 can't produce figs¦148606, my¦148599 brothers¦148598 and sisters¦148598, just like a salty supply can't give fresh water¦148616.",
             {
               "s1": "Heavenly wisdom"
             },
@@ -1033,42 +1049,42 @@
               "p": ""
             }
           ],
-          "verseText": "A fig¦148588 tree¦148588 can't produce olives¦148590 and a grape vine¦148593 can't produce figs¦148594, my¦148587 brothers¦148586 and sisters¦148586, just like a salty supply can't give fresh water¦148604."
+          "verseText": "A fig¦148600 tree¦148600 can't produce olives¦148602 and a grape vine¦148605 can't produce figs¦148606, my¦148599 brothers¦148598 and sisters¦148598, just like a salty supply can't give fresh water¦148616."
         },
         {
           "verseNumber": "13",
           "contents": [
-            "Any of you¦148610 that are wise and understanding¦148608 should¦148611 demonstrate their good¦148614 deeds and wisdom¦148621 by their godly living."
+            "Any of you¦148622 that are wise and understanding¦148620 should¦148623 demonstrate their good¦148626 deeds and wisdom¦148633 by their godly living."
           ],
-          "verseText": "Any of you¦148610 that are wise and understanding¦148608 should¦148611 demonstrate their good¦148614 deeds and wisdom¦148621 by their godly living."
+          "verseText": "Any of you¦148622 that are wise and understanding¦148620 should¦148623 demonstrate their good¦148626 deeds and wisdom¦148633 by their godly living."
         },
         {
           "verseNumber": "14",
           "contents": [
-            "But if you are full of bitter¦148626 jealousy¦148625 or selfish¦148629 ambition¦148629, don't¦148636 be boasting¦148638 or denying the truth¦148643"
+            "But if you are full of bitter¦148638 jealousy¦148637 or selfish¦148641 ambition¦148641, don't¦148648 be boasting¦148650 or denying the truth¦148655"
           ],
-          "verseText": "But if you are full of bitter¦148626 jealousy¦148625 or selfish¦148629 ambition¦148629, don't¦148636 be boasting¦148638 or denying the truth¦148643"
+          "verseText": "But if you are full of bitter¦148638 jealousy¦148637 or selfish¦148641 ambition¦148641, don't¦148648 be boasting¦148650 or denying the truth¦148655"
         },
         {
           "verseNumber": "15",
           "contents": [
-            "because none of that came down to you from heaven, but¦148654 on the contrary it's earthly¦148655 and soulish¦148656 and demonic¦148657."
+            "because none of that came down to you from heaven, but¦148666 on the contrary it's earthly¦148667 and soulish¦148668 and demonic¦148669."
           ],
-          "verseText": "because none of that came down to you from heaven, but¦148654 on the contrary it's earthly¦148655 and soulish¦148656 and demonic¦148657."
+          "verseText": "because none of that came down to you from heaven, but¦148666 on the contrary it's earthly¦148667 and soulish¦148668 and demonic¦148669."
         },
         {
           "verseNumber": "16",
           "contents": [
-            "Wherever you find jealousy¦148660 and selfish¦148662 ambition¦148662, you'll also find disharmony and all kinds of evil¦148669."
+            "Wherever you find jealousy¦148672 and selfish¦148674 ambition¦148674, you'll also find disharmony and all kinds of evil¦148681."
           ],
-          "verseText": "Wherever you find jealousy¦148660 and selfish¦148662 ambition¦148662, you'll also find disharmony and all kinds of evil¦148669."
+          "verseText": "Wherever you find jealousy¦148672 and selfish¦148674 ambition¦148674, you'll also find disharmony and all kinds of evil¦148681."
         },
         {
           "verseNumber": "17",
           "contents": [
-            "In contrast, the wisdom¦148674 that comes from God is pure, peaceable¦148680, gentle¦148681, compliant¦148682, full of mercy¦148684 and good¦148688 behaviour, unceasing¦148689, and not hypocritical."
+            "In contrast, the wisdom¦148686 that comes from God is pure, peaceable¦148692, gentle¦148693, compliant¦148694, full of mercy¦148696 and good¦148700 behaviour, unceasing¦148701, and not hypocritical."
           ],
-          "verseText": "In contrast, the wisdom¦148674 that comes from God is pure, peaceable¦148680, gentle¦148681, compliant¦148682, full of mercy¦148684 and good¦148688 behaviour, unceasing¦148689, and not hypocritical."
+          "verseText": "In contrast, the wisdom¦148686 that comes from God is pure, peaceable¦148692, gentle¦148693, compliant¦148694, full of mercy¦148696 and good¦148700 behaviour, unceasing¦148701, and not hypocritical."
         },
         {
           "verseNumber": "18",
@@ -1105,66 +1121,66 @@
         {
           "verseNumber": "1",
           "contents": [
-            "Where do you imagine that the fights and quarrels¦148709 among¦148710 you all originate? Isn't it¦148712 because of the ambitions that surface inside you?"
+            "Where do you imagine that the fights and quarrels¦148721 among¦148722 you all originate? Isn't it¦148724 because of the ambitions that surface inside you?"
           ],
-          "verseText": "Where do you imagine that the fights and quarrels¦148709 among¦148710 you all originate? Isn't it¦148712 because of the ambitions that surface inside you?"
+          "verseText": "Where do you imagine that the fights and quarrels¦148721 among¦148722 you all originate? Isn't it¦148724 because of the ambitions that surface inside you?"
         },
         {
           "verseNumber": "2",
           "contents": [
-            "You all have wants that are not fulfilled so it leads to murder¦148728. You're jealous¦148730 and not able to get everything you want, so you quarrel¦148735 and fight. You don't¦148726 have, because¦148742 you haven't asked",
+            "You all have wants that are not fulfilled so it leads to murder¦148740. You're jealous¦148742 and not able to get everything you want, so you quarrel¦148747 and fight. You don't¦148738 have, because¦148754 you haven't asked",
             {
               "add": "God",
               "closing": "\\add*"
             },
             ","
           ],
-          "verseText": "You all have wants that are not fulfilled so it leads to murder¦148728. You're jealous¦148730 and not able to get everything you want, so you quarrel¦148735 and fight. You don't¦148726 have, because¦148742 you haven't asked God,"
+          "verseText": "You all have wants that are not fulfilled so it leads to murder¦148740. You're jealous¦148742 and not able to get everything you want, so you quarrel¦148747 and fight. You don't¦148738 have, because¦148754 you haven't asked God,"
         },
         {
           "verseNumber": "3",
           "contents": [
-            "and when you all do ask, it¦148761 doesn't get answered because¦148751 you ask with wrong¦148752",
+            "and when you all do ask, it¦148773 doesn't get answered because¦148763 you ask with wrong¦148764",
             {
               "add": "motives",
               "closing": "\\add*"
             },
-            "—trying get what you want to spend¦148761 on your¦148759 own wants."
+            "—trying get what you want to spend¦148773 on your¦148771 own wants."
           ],
-          "verseText": "and when you all do ask, it¦148761 doesn't get answered because¦148751 you ask with wrong¦148752 motives—trying get what you want to spend¦148761 on your¦148759 own wants."
+          "verseText": "and when you all do ask, it¦148773 doesn't get answered because¦148763 you ask with wrong¦148764 motives—trying get what you want to spend¦148773 on your¦148771 own wants."
         },
         {
           "verseNumber": "4",
           "contents": [
-            "You're just like prostitutes. Don't you realise that if you befriend the world then you're opposing God, so anyone who befriends the world makes themself an enemy¦148790 of God."
+            "You're just like prostitutes. Don't you realise that if you befriend the world then you're opposing God, so anyone who befriends the world makes themself an enemy¦148802 of God."
           ],
-          "verseText": "You're just like prostitutes. Don't you realise that if you befriend the world then you're opposing God, so anyone who befriends the world makes themself an enemy¦148790 of God."
+          "verseText": "You're just like prostitutes. Don't you realise that if you befriend the world then you're opposing God, so anyone who befriends the world makes themself an enemy¦148802 of God."
         },
         {
           "verseNumber": "5",
           "contents": [
-            "Do you¦148795 think that the scripture¦148800 means nothing when it says, ‘",
+            "Do you¦148807 think that the scripture¦148812 means nothing when it says, ‘",
             {
               "add": "God's",
               "closing": "\\add*"
             },
             {
-              "nd": "spirit¦148806",
+              "nd": "spirit¦148818",
               "closing": "\\nd*"
             },
             "jealously longs to live in us’?"
           ],
-          "verseText": "Do you¦148795 think that the scripture¦148800 means nothing when it says, ‘ God's spirit¦148806 jealously longs to live in us’?"
+          "verseText": "Do you¦148807 think that the scripture¦148812 means nothing when it says, ‘ God's spirit¦148818 jealously longs to live in us’?"
         },
         {
           "verseNumber": "6",
           "contents": [
             "However, he's good at giving grace so that's why it says, ‘",
             {
-              "nd": "God¦148819",
+              "nd": "God¦148831",
               "closing": "\\nd*"
             },
-            "opposes¦148821 proud¦148820 people but¦148813 gives grace to humble¦148822 ones.’",
+            "opposes¦148833 proud¦148832 people but¦148825 gives grace to humble¦148834 ones.’",
             {
               "x": [
                 "+",
@@ -1178,40 +1194,40 @@
               "closing": "\\x*"
             }
           ],
-          "verseText": "However, he's good at giving grace so that's why it says, ‘ God¦148819 opposes¦148821 proud¦148820 people but¦148813 gives grace to humble¦148822 ones.’"
+          "verseText": "However, he's good at giving grace so that's why it says, ‘ God¦148831 opposes¦148833 proud¦148832 people but¦148825 gives grace to humble¦148834 ones.’"
         },
         {
           "verseNumber": "7",
           "contents": [
-            "So¦148827 strive then to do what",
+            "So¦148839 strive then to do what",
             {
-              "nd": "God¦148829",
+              "nd": "God¦148841",
               "closing": "\\nd*"
             },
-            "wants of you. Resist the devil¦148833 and he will flee away from you."
+            "wants of you. Resist the devil¦148845 and he will flee away from you."
           ],
-          "verseText": "So¦148827 strive then to do what God¦148829 wants of you. Resist the devil¦148833 and he will flee away from you."
+          "verseText": "So¦148839 strive then to do what God¦148841 wants of you. Resist the devil¦148845 and he will flee away from you."
         },
         {
           "verseNumber": "8",
           "contents": [
-            "When you all approach God, he will move closer to you. So keep your hands¦148846 clean you sinners¦148847, and keep your hearts¦148850 pure you who can't make up your minds about God."
+            "When you all approach God, he will move closer to you. So keep your hands¦148858 clean you sinners¦148859, and keep your hearts¦148862 pure you who can't make up your minds about God."
           ],
-          "verseText": "When you all approach God, he will move closer to you. So keep your hands¦148846 clean you sinners¦148847, and keep your hearts¦148850 pure you who can't make up your minds about God."
+          "verseText": "When you all approach God, he will move closer to you. So keep your hands¦148858 clean you sinners¦148859, and keep your hearts¦148862 pure you who can't make up your minds about God."
         },
         {
           "verseNumber": "9",
           "contents": [
-            "Be miserable¦148852, and mourn¦148854 and weep. Change your laughing¦148858 into crying and your happiness into sadness"
+            "Be miserable¦148864, and mourn¦148866 and weep. Change your laughing¦148870 into crying and your happiness into sadness"
           ],
-          "verseText": "Be miserable¦148852, and mourn¦148854 and weep. Change your laughing¦148858 into crying and your happiness into sadness"
+          "verseText": "Be miserable¦148864, and mourn¦148866 and weep. Change your laughing¦148870 into crying and your happiness into sadness"
         },
         {
           "verseNumber": "10",
           "contents": [
-            "because when you humble¦148869 yourselves towards the",
+            "because when you humble¦148881 yourselves towards the",
             {
-              "nd": "master¦148873",
+              "nd": "master¦148885",
               "closing": "\\nd*"
             },
             ", he will be the one to lift you up.",
@@ -1231,19 +1247,19 @@
               "p": ""
             }
           ],
-          "verseText": "because when you humble¦148869 yourselves towards the master¦148873, he will be the one to lift you up."
+          "verseText": "because when you humble¦148881 yourselves towards the master¦148885, he will be the one to lift you up."
         },
         {
           "verseNumber": "11",
           "contents": [
-            "My fellow believers¦148880, don't¦148902 make false accusations against each other because anyone¦148879 who falsely accuses or judges a fellow believer, is slandering against the law and judging it. But if you're the ones judging the law, then you're not a follower of the law but¦148899 a judge of it."
+            "My fellow believers¦148892, don't¦148914 make false accusations against each other because anyone¦148891 who falsely accuses or judges a fellow believer, is slandering against the law and judging it. But if you're the ones judging the law, then you're not a follower of the law but¦148911 a judge of it."
           ],
-          "verseText": "My fellow believers¦148880, don't¦148902 make false accusations against each other because anyone¦148879 who falsely accuses or judges a fellow believer, is slandering against the law and judging it. But if you're the ones judging the law, then you're not a follower of the law but¦148899 a judge of it."
+          "verseText": "My fellow believers¦148892, don't¦148914 make false accusations against each other because anyone¦148891 who falsely accuses or judges a fellow believer, is slandering against the law and judging it. But if you're the ones judging the law, then you're not a follower of the law but¦148911 a judge of it."
         },
         {
           "verseNumber": "12",
           "contents": [
-            "There's only one lawgiver¦148911 and judge and that's the one who is able to save and to destroy¦148918. So who do you think you are to judge your neighbour¦148928!",
+            "There's only one lawgiver¦148923 and judge and that's the one who is able to save and to destroy¦148930. So who do you think you are to judge your neighbour¦148940!",
             {
               "s1": "Avoid boasting and presumption"
             },
@@ -1266,12 +1282,12 @@
               "p": ""
             }
           ],
-          "verseText": "There's only one lawgiver¦148911 and judge and that's the one who is able to save and to destroy¦148918. So who do you think you are to judge your neighbour¦148928!"
+          "verseText": "There's only one lawgiver¦148923 and judge and that's the one who is able to save and to destroy¦148930. So who do you think you are to judge your neighbour¦148940!"
         },
         {
           "verseNumber": "13",
           "contents": [
-            "Now you¦148932 all might say, ‘Today¦148934 or tomorrow¦148937 we'll go into the city¦148943 to work there¦148947 for a year¦148948 and do some trading to make some money.’",
+            "Now you¦148944 all might say, ‘Today¦148946 or tomorrow¦148949 we'll go into the city¦148955 to work there¦148959 for a year¦148960 and do some trading to make some money.’",
             {
               "x": [
                 "+",
@@ -1285,40 +1301,40 @@
               "closing": "\\x*"
             }
           ],
-          "verseText": "Now you¦148932 all might say, ‘Today¦148934 or tomorrow¦148937 we'll go into the city¦148943 to work there¦148947 for a year¦148948 and do some trading to make some money.’"
+          "verseText": "Now you¦148944 all might say, ‘Today¦148946 or tomorrow¦148949 we'll go into the city¦148955 to work there¦148959 for a year¦148960 and do some trading to make some money.’"
         },
         {
           "verseNumber": "14",
           "contents": [
-            "But you don't¦148957 know what tomorrow will bring, because¦148964 what are your¦148967 lives? You're like a vapour¦148968 that appears¦148976 for a brief period and then it's gone."
+            "But you don't¦148969 know what tomorrow will bring, because¦148976 what are your¦148979 lives? You're like a vapour¦148980 that appears¦148988 for a brief period and then it's gone."
           ],
-          "verseText": "But you don't¦148957 know what tomorrow will bring, because¦148964 what are your¦148967 lives? You're like a vapour¦148968 that appears¦148976 for a brief period and then it's gone."
+          "verseText": "But you don't¦148969 know what tomorrow will bring, because¦148976 what are your¦148979 lives? You're like a vapour¦148980 that appears¦148988 for a brief period and then it's gone."
         },
         {
           "verseNumber": "15",
           "contents": [
-            "So instead of saying¦148983 that, you¦148984 should say, ‘If the",
+            "So instead of saying¦148995 that, you¦148996 should say, ‘If the",
             {
-              "nd": "master¦148987",
+              "nd": "master¦148999",
               "closing": "\\nd*"
             },
             "wants it, we will live and we'll do this or that.’"
           ],
-          "verseText": "So instead of saying¦148983 that, you¦148984 should say, ‘If the master¦148987 wants it, we will live and we'll do this or that.’"
+          "verseText": "So instead of saying¦148995 that, you¦148996 should say, ‘If the master¦148999 wants it, we will live and we'll do this or that.’"
         },
         {
           "verseNumber": "16",
           "contents": [
-            "But as it is, you've all been boasting in your¦149007 arrogance¦149006 and that's an evil¦149012 attitude."
+            "But as it is, you've all been boasting in your¦149019 arrogance¦149018 and that's an evil¦149024 attitude."
           ],
-          "verseText": "But as it is, you've all been boasting in your¦149007 arrogance¦149006 and that's an evil¦149012 attitude."
+          "verseText": "But as it is, you've all been boasting in your¦149019 arrogance¦149018 and that's an evil¦149024 attitude."
         },
         {
           "verseNumber": "17",
           "contents": [
-            "Any person who knows that there's some good¦149016 thing that they should be doing, but doesn't do it, is sinning."
+            "Any person who knows that there's some good¦149028 thing that they should be doing, but doesn't do it, is sinning."
           ],
-          "verseText": "Any person who knows that there's some good¦149016 thing that they should be doing, but doesn't do it, is sinning."
+          "verseText": "Any person who knows that there's some good¦149028 thing that they should be doing, but doesn't do it, is sinning."
         }
       ]
     },
@@ -1340,14 +1356,14 @@
         {
           "verseNumber": "1",
           "contents": [
-            "So you wealthy¦149029 people, come¦149025 and cry about the miseries¦149034 that are about to hit you all."
+            "So you wealthy¦149041 people, come¦149037 and cry about the miseries¦149046 that are about to hit you all."
           ],
-          "verseText": "So you wealthy¦149029 people, come¦149025 and cry about the miseries¦149034 that are about to hit you all."
+          "verseText": "So you wealthy¦149041 people, come¦149037 and cry about the miseries¦149046 that are about to hit you all."
         },
         {
           "verseNumber": "2",
           "contents": [
-            "Your¦149041 riches¦149040 have rotted¦149042 and¦149043 your¦149041 clothes¦149045 have become¦149048 moth-eaten¦149047.",
+            "Your¦149053 riches¦149052 have rotted¦149054 and¦149055 your¦149053 clothes¦149057 have become¦149060 moth-eaten¦149059.",
             {
               "x": [
                 "+",
@@ -1361,19 +1377,19 @@
               "closing": "\\x*"
             }
           ],
-          "verseText": "Your¦149041 riches¦149040 have rotted¦149042 and¦149043 your¦149041 clothes¦149045 have become¦149048 moth-eaten¦149047."
+          "verseText": "Your¦149053 riches¦149052 have rotted¦149054 and¦149055 your¦149053 clothes¦149057 have become¦149060 moth-eaten¦149059."
         },
         {
           "verseNumber": "3",
           "contents": [
-            "Your¦149051 gold¦149050 and silver¦149055 has corroded, and that corrosion will speak out against you and will eat away your¦149051 bodies like fire¦149074 because¦149061 you stored¦149075 up wealth in this final age."
+            "Your¦149063 gold¦149062 and silver¦149067 has corroded, and that corrosion will speak out against you and will eat away your¦149063 bodies like fire¦149086 because you stored¦149087 up wealth in this final age."
           ],
-          "verseText": "Your¦149051 gold¦149050 and silver¦149055 has corroded, and that corrosion will speak out against you and will eat away your¦149051 bodies like fire¦149074 because¦149061 you stored¦149075 up wealth in this final age."
+          "verseText": "Your¦149063 gold¦149062 and silver¦149067 has corroded, and that corrosion will speak out against you and will eat away your¦149063 bodies like fire¦149086 because you stored¦149087 up wealth in this final age."
         },
         {
           "verseNumber": "4",
           "contents": [
-            "The unpaid wages of the workers¦149084 who harvested¦149086 your¦149089 fields¦149088 are crying¦149095 out",
+            "The unpaid wages of the workers¦149096 who harvested¦149098 your¦149101 fields¦149100 are crying¦149107 out",
             {
               "x": [
                 "+",
@@ -1386,26 +1402,26 @@
               ],
               "closing": "\\x*"
             },
-            "and¦149096 the desperate requests of those harvesters have been heard by the",
+            "and¦149108 the desperate requests of those harvesters have been heard by the",
             {
-              "nd": "master¦149104",
+              "nd": "master¦149116",
               "closing": "\\nd*"
             },
             "of platoons of messengers."
           ],
-          "verseText": "The unpaid wages of the workers¦149084 who harvested¦149086 your¦149089 fields¦149088 are crying¦149095 out and¦149096 the desperate requests of those harvesters have been heard by the master¦149104 of platoons of messengers."
+          "verseText": "The unpaid wages of the workers¦149096 who harvested¦149098 your¦149101 fields¦149100 are crying¦149107 out and¦149108 the desperate requests of those harvesters have been heard by the master¦149116 of platoons of messengers."
         },
         {
           "verseNumber": "5",
           "contents": [
-            "You have indulged¦149109 yourselves and lived¦149115 luxuriously¦149115 but you've been fattening yourselves up as the time for your¦149119 slaughter¦149124 approaches."
+            "You have indulged¦149121 yourselves and lived¦149127 luxuriously¦149127 but you've been fattening yourselves up as the time for your¦149131 slaughter¦149136 approaches."
           ],
-          "verseText": "You have indulged¦149109 yourselves and lived¦149115 luxuriously¦149115 but you've been fattening yourselves up as the time for your¦149119 slaughter¦149124 approaches."
+          "verseText": "You have indulged¦149121 yourselves and lived¦149127 luxuriously¦149127 but you've been fattening yourselves up as the time for your¦149131 slaughter¦149136 approaches."
         },
         {
           "verseNumber": "6",
           "contents": [
-            "You all convicted¦149125 innocent people and had them executed, even when they weren't doing anything against¦149131 you.",
+            "You all convicted¦149137 innocent people and had them executed, even when they weren't doing anything against¦149143 you.",
             {
               "s1": "Wait patiently"
             },
@@ -1422,35 +1438,35 @@
               "p": ""
             }
           ],
-          "verseText": "You all convicted¦149125 innocent people and had them executed, even when they weren't doing anything against¦149131 you."
+          "verseText": "You all convicted¦149137 innocent people and had them executed, even when they weren't doing anything against¦149143 you."
         },
         {
           "verseNumber": "7",
           "contents": [
-            "So¦149133 my fellow¦149134 believers¦149134, be patient until the return of",
+            "So¦149145 my fellow¦149146 believers¦149146, be patient until the return of",
             {
               "add": "Yeshua our",
               "closing": "\\add*"
             },
             {
-              "nd": "master¦149139",
+              "nd": "master¦149151",
               "closing": "\\nd*"
             },
-            ". You see how farmers¦149142 look forward to the fruit¦149146 to be ready—waiting patiently even while they monitor the early¦149159 and¦149160 the late rains¦149161."
+            ". You see how farmers¦149154 look forward to the fruit¦149158 to be ready—waiting patiently even while they monitor the early¦149171 and¦149172 the late rains¦149173."
           ],
-          "verseText": "So¦149133 my fellow¦149134 believers¦149134, be patient until the return of Yeshua our master¦149139. You see how farmers¦149142 look forward to the fruit¦149146 to be ready—waiting patiently even while they monitor the early¦149159 and¦149160 the late rains¦149161."
+          "verseText": "So¦149145 my fellow¦149146 believers¦149146, be patient until the return of Yeshua our master¦149151. You see how farmers¦149154 look forward to the fruit¦149158 to be ready—waiting patiently even while they monitor the early¦149171 and¦149172 the late rains¦149173."
         },
         {
           "verseNumber": "8",
           "contents": [
-            "All of you should be patient¦149162 too, and encourage each other",
+            "All of you should be patient¦149174 too, and encourage each other",
             {
-              "add": "in your¦149169 faith",
+              "add": "in your¦149181 faith",
               "closing": "\\add*"
             },
-            "because¦149170 the",
+            "because¦149182 the",
             {
-              "nd": "master's¦149174",
+              "nd": "master's¦149186",
               "closing": "\\nd*"
             },
             "return is closer now.",
@@ -1458,35 +1474,35 @@
               "p": ""
             }
           ],
-          "verseText": "All of you should be patient¦149162 too, and encourage each other in your¦149169 faith because¦149170 the master's¦149174 return is closer now."
+          "verseText": "All of you should be patient¦149174 too, and encourage each other in your¦149181 faith because¦149182 the master's¦149186 return is closer now."
         },
         {
           "verseNumber": "9",
           "contents": [
-            "And don't¦149184 moan about each other, my fellow¦149178 believers¦149178, so that you¦149185 all won't be judged¦149185 for it, because truly, the judge¦149189 is just outside about to come in the doors¦149192."
+            "And don't¦149196 moan about each other, my fellow¦149190 believers¦149190, so that you¦149197 all won't be judged¦149197 for it, because truly, the judge¦149201 is just outside about to come in the doors¦149204."
           ],
-          "verseText": "And don't¦149184 moan about each other, my fellow¦149178 believers¦149178, so that you¦149185 all won't be judged¦149185 for it, because truly, the judge¦149189 is just outside about to come in the doors¦149192."
+          "verseText": "And don't¦149196 moan about each other, my fellow¦149190 believers¦149190, so that you¦149197 all won't be judged¦149197 for it, because truly, the judge¦149201 is just outside about to come in the doors¦149204."
         },
         {
           "verseNumber": "10",
           "contents": [
-            "Look at the prophets¦149208 who spoke¦149210 out the messages from the",
+            "Look at the prophets¦149220 who spoke¦149222 out the messages from the",
             {
-              "nd": "master¦149214",
+              "nd": "master¦149226",
               "closing": "\\nd*"
             },
-            "—they're good examples¦149194 of suffering and¦149203 patience¦149205",
+            "—they're good examples¦149206 of suffering and¦149215 patience¦149217",
             {
               "add": "for you to follow",
               "closing": "\\add*"
             }
           ],
-          "verseText": "Look at the prophets¦149208 who spoke¦149210 out the messages from the master¦149214—they're good examples¦149194 of suffering and¦149203 patience¦149205 for you to follow"
+          "verseText": "Look at the prophets¦149220 who spoke¦149222 out the messages from the master¦149226—they're good examples¦149206 of suffering and¦149215 patience¦149217 for you to follow"
         },
         {
           "verseNumber": "11",
           "contents": [
-            "and now we consider them as heroes for their endurance. You all heard¦149223 about Yob's endurance and then you yourselves witnessed what happened to",
+            "and now we consider them as heroes for their endurance. You all heard¦149235 about Yob's endurance and then you yourselves witnessed what happened to",
             {
               "add": "Yeshua our",
               "closing": "\\add*"
@@ -1515,12 +1531,12 @@
               "p": ""
             }
           ],
-          "verseText": "and now we consider them as heroes for their endurance. You all heard¦149223 about Yob's endurance and then you yourselves witnessed what happened to Yeshua our master, and you saw his compassion and mercy."
+          "verseText": "and now we consider them as heroes for their endurance. You all heard¦149235 about Yob's endurance and then you yourselves witnessed what happened to Yeshua our master, and you saw his compassion and mercy."
         },
         {
           "verseNumber": "12",
           "contents": [
-            "But most importantly, brothers¦149240 and sisters¦149240, don't¦149242 swear¦149243 by heaven¦149246 or earth¦149249 or by any other¦149251 kind of oath but simply be honest so that ‘yes’ means yes and ‘no’ means no,",
+            "But most importantly, brothers¦149252 and sisters¦149252, don't¦149254 swear¦149255 by heaven¦149258 or earth¦149261 or by any other¦149263 kind of oath but simply be honest so that ‘yes’ means yes and ‘no’ means no,",
             {
               "x": [
                 "+",
@@ -1547,24 +1563,24 @@
               "p": ""
             }
           ],
-          "verseText": "But most importantly, brothers¦149240 and sisters¦149240, don't¦149242 swear¦149243 by heaven¦149246 or earth¦149249 or by any other¦149251 kind of oath but simply be honest so that ‘yes’ means yes and ‘no’ means no, then you won't end up getting judged."
+          "verseText": "But most importantly, brothers¦149252 and sisters¦149252, don't¦149254 swear¦149255 by heaven¦149258 or earth¦149261 or by any other¦149263 kind of oath but simply be honest so that ‘yes’ means yes and ‘no’ means no, then you won't end up getting judged."
         },
         {
           "verseNumber": "13",
           "contents": [
-            "Is anyone among¦149275 you¦149276 going through hard times? If so, they should be praying¦149277. Is anyone feeling cheerful¦149278? If so, they should be singing¦149282 praises¦149282."
+            "Is anyone among¦149287 you¦149288 going through hard times? If so, they should be praying¦149289. Is anyone feeling cheerful¦149290? If so, they should be singing¦149294 praises¦149294."
           ],
-          "verseText": "Is anyone among¦149275 you¦149276 going through hard times? If so, they should be praying¦149277. Is anyone feeling cheerful¦149278? If so, they should be singing¦149282 praises¦149282."
+          "verseText": "Is anyone among¦149287 you¦149288 going through hard times? If so, they should be praying¦149289. Is anyone feeling cheerful¦149290? If so, they should be singing¦149294 praises¦149294."
         },
         {
           "verseNumber": "14",
           "contents": [
-            "Is anyone¦149284 among¦149286 you¦149287 sick? If so, that person should¦149288 call the leaders",
+            "Is anyone¦149296 among¦149298 you¦149299 sick? If so, that person should¦149300 call the leaders",
             {
-              "add": "of the assembly¦149292",
+              "add": "of the assembly¦149304",
               "closing": "\\add*"
             },
-            "and get them to anoint¦149298 them with oil and to pray for them",
+            "and get them to anoint¦149310 them with oil and to pray for them",
             {
               "x": [
                 "+",
@@ -1577,42 +1593,42 @@
               ],
               "closing": "\\x*"
             },
-            "in the name¦149303 and authority of",
+            "in the name¦149315 and authority of",
             {
               "add": "Yeshua our",
               "closing": "\\add*"
             },
             {
-              "nd": "master¦149305",
+              "nd": "master¦149317",
               "closing": "\\nd*"
             },
             "."
           ],
-          "verseText": "Is anyone¦149284 among¦149286 you¦149287 sick? If so, that person should¦149288 call the leaders of the assembly¦149292 and get them to anoint¦149298 them with oil and to pray for them in the name¦149303 and authority of Yeshua our master¦149305."
+          "verseText": "Is anyone¦149296 among¦149298 you¦149299 sick? If so, that person should¦149300 call the leaders of the assembly¦149304 and get them to anoint¦149310 them with oil and to pray for them in the name¦149315 and authority of Yeshua our master¦149317."
         },
         {
           "verseNumber": "15",
           "contents": [
-            "Then that declaration of faith¦149310 will save the weak person and the",
+            "Then that declaration of faith¦149322 will save the weak person and the",
             {
-              "nd": "master¦149318",
+              "nd": "master¦149330",
               "closing": "\\nd*"
             },
-            "will lift him/her up, and if they've sinned, then their sins¦149320 will also be forgiven¦149323."
+            "will lift him/her up, and if they've sinned, then their sins¦149332 will also be forgiven¦149335."
           ],
-          "verseText": "Then that declaration of faith¦149310 will save the weak person and the master¦149318 will lift him/her up, and if they've sinned, then their sins¦149320 will also be forgiven¦149323."
+          "verseText": "Then that declaration of faith¦149322 will save the weak person and the master¦149330 will lift him/her up, and if they've sinned, then their sins¦149332 will also be forgiven¦149335."
         },
         {
           "verseNumber": "16",
           "contents": [
-            "So¦149326 confess¦149325 your¦149328 sins¦149330 to each other and¦149332 pray for each other so that all of you¦149338 can be healed¦149338, because¦149335 when an obedient believer prays, it has a real effect."
+            "So¦149338 confess¦149337 your¦149340 sins¦149342 to each other and¦149344 pray for each other so that all of you¦149350 can be healed¦149350, because when an obedient believer prays, it has a real effect."
           ],
-          "verseText": "So¦149326 confess¦149325 your¦149328 sins¦149330 to each other and¦149332 pray for each other so that all of you¦149338 can be healed¦149338, because¦149335 when an obedient believer prays, it has a real effect."
+          "verseText": "So¦149338 confess¦149337 your¦149340 sins¦149342 to each other and¦149344 pray for each other so that all of you¦149350 can be healed¦149350, because when an obedient believer prays, it has a real effect."
         },
         {
           "verseNumber": "17",
           "contents": [
-            "Eliyah was a person just similar to us, and when he prayed¦149350 for the rain to stop, it stopped, and it didn't rain again for three¦149363 and a half years¦149361.",
+            "Eliyah was a person just similar to us, and when he prayed¦149362 for the rain to stop, it stopped, and it didn't rain again for three¦149375 and a half years¦149373.",
             {
               "x": [
                 "+",
@@ -1626,12 +1642,12 @@
               "closing": "\\x*"
             }
           ],
-          "verseText": "Eliyah was a person just similar to us, and when he prayed¦149350 for the rain to stop, it stopped, and it didn't rain again for three¦149363 and a half years¦149361."
+          "verseText": "Eliyah was a person just similar to us, and when he prayed¦149362 for the rain to stop, it stopped, and it didn't rain again for three¦149375 and a half years¦149373."
         },
         {
           "verseNumber": "18",
           "contents": [
-            "Then he prayed¦149369 again, and the rain came down from the sky¦149372 and the land sprouted¦149380 and started to bear fruit¦149382 again.",
+            "Then he prayed¦149381 again, and the rain came down from the sky¦149384 and the land sprouted¦149392 and started to bear fruit¦149394 again.",
             {
               "x": [
                 "+",
@@ -1651,19 +1667,19 @@
               "p": ""
             }
           ],
-          "verseText": "Then he prayed¦149369 again, and the rain came down from the sky¦149372 and the land sprouted¦149380 and started to bear fruit¦149382 again."
+          "verseText": "Then he prayed¦149381 again, and the rain came down from the sky¦149384 and the land sprouted¦149392 and started to bear fruit¦149394 again."
         },
         {
           "verseNumber": "19",
           "contents": [
-            "My¦149385 fellow¦149384 believers¦149384, if any of you¦149389 have wandered from the truth¦149395 and¦149396 someone¦149398 helps them back,"
+            "My¦149397 fellow¦149396 believers¦149396, if any of you¦149401 have wandered from the truth¦149407 and¦149408 someone¦149410 helps them back,"
           ],
-          "verseText": "My¦149385 fellow¦149384 believers¦149384, if any of you¦149389 have wandered from the truth¦149395 and¦149396 someone¦149398 helps them back,"
+          "verseText": "My¦149397 fellow¦149396 believers¦149396, if any of you¦149401 have wandered from the truth¦149407 and¦149408 someone¦149410 helps them back,"
         },
         {
           "verseNumber": "20",
           "contents": [
-            "then you should know that someone who helps a sinner¦149406 to come back from their deceitful ways will be saving¦149411 their soul¦149413 from death¦149416,",
+            "then you should know that someone who helps a sinner¦149418 to come back from their deceitful ways will be saving¦149423 their soul¦149425 from death¦149428,",
             {
               "x": [
                 "+",
@@ -1676,9 +1692,9 @@
               ],
               "closing": "\\x*"
             },
-            "and¦149418 their many sins¦149421 can be forgiven."
+            "and¦149430 their many sins¦149433 can be forgiven."
           ],
-          "verseText": "then you should know that someone who helps a sinner¦149406 to come back from their deceitful ways will be saving¦149411 their soul¦149413 from death¦149416, and¦149418 their many sins¦149421 can be forgiven."
+          "verseText": "then you should know that someone who helps a sinner¦149418 to come back from their deceitful ways will be saving¦149423 their soul¦149425 from death¦149428, and¦149430 their many sins¦149433 can be forgiven."
         }
       ]
     }

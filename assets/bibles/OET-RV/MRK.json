@@ -1,7 +1,7 @@
 {
   "book": {
     "bookCode": "MRK",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.10",
+    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.11",
     "meta": [
       {
         "usfm": "3.0"
@@ -315,7 +315,12 @@
               "attributes": "|src=\"41_Mk_01_06_RG.jpg\" size=\"col\" loc=\"1:9\" copy=\"© Sweet Publishing\" ref=\"1:9\"",
               "closing": "\\fig*"
             },
-            "Then one day Yeshua came from Nazareth¦22006 in the Galilee¦22008 region, and he got immersed in the Yordan¦22016 river by Yohan."
+            "Then one day Yeshua came from",
+            {
+              "nd": "Nazareth¦22006",
+              "closing": "\\nd*"
+            },
+            "in the Galilee¦22008 region, and he got immersed in the Yordan¦22016 river by Yohan."
           ],
           "verseText": "Then one day Yeshua came from Nazareth¦22006 in the Galilee¦22008 region, and he got immersed in the Yordan¦22016 river by Yohan."
         },
@@ -532,7 +537,12 @@
               "nd": "Yeshua¦22320",
               "closing": "\\nd*"
             },
-            "of Nazareth¦22321? You've come to destroy¦22324 us. I know that you're¦22329 God's holy one.”",
+            "of",
+            {
+              "nd": "Nazareth¦22321",
+              "closing": "\\nd*"
+            },
+            "? You've come to destroy¦22324 us. I know that you're¦22329 God's holy one.”",
             {
               "p": ""
             }
@@ -1452,12 +1462,12 @@
         {
           "verseNumber": "21",
           "contents": [
-            "The ones with him heard¦24058 all the noise and came¦24069 to get him, because¦24074 they were wondering if he was crazy.",
+            "The ones with him heard¦24058 all the noise and came¦24069 to get him, because they were wondering if he was crazy.",
             {
               "p": ""
             }
           ],
-          "verseText": "The ones with him heard¦24058 all the noise and came¦24069 to get him, because¦24074 they were wondering if he was crazy."
+          "verseText": "The ones with him heard¦24058 all the noise and came¦24069 to get him, because they were wondering if he was crazy."
         },
         {
           "verseNumber": "22",
@@ -3735,9 +3745,9 @@
         {
           "verseNumber": "16",
           "contents": [
-            "≈"
+            "◘"
           ],
-          "verseText": "≈"
+          "verseText": "◘"
         },
         {
           "verseNumber": "17",
@@ -5238,9 +5248,9 @@
         {
           "verseNumber": "44",
           "contents": [
-            "≈"
+            "◘"
           ],
-          "verseText": "≈"
+          "verseText": "◘"
         },
         {
           "verseNumber": "45",
@@ -5263,9 +5273,9 @@
         {
           "verseNumber": "46",
           "contents": [
-            "≈"
+            "◘"
           ],
-          "verseText": "≈"
+          "verseText": "◘"
         },
         {
           "verseNumber": "47",
@@ -5436,11 +5446,11 @@
             },
             "responded, “",
             {
-              "wj": "Yes, he wrote¦30798 that law because¦30800 he saw your¦30797 stubborn desires,",
+              "wj": "Yes, he wrote¦30798 that law because he saw your¦30797 stubborn desires,",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "Yeshua¦30791 responded, “Yes, he wrote¦30798 that law because¦30800 he saw your¦30797 stubborn desires,"
+          "verseText": "Yeshua¦30791 responded, “Yes, he wrote¦30798 that law because he saw your¦30797 stubborn desires,"
         },
         {
           "verseNumber": "6",
@@ -6055,7 +6065,7 @@
           "contents": [
             "“",
             {
-              "wj": "but as for deciding who will sit¦31627 next to me, that's not my¦31630 decision to make because¦31641 it's already been decided.",
+              "wj": "but as for deciding who will sit¦31627 next to me, that's not my¦31630 decision to make because it's already been decided.",
               "closing": "\\wj*"
             },
             "”",
@@ -6063,7 +6073,7 @@
               "p": ""
             }
           ],
-          "verseText": "“but as for deciding who will sit¦31627 next to me, that's not my¦31630 decision to make because¦31641 it's already been decided.”"
+          "verseText": "“but as for deciding who will sit¦31627 next to me, that's not my¦31630 decision to make because it's already been decided.”"
         },
         {
           "verseNumber": "41",
@@ -6173,7 +6183,12 @@
         {
           "verseNumber": "47",
           "contents": [
-            "When he heard¦31789 that it was Yeshua from Nazareth¦31796 going past, he yelled out, “Yeshua,",
+            "When he heard¦31789 that it was Yeshua from",
+            {
+              "nd": "Nazareth¦31796",
+              "closing": "\\nd*"
+            },
+            "going past, he yelled out, “Yeshua,",
             {
               "add": "promised",
               "closing": "\\add*"
@@ -6660,12 +6675,12 @@
         {
           "verseNumber": "26",
           "contents": [
-            "≈",
+            "◘",
             {
               "rem": "/s1 Jesus' Authority Is Questioned"
             }
           ],
-          "verseText": "≈"
+          "verseText": "◘"
         },
         {
           "verseNumber": "27",
@@ -7728,7 +7743,12 @@
               "add": "beautiful",
               "closing": "\\add*"
             },
-            "buildings¦33825 that they've been made into.”",
+            "buildings¦33825",
+            {
+              "add": "that they've been made into",
+              "closing": "\\add*"
+            },
+            ".”",
             {
               "p": ""
             }
@@ -8494,12 +8514,12 @@
         {
           "verseNumber": "5",
           "contents": [
-            "then they¦34742 scolded the woman because¦34733 a flask of genuine lotion like this could easily fetch almost a year's wages if it was sold.",
+            "then they¦34742 scolded the woman because¦34726 a flask of genuine lotion like this could easily fetch almost a year's wages if it was sold.",
             {
               "p": ""
             }
           ],
-          "verseText": "then they¦34742 scolded the woman because¦34733 a flask of genuine lotion like this could easily fetch almost a year's wages if it was sold."
+          "verseText": "then they¦34742 scolded the woman because¦34726 a flask of genuine lotion like this could easily fetch almost a year's wages if it was sold."
         },
         {
           "verseNumber": "6",
@@ -9424,7 +9444,12 @@
               "nd": "Yeshua¦36084",
               "closing": "\\nd*"
             },
-            "from Nazareth¦36078!”",
+            "from",
+            {
+              "nd": "Nazareth¦36078",
+              "closing": "\\nd*"
+            },
+            "!”",
             {
               "p": ""
             }
@@ -9811,9 +9836,9 @@
         {
           "verseNumber": "28",
           "contents": [
-            "≈"
+            "◘"
           ],
-          "verseText": "≈"
+          "verseText": "◘"
         },
         {
           "verseNumber": "29",
@@ -10044,14 +10069,14 @@
         {
           "verseNumber": "43",
           "contents": [
-            "Yosef (who'd come¦36995 from the city of Arimathea¦37000 and one who was waiting¦37009 for the coming of God's kingdom¦37011), a prominent¦37002 council¦37003 member¦37003, steeled himself¦37007 up and went¦37016 in to see the governor to get permission to transfer",
+            "Yosef¦36997 (who'd come¦36995 from the city of Arimathea¦37000 and one who was waiting¦37009 for the coming of God's¦37019 kingdom¦37011), a prominent¦37002 council¦37003 member¦37003, steeled himself¦37007 up and went¦37016 in to see the governor to get permission to transfer",
             {
               "nd": "Yeshua's¦37026",
               "closing": "\\nd*"
             },
             "body¦37024."
           ],
-          "verseText": "Yosef (who'd come¦36995 from the city of Arimathea¦37000 and one who was waiting¦37009 for the coming of God's kingdom¦37011), a prominent¦37002 council¦37003 member¦37003, steeled himself¦37007 up and went¦37016 in to see the governor to get permission to transfer Yeshua's¦37026 body¦37024."
+          "verseText": "Yosef¦36997 (who'd come¦36995 from the city of Arimathea¦37000 and one who was waiting¦37009 for the coming of God's¦37019 kingdom¦37011), a prominent¦37002 council¦37003 member¦37003, steeled himself¦37007 up and went¦37016 in to see the governor to get permission to transfer Yeshua's¦37026 body¦37024."
         },
         {
           "verseNumber": "44",
@@ -10063,9 +10088,9 @@
         {
           "verseNumber": "45",
           "contents": [
-            "As soon as he found out, he gave Yosef permission."
+            "As soon as he found out, he gave Yosef¦37063 permission."
           ],
-          "verseText": "As soon as he found out, he gave Yosef permission."
+          "verseText": "As soon as he found out, he gave Yosef¦37063 permission."
         },
         {
           "verseNumber": "46",
@@ -10075,9 +10100,9 @@
               "add": "and his companions",
               "closing": "\\add*"
             },
-            "went and bought¦37068 some linen burial cloth and then, removing Yeshua's body from the pole, wrapped¦37076 it in the cloth and placed it in a burial chamber that had been chiseled into a rockface. Then they rolled¦37099 a rock¦37097 across the opening."
+            "went and bought¦37068 some linen burial cloth and then, removing Yeshua's body from the pole, wrapped¦37076 it in the cloth and placed it in a burial chamber that had been chiselled into a rockface. Then they rolled¦37099 a rock¦37097 across the opening."
           ],
-          "verseText": "So Yosef and his companions went and bought¦37068 some linen burial cloth and then, removing Yeshua's body from the pole, wrapped¦37076 it in the cloth and placed it in a burial chamber that had been chiseled into a rockface. Then they rolled¦37099 a rock¦37097 across the opening."
+          "verseText": "So Yosef and his companions went and bought¦37068 some linen burial cloth and then, removing Yeshua's body from the pole, wrapped¦37076 it in the cloth and placed it in a burial chamber that had been chiselled into a rockface. Then they rolled¦37099 a rock¦37097 across the opening."
         },
         {
           "verseNumber": "47",
@@ -10149,7 +10174,12 @@
               "nd": "Yeshua¦37256",
               "closing": "\\nd*"
             },
-            "from Nazareth¦37259, the one who was executed¦37262 on a pole. But see¦37267 there where¦37275 his body was—he's not there because he came back to life."
+            "from",
+            {
+              "nd": "Nazareth¦37259",
+              "closing": "\\nd*"
+            },
+            ", the one who was executed¦37262 on a pole. But see¦37267 there where¦37275 his body was—he's not there because he came back to life."
           ],
           "verseText": "He assured them, “Don't be surprised. I know you're looking¦37257 for¦37257 Yeshua¦37256 from Nazareth¦37259, the one who was executed¦37262 on a pole. But see¦37267 there where¦37275 his body was—he's not there because he came back to life."
         },
