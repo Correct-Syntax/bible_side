@@ -24,99 +24,15 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
     return Container(
       height: 200.0,
       color: context.theme.appColors.popupBackground,
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 20.0),
-        child: Column(
-          children: [
-            Opacity(
-              opacity: viewModel.showSecondaryArea ? 1.0 : 0.5,
-              child: InkWell(
-                onTap: viewModel.showSecondaryArea
-                    ? viewModel.onChangeSecondaryBibleVersion
-                    : viewModel.onEnableSecondaryArea,
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 8.0),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Row(
-                        children: [
-                          PhosphorIcon(
-                            PhosphorIcons.squareSplitVertical(PhosphorIconsStyle.regular),
-                            color: context.theme.appColors.primaryOnDark,
-                            size: 22.0,
-                          ),
-                          const SizedBox(width: 14.0),
-                          Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Row(
-                                children: [
-                                  Text(
-                                    viewModel.secondaryBible,
-                                    style: TextStyle(
-                                      color: context.theme.appColors.primaryOnDark,
-                                      fontWeight: FontWeight.bold,
-                                    ),
-                                  ),
-                                  const SizedBox(width: 5.0),
-                                  Container(
-                                    padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 2.0),
-                                    decoration: BoxDecoration(
-                                      color: context.theme.appColors.readerSelectorBackground,
-                                      borderRadius: BorderRadius.circular(30.0),
-                                    ),
-                                    child: Text(
-                                      viewModel.showSecondaryArea ? 'Secondary' : 'Tap to enable',
-                                      style: TextStyle(
-                                        color: context.theme.appColors.primaryOnDark,
-                                        fontWeight: FontWeight.w500,
-                                        fontSize: 9.0,
-                                      ),
-                                    ),
-                                  ),
-                                ],
-                              ),
-                              Text(
-                                '${bibleVersionsMapping[viewModel.secondaryBible]}',
-                                style: TextStyle(
-                                  color: context.theme.appColors.primaryOnDark,
-                                  fontSize: 10.0,
-                                ),
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
-                      PhosphorIcon(
-                        PhosphorIcons.caretRight(PhosphorIconsStyle.bold),
-                        color: context.theme.appColors.primaryOnDark,
-                        size: 18.0,
-                        semanticLabel: 'Caret down',
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            ),
-            InkWell(
-              onTap: viewModel.onTapLinkUnlinkReaderAreas,
-              child: Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: PhosphorIcon(
-                  viewModel.linkReaderAreaScrolling
-                      ? PhosphorIcons.linkSimpleHorizontal(PhosphorIconsStyle.regular)
-                      : PhosphorIcons.linkSimpleHorizontalBreak(PhosphorIconsStyle.regular),
-                  color: context.theme.appColors.primaryOnDark,
-                  size: 22.0,
-                  semanticLabel: 'Link',
-                ),
-              ),
-            ),
-            InkWell(
-              onTap: readerArea == Area.primary
-                  ? viewModel.onChangePrimaryBibleVersion
-                  : viewModel.onChangeSecondaryBibleVersion,
+      padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 20.0),
+      child: Column(
+        children: [
+          Opacity(
+            opacity: viewModel.showSecondaryArea ? 1.0 : 0.5,
+            child: InkWell(
+              onTap: viewModel.showSecondaryArea
+                  ? viewModel.onChangeSecondaryBibleVersion
+                  : viewModel.onEnableSecondaryArea,
               child: Padding(
                 padding: const EdgeInsets.symmetric(vertical: 8.0),
                 child: Row(
@@ -136,7 +52,7 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
                             Row(
                               children: [
                                 Text(
-                                  viewModel.primaryBible,
+                                  viewModel.secondaryBible,
                                   style: TextStyle(
                                     color: context.theme.appColors.primaryOnDark,
                                     fontWeight: FontWeight.bold,
@@ -150,9 +66,11 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
                                     borderRadius: BorderRadius.circular(30.0),
                                   ),
                                   child: Text(
-                                    'Primary',
+                                    viewModel.showSecondaryArea ? 'Secondary' : 'Tap to enable',
                                     style: TextStyle(
-                                      color: context.theme.appColors.primaryOnDark,
+                                      color: viewModel.showSecondaryArea
+                                          ? context.theme.appColors.primaryOnDark.withAlpha(190)
+                                          : context.theme.appColors.primaryOnDark,
                                       fontWeight: FontWeight.w500,
                                       fontSize: 9.0,
                                     ),
@@ -161,9 +79,9 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
                               ],
                             ),
                             Text(
-                              '${bibleVersionsMapping[viewModel.primaryBible]}',
+                              '${bibleVersionsMapping[viewModel.secondaryBible]}',
                               style: TextStyle(
-                                color: context.theme.appColors.primaryOnDark,
+                                color: context.theme.appColors.primaryOnDark.withAlpha(140),
                                 fontSize: 10.0,
                               ),
                             ),
@@ -181,8 +99,90 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
                 ),
               ),
             ),
-          ],
-        ),
+          ),
+          InkWell(
+            onTap: viewModel.onTapLinkUnlinkReaderAreas,
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: PhosphorIcon(
+                viewModel.linkReaderAreaScrolling
+                    ? PhosphorIcons.linkSimpleHorizontal(PhosphorIconsStyle.regular)
+                    : PhosphorIcons.linkSimpleHorizontalBreak(PhosphorIconsStyle.regular),
+                color: context.theme.appColors.primaryOnDark,
+                size: 22.0,
+                semanticLabel: 'Link',
+              ),
+            ),
+          ),
+          InkWell(
+            onTap: readerArea == Area.primary
+                ? viewModel.onChangePrimaryBibleVersion
+                : viewModel.onChangeSecondaryBibleVersion,
+            child: Padding(
+              padding: const EdgeInsets.symmetric(vertical: 8.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Row(
+                    children: [
+                      PhosphorIcon(
+                        PhosphorIcons.squareSplitVertical(PhosphorIconsStyle.regular),
+                        color: context.theme.appColors.primaryOnDark,
+                        size: 22.0,
+                      ),
+                      const SizedBox(width: 14.0),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            children: [
+                              Text(
+                                viewModel.primaryBible,
+                                style: TextStyle(
+                                  color: context.theme.appColors.primaryOnDark,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              const SizedBox(width: 5.0),
+                              Container(
+                                padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 2.0),
+                                decoration: BoxDecoration(
+                                  color: context.theme.appColors.readerSelectorBackground,
+                                  borderRadius: BorderRadius.circular(30.0),
+                                ),
+                                child: Text(
+                                  'Primary',
+                                  style: TextStyle(
+                                    color: context.theme.appColors.primaryOnDark.withAlpha(190),
+                                    fontWeight: FontWeight.w500,
+                                    fontSize: 9.0,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                          Text(
+                            '${bibleVersionsMapping[viewModel.primaryBible]}',
+                            style: TextStyle(
+                              color: context.theme.appColors.primaryOnDark.withAlpha(140),
+                              fontSize: 10.0,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  PhosphorIcon(
+                    PhosphorIcons.caretRight(PhosphorIconsStyle.bold),
+                    color: context.theme.appColors.primaryOnDark,
+                    size: 18.0,
+                    semanticLabel: 'Caret down',
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }

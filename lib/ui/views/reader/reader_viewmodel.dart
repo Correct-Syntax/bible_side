@@ -66,7 +66,7 @@ class ReaderViewModel extends ReactiveViewModel {
   bool initialRefresh = false;
   int currentPage = 0;
 
-  Future<void> initilize() async {
+  void initilize() async {
     if (linkReaderAreaScrolling == true) {
       areasParentController = LinkedScrollControllerGroup();
       primaryAreaController = areasParentController.addAndGet();
@@ -75,8 +75,25 @@ class ReaderViewModel extends ReactiveViewModel {
       primaryAreaController = ScrollController();
       secondaryAreaController = ScrollController();
     }
-
     await refreshReader();
+  }
+
+  @override
+  void dispose() {
+    primaryAreaController.dispose();
+    secondaryAreaController.dispose();
+
+    primaryPagingUpController.removePageRequestListener((pageKey) {});
+    primaryPagingDownController.removePageRequestListener((pageKey) {});
+    secondaryPagingUpController.removePageRequestListener((pageKey) {});
+    secondaryPagingUpController.removePageRequestListener((pageKey) {});
+
+    primaryPagingUpController.dispose();
+    primaryPagingDownController.dispose();
+    secondaryPagingUpController.dispose();
+    secondaryPagingDownController.dispose();
+
+    super.dispose();
   }
 
   Future<void> refreshReader() async {
@@ -120,11 +137,11 @@ class ReaderViewModel extends ReactiveViewModel {
     numberOfSections = sectionStartEndMappingForOET[bookCode]!.length;
 
     // Refresh for first section/chapter
-    await fetchDown(currentPage, viewBy, Area.primary);
-    await fetchDown(currentPage, viewBy, Area.secondary);
+    fetchDown(currentPage, viewBy, Area.primary);
+    fetchDown(currentPage, viewBy, Area.secondary);
 
-    await fetchUp(currentPage, viewBy, Area.primary);
-    await fetchUp(currentPage, viewBy, Area.secondary);
+    fetchUp(currentPage, viewBy, Area.primary);
+    fetchUp(currentPage, viewBy, Area.secondary);
 
     rebuildUi();
   }
@@ -134,25 +151,25 @@ class ReaderViewModel extends ReactiveViewModel {
     rebuildUi();
   }
 
-  Future<void> fetchUp(int pageKey, ViewBy viewBy, Area area) async {
+  void fetchUp(int pageKey, ViewBy viewBy, Area area) {
     if (viewBy == ViewBy.section) {
-      await fetchUpSection(pageKey, area);
+      fetchUpSection(pageKey, area);
     } else if (viewBy == ViewBy.chapter) {
-      await fetchUpChapter(pageKey, area);
+      fetchUpChapter(pageKey, area);
     }
     log('UP | $viewBy | $area | $pageKey');
   }
 
-  Future<void> fetchDown(int pageKey, ViewBy viewBy, Area area) async {
+  void fetchDown(int pageKey, ViewBy viewBy, Area area) {
     if (viewBy == ViewBy.section) {
-      await fetchDownSection(pageKey, area);
+      fetchDownSection(pageKey, area);
     } else if (viewBy == ViewBy.chapter) {
-      await fetchDownChapter(pageKey, area);
+      fetchDownChapter(pageKey, area);
     }
     log('DOWN | $viewBy | $area | $pageKey');
   }
 
-  Future<void> fetchUpSection(int pageKey, Area area) async {
+  void fetchUpSection(int pageKey, Area area) {
     if (currentPage != 0) {
       if (initialRefresh == true) {
         pageKey -= 1;
@@ -224,7 +241,7 @@ class ReaderViewModel extends ReactiveViewModel {
   //   updatePagingControllers();
   // }
 
-  Future<void> fetchUpChapter(int pageKey, Area area) async {
+  void fetchUpChapter(int pageKey, Area area) {
     pageKey -= 1;
 
     List<Map<String, dynamic>> newPage = getPaginatedVerses(pageKey, area);
@@ -248,7 +265,7 @@ class ReaderViewModel extends ReactiveViewModel {
     updatePagingControllers();
   }
 
-  Future<void> fetchDownSection(int pageKey, Area area) async {
+  void fetchDownSection(int pageKey, Area area) {
     List<Map<String, dynamic>> newPage = getPaginatedVerses(pageKey, area);
 
     final int nextPageKey = pageKey + 1;
@@ -275,7 +292,7 @@ class ReaderViewModel extends ReactiveViewModel {
     updatePagingControllers();
   }
 
-  Future<void> fetchDownChapter(int pageKey, Area area) async {
+  void fetchDownChapter(int pageKey, Area area) {
     List<Map<String, dynamic>> newPage = getPaginatedVerses(pageKey, area);
 
     final bool isLastPage = newPage.isEmpty;

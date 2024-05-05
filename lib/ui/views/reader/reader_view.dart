@@ -18,9 +18,9 @@ class ReaderView extends StackedView<ReaderViewModel> {
   const ReaderView({Key? key}) : super(key: key);
 
   @override
-  void onViewModelReady(ReaderViewModel viewModel) async {
-    await viewModel.initilize();
+  void onViewModelReady(ReaderViewModel viewModel) {
     super.onViewModelReady(viewModel);
+    viewModel.initilize();
   }
 
   @override

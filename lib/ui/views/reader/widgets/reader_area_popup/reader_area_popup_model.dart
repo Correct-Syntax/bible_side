@@ -21,11 +21,17 @@ class ReaderAreaPopupModel extends ReactiveViewModel {
   }
 
   void onChangePrimaryBibleVersion() {
-    _navigationService.navigateToBiblesView(readerArea: Area.primary);
+    _navigationService.clearStackAndShow(
+      Routes.biblesView,
+      arguments: const BiblesViewArguments(readerArea: Area.primary),
+    );
   }
 
   void onChangeSecondaryBibleVersion() {
-    _navigationService.navigateToBiblesView(readerArea: Area.secondary);
+    _navigationService.clearStackAndShow(
+      Routes.biblesView,
+      arguments: const BiblesViewArguments(readerArea: Area.secondary),
+    );
   }
 
   void onEnableSecondaryArea() {
