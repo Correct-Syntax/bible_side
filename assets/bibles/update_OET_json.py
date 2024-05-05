@@ -1,5 +1,5 @@
 # Script to automatically update the OET .json files from the ESFM sources on GitHub
-# Requirements: npm, Python 3, and the Python Requests package
+# Requirements: npm via Node.js, Python 3, and the Python Requests package
 
 import os
 import subprocess
@@ -178,8 +178,9 @@ def convert_esfm_to_json(esfm_source_url, local_path, file_mapping):
 
       # Convert to json
       with open(json_filepath, 'wb') as file:
+        print(abs_path)
         output = subprocess.run(["usfm-grammar", str(abs_path), "--level", "relaxed"], 
-                                shell=True, stdout=file, stderr=subprocess.PIPE, text=True)
+                                shell=False, stdout=file, stderr=subprocess.PIPE, text=True)
 
       if output.returncode == 1:
         print("Error converting ESFM to json!")
