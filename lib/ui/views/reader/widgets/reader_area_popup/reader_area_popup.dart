@@ -40,10 +40,22 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
                   children: [
                     Row(
                       children: [
-                        PhosphorIcon(
-                          PhosphorIcons.squareSplitVertical(PhosphorIconsStyle.regular),
-                          color: context.theme.appColors.primaryOnDark,
-                          size: 22.0,
+                        Stack(
+                          children: [
+                            PhosphorIcon(
+                              PhosphorIcons.squareSplitVertical(PhosphorIconsStyle.regular),
+                              color: context.theme.appColors.primaryOnDark,
+                              size: 22.0,
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(top: 4.0, left: 4.0),
+                              child: Container(
+                                width: 14.0,
+                                height: 7.0,
+                                color: Colors.white,
+                              ),
+                            ),
+                          ],
                         ),
                         const SizedBox(width: 14.0),
                         Column(
@@ -69,7 +81,7 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
                                     viewModel.showSecondaryArea ? 'Secondary' : 'Tap to enable',
                                     style: TextStyle(
                                       color: viewModel.showSecondaryArea
-                                          ? context.theme.appColors.primaryOnDark.withAlpha(190)
+                                          ? context.theme.appColors.primaryOnDark.withAlpha(220)
                                           : context.theme.appColors.primaryOnDark,
                                       fontWeight: FontWeight.w500,
                                       fontSize: 9.0,
@@ -81,7 +93,7 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
                             Text(
                               '${bibleVersionsMapping[viewModel.secondaryBible]}',
                               style: TextStyle(
-                                color: context.theme.appColors.primaryOnDark.withAlpha(140),
+                                color: context.theme.appColors.primaryOnDark.withAlpha(180),
                                 fontSize: 10.0,
                               ),
                             ),
@@ -125,10 +137,22 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
                 children: [
                   Row(
                     children: [
-                      PhosphorIcon(
-                        PhosphorIcons.squareSplitVertical(PhosphorIconsStyle.regular),
-                        color: context.theme.appColors.primaryOnDark,
-                        size: 22.0,
+                      Stack(
+                        children: [
+                          PhosphorIcon(
+                            PhosphorIcons.squareSplitVertical(PhosphorIconsStyle.regular),
+                            color: context.theme.appColors.primaryOnDark,
+                            size: 22.0,
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 12.0, left: 4.0),
+                            child: Container(
+                              width: 14.0,
+                              height: 7.0,
+                              color: Colors.white,
+                            ),
+                          ),
+                        ],
                       ),
                       const SizedBox(width: 14.0),
                       Column(
@@ -153,7 +177,7 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
                                 child: Text(
                                   'Primary',
                                   style: TextStyle(
-                                    color: context.theme.appColors.primaryOnDark.withAlpha(190),
+                                    color: context.theme.appColors.primaryOnDark.withAlpha(220),
                                     fontWeight: FontWeight.w500,
                                     fontSize: 9.0,
                                   ),
@@ -164,7 +188,7 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
                           Text(
                             '${bibleVersionsMapping[viewModel.primaryBible]}',
                             style: TextStyle(
-                              color: context.theme.appColors.primaryOnDark.withAlpha(140),
+                              color: context.theme.appColors.primaryOnDark.withAlpha(180),
                               fontSize: 10.0,
                             ),
                           ),
