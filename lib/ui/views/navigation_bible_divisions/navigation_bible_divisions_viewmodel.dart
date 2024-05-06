@@ -39,4 +39,8 @@ class NavigationBibleDivisionsViewModel extends BaseViewModel {
   void onTapRecentBookItem(String bookCode) {
     _navigationService.navigateToNavigationSectionsChaptersView(bookCode: bookCode);
   }
+
+  void onPopInvoked(bool onPopInvoked) async {
+    _navigationService.clearStackAndShow(Routes.readerView);
+  }
 }

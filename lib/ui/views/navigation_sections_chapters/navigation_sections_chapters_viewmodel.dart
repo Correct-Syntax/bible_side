@@ -58,8 +58,7 @@ class NavigationSectionsChaptersViewModel extends BaseViewModel {
 
     // For bibles that do not have a by section implementation
     //_biblesService.setChapter();
-
-    _navigationService.navigateToReaderView();
+    _navigationService.clearStackAndShow(Routes.readerView);
     await _biblesService.reloadBiblesJson();
   }
 

@@ -1,12 +1,15 @@
 import 'package:stacked/stacked.dart';
+import 'package:stacked_services/stacked_services.dart';
 
 import '../../../app/app.locator.dart';
+import '../../../app/app.router.dart';
 import '../../../services/app_info_service.dart';
 import '../../../services/settings_service.dart';
 
 class SettingsViewModel extends FutureViewModel<String> {
   final _settingsService = locator<SettingsService>();
   final _appInfoService = locator<AppInfoService>();
+  final _navigationService = locator<NavigationService>();
 
   @override
   Future<String> futureToRun() => getAppVersion();
@@ -40,5 +43,9 @@ class SettingsViewModel extends FutureViewModel<String> {
   Future<String> getAppVersion() async {
     String appVersion = await _appInfoService.getAppVersion();
     return 'v$appVersion';
+  }
+
+  void onPopInvoked(bool onPopInvoked) async {
+    _navigationService.clearStackAndShow(Routes.readerView);
   }
 }

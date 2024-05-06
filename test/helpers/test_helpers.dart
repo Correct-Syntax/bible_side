@@ -5,7 +5,6 @@ import 'package:stacked_services/stacked_services.dart';
 import 'package:bible_side/services/bibles_service.dart';
 import 'package:bible_side/services/settings_service.dart';
 import 'package:bible_side/services/app_info_service.dart';
-import 'package:bible_side/services/side_navigation_service.dart';
 import 'package:bible_side/services/reader_service.dart';
 import 'package:bible_side/services/json_service.dart';
 // @stacked-import
@@ -19,7 +18,6 @@ import 'test_helpers.mocks.dart';
   MockSpec<BiblesService>(onMissingStub: OnMissingStub.returnDefault),
   MockSpec<SettingsService>(onMissingStub: OnMissingStub.returnDefault),
   MockSpec<AppInfoService>(onMissingStub: OnMissingStub.returnDefault),
-  MockSpec<SideNavigationService>(onMissingStub: OnMissingStub.returnDefault),
   MockSpec<ReaderService>(onMissingStub: OnMissingStub.returnDefault),
   MockSpec<JsonService>(onMissingStub: OnMissingStub.returnDefault),
 // @stacked-mock-spec
@@ -31,7 +29,6 @@ void registerServices() {
   getAndRegisterBiblesService();
   getAndRegisterSettingsService();
   getAndRegisterAppInfoService();
-  getAndRegisterSideNavigationService();
   getAndRegisterReaderService();
   getAndRegisterJsonService();
 // @stacked-mock-register
@@ -104,13 +101,6 @@ MockAppInfoService getAndRegisterAppInfoService() {
   _removeRegistrationIfExists<AppInfoService>();
   final service = MockAppInfoService();
   locator.registerSingleton<AppInfoService>(service);
-  return service;
-}
-
-MockSideNavigationService getAndRegisterSideNavigationService() {
-  _removeRegistrationIfExists<SideNavigationService>();
-  final service = MockSideNavigationService();
-  locator.registerSingleton<SideNavigationService>(service);
   return service;
 }
 

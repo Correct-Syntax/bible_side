@@ -15,41 +15,45 @@ class SearchView extends StackedView<SearchViewModel> {
     Widget? child,
   ) {
     bool isPortrait = isPortraitOrientation(context);
-    return Scaffold(
-      backgroundColor: context.theme.appColors.background,
-      appBar: AppBar(
+    return PopScope(
+      canPop: false,
+      onPopInvoked: viewModel.onPopInvoked,
+      child: Scaffold(
         backgroundColor: context.theme.appColors.background,
-        centerTitle: true,
-        scrolledUnderElevation: 0.0,
-        title: isPortrait
-            ? null
-            : Text(
-                'Search',
-                style: TextStyle(
-                  color: context.theme.appColors.primary,
-                  fontSize: 18.0,
-                  fontWeight: FontWeight.w500,
-                ),
-              ),
-      ),
-      body: SingleChildScrollView(
-        child: Container(
-          padding: const EdgeInsets.only(top: 26.0, left: 25.0, right: 25.0),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              //Searchbar(),
-              Padding(
-                padding: const EdgeInsets.only(top: 12.0),
-                child: Text(
-                  'Sorry, search is not implemented yet.',
+        appBar: AppBar(
+          backgroundColor: context.theme.appColors.background,
+          centerTitle: true,
+          scrolledUnderElevation: 0.0,
+          title: isPortrait
+              ? null
+              : Text(
+                  'Search',
                   style: TextStyle(
                     color: context.theme.appColors.primary,
-                    fontSize: 13.0,
+                    fontSize: 18.0,
+                    fontWeight: FontWeight.w500,
                   ),
                 ),
-              ),
-            ],
+        ),
+        body: SingleChildScrollView(
+          child: Container(
+            padding: const EdgeInsets.only(top: 26.0, left: 25.0, right: 25.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                //Searchbar(),
+                Padding(
+                  padding: const EdgeInsets.only(top: 12.0),
+                  child: Text(
+                    'Search is not implemented yet.',
+                    style: TextStyle(
+                      color: context.theme.appColors.primary,
+                      fontSize: 13.0,
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ),
         ),
       ),

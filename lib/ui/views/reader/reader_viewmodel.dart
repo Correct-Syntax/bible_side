@@ -12,16 +12,12 @@ import '../../../common/oet_rv_section_start_end.dart';
 import '../../../services/bibles_service.dart';
 import '../../../services/reader_service.dart';
 import '../../../services/settings_service.dart';
-import '../../../services/side_navigation_service.dart';
 
 class ReaderViewModel extends ReactiveViewModel {
-  final _sideNavigationService = locator<SideNavigationService>();
   final _biblesService = locator<BiblesService>();
   final _readerService = locator<ReaderService>();
   final _settingsService = locator<SettingsService>();
   final _navigationService = locator<NavigationService>();
-
-  int get currentIndex => _sideNavigationService.currentIndex;
 
   String get primaryAreaBible => _settingsService.primaryBible;
   String get secondaryAreaBible => _settingsService.secondaryBible;
@@ -72,6 +68,7 @@ class ReaderViewModel extends ReactiveViewModel {
       primaryAreaController = areasParentController.addAndGet();
       secondaryAreaController = areasParentController.addAndGet();
     } else {
+      areasParentController = LinkedScrollControllerGroup();
       primaryAreaController = ScrollController();
       secondaryAreaController = ScrollController();
     }
@@ -143,11 +140,6 @@ class ReaderViewModel extends ReactiveViewModel {
     fetchUp(currentPage, viewBy, Area.primary);
     fetchUp(currentPage, viewBy, Area.secondary);
 
-    rebuildUi();
-  }
-
-  void setCurrentIndex(int index) {
-    _sideNavigationService.setCurrentIndex(index);
     rebuildUi();
   }
 
@@ -335,7 +327,10 @@ class ReaderViewModel extends ReactiveViewModel {
   }
 
   void onTapBook(Area area) {
-    _navigationService.navigateToNavigationBibleDivisionsView(readerArea: area);
+    _navigationService.clearStackAndShow(
+      Routes.navigationBibleDivisionsView,
+      arguments: NavigationBibleDivisionsViewArguments(readerArea: area),
+    );
   }
 
   void onTapBibleVersion(Area? area) {
@@ -353,7 +348,7 @@ class ReaderViewModel extends ReactiveViewModel {
   }
 
   void onTapSearch() {
-    _navigationService.navigateToSearchView();
+    _navigationService.clearStackAndShow(Routes.searchView);
   }
 
   void toggleSecondaryArea() {

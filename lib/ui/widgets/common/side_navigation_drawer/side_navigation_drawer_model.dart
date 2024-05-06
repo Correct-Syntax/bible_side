@@ -8,10 +8,10 @@ class SideNavigationDrawerModel extends BaseViewModel {
   final _navigationService = locator<NavigationService>();
 
   void onTapSearch() {
-    _navigationService.navigateToSearchView();
+    _navigationService.clearStackAndShow(Routes.searchView);
   }
 
   void onTapSettings() {
-    _navigationService.navigateToSettingsView();
+    _navigationService.clearStackAndShow(Routes.settingsView);
   }
 }
