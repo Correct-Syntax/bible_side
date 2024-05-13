@@ -124,6 +124,10 @@ class ReaderView extends StackedView<ReaderViewModel> {
                     color: context.theme.appColors.divider,
                   ),
                 ),
+              if (!viewModel.showSecondaryArea)
+                SizedBox(
+                  height: MediaQuery.of(context).viewPadding.top,
+                ),
               Expanded(
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 24.0),
