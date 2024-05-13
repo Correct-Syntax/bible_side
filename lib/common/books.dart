@@ -198,6 +198,16 @@ Map<String, int> bookNumOfChaptersMapping = {
   'REV': 22,
 };
 
+// Uncompleted OET books
+// TODO: update as the OET is drafted more.
+List<String> uncompletedOETDivisions = [
+  'TORAH',
+  'HISTORY',
+  'POETRY_WISDOM',
+  'MAJOR_PROPHETS',
+  'MINOR_PROPHETS',
+];
+
 class BooksMapping {
   static String bookNameFromBookCode(String bookCode) {
     String bookName = '';

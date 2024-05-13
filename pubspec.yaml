@@ -21,6 +21,7 @@ dependencies:
   infinite_scroll_pagination: ^4.0.0
   visibility_detector: ^0.4.0+2
   package_info_plus: ^7.0.0
+  fluttertoast: ^8.2.5
   shared_preferences: ^2.2.3
 
 dev_dependencies:
@@ -52,84 +53,120 @@ flutter:
   assets:
     - assets/images/
 
+    - assets/bibles/OET-RV/GEN.json
     - assets/bibles/KJV/GEN.json
 
+    - assets/bibles/OET-RV/EXO.json
     - assets/bibles/KJV/EXO.json
 
+    - assets/bibles/OET-RV/LEV.json
     - assets/bibles/KJV/LEV.json
 
+    - assets/bibles/OET-RV/NUM.json
     - assets/bibles/KJV/NUM.json
 
+    - assets/bibles/OET-RV/DEU.json
     - assets/bibles/KJV/DEU.json
 
+    - assets/bibles/OET-RV/JOS.json
     - assets/bibles/KJV/JOS.json
 
+    - assets/bibles/OET-RV/JDG.json
     - assets/bibles/KJV/JDG.json
 
+    - assets/bibles/OET-RV/RUT.json
     - assets/bibles/KJV/RUT.json
 
+    - assets/bibles/OET-RV/SA1.json
     - assets/bibles/KJV/SA1.json
 
+    - assets/bibles/OET-RV/SA2.json
     - assets/bibles/KJV/SA2.json
 
+    - assets/bibles/OET-RV/KI1.json
     - assets/bibles/KJV/KI1.json
 
+    - assets/bibles/OET-RV/KI2.json
     - assets/bibles/KJV/KI2.json
 
+    - assets/bibles/OET-RV/CH1.json
     - assets/bibles/KJV/CH1.json
 
+    - assets/bibles/OET-RV/CH2.json
     - assets/bibles/KJV/CH2.json
 
+    - assets/bibles/OET-RV/EZR.json
     - assets/bibles/KJV/EZR.json
 
+    - assets/bibles/OET-RV/NEH.json
     - assets/bibles/KJV/NEH.json
 
+    - assets/bibles/OET-RV/EST.json
     - assets/bibles/KJV/EST.json
 
+    - assets/bibles/OET-RV/JOB.json
     - assets/bibles/KJV/JOB.json
 
     - assets/bibles/KJV/PSA.json
 
+    - assets/bibles/OET-RV/PRO.json
     - assets/bibles/KJV/PRO.json
 
+    - assets/bibles/OET-RV/ECC.json
     - assets/bibles/KJV/ECC.json
 
+    - assets/bibles/OET-RV/SNG.json
     - assets/bibles/KJV/SNG.json
 
+    - assets/bibles/OET-RV/ISA.json
     - assets/bibles/KJV/ISA.json
 
+    - assets/bibles/OET-RV/JER.json
     - assets/bibles/KJV/JER.json
 
     - assets/bibles/KJV/LAM.json
 
+    - assets/bibles/OET-RV/EZE.json
     - assets/bibles/KJV/EZE.json
 
+    - assets/bibles/OET-RV/DAN.json
     - assets/bibles/KJV/DAN.json
 
+    - assets/bibles/OET-RV/HOS.json
     - assets/bibles/KJV/HOS.json
 
+    - assets/bibles/OET-RV/JOL.json
     - assets/bibles/KJV/JOL.json
 
+    - assets/bibles/OET-RV/AMO.json
     - assets/bibles/KJV/AMO.json
 
+    - assets/bibles/OET-RV/OBA.json
     - assets/bibles/KJV/OBA.json
 
+    - assets/bibles/OET-RV/JNA.json
     - assets/bibles/KJV/JNA.json
 
+    - assets/bibles/OET-RV/MIC.json
     - assets/bibles/KJV/MIC.json
 
+    - assets/bibles/OET-RV/NAH.json
     - assets/bibles/KJV/NAH.json
 
+    - assets/bibles/OET-RV/HAB.json
     - assets/bibles/KJV/HAB.json
 
+    - assets/bibles/OET-RV/ZEP.json
     - assets/bibles/KJV/ZEP.json
 
+    - assets/bibles/OET-RV/HAG.json
     - assets/bibles/KJV/HAG.json
 
+    - assets/bibles/OET-RV/ZEC.json
     - assets/bibles/KJV/ZEC.json
 
+    - assets/bibles/OET-RV/MAL.json
     - assets/bibles/KJV/MAL.json
-
 
     - assets/bibles/OET-RV/MAT.json
     - assets/bibles/OET-LV/MAT.json

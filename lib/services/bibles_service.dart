@@ -79,4 +79,18 @@ class BiblesService with ListenableServiceMixin {
     }
     _settingsService.setNavRecentBooks(newHistory);
   }
+
+  bool isBibleOET(String bible) {
+    return (bible == 'OET-RV' || bible == 'OET-LV');
+  }
+
+  bool isReaderBibleOET(Area readerArea) {
+    if (readerArea == Area.primary) {
+      return isBibleOET(primaryBible);
+    } else if (readerArea == Area.secondary) {
+      return isBibleOET(secondaryBible);
+    } else {
+      return false;
+    }
+  }
 }

@@ -50,41 +50,45 @@ class NavigationBibleDivisionsView extends StackedView<NavigationBibleDivisionsV
                   itemCount: booksMapping.keys.length,
                   itemBuilder: (BuildContext context, int index) {
                     String bibleDivisionCode = BooksMapping.bibleDivisionCodeFromIndex(index);
+                    bool isDisabled = viewModel.isItemDisabled(bibleDivisionCode);
                     return InkWell(
-                      onTap: () => viewModel.onTapBibleDivisionItem(bibleDivisionCode),
-                      child: Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 15.0, horizontal: 25.0),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          crossAxisAlignment: CrossAxisAlignment.center,
-                          children: [
-                            Row(
-                              children: [
-                                Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Padding(
-                                    padding: const EdgeInsets.only(bottom: 13.0, right: 8),
-                                    child: BibleDivisionIndicator(
-                                      color: BooksMapping.colorFromBibleDivisionCode(bibleDivisionCode),
+                      onTap: () => viewModel.onTapBibleDivisionItem(bibleDivisionCode, isDisabled),
+                      child: Opacity(
+                        opacity: isDisabled ? 0.5 : 1.0,
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(vertical: 15.0, horizontal: 25.0),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                              Row(
+                                children: [
+                                  Align(
+                                    alignment: Alignment.topLeft,
+                                    child: Padding(
+                                      padding: const EdgeInsets.only(bottom: 13.0, right: 8),
+                                      child: BibleDivisionIndicator(
+                                        color: BooksMapping.colorFromBibleDivisionCode(bibleDivisionCode),
+                                      ),
                                     ),
                                   ),
-                                ),
-                                Text(
-                                  BooksMapping.bibleDivisionNameFromCode(bibleDivisionCode),
-                                  style: TextStyle(
-                                    color: context.theme.appColors.primary,
-                                    fontSize: 16.0,
+                                  Text(
+                                    BooksMapping.bibleDivisionNameFromCode(bibleDivisionCode),
+                                    style: TextStyle(
+                                      color: context.theme.appColors.primary,
+                                      fontSize: 16.0,
+                                    ),
                                   ),
-                                ),
-                              ],
-                            ),
-                            PhosphorIcon(
-                              PhosphorIcons.caretRight(PhosphorIconsStyle.bold),
-                              color: context.theme.appColors.primary,
-                              size: 18.0,
-                              semanticLabel: 'Caret right',
-                            ),
-                          ],
+                                ],
+                              ),
+                              PhosphorIcon(
+                                PhosphorIcons.caretRight(PhosphorIconsStyle.bold),
+                                color: context.theme.appColors.primary,
+                                size: 18.0,
+                                semanticLabel: 'Caret right',
+                              ),
+                            ],
+                          ),
                         ),
                       ),
                     );
@@ -92,7 +96,9 @@ class NavigationBibleDivisionsView extends StackedView<NavigationBibleDivisionsV
                 ),
               ),
               Container(
-                color: context.theme.appColors.appbarBackground,
+                color: context.theme.brightness == Brightness.dark
+                    ? context.theme.appColors.appbarBackground
+                    : context.theme.appColors.appbarBackground.withAlpha(8),
                 padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 child: Column(
                   children: [
@@ -100,14 +106,14 @@ class NavigationBibleDivisionsView extends StackedView<NavigationBibleDivisionsV
                       children: [
                         PhosphorIcon(
                           PhosphorIcons.clockCounterClockwise(PhosphorIconsStyle.regular),
-                          color: context.theme.appColors.primaryOnDark,
+                          color: context.theme.appColors.secondary,
                           size: 16.0,
                         ),
                         const SizedBox(width: 4),
                         Text(
                           'RECENT',
                           style: TextStyle(
-                            color: context.theme.appColors.primaryOnDark,
+                            color: context.theme.appColors.secondary,
                             fontSize: 12.0,
                             fontWeight: FontWeight.w500,
                           ),
@@ -137,7 +143,7 @@ class NavigationBibleDivisionsView extends StackedView<NavigationBibleDivisionsV
                                       maxLines: 1,
                                       overflow: TextOverflow.ellipsis,
                                       style: TextStyle(
-                                        color: context.theme.appColors.primaryOnDark,
+                                        color: context.theme.appColors.primary,
                                         fontSize: 16.0,
                                       ),
                                     ),
@@ -150,7 +156,7 @@ class NavigationBibleDivisionsView extends StackedView<NavigationBibleDivisionsV
                               child: Text(
                                 'Your recent books will appear here.',
                                 style: TextStyle(
-                                  color: context.theme.appColors.secondaryOnDark,
+                                  color: context.theme.appColors.secondary,
                                   fontSize: 13.0,
                                 ),
                               ),

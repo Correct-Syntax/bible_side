@@ -126,14 +126,16 @@ class StackedRouter extends _i1.RouterBase {
     _i8.NavigationBooksView: (data) {
       final args = data.getArgs<NavigationBooksViewArguments>(nullOk: false);
       return _i10.MaterialPageRoute<dynamic>(
-        builder: (context) => _i8.NavigationBooksView(key: args.key, bibleDivisionCode: args.bibleDivisionCode),
+        builder: (context) => _i8.NavigationBooksView(
+            key: args.key, readerArea: args.readerArea, bibleDivisionCode: args.bibleDivisionCode),
         settings: data,
       );
     },
     _i9.NavigationSectionsChaptersView: (data) {
       final args = data.getArgs<NavigationSectionsChaptersViewArguments>(nullOk: false);
       return _i10.MaterialPageRoute<dynamic>(
-        builder: (context) => _i9.NavigationSectionsChaptersView(key: args.key, bookCode: args.bookCode),
+        builder: (context) =>
+            _i9.NavigationSectionsChaptersView(key: args.key, readerArea: args.readerArea, bookCode: args.bookCode),
         settings: data,
       );
     },
@@ -203,54 +205,60 @@ class NavigationBibleDivisionsViewArguments {
 class NavigationBooksViewArguments {
   const NavigationBooksViewArguments({
     this.key,
+    required this.readerArea,
     required this.bibleDivisionCode,
   });
 
   final _i10.Key? key;
 
+  final _i11.Area readerArea;
+
   final String bibleDivisionCode;
 
   @override
   String toString() {
-    return '{"key": "$key", "bibleDivisionCode": "$bibleDivisionCode"}';
+    return '{"key": "$key", "readerArea": "$readerArea", "bibleDivisionCode": "$bibleDivisionCode"}';
   }
 
   @override
   bool operator ==(covariant NavigationBooksViewArguments other) {
     if (identical(this, other)) return true;
-    return other.key == key && other.bibleDivisionCode == bibleDivisionCode;
+    return other.key == key && other.readerArea == readerArea && other.bibleDivisionCode == bibleDivisionCode;
   }
 
   @override
   int get hashCode {
-    return key.hashCode ^ bibleDivisionCode.hashCode;
+    return key.hashCode ^ readerArea.hashCode ^ bibleDivisionCode.hashCode;
   }
 }
 
 class NavigationSectionsChaptersViewArguments {
   const NavigationSectionsChaptersViewArguments({
     this.key,
+    required this.readerArea,
     required this.bookCode,
   });
 
   final _i10.Key? key;
 
+  final _i11.Area readerArea;
+
   final String bookCode;
 
   @override
   String toString() {
-    return '{"key": "$key", "bookCode": "$bookCode"}';
+    return '{"key": "$key", "readerArea": "$readerArea", "bookCode": "$bookCode"}';
   }
 
   @override
   bool operator ==(covariant NavigationSectionsChaptersViewArguments other) {
     if (identical(this, other)) return true;
-    return other.key == key && other.bookCode == bookCode;
+    return other.key == key && other.readerArea == readerArea && other.bookCode == bookCode;
   }
 
   @override
   int get hashCode {
-    return key.hashCode ^ bookCode.hashCode;
+    return key.hashCode ^ readerArea.hashCode ^ bookCode.hashCode;
   }
 }
 
@@ -329,6 +337,7 @@ extension NavigatorStateExtension on _i12.NavigationService {
 
   Future<dynamic> navigateToNavigationBooksView({
     _i10.Key? key,
+    required _i11.Area readerArea,
     required String bibleDivisionCode,
     int? routerId,
     bool preventDuplicates = true,
@@ -336,7 +345,7 @@ extension NavigatorStateExtension on _i12.NavigationService {
     Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)? transition,
   }) async {
     return navigateTo<dynamic>(Routes.navigationBooksView,
-        arguments: NavigationBooksViewArguments(key: key, bibleDivisionCode: bibleDivisionCode),
+        arguments: NavigationBooksViewArguments(key: key, readerArea: readerArea, bibleDivisionCode: bibleDivisionCode),
         id: routerId,
         preventDuplicates: preventDuplicates,
         parameters: parameters,
@@ -345,6 +354,7 @@ extension NavigatorStateExtension on _i12.NavigationService {
 
   Future<dynamic> navigateToNavigationSectionsChaptersView({
     _i10.Key? key,
+    required _i11.Area readerArea,
     required String bookCode,
     int? routerId,
     bool preventDuplicates = true,
@@ -352,7 +362,7 @@ extension NavigatorStateExtension on _i12.NavigationService {
     Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)? transition,
   }) async {
     return navigateTo<dynamic>(Routes.navigationSectionsChaptersView,
-        arguments: NavigationSectionsChaptersViewArguments(key: key, bookCode: bookCode),
+        arguments: NavigationSectionsChaptersViewArguments(key: key, readerArea: readerArea, bookCode: bookCode),
         id: routerId,
         preventDuplicates: preventDuplicates,
         parameters: parameters,
@@ -433,6 +443,7 @@ extension NavigatorStateExtension on _i12.NavigationService {
 
   Future<dynamic> replaceWithNavigationBooksView({
     _i10.Key? key,
+    required _i11.Area readerArea,
     required String bibleDivisionCode,
     int? routerId,
     bool preventDuplicates = true,
@@ -440,7 +451,7 @@ extension NavigatorStateExtension on _i12.NavigationService {
     Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)? transition,
   }) async {
     return replaceWith<dynamic>(Routes.navigationBooksView,
-        arguments: NavigationBooksViewArguments(key: key, bibleDivisionCode: bibleDivisionCode),
+        arguments: NavigationBooksViewArguments(key: key, readerArea: readerArea, bibleDivisionCode: bibleDivisionCode),
         id: routerId,
         preventDuplicates: preventDuplicates,
         parameters: parameters,
@@ -449,6 +460,7 @@ extension NavigatorStateExtension on _i12.NavigationService {
 
   Future<dynamic> replaceWithNavigationSectionsChaptersView({
     _i10.Key? key,
+    required _i11.Area readerArea,
     required String bookCode,
     int? routerId,
     bool preventDuplicates = true,
@@ -456,7 +468,7 @@ extension NavigatorStateExtension on _i12.NavigationService {
     Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)? transition,
   }) async {
     return replaceWith<dynamic>(Routes.navigationSectionsChaptersView,
-        arguments: NavigationSectionsChaptersViewArguments(key: key, bookCode: bookCode),
+        arguments: NavigationSectionsChaptersViewArguments(key: key, readerArea: readerArea, bookCode: bookCode),
         id: routerId,
         preventDuplicates: preventDuplicates,
         parameters: parameters,
