@@ -66,11 +66,11 @@ class OETLiteralBibleImpl extends JsonToBible with OETBaseMixin {
         } else if (key == 'verseText') {
           String verseText;
 
-          verseText = item[key];
-          // .replaceAll(RegExp(r'¦([0-9])*\d+'), '')
-          // .replaceAll(' +', ' ')
-          // .replaceAll('>', ' ')
-          // .replaceAll('=', ' ');
+          verseText = item[key]
+              .replaceAll(RegExp(r'¦([0-9])*\d+'), '')
+              .replaceAll(' +', ' ')
+              .replaceAll('>', ' ')
+              .replaceAll('=', ' ');
 
           wordSpans.add(TextSpan(text: verseText));
 
