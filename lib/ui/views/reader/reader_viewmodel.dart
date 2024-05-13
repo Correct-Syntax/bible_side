@@ -1,6 +1,5 @@
 import 'dart:developer';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
 import 'package:linked_scroll_controller/linked_scroll_controller.dart';
 import 'package:stacked/stacked.dart';
@@ -10,7 +9,6 @@ import '../../../app/app.locator.dart';
 import '../../../app/app.router.dart';
 import '../../../common/enums.dart';
 import '../../../common/oet_rv_section_start_end.dart';
-import '../../../common/themes.dart';
 import '../../../services/bibles_service.dart';
 import '../../../services/reader_service.dart';
 import '../../../services/settings_service.dart';
@@ -65,11 +63,6 @@ class ReaderViewModel extends ReactiveViewModel {
   int currentPage = 0;
 
   void initilize() async {
-    // Color the statusbar
-    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-      statusBarColor: context.theme.appColors.appbarBackground,
-    ));
-
     if (linkReaderAreaScrolling == true) {
       areasParentController = LinkedScrollControllerGroup();
       primaryAreaController = areasParentController.addAndGet();

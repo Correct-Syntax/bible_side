@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:flutter/services.dart';
 import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
 import 'package:visibility_detector/visibility_detector.dart';
 import 'package:stacked/stacked.dart';
@@ -29,6 +30,12 @@ class ReaderView extends StackedView<ReaderViewModel> {
     ReaderViewModel viewModel,
     Widget? child,
   ) {
+    // Color the statusbar
+    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+      statusBarBrightness: Brightness.dark,
+      statusBarIconBrightness: Brightness.light,
+      statusBarColor: context.theme.appColors.appbarBackground,
+    ));
     return Scaffold(
       key: _scaffoldKey,
       backgroundColor: context.theme.appColors.background,
