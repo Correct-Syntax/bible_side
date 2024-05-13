@@ -3,6 +3,7 @@ import 'package:phosphor_flutter/phosphor_flutter.dart';
 import 'package:stacked/stacked.dart';
 
 import '../../../common/books.dart';
+import '../../../common/enums.dart';
 import '../../../common/themes.dart';
 import '../../common/ui_helpers.dart';
 import '../../widgets/common/bible_division_indicator/bible_division_indicator.dart';
@@ -11,9 +12,11 @@ import 'navigation_books_viewmodel.dart';
 class NavigationBooksView extends StackedView<NavigationBooksViewModel> {
   const NavigationBooksView({
     Key? key,
+    required this.readerArea,
     required this.bibleDivisionCode,
   }) : super(key: key);
 
+  final Area readerArea;
   final String bibleDivisionCode;
 
   @override
@@ -116,5 +119,5 @@ class NavigationBooksView extends StackedView<NavigationBooksViewModel> {
   NavigationBooksViewModel viewModelBuilder(
     BuildContext context,
   ) =>
-      NavigationBooksViewModel();
+      NavigationBooksViewModel(readerArea: readerArea);
 }
