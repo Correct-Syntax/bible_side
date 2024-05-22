@@ -35,11 +35,13 @@ class NavigationSectionsChaptersViewModel extends BaseViewModel {
         bookNumOfChaptersMapping.values.firstWhere((element) => element == bookNumOfChaptersMapping[bookCode]);
     bookChapters = [for (int i = 1; i <= numOfChapters; i++) i.toString()];
 
-    // Generate sections
-    sections = sectionHeadingsMappingForOET[bookCode]!;
-
     // Set whether to show by sections or by chapters
     displaySections = _biblesService.isReaderBibleOET(readerArea);
+
+    // Generate sections
+    if (displaySections) {
+      sections = sectionHeadingsMappingForOET[bookCode]!;
+    }
 
     rebuildUi();
   }
