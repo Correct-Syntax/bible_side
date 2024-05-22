@@ -43,7 +43,7 @@ class OETReadersBibleImpl extends JsonToBible with OETBaseMixin {
           for (var innerMap in item[key]) {
             if (innerMap is Map) {
               if (innerMap.containsKey('s1')) {
-                if (innerMap['s1'].runtimeType == String) {
+                if (innerMap['s1'] is String) {
                   sectionText = innerMap['s1'];
                   isSection = true;
                 }
@@ -174,7 +174,7 @@ class OETReadersBibleImpl extends JsonToBible with OETBaseMixin {
             for (var innerMap in item[key]) {
               if (innerMap is Map) {
                 if (innerMap.containsKey('s1')) {
-                  if (innerMap['s1'].runtimeType == String) {
+                  if (innerMap['s1'] is String) {
                     sectionText = innerMap['s1'];
                     isSection = true;
                   }
@@ -212,11 +212,11 @@ class OETReadersBibleImpl extends JsonToBible with OETBaseMixin {
             // Note: we remove numbers and markings related to links for now
             String verseText;
 
-            verseText = item[key];
-            // .replaceAll(RegExp(r'¦([0-9])*\d+'), '')
-            // .replaceAll(' +', ' ')
-            // .replaceAll('>', ' ')
-            // .replaceAll('=', ' ');
+            verseText = item[key]
+                .replaceAll(RegExp(r'¦([0-9])*\d+'), '')
+                .replaceAll(' +', ' ')
+                .replaceAll('>', ' ')
+                .replaceAll('=', ' ');
 
             wordSpans.add(TextSpan(text: verseText));
 
