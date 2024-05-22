@@ -10,7 +10,7 @@ import 'widgets/settings_text_preview/settings_text_preview.dart';
 import 'widgets/settings_theme_item/settings_theme_item.dart';
 
 class SettingsView extends StackedView<SettingsViewModel> {
-  const SettingsView({Key? key}) : super(key: key);
+  const SettingsView({super.key});
 
   @override
   Widget builder(
@@ -140,72 +140,72 @@ class SettingsView extends StackedView<SettingsViewModel> {
                     height: 0,
                     color: context.theme.appColors.divider,
                   ),
-                  // Show special markings
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text(
-                          'Show OET-LV special markings',
-                          style: TextStyle(
-                            color: context.theme.appColors.primary,
-                            fontSize: 16.0,
-                            fontWeight: FontWeight.w500,
-                          ),
-                        ),
-                        Switch(
-                          activeColor: context.theme.appColors.background,
-                          activeTrackColor: context.theme.appColors.switchBackground,
-                          inactiveThumbColor: context.theme.appColors.primary,
-                          inactiveTrackColor: context.theme.appColors.background,
-                          trackOutlineColor: MaterialStateProperty.resolveWith((states) {
-                            if (states.contains(MaterialState.selected)) {
-                              return context.theme.appColors.switchBackground;
-                            }
-                            return context.theme.appColors.primary;
-                          }),
-                          value: viewModel.showMarks,
-                          onChanged: viewModel.changeShowMarks,
-                        ),
-                      ],
-                    ),
-                  ),
-                  Divider(
-                    height: 0,
-                    color: context.theme.appColors.divider,
-                  ),
-                  // Show chapters and verses
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text(
-                          'Show chapters and verses',
-                          style: TextStyle(
-                            color: context.theme.appColors.primary,
-                            fontSize: 16.0,
-                            fontWeight: FontWeight.w500,
-                          ),
-                        ),
-                        Switch(
-                          activeColor: context.theme.appColors.background,
-                          activeTrackColor: context.theme.appColors.switchBackground,
-                          inactiveThumbColor: context.theme.appColors.primary,
-                          inactiveTrackColor: context.theme.appColors.background,
-                          trackOutlineColor: MaterialStateProperty.resolveWith((states) {
-                            if (states.contains(MaterialState.selected)) {
-                              return context.theme.appColors.switchBackground;
-                            }
-                            return context.theme.appColors.primary;
-                          }),
-                          value: viewModel.showChaptersAndVerses,
-                          onChanged: viewModel.changeShowChaptersAndVerses,
-                        ),
-                      ],
-                    ),
-                  ),
+                  // // Show special markings
+                  // Padding(
+                  //   padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
+                  //   child: Row(
+                  //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  //     children: [
+                  //       Text(
+                  //         'Show OET-LV special markings',
+                  //         style: TextStyle(
+                  //           color: context.theme.appColors.primary,
+                  //           fontSize: 16.0,
+                  //           fontWeight: FontWeight.w500,
+                  //         ),
+                  //       ),
+                  //       Switch(
+                  //         activeColor: context.theme.appColors.background,
+                  //         activeTrackColor: context.theme.appColors.switchBackground,
+                  //         inactiveThumbColor: context.theme.appColors.primary,
+                  //         inactiveTrackColor: context.theme.appColors.background,
+                  //         trackOutlineColor: MaterialStateProperty.resolveWith((states) {
+                  //           if (states.contains(MaterialState.selected)) {
+                  //             return context.theme.appColors.switchBackground;
+                  //           }
+                  //           return context.theme.appColors.primary;
+                  //         }),
+                  //         value: viewModel.showMarks,
+                  //         onChanged: viewModel.changeShowMarks,
+                  //       ),
+                  //     ],
+                  //   ),
+                  // ),
+                  // Divider(
+                  //   height: 0,
+                  //   color: context.theme.appColors.divider,
+                  // ),
+                  // // Show chapters and verses
+                  // Padding(
+                  //   padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
+                  //   child: Row(
+                  //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  //     children: [
+                  //       Text(
+                  //         'Show chapters and verses',
+                  //         style: TextStyle(
+                  //           color: context.theme.appColors.primary,
+                  //           fontSize: 16.0,
+                  //           fontWeight: FontWeight.w500,
+                  //         ),
+                  //       ),
+                  //       Switch(
+                  //         activeColor: context.theme.appColors.background,
+                  //         activeTrackColor: context.theme.appColors.switchBackground,
+                  //         inactiveThumbColor: context.theme.appColors.primary,
+                  //         inactiveTrackColor: context.theme.appColors.background,
+                  //         trackOutlineColor: MaterialStateProperty.resolveWith((states) {
+                  //           if (states.contains(MaterialState.selected)) {
+                  //             return context.theme.appColors.switchBackground;
+                  //           }
+                  //           return context.theme.appColors.primary;
+                  //         }),
+                  //         value: viewModel.showChaptersAndVerses,
+                  //         onChanged: viewModel.changeShowChaptersAndVerses,
+                  //       ),
+                  //     ],
+                  //   ),
+                  // ),
                   Divider(
                     height: 0,
                     color: context.theme.appColors.divider,
