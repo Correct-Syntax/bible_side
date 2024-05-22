@@ -135,9 +135,9 @@ class ReaderViewModel extends ReactiveViewModel {
 
     // Refresh for first section/chapter
     fetchDown(currentPage, viewBy, Area.primary);
-    fetchDown(currentPage, viewBy, Area.secondary);
-
     fetchUp(currentPage, viewBy, Area.primary);
+
+    fetchDown(currentPage, viewBy, Area.secondary);
     fetchUp(currentPage, viewBy, Area.secondary);
 
     rebuildUi();

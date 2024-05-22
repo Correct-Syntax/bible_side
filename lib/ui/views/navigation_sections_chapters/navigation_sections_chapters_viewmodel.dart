@@ -55,11 +55,14 @@ class NavigationSectionsChaptersViewModel extends BaseViewModel {
   }
 
   Future<void> onTapSectionItem(int index) async {
+    _biblesService.setViewBy(ViewBy.section);
+
+    log(index.toString());
+
     _biblesService.setBook(bookCode);
     _biblesService.addBookToRecentHistory(bookCode);
-
-    //_biblesService.setViewBy(ViewBy.section);
     String sectionHeading = sections[index][0];
+    
     log(sectionHeading);
     _biblesService.setSection(index);
 
@@ -69,9 +72,12 @@ class NavigationSectionsChaptersViewModel extends BaseViewModel {
 
   // For bibles that do not have a by section implementation
   Future<void> onTapChapterItem(int index) async {
+    _biblesService.setViewBy(ViewBy.chapter);
+
+    log(index.toString());
+
     _biblesService.setBook(bookCode);
     _biblesService.addBookToRecentHistory(bookCode);
-    //_biblesService.setViewBy(ViewBy.chapter);
     _biblesService.setChapter(index);
 
     _navigationService.clearStackAndShow(Routes.readerView);
