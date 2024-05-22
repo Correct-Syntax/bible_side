@@ -50,45 +50,41 @@ class NavigationBibleDivisionsView extends StackedView<NavigationBibleDivisionsV
                   itemCount: booksMapping.keys.length,
                   itemBuilder: (BuildContext context, int index) {
                     String bibleDivisionCode = BooksMapping.bibleDivisionCodeFromIndex(index);
-                    bool isDisabled = viewModel.isItemDisabled(bibleDivisionCode);
                     return InkWell(
-                      onTap: () => viewModel.onTapBibleDivisionItem(bibleDivisionCode, isDisabled),
-                      child: Opacity(
-                        opacity: isDisabled ? 0.5 : 1.0,
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 15.0, horizontal: 25.0),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              Row(
-                                children: [
-                                  Align(
-                                    alignment: Alignment.topLeft,
-                                    child: Padding(
-                                      padding: const EdgeInsets.only(bottom: 13.0, right: 8),
-                                      child: BibleDivisionIndicator(
-                                        color: BooksMapping.colorFromBibleDivisionCode(bibleDivisionCode),
-                                      ),
+                      onTap: () => viewModel.onTapBibleDivisionItem(bibleDivisionCode),
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(vertical: 15.0, horizontal: 25.0),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            Row(
+                              children: [
+                                Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Padding(
+                                    padding: const EdgeInsets.only(bottom: 13.0, right: 8),
+                                    child: BibleDivisionIndicator(
+                                      color: BooksMapping.colorFromBibleDivisionCode(bibleDivisionCode),
                                     ),
                                   ),
-                                  Text(
-                                    BooksMapping.bibleDivisionNameFromCode(bibleDivisionCode),
-                                    style: TextStyle(
-                                      color: context.theme.appColors.primary,
-                                      fontSize: 16.0,
-                                    ),
+                                ),
+                                Text(
+                                  BooksMapping.bibleDivisionNameFromCode(bibleDivisionCode),
+                                  style: TextStyle(
+                                    color: context.theme.appColors.primary,
+                                    fontSize: 16.0,
                                   ),
-                                ],
-                              ),
-                              PhosphorIcon(
-                                PhosphorIcons.caretRight(PhosphorIconsStyle.bold),
-                                color: context.theme.appColors.primary,
-                                size: 18.0,
-                                semanticLabel: 'Caret right',
-                              ),
-                            ],
-                          ),
+                                ),
+                              ],
+                            ),
+                            PhosphorIcon(
+                              PhosphorIcons.caretRight(PhosphorIconsStyle.bold),
+                              color: context.theme.appColors.primary,
+                              size: 18.0,
+                              semanticLabel: 'Caret right',
+                            ),
+                          ],
                         ),
                       ),
                     );

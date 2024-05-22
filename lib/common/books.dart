@@ -198,14 +198,58 @@ Map<String, int> bookNumOfChaptersMapping = {
   'REV': 22,
 };
 
-// Uncompleted OET books
+// Uncompleted OET books (RV *and* LV are not finished for the book)
 // TODO: update as the OET is drafted more.
-List<String> uncompletedOETDivisions = [
-  'TORAH',
-  'HISTORY',
-  'POETRY_WISDOM',
-  'MAJOR_PROPHETS',
-  'MINOR_PROPHETS',
+List<String> uncompletedOETBooks = [
+  'GEN',
+  'EXO',
+  'LEV',
+  'NUM',
+  'DEU',
+  'JOS',
+  'JDG',
+  'RUT',
+  'SA1',
+  'SA2',
+  'KI1',
+  'KI2',
+  'CH1',
+  'CH2',
+  'EZR',
+  'NEH',
+  'EST',
+  'JOB',
+  'PSA',
+  'PRO',
+  'ECC',
+  'SNG',
+  'ISA',
+  'JER',
+  'LAM',
+  'EZE',
+  'DAN',
+  'HOS',
+  'JOL',
+  'AMO',
+  'OBA',
+  'JNA',
+  'MIC',
+  'NAH',
+  'HAB',
+  'ZEP',
+  'HAG',
+  'ZEC',
+  'MAL',
+];
+
+// Book is either missing the json file or
+// has incomplete text that could cause errors.
+List<String> noOETBookDraft = [
+  'JOB',
+  'PSA',
+  'ECC',
+  'SNG',
+  'LAM',
 ];
 
 class BooksMapping {
