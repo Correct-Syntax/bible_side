@@ -105,7 +105,7 @@ class NavigationSectionsChaptersView extends StackedView<NavigationSectionsChapt
                   itemBuilder: (BuildContext context, int index) {
                     return InkWell(
                       borderRadius: BorderRadius.circular(12.0),
-                      onTap: () => viewModel.onTapChapterItem(index),
+                      onTap: () => viewModel.onTapChapterItem(index+1), // +1 because the chapters start at 1.
                       child: Center(
                         child: Text(
                           viewModel.bookChapters[index],
