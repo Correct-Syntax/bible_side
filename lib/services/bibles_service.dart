@@ -1,7 +1,9 @@
 import 'package:stacked/stacked.dart';
 
 import '../app/app.locator.dart';
+import '../common/books.dart';
 import '../common/enums.dart';
+import '../common/toast.dart';
 import 'json_service.dart';
 import 'settings_service.dart';
 
@@ -57,9 +59,24 @@ class BiblesService with ListenableServiceMixin {
 
   Future<void> loadBibleVersion(Area pane) async {
     if (pane == Area.primary) {
+      revertToKJVIfOETBookNotAvailable(primaryBible, bookCode, Area.primary);
       primaryAreaJson = await _jsonService.loadBookJson(primaryBible, bookCode);
     } else if (pane == Area.secondary) {
+      revertToKJVIfOETBookNotAvailable(secondaryBible, bookCode, Area.secondary);
       secondaryAreaJson = await _jsonService.loadBookJson(secondaryBible, bookCode);
+    }
+  }
+
+  void revertToKJVIfOETBookNotAvailable(String thebibleCode, String theBookCode, Area area) {
+    // To avoid problems loading books that don't exist yet in the OET,
+    // automatically switch to the KJV.
+    if ((isBibleOET(thebibleCode)) && uncompletedOETBooks.contains(theBookCode)) {
+      if (area == Area.primary) {
+        _settingsService.setPrimaryAreaBible('KJV');
+      } else {
+        _settingsService.setSecondaryAreaBible('KJV');
+      }
+      showToastMsg('Book is not available in the OET yet. Reverting to the KJV.');
     }
   }
 
