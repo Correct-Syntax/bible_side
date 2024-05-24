@@ -77,7 +77,7 @@ class NavigationSectionsChaptersViewModel extends BaseViewModel {
     log(index.toString());
 
     _biblesService.setBook(bookCode);
-    _biblesService.addBookToRecentHistory(bookCode);
+    //_biblesService.addBookToRecentHistory(bookCode); // TODO
     _biblesService.setChapter(index);
 
     _navigationService.clearStackAndShow(Routes.readerView);
