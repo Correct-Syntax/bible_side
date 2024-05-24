@@ -11,10 +11,10 @@ import 'navigation_books_viewmodel.dart';
 
 class NavigationBooksView extends StackedView<NavigationBooksViewModel> {
   const NavigationBooksView({
-    Key? key,
+    super.key,
     required this.readerArea,
     required this.bibleDivisionCode,
-  }) : super(key: key);
+  });
 
   final Area readerArea;
   final String bibleDivisionCode;

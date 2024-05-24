@@ -11,10 +11,10 @@ import 'navigation_sections_chapters_viewmodel.dart';
 
 class NavigationSectionsChaptersView extends StackedView<NavigationSectionsChaptersViewModel> {
   const NavigationSectionsChaptersView({
-    Key? key,
+    super.key,
     required this.readerArea,
     required this.bookCode,
-  }) : super(key: key);
+  });
 
   final Area readerArea;
   final String bookCode;

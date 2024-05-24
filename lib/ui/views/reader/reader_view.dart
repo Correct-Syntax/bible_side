@@ -16,7 +16,7 @@ import 'widgets/secondary_reader_appbar/secondary_reader_appbar.dart';
 final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
 
 class ReaderView extends StackedView<ReaderViewModel> {
-  const ReaderView({Key? key}) : super(key: key);
+  const ReaderView({super.key});
 
   @override
   void onViewModelReady(ReaderViewModel viewModel) {

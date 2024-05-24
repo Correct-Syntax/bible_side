@@ -10,9 +10,9 @@ import 'navigation_bible_divisions_viewmodel.dart';
 
 class NavigationBibleDivisionsView extends StackedView<NavigationBibleDivisionsViewModel> {
   const NavigationBibleDivisionsView({
-    Key? key,
+    super.key,
     required this.readerArea,
-  }) : super(key: key);
+  });
 
   final Area readerArea;
 

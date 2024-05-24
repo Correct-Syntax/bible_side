@@ -6,7 +6,7 @@ import '../../common/ui_helpers.dart';
 import 'search_viewmodel.dart';
 
 class SearchView extends StackedView<SearchViewModel> {
-  const SearchView({Key? key}) : super(key: key);
+  const SearchView({super.key});
 
   @override
   Widget builder(

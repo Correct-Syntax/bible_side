@@ -9,9 +9,9 @@ import 'bibles_viewmodel.dart';
 
 class BiblesView extends StackedView<BiblesViewModel> {
   const BiblesView({
-    Key? key,
+    super.key,
     required this.readerArea,
-  }) : super(key: key);
+  });
 
   final Area readerArea;
 
