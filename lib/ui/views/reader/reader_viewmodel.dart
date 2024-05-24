@@ -131,7 +131,9 @@ class ReaderViewModel extends ReactiveViewModel {
     });
 
     initialRefresh = true;
-    numberOfSections = sectionStartEndMappingForOET[bookCode]!.length;
+    if (primaryAreaBible != 'KJV') {
+      numberOfSections = sectionStartEndMappingForOET[bookCode]!.length;
+    }
 
     // Refresh for first section/chapter
     fetchDown(currentPage, viewBy, Area.primary);
