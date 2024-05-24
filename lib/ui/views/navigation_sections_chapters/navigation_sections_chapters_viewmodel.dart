@@ -62,7 +62,7 @@ class NavigationSectionsChaptersViewModel extends BaseViewModel {
     _biblesService.setBook(bookCode);
     _biblesService.addBookToRecentHistory(bookCode);
     String sectionHeading = sections[index][0];
-    
+
     log(sectionHeading);
     _biblesService.setSection(index);
 

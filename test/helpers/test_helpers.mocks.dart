@@ -61,8 +61,7 @@ class MockNavigationService extends _i1.Mock implements _i2.NavigationService {
       ) as String);
 
   @override
-  _i4.GlobalKey<_i4.NavigatorState>? nestedNavigationKey(int? index) =>
-      (super.noSuchMethod(
+  _i4.GlobalKey<_i4.NavigatorState>? nestedNavigationKey(int? index) => (super.noSuchMethod(
         Invocation.method(
           #nestedNavigationKey,
           [index],
@@ -394,11 +393,9 @@ class MockNavigationService extends _i1.Mock implements _i2.NavigationService {
 /// A class which mocks [BottomSheetService].
 ///
 /// See the documentation for Mockito's code generation for more information.
-class MockBottomSheetService extends _i1.Mock
-    implements _i2.BottomSheetService {
+class MockBottomSheetService extends _i1.Mock implements _i2.BottomSheetService {
   @override
-  void setCustomSheetBuilders(Map<dynamic, _i2.SheetBuilder>? builders) =>
-      super.noSuchMethod(
+  void setCustomSheetBuilders(Map<dynamic, _i2.SheetBuilder>? builders) => super.noSuchMethod(
         Invocation.method(
           #setCustomSheetBuilders,
           [builders],
@@ -441,8 +438,7 @@ class MockBottomSheetService extends _i1.Mock
           },
         ),
         returnValue: _i5.Future<_i2.SheetResponse<dynamic>?>.value(),
-        returnValueForMissingStub:
-            _i5.Future<_i2.SheetResponse<dynamic>?>.value(),
+        returnValueForMissingStub: _i5.Future<_i2.SheetResponse<dynamic>?>.value(),
       ) as _i5.Future<_i2.SheetResponse<dynamic>?>);
 
   @override
@@ -508,8 +504,7 @@ class MockBottomSheetService extends _i1.Mock
       ) as _i5.Future<_i2.SheetResponse<T>?>);
 
   @override
-  void completeSheet(_i2.SheetResponse<dynamic>? response) =>
-      super.noSuchMethod(
+  void completeSheet(_i2.SheetResponse<dynamic>? response) => super.noSuchMethod(
         Invocation.method(
           #completeSheet,
           [response],
@@ -523,9 +518,7 @@ class MockBottomSheetService extends _i1.Mock
 /// See the documentation for Mockito's code generation for more information.
 class MockDialogService extends _i1.Mock implements _i2.DialogService {
   @override
-  void registerCustomDialogBuilders(
-          Map<dynamic, _i2.DialogBuilder>? builders) =>
-      super.noSuchMethod(
+  void registerCustomDialogBuilders(Map<dynamic, _i2.DialogBuilder>? builders) => super.noSuchMethod(
         Invocation.method(
           #registerCustomDialogBuilders,
           [builders],
@@ -581,8 +574,7 @@ class MockDialogService extends _i1.Mock implements _i2.DialogService {
           },
         ),
         returnValue: _i5.Future<_i2.DialogResponse<dynamic>?>.value(),
-        returnValueForMissingStub:
-            _i5.Future<_i2.DialogResponse<dynamic>?>.value(),
+        returnValueForMissingStub: _i5.Future<_i2.DialogResponse<dynamic>?>.value(),
       ) as _i5.Future<_i2.DialogResponse<dynamic>?>);
 
   @override
@@ -662,13 +654,11 @@ class MockDialogService extends _i1.Mock implements _i2.DialogService {
           },
         ),
         returnValue: _i5.Future<_i2.DialogResponse<dynamic>?>.value(),
-        returnValueForMissingStub:
-            _i5.Future<_i2.DialogResponse<dynamic>?>.value(),
+        returnValueForMissingStub: _i5.Future<_i2.DialogResponse<dynamic>?>.value(),
       ) as _i5.Future<_i2.DialogResponse<dynamic>?>);
 
   @override
-  void completeDialog(_i2.DialogResponse<dynamic>? response) =>
-      super.noSuchMethod(
+  void completeDialog(_i2.DialogResponse<dynamic>? response) => super.noSuchMethod(
         Invocation.method(
           #completeDialog,
           [response],
@@ -689,8 +679,7 @@ class MockBiblesService extends _i1.Mock implements _i7.BiblesService {
       ) as Map<String, dynamic>);
 
   @override
-  set primaryAreaJson(Map<String, dynamic>? _primaryAreaJson) =>
-      super.noSuchMethod(
+  set primaryAreaJson(Map<String, dynamic>? _primaryAreaJson) => super.noSuchMethod(
         Invocation.setter(
           #primaryAreaJson,
           _primaryAreaJson,
@@ -706,8 +695,7 @@ class MockBiblesService extends _i1.Mock implements _i7.BiblesService {
       ) as Map<String, dynamic>);
 
   @override
-  set secondaryAreaJson(Map<String, dynamic>? _secondaryAreaJson) =>
-      super.noSuchMethod(
+  set secondaryAreaJson(Map<String, dynamic>? _secondaryAreaJson) => super.noSuchMethod(
         Invocation.setter(
           #secondaryAreaJson,
           _secondaryAreaJson,
@@ -921,8 +909,7 @@ class MockBiblesService extends _i1.Mock implements _i7.BiblesService {
       ) as bool);
 
   @override
-  void listenToReactiveValues(List<dynamic>? reactiveValues) =>
-      super.noSuchMethod(
+  void listenToReactiveValues(List<dynamic>? reactiveValues) => super.noSuchMethod(
         Invocation.method(
           #listenToReactiveValues,
           [reactiveValues],
@@ -1151,8 +1138,7 @@ class MockSettingsService extends _i1.Mock implements _i9.SettingsService {
             [],
           ),
         )),
-        returnValueForMissingStub:
-            _i5.Future<String>.value(_i3.dummyValue<String>(
+        returnValueForMissingStub: _i5.Future<String>.value(_i3.dummyValue<String>(
           this,
           Invocation.method(
             #getPrimaryAreaBible,
@@ -1184,8 +1170,7 @@ class MockSettingsService extends _i1.Mock implements _i9.SettingsService {
             [],
           ),
         )),
-        returnValueForMissingStub:
-            _i5.Future<String>.value(_i3.dummyValue<String>(
+        returnValueForMissingStub: _i5.Future<String>.value(_i3.dummyValue<String>(
           this,
           Invocation.method(
             #getSecondaryAreaBible,
@@ -1217,8 +1202,7 @@ class MockSettingsService extends _i1.Mock implements _i9.SettingsService {
             [],
           ),
         )),
-        returnValueForMissingStub:
-            _i5.Future<String>.value(_i3.dummyValue<String>(
+        returnValueForMissingStub: _i5.Future<String>.value(_i3.dummyValue<String>(
           this,
           Invocation.method(
             #getBook,
@@ -1268,8 +1252,7 @@ class MockSettingsService extends _i1.Mock implements _i9.SettingsService {
       ) as _i5.Future<int>);
 
   @override
-  _i5.Future<void> setNavRecentBooks(List<String>? value) =>
-      (super.noSuchMethod(
+  _i5.Future<void> setNavRecentBooks(List<String>? value) => (super.noSuchMethod(
         Invocation.method(
           #setNavRecentBooks,
           [value],
@@ -1305,8 +1288,7 @@ class MockSettingsService extends _i1.Mock implements _i9.SettingsService {
           [],
         ),
         returnValue: _i5.Future<_i8.ViewBy>.value(_i8.ViewBy.chapter),
-        returnValueForMissingStub:
-            _i5.Future<_i8.ViewBy>.value(_i8.ViewBy.chapter),
+        returnValueForMissingStub: _i5.Future<_i8.ViewBy>.value(_i8.ViewBy.chapter),
       ) as _i5.Future<_i8.ViewBy>);
 
   @override
@@ -1370,8 +1352,7 @@ class MockSettingsService extends _i1.Mock implements _i9.SettingsService {
       ) as _i5.Future<bool>);
 
   @override
-  _i5.Future<void> setLinkReaderAreaScrolling(bool? value) =>
-      (super.noSuchMethod(
+  _i5.Future<void> setLinkReaderAreaScrolling(bool? value) => (super.noSuchMethod(
         Invocation.method(
           #setLinkReaderAreaScrolling,
           [value],
@@ -1391,8 +1372,7 @@ class MockSettingsService extends _i1.Mock implements _i9.SettingsService {
       ) as _i5.Future<bool>);
 
   @override
-  void listenToReactiveValues(List<dynamic>? reactiveValues) =>
-      super.noSuchMethod(
+  void listenToReactiveValues(List<dynamic>? reactiveValues) => super.noSuchMethod(
         Invocation.method(
           #listenToReactiveValues,
           [reactiveValues],
@@ -1445,8 +1425,7 @@ class MockAppInfoService extends _i1.Mock implements _i10.AppInfoService {
             [],
           ),
         )),
-        returnValueForMissingStub:
-            _i5.Future<String>.value(_i3.dummyValue<String>(
+        returnValueForMissingStub: _i5.Future<String>.value(_i3.dummyValue<String>(
           this,
           Invocation.method(
             #getAppVersion,
@@ -1580,22 +1559,17 @@ class MockJsonService extends _i1.Mock implements _i12.JsonService {
             bookCode,
           ],
         ),
-        returnValue:
-            _i5.Future<Map<String, dynamic>>.value(<String, dynamic>{}),
-        returnValueForMissingStub:
-            _i5.Future<Map<String, dynamic>>.value(<String, dynamic>{}),
+        returnValue: _i5.Future<Map<String, dynamic>>.value(<String, dynamic>{}),
+        returnValueForMissingStub: _i5.Future<Map<String, dynamic>>.value(<String, dynamic>{}),
       ) as _i5.Future<Map<String, dynamic>>);
 
   @override
-  _i5.Future<Map<String, dynamic>> loadJsonFromAssets(String? path) =>
-      (super.noSuchMethod(
+  _i5.Future<Map<String, dynamic>> loadJsonFromAssets(String? path) => (super.noSuchMethod(
         Invocation.method(
           #loadJsonFromAssets,
           [path],
         ),
-        returnValue:
-            _i5.Future<Map<String, dynamic>>.value(<String, dynamic>{}),
-        returnValueForMissingStub:
-            _i5.Future<Map<String, dynamic>>.value(<String, dynamic>{}),
+        returnValue: _i5.Future<Map<String, dynamic>>.value(<String, dynamic>{}),
+        returnValueForMissingStub: _i5.Future<Map<String, dynamic>>.value(<String, dynamic>{}),
       ) as _i5.Future<Map<String, dynamic>>);
 }
