@@ -23,9 +23,11 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ThemeBuilder(
-      defaultThemeMode: ThemeMode.light,
-      lightTheme: AppTheme.light,
-      darkTheme: AppTheme.dark,
+      themes: [
+        AppTheme.light,
+        AppTheme.dark,
+        AppTheme.sepia,
+      ],
       builder: (context, regularTheme, darkTheme, themeMode) => MaterialApp(
         title: 'Bibleside',
         debugShowCheckedModeBanner: false,

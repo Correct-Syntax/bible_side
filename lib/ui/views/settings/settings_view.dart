@@ -3,6 +3,7 @@ import 'package:phosphor_flutter/phosphor_flutter.dart';
 import 'package:stacked/stacked.dart';
 import 'package:stacked_themes/stacked_themes.dart';
 
+import '../../../common/enums.dart';
 import '../../../common/themes.dart';
 import '../../common/ui_helpers.dart';
 import 'settings_viewmodel.dart';
@@ -243,22 +244,31 @@ class SettingsView extends StackedView<SettingsViewModel> {
                     child: Row(
                       children: [
                         SettingsThemeItem(
-                          isSelected: !viewModel.isDarkTheme,
-                          theme: ThemeMode.light,
+                          isSelected: getThemeManager(context).selectedThemeIndex == 0,
+                          theme: CurrentTheme.light,
                           onTap: () {
                             var themeManger = getThemeManager(context);
                             viewModel.setIsDarkTheme(false);
-                            themeManger.setThemeMode(ThemeMode.light);
+                            themeManger.selectThemeAtIndex(0);
                           },
                         ),
                         const SizedBox(width: 7.0),
                         SettingsThemeItem(
-                          isSelected: viewModel.isDarkTheme,
-                          theme: ThemeMode.dark,
+                          isSelected: getThemeManager(context).selectedThemeIndex == 1,
+                          theme: CurrentTheme.dark,
                           onTap: () {
                             var themeManger = getThemeManager(context);
                             viewModel.setIsDarkTheme(true);
-                            themeManger.setThemeMode(ThemeMode.dark);
+                            themeManger.selectThemeAtIndex(1);
+                          },
+                        ),
+                        const SizedBox(width: 7.0),
+                        SettingsThemeItem(
+                          isSelected: getThemeManager(context).selectedThemeIndex == 2,
+                          theme: CurrentTheme.sepia,
+                          onTap: () {
+                            var themeManger = getThemeManager(context);
+                            themeManger.selectThemeAtIndex(2);
                           },
                         ),
                       ],

@@ -9,3 +9,9 @@ enum ViewBy {
   chapter,
   section,
 }
+
+enum CurrentTheme {
+  light,
+  dark,
+  sepia,
+}

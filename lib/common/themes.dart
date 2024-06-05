@@ -260,6 +260,40 @@ class AppTheme {
     readerAddExtra: ReaderTextPalette.addExtraGreen,
     addCopulaPink: ReaderTextPalette.addCopulaPink,
   );
+
+  // Sepia theme
+  static final sepia = ThemeData.light().copyWith(
+    textSelectionTheme: const TextSelectionThemeData(
+      cursorColor: Colors.white,
+      selectionColor: Color(0xFF96BAD9),
+      selectionHandleColor: LightThemePalette.mediumBlue,
+    ),
+    extensions: [
+      _sepiaAppColors,
+    ],
+  );
+
+  static final _sepiaAppColors = AppColorsExtension(
+    primary: SepiaThemePalette.mediumDarkBrown,
+    secondary: SepiaThemePalette.mediumBrown,
+    primaryOnDark: SepiaThemePalette.mediumDarkBrown,
+    secondaryOnDark: SepiaThemePalette.mediumDarkBrown,
+    primaryIcon: SepiaThemePalette.mediumDarkBrown,
+    secondaryIcon: SepiaThemePalette.mediumBrown,
+    appbarIcon: SepiaThemePalette.mediumDarkBrown,
+    background: SepiaThemePalette.almostWhiteTan,
+    appbarBackground: SepiaThemePalette.lightTan,
+    popupBackground: SepiaThemePalette.lightTan,
+    readerSelectorBackground: SepiaThemePalette.almostWhiteTan,
+    switchBackground: SepiaThemePalette.mediumBrown,
+    sliderAccent: SepiaThemePalette.mediumBrown,
+    divider: SepiaThemePalette.lightTan,
+    readerText: SepiaThemePalette.mediumGray,
+    readerRedLetter: ReaderTextPalette.redLetterRed,
+    readerAddArticle: ReaderTextPalette.addArticleOrange,
+    readerAddExtra: ReaderTextPalette.addExtraGreen,
+    addCopulaPink: ReaderTextPalette.addCopulaPink,
+  );
 }
 
 extension AppThemeExtension on ThemeData {

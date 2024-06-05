@@ -35,7 +35,7 @@ class SideNavigationDrawer extends StackedView<SideNavigationDrawerModel> {
                 padding: const EdgeInsets.only(left: 2.0, right: 32.0),
                 child: Image.asset(
                   'assets/images/logo.png',
-                  color: Colors.white,
+                  color: context.theme.appColors.appbarIcon,
                   height: 30.0,
                 ),
               ),
