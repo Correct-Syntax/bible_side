@@ -52,7 +52,7 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
                               child: Container(
                                 width: 14.0,
                                 height: 7.0,
-                                color: context.theme.appColors.popupBackground,
+                                color: context.theme.appColors.primaryOnDark,
                               ),
                             ),
                           ],
@@ -149,7 +149,7 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
                             child: Container(
                               width: 14.0,
                               height: 7.0,
-                              color: context.theme.appColors.popupBackground,
+                              color: context.theme.appColors.primaryOnDark,
                             ),
                           ),
                         ],

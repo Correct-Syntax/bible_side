@@ -271,6 +271,15 @@ class SettingsView extends StackedView<SettingsViewModel> {
                             themeManger.selectThemeAtIndex(2);
                           },
                         ),
+                        const SizedBox(width: 7.0),
+                        SettingsThemeItem(
+                          isSelected: getThemeManager(context).selectedThemeIndex == 3,
+                          theme: CurrentTheme.highContrast,
+                          onTap: () {
+                            var themeManger = getThemeManager(context);
+                            themeManger.selectThemeAtIndex(3);
+                          },
+                        ),
                       ],
                     ),
                   ),

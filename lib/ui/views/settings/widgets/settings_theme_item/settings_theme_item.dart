@@ -39,7 +39,7 @@ class SettingsThemeItem extends StackedView<SettingsThemeItemModel> {
         child: Column(
           children: [
             Text(
-              theme == CurrentTheme.light ? 'Light' : theme == CurrentTheme.sepia ? 'Sepia' : 'Dark',
+              viewModel.getThemeName(theme),
               style: TextStyle(
                 color: viewModel.getForegroundColor(theme),
                 fontSize: 15.0,

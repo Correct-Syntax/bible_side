@@ -89,6 +89,14 @@ abstract class SepiaThemePalette {
   static const mediumDarkGray = Color(0xFF414546);
 }
 
+abstract class HighContrastThemePalette {
+  // White
+  static const white = Color(0xFFFFFFFF);
+
+  // Black
+  static const black = Color(0xFF000000);
+}
+
 class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
   AppColorsExtension({
     required this.primary,
@@ -289,6 +297,40 @@ class AppTheme {
     sliderAccent: SepiaThemePalette.mediumBrown,
     divider: SepiaThemePalette.lightTan,
     readerText: SepiaThemePalette.mediumGray,
+    readerRedLetter: ReaderTextPalette.redLetterRed,
+    readerAddArticle: ReaderTextPalette.addArticleOrange,
+    readerAddExtra: ReaderTextPalette.addExtraGreen,
+    addCopulaPink: ReaderTextPalette.addCopulaPink,
+  );
+
+  // High contrast theme
+  static final highContrast = ThemeData.dark().copyWith(
+    textSelectionTheme: const TextSelectionThemeData(
+      cursorColor: Colors.white,
+      selectionColor: Color(0xFF444748),
+      selectionHandleColor: Colors.white,
+    ),
+    extensions: [
+      _highContrastAppColors,
+    ],
+  );
+
+  static final _highContrastAppColors = AppColorsExtension(
+    primary: HighContrastThemePalette.white,
+    secondary: HighContrastThemePalette.white,
+    primaryOnDark: HighContrastThemePalette.white,
+    secondaryOnDark: HighContrastThemePalette.white,
+    primaryIcon: HighContrastThemePalette.white,
+    secondaryIcon: HighContrastThemePalette.white,
+    appbarIcon: HighContrastThemePalette.white,
+    background: HighContrastThemePalette.black,
+    appbarBackground: HighContrastThemePalette.black,
+    popupBackground: HighContrastThemePalette.black,
+    readerSelectorBackground: HighContrastThemePalette.black,
+    switchBackground: HighContrastThemePalette.white,
+    sliderAccent: HighContrastThemePalette.white,
+    divider: HighContrastThemePalette.white,
+    readerText: HighContrastThemePalette.white,
     readerRedLetter: ReaderTextPalette.redLetterRed,
     readerAddArticle: ReaderTextPalette.addArticleOrange,
     readerAddExtra: ReaderTextPalette.addExtraGreen,

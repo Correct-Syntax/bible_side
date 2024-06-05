@@ -27,6 +27,7 @@ class MainApp extends StatelessWidget {
         AppTheme.light,
         AppTheme.dark,
         AppTheme.sepia,
+        AppTheme.highContrast,
       ],
       builder: (context, regularTheme, darkTheme, themeMode) => MaterialApp(
         title: 'Bibleside',
