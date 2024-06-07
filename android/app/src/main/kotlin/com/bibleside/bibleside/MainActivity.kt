@@ -1,4 +1,4 @@
-package com.example.bible_side
+package com.bibleside.bibleside
 
 import io.flutter.embedding.android.FlutterActivity
 
