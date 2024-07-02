@@ -248,7 +248,6 @@ class SettingsView extends StackedView<SettingsViewModel> {
                           theme: CurrentTheme.light,
                           onTap: () {
                             var themeManger = getThemeManager(context);
-                            viewModel.setIsDarkTheme(false);
                             themeManger.selectThemeAtIndex(0);
                           },
                         ),
@@ -258,7 +257,6 @@ class SettingsView extends StackedView<SettingsViewModel> {
                           theme: CurrentTheme.dark,
                           onTap: () {
                             var themeManger = getThemeManager(context);
-                            viewModel.setIsDarkTheme(true);
                             themeManger.selectThemeAtIndex(1);
                           },
                         ),

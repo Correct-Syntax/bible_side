@@ -5,8 +5,9 @@
 // **************************************************************************
 
 // ignore_for_file: no_leading_underscores_for_library_prefixes
-import 'package:bible_side/common/enums.dart' as _i11;
+import 'package:bible_side/common/enums.dart' as _i12;
 import 'package:bible_side/ui/views/bibles/bibles_view.dart' as _i5;
+import 'package:bible_side/ui/views/bookmarks/bookmarks_view.dart' as _i10;
 import 'package:bible_side/ui/views/navigation_bible_divisions/navigation_bible_divisions_view.dart' as _i7;
 import 'package:bible_side/ui/views/navigation_books/navigation_books_view.dart' as _i8;
 import 'package:bible_side/ui/views/navigation_sections_chapters/navigation_sections_chapters_view.dart' as _i9;
@@ -14,10 +15,10 @@ import 'package:bible_side/ui/views/reader/reader_view.dart' as _i4;
 import 'package:bible_side/ui/views/search/search_view.dart' as _i6;
 import 'package:bible_side/ui/views/settings/settings_view.dart' as _i3;
 import 'package:bible_side/ui/views/startup/startup_view.dart' as _i2;
-import 'package:flutter/material.dart' as _i10;
+import 'package:flutter/material.dart' as _i11;
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart' as _i1;
-import 'package:stacked_services/stacked_services.dart' as _i12;
+import 'package:stacked_services/stacked_services.dart' as _i13;
 
 class Routes {
   static const startupView = '/startup-view';
@@ -36,6 +37,8 @@ class Routes {
 
   static const navigationSectionsChaptersView = '/navigation-sections-chapters-view';
 
+  static const bookmarksView = '/bookmarks-view';
+
   static const all = <String>{
     startupView,
     settingsView,
@@ -45,6 +48,7 @@ class Routes {
     navigationBibleDivisionsView,
     navigationBooksView,
     navigationSectionsChaptersView,
+    bookmarksView,
   };
 }
 
@@ -82,50 +86,54 @@ class StackedRouter extends _i1.RouterBase {
       Routes.navigationSectionsChaptersView,
       page: _i9.NavigationSectionsChaptersView,
     ),
+    _i1.RouteDef(
+      Routes.bookmarksView,
+      page: _i10.BookmarksView,
+    ),
   ];
 
   final _pagesMap = <Type, _i1.StackedRouteFactory>{
     _i2.StartupView: (data) {
-      return _i10.MaterialPageRoute<dynamic>(
+      return _i11.MaterialPageRoute<dynamic>(
         builder: (context) => const _i2.StartupView(),
         settings: data,
       );
     },
     _i3.SettingsView: (data) {
-      return _i10.MaterialPageRoute<dynamic>(
+      return _i11.MaterialPageRoute<dynamic>(
         builder: (context) => const _i3.SettingsView(),
         settings: data,
       );
     },
     _i4.ReaderView: (data) {
-      return _i10.MaterialPageRoute<dynamic>(
+      return _i11.MaterialPageRoute<dynamic>(
         builder: (context) => const _i4.ReaderView(),
         settings: data,
       );
     },
     _i5.BiblesView: (data) {
       final args = data.getArgs<BiblesViewArguments>(nullOk: false);
-      return _i10.MaterialPageRoute<dynamic>(
+      return _i11.MaterialPageRoute<dynamic>(
         builder: (context) => _i5.BiblesView(key: args.key, readerArea: args.readerArea),
         settings: data,
       );
     },
     _i6.SearchView: (data) {
-      return _i10.MaterialPageRoute<dynamic>(
+      return _i11.MaterialPageRoute<dynamic>(
         builder: (context) => const _i6.SearchView(),
         settings: data,
       );
     },
     _i7.NavigationBibleDivisionsView: (data) {
       final args = data.getArgs<NavigationBibleDivisionsViewArguments>(nullOk: false);
-      return _i10.MaterialPageRoute<dynamic>(
+      return _i11.MaterialPageRoute<dynamic>(
         builder: (context) => _i7.NavigationBibleDivisionsView(key: args.key, readerArea: args.readerArea),
         settings: data,
       );
     },
     _i8.NavigationBooksView: (data) {
       final args = data.getArgs<NavigationBooksViewArguments>(nullOk: false);
-      return _i10.MaterialPageRoute<dynamic>(
+      return _i11.MaterialPageRoute<dynamic>(
         builder: (context) => _i8.NavigationBooksView(
             key: args.key, readerArea: args.readerArea, bibleDivisionCode: args.bibleDivisionCode),
         settings: data,
@@ -133,9 +141,15 @@ class StackedRouter extends _i1.RouterBase {
     },
     _i9.NavigationSectionsChaptersView: (data) {
       final args = data.getArgs<NavigationSectionsChaptersViewArguments>(nullOk: false);
-      return _i10.MaterialPageRoute<dynamic>(
+      return _i11.MaterialPageRoute<dynamic>(
         builder: (context) =>
             _i9.NavigationSectionsChaptersView(key: args.key, readerArea: args.readerArea, bookCode: args.bookCode),
+        settings: data,
+      );
+    },
+    _i10.BookmarksView: (data) {
+      return _i11.MaterialPageRoute<dynamic>(
+        builder: (context) => const _i10.BookmarksView(),
         settings: data,
       );
     },
@@ -154,9 +168,9 @@ class BiblesViewArguments {
     required this.readerArea,
   });
 
-  final _i10.Key? key;
+  final _i11.Key? key;
 
-  final _i11.Area readerArea;
+  final _i12.Area readerArea;
 
   @override
   String toString() {
@@ -181,9 +195,9 @@ class NavigationBibleDivisionsViewArguments {
     required this.readerArea,
   });
 
-  final _i10.Key? key;
+  final _i11.Key? key;
 
-  final _i11.Area readerArea;
+  final _i12.Area readerArea;
 
   @override
   String toString() {
@@ -209,9 +223,9 @@ class NavigationBooksViewArguments {
     required this.bibleDivisionCode,
   });
 
-  final _i10.Key? key;
+  final _i11.Key? key;
 
-  final _i11.Area readerArea;
+  final _i12.Area readerArea;
 
   final String bibleDivisionCode;
 
@@ -239,9 +253,9 @@ class NavigationSectionsChaptersViewArguments {
     required this.bookCode,
   });
 
-  final _i10.Key? key;
+  final _i11.Key? key;
 
-  final _i11.Area readerArea;
+  final _i12.Area readerArea;
 
   final String bookCode;
 
@@ -262,7 +276,7 @@ class NavigationSectionsChaptersViewArguments {
   }
 }
 
-extension NavigatorStateExtension on _i12.NavigationService {
+extension NavigatorStateExtension on _i13.NavigationService {
   Future<dynamic> navigateToStartupView([
     int? routerId,
     bool preventDuplicates = true,
@@ -294,8 +308,8 @@ extension NavigatorStateExtension on _i12.NavigationService {
   }
 
   Future<dynamic> navigateToBiblesView({
-    _i10.Key? key,
-    required _i11.Area readerArea,
+    _i11.Key? key,
+    required _i12.Area readerArea,
     int? routerId,
     bool preventDuplicates = true,
     Map<String, String>? parameters,
@@ -320,8 +334,8 @@ extension NavigatorStateExtension on _i12.NavigationService {
   }
 
   Future<dynamic> navigateToNavigationBibleDivisionsView({
-    _i10.Key? key,
-    required _i11.Area readerArea,
+    _i11.Key? key,
+    required _i12.Area readerArea,
     int? routerId,
     bool preventDuplicates = true,
     Map<String, String>? parameters,
@@ -336,8 +350,8 @@ extension NavigatorStateExtension on _i12.NavigationService {
   }
 
   Future<dynamic> navigateToNavigationBooksView({
-    _i10.Key? key,
-    required _i11.Area readerArea,
+    _i11.Key? key,
+    required _i12.Area readerArea,
     required String bibleDivisionCode,
     int? routerId,
     bool preventDuplicates = true,
@@ -353,8 +367,8 @@ extension NavigatorStateExtension on _i12.NavigationService {
   }
 
   Future<dynamic> navigateToNavigationSectionsChaptersView({
-    _i10.Key? key,
-    required _i11.Area readerArea,
+    _i11.Key? key,
+    required _i12.Area readerArea,
     required String bookCode,
     int? routerId,
     bool preventDuplicates = true,
@@ -367,6 +381,16 @@ extension NavigatorStateExtension on _i12.NavigationService {
         preventDuplicates: preventDuplicates,
         parameters: parameters,
         transition: transition);
+  }
+
+  Future<dynamic> navigateToBookmarksView([
+    int? routerId,
+    bool preventDuplicates = true,
+    Map<String, String>? parameters,
+    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)? transition,
+  ]) async {
+    return navigateTo<dynamic>(Routes.bookmarksView,
+        id: routerId, preventDuplicates: preventDuplicates, parameters: parameters, transition: transition);
   }
 
   Future<dynamic> replaceWithStartupView([
@@ -400,8 +424,8 @@ extension NavigatorStateExtension on _i12.NavigationService {
   }
 
   Future<dynamic> replaceWithBiblesView({
-    _i10.Key? key,
-    required _i11.Area readerArea,
+    _i11.Key? key,
+    required _i12.Area readerArea,
     int? routerId,
     bool preventDuplicates = true,
     Map<String, String>? parameters,
@@ -426,8 +450,8 @@ extension NavigatorStateExtension on _i12.NavigationService {
   }
 
   Future<dynamic> replaceWithNavigationBibleDivisionsView({
-    _i10.Key? key,
-    required _i11.Area readerArea,
+    _i11.Key? key,
+    required _i12.Area readerArea,
     int? routerId,
     bool preventDuplicates = true,
     Map<String, String>? parameters,
@@ -442,8 +466,8 @@ extension NavigatorStateExtension on _i12.NavigationService {
   }
 
   Future<dynamic> replaceWithNavigationBooksView({
-    _i10.Key? key,
-    required _i11.Area readerArea,
+    _i11.Key? key,
+    required _i12.Area readerArea,
     required String bibleDivisionCode,
     int? routerId,
     bool preventDuplicates = true,
@@ -459,8 +483,8 @@ extension NavigatorStateExtension on _i12.NavigationService {
   }
 
   Future<dynamic> replaceWithNavigationSectionsChaptersView({
-    _i10.Key? key,
-    required _i11.Area readerArea,
+    _i11.Key? key,
+    required _i12.Area readerArea,
     required String bookCode,
     int? routerId,
     bool preventDuplicates = true,
@@ -473,5 +497,15 @@ extension NavigatorStateExtension on _i12.NavigationService {
         preventDuplicates: preventDuplicates,
         parameters: parameters,
         transition: transition);
+  }
+
+  Future<dynamic> replaceWithBookmarksView([
+    int? routerId,
+    bool preventDuplicates = true,
+    Map<String, String>? parameters,
+    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)? transition,
+  ]) async {
+    return replaceWith<dynamic>(Routes.bookmarksView,
+        id: routerId, preventDuplicates: preventDuplicates, parameters: parameters, transition: transition);
   }
 }

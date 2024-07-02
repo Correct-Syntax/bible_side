@@ -6,7 +6,6 @@ import '../common/enums.dart';
 class SettingsService with ListenableServiceMixin {
   SettingsService() {
     listenToReactiveValues([
-      _isDarkTheme,
       _showSecondaryArea,
       _primaryAreaBible,
       _secondaryAreaBible,
@@ -19,7 +18,6 @@ class SettingsService with ListenableServiceMixin {
   }
 
   // Interface
-  static const _kIsDarkTheme = 'IS_DARK_THEME';
   static const _kShowSecondaryArea = 'SHOW_SECONDARY_AREA';
 
   // Bibles
@@ -39,8 +37,6 @@ class SettingsService with ListenableServiceMixin {
   static const _kShowChaptersAndVerses = 'SHOW_CHAPTERS_AND_VERSES';
   static const _kLinkReaderAreaScrolling = 'LINK_READER_AREA_SCROLLING';
 
-  bool _isDarkTheme = false;
-  bool get isDarkTheme => _isDarkTheme;
   bool _showSecondaryArea = true;
   bool get showSecondaryArea => _showSecondaryArea;
 
@@ -70,7 +66,6 @@ class SettingsService with ListenableServiceMixin {
   bool get linkReaderAreaScrolling => _linkReaderAreaScrolling;
 
   Future<void> initilize() async {
-    _isDarkTheme = await getIsDarkTheme();
     _showSecondaryArea = await getShowSecondaryArea();
     _primaryAreaBible = await getPrimaryAreaBible();
     _secondaryAreaBible = await getSecondaryAreaBible();
@@ -84,7 +79,6 @@ class SettingsService with ListenableServiceMixin {
     _showChaptersAndVerses = await getShowChaptersAndVerses();
     _linkReaderAreaScrolling = await getLinkReaderAreaScrolling();
 
-    await setIsDarkTheme(_isDarkTheme);
     await setShowSecondaryArea(_showSecondaryArea);
     await setPrimaryAreaBible(_primaryAreaBible);
     await setSecondaryAreaBible(_secondaryAreaBible);
@@ -97,20 +91,6 @@ class SettingsService with ListenableServiceMixin {
     await setShowMarks(_showMarks);
     await setShowChaptersAndVerses(_showChaptersAndVerses);
     await setLinkReaderAreaScrolling(_linkReaderAreaScrolling);
-  }
-
-  // Is dark theme
-  Future<void> setIsDarkTheme(bool value) async {
-    _isDarkTheme = value;
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    prefs.setBool(_kIsDarkTheme, value);
-    notifyListeners();
-  }
-
-  Future<bool> getIsDarkTheme() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    _isDarkTheme = prefs.getBool(_kIsDarkTheme) ?? false;
-    return _isDarkTheme;
   }
 
   // Show secondary area

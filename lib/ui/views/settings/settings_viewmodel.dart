@@ -18,8 +18,6 @@ class SettingsViewModel extends FutureViewModel<String> {
   bool get showMarks => _settingsService.showMarks;
   bool get showChaptersAndVerses => _settingsService.showChaptersAndVerses;
 
-  bool get isDarkTheme => _settingsService.isDarkTheme;
-
   void changeTextScaling(double value) {
     _settingsService.setTextScaling(value);
     rebuildUi();
@@ -32,11 +30,6 @@ class SettingsViewModel extends FutureViewModel<String> {
 
   void changeShowChaptersAndVerses(bool value) {
     _settingsService.setShowChaptersAndVerses(value);
-    rebuildUi();
-  }
-
-  void setIsDarkTheme(bool value) async {
-    await _settingsService.setIsDarkTheme(value);
     rebuildUi();
   }
 
