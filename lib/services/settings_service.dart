@@ -14,6 +14,7 @@ class SettingsService with ListenableServiceMixin {
       _sectionNumber,
       _recentBooks,
       _viewBy,
+      _bookmarks,
     ]);
   }
 
@@ -30,6 +31,9 @@ class SettingsService with ListenableServiceMixin {
   // Navigation
   static const _kNavRecentBooks = 'NAV_RECENT_BOOKS';
   static const _kNavViewBy = 'NAV_VIEW_BY';
+
+  // Bookmarks
+  static const _kBookmarks = 'BOOKMARKS';
 
   // Reader view specifics
   static const _kTextScaling = 'TEXT_SCALING';
@@ -56,6 +60,9 @@ class SettingsService with ListenableServiceMixin {
   ViewBy _viewBy = ViewBy.section;
   ViewBy get viewBy => _viewBy;
 
+  List<String> _bookmarks = [];
+  List<String> get bookmarks => _bookmarks;
+
   double _textScaling = 1.0;
   double get textScaling => _textScaling;
   bool _showMarks = true;
@@ -74,6 +81,7 @@ class SettingsService with ListenableServiceMixin {
     _sectionNumber = await getSectionNumber();
     _recentBooks = await getNavRecentBooks();
     _viewBy = await getNavViewBy();
+    _bookmarks = await getBookmarks();
     _textScaling = await getTextScaling();
     _showMarks = await getShowMarks();
     _showChaptersAndVerses = await getShowChaptersAndVerses();
@@ -203,6 +211,20 @@ class SettingsService with ListenableServiceMixin {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     _viewBy = ViewBy.values.byName(prefs.getString(_kNavViewBy) ?? 'section');
     return _viewBy;
+  }
+
+  // Bookmarks
+  Future<void> setBookmarks(List<String> value) async {
+    _recentBooks = value;
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setStringList(_kBookmarks, value);
+    notifyListeners();
+  }
+
+  Future<List<String>> getBookmarks() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    _bookmarks = prefs.getStringList(_kBookmarks) ?? [];
+    return _bookmarks;
   }
 
   // Text scaling

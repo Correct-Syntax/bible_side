@@ -11,6 +11,10 @@ class SideNavigationDrawerModel extends BaseViewModel {
     _navigationService.clearStackAndShow(Routes.searchView);
   }
 
+  void onTapBookmarks() {
+    _navigationService.clearStackAndShow(Routes.bookmarksView);
+  }
+
   void onTapSettings() {
     _navigationService.clearStackAndShow(Routes.settingsView);
   }

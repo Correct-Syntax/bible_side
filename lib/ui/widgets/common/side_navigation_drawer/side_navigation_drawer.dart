@@ -86,6 +86,35 @@ class SideNavigationDrawer extends StackedView<SideNavigationDrawerModel> {
           InkWell(
             onTap: () {
               closeNavigation();
+              viewModel.onTapBookmarks();
+            },
+            child: Padding(
+              padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 2.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.start,
+                mainAxisSize: MainAxisSize.max,
+                children: [
+                  PhosphorIcon(
+                    PhosphorIcons.bookmarksSimple(PhosphorIconsStyle.regular),
+                    color: context.theme.appColors.primaryOnDark,
+                    size: 24.0,
+                  ),
+                  const SizedBox(width: 12.0),
+                  Text(
+                    'Bookmarks',
+                    style: TextStyle(
+                      color: context.theme.appColors.primaryOnDark,
+                      fontSize: 16.0,
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          InkWell(
+            onTap: () {
+              closeNavigation();
               viewModel.onTapSettings();
             },
             child: Padding(
