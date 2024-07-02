@@ -18,7 +18,7 @@
         "rem": "The VLT source table used to create this file is Copyright © 2022 by https://GreekCNTR.org"
       },
       {
-        "rem": "ESFM file originally created 2024-03-24 22:21 by Extract_VLT_NT_to_ESFM v0.95"
+        "rem": "ESFM file originally created 2024-05-20 14:46 by Extract_VLT_NT_to_ESFM v0.96"
       },
       {
         "rem": "USFM file edited by ScriptedBibleEditor v0.31"
@@ -1881,7 +1881,7 @@
               "add": ">one¦130606",
               "closing": "\\add*"
             },
-            "stealing¦130607 no¦130608_longer¦130608 let¦130609_be¦130609_stealing¦130609, but¦130611 rather¦130610 him¦130612 _let¦130612_be¦130612_laboring¦130612, working¦130613 with¦130616_his¦130616 hands¦130618",
+            "stealing¦130607 no¦130608_longer¦130608 let¦130609_be¦130609_stealing¦130609, but¦130611 rather¦130610 him¦130612 _let¦130612_be¦130612_labouring¦130612, working¦130613 with¦130616_his¦130616 hands¦130618",
             {
               "untr": "the¦130619",
               "closing": "\\untr*"
@@ -1893,7 +1893,7 @@
             },
             "need¦130626 having¦130627."
           ],
-          "verseText": "The¦130606>one¦130606 stealing¦130607 no¦130608_longer¦130608 let¦130609_be¦130609_stealing¦130609, but¦130611 rather¦130610 him¦130612 _let¦130612_be¦130612_laboring¦130612, working¦130613 with¦130616_his¦130616 hands¦130618 good¦130620, in¦130621_order¦130621_that¦130621 he¦130622_may¦130622_be¦130622_having¦130622 to¦130624_be¦130624_sharing¦130624 to¦130625_the¦130625>one¦130625 need¦130626 having¦130627."
+          "verseText": "The¦130606>one¦130606 stealing¦130607 no¦130608_longer¦130608 let¦130609_be¦130609_stealing¦130609, but¦130611 rather¦130610 him¦130612 _let¦130612_be¦130612_labouring¦130612, working¦130613 with¦130616_his¦130616 hands¦130618 good¦130620, in¦130621_order¦130621_that¦130621 he¦130622_may¦130622_be¦130622_having¦130622 to¦130624_be¦130624_sharing¦130624 to¦130625_the¦130625>one¦130625 need¦130626 having¦130627."
         },
         {
           "verseNumber": "29",
@@ -2330,7 +2330,11 @@
         {
           "verseNumber": "22",
           "contents": [
-            "-¦131005 wives¦131006",
+            {
+              "untr": "The¦131005",
+              "closing": "\\untr*"
+            },
+            "wives¦131006",
             {
               "add": "be¦131006",
               "closing": "\\add*"
@@ -2342,7 +2346,7 @@
             },
             ","
           ],
-          "verseText": "-¦131005 wives¦131006 be¦131006 to¦131007_their¦131007 own¦131008 husbands¦131009 as¦131012 to¦131013_the¦131013 master¦131014,"
+          "verseText": "wives¦131006 be¦131006 to¦131007_their¦131007 own¦131008 husbands¦131009 as¦131012 to¦131013_the¦131013 master¦131014,"
         },
         {
           "verseNumber": "23",
@@ -2389,14 +2393,18 @@
         {
           "verseNumber": "25",
           "contents": [
-            "-¦131055 men¦131056 be¦131057_loving¦131057 your¦131058 wives¦131059, as¦131061 also¦131062 the¦131063",
+            {
+              "untr": "The¦131055",
+              "closing": "\\untr*"
+            },
+            "men¦131056 be¦131057_loving¦131057 your¦131058 wives¦131059, as¦131061 also¦131062 the¦131063",
             {
               "nd": "chosen¦131064_one¦131064/messiah¦131064",
               "closing": "\\nd*"
             },
             "loved¦131065 the¦131066 assembly¦131067, and¦131068 himself¦131069 gave¦131070_over¦131070 for¦131071 her¦131072,"
           ],
-          "verseText": "-¦131055 men¦131056 be¦131057_loving¦131057 your¦131058 wives¦131059, as¦131061 also¦131062 the¦131063 chosen¦131064_one¦131064/messiah¦131064 loved¦131065 the¦131066 assembly¦131067, and¦131068 himself¦131069 gave¦131070_over¦131070 for¦131071 her¦131072,"
+          "verseText": "men¦131056 be¦131057_loving¦131057 your¦131058 wives¦131059, as¦131061 also¦131062 the¦131063 chosen¦131064_one¦131064/messiah¦131064 loved¦131065 the¦131066 assembly¦131067, and¦131068 himself¦131069 gave¦131070_over¦131070 for¦131071 her¦131072,"
         },
         {
           "verseNumber": "26",
@@ -2489,7 +2497,7 @@
           "verseNumber": "32",
           "contents": [
             {
-              "untr": "the¦131191",
+              "untr": "The¦131191",
               "closing": "\\untr*"
             },
             "mystery¦131192 this¦131193 great¦131194 is¦131195, but¦131197 I¦131196 am¦131198_speaking¦131198 for¦131199",
@@ -2521,7 +2529,11 @@
         {
           "verseNumber": "1",
           "contents": [
-            "-¦131226 children¦131227, be¦131228_submitting¦131228 to¦131229_the¦131229 parents¦131230 of¦131231_you¦131231_all¦131231 in¦131232",
+            {
+              "untr": "The¦131226",
+              "closing": "\\untr*"
+            },
+            "children¦131227, be¦131228_submitting¦131228 to¦131229_the¦131229 parents¦131230 of¦131231_you¦131231_all¦131231 in¦131232",
             {
               "add": "+the¦131233",
               "closing": "\\add*"
@@ -2533,7 +2545,7 @@
             },
             ", because/for¦131235 this¦131234 is¦131236 right¦131237."
           ],
-          "verseText": "-¦131226 children¦131227, be¦131228_submitting¦131228 to¦131229_the¦131229 parents¦131230 of¦131231_you¦131231_all¦131231 in¦131232 +the¦131233 _ master¦131233, because/for¦131235 this¦131234 is¦131236 right¦131237."
+          "verseText": "children¦131227, be¦131228_submitting¦131228 to¦131229_the¦131229 parents¦131230 of¦131231_you¦131231_all¦131231 in¦131232 +the¦131233 _ master¦131233, because/for¦131235 this¦131234 is¦131236 right¦131237."
         },
         {
           "verseNumber": "2",
@@ -2594,14 +2606,18 @@
         {
           "verseNumber": "5",
           "contents": [
-            "-¦131277 slaves¦131278, be¦131279_submitting¦131279 to¦131280_your¦131280 according¦131282_to¦131282 flesh¦131283 masters¦131284 with¦131285 respect¦131286 and¦131287 trembling¦131288, in¦131289 sincerity¦131290 of¦131291_the¦131291 heart¦131292 of¦131293_you¦131293_all¦131293 as¦131294 to¦131295_the¦131295",
+            {
+              "untr": "The¦131277",
+              "closing": "\\untr*"
+            },
+            "slaves¦131278, be¦131279_submitting¦131279 to¦131280_your¦131280 according¦131282_to¦131282 flesh¦131283 masters¦131284 with¦131285 respect¦131286 and¦131287 trembling¦131288, in¦131289 sincerity¦131290 of¦131291_the¦131291 heart¦131292 of¦131293_you¦131293_all¦131293 as¦131294 to¦131295_the¦131295",
             {
               "nd": "chosen¦131297_one¦131297/messiah¦131297",
               "closing": "\\nd*"
             },
             ","
           ],
-          "verseText": "-¦131277 slaves¦131278, be¦131279_submitting¦131279 to¦131280_your¦131280 according¦131282_to¦131282 flesh¦131283 masters¦131284 with¦131285 respect¦131286 and¦131287 trembling¦131288, in¦131289 sincerity¦131290 of¦131291_the¦131291 heart¦131292 of¦131293_you¦131293_all¦131293 as¦131294 to¦131295_the¦131295 chosen¦131297_one¦131297/messiah¦131297,"
+          "verseText": "slaves¦131278, be¦131279_submitting¦131279 to¦131280_your¦131280 according¦131282_to¦131282 flesh¦131283 masters¦131284 with¦131285 respect¦131286 and¦131287 trembling¦131288, in¦131289 sincerity¦131290 of¦131291_the¦131291 heart¦131292 of¦131293_you¦131293_all¦131293 as¦131294 to¦131295_the¦131295 chosen¦131297_one¦131297/messiah¦131297,"
         },
         {
           "verseNumber": "6",
@@ -2987,7 +3003,7 @@
           "verseNumber": "24",
           "contents": [
             {
-              "untr": "the¦131650",
+              "untr": "The¦131650",
               "closing": "\\untr*"
             },
             "grace¦131651",

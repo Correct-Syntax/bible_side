@@ -18,7 +18,7 @@
         "rem": "The VLT source table used to create this file is Copyright © 2022 by https://GreekCNTR.org"
       },
       {
-        "rem": "ESFM file originally created 2024-03-24 22:21 by Extract_VLT_NT_to_ESFM v0.95"
+        "rem": "ESFM file originally created 2024-05-20 14:46 by Extract_VLT_NT_to_ESFM v0.96"
       },
       {
         "rem": "USFM file edited by ScriptedBibleEditor v0.31"
@@ -1801,7 +1801,7 @@
             },
             "where¦107490 the¦107492 boasting¦107493? It¦107494_was¦107494_excluded¦107494. Through¦107495 what¦107496 law¦107497? Of¦107499_",
             {
-              "untr": "the¦107498",
+              "untr": "The¦107498",
               "closing": "\\untr*"
             },
             "_works¦107499? No¦107500, but¦107501 through¦107502",
@@ -1897,14 +1897,14 @@
         {
           "verseNumber": "1",
           "contents": [
-            "Therefore¦107558 what¦107557 we¦107559_will¦107559_be¦107559_saying¦107559, to¦107560_have¦107560_found¦107560 Abraʼam/(ʼAvərāhām)¦107561 the¦107562 forefather¦107563 of¦107565_us¦107565 according¦107567_to¦107567",
+            "Therefore¦107558 what¦107557 we¦107559_will¦107559_be¦107559_saying¦107559, to¦107560_have¦107560_found¦107560 Abraʼam/(ʼAⱱərāhām)¦107561 the¦107562 forefather¦107563 of¦107565_us¦107565 according¦107567_to¦107567",
             {
               "add": "+the¦107568",
               "closing": "\\add*"
             },
             "_flesh¦107568?"
           ],
-          "verseText": "Therefore¦107558 what¦107557 we¦107559_will¦107559_be¦107559_saying¦107559, to¦107560_have¦107560_found¦107560 Abraʼam/(ʼAvərāhām)¦107561 the¦107562 forefather¦107563 of¦107565_us¦107565 according¦107567_to¦107567 +the¦107568 _flesh¦107568?"
+          "verseText": "Therefore¦107558 what¦107557 we¦107559_will¦107559_be¦107559_saying¦107559, to¦107560_have¦107560_found¦107560 Abraʼam/(ʼAⱱərāhām)¦107561 the¦107562 forefather¦107563 of¦107565_us¦107565 according¦107567_to¦107567 +the¦107568 _flesh¦107568?"
         },
         {
           "verseNumber": "2",
@@ -2026,7 +2026,11 @@
         {
           "verseNumber": "9",
           "contents": [
-            "-¦107669 therefore¦107671",
+            {
+              "untr": "The¦107669",
+              "closing": "\\untr*"
+            },
+            "therefore¦107671",
             {
               "add": "=is¦107671",
               "closing": "\\add*"
@@ -2038,7 +2042,7 @@
             },
             "_Abraʼam¦107687 the¦107688 faith¦107689 for¦107690 righteousness¦107691."
           ],
-          "verseText": "-¦107669 therefore¦107671 =is¦107671 blessing¦107670 this¦107672 on¦107673 the¦107674 circumcision¦107675, or¦107676 also¦107677 on¦107679 the¦107680 uncircumcision¦107681? For/Because¦107683 we¦107682_are¦107682_saying¦107682: /Was¦107685/_counted¦107685 to¦107687_ _Abraʼam¦107687 the¦107688 faith¦107689 for¦107690 righteousness¦107691."
+          "verseText": "therefore¦107671 =is¦107671 blessing¦107670 this¦107672 on¦107673 the¦107674 circumcision¦107675, or¦107676 also¦107677 on¦107679 the¦107680 uncircumcision¦107681? For/Because¦107683 we¦107682_are¦107682_saying¦107682: /Was¦107685/_counted¦107685 to¦107687_ _Abraʼam¦107687 the¦107688 faith¦107689 for¦107690 righteousness¦107691."
         },
         {
           "verseNumber": "10",
@@ -2097,9 +2101,9 @@
               "untr": "which¦107755",
               "closing": "\\untr*"
             },
-            "in¦107756 uncircumcision¦107758 of¦107760_faith¦107760, of¦107761_the¦107761 father¦107762 of¦107763_us¦107763 Abraʼam/(ʼAvərāhām)¦107764."
+            "in¦107756 uncircumcision¦107758 of¦107760_faith¦107760, of¦107761_the¦107761 father¦107762 of¦107763_us¦107763 Abraʼam/(ʼAⱱərāhām)¦107764."
           ],
-          "verseText": "and¦107739 father¦107740 of¦107741_circumcision¦107741 to¦107742_the¦107742>ones¦107742 not¦107743 of¦107744 circumcision¦107745 only¦107746, but¦107747 also¦107748 to¦107749_the¦107749>ones¦107749 aligning¦107750 in¦107751_the¦107751 steps¦107752 in¦107756 uncircumcision¦107758 of¦107760_faith¦107760, of¦107761_the¦107761 father¦107762 of¦107763_us¦107763 Abraʼam/(ʼAvərāhām)¦107764."
+          "verseText": "and¦107739 father¦107740 of¦107741_circumcision¦107741 to¦107742_the¦107742>ones¦107742 not¦107743 of¦107744 circumcision¦107745 only¦107746, but¦107747 also¦107748 to¦107749_the¦107749>ones¦107749 aligning¦107750 in¦107751_the¦107751 steps¦107752 in¦107756 uncircumcision¦107758 of¦107760_faith¦107760, of¦107761_the¦107761 father¦107762 of¦107763_us¦107763 Abraʼam/(ʼAⱱərāhām)¦107764."
         },
         {
           "verseNumber": "13",
@@ -4861,9 +4865,9 @@
         {
           "verseNumber": "7",
           "contents": [
-            "Nor¦110153 because¦110154 they¦110155_are¦110155 seed¦110156 of¦110157_Abraʼam/(ʼAvərāhām)¦110157 all¦110158 children¦110159, but¦110160: In¦110161 Isaʼak/(Yiʦəḩāq)¦110162 will¦110163_be¦110163_being¦110163_named¦110163 to¦110164_you¦110164 descendants¦110165."
+            "Nor¦110153 because¦110154 they¦110155_are¦110155 seed¦110156 of¦110157_Abraʼam/(ʼAⱱərāhām)¦110157 all¦110158 children¦110159, but¦110160: In¦110161 Isaʼak/(Yiʦəḩāq)¦110162 will¦110163_be¦110163_being¦110163_named¦110163 to¦110164_you¦110164 descendants¦110165."
           ],
-          "verseText": "Nor¦110153 because¦110154 they¦110155_are¦110155 seed¦110156 of¦110157_Abraʼam/(ʼAvərāhām)¦110157 all¦110158 children¦110159, but¦110160: In¦110161 Isaʼak/(Yiʦəḩāq)¦110162 will¦110163_be¦110163_being¦110163_named¦110163 to¦110164_you¦110164 descendants¦110165."
+          "verseText": "Nor¦110153 because¦110154 they¦110155_are¦110155 seed¦110156 of¦110157_Abraʼam/(ʼAⱱərāhām)¦110157 all¦110158 children¦110159, but¦110160: In¦110161 Isaʼak/(Yiʦəḩāq)¦110162 will¦110163_be¦110163_being¦110163_named¦110163 to¦110164_you¦110164 descendants¦110165."
         },
         {
           "verseNumber": "8",
@@ -4936,9 +4940,9 @@
               "add": "this¦110202",
               "closing": "\\add*"
             },
-            ", but¦110204 also¦110205 Ɽebekka/(Rivəqāh)¦110206 by¦110207 one¦110208 sexual¦110209_intercourse¦110209, having¦110210 of¦110211_Isaʼak¦110211, the¦110212 father¦110213 of¦110214_us¦110214,"
+            ", but¦110204 also¦110205 Ɽebekka/(Riⱱəqāh)¦110206 by¦110207 one¦110208 sexual¦110209_intercourse¦110209, having¦110210 of¦110211_Isaʼak¦110211, the¦110212 father¦110213 of¦110214_us¦110214,"
           ],
-          "verseText": "Not¦110201 and¦110203 only¦110202 this¦110202, but¦110204 also¦110205 Ɽebekka/(Rivəqāh)¦110206 by¦110207 one¦110208 sexual¦110209_intercourse¦110209, having¦110210 of¦110211_Isaʼak¦110211, the¦110212 father¦110213 of¦110214_us¦110214,"
+          "verseText": "Not¦110201 and¦110203 only¦110202 this¦110202, but¦110204 also¦110205 Ɽebekka/(Riⱱəqāh)¦110206 by¦110207 one¦110208 sexual¦110209_intercourse¦110209, having¦110210 of¦110211_Isaʼak¦110211, the¦110212 father¦110213 of¦110214_us¦110214,"
         },
         {
           "verseNumber": "11",
@@ -4977,14 +4981,14 @@
         {
           "verseNumber": "13",
           "contents": [
-            "As¦110254 it¦110255_has¦110255_been¦110255_written¦110255: -¦110256 Yakōb/(Yaˊaqov)¦110257 I¦110258_loved¦110258, but¦110260",
+            "As¦110254 it¦110255_has¦110255_been¦110255_written¦110255: -¦110256 Yakōb/(Yaˊₐqoⱱ)¦110257 I¦110258_loved¦110258, but¦110260",
             {
               "untr": "the¦110259",
               "closing": "\\untr*"
             },
             "Aʸsau/(ˊĒsāv)¦110261 I¦110262_hated¦110262."
           ],
-          "verseText": "As¦110254 it¦110255_has¦110255_been¦110255_written¦110255: -¦110256 Yakōb/(Yaˊaqov)¦110257 I¦110258_loved¦110258, but¦110260 Aʸsau/(ˊĒsāv)¦110261 I¦110262_hated¦110262."
+          "verseText": "As¦110254 it¦110255_has¦110255_been¦110255_written¦110255: -¦110256 Yakōb/(Yaˊₐqoⱱ)¦110257 I¦110258_loved¦110258, but¦110260 Aʸsau/(ˊĒsāv)¦110261 I¦110262_hated¦110262."
         },
         {
           "verseNumber": "14",
@@ -5010,7 +5014,7 @@
           "verseNumber": "15",
           "contents": [
             {
-              "untr": "the¦110273",
+              "untr": "The¦110273",
               "closing": "\\untr*"
             },
             "For/Because¦110275 to¦110274_Mōsaʸs/(Mosheh)¦110274 he¦110277_is¦110277_saying¦110277: I¦110278_will¦110278_be¦110278_showing¦110278_mercy¦110278 to¦110279_whom¦110279",
@@ -5308,9 +5312,9 @@
               "nd": "master¦110535",
               "closing": "\\nd*"
             },
-            "of¦110536_armies¦110536 abandoned¦110537 to¦110539_us¦110539 descendants¦110540, like¦110541 Sodoma/(Şədom)¦110542 would¦110543 we¦110544_were¦110544_become¦110544, and¦110545 like¦110546 Gomorra/(ˊAmorāh)¦110547 would¦110548 we¦110549_were¦110549_likened¦110549."
+            "of¦110536_armies¦110536 abandoned¦110537 to¦110539_us¦110539 descendants¦110540, like¦110541 Sodoma/(Şədom)¦110542 would¦110543 we¦110544_were¦110544_become¦110544, and¦110545 like¦110546 Gomorra/(ˊₐmorāh)¦110547 would¦110548 we¦110549_were¦110549_likened¦110549."
           ],
-          "verseText": "And¦110529 as¦110530 has¦110531_previously¦110531_said¦110531 Aʸsaias¦110532: Except¦110533 +the¦110535 _ master¦110535 of¦110536_armies¦110536 abandoned¦110537 to¦110539_us¦110539 descendants¦110540, like¦110541 Sodoma/(Şədom)¦110542 would¦110543 we¦110544_were¦110544_become¦110544, and¦110545 like¦110546 Gomorra/(ˊAmorāh)¦110547 would¦110548 we¦110549_were¦110549_likened¦110549."
+          "verseText": "And¦110529 as¦110530 has¦110531_previously¦110531_said¦110531 Aʸsaias¦110532: Except¦110533 +the¦110535 _ master¦110535 of¦110536_armies¦110536 abandoned¦110537 to¦110539_us¦110539 descendants¦110540, like¦110541 Sodoma/(Şədom)¦110542 would¦110543 we¦110544_were¦110544_become¦110544, and¦110545 like¦110546 Gomorra/(ˊₐmorāh)¦110547 would¦110548 we¦110549_were¦110549_likened¦110549."
         },
         {
           "verseNumber": "30",
@@ -5836,14 +5840,14 @@
               "add": "+the¦111014",
               "closing": "\\add*"
             },
-            "_seed¦111014 of¦111015_Abraʼam/(ʼAvərāhām)¦111015, of¦111016_",
+            "_seed¦111014 of¦111015_Abraʼam/(ʼAⱱərāhām)¦111015, of¦111016_",
             {
               "add": "+the¦111016",
               "closing": "\\add*"
             },
             "_tribe¦111016 of¦111017_Beniamin/(Binəyāmīn)¦111017."
           ],
-          "verseText": "Therefore¦110993 I¦110992_am¦110992_asking¦110992, not¦110994 pushed¦110995_away¦110995 god¦110997 the¦110998 people¦111000 of¦111002_him¦111002? Never¦111005 it¦111006_might¦111006_become¦111006. For/Because¦111008 also¦111007 I¦111009 +an¦111010 _Israelite¦111010 am¦111012, of¦111013 +the¦111014 _seed¦111014 of¦111015_Abraʼam/(ʼAvərāhām)¦111015, of¦111016_ +the¦111016 _tribe¦111016 of¦111017_Beniamin/(Binəyāmīn)¦111017."
+          "verseText": "Therefore¦110993 I¦110992_am¦110992_asking¦110992, not¦110994 pushed¦110995_away¦110995 god¦110997 the¦110998 people¦111000 of¦111002_him¦111002? Never¦111005 it¦111006_might¦111006_become¦111006. For/Because¦111008 also¦111007 I¦111009 +an¦111010 _Israelite¦111010 am¦111012, of¦111013 +the¦111014 _seed¦111014 of¦111015_Abraʼam/(ʼAⱱərāhām)¦111015, of¦111016_ +the¦111016 _tribe¦111016 of¦111017_Beniamin/(Binəyāmīn)¦111017."
         },
         {
           "verseNumber": "2",
@@ -6324,9 +6328,9 @@
               "add": ">one¦111494",
               "closing": "\\add*"
             },
-            "rescuing¦111495, he¦111497_will¦111497_be¦111497_turning¦111497_away¦111497 ungodliness¦111499 from¦111500 Yakōb/(Yaˊaqov)¦111501."
+            "rescuing¦111495, he¦111497_will¦111497_be¦111497_turning¦111497_away¦111497 ungodliness¦111499 from¦111500 Yakōb/(Yaˊₐqoⱱ)¦111501."
           ],
-          "verseText": "and¦111484 thus¦111485 all¦111486 Israaʸl/(Yisərā ʼēl)¦111487 will¦111488_be¦111488_being¦111488_saved¦111488, as¦111489 it¦111490_has¦111490_been¦111490_written¦111490: Will¦111491_be¦111491_coming¦111491 out¦111492_of¦111492 Siōn/(Tsiuōn)¦111493 the¦111494>one¦111494 rescuing¦111495, he¦111497_will¦111497_be¦111497_turning¦111497_away¦111497 ungodliness¦111499 from¦111500 Yakōb/(Yaˊaqov)¦111501."
+          "verseText": "and¦111484 thus¦111485 all¦111486 Israaʸl/(Yisərā ʼēl)¦111487 will¦111488_be¦111488_being¦111488_saved¦111488, as¦111489 it¦111490_has¦111490_been¦111490_written¦111490: Will¦111491_be¦111491_coming¦111491 out¦111492_of¦111492 Siōn/(Tsiuōn)¦111493 the¦111494>one¦111494 rescuing¦111495, he¦111497_will¦111497_be¦111497_turning¦111497_away¦111497 ungodliness¦111499 from¦111500 Yakōb/(Yaˊₐqoⱱ)¦111501."
         },
         {
           "verseNumber": "27",
@@ -6985,7 +6989,7 @@
             },
             "to¦112028_evil¦112028. And¦112031 you¦112030_are¦112030_wanting¦112030 not¦112032 to¦112033_be¦112033_fearing¦112033 the¦112034 authority¦112035?",
             {
-              "untr": "the¦112036",
+              "untr": "The¦112036",
               "closing": "\\untr*"
             },
             "good¦112037 be¦112038_practicing¦112038, and¦112039 you¦112040_will¦112040_be¦112040_having¦112040 praise¦112041 from¦112042 him¦112043."
@@ -7185,7 +7189,7 @@
           "verseNumber": "10",
           "contents": [
             {
-              "untr": "the¦112184",
+              "untr": "The¦112184",
               "closing": "\\untr*"
             },
             "love¦112185 to¦112186_the¦112186",
@@ -8694,9 +8698,9 @@
         {
           "verseNumber": "6",
           "contents": [
-            "Greet¦113557 Maria/(Mirəyām)¦113558, who¦113559 much¦113560 labored¦113561 for¦113562 you¦113563_all¦113563."
+            "Greet¦113557 Maria/(Mirəyām)¦113558, who¦113559 much¦113560 laboured¦113561 for¦113562 you¦113563_all¦113563."
           ],
-          "verseText": "Greet¦113557 Maria/(Mirəyām)¦113558, who¦113559 much¦113560 labored¦113561 for¦113562 you¦113563_all¦113563."
+          "verseText": "Greet¦113557 Maria/(Mirəyām)¦113558, who¦113559 much¦113560 laboured¦113561 for¦113562 you¦113563_all¦113563."
         },
         {
           "verseNumber": "7",
@@ -8806,7 +8810,7 @@
               "add": ">ones¦113644",
               "closing": "\\add*"
             },
-            "laboring¦113645 in¦113647",
+            "labouring¦113645 in¦113647",
             {
               "add": "+the¦113648",
               "closing": "\\add*"
@@ -8816,7 +8820,7 @@
               "nd": "master¦113648",
               "closing": "\\nd*"
             },
-            ". Greet¦113649 Persis¦113650, the¦113651 beloved¦113652, who¦113653 much¦113654 labored¦113655 in¦113656",
+            ". Greet¦113649 Persis¦113650, the¦113651 beloved¦113652, who¦113653 much¦113654 laboured¦113655 in¦113656",
             {
               "add": "+the¦113657",
               "closing": "\\add*"
@@ -8828,7 +8832,7 @@
             },
             "."
           ],
-          "verseText": "Greet¦113640 Trufaina¦113641 and¦113642 Trufōsa¦113643, the¦113644>ones¦113644 laboring¦113645 in¦113647 +the¦113648 _ master¦113648. Greet¦113649 Persis¦113650, the¦113651 beloved¦113652, who¦113653 much¦113654 labored¦113655 in¦113656 +the¦113657 _ master¦113657."
+          "verseText": "Greet¦113640 Trufaina¦113641 and¦113642 Trufōsa¦113643, the¦113644>ones¦113644 labouring¦113645 in¦113647 +the¦113648 _ master¦113648. Greet¦113649 Persis¦113650, the¦113651 beloved¦113652, who¦113653 much¦113654 laboured¦113655 in¦113656 +the¦113657 _ master¦113657."
         },
         {
           "verseNumber": "13",

@@ -18,7 +18,7 @@
         "rem": "The VLT source table used to create this file is Copyright © 2022 by https://GreekCNTR.org"
       },
       {
-        "rem": "ESFM file originally created 2024-03-24 22:21 by Extract_VLT_NT_to_ESFM v0.95"
+        "rem": "ESFM file originally created 2024-05-20 14:46 by Extract_VLT_NT_to_ESFM v0.96"
       },
       {
         "rem": "USFM file edited by ScriptedBibleEditor v0.31"
@@ -1373,9 +1373,9 @@
               "add": ">one¦114926",
               "closing": "\\add*"
             },
-            "giving¦114927_to¦114927_drink¦114927, one¦114928 are¦114929, but¦114931 each¦114930 his¦114932 own¦114933 reward¦114934 will¦114935_be¦114935_receiving¦114935, according¦114936_to¦114936 his¦114937 own¦114938 labor¦114940."
+            "giving¦114927_to¦114927_drink¦114927, one¦114928 are¦114929, but¦114931 each¦114930 his¦114932 own¦114933 reward¦114934 will¦114935_be¦114935_receiving¦114935, according¦114936_to¦114936 his¦114937 own¦114938 labour¦114940."
           ],
-          "verseText": "The¦114922>one¦114922 and¦114924 planting¦114923, and¦114925 the¦114926>one¦114926 giving¦114927_to¦114927_drink¦114927, one¦114928 are¦114929, but¦114931 each¦114930 his¦114932 own¦114933 reward¦114934 will¦114935_be¦114935_receiving¦114935, according¦114936_to¦114936 his¦114937 own¦114938 labor¦114940."
+          "verseText": "The¦114922>one¦114922 and¦114924 planting¦114923, and¦114925 the¦114926>one¦114926 giving¦114927_to¦114927_drink¦114927, one¦114928 are¦114929, but¦114931 each¦114930 his¦114932 own¦114933 reward¦114934 will¦114935_be¦114935_receiving¦114935, according¦114936_to¦114936 his¦114937 own¦114938 labour¦114940."
         },
         {
           "verseNumber": "9",
@@ -1918,9 +1918,9 @@
         {
           "verseNumber": "12",
           "contents": [
-            "and¦115389 we¦115390_are¦115390_laboring¦115390, working¦115391 with¦115392_our¦115392 own¦115393 hands¦115394. Being¦115395_insulted¦115395, we¦115396_are¦115396_blessing¦115396, being¦115397_persecuted¦115397, we¦115398_are¦115398_tolerating¦115398,"
+            "and¦115389 we¦115390_are¦115390_labouring¦115390, working¦115391 with¦115392_our¦115392 own¦115393 hands¦115394. Being¦115395_insulted¦115395, we¦115396_are¦115396_blessing¦115396, being¦115397_persecuted¦115397, we¦115398_are¦115398_tolerating¦115398,"
           ],
-          "verseText": "and¦115389 we¦115390_are¦115390_laboring¦115390, working¦115391 with¦115392_our¦115392 own¦115393 hands¦115394. Being¦115395_insulted¦115395, we¦115396_are¦115396_blessing¦115396, being¦115397_persecuted¦115397, we¦115398_are¦115398_tolerating¦115398,"
+          "verseText": "and¦115389 we¦115390_are¦115390_labouring¦115390, working¦115391 with¦115392_our¦115392 own¦115393 hands¦115394. Being¦115395_insulted¦115395, we¦115396_are¦115396_blessing¦115396, being¦115397_persecuted¦115397, we¦115398_are¦115398_tolerating¦115398,"
         },
         {
           "verseNumber": "13",
@@ -3093,7 +3093,7 @@
           "verseNumber": "19",
           "contents": [
             {
-              "untr": "the¦116519",
+              "untr": "The¦116519",
               "closing": "\\untr*"
             },
             "circumcision¦116520 nothing¦116521 is¦116522, and¦116523",
@@ -3555,7 +3555,7 @@
             },
             ", we¦116938_have¦116938_known¦116938 that¦116939 all¦116940 knowledge¦116941 we¦116942_are¦116942_having¦116942.",
             {
-              "untr": "the¦116943",
+              "untr": "The¦116943",
               "closing": "\\untr*"
             },
             "knowledge¦116945 is¦116946_making¦116946_arrogant¦116946, but¦116948",
@@ -3875,14 +3875,18 @@
         {
           "verseNumber": "3",
           "contents": [
-            "-¦117234 my¦117235 defense¦117236 to¦117237_the¦117237",
+            {
+              "untr": "The¦117234",
+              "closing": "\\untr*"
+            },
+            "my¦117235 defense¦117236 to¦117237_the¦117237",
             {
               "add": ">ones¦117237",
               "closing": "\\add*"
             },
             "me¦117238 examining¦117239 is¦117241 this¦117242:"
           ],
-          "verseText": "-¦117234 my¦117235 defense¦117236 to¦117237_the¦117237>ones¦117237 me¦117238 examining¦117239 is¦117241 this¦117242:"
+          "verseText": "my¦117235 defense¦117236 to¦117237_the¦117237>ones¦117237 me¦117238 examining¦117239 is¦117241 this¦117242:"
         },
         {
           "verseNumber": "4",
@@ -6122,7 +6126,11 @@
         {
           "verseNumber": "4",
           "contents": [
-            "-¦119412 love¦119413 is¦119414_being¦119414_patient¦119414, is¦119415_being¦119415_kind¦119415,",
+            {
+              "untr": "The¦119412",
+              "closing": "\\untr*"
+            },
+            "love¦119413 is¦119414_being¦119414_patient¦119414, is¦119415_being¦119415_kind¦119415,",
             {
               "untr": "the¦119416",
               "closing": "\\untr*"
@@ -6134,7 +6142,7 @@
             },
             "love¦119421 not¦119422 is¦119423_bragging¦119423, not¦119426 is¦119427_being¦119427_arrogant¦119427,"
           ],
-          "verseText": "-¦119412 love¦119413 is¦119414_being¦119414_patient¦119414, is¦119415_being¦119415_kind¦119415, love¦119417 not¦119418 is¦119419_being¦119419_jealous¦119419, love¦119421 not¦119422 is¦119423_bragging¦119423, not¦119426 is¦119427_being¦119427_arrogant¦119427,"
+          "verseText": "love¦119413 is¦119414_being¦119414_patient¦119414, is¦119415_being¦119415_kind¦119415, love¦119417 not¦119418 is¦119419_being¦119419_jealous¦119419, love¦119421 not¦119422 is¦119423_bragging¦119423, not¦119426 is¦119427_being¦119427_arrogant¦119427,"
         },
         {
           "verseNumber": "5",
@@ -6195,9 +6203,13 @@
         {
           "verseNumber": "8",
           "contents": [
-            "-¦119460 love¦119461 never¦119462 is¦119463_falling¦119463. But¦119466 whether¦119465 prophesies¦119467, they¦119469_will¦119469_be¦119469_being¦119469_nullified¦119469, or¦119471 tongues¦119472, they¦119473_will¦119473_be¦119473_ceasing¦119473, or¦119474 knowledge¦119475, it¦119476_will¦119476_be¦119476_being¦119476_nullified¦119476."
+            {
+              "untr": "The¦119460",
+              "closing": "\\untr*"
+            },
+            "love¦119461 never¦119462 is¦119463_falling¦119463. But¦119466 whether¦119465 prophesies¦119467, they¦119469_will¦119469_be¦119469_being¦119469_nullified¦119469, or¦119471 tongues¦119472, they¦119473_will¦119473_be¦119473_ceasing¦119473, or¦119474 knowledge¦119475, it¦119476_will¦119476_be¦119476_being¦119476_nullified¦119476."
           ],
-          "verseText": "-¦119460 love¦119461 never¦119462 is¦119463_falling¦119463. But¦119466 whether¦119465 prophesies¦119467, they¦119469_will¦119469_be¦119469_being¦119469_nullified¦119469, or¦119471 tongues¦119472, they¦119473_will¦119473_be¦119473_ceasing¦119473, or¦119474 knowledge¦119475, it¦119476_will¦119476_be¦119476_being¦119476_nullified¦119476."
+          "verseText": "love¦119461 never¦119462 is¦119463_falling¦119463. But¦119466 whether¦119465 prophesies¦119467, they¦119469_will¦119469_be¦119469_being¦119469_nullified¦119469, or¦119471 tongues¦119472, they¦119473_will¦119473_be¦119473_ceasing¦119473, or¦119474 knowledge¦119475, it¦119476_will¦119476_be¦119476_being¦119476_nullified¦119476."
         },
         {
           "verseNumber": "9",
@@ -7115,9 +7127,9 @@
         {
           "verseNumber": "7",
           "contents": [
-            "Then¦120336 he¦120337_was¦120337_seen¦120337 by¦120338_Yakōbos/(Yaˊaqov)¦120338, thereafter¦120340 to¦120341_the¦120341 ambassadors¦120342 all¦120343,"
+            "Then¦120336 he¦120337_was¦120337_seen¦120337 by¦120338_Yakōbos/(Yaˊₐqoⱱ)¦120338, thereafter¦120340 to¦120341_the¦120341 ambassadors¦120342 all¦120343,"
           ],
-          "verseText": "Then¦120336 he¦120337_was¦120337_seen¦120337 by¦120338_Yakōbos/(Yaˊaqov)¦120338, thereafter¦120340 to¦120341_the¦120341 ambassadors¦120342 all¦120343,"
+          "verseText": "Then¦120336 he¦120337_was¦120337_seen¦120337 by¦120338_Yakōbos/(Yaˊₐqoⱱ)¦120338, thereafter¦120340 to¦120341_the¦120341 ambassadors¦120342 all¦120343,"
         },
         {
           "verseNumber": "8",
@@ -7171,7 +7183,7 @@
               "add": "=than¦120389",
               "closing": "\\add*"
             },
-            "them¦120390 all¦120392 I¦120393_labored¦120393, not¦120394 and¦120396 I¦120395, but¦120397 the¦120398 grace¦120399",
+            "them¦120390 all¦120392 I¦120393_laboured¦120393, not¦120394 and¦120396 I¦120395, but¦120397 the¦120398 grace¦120399",
             {
               "untr": "the¦120400",
               "closing": "\\untr*"
@@ -7183,7 +7195,7 @@
             },
             "with¦120405 me¦120406."
           ],
-          "verseText": "But¦120372 by¦120371_ +the¦120371 _grace¦120371 of¦120373_ god¦120373, I¦120374_am¦120374 what¦120375 I¦120376_am¦120376, and¦120377 the¦120378 grace¦120379 of¦120380_him¦120380 toward¦120382 me¦120383, not¦120384 vain¦120385 was¦120387_become¦120387, but¦120388 more¦120389_abundantly¦120389 =than¦120389 them¦120390 all¦120392 I¦120393_labored¦120393, not¦120394 and¦120396 I¦120395, but¦120397 the¦120398 grace¦120399 of¦120402_ god¦120402 with¦120405 me¦120406."
+          "verseText": "But¦120372 by¦120371_ +the¦120371 _grace¦120371 of¦120373_ god¦120373, I¦120374_am¦120374 what¦120375 I¦120376_am¦120376, and¦120377 the¦120378 grace¦120379 of¦120380_him¦120380 toward¦120382 me¦120383, not¦120384 vain¦120385 was¦120387_become¦120387, but¦120388 more¦120389_abundantly¦120389 =than¦120389 them¦120390 all¦120392 I¦120393_laboured¦120393, not¦120394 and¦120396 I¦120395, but¦120397 the¦120398 grace¦120399 of¦120402_ god¦120402 with¦120405 me¦120406."
         },
         {
           "verseNumber": "11",
@@ -8111,7 +8123,7 @@
               "nd": "master¦121184",
               "closing": "\\nd*"
             },
-            "always¦121185, having¦121186_known¦121186 that¦121187 the¦121188 labor¦121189 of¦121190_you¦121190_all¦121190 not¦121191 is¦121192 vain¦121193 in¦121194",
+            "always¦121185, having¦121186_known¦121186 that¦121187 the¦121188 labour¦121189 of¦121190_you¦121190_all¦121190 not¦121191 is¦121192 vain¦121193 in¦121194",
             {
               "add": "+the¦121195",
               "closing": "\\add*"
@@ -8123,7 +8135,7 @@
             },
             "."
           ],
-          "verseText": "So¦121170_then¦121170, brothers¦121171 of¦121172_me¦121172 beloved¦121173, firm¦121175 be¦121176_becoming¦121176, immovable¦121178, being¦121179_plentiful¦121179 in¦121180 the¦121181 work¦121182 of¦121183_the¦121183 master¦121184 always¦121185, having¦121186_known¦121186 that¦121187 the¦121188 labor¦121189 of¦121190_you¦121190_all¦121190 not¦121191 is¦121192 vain¦121193 in¦121194 +the¦121195 _ master¦121195."
+          "verseText": "So¦121170_then¦121170, brothers¦121171 of¦121172_me¦121172 beloved¦121173, firm¦121175 be¦121176_becoming¦121176, immovable¦121178, being¦121179_plentiful¦121179 in¦121180 the¦121181 work¦121182 of¦121183_the¦121183 master¦121184 always¦121185, having¦121186_known¦121186 that¦121187 the¦121188 labour¦121189 of¦121190_you¦121190_all¦121190 not¦121191 is¦121192 vain¦121193 in¦121194 +the¦121195 _ master¦121195."
         }
       ]
     },
@@ -8363,9 +8375,9 @@
               "untr": "which¦121454",
               "closing": "\\untr*"
             },
-            "working¦121455_together¦121455 and¦121456 laboring¦121457."
+            "working¦121455_together¦121455 and¦121456 labouring¦121457."
           ],
-          "verseText": "that¦121446 also¦121447 you¦121448_all¦121448 may¦121449_be¦121449_being¦121449_subjected¦121449 to¦121451_ _such¦121451 men¦121451, and¦121452 to¦121453_everyone¦121453 working¦121455_together¦121455 and¦121456 laboring¦121457."
+          "verseText": "that¦121446 also¦121447 you¦121448_all¦121448 may¦121449_be¦121449_being¦121449_subjected¦121449 to¦121451_ _such¦121451 men¦121451, and¦121452 to¦121453_everyone¦121453 working¦121455_together¦121455 and¦121456 labouring¦121457."
         },
         {
           "verseNumber": "17",

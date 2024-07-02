@@ -1,7 +1,7 @@
 {
   "book": {
     "bookCode": "DEU",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.0.01",
+    "description": "- Open English Translation—Readers' Version (OET-RV) v0.0.03",
     "meta": [
       {
         "usfm": "3.0"
@@ -34,23 +34,26 @@
         "is1": "Introduction"
       },
       {
-        "ip": "The document of Deuteronomy, impaay-ayaran megsinsinundula stories of Moses there to descendants of Israel, there to place of Muwab, the place insanggelan their from naluhey travelling ran there to disirtu, and of time mahaan e them egseled and eg-ugpe there to Kanaan."
+        "ip": "The Greek word ‘Deuteronomy’ means ‘Second law’, because some aspects of God's instructions in the previous accounts are repeated again in this one, noticeably the Ten Commandments. Hebrew readers call this document ‘Devārim’ which is the second word in the Hebrew and means ‘Words’ or ‘Things’. Some European and other translations call it ‘The fifth book of Mosheh/Moses’."
       },
       {
-        "ip": "And/Now this the other important told of this document: 1.) Told here the pegpasuman-suman of Moses of descendants of Israel concerning the neneyitabu of nanlihad hep‑at pulu (40) year(s), and the peghangyu din of descendants of Israel of pegsuman-suman if immenu them of eg-inahak of Master there to disirtu. And/Now told again here the peghangyu of Moses them following and egmatinumanen of God. 2.) Told again here the telling of Moses of Ten (10) Suhu and the explaining din of First Suhu, and the pegpanengneng din of descendants of Israel it's necessary iyan their just indeed egpamakayen the Master God. Nalagkes told here the various law egpeikulan of descendants of Israel there to Kanaan. 3.) Told again here the pegpasuman-suman of Moses of descendants of Israel of igpasabut of agreement of God there to them, and the pegbagget din them of obedience of that agreement. 4.) Told again here the peg-alam to Josh. isip igliwan of teacher of people of God and the singing of Moses of peggale-gale of pegkamatinumanen of God of me his promise, and the blessing of descendants of Israel. Told again here the death of Moses there to Muwab, talipag of Hurdan dapit of igsile."
+        "ip": "impaay-ayaran megsinsinundula stories of Moses there to descendants of Israel, there to place of Moab, the place insanggelan their from naluhey travelling ran there to wilderness, and of time mahaan e them entering and living there to Kanaan."
       },
       {
-        "ip": "The famous theme of this document iyan the pegluwas and blessing of God of people chosen din and inggeyinawaan. Therefore correct indeed egsumsumanen of descendants of Israel eggeyinawaan and egtahuren the God so that egpakaangken them of life, and not egkaawaan of blessing."
+        "ip": "And/Now this the other important told of this document: 1.) Told here the pegpasuman-suman of Moses of descendants of Israel concerning the happenings of nanlihad hep‑at pulu (40) year(s), and the requesting din of descendants of Israel of remembering if immenu them of eg-inahak of Master there to wilderness. And/Now told again here the requesting of Moses them following and egmatinumanen of God. 2.) Told again here the telling of Moses of Ten (10) Commands and the explaining din of First Commands, and the pegpanengneng din of descendants of Israel it's necessary is their just indeed serving the Master God. Nalagkes told here the various law egpeikulan of descendants of Israel there to Kanaan. 3.) Told again here the pegpasuman-suman of Moses of descendants of Israel of igpasabut of agreement of God there to them, and the pegbagget din them of obedience of that agreement. 4.) Told again here the selection to Josh. as igliwan of teacher of people of God and the singing of Moses of peggale-gale of pegkamatinumanen of God of me his promise, and the blessing of descendants of Israel. Told again here the death of Moses there to Moab, opposite bank of Jordan dapit of igsile."
       },
       {
-        "ip": "The very important verses here iyan the 6:4-6 and that verses the said by Yeshua greatest of all suhu miggenendue: Geyinawei niyu the God niyu of entire heart, soul, and keseg niyu."
+        "ip": "The famous theme of this document is the saving/explaining and blessing of God of people chosen din and loved. Therefore correct indeed thinking of descendants of Israel eggeyinawaan and respecting the God so that egpakaangken them of life, and not egkaawaan of blessing."
+      },
+      {
+        "ip": "The very important verses here is the 6:4-6 and that verses the said by Yeshua greatest of all command miggenendue: Love you/your(pl) the God you/your(pl) of entire heart, soul, and strength you/your(pl)."
       },
       {
         "iot": "Main components of this account"
       },
       {
         "io1": [
-          "The first pegpakiglalag of Moses",
+          "The first speech of Moses",
           {
             "ior": "1:1–4:49",
             "closing": "\\ior*"
@@ -59,7 +62,7 @@
       },
       {
         "io1": [
-          "The second pegpakiglalag of Moses",
+          "The second speech of Moses",
           {
             "ior": "5:1–26:19",
             "closing": "\\ior*"
@@ -68,7 +71,7 @@
       },
       {
         "io2": [
-          "a. The Ten (10) Suhu",
+          "a. The Ten (10) Commands",
           {
             "ior": "5:1–10:22",
             "closing": "\\ior*"
@@ -95,7 +98,7 @@
       },
       {
         "io1": [
-          "The pegbalew-balew of agreement",
+          "The replacement of agreement",
           {
             "ior": "29:1–30:20",
             "closing": "\\ior*"
@@ -104,7 +107,7 @@
       },
       {
         "io1": [
-          "The final pegpakiglalag of Moses",
+          "The final speech of Moses",
           {
             "ior": "31:1–33:29",
             "closing": "\\ior*"
@@ -193,7 +196,7 @@
           "contents": [
             "◙",
             {
-              "s1": "The peg-awe of descendants of Israel from Sinay"
+              "s1": "The removal of descendants of Israel from Sinai"
             },
             {
               "p": ""
@@ -220,7 +223,7 @@
           "contents": [
             "◙",
             {
-              "s1": "The peg-alam of Moses of teachers"
+              "s1": "The selection of Moses of teachers"
             },
             {
               "rem": "/s1 Appointment of Tribal Leaders; Moses Appoints Leaders from Each Tribe; The Appointment of Leaders; Moses Appoints Judges"
@@ -1087,7 +1090,7 @@
           "contents": [
             "◙",
             {
-              "s1": "The tribes there to talipag of Hurdan"
+              "s1": "The tribes there to opposite bank of Jordan"
             },
             {
               "rem": "/s1 The Tribes That Settled East of the Jordan; Land Division East of the Jordan; Division of the Land"
@@ -1281,7 +1284,7 @@
       "chapterNumber": "4",
       "contents": [
         {
-          "s1": "The pegbagget of Moses of descendants of Israel of obedience of suhu"
+          "s1": "The pegbagget of Moses of descendants of Israel of obedience of command"
         },
         {
           "rem": "/s1 Moses Urges Israel to Obey; Moses Commands Obedience; Obedience Commanded; Moses Urges Israel to Be Obedient"
@@ -2240,7 +2243,7 @@
       "chapterNumber": "6",
       "contents": [
         {
-          "s1": "The suhu greatest of all"
+          "s1": "The command greatest of all"
         },
         {
           "rem": "/s1 A Call for Wholehearted Commitment; Love the Lord Your God; The Great Commandment"
@@ -3058,7 +3061,7 @@
           "contents": [
             "◙",
             {
-              "s1": "The bulawan larawan of nati baka"
+              "s1": "The gold idol of calf cow"
             },
             {
               "rem": "/s1 Remembering the Gold Calf; The Golden Calf"
@@ -3323,7 +3326,7 @@
       "chapterNumber": "10",
       "contents": [
         {
-          "s1": "The new malumpayag batu"
+          "s1": "The new stone tablets"
         },
         {
           "rem": "/s1 The Second Pair of Tablets; Moses Receives the Commandments Again; Tablets Like the First Ones; New Tablets of Stone"
@@ -3454,7 +3457,7 @@
           "contents": [
             "◙",
             {
-              "s1": "The suhu of respecting and obedience of God"
+              "s1": "The command of respecting and obedience of God"
             },
             {
               "rem": "/s1 Fear the Lord; A Call to Love and Obedience; The Essence of the Law; What God Demands"
@@ -3669,7 +3672,7 @@
           "contents": [
             "◙",
             {
-              "s1": "The me promise and warnings"
+              "s1": "The promises and warnings"
             },
             {
               "rem": "/s1 The Blessings of Obedience; The Blessings of the Promised Land"
@@ -4380,7 +4383,7 @@
       "chapterNumber": "14",
       "contents": [
         {
-          "s1": "The ingkene eggimuwen if eglungku"
+          "s1": "The ingkene to do if eglungku"
         },
         {
           "rem": "/s1 Clean and Unclean Food; Pagan Practices Forbidden; A Forbidden Mourning Practice; Ceremonially Clean and Unclean Animals"
@@ -4681,7 +4684,7 @@
           "s1": "The seventh year(s)"
         },
         {
-          "rem": "/s1 Release for Debtors; Laws concerning the Sabbatical Year; The Seventh Year; The Year for Canceling Debts"
+          "rem": "/s1 Release for Debtors; Laws concerning the Sabbatical Year; The Seventh Year; The Year for Cancelling Debts"
         },
         {
           "r": "(Lev. 25:1-7)"
@@ -4790,7 +4793,7 @@
                   "xo": "15:11:"
                 },
                 {
-                  "xt": "Mat 26:11; Mrk 14:7; Jn 12:8."
+                  "xt": "Mat 26:11; Mrk 14:7; Yhn 12:8."
                 }
               ],
               "closing": "\\x*"
@@ -4876,7 +4879,7 @@
           "contents": [
             "◙",
             {
-              "s1": "The me panganey of baka and sheep"
+              "s1": "The me oldest of cow and sheep"
             },
             {
               "rem": "/s1 The First-Born Cattle and Sheep; The Firstborn Animals; Sacrificing Firstborn Male Animals; The Firstborn of Livestock"
@@ -4952,7 +4955,7 @@
       "chapterNumber": "16",
       "contents": [
         {
-          "s1": "The feast of Peglihad of Messenger"
+          "s1": "The feast of Passing-over of Messenger"
         },
         {
           "rem": "/s1 The Passover; Passover; The Passover Reviewed; Passover and the Festival of Unleavened Bread"
@@ -5035,7 +5038,7 @@
           "contents": [
             "◙",
             {
-              "s1": "The Feast of Pegsawit"
+              "s1": "The Festival of Pegsawit"
             },
             {
               "rem": "/s1 The Festival of Weeks Reviewed; Feast of Weeks; The Festival of Harvest; The Harvest Festival"
@@ -5388,7 +5391,7 @@
           "contents": [
             "◙",
             {
-              "s1": "The warnings of peg-alam of King"
+              "s1": "The warnings of selection of King"
             },
             {
               "rem": "/s1 Limitations of Royal Authority; The King; Guidelines for a King; Instructions concerning a King"
@@ -5653,7 +5656,7 @@
             },
             "◙",
             {
-              "s1": "The promise of God egpeuyan of prophet"
+              "s1": "The promise of God send of prophet"
             },
             {
               "rem": "/s1 The Prophet; The Promise to Send a Prophet"
@@ -5933,7 +5936,7 @@
                   "xo": "19:15:"
                 },
                 {
-                  "xt": "Num 35:30; Deu 17:6; Mat 18:16; Jn 8:17; 2Cor 13:1; 1Tim 5:19; Heb 10:28."
+                  "xt": "Num 35:30; Deu 17:6; Mat 18:16; Yhn 8:17; 2Cor 13:1; 1Tim 5:19; Heb 10:28."
                 }
               ],
               "closing": "\\x*"
@@ -6818,7 +6821,7 @@
           "contents": [
             "◙",
             {
-              "s1": "The peglinis always of kampu"
+              "s1": "The cleaning always of kampu"
             },
             {
               "rem": "/s1 Miscellaneous Regulations; Keeping the Military Camp Clean; Uncleanness in the Camp; Sanitary, Ritual, and Humanitarian Precepts"
@@ -7495,7 +7498,7 @@
           "contents": [
             "◙",
             {
-              "s1": "The suhu of pegpangimatey of me Amalikanen"
+              "s1": "The command of killing of me Amalikanen"
             },
             {
               "rem": "/s1 The Command to Kill the Amalekites"
@@ -7743,7 +7746,7 @@
       "chapterNumber": "27",
       "contents": [
         {
-          "s1": "The warnings of not pad egseled of Kanaan"
+          "s1": "The warnings of not pad entering of Kanaan"
         },
         {
           "rem": "/s1 Moses' closing discourse; God's Laws Written on Stones; The Altar on Mount Ebal; The Inscribed Stones and Altar on Mount Ebal"
@@ -8306,7 +8309,7 @@
           "contents": [
             "◙",
             {
-              "s1": "The me dilus of peg-inniyug of God"
+              "s1": "The me dilus of repentance from God"
             },
             {
               "p": ""
@@ -9116,7 +9119,7 @@
           "contents": [
             "◙",
             {
-              "s1": "The peg-alam of life"
+              "s1": "The selection of life"
             },
             {
               "p": ""
@@ -9196,7 +9199,7 @@
       "chapterNumber": "31",
       "contents": [
         {
-          "s1": "The peg-alam to Josh. isip liwan to Moses"
+          "s1": "The selection to Josh. as liwan to Moses"
         },
         {
           "rem": "/s1 Joshua Becomes Israel's Leader; Joshua to Succeed Moses; Joshua Becomes Moses' Successor"
@@ -9359,7 +9362,7 @@
           "contents": [
             "◙",
             {
-              "s1": "The final suhu to Moses"
+              "s1": "The final command to Moses"
             },
             {
               "rem": "/s1 Moses and Joshua Receive God's Charge; The Lord's Last Instructions to Moses; Israel's Rebellion Predicted; Israel's Disobedience Predicted"

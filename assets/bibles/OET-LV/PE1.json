@@ -18,7 +18,7 @@
         "rem": "The VLT source table used to create this file is Copyright © 2022 by https://GreekCNTR.org"
       },
       {
-        "rem": "ESFM file originally created 2024-03-24 22:21 by Extract_VLT_NT_to_ESFM v0.95"
+        "rem": "ESFM file originally created 2024-05-20 14:46 by Extract_VLT_NT_to_ESFM v0.96"
       },
       {
         "rem": "USFM file edited by ScriptedBibleEditor v0.31"
@@ -944,9 +944,13 @@
         {
           "verseNumber": "18",
           "contents": [
-            "-¦150226 house¦150227_servants¦150227, being¦150228_subjected¦150228 with¦150229 all¦150230 respect¦150231 to¦150233_your¦150233 masters¦150234, not¦150236 only¦150237 to¦150238_the¦150238 good¦150239 and¦150240 gentle¦150241, but¦150242 also¦150243 to¦150244_the¦150244 crooked¦150245."
+            {
+              "untr": "The¦150226",
+              "closing": "\\untr*"
+            },
+            "house¦150227_servants¦150227, being¦150228_subjected¦150228 with¦150229 all¦150230 respect¦150231 to¦150233_your¦150233 masters¦150234, not¦150236 only¦150237 to¦150238_the¦150238 good¦150239 and¦150240 gentle¦150241, but¦150242 also¦150243 to¦150244_the¦150244 crooked¦150245."
           ],
-          "verseText": "-¦150226 house¦150227_servants¦150227, being¦150228_subjected¦150228 with¦150229 all¦150230 respect¦150231 to¦150233_your¦150233 masters¦150234, not¦150236 only¦150237 to¦150238_the¦150238 good¦150239 and¦150240 gentle¦150241, but¦150242 also¦150243 to¦150244_the¦150244 crooked¦150245."
+          "verseText": "house¦150227_servants¦150227, being¦150228_subjected¦150228 with¦150229 all¦150230 respect¦150231 to¦150233_your¦150233 masters¦150234, not¦150236 only¦150237 to¦150238_the¦150238 good¦150239 and¦150240 gentle¦150241, but¦150242 also¦150243 to¦150244_the¦150244 crooked¦150245."
         },
         {
           "verseNumber": "19",
@@ -1148,14 +1152,18 @@
               "untr": "the¦150486",
               "closing": "\\untr*"
             },
-            "_Abraʼam/(ʼAvərāhām)¦150487: calling¦150491 him¦150490 master¦150489, of¦150492_whom¦150492 you¦150493_all¦150493_were¦150493_become¦150493 children¦150495, doing¦150496_good¦150496 and¦150497 not¦150498 fearing¦150499 not¦150500_one¦150500 fear¦150501."
+            "_Abraʼam/(ʼAⱱərāhām)¦150487: calling¦150491 him¦150490 master¦150489, of¦150492_whom¦150492 you¦150493_all¦150493_were¦150493_become¦150493 children¦150495, doing¦150496_good¦150496 and¦150497 not¦150498 fearing¦150499 not¦150500_one¦150500 fear¦150501."
           ],
-          "verseText": "as¦150482 Sarra/(Sārāh)¦150483 submitted¦150484 to¦150487_ _Abraʼam/(ʼAvərāhām)¦150487: calling¦150491 him¦150490 master¦150489, of¦150492_whom¦150492 you¦150493_all¦150493_were¦150493_become¦150493 children¦150495, doing¦150496_good¦150496 and¦150497 not¦150498 fearing¦150499 not¦150500_one¦150500 fear¦150501."
+          "verseText": "as¦150482 Sarra/(Sārāh)¦150483 submitted¦150484 to¦150487_ _Abraʼam/(ʼAⱱərāhām)¦150487: calling¦150491 him¦150490 master¦150489, of¦150492_whom¦150492 you¦150493_all¦150493_were¦150493_become¦150493 children¦150495, doing¦150496_good¦150496 and¦150497 not¦150498 fearing¦150499 not¦150500_one¦150500 fear¦150501."
         },
         {
           "verseNumber": "7",
           "contents": [
-            "-¦150502 men¦150503, likewise¦150504 dwelling¦150506_with¦150506",
+            {
+              "untr": "The¦150502",
+              "closing": "\\untr*"
+            },
+            "men¦150503, likewise¦150504 dwelling¦150506_with¦150506",
             {
               "add": "them¦150506",
               "closing": "\\add*"
@@ -1172,7 +1180,7 @@
             },
             "_grace¦150524 of¦150525_life¦150525, in¦150527_order¦150527 that¦150528 the¦150532 prayers¦150534 of¦150536_you¦150536_all¦150536 to¦150530_ not¦150529 _be¦150530_being¦150530_hindered¦150530."
           ],
-          "verseText": "-¦150502 men¦150503, likewise¦150504 dwelling¦150506_with¦150506 them¦150506 according¦150507_to¦150507 knowledge¦150508, as¦150509 with¦150510_ +a¦150510 _weaker¦150510 vessel¦150512 with¦150513_the¦150513 feminine¦150514, rendering¦150515_out¦150515 honour¦150516 as¦150518 also¦150519 to¦150521_fellow-heirs¦150521 of¦150524_ +the¦150524 _grace¦150524 of¦150525_life¦150525, in¦150527_order¦150527 that¦150528 the¦150532 prayers¦150534 of¦150536_you¦150536_all¦150536 to¦150530_ not¦150529 _be¦150530_being¦150530_hindered¦150530."
+          "verseText": "men¦150503, likewise¦150504 dwelling¦150506_with¦150506 them¦150506 according¦150507_to¦150507 knowledge¦150508, as¦150509 with¦150510_ +a¦150510 _weaker¦150510 vessel¦150512 with¦150513_the¦150513 feminine¦150514, rendering¦150515_out¦150515 honour¦150516 as¦150518 also¦150519 to¦150521_fellow-heirs¦150521 of¦150524_ +the¦150524 _grace¦150524 of¦150525_life¦150525, in¦150527_order¦150527 that¦150528 the¦150532 prayers¦150534 of¦150536_you¦150536_all¦150536 to¦150530_ not¦150529 _be¦150530_being¦150530_hindered¦150530."
         },
         {
           "verseNumber": "8",
@@ -2254,9 +2262,9 @@
         {
           "verseNumber": "13",
           "contents": [
-            "Is¦151437_greeting¦151437 you¦151438_all¦151438 the¦151439 in¦151440 Babulōn/(Bāvel?)¦151441 chosen¦151443_together¦151443, and¦151444 Markos¦151445, the¦151446 son¦151447 of¦151448_me¦151448."
+            "Is¦151437_greeting¦151437 you¦151438_all¦151438 the¦151439 in¦151440 Babulōn/(Bāⱱel?)¦151441 chosen¦151443_together¦151443, and¦151444 Markos¦151445, the¦151446 son¦151447 of¦151448_me¦151448."
           ],
-          "verseText": "Is¦151437_greeting¦151437 you¦151438_all¦151438 the¦151439 in¦151440 Babulōn/(Bāvel?)¦151441 chosen¦151443_together¦151443, and¦151444 Markos¦151445, the¦151446 son¦151447 of¦151448_me¦151448."
+          "verseText": "Is¦151437_greeting¦151437 you¦151438_all¦151438 the¦151439 in¦151440 Babulōn/(Bāⱱel?)¦151441 chosen¦151443_together¦151443, and¦151444 Markos¦151445, the¦151446 son¦151447 of¦151448_me¦151448."
         },
         {
           "verseNumber": "14",

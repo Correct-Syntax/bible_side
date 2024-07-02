@@ -1,7 +1,7 @@
 {
   "book": {
     "bookCode": "JHN",
-    "description": "- Open English Translation—Readers' Version (OET-RV) V0.1.11",
+    "description": "- Open English Translation—Readers' Version (OET-RV) V0.1.13",
     "meta": [
       {
         "usfm": "3.0"
@@ -19,7 +19,7 @@
         "h": "Yohan"
       },
       {
-        "toc1": "Yohan"
+        "toc1": "Yohan (John)"
       },
       {
         "toc2": "Yohan"
@@ -31,7 +31,7 @@
         "mt2": "The account of Yeshua's ministry by"
       },
       {
-        "mt1": "Yohan"
+        "mt1": "Yohan (John)"
       },
       {
         "is1": "Introduction"
@@ -350,7 +350,7 @@
         {
           "verseNumber": "17",
           "contents": [
-            "The commandments came to us through Moses, but grace¦63168 and truth¦63171 came to us through",
+            "The commandments came to us through Mosheh, but grace¦63168 and truth¦63171 came to us through",
             {
               "nd": "Yeshua¦63173",
               "closing": "\\nd*"
@@ -362,7 +362,7 @@
             },
             "."
           ],
-          "verseText": "The commandments came to us through Moses, but grace¦63168 and truth¦63171 came to us through Yeshua¦63173 the messiah¦63174."
+          "verseText": "The commandments came to us through Mosheh, but grace¦63168 and truth¦63171 came to us through Yeshua¦63173 the messiah¦63174."
         },
         {
           "verseNumber": "18",
@@ -798,7 +798,7 @@
               "nd": "Nathanael¦63746",
               "closing": "\\nd*"
             },
-            "and told him¦63749, “We've¦63759 found the one that Moses and the prophets¦63758 wrote¦63751 about in the Scriptures. He's",
+            "and told him¦63749, “We've¦63759 found the one that Mosheh and the prophets¦63758 wrote¦63751 about in the Scriptures. He's",
             {
               "nd": "Yeshua¦63760",
               "closing": "\\nd*"
@@ -813,7 +813,7 @@
               "p": ""
             }
           ],
-          "verseText": "Philip then found Nathanael¦63746 and told him¦63749, “We've¦63759 found the one that Moses and the prophets¦63758 wrote¦63751 about in the Scriptures. He's Yeshua¦63760 from Nazareth¦63769.”"
+          "verseText": "Philip then found Nathanael¦63746 and told him¦63749, “We've¦63759 found the one that Mosheh and the prophets¦63758 wrote¦63751 about in the Scriptures. He's Yeshua¦63760 from Nazareth¦63769.”"
         },
         {
           "verseNumber": "46",
@@ -1188,14 +1188,14 @@
               ],
               "closing": "\\x*"
             },
-            "By then it was getting close to the time of the Jewish Feast of the Passover, and¦64174",
+            "By then it was getting close to the time of the Jewish Festival of the Passover, and¦64174",
             {
               "nd": "Yeshua¦64181",
               "closing": "\\nd*"
             },
             "went¦64175 down to Yerusalem¦64179."
           ],
-          "verseText": "By then it was getting close to the time of the Jewish Feast of the Passover, and¦64174 Yeshua¦64181 went¦64175 down to Yerusalem¦64179."
+          "verseText": "By then it was getting close to the time of the Jewish Festival of the Passover, and¦64174 Yeshua¦64181 went¦64175 down to Yerusalem¦64179."
         },
         {
           "verseNumber": "14",
@@ -1479,7 +1479,7 @@
           "verseNumber": "6",
           "contents": [
             {
-              "wj": "Someone that's born from a body is flesh"
+              "wj": "Someone that's born from a body¦64568 is flesh"
             },
             {
               "add": [
@@ -1491,7 +1491,7 @@
               ]
             }
           ],
-          "verseText": "Someone that's born from a body is flesh and bone *, but someone that's born from God's spirit is spiritual."
+          "verseText": "Someone that's born from a body¦64568 is flesh and bone *, but someone that's born from God's spirit is spiritual."
         },
         {
           "verseNumber": "7",
@@ -1607,7 +1607,7 @@
             "“",
             {
               "wj": [
-                "Just like Moses lifted up that",
+                "Just like Mosheh lifted up that",
                 {
                   "add": "bronze",
                   "closing": "\\add*"
@@ -1642,7 +1642,7 @@
               "closing": "\\f*"
             }
           ],
-          "verseText": "“Just like Moses lifted up that bronze snake on a pole in the wilderness¦64717, it's also * necessary¦64722 for humanity's child to be lifted up,"
+          "verseText": "“Just like Mosheh lifted up that bronze snake on a pole in the wilderness¦64717, it's also * necessary¦64722 for humanity's child to be lifted up,"
         },
         {
           "verseNumber": "15",
@@ -1681,7 +1681,12 @@
                   "add": "the people of",
                   "closing": "\\add*"
                 },
-                "the world enough to cause his only son to be born and to give him¦64765 to the world, so that everyone¦64760 who believes¦64762 this will not die, but¦64769 will"
+                "the world enough to cause",
+                {
+                  "add": "&his",
+                  "closing": "\\add*"
+                },
+                "only son to be born and to give him¦64765 to the world, so that everyone¦64760 who believes¦64762 this will not die, but¦64769 will"
               ]
             },
             {
@@ -1697,7 +1702,7 @@
               "p": ""
             }
           ],
-          "verseText": "Because¦64745 in that same way, God¦64748 loves the people of the world enough to cause his only son to be born and to give him¦64765 to the world, so that everyone¦64760 who believes¦64762 this will not die, but¦64769 will go on to * live forever."
+          "verseText": "Because¦64745 in that same way, God¦64748 loves the people of the world enough to cause &his only son to be born and to give him¦64765 to the world, so that everyone¦64760 who believes¦64762 this will not die, but¦64769 will go on to * live forever."
         },
         {
           "verseNumber": "17",
@@ -1879,7 +1884,7 @@
                   "xo": "3:28:"
                 },
                 {
-                  "xt": "Jn 1:20."
+                  "xt": "Yhn 1:20."
                 }
               ],
               "closing": "\\x*"
@@ -2630,7 +2635,7 @@
                   "xo": "4:45:"
                 },
                 {
-                  "xt": "Jn 2:23."
+                  "xt": "Yhn 2:23."
                 }
               ],
               "closing": "\\x*"
@@ -2655,7 +2660,7 @@
                   "xo": "4:46:"
                 },
                 {
-                  "xt": "Jn 2:1-11."
+                  "xt": "Yhn 2:1-11."
                 }
               ],
               "closing": "\\x*"
@@ -3225,7 +3230,7 @@
                   "xo": "5:33:"
                 },
                 {
-                  "xt": "Jn 1:19-27; 3:27-30."
+                  "xt": "Yhn 1:19-27; 3:27-30."
                 }
               ],
               "closing": "\\x*"
@@ -3393,21 +3398,21 @@
           "verseNumber": "45",
           "contents": [
             {
-              "wj": "But don't be assuming that I'll be accusing you all in front of the father¦67330. No, the one who'll accuse you is Moses because he's the one that you're hoping to please.",
+              "wj": "But don't be assuming that I'll be accusing you all in front of the father¦67330. No, the one who'll accuse you is Mosheh because he's the one that you're hoping to please.",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "But don't be assuming that I'll be accusing you all in front of the father¦67330. No, the one who'll accuse you is Moses because he's the one that you're hoping to please."
+          "verseText": "But don't be assuming that I'll be accusing you all in front of the father¦67330. No, the one who'll accuse you is Mosheh because he's the one that you're hoping to please."
         },
         {
           "verseNumber": "46",
           "contents": [
             {
-              "wj": "The trouble is that if you actually believed what Moses wrote¦67355, you would believe me, because¦67351 Moses was writing about me.",
+              "wj": "The trouble is that if you actually believed what Mosheh wrote¦67355, you would believe me, because¦67351 Mosheh was writing about me.",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "The trouble is that if you actually believed what Moses wrote¦67355, you would believe me, because¦67351 Moses was writing about me."
+          "verseText": "The trouble is that if you actually believed what Mosheh wrote¦67355, you would believe me, because¦67351 Mosheh was writing about me."
         },
         {
           "verseNumber": "47",
@@ -3499,9 +3504,9 @@
         {
           "verseNumber": "4",
           "contents": [
-            "At that time, it was getting close to the Jewish Feast of Passover."
+            "At that time, it was getting close to the Jewish Festival of Passover."
           ],
-          "verseText": "At that time, it was getting close to the Jewish Feast of Passover."
+          "verseText": "At that time, it was getting close to the Jewish Festival of Passover."
         },
         {
           "verseNumber": "5",
@@ -3882,17 +3887,17 @@
                   "fr": "6:31"
                 },
                 {
-                  "ft": "Manna was a word that meant ‘stuff’ and referred to some kind of flakes that regularly came down from the sky in the time of Moses and could be eaten as food."
+                  "ft": "Manna was a word that meant ‘stuff’ and referred to some kind of flakes that regularly came down from the sky in the time of Mosheh and could be eaten as food."
                 }
               ],
               "closing": "\\f*"
             },
-            "out in the wilderness¦68064, just like Moses wrote¦68067, ‘He gave¦68073 them bread¦68069 from the sky to eat¦68076.’ ”",
+            "out in the wilderness¦68064, just like Mosheh wrote¦68067, ‘He gave¦68073 them bread¦68069 from the sky to eat¦68076.’ ”",
             {
               "p": ""
             }
           ],
-          "verseText": "Our¦68058 ancestors¦68057 ate¦68061 the manna¦68060 out in the wilderness¦68064, just like Moses wrote¦68067, ‘He gave¦68073 them bread¦68069 from the sky to eat¦68076.’ ”"
+          "verseText": "Our¦68058 ancestors¦68057 ate¦68061 the manna¦68060 out in the wilderness¦68064, just like Mosheh wrote¦68067, ‘He gave¦68073 them bread¦68069 from the sky to eat¦68076.’ ”"
         },
         {
           "verseNumber": "32",
@@ -3903,11 +3908,11 @@
             },
             "said to them, “",
             {
-              "wj": "Actually I can tell you that it wasn't Moses who gave¦68088 them bread from heaven, but my¦68099 father¦68098 gives you the real bread from heaven,",
+              "wj": "Actually I can tell you that it wasn't Mosheh who gave¦68088 them bread from heaven, but my¦68099 father¦68098 gives you the real bread from heaven,",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "Yeshua¦68081 said to them, “Actually I can tell you that it wasn't Moses who gave¦68088 them bread from heaven, but my¦68099 father¦68098 gives you the real bread from heaven,"
+          "verseText": "Yeshua¦68081 said to them, “Actually I can tell you that it wasn't Mosheh who gave¦68088 them bread from heaven, but my¦68099 father¦68098 gives you the real bread from heaven,"
         },
         {
           "verseNumber": "33",
@@ -4341,11 +4346,11 @@
           "verseNumber": "63",
           "contents": [
             {
-              "wj": "It's the spirit that is the source of life, not the body. The concepts that I've taught you are all spiritual and life-giving.",
+              "wj": "It's the spirit that is the source of life, not the body¦68861. The concepts that I've taught you are all spiritual and life-giving.",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "It's the spirit that is the source of life, not the body. The concepts that I've taught you are all spiritual and life-giving."
+          "verseText": "It's the spirit that is the source of life, not the body¦68861. The concepts that I've taught you are all spiritual and life-giving."
         },
         {
           "verseNumber": "64",
@@ -4735,7 +4740,7 @@
           "verseNumber": "19",
           "contents": [
             {
-              "wj": "Didn't Moses write down God's commandments for you, yet not a single one of you obeys them. Why are you wanting to execute me?",
+              "wj": "Didn't Mosheh write down God's commandments for you, yet not a single one of you obeys them. Why are you wanting to execute me?",
               "closing": "\\wj*"
             },
             "”",
@@ -4743,7 +4748,7 @@
               "p": ""
             }
           ],
-          "verseText": "Didn't Moses write down God's commandments for you, yet not a single one of you obeys them. Why are you wanting to execute me?”"
+          "verseText": "Didn't Mosheh write down God's commandments for you, yet not a single one of you obeys them. Why are you wanting to execute me?”"
         },
         {
           "verseNumber": "20",
@@ -4792,11 +4797,11 @@
               "closing": "\\x*"
             },
             {
-              "wj": "Moses gave¦69454 you the commandment about circumcision (even though it actually came from before his time), but to obey this, you'll even circumcise a baby boy on the Rest Day.",
+              "wj": "Mosheh gave¦69454 you the commandment about circumcision (even though it actually came from before his time), but to obey this, you'll even circumcise a baby boy on the Rest Day.",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "Moses gave¦69454 you the commandment about circumcision (even though it actually came from before his time), but to obey this, you'll even circumcise a baby boy on the Rest Day."
+          "verseText": "Mosheh gave¦69454 you the commandment about circumcision (even though it actually came from before his time), but to obey this, you'll even circumcise a baby boy on the Rest Day."
         },
         {
           "verseNumber": "23",
@@ -4808,7 +4813,7 @@
                   "xo": "7:23:"
                 },
                 {
-                  "xt": "Jn 5:9."
+                  "xt": "Yhn 5:9."
                 }
               ],
               "closing": "\\x*"
@@ -4820,13 +4825,13 @@
               "add": [
                 "baby",
                 {
-                  "add": "* boy can be circumcised¦69478 on the Rest Day so that Moses' commandments aren't broken¦69486, they why did you get angry¦69493 with me because¦69494 I made a man healthy¦69498 on the Rest Day?",
+                  "add": "* boy can be circumcised¦69478 on the Rest Day so that Mosheh' commandments aren't broken¦69486, they why did you get angry¦69493 with me because¦69494 I made a man healthy¦69498 on the Rest Day?",
                   "closing": "\\wj*"
                 }
               ]
             }
           ],
-          "verseText": "So if a baby * boy can be circumcised¦69478 on the Rest Day so that Moses' commandments aren't broken¦69486, they why did you get angry¦69493 with me because¦69494 I made a man healthy¦69498 on the Rest Day?"
+          "verseText": "So if a baby * boy can be circumcised¦69478 on the Rest Day so that Mosheh' commandments aren't broken¦69486, they why did you get angry¦69493 with me because¦69494 I made a man healthy¦69498 on the Rest Day?"
         },
         {
           "verseNumber": "24",
@@ -5227,7 +5232,7 @@
                   "xo": "7:50:"
                 },
                 {
-                  "xt": "Jn 3:1-2."
+                  "xt": "Yhn 3:1-2."
                 }
               ],
               "closing": "\\x*"
@@ -5420,7 +5425,7 @@
                   "xo": "8:12:"
                 },
                 {
-                  "xt": "Mat 5:14; Jn 9:5."
+                  "xt": "Mat 5:14; Yhn 9:5."
                 }
               ],
               "closing": "\\x*"
@@ -5432,13 +5437,19 @@
             },
             "told them, “",
             {
-              "wj": ""
+              "wj": [
+                {
+                  "em": "I am",
+                  "closing": "\\em*"
+                },
+                "the light for the world¦70403—whoever follows¦70405 me won't walk in the darkness¦70414 but will have the light"
+              ]
             },
             {
-              "em": [
-                "I am",
+              "add": [
+                "that gives",
                 {
-                  "em": "* the light of the world¦70403—whoever follows¦70405 me won't walk in the darkness¦70414 but will have the light of life¦70421.",
+                  "add": "* life¦70421.",
                   "closing": "\\wj*"
                 },
                 "”"
@@ -5448,7 +5459,7 @@
               "p": ""
             }
           ],
-          "verseText": "Because of this, Yeshua¦70391 told them, “I am * the light of the world¦70403—whoever follows¦70405 me won't walk in the darkness¦70414 but will have the light of life¦70421.”"
+          "verseText": "Because of this, Yeshua¦70391 told them, “I am the light for the world¦70403—whoever follows¦70405 me won't walk in the darkness¦70414 but will have the light that gives * life¦70421.”"
         },
         {
           "verseNumber": "13",
@@ -5460,7 +5471,7 @@
                   "xo": "8:13:"
                 },
                 {
-                  "xt": "Jn 5:31."
+                  "xt": "Yhn 5:31."
                 }
               ],
               "closing": "\\x*"
@@ -6399,7 +6410,7 @@
                   "xo": "9:5:"
                 },
                 {
-                  "xt": "Mat 5:14; Jn 8:12."
+                  "xt": "Mat 5:14; Yhn 8:12."
                 }
               ],
               "closing": "\\x*"
@@ -6694,9 +6705,9 @@
               "em": "we¦72113",
               "closing": "\\em*"
             },
-            "are followers of Moses."
+            "are followers of Mosheh."
           ],
-          "verseText": "Then they¦72101 insulted¦72101 him¦72103 and¦72104 said¦72106, “You might be a follower of that man, but¦72115 we¦72113 are followers of Moses."
+          "verseText": "Then they¦72101 insulted¦72101 him¦72103 and¦72104 said¦72106, “You might be a follower of that man, but¦72115 we¦72113 are followers of Mosheh."
         },
         {
           "verseNumber": "29",
@@ -6706,12 +6717,12 @@
               "nd": "God¦72128",
               "closing": "\\nd*"
             },
-            "spoke¦72125 to Moses, but¦72136 we¦72138 don't¦72137 even know where¦72139 this other fellow is from.”",
+            "spoke¦72125 to Mosheh, but¦72136 we¦72138 don't¦72137 even know where¦72139 this other fellow is from.”",
             {
               "p": ""
             }
           ],
-          "verseText": "We know that God¦72128 spoke¦72125 to Moses, but¦72136 we¦72138 don't¦72137 even know where¦72139 this other fellow is from.”"
+          "verseText": "We know that God¦72128 spoke¦72125 to Mosheh, but¦72136 we¦72138 don't¦72137 even know where¦72139 this other fellow is from.”"
         },
         {
           "verseNumber": "30",
@@ -7242,9 +7253,9 @@
         {
           "verseNumber": "22",
           "contents": [
-            "By then it was winter¦72859 and the time for the Jewish Feast of Dedication in Yerusalem¦72857."
+            "By then it was winter¦72859 and the time for the Jewish Festival of Dedication in Yerusalem¦72857."
           ],
-          "verseText": "By then it was winter¦72859 and the time for the Jewish Feast of Dedication in Yerusalem¦72857."
+          "verseText": "By then it was winter¦72859 and the time for the Jewish Festival of Dedication in Yerusalem¦72857."
         },
         {
           "verseNumber": "23",
@@ -7505,7 +7516,7 @@
                   "xo": "10:40:"
                 },
                 {
-                  "xt": "Jn 1:28."
+                  "xt": "Yhn 1:28."
                 }
               ],
               "closing": "\\x*"
@@ -7571,7 +7582,7 @@
                   "xo": "11:2:"
                 },
                 {
-                  "xt": "Jn 12:3."
+                  "xt": "Yhn 12:3."
                 }
               ],
               "closing": "\\x*"
@@ -7688,11 +7699,19 @@
             },
             "answered¦73431, “",
             {
-              "wj": "There are twelve hours¦73437 of light in the day. Anyone who walks during the daytime doesn't stumble¦73453 because¦73454 he is seeing¦73461 the light of this world¦73458.",
-              "closing": "\\wj*"
+              "wj": "There are twelve hours¦73437 of light in the day. Anyone who walks during the daytime doesn't stumble¦73453 because¦73454 he is seeing¦73461 the light"
+            },
+            {
+              "add": [
+                "that shines in",
+                {
+                  "add": "* this world¦73458.",
+                  "closing": "\\wj*"
+                }
+              ]
             }
           ],
-          "verseText": "And Yeshua¦73433 answered¦73431, “There are twelve hours¦73437 of light in the day. Anyone who walks during the daytime doesn't stumble¦73453 because¦73454 he is seeing¦73461 the light of this world¦73458."
+          "verseText": "And Yeshua¦73433 answered¦73431, “There are twelve hours¦73437 of light in the day. Anyone who walks during the daytime doesn't stumble¦73453 because¦73454 he is seeing¦73461 the light that shines in * this world¦73458."
         },
         {
           "verseNumber": "10",
@@ -9498,7 +9517,7 @@
                   "xo": "13:16:"
                 },
                 {
-                  "xt": "Mat 10:24; Luk 6:40; Jn 15:20."
+                  "xt": "Mat 10:24; Luk 6:40; Yhn 15:20."
                 }
               ],
               "closing": "\\x*"
@@ -9869,7 +9888,7 @@
                       "xo": "13:33:"
                     },
                     {
-                      "xt": "Jn 7:34."
+                      "xt": "Yhn 7:34."
                     }
                   ],
                   "closing": "\\x*"
@@ -9891,7 +9910,7 @@
                   "xo": "13:34:"
                 },
                 {
-                  "xt": "Jn 15:12,17; 1Jn 3:23; 2Jn 5."
+                  "xt": "Yhn 15:12,17; 1Yhn 3:23; 2Yhn 5."
                 }
               ],
               "closing": "\\x*"
@@ -10682,7 +10701,7 @@
                   "xo": "15:12:"
                 },
                 {
-                  "xt": "Jn 13:34; 15:17; 1Jn 3:23; 2Jn 5."
+                  "xt": "Yhn 13:34; 15:17; 1Yhn 3:23; 2Yhn 5."
                 }
               ],
               "closing": "\\x*"
@@ -10787,7 +10806,7 @@
                   "xo": "15:20:"
                 },
                 {
-                  "xt": "Mat 10:24; Luk 6:40; Jn 13:16."
+                  "xt": "Mat 10:24; Luk 6:40; Yhn 13:16."
                 }
               ],
               "closing": "\\x*"
@@ -11540,7 +11559,7 @@
                   "xo": "17:12:"
                 },
                 {
-                  "xt": "Psa 41:9; Jn 13:18."
+                  "xt": "Psa 41:9; Yhn 13:18."
                 }
               ],
               "closing": "\\x*"
@@ -12007,7 +12026,7 @@
                   "xo": "18:14:"
                 },
                 {
-                  "xt": "Jn 11:49-50."
+                  "xt": "Yhn 11:49-50."
                 }
               ],
               "closing": "\\x*"
@@ -12299,7 +12318,7 @@
                   "xo": "18:32:"
                 },
                 {
-                  "xt": "Jn 3:14; 12:32."
+                  "xt": "Yhn 3:14; 12:32."
                 }
               ],
               "closing": "\\x*"
@@ -12963,7 +12982,7 @@
                   "xo": "19:31:"
                 },
                 {
-                  "xt": "Jn 19:14."
+                  "xt": "Yhn 19:14."
                 }
               ],
               "closing": "\\x*"
@@ -13105,7 +13124,7 @@
                   "xo": "19:39:"
                 },
                 {
-                  "xt": "Jn 3:1-2."
+                  "xt": "Yhn 3:1-2."
                 }
               ],
               "closing": "\\x*"
@@ -14081,7 +14100,7 @@
                   "xo": "21:20:"
                 },
                 {
-                  "xt": "Jn 13:25."
+                  "xt": "Yhn 13:25."
                 }
               ],
               "closing": "\\x*"

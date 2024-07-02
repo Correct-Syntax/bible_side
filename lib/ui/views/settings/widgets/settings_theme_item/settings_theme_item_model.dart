@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
 import '../../../../../common/enums.dart';
 
-
 class SettingsThemeItemModel extends BaseViewModel {
   String getThemeName(CurrentTheme theme) {
     switch (theme) {
