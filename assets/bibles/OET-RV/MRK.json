@@ -1,7 +1,7 @@
 {
   "book": {
     "bookCode": "MRK",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.13",
+    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.14",
     "meta": [
       {
         "usfm": "3.0"
@@ -220,7 +220,12 @@
               ],
               "closing": "\\x*"
             },
-            "The voice¦21787 out in the wilderness¦21791 shouting¦21788,",
+            "The voice¦21787",
+            {
+              "add": "out",
+              "closing": "\\add*"
+            },
+            "in the wilderness¦21791 shouting¦21788,",
             {
               "q2": [
                 "‘Get the path¦21794 ready for the",
@@ -315,14 +320,14 @@
               "attributes": "|src=\"41_Mk_01_06_RG.jpg\" size=\"col\" loc=\"1:9\" copy=\"© Sweet Publishing\" ref=\"1:9\"",
               "closing": "\\fig*"
             },
-            "Then one day Yeshua came from",
+            "Then¦21993 one day Yeshua came from",
             {
               "nd": "Nazareth¦22006",
               "closing": "\\nd*"
             },
             "in the Galilee¦22008 region, and he got immersed in the Yordan¦22016 river by Yohan."
           ],
-          "verseText": "Then one day Yeshua came from Nazareth¦22006 in the Galilee¦22008 region, and he got immersed in the Yordan¦22016 river by Yohan."
+          "verseText": "Then¦21993 one day Yeshua came from Nazareth¦22006 in the Galilee¦22008 region, and he got immersed in the Yordan¦22016 river by Yohan."
         },
         {
           "verseNumber": "10",
@@ -470,9 +475,9 @@
         {
           "verseNumber": "19",
           "contents": [
-            "Then a bit further on he saw¦22214 two of Zebedee's¦22218 sons, Yacob¦22215 and his¦22223 brother¦22222 Yohan¦22220, in a boat¦22228 getting their nets¦22231 ready."
+            "Then¦22209 a bit further on he saw¦22214 two of Zebedee's¦22218 sons, Yacob¦22215 and his¦22223 brother¦22222 Yohan¦22220, in a boat¦22228 getting their nets¦22231 ready."
           ],
-          "verseText": "Then a bit further on he saw¦22214 two of Zebedee's¦22218 sons, Yacob¦22215 and his¦22223 brother¦22222 Yohan¦22220, in a boat¦22228 getting their nets¦22231 ready."
+          "verseText": "Then¦22209 a bit further on he saw¦22214 two of Zebedee's¦22218 sons, Yacob¦22215 and his¦22223 brother¦22222 Yohan¦22220, in a boat¦22228 getting their nets¦22231 ready."
         },
         {
           "verseNumber": "20",
@@ -525,9 +530,9 @@
         {
           "verseNumber": "23",
           "contents": [
-            "Then a demon-possessed¦22309 man¦22306 in the meeting¦22303 hall¦22303 suddenly yelled¦22312 out,"
+            "Then¦22298 a demon-possessed¦22309 man¦22306 in the meeting¦22303 hall¦22303 suddenly yelled¦22312 out,"
           ],
-          "verseText": "Then a demon-possessed¦22309 man¦22306 in the meeting¦22303 hall¦22303 suddenly yelled¦22312 out,"
+          "verseText": "Then¦22298 a demon-possessed¦22309 man¦22306 in the meeting¦22303 hall¦22303 suddenly yelled¦22312 out,"
         },
         {
           "verseNumber": "24",
@@ -552,7 +557,7 @@
         {
           "verseNumber": "25",
           "contents": [
-            "But",
+            "But¦22336",
             {
               "nd": "Yeshua¦22340",
               "closing": "\\nd*"
@@ -572,14 +577,14 @@
               "p": ""
             }
           ],
-          "verseText": "But Yeshua¦22340 scolded it, saying¦22342, “Keep quiet¦22344!”, and, “Come out of him!”"
+          "verseText": "But¦22336 Yeshua¦22340 scolded it, saying¦22342, “Keep quiet¦22344!”, and, “Come out of him!”"
         },
         {
           "verseNumber": "26",
           "contents": [
-            "Then the demon¦22360 threw the man into a convulsion¦22355, cried out loudly¦22370, and left¦22373 him."
+            "Then¦22353 the demon¦22360 threw the man into a convulsion¦22355, cried out loudly¦22370, and left¦22373 him."
           ],
-          "verseText": "Then the demon¦22360 threw the man into a convulsion¦22355, cried out loudly¦22370, and left¦22373 him."
+          "verseText": "Then¦22353 the demon¦22360 threw the man into a convulsion¦22355, cried out loudly¦22370, and left¦22373 him."
         },
         {
           "verseNumber": "27",
@@ -682,9 +687,9 @@
         {
           "verseNumber": "36",
           "contents": [
-            "But Simon¦22611 and the others came looking¦22606 for him,"
+            "But¦22604 Simon¦22611 and the others came looking¦22606 for him,"
           ],
-          "verseText": "But Simon¦22611 and the others came looking¦22606 for him,"
+          "verseText": "But¦22604 Simon¦22611 and the others came looking¦22606 for him,"
         },
         {
           "verseNumber": "37",
@@ -723,7 +728,7 @@
               ],
               "closing": "\\x*"
             },
-            "Then he went¦22663 preaching¦22665 in all their¦22673 meeting¦22671 halls¦22671 in Galilee¦22677 and driving¦22681 out demons¦22680.",
+            "Then¦22662 he went¦22663 preaching¦22665 in all their¦22673 meeting¦22671 halls¦22671 in Galilee¦22677 and driving¦22681 out demons¦22680.",
             {
               "s1": "Yeshua heals a man with leprosy"
             },
@@ -737,7 +742,7 @@
               "p": ""
             }
           ],
-          "verseText": "Then he went¦22663 preaching¦22665 in all their¦22673 meeting¦22671 halls¦22671 in Galilee¦22677 and driving¦22681 out demons¦22680."
+          "verseText": "Then¦22662 he went¦22663 preaching¦22665 in all their¦22673 meeting¦22671 halls¦22671 in Galilee¦22677 and driving¦22681 out demons¦22680."
         },
         {
           "verseNumber": "40",
@@ -764,16 +769,16 @@
         {
           "verseNumber": "42",
           "contents": [
-            "Then immediately¦22727 the leprosy¦22735 disappeared and he was well again."
+            "Then¦22723 immediately¦22727 the leprosy¦22735 disappeared and he was well again."
           ],
-          "verseText": "Then immediately¦22727 the leprosy¦22735 disappeared and he was well again."
+          "verseText": "Then¦22723 immediately¦22727 the leprosy¦22735 disappeared and he was well again."
         },
         {
           "verseNumber": "43",
           "contents": [
-            "So Yeshua sent¦22744 him away, but warned him:"
+            "So¦22738 Yeshua sent¦22744 him away, but warned him:"
           ],
-          "verseText": "So Yeshua sent¦22744 him away, but warned him:"
+          "verseText": "So¦22738 Yeshua sent¦22744 him away, but warned him:"
         },
         {
           "verseNumber": "44",
@@ -850,9 +855,9 @@
         {
           "verseNumber": "4",
           "contents": [
-            "but because¦22876 of the crowd¦22880, they were unable to get close. So they climbed up onto the flat roof¦22884, made a hole through it¦22890, and lowered¦22891 the paralysed¦22902 man lying¦22903 on a pallet¦22893."
+            "but because¦22876 of the crowd¦22880, they were unable to get close. So¦22869 they climbed up onto the flat roof¦22884, made a hole through it¦22890, and lowered¦22891 the paralysed¦22902 man lying¦22903 on a pallet¦22893."
           ],
-          "verseText": "but because¦22876 of the crowd¦22880, they were unable to get close. So they climbed up onto the flat roof¦22884, made a hole through it¦22890, and lowered¦22891 the paralysed¦22902 man lying¦22903 on a pallet¦22893."
+          "verseText": "but because¦22876 of the crowd¦22880, they were unable to get close. So¦22869 they climbed up onto the flat roof¦22884, made a hole through it¦22890, and lowered¦22891 the paralysed¦22902 man lying¦22903 on a pallet¦22893."
         },
         {
           "verseNumber": "5",
@@ -901,7 +906,7 @@
         {
           "verseNumber": "8",
           "contents": [
-            "Then",
+            "Then¦22959",
             {
               "nd": "Yeshua¦22964",
               "closing": "\\nd*"
@@ -912,7 +917,7 @@
               "closing": "\\wj*"
             }
           ],
-          "verseText": "Then Yeshua¦22964, knowing¦22962 in his¦22968 spirit¦22967 that they are thinking like that, said to them, “Why are you thinking that to yourselves¦22986?"
+          "verseText": "Then¦22959 Yeshua¦22964, knowing¦22962 in his¦22968 spirit¦22967 that they are thinking like that, said to them, “Why are you thinking that to yourselves¦22986?"
         },
         {
           "verseNumber": "9",
@@ -961,7 +966,7 @@
         {
           "verseNumber": "12",
           "contents": [
-            "So the man stood up, and picked up his bedding¦23080, and went¦23082 out of the house where everyone saw¦23104 him and marvelled¦23088 and praised¦23094",
+            "So¦23068 the man stood up, and picked up his bedding¦23080, and went¦23082 out of the house where everyone saw¦23104 him and marvelled¦23088 and praised¦23094",
             {
               "nd": "God¦23096",
               "closing": "\\nd*"
@@ -980,7 +985,7 @@
               "p": ""
             }
           ],
-          "verseText": "So the man stood up, and picked up his bedding¦23080, and went¦23082 out of the house where everyone saw¦23104 him and marvelled¦23088 and praised¦23094 God¦23096 saying¦23098, “We've¦23104 never¦23103 seen anything happen like this before¦23083!”"
+          "verseText": "So¦23068 the man stood up, and picked up his bedding¦23080, and went¦23082 out of the house where everyone saw¦23104 him and marvelled¦23088 and praised¦23094 God¦23096 saying¦23098, “We've¦23104 never¦23103 seen anything happen like this before¦23083!”"
         },
         {
           "verseNumber": "13",
@@ -992,12 +997,12 @@
         {
           "verseNumber": "14",
           "contents": [
-            "And as he was passing¦23131 by the tax¦23143 office¦23143, he saw¦23132 Levi Alphaeus sitting¦23139 there and said to him, “Come along with me.” So Levi stood up and followed¦23152 Yeshua.",
+            "And as he was passing¦23131 by the tax¦23143 office¦23143, he saw¦23132 Levi Alphaeus sitting¦23139 there and said to him, “Come along with me.” So¦23130 Levi stood up and followed¦23152 Yeshua.",
             {
               "p": ""
             }
           ],
-          "verseText": "And as he was passing¦23131 by the tax¦23143 office¦23143, he saw¦23132 Levi Alphaeus sitting¦23139 there and said to him, “Come along with me.” So Levi stood up and followed¦23152 Yeshua."
+          "verseText": "And as he was passing¦23131 by the tax¦23143 office¦23143, he saw¦23132 Levi Alphaeus sitting¦23139 there and said to him, “Come along with me.” So¦23130 Levi stood up and followed¦23152 Yeshua."
         },
         {
           "verseNumber": "15",
@@ -1014,12 +1019,12 @@
         {
           "verseNumber": "16",
           "contents": [
-            "And the teachers¦23192 from the Pharisee¦23197 party¦23197 noticed that Yeshua was eating beside undesirables¦23210 and tax-collectors. So they asked his¦23219 followers, “How come he eats with tax-collectors and other low-life?”",
+            "And the teachers¦23192 from the Pharisee¦23197 party¦23197 noticed that Yeshua was eating beside undesirables¦23210 and tax-collectors. So¦23190 they asked his¦23219 followers, “How come he eats with tax-collectors and other low-life?”",
             {
               "p": ""
             }
           ],
-          "verseText": "And the teachers¦23192 from the Pharisee¦23197 party¦23197 noticed that Yeshua was eating beside undesirables¦23210 and tax-collectors. So they asked his¦23219 followers, “How come he eats with tax-collectors and other low-life?”"
+          "verseText": "And the teachers¦23192 from the Pharisee¦23197 party¦23197 noticed that Yeshua was eating beside undesirables¦23210 and tax-collectors. So¦23190 they asked his¦23219 followers, “How come he eats with tax-collectors and other low-life?”"
         },
         {
           "verseNumber": "17",
@@ -1053,12 +1058,12 @@
         {
           "verseNumber": "18",
           "contents": [
-            "Now the followers of Yohan-the-Immerser and members of the Pharisees regularly fasted. So a small group came to Yeshua and asked, “How come Yohan's followers and the Pharisee¦23275 party fast regularly, yet your followers don't¦23298?”",
+            "Now the followers of Yohan-the-Immerser and members of the Pharisees regularly fasted. So¦23265 a small group came to Yeshua and asked, “How come Yohan's followers and the Pharisee¦23275 party fast regularly, yet your followers don't¦23298?”",
             {
               "p": ""
             }
           ],
-          "verseText": "Now the followers of Yohan-the-Immerser and members of the Pharisees regularly fasted. So a small group came to Yeshua and asked, “How come Yohan's followers and the Pharisee¦23275 party fast regularly, yet your followers don't¦23298?”"
+          "verseText": "Now the followers of Yohan-the-Immerser and members of the Pharisees regularly fasted. So¦23265 a small group came to Yeshua and asked, “How come Yohan's followers and the Pharisee¦23275 party fast regularly, yet your followers don't¦23298?”"
         },
         {
           "verseNumber": "19",
@@ -1070,11 +1075,11 @@
             },
             "answered, “",
             {
-              "wj": "Can the friends of the groom fast when they're celebrating along with him? No, as long as he's still there, they won't be fasting.",
+              "wj": "Can the friends of the groom fast when they're celebrating along with him? No, as long¦23320 as he's still there, they won't be fasting.",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "And Yeshua¦23304 answered, “Can the friends of the groom fast when they're celebrating along with him? No, as long as he's still there, they won't be fasting."
+          "verseText": "And Yeshua¦23304 answered, “Can the friends of the groom fast when they're celebrating along with him? No, as long¦23320 as he's still there, they won't be fasting."
         },
         {
           "verseNumber": "20",
@@ -1265,14 +1270,14 @@
         {
           "verseNumber": "3",
           "contents": [
-            "Then Yeshua said to the man¦23631 with the flawed hand¦23637, “",
+            "Then¦23628 Yeshua said to the man¦23631 with the flawed hand¦23637, “",
             {
               "wj": "Stand up there in the middle.",
               "closing": "\\wj*"
             },
             "”"
           ],
-          "verseText": "Then Yeshua said to the man¦23631 with the flawed hand¦23637, “Stand up there in the middle.”"
+          "verseText": "Then¦23628 Yeshua said to the man¦23631 with the flawed hand¦23637, “Stand up there in the middle.”"
         },
         {
           "verseNumber": "4",
@@ -1282,12 +1287,12 @@
               "wj": "Is it allowable to do good¦23665 on the rest day, or only to do evil¦23669? To save¦23672 life¦23671, or to kill¦23676?",
               "closing": "\\wj*"
             },
-            "” But they didn't reply.",
+            "” But¦23654 they didn't reply.",
             {
               "p": ""
             }
           ],
-          "verseText": "And he asked the leaders, “Is it allowable to do good¦23665 on the rest day, or only to do evil¦23669? To save¦23672 life¦23671, or to kill¦23676?” But they didn't reply."
+          "verseText": "And he asked the leaders, “Is it allowable to do good¦23665 on the rest day, or only to do evil¦23669? To save¦23672 life¦23671, or to kill¦23676?” But¦23654 they didn't reply."
         },
         {
           "verseNumber": "5",
@@ -1304,7 +1309,7 @@
         {
           "verseNumber": "6",
           "contents": [
-            "The man stretched out his fingers, and his hand became totally normal. But the Pharisees quickly left, and meeting with King Herod's¦23724 supporters¦23724, they conspired to kill¦23735 Yeshua.",
+            "The man stretched out his fingers, and his hand became totally normal. But¦23715 the Pharisees quickly left, and meeting with King Herod's¦23724 supporters¦23724, they conspired to kill¦23735 Yeshua.",
             {
               "s1": "Big crowds press on Yeshua"
             },
@@ -1315,7 +1320,7 @@
               "p": ""
             }
           ],
-          "verseText": "The man stretched out his fingers, and his hand became totally normal. But the Pharisees quickly left, and meeting with King Herod's¦23724 supporters¦23724, they conspired to kill¦23735 Yeshua."
+          "verseText": "The man stretched out his fingers, and his hand became totally normal. But¦23715 the Pharisees quickly left, and meeting with King Herod's¦23724 supporters¦23724, they conspired to kill¦23735 Yeshua."
         },
         {
           "verseNumber": "7",
@@ -1351,9 +1356,9 @@
               ],
               "closing": "\\x*"
             },
-            "So Yeshua asked his¦23804 apprentices¦23803 to organise a small¦23806 boat¦23806 to be there for him so he wouldn't be cramped by the press of the crowd¦23812."
+            "So¦23800 Yeshua asked his¦23804 apprentices¦23803 to organise a small¦23806 boat¦23806 to be there for him so he wouldn't be cramped by the press of the crowd¦23812."
           ],
-          "verseText": "So Yeshua asked his¦23804 apprentices¦23803 to organise a small¦23806 boat¦23806 to be there for him so he wouldn't be cramped by the press of the crowd¦23812."
+          "verseText": "So¦23800 Yeshua asked his¦23804 apprentices¦23803 to organise a small¦23806 boat¦23806 to be there for him so he wouldn't be cramped by the press of the crowd¦23812."
         },
         {
           "verseNumber": "10",
@@ -1372,7 +1377,7 @@
         {
           "verseNumber": "12",
           "contents": [
-            "But he regularly warned them not to reveal who he was.",
+            "But¦23865 he regularly warned them not to reveal who he was.",
             {
               "s1": "Yeshua appoints his twelve representatives"
             },
@@ -1386,7 +1391,7 @@
               "p": ""
             }
           ],
-          "verseText": "But he regularly warned them not to reveal who he was."
+          "verseText": "But¦23865 he regularly warned them not to reveal who he was."
         },
         {
           "verseNumber": "13",
@@ -1455,9 +1460,9 @@
         {
           "verseNumber": "20",
           "contents": [
-            "Then Yeshua was approaching a house¦24041, but the crowd¦24046 swarmed them again¦24044 so they had no opportunity to eat¦24055."
+            "Then¦24036 Yeshua was approaching a house¦24041, but the crowd¦24046 swarmed them again¦24044 so they had no opportunity to eat¦24055."
           ],
-          "verseText": "Then Yeshua was approaching a house¦24041, but the crowd¦24046 swarmed them again¦24044 so they had no opportunity to eat¦24055."
+          "verseText": "Then¦24036 Yeshua was approaching a house¦24041, but the crowd¦24046 swarmed them again¦24044 so they had no opportunity to eat¦24055."
         },
         {
           "verseNumber": "21",
@@ -1494,13 +1499,13 @@
         {
           "verseNumber": "23",
           "contents": [
-            "But Yeshua addressed them: “",
+            "But¦24109 Yeshua addressed them: “",
             {
               "wj": "How could Satan¦24123 command himself?",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "But Yeshua addressed them: “How could Satan¦24123 command himself?"
+          "verseText": "But¦24109 Yeshua addressed them: “How could Satan¦24123 command himself?"
         },
         {
           "verseNumber": "24",
@@ -1526,14 +1531,14 @@
           "verseNumber": "26",
           "contents": [
             {
-              "wj": "So if Satan¦24160 attacked himself¦24166 and was split, he couldn't possibly be powerful, but his time would be over.",
+              "wj": "So¦24156 if Satan¦24160 attacked himself¦24166 and was split, he couldn't possibly be powerful, but his time would be over.",
               "closing": "\\wj*"
             },
             {
               "p": ""
             }
           ],
-          "verseText": "So if Satan¦24160 attacked himself¦24166 and was split, he couldn't possibly be powerful, but his time would be over."
+          "verseText": "So¦24156 if Satan¦24160 attacked himself¦24166 and was split, he couldn't possibly be powerful, but his time would be over."
         },
         {
           "verseNumber": "27",
@@ -1620,14 +1625,14 @@
         {
           "verseNumber": "33",
           "contents": [
-            "But Yeshua answered¦24340, “",
+            "But¦24338 Yeshua answered¦24340, “",
             {
               "wj": "Who is my mother¦24350 and¦24352 who are my brothers¦24355?",
               "closing": "\\wj*"
             },
             "”"
           ],
-          "verseText": "But Yeshua answered¦24340, “Who is my mother¦24350 and¦24352 who are my brothers¦24355?”"
+          "verseText": "But¦24338 Yeshua answered¦24340, “Who is my mother¦24350 and¦24352 who are my brothers¦24355?”"
         },
         {
           "verseNumber": "34",
@@ -1757,7 +1762,7 @@
           "verseNumber": "8",
           "contents": [
             {
-              "wj": "But some seed landed in fertile soil and it bore a harvest—some of it multiplying thirty¦24603 times, some sixty¦24609, and some a hundred¦24615 times.",
+              "wj": "But¦24577 some seed landed in fertile soil and it bore a harvest—some of it multiplying thirty¦24603 times, some sixty¦24609, and some a hundred¦24615 times.",
               "closing": "\\wj*"
             },
             "”",
@@ -1765,12 +1770,12 @@
               "p": ""
             }
           ],
-          "verseText": "But some seed landed in fertile soil and it bore a harvest—some of it multiplying thirty¦24603 times, some sixty¦24609, and some a hundred¦24615 times.”"
+          "verseText": "But¦24577 some seed landed in fertile soil and it bore a harvest—some of it multiplying thirty¦24603 times, some sixty¦24609, and some a hundred¦24615 times.”"
         },
         {
           "verseNumber": "9",
           "contents": [
-            "Then Yeshua added, “",
+            "Then¦24617 Yeshua added, “",
             {
               "wj": "Anyone who wants to understand, let them consider it.",
               "closing": "\\wj*"
@@ -1789,7 +1794,7 @@
               "p": ""
             }
           ],
-          "verseText": "Then Yeshua added, “Anyone who wants to understand, let them consider it.”"
+          "verseText": "Then¦24617 Yeshua added, “Anyone who wants to understand, let them consider it.”"
         },
         {
           "verseNumber": "10",
@@ -1873,13 +1878,13 @@
         {
           "verseNumber": "13",
           "contents": [
-            "Then Yeshua said to them, “",
+            "Then¦24709 Yeshua said to them, “",
             {
               "wj": "If you didn't understand this parable¦24715, how will you understand any others?",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "Then Yeshua said to them, “If you didn't understand this parable¦24715, how will you understand any others?"
+          "verseText": "Then¦24709 Yeshua said to them, “If you didn't understand this parable¦24715, how will you understand any others?"
         },
         {
           "verseNumber": "14",
@@ -1953,7 +1958,7 @@
           "verseNumber": "20",
           "contents": [
             {
-              "wj": "But lastly, the seed that landed on the good soil represents the people who hear¦24888 the good message¦24890, accept¦24892 it and are fruitful¦24894 thirty¦24899, sixty¦24903, or even a hundred¦24907 times over.",
+              "wj": "But¦24873 lastly, the seed that landed on the good soil represents the people who hear¦24888 the good message¦24890, accept¦24892 it and are fruitful¦24894 thirty¦24899, sixty¦24903, or even a hundred¦24907 times over.",
               "closing": "\\wj*"
             },
             "”",
@@ -1970,7 +1975,7 @@
               "p": ""
             }
           ],
-          "verseText": "But lastly, the seed that landed on the good soil represents the people who hear¦24888 the good message¦24890, accept¦24892 it and are fruitful¦24894 thirty¦24899, sixty¦24903, or even a hundred¦24907 times over.”"
+          "verseText": "But¦24873 lastly, the seed that landed on the good soil represents the people who hear¦24888 the good message¦24890, accept¦24892 it and are fruitful¦24894 thirty¦24899, sixty¦24903, or even a hundred¦24907 times over.”"
         },
         {
           "verseNumber": "21",
@@ -2259,9 +2264,9 @@
         {
           "verseNumber": "36",
           "contents": [
-            "So they left the crowd¦25231 behind and got into the boat¦25239 with him."
+            "So¦25226 they left the crowd¦25231 behind and got into the boat¦25239 with him."
           ],
-          "verseText": "So they left the crowd¦25231 behind and got into the boat¦25239 with him."
+          "verseText": "So¦25226 they left the crowd¦25231 behind and got into the boat¦25239 with him."
         },
         {
           "verseNumber": "37",
@@ -2277,12 +2282,12 @@
         {
           "verseNumber": "38",
           "contents": [
-            "But Yeshua slept on in the back, sleeping¦25293 on a cushion¦25291. They woke him and cried, “Teacher¦25302, don't¦25303 you care that we're all about to drown?”",
+            "But¦25281 Yeshua slept on in the back, sleeping¦25293 on a cushion¦25291. They woke him and cried, “Teacher¦25302, don't¦25303 you care that we're all about to drown?”",
             {
               "p": ""
             }
           ],
-          "verseText": "But Yeshua slept on in the back, sleeping¦25293 on a cushion¦25291. They woke him and cried, “Teacher¦25302, don't¦25303 you care that we're all about to drown?”"
+          "verseText": "But¦25281 Yeshua slept on in the back, sleeping¦25293 on a cushion¦25291. They woke him and cried, “Teacher¦25302, don't¦25303 you care that we're all about to drown?”"
         },
         {
           "verseNumber": "39",
@@ -2292,9 +2297,9 @@
               "wj": "Quieten down! Stop that!",
               "closing": "\\wj*"
             },
-            "” Then the wind died down and the water became¦25329 very calm."
+            "” Then¦25308 the wind died down and the water became¦25329 very calm."
           ],
-          "verseText": "Now awake, Yeshua scolded the wind and waves, “Quieten down! Stop that!” Then the wind died down and the water became¦25329 very calm."
+          "verseText": "Now awake, Yeshua scolded the wind and waves, “Quieten down! Stop that!” Then¦25308 the wind died down and the water became¦25329 very calm."
         },
         {
           "verseNumber": "40",
@@ -2319,14 +2324,14 @@
         {
           "verseNumber": "41",
           "contents": [
-            "But now they were very afraid¦25347",
+            "But¦25346 now they were very afraid¦25347",
             {
               "add": "again",
               "closing": "\\add*"
             },
             "and asked each other, “Who could this man be that both the wind¦25363 and waves obey¦25373 him¦25372?”"
           ],
-          "verseText": "But now they were very afraid¦25347 again and asked each other, “Who could this man be that both the wind¦25363 and waves obey¦25373 him¦25372?”"
+          "verseText": "But¦25346 now they were very afraid¦25347 again and asked each other, “Who could this man be that both the wind¦25363 and waves obey¦25373 him¦25372?”"
         }
       ]
     },
@@ -2348,14 +2353,14 @@
         {
           "verseNumber": "1",
           "contents": [
-            "So they¦25375 got",
+            "So¦25374 they¦25375 got",
             {
               "add": "safely",
               "closing": "\\add*"
             },
             "to the region¦25388 of Gerasenes¦25390 on the other side of the lake¦25383."
           ],
-          "verseText": "So they¦25375 got safely to the region¦25388 of Gerasenes¦25390 on the other side of the lake¦25383."
+          "verseText": "So¦25374 they¦25375 got safely to the region¦25388 of Gerasenes¦25390 on the other side of the lake¦25383."
         },
         {
           "verseNumber": "2",
@@ -2391,7 +2396,7 @@
         {
           "verseNumber": "6",
           "contents": [
-            "So when he had seen¦25509",
+            "So¦25508 when he had seen¦25509",
             {
               "nd": "Yeshua¦25512",
               "closing": "\\nd*"
@@ -2403,7 +2408,7 @@
             },
             "fell to the ground in front of him."
           ],
-          "verseText": "So when he had seen¦25509 Yeshua¦25512 in the distance, he ran¦25515 and as a sign of honour fell to the ground in front of him."
+          "verseText": "So¦25508 when he had seen¦25509 Yeshua¦25512 in the distance, he ran¦25515 and as a sign of honour fell to the ground in front of him."
         },
         {
           "verseNumber": "7",
@@ -2484,9 +2489,9 @@
         {
           "verseNumber": "14",
           "contents": [
-            "The ones who had been feeding¦25692 them rushed off and spread the news around in the city¦25705 and the surrounding area. So the people hurried out to see¦25713 what had happened."
+            "The ones who had been feeding¦25692 them rushed off and spread the news around in the city¦25705 and the surrounding area. So¦25689 the people hurried out to see¦25713 what had happened."
           ],
-          "verseText": "The ones who had been feeding¦25692 them rushed off and spread the news around in the city¦25705 and the surrounding area. So the people hurried out to see¦25713 what had happened."
+          "verseText": "The ones who had been feeding¦25692 them rushed off and spread the news around in the city¦25705 and the surrounding area. So¦25689 the people hurried out to see¦25713 what had happened."
         },
         {
           "verseNumber": "15",
@@ -2513,12 +2518,12 @@
         {
           "verseNumber": "17",
           "contents": [
-            "So then the people began¦25759 asking Yeshua to go¦25764 away from their¦25769 region¦25768.",
+            "So¦25758 then the people began¦25759 asking Yeshua to go¦25764 away from their¦25769 region¦25768.",
             {
               "p": ""
             }
           ],
-          "verseText": "So then the people began¦25759 asking Yeshua to go¦25764 away from their¦25769 region¦25768."
+          "verseText": "So¦25758 then the people began¦25759 asking Yeshua to go¦25764 away from their¦25769 region¦25768."
         },
         {
           "verseNumber": "18",
@@ -2533,7 +2538,7 @@
         {
           "verseNumber": "19",
           "contents": [
-            "But Yeshua wouldn't let him and told him to head back home¦25804 to his own people¦25808, and explain to them what the",
+            "But¦25791 Yeshua wouldn't let him and told him to head back home¦25804 to his own people¦25808, and explain to them what the",
             {
               "nd": "Master¦25818",
               "closing": "\\nd*"
@@ -2543,12 +2548,12 @@
               "p": ""
             }
           ],
-          "verseText": "But Yeshua wouldn't let him and told him to head back home¦25804 to his own people¦25808, and explain to them what the Master¦25818 had done for him and how he had been merciful to him."
+          "verseText": "But¦25791 Yeshua wouldn't let him and told him to head back home¦25804 to his own people¦25808, and explain to them what the Master¦25818 had done for him and how he had been merciful to him."
         },
         {
           "verseNumber": "20",
           "contents": [
-            "So he went¦25829 away and shared with the people of the Ten Cities region what",
+            "So¦25828 he went¦25829 away and shared with the people of the Ten Cities region what",
             {
               "nd": "Yeshua¦25842",
               "closing": "\\nd*"
@@ -2567,7 +2572,7 @@
               "p": ""
             }
           ],
-          "verseText": "So he went¦25829 away and shared with the people of the Ten Cities region what Yeshua¦25842 had done for him, and they were all amazed¦25845."
+          "verseText": "So¦25828 he went¦25829 away and shared with the people of the Ten Cities region what Yeshua¦25842 had done for him, and they were all amazed¦25845."
         },
         {
           "verseNumber": "21",
@@ -2601,19 +2606,19 @@
         {
           "verseNumber": "24",
           "contents": [
-            "So Yeshua went¦25931 off with Jairus. The large crowd¦25938 followed¦25935 also and¦25940 many were getting pressed¦25941 against Yeshua.",
+            "So¦25929 Yeshua went¦25931 off with Jairus. The large crowd¦25938 followed¦25935 also and¦25940 many were getting pressed¦25941 against Yeshua.",
             {
               "p": ""
             }
           ],
-          "verseText": "So Yeshua went¦25931 off with Jairus. The large crowd¦25938 followed¦25935 also and¦25940 many were getting pressed¦25941 against Yeshua."
+          "verseText": "So¦25929 Yeshua went¦25931 off with Jairus. The large crowd¦25938 followed¦25935 also and¦25940 many were getting pressed¦25941 against Yeshua."
         },
         {
           "verseNumber": "25",
           "contents": [
-            "Then a woman¦25944 came who had been losing blood¦25949 for twelve¦25951 years¦25952"
+            "Then¦25943 a woman¦25944 came who had been losing blood¦25949 for twelve¦25951 years¦25952"
           ],
-          "verseText": "Then a woman¦25944 came who had been losing blood¦25949 for twelve¦25951 years¦25952"
+          "verseText": "Then¦25943 a woman¦25944 came who had been losing blood¦25949 for twelve¦25951 years¦25952"
         },
         {
           "verseNumber": "26",
@@ -2669,19 +2674,19 @@
         {
           "verseNumber": "31",
           "contents": [
-            "But his¦26070 followers said, “You can see all the people that were pressing¦26076 on you so why would you ask who touched¦26083 you?”",
+            "But¦26064 his¦26070 followers said, “You can see all the people that were pressing¦26076 on you so why would you ask who touched¦26083 you?”",
             {
               "p": ""
             }
           ],
-          "verseText": "But his¦26070 followers said, “You can see all the people that were pressing¦26076 on you so why would you ask who touched¦26083 you?”"
+          "verseText": "But¦26064 his¦26070 followers said, “You can see all the people that were pressing¦26076 on you so why would you ask who touched¦26083 you?”"
         },
         {
           "verseNumber": "32",
           "contents": [
-            "But Yeshua was still looking¦26085 around¦26085 to see¦26086 who had done it."
+            "But¦26084 Yeshua was still looking¦26085 around¦26085 to see¦26086 who had done it."
           ],
-          "verseText": "But Yeshua was still looking¦26085 around¦26085 to see¦26086 who had done it."
+          "verseText": "But¦26084 Yeshua was still looking¦26085 around¦26085 to see¦26086 who had done it."
         },
         {
           "verseNumber": "33",
@@ -2764,9 +2769,9 @@
         {
           "verseNumber": "40",
           "contents": [
-            "But they just ridiculed¦26250 Yeshua. So he sent them all outside, just taking¦26264 the father¦26266 and mother¦26274 of the child, along with three with him. He went in where¦26285 the girl was"
+            "But¦26249 they just ridiculed¦26250 Yeshua. So¦26249 he sent them all outside, just taking¦26264 the father¦26266 and mother¦26274 of the child, along with three with him. He went in where¦26285 the girl was"
           ],
-          "verseText": "But they just ridiculed¦26250 Yeshua. So he sent them all outside, just taking¦26264 the father¦26266 and mother¦26274 of the child, along with three with him. He went in where¦26285 the girl was"
+          "verseText": "But¦26249 they just ridiculed¦26250 Yeshua. So¦26249 he sent them all outside, just taking¦26264 the father¦26266 and mother¦26274 of the child, along with three with him. He went in where¦26285 the girl was"
         },
         {
           "verseNumber": "41",
@@ -2814,14 +2819,14 @@
         {
           "verseNumber": "1",
           "contents": [
-            "So Yeshua left¦26352 Capernaum and went¦26352 back with his followers¦26362 to",
+            "So¦26351 Yeshua left¦26352 Capernaum and went¦26352 back with his followers¦26362 to",
             {
               "add": "Nazareth,",
               "closing": "\\add*"
             },
             "his birthplace."
           ],
-          "verseText": "So Yeshua left¦26352 Capernaum and went¦26352 back with his followers¦26362 to Nazareth, his birthplace."
+          "verseText": "So¦26351 Yeshua left¦26352 Capernaum and went¦26352 back with his followers¦26362 to Nazareth, his birthplace."
         },
         {
           "verseNumber": "2",
@@ -2900,9 +2905,9 @@
         {
           "verseNumber": "7",
           "contents": [
-            "Then he called his twelve¦26526 apprentices and started sending¦26531 them out in pairs and giving¦26538 them authority¦26542 over demons¦26546."
+            "Then¦26522 he called his twelve¦26526 apprentices and started sending¦26531 them out in pairs and giving¦26538 them authority¦26542 over demons¦26546."
           ],
-          "verseText": "Then he called his twelve¦26526 apprentices and started sending¦26531 them out in pairs and giving¦26538 them authority¦26542 over demons¦26546."
+          "verseText": "Then¦26522 he called his twelve¦26526 apprentices and started sending¦26531 them out in pairs and giving¦26538 them authority¦26542 over demons¦26546."
         },
         {
           "verseNumber": "8",
@@ -2945,7 +2950,7 @@
               "closing": "\\x*"
             },
             {
-              "wj": "But if any places don't want you or don't want to hear¦26615 what you have to say, just leave that place¦26609. As you go, shake¦26620 the dust off your¦26627 sandals so they can see"
+              "wj": "But¦26604 if any places don't want you or don't want to hear¦26615 what you have to say, just leave that place¦26609. As you go, shake¦26620 the dust off your¦26627 sandals so they can see"
             },
             {
               "add": [
@@ -2961,14 +2966,14 @@
               "p": ""
             }
           ],
-          "verseText": "But if any places don't want you or don't want to hear¦26615 what you have to say, just leave that place¦26609. As you go, shake¦26620 the dust off your¦26627 sandals so they can see that you pass the responsibility of what happened to them *.”"
+          "verseText": "But¦26604 if any places don't want you or don't want to hear¦26615 what you have to say, just leave that place¦26609. As you go, shake¦26620 the dust off your¦26627 sandals so they can see that you pass the responsibility of what happened to them *.”"
         },
         {
           "verseNumber": "12",
           "contents": [
-            "So the apprentices went off and started telling people to repent¦26653."
+            "So¦26647 the apprentices went off and started telling people to repent¦26653."
           ],
-          "verseText": "So the apprentices went off and started telling people to repent¦26653."
+          "verseText": "So¦26647 the apprentices went off and started telling people to repent¦26653."
         },
         {
           "verseNumber": "13",
@@ -3108,9 +3113,9 @@
         {
           "verseNumber": "22",
           "contents": [
-            "The daughter¦26874 of Herodias came in and danced¦26880 for them, and the king and his party guests all enjoyed it. So the king said to the young woman, “Just ask me for anything and I'll give it to you.”"
+            "The daughter¦26874 of Herodias came in and danced¦26880 for them, and the king and his party guests all enjoyed it. So¦26869 the king said to the young woman, “Just ask me for anything and I'll give it to you.”"
           ],
-          "verseText": "The daughter¦26874 of Herodias came in and danced¦26880 for them, and the king and his party guests all enjoyed it. So the king said to the young woman, “Just ask me for anything and I'll give it to you.”"
+          "verseText": "The daughter¦26874 of Herodias came in and danced¦26880 for them, and the king and his party guests all enjoyed it. So¦26869 the king said to the young woman, “Just ask me for anything and I'll give it to you.”"
         },
         {
           "verseNumber": "23",
@@ -3125,22 +3130,22 @@
         {
           "verseNumber": "24",
           "contents": [
-            "So she went out and asked her mother what she should ask for. Her¦26940 mother told her that she should ask for Yohan's head.",
+            "So¦26935 she went out and asked her mother what she should ask for. Her¦26940 mother told her that she should ask for Yohan's head.",
             {
               "p": ""
             }
           ],
-          "verseText": "So she went out and asked her mother what she should ask for. Her¦26940 mother told her that she should ask for Yohan's head."
+          "verseText": "So¦26935 she went out and asked her mother what she should ask for. Her¦26940 mother told her that she should ask for Yohan's head."
         },
         {
           "verseNumber": "25",
           "contents": [
-            "So going back into the party, she¦26965 said seriously to the king¦26964, “I would like the head of Yohan-the-Immerser on a plate!”",
+            "So¦26955 going back into the party, she¦26965 said seriously to the king¦26964, “I would like the head of Yohan-the-Immerser on a plate!”",
             {
               "p": ""
             }
           ],
-          "verseText": "So going back into the party, she¦26965 said seriously to the king¦26964, “I would like the head of Yohan-the-Immerser on a plate!”"
+          "verseText": "So¦26955 going back into the party, she¦26965 said seriously to the king¦26964, “I would like the head of Yohan-the-Immerser on a plate!”"
         },
         {
           "verseNumber": "26",
@@ -3152,9 +3157,9 @@
         {
           "verseNumber": "27",
           "contents": [
-            "So he ordered an executioner¦27012 to go out and return with Yohan's head. He went off and beheaded¦27026 him in the prison¦27030"
+            "So¦27005 he ordered an executioner¦27012 to go out and return with Yohan's head. He went off and beheaded¦27026 him in the prison¦27030"
           ],
-          "verseText": "So he ordered an executioner¦27012 to go out and return with Yohan's head. He went off and beheaded¦27026 him in the prison¦27030"
+          "verseText": "So¦27005 he ordered an executioner¦27012 to go out and return with Yohan's head. He went off and beheaded¦27026 him in the prison¦27030"
         },
         {
           "verseNumber": "28",
@@ -3202,31 +3207,31 @@
         {
           "verseNumber": "31",
           "contents": [
-            "Then he told them, “",
+            "Then¦27093 he told them, “",
             {
               "wj": "Let's just all of us head for a quiet¦27106 place¦27107 and take a break.",
               "closing": "\\wj*"
             },
             "” This was because¦27115 there were so many people always coming¦27117 and going¦27120, and sometimes they didn't even have a chance to eat¦27124."
           ],
-          "verseText": "Then he told them, “Let's just all of us head for a quiet¦27106 place¦27107 and take a break.” This was because¦27115 there were so many people always coming¦27117 and going¦27120, and sometimes they didn't even have a chance to eat¦27124."
+          "verseText": "Then¦27093 he told them, “Let's just all of us head for a quiet¦27106 place¦27107 and take a break.” This was because¦27115 there were so many people always coming¦27117 and going¦27120, and sometimes they didn't even have a chance to eat¦27124."
         },
         {
           "verseNumber": "32",
           "contents": [
-            "So they¦27131 went¦27131 by boat¦27136 away to a quiet¦27140 place¦27141 by themselves¦27145.",
+            "So¦27129 they¦27131 went¦27131 by boat¦27136 away to a quiet¦27140 place¦27141 by themselves¦27145.",
             {
               "p": ""
             }
           ],
-          "verseText": "So they¦27131 went¦27131 by boat¦27136 away to a quiet¦27140 place¦27141 by themselves¦27145."
+          "verseText": "So¦27129 they¦27131 went¦27131 by boat¦27136 away to a quiet¦27140 place¦27141 by themselves¦27145."
         },
         {
           "verseNumber": "33",
           "contents": [
-            "But people from towns all around had seen them going¦27151 and recognised¦27157 who they were, so they ran¦27169 around the lake on foot¦27162 and got there¦27170 ahead¦27172 of them."
+            "But¦27146 people from towns all around had seen them going¦27151 and recognised¦27157 who they were, so they ran¦27169 around the lake on foot¦27162 and got there¦27170 ahead¦27172 of them."
           ],
-          "verseText": "But people from towns all around had seen them going¦27151 and recognised¦27157 who they were, so they ran¦27169 around the lake on foot¦27162 and got there¦27170 ahead¦27172 of them."
+          "verseText": "But¦27146 people from towns all around had seen them going¦27151 and recognised¦27157 who they were, so they ran¦27169 around the lake on foot¦27162 and got there¦27170 ahead¦27172 of them."
         },
         {
           "verseNumber": "34",
@@ -3243,16 +3248,16 @@
               ],
               "closing": "\\x*"
             },
-            "So when Yeshua got out of the boat, he saw¦27185 a big crowd¦27190 and felt sorry for them because¦27199 they seemed like sheep¦27202 without a shepherd¦27205, so he started teaching¦27209 them many things."
+            "So¦27180 when Yeshua got out of the boat, he saw¦27185 a big crowd¦27190 and felt sorry for them because¦27199 they seemed like sheep¦27202 without a shepherd¦27205, so he started teaching¦27209 them many things."
           ],
-          "verseText": "So when Yeshua got out of the boat, he saw¦27185 a big crowd¦27190 and felt sorry for them because¦27199 they seemed like sheep¦27202 without a shepherd¦27205, so he started teaching¦27209 them many things."
+          "verseText": "So¦27180 when Yeshua got out of the boat, he saw¦27185 a big crowd¦27190 and felt sorry for them because¦27199 they seemed like sheep¦27202 without a shepherd¦27205, so he started teaching¦27209 them many things."
         },
         {
           "verseNumber": "35",
           "contents": [
-            "Then, when it was already getting late, his¦27224 apprentices¦27223 came up and said, “This place¦27233 is pretty isolated and it's already late."
+            "Then¦27213, when it was already getting late, his¦27224 apprentices¦27223 came up and said, “This place¦27233 is pretty isolated and it's already late."
           ],
-          "verseText": "Then, when it was already getting late, his¦27224 apprentices¦27223 came up and said, “This place¦27233 is pretty isolated and it's already late."
+          "verseText": "Then¦27213, when it was already getting late, his¦27224 apprentices¦27223 came up and said, “This place¦27233 is pretty isolated and it's already late."
         },
         {
           "verseNumber": "36",
@@ -3267,7 +3272,7 @@
         {
           "verseNumber": "37",
           "contents": [
-            "But Yeshua answered¦27266 them, “",
+            "But¦27276 Yeshua answered¦27266 them, “",
             {
               "wj": "You give them something to eat.",
               "closing": "\\wj*"
@@ -3280,12 +3285,12 @@
               "p": ""
             }
           ],
-          "verseText": "But Yeshua answered¦27266 them, “You give them something to eat.” They complained, “If we go, should we buy several months wages worth of bread so we can give all of them something to eat?”"
+          "verseText": "But¦27276 Yeshua answered¦27266 them, “You give them something to eat.” They complained, “If we go, should we buy several months wages worth of bread so we can give all of them something to eat?”"
         },
         {
           "verseNumber": "38",
           "contents": [
-            "But he¦27298 asked, “",
+            "But¦27300 he¦27298 asked, “",
             {
               "wj": "Go and find out how much bread you¦27307 have.",
               "closing": "\\wj*"
@@ -3298,7 +3303,7 @@
               "p": ""
             }
           ],
-          "verseText": "But he¦27298 asked, “Go and find out how much bread you¦27307 have.” When they'd found out they said, “Five buns and two¦27320 fish.”"
+          "verseText": "But¦27300 he¦27298 asked, “Go and find out how much bread you¦27307 have.” When they'd found out they said, “Five buns and two¦27320 fish.”"
         },
         {
           "verseNumber": "39",
@@ -3310,21 +3315,21 @@
         {
           "verseNumber": "40",
           "contents": [
-            "So they sat¦27342 down in rows of fifty¦27352 to a hundred¦27348."
+            "So¦27340 they sat¦27342 down in rows of fifty¦27352 to a hundred¦27348."
           ],
-          "verseText": "So they sat¦27342 down in rows of fifty¦27352 to a hundred¦27348."
+          "verseText": "So¦27340 they sat¦27342 down in rows of fifty¦27352 to a hundred¦27348."
         },
         {
           "verseNumber": "41",
           "contents": [
-            "Then holding the five buns and two fish, he looking up to the sky¦27365 and blessed¦27366",
+            "Then¦27353 holding the five buns and two fish, he looking up to the sky¦27365 and blessed¦27366",
             {
               "add": "God",
               "closing": "\\add*"
             },
             ", and then broke¦27370 up the buns and gave pieces to his¦27378 apprentices¦27377 so they could do likewise to the people, and he also divided¦27389 up the two fish,"
           ],
-          "verseText": "Then holding the five buns and two fish, he looking up to the sky¦27365 and blessed¦27366 God, and then broke¦27370 up the buns and gave pieces to his¦27378 apprentices¦27377 so they could do likewise to the people, and he also divided¦27389 up the two fish,"
+          "verseText": "Then¦27353 holding the five buns and two fish, he looking up to the sky¦27365 and blessed¦27366 God, and then broke¦27370 up the buns and gave pieces to his¦27378 apprentices¦27377 so they could do likewise to the people, and he also divided¦27389 up the two fish,"
         },
         {
           "verseNumber": "42",
@@ -3336,9 +3341,9 @@
         {
           "verseNumber": "43",
           "contents": [
-            "Then they¦27397 collected the leftover pieces of bread, filling¦27403 twelve¦27400 baskets¦27402, as well as the leftover pieces of fish."
+            "Then¦27396 they¦27397 collected the leftover pieces of bread, filling¦27403 twelve¦27400 baskets¦27402, as well as the leftover pieces of fish."
           ],
-          "verseText": "Then they¦27397 collected the leftover pieces of bread, filling¦27403 twelve¦27400 baskets¦27402, as well as the leftover pieces of fish."
+          "verseText": "Then¦27396 they¦27397 collected the leftover pieces of bread, filling¦27403 twelve¦27400 baskets¦27402, as well as the leftover pieces of fish."
         },
         {
           "verseNumber": "44",
@@ -3369,9 +3374,9 @@
         {
           "verseNumber": "46",
           "contents": [
-            "Then he said goodbye¦27451 to everyone, and climbed the hill to pray."
+            "Then¦27450 he said goodbye¦27451 to everyone, and climbed the hill to pray."
           ],
-          "verseText": "Then he said goodbye¦27451 to everyone, and climbed the hill to pray."
+          "verseText": "Then¦27450 he said goodbye¦27451 to everyone, and climbed the hill to pray."
         },
         {
           "verseNumber": "47",
@@ -3390,9 +3395,9 @@
         {
           "verseNumber": "49",
           "contents": [
-            "But they had seen¦27522 someone walking¦27528 on the lake¦27527 and thought it was a ghost¦27531, and they yelled¦27536 out"
+            "But¦27521 they had seen¦27522 someone walking¦27528 on the lake¦27527 and thought it was a ghost¦27531, and they yelled¦27536 out"
           ],
-          "verseText": "But they had seen¦27522 someone walking¦27528 on the lake¦27527 and thought it was a ghost¦27531, and they yelled¦27536 out"
+          "verseText": "But¦27521 they had seen¦27522 someone walking¦27528 on the lake¦27527 and thought it was a ghost¦27531, and they yelled¦27536 out"
         },
         {
           "verseNumber": "50",
@@ -3400,7 +3405,7 @@
             "because¦27538 they had all seen it and were terrified.",
             {
               "p": [
-                "But Yeshua immediately¦27547 spoke¦27549 to them and said, “",
+                "But¦27546 Yeshua immediately¦27547 spoke¦27549 to them and said, “",
                 {
                   "wj": "Hey, take heart, it's me, don't¦27561 be afraid!",
                   "closing": "\\wj*"
@@ -3409,14 +3414,14 @@
               ]
             }
           ],
-          "verseText": "because¦27538 they had all seen it and were terrified. But Yeshua immediately¦27547 spoke¦27549 to them and said, “Hey, take heart, it's me, don't¦27561 be afraid!”"
+          "verseText": "because¦27538 they had all seen it and were terrified. But¦27546 Yeshua immediately¦27547 spoke¦27549 to them and said, “Hey, take heart, it's me, don't¦27561 be afraid!”"
         },
         {
           "verseNumber": "51",
           "contents": [
-            "Then he climbed up into the boat¦27571 and the wind¦27577 died¦27575 down. And they were all totally astounded"
+            "Then¦27565 he climbed up into the boat¦27571 and the wind¦27577 died¦27575 down. And they were all totally astounded"
           ],
-          "verseText": "Then he climbed up into the boat¦27571 and the wind¦27577 died¦27575 down. And they were all totally astounded"
+          "verseText": "Then¦27565 he climbed up into the boat¦27571 and the wind¦27577 died¦27575 down. And they were all totally astounded"
         },
         {
           "verseNumber": "52",
@@ -3759,13 +3764,13 @@
         {
           "verseNumber": "18",
           "contents": [
-            "But he scolded them, “",
+            "But¦28102 he scolded them, “",
             {
               "wj": "Can't you understand¦28112 something so simple! Can't you see that anything from the outside¦28117 that enters¦28118 your body doesn't make you guilty in God's sight,",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "But he scolded them, “Can't you understand¦28112 something so simple! Can't you see that anything from the outside¦28117 that enters¦28118 your body doesn't make you guilty in God's sight,"
+          "verseText": "But¦28102 he scolded them, “Can't you understand¦28112 something so simple! Can't you see that anything from the outside¦28117 that enters¦28118 your body doesn't make you guilty in God's sight,"
         },
         {
           "verseNumber": "19",
@@ -3869,7 +3874,7 @@
         {
           "verseNumber": "27",
           "contents": [
-            "But he replied, “",
+            "But¦28306 he replied, “",
             {
               "wj": "Let the"
             },
@@ -3887,7 +3892,7 @@
               "p": ""
             }
           ],
-          "verseText": "But he replied, “Let the Jewish * children be treated first¦28314, because¦28319 it's not good to take the children's food and throw¦28332 it to the dogs.”"
+          "verseText": "But¦28306 he replied, “Let the Jewish * children be treated first¦28314, because¦28319 it's not good to take the children's food and throw¦28332 it to the dogs.”"
         },
         {
           "verseNumber": "28",
@@ -3962,9 +3967,9 @@
         {
           "verseNumber": "33",
           "contents": [
-            "So Yeshua took the man back away from the crowd¦28461, put his¦28470 fingers¦28469 in the man's ears¦28474, then he spat and touched¦28479 the man's mouth."
+            "So¦28453 Yeshua took the man back away from the crowd¦28461, put his¦28470 fingers¦28469 in the man's ears¦28474, then he spat and touched¦28479 the man's mouth."
           ],
-          "verseText": "So Yeshua took the man back away from the crowd¦28461, put his¦28470 fingers¦28469 in the man's ears¦28474, then he spat and touched¦28479 the man's mouth."
+          "verseText": "So¦28453 Yeshua took the man back away from the crowd¦28461, put his¦28470 fingers¦28469 in the man's ears¦28474, then he spat and touched¦28479 the man's mouth."
         },
         {
           "verseNumber": "34",
@@ -3984,9 +3989,9 @@
         {
           "verseNumber": "35",
           "contents": [
-            "Then the man could hear, and his¦28503 tongue¦28515 was released and he began to speak¦28518 properly."
+            "Then¦28498 the man could hear, and his¦28503 tongue¦28515 was released and he began to speak¦28518 properly."
           ],
-          "verseText": "Then the man could hear, and his¦28503 tongue¦28515 was released and he began to speak¦28518 properly."
+          "verseText": "Then¦28498 the man could hear, and his¦28503 tongue¦28515 was released and he began to speak¦28518 properly."
         },
         {
           "verseNumber": "36",
@@ -4082,9 +4087,9 @@
         {
           "verseNumber": "6",
           "contents": [
-            "So Yeshua instructed the crowd to sit down on the ground¦28690. Then he took the seven¦28694 buns, gave thanks¦28697 and broke¦28698 them and gave pieces to his¦28704 apprentices¦28703 to then distribute to the crowd."
+            "So¦28682 Yeshua instructed the crowd to sit down on the ground¦28690. Then¦28682 he took the seven¦28694 buns, gave thanks¦28697 and broke¦28698 them and gave pieces to his¦28704 apprentices¦28703 to then distribute to the crowd."
           ],
-          "verseText": "So Yeshua instructed the crowd to sit down on the ground¦28690. Then he took the seven¦28694 buns, gave thanks¦28697 and broke¦28698 them and gave pieces to his¦28704 apprentices¦28703 to then distribute to the crowd."
+          "verseText": "So¦28682 Yeshua instructed the crowd to sit down on the ground¦28690. Then¦28682 he took the seven¦28694 buns, gave thanks¦28697 and broke¦28698 them and gave pieces to his¦28704 apprentices¦28703 to then distribute to the crowd."
         },
         {
           "verseNumber": "7",
@@ -4175,7 +4180,7 @@
         {
           "verseNumber": "13",
           "contents": [
-            "So Yeshua left in the boat again¦28851 and crossed to the other side of the lake.",
+            "So¦28846 Yeshua left in the boat again¦28851 and crossed to the other side of the lake.",
             {
               "s1": "The apprentices miss the significance of what's happening"
             },
@@ -4189,14 +4194,14 @@
               "p": ""
             }
           ],
-          "verseText": "So Yeshua left in the boat again¦28851 and crossed to the other side of the lake."
+          "verseText": "So¦28846 Yeshua left in the boat again¦28851 and crossed to the other side of the lake."
         },
         {
           "verseNumber": "14",
           "contents": [
-            "But Yeshua's apprentices forgot¦28862 to take¦28866 any food other than one bun that someone in the boat¦28882 had."
+            "But¦28860 Yeshua's apprentices forgot¦28862 to take¦28866 any food other than one bun that someone in the boat¦28882 had."
           ],
-          "verseText": "But Yeshua's apprentices forgot¦28862 to take¦28866 any food other than one bun that someone in the boat¦28882 had."
+          "verseText": "But¦28860 Yeshua's apprentices forgot¦28862 to take¦28866 any food other than one bun that someone in the boat¦28882 had."
         },
         {
           "verseNumber": "15",
@@ -4238,7 +4243,7 @@
         {
           "verseNumber": "17",
           "contents": [
-            "But",
+            "But¦28916",
             {
               "nd": "Yeshua¦28919",
               "closing": "\\nd*"
@@ -4249,7 +4254,7 @@
               "closing": "\\wj*"
             }
           ],
-          "verseText": "But Yeshua¦28919 knew what they were saying¦28920 and asked, “Why are you all discussing about not having food? Can't you figure it¦28917 out? Or are your¦28949 minds completely closed?"
+          "verseText": "But¦28916 Yeshua¦28919 knew what they were saying¦28920 and asked, “Why are you all discussing about not having food? Can't you figure it¦28917 out? Or are your¦28949 minds completely closed?"
         },
         {
           "verseNumber": "18",
@@ -4334,7 +4339,7 @@
         {
           "verseNumber": "23",
           "contents": [
-            "So Yeshua took the man's hand¦29052 and led him out of the village¦29062. Then he spat in his eyes¦29068, placed his hands¦29073 on him, and asked him, “",
+            "So¦29047 Yeshua took the man's hand¦29052 and led him out of the village¦29062. Then¦29047 he spat in his eyes¦29068, placed his hands¦29073 on him, and asked him, “",
             {
               "wj": "What can you see?",
               "closing": "\\wj*"
@@ -4344,7 +4349,7 @@
               "p": ""
             }
           ],
-          "verseText": "So Yeshua took the man's hand¦29052 and led him out of the village¦29062. Then he spat in his eyes¦29068, placed his hands¦29073 on him, and asked him, “What can you see?”"
+          "verseText": "So¦29047 Yeshua took the man's hand¦29052 and led him out of the village¦29062. Then¦29047 he spat in his eyes¦29068, placed his hands¦29073 on him, and asked him, “What can you see?”"
         },
         {
           "verseNumber": "24",
@@ -4363,7 +4368,7 @@
         {
           "verseNumber": "26",
           "contents": [
-            "Then Yeshua told him not to go back into the village¦29163 but to go straight home¦29144.",
+            "Then¦29139 Yeshua told him not to go back into the village¦29163 but to go straight home¦29144.",
             {
               "s1": "Yeshua asks who they think he is"
             },
@@ -4377,12 +4382,12 @@
               "p": ""
             }
           ],
-          "verseText": "Then Yeshua told him not to go back into the village¦29163 but to go straight home¦29144."
+          "verseText": "Then¦29139 Yeshua told him not to go back into the village¦29163 but to go straight home¦29144."
         },
         {
           "verseNumber": "27",
           "contents": [
-            "Then",
+            "Then¦29172",
             {
               "nd": "Yeshua¦29175",
               "closing": "\\nd*"
@@ -4397,7 +4402,7 @@
               "p": ""
             }
           ],
-          "verseText": "Then Yeshua¦29175 and his¦29179 followers moved around the various villages¦29182 of Caesaria Philippi. On the way, he asked them, “Who does everyone¦29204 think I am?”"
+          "verseText": "Then¦29172 Yeshua¦29175 and his¦29179 followers moved around the various villages¦29182 of Caesaria Philippi. On the way, he asked them, “Who does everyone¦29204 think I am?”"
         },
         {
           "verseNumber": "28",
@@ -4436,7 +4441,7 @@
               ],
               "closing": "\\x*"
             },
-            "Then he asked, “",
+            "Then¦29230 he asked, “",
             {
               "wj": "And what do you all think?",
               "closing": "\\wj*"
@@ -4449,12 +4454,12 @@
               "p": ""
             }
           ],
-          "verseText": "Then he asked, “And what do you all think?” Peter said, “You are the promised one sent by God.”"
+          "verseText": "Then¦29230 he asked, “And what do you all think?” Peter said, “You are the promised one sent by God.”"
         },
         {
           "verseNumber": "30",
           "contents": [
-            "Then Yeshua warned¦29261 them not to tell others about him¦29270.",
+            "Then¦29260 Yeshua warned¦29261 them not to tell others about him¦29270.",
             {
               "s1": "Yeshua's radical challenge to his would-be followers"
             },
@@ -4468,14 +4473,14 @@
               "p": ""
             }
           ],
-          "verseText": "Then Yeshua warned¦29261 them not to tell others about him¦29270."
+          "verseText": "Then¦29260 Yeshua warned¦29261 them not to tell others about him¦29270."
         },
         {
           "verseNumber": "31",
           "contents": [
-            "Then Yeshua began¦29274 teaching¦29275 his followers that humanity's child would need to suffer¦29284 a lot, to be rejected¦29286 by the religious leaders, and so to be put to death but to come back to life after¦29301 three¦29303 days¦29305."
+            "Then¦29271 Yeshua began¦29274 teaching¦29275 his followers that humanity's child would need to suffer¦29284 a lot, to be rejected¦29286 by the religious leaders, and so to be put to death but to come back to life after¦29301 three¦29303 days¦29305."
           ],
-          "verseText": "Then Yeshua began¦29274 teaching¦29275 his followers that humanity's child would need to suffer¦29284 a lot, to be rejected¦29286 by the religious leaders, and so to be put to death but to come back to life after¦29301 three¦29303 days¦29305."
+          "verseText": "Then¦29271 Yeshua began¦29274 teaching¦29275 his followers that humanity's child would need to suffer¦29284 a lot, to be rejected¦29286 by the religious leaders, and so to be put to death but to come back to life after¦29301 three¦29303 days¦29305."
         },
         {
           "verseNumber": "32",
@@ -4622,9 +4627,9 @@
               "nd": "Yeshua¦29528",
               "closing": "\\nd*"
             },
-            "took Peter and Yacob¦29534 and Yohan¦29537, and just the four of them went up onto a high hill. Then he was changed right in front of their eyes"
+            "took Peter and Yacob¦29534 and Yohan¦29537, and just the four of them went up onto a high¦29545 hill. Then¦29522 he was changed right in front of their eyes"
           ],
-          "verseText": "Six days¦29524 later Yeshua¦29528 took Peter and Yacob¦29534 and Yohan¦29537, and just the four of them went up onto a high hill. Then he was changed right in front of their eyes"
+          "verseText": "Six days¦29524 later Yeshua¦29528 took Peter and Yacob¦29534 and Yohan¦29537, and just the four of them went up onto a high¦29545 hill. Then¦29522 he was changed right in front of their eyes"
         },
         {
           "verseNumber": "3",
@@ -4682,9 +4687,9 @@
               ],
               "closing": "\\x*"
             },
-            "Then a cloud came over the sun and a voice¦29660 came out of the cloud saying, “This is my¦29671 dear son. Listen to him.”"
+            "Then¦29650 a cloud came over the sun and a voice¦29660 came out of the cloud saying, “This is my¦29671 dear son. Listen to him.”"
           ],
-          "verseText": "Then a cloud came over the sun and a voice¦29660 came out of the cloud saying, “This is my¦29671 dear son. Listen to him.”"
+          "verseText": "Then¦29650 a cloud came over the sun and a voice¦29660 came out of the cloud saying, “This is my¦29671 dear son. Listen to him.”"
         },
         {
           "verseNumber": "8",
@@ -4746,9 +4751,9 @@
         {
           "verseNumber": "12",
           "contents": [
-            "He answered, “Yes, Eliyah is indeed¦29774 the one to come¦29775 first¦29777 to start the restoration¦29778. But isn't it¦29786 also written¦29786 that humanity's child will suffer¦29794 a lot and¦29795 be scorned¦29796?"
+            "He answered, “Yes, Eliyah is indeed¦29774 the one to come¦29775 first¦29777 to start the restoration¦29778. But¦29767 isn't it¦29786 also written¦29786 that humanity's child will suffer¦29794 a lot and¦29795 be scorned¦29796?"
           ],
-          "verseText": "He answered, “Yes, Eliyah is indeed¦29774 the one to come¦29775 first¦29777 to start the restoration¦29778. But isn't it¦29786 also written¦29786 that humanity's child will suffer¦29794 a lot and¦29795 be scorned¦29796?"
+          "verseText": "He answered, “Yes, Eliyah is indeed¦29774 the one to come¦29775 first¦29777 to start the restoration¦29778. But¦29767 isn't it¦29786 also written¦29786 that humanity's child will suffer¦29794 a lot and¦29795 be scorned¦29796?"
         },
         {
           "verseNumber": "13",
@@ -4835,12 +4840,12 @@
         {
           "verseNumber": "20",
           "contents": [
-            "So they brought¦29959 the boy to him. When he saw Yeshua, the demon immediately¦29969 caused him to have convulsions¦29970 and fall on the ground¦29978—rolling¦29979 over and foaming¦29980 at the mouth.",
+            "So¦29958 they brought¦29959 the boy to him. When he saw Yeshua, the demon immediately¦29969 caused him to have convulsions¦29970 and fall on the ground¦29978—rolling¦29979 over and foaming¦29980 at the mouth.",
             {
               "p": ""
             }
           ],
-          "verseText": "So they brought¦29959 the boy to him. When he saw Yeshua, the demon immediately¦29969 caused him to have convulsions¦29970 and fall on the ground¦29978—rolling¦29979 over and foaming¦29980 at the mouth."
+          "verseText": "So¦29958 they brought¦29959 the boy to him. When he saw Yeshua, the demon immediately¦29969 caused him to have convulsions¦29970 and fall on the ground¦29978—rolling¦29979 over and foaming¦29980 at the mouth."
         },
         {
           "verseNumber": "21",
@@ -4860,12 +4865,12 @@
         {
           "verseNumber": "22",
           "contents": [
-            "“and often¦30006 it throws¦30013 him into the fire¦30011 or into water¦30016 to try to destroy¦30019 him. But if you feel sorry for us and can do it, please help¦30028 us.”",
+            "“and often¦30006 it throws¦30013 him into the fire¦30011 or into water¦30016 to try to destroy¦30019 him. But¦30005 if you feel sorry for us and can do it, please help¦30028 us.”",
             {
               "p": ""
             }
           ],
-          "verseText": "“and often¦30006 it throws¦30013 him into the fire¦30011 or into water¦30016 to try to destroy¦30019 him. But if you feel sorry for us and can do it, please help¦30028 us.”"
+          "verseText": "“and often¦30006 it throws¦30013 him into the fire¦30011 or into water¦30016 to try to destroy¦30019 him. But¦30005 if you feel sorry for us and can do it, please help¦30028 us.”"
         },
         {
           "verseNumber": "23",
@@ -4899,7 +4904,7 @@
         {
           "verseNumber": "25",
           "contents": [
-            "Then",
+            "Then¦30078",
             {
               "nd": "Yeshua¦30080",
               "closing": "\\nd*"
@@ -4914,7 +4919,7 @@
               "p": ""
             }
           ],
-          "verseText": "Then Yeshua¦30080 noticing that a big crowd¦30085 was quickly forming, scolded the evil spirit, “You spirit who causes muteness and deafness. Leave this boy now and never return to him.”"
+          "verseText": "Then¦30078 Yeshua¦30080 noticing that a big crowd¦30085 was quickly forming, scolded the evil spirit, “You spirit who causes muteness and deafness. Leave this boy now and never return to him.”"
         },
         {
           "verseNumber": "26",
@@ -4926,7 +4931,7 @@
         {
           "verseNumber": "27",
           "contents": [
-            "But",
+            "But¦30138",
             {
               "nd": "Yeshua¦30139",
               "closing": "\\nd*"
@@ -4936,7 +4941,7 @@
               "p": ""
             }
           ],
-          "verseText": "But Yeshua¦30139 took his¦30144 hand¦30143 and lifted it, and the boy got up."
+          "verseText": "But¦30138 Yeshua¦30139 took his¦30144 hand¦30143 and lifted it, and the boy got up."
         },
         {
           "verseNumber": "28",
@@ -4975,9 +4980,9 @@
         {
           "verseNumber": "30",
           "contents": [
-            "Then they left that place and were moving around Galilee¦30211, because Yeshua didn't want people to know¦30217 where he was"
+            "Then¦30203 they left that place and were moving around Galilee¦30211, because Yeshua didn't want people to know¦30217 where he was"
           ],
-          "verseText": "Then they left that place and were moving around Galilee¦30211, because Yeshua didn't want people to know¦30217 where he was"
+          "verseText": "Then¦30203 they left that place and were moving around Galilee¦30211, because Yeshua didn't want people to know¦30217 where he was"
         },
         {
           "verseNumber": "31",
@@ -4997,7 +5002,7 @@
         {
           "verseNumber": "32",
           "contents": [
-            "But they didn't know what that meant, and they were too scared to ask¦30261 him¦30259.",
+            "But¦30253 they didn't know what that meant, and they were too scared to ask¦30261 him¦30259.",
             {
               "s1": "How to be the best"
             },
@@ -5011,17 +5016,17 @@
               "p": ""
             }
           ],
-          "verseText": "But they didn't know what that meant, and they were too scared to ask¦30261 him¦30259."
+          "verseText": "But¦30253 they didn't know what that meant, and they were too scared to ask¦30261 him¦30259."
         },
         {
           "verseNumber": "33",
           "contents": [
-            "Then they went¦30263 Capernaum¦30267 and when they arrived at the house¦30271, Yeshua asked them what they were discussing on the way¦30278.",
+            "Then¦30262 they went¦30263 Capernaum¦30267 and when they arrived at the house¦30271, Yeshua asked them what they were discussing on the way¦30278.",
             {
               "p": ""
             }
           ],
-          "verseText": "Then they went¦30263 Capernaum¦30267 and when they arrived at the house¦30271, Yeshua asked them what they were discussing on the way¦30278."
+          "verseText": "Then¦30262 they went¦30263 Capernaum¦30267 and when they arrived at the house¦30271, Yeshua asked them what they were discussing on the way¦30278."
         },
         {
           "verseNumber": "34",
@@ -5038,9 +5043,9 @@
               ],
               "closing": "\\x*"
             },
-            "But they didn't reply because¦30291 while they were walking, they had been talking about which of them is the best."
+            "But¦30286 they didn't reply because¦30291 while they were walking, they had been talking about which of them is the best."
           ],
-          "verseText": "But they didn't reply because¦30291 while they were walking, they had been talking about which of them is the best."
+          "verseText": "But¦30286 they didn't reply because¦30291 while they were walking, they had been talking about which of them is the best."
         },
         {
           "verseNumber": "35",
@@ -5057,21 +5062,21 @@
               ],
               "closing": "\\x*"
             },
-            "So Yeshua sat¦30306 down and called¦30307 the twelve¦30309 of them and explained, “",
+            "So¦30305 Yeshua sat¦30306 down and called¦30307 the twelve¦30309 of them and explained, “",
             {
               "wj": "Anyone who wants to be at the top, has to be at the bottom and help all the others.",
               "closing": "\\wj*"
             },
             "”"
           ],
-          "verseText": "So Yeshua sat¦30306 down and called¦30307 the twelve¦30309 of them and explained, “Anyone who wants to be at the top, has to be at the bottom and help all the others.”"
+          "verseText": "So¦30305 Yeshua sat¦30306 down and called¦30307 the twelve¦30309 of them and explained, “Anyone who wants to be at the top, has to be at the bottom and help all the others.”"
         },
         {
           "verseNumber": "36",
           "contents": [
-            "Then Yeshua called a young boy and stood¦30328 him in the middle of them, and giving him a hug said¦30340,"
+            "Then¦30324 Yeshua called a young boy and stood¦30328 him in the middle of them, and giving him a hug said¦30340,"
           ],
-          "verseText": "Then Yeshua called a young boy and stood¦30328 him in the middle of them, and giving him a hug said¦30340,"
+          "verseText": "Then¦30324 Yeshua called a young boy and stood¦30328 him in the middle of them, and giving him a hug said¦30340,"
         },
         {
           "verseNumber": "37",
@@ -5209,11 +5214,11 @@
           "contents": [
             "“",
             {
-              "wj": "But anyone¦30483 who causes a young person to falter from their trust in me, it¦30495 would be better¦30494 if they were thrown¦30514 into the sea¦30518 with a heavy¦30506 weight tied around their neck.",
+              "wj": "But¦30478 anyone¦30483 who causes a young person to falter from their trust in me, it¦30495 would be better¦30494 if they were thrown¦30514 into the sea¦30518 with a heavy¦30506 weight tied around their neck.",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "“But anyone¦30483 who causes a young person to falter from their trust in me, it¦30495 would be better¦30494 if they were thrown¦30514 into the sea¦30518 with a heavy¦30506 weight tied around their neck."
+          "verseText": "“But¦30478 anyone¦30483 who causes a young person to falter from their trust in me, it¦30495 would be better¦30494 if they were thrown¦30514 into the sea¦30518 with a heavy¦30506 weight tied around their neck."
         },
         {
           "verseNumber": "43",
@@ -5378,7 +5383,7 @@
         {
           "verseNumber": "1",
           "contents": [
-            "Then Yeshua left",
+            "Then¦30714 Yeshua left",
             {
               "add": "Capernaum",
               "closing": "\\add*"
@@ -5388,7 +5393,7 @@
               "p": ""
             }
           ],
-          "verseText": "Then Yeshua left Capernaum and went down to the Yudean area and across the Yordan¦30728 river. Again the crowds¦30736 followed him, and he taught¦30744 them just like he usually did."
+          "verseText": "Then¦30714 Yeshua left Capernaum and went down to the Yudean area and across the Yordan¦30728 river. Again the crowds¦30736 followed him, and he taught¦30744 them just like he usually did."
         },
         {
           "verseNumber": "2",
@@ -5638,7 +5643,7 @@
         {
           "verseNumber": "16",
           "contents": [
-            "So he continued hugging the children and",
+            "So¦31004 he continued hugging the children and",
             {
               "add": "commanding",
               "closing": "\\add*"
@@ -5657,7 +5662,7 @@
               "p": ""
             }
           ],
-          "verseText": "So he continued hugging the children and commanding a good life for them as he placed his hands¦31013 on each one."
+          "verseText": "So¦31004 he continued hugging the children and commanding a good life for them as he placed his hands¦31013 on each one."
         },
         {
           "verseNumber": "17",
@@ -5952,7 +5957,7 @@
           "verseNumber": "34",
           "contents": [
             {
-              "wj": "Then they'll ridicule him and spit on him before they beat him and execute him, but he'll come back to life again in three¦31492 days¦31494 time.",
+              "wj": "Then¦31472 they'll ridicule him and spit on him before they beat him and execute him, but he'll come back to life again in three¦31492 days¦31494 time.",
               "closing": "\\wj*"
             },
             "”",
@@ -5969,17 +5974,17 @@
               "p": ""
             }
           ],
-          "verseText": "Then they'll ridicule him and spit on him before they beat him and execute him, but he'll come back to life again in three¦31492 days¦31494 time.”"
+          "verseText": "Then¦31472 they'll ridicule him and spit on him before they beat him and execute him, but he'll come back to life again in three¦31492 days¦31494 time.”"
         },
         {
           "verseNumber": "35",
           "contents": [
-            "Then Yacob¦31503 and Yohan¦31505, the two¦31507 sons¦31508 of Zebedee¦31509 approached¦31501 Yeshua and asked, “Teacher¦31514, we'd like to ask a favour from you—please don't disappoint us.”",
+            "Then¦31497 Yacob¦31503 and Yohan¦31505, the two¦31507 sons¦31508 of Zebedee¦31509 approached¦31501 Yeshua and asked, “Teacher¦31514, we'd like to ask a favour from you—please don't disappoint us.”",
             {
               "p": ""
             }
           ],
-          "verseText": "Then Yacob¦31503 and Yohan¦31505, the two¦31507 sons¦31508 of Zebedee¦31509 approached¦31501 Yeshua and asked, “Teacher¦31514, we'd like to ask a favour from you—please don't disappoint us.”"
+          "verseText": "Then¦31497 Yacob¦31503 and Yohan¦31505, the two¦31507 sons¦31508 of Zebedee¦31509 approached¦31501 Yeshua and asked, “Teacher¦31514, we'd like to ask a favour from you—please don't disappoint us.”"
         },
         {
           "verseNumber": "36",
@@ -6021,7 +6026,7 @@
               ],
               "closing": "\\x*"
             },
-            "But",
+            "But¦31572",
             {
               "nd": "Yeshua¦31573",
               "closing": "\\nd*"
@@ -6036,7 +6041,7 @@
               "p": ""
             }
           ],
-          "verseText": "But Yeshua¦31573 replied, “You don't¦31578 even understand what you're asking for. Do you think you could endure the suffering that I have to go through? Or to be enveloped in the darkness that I have to go down into?”"
+          "verseText": "But¦31572 Yeshua¦31573 replied, “You don't¦31578 even understand what you're asking for. Do you think you could endure the suffering that I have to go through? Or to be enveloped in the darkness that I have to go down into?”"
         },
         {
           "verseNumber": "39",
@@ -6097,7 +6102,7 @@
               ],
               "closing": "\\x*"
             },
-            "But",
+            "But¦31666",
             {
               "nd": "Yeshua¦31672",
               "closing": "\\nd*"
@@ -6108,7 +6113,7 @@
               "closing": "\\wj*"
             }
           ],
-          "verseText": "But Yeshua¦31672 called¦31669 them over, “Listen, in most countries their rulers boss the people around and¦31686 their leaders exert their authority¦31692 over them."
+          "verseText": "But¦31666 Yeshua¦31672 called¦31669 them over, “Listen, in most countries their rulers boss the people around and¦31686 their leaders exert their authority¦31692 over them."
         },
         {
           "verseNumber": "43",
@@ -6218,22 +6223,22 @@
         {
           "verseNumber": "49",
           "contents": [
-            "Then",
+            "Then¦31826",
             {
               "nd": "Yeshua¦31829",
               "closing": "\\nd*"
             },
-            "stopped¦31827 and got the people to call the blind¦31841 man¦31841. So they called him, “Hey, be confident! Get up and come because he's called for you.”",
+            "stopped¦31827 and got the people to call the blind¦31841 man¦31841. So¦31826 they called him, “Hey, be confident! Get up and come because he's called for you.”",
             {
               "p": ""
             }
           ],
-          "verseText": "Then Yeshua¦31829 stopped¦31827 and got the people to call the blind¦31841 man¦31841. So they called him, “Hey, be confident! Get up and come because he's called for you.”"
+          "verseText": "Then¦31826 Yeshua¦31829 stopped¦31827 and got the people to call the blind¦31841 man¦31841. So¦31826 they called him, “Hey, be confident! Get up and come because he's called for you.”"
         },
         {
           "verseNumber": "50",
           "contents": [
-            "So Bartimeus threw off his¦31856 jacket, jumped¦31857 up, and was led to",
+            "So¦31852 Bartimeus threw off his¦31856 jacket, jumped¦31857 up, and was led to",
             {
               "nd": "Yeshua¦31863",
               "closing": "\\nd*"
@@ -6243,7 +6248,7 @@
               "p": ""
             }
           ],
-          "verseText": "So Bartimeus threw off his¦31856 jacket, jumped¦31857 up, and was led to Yeshua¦31863."
+          "verseText": "So¦31852 Bartimeus threw off his¦31856 jacket, jumped¦31857 up, and was led to Yeshua¦31863."
         },
         {
           "verseNumber": "51",
@@ -6271,7 +6276,7 @@
         {
           "verseNumber": "52",
           "contents": [
-            "Then Yeshua responded, “",
+            "Then¦31889 Yeshua responded, “",
             {
               "wj": "Ok, off you go then—your¦31896 faith¦31895 has saved¦31897 you.",
               "closing": "\\wj*"
@@ -6281,7 +6286,7 @@
               "p": "And immediately¦31901 Bartimeus was able to see, and followed¦31904 along the path¦31910 after¦31905 Yeshua."
             }
           ],
-          "verseText": "Then Yeshua responded, “Ok, off you go then—your¦31896 faith¦31895 has saved¦31897 you.” And immediately¦31901 Bartimeus was able to see, and followed¦31904 along the path¦31910 after¦31905 Yeshua."
+          "verseText": "Then¦31889 Yeshua responded, “Ok, off you go then—your¦31896 faith¦31895 has saved¦31897 you.” And immediately¦31901 Bartimeus was able to see, and followed¦31904 along the path¦31910 after¦31905 Yeshua."
         }
       ]
     },
@@ -6343,31 +6348,31 @@
         {
           "verseNumber": "4",
           "contents": [
-            "So they went ahead and found¦32014 a donkey tied up on the path just outside¦32021 the door¦32020 of a house, and so they went to untie it."
+            "So¦32009 they went ahead and found¦32014 a donkey tied up on the path just outside¦32021 the door¦32020 of a house, and so they went to untie it."
           ],
-          "verseText": "So they went ahead and found¦32014 a donkey tied up on the path just outside¦32021 the door¦32020 of a house, and so they went to untie it."
+          "verseText": "So¦32009 they went ahead and found¦32014 a donkey tied up on the path just outside¦32021 the door¦32020 of a house, and so they went to untie it."
         },
         {
           "verseNumber": "5",
           "contents": [
-            "But some of the people standing around there¦32032 said, “Hoy! What do you think you're doing¦32038 untying that donkey?”",
+            "But¦32028 some of the people standing around there¦32032 said, “Hoy! What do you think you're doing¦32038 untying that donkey?”",
             {
               "p": ""
             }
           ],
-          "verseText": "But some of the people standing around there¦32032 said, “Hoy! What do you think you're doing¦32038 untying that donkey?”"
+          "verseText": "But¦32028 some of the people standing around there¦32032 said, “Hoy! What do you think you're doing¦32038 untying that donkey?”"
         },
         {
           "verseNumber": "6",
           "contents": [
-            "So they responded just as",
+            "So¦32043 they responded just as",
             {
               "nd": "Yeshua¦32053",
               "closing": "\\nd*"
             },
             "had told them, and the people allowed¦32055 them to proceed."
           ],
-          "verseText": "So they responded just as Yeshua¦32053 had told them, and the people allowed¦32055 them to proceed."
+          "verseText": "So¦32043 they responded just as Yeshua¦32053 had told them, and the people allowed¦32055 them to proceed."
         },
         {
           "verseNumber": "7",
@@ -6452,7 +6457,7 @@
         {
           "verseNumber": "14",
           "contents": [
-            "So he spoke to the tree, “",
+            "So¦32239 he spoke to the tree, “",
             {
               "wj": "No one in this age will ever eat¦32265 fruit¦32263 from you again.",
               "closing": "\\wj*"
@@ -6471,7 +6476,7 @@
               "p": ""
             }
           ],
-          "verseText": "So he spoke to the tree, “No one in this age will ever eat¦32265 fruit¦32263 from you again.” (His¦32272 followers heard him say that.)"
+          "verseText": "So¦32239 he spoke to the tree, “No one in this age will ever eat¦32265 fruit¦32263 from you again.” (His¦32272 followers heard him say that.)"
         },
         {
           "verseNumber": "15",
@@ -6524,7 +6529,7 @@
             {
               "m": [
                 {
-                  "wj": "But all of you have turned it into a sanctuary for swindlers.",
+                  "wj": "But¦32334 all of you have turned it into a sanctuary for swindlers.",
                   "closing": "\\wj*"
                 },
                 "”"
@@ -6534,7 +6539,7 @@
               "p": ""
             }
           ],
-          "verseText": "He said, “Isn't it written¦32341 in the Scriptures, ‘My¦32345 house will be known as a house of prayer¦32347 for all the nations¦32351’? But all of you have turned it into a sanctuary for swindlers.”"
+          "verseText": "He said, “Isn't it written¦32341 in the Scriptures, ‘My¦32345 house will be known as a house of prayer¦32347 for all the nations¦32351’? But¦32334 all of you have turned it into a sanctuary for swindlers.”"
         },
         {
           "verseNumber": "18",
@@ -6753,7 +6758,7 @@
         {
           "verseNumber": "33",
           "contents": [
-            "So they¦32704 answered¦32700, “We don't¦32705 know.”",
+            "So¦32699 they¦32704 answered¦32700, “We don't¦32705 know.”",
             {
               "p": [
                 "And",
@@ -6770,7 +6775,7 @@
               ]
             }
           ],
-          "verseText": "So they¦32704 answered¦32700, “We don't¦32705 know.” And Yeshua¦32710 also responded, “Well then, I won't tell you¦32718 about my authority¦32723 to do those things either.”"
+          "verseText": "So¦32699 they¦32704 answered¦32700, “We don't¦32705 know.” And Yeshua¦32710 also responded, “Well then, I won't tell you¦32718 about my authority¦32723 to do those things either.”"
         }
       ]
     },
@@ -6862,11 +6867,11 @@
           "verseNumber": "5",
           "contents": [
             {
-              "wj": "So the owner sent a third slave and they murdered him. He sent many other slaves—some they just beat up and others they murdered.",
+              "wj": "So¦32815 the owner sent a third slave and they murdered him. He sent many other slaves—some they just beat up and others they murdered.",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "So the owner sent a third slave and they murdered him. He sent many other slaves—some they just beat up and others they murdered."
+          "verseText": "So¦32815 the owner sent a third slave and they murdered him. He sent many other slaves—some they just beat up and others they murdered."
         },
         {
           "verseNumber": "6",
@@ -6900,14 +6905,14 @@
           "verseNumber": "8",
           "contents": [
             {
-              "wj": "So they took him and killed¦32893 him, and threw the body outside¦32899 the vineyard¦32901 fence.",
+              "wj": "So¦32890 they took him and killed¦32893 him, and threw the body outside¦32899 the vineyard¦32901 fence.",
               "closing": "\\wj*"
             },
             {
               "p": ""
             }
           ],
-          "verseText": "So they took him and killed¦32893 him, and threw the body outside¦32899 the vineyard¦32901 fence."
+          "verseText": "So¦32890 they took him and killed¦32893 him, and threw the body outside¦32899 the vineyard¦32901 fence."
         },
         {
           "verseNumber": "9",
@@ -7033,19 +7038,19 @@
         {
           "verseNumber": "13",
           "contents": [
-            "Then the religious leaders sent some members of the Pharisee¦32974 party¦32974 and¦32975 some of the",
+            "Then¦32968 the religious leaders sent some members of the Pharisee¦32974 party¦32974 and¦32975 some of the",
             {
               "add": "political",
               "closing": "\\add*"
             },
             "supporters¦32977 of King Herod¦32977 to try to catch¦32981 Yeshua out."
           ],
-          "verseText": "Then the religious leaders sent some members of the Pharisee¦32974 party¦32974 and¦32975 some of the political supporters¦32977 of King Herod¦32977 to try to catch¦32981 Yeshua out."
+          "verseText": "Then¦32968 the religious leaders sent some members of the Pharisee¦32974 party¦32974 and¦32975 some of the political supporters¦32977 of King Herod¦32977 to try to catch¦32981 Yeshua out."
         },
         {
           "verseNumber": "14",
           "contents": [
-            "So they",
+            "So¦32984 they",
             {
               "add": "flattered",
               "closing": "\\add*"
@@ -7065,12 +7070,12 @@
               "p": ""
             }
           ],
-          "verseText": "So they flattered him, “Teacher¦32997, we know that you are honest even if it upsets others, and that you teach¦33021 the truth¦33016 about God¦33020 without caring¦33004 about people's¦33013 opinions. Is it legal for us Jews to pay the poll tax¦33031 to the Roman emperor or not? How should we handle this?”"
+          "verseText": "So¦32984 they flattered him, “Teacher¦32997, we know that you are honest even if it upsets others, and that you teach¦33021 the truth¦33016 about God¦33020 without caring¦33004 about people's¦33013 opinions. Is it legal for us Jews to pay the poll tax¦33031 to the Roman emperor or not? How should we handle this?”"
         },
         {
           "verseNumber": "15",
           "contents": [
-            "But knowing¦33045 their¦33046 hypocrisy¦33048, Yeshua responded to them, “",
+            "But¦33042 knowing¦33045 their¦33046 hypocrisy¦33048, Yeshua responded to them, “",
             {
               "wj": "Why are you¦33053 trying to test me? Bring me a coin so we can determine the proper answer.",
               "closing": "\\wj*"
@@ -7080,7 +7085,7 @@
               "p": ""
             }
           ],
-          "verseText": "But knowing¦33045 their¦33046 hypocrisy¦33048, Yeshua responded to them, “Why are you¦33053 trying to test me? Bring me a coin so we can determine the proper answer.”"
+          "verseText": "But¦33042 knowing¦33045 their¦33046 hypocrisy¦33048, Yeshua responded to them, “Why are you¦33053 trying to test me? Bring me a coin so we can determine the proper answer.”"
         },
         {
           "verseNumber": "16",
@@ -7295,12 +7300,12 @@
         {
           "verseNumber": "28",
           "contents": [
-            "Then one of the religious¦33353 teachers¦33353 who had heard¦33354 their¦33356 question and Yeshua's excellent answer¦33365, came closer and asked¦33367, “Which¦33371 of the commandments¦33373 is the most important?”",
+            "Then¦33348 one of the religious¦33353 teachers¦33353 who had heard¦33354 their¦33356 question and Yeshua's excellent answer¦33365, came closer and asked¦33367, “Which¦33371 of the commandments¦33373 is the most important?”",
             {
               "p": ""
             }
           ],
-          "verseText": "Then one of the religious¦33353 teachers¦33353 who had heard¦33354 their¦33356 question and Yeshua's excellent answer¦33365, came closer and asked¦33367, “Which¦33371 of the commandments¦33373 is the most important?”"
+          "verseText": "Then¦33348 one of the religious¦33353 teachers¦33353 who had heard¦33354 their¦33356 question and Yeshua's excellent answer¦33365, came closer and asked¦33367, “Which¦33371 of the commandments¦33373 is the most important?”"
         },
         {
           "verseNumber": "29",
@@ -7637,7 +7642,7 @@
           "verseNumber": "40",
           "contents": [
             {
-              "wj": "These¦33701 people trick widows¦33693 out of their properties, but offer long prayers to cover it up. They will be getting a stricter judgement than others.",
+              "wj": "These¦33701 people trick widows¦33693 out of their properties, but offer long¦33698 prayers to cover it up. They will be getting a stricter judgement than others.",
               "closing": "\\wj*"
             },
             "”",
@@ -7654,7 +7659,7 @@
               "p": ""
             }
           ],
-          "verseText": "These¦33701 people trick widows¦33693 out of their properties, but offer long prayers to cover it up. They will be getting a stricter judgement than others.”"
+          "verseText": "These¦33701 people trick widows¦33693 out of their properties, but offer long¦33698 prayers to cover it up. They will be getting a stricter judgement than others.”"
         },
         {
           "verseNumber": "41",
@@ -7681,14 +7686,14 @@
         {
           "verseNumber": "42",
           "contents": [
-            "Then an impoverished widow¦33742 came and threw in two¦33746 small",
+            "Then¦33736 an impoverished widow¦33742 came and threw in two¦33746 small",
             {
               "add": "copper",
               "closing": "\\add*"
             },
             "coins."
           ],
-          "verseText": "Then an impoverished widow¦33742 came and threw in two¦33746 small copper coins."
+          "verseText": "Then¦33736 an impoverished widow¦33742 came and threw in two¦33746 small copper coins."
         },
         {
           "verseNumber": "43",
@@ -7765,7 +7770,7 @@
         {
           "verseNumber": "2",
           "contents": [
-            "But",
+            "But¦33828",
             {
               "nd": "Yeshua¦33831",
               "closing": "\\nd*"
@@ -7804,7 +7809,7 @@
               "p": ""
             }
           ],
-          "verseText": "But Yeshua¦33831 responded, “Yes, incredible buildings¦33843, but the time will come when they're torn down—not a single piece of * stone¦33854 will be left sitting in its place.”"
+          "verseText": "But¦33828 Yeshua¦33831 responded, “Yes, incredible buildings¦33843, but the time will come when they're torn down—not a single piece of * stone¦33854 will be left sitting in its place.”"
         },
         {
           "verseNumber": "3",
@@ -7826,7 +7831,7 @@
         {
           "verseNumber": "5",
           "contents": [
-            "So",
+            "So¦33920",
             {
               "nd": "Yeshua¦33921",
               "closing": "\\nd*"
@@ -7837,7 +7842,7 @@
               "closing": "\\wj*"
             }
           ],
-          "verseText": "So Yeshua¦33921 told them, “Be careful so that you¦33932 aren't misled¦33933 by others."
+          "verseText": "So¦33920 Yeshua¦33921 told them, “Be careful so that you¦33932 aren't misled¦33933 by others."
         },
         {
           "verseNumber": "6",
@@ -8138,7 +8143,7 @@
           "verseNumber": "21",
           "contents": [
             {
-              "wj": "So don't¦34298 believe¦34299 it¦34299 if you¦34285 hear someone say¦34286, ‘Look¦34288, the"
+              "wj": "So¦34280 don't¦34298 believe¦34299 it¦34299 if you¦34285 hear someone say¦34286, ‘Look¦34288, the"
             },
             {
               "nd": [
@@ -8150,7 +8155,7 @@
               ]
             }
           ],
-          "verseText": "So don't¦34298 believe¦34299 it¦34299 if you¦34285 hear someone say¦34286, ‘Look¦34288, the messiah¦34292 * has arrived here.’ or ‘There's the one that God has sent.’"
+          "verseText": "So¦34280 don't¦34298 believe¦34299 it¦34299 if you¦34285 hear someone say¦34286, ‘Look¦34288, the messiah¦34292 * has arrived here.’ or ‘There's the one that God has sent.’"
         },
         {
           "verseNumber": "22",
@@ -8257,11 +8262,11 @@
               "closing": "\\x*"
             },
             {
-              "wj": "Then the people will see humanity's child in the clouds¦34386 coming¦34382 with incredible power¦34390 and¦34392 brightness.",
+              "wj": "Then¦34375 the people will see humanity's child in the clouds¦34386 coming¦34382 with incredible power¦34390 and¦34392 brightness.",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "Then the people will see humanity's child in the clouds¦34386 coming¦34382 with incredible power¦34390 and¦34392 brightness."
+          "verseText": "Then¦34375 the people will see humanity's child in the clouds¦34386 coming¦34382 with incredible power¦34390 and¦34392 brightness."
         },
         {
           "verseNumber": "27",
@@ -8290,11 +8295,11 @@
           "contents": [
             "“",
             {
-              "wj": "So learn¦34426 a lesson from fig¦34425 trees—whenever¦34429 the branches¦34433 green up and start sprouting¦34438 leaves¦34440 and then everyone knows that summer¦34449 is close.",
+              "wj": "So¦34423 learn¦34426 a lesson from fig¦34425 trees—whenever¦34429 the branches¦34433 green up and start sprouting¦34438 leaves¦34440 and then everyone knows that summer¦34449 is close.",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "“So learn¦34426 a lesson from fig¦34425 trees—whenever¦34429 the branches¦34433 green up and start sprouting¦34438 leaves¦34440 and then everyone knows that summer¦34449 is close."
+          "verseText": "“So¦34423 learn¦34426 a lesson from fig¦34425 trees—whenever¦34429 the branches¦34433 green up and start sprouting¦34438 leaves¦34440 and then everyone knows that summer¦34449 is close."
         },
         {
           "verseNumber": "29",
@@ -8607,14 +8612,14 @@
         {
           "verseNumber": "10",
           "contents": [
-            "Then Yudas Iscariot, one of the Yeshua's twelve¦34840",
+            "Then¦34828 Yudas Iscariot, one of the Yeshua's twelve¦34840",
             {
               "add": "trainees",
               "closing": "\\add*"
             },
             ", visited the chief¦34844 priests¦34844 to offer to hand Yeshua over to them."
           ],
-          "verseText": "Then Yudas Iscariot, one of the Yeshua's twelve¦34840 trainees, visited the chief¦34844 priests¦34844 to offer to hand Yeshua over to them."
+          "verseText": "Then¦34828 Yudas Iscariot, one of the Yeshua's twelve¦34840 trainees, visited the chief¦34844 priests¦34844 to offer to hand Yeshua over to them."
         },
         {
           "verseNumber": "11",
@@ -8653,23 +8658,23 @@
         {
           "verseNumber": "13",
           "contents": [
-            "So Yeshua sent off two¦34899 of them with these instructions, “",
+            "So¦34896 Yeshua sent off two¦34899 of them with these instructions, “",
             {
               "wj": "Go into town and a man¦34920 carrying a pitcher¦34921 of water¦34922 will meet you there. Just follow¦34924 him",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "So Yeshua sent off two¦34899 of them with these instructions, “Go into town and a man¦34920 carrying a pitcher¦34921 of water¦34922 will meet you there. Just follow¦34924 him"
+          "verseText": "So¦34896 Yeshua sent off two¦34899 of them with these instructions, “Go into town and a man¦34920 carrying a pitcher¦34921 of water¦34922 will meet you there. Just follow¦34924 him"
         },
         {
           "verseNumber": "14",
           "contents": [
             {
-              "wj": "until he goes into a house. Then find the owner¦34933 of the house and tell him that the teacher¦34936 wants to know the location of the guestroom¦34941 where¦34927 he and his trainees can celebrate the Passover meal.",
+              "wj": "until he goes into a house. Then¦34926 find the owner¦34933 of the house and tell him that the teacher¦34936 wants to know the location of the guestroom¦34941 where¦34927 he and his trainees can celebrate the Passover meal.",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "until he goes into a house. Then find the owner¦34933 of the house and tell him that the teacher¦34936 wants to know the location of the guestroom¦34941 where¦34927 he and his trainees can celebrate the Passover meal."
+          "verseText": "until he goes into a house. Then¦34926 find the owner¦34933 of the house and tell him that the teacher¦34936 wants to know the location of the guestroom¦34941 where¦34927 he and his trainees can celebrate the Passover meal."
         },
         {
           "verseNumber": "15",
@@ -8688,7 +8693,7 @@
         {
           "verseNumber": "16",
           "contents": [
-            "So the two of them went¦34971 off into the town, and everything happened there exactly as Yeshua had told them, and so they prepared¦34988 the special meal there.",
+            "So¦34970 the two of them went¦34971 off into the town, and everything happened there exactly as Yeshua had told them, and so they prepared¦34988 the special meal there.",
             {
               "s1": "Yeshua shocks his trainees at the Passover meal"
             },
@@ -8699,7 +8704,7 @@
               "p": ""
             }
           ],
-          "verseText": "So the two of them went¦34971 off into the town, and everything happened there exactly as Yeshua had told them, and so they prepared¦34988 the special meal there."
+          "verseText": "So¦34970 the two of them went¦34971 off into the town, and everything happened there exactly as Yeshua had told them, and so they prepared¦34988 the special meal there."
         },
         {
           "verseNumber": "17",
@@ -8753,13 +8758,13 @@
         {
           "verseNumber": "20",
           "contents": [
-            "Then he continued, “",
+            "Then¦35047 he continued, “",
             {
               "wj": "It's one of the twelve¦35055—the one who dips his bread in the sauce at the same time as me.",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "Then he continued, “It's one of the twelve¦35055—the one who dips his bread in the sauce at the same time as me."
+          "verseText": "Then¦35047 he continued, “It's one of the twelve¦35055—the one who dips his bread in the sauce at the same time as me."
         },
         {
           "verseNumber": "21",
@@ -8812,14 +8817,14 @@
         {
           "verseNumber": "23",
           "contents": [
-            "Then he picked up a cup, gave¦35135 thanks¦35134",
+            "Then¦35130 he picked up a cup, gave¦35135 thanks¦35134",
             {
               "add": "to God",
               "closing": "\\add*"
             },
             ", and passed it around so they could each drink from it,"
           ],
-          "verseText": "Then he picked up a cup, gave¦35135 thanks¦35134 to God, and passed it around so they could each drink from it,"
+          "verseText": "Then¦35130 he picked up a cup, gave¦35135 thanks¦35134 to God, and passed it around so they could each drink from it,"
         },
         {
           "verseNumber": "24",
@@ -8909,7 +8914,7 @@
               ],
               "closing": "\\x*"
             },
-            "Then",
+            "Then¦35204",
             {
               "nd": "Yeshua¦35208",
               "closing": "\\nd*"
@@ -8920,7 +8925,7 @@
               "closing": "\\wj*"
             }
           ],
-          "verseText": "Then Yeshua¦35208 continued his teaching, “All of you¦35212 will stumble¦35212 because¦35221 it's written¦35222 in the scriptures: ‘I will strike¦35223 down the shepherd¦35225 and¦35226 the sheep¦35230 will be scattered¦35232.’"
+          "verseText": "Then¦35204 Yeshua¦35208 continued his teaching, “All of you¦35212 will stumble¦35212 because¦35221 it's written¦35222 in the scriptures: ‘I will strike¦35223 down the shepherd¦35225 and¦35226 the sheep¦35230 will be scattered¦35232.’"
         },
         {
           "verseNumber": "28",
@@ -8951,12 +8956,12 @@
         {
           "verseNumber": "29",
           "contents": [
-            "But Peter contradicted him¦35252, “Even if everyone else stumbles¦35258, I won't!”",
+            "But¦35247 Peter contradicted him¦35252, “Even if everyone else stumbles¦35258, I won't!”",
             {
               "p": ""
             }
           ],
-          "verseText": "But Peter contradicted him¦35252, “Even if everyone else stumbles¦35258, I won't!”"
+          "verseText": "But¦35247 Peter contradicted him¦35252, “Even if everyone else stumbles¦35258, I won't!”"
         },
         {
           "verseNumber": "30",
@@ -8981,7 +8986,7 @@
         {
           "verseNumber": "31",
           "contents": [
-            "But Peter argued forcibly, “Even if I had to die¦35311 with you, I would never disown you!”",
+            "But¦35320 Peter argued forcibly, “Even if I had to die¦35311 with you, I would never disown you!”",
             {
               "p": "And all the others said similar things."
             },
@@ -8998,7 +9003,7 @@
               "p": ""
             }
           ],
-          "verseText": "But Peter argued forcibly, “Even if I had to die¦35311 with you, I would never disown you!” And all the others said similar things."
+          "verseText": "But¦35320 Peter argued forcibly, “Even if I had to die¦35311 with you, I would never disown you!” And all the others said similar things."
         },
         {
           "verseNumber": "32",
@@ -9039,7 +9044,7 @@
         {
           "verseNumber": "36",
           "contents": [
-            "But he said, “",
+            "But¦35405 he said, “",
             {
               "wj": "Father, I know that you can do anything. Let me avoid this suffering, but yes I know, it doesn't matter what I want¦35436 but what you've"
             },
@@ -9057,18 +9062,18 @@
               "p": ""
             }
           ],
-          "verseText": "But he said, “Father, I know that you can do anything. Let me avoid this suffering, but yes I know, it doesn't matter what I want¦35436 but what you've planned *.”"
+          "verseText": "But¦35405 he said, “Father, I know that you can do anything. Let me avoid this suffering, but yes I know, it doesn't matter what I want¦35436 but what you've planned *.”"
         },
         {
           "verseNumber": "37",
           "contents": [
-            "Then he went back and found the others sleeping. He asked Peter, “",
+            "Then¦35438 he went back and found the others sleeping. He asked Peter, “",
             {
               "wj": "Simon¦35448, are you asleep? Couldn't you stay awake even for a single hour¦35454?",
               "closing": "\\wj*"
             }
           ],
-          "verseText": "Then he went back and found the others sleeping. He asked Peter, “Simon¦35448, are you asleep? Couldn't you stay awake even for a single hour¦35454?"
+          "verseText": "Then¦35438 he went back and found the others sleeping. He asked Peter, “Simon¦35448, are you asleep? Couldn't you stay awake even for a single hour¦35454?"
         },
         {
           "verseNumber": "38",
@@ -9087,9 +9092,9 @@
         {
           "verseNumber": "39",
           "contents": [
-            "Then he went further in again¦35474 and prayed¦35476 as before,"
+            "Then¦35473 he went further in again¦35474 and prayed¦35476 as before,"
           ],
-          "verseText": "Then he went further in again¦35474 and prayed¦35476 as before,"
+          "verseText": "Then¦35473 he went further in again¦35474 and prayed¦35476 as before,"
         },
         {
           "verseNumber": "40",
@@ -9155,16 +9160,16 @@
         {
           "verseNumber": "45",
           "contents": [
-            "So he walked right up to Yeshua and said, “My honoured teacher,” and greeted him with a kiss."
+            "So¦35608 he walked right up to Yeshua and said, “My honoured teacher,” and greeted him with a kiss."
           ],
-          "verseText": "So he walked right up to Yeshua and said, “My honoured teacher,” and greeted him with a kiss."
+          "verseText": "So¦35608 he walked right up to Yeshua and said, “My honoured teacher,” and greeted him with a kiss."
         },
         {
           "verseNumber": "46",
           "contents": [
-            "Then the others with him grabbed Yeshua and secured him."
+            "Then¦35624 the others with him grabbed Yeshua and secured him."
           ],
-          "verseText": "Then the others with him grabbed Yeshua and secured him."
+          "verseText": "Then¦35624 the others with him grabbed Yeshua and secured him."
         },
         {
           "verseNumber": "47",
@@ -9322,12 +9327,12 @@
         {
           "verseNumber": "59",
           "contents": [
-            "But even then, they couldn't get their¦35875 accusations to align with each other.",
+            "But¦35867 even then, they couldn't get their¦35875 accusations to align with each other.",
             {
               "p": ""
             }
           ],
-          "verseText": "But even then, they couldn't get their¦35875 accusations to align with each other."
+          "verseText": "But¦35867 even then, they couldn't get their¦35875 accusations to align with each other."
         },
         {
           "verseNumber": "60",
@@ -9393,14 +9398,14 @@
         {
           "verseNumber": "63",
           "contents": [
-            "Then the chief¦35965 priest¦35965 tore his own robe",
+            "Then¦35964 the chief¦35965 priest¦35965 tore his own robe",
             {
               "add": "to show his disgust",
               "closing": "\\add*"
             },
             "and shouted, “We certainly don't need any more witnesses¦35977 now!"
           ],
-          "verseText": "Then the chief¦35965 priest¦35965 tore his own robe to show his disgust and shouted, “We certainly don't need any more witnesses¦35977 now!"
+          "verseText": "Then¦35964 the chief¦35965 priest¦35965 tore his own robe to show his disgust and shouted, “We certainly don't need any more witnesses¦35977 now!"
         },
         {
           "verseNumber": "64",
@@ -9419,18 +9424,18 @@
             },
             "You yourselves all heard¦35980 him¦36000 insult God. What sentence does that deserve?”",
             {
-              "p": "So the leaders there agreed that Yeshua needed to be sentenced to death¦36005."
+              "p": "So¦35996 the leaders there agreed that Yeshua needed to be sentenced to death¦36005."
             },
             {
               "p": ""
             }
           ],
-          "verseText": "You yourselves all heard¦35980 him¦36000 insult God. What sentence does that deserve?” So the leaders there agreed that Yeshua needed to be sentenced to death¦36005."
+          "verseText": "You yourselves all heard¦35980 him¦36000 insult God. What sentence does that deserve?” So¦35996 the leaders there agreed that Yeshua needed to be sentenced to death¦36005."
         },
         {
           "verseNumber": "65",
           "contents": [
-            "Then various people started spitting¦36009 on him, and blindfolding¦36012 him and beating¦36020 him saying¦36024, “Ha, tell us who that was!” Even the servants joined in to slap him.",
+            "Then¦36006 various people started spitting¦36009 on him, and blindfolding¦36012 him and beating¦36020 him saying¦36024, “Ha, tell us who that was!” Even the servants joined in to slap him.",
             {
               "s1": "Peter disowns Yeshua"
             },
@@ -9444,7 +9449,7 @@
               "p": ""
             }
           ],
-          "verseText": "Then various people started spitting¦36009 on him, and blindfolding¦36012 him and beating¦36020 him saying¦36024, “Ha, tell us who that was!” Even the servants joined in to slap him."
+          "verseText": "Then¦36006 various people started spitting¦36009 on him, and blindfolding¦36012 him and beating¦36020 him saying¦36024, “Ha, tell us who that was!” Even the servants joined in to slap him."
         },
         {
           "verseNumber": "66",
@@ -9476,27 +9481,27 @@
         {
           "verseNumber": "68",
           "contents": [
-            "But he denied it, “I don't know him and I don't know why you think I would!” And he moved away from the fire.",
+            "But¦36099 he denied it, “I don't know him and I don't know why you think I would!” And he moved away from the fire.",
             {
               "p": ""
             }
           ],
-          "verseText": "But he denied it, “I don't know him and I don't know why you think I would!” And he moved away from the fire."
+          "verseText": "But¦36099 he denied it, “I don't know him and I don't know why you think I would!” And he moved away from the fire."
         },
         {
           "verseNumber": "69",
           "contents": [
-            "But the girl¦36116 that had seen¦36117 him¦36118 said to some of the others standing around, “That guy's one of them.”",
+            "But¦36114 the girl¦36116 that had seen¦36117 him¦36118 said to some of the others standing around, “That guy's one of them.”",
             {
               "p": ""
             }
           ],
-          "verseText": "But the girl¦36116 that had seen¦36117 him¦36118 said to some of the others standing around, “That guy's one of them.”"
+          "verseText": "But¦36114 the girl¦36116 that had seen¦36117 him¦36118 said to some of the others standing around, “That guy's one of them.”"
         },
         {
           "verseNumber": "70",
           "contents": [
-            "But again Peter denied it.",
+            "But¦36145 again Peter denied it.",
             {
               "p": "A little¦36147 while later, some of those standing there said, “You must be one of them because¦36161 you're¦36159 from Galilee¦36162.”"
             },
@@ -9504,7 +9509,7 @@
               "p": ""
             }
           ],
-          "verseText": "But again Peter denied it. A little¦36147 while later, some of those standing there said, “You must be one of them because¦36161 you're¦36159 from Galilee¦36162.”"
+          "verseText": "But¦36145 again Peter denied it. A little¦36147 while later, some of those standing there said, “You must be one of them because¦36161 you're¦36159 from Galilee¦36162.”"
         },
         {
           "verseNumber": "71",
@@ -9575,19 +9580,19 @@
         {
           "verseNumber": "3",
           "contents": [
-            "Then the chief¦36290 priests¦36290 started hurling accusations¦36286 against¦36288 Yeshua."
+            "Then¦36285 the chief¦36290 priests¦36290 started hurling accusations¦36286 against¦36288 Yeshua."
           ],
-          "verseText": "Then the chief¦36290 priests¦36290 started hurling accusations¦36286 against¦36288 Yeshua."
+          "verseText": "Then¦36285 the chief¦36290 priests¦36290 started hurling accusations¦36286 against¦36288 Yeshua."
         },
         {
           "verseNumber": "4",
           "contents": [
-            "So Pilate¦36298 asked¦36300 him¦36302 again, “Don't you have anything to say? Listen¦36308 to all these accusations¦36312 they're making against you.”",
+            "So¦36297 Pilate¦36298 asked¦36300 him¦36302 again, “Don't you have anything to say? Listen¦36308 to all these accusations¦36312 they're making against you.”",
             {
               "p": ""
             }
           ],
-          "verseText": "So Pilate¦36298 asked¦36300 him¦36302 again, “Don't you have anything to say? Listen¦36308 to all these accusations¦36312 they're making against you.”"
+          "verseText": "So¦36297 Pilate¦36298 asked¦36300 him¦36302 again, “Don't you have anything to say? Listen¦36308 to all these accusations¦36312 they're making against you.”"
         },
         {
           "verseNumber": "5",
@@ -9663,12 +9668,12 @@
         {
           "verseNumber": "12",
           "contents": [
-            "So¦36429 Pilate¦36421 asked again¦36422, “Then what should I do with this man that you¦36433 call the King of the Jews¦36438?”",
+            "So¦36429 Pilate¦36421 asked again¦36422, “Then¦36420 what should I do with this man that you¦36433 call the King of the Jews¦36438?”",
             {
               "p": ""
             }
           ],
-          "verseText": "So¦36429 Pilate¦36421 asked again¦36422, “Then what should I do with this man that you¦36433 call the King of the Jews¦36438?”"
+          "verseText": "So¦36429 Pilate¦36421 asked again¦36422, “Then¦36420 what should I do with this man that you¦36433 call the King of the Jews¦36438?”"
         },
         {
           "verseNumber": "13",
@@ -9685,13 +9690,13 @@
           "contents": [
             "Pilate¦36449 demanded, “What has he even done wrong?”",
             {
-              "p": "But they just yelled¦36461 louder, “Execute¦36464 him on a pole!”"
+              "p": "But¦36448 they just yelled¦36461 louder, “Execute¦36464 him on a pole!”"
             },
             {
               "p": ""
             }
           ],
-          "verseText": "Pilate¦36449 demanded, “What has he even done wrong?” But they just yelled¦36461 louder, “Execute¦36464 him on a pole!”"
+          "verseText": "Pilate¦36449 demanded, “What has he even done wrong?” But¦36448 they just yelled¦36461 louder, “Execute¦36464 him on a pole!”"
         },
         {
           "verseNumber": "15",
@@ -9720,9 +9725,9 @@
         {
           "verseNumber": "16",
           "contents": [
-            "So the soldiers¦36496 led Yeshua inside the palace¦36503 that was the governor's¦36507 residence¦36507, and¦36508 called in the rest of the battalion."
+            "So¦36495 the soldiers¦36496 led Yeshua inside the palace¦36503 that was the governor's¦36507 residence¦36507, and¦36508 called in the rest of the battalion."
           ],
-          "verseText": "So the soldiers¦36496 led Yeshua inside the palace¦36503 that was the governor's¦36507 residence¦36507, and¦36508 called in the rest of the battalion."
+          "verseText": "So¦36495 the soldiers¦36496 led Yeshua inside the palace¦36503 that was the governor's¦36507 residence¦36507, and¦36508 called in the rest of the battalion."
         },
         {
           "verseNumber": "17",
@@ -9753,7 +9758,7 @@
         {
           "verseNumber": "20",
           "contents": [
-            "After they'd finished having fun mocked¦36560 him, they took the purple¦36565 robe off him, and put his¦36572 own robe back on him. Then they led him outside towards the execution¦36580 spot.",
+            "After they'd finished having fun mocked¦36560 him, they took the purple¦36565 robe off him, and put his¦36572 own robe back on him. Then¦36558 they led him outside towards the execution¦36580 spot.",
             {
               "s1": "Yeshua is publicly executed along with thieves"
             },
@@ -9767,7 +9772,7 @@
               "p": ""
             }
           ],
-          "verseText": "After they'd finished having fun mocked¦36560 him, they took the purple¦36565 robe off him, and put his¦36572 own robe back on him. Then they led him outside towards the execution¦36580 spot."
+          "verseText": "After they'd finished having fun mocked¦36560 him, they took the purple¦36565 robe off him, and put his¦36572 own robe back on him. Then¦36558 they led him outside towards the execution¦36580 spot."
         },
         {
           "verseNumber": "21",
@@ -9817,9 +9822,9 @@
               ],
               "closing": "\\x*"
             },
-            "So they¦36642 carried out the execution¦36638, taking Yeshua's clothes¦36645 and¦36652 drawing straws to see who would get what."
+            "So¦36637 they¦36642 carried out the execution¦36638, taking Yeshua's clothes¦36645 and¦36652 drawing straws to see who would get what."
           ],
-          "verseText": "So they¦36642 carried out the execution¦36638, taking Yeshua's clothes¦36645 and¦36652 drawing straws to see who would get what."
+          "verseText": "So¦36637 they¦36642 carried out the execution¦36638, taking Yeshua's clothes¦36645 and¦36652 drawing straws to see who would get what."
         },
         {
           "verseNumber": "25",
@@ -9997,7 +10002,7 @@
         {
           "verseNumber": "37",
           "contents": [
-            "But just then",
+            "But¦36877 just then",
             {
               "nd": "Yeshua¦36878",
               "closing": "\\nd*"
@@ -10007,7 +10012,7 @@
               "p": ""
             }
           ],
-          "verseText": "But just then Yeshua¦36878 uttered a loud¦36881 cry¦36880 and exhaled his last breath."
+          "verseText": "But¦36877 just then Yeshua¦36878 uttered a loud¦36881 cry¦36880 and exhaled his last breath."
         },
         {
           "verseNumber": "38",
@@ -10112,14 +10117,14 @@
         {
           "verseNumber": "46",
           "contents": [
-            "So Yosef",
+            "So¦37065 Yosef",
             {
               "add": "and his companions",
               "closing": "\\add*"
             },
-            "went and bought¦37068 some linen burial cloth and then, removing Yeshua's body from the pole, wrapped¦37076 it in the cloth and placed it in a burial chamber that had been chiselled into a rockface. Then they rolled¦37099 a rock¦37097 across the opening."
+            "went and bought¦37068 some linen burial cloth and then, removing Yeshua's body from the pole, wrapped¦37076 it in the cloth and placed it in a burial chamber that had been chiselled into a rockface. Then¦37065 they rolled¦37099 a rock¦37097 across the opening."
           ],
-          "verseText": "So Yosef and his companions went and bought¦37068 some linen burial cloth and then, removing Yeshua's body from the pole, wrapped¦37076 it in the cloth and placed it in a burial chamber that had been chiselled into a rockface. Then they rolled¦37099 a rock¦37097 across the opening."
+          "verseText": "So¦37065 Yosef and his companions went and bought¦37068 some linen burial cloth and then, removing Yeshua's body from the pole, wrapped¦37076 it in the cloth and placed it in a burial chamber that had been chiselled into a rockface. Then¦37065 they rolled¦37099 a rock¦37097 across the opening."
         },
         {
           "verseNumber": "47",
@@ -10155,16 +10160,16 @@
         {
           "verseNumber": "2",
           "contents": [
-            "Then very early¦37159 on Sunday morning they¦37167 went to the chamber, arriving just as the sun¦37176 was rising."
+            "Then¦37156 very early¦37159 on Sunday morning they¦37167 went to the chamber, arriving just as the sun¦37176 was rising."
           ],
-          "verseText": "Then very early¦37159 on Sunday morning they¦37167 went to the chamber, arriving just as the sun¦37176 was rising."
+          "verseText": "Then¦37156 very early¦37159 on Sunday morning they¦37167 went to the chamber, arriving just as the sun¦37176 was rising."
         },
         {
           "verseNumber": "3",
           "contents": [
-            "But they realised that they didn't have anyone with them to roll the rock away that was covering the entrance."
+            "But¦37177 they realised that they didn't have anyone with them to roll the rock away that was covering the entrance."
           ],
-          "verseText": "But they realised that they didn't have anyone with them to roll the rock away that was covering the entrance."
+          "verseText": "But¦37177 they realised that they didn't have anyone with them to roll the rock away that was covering the entrance."
         },
         {
           "verseNumber": "4",
@@ -10176,12 +10181,12 @@
         {
           "verseNumber": "5",
           "contents": [
-            "So they went on into the burial chamber and were totally stunned to find a young¦37229 man¦37229 dressed in white¦37237, sitting¦37231 in there on the side.",
+            "So¦37221 they went on into the burial chamber and were totally stunned to find a young¦37229 man¦37229 dressed in white¦37237, sitting¦37231 in there on the side.",
             {
               "p": ""
             }
           ],
-          "verseText": "So they went on into the burial chamber and were totally stunned to find a young¦37229 man¦37229 dressed in white¦37237, sitting¦37231 in there on the side."
+          "verseText": "So¦37221 they went on into the burial chamber and were totally stunned to find a young¦37229 man¦37229 dressed in white¦37237, sitting¦37231 in there on the side."
         },
         {
           "verseNumber": "6",
@@ -10196,9 +10201,9 @@
               "nd": "Nazareth¦37259",
               "closing": "\\nd*"
             },
-            ", the one who was executed¦37262 on a pole. But see¦37267 there where¦37275 his body was—he's not there because he came back to life."
+            ", the one who was executed¦37262 on a pole. But¦37243 see¦37267 there where¦37275 his body was—he's not there because he came back to life."
           ],
-          "verseText": "He assured them, “Don't be surprised. I know you're looking¦37257 for¦37257 Yeshua¦37256 from Nazareth¦37259, the one who was executed¦37262 on a pole. But see¦37267 there where¦37275 his body was—he's not there because he came back to life."
+          "verseText": "He assured them, “Don't be surprised. I know you're looking¦37257 for¦37257 Yeshua¦37256 from Nazareth¦37259, the one who was executed¦37262 on a pole. But¦37243 see¦37267 there where¦37275 his body was—he's not there because he came back to life."
         },
         {
           "verseNumber": "7",
@@ -10225,7 +10230,7 @@
         {
           "verseNumber": "8",
           "contents": [
-            "So they left the chamber and took off running, still stunned and shaking and too scared to stop and to talk to anyone¦37324.",
+            "So¦37304 they left the chamber and took off running, still stunned and shaking and too scared to stop and to talk to anyone¦37324.",
             {
               "rem": "It's not certain whether or not the following longer ending of this document was actually penned by Mark, or whether it was appended slightly later. Expert scholars are divided on this, and hence it's included here for your consideration:"
             },
@@ -10247,7 +10252,7 @@
               "rem": "/s2 [The most reliable early manuscripts and other ancient witnesses do not have Mark 16.9-20.]"
             }
           ],
-          "verseText": "So they left the chamber and took off running, still stunned and shaking and too scared to stop and to talk to anyone¦37324."
+          "verseText": "So¦37304 they left the chamber and took off running, still stunned and shaking and too scared to stop and to talk to anyone¦37324."
         },
         {
           "verseNumber": "9",

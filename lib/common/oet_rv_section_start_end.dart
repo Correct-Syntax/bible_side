@@ -659,7 +659,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 5, 'verse': 18}
     },
     {
-      'section': 'The soldiers of descendants there to igsile',
+      'section': 'The soldiers of descendants there to east',
       'start': {'chapter': 5, 'verse': 18},
       'end': {'chapter': 5, 'verse': 23}
     },
@@ -669,7 +669,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 5, 'verse': 25}
     },
     {
-      'section': 'The capture of descendants there to igsile',
+      'section': 'The capture of descendants there to east',
       'start': {'chapter': 5, 'verse': 25},
       'end': {'chapter': 6, 'verse': 1}
     },
@@ -864,7 +864,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 24, 'verse': 1}
     },
     {
-      'section': 'The pegbaad-part of Levites',
+      'section': 'The division of Levites',
       'start': {'chapter': 24, 'verse': 1},
       'end': {'chapter': 25, 'verse': 1}
     },
@@ -1046,7 +1046,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 12, 'verse': 1}
     },
     {
-      'section': 'Inlusuran of Egyptians the from-Huda',
+      'section': 'Invaded by of Egyptians the from-Huda',
       'start': {'chapter': 12, 'verse': 1},
       'end': {'chapter': 13, 'verse': 1}
     },
@@ -1146,7 +1146,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 23, 'verse': 16}
     },
     {
-      'section': 'The agreements made by Hihuyada',
+      'section': 'The agreements made by Jehoiada',
       'start': {'chapter': 23, 'verse': 16},
       'end': {'chapter': 24, 'verse': 1}
     },
@@ -1801,7 +1801,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 4, 'verse': 41}
     },
     {
-      'section': 'The me aputanan city',
+      'section': 'The refuge cities',
       'start': {'chapter': 4, 'verse': 41},
       'end': {'chapter': 4, 'verse': 44}
     },
@@ -1966,7 +1966,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 19, 'verse': 1}
     },
     {
-      'section': 'The me aputanan city',
+      'section': 'The refuge cities',
       'start': {'chapter': 19, 'verse': 1},
       'end': {'chapter': 19, 'verse': 14}
     },
@@ -1981,7 +1981,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 20, 'verse': 1}
     },
     {
-      'section': 'The laws of gira',
+      'section': 'The laws of war',
       'start': {'chapter': 20, 'verse': 1},
       'end': {'chapter': 21, 'verse': 1}
     },
@@ -2131,7 +2131,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 31, 'verse': 9}
     },
     {
-      'section': 'The pegbasa of Law each seven year(s)',
+      'section': 'The reading of Law each seven year(s)',
       'start': {'chapter': 31, 'verse': 9},
       'end': {'chapter': 31, 'verse': 14}
     },
@@ -2419,7 +2419,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
   ],
   'EXO': [
     {
-      'section': "Israel's descendants are driven into slavery",
+      'section': "Yisra'el's descendants are driven into slavery",
       'start': {'chapter': 1, 'verse': 1},
       'end': {'chapter': 2, 'verse': 1}
     },
@@ -2554,7 +2554,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 12, 'verse': 21}
     },
     {
-      'section': 'The first ever ‘pass-over’ festival',
+      'section': 'The first ever ‘pass-over’ celebration',
       'start': {'chapter': 12, 'verse': 21},
       'end': {'chapter': 12, 'verse': 29}
     },
@@ -2574,7 +2574,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 13, 'verse': 3}
     },
     {
-      'section': 'The festival of unrisen bread',
+      'section': 'The ‘Flat Bread Celebration’',
       'start': {'chapter': 13, 'verse': 3},
       'end': {'chapter': 13, 'verse': 11}
     },
@@ -2589,7 +2589,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 14, 'verse': 1}
     },
     {
-      'section': 'The crossing of Red Sea',
+      'section': 'Crossing the Red Sea',
       'start': {'chapter': 14, 'verse': 1},
       'end': {'chapter': 15, 'verse': 1}
     },
@@ -2654,7 +2654,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 21, 'verse': 1}
     },
     {
-      'section': 'The law concerning the slave',
+      'section': 'Rules about slaves',
       'start': {'chapter': 21, 'verse': 1},
       'end': {'chapter': 21, 'verse': 12}
     },
@@ -2694,7 +2694,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 23, 'verse': 20}
     },
     {
-      'section': 'The promises and teachings',
+      'section': 'Promises and teachings',
       'start': {'chapter': 23, 'verse': 20},
       'end': {'chapter': 24, 'verse': 1}
     },
@@ -2714,7 +2714,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 25, 'verse': 10}
     },
     {
-      'section': 'The box to hold the agreement',
+      'section': 'The box to hold the stone slabs',
       'start': {'chapter': 25, 'verse': 10},
       'end': {'chapter': 25, 'verse': 23}
     },
@@ -2724,7 +2724,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 25, 'verse': 31}
     },
     {
-      'section': 'The container of lamp',
+      'section': 'The lampstand',
       'start': {'chapter': 25, 'verse': 31},
       'end': {'chapter': 26, 'verse': 1}
     },
@@ -2769,12 +2769,12 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 29, 'verse': 38}
     },
     {
-      'section': 'The gift each day',
+      'section': 'The daily sacrifices',
       'start': {'chapter': 29, 'verse': 38},
       'end': {'chapter': 30, 'verse': 1}
     },
     {
-      'section': 'The altar for burning incense',
+      'section': 'The incense altar',
       'start': {'chapter': 30, 'verse': 1},
       'end': {'chapter': 30, 'verse': 11}
     },
@@ -2844,7 +2844,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 35, 'verse': 10}
     },
     {
-      'section': 'The things/objects there to holy tent',
+      'section': 'The equipment for the holy tent',
       'start': {'chapter': 35, 'verse': 10},
       'end': {'chapter': 35, 'verse': 20}
     },
@@ -2859,12 +2859,12 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 36, 'verse': 1}
     },
     {
-      'section': 'The many gifts of people',
+      'section': 'More than enough materials donated',
       'start': {'chapter': 36, 'verse': 1},
       'end': {'chapter': 36, 'verse': 8}
     },
     {
-      'section': 'The standing up of tent',
+      'section': 'The construction of the tent',
       'start': {'chapter': 36, 'verse': 8},
       'end': {'chapter': 37, 'verse': 1}
     },
@@ -2874,67 +2874,67 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 37, 'verse': 10}
     },
     {
-      'section': 'Making of table',
+      'section': 'Making the bread table',
       'start': {'chapter': 37, 'verse': 10},
       'end': {'chapter': 37, 'verse': 17}
     },
     {
-      'section': 'Making of container of lamp',
+      'section': 'Making the lampstand',
       'start': {'chapter': 37, 'verse': 17},
       'end': {'chapter': 37, 'verse': 25}
     },
     {
-      'section': 'Making of altar for burning of incense',
+      'section': 'Making the incense altar',
       'start': {'chapter': 37, 'verse': 25},
       'end': {'chapter': 38, 'verse': 1}
     },
     {
-      'section': 'Making of altar for burning of sacrifice',
+      'section': 'Making the altar for burning sacrifices',
       'start': {'chapter': 38, 'verse': 1},
       'end': {'chapter': 38, 'verse': 8}
     },
     {
-      'section': 'Making of basin washing',
+      'section': 'Making the washbasin',
       'start': {'chapter': 38, 'verse': 8},
       'end': {'chapter': 38, 'verse': 9}
     },
     {
-      'section': 'The courtyard of holy tent',
+      'section': 'Making the courtyard',
       'start': {'chapter': 38, 'verse': 9},
       'end': {'chapter': 38, 'verse': 21}
     },
     {
-      'section': 'The things/objects of making of tent',
+      'section': 'List of metals used',
       'start': {'chapter': 38, 'verse': 21},
       'end': {'chapter': 39, 'verse': 1}
     },
     {
-      'section': 'Making of igsaluub of priests',
+      'section': "Making the priests' uniforms",
       'start': {'chapter': 39, 'verse': 1},
       'end': {'chapter': 39, 'verse': 8}
     },
     {
-      'section': 'Making of hagpi of chest',
+      'section': 'Making the sacred pouch',
       'start': {'chapter': 39, 'verse': 8},
       'end': {'chapter': 39, 'verse': 22}
     },
     {
-      'section': 'Making of other pad clothes',
+      'section': 'Making the other clothes',
       'start': {'chapter': 39, 'verse': 22},
       'end': {'chapter': 39, 'verse': 32}
     },
     {
-      'section': 'The pegkapenga of making of tent',
+      'section': 'Mosheh inspects the finished components',
       'start': {'chapter': 39, 'verse': 32},
       'end': {'chapter': 40, 'verse': 1}
     },
     {
-      'section': 'The standing up of tent',
+      'section': 'Erecting the sacred tent',
       'start': {'chapter': 40, 'verse': 1},
       'end': {'chapter': 40, 'verse': 34}
     },
     {
-      'section': 'The splendour of Master God',
+      'section': "Yahweh's splendour fills the tent",
       'start': {'chapter': 40, 'verse': 34},
       'end': {'chapter': 40, 'verse': 34}
     }
@@ -3336,7 +3336,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 40, 'verse': 5}
     },
     {
-      'section': 'The gumawan dapit of igsile',
+      'section': 'The gumawan dapit of east',
       'start': {'chapter': 40, 'verse': 5},
       'end': {'chapter': 40, 'verse': 17}
     },
@@ -3361,7 +3361,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 40, 'verse': 32}
     },
     {
-      'section': 'The bayaanan dapit of igsile going to maluag gathering',
+      'section': 'The bayaanan dapit of east going to maluag gathering',
       'start': {'chapter': 40, 'verse': 32},
       'end': {'chapter': 40, 'verse': 35}
     },
@@ -3401,7 +3401,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 41, 'verse': 12}
     },
     {
-      'section': 'The house dapit of iglineb',
+      'section': 'The house dapit of west',
       'start': {'chapter': 41, 'verse': 12},
       'end': {'chapter': 41, 'verse': 13}
     },
@@ -4172,7 +4172,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 44, 'verse': 18}
     },
     {
-      'section': 'Yehuda pleads to Yosef',
+      'section': 'Yehudah pleads to Yosef',
       'start': {'chapter': 44, 'verse': 18},
       'end': {'chapter': 45, 'verse': 1}
     },
@@ -4465,7 +4465,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 5, 'verse': 8}
     },
     {
-      'section': 'The gira of Huda and of Israel',
+      'section': 'The war of Huda and of Israel',
       'start': {'chapter': 5, 'verse': 8},
       'end': {'chapter': 6, 'verse': 1}
     },
@@ -4762,7 +4762,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 21, 'verse': 1}
     },
     {
-      'section': 'The revelation egkareetan the Babylon',
+      'section': 'The revelation destroyed the Babylon',
       'start': {'chapter': 21, 'verse': 1},
       'end': {'chapter': 21, 'verse': 11}
     },
@@ -5493,7 +5493,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 20, 'verse': 1}
     },
     {
-      'section': 'The preparation of Israelis of gira',
+      'section': 'The preparation of Israelis of war',
       'start': {'chapter': 20, 'verse': 1},
       'end': {'chapter': 20, 'verse': 18}
     },
@@ -5945,7 +5945,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 36, 'verse': 11}
     },
     {
-      'section': 'Ke pegbasa of sinulat there to officials',
+      'section': 'Ke reading of sinulat there to officials',
       'start': {'chapter': 36, 'verse': 11},
       'end': {'chapter': 36, 'verse': 20}
     },
@@ -6095,7 +6095,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 49, 'verse': 28}
     },
     {
-      'section': 'The punishment of God of tribu of Kidar and of kingdom of Hasur',
+      'section': 'The punishment of God of tribe of Kidar and of kingdom of Hasur',
       'start': {'chapter': 49, 'verse': 28},
       'end': {'chapter': 49, 'verse': 34}
     },
@@ -7041,27 +7041,27 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
   ],
   'JOS': [
     {
-      'section': 'The command of God to Josh.',
+      'section': 'Yahweh encourages Yehoshua',
       'start': {'chapter': 1, 'verse': 1},
       'end': {'chapter': 1, 'verse': 10}
     },
     {
-      'section': 'The commanding of Josh. of people',
+      'section': 'Yehoshua instructs the people',
       'start': {'chapter': 1, 'verse': 10},
       'end': {'chapter': 2, 'verse': 1}
     },
     {
-      'section': 'The me tahasiliban commanded going to Hiriku',
+      'section': 'Spies sent to Yericho',
       'start': {'chapter': 2, 'verse': 1},
       'end': {'chapter': 3, 'verse': 1}
     },
     {
-      'section': 'The crossing of descendants of Israel of Jordan',
+      'section': 'The Israelis cross the Yordan',
       'start': {'chapter': 3, 'verse': 1},
       'end': {'chapter': 4, 'verse': 1}
     },
     {
-      'section': 'The me rock limlimuan',
+      'section': 'The rock memorial',
       'start': {'chapter': 4, 'verse': 1},
       'end': {'chapter': 5, 'verse': 1}
     },
@@ -7071,217 +7071,222 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 5, 'verse': 1}
     },
     {
-      'section': 'The circumcision and the feast there to Gilgal',
+      'section': 'Circumcising the males and celebrating ‘pass-over’ at Gilgal',
       'start': {'chapter': 5, 'verse': 1},
+      'end': {'chapter': 5, 'verse': 11}
+    },
+    {
+      'section': 'Eating from the land—no more manna',
+      'start': {'chapter': 5, 'verse': 11},
       'end': {'chapter': 5, 'verse': 13}
     },
     {
-      'section': 'Josh. and the person due kampilan',
+      'section': 'Yehoshua and the man with a sword',
       'start': {'chapter': 5, 'verse': 13},
       'end': {'chapter': 6, 'verse': 1}
     },
     {
-      'section': 'The demolition of Hiriku',
+      'section': "Yericho's walls collapse",
       'start': {'chapter': 6, 'verse': 1},
       'end': {'chapter': 7, 'verse': 1}
     },
     {
-      'section': 'The sin of Akan',
+      'section': "Achan's sin",
       'start': {'chapter': 7, 'verse': 1},
       'end': {'chapter': 8, 'verse': 1}
     },
     {
-      'section': 'The defeat and the demolition of Ay',
+      'section': 'The defeat and destruction of Ay',
       'start': {'chapter': 8, 'verse': 1},
       'end': {'chapter': 8, 'verse': 30}
     },
     {
-      'section': 'The pegbasa of Law there to mountain of Ibal',
+      'section': 'The reading of Law there at mountain of Eybal',
       'start': {'chapter': 8, 'verse': 30},
       'end': {'chapter': 9, 'verse': 1}
     },
     {
-      'section': 'The betrayal of me from-Gibyun to Josh.',
+      'section': 'The betrayal of me from-Gibyun to Yehoshua',
       'start': {'chapter': 9, 'verse': 1},
       'end': {'chapter': 10, 'verse': 1}
     },
     {
-      'section': 'The defeat of me Amurihanen',
+      'section': 'The defeat of the Amorites',
       'start': {'chapter': 10, 'verse': 1},
       'end': {'chapter': 10, 'verse': 16}
     },
     {
-      'section': 'The capturing of five King me Amurihanen',
+      'section': 'Five Amorite kings defeated',
       'start': {'chapter': 10, 'verse': 16},
       'end': {'chapter': 10, 'verse': 28}
     },
     {
-      'section': 'The invasion of Josh. of other me Amurihanen',
+      'section': 'Yehoshua attacks more Amorites',
       'start': {'chapter': 10, 'verse': 28},
       'end': {'chapter': 11, 'verse': 1}
     },
     {
-      'section': 'The invasion of Josh. of King Habin',
+      'section': 'Yehoshua defeats the northern kings',
       'start': {'chapter': 11, 'verse': 1},
       'end': {'chapter': 11, 'verse': 16}
     },
     {
-      'section': 'The pegkaangken of Josh. of all land',
+      'section': 'Yehoshua controls the entire region',
       'start': {'chapter': 11, 'verse': 16},
       'end': {'chapter': 12, 'verse': 1}
     },
     {
-      'section': 'The kings defeated by Moses',
+      'section': 'The kings defeated by Mosheh',
       'start': {'chapter': 12, 'verse': 1},
       'end': {'chapter': 12, 'verse': 7}
     },
     {
-      'section': 'The kings defeated by Josh.',
+      'section': 'The kings defeated by Yehoshua',
       'start': {'chapter': 12, 'verse': 7},
       'end': {'chapter': 13, 'verse': 1}
     },
     {
-      'section': 'The place not yet snatched',
+      'section': 'The regions not yet captured',
       'start': {'chapter': 13, 'verse': 1},
       'end': {'chapter': 13, 'verse': 8}
     },
     {
-      'section': 'The pegbaad-part of place there to igsile of Jordan',
+      'section': 'Division of the land east of the Yordan',
       'start': {'chapter': 13, 'verse': 8},
       'end': {'chapter': 13, 'verse': 15}
     },
     {
-      'section': 'The place part of descendants of Rubin',
+      'section': "The area assigned to Reuben's descendants",
       'start': {'chapter': 13, 'verse': 15},
       'end': {'chapter': 13, 'verse': 24}
     },
     {
-      'section': 'The place part of descendants of Gad',
+      'section': "The area assigned to Gad's descendants",
       'start': {'chapter': 13, 'verse': 24},
       'end': {'chapter': 13, 'verse': 29}
     },
     {
-      'section': 'The place part of descendants of Manasis',
+      'section': "The area assigned to Menashsheh's descendants",
       'start': {'chapter': 13, 'verse': 29},
       'end': {'chapter': 14, 'verse': 1}
     },
     {
-      'section': 'The pegbaad-part of place there to iglineb of River Jordan',
+      'section': 'The division of the main block west of the Yordan',
       'start': {'chapter': 14, 'verse': 1},
       'end': {'chapter': 14, 'verse': 6}
     },
     {
-      'section': 'The place naangken of Kalib',
+      'section': 'Hebron is allocated to Caleb',
       'start': {'chapter': 14, 'verse': 6},
       'end': {'chapter': 15, 'verse': 1}
     },
     {
-      'section': 'The place naangken of descendants of Huda',
+      'section': "The area assigned to Yehudah's descendants",
       'start': {'chapter': 15, 'verse': 1},
       'end': {'chapter': 15, 'verse': 13}
     },
     {
-      'section': 'Naangken of Kalib the Hibrun and Dibir',
+      'section': 'Caleb defeats Hebron and Debir',
       'start': {'chapter': 15, 'verse': 13},
       'end': {'chapter': 15, 'verse': 20}
     },
     {
-      'section': 'The cities of descendants of Huda',
+      'section': "Cities captured by Yehudah's descendants",
       'start': {'chapter': 15, 'verse': 20},
       'end': {'chapter': 16, 'verse': 1}
     },
     {
-      'section': 'The place naangken of descendants of Joseph',
+      'section': "The allocation to Yosef's descendants",
       'start': {'chapter': 16, 'verse': 1},
       'end': {'chapter': 16, 'verse': 5}
     },
     {
-      'section': 'The place naangken of descendants of Ipraim',
+      'section': "The allocation to Efraim's descendants",
       'start': {'chapter': 16, 'verse': 5},
       'end': {'chapter': 17, 'verse': 1}
     },
     {
-      'section': 'The place naangken of katenge of descendants of Manasis',
+      'section': "The allocation to Manashsheh's descendants",
       'start': {'chapter': 17, 'verse': 1},
       'end': {'chapter': 17, 'verse': 14}
     },
     {
-      'section': 'The pegpatimul of descendants of Ipraim and of Manasis of land',
+      'section': "Efraim and Manashsheh's descendants are given additional land",
       'start': {'chapter': 17, 'verse': 14},
       'end': {'chapter': 18, 'verse': 1}
     },
     {
-      'section': 'The pegbaad-part of other place',
+      'section': 'Allocations for the remaining seven tribes',
       'start': {'chapter': 18, 'verse': 1},
       'end': {'chapter': 18, 'verse': 11}
     },
     {
-      'section': 'The place naangken of descendants of Benyamin',
+      'section': "The allocation to Benyamin's descendants",
       'start': {'chapter': 18, 'verse': 11},
       'end': {'chapter': 19, 'verse': 1}
     },
     {
-      'section': 'The place naangken of descendants of Simyun',
+      'section': "The allocation to Shim'on's descendants",
       'start': {'chapter': 19, 'verse': 1},
       'end': {'chapter': 19, 'verse': 10}
     },
     {
-      'section': 'The place naangken of descendants of Sabulun',
+      'section': "The allocation to Zebulun's descendants",
       'start': {'chapter': 19, 'verse': 10},
       'end': {'chapter': 19, 'verse': 17}
     },
     {
-      'section': 'The place naangken of descendants of Isakar',
+      'section': "The allocation to Yissashkar's descendants",
       'start': {'chapter': 19, 'verse': 17},
       'end': {'chapter': 19, 'verse': 24}
     },
     {
-      'section': 'The place naangken of descendants of Asir',
+      'section': "The allocation to Asher's descendants",
       'start': {'chapter': 19, 'verse': 24},
       'end': {'chapter': 19, 'verse': 32}
     },
     {
-      'section': 'The place naangken of descendants of Naptali',
+      'section': "The allocation to Naftali's descendants",
       'start': {'chapter': 19, 'verse': 32},
       'end': {'chapter': 19, 'verse': 40}
     },
     {
-      'section': 'The place naangken of descendants of Dan',
+      'section': "The allocation to Dan's descendants",
       'start': {'chapter': 19, 'verse': 40},
       'end': {'chapter': 19, 'verse': 49}
     },
     {
-      'section': 'The place naangken of Josh.',
+      'section': "Yehoshua's allocation",
       'start': {'chapter': 19, 'verse': 49},
       'end': {'chapter': 20, 'verse': 1}
     },
     {
-      'section': 'The cities aputanan',
+      'section': 'The refuge cities',
       'start': {'chapter': 20, 'verse': 1},
       'end': {'chapter': 21, 'verse': 1}
     },
     {
-      'section': 'The place naangken of descendants of Libi',
+      'section': "The allocation to Levi's descendants",
       'start': {'chapter': 21, 'verse': 1},
-      'end': {'chapter': 21, 'verse': 42}
+      'end': {'chapter': 21, 'verse': 43}
     },
     {
-      'section': 'The place naangken of descendants of Israel',
-      'start': {'chapter': 21, 'verse': 42},
+      'section': 'The Israelis move into the regions',
+      'start': {'chapter': 21, 'verse': 43},
       'end': {'chapter': 22, 'verse': 1}
     },
     {
-      'section': 'The returning home of other tribu there to igsile',
+      'section': 'The eastern tribes return home',
       'start': {'chapter': 22, 'verse': 1},
       'end': {'chapter': 22, 'verse': 10}
     },
     {
-      'section': 'The altar there to near Jordan',
+      'section': 'The altar by the Yordan',
       'start': {'chapter': 22, 'verse': 10},
       'end': {'chapter': 23, 'verse': 1}
     },
     {
-      'section': 'The pegpanaha-taha of Josh.',
+      'section': "Yehoshua's final speech",
       'start': {'chapter': 23, 'verse': 1},
       'end': {'chapter': 24, 'verse': 1}
     },
@@ -7291,7 +7296,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 24, 'verse': 29}
     },
     {
-      'section': 'The death of Josh. and of Ilyasar',
+      'section': 'The death of Yehoshua and Eleazar',
       'start': {'chapter': 24, 'verse': 29},
       'end': {'chapter': 24, 'verse': 29}
     }
@@ -8379,7 +8384,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 6, 'verse': 6}
     },
     {
-      'section': 'Yeshua opens up the clawed fist',
+      'section': 'Yeshua heals the deformed hand',
       'start': {'chapter': 6, 'verse': 6},
       'end': {'chapter': 6, 'verse': 12}
     },
@@ -9021,27 +9026,27 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
   ],
   'MAL': [
     {
-      'section': 'The love of God for Israelis',
+      'section': "Yahweh's love for the Israelis",
       'start': {'chapter': 1, 'verse': 1},
       'end': {'chapter': 1, 'verse': 6}
     },
     {
-      'section': 'The not likes sacrifice',
+      'section': 'Second-class sacrifices',
       'start': {'chapter': 1, 'verse': 6},
       'end': {'chapter': 2, 'verse': 1}
     },
     {
-      'section': 'The warning of Master of priests',
+      'section': 'A warning for the priests',
       'start': {'chapter': 2, 'verse': 1},
       'end': {'chapter': 2, 'verse': 10}
     },
     {
-      'section': 'The pegsupak of people of Israel',
+      'section': 'The people have been unfaithful',
       'start': {'chapter': 2, 'verse': 10},
       'end': {'chapter': 2, 'verse': 17}
     },
     {
-      'section': 'Soon e the day of judging',
+      'section': 'Judgement day is coming',
       'start': {'chapter': 2, 'verse': 17},
       'end': {'chapter': 3, 'verse': 1}
     },
@@ -9051,17 +9056,17 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 3, 'verse': 6}
     },
     {
-      'section': 'The giving of tenth',
+      'section': 'Giving a tenth',
       'start': {'chapter': 3, 'verse': 6},
       'end': {'chapter': 3, 'verse': 13}
     },
     {
-      'section': 'The mercy promised of God',
+      'section': 'God promises mercy for some',
       'start': {'chapter': 3, 'verse': 13},
       'end': {'chapter': 4, 'verse': 1}
     },
     {
-      'section': 'The day of Master God',
+      'section': 'Be ready for future judgement',
       'start': {'chapter': 4, 'verse': 1},
       'end': {'chapter': 4, 'verse': 1}
     }
@@ -10457,7 +10462,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 8, 'verse': 1}
     },
     {
-      'section': 'The pegbasa of Ezra of law',
+      'section': 'The reading of Ezra of law',
       'start': {'chapter': 8, 'verse': 1},
       'end': {'chapter': 8, 'verse': 13}
     },
@@ -10527,7 +10532,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 12, 'verse': 24}
     },
     {
-      'section': 'The pegbaad-part of me work there to temple',
+      'section': 'The division of me work there to temple',
       'start': {'chapter': 12, 'verse': 24},
       'end': {'chapter': 12, 'verse': 27}
     },
@@ -10774,7 +10779,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 21, 'verse': 1}
     },
     {
-      'section': 'The defeat of me Kanaanen',
+      'section': 'The defeat of Canaanites',
       'start': {'chapter': 21, 'verse': 1},
       'end': {'chapter': 21, 'verse': 10}
     },
@@ -10849,7 +10854,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 26, 'verse': 23}
     },
     {
-      'section': 'The descendants of Isakar',
+      'section': 'The descendants of Yissashkar',
       'start': {'chapter': 26, 'verse': 23},
       'end': {'chapter': 26, 'verse': 26}
     },
@@ -10889,7 +10894,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 26, 'verse': 51}
     },
     {
-      'section': 'The most of all male and the pegbaad-part of land',
+      'section': 'The most of all male and the division of land',
       'start': {'chapter': 26, 'verse': 51},
       'end': {'chapter': 26, 'verse': 57}
     },
@@ -10964,7 +10969,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 31, 'verse': 25}
     },
     {
-      'section': 'The pegbaad-part of nenaahew',
+      'section': 'The division of nenaahew',
       'start': {'chapter': 31, 'verse': 25},
       'end': {'chapter': 32, 'verse': 1}
     },
@@ -10999,7 +11004,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 35, 'verse': 9}
     },
     {
-      'section': 'The cities aputanan',
+      'section': 'The cities refuge',
       'start': {'chapter': 35, 'verse': 9},
       'end': {'chapter': 36, 'verse': 1}
     },
@@ -11919,7 +11924,7 @@ Map<String, List<Map<String, dynamic>>> sectionStartEndMappingForOET = {
       'end': {'chapter': 14, 'verse': 24}
     },
     {
-      'section': 'The happenings of finished the gira',
+      'section': 'The happenings of finished the war',
       'start': {'chapter': 14, 'verse': 24},
       'end': {'chapter': 14, 'verse': 47}
     },

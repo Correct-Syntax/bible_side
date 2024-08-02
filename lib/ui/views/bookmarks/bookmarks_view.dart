@@ -56,9 +56,9 @@ class BookmarksView extends StackedView<BookmarksViewModel> {
                 ),
               viewModel.bookmarks.isEmpty
                   ? Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Padding(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Padding(
                           padding: const EdgeInsets.symmetric(vertical: 40.0, horizontal: 25.0),
                           child: Text(
                             'No bookmarks yet.',
@@ -68,8 +68,8 @@ class BookmarksView extends StackedView<BookmarksViewModel> {
                             ),
                           ),
                         ),
-                    ],
-                  )
+                      ],
+                    )
                   : Expanded(
                       child: ListView.builder(
                         itemCount: viewModel.bookmarks.length,
