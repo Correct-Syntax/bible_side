@@ -38,7 +38,7 @@ class SettingsViewModel extends FutureViewModel<String> {
     return 'v$appVersion';
   }
 
-  void onPopInvoked(bool onPopInvoked) async {
+  void onPopInvoked(bool didPop, Object? result) async {
     _navigationService.clearStackAndShow(Routes.readerView);
   }
 }

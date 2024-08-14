@@ -17,7 +17,7 @@ class SearchView extends StackedView<SearchViewModel> {
     bool isPortrait = isPortraitOrientation(context);
     return PopScope(
       canPop: false,
-      onPopInvoked: viewModel.onPopInvoked,
+      onPopInvokedWithResult: viewModel.onPopInvoked,
       child: Scaffold(
         backgroundColor: context.theme.appColors.background,
         appBar: AppBar(

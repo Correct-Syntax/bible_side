@@ -24,7 +24,7 @@ class NavigationBibleDivisionsView extends StackedView<NavigationBibleDivisionsV
   ) {
     return PopScope(
       canPop: false,
-      onPopInvoked: viewModel.onPopInvoked,
+      onPopInvokedWithResult: viewModel.onPopInvoked,
       child: Scaffold(
         backgroundColor: context.theme.appColors.background,
         appBar: AppBar(

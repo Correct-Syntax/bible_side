@@ -17,7 +17,7 @@ class BookmarksViewModel extends BaseViewModel {
     await _settingsService.setBookmarks(allBookmarks);
   }
 
-  void onPopInvoked(bool onPopInvoked) async {
+  void onPopInvoked(bool didPop, Object? result) async {
     _navigationService.clearStackAndShow(Routes.readerView);
   }
 }

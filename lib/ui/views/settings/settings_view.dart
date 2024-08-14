@@ -22,7 +22,7 @@ class SettingsView extends StackedView<SettingsViewModel> {
     bool isPortrait = isPortraitOrientation(context);
     return PopScope(
       canPop: false,
-      onPopInvoked: viewModel.onPopInvoked,
+      onPopInvokedWithResult: viewModel.onPopInvoked,
       child: Scaffold(
         appBar: AppBar(
           backgroundColor: context.theme.appColors.background,

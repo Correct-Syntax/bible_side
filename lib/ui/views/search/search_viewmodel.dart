@@ -7,7 +7,7 @@ import '../../../app/app.router.dart';
 class SearchViewModel extends BaseViewModel {
   final _navigationService = locator<NavigationService>();
 
-  void onPopInvoked(bool onPopInvoked) async {
+  void onPopInvoked(bool didPop, Object? result) async {
     _navigationService.clearStackAndShow(Routes.readerView);
   }
 }
