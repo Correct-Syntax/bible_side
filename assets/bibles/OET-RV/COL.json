@@ -1,7 +1,7 @@
 {
   "book": {
     "bookCode": "COL",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.04",
+    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.05",
     "meta": [
       {
         "usfm": "3.0"
@@ -143,28 +143,20 @@
             },
             "Paul¦133474, a missionary of",
             {
-              "nd": ""
+              "nd": "Messiah¦133476 Yeshua¦133477",
+              "closing": "\\nd*"
             },
+            "by God's will, and¦133482",
             {
-              "nd": [
-                "Messiah¦133476",
-                {
-                  "nd": "* Yeshua¦133477",
-                  "closing": "\\nd*"
-                },
-                "by God's will, and¦133482",
-                {
-                  "add": "from",
-                  "closing": "\\add*"
-                },
-                "our¦133484 brother¦133485 Timothy¦133483."
-              ]
+              "add": "from",
+              "closing": "\\add*"
             },
+            "our¦133484 brother¦133485 Timothy¦133483.",
             {
               "p": ""
             }
           ],
-          "verseText": "This letter is from Paul¦133474, a missionary of Messiah¦133476 * Yeshua¦133477 by God's will, and¦133482 from our¦133484 brother¦133485 Timothy¦133483."
+          "verseText": "This letter is from Paul¦133474, a missionary of Messiah¦133476 Yeshua¦133477 by God's will, and¦133482 from our¦133484 brother¦133485 Timothy¦133483."
         },
         {
           "verseNumber": "2",
@@ -185,17 +177,9 @@
                   "nd": "God¦133502",
                   "closing": "\\nd*"
                 },
-                "our¦133504 father¦133503 and the"
-              ]
-            },
-            {
-              "nd": ""
-            },
-            {
-              "nd": [
-                "master¦133506",
+                "our¦133504 father¦133503 and the",
                 {
-                  "nd": "* Yeshua¦133507",
+                  "nd": "master¦133506 Yeshua¦133507",
                   "closing": "\\nd*"
                 },
                 "Messiah."
@@ -208,7 +192,7 @@
               "p": ""
             }
           ],
-          "verseText": "To the people there in Colossae who're godly and faithful¦133492 brothers¦133493 and sisters¦133493 in Messiah. Grace and peace¦133500 to you¦133498 all from God¦133502 our¦133504 father¦133503 and the master¦133506 * Yeshua¦133507 Messiah."
+          "verseText": "To the people there in Colossae who're godly and faithful¦133492 brothers¦133493 and sisters¦133493 in Messiah. Grace and peace¦133500 to you¦133498 all from God¦133502 our¦133504 father¦133503 and the master¦133506 Yeshua¦133507 Messiah."
         },
         {
           "verseNumber": "3",
@@ -220,40 +204,24 @@
             },
             "the father¦133513 of our¦133516",
             {
-              "nd": ""
+              "nd": "master¦133515 Yeshua¦133517 Messiah¦133518",
+              "closing": "\\nd*"
             },
-            {
-              "nd": [
-                "master¦133515 Yeshua¦133517",
-                {
-                  "nd": "* Messiah¦133518",
-                  "closing": "\\nd*"
-                },
-                "as we continually pray for you¦133522 all,"
-              ]
-            }
+            "as we continually pray for you¦133522 all,"
           ],
-          "verseText": "We thank¦133509 God¦133511 the father¦133513 of our¦133516 master¦133515 Yeshua¦133517 * Messiah¦133518 as we continually pray for you¦133522 all,"
+          "verseText": "We thank¦133509 God¦133511 the father¦133513 of our¦133516 master¦133515 Yeshua¦133517 Messiah¦133518 as we continually pray for you¦133522 all,"
         },
         {
           "verseNumber": "4",
           "contents": [
             "after having heard¦133524 about your¦133527 faith¦133526 in",
             {
-              "nd": ""
+              "nd": "Messiah¦133530 Yeshua¦133531",
+              "closing": "\\nd*"
             },
-            {
-              "nd": [
-                "Messiah¦133530",
-                {
-                  "nd": "* Yeshua¦133531",
-                  "closing": "\\nd*"
-                },
-                "and the love¦133534 that you have for all godly people"
-              ]
-            }
+            "and the love¦133534 that you have for all godly people"
           ],
-          "verseText": "after having heard¦133524 about your¦133527 faith¦133526 in Messiah¦133530 * Yeshua¦133531 and the love¦133534 that you have for all godly people"
+          "verseText": "after having heard¦133524 about your¦133527 faith¦133526 in Messiah¦133530 Yeshua¦133531 and the love¦133534 that you have for all godly people"
         },
         {
           "verseNumber": "5",
@@ -1764,20 +1732,12 @@
             },
             "one from your¦135133 place and a slave¦135135 of",
             {
-              "nd": ""
+              "nd": "messiah¦135136 Yeshua¦135137",
+              "closing": "\\nd*"
             },
-            {
-              "nd": [
-                "messiah¦135136",
-                {
-                  "nd": "* Yeshua¦135137",
-                  "closing": "\\nd*"
-                },
-                "who always¦135138 prays for you that you will stand mature¦135149 and fully¦135151 confident in all of God's will."
-              ]
-            }
+            "who always¦135138 prays for you that you will stand mature¦135149 and fully¦135151 confident in all of God's will."
           ],
-          "verseText": "Epaphras sends his greetings¦135129. He's another one from your¦135133 place and a slave¦135135 of messiah¦135136 * Yeshua¦135137 who always¦135138 prays for you that you will stand mature¦135149 and fully¦135151 confident in all of God's will."
+          "verseText": "Epaphras sends his greetings¦135129. He's another one from your¦135133 place and a slave¦135135 of messiah¦135136 Yeshua¦135137 who always¦135138 prays for you that you will stand mature¦135149 and fully¦135151 confident in all of God's will."
         },
         {
           "verseNumber": "13",

@@ -1,7 +1,7 @@
 {
   "book": {
     "bookCode": "JOB",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.01",
+    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.02",
     "meta": [
       {
         "usfm": "3.0"
@@ -273,7 +273,29 @@
               "add": "children",
               "closing": "\\add*"
             },
-            "have sinned¦232336 and blessed God¦232339 in their¦232340 hearts¦232340.” Thus Job did all the days.",
+            "have sinned¦232336 and cursed",
+            {
+              "f": [
+                "+",
+                {
+                  "fr": "1:15"
+                },
+                {
+                  "ft": "Literally ‘blessed’ but it's possible that the original reading was ‘cursed’ and that scribes changed it to ‘blessed’ in order to avoid the uncomfortable concept of a person cursing God. Traditional manuscripts of the Hebrew Bible don't have a marginal notation about this (as they do in the case of 7:20), but LXX uses ‘ἐνενοήθησαν κακά’ which can be rendered as ‘have thought evil things’ and the Peshitta (Syriac) uses ‘reviled’. Many other translations also use ‘cursed’ since this is the kind of change that scribes are known to have made in similar cases."
+                }
+              ],
+              "closing": "\\f*"
+            },
+            "God¦232339 in their¦232340 hearts¦232340.”",
+            {
+              "add": "≈It was Job's regular habit to",
+              "closing": "\\add*"
+            },
+            {
+              "add": "intercede for his children",
+              "closing": "\\add*"
+            },
+            ".",
             {
               "s1": "Satan's first attack on Iyyov"
             },
@@ -284,7 +306,7 @@
               "p": ""
             }
           ],
-          "verseText": "Then¦232318 once a feast¦232322 was over, Iyyov would send for his children and consecrate them—he got up early¦232326 in the morning¦232327 and offered burnt¦232329 offerings for each of them, because Iyyov said, “Perhaps my children have sinned¦232336 and blessed God¦232339 in their¦232340 hearts¦232340.” Thus Job did all the days."
+          "verseText": "Then¦232318 once a feast¦232322 was over, Iyyov would send for his children and consecrate them—he got up early¦232326 in the morning¦232327 and offered burnt¦232329 offerings for each of them, because Iyyov said, “Perhaps my children have sinned¦232336 and cursed God¦232339 in their¦232340 hearts¦232340.” ≈It was Job's regular habit to intercede for his children."
         },
         {
           "verseNumber": "6",
@@ -915,7 +937,7 @@
               "add": "only",
               "closing": "\\add*"
             },
-            "accept good from God and not receive the bad?” In all of that, Iyyov didn't sin",
+            "accept good from God¦232838 and not receive the bad?” In all of that, Iyyov didn't sin",
             {
               "add": "in what he said",
               "closing": "\\add*"
@@ -931,7 +953,7 @@
               "p": ""
             }
           ],
-          "verseText": "“You're talking¦232831 like a foolish¦232830 person,” Iyyov ≈replied. “Should we only accept good from God and not receive the bad?” In all of that, Iyyov didn't sin in what he said."
+          "verseText": "“You're talking¦232831 like a foolish¦232830 person,” Iyyov ≈replied. “Should we only accept good from God¦232838 and not receive the bad?” In all of that, Iyyov didn't sin in what he said."
         },
         {
           "verseNumber": "11",

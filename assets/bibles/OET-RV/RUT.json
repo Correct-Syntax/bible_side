@@ -1,7 +1,7 @@
 {
   "book": {
     "bookCode": "RUT",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.05",
+    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.06",
     "meta": [
       {
         "usfm": "3.0"
@@ -38,13 +38,16 @@
       },
       {
         "ip": [
-          "The",
+          "The previous",
           {
             "bk": "Account of the Judges",
             "closing": "\\bk*"
           },
           "tells about how much the Jewish people suffered because they had turned away from God. So this account reveals how Ruth, a non-Jew, is blessed after she begins to follow Israel's God."
         ]
+      },
+      {
+        "ip": "Note that the Hebrew name of the main character in this account is ‘רוּת’ which might be transliterated as ‘Rūt’ (and pronounced as ‘root’ with no ‘th’ at the end). However in weighing up the pros and cons, we have elected to use the traditional spelling of ‘Ruth’ (rather than ‘Rut’ which might would be more accurate in one sense, yet would most likely also be pronounced wrongly by most English speakers)."
       },
       {
         "iot": "Main components of this account"

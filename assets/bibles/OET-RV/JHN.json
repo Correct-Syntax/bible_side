@@ -1,7 +1,7 @@
 {
   "book": {
     "bookCode": "JHN",
-    "description": "- Open English Translation—Readers' Version (OET-RV) V0.1.13",
+    "description": "- Open English Translation—Readers' Version (OET-RV) V0.1.14",
     "meta": [
       {
         "usfm": "3.0"
@@ -401,23 +401,15 @@
           "contents": [
             "He didn't flinch from the truth and so he told them, “I am not the",
             {
-              "nd": ""
+              "nd": "chosen¦63240 messiah¦63240",
+              "closing": "\\nd*"
             },
-            {
-              "nd": [
-                "chosen¦63240",
-                {
-                  "nd": "* messiah¦63240",
-                  "closing": "\\nd*"
-                },
-                ".”"
-              ]
-            },
+            ".”",
             {
               "p": ""
             }
           ],
-          "verseText": "He didn't flinch from the truth and so he told them, “I am not the chosen¦63240 * messiah¦63240.”"
+          "verseText": "He didn't flinch from the truth and so he told them, “I am not the chosen¦63240 messiah¦63240.”"
         },
         {
           "verseNumber": "21",

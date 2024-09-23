@@ -1,7 +1,7 @@
 {
   "book": {
     "bookCode": "REV",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.03",
+    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.04",
     "meta": [
       {
         "usfm": "3.0"
@@ -451,18 +451,10 @@
             },
             "“I am the A and the Z,” says",
             {
-              "nd": ""
+              "nd": "Yahweh¦156554 God¦156556",
+              "closing": "\\nd*"
             },
-            {
-              "nd": [
-                "Yahweh¦156554",
-                {
-                  "nd": "* God¦156556",
-                  "closing": "\\nd*"
-                },
-                ", the one who is and was and will be—the most powerful one."
-              ]
-            },
+            ", the one who is and was and will be—the most powerful one.",
             {
               "s1": "Yohan sees the messiah"
             },
@@ -473,7 +465,7 @@
               "p": ""
             }
           ],
-          "verseText": "“I am the A and the Z,” says Yahweh¦156554 * God¦156556, the one who is and was and will be—the most powerful one."
+          "verseText": "“I am the A and the Z,” says Yahweh¦156554 God¦156556, the one who is and was and will be—the most powerful one."
         },
         {
           "verseNumber": "9",
@@ -5668,28 +5660,20 @@
             },
             "the altar¦164198 say, “Yes,",
             {
-              "nd": ""
+              "nd": "Yahweh¦164201 God¦164203",
+              "closing": "\\nd*"
             },
+            ", ruler of all, you¦164211 judge¦164210",
             {
-              "nd": [
-                "Yahweh¦164201",
-                {
-                  "nd": "* God¦164203",
-                  "closing": "\\nd*"
-                },
-                ", ruler of all, you¦164211 judge¦164210",
-                {
-                  "add": "people",
-                  "closing": "\\add*"
-                },
-                "with truth and¦164207 fairness.”"
-              ]
+              "add": "people",
+              "closing": "\\add*"
             },
+            "with truth and¦164207 fairness.”",
             {
               "p": ""
             }
           ],
-          "verseText": "Then¦164195 I heard¦164194 (someone at?) the altar¦164198 say, “Yes, Yahweh¦164201 * God¦164203, ruler of all, you¦164211 judge¦164210 people with truth and¦164207 fairness.”"
+          "verseText": "Then¦164195 I heard¦164194 (someone at?) the altar¦164198 say, “Yes, Yahweh¦164201 God¦164203, ruler of all, you¦164211 judge¦164210 people with truth and¦164207 fairness.”"
         },
         {
           "verseNumber": "8",
@@ -8323,18 +8307,10 @@
             },
             "Nights won't exist any more and they won't need the light from a lamp or from the sun because¦167818 the",
             {
-              "nd": ""
+              "nd": "master¦167819 God¦167821",
+              "closing": "\\nd*"
             },
-            {
-              "nd": [
-                "master¦167819",
-                {
-                  "nd": "* God¦167821",
-                  "closing": "\\nd*"
-                },
-                "will illuminate¦167823 them, and they will reign¦167827 through the ages."
-              ]
-            },
+            "will illuminate¦167823 them, and they will reign¦167827 through the ages.",
             {
               "s1": "Yeshua's return"
             },
@@ -8345,7 +8321,7 @@
               "p": ""
             }
           ],
-          "verseText": "Nights won't exist any more and they won't need the light from a lamp or from the sun because¦167818 the master¦167819 * God¦167821 will illuminate¦167823 them, and they will reign¦167827 through the ages."
+          "verseText": "Nights won't exist any more and they won't need the light from a lamp or from the sun because¦167818 the master¦167819 God¦167821 will illuminate¦167823 them, and they will reign¦167827 through the ages."
         },
         {
           "verseNumber": "6",
@@ -8693,16 +8669,10 @@
           "contents": [
             "The one who testified¦168222 about these¦168223 things says: ‘Yes, I'm coming quickly¦168227.’",
             {
-              "p": "May¦168228 it¦168228 be¦168228 so¦168228. Come,"
-            },
-            {
-              "nd": ""
-            },
-            {
-              "nd": [
-                "master¦168231",
+              "p": [
+                "May¦168228 it¦168228 be¦168228 so¦168228. Come,",
                 {
-                  "nd": "* Yeshua¦168232",
+                  "nd": "master¦168231 Yeshua¦168232",
                   "closing": "\\nd*"
                 },
                 "."
@@ -8712,7 +8682,7 @@
               "p": ""
             }
           ],
-          "verseText": "The one who testified¦168222 about these¦168223 things says: ‘Yes, I'm coming quickly¦168227.’ May¦168228 it¦168228 be¦168228 so¦168228. Come, master¦168231 * Yeshua¦168232."
+          "verseText": "The one who testified¦168222 about these¦168223 things says: ‘Yes, I'm coming quickly¦168227.’ May¦168228 it¦168228 be¦168228 so¦168228. Come, master¦168231 Yeshua¦168232."
         },
         {
           "verseNumber": "21",
@@ -8723,20 +8693,12 @@
             },
             "the grace¦168234 from the",
             {
-              "nd": ""
+              "nd": "master¦168236 Yeshua¦168238",
+              "closing": "\\nd*"
             },
-            {
-              "nd": [
-                "master¦168236",
-                {
-                  "nd": "* Yeshua¦168238",
-                  "closing": "\\nd*"
-                },
-                "be with the godly people."
-              ]
-            }
+            "be with the godly people."
           ],
-          "verseText": "May the grace¦168234 from the master¦168236 * Yeshua¦168238 be with the godly people."
+          "verseText": "May the grace¦168234 from the master¦168236 Yeshua¦168238 be with the godly people."
         }
       ]
     }

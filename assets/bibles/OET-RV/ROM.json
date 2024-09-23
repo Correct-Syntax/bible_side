@@ -1,7 +1,7 @@
 {
   "book": {
     "bookCode": "ROM",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.10",
+    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.11",
     "meta": [
       {
         "usfm": "3.0"
@@ -157,25 +157,17 @@
             },
             "Paul¦106053, a slave¦106054 of",
             {
-              "nd": ""
+              "nd": "Messiah¦106055 Yeshua¦106056",
+              "closing": "\\nd*"
             },
+            "and a",
             {
-              "nd": [
-                "Messiah¦106055",
-                {
-                  "nd": "* Yeshua¦106056",
-                  "closing": "\\nd*"
-                },
-                "and a",
-                {
-                  "nd": "chosen¦106055",
-                  "closing": "\\nd*"
-                },
-                "ambassador¦106059 who's been set apart¦106060 for God's good¦106062 message¦106062"
-              ]
-            }
+              "nd": "chosen¦106055",
+              "closing": "\\nd*"
+            },
+            "ambassador¦106059 who's been set apart¦106060 for God's good¦106062 message¦106062"
           ],
-          "verseText": "This letter is from Paul¦106053, a slave¦106054 of Messiah¦106055 * Yeshua¦106056 and a chosen¦106055 ambassador¦106059 who's been set apart¦106060 for God's good¦106062 message¦106062"
+          "verseText": "This letter is from Paul¦106053, a slave¦106054 of Messiah¦106055 Yeshua¦106056 and a chosen¦106055 ambassador¦106059 who's been set apart¦106060 for God's good¦106062 message¦106062"
         },
         {
           "verseNumber": "2",
@@ -218,19 +210,11 @@
             },
             ",",
             {
-              "nd": ""
-            },
-            {
-              "nd": [
-                "Yeshua¦106096",
-                {
-                  "nd": "* Messiah¦106097",
-                  "closing": "\\nd*"
-                }
-              ]
+              "nd": "Yeshua¦106096 Messiah¦106097",
+              "closing": "\\nd*"
             }
           ],
-          "verseText": "and became known as God's son according¦106090 to the spirit¦106091 of holiness¦106092—demonstrating power¦106089 by coming back to life from the dead¦106095. Yes, he's our¦106100 master¦106099, Yeshua¦106096 * Messiah¦106097"
+          "verseText": "and became known as God's son according¦106090 to the spirit¦106091 of holiness¦106092—demonstrating power¦106089 by coming back to life from the dead¦106095. Yes, he's our¦106100 master¦106099, Yeshua¦106096 Messiah¦106097"
         },
         {
           "verseNumber": "5",
@@ -254,23 +238,15 @@
           "contents": [
             "which also includes you¦106124 all there who're called¦106125 by",
             {
-              "nd": ""
+              "nd": "Yeshua¦106126 Messiah¦106127",
+              "closing": "\\nd*"
             },
-            {
-              "nd": [
-                "Yeshua¦106126",
-                {
-                  "nd": "* Messiah¦106127",
-                  "closing": "\\nd*"
-                },
-                "."
-              ]
-            },
+            ".",
             {
               "p": ""
             }
           ],
-          "verseText": "which also includes you¦106124 all there who're called¦106125 by Yeshua¦106126 * Messiah¦106127."
+          "verseText": "which also includes you¦106124 all there who're called¦106125 by Yeshua¦106126 Messiah¦106127."
         },
         {
           "verseNumber": "7",
@@ -291,18 +267,10 @@
             },
             "the",
             {
-              "nd": ""
+              "nd": "master¦106148 Yeshua¦106150 Messiah¦106151",
+              "closing": "\\nd*"
             },
-            {
-              "nd": [
-                "master¦106148 Yeshua¦106150",
-                {
-                  "nd": "* Messiah¦106151",
-                  "closing": "\\nd*"
-                },
-                "."
-              ]
-            },
+            ".",
             {
               "rem": "/s1 God's Good News; Paul's Longing to Visit Rome; Prayer of Thanksgiving"
             },
@@ -313,7 +281,7 @@
               "p": ""
             }
           ],
-          "verseText": "This letter is written to all those in Rome that God loves and considers as holy. May you¦106140 all experience grace¦106138 and peace¦106142 from God our¦106146 father¦106145 and from the master¦106148 Yeshua¦106150 * Messiah¦106151."
+          "verseText": "This letter is written to all those in Rome that God loves and considers as holy. May you¦106140 all experience grace¦106138 and peace¦106142 from God our¦106146 father¦106145 and from the master¦106148 Yeshua¦106150 Messiah¦106151."
         },
         {
           "verseNumber": "8",
@@ -325,25 +293,17 @@
             },
             "through¦106158",
             {
-              "nd": ""
+              "nd": "Yeshua¦106159 Messiah¦106160",
+              "closing": "\\nd*"
             },
+            "for all of you, because¦106165 the",
             {
-              "nd": [
-                "Yeshua¦106159",
-                {
-                  "nd": "* Messiah¦106160",
-                  "closing": "\\nd*"
-                },
-                "for all of you, because¦106165 the",
-                {
-                  "add": "story about",
-                  "closing": "\\add*"
-                },
-                "your¦106164 faith¦106167 has been told in many countries."
-              ]
-            }
+              "add": "story about",
+              "closing": "\\add*"
+            },
+            "your¦106164 faith¦106167 has been told in many countries."
           ],
-          "verseText": "I'll start by thanking¦106154 my¦106157 God¦106156 through¦106158 Yeshua¦106159 * Messiah¦106160 for all of you, because¦106165 the story about your¦106164 faith¦106167 has been told in many countries."
+          "verseText": "I'll start by thanking¦106154 my¦106157 God¦106156 through¦106158 Yeshua¦106159 Messiah¦106160 for all of you, because¦106165 the story about your¦106164 faith¦106167 has been told in many countries."
         },
         {
           "verseNumber": "9",
@@ -977,28 +937,20 @@
             },
             "through",
             {
-              "nd": ""
+              "nd": "Messiah¦106905 Yeshua¦106906",
+              "closing": "\\nd*"
             },
+            ", judges people's¦106899 private",
             {
-              "nd": [
-                "Messiah¦106905",
-                {
-                  "nd": "* Yeshua¦106906",
-                  "closing": "\\nd*"
-                },
-                ", judges people's¦106899 private",
-                {
-                  "add": "lives",
-                  "closing": "\\add*"
-                },
-                "as I've shared",
-                {
-                  "add": "as part of",
-                  "closing": "\\add*"
-                },
-                "the good¦106902 message¦106902."
-              ]
+              "add": "lives",
+              "closing": "\\add*"
             },
+            "as I've shared",
+            {
+              "add": "as part of",
+              "closing": "\\add*"
+            },
+            "the good¦106902 message¦106902.",
             {
               "s1": "Jews who disobey their laws"
             },
@@ -1009,7 +961,7 @@
               "p": ""
             }
           ],
-          "verseText": "on the day¦106889 when God¦106895 through Messiah¦106905 * Yeshua¦106906, judges people's¦106899 private lives as I've shared as part of the good¦106902 message¦106902."
+          "verseText": "on the day¦106889 when God¦106895 through Messiah¦106905 Yeshua¦106906, judges people's¦106899 private lives as I've shared as part of the good¦106902 message¦106902."
         },
         {
           "verseNumber": "17",
@@ -1628,18 +1580,10 @@
             },
             "through¦107400 faith¦107401 in",
             {
-              "nd": ""
+              "nd": "Yeshua¦107403 Messiah¦107404",
+              "closing": "\\nd*"
             },
-            {
-              "nd": [
-                "Yeshua¦107403",
-                {
-                  "nd": "* Messiah¦107404",
-                  "closing": "\\nd*"
-                },
-                ". This is for"
-              ]
-            },
+            ". This is for",
             {
               "em": ""
             },
@@ -1658,7 +1602,7 @@
               ]
             }
           ],
-          "verseText": "We can be made right¦107397 with God¦107399 through¦107400 faith¦107401 in Yeshua¦107403 * Messiah¦107404. This is for everyone¦107404 * who believes¦107413 because¦107415 there's¦107416 no distinction¦107417 between Jews and¦107398 others"
+          "verseText": "We can be made right¦107397 with God¦107399 through¦107400 faith¦107401 in Yeshua¦107403 Messiah¦107404. This is for everyone¦107404 * who believes¦107413 because¦107415 there's¦107416 no distinction¦107417 between Jews and¦107398 others"
         },
         {
           "verseNumber": "23",
@@ -1686,19 +1630,11 @@
             },
             "by",
             {
-              "nd": ""
-            },
-            {
-              "nd": [
-                "Messiah¦107438",
-                {
-                  "nd": "* Yeshua¦107439",
-                  "closing": "\\nd*"
-                }
-              ]
+              "nd": "Messiah¦107438 Yeshua¦107439",
+              "closing": "\\nd*"
             }
           ],
-          "verseText": "But even without deserving it, we can be declared guiltless by God's grace¦107432 by being¦107428 bought out of slavery to sin by Messiah¦107438 * Yeshua¦107439"
+          "verseText": "But even without deserving it, we can be declared guiltless by God's grace¦107432 by being¦107428 bought out of slavery to sin by Messiah¦107438 Yeshua¦107439"
         },
         {
           "verseNumber": "25",
@@ -2212,20 +2148,12 @@
             },
             "who brought our",
             {
-              "nd": ""
+              "nd": "master¦107969 Yeshua¦107967",
+              "closing": "\\nd*"
             },
-            {
-              "nd": [
-                "master¦107969",
-                {
-                  "nd": "* Yeshua¦107967",
-                  "closing": "\\nd*"
-                },
-                "back to life from the dead¦107972"
-              ]
-            }
+            "back to life from the dead¦107972"
           ],
-          "verseText": "but¦107954 for us also who are also going¦107959 to receive the same credit because¦107956 of our faith in the God who brought our master¦107969 * Yeshua¦107967 back to life from the dead¦107972"
+          "verseText": "but¦107954 for us also who are also going¦107959 to receive the same credit because¦107956 of our faith in the God who brought our master¦107969 Yeshua¦107967 back to life from the dead¦107972"
         },
         {
           "verseNumber": "25",
@@ -2275,20 +2203,12 @@
             },
             "through¦107995 our",
             {
-              "nd": ""
+              "nd": "master¦107997 Yeshua¦107999 Messiah¦108000",
+              "closing": "\\nd*"
             },
-            {
-              "nd": [
-                "master¦107997 Yeshua¦107999",
-                {
-                  "nd": "* Messiah¦108000",
-                  "closing": "\\nd*"
-                },
-                "."
-              ]
-            }
+            "."
           ],
-          "verseText": "So¦107986 now because we've been declared guiltless by our faith¦107988, we can have peace¦107989 with God¦107994 through¦107995 our master¦107997 Yeshua¦107999 * Messiah¦108000."
+          "verseText": "So¦107986 now because we've been declared guiltless by our faith¦107988, we can have peace¦107989 with God¦107994 through¦107995 our master¦107997 Yeshua¦107999 Messiah¦108000."
         },
         {
           "verseNumber": "2",
@@ -2438,27 +2358,19 @@
           "contents": [
             "And not only that, because of what our¦108170",
             {
-              "nd": ""
+              "nd": "master¦108169 Yeshua¦108171 Messiah¦108172",
+              "closing": "\\nd*"
             },
             {
-              "nd": [
-                "master¦108169 Yeshua¦108171",
-                {
-                  "nd": "* Messiah¦108172",
-                  "closing": "\\nd*"
-                },
-                {
-                  "add": "has done",
-                  "closing": "\\add*"
-                },
-                "so that we might receive¦108178 that reconciliation¦108177, we can now boast¦108163 in",
-                {
-                  "nd": "God¦108166",
-                  "closing": "\\nd*"
-                },
-                "about it."
-              ]
+              "add": "has done",
+              "closing": "\\add*"
             },
+            "so that we might receive¦108178 that reconciliation¦108177, we can now boast¦108163 in",
+            {
+              "nd": "God¦108166",
+              "closing": "\\nd*"
+            },
+            "about it.",
             {
               "s1": "Death through Adam but life through Yeshua"
             },
@@ -2469,7 +2381,7 @@
               "p": ""
             }
           ],
-          "verseText": "And not only that, because of what our¦108170 master¦108169 Yeshua¦108171 * Messiah¦108172 has done so that we might receive¦108178 that reconciliation¦108177, we can now boast¦108163 in God¦108166 about it."
+          "verseText": "And not only that, because of what our¦108170 master¦108169 Yeshua¦108171 Messiah¦108172 has done so that we might receive¦108178 that reconciliation¦108177, we can now boast¦108163 in God¦108166 about it."
         },
         {
           "verseNumber": "12",
@@ -2555,25 +2467,17 @@
           "contents": [
             "But the gift is not like the disobedience, because¦108262 if the disobedience of one man introduced death for many, God's grace and the gift that comes from that grace is much more. That gift is the one man",
             {
-              "nd": ""
+              "nd": "Yeshua¦108286 Messiah¦108287",
+              "closing": "\\nd*"
             },
+            "who has been given to very many",
             {
-              "nd": [
-                "Yeshua¦108286",
-                {
-                  "nd": "* Messiah¦108287",
-                  "closing": "\\nd*"
-                },
-                "who has been given to very many",
-                {
-                  "add": "people",
-                  "closing": "\\add*"
-                },
-                "."
-              ]
-            }
+              "add": "people",
+              "closing": "\\add*"
+            },
+            "."
           ],
-          "verseText": "But the gift is not like the disobedience, because¦108262 if the disobedience of one man introduced death for many, God's grace and the gift that comes from that grace is much more. That gift is the one man Yeshua¦108286 * Messiah¦108287 who has been given to very many people."
+          "verseText": "But the gift is not like the disobedience, because¦108262 if the disobedience of one man introduced death for many, God's grace and the gift that comes from that grace is much more. That gift is the one man Yeshua¦108286 Messiah¦108287 who has been given to very many people."
         },
         {
           "verseNumber": "16",
@@ -2607,23 +2511,15 @@
             },
             "through that one man, how much more will the ones receiving¦108346 an abundance¦108335 of grace¦108338 and the gift¦108341 of righteousness¦108345 be reigning in life¦108348 through the one man",
             {
-              "nd": ""
+              "nd": "Yeshua¦108354 Messiah¦108355",
+              "closing": "\\nd*"
             },
-            {
-              "nd": [
-                "Yeshua¦108354",
-                {
-                  "nd": "* Messiah¦108355",
-                  "closing": "\\nd*"
-                },
-                "."
-              ]
-            },
+            ".",
             {
               "p": ""
             }
           ],
-          "verseText": "Because¦108318 if the disobedience of one man led to death¦108326 reigning over us through that one man, how much more will the ones receiving¦108346 an abundance¦108335 of grace¦108338 and the gift¦108341 of righteousness¦108345 be reigning in life¦108348 through the one man Yeshua¦108354 * Messiah¦108355."
+          "verseText": "Because¦108318 if the disobedience of one man led to death¦108326 reigning over us through that one man, how much more will the ones receiving¦108346 an abundance¦108335 of grace¦108338 and the gift¦108341 of righteousness¦108345 be reigning in life¦108348 through the one man Yeshua¦108354 Messiah¦108355."
         },
         {
           "verseNumber": "18",
@@ -2674,20 +2570,12 @@
             },
             "eternal¦108438 life¦108437 through our¦108445",
             {
-              "nd": ""
+              "nd": "master¦108444 Yeshua¦108441 Messiah¦108442",
+              "closing": "\\nd*"
             },
-            {
-              "nd": [
-                "master¦108444 Yeshua¦108441",
-                {
-                  "nd": "* Messiah¦108442",
-                  "closing": "\\nd*"
-                },
-                "."
-              ]
-            }
+            "."
           ],
-          "verseText": "so that just as sin¦108424 reigned in death¦108427, so also grace¦108431 now reigns through righteousness¦108435, leading to eternal¦108438 life¦108437 through our¦108445 master¦108444 Yeshua¦108441 * Messiah¦108442."
+          "verseText": "so that just as sin¦108424 reigned in death¦108427, so also grace¦108431 now reigns through righteousness¦108435, leading to eternal¦108438 life¦108437 through our¦108445 master¦108444 Yeshua¦108441 Messiah¦108442."
         }
       ]
     },
@@ -2737,20 +2625,12 @@
           "contents": [
             "Or didn't you all realise that when we were immersed into",
             {
-              "nd": ""
+              "nd": "Messiah¦108478 Yeshua¦108479",
+              "closing": "\\nd*"
             },
-            {
-              "nd": [
-                "Messiah¦108478",
-                {
-                  "nd": "* Yeshua¦108479",
-                  "closing": "\\nd*"
-                },
-                ", we were immersed into his¦108483 death¦108482?"
-              ]
-            }
+            ", we were immersed into his¦108483 death¦108482?"
           ],
-          "verseText": "Or didn't you all realise that when we were immersed into Messiah¦108478 * Yeshua¦108479, we were immersed into his¦108483 death¦108482?"
+          "verseText": "Or didn't you all realise that when we were immersed into Messiah¦108478 Yeshua¦108479, we were immersed into his¦108483 death¦108482?"
         },
         {
           "verseNumber": "4",
@@ -2857,23 +2737,15 @@
             },
             "in",
             {
-              "nd": ""
+              "nd": "Messiah¦108607 Yeshua¦108608",
+              "closing": "\\nd*"
             },
-            {
-              "nd": [
-                "Messiah¦108607",
-                {
-                  "nd": "* Yeshua¦108608",
-                  "closing": "\\nd*"
-                },
-                "."
-              ]
-            },
+            ".",
             {
               "p": ""
             }
           ],
-          "verseText": "So too, you¦108593 should be considering yourselves¦108595 dead¦108597 to sin¦108601, and at the same time, alive to God¦108605 in Messiah¦108607 * Yeshua¦108608."
+          "verseText": "So too, you¦108593 should be considering yourselves¦108595 dead¦108597 to sin¦108601, and at the same time, alive to God¦108605 in Messiah¦108607 Yeshua¦108608."
         },
         {
           "verseNumber": "12",
@@ -3043,20 +2915,12 @@
             },
             "gives eternal¦108830 life¦108829 as a gift¦108826 through our¦108836",
             {
-              "nd": ""
+              "nd": "master¦108835 Yeshua¦108833 Messiah¦108832",
+              "closing": "\\nd*"
             },
-            {
-              "nd": [
-                "master¦108835 Yeshua¦108833",
-                {
-                  "nd": "* Messiah¦108832",
-                  "closing": "\\nd*"
-                },
-                "."
-              ]
-            }
+            "."
           ],
-          "verseText": "because¦108819 the wages¦108820 of sin¦108822 is death¦108823, but¦108825 God¦108828 gives eternal¦108830 life¦108829 as a gift¦108826 through our¦108836 master¦108835 Yeshua¦108833 * Messiah¦108832."
+          "verseText": "because¦108819 the wages¦108820 of sin¦108822 is death¦108823, but¦108825 God¦108828 gives eternal¦108830 life¦108829 as a gift¦108826 through our¦108836 master¦108835 Yeshua¦108833 Messiah¦108832."
         }
       ]
     },
@@ -3430,30 +3294,22 @@
           "contents": [
             "Thankfully¦109297 it's God through¦109301 our¦109306",
             {
-              "nd": ""
+              "nd": "master¦109305 Yeshua¦109302 Messiah¦109303",
+              "closing": "\\nd*"
             },
+            ". So¦109308 I end up with my mind",
             {
-              "nd": [
-                "master¦109305 Yeshua¦109302",
-                {
-                  "nd": "* Messiah¦109303",
-                  "closing": "\\nd*"
-                },
-                ". So¦109308 I end up with my mind",
-                {
-                  "add": "wanting to",
-                  "closing": "\\add*"
-                },
-                "serve God's Law, but on the other¦109319 hand, my body¦109320",
-                {
-                  "add": "wants to serve",
-                  "closing": "\\add*"
-                },
-                "the law of sin."
-              ]
-            }
+              "add": "wanting to",
+              "closing": "\\add*"
+            },
+            "serve God's Law, but on the other¦109319 hand, my body¦109320",
+            {
+              "add": "wants to serve",
+              "closing": "\\add*"
+            },
+            "the law of sin."
           ],
-          "verseText": "Thankfully¦109297 it's God through¦109301 our¦109306 master¦109305 Yeshua¦109302 * Messiah¦109303. So¦109308 I end up with my mind wanting to serve God's Law, but on the other¦109319 hand, my body¦109320 wants to serve the law of sin."
+          "verseText": "Thankfully¦109297 it's God through¦109301 our¦109306 master¦109305 Yeshua¦109302 Messiah¦109303. So¦109308 I end up with my mind wanting to serve God's Law, but on the other¦109319 hand, my body¦109320 wants to serve the law of sin."
         }
       ]
     },
@@ -3474,20 +3330,12 @@
           "contents": [
             "So now those who are in",
             {
-              "nd": ""
+              "nd": "Messiah¦109329 Yeshua¦109330",
+              "closing": "\\nd*"
             },
-            {
-              "nd": [
-                "Messiah¦109329",
-                {
-                  "nd": "* Yeshua¦109330",
-                  "closing": "\\nd*"
-                },
-                "cannot be condemned¦109326"
-              ]
-            }
+            "cannot be condemned¦109326"
           ],
-          "verseText": "So now those who are in Messiah¦109329 * Yeshua¦109330 cannot be condemned¦109326"
+          "verseText": "So now those who are in Messiah¦109329 Yeshua¦109330 cannot be condemned¦109326"
         },
         {
           "verseNumber": "2",
@@ -4041,35 +3889,27 @@
             },
             "?",
             {
-              "nd": ""
+              "nd": "Messiah¦109920 Yeshua¦109921",
+              "closing": "\\nd*"
             },
+            "(the one who died¦109923 but¦109925 came back to life and who's now",
             {
-              "nd": [
-                "Messiah¦109920",
-                {
-                  "nd": "* Yeshua¦109921",
-                  "closing": "\\nd*"
-                },
-                "(the one who died¦109923 but¦109925 came back to life and who's now",
-                {
-                  "add": "sitting",
-                  "closing": "\\add*"
-                },
-                "beside",
-                {
-                  "nd": "God¦109936",
-                  "closing": "\\nd*"
-                },
-                ") is also pleading¦109939",
-                {
-                  "em": "for",
-                  "closing": "\\em*"
-                },
-                "us."
-              ]
-            }
+              "add": "sitting",
+              "closing": "\\add*"
+            },
+            "beside",
+            {
+              "nd": "God¦109936",
+              "closing": "\\nd*"
+            },
+            ") is also pleading¦109939",
+            {
+              "em": "for",
+              "closing": "\\em*"
+            },
+            "us."
           ],
-          "verseText": "So who's the one condemning¦109916 us? Messiah¦109920 * Yeshua¦109921 (the one who died¦109923 but¦109925 came back to life and who's now sitting beside God¦109936) is also pleading¦109939 for us."
+          "verseText": "So who's the one condemning¦109916 us? Messiah¦109920 Yeshua¦109921 (the one who died¦109923 but¦109925 came back to life and who's now sitting beside God¦109936) is also pleading¦109939 for us."
         },
         {
           "verseNumber": "35",
@@ -4144,20 +3984,12 @@
             },
             "in our¦110039",
             {
-              "nd": ""
+              "nd": "master¦110037 Messiah¦110033 Yeshua¦110034",
+              "closing": "\\nd*"
             },
-            {
-              "nd": [
-                "master¦110037 Messiah¦110033",
-                {
-                  "nd": "* Yeshua¦110034",
-                  "closing": "\\nd*"
-                },
-                "."
-              ]
-            }
+            "."
           ],
-          "verseText": "height¦110016 or depth¦110018, or anything else in creation¦110021, will be able to separate¦110025 us from God's love¦110028 that's revealed in our¦110039 master¦110037 Messiah¦110033 * Yeshua¦110034."
+          "verseText": "height¦110016 or depth¦110018, or anything else in creation¦110021, will be able to separate¦110025 us from God's love¦110028 that's revealed in our¦110039 master¦110037 Messiah¦110033 Yeshua¦110034."
         }
       ]
     },
@@ -6645,20 +6477,12 @@
           "contents": [
             "Instead, cover yourselves with the",
             {
-              "nd": ""
+              "nd": "master¦112267 Yeshua¦112269 Messiah¦112270",
+              "closing": "\\nd*"
             },
-            {
-              "nd": [
-                "master¦112267 Yeshua¦112269",
-                {
-                  "nd": "* Messiah¦112270",
-                  "closing": "\\nd*"
-                },
-                ", and don't¦112278 be giving in to physical lusts and desires¦112282."
-              ]
-            }
+            ", and don't¦112278 be giving in to physical lusts and desires¦112282."
           ],
-          "verseText": "Instead, cover yourselves with the master¦112267 Yeshua¦112269 * Messiah¦112270, and don't¦112278 be giving in to physical lusts and desires¦112282."
+          "verseText": "Instead, cover yourselves with the master¦112267 Yeshua¦112269 Messiah¦112270, and don't¦112278 be giving in to physical lusts and desires¦112282."
         }
       ]
     },
@@ -6947,23 +6771,15 @@
             },
             "persuaded¦112533) that in",
             {
-              "nd": ""
+              "nd": "master¦112535 Yeshua¦112536",
+              "closing": "\\nd*"
             },
+            "there's no",
             {
-              "nd": [
-                "master¦112535",
-                {
-                  "nd": "* Yeshua¦112536",
-                  "closing": "\\nd*"
-                },
-                "there's no",
-                {
-                  "add": "object",
-                  "closing": "\\add*"
-                },
-                "that's ‘immoral’"
-              ]
+              "add": "object",
+              "closing": "\\add*"
             },
+            "that's ‘immoral’",
             {
               "f": [
                 "+",
@@ -6978,7 +6794,7 @@
             },
             "in itself¦112542, but it only becomes ‘immoral’ to the person who evaluates it as such."
           ],
-          "verseText": "I know (and I'm totally persuaded¦112533) that in master¦112535 * Yeshua¦112536 there's no object that's ‘immoral’ in itself¦112542, but it only becomes ‘immoral’ to the person who evaluates it as such."
+          "verseText": "I know (and I'm totally persuaded¦112533) that in master¦112535 Yeshua¦112536 there's no object that's ‘immoral’ in itself¦112542, but it only becomes ‘immoral’ to the person who evaluates it as such."
         },
         {
           "verseNumber": "15",
@@ -7217,20 +7033,12 @@
             },
             "of endurance¦112838 and¦112839 encouragement help you¦112844 all to think¦112847 likewise, just like",
             {
-              "nd": ""
+              "nd": "Yeshua¦112852 Messiah¦112851",
+              "closing": "\\nd*"
             },
-            {
-              "nd": [
-                "Yeshua¦112852",
-                {
-                  "nd": "* Messiah¦112851",
-                  "closing": "\\nd*"
-                },
-                "did,"
-              ]
-            }
+            "did,"
           ],
-          "verseText": "May the God¦112836 of endurance¦112838 and¦112839 encouragement help you¦112844 all to think¦112847 likewise, just like Yeshua¦112852 * Messiah¦112851 did,"
+          "verseText": "May the God¦112836 of endurance¦112838 and¦112839 encouragement help you¦112844 all to think¦112847 likewise, just like Yeshua¦112852 Messiah¦112851 did,"
         },
         {
           "verseNumber": "6",
@@ -7247,18 +7055,10 @@
             },
             ",",
             {
-              "nd": ""
+              "nd": "Yeshua¦112867 Messiah¦112868",
+              "closing": "\\nd*"
             },
-            {
-              "nd": [
-                "Yeshua¦112867",
-                {
-                  "nd": "* Messiah¦112868",
-                  "closing": "\\nd*"
-                },
-                "."
-              ]
-            },
+            ".",
             {
               "s1": "The good message for non-Jews"
             },
@@ -7269,7 +7069,7 @@
               "p": ""
             }
           ],
-          "verseText": "so that you'll all be united in your purpose and your teaching, thus honouring the God¦112861 and father¦112863 of our¦112866 master¦112865, Yeshua¦112867 * Messiah¦112868."
+          "verseText": "so that you'll all be united in your purpose and your teaching, thus honouring the God¦112861 and father¦112863 of our¦112866 master¦112865, Yeshua¦112867 Messiah¦112868."
         },
         {
           "verseNumber": "7",
@@ -7521,59 +7321,43 @@
           "contents": [
             "so that I'd be a minister¦113062 to the non-Jews for",
             {
-              "nd": ""
+              "nd": "Messiah¦113063 Yeshua¦113064",
+              "closing": "\\nd*"
             },
+            ", sharing God's good¦113071 message¦113071 so that the offering¦113079 of the non-Jews would be acceptable¦113082",
             {
-              "nd": [
-                "Messiah¦113063",
-                {
-                  "nd": "* Yeshua¦113064",
-                  "closing": "\\nd*"
-                },
-                ", sharing God's good¦113071 message¦113071 so that the offering¦113079 of the non-Jews would be acceptable¦113082",
-                {
-                  "add": "to him",
-                  "closing": "\\add*"
-                },
-                ", having¦113083 been purified by the holy",
-                {
-                  "nd": "spirit¦113085",
-                  "closing": "\\nd*"
-                },
-                ". WHAT DOES THIS MEAN?"
-              ]
-            }
+              "add": "to him",
+              "closing": "\\add*"
+            },
+            ", having¦113083 been purified by the holy",
+            {
+              "nd": "spirit¦113085",
+              "closing": "\\nd*"
+            },
+            ". WHAT DOES THIS MEAN?"
           ],
-          "verseText": "so that I'd be a minister¦113062 to the non-Jews for Messiah¦113063 * Yeshua¦113064, sharing God's good¦113071 message¦113071 so that the offering¦113079 of the non-Jews would be acceptable¦113082 to him, having¦113083 been purified by the holy spirit¦113085. WHAT DOES THIS MEAN?"
+          "verseText": "so that I'd be a minister¦113062 to the non-Jews for Messiah¦113063 Yeshua¦113064, sharing God's good¦113071 message¦113071 so that the offering¦113079 of the non-Jews would be acceptable¦113082 to him, having¦113083 been purified by the holy spirit¦113085. WHAT DOES THIS MEAN?"
         },
         {
           "verseNumber": "17",
           "contents": [
             "Therefore¦113089 I'm boasting¦113091 in",
             {
-              "nd": ""
+              "nd": "Messiah¦113093 Yeshua¦113094",
+              "closing": "\\nd*"
+            },
+            "about things",
+            {
+              "add": "to do with",
+              "closing": "\\add*"
             },
             {
-              "nd": [
-                "Messiah¦113093",
-                {
-                  "nd": "* Yeshua¦113094",
-                  "closing": "\\nd*"
-                },
-                "about things",
-                {
-                  "add": "to do with",
-                  "closing": "\\add*"
-                },
-                {
-                  "nd": "God¦113098",
-                  "closing": "\\nd*"
-                },
-                "."
-              ]
-            }
+              "nd": "God¦113098",
+              "closing": "\\nd*"
+            },
+            "."
           ],
-          "verseText": "Therefore¦113089 I'm boasting¦113091 in Messiah¦113093 * Yeshua¦113094 about things to do with God¦113098."
+          "verseText": "Therefore¦113089 I'm boasting¦113091 in Messiah¦113093 Yeshua¦113094 about things to do with God¦113098."
         },
         {
           "verseNumber": "18",
@@ -7813,30 +7597,22 @@
           "contents": [
             "So¦113325 brothers¦113327 and sisters¦113327, I'm urging you¦113326 by our¦113331",
             {
-              "nd": ""
+              "nd": "master¦113330 Yeshua¦113332 Messiah¦113333",
+              "closing": "\\nd*"
             },
+            "and by the love¦113337 of the",
             {
-              "nd": [
-                "master¦113330 Yeshua¦113332",
-                {
-                  "nd": "* Messiah¦113333",
-                  "closing": "\\nd*"
-                },
-                "and by the love¦113337 of the",
-                {
-                  "nd": "spirit¦113339",
-                  "closing": "\\nd*"
-                },
-                ", to contend¦113340 along with me in praying to",
-                {
-                  "nd": "God¦113349",
-                  "closing": "\\nd*"
-                },
-                "for me"
-              ]
-            }
+              "nd": "spirit¦113339",
+              "closing": "\\nd*"
+            },
+            ", to contend¦113340 along with me in praying to",
+            {
+              "nd": "God¦113349",
+              "closing": "\\nd*"
+            },
+            "for me"
           ],
-          "verseText": "So¦113325 brothers¦113327 and sisters¦113327, I'm urging you¦113326 by our¦113331 master¦113330 Yeshua¦113332 * Messiah¦113333 and by the love¦113337 of the spirit¦113339, to contend¦113340 along with me in praying to God¦113349 for me"
+          "verseText": "So¦113325 brothers¦113327 and sisters¦113327, I'm urging you¦113326 by our¦113331 master¦113330 Yeshua¦113332 Messiah¦113333 and by the love¦113337 of the spirit¦113339, to contend¦113340 along with me in praying to God¦113349 for me"
         },
         {
           "verseNumber": "31",
@@ -7931,19 +7707,11 @@
             },
             "Greet¦113505 Priscilla and¦113508 Aquila, my¦113512 workmates in",
             {
-              "nd": ""
-            },
-            {
-              "nd": [
-                "Messiah¦113514",
-                {
-                  "nd": "* Yeshua¦113515",
-                  "closing": "\\nd*"
-                }
-              ]
+              "nd": "Messiah¦113514 Yeshua¦113515",
+              "closing": "\\nd*"
             }
           ],
-          "verseText": "Greet¦113505 Priscilla and¦113508 Aquila, my¦113512 workmates in Messiah¦113514 * Yeshua¦113515"
+          "verseText": "Greet¦113505 Priscilla and¦113508 Aquila, my¦113512 workmates in Messiah¦113514 Yeshua¦113515"
         },
         {
           "verseNumber": "4",
@@ -8205,20 +7973,12 @@
             },
             "such people are not serving¦113751 our¦113747",
             {
-              "nd": ""
+              "nd": "master¦113746 Messiah¦113749",
+              "closing": "\\nd*"
             },
-            {
-              "nd": [
-                "master¦113746",
-                {
-                  "nd": "* Messiah¦113749",
-                  "closing": "\\nd*"
-                },
-                "but rather, their own bellies, and they¦113762 are deceiving¦113762 innocent¦113766 people with their smooth¦113759 speech¦113759 and ‘blessings¦113761’."
-              ]
-            }
+            "but rather, their own bellies, and they¦113762 are deceiving¦113762 innocent¦113766 people with their smooth¦113759 speech¦113759 and ‘blessings¦113761’."
           ],
-          "verseText": "because¦113743 such people are not serving¦113751 our¦113747 master¦113746 * Messiah¦113749 but rather, their own bellies, and they¦113762 are deceiving¦113762 innocent¦113766 people with their smooth¦113759 speech¦113759 and ‘blessings¦113761’."
+          "verseText": "because¦113743 such people are not serving¦113751 our¦113747 master¦113746 Messiah¦113749 but rather, their own bellies, and they¦113762 are deceiving¦113762 innocent¦113766 people with their smooth¦113759 speech¦113759 and ‘blessings¦113761’."
         },
         {
           "verseNumber": "19",
@@ -8255,17 +8015,9 @@
                   "add": "May",
                   "closing": "\\add*"
                 },
-                "the grace¦113815 from our¦113818"
-              ]
-            },
-            {
-              "nd": ""
-            },
-            {
-              "nd": [
-                "master¦113817",
+                "the grace¦113815 from our¦113818",
                 {
-                  "nd": "* Yeshua¦113819",
+                  "nd": "master¦113817 Yeshua¦113819",
                   "closing": "\\nd*"
                 },
                 "be with all of you."
@@ -8275,7 +8027,7 @@
               "p": ""
             }
           ],
-          "verseText": "then the God¦113798 of peace¦113800 will be quickly¦113813 crushing¦113801 Satan¦113804 under¦113807 your¦113811 feet¦113809. May the grace¦113815 from our¦113818 master¦113817 * Yeshua¦113819 be with all of you."
+          "verseText": "then the God¦113798 of peace¦113800 will be quickly¦113813 crushing¦113801 Satan¦113804 under¦113807 your¦113811 feet¦113809. May the grace¦113815 from our¦113818 master¦113817 Yeshua¦113819 be with all of you."
         },
         {
           "verseNumber": "21",
@@ -8372,20 +8124,12 @@
             },
             "one who, according to my¦113892 preaching of the good¦113891 message¦113891 and¦113893 the proclamation¦113895 of",
             {
-              "nd": ""
+              "nd": "Yeshua¦113898 Messiah¦113899",
+              "closing": "\\nd*"
             },
-            {
-              "nd": [
-                "Yeshua¦113898",
-                {
-                  "nd": "* Messiah¦113899",
-                  "closing": "\\nd*"
-                },
-                ", is able to strengthen¦113888 you¦113887 all according to the revelation¦113901 of the mystery¦113902 that had been keep silent¦113905 through the ages."
-              ]
-            }
+            ", is able to strengthen¦113888 you¦113887 all according to the revelation¦113901 of the mystery¦113902 that had been keep silent¦113905 through the ages."
           ],
-          "verseText": "There's one who, according to my¦113892 preaching of the good¦113891 message¦113891 and¦113893 the proclamation¦113895 of Yeshua¦113898 * Messiah¦113899, is able to strengthen¦113888 you¦113887 all according to the revelation¦113901 of the mystery¦113902 that had been keep silent¦113905 through the ages."
+          "verseText": "There's one who, according to my¦113892 preaching of the good¦113891 message¦113891 and¦113893 the proclamation¦113895 of Yeshua¦113898 Messiah¦113899, is able to strengthen¦113888 you¦113887 all according to the revelation¦113901 of the mystery¦113902 that had been keep silent¦113905 through the ages."
         },
         {
           "verseNumber": "26",
@@ -8418,25 +8162,17 @@
             },
             "be honoured through",
             {
-              "nd": ""
+              "nd": "Yeshua¦113931 Messiah¦113932",
+              "closing": "\\nd*"
             },
+            "throughout the",
             {
-              "nd": [
-                "Yeshua¦113931",
-                {
-                  "nd": "* Messiah¦113932",
-                  "closing": "\\nd*"
-                },
-                "throughout the",
-                {
-                  "add": "remaining",
-                  "closing": "\\add*"
-                },
-                "ages. May¦113941 it¦113941 be so¦113941."
-              ]
-            }
+              "add": "remaining",
+              "closing": "\\add*"
+            },
+            "ages. May¦113941 it¦113941 be so¦113941."
           ],
-          "verseText": "Now may the only wise God¦113928 be honoured through Yeshua¦113931 * Messiah¦113932 throughout the remaining ages. May¦113941 it¦113941 be so¦113941."
+          "verseText": "Now may the only wise God¦113928 be honoured through Yeshua¦113931 Messiah¦113932 throughout the remaining ages. May¦113941 it¦113941 be so¦113941."
         }
       ]
     }

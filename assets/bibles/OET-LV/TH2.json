@@ -18,7 +18,7 @@
         "rem": "The VLT source table used to create this file is Copyright © 2022 by https://GreekCNTR.org"
       },
       {
-        "rem": "ESFM file originally created 2024-05-20 14:46 by Extract_VLT_NT_to_ESFM v0.96"
+        "rem": "ESFM file originally created 2024-09-05 17:48 by Extract_VLT_NT_to_ESFM v0.97"
       },
       {
         "rem": "USFM file edited by ScriptedBibleEditor v0.31"
@@ -963,12 +963,12 @@
             },
             "_enemy¦137723 be¦137724_considering¦137724",
             {
-              "add": "him¦137724",
+              "add": "<him¦137724",
               "closing": "\\add*"
             },
             ", but¦137725 be¦137726_admonishing¦137726",
             {
-              "add": "him¦137726",
+              "add": "<him¦137726",
               "closing": "\\add*"
             },
             "as¦137727",
@@ -978,7 +978,7 @@
             },
             "_brother¦137728."
           ],
-          "verseText": "And¦137720_yet¦137720 not¦137721 as¦137722 +an¦137723 _enemy¦137723 be¦137724_considering¦137724 him¦137724, but¦137725 be¦137726_admonishing¦137726 him¦137726 as¦137727 +a¦137728 _brother¦137728."
+          "verseText": "And¦137720_yet¦137720 not¦137721 as¦137722 +an¦137723 _enemy¦137723 be¦137724_considering¦137724 <him¦137724, but¦137725 be¦137726_admonishing¦137726 <him¦137726 as¦137727 +a¦137728 _brother¦137728."
         },
         {
           "verseNumber": "16",
