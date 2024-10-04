@@ -7,6 +7,11 @@ The [OET (Open English Translation)](https://openenglishtranslation.bible) is a 
 Bibleside implements the OET's "Reader's" version in the main area and a toggle to show the "Literal" and "Reader's" versions side-by-side. The two can be scrolled together for easy comparison.
 
 
+## Try the app
+
+**Bibleside is currently in closed testing on Google Play. Signup [here](https://play.google.com/apps/testing/com.bibleside.bibleside) to become a tester and provide early alpha version feedback.**
+
+
 ## Bible versions
 
 - [x] Open English Translation [Readers Version](https://openenglishtranslation.bible/Design/ReadersVersion)
