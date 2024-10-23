@@ -9,7 +9,7 @@ Bibleside implements the OET's "Reader's" version in the main area and a toggle 
 
 ## Try the app
 
-**Bibleside is currently in closed testing on Google Play. Signup [here](https://play.google.com/apps/testing/com.bibleside.bibleside) to become a tester and provide early alpha version feedback.**
+**Bibleside is currently in closed testing on Google Play. [Click here](https://play.google.com/apps/testing/com.bibleside.bibleside) to become a tester and provide early alpha version feedback.** The same alpha version of the Bibleside app can also be found on [F-droid](https://f-droid.org/en/packages/com.bibleside.bibleside/) if you prefer.
 
 
 ## Bible versions
@@ -17,6 +17,7 @@ Bibleside implements the OET's "Reader's" version in the main area and a toggle 
 - [x] Open English Translation [Readers Version](https://openenglishtranslation.bible/Design/ReadersVersion)
 - [x] Open English Translation [Literal Version](https://openenglishtranslation.bible/Design/LiteralVersion)
 - [x] King James Version
+- [ ] King James Version with Strongs numbering
 - [ ] WEB (World English Bible)
 
 Others?
