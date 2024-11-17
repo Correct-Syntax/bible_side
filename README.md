@@ -40,7 +40,7 @@ Bibleside is built with Flutter using [Stacked Architecture](https://stacked.fil
 
 - Run ``flutter pub get`` to install the dependencies.
 - Choose an emulator or a connected device.
-- Hit ``F5`` to run the code in the emulator, or open and terminal and run with ``flutter run``.
+- Hit ``F5`` to run the code in the emulator, or open a terminal and run with ``flutter run``.
 
 
 ## Note on Bible versions
