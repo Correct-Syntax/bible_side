@@ -33,14 +33,14 @@ class ReaderSelectorBtn extends StackedView<ReaderSelectorBtnModel> {
       padding: const EdgeInsets.symmetric(horizontal: 4.0),
       decoration: BoxDecoration(
         color: context.theme.appColors.readerSelectorBackground,
-        borderRadius: BorderRadius.circular(5.0),
+        borderRadius: BorderRadius.circular(7.0),
       ),
       child: Row(
         children: [
           InkWell(
             onTap: onTapBook,
             child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 7.0),
+              padding: const EdgeInsets.symmetric(horizontal: 4.0, vertical: 7.0),
               child: Row(
                 children: [
                   Align(
@@ -60,6 +60,7 @@ class ReaderSelectorBtn extends StackedView<ReaderSelectorBtnModel> {
                         fontSize: 15.0,
                         color: context.theme.appColors.primaryOnDark,
                         fontWeight: FontWeight.bold,
+                        letterSpacing: -0.1,
                       ),
                     ),
                   ),
@@ -70,17 +71,19 @@ class ReaderSelectorBtn extends StackedView<ReaderSelectorBtnModel> {
           InkWell(
             onTap: onTapBibleVersion,
             child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 7.0),
+              padding: const EdgeInsets.symmetric(horizontal: 4.0, vertical: 7.0),
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Padding(
                     padding: const EdgeInsets.only(right: 5.0),
                     child: Text(
                       readerArea == Area.primary ? viewModel.primaryBible : viewModel.secondaryBible,
                       style: TextStyle(
-                        fontSize: 15.0,
+                        fontSize: 14.0,
                         color: context.theme.appColors.primaryOnDark,
-                        fontWeight: FontWeight.w600,
+                        fontWeight: FontWeight.bold,
+                        letterSpacing: -0.1,
                       ),
                     ),
                   ),
@@ -89,7 +92,7 @@ class ReaderSelectorBtn extends StackedView<ReaderSelectorBtnModel> {
                         ? PhosphorIcons.caretUp(PhosphorIconsStyle.bold)
                         : PhosphorIcons.caretDown(PhosphorIconsStyle.bold),
                     color: context.theme.appColors.primaryOnDark,
-                    size: 16.0,
+                    size: 15.0,
                     semanticLabel: isActive == true ? 'Caret up' : 'Caret down',
                   ),
                 ],

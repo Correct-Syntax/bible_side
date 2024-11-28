@@ -68,6 +68,7 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
                                   style: TextStyle(
                                     color: context.theme.appColors.primaryOnDark,
                                     fontWeight: FontWeight.bold,
+                                    letterSpacing: -0.1,
                                   ),
                                 ),
                                 const SizedBox(width: 5.0),
@@ -95,6 +96,7 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
                               style: TextStyle(
                                 color: context.theme.appColors.primaryOnDark.withAlpha(180),
                                 fontSize: 10.0,
+                                letterSpacing: -0.1,
                               ),
                             ),
                           ],
@@ -165,6 +167,7 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
                                 style: TextStyle(
                                   color: context.theme.appColors.primaryOnDark,
                                   fontWeight: FontWeight.bold,
+                                  letterSpacing: -0.1,
                                 ),
                               ),
                               const SizedBox(width: 5.0),
@@ -190,6 +193,7 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
                             style: TextStyle(
                               color: context.theme.appColors.primaryOnDark.withAlpha(180),
                               fontSize: 10.0,
+                              letterSpacing: -0.1,
                             ),
                           ),
                         ],
