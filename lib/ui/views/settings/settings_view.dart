@@ -7,6 +7,7 @@ import '../../../common/enums.dart';
 import '../../../common/themes.dart';
 import '../../common/ui_helpers.dart';
 import 'settings_viewmodel.dart';
+import 'widgets/settings_category_title/settings_category_title.dart';
 import 'widgets/settings_text_preview/settings_text_preview.dart';
 import 'widgets/settings_theme_item/settings_theme_item.dart';
 
@@ -36,6 +37,7 @@ class SettingsView extends StackedView<SettingsViewModel> {
                     color: context.theme.appColors.primary,
                     fontSize: 18.0,
                     fontWeight: FontWeight.w500,
+                    letterSpacing: -0.2,
                   ),
                 ),
         ),
@@ -60,6 +62,7 @@ class SettingsView extends StackedView<SettingsViewModel> {
                               color: context.theme.appColors.primary,
                               fontSize: 26.0,
                               fontWeight: FontWeight.bold,
+                              letterSpacing: -0.2,
                             ),
                           ),
                         ],
@@ -89,6 +92,7 @@ class SettingsView extends StackedView<SettingsViewModel> {
                                   color: context.theme.appColors.primary,
                                   fontSize: 16.0,
                                   fontWeight: FontWeight.w500,
+                                  letterSpacing: -0.1,
                                 ),
                               ),
                               const SizedBox(width: 6.0),
@@ -96,7 +100,8 @@ class SettingsView extends StackedView<SettingsViewModel> {
                                 '${viewModel.textScaling.toStringAsFixed(1)}x',
                                 style: TextStyle(
                                   color: context.theme.appColors.secondary,
-                                  fontSize: 16.0,
+                                  fontSize: 15.0,
+                                  letterSpacing: -0.1,
                                 ),
                               ),
                             ],
@@ -212,16 +217,8 @@ class SettingsView extends StackedView<SettingsViewModel> {
                     color: context.theme.appColors.divider,
                   ),
                   // INTERFACE
-                  Padding(
-                    padding: const EdgeInsets.only(top: 50.0, bottom: 6.0, left: 12.0),
-                    child: Text(
-                      'INTERFACE',
-                      style: TextStyle(
-                        color: context.theme.appColors.secondary,
-                        fontWeight: FontWeight.w500,
-                        fontSize: 12.0,
-                      ),
-                    ),
+                  const SettingsCategoryTitle(
+                    title: 'INTERFACE',
                   ),
                   Divider(
                     height: 0,
@@ -235,6 +232,7 @@ class SettingsView extends StackedView<SettingsViewModel> {
                         color: context.theme.appColors.primary,
                         fontSize: 16.0,
                         fontWeight: FontWeight.w500,
+                        letterSpacing: -0.1,
                       ),
                     ),
                   ),
@@ -283,16 +281,8 @@ class SettingsView extends StackedView<SettingsViewModel> {
                   ),
 
                   // ABOUT
-                  Padding(
-                    padding: const EdgeInsets.only(top: 50.0, bottom: 6.0, left: 12.0),
-                    child: Text(
-                      'ABOUT',
-                      style: TextStyle(
-                        color: context.theme.appColors.secondary,
-                        fontWeight: FontWeight.w500,
-                        fontSize: 12.0,
-                      ),
-                    ),
+                  const SettingsCategoryTitle(
+                    title: 'ABOUT',
                   ),
                   Divider(
                     height: 0,
@@ -318,6 +308,7 @@ class SettingsView extends StackedView<SettingsViewModel> {
                                 color: context.theme.appColors.primary,
                                 fontSize: 16.0,
                                 fontWeight: FontWeight.w500,
+                                letterSpacing: -0.1,
                               ),
                             ),
                             Text(
@@ -325,6 +316,7 @@ class SettingsView extends StackedView<SettingsViewModel> {
                               style: TextStyle(
                                 color: context.theme.appColors.secondary,
                                 fontSize: 10.0,
+                                letterSpacing: 0.0,
                               ),
                             ),
                           ],

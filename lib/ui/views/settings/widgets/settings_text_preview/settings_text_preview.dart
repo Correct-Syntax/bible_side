@@ -32,7 +32,7 @@ class SettingsTextPreview extends StackedView<SettingsTextPreviewModel> {
               color: context.theme.appColors.readerText,
               fontFamily: 'Merriweather',
               fontSize: 15.0,
-              letterSpacing: 0.3,
+              letterSpacing: -0.1,
               height: 1.7,
             ),
             children: [

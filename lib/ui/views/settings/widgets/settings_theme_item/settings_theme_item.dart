@@ -44,6 +44,7 @@ class SettingsThemeItem extends StackedView<SettingsThemeItemModel> {
                 color: viewModel.getForegroundColor(theme),
                 fontSize: 15.0,
                 fontWeight: FontWeight.w500,
+                letterSpacing: -0.1,
               ),
             ),
             const SizedBox(height: 10.0),

@@ -556,6 +556,8 @@ class MockDialogService extends _i1.Mock implements _i2.DialogService {
     String? buttonTitle = r'Ok',
     _i6.Color? buttonTitleColor,
     bool? barrierDismissible = false,
+    _i4.RouteSettings? routeSettings,
+    _i4.GlobalKey<_i4.NavigatorState>? navigatorKey,
     _i2.DialogPlatform? dialogPlatform,
   }) =>
       (super.noSuchMethod(
@@ -570,6 +572,8 @@ class MockDialogService extends _i1.Mock implements _i2.DialogService {
             #buttonTitle: buttonTitle,
             #buttonTitleColor: buttonTitleColor,
             #barrierDismissible: barrierDismissible,
+            #routeSettings: routeSettings,
+            #navigatorKey: navigatorKey,
             #dialogPlatform: dialogPlatform,
           },
         ),
@@ -595,6 +599,9 @@ class MockDialogService extends _i1.Mock implements _i2.DialogService {
     bool? barrierDismissible = false,
     String? barrierLabel = r'',
     bool? useSafeArea = true,
+    _i4.RouteSettings? routeSettings,
+    _i4.GlobalKey<_i4.NavigatorState>? navigatorKey,
+    _i4.RouteTransitionsBuilder? transitionBuilder,
     dynamic customData,
     R? data,
   }) =>
@@ -619,6 +626,9 @@ class MockDialogService extends _i1.Mock implements _i2.DialogService {
             #barrierDismissible: barrierDismissible,
             #barrierLabel: barrierLabel,
             #useSafeArea: useSafeArea,
+            #routeSettings: routeSettings,
+            #navigatorKey: navigatorKey,
+            #transitionBuilder: transitionBuilder,
             #customData: customData,
             #data: data,
           },
@@ -636,6 +646,7 @@ class MockDialogService extends _i1.Mock implements _i2.DialogService {
     String? confirmationTitle = r'Ok',
     _i6.Color? confirmationTitleColor,
     bool? barrierDismissible = false,
+    _i4.RouteSettings? routeSettings,
     _i2.DialogPlatform? dialogPlatform,
   }) =>
       (super.noSuchMethod(
@@ -650,6 +661,7 @@ class MockDialogService extends _i1.Mock implements _i2.DialogService {
             #confirmationTitle: confirmationTitle,
             #confirmationTitleColor: confirmationTitleColor,
             #barrierDismissible: barrierDismissible,
+            #routeSettings: routeSettings,
             #dialogPlatform: dialogPlatform,
           },
         ),
@@ -950,13 +962,6 @@ class MockBiblesService extends _i1.Mock implements _i7.BiblesService {
 /// See the documentation for Mockito's code generation for more information.
 class MockSettingsService extends _i1.Mock implements _i9.SettingsService {
   @override
-  bool get isDarkTheme => (super.noSuchMethod(
-        Invocation.getter(#isDarkTheme),
-        returnValue: false,
-        returnValueForMissingStub: false,
-      ) as bool);
-
-  @override
   bool get showSecondaryArea => (super.noSuchMethod(
         Invocation.getter(#showSecondaryArea),
         returnValue: false,
@@ -1031,6 +1036,13 @@ class MockSettingsService extends _i1.Mock implements _i9.SettingsService {
       ) as _i8.ViewBy);
 
   @override
+  List<String> get bookmarks => (super.noSuchMethod(
+        Invocation.getter(#bookmarks),
+        returnValue: <String>[],
+        returnValueForMissingStub: <String>[],
+      ) as List<String>);
+
+  @override
   double get textScaling => (super.noSuchMethod(
         Invocation.getter(#textScaling),
         returnValue: 0.0,
@@ -1074,26 +1086,6 @@ class MockSettingsService extends _i1.Mock implements _i9.SettingsService {
         returnValue: _i5.Future<void>.value(),
         returnValueForMissingStub: _i5.Future<void>.value(),
       ) as _i5.Future<void>);
-
-  @override
-  _i5.Future<void> setIsDarkTheme(bool? value) => (super.noSuchMethod(
-        Invocation.method(
-          #setIsDarkTheme,
-          [value],
-        ),
-        returnValue: _i5.Future<void>.value(),
-        returnValueForMissingStub: _i5.Future<void>.value(),
-      ) as _i5.Future<void>);
-
-  @override
-  _i5.Future<bool> getIsDarkTheme() => (super.noSuchMethod(
-        Invocation.method(
-          #getIsDarkTheme,
-          [],
-        ),
-        returnValue: _i5.Future<bool>.value(false),
-        returnValueForMissingStub: _i5.Future<bool>.value(false),
-      ) as _i5.Future<bool>);
 
   @override
   _i5.Future<void> setShowSecondaryArea(bool? value) => (super.noSuchMethod(
@@ -1290,6 +1282,26 @@ class MockSettingsService extends _i1.Mock implements _i9.SettingsService {
         returnValue: _i5.Future<_i8.ViewBy>.value(_i8.ViewBy.chapter),
         returnValueForMissingStub: _i5.Future<_i8.ViewBy>.value(_i8.ViewBy.chapter),
       ) as _i5.Future<_i8.ViewBy>);
+
+  @override
+  _i5.Future<void> setBookmarks(List<String>? value) => (super.noSuchMethod(
+        Invocation.method(
+          #setBookmarks,
+          [value],
+        ),
+        returnValue: _i5.Future<void>.value(),
+        returnValueForMissingStub: _i5.Future<void>.value(),
+      ) as _i5.Future<void>);
+
+  @override
+  _i5.Future<List<String>> getBookmarks() => (super.noSuchMethod(
+        Invocation.method(
+          #getBookmarks,
+          [],
+        ),
+        returnValue: _i5.Future<List<String>>.value(<String>[]),
+        returnValueForMissingStub: _i5.Future<List<String>>.value(<String>[]),
+      ) as _i5.Future<List<String>>);
 
   @override
   _i5.Future<void> setTextScaling(double? value) => (super.noSuchMethod(
