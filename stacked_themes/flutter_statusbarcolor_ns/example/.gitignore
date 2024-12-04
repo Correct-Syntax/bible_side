@@ -8,9 +8,6 @@
 .buildlog/
 .history
 .svn/
-.key/
-migrate_working_dir/
-assets/bibles/.temp/*.ESFM
 
 # IntelliJ related
 *.iml
@@ -34,6 +31,9 @@ assets/bibles/.temp/*.ESFM
 .pub/
 /build/
 
+# Web related
+lib/generated_plugin_registrant.dart
+
 # Symbolication related
 app.*.symbols
 
@@ -44,8 +44,3 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
-
-TEXT.txt
-tests.dart
-IMPL.md
-BACKUP
