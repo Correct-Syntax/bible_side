@@ -408,18 +408,13 @@ class ReaderViewModel extends ReactiveViewModel {
   }
 
   Future<void> toggleSecondaryAreaHTML(bool showSecondaryArea) async {
-    // TODO
     if (showSecondaryArea == false) {
       await webviewController.runJavaScript("""
-        document.addEventListener("DOMContentLoaded", () => {
-          document.getElementById('container').classList.add('hidden');
-        });
+        document.getElementById('container').classList.add('hidden');
       """);
     } else {
       await webviewController.runJavaScript("""
-        document.addEventListener("DOMContentLoaded", () => {
-          document.getElementById('container').classList.remove('hidden');
-        });
+        document.getElementById('container').classList.remove('hidden');
       """);
     }
   }
