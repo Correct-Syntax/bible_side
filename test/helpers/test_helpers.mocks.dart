@@ -1466,92 +1466,47 @@ class MockReaderService extends _i1.Mock implements _i11.ReaderService {
       ) as Map<String, dynamic>);
 
   @override
-  String get primaryBible => (super.noSuchMethod(
-        Invocation.getter(#primaryBible),
-        returnValue: _i3.dummyValue<String>(
-          this,
-          Invocation.getter(#primaryBible),
-        ),
-        returnValueForMissingStub: _i3.dummyValue<String>(
-          this,
-          Invocation.getter(#primaryBible),
-        ),
-      ) as String);
-
-  @override
-  String get secondaryBible => (super.noSuchMethod(
-        Invocation.getter(#secondaryBible),
-        returnValue: _i3.dummyValue<String>(
-          this,
-          Invocation.getter(#secondaryBible),
-        ),
-        returnValueForMissingStub: _i3.dummyValue<String>(
-          this,
-          Invocation.getter(#secondaryBible),
-        ),
-      ) as String);
-
-  @override
-  String get bookCode => (super.noSuchMethod(
-        Invocation.getter(#bookCode),
-        returnValue: _i3.dummyValue<String>(
-          this,
-          Invocation.getter(#bookCode),
-        ),
-        returnValueForMissingStub: _i3.dummyValue<String>(
-          this,
-          Invocation.getter(#bookCode),
-        ),
-      ) as String);
-
-  @override
-  _i8.ViewBy get viewBy => (super.noSuchMethod(
-        Invocation.getter(#viewBy),
-        returnValue: _i8.ViewBy.chapter,
-        returnValueForMissingStub: _i8.ViewBy.chapter,
-      ) as _i8.ViewBy);
-
-  @override
-  List<Map<String, dynamic>> getNewPage(
-    _i4.BuildContext? context,
-    int? pageKey,
+  String getReaderBookHTML(
     _i8.Area? area,
-  ) =>
-      (super.noSuchMethod(
-        Invocation.method(
-          #getNewPage,
-          [
-            context,
-            pageKey,
-            area,
-          ],
-        ),
-        returnValue: <Map<String, dynamic>>[],
-        returnValueForMissingStub: <Map<String, dynamic>>[],
-      ) as List<Map<String, dynamic>>);
-
-  @override
-  List<Map<String, dynamic>> pageFromJson(
-    _i4.BuildContext? context,
-    Map<String, dynamic>? json,
-    String? bibleCode,
     _i8.ViewBy? viewBy,
-    int? pageKey,
+    String? bibleCode,
+    String? bookCode,
   ) =>
       (super.noSuchMethod(
         Invocation.method(
-          #pageFromJson,
+          #getReaderBookHTML,
           [
-            context,
-            json,
-            bibleCode,
+            area,
             viewBy,
-            pageKey,
+            bibleCode,
+            bookCode,
           ],
         ),
-        returnValue: <Map<String, dynamic>>[],
-        returnValueForMissingStub: <Map<String, dynamic>>[],
-      ) as List<Map<String, dynamic>>);
+        returnValue: _i3.dummyValue<String>(
+          this,
+          Invocation.method(
+            #getReaderBookHTML,
+            [
+              area,
+              viewBy,
+              bibleCode,
+              bookCode,
+            ],
+          ),
+        ),
+        returnValueForMissingStub: _i3.dummyValue<String>(
+          this,
+          Invocation.method(
+            #getReaderBookHTML,
+            [
+              area,
+              viewBy,
+              bibleCode,
+              bookCode,
+            ],
+          ),
+        ),
+      ) as String);
 }
 
 /// A class which mocks [JsonService].

@@ -11,9 +11,11 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
   const ReaderAreaPopup({
     super.key,
     required this.readerArea,
+    required this.onToggleSecondaryArea,
   });
 
   final Area readerArea;
+  final Function() onToggleSecondaryArea;
 
   @override
   Widget builder(
@@ -30,9 +32,7 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
           Opacity(
             opacity: viewModel.showSecondaryArea ? 1.0 : 0.5,
             child: InkWell(
-              onTap: viewModel.showSecondaryArea
-                  ? viewModel.onChangeSecondaryBibleVersion
-                  : viewModel.onEnableSecondaryArea,
+              onTap: viewModel.showSecondaryArea ? viewModel.onChangeSecondaryBibleVersion : onToggleSecondaryArea,
               child: Padding(
                 padding: const EdgeInsets.symmetric(vertical: 8.0),
                 child: Row(

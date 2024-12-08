@@ -14,5 +14,5 @@ enum CurrentTheme {
   light,
   dark,
   sepia,
-  highContrast,
+  contrast,
 }

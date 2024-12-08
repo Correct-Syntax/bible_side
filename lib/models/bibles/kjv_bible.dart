@@ -1,58 +1,39 @@
-import 'package:flutter/material.dart';
+// ignore_for_file: prefer_single_quotes
 
+import '../../common/enums.dart';
 import '../json_to_bible.dart';
-import '../text_item.dart';
 
 /// KJV version implementation
 class KJVBibleImpl extends JsonToBible {
-  KJVBibleImpl(BuildContext context, Map<String, dynamic> json) : super(context: context, json: json);
+  KJVBibleImpl(Map<String, dynamic> json) : super(json: json);
 
-  /// Get the KJV chapter spans for [page].
   @override
-  List<Map<String, dynamic>> getChapter(int page) {
-    List<InlineSpan> spans = [];
-
-    // Chapters
-    List<dynamic> chaptersData = json['chapters'];
-
+  String getBook(String bookCode, ViewBy viewBy) {
+    String htmlText = '';
     String chapterNumber = '';
     List<dynamic> chapterContents = [];
 
+    List<dynamic> chaptersData = json['chapters'];
+
     for (Map<dynamic, dynamic> chapter in chaptersData) {
       chapterNumber = chapter['chapter'];
+      chapterContents = chapter['verses'];
 
-      if (chapterNumber == page.toString()) {
-        spans.add(TextSpan(
-          text: chapterNumber == '1' ? '$chapterNumber ' : '\n$chapterNumber ',
-          style: TextItemStyles.chapterHeading(context),
-        ));
-        chapterContents = chapter['verses'];
-        break;
+      String chapterNumberHtml = """<span class="c" id="$bookCode$chapterNumber">$chapterNumber</span>""";
+
+      for (Map item in chapterContents) {
+        String verseNumber = item['verse'];
+        String verseText = item['text'];
+
+        if (verseNumber == '1') {
+          htmlText +=
+              """<p class="p" id="$bookCode$chapterNumber:$verseNumber">$chapterNumberHtml<sup>$verseNumber</sup> $verseText</p>""";
+        } else {
+          htmlText +=
+              """<p class="p" id="$bookCode$chapterNumber:$verseNumber"><sup>$verseNumber</sup> $verseText</p>""";
+        }
       }
     }
-
-    for (Map item in chapterContents) {
-      spans.add(
-        TextSpan(
-          children: [
-            TextSpan(
-              text: ' ${item['verse']} ',
-              style: TextItemStyles.bodyMedium(context),
-            ),
-            TextSpan(
-              text: item['text'],
-              style: TextItemStyles.text(context),
-            ),
-          ],
-        ),
-      );
-    }
-
-    return [
-      {
-        'spans': spans,
-        'page': chapterNumber,
-      }
-    ];
+    return htmlText;
   }
 }

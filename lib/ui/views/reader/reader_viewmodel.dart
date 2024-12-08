@@ -1,14 +1,17 @@
+import 'dart:convert';
 import 'dart:developer';
 import 'package:flutter/material.dart';
-import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
-import 'package:linked_scroll_controller/linked_scroll_controller.dart';
+import 'package:flutter/services.dart';
 import 'package:stacked/stacked.dart';
 import 'package:stacked_services/stacked_services.dart';
+import 'package:stacked_themes/stacked_themes.dart';
+import 'package:webview_flutter/webview_flutter.dart';
+import 'package:webview_flutter_android/webview_flutter_android.dart';
 
 import '../../../app/app.locator.dart';
 import '../../../app/app.router.dart';
 import '../../../common/enums.dart';
-import '../../../common/oet_rv_section_start_end.dart';
+import '../../../common/themes.dart';
 import '../../../services/bibles_service.dart';
 import '../../../services/reader_service.dart';
 import '../../../services/settings_service.dart';
@@ -35,277 +38,414 @@ class ReaderViewModel extends ReactiveViewModel {
 
   final BuildContext context;
 
-  late ScrollController primaryAreaController;
-  late ScrollController secondaryAreaController;
-  late LinkedScrollControllerGroup areasParentController;
-
-  final Key downListKey = UniqueKey();
-
-  PagingController<int, Map<String, dynamic>> primaryPagingUpController = PagingController(
-    firstPageKey: 1,
-  );
-  PagingController<int, Map<String, dynamic>> primaryPagingDownController = PagingController(
-    firstPageKey: 1,
-  );
-
-  PagingController<int, Map<String, dynamic>> secondaryPagingUpController = PagingController(
-    firstPageKey: 1,
-  );
-  PagingController<int, Map<String, dynamic>> secondaryPagingDownController = PagingController(
-    firstPageKey: 1,
-  );
+  late WebViewController webviewController;
 
   bool isPrimaryReaderAreaPopupActive = false;
   bool isSecondaryReaderAreaPopupActive = false;
 
-  int numberOfSections = 0;
-  bool initialRefresh = false;
-  int currentPage = 0;
-
   void initilize() async {
-    if (linkReaderAreaScrolling == true) {
-      areasParentController = LinkedScrollControllerGroup();
-      primaryAreaController = areasParentController.addAndGet();
-      secondaryAreaController = areasParentController.addAndGet();
-    } else {
-      areasParentController = LinkedScrollControllerGroup();
-      primaryAreaController = ScrollController();
-      secondaryAreaController = ScrollController();
-    }
-    await refreshReader();
-  }
-
-  @override
-  void dispose() {
-    primaryAreaController.dispose();
-    secondaryAreaController.dispose();
-
-    primaryPagingUpController.removePageRequestListener((pageKey) {});
-    primaryPagingDownController.removePageRequestListener((pageKey) {});
-    secondaryPagingUpController.removePageRequestListener((pageKey) {});
-    secondaryPagingUpController.removePageRequestListener((pageKey) {});
-
-    primaryPagingUpController.dispose();
-    primaryPagingDownController.dispose();
-    secondaryPagingUpController.dispose();
-    secondaryPagingDownController.dispose();
-
-    super.dispose();
-  }
-
-  Future<void> refreshReader() async {
+    await setupWebviewController();
     await _biblesService.reloadBiblesJson();
 
-    if (viewBy == ViewBy.section) {
-      currentPage = sectionNumber;
-    } else {
-      currentPage = chapterNumber;
+    String primaryAreaHTML = _readerService.getReaderBookHTML(Area.primary, viewBy, primaryAreaBible, bookCode);
+    String secondaryAreaHTML = '';
+    if (showSecondaryArea == true) {
+      secondaryAreaHTML = _readerService.getReaderBookHTML(Area.secondary, viewBy, secondaryAreaBible, bookCode);
+    }
+    await initilizeReaderWebview(
+      primaryAreaHTML,
+      secondaryAreaHTML,
+      showSecondaryArea,
+    );
+    rebuildUi();
+  }
+
+  Future<void> setupWebviewController() async {
+    PlatformWebViewControllerCreationParams params = const PlatformWebViewControllerCreationParams();
+    webviewController = WebViewController.fromPlatformCreationParams(params)
+      ..setBackgroundColor(context.theme.appColors.background)
+      ..setJavaScriptMode(JavaScriptMode.unrestricted)
+      ..addJavaScriptChannel(
+        'OnEvent',
+        onMessageReceived: (message) {
+          log(message.message);
+        },
+      )
+      ..setNavigationDelegate(
+        NavigationDelegate(
+          onProgress: (int progress) {
+            // Update loading bar.
+            rebuildUi();
+          },
+          onPageStarted: (String url) {},
+          onPageFinished: (String url) {},
+          onHttpError: (HttpResponseError error) {},
+          onWebResourceError: (WebResourceError error) {
+            log('''
+              Page resource error:
+              code: ${error.errorCode}
+              description: ${error.description}
+              errorType: ${error.errorType}
+              isForMainFrame: ${error.isForMainFrame}
+            ''');
+          },
+          onNavigationRequest: (NavigationRequest request) {
+            if (request.url.startsWith('http')) {
+              return NavigationDecision.prevent;
+            }
+            return NavigationDecision.navigate;
+          },
+        ),
+      );
+    AndroidWebViewController.enableDebugging(true);
+  }
+
+  /// Initilizes the webview html with everything except for the reader area contents.
+  Future<void> initilizeReaderWebview(String primaryAreaHTML, String secondaryAreaHTML, bool showSecondaryArea) async {
+    // Load font
+    ByteData fontData = await rootBundle.load('assets/fonts/Merriweather/Merriweather-Regular.ttf');
+    String fontUri = getFontUri(fontData, 'font/truetype').toString();
+
+    // Theme
+    if (!context.mounted) return;
+    var theme = getThemeManager(context).selectedThemeIndex;
+    String themeName = CurrentTheme.light.name;
+    switch (theme) {
+      case 0:
+        themeName = CurrentTheme.light.name;
+      case 1:
+        themeName = CurrentTheme.dark.name;
+      case 2:
+        themeName = CurrentTheme.sepia.name;
+      case 3:
+        themeName = CurrentTheme.contrast.name;
     }
 
-    // Primary area
-    primaryPagingUpController = PagingController(
-      firstPageKey: currentPage,
-    );
-    primaryPagingUpController.addPageRequestListener((pageKey) {
-      fetchUp(pageKey, viewBy, Area.primary);
-    });
-    primaryPagingDownController = PagingController(
-      firstPageKey: currentPage,
-    );
-    primaryPagingDownController.addPageRequestListener((pageKey) {
-      fetchDown(pageKey, viewBy, Area.primary);
-    });
+    // Jump to id
+    String id = '$bookCode$chapterNumber:1'; // TODO: set appropriate verse number
 
-    // Secondary area
-    secondaryPagingUpController = PagingController(
-      firstPageKey: currentPage,
-    );
-    secondaryPagingUpController.addPageRequestListener((pageKey) {
-      fetchUp(pageKey, viewBy, Area.secondary);
-    });
-    secondaryPagingDownController = PagingController(
-      firstPageKey: currentPage,
-    );
-    secondaryPagingDownController.addPageRequestListener((pageKey) {
-      fetchDown(pageKey, viewBy, Area.secondary);
-    });
+    Uri htmlUri = Uri.dataFromString("""
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+</head>
+<body class="$themeName">
+  <style>
+    :root {
+      /* Mirrors colors from themes.dart */
+      --red-letter: #C24545;
+      --add-article: #CB9169;
+      --add-extra: #5EC651;
+      --add-copula: #C260B1;
 
-    initialRefresh = true;
-    if (primaryAreaBible != 'KJV') {
-      numberOfSections = sectionStartEndMappingForOET[bookCode]!.length;
+      --light-theme-white: #fff;
+      --light-theme-white-70: rgba(255, 255, 255, 0.7);
+      --light-theme-light-blue: #DAEDFC;
+      --light-theme-medium-blue: #1F3D57;
+      --light-theme-dark-blue: #193247;
+      --light-theme-medium-slate: #515358;
+      --light-theme-medium-slate-10: rgba(81, 83, 88, 0.1);
+      --light-theme-medium-dark-slate: #414548;
+
+      --dark-theme-white: #fff;
+      --dark-theme-white-10: rgba(255, 255, 255, 0.1);
+      --dark-theme-white-70: rgba(255, 255, 255, 0.7);
+      --dark-theme-medium-light-gray: #A9ADB1;
+      --dark-theme-dark-gray: #1F2123;
+      --dark-theme-almost-black: #161718;
+
+      --sepia-theme-white: #fff;
+      --sepia-theme-almost-white-tan: #FBF8E9;
+      --sepia-theme-light-tan: #EBDFC7;
+      --sepia-theme-medium-brown: #8E8367;
+      --sepia-theme-medium-dark-brown: #655F49;
+      --sepia-theme-medium-gray: #5E6166;
+      --sepia-theme-medium-dark-gray: #414546;
+
+      --contrast-theme-white: #fff;
+      --contrast-theme-black: #000;
     }
 
-    // Refresh for first section/chapter
-    fetchDown(currentPage, viewBy, Area.primary);
-    fetchUp(currentPage, viewBy, Area.primary);
+    @font-face {
+      font-family: 'Merriweather';
+      src: url('$fontUri');
+    }
 
-    fetchDown(currentPage, viewBy, Area.secondary);
-    fetchUp(currentPage, viewBy, Area.secondary);
+    body.light {
+      color: var(--light-theme-medium-slate); 
+      background-color: var(--light-theme-white);
+    }
+
+    body.dark {
+      color: var(--dark-theme-medium-light-gray);
+      background-color: var(--dark-theme-dark-gray);
+    }
+
+    body.sepia {
+      color: var(--sepia-theme-medium-gray);
+      background-color: var(--sepia-theme-almost-white-tan);
+    }
+
+    body.contrast {
+      color: var(--contrast-theme-white);
+      background-color: var(--contrast-theme-black);
+    }
+
+    #primaryReader {
+      font-family: 'Merriweather';
+      font-size: 43px;
+      letter-spacing: 0.5px;
+      line-height: 155%;
+      height: 50vh;
+      margin-left: 57px;
+      margin-right: 57px;
+    }
+
+    #secondaryReader {
+      font-family: 'Merriweather';
+      font-size: 43px;
+      letter-spacing: 0.5px;
+      line-height: 155%;
+      height: 50vh;
+      margin-left: 57px;
+      margin-right: 57px;
+    }
+
+    .container.hidden #primaryReader {
+      height: 100vh;
+    }
+
+    .container.hidden #secondaryReader {
+      height: 0px;
+      display: none;
+    }
+
+    .container.hidden .separator {
+      display: none;
+    }
+
+    hr {
+      margin-top: 12px;
+      margin-bottom: 12px;
+      width: 100%;
+    }
+
+    .light hr {
+      border-color: var(--light-theme-medium-slate-10)
+    }
+
+    .dark hr {
+      border-color: var(--dark-theme-white-10)
+    }
+
+    .sepia hr {
+      border-color: var(--sepia-theme-light-tan)
+    }
+
+    .contrast hr {
+      border-color: var(--contrast-theme-white)
+    }
+
+    p.p {
+      text-indent: 0.5em;
+      margin-top: 0.2em;
+      margin-bottom: 0.2em;
+    }
+
+    sup {
+      font-size: 28px;
+      margin-left: 1.2rem;
+      margin-right: 0.4rem;
+    }
+
+    .c {
+      font-size: 70px;
+      margin-right: 0.5rem;
+      margin-left: 0.5rem;
+    }
+
+    a {
+      color: blue;
+    }
+
+    .section-box {
+      float: right;
+      width: 40%;
+      border-width: 2px;
+      border-style: solid;
+      padding: 0.2em;
+      font-size: 38px;
+      font-weight: bold;
+      line-height: normal;
+      padding: 1rem;
+      margin-left: 0.4rem;
+      border-radius: 7px;
+    }
+
+    .section-box sup {
+      font-size: 26px;
+      margin-left: 0rem;
+      margin-right: 0.2rem;
+    }
+
+    .section-box p {
+      display: inline-block;
+      line-height: normal;
+      margin: 0px;
+    }
+
+    .light .section-box {
+      border-color: var(--light-theme-medium-slate);
+    }
+
+    .dark .section-box {
+      border-color: var(--dark-theme-medium-light-gray);
+    }
+
+    .sepia .section-box {
+      border-color: var(--sepia-theme-medium-gray);
+    }
+
+    .contrast .section-box {
+      border-color: var(--contrast-theme-white);
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      max-height: 100vh;
+    }
+
+    .scrollable {
+      overflow: auto;
+    }
+  </style>
+
+  <div class="container ${showSecondaryArea == false ? "hidden" : ""}" id="container">
+    <div id="secondaryReader" class="scrollable">
+      $secondaryAreaHTML
+    </div>
+
+    <hr class="separator" />
+
+    <div id="primaryReader" class="scrollable">
+      $primaryAreaHTML
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const container = document.getElementById("container");
+      const elements = [...container.querySelectorAll(".scrollable")];
+
+      const syncScroll = (scrolledEle, ele) => {
+        const scrolledPercent = scrolledEle.scrollTop / (scrolledEle.scrollHeight - scrolledEle.clientHeight);
+        const top = scrolledPercent * (ele.scrollHeight - ele.clientHeight);
+
+        const scrolledWidthPercent = scrolledEle.scrollLeft / (scrolledEle.scrollWidth - scrolledEle.clientWidth);
+        const left = scrolledWidthPercent * (ele.scrollWidth - ele.clientWidth);
+
+        ele.scrollTo({
+          behavior: "instant",
+          top,
+          left,
+        });
+      };
+
+      const handleScroll = (e) => {
+        const scrolledEle = e.target;
+        elements.filter((item) => item !== scrolledEle).forEach((ele) => {
+          ele.removeEventListener("scroll", handleScroll);
+          syncScroll(scrolledEle, ele);
+          window.requestAnimationFrame(() => {
+            ele.addEventListener("scroll", handleScroll);
+          });
+        });
+      };
+
+      elements.forEach((ele) => {
+        ele.addEventListener("scroll", handleScroll);
+      });
+
+      document.getElementById("$id").scrollIntoView();
+    });
+  </script>
+</body>
+</html>
+""", mimeType: 'text/html', encoding: Encoding.getByName('utf-8'));
+
+    webviewController.loadRequest(htmlUri);
 
     rebuildUi();
   }
 
-  void fetchUp(int pageKey, ViewBy viewBy, Area area) {
-    if (viewBy == ViewBy.section) {
-      fetchUpSection(pageKey, area);
-    } else if (viewBy == ViewBy.chapter) {
-      fetchUpChapter(pageKey, area);
-    }
-    log('UP | $viewBy | $area | $pageKey');
+  String getFontUri(ByteData data, String mime) {
+    final buffer = data.buffer;
+    return Uri.dataFromBytes(buffer.asUint8List(data.offsetInBytes, data.lengthInBytes), mimeType: mime).toString();
   }
 
-  void fetchDown(int pageKey, ViewBy viewBy, Area area) {
-    if (viewBy == ViewBy.section) {
-      fetchDownSection(pageKey, area);
-    } else if (viewBy == ViewBy.chapter) {
-      fetchDownChapter(pageKey, area);
-    }
-    log('DOWN | $viewBy | $area | $pageKey');
-  }
-
-  void fetchUpSection(int pageKey, Area area) {
-    if (currentPage != 0) {
-      if (initialRefresh == true) {
-        pageKey -= 1;
-        initialRefresh = false;
-      }
-
-      int key = (pageKey.abs());
-
-      List<Map<String, dynamic>> newPage = getPaginatedVerses(key, area);
-
-      final int nextPageKey = pageKey - 1;
-
-      final bool isLastPage;
-      if (currentPage != 0) {
-        isLastPage = key == 0;
-      } else {
-        isLastPage = true;
-      }
-
-      if (area == Area.primary) {
-        if (isLastPage) {
-          primaryPagingUpController.appendLastPage(newPage);
-        } else {
-          primaryPagingUpController.appendPage(newPage, nextPageKey);
-        }
-      } else if (area == Area.secondary) {
-        if (isLastPage) {
-          secondaryPagingUpController.appendLastPage(newPage);
-        } else {
-          secondaryPagingUpController.appendPage(newPage, nextPageKey);
-        }
-      }
+  Future<void> updateReaderAreaHTMLContent(Area area, String htmlContent) async {
+    String areaId;
+    if (area == Area.primary) {
+      areaId = 'primaryReader';
     } else {
-      // If the currentPage is the first one, we know there isn't any previous pages
-      primaryPagingUpController.appendLastPage([]);
-      secondaryPagingUpController.appendLastPage([]);
+      areaId = 'secondaryReader';
     }
-    updatePagingControllers();
+    await webviewController.runJavaScript("""
+      document.addEventListener("DOMContentLoaded", () => {
+        document.getElementById('$areaId').innerHTML = '$htmlContent';
+      });
+    """);
+
+    rebuildUi();
   }
 
-  // Future<void> fetchUpChapter(int pageKey, Area area) async {
-  //   if (currentPage != 1) {
-  //     pageKey -= 1;
-
-  //     List<Map<String, dynamic>> newPage = getPaginatedVerses(pageKey, area);
-
-  //     final bool isLastPage = pageKey == 0;
-  //     final int nextPageKey = pageKey;
-
-  //     if (area == Area.primary) {
-  //       if (isLastPage) {
-  //         primaryPagingUpController.appendLastPage(newPage);
-  //       } else {
-  //         primaryPagingUpController.appendPage(newPage, nextPageKey);
-  //       }
-  //     } else if (area == Area.secondary) {
-  //       if (isLastPage) {
-  //         secondaryPagingUpController.appendLastPage(newPage);
-  //       } else {
-  //         secondaryPagingUpController.appendPage(newPage, nextPageKey);
-  //       }
-  //     }
-  //   } else {
-  //     // If the currentPage is the first one, we know there isn't any previous pages
-  //     primaryPagingUpController.appendLastPage([]);
-  //     secondaryPagingUpController.appendLastPage([]);
-  //   }
-
-  //   updatePagingControllers();
-  // }
-
-  void fetchUpChapter(int pageKey, Area area) {
-    pageKey -= 1;
-
-    List<Map<String, dynamic>> newPage = getPaginatedVerses(pageKey, area);
-
-    final bool isLastPage = pageKey == 1;
-    final int nextPageKey = pageKey;
-
-    if (area == Area.primary) {
-      if (isLastPage) {
-        primaryPagingUpController.appendLastPage(newPage);
-      } else {
-        primaryPagingUpController.appendPage(newPage, nextPageKey);
-      }
-    } else if (area == Area.secondary) {
-      if (isLastPage) {
-        secondaryPagingUpController.appendLastPage(newPage);
-      } else {
-        secondaryPagingUpController.appendPage(newPage, nextPageKey);
-      }
-    }
-    updatePagingControllers();
+  Future<void> jumpToHTMLId(String id) async {
+    await webviewController.runJavaScript("""
+      document.getElementById('$id').scrollIntoView();
+    """);
   }
 
-  void fetchDownSection(int pageKey, Area area) {
-    List<Map<String, dynamic>> newPage = getPaginatedVerses(pageKey, area);
-
-    final int nextPageKey = pageKey + 1;
-    final bool isLastPage;
-    if (currentPage != (numberOfSections - 1)) {
-      isLastPage = pageKey == (numberOfSections - 1);
+  Future<void> toggleSecondaryAreaHTML(bool showSecondaryArea) async {
+    // TODO
+    if (showSecondaryArea == false) {
+      await webviewController.runJavaScript("""
+        document.addEventListener("DOMContentLoaded", () => {
+          document.getElementById('container').classList.add('hidden');
+        });
+      """);
     } else {
-      isLastPage = true;
+      await webviewController.runJavaScript("""
+        document.addEventListener("DOMContentLoaded", () => {
+          document.getElementById('container').classList.remove('hidden');
+        });
+      """);
     }
-
-    if (area == Area.primary) {
-      if (isLastPage) {
-        primaryPagingDownController.appendLastPage(newPage);
-      } else {
-        primaryPagingDownController.appendPage(newPage, nextPageKey);
-      }
-    } else if (area == Area.secondary) {
-      if (isLastPage) {
-        secondaryPagingDownController.appendLastPage(newPage);
-      } else {
-        secondaryPagingDownController.appendPage(newPage, nextPageKey);
-      }
-    }
-    updatePagingControllers();
   }
 
-  void fetchDownChapter(int pageKey, Area area) {
-    List<Map<String, dynamic>> newPage = getPaginatedVerses(pageKey, area);
+  Future<void> updateReaderAreas() async {
+    await _biblesService.reloadBiblesJson();
 
-    final bool isLastPage = newPage.isEmpty;
-    final int nextPageKey = pageKey + 1;
-
-    if (area == Area.primary) {
-      if (isLastPage) {
-        primaryPagingDownController.appendLastPage(newPage);
-      } else {
-        primaryPagingDownController.appendPage(newPage, nextPageKey);
-      }
-    } else if (area == Area.secondary) {
-      if (isLastPage) {
-        secondaryPagingDownController.appendLastPage(newPage);
-      } else {
-        secondaryPagingDownController.appendPage(newPage, nextPageKey);
-      }
+    String primaryAreaHTML = _readerService.getReaderBookHTML(Area.primary, viewBy, primaryAreaBible, bookCode);
+    await updateReaderAreaHTMLContent(Area.primary, primaryAreaHTML);
+    if (showSecondaryArea == true) {
+      String secondaryAreaHTML = _readerService.getReaderBookHTML(Area.secondary, viewBy, secondaryAreaBible, bookCode);
+      await updateReaderAreaHTMLContent(Area.secondary, secondaryAreaHTML);
     }
-    updatePagingControllers();
+
+    log('$bookCode$chapterNumber');
+    await jumpToHTMLId('$bookCode${chapterNumber.toString()}');
+  }
+
+  void onRefreshDebug() async {
+    await updateReaderAreas();
+  }
+
+  @override
+  void dispose() {
+    webviewController.clearCache();
+    super.dispose();
   }
 
   void setChapter(dynamic chapter) {
@@ -317,12 +457,8 @@ class ReaderViewModel extends ReactiveViewModel {
     rebuildUi();
   }
 
-  List<Map<String, dynamic>> getPaginatedVerses(int pageKey, Area area) {
-    return _readerService.getNewPage(context, pageKey, area);
-  }
-
-  void onTapCloseSecondaryArea() {
-    _settingsService.setShowSecondaryArea(false);
+  void onTapCloseSecondaryArea() async {
+    onToggleSecondaryArea();
     isPrimaryReaderAreaPopupActive = false;
     isSecondaryReaderAreaPopupActive = false;
     rebuildUi();
@@ -353,17 +489,10 @@ class ReaderViewModel extends ReactiveViewModel {
     _navigationService.clearStackAndShow(Routes.searchView);
   }
 
-  void toggleSecondaryArea() {
+  void onToggleSecondaryArea() async {
     _settingsService.setShowSecondaryArea(!showSecondaryArea);
+    await toggleSecondaryAreaHTML(showSecondaryArea);
     rebuildUi();
-  }
-
-  void updatePagingControllers() {
-    primaryPagingUpController.notifyListeners();
-    primaryPagingDownController.notifyListeners();
-
-    secondaryPagingUpController.notifyListeners();
-    secondaryPagingDownController.notifyListeners();
   }
 
   @override

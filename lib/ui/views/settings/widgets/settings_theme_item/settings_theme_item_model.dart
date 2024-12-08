@@ -11,7 +11,7 @@ class SettingsThemeItemModel extends BaseViewModel {
         return 'Dark';
       case CurrentTheme.sepia:
         return 'Sepia';
-      case CurrentTheme.highContrast:
+      case CurrentTheme.contrast:
         return 'Contrast';
       default:
         return '';
@@ -26,7 +26,7 @@ class SettingsThemeItemModel extends BaseViewModel {
         return Colors.white;
       case CurrentTheme.sepia:
         return const Color(0xFF655F49);
-      case CurrentTheme.highContrast:
+      case CurrentTheme.contrast:
         return const Color(0xFFFFFFFF);
       default:
         return const Color(0xFF515358);
@@ -41,7 +41,7 @@ class SettingsThemeItemModel extends BaseViewModel {
         return const Color(0xFF1F2123);
       case CurrentTheme.sepia:
         return const Color(0xFFC7C7AE);
-      case CurrentTheme.highContrast:
+      case CurrentTheme.contrast:
         return const Color(0xFF000000);
       default:
         return Colors.white;

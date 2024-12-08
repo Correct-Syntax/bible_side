@@ -270,7 +270,7 @@ class SettingsView extends StackedView<SettingsViewModel> {
                         const SizedBox(width: 7.0),
                         SettingsThemeItem(
                           isSelected: getThemeManager(context).selectedThemeIndex == 3,
-                          theme: CurrentTheme.highContrast,
+                          theme: CurrentTheme.contrast,
                           onTap: () {
                             var themeManger = getThemeManager(context);
                             themeManger.selectThemeAtIndex(3);
