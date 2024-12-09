@@ -1,7 +1,7 @@
 {
   "book": {
     "bookCode": "HAG",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.0.01",
+    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.00",
     "meta": [
       {
         "usfm": "3.0"
@@ -34,14 +34,14 @@
         "is1": "Introduction"
       },
       {
-        "ip": "This document, nallimud speeches migpuun of Master God impahuhud to prophet Hagiyu. Neyitabu this of year(s) 520 of not yet born the Messiah. At that time, nenekeuli e there to Yerusalem the people of God impandakep there to Babylon. But even if naluhey e nekeuli them there to Yerusalem, not/none their just due nabalbalawi of standing up the temple. Therefore, the all tahu of this document, migbanasal them of egbalbalawan indeed igpasasindeg the temple. And/Now migsaad the Master God egmatubungen din and egbehayan din of good living that people changed e the behaviour and obeyed e him."
+        "ip": "This document contains a number of messages from Yahweh that the prophet Haggai passed on to the people in Yerushalem (Jerusalem). These events happened around 520 B.C., after many of God's people had gone back to Yerushalem after being taken into captivity in Babylon. However, even though they'd been back for a considerable time, they hadn't worked on rebuilding the temple. Therefore, these messages from Yahweh encourage the people to change their priorities and obey God and rebuild the temple. God then promised to prosper the people and bless their living situation."
       },
       {
-        "iot": "Main components of this “book”"
+        "iot": "Main components of this account"
       },
       {
         "io1": [
-          "The command of replacement standing up of temple",
+          "God's command to rebuild the temple",
           {
             "ior": "1:1-15",
             "closing": "\\ior*"
@@ -50,7 +50,7 @@
       },
       {
         "io1": [
-          "The stories egpakaliwang and egkapallateng",
+          "Stories of comfort and hope",
           {
             "ior": "2:1-23",
             "closing": "\\ior*"
@@ -77,7 +77,7 @@
       "chapterNumber": "1",
       "contents": [
         {
-          "s1": "The command of God of replacement of temple"
+          "s1": "God's command to rebuild the temple"
         },
         {
           "rem": "/s1 The Lord's Command to Rebuild the Temple; A Call to Rebuild the Temple; Zerubbabel restorer of the temple; A Call to Build the House of the Lord; The Command to Rebuild the Temple"
@@ -88,6 +88,21 @@
         {
           "verseNumber": "1",
           "contents": [
+            "In Dareyavesh's",
+            {
+              "add": "(Darius's)",
+              "closing": "\\add*"
+            },
+            "second year¦375561 as king¦375564",
+            {
+              "add": "of Persia",
+              "closing": "\\add*"
+            },
+            ", on the 1st of the sixth¦375566 month, the prophet¦375577 Haggai brought Yahweh's message¦375571 to the governor¦375584 of Yehudah, Zerubbabel (Shealtiel's son), and to the high¦375593 priest¦375592, Yehoshua (Yehozadak's son), telling",
+            {
+              "add": "them that",
+              "closing": "\\add*"
+            },
             {
               "x": [
                 "+",
@@ -99,86 +114,188 @@
                 }
               ],
               "closing": "\\x*"
-            },
-            "◙",
-            {
-              "p": ""
             }
           ],
-          "verseText": "◙"
+          "verseText": "In Dareyavesh's (Darius's) second year¦375561 as king¦375564 of Persia, on the 1st of the sixth¦375566 month, the prophet¦375577 Haggai brought Yahweh's message¦375571 to the governor¦375584 of Yehudah, Zerubbabel (Shealtiel's son), and to the high¦375593 priest¦375592, Yehoshua (Yehozadak's son), telling them that"
         },
         {
           "verseNumber": "2",
           "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "◙",
+            "army commander Yahweh says, “These people¦375601 say that",
+            {
+              "add": "≈it's not the right",
+              "closing": "\\add*"
+            },
+            "time to rebuild¦375612 Yahweh's",
+            {
+              "add": "≈residence",
+              "closing": "\\add*"
+            },
+            ".”",
             {
               "p": ""
             }
           ],
-          "verseText": "◙"
+          "verseText": "army commander Yahweh says, “These people¦375601 say that ≈it's not the right time to rebuild¦375612 Yahweh's ≈residence.”"
+        },
+        {
+          "verseNumber": "3",
+          "contents": [
+            "Then Yahweh",
+            {
+              "add": "≈gave this message¦375616",
+              "closing": "\\add*"
+            },
+            "to the prophet¦375622 Haggai",
+            {
+              "add": "to tell the people",
+              "closing": "\\add*"
+            },
+            ":",
+            {
+              "m": ""
+            }
+          ],
+          "verseText": "Then Yahweh ≈gave this message¦375616 to the prophet¦375622 Haggai to tell the people:"
+        },
+        {
+          "verseNumber": "4",
+          "contents": [
+            "Is it a time for all of you to live in your panelled¦375630 houses¦375629, while",
+            {
+              "add": "≈Yahweh's temple lies in ruins",
+              "closing": "\\add*"
+            },
+            "?"
+          ],
+          "verseText": "Is it a time for all of you to live in your panelled¦375630 houses¦375629, while ≈Yahweh's temple lies in ruins?"
+        },
+        {
+          "verseNumber": "5",
+          "contents": [
+            {
+              "add": "≈So¦375635",
+              "closing": "\\add*"
+            },
+            "now army commander Yahweh says¦375637: “",
+            {
+              "add": "≈Decide what you're all going to do",
+              "closing": "\\add*"
+            },
+            "."
+          ],
+          "verseText": "≈So¦375635 now army commander Yahweh says¦375637: “≈Decide what you're all going to do."
+        },
+        {
+          "verseNumber": "6",
+          "contents": [
+            "You've all planted a lot,",
+            {
+              "add": "≈but only harvested¦375648 a little¦375649. You've eaten¦375650, but it never fills you. You all drink, but never enough to satisfy¦375653 you. You put on clothes, but never feel warm enough. You earn wages¦375664, but your pockets seem to be full of holes",
+              "closing": "\\add*"
+            },
+            ".”",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "You've all planted a lot, ≈but only harvested¦375648 a little¦375649. You've eaten¦375650, but it never fills you. You all drink, but never enough to satisfy¦375653 you. You put on clothes, but never feel warm enough. You earn wages¦375664, but your pockets seem to be full of holes.”"
+        },
+        {
+          "verseNumber": "7",
+          "contents": [
+            {
+              "add": "≈So",
+              "closing": "\\add*"
+            },
+            "army commander Yahweh says¦375672",
+            {
+              "add": "again",
+              "closing": "\\add*"
+            },
+            ": “",
+            {
+              "add": "≈Decide what you're all going to do",
+              "closing": "\\add*"
+            },
+            "."
+          ],
+          "verseText": "≈So army commander Yahweh says¦375672 again: “≈Decide what you're all going to do."
+        },
+        {
+          "verseNumber": "8",
+          "contents": [
+            "Go up into the hills¦375682 and bring¦375683 back timber to build¦375685 the",
+            {
+              "add": "≈temple",
+              "closing": "\\add*"
+            },
+            ". This will please¦375687 and honour me,” says¦375692 Yahweh.",
+            {
+              "p": ""
+            }
+          ],
+          "verseText": "Go up into the hills¦375682 and bring¦375683 back timber to build¦375685 the ≈temple. This will please¦375687 and honour me,” says¦375692 Yahweh."
         },
         {
           "verseNumber": "9",
           "contents": [
-            "◙"
+            "“You",
+            {
+              "add": "≈expected",
+              "closing": "\\add*"
+            },
+            "much, but",
+            {
+              "add": "gained",
+              "closing": "\\add*"
+            },
+            "little¦375700. Anything you brought¦375701 home¦375702, I blew away",
+            {
+              "add": "again",
+              "closing": "\\add*"
+            },
+            ". Why? Army commander Yahweh says it's because my residence is still in ruins, while you're all",
+            {
+              "add": "busy",
+              "closing": "\\add*"
+            },
+            {
+              "add": "≈working on",
+              "closing": "\\add*"
+            },
+            "your own houses."
           ],
-          "verseText": "◙"
+          "verseText": "“You ≈expected much, but gained little¦375700. Anything you brought¦375701 home¦375702, I blew away again. Why? Army commander Yahweh says it's because my residence is still in ruins, while you're all busy ≈working on your own houses."
         },
         {
           "verseNumber": "10",
           "contents": [
-            "◙"
+            "That's why the sky withholds the dew and¦375731 the soil withholds its¦375733 crops."
           ],
-          "verseText": "◙"
+          "verseText": "That's why the sky withholds the dew and¦375731 the soil withholds its¦375733 crops."
         },
         {
           "verseNumber": "11",
           "contents": [
-            "◙",
+            "I've",
             {
-              "s1": "The obedience of command of God"
+              "add": "≈summoned",
+              "closing": "\\add*"
+            },
+            "a drought¦375736 onto the land and into the hills¦375742, onto the grain¦375745 and the new wine, onto the oil and crops from the ground, onto",
+            {
+              "add": "both",
+              "closing": "\\add*"
+            },
+            "people and livestock, and onto",
+            {
+              "add": "≈everything you all do",
+              "closing": "\\add*"
+            },
+            ".”",
+            {
+              "s1": "The people start rebuilding"
             },
             {
               "rem": "/s1 The People Obey the Lord's Command; Obedience to God's Call"
@@ -187,35 +304,75 @@
               "p": ""
             }
           ],
-          "verseText": "◙"
+          "verseText": "I've ≈summoned a drought¦375736 onto the land and into the hills¦375742, onto the grain¦375745 and the new wine, onto the oil and crops from the ground, onto both people and livestock, and onto ≈everything you all do.”"
         },
         {
           "verseNumber": "12",
           "contents": [
-            "◙"
+            "Then Shealtiyel's son Zerubavel and Yehotsadak's son Yehoshua, the high priest¦375779, and all the rest of the people listened¦375769 to the voice¦375785 of their God Yahweh",
+            {
+              "add": "≈via",
+              "closing": "\\add*"
+            },
+            "the words¦375790 of the prophet¦375792 Haggai, because Yahweh their God had sent him and the people",
+            {
+              "add": "≈respected",
+              "closing": "\\add*"
+            },
+            "Yahweh."
           ],
-          "verseText": "◙"
+          "verseText": "Then Shealtiyel's son Zerubavel and Yehotsadak's son Yehoshua, the high priest¦375779, and all the rest of the people listened¦375769 to the voice¦375785 of their God Yahweh ≈via the words¦375790 of the prophet¦375792 Haggai, because Yahweh their God had sent him and the people ≈respected Yahweh."
         },
         {
           "verseNumber": "13",
           "contents": [
-            "◙"
+            "Then¦375802 Yahweh's messenger¦375804 Haggai passed this message¦375806 from Yahweh onto the people¦375808, “Yahweh declares that I'm with you¦375811 all.”"
           ],
-          "verseText": "◙"
+          "verseText": "Then¦375802 Yahweh's messenger¦375804 Haggai passed this message¦375806 from Yahweh onto the people¦375808, “Yahweh declares that I'm with you¦375811 all.”"
         },
         {
           "verseNumber": "14",
           "contents": [
-            "◙"
+            "Then¦375816 Yahweh",
+            {
+              "add": "≈inspired",
+              "closing": "\\add*"
+            },
+            "Shealtiyel's son Zerubavel, the governor¦375825 of Judah,",
+            {
+              "add": "≈inspired",
+              "closing": "\\add*"
+            },
+            "Yehotsadak's son Yehoshua, the high¦375835 priest¦375834, and",
+            {
+              "add": "≈inspired",
+              "closing": "\\add*"
+            },
+            "all the rest of the people¦375841, and they came¦375842 and",
+            {
+              "add": "≈started",
+              "closing": "\\add*"
+            },
+            "work on the",
+            {
+              "add": "≈temple",
+              "closing": "\\add*"
+            },
+            "for their¦375849 God¦375849, army commander Yahweh,"
           ],
-          "verseText": "◙"
+          "verseText": "Then¦375816 Yahweh ≈inspired Shealtiyel's son Zerubavel, the governor¦375825 of Judah, ≈inspired Yehotsadak's son Yehoshua, the high¦375835 priest¦375834, and ≈inspired all the rest of the people¦375841, and they came¦375842 and ≈started work on the ≈temple for their¦375849 God¦375849, army commander Yahweh,"
         },
         {
           "verseNumber": "15",
           "contents": [
-            "◙"
+            "on the twenty-fourth day¦375852 of the sixth¦375856 month¦375855 of the second year¦375857 of Dareyavesh the king¦375860",
+            {
+              "add": "of Persia",
+              "closing": "\\add*"
+            },
+            "."
           ],
-          "verseText": "◙"
+          "verseText": "on the twenty-fourth day¦375852 of the sixth¦375856 month¦375855 of the second year¦375857 of Dareyavesh the king¦375860 of Persia."
         }
       ]
     },
@@ -223,10 +380,10 @@
       "chapterNumber": "2",
       "contents": [
         {
-          "s1": "The splendour of new temple"
+          "s1": "The splendour of the new temple"
         },
         {
-          "rem": "/s1 The Future Glory of the Temple; The New Temple's Splendor; The Splendor of the New Temple; The Promised Glory of the New House"
+          "rem": "/s1 The Future Glory of the Temple; The New Temple's Splendour; The Splendour of the New Temple; The Promised Glory of the New House"
         },
         {
           "p": null
@@ -234,20 +391,68 @@
         {
           "verseNumber": "1",
           "contents": [
-            "◙"
+            "On the 21st of the seventh¦375862 month",
+            {
+              "add": "(about a month later)",
+              "closing": "\\add*"
+            },
+            ", Yahweh",
+            {
+              "add": "≈spoke",
+              "closing": "\\add*"
+            },
+            {
+              "add": "again",
+              "closing": "\\add*"
+            },
+            "through the prophet¦375873 Haggai:"
           ],
-          "verseText": "◙"
+          "verseText": "On the 21st of the seventh¦375862 month (about a month later), Yahweh ≈spoke again through the prophet¦375873 Haggai:"
         },
         {
           "verseNumber": "2",
           "contents": [
-            "◙"
+            "Please",
+            {
+              "add": "≈ask",
+              "closing": "\\add*"
+            },
+            "Shealtiyel's son Zerubavel, the governor¦375885 of Judah, and",
+            {
+              "add": "≈ask",
+              "closing": "\\add*"
+            },
+            "Yehotsadak's son Yehoshua, the high¦375894 priest¦375893, and",
+            {
+              "add": "≈ask",
+              "closing": "\\add*"
+            },
+            "the rest of the people¦375898,"
           ],
-          "verseText": "◙"
+          "verseText": "Please ≈ask Shealtiyel's son Zerubavel, the governor¦375885 of Judah, and ≈ask Yehotsadak's son Yehoshua, the high¦375894 priest¦375893, and ≈ask the rest of the people¦375898,"
         },
         {
           "verseNumber": "3",
           "contents": [
+            "“",
+            {
+              "add": "≈Are there any of you still alive who saw¦375905 the splendour of the former¦375911 temple",
+              "closing": "\\add*"
+            },
+            "? How does it look to you all now?",
+            {
+              "add": "≈It must now seem pretty much like"
+            },
+            {
+              "em": [
+                "nothing¦375919",
+                {
+                  "em": "* in comparison",
+                  "closing": "\\add*"
+                },
+                "?"
+              ]
+            },
             {
               "x": [
                 "+",
@@ -259,21 +464,30 @@
                 }
               ],
               "closing": "\\x*"
-            },
-            "◙"
+            }
           ],
-          "verseText": "◙"
+          "verseText": "“≈Are there any of you still alive who saw¦375905 the splendour of the former¦375911 temple? How does it look to you all now? ≈It must now seem pretty much like nothing¦375919 * in comparison?"
         },
         {
           "verseNumber": "4",
           "contents": [
-            "◙"
+            "Yahweh is telling you now, Zerubavel, to be strong. And be strong high¦375935 priest¦375934 Yehoshua, and be strong all you people¦375939 of the land. Army commander Yahweh declares that I am with you",
+            {
+              "add": "≈as you work",
+              "closing": "\\add*"
+            },
+            "."
           ],
-          "verseText": "◙"
+          "verseText": "Yahweh is telling you now, Zerubavel, to be strong. And be strong high¦375935 priest¦375934 Yehoshua, and be strong all you people¦375939 of the land. Army commander Yahweh declares that I am with you ≈as you work."
         },
         {
           "verseNumber": "5",
           "contents": [
+            {
+              "add": "≈That's what I promised¦375955 your ancestors when they",
+              "closing": "\\add*"
+            },
+            "came¦375960 out of Egypt¦375961",
             {
               "x": [
                 "+",
@@ -286,16 +500,19 @@
               ],
               "closing": "\\x*"
             },
-            "◙",
+            "and my spirit¦375962 remains",
             {
-              "p": ""
-            }
+              "add": "≈among you",
+              "closing": "\\add*"
+            },
+            ". Don't be afraid¦375967,"
           ],
-          "verseText": "◙"
+          "verseText": "≈That's what I promised¦375955 your ancestors when they came¦375960 out of Egypt¦375961 and my spirit¦375962 remains ≈among you. Don't be afraid¦375967,"
         },
         {
           "verseNumber": "6",
           "contents": [
+            "because army commander Yahweh says¦375972 that in a little¦375977 while, I'll shake¦375980 the heavens¦375983 and the earth¦375986, the sea¦375989 and the dry land, once more.",
             {
               "x": [
                 "+",
@@ -307,31 +524,69 @@
                 }
               ],
               "closing": "\\x*"
-            },
-            "◙"
+            }
           ],
-          "verseText": "◙"
+          "verseText": "because army commander Yahweh says¦375972 that in a little¦375977 while, I'll shake¦375980 the heavens¦375983 and the earth¦375986, the sea¦375989 and the dry land, once more."
         },
         {
           "verseNumber": "7",
           "contents": [
-            "◙"
+            "I'll shake¦375994 all the nations, and they'll come",
+            {
+              "add": "here bringing",
+              "closing": "\\add*"
+            },
+            "their treasure. Then¦375994 I'll fill this",
+            {
+              "add": "≈temple",
+              "closing": "\\add*"
+            },
+            "with",
+            {
+              "add": "my",
+              "closing": "\\add*"
+            },
+            "splendour¦376010 says army commander Yahweh."
           ],
-          "verseText": "◙"
+          "verseText": "I'll shake¦375994 all the nations, and they'll come here bringing their treasure. Then¦375994 I'll fill this ≈temple with my splendour¦376010 says army commander Yahweh."
         },
         {
           "verseNumber": "8",
           "contents": [
-            "◙"
+            "Army commander Yahweh declares that the gold¦376018 and¦376017 silver¦376016",
+            {
+              "add": "belong",
+              "closing": "\\add*"
+            },
+            "to me."
           ],
-          "verseText": "◙"
+          "verseText": "Army commander Yahweh declares that the gold¦376018 and¦376017 silver¦376016 belong to me."
         },
         {
           "verseNumber": "9",
           "contents": [
-            "◙",
             {
-              "s1": "The questioning of Hagiyu of priests"
+              "add": "*I",
+              "closing": "\\add*"
+            },
+            "declare that this",
+            {
+              "add": "≈temple",
+              "closing": "\\add*"
+            },
+            "will be",
+            {
+              "add": "≈greater in the future than it¦376024 was in the past",
+              "closing": "\\add*"
+            },
+            ", and",
+            {
+              "add": "also",
+              "closing": "\\add*"
+            },
+            "that I will give¦376037 peace¦376038 and prosperity to this place¦376035.”",
+            {
+              "s1": "The questioning of Haggai of priests"
             },
             {
               "rem": "/s1 Blessings Promised for Obedience; Blessings for a Defiled People; A Rebuke and a Promise; The Prophet Consults the Priests"
@@ -340,38 +595,85 @@
               "p": ""
             }
           ],
-          "verseText": "◙"
+          "verseText": "*I declare that this ≈temple will be ≈greater in the future than it¦376024 was in the past, and also that I will give¦376037 peace¦376038 and prosperity to this place¦376035.”"
         },
         {
           "verseNumber": "10",
           "contents": [
-            "◙"
+            "On the 24th of the ninth¦376046 month in",
+            {
+              "add": "King",
+              "closing": "\\add*"
+            },
+            "Dareyavesh's second year¦376047",
+            {
+              "add": "(about two¦376048 months later)",
+              "closing": "\\add*"
+            },
+            ", Yahweh",
+            {
+              "add": "≈gave a message¦376051",
+              "closing": "\\add*"
+            },
+            "to the prophet Haggai the prophet:"
           ],
-          "verseText": "◙"
+          "verseText": "On the 24th of the ninth¦376046 month in King Dareyavesh's second year¦376047 (about two¦376048 months later), Yahweh ≈gave a message¦376051 to the prophet Haggai the prophet:"
         },
         {
           "verseNumber": "11",
           "contents": [
-            "◙"
+            "Army commander Yahweh says¦376061, “Ask the priests¦376069 about",
+            {
+              "add": "Mosheh's",
+              "closing": "\\add*"
+            },
+            {
+              "add": "≈instructions¦376070",
+              "closing": "\\add*"
+            },
+            "."
           ],
-          "verseText": "◙"
+          "verseText": "Army commander Yahweh says¦376061, “Ask the priests¦376069 about Mosheh's ≈instructions¦376070."
         },
         {
           "verseNumber": "12",
           "contents": [
-            "◙",
+            "‘",
             {
-              "p": "…"
+              "add": "≈If a priest took some meat that had been offered to God and carried it wrapped in a piece of clothing, then if the clothing touched¦376083 some other food, would that other food",
+              "closing": "\\add*"
+            },
+            "become¦376102 holy?’ ”",
+            {
+              "p": [
+                "“No, it wouldn't,” the priests¦376104",
+                {
+                  "add": "≈replied",
+                  "closing": "\\add*"
+                },
+                "."
+              ]
             },
             {
               "p": ""
             }
           ],
-          "verseText": "◙ …"
+          "verseText": "‘ ≈If a priest took some meat that had been offered to God and carried it wrapped in a piece of clothing, then if the clothing touched¦376083 some other food, would that other food become¦376102 holy?’ ” “No, it wouldn't,” the priests¦376104 ≈replied."
         },
         {
           "verseNumber": "13",
           "contents": [
+            "Then¦376108 Haggai asked, “",
+            {
+              "add": "But¦376108",
+              "closing": "\\add*"
+            },
+            "if a person became unclean by touching a corpse¦376115 and then touched any of that",
+            {
+              "add": "food",
+              "closing": "\\add*"
+            },
+            ", would it become unclean?”",
             {
               "x": [
                 "+",
@@ -384,63 +686,143 @@
               ],
               "closing": "\\x*"
             },
-            "◙",
             {
-              "p": "…"
+              "p": [
+                "“",
+                {
+                  "add": "Yes,",
+                  "closing": "\\add*"
+                },
+                "it would become unclean,” the priests¦376121 answered¦376120."
+              ]
             },
             {
               "p": ""
             }
           ],
-          "verseText": "◙ …"
+          "verseText": "Then¦376108 Haggai asked, “But¦376108 if a person became unclean by touching a corpse¦376115 and then touched any of that food, would it become unclean?” “Yes, it would become unclean,” the priests¦376121 answered¦376120."
         },
         {
           "verseNumber": "14",
           "contents": [
-            "◙",
+            "“",
             {
-              "rem": "/s1 The Lord Promises His Blessing"
+              "add": "≈That's what Yahweh declares about you",
+              "closing": "\\add*"
+            },
+            "people¦376129,” Haggai",
+            {
+              "add": "≈continued",
+              "closing": "\\add*"
+            },
+            ". “",
+            {
+              "add": "He says that",
+              "closing": "\\add*"
             },
             {
-              "p": ""
+              "add": "≈that's how this country acts towards him",
+              "closing": "\\add*"
+            },
+            ".",
+            {
+              "add": "≈Your actions are dishonourable and then that same disrespect transfers to your offerings",
+              "closing": "\\add*"
+            },
+            {
+              "rem": "/s1 The Lord Promises His Blessing"
             }
           ],
-          "verseText": "◙"
+          "verseText": "“≈That's what Yahweh declares about you people¦376129,” Haggai ≈continued. “He says that ≈that's how this country acts towards him. ≈Your actions are dishonourable and then that same disrespect transfers to your offerings"
         },
         {
           "verseNumber": "15",
           "contents": [
-            "◙"
+            "So¦376151 now think back to before¦376161 when stones were being laid for Yahweh's¦376169 temple."
           ],
-          "verseText": "◙"
+          "verseText": "So¦376151 now think back to before¦376161 when stones were being laid for Yahweh's¦376169 temple."
         },
         {
           "verseNumber": "16",
           "contents": [
-            "◙"
+            {
+              "add": "≈During that time",
+              "closing": "\\add*"
+            },
+            ", when someone went to get twenty",
+            {
+              "add": "containers of grain",
+              "closing": "\\add*"
+            },
+            ", there were",
+            {
+              "add": "only",
+              "closing": "\\add*"
+            },
+            "ten¦376178 there, and when someone went to fill fifty¦376184",
+            {
+              "add": "jars of wine",
+              "closing": "\\add*"
+            },
+            "from the vat, there was",
+            {
+              "add": "only enough for",
+              "closing": "\\add*"
+            },
+            "twenty."
           ],
-          "verseText": "◙"
+          "verseText": "≈During that time, when someone went to get twenty containers of grain, there were only ten¦376178 there, and when someone went to fill fifty¦376184 jars of wine from the vat, there was only enough for twenty."
         },
         {
           "verseNumber": "17",
           "contents": [
-            "◙"
+            "Yahweh declares that he",
+            {
+              "add": "≈caused",
+              "closing": "\\add*"
+            },
+            "blight¦376191 and mildew¦376192 and hail to affect your work,",
+            {
+              "add": "≈but",
+              "closing": "\\add*"
+            },
+            "you",
+            {
+              "add": "still",
+              "closing": "\\add*"
+            },
+            "didn't turn to him."
           ],
-          "verseText": "◙"
+          "verseText": "Yahweh declares that he ≈caused blight¦376191 and mildew¦376192 and hail to affect your work, ≈but you still didn't turn to him."
         },
         {
           "verseNumber": "18",
           "contents": [
-            "◙"
+            "Think back to the time from when the foundation¦376225 of Yahweh's temple¦376226 was laid, until today (this 24th of the ninth¦376219 month). Consider that."
           ],
-          "verseText": "◙"
+          "verseText": "Think back to the time from when the foundation¦376225 of Yahweh's temple¦376226 was laid, until today (this 24th of the ninth¦376219 month). Consider that."
         },
         {
           "verseNumber": "19",
           "contents": [
-            "◙",
+            "Is",
             {
-              "s1": "The promise of God to Sirubabil"
+              "add": "any grain",
+              "closing": "\\add*"
+            },
+            "left in the storehouse for seed?",
+            {
+              "add": "What's more,",
+              "closing": "\\add*"
+            },
+            "the vines, and the fig¦376238 trees and pomegranate¦376239 trees and olive trees, haven't produced fruit.",
+            {
+              "add": "However,",
+              "closing": "\\add*"
+            },
+            "Yahweh will bless you from today onwards.”",
+            {
+              "s1": "God's promise to Zerubavel"
             },
             {
               "rem": "/s1 The Lord's Promise to Zerubbabel; God's Promise to Zerubbabel; Promises for Zerubbabel; Zerubbabel the Lord's Signet Ring"
@@ -449,35 +831,54 @@
               "p": ""
             }
           ],
-          "verseText": "◙"
+          "verseText": "Is any grain left in the storehouse for seed? What's more, the vines, and the fig¦376238 trees and pomegranate¦376239 trees and olive trees, haven't produced fruit. However, Yahweh will bless you from today onwards.”"
         },
         {
           "verseNumber": "20",
           "contents": [
-            "◙"
+            "Then Yahweh gave a second¦376256 message¦376252 to Haggai on the 24th:"
           ],
-          "verseText": "◙"
+          "verseText": "Then Yahweh gave a second¦376256 message¦376252 to Haggai on the 24th:"
         },
         {
           "verseNumber": "21",
           "contents": [
-            "◙"
+            "Tell Zerubavel, the governor¦376269 of Yehudah, “I'm",
+            {
+              "add": "about¦376274 to",
+              "closing": "\\add*"
+            },
+            "shake¦376274 the heavens¦376277 and the earth¦376280."
           ],
-          "verseText": "◙"
+          "verseText": "Tell Zerubavel, the governor¦376269 of Yehudah, “I'm about¦376274 to shake¦376274 the heavens¦376277 and the earth¦376280."
         },
         {
           "verseNumber": "22",
           "contents": [
-            "◙"
+            "I'll overthrow the thrones¦376283 of kingdoms, and destroy¦376285 the strength¦376286 of the nations¦376288. I'll overthrow chariots¦376290 and riders—horses¦376293 and their riders will fall and",
+            {
+              "add": "related tribes",
+              "closing": "\\add*"
+            },
+            {
+              "add": "≈will kill¦376285 each other",
+              "closing": "\\add*"
+            },
+            "."
           ],
-          "verseText": "◙"
+          "verseText": "I'll overthrow the thrones¦376283 of kingdoms, and destroy¦376285 the strength¦376286 of the nations¦376288. I'll overthrow chariots¦376290 and riders—horses¦376293 and their riders will fall and related tribes ≈will kill¦376285 each other."
         },
         {
           "verseNumber": "23",
           "contents": [
-            "◙"
+            "Army commander Yahweh declares that on that day¦376299 he will take¦376305 Shealtiyel's son Zerubavel and",
+            {
+              "add": "≈cause him to place Yahweh's mark on the nation",
+              "closing": "\\add*"
+            },
+            "like a signet¦376315 ring, because he's been chosen¦376319.”"
           ],
-          "verseText": "◙"
+          "verseText": "Army commander Yahweh declares that on that day¦376299 he will take¦376305 Shealtiyel's son Zerubavel and ≈cause him to place Yahweh's mark on the nation like a signet¦376315 ring, because he's been chosen¦376319.”"
         }
       ]
     }
