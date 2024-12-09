@@ -81,6 +81,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
               child: ReaderAreaPopup(
                 readerArea: Area.secondary,
                 onToggleSecondaryArea: viewModel.onToggleSecondaryArea,
+                onToggleLinkedScrolling: viewModel.onToggleLinkedScrolling,
               ),
             ),
           if (viewModel.isPrimaryReaderAreaPopupActive)
@@ -89,6 +90,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
               child: ReaderAreaPopup(
                 readerArea: Area.primary,
                 onToggleSecondaryArea: viewModel.onToggleSecondaryArea,
+                onToggleLinkedScrolling: viewModel.onToggleLinkedScrolling,
               ),
             ),
         ],

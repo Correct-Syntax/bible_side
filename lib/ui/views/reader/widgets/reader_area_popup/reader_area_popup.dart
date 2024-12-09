@@ -12,10 +12,12 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
     super.key,
     required this.readerArea,
     required this.onToggleSecondaryArea,
+    required this.onToggleLinkedScrolling,
   });
 
   final Area readerArea;
   final Function() onToggleSecondaryArea;
+  final Function() onToggleLinkedScrolling;
 
   @override
   Widget builder(
@@ -115,7 +117,7 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
             ),
           ),
           InkWell(
-            onTap: viewModel.onTapLinkUnlinkReaderAreas,
+            onTap: onToggleLinkedScrolling,
             child: Padding(
               padding: const EdgeInsets.all(8.0),
               child: PhosphorIcon(

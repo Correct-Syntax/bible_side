@@ -4,7 +4,6 @@ import 'package:stacked_services/stacked_services.dart';
 import '../../../../../app/app.locator.dart';
 import '../../../../../app/app.router.dart';
 import '../../../../../common/enums.dart';
-import '../../../../../common/toast.dart';
 import '../../../../../services/settings_service.dart';
 
 class ReaderAreaPopupModel extends ReactiveViewModel {
@@ -16,11 +15,6 @@ class ReaderAreaPopupModel extends ReactiveViewModel {
 
   bool get showSecondaryArea => _settingsService.showSecondaryArea;
   bool get linkReaderAreaScrolling => _settingsService.linkReaderAreaScrolling;
-
-  void onTapLinkUnlinkReaderAreas() {
-    showToastMsg(linkReaderAreaScrolling == true ? 'Scrolling is linked' : 'Scrolling is unlinked');
-    rebuildUi();
-  }
 
   void onChangePrimaryBibleVersion() {
     _navigationService.clearStackAndShow(

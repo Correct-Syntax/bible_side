@@ -12,6 +12,7 @@ import '../../../app/app.locator.dart';
 import '../../../app/app.router.dart';
 import '../../../common/enums.dart';
 import '../../../common/themes.dart';
+import '../../../common/toast.dart';
 import '../../../services/bibles_service.dart';
 import '../../../services/reader_service.dart';
 import '../../../services/settings_service.dart';
@@ -48,14 +49,13 @@ class ReaderViewModel extends ReactiveViewModel {
     await _biblesService.reloadBiblesJson();
 
     String primaryAreaHTML = _readerService.getReaderBookHTML(Area.primary, viewBy, primaryAreaBible, bookCode);
-    String secondaryAreaHTML = '';
-    if (showSecondaryArea == true) {
-      secondaryAreaHTML = _readerService.getReaderBookHTML(Area.secondary, viewBy, secondaryAreaBible, bookCode);
-    }
+    String secondaryAreaHTML = _readerService.getReaderBookHTML(Area.secondary, viewBy, secondaryAreaBible, bookCode);
+
     await initilizeReaderWebview(
       primaryAreaHTML,
       secondaryAreaHTML,
       showSecondaryArea,
+      linkReaderAreaScrolling,
     );
     rebuildUi();
   }
@@ -102,7 +102,8 @@ class ReaderViewModel extends ReactiveViewModel {
   }
 
   /// Initilizes the webview html with everything except for the reader area contents.
-  Future<void> initilizeReaderWebview(String primaryAreaHTML, String secondaryAreaHTML, bool showSecondaryArea) async {
+  Future<void> initilizeReaderWebview(
+      String primaryAreaHTML, String secondaryAreaHTML, bool showSecondaryArea, bool linkReaderAreaScrolling) async {
     // Load font
     ByteData fontData = await rootBundle.load('assets/fonts/Merriweather/Merriweather-Regular.ttf');
     String fontUri = getFontUri(fontData, 'font/truetype').toString();
@@ -338,9 +339,11 @@ class ReaderViewModel extends ReactiveViewModel {
   </div>
 
   <script>
+    var elements = null;
+    var handleScroll = null;
     document.addEventListener("DOMContentLoaded", () => {
       const container = document.getElementById("container");
-      const elements = [...container.querySelectorAll(".scrollable")];
+      elements = [...container.querySelectorAll(".scrollable")];
 
       const syncScroll = (scrolledEle, ele) => {
         const scrolledPercent = scrolledEle.scrollTop / (scrolledEle.scrollHeight - scrolledEle.clientHeight);
@@ -356,7 +359,7 @@ class ReaderViewModel extends ReactiveViewModel {
         });
       };
 
-      const handleScroll = (e) => {
+      handleScroll = (e) => {
         const scrolledEle = e.target;
         elements.filter((item) => item !== scrolledEle).forEach((ele) => {
           ele.removeEventListener("scroll", handleScroll);
@@ -366,10 +369,12 @@ class ReaderViewModel extends ReactiveViewModel {
           });
         });
       };
-
-      elements.forEach((ele) => {
-        ele.addEventListener("scroll", handleScroll);
-      });
+      
+      ${linkReaderAreaScrolling == true ? """
+        elements.forEach((ele) => {
+          ele.addEventListener("scroll", handleScroll);
+        });
+      """ : ""}
 
       document.getElementById("$id").scrollIntoView();
     });
@@ -395,30 +400,29 @@ class ReaderViewModel extends ReactiveViewModel {
     } else {
       areaId = 'secondaryReader';
     }
-    await webviewController.runJavaScript("""
-      document.addEventListener("DOMContentLoaded", () => {
-        document.getElementById('$areaId').innerHTML = '$htmlContent';
-      });
-    """);
-
+    await webviewController.runJavaScript('document.getElementById("$areaId").innerHTML = "$htmlContent";');
     rebuildUi();
   }
 
   Future<void> jumpToHTMLId(String id) async {
-    await webviewController.runJavaScript("""
-      document.getElementById('$id').scrollIntoView();
-    """);
+    await webviewController.runJavaScript('document.getElementById("$id").scrollIntoView();');
   }
 
   Future<void> toggleSecondaryAreaHTML(bool showSecondaryArea) async {
     if (showSecondaryArea == false) {
-      await webviewController.runJavaScript("""
-        document.getElementById('container').classList.add('hidden');
-      """);
+      await webviewController.runJavaScript('document.getElementById("container").classList.add("hidden");');
     } else {
-      await webviewController.runJavaScript("""
-        document.getElementById('container').classList.remove('hidden');
-      """);
+      await webviewController.runJavaScript('document.getElementById("container").classList.remove("hidden");');
+    }
+  }
+
+  Future<void> toggleLinkedScrollingHTML(bool linkScrolling) async {
+    if (linkScrolling == true) {
+      await webviewController
+          .runJavaScript('elements.forEach((ele) => {ele.addEventListener("scroll", handleScroll);});');
+    } else {
+      await webviewController
+          .runJavaScript('elements.forEach((ele) => {ele.removeEventListener("scroll", handleScroll);});');
     }
   }
 
@@ -490,6 +494,13 @@ class ReaderViewModel extends ReactiveViewModel {
   void onToggleSecondaryArea() async {
     _settingsService.setShowSecondaryArea(!showSecondaryArea);
     await toggleSecondaryAreaHTML(showSecondaryArea);
+    rebuildUi();
+  }
+
+  void onToggleLinkedScrolling() async {
+    _settingsService.setLinkReaderAreaScrolling(!linkReaderAreaScrolling);
+    await toggleLinkedScrollingHTML(linkReaderAreaScrolling);
+    showToastMsg(linkReaderAreaScrolling == true ? 'Scrolling is linked' : 'Scrolling is unlinked');
     rebuildUi();
   }
 
