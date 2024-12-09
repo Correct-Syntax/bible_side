@@ -7,7 +7,7 @@ import '../json_to_bible.dart';
 class OETLiteralBibleImpl extends JsonToBible {
   OETLiteralBibleImpl(Map<String, dynamic> json) : super(json: json);
 
-  // TODO: currently removes all ' marks.
+  // TODO: currently replaces all ' marks with ’.
   @override
   String getBook(String bookCode, ViewBy viewBy) {
     String htmlText = '';
@@ -102,12 +102,12 @@ class OETLiteralBibleImpl extends JsonToBible {
 
             if (isSection == true && isNext == true) {
               htmlText +=
-                  """<p class="p"><div class="section-box"><p><sup id="$bookCode$chapterNumber:$sectionVerseReference">$chapterNumber:$sectionVerseReference</sup> ${sectionText.replaceAll("'", "")}</p></div><span>$chapterNumberHtml<sup>$sectionVerseReference</sup>${verseText.replaceAll("'", "")}</span>""";
+                  """<p class="p"><div class="section-box"><p><sup id="$bookCode$chapterNumber:$sectionVerseReference">$chapterNumber:$sectionVerseReference</sup> ${sectionText.replaceAll("'", "")}</p></div><span>$chapterNumberHtml<sup>$sectionVerseReference</sup>${verseText.replaceAll("'", "’")}</span>""";
 
               isSection = false;
               isNext = false;
             } else {
-              htmlText += "${verseText.replaceAll("'", "")}</span>";
+              htmlText += "${verseText.replaceAll("'", "’")}</span>";
             }
           }
         }

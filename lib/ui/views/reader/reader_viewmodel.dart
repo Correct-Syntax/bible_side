@@ -64,6 +64,7 @@ class ReaderViewModel extends ReactiveViewModel {
     PlatformWebViewControllerCreationParams params = const PlatformWebViewControllerCreationParams();
     webviewController = WebViewController.fromPlatformCreationParams(params)
       ..setBackgroundColor(context.theme.appColors.background)
+      ..enableZoom(false)
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
       ..addJavaScriptChannel(
         'OnEvent',
@@ -129,6 +130,7 @@ class ReaderViewModel extends ReactiveViewModel {
 <html lang="en">
 <head>
   <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 </head>
 <body class="$themeName">
   <style>
@@ -194,22 +196,23 @@ class ReaderViewModel extends ReactiveViewModel {
 
     #primaryReader {
       font-family: 'Merriweather';
-      font-size: 43px;
-      letter-spacing: 0.5px;
+      font-size: ${0.9 * textScaling}rem;
+      letter-spacing: 0.3px;
       line-height: 155%;
       height: 50vh;
-      margin-left: 57px;
-      margin-right: 57px;
+      padding-top: 0.3rem;
+      margin-left: 0.8rem;
+      margin-right: 0.8rem;
     }
 
     #secondaryReader {
       font-family: 'Merriweather';
-      font-size: 43px;
-      letter-spacing: 0.5px;
+      font-size: ${0.9 * textScaling}rem;
+      letter-spacing: 0.3px;
       line-height: 155%;
       height: 50vh;
-      margin-left: 57px;
-      margin-right: 57px;
+      margin-left: 0.8rem;
+      margin-right: 0.8rem;
     }
 
     .container.hidden #primaryReader {
@@ -226,8 +229,8 @@ class ReaderViewModel extends ReactiveViewModel {
     }
 
     hr {
-      margin-top: 12px;
-      margin-bottom: 12px;
+      margin-top: 8px;
+      margin-bottom: 8px;
       width: 100%;
     }
 
@@ -248,21 +251,21 @@ class ReaderViewModel extends ReactiveViewModel {
     }
 
     p.p {
-      text-indent: 0.5em;
-      margin-top: 0.2em;
-      margin-bottom: 0.2em;
+      text-indent: 0.5rem;
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
     }
 
     sup {
-      font-size: 28px;
-      margin-left: 1.2rem;
-      margin-right: 0.4rem;
+      font-size: ${0.6 * textScaling}rem;
+      margin-left: 0.4rem;
+      margin-right: 0.2rem;
     }
 
     .c {
-      font-size: 70px;
-      margin-right: 0.5rem;
-      margin-left: 0.5rem;
+      font-size: ${1.6 * textScaling}rem;
+      margin-right: 0.3rem;
+      margin-left: 0.2rem;
     }
 
     a {
@@ -274,19 +277,19 @@ class ReaderViewModel extends ReactiveViewModel {
       width: 40%;
       border-width: 2px;
       border-style: solid;
-      padding: 0.2em;
-      font-size: 38px;
+      padding: 0.2rem;
+      font-size: ${0.8 * textScaling}rem;
       font-weight: bold;
       line-height: normal;
-      padding: 1rem;
-      margin-left: 0.4rem;
-      border-radius: 7px;
+      padding: 0.6rem;
+      margin-left: 0.3rem;
+      border-radius: 2px;
     }
 
     .section-box sup {
-      font-size: 26px;
+      font-size: ${0.6 * textScaling}rem;
       margin-left: 0rem;
-      margin-right: 0.2rem;
+      margin-right: 0.1rem;
     }
 
     .section-box p {
@@ -296,7 +299,7 @@ class ReaderViewModel extends ReactiveViewModel {
     }
 
     .light .section-box {
-      border-color: var(--light-theme-medium-slate);
+      border-color: var(--light-theme-medium-slate-10);
     }
 
     .dark .section-box {

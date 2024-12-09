@@ -126,7 +126,7 @@ class SettingsView extends StackedView<SettingsViewModel> {
                                   child: Slider(
                                     value: viewModel.textScaling,
                                     min: 1.0,
-                                    max: 2.0,
+                                    max: 1.5,
                                     onChanged: viewModel.changeTextScaling,
                                   ),
                                 ),
