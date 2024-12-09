@@ -216,6 +216,13 @@ class ReaderViewModel extends ReactiveViewModel {
       margin-right: 0.8rem;
     }
 
+    .container {
+      display: flex;
+      flex-direction: column;
+      max-height: 100vh;
+      margin: 0;
+    }
+
     .container.hidden #primaryReader {
       height: 100vh;
     }
@@ -227,6 +234,10 @@ class ReaderViewModel extends ReactiveViewModel {
 
     .container.hidden .separator {
       display: none;
+    }
+
+    .scrollable {
+      overflow: auto;
     }
 
     hr {
@@ -315,14 +326,26 @@ class ReaderViewModel extends ReactiveViewModel {
       border-color: var(--contrast-theme-white);
     }
 
-    .container {
-      display: flex;
-      flex-direction: column;
-      max-height: 100vh;
-    }
-
-    .scrollable {
-      overflow: auto;
+    @media screen and (min-width: 400px) {
+      .container {
+        flex-direction: row;
+      }
+      #primaryReader {
+        width: 50vw;
+        height: 100vh;
+        padding-top: 0.1rem;
+      }
+      #secondaryReader {
+        width: 50vw;
+        height: 100vh;
+        padding-top: 0.1rem;
+      }
+      hr {
+        height: 100vh;
+        max-width: 0.5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
     }
   </style>
 

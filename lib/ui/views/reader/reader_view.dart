@@ -51,49 +51,51 @@ class ReaderView extends StackedView<ReaderViewModel> {
               ),
             )
           : null,
-      body: Stack(
-        children: [
-          Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              Expanded(
-                child: WebViewWidget(
-                  controller: viewModel.webviewController,
-                ),
-              ),
-              if (viewModel.primaryAreaBible != 'KJV' || viewModel.secondaryAreaBible != 'KJV')
-                Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 4.0, horizontal: 12.0),
-                  child: Text(
-                    'This is still a very early look into the unfinished text of the Open English Translation of the Bible. Please double-check the text in advance before using in public.',
-                    style: TextStyle(
-                      fontSize: 8.0,
-                      color: context.theme.appColors.readerText,
-                    ),
+      body: SafeArea(
+        child: Stack(
+          children: [
+            Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                Expanded(
+                  child: WebViewWidget(
+                    controller: viewModel.webviewController,
                   ),
                 ),
-            ],
-          ),
-          if (viewModel.isSecondaryReaderAreaPopupActive)
-            Align(
-              alignment: Alignment.topCenter,
-              child: ReaderAreaPopup(
-                readerArea: Area.secondary,
-                onToggleSecondaryArea: viewModel.onToggleSecondaryArea,
-                onToggleLinkedScrolling: viewModel.onToggleLinkedScrolling,
-              ),
+                if (viewModel.primaryAreaBible != 'KJV' || viewModel.secondaryAreaBible != 'KJV')
+                  Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 4.0, horizontal: 12.0),
+                    child: Text(
+                      'This is still a very early look into the unfinished text of the Open English Translation of the Bible. Please double-check the text in advance before using in public.',
+                      style: TextStyle(
+                        fontSize: 8.0,
+                        color: context.theme.appColors.readerText,
+                      ),
+                    ),
+                  ),
+              ],
             ),
-          if (viewModel.isPrimaryReaderAreaPopupActive)
-            Align(
-              alignment: Alignment.bottomCenter,
-              child: ReaderAreaPopup(
-                readerArea: Area.primary,
-                onToggleSecondaryArea: viewModel.onToggleSecondaryArea,
-                onToggleLinkedScrolling: viewModel.onToggleLinkedScrolling,
+            if (viewModel.isSecondaryReaderAreaPopupActive)
+              Align(
+                alignment: Alignment.topCenter,
+                child: ReaderAreaPopup(
+                  readerArea: Area.secondary,
+                  onToggleSecondaryArea: viewModel.onToggleSecondaryArea,
+                  onToggleLinkedScrolling: viewModel.onToggleLinkedScrolling,
+                ),
               ),
-            ),
-        ],
+            if (viewModel.isPrimaryReaderAreaPopupActive)
+              Align(
+                alignment: Alignment.bottomCenter,
+                child: ReaderAreaPopup(
+                  readerArea: Area.primary,
+                  onToggleSecondaryArea: viewModel.onToggleSecondaryArea,
+                  onToggleLinkedScrolling: viewModel.onToggleLinkedScrolling,
+                ),
+              ),
+          ],
+        ),
       ),
       endDrawer: SideNavigationDrawer(
         closeNavigation: () => _scaffoldKey.currentState?.closeEndDrawer(),

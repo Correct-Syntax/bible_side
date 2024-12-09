@@ -5,6 +5,7 @@ import 'package:stacked/stacked.dart';
 import '../../../../../common/bibles.dart';
 import '../../../../../common/enums.dart';
 import '../../../../../common/themes.dart';
+import '../../../../common/ui_helpers.dart';
 import 'reader_area_popup_model.dart';
 
 class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
@@ -25,6 +26,7 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
     ReaderAreaPopupModel viewModel,
     Widget? child,
   ) {
+    bool isWideLayout = shouldSwitchToWideLayout(context);
     return Container(
       height: 200.0,
       color: context.theme.appColors.popupBackground,
@@ -42,22 +44,25 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
                   children: [
                     Row(
                       children: [
-                        Stack(
-                          children: [
-                            PhosphorIcon(
-                              PhosphorIcons.squareSplitVertical(PhosphorIconsStyle.regular),
-                              color: context.theme.appColors.primaryOnDark,
-                              size: 22.0,
-                            ),
-                            Padding(
-                              padding: const EdgeInsets.only(top: 4.0, left: 4.0),
-                              child: Container(
-                                width: 14.0,
-                                height: 7.0,
+                        RotatedBox(
+                          quarterTurns: isWideLayout ? -1 : 0,
+                          child: Stack(
+                            children: [
+                              PhosphorIcon(
+                                PhosphorIcons.squareSplitVertical(PhosphorIconsStyle.regular),
                                 color: context.theme.appColors.primaryOnDark,
+                                size: 22.0,
                               ),
-                            ),
-                          ],
+                              Padding(
+                                padding: const EdgeInsets.only(top: 4.0, left: 4.0),
+                                child: Container(
+                                  width: 14.0,
+                                  height: 7.0,
+                                  color: context.theme.appColors.primaryOnDark,
+                                ),
+                              ),
+                            ],
+                          ),
                         ),
                         const SizedBox(width: 14.0),
                         Column(
@@ -141,22 +146,25 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
                 children: [
                   Row(
                     children: [
-                      Stack(
-                        children: [
-                          PhosphorIcon(
-                            PhosphorIcons.squareSplitVertical(PhosphorIconsStyle.regular),
-                            color: context.theme.appColors.primaryOnDark,
-                            size: 22.0,
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.only(top: 12.0, left: 4.0),
-                            child: Container(
-                              width: 14.0,
-                              height: 7.0,
+                      RotatedBox(
+                        quarterTurns: isWideLayout ? 3 : 0,
+                        child: Stack(
+                          children: [
+                            PhosphorIcon(
+                              PhosphorIcons.squareSplitVertical(PhosphorIconsStyle.regular),
                               color: context.theme.appColors.primaryOnDark,
+                              size: 22.0,
                             ),
-                          ),
-                        ],
+                            Padding(
+                              padding: const EdgeInsets.only(top: 12.0, left: 4.0),
+                              child: Container(
+                                width: 14.0,
+                                height: 7.0,
+                                color: context.theme.appColors.primaryOnDark,
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
                       const SizedBox(width: 14.0),
                       Column(
