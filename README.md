@@ -23,10 +23,11 @@ Bibleside implements the OET's "Reader's" version in the main area and a toggle 
 Others?
 
 
-## Known issues/TODO
+## TODO
 
-- Some place don't have chapter numbers
-- Some sections are missing or have misplaced starting points (fix in update_OET_sections.py)
+- Some places don't have chapter numbers.
+- Some sections are missing or have misplaced starting points (fix in update_OET_sections.py).
+- Need to fix issue with standard single quotes in the HTML.
 
 
 ## Feedback/contributing
