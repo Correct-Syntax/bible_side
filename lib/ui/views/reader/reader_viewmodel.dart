@@ -11,6 +11,7 @@ import 'package:webview_flutter_android/webview_flutter_android.dart';
 import '../../../app/app.locator.dart';
 import '../../../app/app.router.dart';
 import '../../../common/enums.dart';
+import '../../../common/oet_rv_section_start_end.dart';
 import '../../../common/themes.dart';
 import '../../../common/toast.dart';
 import '../../../services/bibles_service.dart';
@@ -123,8 +124,20 @@ class ReaderViewModel extends ReactiveViewModel {
         themeName = CurrentTheme.contrast.name;
     }
 
-    // Jump to id
-    String id = '$bookCode$chapterNumber:1'; // TODO: set appropriate verse number
+    // If viewBy is 'section', jump to a specific verse. Otherwise 
+    // for 'chapter' we fallback on the first verse of the chapter.
+    String id = '$bookCode$chapterNumber:1';
+    if (viewBy == ViewBy.section) {
+      Map<String, dynamic>? sectionReferences = sectionStartEndMappingForOET[bookCode]?[sectionNumber];
+
+      if (sectionReferences != null) {
+        Map<String, int> startReference = sectionReferences['start']!;
+        int startChapter = startReference['chapter']!;
+        int startVerse = startReference['verse']!;
+
+        id = '$bookCode$startChapter:$startVerse';
+      }
+    }
 
     Uri htmlUri = Uri.dataFromString("""
 <!DOCTYPE html>

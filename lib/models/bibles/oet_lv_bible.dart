@@ -114,7 +114,7 @@ class OETLiteralBibleImpl extends JsonToBible {
       }
     }
 
-    log(htmlText);
+    //log(htmlText);
     return htmlText;
   }
 }
