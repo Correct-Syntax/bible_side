@@ -1,6 +1,6 @@
 ![Bibleside](/assets/images/logo-banner.jpg)
 
-Bibleside is an offline Bible app featuring the OET (Open English Translation).
+[Bibleside](https://bibleside.com) is an offline Bible app featuring the OET (Open English Translation).
 
 The [OET (Open English Translation)](https://openenglishtranslation.bible) is a new, open-licensed Bible translation (currently in ``draft`` state) featuring multiple versions intended to be used together. <sup>Please see the OET website for more info on what makes it different than other translations.</sup>
 
@@ -25,7 +25,7 @@ Others?
 
 ## Known issues/TODO
 
-- Bug: Scrolling between the two versions is synced too well? Since the Literal version is lengthier, verses can be in different locations or even off screen.
+- Some place don't have chapter numbers
 - Some sections are missing or have misplaced starting points (fix in update_OET_sections.py)
 
 
