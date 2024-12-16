@@ -2,7 +2,7 @@
 
 [Bibleside](https://bibleside.com) is an offline Bible app featuring the OET (Open English Translation).
 
-The [OET (Open English Translation)](https://openenglishtranslation.bible) is a new, open-licensed Bible translation (currently in ``draft`` state) featuring multiple versions intended to be used together. <sup>Please see the OET website for more info on what makes it different than other translations.</sup>
+The [OET (Open English Translation)](https://openenglishtranslation.bible) is a new, open-licensed Bible translation (currently in ``draft`` state) featuring multiple versions intended to be used together. Read it [here](https://openenglishtranslation.bible/Reader). <sup>Please see the OET website for more info on what makes it different than other translations.</sup>
 
 Bibleside implements the OET's "Reader's" version in the main area and a toggle to show the "Literal" and "Reader's" versions side-by-side. The two can be scrolled together for easy comparison.
 
@@ -28,6 +28,7 @@ Others?
 - Some places don't have chapter numbers.
 - Some sections are missing or have misplaced starting points (fix in update_OET_sections.py).
 - Need to fix issue with standard single quotes in the HTML.
+- Add license to Bible assets folder
 
 
 ## Feedback/contributing
@@ -42,6 +43,11 @@ Bibleside is built with Flutter using [Stacked Architecture](https://stacked.fil
 - Run ``flutter pub get`` to install the dependencies.
 - Choose an emulator or a connected device.
 - Hit ``F5`` to run the code in the emulator, or open a terminal and run with ``flutter run``.
+
+
+## Roadmap
+
+[Bibleside Roadmap](https://github.com/users/Correct-Syntax/projects/2/views/7)
 
 
 ## Note on Bible versions
