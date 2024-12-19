@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:stacked/stacked.dart';
 import 'package:stacked_services/stacked_services.dart';
 
@@ -24,21 +22,24 @@ class NavigationSectionsChaptersViewModel extends BaseViewModel {
   List<String> bookChapters = [];
   List<List<String>> sections = [];
 
-  NavigationSectionsChaptersViewModel({required this.readerArea, required this.bookCode});
+  NavigationSectionsChaptersViewModel({
+    required this.readerArea,
+    required this.bookCode,
+  });
 
   final Area readerArea;
   final String bookCode;
 
   Future<void> initilize() async {
-    // Generate list of chapters
+    // Generate list of chapters.
     int numOfChapters =
         bookNumOfChaptersMapping.values.firstWhere((element) => element == bookNumOfChaptersMapping[bookCode]);
     bookChapters = [for (int i = 1; i <= numOfChapters; i++) i.toString()];
 
-    // Set whether to show by sections or by chapters
+    // Set whether to show by sections or by chapters.
     displaySections = _biblesService.isReaderBibleOET(readerArea);
 
-    // Generate sections
+    // Generate sections.
     if (displaySections) {
       sections = sectionHeadingsMappingForOET[bookCode]!;
     }
@@ -51,36 +52,41 @@ class NavigationSectionsChaptersViewModel extends BaseViewModel {
   }
 
   Iterable<String> getAlternativeSectionHeadings(int index) {
-    return sections[index].skip(1); // Skip the first section heading
+    // Skip the first section heading
+    return sections[index].skip(1);
   }
 
   Future<void> onTapSectionItem(int index) async {
     _biblesService.setViewBy(ViewBy.section);
 
-    log(index.toString());
-
     _biblesService.setBook(bookCode);
     _biblesService.addBookToRecentHistory(bookCode);
+
     String sectionHeading = sections[index][0];
+    String? chapterVerseString = RegExp('([0-9]*:[0-9]*)').firstMatch(sectionHeading)?[0];
 
-    log(sectionHeading);
-    _biblesService.setSection(index);
+    assert(chapterVerseString != null);
 
+    if (chapterVerseString != null) {
+      var [chapter, verse] = chapterVerseString.split(':');
+      _biblesService.setChapter(int.parse(chapter));
+      _biblesService.setVerse(int.parse(verse));
+    } else {
+      // Fallback
+      _biblesService.setVerse(1);
+    }
     _navigationService.clearStackAndShow(Routes.readerView);
-    await _biblesService.reloadBiblesJson();
   }
 
-  // For bibles that do not have a by section implementation
+  // For Bibles that do not have a by section implementation
   Future<void> onTapChapterItem(int index) async {
     _biblesService.setViewBy(ViewBy.chapter);
 
-    log(index.toString());
-
     _biblesService.setBook(bookCode);
-    //_biblesService.addBookToRecentHistory(bookCode); // TODO
+    _biblesService.addBookToRecentHistory(bookCode);
+
     _biblesService.setChapter(index);
 
     _navigationService.clearStackAndShow(Routes.readerView);
-    await _biblesService.reloadBiblesJson();
   }
 }

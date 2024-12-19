@@ -762,8 +762,8 @@ class MockBiblesService extends _i1.Mock implements _i7.BiblesService {
       ) as int);
 
   @override
-  int get sectionNumber => (super.noSuchMethod(
-        Invocation.getter(#sectionNumber),
+  int get verseNumber => (super.noSuchMethod(
+        Invocation.getter(#verseNumber),
         returnValue: 0,
         returnValueForMissingStub: 0,
       ) as int);
@@ -846,10 +846,10 @@ class MockBiblesService extends _i1.Mock implements _i7.BiblesService {
       );
 
   @override
-  void setSection(int? newSection) => super.noSuchMethod(
+  void setVerse(int? newVerse) => super.noSuchMethod(
         Invocation.method(
-          #setSection,
-          [newSection],
+          #setVerse,
+          [newVerse],
         ),
         returnValueForMissingStub: null,
       );
@@ -1015,8 +1015,8 @@ class MockSettingsService extends _i1.Mock implements _i9.SettingsService {
       ) as int);
 
   @override
-  int get sectionNumber => (super.noSuchMethod(
-        Invocation.getter(#sectionNumber),
+  int get verseNumber => (super.noSuchMethod(
+        Invocation.getter(#verseNumber),
         returnValue: 0,
         returnValueForMissingStub: 0,
       ) as int);
@@ -1224,9 +1224,9 @@ class MockSettingsService extends _i1.Mock implements _i9.SettingsService {
       ) as _i5.Future<int>);
 
   @override
-  _i5.Future<void> setSectionNumber(int? value) => (super.noSuchMethod(
+  _i5.Future<void> setVerseNumber(int? value) => (super.noSuchMethod(
         Invocation.method(
-          #setSectionNumber,
+          #setVerseNumber,
           [value],
         ),
         returnValue: _i5.Future<void>.value(),
@@ -1234,9 +1234,9 @@ class MockSettingsService extends _i1.Mock implements _i9.SettingsService {
       ) as _i5.Future<void>);
 
   @override
-  _i5.Future<int> getSectionNumber() => (super.noSuchMethod(
+  _i5.Future<int> getVerseNumber() => (super.noSuchMethod(
         Invocation.method(
-          #getSectionNumber,
+          #getVerseNumber,
           [],
         ),
         returnValue: _i5.Future<int>.value(0),
@@ -1466,7 +1466,7 @@ class MockReaderService extends _i1.Mock implements _i11.ReaderService {
       ) as Map<String, dynamic>);
 
   @override
-  String getReaderBookHTML(
+  _i5.Future<String> getReaderBookHTML(
     _i8.Area? area,
     _i8.ViewBy? viewBy,
     String? bibleCode,
@@ -1482,7 +1482,7 @@ class MockReaderService extends _i1.Mock implements _i11.ReaderService {
             bookCode,
           ],
         ),
-        returnValue: _i3.dummyValue<String>(
+        returnValue: _i5.Future<String>.value(_i3.dummyValue<String>(
           this,
           Invocation.method(
             #getReaderBookHTML,
@@ -1493,8 +1493,8 @@ class MockReaderService extends _i1.Mock implements _i11.ReaderService {
               bookCode,
             ],
           ),
-        ),
-        returnValueForMissingStub: _i3.dummyValue<String>(
+        )),
+        returnValueForMissingStub: _i5.Future<String>.value(_i3.dummyValue<String>(
           this,
           Invocation.method(
             #getReaderBookHTML,
@@ -1505,8 +1505,8 @@ class MockReaderService extends _i1.Mock implements _i11.ReaderService {
               bookCode,
             ],
           ),
-        ),
-      ) as String);
+        )),
+      ) as _i5.Future<String>);
 }
 
 /// A class which mocks [JsonService].

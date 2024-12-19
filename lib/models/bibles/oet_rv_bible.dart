@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import '../../common/enums.dart';
 import '../json_to_bible.dart';
 
@@ -9,7 +7,7 @@ class OETReadersBibleImpl extends JsonToBible {
 
   // TODO: currently replaces all ' marks with ’.
   @override
-  String getBook(String bookCode, ViewBy viewBy) {
+  String getBook(Area readerArea, String bookCode, List<String> bookmarks, ViewBy viewBy) {
     String htmlText = '';
     String chapterNumberHtml = '';
 
@@ -22,7 +20,7 @@ class OETReadersBibleImpl extends JsonToBible {
     for (Map<String, dynamic> chapter in chaptersData) {
       chapterNumber = chapter['chapterNumber'];
 
-      chapterNumberHtml = '<span class="c" id="$bookCode$chapterNumber">$chapterNumber</span>';
+      chapterNumberHtml = '<span class="c" id="${readerArea.name}-$bookCode-$chapterNumber">$chapterNumber</span>';
 
       chapterContents = chapter['contents'];
 
@@ -74,7 +72,7 @@ class OETReadersBibleImpl extends JsonToBible {
               // Add a new break between paragraphs
               isNewParagraph = false;
               if (verseNumberText == '1') {
-                htmlText += '<p class="c" id="$bookCode$chapterNumber">';
+                htmlText += '<p class="c" id="${readerArea.name}-$bookCode-$chapterNumber">';
               } else {
                 // The end of a paragraph
                 htmlText += '<p/>';
@@ -83,11 +81,14 @@ class OETReadersBibleImpl extends JsonToBible {
             sectionVerseReference = verseNumberText;
 
             if (isSection == false) {
+              String verseId = '${readerArea.name}-$bookCode-$chapterNumber-$verseNumberText';
+              String bookmarkIcon = bookmarkIconHTML(verseId, bookmarks);
               if (isNewParagraph == false) {
-                htmlText += '<span><sup id="$bookCode$chapterNumber:$verseNumberText">$verseNumberText</sup>';
+                htmlText +=
+                    '<span ondblclick=onCreateBookmark("$verseId") class="p">$bookmarkIcon<sup id="$verseId">$verseNumberText</sup>';
               } else {
                 htmlText +=
-                    '<p class="p">$chapterNumberHtml<sup id="$bookCode$chapterNumber:$verseNumberText">$verseNumberText</sup>';
+                    '<p ondblclick=onCreateBookmark("$verseId") class="p">$chapterNumberHtml$bookmarkIcon<sup id="$verseId">$verseNumberText</sup>';
               }
             }
           } else if (key == 'verseText') {
@@ -101,20 +102,26 @@ class OETReadersBibleImpl extends JsonToBible {
                 .replaceAll('=', ' ');
 
             if (isSection == true && isNext == true) {
-              htmlText +=
-                  """<p class="p"><div class="section-box"><p><sup id="$bookCode$chapterNumber:$sectionVerseReference">$chapterNumber:$sectionVerseReference</sup> ${sectionText.replaceAll("'", "")}</p></div><span>$chapterNumberHtml<sup>$sectionVerseReference</sup>${verseText.replaceAll("'", "’")}</span>""";
+              String verseId = '${readerArea.name}-$bookCode-$chapterNumber-$sectionVerseReference';
+              String bookmarkIcon = bookmarkIconHTML(verseId, bookmarks);
+              htmlText += """<p ondblclick=onCreateBookmark("$verseId") class="p">
+                      <div class="section-box">
+                        <p><sup id="$verseId">$chapterNumber:$sectionVerseReference</sup> ${sectionText.replaceAll("'", "’")}</p>
+                      </div>
+                      <span>
+                      $chapterNumberHtml$bookmarkIcon<sup>$sectionVerseReference</sup> ${verseText.replaceAll("'", "’")}
+                      </span>
+                  """;
 
               isSection = false;
               isNext = false;
             } else {
-              htmlText += "${verseText.replaceAll("'", "’")}</span>";
+              htmlText += " ${verseText.replaceAll("'", "’")}</span>";
             }
           }
         }
       }
     }
-
-    //log(htmlText);
     return htmlText;
   }
 }

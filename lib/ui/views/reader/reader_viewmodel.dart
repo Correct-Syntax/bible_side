@@ -11,7 +11,6 @@ import 'package:webview_flutter_android/webview_flutter_android.dart';
 import '../../../app/app.locator.dart';
 import '../../../app/app.router.dart';
 import '../../../common/enums.dart';
-import '../../../common/oet_rv_section_start_end.dart';
 import '../../../common/themes.dart';
 import '../../../common/toast.dart';
 import '../../../services/bibles_service.dart';
@@ -28,7 +27,7 @@ class ReaderViewModel extends ReactiveViewModel {
   String get secondaryAreaBible => _settingsService.secondaryBible;
   String get bookCode => _biblesService.bookCode;
   int get chapterNumber => _biblesService.chapterNumber;
-  int get sectionNumber => _biblesService.sectionNumber;
+  int get verseNumber => _biblesService.verseNumber;
 
   ViewBy get viewBy => _biblesService.viewBy;
 
@@ -49,8 +48,18 @@ class ReaderViewModel extends ReactiveViewModel {
     await setupWebviewController();
     await _biblesService.reloadBiblesJson();
 
-    String primaryAreaHTML = _readerService.getReaderBookHTML(Area.primary, viewBy, primaryAreaBible, bookCode);
-    String secondaryAreaHTML = _readerService.getReaderBookHTML(Area.secondary, viewBy, secondaryAreaBible, bookCode);
+    String primaryAreaHTML = await _readerService.getReaderBookHTML(
+      Area.primary,
+      viewBy,
+      primaryAreaBible,
+      bookCode,
+    );
+    String secondaryAreaHTML = await _readerService.getReaderBookHTML(
+      Area.secondary,
+      viewBy,
+      secondaryAreaBible,
+      bookCode,
+    );
 
     await initilizeReaderWebview(
       primaryAreaHTML,
@@ -58,7 +67,6 @@ class ReaderViewModel extends ReactiveViewModel {
       showSecondaryArea,
       linkReaderAreaScrolling,
     );
-    rebuildUi();
   }
 
   Future<void> setupWebviewController() async {
@@ -68,9 +76,10 @@ class ReaderViewModel extends ReactiveViewModel {
       ..enableZoom(false)
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
       ..addJavaScriptChannel(
-        'OnEvent',
-        onMessageReceived: (message) {
-          log(message.message);
+        'OnDoubleClickVerseEvent',
+        onMessageReceived: (message) async {
+          log('<OnDoubleClickVerseEvent> ${message.message}');
+          await setBookmark(message.message);
         },
       )
       ..setNavigationDelegate(
@@ -124,20 +133,23 @@ class ReaderViewModel extends ReactiveViewModel {
         themeName = CurrentTheme.contrast.name;
     }
 
-    // If viewBy is 'section', jump to a specific verse. Otherwise 
+    // If viewBy is 'section', jump to a specific verse. Otherwise
     // for 'chapter' we fallback on the first verse of the chapter.
-    String id = '$bookCode$chapterNumber:1';
+    // When scrolling is linked, only ``primaryScrollToId`` is used
+    // so that even with different contents lengths the primary reader
+    // area will be scrolled to the right place.
+    String scrollToId = '$bookCode-$chapterNumber-1';
+    String primaryScrollToId;
+    String secondaryScrollToId;
     if (viewBy == ViewBy.section) {
-      Map<String, dynamic>? sectionReferences = sectionStartEndMappingForOET[bookCode]?[sectionNumber];
-
-      if (sectionReferences != null) {
-        Map<String, int> startReference = sectionReferences['start']!;
-        int startChapter = startReference['chapter']!;
-        int startVerse = startReference['verse']!;
-
-        id = '$bookCode$startChapter:$startVerse';
-      }
+      scrollToId = '$bookCode-$chapterNumber-$verseNumber';
+    } else {
+      scrollToId = '$bookCode-$chapterNumber-1';
     }
+    primaryScrollToId = 'primary-$scrollToId';
+    secondaryScrollToId = 'secondary-$scrollToId';
+
+    log('Primary ID->: $primaryScrollToId | Secondary ID->: $secondaryScrollToId');
 
     Uri htmlUri = Uri.dataFromString("""
 <!DOCTYPE html>
@@ -276,21 +288,30 @@ class ReaderViewModel extends ReactiveViewModel {
     }
 
     p.p {
-      text-indent: 0.5rem;
       margin-top: 0.2rem;
       margin-bottom: 0.2rem;
     }
 
+    .svg {
+      visibility: hidden !important;
+      display: inline-block !important;
+    }
+
+    .svg.bookmarked {
+      visibility: visible !important;
+      fill: black !important;
+    }
+
     sup {
       font-size: ${0.6 * textScaling}rem;
-      margin-left: 0.4rem;
-      margin-right: 0.2rem;
+      margin-left: 0.0rem;
+      margin-right: 0.0rem;
     }
 
     .c {
       font-size: ${1.6 * textScaling}rem;
-      margin-right: 0.3rem;
-      margin-left: 0.2rem;
+      margin-right: 0.1rem;
+      margin-left: 0.0rem;
     }
 
     a {
@@ -314,7 +335,7 @@ class ReaderViewModel extends ReactiveViewModel {
     .section-box sup {
       font-size: ${0.6 * textScaling}rem;
       margin-left: 0rem;
-      margin-right: 0.1rem;
+      margin-right: 0.0rem;
     }
 
     .section-box p {
@@ -412,14 +433,21 @@ class ReaderViewModel extends ReactiveViewModel {
         });
       """ : ""}
 
-      document.getElementById("$id").scrollIntoView();
+      document.getElementById("$primaryScrollToId").scrollIntoView();
+      ${linkReaderAreaScrolling == false ? """
+        document.getElementById("$secondaryScrollToId").scrollIntoView();
+      """ : ""}
     });
+
+    function onCreateBookmark(bookmark) {
+      OnDoubleClickVerseEvent.postMessage(bookmark);
+    }
   </script>
 </body>
 </html>
 """, mimeType: 'text/html', encoding: Encoding.getByName('utf-8'));
 
-    webviewController.loadRequest(htmlUri);
+    await webviewController.loadRequest(htmlUri);
 
     rebuildUi();
   }
@@ -465,10 +493,11 @@ class ReaderViewModel extends ReactiveViewModel {
   Future<void> updateReaderAreas() async {
     await _biblesService.reloadBiblesJson();
 
-    String primaryAreaHTML = _readerService.getReaderBookHTML(Area.primary, viewBy, primaryAreaBible, bookCode);
+    String primaryAreaHTML = await _readerService.getReaderBookHTML(Area.primary, viewBy, primaryAreaBible, bookCode);
     await updateReaderAreaHTMLContent(Area.primary, primaryAreaHTML);
     if (showSecondaryArea == true) {
-      String secondaryAreaHTML = _readerService.getReaderBookHTML(Area.secondary, viewBy, secondaryAreaBible, bookCode);
+      String secondaryAreaHTML =
+          await _readerService.getReaderBookHTML(Area.secondary, viewBy, secondaryAreaBible, bookCode);
       await updateReaderAreaHTMLContent(Area.secondary, secondaryAreaHTML);
     }
 
@@ -484,6 +513,25 @@ class ReaderViewModel extends ReactiveViewModel {
   void dispose() {
     webviewController.clearCache();
     super.dispose();
+  }
+
+  Future<void> setBookmark(String bookmarkId) async {
+    // Update the icon
+    await webviewController.runJavaScript('document.getElementById("$bookmarkId-svg").classList.toggle("bookmarked");');
+
+    List<String> existingBookmarks = await _settingsService.getBookmarks();
+
+    // Save ids without a specific reader area indentifier.
+    bookmarkId = bookmarkId.replaceAll('primary-', '').replaceAll('secondary-', '');
+
+    // If the bookmark already exists, remove it.
+    if (existingBookmarks.contains(bookmarkId)) {
+      existingBookmarks.remove(bookmarkId);
+    } else {
+      existingBookmarks.add(bookmarkId);
+    }
+    await _settingsService.setBookmarks(existingBookmarks);
+    rebuildUi();
   }
 
   void setChapter(dynamic chapter) {

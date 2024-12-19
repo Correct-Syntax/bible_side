@@ -1,5 +1,4 @@
-// ignore_for_file: prefer_single_quotes
-
+import 'dart:developer';
 import '../../common/enums.dart';
 import '../json_to_bible.dart';
 
@@ -8,7 +7,7 @@ class KJVBibleImpl extends JsonToBible {
   KJVBibleImpl(Map<String, dynamic> json) : super(json: json);
 
   @override
-  String getBook(String bookCode, ViewBy viewBy) {
+  String getBook(Area readerArea, String bookCode, List<String> bookmarks, ViewBy viewBy) {
     String htmlText = '';
     String chapterNumber = '';
     List<dynamic> chapterContents = [];
@@ -19,21 +18,27 @@ class KJVBibleImpl extends JsonToBible {
       chapterNumber = chapter['chapter'];
       chapterContents = chapter['verses'];
 
-      String chapterNumberHtml = """<span class="c" id="$bookCode$chapterNumber">$chapterNumber</span>""";
+      String chapterId = '${readerArea.name}-$bookCode-$chapterNumber';
+
+      String chapterNumberHtml = '''<span class="c" id="$chapterId">$chapterNumber</span>''';
 
       for (Map item in chapterContents) {
         String verseNumber = item['verse'];
         String verseText = item['text'];
 
+        String verseId = '${readerArea.name}-$bookCode-$chapterNumber-$verseNumber';
+        String bookmarkIcon = bookmarkIconHTML(verseId, bookmarks);
+
         if (verseNumber == '1') {
           htmlText +=
-              """<p class="p" id="$bookCode$chapterNumber:$verseNumber">$chapterNumberHtml<sup>$verseNumber</sup> $verseText</p>""";
+              """<p ondblclick=onCreateBookmark("$verseId") class="p" id="$verseId">$chapterNumberHtml$bookmarkIcon<sup>$verseNumber</sup> $verseText</p>""";
         } else {
           htmlText +=
-              """<p class="p" id="$bookCode$chapterNumber:$verseNumber"><sup>$verseNumber</sup> $verseText</p>""";
+              """<p ondblclick=onCreateBookmark("$verseId") class="p" id="$verseId">$bookmarkIcon<sup>$verseNumber</sup> $verseText</p>""";
         }
       }
     }
+
     return htmlText;
   }
 }

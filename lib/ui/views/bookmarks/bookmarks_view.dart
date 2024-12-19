@@ -41,6 +41,7 @@ class BookmarksView extends StackedView<BookmarksViewModel> {
           padding: EdgeInsets.only(top: isPortrait ? 26.0 : 0.0),
           child: Column(
             mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               if (isPortrait)
                 Padding(
@@ -60,12 +61,24 @@ class BookmarksView extends StackedView<BookmarksViewModel> {
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(vertical: 40.0, horizontal: 25.0),
-                          child: Text(
-                            'No bookmarks yet.',
-                            style: TextStyle(
-                              color: context.theme.appColors.primary,
-                              fontSize: 15.0,
-                            ),
+                          child: Column(
+                            spacing: 10.0,
+                            children: [
+                              PhosphorIcon(
+                                PhosphorIcons.bookmarksSimple(PhosphorIconsStyle.regular),
+                                color: context.theme.appColors.primary.withValues(alpha: 0.8),
+                                size: 26.0,
+                                semanticLabel: 'Bookmark',
+                              ),
+                              Text(
+                                'No bookmarks yet. \nDouble-tap on a verse to bookmark it.',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: context.theme.appColors.primary.withValues(alpha: 0.8),
+                                  fontSize: 14.0,
+                                ),
+                              ),
+                            ],
                           ),
                         ),
                       ],
@@ -74,8 +87,9 @@ class BookmarksView extends StackedView<BookmarksViewModel> {
                       child: ListView.builder(
                         itemCount: viewModel.bookmarks.length,
                         itemBuilder: (BuildContext context, int index) {
+                          String bookmarkId = viewModel.bookmarks[index];
                           return InkWell(
-                            onTap: () => {},
+                            onTap: () => viewModel.onTapBookmark(bookmarkId),
                             child: Padding(
                               padding: const EdgeInsets.symmetric(vertical: 14.0, horizontal: 25.0),
                               child: Row(
@@ -92,7 +106,7 @@ class BookmarksView extends StackedView<BookmarksViewModel> {
                                       ),
                                       const SizedBox(width: 12.0),
                                       Text(
-                                        viewModel.bookmarks[index],
+                                        viewModel.bookmarkIdToBookmark(bookmarkId),
                                         style: TextStyle(
                                           color: context.theme.appColors.primary,
                                           fontSize: 16.0,

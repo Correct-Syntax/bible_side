@@ -1,6 +1,7 @@
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:stacked/stacked.dart';
 
+import '../common/alphanum.dart';
 import '../common/enums.dart';
 
 class SettingsService with ListenableServiceMixin {
@@ -11,7 +12,7 @@ class SettingsService with ListenableServiceMixin {
       _secondaryAreaBible,
       _bookCode,
       _chapterNumber,
-      _sectionNumber,
+      _verseNumber,
       _recentBooks,
       _viewBy,
       _bookmarks,
@@ -26,7 +27,7 @@ class SettingsService with ListenableServiceMixin {
   static const _kSecondaryAreaBibleCode = 'SECONDARY_AREA_BIBLE_CODE';
   static const _kBookCode = 'BOOK_CODE';
   static const _kChapterNumber = 'CHAPTER_NUMBER';
-  static const _kSectionNumber = 'SECTION_NUMBER';
+  static const _kVerseNumber = 'VERSE_NUMBER';
 
   // Navigation
   static const _kNavRecentBooks = 'NAV_RECENT_BOOKS';
@@ -52,9 +53,8 @@ class SettingsService with ListenableServiceMixin {
   String get bookCode => _bookCode;
   int _chapterNumber = 1;
   int get chapterNumber => _chapterNumber;
-  int _sectionNumber = 0; // Section number starts at zero since it represents an index
-  int get sectionNumber => _sectionNumber;
-
+  int _verseNumber = 1;
+  int get verseNumber => _verseNumber;
   List<String> _recentBooks = [];
   List<String> get recentBooks => _recentBooks;
   ViewBy _viewBy = ViewBy.section;
@@ -78,7 +78,7 @@ class SettingsService with ListenableServiceMixin {
     _secondaryAreaBible = await getSecondaryAreaBible();
     _bookCode = await getBook();
     _chapterNumber = await getChapterNumber();
-    _sectionNumber = await getSectionNumber();
+    _verseNumber = await getVerseNumber();
     _recentBooks = await getNavRecentBooks();
     _viewBy = await getNavViewBy();
     _bookmarks = await getBookmarks();
@@ -92,7 +92,7 @@ class SettingsService with ListenableServiceMixin {
     await setSecondaryAreaBible(_secondaryAreaBible);
     await setBook(_bookCode);
     await setChapterNumber(_chapterNumber);
-    await setSectionNumber(_sectionNumber);
+    await setVerseNumber(_verseNumber);
     await setNavRecentBooks(_recentBooks);
     await setNavViewBy(_viewBy);
     await setTextScaling(_textScaling);
@@ -171,18 +171,18 @@ class SettingsService with ListenableServiceMixin {
     return _chapterNumber;
   }
 
-  // Section number
-  Future<void> setSectionNumber(int value) async {
-    _sectionNumber = value;
+  // Verse number
+  Future<void> setVerseNumber(int value) async {
+    _verseNumber = value;
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    prefs.setInt(_kSectionNumber, value);
+    prefs.setInt(_kVerseNumber, value);
     notifyListeners();
   }
 
-  Future<int> getSectionNumber() async {
+  Future<int> getVerseNumber() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    _sectionNumber = prefs.getInt(_kSectionNumber) ?? 0;
-    return _sectionNumber;
+    _verseNumber = prefs.getInt(_kVerseNumber) ?? 1;
+    return _verseNumber;
   }
 
   // Recent books
@@ -215,7 +215,10 @@ class SettingsService with ListenableServiceMixin {
 
   // Bookmarks
   Future<void> setBookmarks(List<String> value) async {
-    _recentBooks = value;
+    // Sort alphanumerally.
+    value.sort(AlphanumComparator.compare);
+
+    _bookmarks = value;
     SharedPreferences prefs = await SharedPreferences.getInstance();
     prefs.setStringList(_kBookmarks, value);
     notifyListeners();

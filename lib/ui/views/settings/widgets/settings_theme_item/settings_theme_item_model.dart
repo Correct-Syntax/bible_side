@@ -13,8 +13,6 @@ class SettingsThemeItemModel extends BaseViewModel {
         return 'Sepia';
       case CurrentTheme.contrast:
         return 'Contrast';
-      default:
-        return '';
     }
   }
 
@@ -28,8 +26,6 @@ class SettingsThemeItemModel extends BaseViewModel {
         return const Color(0xFF655F49);
       case CurrentTheme.contrast:
         return const Color(0xFFFFFFFF);
-      default:
-        return const Color(0xFF515358);
     }
   }
 
@@ -43,8 +39,6 @@ class SettingsThemeItemModel extends BaseViewModel {
         return const Color(0xFFC7C7AE);
       case CurrentTheme.contrast:
         return const Color(0xFF000000);
-      default:
-        return Colors.white;
     }
   }
 }

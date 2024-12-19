@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-// From https://stackoverflow.com/a/76053830/ (CC BY-SA 4.0)
+// Hash code from https://stackoverflow.com/(CC BY-SA 4.0)
 extension StringColor on String {
   Color textToColor() {
     if (isEmpty) {
@@ -10,6 +10,18 @@ extension StringColor on String {
     for (var i = 0; i < length; i++) {
       hash = codeUnitAt(i) + ((hash << 5) - hash);
     }
-    return Color(hash + 0xFF000000);
+    return HSLColor.fromColor(Colors.white).withHue(hash % 360.0).withSaturation(0.8).withLightness(0.54).toColor();
+  }
+
+  String textToHslColor() {
+    if (isEmpty) {
+      return 'hsl(0, 0%, 0%)';
+    }
+    var hash = 0;
+    for (var i = 0; i < length; i++) {
+      hash = codeUnitAt(i) + ((hash << 5) - hash);
+    }
+
+    return 'hsl(${hash % 360}, 80%, 54%)';
   }
 }

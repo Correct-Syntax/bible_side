@@ -22,7 +22,7 @@ class BiblesService with ListenableServiceMixin {
   String get secondaryBible => _settingsService.secondaryBible;
   String get bookCode => _settingsService.bookCode;
   int get chapterNumber => _settingsService.chapterNumber;
-  int get sectionNumber => _settingsService.sectionNumber;
+  int get verseNumber => _settingsService.verseNumber;
   List<String> get recentBooks => _settingsService.recentBooks;
   ViewBy get viewBy => _settingsService.viewBy;
 
@@ -49,8 +49,8 @@ class BiblesService with ListenableServiceMixin {
     _settingsService.setChapterNumber(newChapter);
   }
 
-  void setSection(int newSection) {
-    _settingsService.setSectionNumber(newSection);
+  void setVerse(int newVerse) {
+    _settingsService.setVerseNumber(newVerse);
   }
 
   void setViewBy(ViewBy viewBy) {
