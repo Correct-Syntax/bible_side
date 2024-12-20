@@ -227,8 +227,8 @@ class ReaderViewModel extends ReactiveViewModel {
       line-height: 155%;
       height: 50vh;
       padding-top: 0.3rem;
-      margin-left: 0.8rem;
-      margin-right: 0.8rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
     }
 
     #secondaryReader {
@@ -237,8 +237,8 @@ class ReaderViewModel extends ReactiveViewModel {
       letter-spacing: 0.3px;
       line-height: 155%;
       height: 50vh;
-      margin-left: 0.8rem;
-      margin-right: 0.8rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
     }
 
     .container {
@@ -360,7 +360,7 @@ class ReaderViewModel extends ReactiveViewModel {
       border-color: var(--contrast-theme-white);
     }
 
-    @media screen and (min-width: 400px) {
+    @media screen and (min-width: 500px) {
       .container {
         flex-direction: row;
       }
