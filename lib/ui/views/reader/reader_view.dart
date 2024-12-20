@@ -29,7 +29,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
     ReaderViewModel viewModel,
     Widget? child,
   ) {
-    // Color the statusbar
+    // Color the statusbar based on the active theme.
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
       statusBarBrightness: Brightness.dark,
       statusBarIconBrightness: Brightness.light,
@@ -37,7 +37,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
     ));
     return Scaffold(
       key: _scaffoldKey,
-      backgroundColor: context.theme.appColors.background,
+      backgroundColor: context.theme.appColors.appbarBackground,
       appBar: viewModel.showSecondaryArea
           ? PreferredSize(
               preferredSize: const Size(double.infinity, kToolbarHeight),
@@ -64,7 +64,8 @@ class ReaderView extends StackedView<ReaderViewModel> {
                   ),
                 ),
                 if (viewModel.primaryAreaBible != 'KJV' || viewModel.secondaryAreaBible != 'KJV')
-                  Padding(
+                  Container(
+                    color: context.theme.appColors.background,
                     padding: const EdgeInsets.symmetric(vertical: 4.0, horizontal: 12.0),
                     child: Text(
                       'This is still a very early look into the unfinished text of the Open English Translation of the Bible. Please double-check the text in advance before using in public.',

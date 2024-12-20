@@ -29,43 +29,44 @@ class PrimaryReaderAppbar extends StackedView<PrimaryReaderAppbarModel> {
     PrimaryReaderAppbarModel viewModel,
     Widget? child,
   ) {
-    return Container(
-      color: context.theme.appColors.appbarBackground,
-      height: kToolbarHeight,
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
-          InkWell(
-            onTap: onTapSearch,
-            child: Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: PhosphorIcon(
-                PhosphorIcons.magnifyingGlass(PhosphorIconsStyle.bold),
-                color: context.theme.appColors.appbarIcon,
-                size: 20.0,
-                semanticLabel: 'Search',
+    return SafeArea(
+      child: Container(
+        color: context.theme.appColors.appbarBackground,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            InkWell(
+              onTap: onTapSearch,
+              child: Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: PhosphorIcon(
+                  PhosphorIcons.magnifyingGlass(PhosphorIconsStyle.bold),
+                  color: context.theme.appColors.appbarIcon,
+                  size: 20.0,
+                  semanticLabel: 'Search',
+                ),
               ),
             ),
-          ),
-          ReaderSelectorBtn(
-            readerArea: Area.primary,
-            isActive: isReaderAreaPopupActive,
-            onTapBook: onTapBook,
-            onTapBibleVersion: onTapBibleVersion,
-          ),
-          InkWell(
-            onTap: onTapMenu,
-            child: Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: PhosphorIcon(
-                PhosphorIcons.list(PhosphorIconsStyle.bold),
-                color: context.theme.appColors.appbarIcon,
-                size: 20.0,
-                semanticLabel: 'Menu',
+            ReaderSelectorBtn(
+              readerArea: Area.primary,
+              isActive: isReaderAreaPopupActive,
+              onTapBook: onTapBook,
+              onTapBibleVersion: onTapBibleVersion,
+            ),
+            InkWell(
+              onTap: onTapMenu,
+              child: Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: PhosphorIcon(
+                  PhosphorIcons.list(PhosphorIconsStyle.bold),
+                  color: context.theme.appColors.appbarIcon,
+                  size: 20.0,
+                  semanticLabel: 'Menu',
+                ),
               ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
