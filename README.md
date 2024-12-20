@@ -28,7 +28,6 @@ Others?
 - Some places don't have chapter numbers.
 - Some sections are missing or have misplaced starting points (fix in update_OET_sections.py).
 - Need to fix issue with standard single quotes in the HTML.
-- Add license to Bible assets folder
 
 
 ## Feedback/contributing
