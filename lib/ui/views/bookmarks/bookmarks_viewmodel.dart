@@ -28,13 +28,9 @@ class BookmarksViewModel extends BaseViewModel {
     var [bookCode, chapter, verse] = bookmarkId.split('-');
 
     _biblesService.setBook(bookCode);
+    _biblesService.setChapter(int.parse(chapter));
+    _biblesService.setVerse(int.parse(verse));
 
-    if (viewBy == ViewBy.section) {
-      _biblesService.setChapter(int.parse(chapter));
-      _biblesService.setVerse(int.parse(verse));
-    } else {
-      _biblesService.setChapter(int.parse(chapter));
-    }
     _navigationService.clearStackAndShow(Routes.readerView);
   }
 

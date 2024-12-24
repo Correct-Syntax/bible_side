@@ -133,21 +133,12 @@ class ReaderViewModel extends ReactiveViewModel {
         themeName = CurrentTheme.contrast.name;
     }
 
-    // If viewBy is 'section', jump to a specific verse. Otherwise
-    // for 'chapter' we fallback on the first verse of the chapter.
     // When scrolling is linked, only ``primaryScrollToId`` is used
     // so that even with different contents lengths the primary reader
-    // area will be scrolled to the right place.
-    String scrollToId = '$bookCode-$chapterNumber-1';
-    String primaryScrollToId;
-    String secondaryScrollToId;
-    if (viewBy == ViewBy.section) {
-      scrollToId = '$bookCode-$chapterNumber-$verseNumber';
-    } else {
-      scrollToId = '$bookCode-$chapterNumber-1';
-    }
-    primaryScrollToId = 'primary-$scrollToId';
-    secondaryScrollToId = 'secondary-$scrollToId';
+    // area will still be scrolled to the right place.
+    String scrollToId = '$bookCode-$chapterNumber-$verseNumber';
+    String primaryScrollToId = 'primary-$scrollToId';
+    String secondaryScrollToId = 'secondary-$scrollToId';
 
     log('Primary ID->: $primaryScrollToId | Secondary ID->: $secondaryScrollToId');
 
@@ -516,13 +507,19 @@ class ReaderViewModel extends ReactiveViewModel {
   }
 
   Future<void> setBookmark(String bookmarkId) async {
-    // Update the icon
-    await webviewController.runJavaScript('document.getElementById("$bookmarkId-svg").classList.toggle("bookmarked");');
-
-    List<String> existingBookmarks = await _settingsService.getBookmarks();
-
     // Save ids without a specific reader area indentifier.
     bookmarkId = bookmarkId.replaceAll('primary-', '').replaceAll('secondary-', '');
+
+    // Update the icons in both reader areas.
+    await webviewController.runJavaScript('''
+      var svgElements = [...document.getElementsByClassName("$bookmarkId-svg")];
+
+      svgElements.forEach((ele) => {
+        ele.classList.toggle("bookmarked");
+      });
+    ''');
+
+    List<String> existingBookmarks = await _settingsService.getBookmarks();
 
     // If the bookmark already exists, remove it.
     if (existingBookmarks.contains(bookmarkId)) {
