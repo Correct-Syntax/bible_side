@@ -105,11 +105,11 @@ class OETLiteralBibleImpl extends JsonToBible {
             if (isSection == true && isNext == true) {
               String verseId = '${readerArea.name}-$bookCode-$chapterNumber-$sectionVerseReference';
               String bookmarkIcon = bookmarkIconHTML(verseId, bookmarks);
-              htmlText += """<p ondblclick=onCreateBookmark("$verseId") class="p">
+              htmlText += """<p>
                       <div class="section-box">
                         <p><sup id="$verseId">$chapterNumber:$sectionVerseReference</sup> ${sectionText.replaceAll("'", "’")}</p>
                       </div>
-                      <span>
+                      <span ondblclick=onCreateBookmark("$verseId") class="p">
                       $chapterNumberHtml$bookmarkIcon<sup>$sectionVerseReference</sup> ${verseText.replaceAll("'", "’")}
                       </span>
                   """;

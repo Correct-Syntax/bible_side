@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import '../../common/enums.dart';
 import '../json_to_bible.dart';
 
@@ -19,7 +21,6 @@ class OETReadersBibleImpl extends JsonToBible {
 
     for (Map<String, dynamic> chapter in chaptersData) {
       chapterNumber = chapter['chapterNumber'];
-
       chapterNumberHtml = '<span class="c" id="${readerArea.name}-$bookCode-$chapterNumber">$chapterNumber</span>';
 
       chapterContents = chapter['contents'];
@@ -104,11 +105,11 @@ class OETReadersBibleImpl extends JsonToBible {
             if (isSection == true && isNext == true) {
               String verseId = '${readerArea.name}-$bookCode-$chapterNumber-$sectionVerseReference';
               String bookmarkIcon = bookmarkIconHTML(verseId, bookmarks);
-              htmlText += """<p ondblclick=onCreateBookmark("$verseId") class="p">
+              htmlText += """<p>
                       <div class="section-box">
                         <p><sup id="$verseId">$chapterNumber:$sectionVerseReference</sup> ${sectionText.replaceAll("'", "’")}</p>
                       </div>
-                      <span>
+                      <span ondblclick=onCreateBookmark("$verseId") class="p">
                       $chapterNumberHtml$bookmarkIcon<sup>$sectionVerseReference</sup> ${verseText.replaceAll("'", "’")}
                       </span>
                   """;
@@ -122,6 +123,7 @@ class OETReadersBibleImpl extends JsonToBible {
         }
       }
     }
+    //log(htmlText);
     return htmlText;
   }
 }
