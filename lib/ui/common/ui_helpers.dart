@@ -5,6 +5,6 @@ bool isPortraitOrientation(BuildContext context) {
 }
 
 bool shouldSwitchToWideLayout(BuildContext context) {
-  // Over 400px width, switch to the wide layout.
-  return MediaQuery.of(context).size.width > 400;
+  // Over 500px width, switch to the wide layout.
+  return MediaQuery.of(context).size.width > 500;
 }
