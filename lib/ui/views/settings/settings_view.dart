@@ -288,6 +288,73 @@ class SettingsView extends StackedView<SettingsViewModel> {
                     height: 0,
                     color: context.theme.appColors.divider,
                   ),
+
+                  InkWell(
+                    onTap: viewModel.shareFeedback,
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 16.0),
+                      child: Row(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 5.0),
+                            child: PhosphorIcon(
+                              PhosphorIcons.envelopeOpen(PhosphorIconsStyle.regular),
+                              color: context.theme.appColors.primary,
+                            ),
+                          ),
+                          const SizedBox(width: 8.0),
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                'Share feedback with the developer',
+                                style: TextStyle(
+                                  color: context.theme.appColors.primary,
+                                  fontSize: 15.0,
+                                  fontWeight: FontWeight.w500,
+                                  letterSpacing: -0.1,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+
+                  InkWell(
+                    onTap: viewModel.visitWebsite,
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 16.0),
+                      child: Row(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 5.0),
+                            child: PhosphorIcon(
+                              PhosphorIcons.globe(PhosphorIconsStyle.regular),
+                              color: context.theme.appColors.primary,
+                            ),
+                          ),
+                          const SizedBox(width: 8.0),
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                'Visit app website',
+                                style: TextStyle(
+                                  color: context.theme.appColors.primary,
+                                  fontSize: 15.0,
+                                  fontWeight: FontWeight.w500,
+                                  letterSpacing: -0.1,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+
                   // App version
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 16.0),
@@ -303,10 +370,10 @@ class SettingsView extends StackedView<SettingsViewModel> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              'Bibleside',
+                              'Bibleside (alpha)',
                               style: TextStyle(
                                 color: context.theme.appColors.primary,
-                                fontSize: 16.0,
+                                fontSize: 15.0,
                                 fontWeight: FontWeight.w500,
                                 letterSpacing: -0.1,
                               ),
@@ -315,8 +382,9 @@ class SettingsView extends StackedView<SettingsViewModel> {
                               viewModel.isBusy ? '' : viewModel.data!,
                               style: TextStyle(
                                 color: context.theme.appColors.secondary,
+                                height: 1.0,
                                 fontSize: 10.0,
-                                letterSpacing: 0.0,
+                                letterSpacing: 0.1,
                               ),
                             ),
                           ],
