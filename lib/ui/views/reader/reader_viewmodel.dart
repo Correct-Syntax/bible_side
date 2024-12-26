@@ -191,6 +191,15 @@ class ReaderViewModel extends ReactiveViewModel {
       src: url('$fontUri');
     }
 
+    body.hidden {
+      opacity: 0;
+    }
+
+    body.visible {
+      opacity: 1;
+      transition: opacity 1s ease-out;
+    }
+
     body.light {
       color: var(--light-theme-medium-slate); 
       background-color: var(--light-theme-white);
@@ -387,6 +396,8 @@ class ReaderViewModel extends ReactiveViewModel {
   </div>
 
   <script>
+    document.body.className = 'hidden';
+
     var elements = null;
     var handleScroll = null;
     document.addEventListener("DOMContentLoaded", () => {
@@ -428,6 +439,8 @@ class ReaderViewModel extends ReactiveViewModel {
       ${linkReaderAreaScrolling == false ? """
         document.getElementById("$secondaryScrollToId").scrollIntoView();
       """ : ""}
+
+      document.body.className = '$themeName visible';
     });
 
     function onCreateBookmark(bookmark) {
