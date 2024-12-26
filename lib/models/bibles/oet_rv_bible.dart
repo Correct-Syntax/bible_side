@@ -11,7 +11,7 @@ class OETReadersBibleImpl extends JsonToBible {
 
   // TODO: currently replaces all ' marks with ’.
   @override
-  String getBook(Area readerArea, String bookCode, List<String> bookmarks, ViewBy viewBy) {
+  String getBook(Area readerArea, String bookCode, List<String> bookmarks, bool showSpecialMarks) {
     String htmlText = '';
     String chapterNumberHtml = '';
 

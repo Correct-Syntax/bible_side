@@ -9,7 +9,7 @@ class KJVBibleImpl extends JsonToBible {
   KJVBibleImpl(Map<String, dynamic> json) : super(json: json);
 
   @override
-  String getBook(Area readerArea, String bookCode, List<String> bookmarks, ViewBy viewBy) {
+  String getBook(Area readerArea, String bookCode, List<String> bookmarks, bool showSpecialMarks) {
     String htmlText = '';
     String chapterNumber = '';
     List<dynamic> chapterContents = [];

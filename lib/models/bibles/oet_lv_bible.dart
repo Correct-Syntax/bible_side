@@ -9,7 +9,7 @@ class OETLiteralBibleImpl extends JsonToBible {
 
   // TODO: currently replaces all ' marks with ’.
   @override
-  String getBook(Area readerArea, String bookCode, List<String> bookmarks, ViewBy viewBy) {
+  String getBook(Area readerArea, String bookCode, List<String> bookmarks, bool showSpecialMarks) {
     String htmlText = '';
     String chapterNumberHtml = '';
 
@@ -64,6 +64,11 @@ class OETLiteralBibleImpl extends JsonToBible {
                 .replaceAll(' +', ' ')
                 .replaceAll('>', ' ')
                 .replaceAll('=', ' ');
+
+            // Remove OET-LV special markings like _.
+            if (showSpecialMarks == false) {
+              verseText = verseText.replaceAll('_', ' ');
+            }
 
             htmlText += " ${verseText.replaceAll("'", "’")}</span>";
           }
