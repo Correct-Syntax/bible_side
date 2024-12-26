@@ -54,28 +54,31 @@ class ReaderView extends StackedView<ReaderViewModel> {
       body: SafeArea(
         child: Stack(
           children: [
-            Column(
-              mainAxisSize: MainAxisSize.min,
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [
-                Expanded(
-                  child: WebViewWidget(
-                    controller: viewModel.webviewController,
-                  ),
-                ),
-                if (viewModel.primaryAreaBible != 'KJV' || viewModel.secondaryAreaBible != 'KJV')
-                  Container(
-                    color: context.theme.appColors.background,
-                    padding: const EdgeInsets.symmetric(vertical: 4.0, horizontal: 12.0),
-                    child: Text(
-                      'This is still a very early look into the unfinished text of the Open English Translation of the Bible. Please double-check the text in advance before using in public.',
-                      style: TextStyle(
-                        fontSize: 8.0,
-                        color: context.theme.appColors.readerText,
-                      ),
+            Container(
+              color: context.theme.appColors.background,
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Expanded(
+                    child: WebViewWidget(
+                      controller: viewModel.webviewController,
                     ),
                   ),
-              ],
+                  if (viewModel.primaryAreaBible != 'KJV' || viewModel.secondaryAreaBible != 'KJV')
+                    Container(
+                      color: context.theme.appColors.background,
+                      padding: const EdgeInsets.symmetric(vertical: 4.0, horizontal: 12.0),
+                      child: Text(
+                        'This is still a very early look into the unfinished text of the Open English Translation of the Bible. Please double-check the text in advance before using in public.',
+                        style: TextStyle(
+                          fontSize: 8.0,
+                          color: context.theme.appColors.readerText,
+                        ),
+                      ),
+                    ),
+                ],
+              ),
             ),
             if (viewModel.isSecondaryReaderAreaPopupActive)
               Align(
