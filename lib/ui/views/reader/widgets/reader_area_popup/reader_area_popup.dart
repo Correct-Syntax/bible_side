@@ -80,7 +80,7 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
                                 ),
                                 const SizedBox(width: 5.0),
                                 Container(
-                                  padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 2.0),
+                                  padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 3.0),
                                   decoration: BoxDecoration(
                                     color: context.theme.appColors.readerSelectorBackground,
                                     borderRadius: BorderRadius.circular(30.0),
@@ -182,7 +182,7 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
                               ),
                               const SizedBox(width: 5.0),
                               Container(
-                                padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 2.0),
+                                padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 3.0),
                                 decoration: BoxDecoration(
                                   color: context.theme.appColors.readerSelectorBackground,
                                   borderRadius: BorderRadius.circular(30.0),

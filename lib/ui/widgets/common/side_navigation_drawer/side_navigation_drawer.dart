@@ -68,7 +68,7 @@ class SideNavigationDrawer extends StackedView<SideNavigationDrawerModel> {
                   child: Container(
                     decoration: BoxDecoration(
                       color: context.theme.appColors.readerSelectorBackground,
-                      borderRadius: BorderRadius.circular(7.0),
+                      borderRadius: BorderRadius.circular(70.0),
                     ),
                     padding: const EdgeInsets.symmetric(vertical: 14.0, horizontal: 14.0),
                     child: Row(

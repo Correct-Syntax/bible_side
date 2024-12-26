@@ -29,11 +29,11 @@ class ReaderSelectorBtn extends StackedView<ReaderSelectorBtnModel> {
     Widget? child,
   ) {
     return Container(
-      height: 36,
-      padding: const EdgeInsets.symmetric(horizontal: 4.0),
+      height: 40,
+      padding: const EdgeInsets.symmetric(horizontal: 8.0),
       decoration: BoxDecoration(
         color: context.theme.appColors.readerSelectorBackground,
-        borderRadius: BorderRadius.circular(7.0),
+        borderRadius: BorderRadius.circular(60.0),
       ),
       child: Row(
         children: [

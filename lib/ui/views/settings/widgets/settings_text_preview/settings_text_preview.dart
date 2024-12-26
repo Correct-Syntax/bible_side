@@ -22,6 +22,7 @@ class SettingsTextPreview extends StackedView<SettingsTextPreviewModel> {
       margin: const EdgeInsets.only(bottom: 24.0),
       decoration: BoxDecoration(
         color: context.theme.appColors.background,
+        borderRadius: BorderRadius.circular(12.0),
         border: Border.all(color: context.theme.appColors.divider),
       ),
       child: SingleChildScrollView(
