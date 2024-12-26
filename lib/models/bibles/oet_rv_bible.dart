@@ -3,7 +3,9 @@ import 'dart:developer';
 import '../../common/enums.dart';
 import '../json_to_bible.dart';
 
-/// OET Reader's version implementation
+/// The OET Reader's Version (OET-RV) implementation
+///
+/// The OET-RV is displayed in sections paragraph-by-paragraph and contains section boxes.
 class OETReadersBibleImpl extends JsonToBible {
   OETReadersBibleImpl(Map<String, dynamic> json) : super(json: json);
 

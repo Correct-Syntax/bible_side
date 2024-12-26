@@ -2,7 +2,9 @@ import 'dart:developer';
 import '../../common/enums.dart';
 import '../json_to_bible.dart';
 
-/// KJV version implementation
+/// King James Version (KJV) implementation.
+///
+/// The KJV is displayed in chapters verse-by-verse.
 class KJVBibleImpl extends JsonToBible {
   KJVBibleImpl(Map<String, dynamic> json) : super(json: json);
 
