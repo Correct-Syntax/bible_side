@@ -35,6 +35,8 @@ class ReaderViewModel extends ReactiveViewModel {
   bool get showSecondaryArea => _settingsService.showSecondaryArea;
   bool get linkReaderAreaScrolling => _settingsService.linkReaderAreaScrolling;
 
+  List<String> get bookmarks => _settingsService.bookmarks;
+
   ReaderViewModel({required this.context});
 
   final BuildContext context;
@@ -44,21 +46,24 @@ class ReaderViewModel extends ReactiveViewModel {
   bool isPrimaryReaderAreaPopupActive = false;
   bool isSecondaryReaderAreaPopupActive = false;
 
-  void initilize() async {
+  Future<void> initilize() async {
     await setupWebviewController();
     await _biblesService.reloadBiblesJson();
 
-    String primaryAreaHTML = await _readerService.getReaderBookHTML(
+    String primaryAreaHTML = _readerService.getReaderBookHTML(
       Area.primary,
       viewBy,
       primaryAreaBible,
       bookCode,
+      bookmarks,
     );
-    String secondaryAreaHTML = await _readerService.getReaderBookHTML(
+
+    String secondaryAreaHTML = _readerService.getReaderBookHTML(
       Area.secondary,
       viewBy,
       secondaryAreaBible,
       bookCode,
+      bookmarks,
     );
 
     await initilizeReaderWebview(
@@ -108,7 +113,7 @@ class ReaderViewModel extends ReactiveViewModel {
           },
         ),
       );
-    AndroidWebViewController.enableDebugging(true);
+    await AndroidWebViewController.enableDebugging(true);
   }
 
   /// Initilizes the webview html with everything except for the reader area contents.
@@ -497,11 +502,12 @@ class ReaderViewModel extends ReactiveViewModel {
   Future<void> updateReaderAreas() async {
     await _biblesService.reloadBiblesJson();
 
-    String primaryAreaHTML = await _readerService.getReaderBookHTML(Area.primary, viewBy, primaryAreaBible, bookCode);
+    String primaryAreaHTML =
+        _readerService.getReaderBookHTML(Area.primary, viewBy, primaryAreaBible, bookCode, bookmarks);
     await updateReaderAreaHTMLContent(Area.primary, primaryAreaHTML);
     if (showSecondaryArea == true) {
       String secondaryAreaHTML =
-          await _readerService.getReaderBookHTML(Area.secondary, viewBy, secondaryAreaBible, bookCode);
+          _readerService.getReaderBookHTML(Area.secondary, viewBy, secondaryAreaBible, bookCode, bookmarks);
       await updateReaderAreaHTMLContent(Area.secondary, secondaryAreaHTML);
     }
 

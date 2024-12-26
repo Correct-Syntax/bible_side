@@ -1466,11 +1466,12 @@ class MockReaderService extends _i1.Mock implements _i11.ReaderService {
       ) as Map<String, dynamic>);
 
   @override
-  _i5.Future<String> getReaderBookHTML(
+  String getReaderBookHTML(
     _i8.Area? area,
     _i8.ViewBy? viewBy,
     String? bibleCode,
     String? bookCode,
+    List<String>? bookmarks,
   ) =>
       (super.noSuchMethod(
         Invocation.method(
@@ -1480,9 +1481,10 @@ class MockReaderService extends _i1.Mock implements _i11.ReaderService {
             viewBy,
             bibleCode,
             bookCode,
+            bookmarks,
           ],
         ),
-        returnValue: _i5.Future<String>.value(_i3.dummyValue<String>(
+        returnValue: _i3.dummyValue<String>(
           this,
           Invocation.method(
             #getReaderBookHTML,
@@ -1491,10 +1493,11 @@ class MockReaderService extends _i1.Mock implements _i11.ReaderService {
               viewBy,
               bibleCode,
               bookCode,
+              bookmarks,
             ],
           ),
-        )),
-        returnValueForMissingStub: _i5.Future<String>.value(_i3.dummyValue<String>(
+        ),
+        returnValueForMissingStub: _i3.dummyValue<String>(
           this,
           Invocation.method(
             #getReaderBookHTML,
@@ -1503,10 +1506,11 @@ class MockReaderService extends _i1.Mock implements _i11.ReaderService {
               viewBy,
               bibleCode,
               bookCode,
+              bookmarks,
             ],
           ),
-        )),
-      ) as _i5.Future<String>);
+        ),
+      ) as String);
 }
 
 /// A class which mocks [JsonService].
