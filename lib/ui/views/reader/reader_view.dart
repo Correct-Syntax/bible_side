@@ -70,7 +70,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
                       color: context.theme.appColors.background,
                       padding: const EdgeInsets.symmetric(vertical: 4.0, horizontal: 12.0),
                       child: Text(
-                        'This is still a very early look into the unfinished text of the Open English Translation of the Bible. Please double-check the text in advance before using in public.',
+                        'This is still a very early look into the unfinished text of the Open English Translation of the Bible. Please double-check the text in advance before using in public. Found a mistake or have questions about the translation? Please visit www.openenglishtranslation.bible.',
                         style: TextStyle(
                           fontSize: 8.0,
                           color: context.theme.appColors.readerText,
