@@ -33,6 +33,8 @@ class ReaderViewModel extends ReactiveViewModel {
 
   double get textScaling => _settingsService.textScaling;
   bool get showMarks => _settingsService.showMarks;
+  bool get showChaptersAndVerses => _settingsService.showChaptersAndVerses;
+
   bool get showSecondaryArea => _settingsService.showSecondaryArea;
   bool get linkReaderAreaScrolling => _settingsService.linkReaderAreaScrolling;
 
@@ -58,6 +60,7 @@ class ReaderViewModel extends ReactiveViewModel {
       bookCode,
       bookmarks,
       showMarks,
+      showChaptersAndVerses,
     );
 
     String secondaryAreaHTML = _readerService.getReaderBookHTML(
@@ -67,6 +70,7 @@ class ReaderViewModel extends ReactiveViewModel {
       bookCode,
       bookmarks,
       showMarks,
+      showChaptersAndVerses,
     );
 
     await initilizeReaderWebview(
@@ -505,12 +509,26 @@ class ReaderViewModel extends ReactiveViewModel {
   Future<void> updateReaderAreas() async {
     await _biblesService.reloadBiblesJson();
 
-    String primaryAreaHTML =
-        _readerService.getReaderBookHTML(Area.primary, viewBy, primaryAreaBible, bookCode, bookmarks, showMarks);
+    String primaryAreaHTML = _readerService.getReaderBookHTML(
+      Area.primary,
+      viewBy,
+      primaryAreaBible,
+      bookCode,
+      bookmarks,
+      showMarks,
+      showChaptersAndVerses,
+    );
     await updateReaderAreaHTMLContent(Area.primary, primaryAreaHTML);
     if (showSecondaryArea == true) {
-      String secondaryAreaHTML =
-          _readerService.getReaderBookHTML(Area.secondary, viewBy, secondaryAreaBible, bookCode, bookmarks, showMarks);
+      String secondaryAreaHTML = _readerService.getReaderBookHTML(
+        Area.secondary,
+        viewBy,
+        secondaryAreaBible,
+        bookCode,
+        bookmarks,
+        showMarks,
+        showChaptersAndVerses,
+      );
       await updateReaderAreaHTMLContent(Area.secondary, secondaryAreaHTML);
     }
 

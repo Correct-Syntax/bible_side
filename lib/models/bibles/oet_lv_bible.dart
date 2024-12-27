@@ -9,7 +9,13 @@ class OETLiteralBibleImpl extends JsonToBible {
 
   // TODO: currently replaces all ' marks with ’.
   @override
-  String getBook(Area readerArea, String bookCode, List<String> bookmarks, bool showSpecialMarks) {
+  String getBook(
+    Area readerArea,
+    String bookCode,
+    List<String> bookmarks,
+    bool showSpecialMarks,
+    bool showChaptersAndVerses,
+  ) {
     String htmlText = '';
     String chapterNumberHtml = '';
 
@@ -21,7 +27,9 @@ class OETLiteralBibleImpl extends JsonToBible {
     for (Map<String, dynamic> chapter in chaptersData) {
       chapterNumber = chapter['chapterNumber'];
 
-      chapterNumberHtml = '<span class="c" id="${readerArea.name}-$bookCode-$chapterNumber">$chapterNumber</span>';
+      chapterNumberHtml = '''<span class="c" id="${readerArea.name}-$bookCode-$chapterNumber">
+          ${showChaptersAndVerses ? chapterNumber : ''}
+          </span>''';
 
       chapterContents = chapter['contents'];
 
@@ -52,8 +60,8 @@ class OETLiteralBibleImpl extends JsonToBible {
               String verseId = '${readerArea.name}-$bookCode-$chapterNumber-$verseNumberText';
               String bookmarkIcon = bookmarkIconHTML(verseId, bookmarks);
 
-              htmlText +=
-                  '<p ondblclick=onCreateBookmark("$verseId") class="p">$chapterNumberHtml$bookmarkIcon<sup id="$verseId"> $verseNumberText</sup>';
+              htmlText += '''<p ondblclick=onCreateBookmark("$verseId") class="p">
+                  $chapterNumberHtml$bookmarkIcon<sup id="$verseId"> ${showChaptersAndVerses ? verseNumberText : ''}</sup>''';
             }
           } else if (key == 'verseText') {
             // Note: we remove numbers and markings related to links for now
@@ -70,7 +78,7 @@ class OETLiteralBibleImpl extends JsonToBible {
               verseText = verseText.replaceAll('_', ' ');
             }
 
-            htmlText += " ${verseText.replaceAll("'", "’")}</span>";
+            htmlText += "&nbsp;${verseText.replaceAll("'", "’")}</span>";
           }
         }
       }

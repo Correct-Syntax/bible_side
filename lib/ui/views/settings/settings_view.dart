@@ -153,41 +153,16 @@ class SettingsView extends StackedView<SettingsViewModel> {
                     value: viewModel.showMarks,
                     onChanged: viewModel.changeShowMarks,
                   ),
-                  // Divider(
-                  //   height: 0,
-                  //   color: context.theme.appColors.divider,
-                  // ),
-                  // // Show chapters and verses
-                  // Padding(
-                  //   padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
-                  //   child: Row(
-                  //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  //     children: [
-                  //       Text(
-                  //         'Show chapters and verses',
-                  //         style: TextStyle(
-                  //           color: context.theme.appColors.primary,
-                  //           fontSize: 16.0,
-                  //           fontWeight: FontWeight.w500,
-                  //         ),
-                  //       ),
-                  //       Switch(
-                  //         activeColor: context.theme.appColors.background,
-                  //         activeTrackColor: context.theme.appColors.switchBackground,
-                  //         inactiveThumbColor: context.theme.appColors.primary,
-                  //         inactiveTrackColor: context.theme.appColors.background,
-                  //         trackOutlineColor: MaterialStateProperty.resolveWith((states) {
-                  //           if (states.contains(MaterialState.selected)) {
-                  //             return context.theme.appColors.switchBackground;
-                  //           }
-                  //           return context.theme.appColors.primary;
-                  //         }),
-                  //         value: viewModel.showChaptersAndVerses,
-                  //         onChanged: viewModel.changeShowChaptersAndVerses,
-                  //       ),
-                  //     ],
-                  //   ),
-                  // ),
+                  Divider(
+                    height: 0,
+                    color: context.theme.appColors.divider,
+                  ),
+                  // Show chapters and verses
+                  ToggleItem(
+                    label: 'Show chapters and verses',
+                    value: viewModel.showChaptersAndVerses,
+                    onChanged: viewModel.changeShowChaptersAndVerses,
+                  ),
                   Divider(
                     height: 0,
                     color: context.theme.appColors.divider,
@@ -200,6 +175,7 @@ class SettingsView extends StackedView<SettingsViewModel> {
                     height: 0,
                     color: context.theme.appColors.divider,
                   ),
+                  // Theme
                   Padding(
                     padding: const EdgeInsets.only(top: 10.0, bottom: 10.0, left: 12.0),
                     child: Text(
@@ -212,7 +188,6 @@ class SettingsView extends StackedView<SettingsViewModel> {
                       ),
                     ),
                   ),
-
                   SingleChildScrollView(
                     scrollDirection: Axis.horizontal,
                     child: Row(

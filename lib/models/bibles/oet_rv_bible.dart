@@ -11,7 +11,13 @@ class OETReadersBibleImpl extends JsonToBible {
 
   // TODO: currently replaces all ' marks with ’.
   @override
-  String getBook(Area readerArea, String bookCode, List<String> bookmarks, bool showSpecialMarks) {
+  String getBook(
+    Area readerArea,
+    String bookCode,
+    List<String> bookmarks,
+    bool showSpecialMarks,
+    bool showChaptersAndVerses,
+  ) {
     String htmlText = '';
     String chapterNumberHtml = '';
 
@@ -23,7 +29,8 @@ class OETReadersBibleImpl extends JsonToBible {
 
     for (Map<String, dynamic> chapter in chaptersData) {
       chapterNumber = chapter['chapterNumber'];
-      chapterNumberHtml = '<span class="c" id="${readerArea.name}-$bookCode-$chapterNumber">$chapterNumber</span>';
+      chapterNumberHtml =
+          '''<span class="c" id="${readerArea.name}-$bookCode-$chapterNumber">${showChaptersAndVerses ? chapterNumber : ''}</span>''';
 
       chapterContents = chapter['contents'];
 
@@ -88,10 +95,10 @@ class OETReadersBibleImpl extends JsonToBible {
               String bookmarkIcon = bookmarkIconHTML(verseId, bookmarks);
               if (isNewParagraph == false) {
                 htmlText +=
-                    '<span ondblclick=onCreateBookmark("$verseId") class="p">$bookmarkIcon<sup id="$verseId">$verseNumberText</sup>';
+                    '''<span ondblclick=onCreateBookmark("$verseId") class="p">$bookmarkIcon<sup id="$verseId">${showChaptersAndVerses ? verseNumberText : ''}</sup>''';
               } else {
                 htmlText +=
-                    '<p ondblclick=onCreateBookmark("$verseId") class="p">$chapterNumberHtml$bookmarkIcon<sup id="$verseId">$verseNumberText</sup>';
+                    '''<p ondblclick=onCreateBookmark("$verseId") class="p">$chapterNumberHtml$bookmarkIcon<sup id="$verseId">${showChaptersAndVerses ? verseNumberText : ''}</sup>''';
               }
             }
           } else if (key == 'verseText') {
@@ -107,19 +114,13 @@ class OETReadersBibleImpl extends JsonToBible {
             if (isSection == true && isNext == true) {
               String verseId = '${readerArea.name}-$bookCode-$chapterNumber-$sectionVerseReference';
               String bookmarkIcon = bookmarkIconHTML(verseId, bookmarks);
-              htmlText += """<p>
-                      <div class="section-box">
-                        <p><sup id="$verseId">$chapterNumber:$sectionVerseReference</sup> ${sectionText.replaceAll("'", "’")}</p>
-                      </div>
-                      <span ondblclick=onCreateBookmark("$verseId") class="p">
-                      $chapterNumberHtml$bookmarkIcon<sup>$sectionVerseReference</sup> ${verseText.replaceAll("'", "’")}
-                      </span>
-                  """;
+              htmlText +=
+                  """<p><div class="section-box"><p><sup id="$verseId">$chapterNumber:$sectionVerseReference</sup> ${sectionText.replaceAll("'", "’")}</p></div><span ondblclick=onCreateBookmark("$verseId") class="p">$chapterNumberHtml$bookmarkIcon<sup>${showChaptersAndVerses ? sectionVerseReference : ''}</sup>&nbsp;${verseText.replaceAll("'", "’")}</span>""";
 
               isSection = false;
               isNext = false;
             } else {
-              htmlText += " ${verseText.replaceAll("'", "’")}</span>";
+              htmlText += "&nbsp;${verseText.replaceAll("'", "’")}</span>";
             }
           }
         }
