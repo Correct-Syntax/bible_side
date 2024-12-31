@@ -1473,6 +1473,7 @@ class MockReaderService extends _i1.Mock implements _i11.ReaderService {
     String? bookCode,
     List<String>? bookmarks,
     bool? showMarks,
+    bool? showChaptersAndVerses,
   ) =>
       (super.noSuchMethod(
         Invocation.method(
@@ -1484,6 +1485,7 @@ class MockReaderService extends _i1.Mock implements _i11.ReaderService {
             bookCode,
             bookmarks,
             showMarks,
+            showChaptersAndVerses,
           ],
         ),
         returnValue: _i3.dummyValue<String>(
@@ -1497,6 +1499,7 @@ class MockReaderService extends _i1.Mock implements _i11.ReaderService {
               bookCode,
               bookmarks,
               showMarks,
+              showChaptersAndVerses,
             ],
           ),
         ),
@@ -1511,6 +1514,7 @@ class MockReaderService extends _i1.Mock implements _i11.ReaderService {
               bookCode,
               bookmarks,
               showMarks,
+              showChaptersAndVerses,
             ],
           ),
         ),
