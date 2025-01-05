@@ -30,7 +30,7 @@ Others?
 
 ## Feedback/contributing
 
-Feedback and contributions are welcome. To help out please open an issue.
+Feedback and contributions are welcome. To help out, ask questions, or share feedback please [join the Bibleside chat](https://matrix.to/#/#bibleside:matrix.org) on Matrix.
 
 
 ## Development
