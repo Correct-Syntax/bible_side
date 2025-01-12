@@ -34,6 +34,12 @@ assets/bibles/.temp/*.ESFM
 .pub/
 /build/
 
+# Android related
+android/wrapper
+android/caches
+android/native
+android/daemon
+
 # Symbolication related
 app.*.symbols
 
