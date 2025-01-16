@@ -12,8 +12,8 @@ class ReaderService {
   Map<String, dynamic> get secondaryAreaJson => _biblesService.secondaryAreaJson;
 
   /// An "Area" is the area in the reader where bible text is displayed and scrolled.
-  String getReaderBookHTML(Area area, ViewBy viewBy, String bibleCode, String bookCode, List<String> bookmarks,
-      bool showMarks, bool showChaptersAndVerses) {
+  Future<String> getReaderBookHTML(Area area, ViewBy viewBy, String bibleCode, String bookCode, List<String> bookmarks,
+      bool showMarks, bool showChaptersAndVerses) async {
     Map<String, dynamic> json;
     if (area == Area.primary) {
       json = primaryAreaJson;
@@ -23,13 +23,13 @@ class ReaderService {
 
     if (bibleCode == 'OET-LV') {
       var bibleImpl = OETLiteralBibleImpl(json);
-      return bibleImpl.getBook(area, bookCode, bookmarks, showMarks, showChaptersAndVerses);
+      return await bibleImpl.getBook(area, bookCode, bookmarks, showMarks, showChaptersAndVerses);
     } else if (bibleCode == 'OET-RV') {
       var bibleImpl = OETReadersBibleImpl(json);
-      return bibleImpl.getBook(area, bookCode, bookmarks, showMarks, showChaptersAndVerses);
+      return await bibleImpl.getBook(area, bookCode, bookmarks, showMarks, showChaptersAndVerses);
     } else if (bibleCode == 'KJV') {
       var bibleImpl = KJVBibleImpl(json);
-      return bibleImpl.getBook(area, bookCode, bookmarks, showMarks, showChaptersAndVerses);
+      return await bibleImpl.getBook(area, bookCode, bookmarks, showMarks, showChaptersAndVerses);
     } else {
       return 'Invalid bibleCode.';
     }

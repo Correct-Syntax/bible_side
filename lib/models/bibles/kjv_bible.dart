@@ -9,13 +9,13 @@ class KJVBibleImpl extends JsonToBible {
   KJVBibleImpl(Map<String, dynamic> json) : super(json: json);
 
   @override
-  String getBook(
+  Future<String> getBook(
     Area readerArea,
     String bookCode,
     List<String> bookmarks,
     bool showSpecialMarks,
     bool showChaptersAndVerses,
-  ) {
+  ) async {
     String htmlText = '';
     String chapterNumber = '';
     List<dynamic> chapterContents = [];

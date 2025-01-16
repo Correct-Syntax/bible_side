@@ -33,13 +33,13 @@ abstract class JsonToBible {
     return svg;
   }
 
-  String getBook(
+  Future<String> getBook(
     Area readerArea,
     String bookCode,
     List<String> bookmarks,
     bool showSpecialMarks,
     bool showChaptersAndVerses,
-  ) {
+  ) async {
     return '~';
   }
 }

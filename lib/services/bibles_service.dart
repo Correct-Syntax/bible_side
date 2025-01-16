@@ -12,7 +12,10 @@ class BiblesService with ListenableServiceMixin {
   final _jsonService = locator<JsonService>();
 
   BiblesService() {
-    listenToReactiveValues([]);
+    listenToReactiveValues([
+      primaryAreaJson,
+      secondaryAreaJson,
+    ]);
   }
 
   Map<String, dynamic> primaryAreaJson = {};
@@ -65,6 +68,7 @@ class BiblesService with ListenableServiceMixin {
       revertToKJVIfOETBookNotAvailable(secondaryBible, bookCode, Area.secondary);
       secondaryAreaJson = await _jsonService.loadBookJson(secondaryBible, bookCode);
     }
+    notifyListeners();
   }
 
   void revertToKJVIfOETBookNotAvailable(String thebibleCode, String theBookCode, Area area) {

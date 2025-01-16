@@ -9,13 +9,13 @@ class OETLiteralBibleImpl extends JsonToBible {
 
   // TODO: currently replaces all ' marks with ’.
   @override
-  String getBook(
+  Future<String> getBook(
     Area readerArea,
     String bookCode,
     List<String> bookmarks,
     bool showSpecialMarks,
     bool showChaptersAndVerses,
-  ) {
+  ) async {
     String htmlText = '';
     String chapterNumberHtml = '';
 
