@@ -11,6 +11,7 @@ import 'package:bible_side/services/app_info_service.dart' as _i10;
 import 'package:bible_side/services/bibles_service.dart' as _i7;
 import 'package:bible_side/services/json_service.dart' as _i12;
 import 'package:bible_side/services/reader_service.dart' as _i11;
+import 'package:bible_side/services/search_service.dart' as _i13;
 import 'package:bible_side/services/settings_service.dart' as _i9;
 import 'package:flutter/material.dart' as _i4;
 import 'package:mockito/mockito.dart' as _i1;
@@ -1453,6 +1454,28 @@ class MockAppInfoService extends _i1.Mock implements _i10.AppInfoService {
 /// See the documentation for Mockito's code generation for more information.
 class MockReaderService extends _i1.Mock implements _i11.ReaderService {
   @override
+  String get lastBookCode => (super.noSuchMethod(
+        Invocation.getter(#lastBookCode),
+        returnValue: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#lastBookCode),
+        ),
+        returnValueForMissingStub: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#lastBookCode),
+        ),
+      ) as String);
+
+  @override
+  set lastBookCode(String? _lastBookCode) => super.noSuchMethod(
+        Invocation.setter(
+          #lastBookCode,
+          _lastBookCode,
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
   Map<String, dynamic> get primaryAreaJson => (super.noSuchMethod(
         Invocation.getter(#primaryAreaJson),
         returnValue: <String, dynamic>{},
@@ -1552,4 +1575,25 @@ class MockJsonService extends _i1.Mock implements _i12.JsonService {
         returnValue: _i5.Future<Map<String, dynamic>>.value(<String, dynamic>{}),
         returnValueForMissingStub: _i5.Future<Map<String, dynamic>>.value(<String, dynamic>{}),
       ) as _i5.Future<Map<String, dynamic>>);
+}
+
+/// A class which mocks [SearchService].
+///
+/// See the documentation for Mockito's code generation for more information.
+class MockSearchService extends _i1.Mock implements _i13.SearchService {
+  @override
+  List<Map<String, dynamic>> get searchResults => (super.noSuchMethod(
+        Invocation.getter(#searchResults),
+        returnValue: <Map<String, dynamic>>[],
+        returnValueForMissingStub: <Map<String, dynamic>>[],
+      ) as List<Map<String, dynamic>>);
+
+  @override
+  void setSearchSectionFilter(String? item) => super.noSuchMethod(
+        Invocation.method(
+          #setSearchSectionFilter,
+          [item],
+        ),
+        returnValueForMissingStub: null,
+      );
 }

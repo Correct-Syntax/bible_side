@@ -15,6 +15,7 @@ import 'package:bible_side/ui/views/navigation_bible_divisions/navigation_bible_
 import 'package:bible_side/ui/views/navigation_books/navigation_books_view.dart';
 import 'package:bible_side/ui/views/navigation_sections_chapters/navigation_sections_chapters_view.dart';
 import 'package:bible_side/ui/views/bookmarks/bookmarks_view.dart';
+import 'package:bible_side/services/search_service.dart';
 // @stacked-import
 
 @StackedApp(
@@ -40,6 +41,7 @@ import 'package:bible_side/ui/views/bookmarks/bookmarks_view.dart';
     LazySingleton(classType: ThemeService),
     LazySingleton(classType: ReaderService),
     LazySingleton(classType: JsonService),
+    LazySingleton(classType: SearchService),
 // @stacked-service
   ],
   // bottomsheets: [

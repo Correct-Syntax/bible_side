@@ -27,6 +27,9 @@ abstract class LightThemePalette {
   // White 70% opacity
   static const white70 = Color.fromRGBO(255, 255, 255, 0.7);
 
+  // Almost white blue
+  static const almostWhiteBlue = Color.fromARGB(255, 240, 249, 255);
+
   // Light blue
   static const lightBlue = Color(0xFFDAEDFC);
 
@@ -59,8 +62,11 @@ abstract class DarkThemePalette {
   // Medium-light gray
   static const mediumLightGray = Color(0xFFA9ADB1);
 
-  // Dark grey
+  // Dark gray
   static const darkGray = Color(0xFF1F2123);
+
+  // Blue-gray
+  static const blueGray = Color.fromARGB(255, 36, 41, 45);
 
   // Dark black gray
   static const almostBlack = Color(0xFF161718);
@@ -112,6 +118,10 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
     required this.readerSelectorBackground,
     required this.switchBackground,
     required this.sliderAccent,
+    required this.inputBackground,
+    required this.inputBorder,
+    required this.filterItemBackground,
+    required this.loadingSpinner,
     required this.divider,
     required this.readerText,
     required this.readerRedLetter,
@@ -133,6 +143,10 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
   final Color readerSelectorBackground;
   final Color switchBackground;
   final Color sliderAccent;
+  final Color inputBackground;
+  final Color inputBorder;
+  final Color filterItemBackground;
+  final Color loadingSpinner;
   final Color divider;
   final Color readerText;
   final Color readerRedLetter;
@@ -158,6 +172,10 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
       readerSelectorBackground: readerSelectorBackground,
       switchBackground: switchBackground,
       sliderAccent: sliderAccent,
+      inputBackground: inputBackground,
+      inputBorder: inputBorder,
+      filterItemBackground: filterItemBackground,
+      loadingSpinner: loadingSpinner,
       divider: divider,
       readerText: readerText,
       readerRedLetter: readerRedLetter,
@@ -189,7 +207,11 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
       popupBackground: Color.lerp(popupBackground, other.popupBackground, t)!,
       readerSelectorBackground: Color.lerp(readerSelectorBackground, other.readerSelectorBackground, t)!,
       switchBackground: Color.lerp(switchBackground, other.switchBackground, t)!,
+      inputBackground: Color.lerp(inputBackground, other.inputBackground, t)!,
+      inputBorder: Color.lerp(inputBorder, other.inputBorder, t)!,
+      filterItemBackground: Color.lerp(filterItemBackground, other.filterItemBackground, t)!,
       sliderAccent: Color.lerp(sliderAccent, other.sliderAccent, t)!,
+      loadingSpinner: Color.lerp(loadingSpinner, other.loadingSpinner, t)!,
       divider: Color.lerp(divider, other.divider, t)!,
       readerText: Color.lerp(readerText, other.readerText, t)!,
       readerRedLetter: Color.lerp(readerRedLetter, other.readerRedLetter, t)!,
@@ -226,7 +248,11 @@ class AppTheme {
     popupBackground: LightThemePalette.mediumBlue,
     readerSelectorBackground: LightThemePalette.darkBlue,
     switchBackground: LightThemePalette.mediumBlue,
+    inputBackground: LightThemePalette.white,
+    inputBorder: LightThemePalette.mediumSlate10,
+    filterItemBackground: LightThemePalette.almostWhiteBlue,
     sliderAccent: LightThemePalette.mediumBlue,
+    loadingSpinner: LightThemePalette.darkBlue,
     divider: LightThemePalette.mediumSlate10,
     readerText: LightThemePalette.mediumSlate,
     readerRedLetter: ReaderTextPalette.redLetterRed,
@@ -260,7 +286,11 @@ class AppTheme {
     popupBackground: DarkThemePalette.almostBlack,
     readerSelectorBackground: DarkThemePalette.darkGray,
     switchBackground: DarkThemePalette.white,
+    inputBackground: DarkThemePalette.blueGray,
+    inputBorder: DarkThemePalette.blueGray,
+    filterItemBackground: DarkThemePalette.almostBlack,
     sliderAccent: DarkThemePalette.white,
+    loadingSpinner: DarkThemePalette.white,
     divider: DarkThemePalette.white10,
     readerText: DarkThemePalette.mediumLightGray,
     readerRedLetter: ReaderTextPalette.redLetterRed,
@@ -294,7 +324,11 @@ class AppTheme {
     popupBackground: SepiaThemePalette.lightTan,
     readerSelectorBackground: SepiaThemePalette.almostWhiteTan,
     switchBackground: SepiaThemePalette.mediumBrown,
+    inputBackground: SepiaThemePalette.almostWhiteTan,
+    inputBorder: SepiaThemePalette.mediumBrown,
+    filterItemBackground: SepiaThemePalette.lightTan,
     sliderAccent: SepiaThemePalette.mediumBrown,
+    loadingSpinner: SepiaThemePalette.mediumDarkBrown,
     divider: SepiaThemePalette.lightTan,
     readerText: SepiaThemePalette.mediumGray,
     readerRedLetter: ReaderTextPalette.redLetterRed,
@@ -328,7 +362,11 @@ class AppTheme {
     popupBackground: HighContrastThemePalette.black,
     readerSelectorBackground: HighContrastThemePalette.black,
     switchBackground: HighContrastThemePalette.white,
+    inputBackground: HighContrastThemePalette.black,
+    inputBorder: HighContrastThemePalette.white,
+    filterItemBackground: HighContrastThemePalette.black,
     sliderAccent: HighContrastThemePalette.white,
+    loadingSpinner: HighContrastThemePalette.white,
     divider: HighContrastThemePalette.white,
     readerText: HighContrastThemePalette.white,
     readerRedLetter: ReaderTextPalette.redLetterRed,

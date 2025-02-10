@@ -82,7 +82,9 @@ class ReaderView extends StackedView<ReaderViewModel> {
             ),
             if (viewModel.isBusy)
               Center(
-                child: CircularProgressIndicator(color: context.theme.appColors.appbarBackground),
+                child: CircularProgressIndicator(
+                  color: context.theme.appColors.loadingSpinner,
+                ),
               ),
             if (viewModel.isSecondaryReaderAreaPopupActive)
               Align(

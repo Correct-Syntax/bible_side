@@ -7,6 +7,7 @@ import 'package:bible_side/services/settings_service.dart';
 import 'package:bible_side/services/app_info_service.dart';
 import 'package:bible_side/services/reader_service.dart';
 import 'package:bible_side/services/json_service.dart';
+import 'package:bible_side/services/search_service.dart';
 // @stacked-import
 
 import 'test_helpers.mocks.dart';
@@ -20,6 +21,7 @@ import 'test_helpers.mocks.dart';
   MockSpec<AppInfoService>(onMissingStub: OnMissingStub.returnDefault),
   MockSpec<ReaderService>(onMissingStub: OnMissingStub.returnDefault),
   MockSpec<JsonService>(onMissingStub: OnMissingStub.returnDefault),
+  MockSpec<SearchService>(onMissingStub: OnMissingStub.returnDefault),
 // @stacked-mock-spec
 ])
 void registerServices() {
@@ -31,6 +33,7 @@ void registerServices() {
   getAndRegisterAppInfoService();
   getAndRegisterReaderService();
   getAndRegisterJsonService();
+  getAndRegisterSearchService();
 // @stacked-mock-register
 }
 
@@ -115,6 +118,13 @@ MockJsonService getAndRegisterJsonService() {
   _removeRegistrationIfExists<JsonService>();
   final service = MockJsonService();
   locator.registerSingleton<JsonService>(service);
+  return service;
+}
+
+MockSearchService getAndRegisterSearchService() {
+  _removeRegistrationIfExists<SearchService>();
+  final service = MockSearchService();
+  locator.registerSingleton<SearchService>(service);
   return service;
 }
 // @stacked-mock-create

@@ -286,6 +286,30 @@ class BooksMapping {
     return color;
   }
 
+  static String sectionNameFromSectionCode(String sectionCode) {
+    String sectionName = '';
+
+    for (var item in booksMapping.keys) {
+      if (item == sectionCode) {
+        sectionName = booksMapping[item]['name'];
+        break;
+      }
+    }
+    return sectionName;
+  }
+
+  static int colorFromSectionCode(String sectionCode) {
+    int color = 0xFF9C9FA6;
+
+    for (var item in booksMapping.keys) {
+      if (item == sectionCode) {
+        color = booksMapping[item]['color'];
+        break;
+      }
+    }
+    return color;
+  }
+
   static String bibleDivisionCodeFromIndex(int index) {
     return booksMapping.keys.toList()[index];
   }
