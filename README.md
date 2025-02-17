@@ -56,7 +56,7 @@ Bible versions are treated as separate Bibles. e.g: The OET-RV and OET-LV are tr
 
 There is a Python script in ``/assets/bibles`` that will automatically update the json files from the GitHub sources.
 
-The ESFM files from [here (OET Reader's version)](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET/tree/main/translatedTexts/ReadersVersion) and [here (OET Literal version)](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET/tree/main/intermediateTexts/auto_edited_VLT_ESFM) are run through [usfm-grammar](https://github.com/Bridgeconn/usfm-grammar) in ``relaxed`` mode for conversion to JSON.
+The ESFM (a subset of USFM) files from [here (OET Reader's version)](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET/tree/main/translatedTexts/ReadersVersion) and [here (OET Literal version)](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET/tree/main/intermediateTexts/auto_edited_VLT_ESFM) are run through [usfm-grammar](https://github.com/Bridgeconn/usfm-grammar) conversion to JSON.
 
 Navigate to ``/assets/bibles`` and run the file with ``python update_OET_json.py``.
 
