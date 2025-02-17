@@ -1454,28 +1454,6 @@ class MockAppInfoService extends _i1.Mock implements _i10.AppInfoService {
 /// See the documentation for Mockito's code generation for more information.
 class MockReaderService extends _i1.Mock implements _i11.ReaderService {
   @override
-  String get lastBookCode => (super.noSuchMethod(
-        Invocation.getter(#lastBookCode),
-        returnValue: _i3.dummyValue<String>(
-          this,
-          Invocation.getter(#lastBookCode),
-        ),
-        returnValueForMissingStub: _i3.dummyValue<String>(
-          this,
-          Invocation.getter(#lastBookCode),
-        ),
-      ) as String);
-
-  @override
-  set lastBookCode(String? _lastBookCode) => super.noSuchMethod(
-        Invocation.setter(
-          #lastBookCode,
-          _lastBookCode,
-        ),
-        returnValueForMissingStub: null,
-      );
-
-  @override
   Map<String, dynamic> get primaryAreaJson => (super.noSuchMethod(
         Invocation.getter(#primaryAreaJson),
         returnValue: <String, dynamic>{},
