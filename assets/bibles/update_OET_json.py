@@ -1,21 +1,23 @@
-# Script to automatically update the OET .json files from the ESFM sources on GitHub
-# Requirements: npm via Node.js, Python 3, and the Python Requests package
+# Script to automatically update the OET .json files from the ESFM sources on GitHub.
+# Requirements: Python 3.10+, usfm_grammar, and the Requests package.
 
 import os
+import json
 import subprocess
 from pathlib import Path 
 import requests
+from usfm_grammar import USFMParser, Filter
 
 
-RV_source_url = "https://raw.githubusercontent.com/Freely-Given-org/OpenEnglishTranslation--OET/main/translatedTexts/ReadersVersion/"
-LV_source_url = "https://raw.githubusercontent.com/Freely-Given-org/OpenEnglishTranslation--OET/main/intermediateTexts/auto_edited_VLT_ESFM/"
+RV_SOURCE_URL = "https://raw.githubusercontent.com/Freely-Given-org/OpenEnglishTranslation--OET/main/translatedTexts/ReadersVersion/"
+LV_SOURCE_URL = "https://raw.githubusercontent.com/Freely-Given-org/OpenEnglishTranslation--OET/main/intermediateTexts/auto_edited_VLT_ESFM/"
 
-download_dir = "/.temp"
+DOWNLOAD_DIR = "/.temp"
 
-RV_local_path = "/OET-RV/"
-LV_local_path = "/OET-LV/"
+RV_LOCAL_PATH = "/OET-RV/"
+LV_LOCAL_PATH = "/OET-LV/"
 
-RV_file_mapping = {
+RV_FILE_MAPPING = {
   "OET-RV_GEN.ESFM": "GEN.json",
   "OET-RV_EXO.ESFM": "EXO.json",
   "OET-RV_LEV.ESFM": "LEV.json",
@@ -86,7 +88,7 @@ RV_file_mapping = {
   "OET-RV_REV.ESFM": "REV.json",
 }
 
-LV_file_mapping = {
+LV_FILE_MAPPING = {
   "OET-LV_GEN.ESFM": "GEN.json",
   "OET-LV_EXO.ESFM": "EXO.json",
   "OET-LV_LEV.ESFM": "LEV.json",
@@ -157,55 +159,63 @@ LV_file_mapping = {
   "OET-LV_REV.ESFM": "REV.json",
 }
 
+# Download the ESFM file.
+def download_esfm_file(download_url) -> str:
+  print("Downloading ESFM source file from", download_url)
 
-def convert_esfm_to_json(esfm_source_url, local_path, file_mapping):
-    # Download the ESFM file
-    download_url = esfm_source_url + filename
-    print("Downloading ESFM source from", download_url)
+  response = requests.get(download_url)
 
-    response = requests.get(download_url)
+  if response.ok:
+    # Save the ESFM file to the download directory
+    path = Path(os.getcwd() + f'/{DOWNLOAD_DIR}/{filename}')
+    path.touch() # Create file if it doesn't exist
 
-    if response.ok:
-      path = Path(os.getcwd() + f'/{download_dir}/{filename}')
-      path.touch() # Create file if it doesn't exist
+    with open(path, "w", encoding="utf-8") as file:
+      file.write(response.text)
+      file.close()
+    return path
+  else:
+    print(f"Failed to download the ESFM source file. The request status code is {response.status_code}.")
+    return ""
 
-      with path.open('wb') as file:
-        file.write(response.content)
 
-      json_filepath = f'{os.getcwd()}{local_path}{file_mapping[filename]}'
+# Download and convert the ESFM contents to json.
+def convert_esfm_to_json(filename, esfm_source_url, local_path, FILE_MAPPING):
+  download_url = f"{esfm_source_url}{filename}"
+  download_path = download_esfm_file(download_url)
 
-      abs_path = path.absolute()
+  print(f"Converting {filename} to json...")
+  if download_path != "":
+    with open(download_path, "r", encoding="utf-8") as file:
+      input_esfm = file.read()
+      file.close()
+    
+    parser = USFMParser(input_esfm)
 
-      # Convert to json
-      with open(json_filepath, 'wb') as file:
-        print(abs_path)
-        output = subprocess.run(["usfm-grammar", str(abs_path), "--level", "relaxed"], 
-                                shell=False, stdout=file, stderr=subprocess.PIPE, text=True)
+    converted_json = parser.to_usj()
 
-      if output.returncode == 1:
-        print("Error converting ESFM to json!")
-      else:
-        print("Converted ESFM to json.")
-    else:
-      print("Something went wrong. The request status code is ", response.status_code)
+    errors = parser.errors
+    if errors != "":
+      print(f"The following errors were encountered when converting the ESFM to json:\n {errors}")
+
+    json_filepath = f"{os.getcwd()}{local_path}{FILE_MAPPING[filename]}"
+    with open(json_filepath, "w", encoding="utf-8") as file:
+      json.dump(converted_json, file)
+      file.close()
+
+    print("Converted ESFM to json.")
+  else:
+    print("Converting ESFM to json failed.")
+
 
 
 if __name__ == "__main__":
-  print("Installing usfm to json converter...")
-  output = os.system("npm install -g usfm-grammar")
+  print("\nConverting the Reader's version...")
+  for filename in RV_FILE_MAPPING.keys():
+    convert_esfm_to_json(filename, RV_SOURCE_URL, RV_LOCAL_PATH, RV_FILE_MAPPING)
 
-  if output == 1:
-    print(("Couldn't run ``npm install -g usfm-grammar`` to install the usfm to json converter.",
-          ("Please check that you have npm installed.")))
-  else:
-    print("Successfully installed usfm to json converter.")
+  print("\nConverting the Literal version...")
+  for filename in LV_FILE_MAPPING.keys():
+    convert_esfm_to_json(filename, LV_SOURCE_URL, LV_LOCAL_PATH, LV_FILE_MAPPING)
 
-    print("\nConverting Reader's version")
-    for filename in RV_file_mapping.keys():
-      convert_esfm_to_json(RV_source_url, RV_local_path, RV_file_mapping)
-
-    print("\nConverting Literal version")
-    for filename in LV_file_mapping.keys():
-      convert_esfm_to_json(LV_source_url, LV_local_path, LV_file_mapping)
-
-    print("\nDone! The converted .json files are in the /RV/ and /LV/ folders.")
+  print("\nDone! The converted .json files are in the /RV/ and /LV/ folders.")
