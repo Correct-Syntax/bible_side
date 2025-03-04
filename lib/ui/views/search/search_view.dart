@@ -3,6 +3,7 @@ import 'package:stacked/stacked.dart';
 
 import '../../../common/books.dart';
 import '../../../common/themes.dart';
+import '../../../models/search_result.dart';
 import '../../common/ui_helpers.dart';
 import 'search_viewmodel.dart';
 import 'widgets/search_filter_bar/search_filter_bar.dart';
@@ -51,7 +52,7 @@ class SearchView extends StackedView<SearchViewModel> {
                 ),
                 SearchFilterBar(
                   selectedItem: viewModel.searchSectionFilter,
-                  items: booksMapping.keys.toList(),
+                  items: booksInSectionsMapping.keys.toList(),
                   onChangeItem: (item) => viewModel.onSelectSectionFilter(item),
                 ),
                 Padding(
@@ -64,33 +65,46 @@ class SearchView extends StackedView<SearchViewModel> {
                 Padding(
                   padding: const EdgeInsets.symmetric(vertical: 12.0, horizontal: 25.0),
                   child: Text(
-                    viewModel.getSearchResultMessage(viewModel.searchSectionFilter, viewModel.currentBible),
+                    viewModel.isBusy
+                        ? ''
+                        : viewModel.getSearchResultMessage(viewModel.searchTerm, viewModel.searchSectionFilter,
+                            'KJV'), // TODO: viewModel.currentBible),
                     style: TextStyle(
                       color: context.theme.appColors.secondary,
                       fontSize: 12.0,
                     ),
                   ),
                 ),
-                if (viewModel.searchResults.isNotEmpty)
-                  Expanded(
-                    child: ListView.builder(
-                      itemCount: viewModel.searchResults.length,
-                      itemBuilder: (BuildContext context, int index) {
-                        Map<String, dynamic> searchResult = viewModel.searchResults[index];
-                        return SearchResultItem(
-                          bookCode: searchResult['book_code'],
-                          chapter: searchResult['chapter'],
-                          verse: searchResult['verse'],
-                          verseText: searchResult['verse_text'],
-                          onTap: () => viewModel.onTapSearchResult(
-                            searchResult['book_code'],
-                            searchResult['chapter'],
-                            searchResult['verse'],
+                viewModel.isBusy
+                    ? Center(
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(vertical: 20.0),
+                          child: CircularProgressIndicator(
+                            color: context.theme.appColors.loadingSpinner,
                           ),
-                        );
-                      },
-                    ),
-                  ),
+                        ),
+                      )
+                    : viewModel.searchResults.isNotEmpty
+                        ? Expanded(
+                            child: ListView.builder(
+                              itemCount: viewModel.searchResults.length,
+                              itemBuilder: (BuildContext context, int index) {
+                                SearchResult searchResult = viewModel.searchResults[index];
+                                return SearchResultItem(
+                                  bookCode: searchResult.bookCode,
+                                  chapter: searchResult.chapter,
+                                  verse: searchResult.verse,
+                                  verseText: searchResult.verseText,
+                                  onTap: () => viewModel.onTapSearchResult(
+                                    searchResult.bookCode,
+                                    searchResult.chapter,
+                                    searchResult.verse,
+                                  ),
+                                );
+                              },
+                            ),
+                          )
+                        : Container(),
               ],
             ),
           ),

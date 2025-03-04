@@ -22,6 +22,8 @@ class Searchbar extends StackedView<SearchbarModel> {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 25.0),
       child: TextField(
+        textInputAction: TextInputAction.search,
+        keyboardType: TextInputType.text,
         decoration: InputDecoration(
           contentPadding: const EdgeInsets.symmetric(horizontal: 16.0),
           prefixIcon: PhosphorIcon(

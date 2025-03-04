@@ -1,5 +1,63 @@
-/// Mapping book codes to the full book name
-Map<String, dynamic> booksMapping = {
+/// Mapping book codes to the full book name.
+Map<String, String> booksMapping = {
+  'GEN': 'Genesis',
+  'EXO': 'Exodus',
+  'LEV': 'Leviticus',
+  'NUM': 'Numbers',
+  'DEU': 'Deuteronomy',
+  'JOS': 'Joshua',
+  'JDG': 'Judges',
+  'RUT': 'Ruth',
+  'SA1': '1 Samuel',
+  'SA2': '2 Samuel',
+  'KI1': '1 Kings',
+  'KI2': '2 Kings',
+  'CH1': '1 Chronicles',
+  'CH2': '2 Chronicles',
+  'EZR': 'Ezra',
+  'NEH': 'Nehemiah',
+  'EST': 'Esther',
+  'JOB': 'Job',
+  'PSA': 'Psalms',
+  'PRO': 'Proverbs',
+  'ECC': 'Ecclesiastes',
+  'SNG': 'Song of Solomon',
+  'ISA': 'Isaiah',
+  'JER': 'Jeremiah',
+  'LAM': 'Lamentations',
+  'EZE': 'Ezekiel',
+  'DAN': 'Daniel',
+  'JHN': 'John',
+  'MRK': 'Mark',
+  'MAT': 'Matthew',
+  'LUK': 'Luke',
+  'ACT': 'Acts',
+  'ROM': 'Romans',
+  'CO1': '1 Corinthians',
+  'CO2': '2 Corinthians',
+  'GAL': 'Galatians',
+  'EPH': 'Ephesians',
+  'PHP': 'Philippians',
+  'COL': 'Colossians',
+  'TH1': '1 Thessalonians',
+  'TH2': '2 Thessalonians',
+  'TI1': '1 Timothy',
+  'TI2': '2 Timothy',
+  'TIT': 'Titus',
+  'PHM': 'Philemon',
+  'HEB': 'Hebrews',
+  'JAM': 'James',
+  'PE1': '1 Peter',
+  'PE2': '2 Peter',
+  'JN1': '1 John',
+  'JN2': '2 John',
+  'JN3': '3 John',
+  'JDE': 'Jude',
+  'REV': 'Revelation',
+};
+
+/// Mapping book codes to the full book name, divided by.
+Map<String, dynamic> booksInSectionsMapping = {
   'TORAH': {
     'name': 'Torah',
     'color': 0xFFFFC107,
@@ -256,10 +314,10 @@ class BooksMapping {
   static String bookNameFromBookCode(String bookCode) {
     String bookName = '';
 
-    for (var item in booksMapping.keys) {
-      for (var innerItem in booksMapping[item]['books'].keys) {
+    for (var item in booksInSectionsMapping.keys) {
+      for (var innerItem in booksInSectionsMapping[item]['books'].keys) {
         if (innerItem == bookCode) {
-          bookName = booksMapping[item]['books'][innerItem];
+          bookName = booksInSectionsMapping[item]['books'][innerItem];
           break;
         }
       }
@@ -271,9 +329,9 @@ class BooksMapping {
     bool thisColor = false;
     int color = 0xFF9C9FA6;
 
-    for (var item in booksMapping.keys) {
-      color = booksMapping[item]['color'];
-      for (var innerItem in booksMapping[item]['books'].keys) {
+    for (var item in booksInSectionsMapping.keys) {
+      color = booksInSectionsMapping[item]['color'];
+      for (var innerItem in booksInSectionsMapping[item]['books'].keys) {
         if (innerItem == bookCode) {
           thisColor = true;
           break;
@@ -289,9 +347,9 @@ class BooksMapping {
   static String sectionNameFromSectionCode(String sectionCode) {
     String sectionName = '';
 
-    for (var item in booksMapping.keys) {
+    for (var item in booksInSectionsMapping.keys) {
       if (item == sectionCode) {
-        sectionName = booksMapping[item]['name'];
+        sectionName = booksInSectionsMapping[item]['name'];
         break;
       }
     }
@@ -301,9 +359,9 @@ class BooksMapping {
   static int colorFromSectionCode(String sectionCode) {
     int color = 0xFF9C9FA6;
 
-    for (var item in booksMapping.keys) {
+    for (var item in booksInSectionsMapping.keys) {
       if (item == sectionCode) {
-        color = booksMapping[item]['color'];
+        color = booksInSectionsMapping[item]['color'];
         break;
       }
     }
@@ -311,22 +369,22 @@ class BooksMapping {
   }
 
   static String bibleDivisionCodeFromIndex(int index) {
-    return booksMapping.keys.toList()[index];
+    return booksInSectionsMapping.keys.toList()[index];
   }
 
   static String bibleDivisionNameFromCode(String bibleDivisionCode) {
-    return booksMapping[bibleDivisionCode]['name'];
+    return booksInSectionsMapping[bibleDivisionCode]['name'];
   }
 
   static int colorFromBibleDivisionCode(String bibleDivisionCode) {
-    return booksMapping[bibleDivisionCode]['color'];
+    return booksInSectionsMapping[bibleDivisionCode]['color'];
   }
 
   static int numOfBooksFromBibleDivisionCode(String bibleDivisionCode) {
-    return booksMapping[bibleDivisionCode]['books'].keys.length;
+    return booksInSectionsMapping[bibleDivisionCode]['books'].keys.length;
   }
 
   static Map<String, String> booksMappingFromBibleDivisionCode(String bibleDivisionCode) {
-    return booksMapping[bibleDivisionCode]['books'];
+    return booksInSectionsMapping[bibleDivisionCode]['books'];
   }
 }

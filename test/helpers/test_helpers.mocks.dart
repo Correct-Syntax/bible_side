@@ -7,6 +7,7 @@ import 'dart:async' as _i5;
 import 'dart:ui' as _i6;
 
 import 'package:bible_side/common/enums.dart' as _i8;
+import 'package:bible_side/models/search_result.dart' as _i14;
 import 'package:bible_side/services/app_info_service.dart' as _i10;
 import 'package:bible_side/services/bibles_service.dart' as _i7;
 import 'package:bible_side/services/json_service.dart' as _i12;
@@ -1560,17 +1561,92 @@ class MockJsonService extends _i1.Mock implements _i12.JsonService {
 /// See the documentation for Mockito's code generation for more information.
 class MockSearchService extends _i1.Mock implements _i13.SearchService {
   @override
-  List<Map<String, dynamic>> get searchResults => (super.noSuchMethod(
+  String get searchTerm => (super.noSuchMethod(
+        Invocation.getter(#searchTerm),
+        returnValue: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#searchTerm),
+        ),
+        returnValueForMissingStub: _i3.dummyValue<String>(
+          this,
+          Invocation.getter(#searchTerm),
+        ),
+      ) as String);
+
+  @override
+  List<_i14.SearchResult> get searchResults => (super.noSuchMethod(
         Invocation.getter(#searchResults),
-        returnValue: <Map<String, dynamic>>[],
-        returnValueForMissingStub: <Map<String, dynamic>>[],
-      ) as List<Map<String, dynamic>>);
+        returnValue: <_i14.SearchResult>[],
+        returnValueForMissingStub: <_i14.SearchResult>[],
+      ) as List<_i14.SearchResult>);
+
+  @override
+  int get listenersCount => (super.noSuchMethod(
+        Invocation.getter(#listenersCount),
+        returnValue: 0,
+        returnValueForMissingStub: 0,
+      ) as int);
+
+  @override
+  void setSearchTerm(String? text) => super.noSuchMethod(
+        Invocation.method(
+          #setSearchTerm,
+          [text],
+        ),
+        returnValueForMissingStub: null,
+      );
 
   @override
   void setSearchSectionFilter(String? item) => super.noSuchMethod(
         Invocation.method(
           #setSearchSectionFilter,
           [item],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  _i5.Future<void> search() => (super.noSuchMethod(
+        Invocation.method(
+          #search,
+          [],
+        ),
+        returnValue: _i5.Future<void>.value(),
+        returnValueForMissingStub: _i5.Future<void>.value(),
+      ) as _i5.Future<void>);
+
+  @override
+  void listenToReactiveValues(List<dynamic>? reactiveValues) => super.noSuchMethod(
+        Invocation.method(
+          #listenToReactiveValues,
+          [reactiveValues],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  void addListener(void Function()? listener) => super.noSuchMethod(
+        Invocation.method(
+          #addListener,
+          [listener],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  void removeListener(void Function()? listener) => super.noSuchMethod(
+        Invocation.method(
+          #removeListener,
+          [listener],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  void notifyListeners() => super.noSuchMethod(
+        Invocation.method(
+          #notifyListeners,
+          [],
         ),
         returnValueForMissingStub: null,
       );

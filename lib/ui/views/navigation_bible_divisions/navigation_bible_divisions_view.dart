@@ -48,7 +48,7 @@ class NavigationBibleDivisionsView extends StackedView<NavigationBibleDivisionsV
               children: [
                 Expanded(
                   child: ListView.builder(
-                    itemCount: booksMapping.keys.length,
+                    itemCount: booksInSectionsMapping.keys.length,
                     itemBuilder: (BuildContext context, int index) {
                       String bibleDivisionCode = BooksMapping.bibleDivisionCodeFromIndex(index);
                       return InkWell(

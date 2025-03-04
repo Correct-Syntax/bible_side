@@ -1,5 +1,6 @@
 import '../common/colors.dart';
 import '../common/enums.dart';
+import 'search_result.dart';
 
 abstract class JsonToBible {
   final Map<String, dynamic> json;
@@ -41,5 +42,9 @@ abstract class JsonToBible {
     bool showChaptersAndVerses,
   ) async {
     return '~';
+  }
+
+  Future<List<SearchResult>> getSearchResults(String bookCode, String searchTerm) async {
+    return [];
   }
 }
