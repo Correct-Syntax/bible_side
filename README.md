@@ -52,11 +52,11 @@ Bibleside is built with Flutter using [Stacked Architecture](https://stacked.fil
 Bible versions are treated as separate Bibles. e.g: The OET-RV and OET-LV are treated as a separate bible version.
 
 
-## OET file conversion
+## Updating the OET
 
 There is a Python script in ``/assets/bibles`` that will automatically update the json files from the GitHub sources.
 
-The ESFM (a subset of USFM) files from [here (OET Reader's version)](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET/tree/main/translatedTexts/ReadersVersion) and [here (OET Literal version)](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET/tree/main/intermediateTexts/auto_edited_VLT_ESFM) are run through [usfm-grammar](https://github.com/Bridgeconn/usfm-grammar) conversion to JSON.
+The ESFM (a subset of USFM) files from [here (OET Reader's version)](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET/tree/main/translatedTexts/ReadersVersion) and [here (OET Literal version)](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET/tree/main/intermediateTexts/auto_edited_VLT_ESFM) are run through [usfm-grammar](https://github.com/Bridgeconn/usfm-grammar) for conversion to JSON (USJ).
 
 Navigate to ``/assets/bibles`` and run the file with ``python update_OET_json.py``.
 
@@ -64,6 +64,11 @@ Navigate to ``/assets/bibles`` and run the file with ``python update_OET_json.py
 ## Updating the OET sections
 
 After converting the OET ESFM to json, navigate to the folder with ``cd assets/bibles`` and run ``python update_OET_sections.py``. This will generate a dart file mapping the OET sections for use in Bibleside. Move back to the root folder with ``cd ../..`` and run ``dart format ./lib -l 120`` to format the file.
+
+
+## Updating the WEB
+
+There is a Python script in ``/assets/bibles`` that will update the json files for the WEB. Since the WEB (The World English Translation) is complete, updating would only be to fix typos, etc. See the ``update_WEB_json.py`` file for instructions.
 
 
 ## License
