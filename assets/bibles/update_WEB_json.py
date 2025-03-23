@@ -8,6 +8,7 @@
 # 3. Rename the folder to "WEB" and place it in ``/assets/bibles/.temp/``.
 # 4. Run this script to convert the USFM to JSON.
 
+import re
 import os
 import json
 from usfm_grammar import USFMParser, Filter
@@ -21,12 +22,12 @@ FILE_MAPPING = {
   "07-JOSeng-web.usfm": "JOS.json",
   "08-JDGeng-web.usfm": "JDG.json",
   "09-RUTeng-web.usfm": "RUT.json",
-  "10-SA1eng-web.usfm": "SA1.json",
-  "11-SA2eng-web.usfm": "SA2.json",
-  "12-KI1eng-web.usfm": "KI1.json",
-  "13-KI2eng-web.usfm": "KI2.json",
-  "14-CH1eng-web.usfm": "CH1.json",
-  "15-CH2eng-web.usfm": "CH2.json",
+  "10-1SAeng-web.usfm": "SA1.json",
+  "11-2SAeng-web.usfm": "SA2.json",
+  "12-1KIeng-web.usfm": "KI1.json",
+  "13-2KIeng-web.usfm": "KI2.json",
+  "14-1CHeng-web.usfm": "CH1.json",
+  "15-2CHeng-web.usfm": "CH2.json",
   "16-EZReng-web.usfm": "EZR.json",
   "17-NEHeng-web.usfm": "NEH.json",
   "18-ESTeng-web.usfm": "EST.json",
@@ -38,15 +39,15 @@ FILE_MAPPING = {
   "24-ISAeng-web.usfm": "ISA.json",
   "25-JEReng-web.usfm": "JER.json",
   "26-LAMeng-web.usfm": "LAM.json",
-  "27-EZEeng-web.usfm": "EZE.json",
+  "27-EZKeng-web.usfm": "EZE.json",
   "28-DANeng-web.usfm": "DAN.json",
   "29-HOSeng-web.usfm": "HOS.json",
   "30-JOLeng-web.usfm": "JOL.json",
   "31-AMOeng-web.usfm": "AMO.json",
   "32-OBAeng-web.usfm": "OBA.json",
-  "33-JNAeng-web.usfm": "JNA.json",
+  "33-JONeng-web.usfm": "JNA.json",
   "34-MICeng-web.usfm": "MIC.json",
-  "35-NAHeng-web.usfm": "NAH.json",
+  "35-NAMeng-web.usfm": "NAH.json",
   "36-HABeng-web.usfm": "HAB.json",
   "37-ZEPeng-web.usfm": "ZEP.json",
   "38-HAGeng-web.usfm": "HAG.json",
@@ -59,26 +60,26 @@ FILE_MAPPING = {
   "73-JHNeng-web.usfm": "JHN.json",
   "74-ACTeng-web.usfm": "ACT.json",
   "75-ROMeng-web.usfm": "ROM.json",
-  "76-CO1eng-web.usfm": "CO1.json",
-  "77-CO2eng-web.usfm": "CO2.json",
+  "76-1COeng-web.usfm": "CO1.json",
+  "77-2COeng-web.usfm": "CO2.json",
   "78-GALeng-web.usfm": "GAL.json",
   "79-EPHeng-web.usfm": "EPH.json",
   "80-PHPeng-web.usfm": "PHP.json",
   "81-COLeng-web.usfm": "COL.json",
-  "82-TH1eng-web.usfm": "TH1.json",
-  "83-TH2eng-web.usfm": "TH2.json",
-  "84-TI1eng-web.usfm": "TI1.json",
-  "85-TI2eng-web.usfm": "TI2.json",
+  "82-1THeng-web.usfm": "TH1.json",
+  "83-2THeng-web.usfm": "TH2.json",
+  "84-1TIeng-web.usfm": "TI1.json",
+  "85-2TIeng-web.usfm": "TI2.json",
   "86-TITeng-web.usfm": "TIT.json",
   "87-PHMeng-web.usfm": "PHM.json",
   "88-HEBeng-web.usfm": "HEB.json",
-  "89-JAMeng-web.usfm": "JAM.json",
-  "90-PE1eng-web.usfm": "PE1.json",
-  "91-PE2eng-web.usfm": "PE2.json",
-  "92-JN1eng-web.usfm": "JN1.json",
-  "93-JN2eng-web.usfm": "JN2.json",
-  "94-JN3eng-web.usfm": "JN3.json",
-  "95-JDEeng-web.usfm": "JDE.json",
+  "89-JASeng-web.usfm": "JAM.json",
+  "90-1PEeng-web.usfm": "PE1.json",
+  "91-2PEeng-web.usfm": "PE2.json",
+  "92-1JNeng-web.usfm": "JN1.json",
+  "93-2JNeng-web.usfm": "JN2.json",
+  "94-3JNeng-web.usfm": "JN3.json",
+  "95-JUDeng-web.usfm": "JDE.json",
   "96-REVeng-web.usfm": "REV.json",
 }
 
@@ -91,6 +92,9 @@ def convert_usfm_to_json(filename, source_path, local_path):
   with open(usfm_filepath, "r", encoding="utf-8") as file:
     input_usfm = file.read()
     file.close()
+
+  # To avoid enormous file sizes, we cleanup the text.
+  input_usfm = collapse_strong_numbers(clean_text(input_usfm))
 
   # Convert to (USJ) JSON.
   parser = USFMParser(input_usfm)
@@ -106,6 +110,23 @@ def convert_usfm_to_json(filename, source_path, local_path):
     file.close()
   
   print("Converted USFM to JSON.")
+
+def clean_text(text):
+  # - remove all \w markers
+  # - convert all | to a pipe: ¦
+  return text.replace("\\w*", "").replace("\\+w*", "").replace("\\w", "").replace("\\+w", "").replace("|", "¦")
+
+def collapse_strong_numbers(text):
+  # - remove all escaped quotes
+  # - remove redundant "strong=" (we use the pipe ¦ as a separator)
+  # - strip out all extra spaces
+  #
+  # Given a string like:
+  # In¦strong=\"H8064\"  the¦strong=\"H1254\"  beginning¦strong=\"H7225\",  God¦strong=\"H8064\"
+  # this method will produce:
+  # In¦H8064 the¦H1254 beginning¦H7225, God¦H8064
+  return re.sub(r'\s+', ' ', text.replace('\"', "").replace("strong=", ""))
+
 
 if __name__ == "__main__":
   print("\nConverting the World English Bible...")
