@@ -1,0 +1,4145 @@
+{
+ "type": "USJ",
+ "version": "3.1",
+ "content": [
+  {
+   "type": "book",
+   "marker": "id",
+   "content": [
+    "27-DAN-web.sfm World English Bible (WEB)"
+   ],
+   "code": "DAN"
+  },
+  {
+   "type": "para",
+   "marker": "ide",
+   "content": [
+    "UTF-8 "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "h",
+   "content": [
+    "Daniel "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc1",
+   "content": [
+    "The Book of Daniel "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc2",
+   "content": [
+    "Daniel "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc3",
+   "content": [
+    "Dan "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt2",
+   "content": [
+    "The Book of "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt1",
+   "content": [
+    "Daniel "
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "1",
+   "sid": "DAN 1"
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "DAN 1:1"
+    },
+    "In¦H8141 the¦H5921 third¦H7969 year¦H8141 of¦H4428 the¦H5921 reign¦H4438 of¦H4428 Jehoiakim¦H3079 king¦H4428 of¦H4428 Judah¦H3063, Nebuchadnezzar¦H5019 king¦H4428 of¦H4428 Babylon came¦H3063 to¦H5921 Jerusalem¦H3389 and¦H3063 besieged¦H6696 it¦H5921. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "DAN 1:2"
+    },
+    "The¦H5414 Lord",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "1:2 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "The word translated “Lord” is “Adonai.”"
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " gave¦H5414 Jehoiakim¦H3079 king¦H4428 of¦H4428 Judah¦H3063 into¦H3027 his¦H5414 hand¦H3027, with¦H1004 some¦H3027 of¦H4428 the¦H5414 vessels¦H3627 of¦H4428 the¦H5414 house¦H1004 of¦H4428 God¦H5414;",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "1:2 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "The Hebrew word rendered “God” is “h אֱלֹהִ֑יםh*” (Elohim)."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " and¦H3063 he¦H1004 carried them¦H5414 into¦H3027 the¦H5414 land of¦H4428 Shinar¦H8152 to¦H5414 the¦H5414 house¦H1004 of¦H4428 his¦H5414 god¦H5414. He¦H1004 brought¦H5414 the¦H5414 vessels¦H3627 into¦H3027 the¦H5414 treasure house¦H1004 of¦H4428 his¦H5414 god¦H5414. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "DAN 1:3"
+    },
+    "The¦H4480 king¦H4428 spoke to¦H3478 Ashpenaz, the¦H4480 master¦H7227 of¦H1121 his¦H3478 eunuchs¦H5631, that¦H3478 he¦H4480 should¦H3478 bring in¦H3478 some¦H4480 of¦H1121 the¦H4480 children¦H1121 of¦H1121 Israel¦H3478, even of¦H1121 the¦H4480 royal¦H4428 offspring¦H2233",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "1:3 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "or, seed"
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " and¦H1121 of¦H1121 the¦H4480 nobles¦H6579: ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "DAN 1:4"
+    },
+    "youths¦H3206 in¦H4428 whom was¦H4428 no¦H3605 defect¦H3971, but¦H4428 well-favored, skillful¦H3045 in¦H4428 all¦H3605 wisdom¦H2451, endowed¦H3045 with¦H3045 knowledge¦H1847, understanding¦H7919 science¦H4093, and¦H4428 who¦H3605 had¦H4428 the¦H3605 ability¦H3581 to¦H4428 stand¦H5975 in¦H4428 the¦H3605 king¦H4428’s palace¦H1964; and¦H4428 that¦H3045 he¦H3605 should¦H4428 teach¦H3925 them¦H5975 the¦H3605 learning¦H5612 and¦H4428 the¦H3605 language¦H3956 of¦H4428 the¦H3605 Chaldeans¦H3778. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "DAN 1:5"
+    },
+    "The¦H6440 king¦H4428 appointed¦H5975 for¦H6440 them¦H6440 a¦H3068 daily¦H3117 portion¦H1697 of¦H4428 the¦H6440 king¦H4428’s delicacies¦H6598 and¦H4428 of¦H4428 the¦H6440 wine¦H3196 which¦H1697 he¦H3117 drank¦H4960, and¦H4428 that¦H3117 they¦H3117 should¦H3117 be¦H1697 nourished¦H1431 three¦H7969 years¦H8141, that¦H3117 at¦H3117 its¦H5975 end¦H7117 they¦H3117 should¦H3117 stand¦H5975 before¦H6440 the¦H6440 king¦H4428. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "DAN 1:6"
+    },
+    "Now¦H1961 among these of¦H1121 the¦H1961 children¦H1121 of¦H1121 Judah¦H3063 were¦H1961 Daniel¦H1840, Hananiah¦H2608, Mishael¦H4332, and¦H1121 Azariah¦H5838. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "DAN 1:7"
+    },
+    "The¦H7760 prince¦H8269 of¦H8269 the¦H7760 eunuchs¦H5631 gave¦H7760 names¦H8034 to¦H8034 them¦H1992: to¦H8034 Daniel¦H1840 he¦H7760 gave¦H7760 the¦H7760 name¦H8034 Belteshazzar¦H1095; to¦H8034 Hananiah¦H2608, Shadrach¦H7714; to¦H8034 Mishael¦H4332, Meshach¦H4335; and¦H8269 to¦H8034 Azariah¦H5838, Abednego. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "DAN 1:8"
+    },
+    "But¦H3808 Daniel¦H1840 purposed¦H7760 in¦H5921 his¦H7760 heart¦H3820 that¦H4428 he¦H3808 would¦H4428 not¦H3808 defile¦H1351 himself¦H3820 with¦H5921 the¦H5921 king¦H4428’s delicacies¦H6598, nor¦H3808 with¦H5921 the¦H5921 wine¦H3196 which¦H4960 he¦H3808 drank¦H4960. Therefore¦H5921 he¦H3808 requested¦H1245 of¦H4428 the¦H5921 prince¦H8269 of¦H4428 the¦H5921 eunuchs¦H5631 that¦H4428 he¦H3808 might not¦H3808 defile¦H1351 himself¦H3820. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "DAN 1:9"
+    },
+    "Now¦H5414 God¦H5414 made¦H5414 Daniel¦H1840 find¦H5414 kindness¦H2617 and¦H6440 compassion¦H7356 in¦H6440 the¦H6440 sight¦H6440 of¦H8269 the¦H6440 prince¦H8269 of¦H8269 the¦H6440 eunuchs¦H5631. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "DAN 1:10"
+    },
+    "The¦H6440 prince¦H8269 of¦H4428 the¦H6440 eunuchs¦H5631 said to¦H6440 Daniel¦H1840, “ I¦H7200 fear¦H3373 my¦H7200 lord the¦H6440 king¦H4428, who¦H4428 has¦H4428 appointed¦H4487 your¦H6440 food¦H3978 and¦H4428 your¦H6440 drink¦H4960. For¦H6440 why¦H4100 should¦H4100 he¦H4480 see¦H7200 your¦H6440 faces¦H6440 worse¦H6440 looking¦H7200 than¦H4480 the¦H6440 youths¦H3206 who¦H4428 are¦H4100 of¦H4428 your¦H6440 own¦H6440 age¦H1524? Then¦H4428 you¦H6440 would¦H4100 endanger¦H2325 my¦H7200 head¦H7218 with¦H6440 the¦H6440 king¦H4428.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "DAN 1:11"
+    },
+    "Then Daniel¦H1840 said to¦H5921 the¦H5921 steward whom the¦H5921 prince¦H8269 of¦H8269 the¦H5921 eunuchs¦H5631 had¦H8269 appointed¦H4487 over¦H5921 Daniel¦H1840, Hananiah¦H2608, Mishael¦H4332, and¦H8269 Azariah¦H5838: ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "DAN 1:12"
+    },
+    "“ Test¦H5254 your¦H5414 servants¦H5650, I¦H3117 beg¦H4994 you¦H5414, ten¦H6235 days¦H3117; and¦H3117 let¦H4994 them¦H5414 give¦H5414 us¦H5414 vegetables¦H2235 to¦H5414 eat and¦H3117 water¦H4325 to¦H5414 drink¦H8354. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "DAN 1:13"
+    },
+    "Then¦H6213 let our¦H7200 faces¦H6440 be¦H4428 examined¦H7200 before¦H6440 you¦H6440, and¦H4428 the¦H6440 face¦H6440 of¦H4428 the¦H6440 youths¦H3206 who¦H5650 eat of¦H4428 the¦H6440 king¦H4428’s delicacies¦H6598; and¦H4428 as¦H6213 you¦H6440 see¦H7200, deal¦H6213 with¦H5973 your¦H6440 servants¦H5650.” ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "DAN 1:14"
+    },
+    "So¦H1697 he¦H3117 listened¦H8085 to¦H3117 them¦H3117 in¦H8085 this¦H2088 matter¦H1697, and¦H3117 tested¦H5254 them¦H3117 for¦H3117 ten¦H6235 days¦H3117. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "DAN 1:15"
+    },
+    "At¦H3117 the¦H3605 end¦H7117 of¦H4428 ten¦H6235 days¦H3117, their¦H3605 faces appeared¦H7200 fairer¦H2896 and¦H4428 they¦H3117 were¦H3117 fatter¦H1277 in¦H4428 flesh¦H1320 than¦H4480 all¦H3605 the¦H3605 youths¦H3206 who¦H3605 ate of¦H4428 the¦H3605 king¦H4428’s delicacies¦H6598. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "DAN 1:16"
+    },
+    "So¦H1961 the¦H5414 steward took¦H5375 away¦H5375 their¦H5375 delicacies¦H6598 and¦H3196 the¦H5414 wine¦H3196 that¦H5414 they¦H5375 were¦H1961 given¦H5414 to¦H1961 drink¦H4960, and¦H3196 gave¦H5414 them¦H5414 vegetables¦H2235. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "DAN 1:17"
+    },
+    "Now¦H5414 as¦H3605 for¦H3605 these¦H3605 four youths¦H3206, God¦H5414 gave¦H5414 them¦H5414 knowledge¦H4093 and¦H2451 skill¦H2451 in¦H5414 all¦H3605 learning¦H5612 and¦H2451 wisdom¦H2451; and¦H2451 Daniel¦H1840 had¦H5414 understanding¦H7919 in¦H5414 all¦H3605 visions¦H2377 and¦H2451 dreams¦H2472. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "DAN 1:18"
+    },
+    "At¦H3117 the¦H6440 end¦H7117 of¦H4428 the¦H6440 days¦H3117 which¦H8269 the¦H6440 king¦H4428 had¦H4428 appointed¦H7117 for¦H6440 bringing them¦H6440 in¦H4428, the¦H6440 prince¦H8269 of¦H4428 the¦H6440 eunuchs¦H5631 brought¦H4428 them¦H6440 in¦H4428 before¦H6440 Nebuchadnezzar¦H5019. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "DAN 1:19"
+    },
+    "The¦H3605 king¦H4428 talked¦H1696 with¦H1696 them¦H6440; and¦H4428 among¦H4672 them¦H6440 all¦H3605 was¦H4428 found¦H4672 no¦H3808 one¦H3605 like¦H3808 Daniel¦H1840, Hananiah¦H2608, Mishael¦H4332, and¦H4428 Azariah¦H5838. Therefore stood¦H5975 they¦H3808 before¦H6440 the¦H3605 king¦H4428. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "DAN 1:20"
+    },
+    "In¦H5921 every¦H3605 matter¦H1697 of¦H4428 wisdom¦H2451 and¦H4428 understanding concerning¦H5921 which¦H1992 the¦H3605 king¦H4428 inquired¦H1245 of¦H4428 them¦H1992, he¦H3605 found¦H4672 them¦H1992 ten¦H6235 times¦H3027 better¦H3027 than¦H5921 all¦H3605 the¦H3605 magicians¦H2748 and¦H4428 enchanters who¦H3605 were¦H1992 in¦H5921 all¦H3605 his¦H3605 realm¦H4438. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "DAN 1:21"
+    },
+    "Daniel¦H1840 continued¦H1961 even¦H5704 to¦H5704 the¦H5704 first year¦H8141 of¦H4428 King¦H4428 Cyrus¦H3566. "
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "2",
+   "sid": "DAN 2"
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "DAN 2:1"
+    },
+    "In¦H5921 the¦H5921 second¦H8147 year¦H8141 of¦H8141 the¦H5921 reign¦H4438 of¦H8141 Nebuchadnezzar¦H5019, Nebuchadnezzar¦H5019 dreamed¦H2492 dreams¦H2472; and¦H8141 his¦H5921 spirit¦H7307 was¦H1961 troubled¦H6470, and¦H8141 his¦H5921 sleep¦H8142 went¦H8147 from¦H5921 him¦H5921. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "DAN 2:2"
+    },
+    "Then¦H4428 the¦H6440 king¦H4428 commanded that¦H4428 the¦H6440 magicians¦H2748, the¦H6440 enchanters, the¦H6440 sorcerers¦H3784, and¦H4428 the¦H6440 Chaldeans¦H3778 be¦H4428 called¦H7121 to¦H6440 tell¦H5046 the¦H6440 king¦H4428 his¦H7121 dreams¦H2472. So¦H7121 they¦H6440 came¦H4428 in¦H4428 and¦H4428 stood¦H5975 before¦H6440 the¦H6440 king¦H4428. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "DAN 2:3"
+    },
+    "The¦H3045 king¦H4428 said to¦H4428 them¦H1992, “ I¦H3045 have¦H3045 dreamed¦H2492 a¦H3068 dream¦H2472, and¦H4428 my¦H3045 spirit¦H7307 is¦H4428 troubled¦H6470 to¦H4428 know¦H3045 the¦H3045 dream¦H2472.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "DAN 2:4"
+    },
+    "Then¦H1696 the¦H1696 Chaldeans¦H3778 spoke¦H1696 to¦H1696 the¦H1696 king¦H4428 in¦H4428 the¦H1696 Syrian language, “ O¦H3068 king¦H4428, live¦H2418 forever¦H5957! Tell¦H1696 your¦H1696 servants¦H5649 the¦H1696 dream¦H2493, and¦H4428 we¦H3068 will¦H4428 show the¦H1696 interpretation¦H6591.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "DAN 2:5"
+    },
+    "The¦H4481 king¦H4430 answered¦H6032 the¦H4481 Chaldeans¦H3779, “ The¦H4481 thing¦H4406 has¦H4430 gone from¦H4481 me¦H4481. If¦H2006 you¦H4481 don’t make¦H3046 known¦H3046 to¦H3046 me¦H4481 the¦H4481 dream¦H2493 and¦H6032 its¦H6591 interpretation¦H6591, you¦H4481 will¦H4430 be¦H3809 cut¦H5648 in¦H4430 pieces¦H1917, and¦H6032 your houses¦H1005 will¦H4430 be¦H3809 made¦H5648 a¦H3068 dunghill¦H5122. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "DAN 2:6"
+    },
+    "But¦H4481 if¦H2006 you¦H2006 show the¦H4481 dream¦H2493 and¦H5023 its¦H6591 interpretation¦H6591, you¦H2006 will receive¦H6902 from¦H4481 me¦H6925 gifts¦H4978, rewards¦H5023, and¦H5023 great¦H7690 honor¦H3367. Therefore¦H4481 show me¦H6925 the¦H4481 dream¦H2493 and¦H5023 its¦H6591 interpretation¦H6591.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "DAN 2:7"
+    },
+    "They answered¦H6032 the¦H2324 second¦H8579 time¦H8579 and¦H6032 said¦H6032, “Let the¦H2324 king¦H4430 tell his servants¦H5649 the¦H2324 dream¦H2493, and¦H6032 we¦H3068 will¦H4430 show the¦H2324 interpretation¦H6591.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "DAN 2:8"
+    },
+    "The¦H3606 king¦H4430 answered¦H6032, “ I¦H4481 know¦H3046 of¦H4481 a¦H3068 certainty¦H3330 that¦H1768 you¦H1768 are¦H1768 trying to¦H3046 gain¦H2084 time¦H5732, because¦H6903 you¦H1768 see¦H2370 the¦H3606 thing¦H4406 has¦H1768 gone from¦H4481 me¦H4481. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "DAN 2:9"
+    },
+    "But¦H1768 if¦H2006 you¦H1768 don’t make¦H3046 known¦H3046 to¦H6925 me¦H6925 the¦H6925 dream¦H2493, there¦H1768 is¦H1768 but¦H1768 one¦H2298 law¦H1882 for¦H1768 you¦H1768; for¦H1768 you¦H1768 have¦H1768 prepared¦H2164 lying¦H3538 and¦H2493 corrupt¦H7844 words¦H4406 to¦H6925 speak before¦H6925 me¦H6925, until¦H5705 the¦H6925 situation¦H5732 changes¦H8133. Therefore tell me¦H6925 the¦H6925 dream¦H2493, and¦H2493 I¦H1768 will¦H1768 know¦H3046 that¦H1768 you¦H1768 can¦H1768 show me¦H6925 its¦H6591 interpretation¦H6591.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "DAN 2:10"
+    },
+    "The¦H3606 Chaldeans¦H3779 answered¦H6032 the¦H3606 king¦H4430 and¦H6032 said¦H6032, “ There¦H1768 is¦H1768 not¦H3809 a¦H3068 man on¦H5922 the¦H3606 earth¦H3007 who¦H1768 can¦H3202 show the¦H3606 king¦H4430’s matter¦H4406, because¦H6903 no¦H3809 king¦H4430, lord¦H7229, or¦H3809 ruler¦H7990 has¦H1768 asked¦H7593 such¦H1836 a¦H3068 thing¦H4406 of¦H4430 any¦H3606 magician¦H2749, enchanter, or¦H3809 Chaldean¦H3779. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "DAN 2:11"
+    },
+    "It¦H2324 is¦H1768 a¦H3068 rare¦H3358 thing¦H4406 that¦H1768 the¦H6925 king¦H4430 requires, and¦H4430 there¦H1768 is¦H1768 no¦H3809 other¦H3861 who¦H1768 can¦H1768 show it¦H2324 before¦H6925 the¦H6925 king¦H4430 except¦H3861 the¦H6925 gods, whose¦H1768 dwelling¦H4070 is¦H1768 not¦H3809 with¦H5974 flesh¦H1321.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "DAN 2:12"
+    },
+    "Because¦H6903 of¦H4430 this¦H1836, the¦H3606 king¦H4430 was¦H4430 angry¦H1149 and¦H4430 very¦H7690 furious¦H7108, and¦H4430 commanded that¦H3606 all¦H3606 the¦H3606 wise¦H2445 men¦H2445 of¦H4430 Babylon be destroyed. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "DAN 2:13"
+    },
+    "So the¦H6992 decree¦H1882 went¦H1841 out¦H5312, and¦H1156 the¦H6992 wise¦H2445 men¦H2445 were to¦H1156 be¦H1841 slain¦H6992. They sought¦H1156 Daniel¦H1841 and¦H1156 his¦H1156 companions¦H2269 to¦H1156 be¦H1841 slain¦H6992. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "DAN 2:14"
+    },
+    "Then¦H1768 Daniel¦H1841 returned¦H8421 answer¦H8421 with¦H1841 counsel¦H2942 and¦H4430 prudence to¦H2942 Arioch the¦H1768 captain¦H7229 of¦H4430 the¦H1768 king¦H4430’s guard¦H2877, who¦H1768 had¦H4430 gone¦H5312 out¦H5312 to¦H2942 kill¦H6992 the¦H1768 wise¦H2445 men¦H2445 of¦H4430 Babylon. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "DAN 2:15"
+    },
+    "He¦H1768 answered¦H6032 Arioch the¦H5922 king¦H4430’s captain¦H7990, “ Why¦H4101 is¦H1768 the¦H5922 decree¦H1882 so¦H1768 urgent¦H2685 from¦H4481 the¦H5922 king¦H4430?” Then¦H1768 Arioch made¦H3046 the¦H5922 thing¦H4406 known¦H3046 to¦H5922 Daniel¦H1841. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "DAN 2:16"
+    },
+    "Daniel¦H1841 went¦H5954 in¦H5954, and¦H4430 desired¦H1156 of¦H4481 the¦H4481 king¦H4430 that¦H1768 he¦H1768 would appoint him¦H4481 a¦H3068 time¦H2166, and¦H4430 he¦H1768 would show the¦H4481 king¦H4430 the¦H4481 interpretation¦H6591. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "DAN 2:17"
+    },
+    "Then Daniel¦H1841 went¦H1841 to¦H3046 his¦H3046 house¦H1005 and¦H1005 made¦H3046 the¦H3046 thing¦H4406 known¦H3046 to¦H3046 Hananiah¦H2608, Mishael¦H4333, and¦H1005 Azariah¦H5839, his¦H3046 companions¦H2269: ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "DAN 2:18"
+    },
+    "that¦H1768 they¦H1768 would desire¦H1156 mercies¦H7359 of¦H4481 the¦H5922 God of¦H4481 heaven¦H8065 concerning¦H5922 this¦H1836 secret¦H7328, that¦H1768 Daniel¦H1841 and¦H8065 his¦H5922 companions¦H2269 would not¦H3809 perish with¦H5974 the¦H5922 rest¦H7606 of¦H4481 the¦H5922 wise¦H2445 men¦H2445 of¦H4481 Babylon. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "DAN 2:19"
+    },
+    "Then¦H1768 the¦H1768 secret¦H7328 was¦H1841 revealed¦H1541 to¦H1841 Daniel¦H1841 in¦H1841 a¦H3068 vision¦H2376 of¦H1768 the¦H1768 night¦H3916. Then¦H1768 Daniel¦H1841 blessed¦H1289 the¦H1768 God of¦H1768 heaven¦H8065. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "DAN 2:20"
+    },
+    "Daniel¦H1841 answered¦H6032, "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“ Blessed¦H1289 be¦H1934 the¦H4481 name¦H8036 of¦H4481 God forever¦H5957 and¦H6032 ever¦H5957; "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "for¦H1768 wisdom¦H2452 and¦H6032 might¦H1370 are¦H1768 his¦H4481. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "DAN 2:21"
+    },
+    "He¦H1932 changes¦H8133 the¦H3046 times¦H5732 and¦H4430 the¦H3046 seasons¦H2166. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "He¦H1932 removes¦H5709 kings¦H4430 and¦H4430 sets¦H6966 up¦H6966 kings¦H4430. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He¦H1932 gives¦H3052 wisdom¦H2452 to¦H3046 the¦H3046 wise¦H2445, "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "and¦H4430 knowledge¦H4486 to¦H3046 those who have¦H4430 understanding¦H4486. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "DAN 2:22"
+    },
+    "He¦H1932 reveals¦H1541 the¦H3046 deep¦H5994 and¦H5094 secret things¦H5642. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "He¦H1932 knows¦H3046 what¦H4101 is¦H1932 in the¦H3046 darkness¦H2816, "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "and¦H5094 the¦H3046 light¦H5094 dwells¦H8271 with¦H5974 him¦H5974. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "DAN 2:23"
+    },
+    "I¦H4481 thank¦H3029 you¦H1768 and¦H4430 praise¦H7624 you¦H1768, "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "O¦H3068 God of¦H4481 my¦H1768 fathers, "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "who¦H1768 have¦H1768 given¦H3052 me¦H3052 wisdom¦H2452 and¦H4430 might¦H1370, "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "and¦H4430 have¦H1768 now¦H3705 made¦H3046 known¦H3046 to¦H3046 me¦H3052 what¦H1768 we¦H3068 desired¦H1156 of¦H4481 you¦H1768; "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "for¦H1768 you¦H1768 have¦H1768 made¦H3046 known¦H3046 to¦H3046 us the¦H4481 king¦H4430’s matter¦H4406.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "DAN 2:24"
+    },
+    "Therefore¦H3606 Daniel¦H1841 went¦H5954 in¦H5954 to¦H5922 Arioch, whom¦H1768 the¦H3606 king¦H4430 had¦H4430 appointed¦H4483 to¦H5922 destroy the¦H3606 wise¦H2445 men¦H2445 of¦H4430 Babylon. He¦H1768 went¦H5954 and¦H4430 said this¦H1836 to¦H5922 him¦H5922: “Don’t destroy the¦H3606 wise¦H2445 men¦H2445 of¦H4430 Babylon. Bring¦H5954 me¦H5922 in¦H5954 before¦H6925 the¦H3606 king¦H4430, and¦H4430 I¦H1836 will¦H1768 show to¦H5922 the¦H3606 king¦H4430 the¦H3606 interpretation¦H6591.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "25",
+     "sid": "DAN 2:25"
+    },
+    "Then¦H4430 Arioch brought¦H5954 in¦H5954 Daniel¦H1841 before¦H6925 the¦H4481 king¦H4430 in¦H5954 haste, and¦H4430 said this¦H4481 to¦H6925 him¦H6925: “ I¦H4481 have¦H4430 found¦H7912 a¦H3068 man¦H1400 of¦H4481 the¦H4481 children¦H1123 of¦H4481 the¦H4481 captivity¦H1547 of¦H4481 Judah¦H3061 who¦H1768 will¦H1768 make¦H3046 known¦H3046 to¦H6925 the¦H4481 king¦H4430 the¦H4481 interpretation¦H6591.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "26",
+     "sid": "DAN 2:26"
+    },
+    "The¦H1768 king¦H4430 answered¦H6032 Daniel¦H1841, whose¦H1768 name¦H8036 was¦H1841 Belteshazzar¦H1096, “ Are¦H1768 you¦H1768 able¦H3546 to¦H3046 make¦H3046 known¦H3046 to¦H3046 me the¦H1768 dream¦H2493 which¦H1768 I¦H1768 have¦H4430 seen¦H2370, and¦H6032 its¦H6591 interpretation¦H6591?” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "27",
+     "sid": "DAN 2:27"
+    },
+    "Daniel¦H1841 answered¦H6032 before¦H6925 the¦H6925 king¦H4430, and¦H6032 said¦H6032, “ The¦H6925 secret¦H7328 which¦H1768 the¦H6925 king¦H4430 has¦H1768 demanded¦H7593 can¦H3202’t be¦H3809 shown to¦H3202 the¦H6925 king¦H4430 by¦H6925 wise¦H2445 men¦H2445, enchanters, magicians¦H2749, or¦H3809 soothsayers¦H1505; ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "28",
+     "sid": "DAN 2:28"
+    },
+    "but¦H1297 there¦H1768 is¦H1768 a¦H3068 God in¦H5922 heaven¦H8065 who¦H1768 reveals¦H1541 secrets¦H7328, and¦H4430 he¦H1768 has¦H1768 made¦H3046 known¦H3046 to¦H5922 King¦H4430 Nebuchadnezzar¦H5020 what¦H4101 will¦H4101 be¦H1934 in¦H5922 the¦H5922 latter days¦H3118. Your¦H5922 dream¦H2493 and¦H4430 the¦H5922 visions¦H2376 of¦H4430 your¦H5922 head¦H7217 on¦H5922 your¦H5922 bed¦H4903 are¦H1768 these¦H1836: "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "29",
+     "sid": "DAN 2:29"
+    },
+    "“ As¦H1768 for¦H5922 you¦H1768, O¦H3068 king¦H4430, your¦H5922 thoughts¦H7476 came¦H5559 on¦H5922 your¦H5922 bed¦H4903, what¦H4101 should¦H4101 happen hereafter; and¦H4430 he¦H1768 who¦H1768 reveals¦H1541 secrets¦H7328 has¦H1768 made¦H3046 known¦H3046 to¦H5922 you¦H1768 what¦H4101 will¦H4101 happen. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "30",
+     "sid": "DAN 2:30"
+    },
+    "But¦H3861 as¦H3606 for¦H5922 me¦H5922, this¦H1836 secret¦H7328 is¦H1768 not¦H3809 revealed¦H1541 to¦H5922 me¦H5922 for¦H5922 any¦H3606 wisdom¦H2452 that¦H1768 I¦H4481 have¦H4430 more¦H4481 than¦H4481 any¦H3606 living¦H2417, but¦H3861 to¦H5922 the¦H3606 intent¦H1701 that¦H1768 the¦H3606 interpretation¦H6591 may¦H2417 be¦H3809 made¦H3046 known¦H3046 to¦H5922 the¦H3606 king¦H4430, and¦H4430 that¦H1768 you¦H1768 may¦H2417 know¦H3046 the¦H3606 thoughts¦H7476 of¦H4481 your¦H1768 heart¦H3825. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "31",
+     "sid": "DAN 2:31"
+    },
+    "“ You¦H6903, O¦H3068 king¦H4430, saw¦H2370, and¦H4430 behold,",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "2:31 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "“Behold”, from “h הִנֵּהh*”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " a¦H3068 great¦H7229 image¦H6755. This¦H1797 image¦H6755, which¦H6755 was¦H1934 mighty, and¦H4430 whose brightness¦H2122 was¦H1934 excellent¦H3493, stood¦H6966 before¦H6903 you¦H6903; and¦H4430 its appearance¦H7299 was¦H1934 terrifying. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "32",
+     "sid": "DAN 2:32"
+    },
+    "As¦H1768 for¦H1768 this¦H1932 image¦H6755, its head¦H7217 was¦H1932 of¦H1768 fine¦H2869 gold¦H1722, its chest and¦H1722 its arms¦H1872 of¦H1768 silver¦H3702, its belly¦H4577 and¦H1722 its thighs¦H3410 of¦H1768 bronze¦H5174, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "33",
+     "sid": "DAN 2:33"
+    },
+    "its¦H4481 legs¦H8243 of¦H4481 iron¦H6523, its¦H4481 feet¦H7271 part¦H4481 of¦H4481 iron¦H6523 and¦H6523 part¦H4481 of¦H4481 clay¦H2635. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "34",
+     "sid": "DAN 2:34"
+    },
+    "You¦H1768 saw¦H2370 until¦H5705 a¦H3068 stone was¦H1934 cut¦H1505 out¦H1505 without¦H3809 hands¦H3028, which¦H1768 struck¦H4223 the¦H5922 image¦H6755 on¦H5922 its¦H5705 feet¦H7271 that¦H1768 were¦H1934 of¦H5922 iron¦H6523 and¦H6523 clay¦H2635, and¦H6523 broke them¦H1994 in¦H5922 pieces¦H1855. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "35",
+     "sid": "DAN 2:35"
+    },
+    "Then¦H1768 the¦H3606 iron¦H6523, the¦H3606 clay¦H2635, the¦H3606 bronze¦H5174, the¦H3606 silver¦H3702, and¦H6523 the¦H3606 gold¦H1722 were¦H1934 broken in¦H7912 pieces¦H1855 together¦H2298, and¦H6523 became¦H1934 like the¦H3606 chaff¦H5784 of¦H4481 the¦H3606 summer¦H7007 threshing floors. The¦H3606 wind¦H7308 carried¦H5376 them¦H1994 away¦H5376, so¦H1768 that¦H1768 no¦H3809 place¦H1934 was¦H1934 found¦H7912 for¦H1768 them¦H1994. The¦H3606 stone that¦H1768 struck¦H4223 the¦H3606 image¦H6755 became¦H1934 a¦H3068 great¦H7229 mountain¦H2906 and¦H6523 filled¦H4391 the¦H3606 whole¦H3606 earth. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "36",
+     "sid": "DAN 2:36"
+    },
+    "“ This¦H1836 is¦H2493 the¦H6925 dream¦H2493; and¦H4430 we¦H3068 will¦H4430 tell its¦H6591 interpretation¦H6591 before¦H6925 the¦H6925 king¦H4430. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "37",
+     "sid": "DAN 2:37"
+    },
+    "You¦H1768, O¦H3068 king¦H4430, are¦H1768 king¦H4430 of¦H4437 kings¦H4430, to¦H4430 whom¦H1768 the¦H1768 God of¦H4437 heaven¦H8065 has¦H1768 given¦H3052 the¦H1768 kingdom¦H4437, the¦H1768 power¦H2632, the¦H1768 strength¦H8632, and¦H4430 the¦H1768 glory¦H3367. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "38",
+     "sid": "DAN 2:38"
+    },
+    "Wherever¦H1768 the¦H3606 children¦H1123 of¦H1123 men dwell¦H1753, he¦H1768 has¦H1768 given¦H3052 the¦H3606 animals¦H2423 of¦H1123 the¦H3606 field¦H1251 and¦H1722 the¦H3606 birds¦H5776 of¦H1123 the¦H3606 sky¦H8065 into your¦H1768 hand¦H3028, and¦H1722 has¦H1768 made¦H7981 you¦H1768 rule¦H7981 over¦H7981 them¦H3052 all¦H3606. You¦H1768 are¦H1768 the¦H3606 head¦H7217 of¦H1123 gold¦H1722. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "39",
+     "sid": "DAN 2:39"
+    },
+    "“ After¦H4481 you¦H1768, another kingdom¦H4437 will¦H1768 arise¦H6966 that¦H1768 is¦H1768 inferior to¦H4481 you¦H1768; and¦H4437 another third¦H8523 kingdom¦H4437 of¦H4481 bronze¦H5174, which¦H1768 will¦H1768 rule¦H7981 over¦H7981 all¦H3606 the¦H3606 earth. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "40",
+     "sid": "DAN 2:40"
+    },
+    "The¦H3606 fourth¦H7244 kingdom¦H4437 will¦H1768 be¦H1934 strong¦H8624 as¦H6903 iron¦H6523, because¦H6903 iron¦H6523 breaks¦H7490 in¦H4437 pieces¦H1855 and¦H6523 subdues all¦H3606 things¦H3606; and¦H6523 as¦H6903 iron¦H6523 that¦H1768 crushes¦H1855 all¦H3606 these, it¦H1934 will¦H1768 break¦H7490 in¦H4437 pieces¦H1855 and¦H6523 crush¦H1855. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "41",
+     "sid": "DAN 2:41"
+    },
+    "Whereas¦H1768 you¦H1768 saw¦H2370 the¦H3606 feet¦H7271 and¦H6523 toes, part¦H4481 of¦H4481 potters’ clay¦H2635 and¦H6523 part¦H4481 of¦H4481 iron¦H6523, it¦H1934 will¦H1768 be¦H1934 a¦H3068 divided¦H6386 kingdom¦H4437; but¦H1768 there¦H1768 will¦H1768 be¦H1934 in¦H4437 it¦H1934 of¦H4481 the¦H3606 strength¦H5326 of¦H4481 the¦H3606 iron¦H6523, because¦H6903 you¦H1768 saw¦H2370 the¦H3606 iron¦H6523 mixed¦H6151 with¦H6151 miry¦H2917 clay¦H2635. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "42",
+     "sid": "DAN 2:42"
+    },
+    "As¦H8624 the¦H4481 toes of¦H4481 the¦H4481 feet¦H7271 were¦H1934 part¦H4481 of¦H4481 iron¦H6523, and¦H6523 part¦H4481 of¦H4481 clay¦H2635, so¦H4481 the¦H4481 kingdom¦H4437 will be¦H1934 partly¦H4481 strong¦H8624 and¦H6523 partly¦H4481 brittle¦H8406. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "43",
+     "sid": "DAN 2:43"
+    },
+    "Whereas¦H1768 you¦H1768 saw¦H2370 the¦H1768 iron¦H6523 mixed¦H6151 with¦H5974 miry¦H2917 clay¦H2635, they¦H1768 will¦H1768 mingle themselves¦H1934 with¦H5974 the¦H1768 seed¦H2234 of¦H1768 men; but¦H1768 they¦H1768 won’t cling to¦H5974 one¦H1836 another¦H1836, even¦H1888 as¦H1888 iron¦H6523 does¦H1934 not¦H3809 mix¦H6151 with¦H5974 clay¦H2635. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "44",
+     "sid": "DAN 2:44"
+    },
+    "“ In¦H6966 the¦H3606 days¦H3118 of¦H4437 those¦H1768 kings¦H4430 the¦H3606 God of¦H4437 heaven¦H8065 will¦H1768 set¦H6966 up¦H6966 a¦H3068 kingdom¦H4437 which¦H1768 will¦H1768 never¦H5957 be¦H3809 destroyed¦H2255, nor¦H3809 will¦H1768 its sovereignty¦H4437 be¦H3809 left¦H7662 to¦H4430 another people¦H5972; but¦H1768 it¦H1932 will¦H1768 break in¦H6966 pieces¦H1855 and¦H4430 consume¦H5487 all¦H3606 these kingdoms¦H4437, and¦H4430 it¦H1932 will¦H1768 stand¦H6966 forever¦H5957. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "45",
+     "sid": "DAN 2:45"
+    },
+    "Because¦H6903 you¦H1768 saw¦H2370 that¦H1768 a¦H3068 stone was¦H1934 cut¦H1505 out¦H1505 of¦H4430 the¦H3606 mountain¦H2906 without¦H3809 hands¦H3028, and¦H6523 that¦H1768 it¦H1934 broke in¦H4430 pieces¦H1855 the¦H3606 iron¦H6523, the¦H3606 bronze¦H5174, the¦H3606 clay¦H2635, the¦H3606 silver¦H3702, and¦H6523 the¦H3606 gold¦H1722, the¦H3606 great¦H7229 God has¦H1768 made¦H3046 known¦H3046 to¦H3046 the¦H3606 king¦H4430 what¦H4101 will¦H1768 happen hereafter. The¦H3606 dream¦H2493 is¦H1768 certain¦H3330, and¦H6523 its¦H6591 interpretation¦H6591 sure¦H3330.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "46",
+     "sid": "DAN 2:46"
+    },
+    "Then¦H4430 King¦H4430 Nebuchadnezzar¦H5020 fell¦H5308 on¦H5922 his¦H5922 face, worshiped¦H5457 Daniel¦H1841, and¦H5308 commanded that¦H4430 they should¦H4430 offer¦H5260 an¦H4430 offering¦H4504 and¦H5308 sweet odors to¦H5922 him¦H5922. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "47",
+     "sid": "DAN 2:47"
+    },
+    "The¦H4481 king¦H4430 answered¦H6032 to¦H3202 Daniel¦H1841, and¦H6032 said¦H6032, “ Of¦H4481 a¦H3068 truth¦H7187 your¦H1768 God is¦H1768 the¦H4481 God of¦H4481 gods, and¦H6032 the¦H4481 Lord¦H4756 of¦H4481 kings¦H4430, and¦H6032 a¦H3068 revealer¦H1541 of¦H4481 secrets¦H7328, since¦H1768 you¦H1768 have¦H4430 been¦H3202 able¦H3202 to¦H3202 reveal¦H1541 this¦H1836 secret¦H7328.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "48",
+     "sid": "DAN 2:48"
+    },
+    "Then¦H4430 the¦H3606 king¦H4430 made¦H7981 Daniel¦H1841 great¦H7229 and¦H4430 gave¦H3052 him¦H5922 many¦H7690 great¦H7229 gifts¦H4978, and¦H4430 made¦H7981 him¦H5922 rule¦H7981 over¦H5922 the¦H3606 whole¦H3606 province¦H4083 of¦H4430 Babylon and¦H4430 to¦H5922 be¦H1841 chief¦H7229 governor over¦H5922 all¦H3606 the¦H3606 wise¦H2445 men¦H2445 of¦H4430 Babylon. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "49",
+     "sid": "DAN 2:49"
+    },
+    "Daniel¦H1841 requested¦H1156 of¦H4481 the¦H5922 king¦H4430, and¦H4336 he¦H1768 appointed¦H4483 Shadrach¦H7715, Meshach¦H4336, and¦H4336 Abednego over¦H5922 the¦H5922 affairs¦H5673 of¦H4481 the¦H5922 province¦H4083 of¦H4481 Babylon, but¦H1768 Daniel¦H1841 was¦H1841 in¦H5922 the¦H5922 king¦H4430’s gate¦H8651. "
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "3",
+   "sid": "DAN 3"
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "DAN 3:1"
+    },
+    "Nebuchadnezzar¦H5020 the¦H5020 king¦H4430 made¦H5648 an¦H5648 image¦H6755 of¦H4430 gold¦H1722, whose¦H1768 height¦H7314 was¦H4430 sixty¦H8361 cubits",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "3:1 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "A cubit is the length from the tip of the middle finger to the elbow on a man’s arm, or about 18 inches or 46 centimeters."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " and¦H4430 its width¦H6613 six¦H8353 cubits. He¦H1768 set¦H6966 it up¦H6966 in¦H5648 the¦H5020 plain¦H1236 of¦H4430 Dura¦H1757, in¦H5648 the¦H5020 province¦H4083 of¦H4430 Babylon. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "DAN 3:2"
+    },
+    "Then¦H4430 Nebuchadnezzar¦H5020 the¦H3606 king¦H4430 sent¦H7972 to¦H4430 gather together¦H3673 the¦H3606 local governors¦H6347, the¦H3606 deputies, and¦H4430 the¦H3606 governors¦H6347, the¦H3606 judges¦H1884, the¦H3606 treasurers¦H1411, the¦H3606 counselors, the¦H3606 sheriffs¦H8614, and¦H4430 all¦H3606 the¦H3606 rulers¦H7984 of¦H4430 the¦H3606 provinces¦H4083, to¦H4430 come to¦H4430 the¦H3606 dedication¦H2597 of¦H4430 the¦H3606 image¦H6755 which¦H1768 Nebuchadnezzar¦H5020 the¦H3606 king¦H4430 had¦H4430 set¦H6966 up¦H6966. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "DAN 3:3"
+    },
+    "Then¦H4430 the¦H3606 local governors¦H6347, the¦H3606 deputies, and¦H4430 the¦H3606 governors¦H6347, the¦H3606 judges¦H1884, the¦H3606 treasurers¦H1411, the¦H3606 counselors, the¦H3606 sheriffs¦H8614, and¦H4430 all¦H3606 the¦H3606 rulers¦H7984 of¦H4430 the¦H3606 provinces¦H4083 were¦H1768 gathered¦H3673 together¦H3673 to¦H4430 the¦H3606 dedication¦H2597 of¦H4430 the¦H3606 image¦H6755 that¦H1768 Nebuchadnezzar¦H5020 the¦H3606 king¦H4430 had¦H4430 set¦H6966 up¦H6966; and¦H4430 they¦H3606 stood¦H6966 before¦H6903 the¦H3606 image¦H6755 that¦H1768 Nebuchadnezzar¦H5020 had¦H4430 set¦H6966 up¦H6966. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "DAN 3:4"
+    },
+    "Then the¦H7123 herald¦H3744 cried¦H7123 aloud¦H2429, “ To¦H2429 you it is commanded, peoples¦H5972, nations, and languages¦H3961, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "DAN 3:5"
+    },
+    "that¦H1768 whenever you¦H1768 hear¦H8086 the¦H3606 sound¦H7032 of¦H4430 the¦H3606 horn¦H7162, flute¦H4953, zither¦H7030, lyre¦H7030, harp¦H6460, pipe, and¦H5308 all¦H3606 kinds¦H2178 of¦H4430 music¦H2170, you¦H1768 fall¦H5308 down¦H5308 and¦H5308 worship¦H5457 the¦H3606 golden¦H1722 image¦H6755 that¦H1768 Nebuchadnezzar¦H5020 the¦H3606 king¦H4430 has¦H1768 set¦H6966 up¦H6966. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "DAN 3:6"
+    },
+    "Whoever¦H4479 doesn’t fall¦H5308 down¦H5308 and¦H5308 worship¦H5457 shall¦H5457 be¦H3809 cast¦H7412 into¦H1459 the¦H1768 middle of¦H1768 a¦H3068 burning¦H3345 fiery¦H5135 furnace the¦H1768 same¦H1459 hour¦H8160.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "DAN 3:7"
+    },
+    "Therefore¦H3606 at¦H6903 that¦H1768 time¦H2166, when¦H1768 all¦H3606 the¦H3606 peoples¦H5972 heard¦H8086 the¦H3606 sound¦H7032 of¦H4430 the¦H3606 horn¦H7162, flute¦H4953, zither¦H7030, lyre¦H7030, harp¦H6460, pipe, and¦H5308 all¦H3606 kinds¦H2178 of¦H4430 music¦H2170, all¦H3606 the¦H3606 peoples¦H5972, the¦H3606 nations, and¦H5308 the¦H3606 languages¦H3961 fell¦H5308 down¦H5308 and¦H5308 worshiped¦H5457 the¦H3606 golden¦H1722 image¦H6755 that¦H1768 Nebuchadnezzar¦H5020 the¦H3606 king¦H4430 had¦H4430 set¦H6966 up¦H6966. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "DAN 3:8"
+    },
+    "Therefore¦H3606 at¦H6903 that¦H1768 time¦H2166 certain¦H1400 Chaldeans¦H3779 came¦H7127 near¦H7127 and¦H7127 brought accusation against¦H6903 the¦H3606 Jews¦H3062. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "DAN 3:9"
+    },
+    "They answered¦H6032 Nebuchadnezzar¦H5020 the¦H5020 king¦H4430, “ O¦H3068 king¦H4430, live¦H2418 for¦H2418 ever¦H5957! ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "DAN 3:10"
+    },
+    "You¦H1768, O¦H3068 king¦H4430, have¦H4430 made¦H7761 a¦H3068 decree¦H2942 that¦H1768 every¦H3606 man who¦H1768 hears¦H8086 the¦H3606 sound¦H7032 of¦H4430 the¦H3606 horn¦H7162, flute¦H4953, zither¦H7030, lyre¦H7030, harp¦H6460, pipe, and¦H5308 all¦H3606 kinds¦H2178 of¦H4430 music¦H2170 shall¦H3606 fall¦H5308 down¦H5308 and¦H5308 worship¦H5457 the¦H3606 golden¦H1722 image¦H6755; ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "DAN 3:11"
+    },
+    "and¦H5308 whoever¦H4479 doesn’t fall¦H5308 down¦H5308 and¦H5308 worship¦H5457 shall¦H5457 be¦H3809 cast¦H7412 into¦H1459 the¦H1768 middle of¦H1768 a¦H3068 burning¦H3345 fiery¦H5135 furnace. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "DAN 3:12"
+    },
+    "There¦H1768 are¦H1768 certain¦H1400 Jews¦H3062 whom¦H1768 you¦H1768 have¦H4430 appointed¦H4483 over¦H5922 the¦H5922 affairs¦H5673 of¦H4430 the¦H5922 province¦H4083 of¦H4430 Babylon: Shadrach¦H7715, Meshach¦H4336, and¦H4336 Abednego. These men¦H1400, O¦H3068 king¦H4430, have¦H4430 not¦H3809 respected you¦H1768. They¦H1768 don’t serve¦H6399 your¦H6399 gods, and¦H4336 don’t worship¦H5457 the¦H5922 golden¦H1722 image¦H6755 which¦H1768 you¦H1768 have¦H4430 set¦H6966 up¦H6966.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "DAN 3:13"
+    },
+    "Then¦H4430 Nebuchadnezzar¦H5020 in¦H5020 rage¦H7266 and¦H4336 fury¦H2528 commanded that¦H1400 Shadrach¦H7715, Meshach¦H4336, and¦H4336 Abednego be brought. Then¦H4430 these men¦H1400 were¦H1400 brought before¦H6925 the¦H5020 king¦H4430. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "DAN 3:14"
+    },
+    "Nebuchadnezzar¦H5020 answered¦H6032 them, “ Is¦H1768 it true¦H6656, Shadrach¦H7715, Meshach¦H4336, and¦H6032 Abednego, that¦H1768 you¦H1768 don’t serve¦H6399 my¦H6399 gods and¦H6032 you¦H1768 don’t worship¦H5457 the¦H5020 golden¦H1722 image¦H6755 which¦H1768 I¦H1768 have¦H5020 set¦H6966 up¦H6966? ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "DAN 3:15"
+    },
+    "Now¦H3705 if¦H2006 you¦H1768 are¦H1768 ready¦H6263 whenever you¦H1768 hear¦H8086 the¦H3606 sound¦H7032 of¦H4481 the¦H3606 horn¦H7162, flute¦H4953, zither¦H7030, lyre¦H7030, harp¦H6460, pipe, and¦H5308 all¦H3606 kinds¦H2178 of¦H4481 music¦H2170 to¦H2006 fall¦H5308 down¦H5308 and¦H5308 worship¦H5457 the¦H3606 image¦H6755 which¦H1768 I¦H4481 have¦H5308 made¦H5648, good; but¦H1768 if¦H2006 you¦H1768 don’t worship¦H5457, you¦H1768 shall¦H5732 be¦H3809 cast¦H7412 the¦H3606 same¦H1459 hour¦H8160 into¦H1459 the¦H3606 middle of¦H4481 a¦H3068 burning¦H3345 fiery¦H5135 furnace. Who¦H1768 is¦H1768 that¦H1768 god who¦H1768 will¦H1768 deliver¦H7804 you¦H1768 out¦H5648 of¦H4481 my¦H1768 hands¦H3028?” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "DAN 3:16"
+    },
+    "Shadrach¦H7715, Meshach¦H4336, and¦H6032 Abednego answered¦H6032 the¦H5922 king¦H4430, “ Nebuchadnezzar¦H5020, we¦H3068 have¦H4430 no¦H3809 need¦H2818 to¦H5922 answer¦H6600 you¦H5922 in¦H5922 this¦H1836 matter¦H6600. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "DAN 3:17"
+    },
+    "If¦H2006 it¦H2006 happens, our¦H4481 God whom¦H1768 we¦H3068 serve¦H6399 is¦H1768 able¦H3202 to¦H3202 deliver¦H7804 us¦H7804 from¦H4481 the¦H4481 burning¦H3345 fiery¦H5135 furnace; and¦H4430 he¦H1768 will¦H1768 deliver¦H7804 us¦H7804 out of¦H4481 your¦H6399 hand¦H3028, O¦H3068 king¦H4430. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "DAN 3:18"
+    },
+    "But¦H1768 if¦H2006 not¦H3809, let it¦H2006 be¦H1934 known¦H3046 to¦H3046 you¦H1768, O¦H3068 king¦H4430, that¦H1768 we¦H3068 will¦H1768 not¦H3809 serve¦H6399 your¦H6399 gods or¦H2006 worship¦H5457 the¦H1768 golden¦H1722 image¦H6755 which¦H1768 you¦H1768 have¦H1934 set¦H6966 up¦H6966.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "DAN 3:19"
+    },
+    "Then¦H1768 Nebuchadnezzar¦H5020 was¦H5020 full¦H4391 of¦H5922 fury¦H2528, and¦H6032 the¦H5922 form¦H6755 of¦H5922 his¦H5922 appearance was¦H5020 changed¦H8133 against¦H5922 Shadrach¦H7715, Meshach¦H4336, and¦H6032 Abednego. He¦H1768 spoke¦H6032, and¦H6032 commanded that¦H1768 they¦H1768 should heat the¦H5922 furnace seven¦H7655 times¦H7655 more¦H5922 than¦H1768 it¦H5922 was¦H5020 usually¦H2370 heated. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "DAN 3:20"
+    },
+    "He¦H1768 commanded certain¦H1400 mighty¦H1401 men¦H1400 who¦H1768 were¦H1400 in¦H1768 his¦H1768 army¦H2429 to¦H2429 bind¦H3729 Shadrach¦H7715, Meshach¦H4336, and¦H4336 Abednego, and¦H4336 to¦H2429 cast¦H7412 them into¦H7412 the¦H1768 burning¦H3345 fiery¦H5135 furnace. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "DAN 3:21"
+    },
+    "Then these men¦H1400 were¦H1400 bound¦H3729 in their pants, their tunics, and their mantles, and their other clothes¦H3831, and were¦H1400 cast¦H7412 into¦H1459 the middle of¦H1459 the burning¦H3345 fiery¦H5135 furnace. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "DAN 3:22"
+    },
+    "Therefore¦H3606 because¦H6903 the¦H3606 king¦H4430’s commandment¦H4406 was¦H4430 urgent¦H2685 and¦H4336 the¦H3606 furnace exceedingly¦H3493 hot, the¦H3606 flame¦H7631 of¦H4481 the¦H3606 fire¦H5135 killed¦H6992 those¦H1768 men¦H1400 who¦H1768 took up¦H5267 Shadrach¦H7715, Meshach¦H4336, and¦H4336 Abednego. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "DAN 3:23"
+    },
+    "These three¦H8532 men¦H1400, Shadrach¦H7715, Meshach¦H4336, and¦H4336 Abednego, fell¦H5308 down¦H5308 bound¦H3729 into¦H1459 the middle of¦H1459 the burning¦H3345 fiery¦H5135 furnace. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "DAN 3:24"
+    },
+    "Then¦H4430 Nebuchadnezzar¦H5020 the¦H5020 king¦H4430 was¦H4430 astonished and¦H6032 rose up¦H6966 in¦H5020 haste. He¦H5020 spoke¦H6032 and¦H6032 said¦H6032 to¦H4430 his¦H5020 counselors¦H1907, “Didn’t we¦H3068 cast¦H7412 three¦H8532 men¦H1400 bound¦H3729 into¦H1459 the¦H5020 middle of¦H4430 the¦H5020 fire¦H5135?” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    "They¦H3809 answered¦H6032 the¦H5020 king¦H4430, “ True¦H3330, O¦H3068 king¦H4430.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "25",
+     "sid": "DAN 3:25"
+    },
+    "He¦H1768 answered¦H6032, “ Look¦H1888, I¦H1768 see¦H2370 four men¦H1400 loose¦H8271, walking¦H1981 in¦H1981 the¦H1768 middle of¦H1247 the¦H1768 fire¦H5135, and¦H6032 they¦H1768 are¦H1768 unharmed. The¦H1768 appearance¦H7299 of¦H1247 the¦H1768 fourth¦H7244 is¦H1768 like¦H1821 a¦H3068 son¦H1247 of¦H1247 the¦H1768 gods.",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "3:25 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "Or, the Son of God."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "26",
+     "sid": "DAN 3:26"
+    },
+    "Then¦H1768 Nebuchadnezzar¦H5020 came¦H7127 near¦H7127 to¦H5312 the¦H4481 mouth¦H8651 of¦H4481 the¦H4481 burning¦H3345 fiery¦H5135 furnace. He¦H1768 spoke¦H6032 and¦H6032 said¦H6032, “ Shadrach¦H7715, Meshach¦H4336, and¦H6032 Abednego, you¦H1768 servants¦H5649 of¦H4481 the¦H4481 Most¦H5943 High¦H5943 God, come¦H5312 out¦H5312, and¦H6032 come¦H5312 here¦H5312!” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    "Then¦H1768 Shadrach¦H7715, Meshach¦H4336, and¦H6032 Abednego came¦H7127 out¦H5312 of¦H4481 the¦H4481 middle of¦H4481 the¦H4481 fire¦H5135. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "27",
+     "sid": "DAN 3:27"
+    },
+    "The¦H1768 local governors¦H6347, the¦H1768 deputies, and¦H4430 the¦H1768 governors¦H6347, and¦H4430 the¦H1768 king¦H4430’s counselors¦H1907, being gathered¦H3673 together¦H3673, saw¦H2370 these men¦H1400, that¦H1768 the¦H1768 fire¦H5135 had¦H4430 no¦H3809 power¦H7981 on¦H7981 their bodies¦H1655. The¦H1768 hair¦H8177 of¦H4430 their head¦H7217 wasn’t singed¦H2761. Their pants weren’t changed¦H8133. The¦H1768 smell¦H7382 of¦H4430 fire¦H5135 wasn’t even¦H1768 on¦H7981 them. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "28",
+     "sid": "DAN 3:28"
+    },
+    "Nebuchadnezzar¦H5020 spoke¦H6032 and¦H6032 said¦H6032, “ Blessed¦H1289 be¦H3809 the¦H3606 God of¦H4430 Shadrach¦H7715, Meshach¦H4336, and¦H6032 Abednego, who¦H1768 has¦H1768 sent¦H7972 his¦H5922 angel¦H4398 and¦H6032 delivered¦H7804 his¦H5922 servants¦H5649 who¦H1768 trusted¦H7365 in¦H5922 him¦H5922, and¦H6032 have¦H4430 changed¦H8133 the¦H3606 king¦H4430’s word¦H4406, and¦H6032 have¦H4430 yielded¦H3052 their¦H3606 bodies¦H1655, that¦H1768 they¦H1768 might not¦H3809 serve¦H6399 nor¦H3809 worship¦H5457 any¦H3606 god except¦H3861 their¦H3606 own God. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "29",
+     "sid": "DAN 3:29"
+    },
+    "Therefore¦H3606 I¦H4481 make¦H7761 a¦H3068 decree¦H2942 that¦H1768 every¦H3606 people¦H5972, nation, and¦H4336 language¦H3961 which¦H1768 speak anything evil against¦H5922 the¦H3606 God of¦H4481 Shadrach¦H7715, Meshach¦H4336, and¦H4336 Abednego shall¦H3606 be¦H3809 cut¦H5648 in¦H5922 pieces¦H1917, and¦H4336 their¦H3606 houses¦H1005 shall¦H3606 be¦H3809 made¦H5648 a¦H3068 dunghill¦H5122, because¦H6903 there¦H1768 is¦H1768 no¦H3809 other god who¦H1768 is¦H1768 able¦H3202 to¦H5922 deliver¦H5338 like this¦H1836.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "30",
+     "sid": "DAN 3:30"
+    },
+    "Then¦H4430 the¦H4430 king¦H4430 promoted¦H6744 Shadrach¦H7715, Meshach¦H4336, and¦H4336 Abednego in¦H4430 the¦H4430 province¦H4083 of¦H4430 Babylon. "
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "4",
+   "sid": "DAN 4"
+  },
+  {
+   "type": "para",
+   "marker": "pi1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "DAN 4:1"
+    },
+    "Nebuchadnezzar¦H5020 the¦H5020 king, "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "pi1",
+   "content": [
+    "to¦H1934 all the¦H5020 peoples, nations, and¦H1005 languages, who dwell in¦H5020 all the¦H5020 earth: "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "pi1",
+   "content": [
+    "Peace be¦H1934 multiplied to¦H1934 you. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "pi1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "DAN 4:2"
+    },
+    "It¦H5922 has seemed good to¦H5922 me¦H5922 to¦H5922 show the¦H5922 signs and¦H1763 wonders that¦H5922 the¦H5922 Most High God has worked toward¦H5922 me¦H5922. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "DAN 4:3"
+    },
+    "How great are¦H1768 his¦H6925 signs! "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "How mighty are¦H1768 his¦H6925 wonders! "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "His¦H6925 kingdom is¦H1768 an¦H3606 everlasting kingdom. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "His¦H6925 dominion is¦H1768 from¦H4481 generation to¦H2942 generation. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "pi1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "DAN 4:4"
+    },
+    "I, Nebuchadnezzar, was at rest in¦H5954 my house, and¦H2493 flourishing in¦H5954 my palace. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "DAN 4:5"
+    },
+    "I¦H1768 saw a¦H3068 dream¦H2493 which¦H1768 made me¦H6925 afraid; and¦H2493 the¦H6925 thoughts on¦H5705 my¦H1768 bed and¦H2493 the¦H6925 visions of¦H1768 my¦H1768 head troubled me¦H6925. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "DAN 4:6"
+    },
+    "Therefore¦H3606 I¦H1768 made¦H3046 a¦H3068 decree to¦H3046 bring in¦H7229 all¦H3606 the¦H3606 wise men of¦H1768 Babylon before me, that¦H1768 they¦H1768 might make¦H3046 known¦H3046 to¦H3046 me the¦H3606 interpretation¦H6591 of¦H1768 the¦H3606 dream¦H2493. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "DAN 4:7"
+    },
+    "Then the¦H5922 magicians, the¦H5922 enchanters, the¦H5922 Chaldeans, and¦H1934 the¦H5922 soothsayers came in¦H5922; and¦H1934 I told them¦H5922 the¦H5922 dream, but they didn’t make known¦H1934 to¦H5922 me¦H5922 its interpretation. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "DAN 4:8"
+    },
+    "But¦H3606 at last, Daniel came¦H4291 in¦H8631 before me, whose¦H3606 name was¦H3606 Belteshazzar according to¦H4291 the¦H3606 name of¦H5491 my god, and¦H7236 in¦H8631 whom is¦H3606 the¦H3606 spirit of¦H5491 the¦H3606 holy gods. I told the¦H3606 dream before him, saying, "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "pi1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "DAN 4:9"
+    },
+    "“Belteshazzar, master of¦H4481 the¦H3606 magicians, because¦H4481 I¦H4481 know that¦H3606 the¦H3606 spirit of¦H4481 the¦H3606 holy gods is¦H3606 in¦H1753 you¦H4481 and¦H8065 no¦H3606 secret troubles you¦H4481, tell me¦H4481 the¦H3606 visions of¦H4481 my¦H4481 dream that¦H3606 I¦H4481 have seen, and¦H8065 its¦H4481 interpretation. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "DAN 4:10"
+    },
+    "These¦H4481 were¦H1934 the¦H5922 visions¦H2376 of¦H4481 my¦H5922 head¦H7217 on¦H5922 my¦H5922 bed¦H4903: I¦H4481 saw¦H2370, and¦H8065 behold, a¦H3068 tree in¦H5922 the¦H5922 middle of¦H4481 the¦H5922 earth; and¦H8065 its¦H4481 height was¦H1934 great. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "DAN 4:11"
+    },
+    "The¦H4481 tree grew and¦H3652 was¦H2423 strong. Its¦H7113 height reached to¦H2429 the¦H4481 sky and¦H3652 its¦H7113 sight to¦H2429 the¦H4481 end of¦H4481 all the¦H4481 earth. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "DAN 4:12"
+    },
+    "Its leaves were¦H1768 beautiful, and¦H6523 it had¦H1768 much fruit, and¦H6523 in¦H1768 it was¦H2423 food for¦H1768 all. The¦H1768 animals¦H2423 of¦H2920 the¦H1768 field¦H1251 had¦H1768 shade under it, and¦H6523 the¦H1768 birds of¦H2920 the¦H1768 sky¦H8065 lived in¦H1768 its branches, and¦H6523 all flesh was¦H2423 fed from¦H1768 it. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "pi1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "DAN 4:13"
+    },
+    "“ I¦H4481 saw in¦H5922 the¦H5922 visions of¦H4481 my¦H5922 head on¦H5922 my¦H5922 bed, and¦H4481 behold, a¦H3068 holy watcher came¦H2423 down from¦H4481 the¦H5922 sky. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "DAN 4:14"
+    },
+    "He¦H1768 cried aloud and¦H4437 said this¦H5922: ‘Cut down the¦H5922 tree, and¦H4437 cut off its¦H3046 branches! Shake off its¦H3046 leaves and¦H4437 scatter its¦H3046 fruit! Let the¦H5922 animals get away from¦H1768 under it¦H5922 and¦H4437 the¦H5922 birds from¦H1768 its¦H3046 branches. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "DAN 4:15"
+    },
+    "Nevertheless leave the¦H3606 stump of¦H4437 its¦H6591 roots in¦H5020 the¦H3606 earth, even¦H1768 with¦H6903 a¦H3068 band of¦H4437 iron and¦H4430 bronze, in¦H5020 the¦H3606 tender grass of¦H4437 the¦H3606 field; and¦H4430 let it be¦H3809 wet with¦H6903 the¦H3606 dew of¦H4437 the¦H3606 sky. Let his¦H1768 portion be¦H3809 with¦H6903 the¦H3606 animals in¦H5020 the¦H3606 grass of¦H4437 the¦H3606 earth. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "DAN 4:16"
+    },
+    "Let his¦H1768 heart be¦H8160 changed from¦H1768 man’s, and¦H6032 let an¦H4430 animal’s heart be¦H8160 given to¦H8036 him. Then¦H4430 let seven¦H2298 times¦H2298 pass over him. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "pi1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "DAN 4:17"
+    },
+    "“‘ The¦H3606 sentence is¦H1768 by the¦H3606 decree of¦H1768 the¦H3606 watchers and¦H7236 the¦H3606 demand by the¦H3606 word of¦H1768 the¦H3606 holy ones, to¦H4291 the¦H3606 intent that¦H1768 the¦H3606 living may know that¦H1768 the¦H3606 Most High rules in¦H1768 the¦H3606 kingdom of¦H1768 men, and¦H7236 gives it to¦H4291 whomever¦H1768 he¦H1768 will¦H1768, and¦H7236 sets up over it the¦H3606 lowest of¦H1768 men.’ "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "pi1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "DAN 4:18"
+    },
+    "“ This¦H3606 dream I, King Nebuchadnezzar, have seen; and¦H8065 you, Belteshazzar, declare the¦H3606 interpretation, because¦H3606 all¦H3606 the¦H3606 wise men of¦H3606 my kingdom are not able to¦H8065 make known to¦H8065 me the¦H3606 interpretation; but¦H3606 you are able, for¦H4203 the¦H3606 spirit of¦H3606 the¦H3606 holy gods is¦H3606 in¦H1753 you.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "pi1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "DAN 4:19"
+    },
+    "Then¦H4430 Daniel, whose¦H1768 name was¦H4430 Belteshazzar, was¦H4430 stricken mute for¦H1768 a¦H3068 while, and¦H4430 his¦H1768 thoughts troubled him. The¦H1768 king¦H4430 answered, “Belteshazzar, don’t let the¦H1768 dream or¦H4430 the¦H1768 interpretation, trouble you¦H1768.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "pi1",
+   "content": [
+    "Belteshazzar answered, “ My¦H4430 lord, may the¦H1768 dream be for¦H1768 those¦H1768 who¦H1768 hate you¦H1768, and¦H4430 its interpretation to¦H4430 your¦H1768 adversaries. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "DAN 4:20"
+    },
+    "The¦H5922 tree that¦H1768 you¦H1768 saw¦H2370, which¦H1768 grew and¦H6523 was¦H4430 strong, whose¦H1768 height reached to¦H5922 the¦H5922 sky¦H8065 and¦H6523 its¦H5705 sight to¦H5922 all the¦H5922 earth; ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "DAN 4:21"
+    },
+    "whose¦H1768 leaves were¦H1768 beautiful and¦H4430 its¦H6591 fruit plentiful, and¦H4430 in¦H5922 it¦H1932 was¦H4430 food for¦H5922 all; under which¦H1768 the¦H5922 animals of¦H4430 the¦H5922 field lived, and¦H4430 on¦H5922 whose¦H1768 branches the¦H5922 birds of¦H4430 the¦H5922 sky had¦H4430 their habitation— ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "DAN 4:22"
+    },
+    "it¦H5922 is¦H1768 you¦H1768, O¦H3068 king, that¦H1768 have¦H1934 grown and¦H4437 become strong; for¦H5922 your¦H5922 greatness has¦H1768 grown, and¦H4437 reaches to¦H5922 the¦H5922 sky¦H8065, and¦H4437 your¦H5922 dominion to¦H5922 the¦H5922 end of¦H4481 the¦H5922 earth. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "pi1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "DAN 4:23"
+    },
+    "“ Whereas¦H1768 the¦H4481 king saw a¦H3068 holy watcher coming down from¦H4481 the¦H4481 sky¦H8065 and¦H4437 saying, ‘Cut down the¦H4481 tree, and¦H4437 destroy it¦H4481; nevertheless leave¦H7662 the¦H4481 stump¦H6136 of¦H4481 its¦H3046 roots¦H8330 in¦H4437 the¦H4481 earth, even¦H1768 with a¦H3068 band of¦H4481 iron and¦H4437 bronze, in¦H4437 the¦H4481 tender grass of¦H4481 the¦H4481 field, and¦H4437 let it¦H4481 be wet with the¦H4481 dew of¦H4481 the¦H4481 sky¦H8065. Let his¦H4481 portion be with the¦H4481 animals of¦H4481 the¦H4481 field, until seven times pass over¦H7990 him¦H4481.’ "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "pi1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "DAN 4:24"
+    },
+    "“ This¦H5922 is the¦H5922 interpretation, O¦H3068 king¦H4430, and¦H4430 it¦H5922 is the¦H5922 decree of¦H4430 the¦H5922 Most High, which has¦H4430 come on¦H5922 my¦H5922 lord the¦H5922 king¦H4430: ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "25",
+     "sid": "DAN 4:25"
+    },
+    "You¦H5922 will¦H3606 be driven from men and¦H4430 your¦H5922 dwelling shall¦H3606 be with¦H5922 the¦H3606 animals of¦H4430 the¦H3606 field. You¦H5922 will¦H3606 be made to¦H5922 eat grass as¦H3606 oxen, and¦H4430 will¦H3606 be wet with¦H5922 the¦H3606 dew of¦H4430 the¦H3606 sky, and¦H4430 seven times shall¦H3606 pass over¦H5922 you¦H5922, until you¦H5922 know that¦H3606 the¦H3606 Most High rules in¦H5922 the¦H3606 kingdom of¦H4430 men, and¦H4430 gives it¦H5922 to¦H5922 whomever he¦H5020 will¦H3606. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "26",
+     "sid": "DAN 4:26"
+    },
+    "Whereas¦H1768 it¦H5922 was¦H1934 commanded to¦H5922 leave the¦H5922 stump of¦H4437 the¦H5922 roots of¦H4437 the¦H5922 tree, your¦H5922 kingdom¦H4437 shall¦H4437 be¦H1934 sure to¦H5922 you¦H1768 after¦H7118 you¦H1768 know that¦H1768 Heaven rules. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "27",
+     "sid": "DAN 4:27"
+    },
+    "Therefore, O¦H3068 king¦H4430, let my¦H4430 counsel be¦H3809 acceptable to¦H4430 you¦H1768, and¦H6032 break off your¦H1768 sins by righteousness, and¦H6032 your¦H1768 iniquities by showing mercy to¦H4430 the¦H1768 poor. Perhaps there¦H1768 may be¦H3809 a¦H3068 lengthening of¦H1005 your¦H1768 tranquility.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "pi1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "28",
+     "sid": "DAN 4:28"
+    },
+    "All this¦H4406 came¦H5308 on the¦H4481 King¦H4430 Nebuchadnezzar¦H5020. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "29",
+     "sid": "DAN 4:29"
+    },
+    "At¦H5705 the¦H5922 end of¦H4481 twelve months he¦H1768 was¦H2423 walking in¦H5922 the¦H5922 royal¦H4437 palace of¦H4481 Babylon. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "30",
+     "sid": "DAN 4:30"
+    },
+    "The¦H5922 king spoke and¦H8065 said, “ Is¦H1768 not this¦H4406 great¦H7236 Babylon, which¦H1768 I¦H4481 have¦H1768 built for¦H5922 the¦H5922 royal dwelling place by¦H4481 the¦H5922 might of¦H4481 my¦H5922 power and¦H8065 for¦H5922 the¦H5922 glory of¦H4481 my¦H5922 majesty?” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "pi1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "31",
+     "sid": "DAN 4:31"
+    },
+    "While the¦H5922 word was¦H7985 in¦H5922 the¦H5922 king’s mouth, a¦H3068 voice came¦H1768 from¦H1768 the¦H5922 sky¦H8065, saying, “ O¦H3068 King Nebuchadnezzar¦H5020, to¦H5922 you¦H1768 it¦H5922 is¦H1768 spoken: ‘ The¦H5922 kingdom¦H4437 has¦H1768 departed from¦H1768 you¦H1768. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "32",
+     "sid": "DAN 4:32"
+    },
+    "You¦H1768 shall¦H3606 be¦H3809 driven from¦H1768 men, and¦H8065 your¦H1768 dwelling shall¦H3606 be¦H3809 with¦H5648 the¦H3606 animals of¦H1768 the¦H3606 field. You¦H1768 shall¦H3606 be¦H3809 made¦H5648 to¦H2429 eat grass like oxen. Seven times shall¦H3606 pass¦H3809 over you¦H1768, until you¦H1768 know that¦H1768 the¦H3606 Most¦H2429 High rules in¦H1753 the¦H3606 kingdom of¦H1768 men, and¦H8065 gives it to¦H2429 whomever¦H1768 he¦H1768 will¦H6634.’” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "pi1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "33",
+     "sid": "DAN 4:33"
+    },
+    "This¦H5922 was¦H2122 fulfilled the¦H5922 same hour on¦H5922 Nebuchadnezzar. He was¦H2122 driven from¦H3367 men¦H4437 and¦H4437 ate grass like oxen; and¦H4437 his¦H5922 body was¦H2122 wet with¦H8421 the¦H5922 dew of¦H4437 the¦H5922 sky until his¦H5922 hair had grown like eagles’ feathers, and¦H4437 his¦H5922 nails like birds’ claws. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "pi1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "34",
+     "sid": "DAN 4:34"
+    },
+    "At the¦H3606 end of¦H4430 the¦H3606 days I¦H1768, Nebuchadnezzar¦H5020, lifted¦H5020 up¦H7313 my¦H4430 eyes to¦H3202 heaven¦H8065, and¦H4430 my¦H4430 understanding returned to¦H3202 me; and¦H4430 I¦H1768 blessed the¦H3606 Most High, and¦H4430 I¦H1768 praised¦H7624 and¦H4430 honored¦H1922 him who¦H1768 lives forever, "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "for¦H1768 his¦H5020 dominion is¦H1768 an¦H3606 everlasting dominion, "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "and¦H4430 his¦H5020 kingdom from¦H1768 generation to¦H3202 generation. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "35",
+     "sid": "DAN 4:35"
+    },
+    "All the inhabitants of the earth are reputed as nothing; "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "and he does according to his will in the army of heaven, "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "and among the inhabitants of the earth; "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and no one can stop his hand, "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "or ask him, “What are you doing?” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "pi1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "36",
+     "sid": "DAN 4:36"
+    },
+    "At the same time my understanding returned to me; and for the glory of my kingdom, my majesty and brightness returned to me. My counselors and my lords sought me; and I was established in my kingdom, and excellent greatness was added to me. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "37",
+     "sid": "DAN 4:37"
+    },
+    "Now I, Nebuchadnezzar, praise and extol and honor the King of heaven; for all his works are truth, and his ways justice; and those who walk in pride he is able to abase. "
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "5",
+   "sid": "DAN 5"
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "DAN 5:1"
+    },
+    "Belshazzar¦H1113 the¦H4430 king¦H4430 made¦H5648 a¦H3068 great¦H7229 feast¦H3900 to¦H4430 a¦H3068 thousand of¦H4430 his lords¦H7261, and¦H4430 drank¦H8355 wine¦H2562 before¦H6903 the¦H4430 thousand. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "DAN 5:2"
+    },
+    "Belshazzar¦H1113, while he¦H1768 tasted the¦H4481 wine¦H2562, commanded¦H4481 that¦H1768 the¦H4481 golden¦H1722 and¦H4430 silver¦H3702 vessels¦H3984 which¦H1768 Nebuchadnezzar¦H5020 his¦H4481 father had¦H4430 taken¦H5312 out¦H5312 of¦H4481 the¦H4481 temple¦H1965 which¦H1768 was¦H4430 in¦H1965 Jerusalem¦H3390 be brought¦H5312 to¦H3390 him¦H4481, that¦H1768 the¦H4481 king¦H4430 and¦H4430 his¦H4481 lords¦H7261, his¦H4481 wives¦H7695 and¦H4430 his¦H4481 concubines¦H3904, might¦H3904 drink¦H8355 from¦H4481 them. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "DAN 5:3"
+    },
+    "Then¦H1768 they¦H1768 brought¦H5312 the¦H4481 golden¦H1722 vessels¦H3984 that¦H1768 were¦H1768 taken¦H5312 out¦H5312 of¦H4481 the¦H4481 temple¦H1005 of¦H4481 God’s house¦H1005 which¦H1768 was¦H4430 at Jerusalem¦H3390; and¦H4430 the¦H4481 king¦H4430 and¦H4430 his¦H4481 lords¦H7261, his¦H4481 wives¦H7695 and¦H4430 his¦H4481 concubines¦H3904, drank¦H8355 from¦H4481 them. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "DAN 5:4"
+    },
+    "They drank¦H8355 wine¦H2562, and¦H6523 praised¦H7624 the¦H7624 gods of gold¦H1722, and¦H6523 of silver¦H3702, of bronze¦H5174, of iron¦H6523, of wood, and¦H6523 of stone. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "DAN 5:5"
+    },
+    "In¦H5922 the¦H5922 same hour¦H8160, the¦H5922 fingers of¦H4430 a¦H3068 man’s hand¦H3028 came¦H5312 out¦H5312 and¦H4430 wrote¦H3790 near the¦H5922 lamp stand on¦H5922 the¦H5922 plaster¦H1528 of¦H4430 the¦H5922 wall¦H3797 of¦H4430 the¦H5922 king¦H4430’s palace¦H1965. The¦H5922 king¦H4430 saw¦H2370 the¦H5922 part¦H6447 of¦H4430 the¦H5922 hand¦H3028 that¦H1768 wrote¦H3790. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "DAN 5:6"
+    },
+    "Then¦H4430 the¦H4430 king¦H4430’s face¦H2122 was¦H4430 changed¦H8133 in¦H8133 him, and¦H4430 his thoughts¦H7476 troubled him; and¦H4430 the¦H4430 joints¦H7001 of¦H4430 his thighs were¦H7001 loosened, and¦H4430 his knees struck one¦H1668 against¦H1668 another¦H1668. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "DAN 5:7"
+    },
+    "The¦H3606 king¦H4430 cried¦H7123 aloud¦H2429 to¦H5922 bring¦H5954 in¦H5954 the¦H3606 enchanters, the¦H3606 Chaldeans¦H3779, and¦H6032 the¦H3606 soothsayers¦H1505. The¦H3606 king¦H4430 spoke¦H6032 and¦H6032 said¦H6032 to¦H5922 the¦H3606 wise¦H2445 men¦H2445 of¦H4437 Babylon, “Whoever reads this¦H1836 writing¦H3792 and¦H6032 shows me¦H5922 its¦H6591 interpretation¦H6591 shall¦H4437 be clothed¦H3848 with¦H3848 purple, and¦H6032 have¦H7981 a¦H3068 chain¦H2002 of¦H4437 gold¦H1722 about¦H5922 his¦H5922 neck¦H6676, and¦H6032 shall¦H4437 be the¦H3606 third¦H8523 ruler¦H7981 in¦H5954 the¦H3606 kingdom¦H4437.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "DAN 5:8"
+    },
+    "Then¦H4430 all¦H3606 the¦H3606 king¦H4430’s wise¦H2445 men¦H2445 came¦H5954 in¦H5954; but¦H3606 they¦H3606 could¦H3546 not¦H3809 read¦H7123 the¦H3606 writing¦H3792, and¦H4430 couldn’t make¦H3046 known¦H3046 to¦H3046 the¦H3606 king¦H4430 the¦H3606 interpretation¦H6591. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "DAN 5:9"
+    },
+    "Then¦H4430 King¦H4430 Belshazzar¦H1113 was¦H4430 greatly¦H7690 troubled, and¦H4430 his¦H5922 face¦H2122 was¦H4430 changed¦H8133 in¦H5922 him¦H5922, and¦H4430 his¦H5922 lords¦H7261 were¦H7261 perplexed¦H7672. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "DAN 5:10"
+    },
+    "The¦H4430 queen¦H4433 by reason¦H6903 of¦H1005 the¦H4430 words¦H4406 of¦H1005 the¦H4430 king¦H4430 and¦H6032 his¦H5954 lords¦H7261 came¦H5954 into¦H5954 the¦H4430 banquet¦H4961 house¦H1005. The¦H4430 queen¦H4433 spoke¦H6032 and¦H6032 said¦H6032, “ O¦H3068 king¦H4430, live¦H2418 forever¦H5957; don’t let your thoughts¦H7476 trouble you¦H6903, nor let your face¦H2122 be¦H2122 changed¦H8133. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "DAN 5:11"
+    },
+    "There¦H1768 is¦H1768 a¦H3068 man¦H1400 in¦H4430 your¦H1768 kingdom¦H4437 in¦H4430 whom¦H1768 is¦H1768 the¦H5020 spirit¦H7308 of¦H4437 the¦H5020 holy¦H6922 gods; and¦H4430 in¦H4430 the¦H5020 days¦H3118 of¦H4437 your¦H1768 father, light¦H5094 and¦H4430 understanding¦H7924 and¦H4430 wisdom¦H2452, like the¦H5020 wisdom¦H2452 of¦H4437 the¦H5020 gods, were¦H1400 found¦H7912 in¦H4430 him¦H6966. The¦H5020 king¦H4430, Nebuchadnezzar¦H5020, your¦H1768 father—yes, the¦H5020 king¦H4430, your¦H1768 father— made¦H6966 him¦H6966 master¦H7229 of¦H4437 the¦H5020 magicians¦H2749, enchanters, Chaldeans¦H3779, and¦H4430 soothsayers¦H1505, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "DAN 5:12"
+    },
+    "because¦H6903 an¦H3606 excellent¦H3493 spirit¦H7308, knowledge¦H4486, understanding¦H7924, interpreting¦H6590 of¦H4430 dreams¦H2493, showing of¦H4430 dark sentences, and¦H4430 dissolving¦H8271 of¦H4430 doubts¦H7001 were¦H1768 found¦H7912 in¦H7912 the¦H3606 same Daniel¦H1841, whom¦H1768 the¦H3606 king¦H4430 named¦H8036 Belteshazzar¦H1096. Now¦H3705 let¦H3705 Daniel¦H1841 be¦H3705 called¦H7123, and¦H4430 he¦H1768 will¦H1768 show the¦H3606 interpretation¦H6591.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "DAN 5:13"
+    },
+    "Then¦H4430 Daniel¦H1841 was¦H1841 brought¦H5954 in¦H5954 before¦H6925 the¦H4481 king¦H4430. The¦H4481 king¦H4430 spoke¦H6032 and¦H6032 said¦H6032 to¦H6925 Daniel¦H1841, “ Are¦H1768 you¦H1768 that¦H1768 Daniel¦H1841 of¦H4481 the¦H4481 children¦H1123 of¦H4481 the¦H4481 captivity¦H1547 of¦H4481 Judah¦H3061, whom¦H1768 the¦H4481 king¦H4430 my¦H4430 father brought¦H5954 out of¦H4481 Judah¦H3061? ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "DAN 5:14"
+    },
+    "I¦H1768 have¦H1768 heard¦H8086 of¦H5922 you¦H1768, that¦H1768 the¦H5922 spirit¦H7308 of¦H5922 the¦H5922 gods is¦H1768 in¦H5922 you¦H1768 and¦H7924 that¦H1768 light¦H5094, understanding¦H7924, and¦H7924 excellent¦H3493 wisdom¦H2452 are¦H1768 found¦H7912 in¦H5922 you¦H1768. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "DAN 5:15"
+    },
+    "Now¦H3705 the¦H6925 wise¦H2445 men¦H2445, the¦H6925 enchanters, have¦H1768 been brought¦H5954 in¦H5954 before¦H6925 me¦H6925, that¦H1768 they¦H1768 should read¦H7123 this¦H1836 writing¦H3792, and¦H3792 make¦H3046 known¦H3046 to¦H6925 me¦H6925 its¦H6591 interpretation¦H6591; but¦H1768 they¦H1768 could¦H3546 not¦H3809 show the¦H6925 interpretation¦H6591 of¦H2445 the¦H6925 thing¦H4406. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "DAN 5:16"
+    },
+    "But¦H1768 I¦H1768 have¦H7981 heard¦H8086 of¦H4437 you¦H1768, that¦H1768 you¦H1768 can¦H3202 give¦H6590 interpretations¦H6590 and¦H1722 dissolve¦H8271 doubts¦H7001. Now¦H3705 if¦H2006 you¦H1768 can¦H3202 read¦H7123 the¦H5922 writing¦H3792 and¦H1722 make¦H3046 known¦H3046 to¦H5922 me¦H5922 its¦H6591 interpretation¦H6591, you¦H1768 shall¦H4437 be¦H3705 clothed¦H3848 with¦H3848 purple, and¦H1722 have¦H7981 a¦H3068 chain¦H2002 of¦H4437 gold¦H1722 around¦H5922 your¦H5922 neck¦H6676, and¦H1722 shall¦H4437 be¦H3705 the¦H5922 third¦H8531 ruler¦H7981 in¦H5922 the¦H5922 kingdom¦H4437.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "DAN 5:17"
+    },
+    "Then¦H4430 Daniel¦H1841 answered¦H6032 before¦H6925 the¦H6925 king¦H4430, “Let your¦H3052 gifts¦H4978 be¦H1934 to¦H6925 yourself, and¦H6032 give¦H3052 your¦H3052 rewards¦H5023 to¦H6925 another. Nevertheless¦H1297, I will¦H4430 read¦H7123 the¦H6925 writing¦H3792 to¦H6925 the¦H6925 king¦H4430, and¦H6032 make¦H3046 known¦H3046 to¦H6925 him¦H6925 the¦H6925 interpretation¦H6591. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "DAN 5:18"
+    },
+    "“ To¦H4430 you, king¦H4430, the¦H5020 Most¦H5943 High¦H5943 God gave¦H3052 Nebuchadnezzar¦H5020 your¦H3052 father the¦H5020 kingdom¦H4437, and¦H4430 greatness¦H7238, and¦H4430 glory¦H3367, and¦H4430 majesty¦H7238. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "DAN 5:19"
+    },
+    "Because¦H4481 of¦H4481 the¦H3606 greatness¦H7238 that¦H1768 he¦H1768 gave¦H3052 him¦H6925, all¦H3606 the¦H3606 peoples¦H5972, nations, and¦H1763 languages¦H3961 trembled¦H2112 and¦H1763 feared¦H1763 before¦H6925 him¦H6925. He¦H1768 killed¦H6992 whom¦H1768 he¦H1768 wanted to¦H6925, and¦H1763 he¦H1768 kept¦H1934 alive¦H2418 whom¦H1768 he¦H1768 wanted to¦H6925. He¦H1768 raised up¦H7313 whom¦H1768 he¦H1768 wanted to¦H6925, and¦H1763 he¦H1768 put down¦H1934 whom¦H1768 he¦H1768 wanted to¦H6925. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "DAN 5:20"
+    },
+    "But¦H1768 when¦H1768 his¦H4481 heart¦H3825 was¦H3825 lifted¦H7313 up¦H7313, and¦H4437 his¦H4481 spirit¦H7308 was¦H3825 hardened¦H8631 so¦H1768 that¦H1768 he¦H1768 dealt proudly, he¦H1768 was¦H3825 deposed¦H5182 from¦H4481 his¦H4481 kingly¦H4437 throne¦H3764, and¦H4437 they¦H1768 took¦H5709 his¦H4481 glory¦H3367 from¦H4481 him¦H4481. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "DAN 5:21"
+    },
+    "He¦H1768 was¦H1655 driven¦H2957 from¦H4481 the¦H5922 sons¦H1123 of¦H4481 men¦H4437, and¦H4437 his¦H5922 heart¦H3825 was¦H1655 made¦H3046 like¦H2939 the¦H5922 animals¦H2423’, and¦H4437 his¦H5922 dwelling¦H4070 was¦H1655 with¦H5974 the¦H5922 wild¦H6167 donkeys¦H6167. He¦H1768 was¦H1655 fed¦H2939 with¦H5974 grass¦H6211 like¦H2939 oxen¦H8450, and¦H4437 his¦H5922 body¦H1655 was¦H1655 wet¦H6647 with¦H5974 the¦H5922 dew¦H2920 of¦H4481 the¦H5922 sky¦H8065, until¦H5705 he¦H1768 knew¦H3046 that¦H1768 the¦H5922 Most¦H5943 High¦H5943 God rules¦H7990 in¦H5922 the¦H5922 kingdom¦H4437 of¦H4481 men¦H4437, and¦H4437 that¦H1768 he¦H1768 sets¦H6966 up¦H6966 over¦H5922 it¦H5922 whomever¦H1768 he¦H1768 will¦H6634. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "DAN 5:22"
+    },
+    "“ You¦H1768, his¦H3606 son¦H1247, Belshazzar¦H1113, have¦H1768 not¦H3809 humbled¦H8214 your¦H8214 heart¦H3825, though¦H6903 you¦H1768 knew¦H3046 all¦H3606 this¦H1836, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "DAN 5:23"
+    },
+    "but¦H1768 have¦H1768 lifted¦H7313 up¦H7313 yourself¦H7313 against¦H5922 the¦H3606 Lord¦H4756 of¦H1005 heaven¦H8065; and¦H6523 they¦H1768 have¦H1768 brought the¦H3606 vessels¦H3984 of¦H1005 his¦H5922 house¦H1005 before¦H6925 you¦H1768, and¦H6523 you¦H1768 and¦H6523 your¦H5922 lords¦H7261, your¦H5922 wives¦H7695, and¦H6523 your¦H5922 concubines¦H3904, have¦H1768 drunk¦H8355 wine¦H2562 from¦H1768 them¦H5922. You¦H1768 have¦H1768 praised¦H7624 the¦H3606 gods of¦H1005 silver¦H3702 and¦H6523 gold¦H1722, of¦H1005 bronze¦H5174, iron¦H6523, wood, and¦H6523 stone, which¦H1768 don’t see¦H2370, or¦H3809 hear¦H8086, or¦H3809 know¦H3046; and¦H6523 you¦H1768 have¦H1768 not¦H3809 glorified¦H1922 the¦H3606 God in¦H5922 whose¦H1768 hand¦H3028 your¦H5922 breath¦H5396 is¦H1768, and¦H6523 whose¦H1768 are¦H1768 all¦H3606 your¦H5922 ways. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "DAN 5:24"
+    },
+    "Then¦H1768 the¦H4481 part¦H4481 of¦H4481 the¦H4481 hand¦H3028 was¦H3792 sent¦H7972 from¦H4481 before¦H6925 him¦H4481, and¦H3792 this¦H1836 writing¦H3792 was¦H3792 inscribed. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "25",
+     "sid": "DAN 5:25"
+    },
+    "“ This¦H1836 is¦H1768 the¦H1768 writing¦H3792 that¦H1768 was¦H3792 inscribed: ‘ MENE¦H4484, MENE¦H4484, TEKEL¦H8625, UPHARSIN¦H6537.’ "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "26",
+     "sid": "DAN 5:26"
+    },
+    "“ This¦H1836 is¦H4406 the¦H1836 interpretation¦H6591 of¦H4437 the¦H1836 thing¦H4406: "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "m",
+   "content": [
+    "MENE¦H4484: God has¦H4437 counted your¦H4483 kingdom¦H4437, and¦H4437 brought it to¦H4483 an¦H4437 end¦H8000. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "m",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "27",
+     "sid": "DAN 5:27"
+    },
+    "TEKEL¦H8625: you are weighed¦H8625 in¦H7912 the balances¦H3977, and¦H3977 are found¦H7912 wanting¦H2627. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "m",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "28",
+     "sid": "DAN 5:28"
+    },
+    "PERES¦H6537: your¦H3052 kingdom¦H4437 is¦H4437 divided¦H6537, and¦H4076 given¦H3052 to¦H3052 the¦H3052 Medes¦H4076 and¦H4076 Persians¦H6540.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "29",
+     "sid": "DAN 5:29"
+    },
+    "Then¦H1768 Belshazzar¦H1113 commanded, and¦H1722 they¦H1768 clothed¦H3848 Daniel¦H1841 with¦H3848 purple, and¦H1722 put a¦H3068 chain¦H2002 of¦H4437 gold¦H1722 about¦H5922 his¦H5922 neck¦H6676, and¦H1722 made proclamation¦H3745 concerning¦H5922 him¦H5922, that¦H1768 he¦H1768 should be¦H1934 the¦H5922 third¦H8531 ruler¦H7990 in¦H5922 the¦H5922 kingdom¦H4437. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "30",
+     "sid": "DAN 5:30"
+    },
+    "In¦H4430 that¦H4430 night¦H3916 Belshazzar¦H1113 the¦H4430 Chaldean¦H3779 King¦H4430 was¦H4430 slain¦H6992. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "31",
+     "sid": "DAN 5:31"
+    },
+    "Darius the Mede received the kingdom, being about sixty-two years old. "
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "6",
+   "sid": "DAN 6"
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "DAN 6:1"
+    },
+    "It pleased Darius¦H1868 to¦H1868 set over the¦H1868 kingdom¦H4437 one hundred twenty local governors, who should be throughout the¦H1868 whole kingdom¦H4437; ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "DAN 6:2"
+    },
+    "and¦H4437 over¦H5922 them¦H5922 three presidents, of¦H4437 whom¦H1768 Daniel was¦H1934 one, that¦H1768 these local governors might¦H1934 give account¦H5922 to¦H5922 them¦H5922, and¦H4437 that¦H1768 the¦H3606 king should suffer no¦H3606 loss. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "DAN 6:3"
+    },
+    "Then¦H1768 this¦H4481 Daniel¦H1841 was¦H1934 distinguished above the¦H4481 presidents¦H5632 and¦H4430 the¦H4481 local governors, because¦H4481 an¦H4430 excellent spirit was¦H1934 in¦H4430 him¦H4481; and¦H4430 the¦H4481 king¦H4430 thought to¦H4430 set him¦H4481 over¦H5924 the¦H4481 whole realm. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "DAN 6:4"
+    },
+    "Then¦H4430 the¦H3606 presidents¦H5632 and¦H4430 the¦H3606 local governors sought¦H1934 to¦H5922 find occasion against¦H5922 Daniel¦H1841 as¦H6903 touching the¦H3606 kingdom¦H4437; but¦H1768 they¦H3606 could¦H1768 find no¦H3606 occasion or¦H4430 fault, because¦H6903 he¦H1768 was¦H1934 faithful. There¦H1768 wasn’t any¦H3606 error or¦H4430 fault found in¦H5922 him¦H5922. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "DAN 6:5"
+    },
+    "Then¦H6903 these men¦H4437 said, “ We¦H1768 won’t find¦H7912 any¦H3606 occasion¦H5931 against¦H5922 this¦H1932 Daniel¦H1841, unless we¦H3068 find¦H7912 it¦H5922 against¦H5922 him¦H5922 concerning¦H5922 the¦H3606 law of¦H4437 his¦H5922 God.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "DAN 6:6"
+    },
+    "Then¦H1768 these¦H1836 presidents and¦H1841 local governors assembled together to¦H5922 the¦H3606 king, and¦H1841 said this¦H1836 to¦H5922 him¦H5922, “King Darius, live forever! ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "DAN 6:7"
+    },
+    "All¦H5957 the¦H5922 presidents¦H5632 of¦H4430 the¦H5922 kingdom, the¦H5922 deputies and¦H4430 the¦H5922 local governors, the¦H5922 counselors and¦H4430 the¦H5922 governors, have¦H4430 consulted together¦H7284 to¦H5922 establish a¦H3068 royal¦H4430 statute and¦H4430 to¦H5922 make a¦H3068 strong decree, that¦H5922 whoever asks a¦H3068 petition of¦H4430 any god or¦H4430 man for¦H5922 thirty days, except of¦H4430 you¦H5922, O¦H3068 king¦H4430, he¦H3652 shall be¦H5957 cast into the¦H5922 den of¦H4430 lions. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "DAN 6:8"
+    },
+    "Now¦H4430, O¦H3068 king¦H4430, establish¦H6966 the¦H3606 decree and¦H4430 sign the¦H3606 writing, that¦H1768 it¦H4481 not be changed, according¦H4481 to¦H5705 the¦H3606 law of¦H4481 the¦H3606 Medes and¦H4430 Persians, which¦H1768 doesn’t alter.” ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "DAN 6:9"
+    },
+    "Therefore King¦H4430 Darius signed¦H7560 the¦H1768 writing¦H3792 and¦H4430 the¦H1768 decree¦H1882. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "DAN 6:10"
+    },
+    "When Daniel knew that¦H3606 the¦H3606 writing¦H3792 was¦H4430 signed¦H7560, he¦H6903 went into his¦H3606 house ( now¦H1836 his¦H3606 windows were open in¦H4430 his¦H3606 room toward Jerusalem) and¦H4430 he¦H6903 kneeled on his¦H3606 knees three times a¦H3068 day, and¦H4430 prayed, and¦H4430 gave thanks before¦H6903 his¦H3606 God, as¦H3606 he¦H6903 did before¦H6903. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "DAN 6:11"
+    },
+    "Then¦H6903 these¦H1836 men assembled together, and¦H3792 found Daniel¦H1841 making¦H3046 petition and¦H3792 supplication before¦H6925 his¦H5922 God. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "DAN 6:12"
+    },
+    "Then they came¦H7284 near, and¦H1841 spoke before¦H6925 the¦H6925 king concerning the¦H6925 king’s decree: “Haven’t you signed a¦H3068 decree that¦H1400 every man¦H1400 who makes¦H1156 a¦H3068 petition¦H1156 to¦H6925 any god or man¦H1400 within thirty days, except to¦H6925 you, O¦H3068 king, shall be¦H1841 cast into the¦H6925 den of¦H1156 lions?” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    "The¦H6925 king answered, “This thing is true, according to¦H6925 the¦H6925 law of¦H1156 the¦H6925 Medes and¦H1841 Persians, which doesn’t alter.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "DAN 6:13"
+    },
+    "Then¦H4430 they¦H1768 answered¦H6032 and¦H6032 said¦H6032 before¦H6925 the¦H3606 king¦H4430, “ That¦H1768 Daniel, who¦H1768 is¦H1768 of¦H4481 the¦H3606 children of¦H4481 the¦H3606 captivity of¦H4481 Judah, doesn’t respect you¦H1768, O¦H3068 king¦H4430, nor¦H3809 the¦H3606 decree¦H1882 that¦H1768 you¦H1768 have¦H4430 signed¦H7560, but¦H3861 makes¦H1156 his¦H5922 petition¦H1156 three times a¦H3068 day¦H3118.” ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "DAN 6:14"
+    },
+    "Then¦H4430 the¦H5922 king¦H4430, when¦H1768 he¦H1768 heard these¦H4481 words, was¦H4430 very displeased, and¦H6032 set¦H7761 his¦H5922 heart on¦H5922 Daniel¦H1841 to¦H5922 deliver him¦H5922; and¦H6032 he¦H1768 labored until the¦H5922 going down of¦H4481 the¦H5922 sun to¦H5922 rescue him¦H5922. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "DAN 6:15"
+    },
+    "Then¦H4430 these men assembled together to¦H5922 the¦H5922 king¦H4430, and¦H4430 said to¦H5922 the¦H5922 king¦H4430, “Know, O¦H3068 king¦H4430, that¦H1768 it¦H5922 is¦H1768 a¦H3068 law of¦H4430 the¦H5922 Medes and¦H4430 Persians, that¦H1768 no decree nor statute which¦H1768 the¦H5922 king¦H4430 establishes may be¦H1934 changed.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "DAN 6:16"
+    },
+    "Then¦H4430 the¦H3606 king¦H4430 commanded, and¦H4430 they¦H1768 brought Daniel and¦H4430 cast him¦H5922 into the¦H3606 den of¦H4430 lions. The¦H3606 king¦H4430 spoke and¦H4430 said to¦H5922 Daniel, “ Your¦H5922 God whom¦H1768 you¦H1768 serve continually, he¦H1768 will¦H1768 deliver you¦H1768.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "DAN 6:17"
+    },
+    "A¦H3068 stone was¦H1841 brought¦H1841, and¦H6032 laid on the¦H1768 mouth of¦H4430 the¦H1768 den¦H1358; and¦H6032 the¦H1768 king¦H4430 sealed it¦H1932 with¦H1841 his¦H7804 own signet, and¦H6032 with¦H1841 the¦H1768 signet of¦H4430 his¦H7804 lords; that¦H1768 nothing might be¦H1841 changed concerning Daniel¦H1841. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "DAN 6:18"
+    },
+    "Then¦H4430 the¦H5922 king¦H4430 went¦H1841 to¦H5922 his¦H5922 palace, and¦H4430 passed the¦H5922 night fasting. No¦H3809 musical instruments were¦H1768 brought¦H1841 before¦H5922 him¦H5922; and¦H4430 his¦H5922 sleep fled from¦H8133 him¦H5922. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "DAN 6:19"
+    },
+    "Then¦H4430 the¦H5922 king¦H4430 arose very early in¦H5954 the¦H5922 morning, and¦H4430 went¦H5954 in¦H5954 haste to¦H5922 the¦H5922 den of¦H4430 lions. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "DAN 6:20"
+    },
+    "When¦H1768 he¦H1768 came¦H1768 near to¦H4430 the¦H1768 den¦H1358 to¦H4430 Daniel, he¦H1768 cried with a¦H3068 troubled voice. The¦H1768 king¦H4430 spoke and¦H4430 said to¦H4430 Daniel, “Daniel, servant of¦H4430 the¦H1768 living God, is¦H1768 your¦H1768 God, whom¦H1768 you¦H1768 serve continually, able to¦H4430 deliver you¦H1768 from¦H1768 the¦H1768 lions?” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "DAN 6:21"
+    },
+    "Then¦H4430 Daniel¦H1841 said¦H6032 to¦H3202 the¦H4481 king¦H4430, “ O¦H3068 king¦H4430, live forever! ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "DAN 6:22"
+    },
+    "My¦H4430 God has¦H4430 sent his angel, and¦H4430 has¦H4430 shut the¦H5974 lions’ mouths, and¦H4430 they have¦H4430 not hurt me, because innocence was¦H1841 found in¦H4430 me before him¦H5974; and¦H4430 also¦H4430 before you, O¦H3068 king¦H4430, I have¦H4430 done no harm.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "DAN 6:23"
+    },
+    "Then¦H6903 the¦H3606 king¦H4430 was¦H4430 exceedingly glad, and¦H4430 commanded that¦H1768 they¦H3606 should¦H4430 take Daniel up¦H6925 out¦H5648 of¦H4430 the¦H3606 den. So¦H1768 Daniel was¦H4430 taken up¦H6925 out¦H5648 of¦H4430 the¦H3606 den, and¦H4430 no¦H3809 kind of¦H4430 harm was¦H4430 found¦H7912 on him¦H6925, because¦H6903 he¦H1768 had¦H4430 trusted in¦H4430 his¦H7972 God. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "DAN 6:24"
+    },
+    "The¦H3606 king¦H4430 commanded¦H4481, and¦H4430 they¦H3606 brought¦H1841 those¦H1768 men who¦H1768 had¦H4430 accused Daniel¦H1841, and¦H4430 they¦H3606 cast them¦H5922 into the¦H3606 den¦H1358 of¦H4481 lions— them¦H5922, their¦H3606 children, and¦H4430 their¦H3606 wives; and¦H4430 the¦H3606 lions mauled them¦H5922, and¦H4430 broke all¦H3606 their¦H3606 bones in¦H5922 pieces before¦H4481 they¦H3606 came¦H1768 to¦H5922 the¦H3606 bottom of¦H4481 the¦H3606 den¦H1358. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "25",
+     "sid": "DAN 6:25"
+    },
+    "Then¦H4430 King¦H4430 Darius wrote to¦H5705 all¦H3606 the¦H3606 peoples, nations, and¦H4430 languages who¦H1768 dwell in¦H4430 all¦H3606 the¦H3606 earth: "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "pi1",
+   "content": [
+    "“Peace be¦H3809 multiplied to¦H5705 you¦H1768. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "pi1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "26",
+     "sid": "DAN 6:26"
+    },
+    "“ I¦H1768 make a¦H3068 decree that¦H1768 in¦H1753 all¦H3606 the¦H3606 dominion of¦H4430 my¦H4430 kingdom men tremble and¦H4430 fear before the¦H3606 God of¦H4430 Daniel. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“ For¦H1768 he¦H1768 is¦H1768 the¦H3606 living¦H1753 God, "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "and¦H4430 steadfast forever. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "His¦H3606 kingdom is¦H1768 that¦H1768 which¦H1768 will¦H1768 not be¦H8001 destroyed. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "His¦H3606 dominion will¦H1768 be¦H8001 even¦H1768 to¦H4430 the¦H3606 end. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "27",
+     "sid": "DAN 6:27"
+    },
+    "He¦H1768 delivers and¦H1763 rescues. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "He¦H1768 works signs and¦H1763 wonders in¦H4437 heaven and¦H1763 in¦H4437 earth, "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "who¦H1768 has¦H1768 delivered Daniel¦H1841 from¦H4481 the¦H3606 power of¦H4481 the¦H3606 lions.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "28",
+     "sid": "DAN 6:28"
+    },
+    "So¦H1768 this¦H4481 Daniel¦H1841 prospered in¦H5648 the¦H4481 reign of¦H4481 Darius and¦H8065 in¦H5648 the¦H4481 reign of¦H4481 Cyrus the¦H4481 Persian. "
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "7",
+   "sid": "DAN 7"
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "DAN 7:1"
+    },
+    "In¦H5922 the¦H5922 first¦H2298 year¦H8140 of¦H4430 Belshazzar¦H1113 king¦H4430 of¦H4430 Babylon, Daniel¦H1841 had¦H4430 a¦H3068 dream¦H2493 and¦H4430 visions¦H2376 of¦H4430 his¦H5922 head¦H7217 while on¦H5922 his¦H5922 bed¦H4903. Then¦H4430 he¦H1841 wrote¦H3790 the¦H5922 dream¦H2493 and¦H4430 told the¦H5922 sum¦H7217 of¦H4430 the¦H5922 matters¦H4406. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "DAN 7:2"
+    },
+    "Daniel¦H1841 spoke¦H6032 and¦H6032 said¦H6032, “I saw¦H2370 in¦H1841 my vision¦H2376 by¦H2376 night¦H3916, and¦H6032, behold, the¦H2370 four winds¦H7308 of¦H7308 the¦H2370 sky¦H8065 broke out on the¦H2370 great¦H7229 sea¦H3221. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "DAN 7:3"
+    },
+    "Four great¦H7260 animals¦H2423 came¦H5559 up¦H5559 from¦H4481 the¦H4481 sea¦H3221, different¦H8133 from¦H4481 one¦H1668 another¦H1668. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "DAN 7:4"
+    },
+    "“ The¦H5922 first¦H6933 was¦H1934 like a¦H3068 lion, and¦H1934 had¦H1768 eagle¦H5403’s wings¦H1611. I¦H4481 watched until¦H5705 its¦H5705 wings¦H1611 were¦H1934 plucked¦H4804, and¦H1934 it¦H5922 was¦H1934 lifted¦H5191 up¦H6966 from¦H4481 the¦H5922 earth and¦H1934 made¦H6966 to¦H5922 stand¦H6966 on¦H5922 two feet¦H7271 as¦H1768 a¦H3068 man. A¦H3068 man’s heart¦H3825 was¦H1934 given¦H3052 to¦H5922 it¦H5922. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "DAN 7:5"
+    },
+    "“Behold, there was¦H2423 another animal, a¦H3068 second¦H8578, like¦H1821 a¦H3068 bear¦H1678. It¦H1321 was¦H2423 raised¦H6966 up¦H6966 on one¦H2298 side¦H7859, and¦H3652 three¦H8532 ribs¦H5967 were¦H2423 in¦H6966 its mouth¦H6433 between its teeth¦H8128. They¦H3652 said this to¦H6966 it¦H1321: ‘ Arise¦H6966! Devour much¦H7690 flesh¦H1321!’ "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "DAN 7:6"
+    },
+    "“After this¦H1836 I¦H1836 saw¦H2370, and¦H1934 behold, another¦H1836, like¦H7217 a¦H3068 leopard¦H5245, which¦H1768 had¦H1768 on¦H5922 its back¦H1355 four wings¦H1611 of¦H5922 a¦H3068 bird¦H5776. The¦H5922 animal also had¦H1768 four heads¦H7217; and¦H1934 dominion¦H7985 was¦H1934 given¦H3052 to¦H5922 it¦H1934. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "DAN 7:7"
+    },
+    "“ After¦H4481 this¦H1836 I¦H4481 saw¦H2370 in¦H8133 the¦H3606 night¦H3916 visions¦H2376, and¦H6523, behold, there¦H1768 was¦H1934 a¦H3068 fourth¦H7244 animal, awesome¦H1763, powerful¦H8624, and¦H6523 exceedingly¦H3493 strong¦H8624. It¦H1934 had¦H1768 great¦H7260 iron¦H6523 teeth¦H8128. It¦H1934 devoured and¦H6523 broke in¦H8133 pieces¦H1855, and¦H6523 stamped¦H7512 the¦H3606 residue¦H7606 with its¦H4481 feet¦H7271. It¦H1934 was¦H1934 different¦H8133 from¦H4481 all¦H3606 the¦H3606 animals¦H2423 that¦H1768 were¦H1934 before¦H6925 it¦H1934. It¦H1934 had¦H1768 ten¦H6236 horns¦H7162. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "DAN 7:8"
+    },
+    "“ I¦H4481 considered¦H1934 the¦H4481 horns¦H7162, and¦H1934 behold, there came¦H5559 up¦H5559 among¦H4481 them another¦H1668 horn¦H7162, a¦H3068 little¦H2192 one¦H1668, before¦H6925 which¦H4481 three¦H8532 of¦H4481 the¦H4481 first¦H6933 horns¦H7162 were¦H1934 plucked up¦H5559 by¦H4481 the¦H4481 roots¦H6132; and¦H1934 behold, in this¦H1668 horn¦H7162 were¦H1934 eyes¦H5870 like the¦H4481 eyes¦H5870 of¦H4481 a¦H3068 man, and¦H1934 a¦H3068 mouth¦H6433 speaking¦H4449 arrogantly. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "DAN 7:9"
+    },
+    "“ I¦H1768 watched until¦H5705 thrones¦H3764 were¦H1934 placed, "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "and¦H1934 one who¦H1768 was¦H1934 Ancient¦H6268 of¦H6268 Days¦H3118 sat¦H3488. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "His¦H5705 clothing was¦H1934 white¦H2358 as¦H1768 snow¦H8517, "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "and¦H1934 the¦H1768 hair¦H8177 of¦H6268 his¦H5705 head¦H7217 like¦H7217 pure¦H5343 wool¦H6015. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "His¦H5705 throne¦H3764 was¦H1934 fiery¦H5135 flames¦H7631, "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "and¦H1934 its¦H5705 wheels¦H1535 burning¦H1815 fire¦H5135. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "DAN 7:10"
+    },
+    "A¦H3068 fiery¦H5135 stream¦H5103 issued¦H5047 and¦H6925 came¦H5312 out¦H5312 from¦H4481 before¦H6925 him¦H4481. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "Thousands of¦H4481 thousands ministered¦H8120 to¦H6925 him¦H4481. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "Ten thousand¦H7240 times ten thousand¦H7240 stood¦H6966 before¦H6925 him¦H4481. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The¦H4481 judgment¦H1780 was¦H1780 set¦H6966. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "The¦H4481 books¦H5609 were¦H1768 opened¦H6606. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "DAN 7:11"
+    },
+    "“ I¦H4481 watched at¦H1934 that¦H1768 time because¦H4481 of¦H4481 the¦H4481 voice¦H7032 of¦H4481 the¦H4481 arrogant¦H7260 words¦H4406 which¦H1768 the¦H4481 horn¦H7162 spoke¦H4449. I¦H4481 watched even¦H1768 until¦H5705 the¦H4481 animal was¦H1934 slain¦H6992, and¦H1934 its¦H5705 body¦H1655 destroyed, and¦H1934 it¦H1934 was¦H1934 given¦H3052 to¦H5705 be¦H1934 burned with fire. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "DAN 7:12"
+    },
+    "As¦H5705 for¦H5705 the¦H5705 rest¦H7606 of¦H7606 the¦H5705 animals¦H2423, their¦H3052 dominion¦H7985 was¦H7985 taken¦H5709 away¦H5709; yet their¦H3052 lives¦H2417 were¦H2423 prolonged¦H3052 for¦H5705 a¦H3068 season¦H2166 and¦H2166 a¦H3068 time¦H5732. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "DAN 7:13"
+    },
+    "“I saw¦H2370 in the¦H6925 night¦H3916 visions¦H2376, and¦H8065 behold, there came¦H4291 with¦H5974 the¦H6925 clouds¦H6050 of¦H1247 the¦H6925 sky¦H8065 one like¦H5974 a¦H3068 son¦H1247 of¦H1247 man, and¦H8065 he¦H1934 came¦H4291 even to¦H6925 the¦H6925 Ancient¦H6268 of¦H1247 Days¦H3118, and¦H8065 they brought him¦H6925 near¦H7127 before¦H6925 him¦H6925. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "DAN 7:14"
+    },
+    "Dominion¦H7985 was¦H7985 given¦H3052 him¦H3052, and¦H4437 glory¦H3367, and¦H4437 a¦H3068 kingdom¦H4437, that¦H1768 all¦H3606 the¦H3606 peoples¦H5972, nations, and¦H4437 languages¦H3961 should serve¦H6399 him¦H3052. His¦H5709 dominion¦H7985 is¦H1768 an¦H3606 everlasting¦H5957 dominion¦H7985, which¦H1768 will¦H1768 not¦H3809 pass¦H3809 away¦H5709, and¦H4437 his¦H5709 kingdom¦H4437 one that¦H1768 will¦H1768 not¦H3809 be¦H3809 destroyed¦H2255. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "DAN 7:15"
+    },
+    "“As for me, Daniel¦H1841, my spirit¦H7308 was¦H1841 grieved¦H3735 within¦H1459 my body¦H5085, and¦H1841 the visions¦H2376 of¦H7217 my head¦H7217 troubled me. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "DAN 7:16"
+    },
+    "I¦H4481 came¦H7127 near¦H7127 to¦H5922 one¦H2298 of¦H4481 those who stood¦H6966 by¦H4481, and¦H1156 asked¦H1156 him¦H5922 the¦H3606 truth¦H3330 concerning¦H5922 all¦H3606 this¦H1836. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    "“ So¦H4481 he told me¦H5922, and¦H1156 made¦H3046 me¦H5922 know¦H3046 the¦H3606 interpretation¦H6591 of¦H4481 the¦H3606 things¦H4406. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "DAN 7:17"
+    },
+    "‘ These¦H4481 great¦H7260 animals¦H2423, which¦H1768 are¦H1768 four, are¦H1768 four kings¦H4430, who¦H1768 will¦H1768 arise¦H6966 out¦H6966 of¦H4481 the¦H4481 earth. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "DAN 7:18"
+    },
+    "But the¦H5705 saints¦H6922 of¦H4437 the¦H5705 Most High¦H5946 will¦H5946 receive¦H6902 the¦H5705 kingdom¦H4437, and¦H4437 possess¦H2631 the¦H5705 kingdom¦H4437 forever¦H5957, even forever¦H5957 and¦H4437 ever¦H5957.’ "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "DAN 7:19"
+    },
+    "“ Then¦H3605 I¦H4481 desired¦H6634 to¦H5922 know¦H3321 the¦H3605 truth¦H3321 concerning¦H5922 the¦H3605 fourth¦H7244 animal, which¦H1768 was¦H1934 different¦H8133 from¦H4481 all¦H3605 of¦H4481 them¦H5922, exceedingly¦H3493 terrible¦H1763, whose¦H1768 teeth¦H8128 were¦H1934 of¦H4481 iron¦H6523, and¦H6523 its¦H3605 nails¦H2953 of¦H4481 bronze¦H5174; which¦H1768 devoured, broke in¦H5922 pieces¦H1855, and¦H6523 stamped¦H7512 the¦H3605 residue¦H7606 with¦H3605 its¦H3605 feet¦H7271; ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "DAN 7:20"
+    },
+    "and¦H5308 concerning¦H5922 the¦H5922 ten¦H6236 horns¦H7162 that¦H1768 were¦H1768 on¦H5922 its¦H4481 head¦H7217 and¦H5308 the¦H5922 other horn¦H7162 which¦H1768 came¦H5559 up¦H5559, and¦H5308 before¦H6925 which¦H1768 three¦H8532 fell¦H5308, even¦H1768 that¦H1768 horn¦H7162 that¦H1768 had¦H1768 eyes¦H5870 and¦H5308 a¦H3068 mouth¦H6433 that¦H1768 spoke¦H4449 arrogantly, whose¦H1768 look¦H2376 was¦H7162 more¦H4481 stout¦H7229 than¦H4481 its¦H4481 fellows¦H2273. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "DAN 7:21"
+    },
+    "I saw¦H2370, and¦H1934 the¦H2370 same¦H1797 horn¦H7162 made¦H5648 war¦H7129 with¦H5974 the¦H2370 saints¦H6922, and¦H1934 prevailed¦H3202 against¦H5974 them¦H5974, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "DAN 7:22"
+    },
+    "until¦H5705 the¦H1768 Ancient¦H6268 of¦H4437 Days¦H3118 came¦H4291, and¦H4437 judgment¦H1780 was¦H1780 given¦H3052 to¦H5705 the¦H1768 saints¦H6922 of¦H4437 the¦H1768 Most High¦H5946, and¦H4437 the¦H1768 time¦H2166 came¦H4291 that¦H1768 the¦H1768 saints¦H6922 possessed¦H2631 the¦H1768 kingdom¦H4437. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "DAN 7:23"
+    },
+    "“ So¦H1768 he¦H1768 said, ‘ The¦H3606 fourth¦H7244 animal will¦H1768 be¦H1934 a¦H3068 fourth¦H7244 kingdom¦H4437 on earth, which¦H1768 will¦H1768 be¦H1934 different¦H8133 from¦H4481 all¦H3606 the¦H3606 kingdoms¦H4437, and¦H1855 will¦H1768 devour the¦H3606 whole¦H3606 earth, and¦H1855 will¦H1768 tread¦H1759 it¦H1934 down¦H1759 and¦H1855 break it¦H1934 in¦H8133 pieces¦H1855. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "DAN 7:24"
+    },
+    "As¦H4437 for¦H4481 the¦H4481 ten¦H6236 horns¦H7162, ten¦H6236 kings¦H4430 will¦H4430 arise¦H6966 out¦H7162 of¦H4481 this¦H1932 kingdom¦H4437. Another will¦H4430 arise¦H6966 after¦H4481 them; and¦H4430 he¦H1932 will¦H4430 be different¦H8133 from¦H4481 the¦H4481 former, and¦H4430 he¦H1932 will¦H4430 put down three¦H8532 kings¦H4430. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "25",
+     "sid": "DAN 7:25"
+    },
+    "He¦H5705 will¦H5732 speak¦H4449 words¦H4406 against¦H6655 the¦H5705 Most¦H5943 High¦H5943, and¦H5943 will¦H5732 wear¦H1080 out¦H1080 the¦H5705 saints¦H6922 of¦H3028 the¦H5705 Most¦H5943 High¦H5943. He¦H5705 will¦H5732 plan to¦H5705 change¦H8133 the¦H5705 times¦H5732 and¦H5943 the¦H5705 law¦H1882; and¦H5943 they will¦H5732 be¦H5732 given¦H3052 into his¦H5705 hand¦H3028 until¦H5705 a¦H3068 time¦H5732 and¦H5943 times¦H5732 and¦H5943 half¦H6387 a¦H3068 time¦H5732. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "26",
+     "sid": "DAN 7:26"
+    },
+    "“‘But the¦H5705 judgment¦H1780 will¦H1780 be¦H1780 set¦H3488, and¦H8046 they will¦H1780 take away¦H5709 his¦H5709 dominion¦H7985, to¦H5705 consume¦H8046 and¦H8046 to¦H5705 destroy it to¦H5705 the¦H5705 end¦H5491. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "27",
+     "sid": "DAN 7:27"
+    },
+    "The¦H3606 kingdom¦H4437 and¦H4437 the¦H3606 dominion¦H7985, and¦H4437 the¦H3606 greatness¦H7238 of¦H4437 the¦H3606 kingdoms¦H4437 under¦H8460 the¦H3606 whole¦H3606 sky¦H8065, will¦H1768 be¦H5957 given¦H3052 to¦H5972 the¦H3606 people¦H5972 of¦H4437 the¦H3606 saints¦H6922 of¦H4437 the¦H3606 Most High¦H5946. His¦H1768 kingdom¦H4437 is¦H1768 an¦H3606 everlasting¦H5957 kingdom¦H4437, and¦H4437 all¦H3606 dominions¦H7985 will¦H1768 serve¦H6399 and¦H4437 obey¦H8086 him¦H3052.’ "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "28",
+     "sid": "DAN 7:28"
+    },
+    "“Here is¦H1768 the¦H5922 end¦H5491 of¦H5922 the¦H5922 matter¦H4406. As¦H1768 for¦H5922 me¦H5922, Daniel¦H1841, my¦H5922 thoughts¦H7476 troubled me¦H5922 greatly¦H7690, and¦H1841 my¦H5922 face¦H2122 was¦H1841 changed¦H8133 in¦H5922 me¦H5922; but¦H1768 I¦H1768 kept¦H5202 the¦H5922 matter¦H4406 in¦H5922 my¦H5922 heart¦H3821.” "
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "8",
+   "sid": "DAN 8"
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "DAN 8:1"
+    },
+    "In¦H8141 the¦H7200 third¦H7969 year¦H8141 of¦H4428 the¦H7200 reign¦H4438 of¦H4428 King¦H4428 Belshazzar¦H1112, a¦H3068 vision¦H2377 appeared¦H7200 to¦H4428 me¦H7200, even¦H1840 to¦H4428 me¦H7200, Daniel¦H1840, after¦H8141 that¦H7200 which¦H4428 appeared¦H7200 to¦H4428 me¦H7200 at¦H4428 the¦H7200 first¦H8462. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "DAN 8:2"
+    },
+    "I¦H5921 saw¦H7200 the¦H5921 vision¦H2377. Now¦H1961 it¦H5921 was¦H1961 so¦H1961, that¦H7200 when¦H1961 I¦H5921 saw¦H7200, I¦H5921 was¦H1961 in¦H5921 the¦H5921 citadel¦H1002 of¦H5921 Susa¦H7800, which¦H1002 is¦H1961 in¦H5921 the¦H5921 province¦H4082 of¦H5921 Elam¦H5867. I¦H5921 saw¦H7200 in¦H5921 the¦H5921 vision¦H2377, and¦H7200 I¦H5921 was¦H1961 by¦H5921 the¦H5921 river Ulai. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "DAN 8:3"
+    },
+    "Then¦H2009 I¦H2009 lifted¦H5375 up¦H5927 my¦H7200 eyes¦H5869 and¦H5869 saw¦H7200, and¦H5869 behold¦H2009, a¦H3068 ram which¦H5869 had¦H5869 two¦H4480 horns¦H7161 stood¦H5975 before¦H6440 the¦H6440 river. The¦H6440 two¦H4480 horns¦H7161 were¦H5869 high¦H1364, but¦H7200 one¦H4480 was¦H7161 higher¦H1364 than¦H4480 the¦H6440 other¦H8145, and¦H5869 the¦H6440 higher¦H1364 came¦H5927 up¦H5927 last¦H5975. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "DAN 8:4"
+    },
+    "I¦H7200 saw¦H7200 the¦H3605 ram pushing¦H5055 westward¦H3220, northward¦H6828, and¦H3027 southward¦H5045. No¦H3808 animals¦H2416 could¦H5337 stand¦H5975 before¦H6440 him¦H6440. There¦H5975 wasn’t any¦H3605 who¦H3605 could¦H5337 deliver¦H5337 out¦H7200 of¦H3027 his¦H3605 hand¦H3027, but¦H3808 he¦H6213 did¦H6213 according¦H3027 to¦H6213 his¦H3605 will¦H7522, and¦H3027 magnified¦H1431 himself¦H3027. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "DAN 8:5"
+    },
+    "As¦H1961 I¦H2009 was¦H1961 considering, behold¦H2009, a¦H3068 male¦H6842 goat¦H5795 came¦H1961 from¦H4480 the¦H3605 west¦H4628 over¦H5921 the¦H3605 surface¦H6440 of¦H6440 the¦H3605 whole¦H3605 earth, and¦H5869 didn’t touch¦H5060 the¦H3605 ground¦H6440. The¦H3605 goat¦H5795 had¦H1961 a¦H3068 notable¦H2380 horn¦H7161 between¦H5921 his¦H3605 eyes¦H5869. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "DAN 8:6"
+    },
+    "He¦H5704 came to¦H5704 the¦H6440 ram that¦H7200 had¦H1167 the¦H6440 two horns¦H7161, which¦H7161 I¦H5704 saw¦H7200 standing¦H5975 before¦H6440 the¦H6440 river¦H5704, and¦H6440 ran¦H7323 on¦H7200 him¦H6440 in¦H6440 the¦H6440 fury¦H2534 of¦H6440 his¦H6440 power¦H3581. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "DAN 8:7"
+    },
+    "I¦H7200 saw¦H7200 him¦H6440 come¦H1961 close¦H5060 to¦H1961 the¦H6440 ram, and¦H3027 he¦H3027 was¦H1961 moved with¦H6440 anger¦H6440 against¦H6440 him¦H6440, and¦H3027 struck¦H5221 the¦H6440 ram, and¦H3027 broke¦H7665 his¦H6440 two¦H8147 horns¦H7161. There¦H1961 was¦H1961 no¦H3808 power¦H3027 in¦H6440 the¦H6440 ram to¦H1961 stand¦H5975 before¦H6440 him¦H6440; but¦H3808 he¦H3027 cast¦H7993 him¦H6440 down¦H5221 to¦H1961 the¦H6440 ground¦H6440 and¦H3027 trampled¦H7429 on¦H7200 him¦H6440. There¦H1961 was¦H1961 no¦H3808 one¦H3808 who¦H5975 could¦H5337 deliver¦H5337 the¦H6440 ram out¦H7993 of¦H3027 his¦H6440 hand¦H3027. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "DAN 8:8"
+    },
+    "The¦H5704 male¦H6842 goat¦H5795 magnified¦H1431 himself¦H1431 exceedingly¦H3966. When¦H5704 he¦H5704 was¦H7307 strong¦H6105, the¦H5704 great¦H1419 horn¦H7161 was¦H7307 broken¦H7665; and¦H8064 instead¦H8478 of¦H7307 it¦H5704 there¦H5927 came¦H5927 up¦H5927 four notable¦H2380 horns¦H7161 toward¦H5927 the¦H5704 four winds¦H7307 of¦H7307 the¦H5704 sky¦H8064. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "DAN 8:9"
+    },
+    "Out¦H3318 of¦H4480 one¦H4480 of¦H4480 them¦H1992 came¦H3318 out¦H3318 a¦H3068 little¦H4704 horn¦H7161 which¦H1992 grew¦H1431 exceedingly¦H3499 great¦H1431— toward¦H4480 the¦H4480 south¦H5045, and¦H3318 toward¦H4480 the¦H4480 east¦H4217, and¦H3318 toward¦H4480 the¦H4480 glorious¦H6643 land. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "DAN 8:10"
+    },
+    "It¦H5704 grew¦H1431 great¦H1431, even¦H5704 to¦H5704 the¦H4480 army¦H6635 of¦H4480 the¦H4480 sky¦H8064; and¦H8064 it¦H5704 cast¦H5307 down¦H5307 some¦H4480 of¦H4480 the¦H4480 army¦H6635 and¦H8064 of¦H4480 the¦H4480 stars¦H3556 to¦H5704 the¦H4480 ground and¦H8064 trampled¦H7429 on¦H5307 them¦H5307. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "DAN 8:11"
+    },
+    "Yes, it¦H5704 magnified¦H1431 itself¦H1431, even¦H5704 to¦H5704 the¦H4480 prince¦H8269 of¦H8269 the¦H4480 army¦H6635; and¦H8269 it¦H5704 took¦H7311 away¦H7993 from¦H4480 him¦H1431 the¦H4480 continual¦H8548 burnt¦H8548 offering¦H4480, and¦H8269 the¦H4480 place¦H4349 of¦H8269 his¦H4480 sanctuary¦H4720 was¦H6635 cast¦H7993 down¦H7993. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "DAN 8:12"
+    },
+    "The¦H5921 army¦H6635 was¦H6635 given¦H5414 over¦H5921 to¦H6213 it¦H5414 together¦H5921 with¦H6213 the¦H5921 continual¦H8548 burnt¦H8548 offering¦H6213 through¦H5921 disobedience. It¦H5414 cast¦H7993 down¦H7993 truth to¦H6213 the¦H5921 ground, and¦H6213 it¦H5414 did¦H6213 its¦H5414 pleasure and¦H6213 prospered¦H6743. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "DAN 8:13"
+    },
+    "Then¦H1696 I¦H5414 heard¦H8085 a¦H3068 holy¦H6944 one¦H6918 speaking¦H1696; and¦H8085 another holy¦H6944 one¦H6918 said¦H1696 to¦H1696 that¦H8085 certain¦H6422 one¦H6918 who¦H6635 spoke¦H1696, “ How¦H4970 long¦H5704 will¦H6635 the¦H8085 vision¦H2377 about¦H8085 the¦H8085 continual¦H8548 burnt¦H8548 offering, and¦H8085 the¦H8085 disobedience that¦H8085 makes¦H5414 desolate¦H8074, to¦H1696 give¦H5414 both the¦H8085 sanctuary¦H6944 and¦H8085 the¦H8085 army¦H6635 to¦H1696 be¦H5414 trodden¦H4823 under¦H5414 foot¦H4823 be¦H5414?” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "DAN 8:14"
+    },
+    "He¦H5704 said to¦H5704 me¦H6153, “ To¦H5704 two¦H3967 thousand and¦H3967 three¦H7969 hundred¦H3967 evenings¦H6153 and¦H3967 mornings¦H1242. Then the¦H5704 sanctuary¦H6944 will¦H5704 be¦H6153 cleansed¦H6663.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "DAN 8:15"
+    },
+    "When¦H1961 I¦H2009, even¦H1840 I¦H2009 Daniel¦H1840, had¦H1961 seen¦H7200 the¦H7200 vision¦H2377, I¦H2009 sought¦H1245 to¦H1961 understand¦H7200 it¦H7200. Then¦H1961 behold¦H2009, there¦H2009 stood¦H5975 before¦H5048 me¦H7200 someone with¦H1961 the¦H7200 appearance¦H4758 of¦H4758 a¦H3068 man¦H1397. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "DAN 8:16"
+    },
+    "I¦H8085 heard¦H8085 a¦H3068 man’s voice¦H6963 between¦H6963 the¦H8085 banks of¦H6963 the¦H8085 Ulai, which¦H8085 called¦H7121 and¦H6963 said¦H7121, “ Gabriel¦H1403, make¦H8085 this¦H1975 man understand¦H8085 the¦H8085 vision¦H4758.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "DAN 8:17"
+    },
+    "So¦H3588 he¦H3588 came¦H5307 near¦H6440 where¦H5921 I¦H3588 stood¦H5975; and¦H1121 when¦H3588 he¦H3588 came¦H5307, I¦H3588 was¦H1121 frightened¦H1204, and¦H1121 fell¦H5307 on¦H5921 my¦H5921 face¦H6440; but¦H3588 he¦H3588 said to¦H5921 me¦H6440, “Understand, son¦H1121 of¦H1121 man¦H1121, for¦H3588 the¦H6440 vision¦H2377 belongs to¦H5921 the¦H6440 time¦H6256 of¦H1121 the¦H6440 end¦H7093.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "DAN 8:18"
+    },
+    "Now¦H5921 as¦H6440 he¦H5921 was¦H6440 speaking¦H1696 with¦H5973 me¦H6440, I¦H5921 fell¦H5921 into¦H5921 a¦H3068 deep¦H7290 sleep¦H7290 with¦H5973 my¦H5921 face¦H6440 toward¦H6440 the¦H6440 ground¦H6440; but¦H1696 he¦H5921 touched¦H5060 me¦H6440 and¦H6440 set¦H5975 me¦H6440 upright¦H5975. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "DAN 8:19"
+    },
+    "He¦H3588 said, “ Behold¦H2005, I¦H3588 will¦H1961 make¦H3045 you¦H3588 know¦H3045 what¦H3045 will¦H1961 be¦H1961 in¦H1961 the¦H3588 latter time¦H4150 of¦H7093 the¦H3588 indignation¦H2195, for¦H3588 it¦H3588 belongs¦H1961 to¦H1961 the¦H3588 appointed¦H4150 time¦H4150 of¦H7093 the¦H3588 end¦H7093. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "DAN 8:20"
+    },
+    "The¦H7200 ram which¦H7161 you¦H7200 saw¦H7200, that¦H7200 had¦H4428 the¦H7200 two horns¦H7161, they¦H7200 are¦H4428 the¦H7200 kings¦H4428 of¦H4428 Media¦H4074 and¦H4428 Persia¦H6539. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "DAN 8:21"
+    },
+    "The¦H5869 rough¦H8163 male¦H8163 goat¦H8163 is¦H1931 the¦H5869 king¦H4428 of¦H4428 Greece¦H3120. The¦H5869 great¦H1419 horn¦H7161 that¦H1931 is¦H1931 between his¦H4428 eyes¦H5869 is¦H1931 the¦H5869 first¦H7223 king¦H4428. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "DAN 8:22"
+    },
+    "As¦H8478 for¦H8478 that¦H1471 which¦H1471 was¦H4438 broken¦H7665, in¦H5975 the¦H8478 place¦H8478 where¦H8478 four stood¦H5975 up¦H5975, four kingdoms¦H4438 will¦H1471 stand¦H5975 up¦H5975 out¦H1471 of¦H4438 the¦H8478 nation¦H1471, but¦H3808 not¦H3808 with¦H5975 his¦H8478 power¦H3581. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "DAN 8:23"
+    },
+    "“ In¦H4428 the¦H6440 latter time¦H6440 of¦H4428 their¦H6440 kingdom¦H4438, when¦H5975 the¦H6440 transgressors¦H6586 have¦H4428 come¦H8552 to¦H6440 the¦H6440 full¦H8552, a¦H3068 king¦H4428 of¦H4428 fierce¦H5794 face¦H6440, and¦H4428 understanding¦H6440 riddles¦H2420, will¦H4428 stand¦H5975 up¦H5975. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "DAN 8:24"
+    },
+    "His¦H6213 power¦H3581 will¦H5971 be¦H3808 mighty¦H6099, but¦H3808 not¦H3808 by¦H3808 his¦H6213 own¦H5971 power¦H3581. He¦H6213 will¦H5971 destroy¦H7843 awesomely, and¦H5971 will¦H5971 prosper¦H6743 in¦H6213 what¦H6213 he¦H6213 does¦H6213. He¦H6213 will¦H5971 destroy¦H7843 the¦H6213 mighty¦H6099 ones¦H6918 and¦H5971 the¦H6213 holy¦H6918 people¦H5971. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "25",
+     "sid": "DAN 8:25"
+    },
+    "Through¦H3027 his¦H5921 policy¦H7922 he¦H3027 will¦H3027 cause deceit¦H4820 to¦H5921 prosper¦H6743 in¦H5921 his¦H5921 hand¦H3027. He¦H3027 will¦H3027 magnify¦H1431 himself¦H3027 in¦H5921 his¦H5921 heart¦H3824, and¦H3027 he¦H3027 will¦H3027 destroy¦H7843 many¦H7227 in¦H5921 their¦H5921 security. He¦H3027 will¦H3027 also¦H3027 stand¦H5975 up¦H5975 against¦H5921 the¦H5921 prince¦H8269 of¦H3027 princes¦H8269, but¦H5921 he¦H3027 will¦H3027 be¦H3027 broken¦H7665 without¦H7665 human¦H3027 hands¦H3027. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "26",
+     "sid": "DAN 8:26"
+    },
+    "“ The¦H3588 vision¦H2377 of¦H3117 the¦H3588 evenings¦H6153 and¦H3117 mornings¦H1242 which¦H1931 has¦H3117 been told is¦H1931 true; but¦H3588 seal up¦H5640 the¦H3588 vision¦H2377, for¦H3588 it¦H1931 belongs to¦H3117 many¦H7227 days¦H3117 to¦H3117 come.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "27",
+     "sid": "DAN 8:27"
+    },
+    "I¦H3117, Daniel¦H1840, fainted¦H1961, and¦H6965 was¦H1961 sick¦H2470 for¦H5921 some¦H3117 days¦H3117. Then¦H1961 I¦H3117 rose¦H6965 up¦H6965 and¦H6965 did¦H6213 the¦H5921 king¦H4428’s business¦H4399. I¦H3117 wondered¦H8074 at¦H5921 the¦H5921 vision¦H4758, but¦H1961 no¦H6213 one¦H6213 understood it¦H5921. "
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "9",
+   "sid": "DAN 9"
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "DAN 9:1"
+    },
+    "In¦H5921 the¦H5921 first¦H1121 year¦H8141 of¦H1121 Darius¦H1867 the¦H5921 son¦H1121 of¦H1121 Ahasuerus, of¦H1121 the¦H5921 offspring¦H2233 of¦H1121 the¦H5921 Medes¦H4074, who¦H1121 was¦H1121 made¦H4427 king¦H4427 over¦H5921 the¦H5921 realm¦H4438 of¦H1121 the¦H5921 Chaldeans¦H3778— ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "DAN 9:2"
+    },
+    "in¦H8141 the¦H3068 first year¦H8141 of¦H3068 his¦H3068 reign¦H4427 I¦H1697, Daniel¦H1840, understood by¦H8141 the¦H3068 books¦H5612 the¦H3068 number¦H4557 of¦H3068 the¦H3068 years¦H8141 about¦H1961 which¦H3068 Yahweh¦H3068’s",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "9:2 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations. "
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " word¦H1697 came¦H1961 to¦H3068 Jeremiah¦H3414 the¦H3068 prophet¦H5030 for¦H3068 the¦H3068 accomplishing of¦H3068 the¦H3068 desolations¦H2723 of¦H3068 Jerusalem¦H3389, even¦H1840 seventy¦H7657 years¦H8141. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "DAN 9:3"
+    },
+    "I¦H5414 set¦H5414 my¦H5414 face¦H6440 to¦H5414 the¦H6440 Lord God¦H5414, to¦H5414 seek¦H1245 by¦H5414 prayer¦H8605 and¦H6440 petitions, with¦H6440 fasting¦H6685 and¦H6440 sackcloth¦H8242 and¦H6440 ashes. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "DAN 9:4"
+    },
+    "I¦H3068 prayed¦H6419 to¦H3068 Yahweh¦H3068 my¦H8104 God¦H3068, and¦H3068 made¦H6419 confession¦H3034, and¦H3068 said, "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "pi1",
+   "content": [
+    "“Oh, Lord¦H3068, the¦H8104 great¦H1419 and¦H3068 dreadful¦H3372 God¦H3068, who¦H3068 keeps¦H8104 covenant¦H1285 and¦H3068 loving kindness¦H2617 with¦H3068 those who¦H3068 love¦H2617 him¦H3372 and¦H3068 keep¦H8104 his¦H8104 commandments¦H4687, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "DAN 9:5"
+    },
+    "we¦H3068 have sinned¦H2398, and¦H4941 have dealt perversely¦H5753, and¦H4941 have done¦H2398 wickedly¦H7561, and¦H4941 have rebelled¦H4775, even turning¦H5493 aside¦H5493 from¦H5493 your¦H5493 precepts¦H4687 and¦H4941 from¦H5493 your¦H5493 ordinances¦H4941. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "DAN 9:6"
+    },
+    "We¦H8085 haven’t listened¦H8085 to¦H1696 your¦H3605 servants¦H5650 the¦H3605 prophets¦H5030, who¦H3605 spoke¦H1696 in¦H4428 your¦H3605 name¦H8034 to¦H1696 our¦H3605 kings¦H4428, our¦H3605 princes¦H8269, and¦H4428 our¦H3605 fathers, and¦H4428 to¦H1696 all¦H3605 the¦H3605 people¦H5971 of¦H4428 the¦H3605 land. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "pi1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "DAN 9:7"
+    },
+    "“Lord, righteousness¦H6666 belongs to¦H3478 you¦H6440, but¦H3117 to¦H3478 us¦H6440 confusion¦H1322 of¦H3117 face¦H6440, as¦H3117 it¦H8033 is¦H2088 today¦H3117; to¦H3478 the¦H3605 men¦H3605 of¦H3117 Judah¦H3063, and¦H3063 to¦H3478 the¦H3605 inhabitants¦H3427 of¦H3117 Jerusalem¦H3389, and¦H3063 to¦H3478 all¦H3605 Israel¦H3478, who¦H3605 are¦H3117 near¦H7138 and¦H3063 who¦H3605 are¦H3117 far¦H7350 off¦H7350, through¦H3605 all¦H3605 the¦H3605 countries where¦H8033 you¦H6440 have¦H3478 driven¦H5080 them¦H6440, because¦H6440 of¦H3117 their¦H3605 trespass¦H4604 that¦H3605 they¦H3117 have¦H3478 trespassed¦H4603 against¦H6440 you¦H6440. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "DAN 9:8"
+    },
+    "Lord¦H3068, to¦H3068 us¦H6440 belongs confusion¦H1322 of¦H4428 face¦H6440, to¦H3068 our¦H3068 kings¦H4428, to¦H3068 our¦H3068 princes¦H8269, and¦H3068 to¦H3068 our¦H3068 fathers, because¦H6440 we¦H3068 have¦H3068 sinned¦H2398 against¦H6440 you¦H6440. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "DAN 9:9"
+    },
+    "To¦H3588 the¦H3588 Lord our¦H3588 God belong mercies¦H7356 and¦H7356 forgiveness¦H5547, for¦H3588 we¦H3068 have¦H3588 rebelled¦H4775 against¦H4775 him¦H3588. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "DAN 9:10"
+    },
+    "We¦H8085 haven’t obeyed¦H8085 Yahweh¦H3068 our¦H3068 God¦H3068’s voice¦H6963, to¦H3212 walk¦H3212 in¦H3068 his¦H5414 laws¦H8451, which¦H3068 he¦H3068 set¦H5414 before¦H6440 us¦H5414 by¦H3027 his¦H5414 servants¦H5650 the¦H6440 prophets¦H5030. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "DAN 9:11"
+    },
+    "Yes¦H3588, all¦H3605 Israel¦H3478 have¦H5650 transgressed¦H5674 your¦H3605 law¦H8451, turning¦H5493 aside¦H5493, that¦H3588 they¦H3588 should¦H3478 not¦H1115 obey¦H8085 your¦H3605 voice¦H6963. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "pi1",
+   "content": [
+    "“ Therefore¦H5921 the¦H3605 curse¦H7621 and¦H4872 the¦H3605 oath¦H7621 written¦H3789 in¦H5921 the¦H3605 law¦H8451 of¦H6963 Moses¦H4872 the¦H3605 servant¦H5650 of¦H6963 God has¦H3478 been¦H5674 poured¦H5413 out¦H5413 on¦H5921 us¦H5921, for¦H3588 we¦H3068 have¦H5650 sinned¦H2398 against¦H5921 him¦H5921. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "DAN 9:12"
+    },
+    "He¦H6213 has¦H1697 confirmed¦H6965 his¦H3605 words¦H1697, which¦H1697 he¦H6213 spoke¦H1696 against¦H5921 us¦H5921 and¦H6965 against¦H5921 our¦H3605 judges¦H8199 who¦H3605 judged¦H8199 us¦H5921, by¦H5921 bringing on¦H5921 us¦H5921 a¦H3068 great¦H1419 evil¦H7451; for¦H5921 under¦H8478 the¦H3605 whole¦H3605 sky¦H8064, such¦H1696 has¦H1697 not¦H3808 been¦H3808 done¦H6213 as¦H1697 has¦H1697 been¦H3808 done¦H6213 to¦H1696 Jerusalem¦H3389. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "DAN 9:13"
+    },
+    "As¦H3068 it¦H5921 is¦H3068 written¦H3789 in¦H5921 the¦H3605 law¦H8451 of¦H3068 Moses¦H4872, all¦H3605 this¦H2063 evil¦H7451 has¦H3068 come¦H7725 on¦H5921 us¦H7725. Yet¦H3068 we¦H3068 have¦H3068 not¦H3808 entreated¦H2470 the¦H3605 favor¦H6440 of¦H3068 Yahweh¦H3068 our¦H3068 God¦H3068, that¦H3605 we¦H3068 should¦H3068 turn¦H7725 from¦H7725 our¦H3068 iniquities¦H5771 and¦H4872 have¦H3068 discernment¦H7919 in¦H5921 your¦H3068 truth¦H3808. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "DAN 9:14"
+    },
+    "Therefore¦H5921 Yahweh¦H3068 has¦H3068 watched¦H8245 over¦H5921 the¦H3605 evil¦H7451, and¦H3068 brought¦H6213 it¦H5921 on¦H5921 us¦H5921; for¦H3588 Yahweh¦H3068 our¦H3068 God¦H3068 is¦H3068 righteous¦H6662 in¦H5921 all¦H3605 his¦H3605 works¦H4639 which¦H3068 he¦H3588 does¦H6213, and¦H3068 we¦H3068 have¦H3068 not¦H3808 obeyed¦H8085 his¦H3605 voice¦H6963. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "pi1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "DAN 9:15"
+    },
+    "“ Now¦H6258, Lord our¦H3318 God¦H3027, who¦H5971 has¦H3117 brought¦H3318 your¦H6213 people¦H5971 out¦H3318 of¦H3117 the¦H6213 land of¦H3117 Egypt¦H4714 with¦H6213 a¦H3068 mighty¦H2389 hand¦H3027, and¦H3117 have¦H5971 gotten¦H6213 yourself¦H6213 renown¦H8034, as¦H3117 it¦H6213 is¦H2088 today¦H3117, we¦H3068 have¦H5971 sinned¦H2398. We¦H3117 have¦H5971 done¦H6213 wickedly¦H7561. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "DAN 9:16"
+    },
+    "Lord, according to¦H7725 all¦H3605 your¦H3605 righteousness¦H6666, please¦H4994 let¦H4994 your¦H3605 anger¦H2534 and¦H7725 your¦H3605 wrath¦H2534 be¦H3389 turned¦H7725 away¦H7725 from¦H7725 your¦H3605 city¦H5892 Jerusalem¦H3389, your¦H3605 holy¦H6944 mountain¦H2022; because¦H3588 for¦H3588 our¦H3605 sins¦H2399 and¦H7725 for¦H3588 the¦H3605 iniquities¦H5771 of¦H5892 our¦H3605 fathers, Jerusalem¦H3389 and¦H7725 your¦H3605 people¦H5971 have¦H5971 become¦H7725 a¦H3068 reproach¦H2781 to¦H7725 all¦H3605 who¦H3605 are¦H5971 around¦H5439 us¦H4994. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "pi1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "DAN 9:17"
+    },
+    "“ Now¦H6258 therefore¦H5921, our¦H5921 God, listen¦H8085 to¦H5921 the¦H6440 prayer¦H8605 of¦H6440 your¦H5921 servant¦H5650 and¦H5650 to¦H5921 his¦H8085 petitions, and¦H5650 cause your¦H5921 face¦H6440 to¦H5921 shine on¦H5921 your¦H5921 sanctuary¦H4720 that¦H8085 is¦H5650 desolate¦H8076, for¦H5921 the¦H6440 Lord’s sake¦H4616. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "DAN 9:18"
+    },
+    "My¦H8085 God¦H3808, turn¦H5186 your¦H5921 ear¦H8085 and¦H5869 hear¦H8085. Open¦H6440 your¦H5921 eyes¦H5869 and¦H5869 see¦H7200 our¦H7200 desolations¦H8077, and¦H5869 the¦H6440 city¦H5892 which¦H5869 is¦H8034 called¦H7121 by¦H5921 your¦H5921 name¦H8034; for¦H3588 we¦H3068 do¦H5869 not¦H3808 present¦H5307 our¦H7200 petitions before¦H6440 you¦H3588 for¦H3588 our¦H7200 righteousness¦H6666, but¦H3588 for¦H3588 your¦H5921 great¦H7227 mercies¦H7356’ sake¦H5921. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "DAN 9:19"
+    },
+    "Lord, hear¦H8085. Lord, forgive¦H5545. Lord, listen¦H8085 and¦H5971 do¦H6213. Don’t defer, for¦H3588 your¦H5921 own¦H5971 sake¦H4616, my¦H8085 God, because¦H3588 your¦H5921 city¦H5892 and¦H5971 your¦H5921 people¦H5971 are¦H5971 called¦H7121 by¦H5921 your¦H5921 name¦H8034.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "DAN 9:20"
+    },
+    "While¦H5750 I¦H5921 was¦H3068 speaking¦H1696, praying¦H6419, and¦H3478 confessing¦H3034 my¦H3068 sin¦H2403 and¦H3478 the¦H6440 sin¦H2403 of¦H3068 my¦H3068 people¦H5971 Israel¦H3478, and¦H3478 presenting¦H5307 my¦H3068 supplication¦H8467 before¦H6440 Yahweh¦H3068 my¦H3068 God¦H3068 for¦H5921 the¦H6440 holy¦H6944 mountain¦H2022 of¦H3068 my¦H3068 God¦H3068— ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "DAN 9:21"
+    },
+    "yes¦H7200, while¦H5750 I¦H7200 was¦H1696 speaking¦H1696 in¦H1696 prayer¦H8605— the¦H7200 man¦H7200 Gabriel¦H1403, whom I¦H7200 had¦H5750 seen¦H7200 in¦H1696 the¦H7200 vision¦H2377 at¦H7200 the¦H7200 beginning¦H8462, being¦H5750 caused to¦H1696 fly¦H3286 swiftly¦H3288, touched¦H5060 me¦H7200 about¦H6256 the¦H7200 time¦H6256 of¦H6256 the¦H7200 evening¦H6153 offering¦H4503. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "DAN 9:22"
+    },
+    "He¦H1696 instructed¦H1696 me¦H1696 and¦H3318 talked¦H1696 with¦H5973 me¦H1696, and¦H3318 said¦H1696, “ Daniel¦H1840, I¦H6258 have¦H7919 now¦H6258 come¦H3318 to¦H1696 give¦H1696 you¦H5973 wisdom¦H7919 and¦H3318 understanding¦H7919. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "DAN 9:23"
+    },
+    "At¦H3318 the¦H3588 beginning¦H8462 of¦H1697 your¦H3588 petitions the¦H3588 commandment¦H1697 went¦H3318 out¦H3318, and¦H1697 I¦H3588 have¦H1697 come¦H3318 to¦H3318 tell¦H5046 you¦H3588, for¦H3588 you¦H3588 are¦H1697 greatly beloved. Therefore¦H3588 consider the¦H3588 matter¦H1697 and¦H1697 understand the¦H3588 vision¦H4758. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "DAN 9:24"
+    },
+    "“ Seventy¦H7657 weeks¦H7620 are¦H5971 decreed¦H2852 on¦H5921 your¦H5921 people¦H5971 and¦H5971 on¦H5921 your¦H5921 holy¦H6944 city¦H5892, to¦H5921 finish¦H3607 disobedience, to¦H5921 make¦H3722 an¦H5921 end of¦H5892 sins¦H2403, to¦H5921 make¦H3722 reconciliation¦H3722 for¦H5921 iniquity¦H5771, to¦H5921 bring in¦H5921 everlasting¦H5769 righteousness¦H6664, to¦H5921 seal¦H2856 up¦H2856 vision¦H2377 and¦H5971 prophecy¦H5030, and¦H5971 to¦H5921 anoint¦H4886 the¦H5921 most¦H6944 holy¦H6944. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "25",
+     "sid": "DAN 9:25"
+    },
+    "“ Know¦H3045 therefore¦H3045 and¦H7725 discern¦H3045 that¦H3045 from¦H4480 the¦H4480 going¦H4161 out¦H4480 of¦H1697 the¦H4480 commandment¦H1697 to¦H5704 restore¦H7725 and¦H7725 build¦H1129 Jerusalem¦H3389 to¦H5704 the¦H4480 Anointed¦H4899 One¦H4480,",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "9:25 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "“Anointed One” can also be translated “Messiah” (same as “Christ”)."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " the¦H4480 prince¦H5057, will¦H1697 be¦H1697 seven¦H7651 weeks¦H7620 and¦H7725 sixty-two¦H8346 weeks¦H7620. It¦H7725 will¦H1697 be¦H1697 built¦H1129 again¦H7725, with¦H3389 street¦H7339 and¦H7725 moat¦H2742, even¦H5704 in¦H1129 troubled times¦H6256. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "26",
+     "sid": "DAN 9:26"
+    },
+    "After¦H7093 the¦H5704 sixty-two¦H8346 weeks¦H7620 the¦H5704 Anointed¦H4899 One¦H8147",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "9:26 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "“Anointed One” can also be translated “Messiah” (same as “Christ”)."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " will¦H5971 be¦H5892 cut¦H3772 off¦H3772, and¦H5971 will¦H5971 have¦H5971 nothing. The¦H5704 people¦H5971 of¦H5892 the¦H5704 prince¦H5057 who¦H5971 come¦H5971 will¦H5971 destroy¦H7843 the¦H5704 city¦H5892 and¦H5971 the¦H5704 sanctuary¦H6944. Its¦H7843 end¦H7093 will¦H5971 be¦H5892 with¦H5971 a¦H3068 flood¦H7858, and¦H5971 war¦H4421 will¦H5971 be¦H5892 even¦H5704 to¦H5704 the¦H5704 end¦H7093. Desolations¦H8074 are¦H5971 determined¦H2782. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "27",
+     "sid": "DAN 9:27"
+    },
+    "He¦H5704 will¦H7227 make¦H8074 a¦H3068 firm¦H1396 covenant¦H1285 with¦H1285 many¦H7227 for¦H5704 one¦H7227 week¦H7620. In¦H5921 the¦H5921 middle¦H2677 of¦H2077 the¦H5921 week¦H7620 he¦H5704 will¦H7227 cause the¦H5921 sacrifice¦H2077 and¦H1285 the¦H5921 offering¦H4503 to¦H5704 cease¦H7673. On¦H5921 the¦H5921 wing¦H3671 of¦H2077 abominations¦H8251 will¦H7227 come one¦H7227 who¦H7227 makes¦H8074 desolate¦H8074; and¦H1285 even¦H5704 to¦H5704 the¦H5921 decreed¦H2782 full¦H7227 end¦H3617, wrath will¦H7227 be¦H1285 poured¦H5413 out¦H5413 on¦H5921 the¦H5921 desolate¦H8074.” "
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "10",
+   "sid": "DAN 10"
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "DAN 10:1"
+    },
+    "In¦H8141 the¦H7121 third¦H7969 year¦H8141 of¦H4428 Cyrus¦H3566 king¦H4428 of¦H4428 Persia¦H6539 a¦H3068 message¦H1697 was¦H8034 revealed¦H1540 to¦H4428 Daniel¦H1840, whose¦H8034 name¦H8034 was¦H8034 called¦H7121 Belteshazzar¦H1095; and¦H4428 the¦H7121 message¦H1697 was¦H8034 true, even¦H1840 a¦H3068 great¦H1419 warfare¦H6635. He¦H8141 understood the¦H7121 message¦H1697, and¦H4428 had¦H4428 understanding of¦H4428 the¦H7121 vision¦H4758. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "DAN 10:2"
+    },
+    "In¦H3117 those¦H1992 days¦H3117 I¦H3117, Daniel¦H1840, was¦H1961 mourning three¦H7969 whole¦H3117 weeks¦H7620. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "DAN 10:3"
+    },
+    "I¦H3117 ate no¦H3808 pleasant¦H2530 food¦H3899. No¦H3808 meat¦H1320 or¦H3808 wine¦H3196 came¦H1320 into¦H5704 my¦H4390 mouth¦H6310. I¦H3117 didn’t anoint¦H5480 myself¦H1320 at¦H3117 all¦H5704, until¦H5704 three¦H7969 whole¦H3117 weeks¦H7620 were¦H3117 fulfilled¦H4390. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "DAN 10:4"
+    },
+    "In¦H5921 the¦H5921 twenty-fourth¦H6242 day¦H3117 of¦H3117 the¦H5921 first¦H7223 month¦H2320, as¦H3117 I¦H3117 was¦H1961 by¦H3027 the¦H5921 side¦H3027 of¦H3117 the¦H5921 great¦H1419 river¦H5104, which¦H1931 is¦H1931 Hiddekel¦H2313,",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "10:4 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "or, Tigris River"
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "DAN 10:5"
+    },
+    "I¦H2009 lifted¦H5375 up¦H5375 my¦H7200 eyes¦H5869 and¦H5869 looked¦H7200, and¦H5869 behold¦H2009, there¦H2009 was¦H4975 a¦H3068 man¦H5375 clothed¦H3847 in¦H3847 linen, whose waist¦H4975 was¦H4975 adorned with¦H3847 pure¦H3800 gold¦H3800 of¦H5869 Uphaz. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "DAN 10:6"
+    },
+    "His¦H6440 body¦H1472 also¦H5869 was¦H1697 like¦H4758 beryl¦H8658, and¦H6963 his¦H6440 face¦H6440 as¦H1697 the¦H6440 appearance¦H4758 of¦H1697 lightning¦H1300, and¦H6963 his¦H6440 eyes¦H5869 as¦H1697 flaming torches¦H3940. His¦H6440 arms¦H2220 and¦H6963 his¦H6440 feet¦H4772 were¦H5869 like¦H4758 burnished¦H7044 bronze¦H5178. The¦H6440 voice¦H6963 of¦H1697 his¦H6440 words¦H1697 was¦H1697 like¦H4758 the¦H6440 voice¦H6963 of¦H1697 a¦H3068 multitude¦H1995. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "DAN 10:7"
+    },
+    "I¦H5921, Daniel¦H1840, alone¦H1840 saw¦H7200 the¦H5921 vision¦H4759, for¦H5921 the¦H5921 men¦H1419 who¦H3808 were¦H1961 with¦H5973 me¦H7200 didn’t see¦H7200 the¦H5921 vision¦H4759, but¦H3808 a¦H3068 great¦H1419 quaking¦H2731 fell¦H5307 on¦H5921 them¦H5921, and¦H1419 they¦H3808 fled¦H1272 to¦H1961 hide¦H2244 themselves¦H2244. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "DAN 10:8"
+    },
+    "So¦H3808 I¦H5921 was¦H3808 left¦H7604 alone¦H7604 and¦H1419 saw¦H7200 this¦H2063 great¦H1419 vision¦H4759. No¦H3808 strength¦H3581 remained¦H7604 in¦H5921 me¦H7200; for¦H5921 my¦H7200 face¦H7200 grew deathly¦H4889 pale, and¦H1419 I¦H5921 retained¦H6113 no¦H3808 strength¦H3581. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "DAN 10:9"
+    },
+    "Yet¦H5921 I¦H5921 heard¦H8085 the¦H6440 voice¦H6963 of¦H1697 his¦H8085 words¦H1697. When¦H1961 I¦H5921 heard¦H8085 the¦H6440 voice¦H6963 of¦H1697 his¦H8085 words¦H1697, then¦H1961 I¦H5921 fell¦H1961 into¦H5921 a¦H3068 deep¦H7290 sleep¦H7290 on¦H5921 my¦H8085 face¦H6440, with¦H5921 my¦H8085 face¦H6440 toward¦H6440 the¦H6440 ground¦H6440. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "DAN 10:10"
+    },
+    "Behold¦H2009, a¦H3068 hand¦H3027 touched¦H5060 me¦H5921, which set¦H5128 me¦H5921 on¦H5921 my¦H5921 knees¦H1290 and¦H3027 on¦H5921 the¦H5921 palms¦H3709 of¦H3027 my¦H5921 hands¦H3027. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "DAN 10:11"
+    },
+    "He¦H3588 said¦H1696 to¦H1696 me¦H7971, “ Daniel¦H1840, you¦H3588 greatly beloved man¦H2088, understand the¦H5921 words¦H1697 that¦H3588 I¦H3588 speak¦H1696 to¦H1696 you¦H3588, and¦H7971 stand¦H5975 upright¦H5975, for¦H3588 I¦H3588 have¦H1697 been¦H6258 sent¦H7971 to¦H1696 you¦H3588, now¦H6258.” When¦H3588 he¦H3588 had¦H3588 spoken¦H1696 this¦H2088 word¦H1697 to¦H1696 me¦H7971, I¦H3588 stood¦H5975 trembling¦H7460. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "DAN 10:12"
+    },
+    "Then¦H5414 he¦H3588 said¦H1697 to¦H5414 me¦H5414, “Don’t be¦H1697 afraid¦H3372, Daniel¦H1840; for¦H3588 from¦H4480 the¦H6440 first¦H7223 day¦H3117 that¦H3588 you¦H3588 set¦H5414 your¦H5414 heart¦H3820 to¦H5414 understand¦H8085, and¦H3117 to¦H5414 humble¦H6031 yourself¦H6031 before¦H6440 your¦H5414 God¦H5414, your¦H5414 words¦H1697 were¦H3117 heard¦H8085. I¦H3588 have¦H1697 come for¦H3588 your¦H5414 words¦H1697’ sake¦H1697. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "DAN 10:13"
+    },
+    "But¦H2009 the¦H3117 prince¦H8269 of¦H4428 the¦H3117 kingdom¦H4438 of¦H4428 Persia¦H6539 withstood¦H5975 me¦H5048 twenty-one¦H6242 days¦H3117; but¦H2009, behold¦H2009, Michael¦H4317, one¦H7223 of¦H4428 the¦H3117 chief¦H8269 princes¦H8269, came¦H7223 to¦H3117 help¦H5826 me¦H5048 because¦H3117 I¦H3117 remained¦H3498 there¦H8033 with¦H3117 the¦H3117 kings¦H4428 of¦H4428 Persia¦H6539. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "DAN 10:14"
+    },
+    "Now¦H3117 I¦H3588 have¦H5971 come¦H7136 to¦H3117 make¦H7136 you¦H3588 understand what¦H3588 will¦H5971 happen¦H7136 to¦H3117 your¦H3588 people¦H5971 in¦H3117 the¦H3588 latter days¦H3117, for¦H3588 the¦H3588 vision¦H2377 is¦H3117 yet¦H5750 for¦H3588 many days¦H3117.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "DAN 10:15"
+    },
+    "When¦H1696 he¦H5414 had¦H5414 spoken¦H1696 these¦H1696 words¦H1697 to¦H1696 me¦H6440, I¦H5414 set¦H5414 my¦H5414 face¦H6440 toward¦H6440 the¦H6440 ground¦H6440 and¦H6440 was¦H1697 mute. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "DAN 10:16"
+    },
+    "Behold¦H2009, one¦H3808 in¦H5921 the¦H5921 likeness¦H1823 of¦H1121 the¦H5921 sons¦H1121 of¦H1121 men¦H1121 touched¦H5060 my¦H5921 lips¦H8193. Then¦H1696 I¦H2009 opened¦H6605 my¦H5921 mouth¦H6310, and¦H1121 spoke¦H1696 and¦H1121 said¦H1696 to¦H1696 him¦H5921 who¦H1121 stood¦H5975 before¦H5048 me¦H5921, “ My¦H5921 lord, by¦H5921 reason¦H5921 of¦H1121 the¦H5921 vision¦H4759 my¦H5921 sorrows¦H6735 have¦H1121 overtaken me¦H5921, and¦H1121 I¦H2009 retain¦H6113 no¦H3808 strength¦H3581. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "DAN 10:17"
+    },
+    "For¦H5650 how¦H1963 can¦H3201 the¦H5975 servant¦H5650 of¦H5650 this¦H2088 my¦H1696 lord talk¦H1696 with¦H5973 this¦H2088 my¦H1696 lord? For¦H5650 as¦H1696 for¦H5650 me¦H1696, immediately there¦H2088 remained¦H7604 no¦H3808 strength¦H3581 in¦H1696 me¦H1696. There¦H2088 was¦H2088 no¦H3808 breath¦H5397 left¦H7604 in¦H1696 me¦H1696.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "DAN 10:18"
+    },
+    "Then¦H3254 one like¦H4758 the¦H2388 appearance¦H4758 of¦H4758 a¦H3068 man touched¦H5060 me¦H3254 again¦H3254, and¦H2388 he¦H3254 strengthened¦H2388 me¦H3254. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "DAN 10:19"
+    },
+    "He¦H3588 said¦H1696, “Greatly beloved man, don’t be¦H3372 afraid¦H3372. Peace¦H7965 be¦H3372 to¦H1696 you¦H3588. Be¦H3372 strong¦H2388. Yes¦H3588, be¦H3372 strong¦H2388.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    "When¦H3588 he¦H3588 spoke¦H1696 to¦H1696 me¦H1696, I¦H3588 was¦H3372 strengthened¦H2388, and¦H2388 said¦H1696, “Let my¦H1696 lord speak¦H1696, for¦H3588 you¦H3588 have¦H7965 strengthened¦H2388 me¦H1696.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "DAN 10:20"
+    },
+    "Then¦H2009 he¦H3318 said¦H3318, “ Do¦H4100 you¦H7725 know¦H3045 why¦H4100 I¦H2009 have¦H3045 come¦H3318 to¦H7725 you¦H7725? Now¦H6258 I¦H2009 will¦H4100 return¦H7725 to¦H7725 fight¦H3898 with¦H5973 the¦H7725 prince¦H8269 of¦H8269 Persia¦H6539. When¦H3318 I¦H2009 go¦H3318 out¦H3318, behold¦H2009, the¦H7725 prince¦H8269 of¦H8269 Greece¦H3120 will¦H4100 come¦H3318. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "DAN 10:21"
+    },
+    "But¦H3588 I¦H3588 will¦H8269 tell¦H5046 you¦H3588 that¦H3588 which¦H8269 is¦H3588 inscribed¦H7559 in¦H5921 the¦H5921 writing¦H3791 of¦H8269 truth. There is¦H3588 no one¦H3588 who¦H3588 holds¦H2388 with¦H5973 me¦H5046 against¦H5921 these¦H5046 but¦H3588 Michael¦H4317 your¦H5921 prince¦H8269. "
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "11",
+   "sid": "DAN 11"
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "DAN 11:1"
+    },
+    "“ As¦H8141 for¦H5975 me¦H2388, in¦H8141 the¦H2388 first year¦H8141 of¦H8141 Darius¦H1867 the¦H2388 Mede¦H4075, I¦H8141 stood¦H5975 up¦H5975 to¦H5975 confirm¦H2388 and¦H2388 strengthen¦H2388 him¦H5975. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "DAN 11:2"
+    },
+    "“ Now¦H6258 I¦H2009 will¦H4428 show¦H5046 you¦H3605 the¦H3605 truth. Behold¦H2009, three¦H7969 more¦H5750 kings¦H4428 will¦H4428 stand¦H5975 up¦H5975 in¦H4428 Persia¦H6539. The¦H3605 fourth¦H7243 will¦H4428 be¦H5750 far¦H6239 richer¦H6238 than¦H1419 all¦H3605 of¦H4428 them¦H5975. When¦H5975 he¦H3605 has¦H4428 grown strong¦H2393 through¦H3605 his¦H3605 riches¦H6239, he¦H3605 will¦H4428 stir¦H5782 up¦H5975 all¦H3605 against¦H5782 the¦H3605 realm¦H4438 of¦H4428 Greece¦H3120. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "DAN 11:3"
+    },
+    "A¦H3068 mighty¦H1368 king¦H4428 will¦H4428 stand¦H5975 up¦H5975, who¦H4428 will¦H4428 rule¦H4910 with¦H6213 great¦H7227 dominion¦H4910, and¦H4428 do¦H6213 according to¦H6213 his¦H6213 will¦H4428. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "DAN 11:4"
+    },
+    "When¦H3588 he¦H3588 stands¦H5975 up¦H5975, his¦H3588 kingdom¦H4438 will¦H8064 be¦H3808 broken¦H7665 and¦H8064 will¦H8064 be¦H3808 divided¦H2673 toward the¦H3588 four winds¦H7307 of¦H7307 the¦H3588 sky¦H8064, but¦H3588 not¦H3808 to¦H5975 his¦H3588 posterity, nor¦H3808 according to¦H5975 his¦H3588 dominion¦H4910 with¦H8064 which¦H7307 he¦H3588 ruled¦H4910; for¦H3588 his¦H3588 kingdom¦H4438 will¦H8064 be¦H3808 plucked¦H5428 up¦H5975, even¦H3588 for¦H3588 others besides these. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "DAN 11:5"
+    },
+    "“ The¦H5921 king¦H4428 of¦H4428 the¦H5921 south¦H5045 will¦H4428 be¦H4428 strong¦H2388. One¦H4480 of¦H4428 his¦H5921 princes¦H8269 will¦H4428 become stronger¦H2388 than¦H4480 him¦H5921, and¦H4428 have¦H8269 dominion¦H4475. His¦H5921 dominion¦H4475 will¦H4428 be¦H4428 a¦H3068 great¦H7227 dominion¦H4475. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "DAN 11:6"
+    },
+    "At¦H4428 the¦H5414 end¦H7093 of¦H4428 years¦H8141 they¦H3808 will¦H4428 join¦H2266 themselves¦H6213 together¦H2266; and¦H4428 the¦H5414 daughter¦H1323 of¦H4428 the¦H5414 king¦H4428 of¦H4428 the¦H5414 south¦H5045 will¦H4428 come¦H3205 to¦H6213 the¦H5414 king¦H4428 of¦H4428 the¦H5414 north¦H6828 to¦H6213 make¦H6213 an¦H6213 agreement¦H4339, but¦H3808 she¦H1931 will¦H4428 not¦H3808 retain¦H6113 the¦H5414 strength¦H3581 of¦H4428 her¦H5414 arm¦H2220. He¦H1931 will¦H4428 also¦H6213 not¦H3808 stand¦H5975, nor¦H3808 will¦H4428 his¦H5414 arm¦H2220; but¦H3808 she¦H1931 will¦H4428 be¦H3808 given¦H5414 up¦H5975, with¦H6213 those¦H2388 who¦H1931 brought¦H3205 her¦H5414, and¦H4428 he¦H1931 who¦H1931 became¦H3205 the¦H5414 father¦H3205 of¦H4428 her¦H5414, and¦H4428 he¦H1931 who¦H1931 strengthened¦H2388 her¦H5414 in¦H8141 those¦H2388 times¦H6256. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "DAN 11:7"
+    },
+    "“ But¦H2388 out¦H2388 of¦H4428 a¦H3068 shoot from¦H5975 her¦H6213 roots¦H8328 one¦H6213 will¦H4428 stand¦H5975 up¦H5975 in¦H6213 his¦H6213 place¦H3653, who¦H4428 will¦H4428 come to¦H6213 the¦H6213 army¦H2428 and¦H4428 will¦H4428 enter¦H5975 into¦H6213 the¦H6213 fortress¦H4581 of¦H4428 the¦H6213 king¦H4428 of¦H4428 the¦H6213 north¦H6828, and¦H4428 will¦H4428 deal¦H6213 against¦H2388 them¦H6213 and¦H4428 will¦H4428 prevail¦H2388. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "DAN 11:8"
+    },
+    "He¦H1931 will¦H4428 also¦H1571 carry their¦H5975 gods with¦H5973 their¦H5975 molten images¦H5257, and¦H3701 with¦H5973 their¦H5975 goodly¦H2532 vessels¦H3627 of¦H4428 silver¦H3701 and¦H3701 of¦H4428 gold¦H2091, captive¦H7628 into¦H4714 Egypt¦H4714. He¦H1931 will¦H4428 refrain¦H5975 some years¦H8141 from¦H2091 the¦H5975 king¦H4428 of¦H4428 the¦H5975 north¦H6828. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "DAN 11:9"
+    },
+    "He¦H4428 will¦H4428 come¦H7725 into¦H7725 the¦H7725 realm¦H4438 of¦H4428 the¦H7725 king¦H4428 of¦H4428 the¦H7725 south¦H5045, but¦H4428 he¦H4428 will¦H4428 return¦H7725 into¦H7725 his¦H7725 own land. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "DAN 11:10"
+    },
+    "His¦H7725 sons¦H1121 will¦H1121 wage¦H1624 war¦H2428, and¦H1121 will¦H1121 assemble a¦H3068 multitude¦H1995 of¦H1121 great¦H7227 forces¦H2428 which¦H2428 will¦H1121 come¦H7725 on¦H5674, and¦H1121 overflow¦H7857, and¦H1121 pass¦H5674 through¦H5674. They¦H5704 will¦H1121 return¦H7725 and¦H1121 wage¦H1624 war¦H2428, even¦H5704 to¦H5704 his¦H7725 fortress¦H4581. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "DAN 11:11"
+    },
+    "“ The¦H5414 king¦H4428 of¦H4428 the¦H5414 south¦H5045 will¦H4428 be¦H3027 moved¦H3318 with¦H5973 anger and¦H4428 will¦H4428 come¦H3318 out¦H3318 and¦H4428 fight¦H3898 with¦H5973 him¦H5414, even with¦H5973 the¦H5414 king¦H4428 of¦H4428 the¦H5414 north¦H6828. He¦H5414 will¦H4428 send¦H5414 out¦H3318 a¦H3068 great¦H7227 multitude¦H1995, and¦H4428 the¦H5414 multitude¦H1995 will¦H4428 be¦H3027 given¦H5414 into¦H3318 his¦H5414 hand¦H3027. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "DAN 11:12"
+    },
+    "The¦H5375 multitude¦H1995 will¦H3808 be¦H3808 carried¦H5375 off¦H7311, and¦H5307 his¦H5375 heart¦H3824 will¦H3808 be¦H3808 exalted¦H7311. He¦H3808 will¦H3808 cast¦H5307 down¦H5307 tens¦H7239 of¦H1995 thousands¦H7239, but¦H3808 he¦H3808 won’t prevail¦H5810. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "DAN 11:13"
+    },
+    "The¦H4480 king¦H4428 of¦H4428 the¦H4480 north¦H6828 will¦H4428 return¦H7725, and¦H7725 will¦H4428 send out¦H4480 a¦H3068 multitude¦H1995 greater¦H1419 than¦H4480 the¦H4480 former¦H7223. He¦H4480 will¦H4428 come¦H7725 on¦H5975 at¦H4428 the¦H4480 end¦H7093 of¦H4428 the¦H4480 times¦H6256, even of¦H4428 years¦H8141, with¦H4428 a¦H3068 great¦H1419 army¦H2428 and¦H7725 with¦H4428 abundant¦H7227 supplies¦H7399. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "DAN 11:14"
+    },
+    "“ In¦H5921 those¦H1992 times¦H6256 many¦H7227 will¦H4428 stand¦H5975 up¦H5375 against¦H5921 the¦H5921 king¦H4428 of¦H1121 the¦H5921 south¦H5045. Also¦H4428 the¦H5921 children¦H1121 of¦H1121 the¦H5921 violent¦H6530 among¦H5921 your¦H5921 people¦H5971 will¦H4428 lift¦H5375 themselves¦H1992 up¦H5375 to¦H5921 establish¦H5975 the¦H5921 vision¦H2377, but¦H1992 they¦H1992 will¦H4428 fall¦H3782. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "DAN 11:15"
+    },
+    "So¦H3808 the¦H5975 king¦H4428 of¦H4428 the¦H5975 north¦H6828 will¦H4428 come¦H5971 and¦H4428 cast¦H8210 up¦H5975 a¦H3068 mound, and¦H4428 take¦H3920 a¦H3068 well-fortified¦H4013 city¦H5892. The¦H5975 forces¦H2220 of¦H4428 the¦H5975 south¦H5045 won’t stand¦H5975, neither¦H3808 will¦H4428 his¦H3808 select troops¦H5971, neither¦H3808 will¦H4428 there¦H5975 be¦H3808 any¦H3808 strength¦H3581 to¦H4428 stand¦H5975. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "DAN 11:16"
+    },
+    "But he¦H6213 who¦H5975 comes¦H6440 against¦H6440 him¦H6440 will¦H7522 do¦H6213 according¦H3027 to¦H6213 his¦H6440 own¦H3027 will¦H7522, and¦H3027 no¦H6213 one¦H6213 will¦H7522 stand¦H5975 before¦H6440 him¦H6440. He¦H6213 will¦H7522 stand¦H5975 in¦H6213 the¦H6440 glorious¦H6643 land¦H6440, and¦H3027 destruction¦H3615 will¦H7522 be¦H3027 in¦H6213 his¦H6440 hand¦H3027. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "DAN 11:17"
+    },
+    "He¦H6213 will¦H1961 set¦H7760 his¦H3605 face¦H6440 to¦H1961 come¦H1961 with¦H5973 the¦H3605 strength¦H8633 of¦H1323 his¦H3605 whole¦H3605 kingdom¦H4438, and¦H6440 with¦H5973 him¦H5414 equitable conditions. He¦H6213 will¦H1961 perform¦H6213 them¦H5414. He¦H6213 will¦H1961 give¦H5414 him¦H5414 the¦H3605 daughter¦H1323 of¦H1323 women¦H1323, to¦H1961 destroy¦H7843 the¦H3605 kingdom¦H4438, but¦H3808 she¦H5973 will¦H1961 not¦H3808 stand¦H5975, and¦H6440 won’t be¦H1961 for¦H6213 him¦H5414. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "DAN 11:18"
+    },
+    "After this¦H6440 he¦H6440 will¦H7227 turn¦H7725 his¦H7725 face¦H6440 to¦H7725 the¦H6440 islands, and¦H7725 will¦H7227 take¦H3920 many¦H7227, but¦H7725 a¦H3068 prince¦H7101 will¦H7227 cause¦H7725 the¦H6440 reproach¦H2781 offered by¦H6440 him¦H6440 to¦H7725 cease¦H7673. Yes, moreover¦H1115, he¦H6440 will¦H7227 cause¦H7725 his¦H7725 reproach¦H2781 to¦H7725 turn¦H7725 on¦H6440 him¦H6440. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "DAN 11:19"
+    },
+    "Then¦H5307 he¦H3808 will¦H3808 turn¦H7725 his¦H7725 face¦H6440 toward¦H6440 the¦H6440 fortresses¦H4581 of¦H6440 his¦H7725 own¦H6440 land¦H6440; but¦H3808 he¦H3808 will¦H3808 stumble¦H3782 and¦H7725 fall¦H5307, and¦H7725 won’t be¦H3808 found¦H4672. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "DAN 11:20"
+    },
+    "“ Then¦H5674 one¦H3808 who¦H4421 will¦H3808 cause a¦H3068 tax collector to¦H5921 pass¦H5674 through¦H5674 the¦H5921 kingdom¦H4438 to¦H5921 maintain its¦H5921 glory¦H1925 will¦H3808 stand¦H5975 up¦H5975 in¦H5921 his¦H5921 place¦H3653; but¦H3808 within¦H5921 few days¦H3117 he¦H3117 shall¦H3117 be¦H3808 destroyed¦H7665, not¦H3808 in¦H5921 anger¦H5674, and¦H3117 not¦H3808 in¦H5921 battle¦H4421. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "DAN 11:21"
+    },
+    "“ In¦H5921 his¦H5414 place¦H5414 a¦H3068 contemptible person¦H4438 will¦H5414 stand¦H5975 up¦H5975, to¦H5921 whom they¦H5921 had¦H5414 not¦H3808 given¦H5414 the¦H5921 honor¦H1935 of¦H5921 the¦H5921 kingdom¦H4438; but¦H3808 he¦H5414 will¦H5414 come in¦H5921 time¦H7962 of¦H5921 security, and¦H2388 will¦H5414 obtain¦H2388 the¦H5921 kingdom¦H4438 by¦H5921 flatteries¦H2519. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "DAN 11:22"
+    },
+    "The¦H6440 overwhelming¦H7857 forces¦H2220 will¦H1571 be¦H1571 overwhelmed¦H7857 from¦H6440 before¦H6440 him¦H6440, and¦H6440 will¦H1571 be¦H1571 broken¦H7665. Yes¦H1571, also¦H1571 the¦H6440 prince¦H5057 of¦H6440 the¦H6440 covenant¦H1285. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "DAN 11:23"
+    },
+    "After¦H4480 the¦H6213 treaty made¦H6213 with¦H6213 him¦H6213 he¦H6213 will¦H1471 work¦H6213 deceitfully¦H4820; for¦H6213 he¦H6213 will¦H1471 come¦H5927 up¦H5927 and¦H1471 will¦H1471 become¦H6213 strong¦H6105 with¦H6213 few¦H4592 people¦H1471. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "DAN 11:24"
+    },
+    "In¦H5921 time¦H6256 of¦H5921 security he¦H5704 will¦H3808 come even¦H5704 on¦H5921 the¦H5921 fattest¦H4924 places¦H4924 of¦H5921 the¦H5921 province¦H4082. He¦H5704 will¦H3808 do¦H6213 that¦H6256 which¦H1992 his¦H5921 fathers have¦H3808 not¦H3808 done¦H6213, nor¦H3808 his¦H5921 fathers’ fathers. He¦H5704 will¦H3808 scatter among¦H5921 them¦H1992 prey¦H7998, plunder¦H7998, and¦H6213 wealth¦H7399. Yes, he¦H5704 will¦H3808 devise¦H2803 his¦H5921 plans¦H4284 against¦H5921 the¦H5921 strongholds¦H4013, but¦H3808 only¦H5704 for¦H5704 a¦H3068 time¦H6256. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "25",
+     "sid": "DAN 11:25"
+    },
+    "“ He¦H3588 will¦H4428 stir¦H5782 up¦H5975 his¦H5921 power¦H3581 and¦H4428 his¦H5921 courage¦H3824 against¦H5921 the¦H5921 king¦H4428 of¦H4428 the¦H5921 south¦H5045 with¦H5921 a¦H3068 great¦H1419 army¦H2428; and¦H4428 the¦H5921 king¦H4428 of¦H4428 the¦H5921 south¦H5045 will¦H4428 wage¦H4421 war¦H4421 in¦H5921 battle¦H4421 with¦H5921 an¦H3588 exceedingly¦H3966 great¦H1419 and¦H4428 mighty¦H6099 army¦H2428, but¦H3588 he¦H3588 won’t stand¦H5975; for¦H3588 they¦H3588 will¦H4428 devise¦H2803 plans¦H4284 against¦H5921 him¦H5921. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "26",
+     "sid": "DAN 11:26"
+    },
+    "Yes, those who¦H2491 eat of¦H2428 his¦H7665 delicacies¦H6598 will¦H7227 destroy¦H7665 him¦H5307, and¦H2428 his¦H7665 army¦H2428 will¦H7227 be¦H7665 swept away¦H5307. Many¦H7227 will¦H7227 fall¦H5307 down¦H5307 slain¦H2491. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "27",
+     "sid": "DAN 11:27"
+    },
+    "As¦H3824 for¦H3588 both¦H8147 these¦H1696 kings¦H4428, their¦H5921 hearts¦H3824 will¦H4428 be¦H5750 to¦H1696 do evil, and¦H4428 they¦H3588 will¦H4428 speak¦H1696 lies¦H3577 at¦H5921 one¦H3808 table¦H7979; but¦H3588 it¦H5921 won’t prosper¦H6743, for¦H3588 the¦H5921 end¦H7093 will¦H4428 still¦H5750 be¦H5750 at¦H5921 the¦H5921 appointed¦H4150 time¦H4150. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "28",
+     "sid": "DAN 11:28"
+    },
+    "Then¦H6213 he¦H6213 will¦H3824 return¦H7725 into¦H7725 his¦H7725 land with¦H1285 great¦H1419 wealth¦H7399. His¦H7725 heart¦H3824 will¦H3824 be¦H7725 against¦H5921 the¦H5921 holy¦H6944 covenant¦H1285. He¦H6213 will¦H3824 take¦H7725 action¦H6213, and¦H7725 return¦H7725 to¦H7725 his¦H7725 own land. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "29",
+     "sid": "DAN 11:29"
+    },
+    "“ He¦H3808 will¦H1961 return¦H7725 at¦H7725 the¦H7725 appointed¦H4150 time¦H4150 and¦H7725 come¦H1961 into¦H7725 the¦H7725 south¦H5045; but¦H3808 it¦H7725 won’t be¦H1961 in¦H7725 the¦H7725 latter time¦H4150 as¦H1961 it¦H7725 was¦H1961 in¦H7725 the¦H7725 former¦H7223. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "30",
+     "sid": "DAN 11:30"
+    },
+    "For¦H5921 ships¦H6716 of¦H5921 Kittim¦H3794 will¦H6716 come¦H7725 against¦H5921 him¦H5921. Therefore¦H5921 he¦H6213 will¦H6716 be¦H7725 grieved¦H3512, and¦H7725 will¦H6716 return¦H7725, and¦H7725 have¦H5921 indignation¦H2194 against¦H5921 the¦H5921 holy¦H6944 covenant¦H1285, and¦H7725 will¦H6716 take¦H7725 action¦H6213. He¦H6213 will¦H6716 even¦H3512 return¦H7725, and¦H7725 have¦H5921 regard¦H5921 to¦H7725 those¦H5921 who¦H3512 forsake¦H5800 the¦H5921 holy¦H6944 covenant¦H1285. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "31",
+     "sid": "DAN 11:31"
+    },
+    "“ Forces¦H2220 from¦H4480 him¦H5414 will¦H5414 profane¦H2490 the¦H5414 sanctuary¦H4720, even the¦H5414 fortress¦H4581, and¦H5975 will¦H5414 take¦H5493 away¦H5493 the¦H5414 continual¦H8548 burnt¦H8548 offering¦H4480. Then¦H5414 they¦H5493 will¦H5414 set¦H5414 up¦H5975 the¦H5414 abomination¦H8251 that¦H5414 makes¦H5414 desolate¦H8074. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "32",
+     "sid": "DAN 11:32"
+    },
+    "He¦H6213 will¦H5971 corrupt¦H2610 those¦H2388 who¦H5971 do¦H6213 wickedly¦H7561 against¦H2388 the¦H6213 covenant¦H1285 by¦H6213 flatteries¦H2514; but¦H2388 the¦H6213 people¦H5971 who¦H5971 know¦H3045 their¦H2388 God will¦H5971 be¦H5971 strong¦H2388 and¦H5971 take¦H2388 action¦H6213. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "33",
+     "sid": "DAN 11:33"
+    },
+    "“ Those¦H3782 who¦H5971 are¦H3117 wise¦H7919 among¦H5971 the¦H3117 people¦H5971 will¦H5971 instruct¦H7919 many¦H7227; yet¦H3117 they¦H3117 will¦H5971 fall¦H3782 by¦H3117 the¦H3117 sword¦H2719 and¦H3117 by¦H3117 flame¦H3852, by¦H3117 captivity¦H7628 and¦H3117 by¦H3117 plunder, many¦H7227 days¦H3117. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "34",
+     "sid": "DAN 11:34"
+    },
+    "Now¦H7227 when¦H5921 they¦H5921 fall¦H3782, they¦H5921 will¦H7227 be¦H4592 helped¦H5826 with¦H5921 a¦H3068 little¦H4592 help¦H5826; but¦H5826 many¦H7227 will¦H7227 join¦H3867 themselves¦H5921 to¦H5921 them¦H5921 with¦H5921 flatteries¦H2519. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "35",
+     "sid": "DAN 11:35"
+    },
+    "Some¦H4480 of¦H4480 those¦H4480 who¦H3588 are¦H4480 wise¦H7919 will¦H5750 fall¦H3782— to¦H5704 refine¦H6884 them¦H4480, and¦H3782 to¦H5704 purify¦H1305, and¦H3782 to¦H5704 make¦H3835 them¦H4480 white¦H3835, even¦H5704 to¦H5704 the¦H3588 time¦H6256 of¦H4480 the¦H3588 end¦H7093, because¦H3588 it¦H3588 is¦H7093 yet¦H5750 for¦H3588 the¦H3588 time¦H6256 appointed¦H4150. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "36",
+     "sid": "DAN 11:36"
+    },
+    "“ The¦H3605 king¦H4428 will¦H4428 do¦H6213 according¦H5921 to¦H1696 his¦H3605 will¦H4428. He¦H3588 will¦H4428 exalt¦H7311 himself¦H1431 and¦H4428 magnify¦H1431 himself¦H1431 above¦H5921 every¦H3605 god, and¦H4428 will¦H4428 speak¦H1696 marvelous¦H6381 things¦H3605 against¦H5921 the¦H3605 God of¦H4428 gods. He¦H3588 will¦H4428 prosper¦H6743 until¦H5704 the¦H3605 indignation¦H2195 is¦H3605 accomplished¦H3615, for¦H3588 that¦H3588 which¦H3605 is¦H3605 determined¦H2782 will¦H4428 be¦H4428 done¦H6213. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "37",
+     "sid": "DAN 11:37"
+    },
+    "He¦H3588 won’t regard¦H5921 the¦H3605 gods of¦H5921 his¦H3605 fathers, or¦H3808 the¦H3605 desire¦H2532 of¦H5921 women, or¦H3808 regard¦H5921 any¦H3605 god¦H3808; for¦H3588 he¦H3588 will¦H3808 magnify¦H1431 himself¦H1431 above¦H5921 all¦H3605. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "38",
+     "sid": "DAN 11:38"
+    },
+    "But¦H3808 in¦H5921 their¦H5921 place¦H3653, he¦H3808 will¦H3808 honor¦H3513 the¦H5921 god¦H3808 of¦H5921 fortresses¦H4581. He¦H3808 will¦H3808 honor¦H3513 a¦H3068 god¦H3808 whom his¦H5921 fathers didn’t know¦H3045 with¦H5921 gold¦H2091, silver¦H3701, and¦H3701 with¦H5921 precious¦H3368 stones and¦H3701 pleasant¦H2530 things¦H3513. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "39",
+     "sid": "DAN 11:39"
+    },
+    "He¦H6213 will¦H7227 deal¦H6213 with¦H5973 the¦H6213 strongest¦H4581 fortresses¦H4581 by¦H5973 the¦H6213 help¦H6213 of¦H6213 a¦H3068 foreign¦H5236 god. He¦H6213 will¦H7227 increase¦H7235 with¦H5973 glory¦H3519 whoever acknowledges¦H5234 him¦H6213. He¦H6213 will¦H7227 cause¦H6213 them¦H6213 to¦H6213 rule¦H4910 over¦H4910 many¦H7227, and¦H6213 will¦H7227 divide¦H2505 the¦H6213 land for¦H6213 a¦H3068 price¦H4242. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "40",
+     "sid": "DAN 11:40"
+    },
+    "“ At¦H5921 the¦H5921 time¦H6256 of¦H4428 the¦H5921 end¦H7093 the¦H5921 king¦H4428 of¦H4428 the¦H5921 south¦H5045 will¦H4428 contend with¦H5973 him¦H5921; and¦H4428 the¦H5921 king¦H4428 of¦H4428 the¦H5921 north¦H6828 will¦H4428 come¦H5674 against¦H5921 him¦H5921 like¦H5973 a¦H3068 whirlwind¦H8175, with¦H5973 chariots¦H7393, with¦H5973 horsemen¦H6571, and¦H4428 with¦H5973 many¦H7227 ships. He¦H5921 will¦H4428 enter¦H5674 into¦H5921 the¦H5921 countries, and¦H4428 will¦H4428 overflow¦H7857 and¦H4428 pass¦H5674 through¦H5674. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "41",
+     "sid": "DAN 11:41"
+    },
+    "He¦H3027 will¦H1121 enter also¦H3027 into¦H3027 the¦H3027 glorious¦H6643 land, and¦H1121 many¦H7227 countries will¦H1121 be¦H3027 overthrown¦H3782; but¦H7227 these will¦H1121 be¦H3027 delivered¦H4422 out¦H4422 of¦H1121 his¦H3027 hand¦H3027: Edom, Moab¦H4124, and¦H1121 the¦H3027 chief¦H7225 of¦H1121 the¦H3027 children¦H1121 of¦H1121 Ammon¦H5983. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "42",
+     "sid": "DAN 11:42"
+    },
+    "He¦H3027 will¦H1961 also¦H3027 stretch¦H7971 out¦H7971 his¦H7971 hand¦H3027 on¦H3027 the¦H7971 countries. The¦H7971 land of¦H3027 Egypt¦H4714 won’t escape¦H6413. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "43",
+     "sid": "DAN 11:43"
+    },
+    "But¦H3605 he¦H3605 will¦H4714 have¦H3605 power¦H4910 over¦H4910 the¦H3605 treasures¦H4362 of¦H3605 gold¦H2091 and¦H3701 of¦H3605 silver¦H3701, and¦H3701 over¦H4910 all¦H3605 the¦H3605 precious¦H2530 things¦H3605 of¦H3605 Egypt¦H4714. The¦H3605 Libyans¦H3864 and¦H3701 the¦H3605 Ethiopians¦H3569 will¦H4714 follow his¦H3605 steps¦H4703. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "44",
+     "sid": "DAN 11:44"
+    },
+    "But¦H7227 news¦H8052 out¦H3318 of¦H3318 the¦H3318 east¦H4217 and¦H1419 out¦H3318 of¦H3318 the¦H3318 north¦H6828 will¦H7227 trouble him¦H3318; and¦H1419 he¦H3318 will¦H7227 go¦H3318 out¦H3318 with¦H3318 great¦H1419 fury¦H2534 to¦H3318 destroy¦H8045 and¦H1419 utterly¦H2763 to¦H3318 sweep away¦H3318 many¦H7227. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "45",
+     "sid": "DAN 11:45"
+    },
+    "He¦H5704 will¦H2022 plant¦H5193 the¦H5704 tents of¦H2022 his¦H5704 palace between¦H5704 the¦H5704 sea¦H3220 and¦H2022 the¦H5704 glorious¦H6643 holy¦H6944 mountain¦H2022; yet¦H5704 he¦H5704 will¦H2022 come to¦H5704 his¦H5704 end¦H7093, and¦H2022 no one will¦H2022 help¦H5826 him¦H5826. "
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "12",
+   "sid": "DAN 12"
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "DAN 12:1"
+    },
+    "“ At¦H5921 that¦H5971 time¦H6256 Michael¦H4317 will¦H1961 stand¦H5975 up¦H5975, the¦H3605 great¦H1419 prince¦H8269 who¦H3605 stands¦H5975 for¦H5704 the¦H3605 children¦H1121 of¦H1121 your¦H3605 people¦H5971; and¦H1121 there¦H1961 will¦H1961 be¦H1961 a¦H3068 time¦H6256 of¦H1121 trouble¦H6869, such¦H1931 as¦H5704 never¦H3808 was¦H1961 since¦H5704 there¦H1961 was¦H1961 a¦H3068 nation¦H1471 even¦H5704 to¦H5704 that¦H5971 same¦H1931 time¦H6256. At¦H5921 that¦H5971 time¦H6256 your¦H3605 people¦H5971 will¦H1961 be¦H1961 delivered¦H4422, everyone¦H3605 who¦H3605 is¦H1931 found¦H4672 written¦H3789 in¦H5921 the¦H3605 book¦H5612. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "DAN 12:2"
+    },
+    "Many¦H7227 of¦H2781 those who¦H7227 sleep¦H3463 in¦H7227 the¦H7227 dust¦H6083 of¦H2781 the¦H7227 earth¦H6083 will¦H7227 awake¦H6974, some¦H7227 to¦H5769 everlasting¦H5769 life¦H2416, and¦H5769 some¦H7227 to¦H5769 shame¦H2781 and¦H5769 everlasting¦H5769 contempt¦H1860. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "DAN 12:3"
+    },
+    "Those who¦H7227 are¦H7227 wise¦H7919 will¦H7227 shine¦H2094 as¦H7919 the¦H6663 brightness¦H2096 of¦H3556 the¦H6663 expanse¦H7549. Those who¦H7227 turn many¦H7227 to¦H5769 righteousness¦H6663 will¦H7227 shine¦H2094 as¦H7919 the¦H6663 stars¦H3556 forever¦H5769 and¦H5769 ever¦H5769. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "DAN 12:4"
+    },
+    "But¦H7227 you¦H5704, Daniel¦H1840, shut¦H2856 up¦H2856 the¦H5704 words¦H1697 and¦H1697 seal¦H2856 the¦H5704 book¦H5612, even¦H5704 to¦H5704 the¦H5704 time¦H6256 of¦H1697 the¦H5704 end¦H7093. Many¦H7227 will¦H1697 run back¦H7751 and¦H1697 forth¦H7751, and¦H1697 knowledge¦H1847 will¦H1697 be¦H1697 increased¦H7235.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "DAN 12:5"
+    },
+    "Then¦H2009 I¦H2009, Daniel¦H1840, looked¦H7200, and¦H7200 behold¦H2009, two¦H8147 others stood¦H5975, one¦H7200 on¦H7200 the¦H7200 river¦H2975 bank¦H8193 on¦H7200 this¦H7200 side¦H8147, and¦H7200 the¦H7200 other¦H8147 on¦H7200 the¦H7200 river¦H2975 bank¦H8193 on¦H7200 that¦H7200 side¦H8147. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "DAN 12:6"
+    },
+    "One said to¦H5704 the¦H5704 man clothed¦H3847 in¦H3847 linen, who¦H4605 was¦H4325 above¦H4605 the¦H5704 waters¦H4325 of¦H4325 the¦H5704 river¦H2975, “ How¦H4970 long¦H5704 will¦H4325 it¦H5704 be¦H4325 to¦H5704 the¦H5704 end¦H7093 of¦H4325 these¦H4605 wonders¦H6382?” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "DAN 12:7"
+    },
+    "I¦H3588 heard¦H8085 the¦H3605 man¦H3605 clothed¦H3847 in¦H8085 linen, who¦H3605 was¦H4325 above¦H4605 the¦H3605 waters¦H4325 of¦H3027 the¦H3605 river¦H2975, when¦H3588 he¦H3588 held¦H7311 up¦H7311 his¦H3605 right¦H3225 hand¦H3027 and¦H8064 his¦H3605 left¦H8040 hand¦H3027 to¦H3027 heaven¦H8064, and¦H8064 swore¦H7650 by¦H3027 him¦H3027 who¦H3605 lives¦H2416 forever¦H5769 that¦H3588 it¦H3588 will¦H5971 be¦H3027 for¦H3588 a¦H3068 time¦H4150, times¦H4150, and¦H8064 a¦H3068 half¦H2677; and¦H8064 when¦H3588 they¦H3588 have¦H5971 finished¦H3615 breaking in¦H8085 pieces¦H5310 the¦H3605 power¦H3027 of¦H3027 the¦H3605 holy¦H6944 people¦H5971, all¦H3605 these¦H8085 things¦H6944 will¦H5971 be¦H3027 finished¦H3615. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "DAN 12:8"
+    },
+    "I¦H8085 heard¦H8085, but¦H3808 I¦H8085 didn’t understand¦H8085. Then¦H8085 I¦H8085 said¦H8085, “ My¦H8085 lord, what¦H4100 will¦H3808 be¦H3808 the¦H8085 outcome of¦H8085 these¦H8085 things¦H3808?” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "DAN 12:9"
+    },
+    "He¦H3588 said¦H1697, “ Go¦H3212 your¦H3588 way¦H3212, Daniel¦H1840; for¦H3588 the¦H3588 words¦H1697 are¦H1697 shut¦H2856 up¦H2856 and¦H3212 sealed¦H2856 until¦H5704 the¦H3588 time¦H6256 of¦H1697 the¦H3588 end¦H7093. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "DAN 12:10"
+    },
+    "Many¦H7227 will¦H7563 purify¦H1305 themselves, and¦H3605 make¦H3835 themselves white¦H3835, and¦H3605 be¦H3808 refined¦H6884, but¦H3808 the¦H3605 wicked¦H7563 will¦H7563 do¦H7561 wickedly¦H7561; and¦H3605 none¦H3808 of¦H3605 the¦H3605 wicked¦H7563 will¦H7563 understand¦H7919, but¦H3808 those¦H3605 who¦H3605 are¦H7563 wise¦H7919 will¦H7563 understand¦H7919. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "DAN 12:11"
+    },
+    "“ From¦H5493 the¦H5414 time¦H6256 that¦H3117 the¦H5414 continual¦H8548 burnt¦H8548 offering is¦H3117 taken¦H5493 away¦H5493 and¦H3967 the¦H5414 abomination¦H8251 that¦H3117 makes¦H5414 desolate¦H8074 set¦H5414 up¦H5414, there¦H3117 will¦H5414 be¦H3117 one¦H8074 thousand two¦H3967 hundred¦H3967 ninety¦H8673 days¦H3117. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "DAN 12:12"
+    },
+    "Blessed is¦H3117 he¦H3117 who waits¦H2442, and¦H3967 comes¦H3117 to¦H3117 the¦H3117 one¦H3967 thousand three¦H7969 hundred¦H3967 thirty-five¦H7970 days¦H3117. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "DAN 12:13"
+    },
+    "“ But¦H3117 go¦H3212 your¦H5117 way¦H3212 until¦H3117 the¦H3117 end¦H7093; for¦H3117 you¦H3117 will¦H3117 rest¦H5117, and¦H3117 will¦H3117 stand¦H5975 in¦H3117 your¦H5117 inheritance at¦H3117 the¦H3117 end¦H7093 of¦H3117 the¦H3117 days¦H3117.” "
+   ]
+  }
+ ]
+}

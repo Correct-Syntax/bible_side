@@ -1,0 +1,1012 @@
+{
+ "type": "USJ",
+ "version": "3.1",
+ "content": [
+  {
+   "type": "book",
+   "marker": "id",
+   "content": [
+    "51-COL-web.sfm World English Bible (WEB)"
+   ],
+   "code": "COL"
+  },
+  {
+   "type": "para",
+   "marker": "ide",
+   "content": [
+    "UTF-8 "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "h",
+   "content": [
+    "Colossians "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc1",
+   "content": [
+    "Paul’s Letter to the Colossians "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc2",
+   "content": [
+    "Colossians "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc3",
+   "content": [
+    "Col "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt1",
+   "content": [
+    "Paul’s Letter to the Colossians "
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "1",
+   "sid": "COL 1"
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "COL 1:1"
+    },
+    "Paul¦G3972, an¦G2532 apostle of¦G1223 Christ¦G5547",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "1:1 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "“Christ” means “Anointed One”."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " Jesus¦G2424 through¦G1223 the¦G2532 will¦G2307 of¦G1223 God¦G2316, and¦G2532 Timothy¦G5095 our¦G2316 brother, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "COL 1:2"
+    },
+    "to¦G2532 the¦G1722 saints and¦G2532 faithful¦G4103 brothers",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "1:2 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "The word for “brothers” here and where context allows may also be correctly translated “brothers and sisters” or “siblings.”"
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " in¦G1722 Christ¦G5547 at¦G1722 Colossae¦G2857: Grace¦G5485 to¦G2532 you¦G5210 and¦G2532 peace¦G1515 from¦G1515 God¦G2316 our¦G2316 Father¦G3962 and¦G2532 the¦G1722 Lord¦G3588 Jesus¦G2532 Christ¦G5547. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "COL 1:3"
+    },
+    "We¦G2249 give¦G2168 thanks¦G2168 to¦G2532 God¦G2316 the¦G2532 Father¦G3962 of¦G4012 our¦G2316 Lord¦G2962 Jesus¦G2424 Christ¦G5547, praying¦G4336 always¦G3842 for¦G4012 you¦G5210, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "COL 1:4"
+    },
+    "having¦G2192 heard of¦G2532 your¦G2192 faith¦G4102 in¦G1722 Christ¦G5547 Jesus¦G2424 and¦G2532 of¦G2532 the¦G1722 love which¦G3739 you¦G5210 have¦G2192 toward¦G1519 all¦G3956 the¦G1722 saints, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "COL 1:5"
+    },
+    "because¦G1223 of¦G3056 the¦G1722 hope¦G1680 which¦G3739 is¦G3588 laid up¦G1722 for¦G1223 you¦G5210 in¦G1722 the¦G1722 heavens¦G3772, of¦G3056 which¦G3739 you¦G5210 heard¦G4257 before¦G1722 in¦G1722 the¦G1722 word¦G3056 of¦G3056 the¦G1722 truth of¦G3056 the¦G1722 Good¦G1223 News¦G3056 ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "COL 1:6"
+    },
+    "which¦G3739 has¦G2316 come¦G1510 to¦G1519 you¦G5210, even¦G2532 as¦G2531 it¦G2532 is¦G1510 in¦G1722 all¦G3956 the¦G1722 world¦G2889 and¦G2532 is¦G1510 bearing¦G2592 fruit¦G2592 and¦G2532 growing¦G1722, as¦G2531 it¦G2532 does¦G1510 in¦G1722 you¦G5210 also¦G2532, since the¦G1722 day¦G2250 you¦G5210 heard and¦G2532 knew¦G1921 the¦G1722 grace¦G5485 of¦G2250 God¦G2316 in¦G1722 truth, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "COL 1:7"
+    },
+    "even¦G2531 as¦G2531 you¦G5210 learned¦G3129 from¦G3588 Epaphras¦G1889 our¦G5547 beloved fellow¦G4889 servant¦G1249, who¦G3739 is¦G1510 a¦G1510 faithful¦G4103 servant¦G1249 of¦G5228 Christ¦G5547 on¦G5228 your¦G3588",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "1:7 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "NU reads "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "fqa",
+       "content": [
+        "our"
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " behalf¦G5228, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "COL 1:8"
+    },
+    "who¦G3588 also¦G2532 declared¦G1213 to¦G2532 us¦G2249 your¦G2532 love in¦G1722 the¦G1722 Spirit¦G4151. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "COL 1:9"
+    },
+    "For¦G5228 this¦G3778 cause¦G1223, we¦G2249 also¦G2532, since¦G1223 the¦G1722 day¦G2250 we¦G2249 heard this¦G3778, don’ t¦G3588 cease¦G3973 praying¦G4336 and¦G2532 making¦G2532 requests for¦G5228 you¦G5210, that¦G2443 you¦G5210 may¦G2532 be¦G2532 filled¦G4137 with¦G1722 the¦G1722 knowledge¦G1922 of¦G2250 his¦G3956 will¦G2307 in¦G1722 all¦G3956 spiritual¦G4152 wisdom¦G4678 and¦G2532 understanding¦G4907, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "COL 1:10"
+    },
+    "that¦G3588 you¦G1722 may¦G2532 walk¦G4043 worthily of¦G2316 the¦G1722 Lord¦G2962, to¦G1519 please him¦G3588 in¦G1722 all¦G3956 respects¦G3956, bearing¦G2592 fruit¦G2592 in¦G1722 every¦G3956 good¦G3956 work¦G2041 and¦G2532 increasing in¦G1722 the¦G1722 knowledge¦G1922 of¦G2316 God¦G2316, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "COL 1:11"
+    },
+    "strengthened¦G1412 with¦G3326 all¦G3956 power¦G1411, according¦G2596 to¦G1519 the¦G1722 might¦G2532 of¦G2532 his¦G3956 glory¦G1391, for¦G1519 all¦G3956 endurance¦G5281 and¦G2532 perseverance¦G5281 with¦G3326 joy¦G5479, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "COL 1:12"
+    },
+    "giving¦G2168 thanks¦G2168 to¦G1519 the¦G1722 Father¦G3962, who¦G3588 made¦G2427 us¦G2427 fit to¦G1519 be¦G1519 partakers¦G3310 of¦G3962 the¦G1722 inheritance¦G2819 of¦G3962 the¦G1722 saints in¦G1722 light¦G5457, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "COL 1:13"
+    },
+    "who¦G3739 delivered¦G4506 us¦G1519 out¦G1537 of¦G1537 the¦G2532 power¦G1849 of¦G1537 darkness¦G4655, and¦G2532 translated¦G3179 us¦G1519 into¦G1519 the¦G2532 Kingdom of¦G1537 the¦G2532 Son¦G5207 of¦G1537 his¦G1519 love, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "COL 1:14"
+    },
+    "in¦G1722 whom¦G3739 we¦G3739 have¦G2192 our¦G1722 redemption,",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "1:14 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "TR adds “through his blood,” "
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " the¦G1722 forgiveness of¦G1722 our¦G1722 sins. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "COL 1:15"
+    },
+    "He¦G3739 is¦G1510 the¦G3956 image¦G1504 of¦G2316 the¦G3956 invisible God¦G2316, the¦G3956 firstborn¦G4416 of¦G2316 all¦G3956 creation¦G2937. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "COL 1:16"
+    },
+    "For¦G3754 by¦G1223 him¦G3588 all¦G3956 things¦G3956 were¦G3588 created¦G2936 in¦G1722 the¦G1722 heavens¦G3772 and¦G2532 on¦G1909 the¦G1722 earth¦G1093, visible¦G3707 things¦G3956 and¦G2532 invisible things¦G3956, whether¦G1535 thrones¦G2362 or¦G1535 dominions¦G2963 or¦G1535 principalities or¦G1535 powers¦G1849. All¦G3956 things¦G3956 have¦G2532 been¦G2532 created¦G2936 through¦G1223 him¦G3588 and¦G2532 for¦G3754 him¦G3588. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "COL 1:17"
+    },
+    "He¦G2532 is¦G1510 before¦G4253 all¦G3956 things¦G3956, and¦G2532 in¦G1722 him¦G3588 all¦G3956 things¦G3956 are¦G1510 held together¦G2532. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "COL 1:18"
+    },
+    "He¦G2532 is¦G1510 the¦G1722 head¦G2776 of¦G1537 the¦G1722 body¦G4983, the¦G1722 assembly¦G1577, who¦G3739 is¦G1510 the¦G1722 beginning, the¦G1722 firstborn¦G4416 from¦G1537 the¦G1722 dead¦G3498, that¦G2443 in¦G1722 all¦G3956 things¦G3956 he¦G2532 might¦G2532 have¦G2532 the¦G1722 preeminence¦G4409. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "COL 1:19"
+    },
+    "For¦G3754 all¦G3956 the¦G1722 fullness¦G4138 was¦G3588 pleased¦G2106 to¦G1722 dwell¦G2730 in¦G1722 him¦G3588, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "COL 1:20"
+    },
+    "and¦G2532 through¦G1223 him¦G3588 to¦G1519 reconcile all¦G3956 things¦G3956 to¦G1519 himself¦G1519 by¦G1223 him¦G3588, whether¦G1535 things¦G3956 on¦G1909 the¦G1722 earth¦G1093 or¦G1535 things¦G3956 in¦G1722 the¦G1722 heavens¦G3772, having¦G2532 made¦G1517 peace¦G1517 through¦G1223 the¦G1722 blood of¦G1223 his¦G3956 cross¦G4716. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "COL 1:21"
+    },
+    "You¦G5210, being¦G1510 in¦G1722 past¦G4218 times¦G4218 alienated and¦G2532 enemies¦G2190 in¦G1722 your¦G2532 mind¦G1271 in¦G1722 your¦G2532 evil¦G4190 deeds¦G2041, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "COL 1:22"
+    },
+    "yet¦G2532 now¦G1161 he¦G2532 has¦G2288 reconciled in¦G1722 the¦G1722 body¦G4983 of¦G1223 his¦G1223 flesh¦G4561 through¦G1223 death¦G2288, to¦G2532 present¦G3936 you¦G5210 holy and¦G2532 without¦G2532 defect and¦G2532 blameless before¦G1722 him¦G3588, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "COL 1:23"
+    },
+    "if¦G1487 it¦G2532 is¦G3588 so¦G2532 that¦G3739 you¦G3739 continue¦G1961 in¦G1722 the¦G1722 faith¦G4102, grounded¦G2311 and¦G2532 steadfast¦G1476, and¦G2532 not¦G3361 moved¦G3361 away¦G3334 from¦G2532 the¦G1722 hope¦G1680 of¦G5259 the¦G1722 Good¦G3956 News¦G2098 which¦G3739 you¦G3739 heard, which¦G3739 was¦G1096 proclaimed¦G2784 in¦G1722 all¦G3956 creation¦G2937 under¦G5259 heaven¦G3772, of¦G5259 which¦G3739 I¦G1473, Paul¦G3972, was¦G1096 made¦G1096 a¦G1096 servant¦G1249. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "COL 1:24"
+    },
+    "Now¦G3568 I¦G1473 rejoice¦G5463 in¦G1722 my¦G1722 sufferings¦G3804 for¦G5228 your¦G2532 sake¦G5228, and¦G2532 fill¦G2532 up¦G1722 on¦G1722 my¦G1722 part¦G1473 that¦G3739 which¦G3739 is¦G1510 lacking¦G5303 of¦G2532 the¦G1722 afflictions¦G2347 of¦G2532 Christ¦G5547 in¦G1722 my¦G1722 flesh¦G4561 for¦G5228 his¦G1722 body¦G4983’s sake¦G5228, which¦G3739 is¦G1510 the¦G1722 assembly¦G1577, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "25",
+     "sid": "COL 1:25"
+    },
+    "of¦G3056 which¦G3739 I¦G1473 was¦G1096 made¦G1096 a¦G1096 servant¦G1249 according¦G2596 to¦G1519 the¦G1519 stewardship¦G3622 of¦G3056 God¦G2316 which¦G3739 was¦G1096 given¦G1325 me¦G1325 toward¦G1519 you¦G5210 to¦G1519 fulfill¦G4137 the¦G1519 word¦G3056 of¦G3056 God¦G2316, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "26",
+     "sid": "COL 1:26"
+    },
+    "the¦G2532 mystery¦G3466 which¦G3588 has¦G2532 been¦G2532 hidden for¦G1161 ages¦G1074 and¦G2532 generations¦G1074. But¦G1161 now¦G1161 it¦G2532 has¦G2532 been¦G2532 revealed¦G5319 to¦G2532 his¦G2532 saints, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "27",
+     "sid": "COL 1:27"
+    },
+    "to¦G2309 whom¦G3739 God¦G2316 was¦G1510 pleased to¦G2309 make¦G1107 known¦G1107 what¦G5101 are¦G1510 the¦G1722 riches¦G4149 of¦G2316 the¦G1722 glory¦G1391 of¦G2316 this¦G3778 mystery¦G3466 among¦G1722 the¦G1722 Gentiles¦G1484, which¦G3739 is¦G1510 Christ¦G5547 in¦G1722 you¦G5210, the¦G1722 hope¦G1680 of¦G2316 glory¦G1391. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "28",
+     "sid": "COL 1:28"
+    },
+    "We¦G2249 proclaim¦G2605 him¦G3739, admonishing¦G3560 every¦G3956 man¦G3956 and¦G2532 teaching¦G1321 every¦G3956 man¦G3956 in¦G1722 all¦G3956 wisdom¦G4678, that¦G2443 we¦G2249 may¦G2532 present¦G3936 every¦G3956 man¦G3956 perfect¦G5046 in¦G1722 Christ¦G5547 Jesus¦G2532; ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "29",
+     "sid": "COL 1:29"
+    },
+    "for¦G1519 which¦G3739 I¦G1473 also¦G2532 labor¦G2872, striving according¦G2596 to¦G1519 his¦G1519 working¦G1753, which¦G3739 works¦G1754 in¦G1722 me¦G1473 mightily¦G1411. "
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "2",
+   "sid": "COL 2"
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "COL 2:1"
+    },
+    "For¦G1063 I¦G1473 desire¦G2309 to¦G2532 have¦G2192 you¦G5210 know¦G1492 how¦G1492 greatly¦G3756 I¦G1473 struggle for¦G1063 you¦G5210 and¦G2532 for¦G1063 those¦G3588 at¦G1722 Laodicea¦G2993, and¦G2532 for¦G1063 as¦G3745 many¦G3745 as¦G3745 have¦G2192 not¦G3756 seen¦G3708 my¦G3708 face¦G4383 in¦G1722 the¦G1722 flesh¦G4561; ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "COL 2:2"
+    },
+    "that¦G2443 their¦G2532 hearts¦G2588 may¦G2532 be¦G2532 comforted¦G3870, they¦G2532 being¦G2532 knit¦G4822 together¦G4822 in¦G1722 love, and¦G2532 gaining all¦G3956 riches¦G4149 of¦G2316 the¦G1722 full¦G3956 assurance¦G4136 of¦G2316 understanding¦G4907, that¦G2443 they¦G2532 may¦G2532 know¦G1722 the¦G1722 mystery¦G3466 of¦G2316 God¦G2316, both¦G2532 of¦G2316 the¦G1722 Father and¦G2532 of¦G2316 Christ¦G5547, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "COL 2:3"
+    },
+    "in¦G1722 whom¦G3739 all¦G3956 the¦G1722 treasures¦G2344 of¦G2532 wisdom¦G4678 and¦G2532 knowledge¦G1108 are¦G1510 hidden. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "COL 2:4"
+    },
+    "Now¦G1722 I¦G3778 say¦G3004 this¦G3778 that¦G2443 no¦G3367 one¦G3367 may¦G2443 delude¦G3884 you¦G5210 with¦G1722 persuasiveness of¦G1722 speech. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "COL 2:5"
+    },
+    "For¦G1063 though¦G1487 I¦G2532 am¦G1510 absent in¦G1519 the¦G2532 flesh¦G4561, yet¦G2532 I¦G2532 am¦G1510 with¦G4862 you¦G5210 in¦G1519 the¦G2532 spirit¦G4151, rejoicing¦G5463 and¦G2532 seeing your¦G2532 order¦G5010, and¦G2532 the¦G2532 steadfastness of¦G4151 your¦G2532 faith¦G4102 in¦G1519 Christ¦G5547. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "COL 2:6"
+    },
+    "As¦G5613 therefore¦G3767 you¦G1722 received¦G3880 Christ¦G5547 Jesus¦G2424 the¦G1722 Lord¦G2962, walk¦G4043 in¦G1722 him¦G3588, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "COL 2:7"
+    },
+    "rooted¦G4492 and¦G2532 built¦G2026 up¦G2026 in¦G1722 him¦G3588 and¦G2532 established in¦G1722 the¦G1722 faith¦G4102, even¦G2532 as¦G2531 you¦G1722 were¦G3588 taught¦G1321, abounding¦G4052 in¦G1722 it¦G2532 in¦G1722 thanksgiving¦G2169. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "COL 2:8"
+    },
+    "Be¦G1510 careful that¦G3588 you¦G5210 don’ t¦G3588 let¦G1510 anyone¦G5100 rob you¦G5210 through¦G1223 his¦G1223 philosophy¦G5385 and¦G2532 vain¦G2756 deceit, after¦G2596 the¦G2532 tradition¦G3862 of¦G1223 men¦G5100, after¦G2596 the¦G2532 elemental¦G4747 spirits¦G2889 of¦G1223 the¦G2532 world¦G2889, and¦G2532 not¦G3756 after¦G2596 Christ¦G5547. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "COL 2:9"
+    },
+    "For¦G3754 in¦G1722 him¦G3588 all¦G3956 the¦G1722 fullness¦G4138 of¦G1722 the¦G1722 Deity¦G2320 dwells¦G2730 bodily¦G4985, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "COL 2:10"
+    },
+    "and¦G2532 in¦G1722 him¦G3588 you¦G3739 are¦G1510 made¦G4137 full¦G4137, who¦G3739 is¦G1510 the¦G1722 head¦G2776 of¦G2532 all¦G3956 principality and¦G2532 power¦G1849. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "COL 2:11"
+    },
+    "In¦G1722 him¦G3588 you¦G3739 were¦G3588 also¦G2532 circumcised¦G4059 with¦G1722 a¦G2532 circumcision¦G4061 not¦G3739 made with¦G1722 hands, in¦G1722 the¦G1722 putting¦G1722 off of¦G2532 the¦G1722 body¦G4983 of¦G2532 the¦G1722 sins of¦G2532 the¦G1722 flesh¦G4561, in¦G1722 the¦G1722 circumcision¦G4061 of¦G2532 Christ¦G5547, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "COL 2:12"
+    },
+    "having¦G2532 been¦G2532 buried¦G4916 with¦G1722 him¦G3588 in¦G1722 baptism, in¦G1722 which¦G3739 you¦G3739 were¦G3588 also¦G2532 raised¦G1453 with¦G1722 him¦G3588 through¦G1223 faith¦G4102 in¦G1722 the¦G1722 working¦G1753 of¦G1537 God¦G2316, who¦G3739 raised¦G1453 him¦G3588 from¦G1537 the¦G1722 dead¦G3498. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "COL 2:13"
+    },
+    "You¦G5210 were¦G1510 dead¦G3498 through¦G1722 your¦G2532 trespasses¦G3900 and¦G2532 the¦G1722 uncircumcision of¦G2532 your¦G2532 flesh¦G4561. He¦G2532 made¦G4806 you¦G5210 alive¦G4806 together¦G4806 with¦G1722 him¦G3588, having¦G2532 forgiven¦G5483 us¦G5483 all¦G3956 our¦G2532 trespasses¦G3900, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "COL 2:14"
+    },
+    "wiping out¦G1537 the¦G2532 handwriting¦G5498 in¦G2596 ordinances¦G1378 which¦G3739 was¦G1510 against¦G2596 us¦G2249. He¦G2532 has¦G3739 taken it¦G2532 out¦G1537 of¦G1537 the¦G2532 way¦G2596, nailing¦G4338 it¦G2532 to¦G2532 the¦G2532 cross¦G4716. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "COL 2:15"
+    },
+    "Having¦G2532 stripped the¦G1722 principalities and¦G2532 the¦G1722 powers¦G1849, he¦G2532 made¦G1165 a¦G2532 show of¦G2532 them¦G3588 openly¦G3954, triumphing over¦G1849 them¦G3588 in¦G1722 it¦G2532. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "COL 2:16"
+    },
+    "Let¦G2919 no¦G3361 one¦G5100 therefore¦G3767 judge¦G2919 you¦G5210 in¦G1722 eating¦G1035 or¦G2228 drinking¦G4213, or¦G2228 with¦G1722 respect¦G3313 to¦G1722 a¦G1722 feast¦G1859 day¦G4521 or¦G2228 a¦G1722 new¦G5100 moon¦G3561 or¦G2228 a¦G1722 Sabbath¦G4521 day¦G4521, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "COL 2:17"
+    },
+    "which¦G3739 are¦G1510 a¦G1510 shadow¦G4639 of¦G4983 the¦G1161 things¦G3588 to¦G3195 come¦G3195; but¦G1161 the¦G1161 body¦G4983 is¦G1510 Christ¦G5547’s. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "COL 2:18"
+    },
+    "Let¦G2532 no¦G3367 one¦G3367 rob you¦G5210 of¦G5259 your¦G2532 prize¦G2603 by¦G1722 self-abasement¦G5012 and¦G2532 worshiping of¦G5259 the¦G1722 angels, dwelling in¦G1722 the¦G1722 things¦G3588 which¦G3739 he¦G2532 has¦G3739 not¦G3367 seen¦G3708, vainly¦G1500 puffed¦G1500 up¦G5448 by¦G1722 his¦G1722 fleshly¦G4561 mind¦G3563, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "COL 2:19"
+    },
+    "and¦G2532 not¦G3756 holding¦G2902 firmly to¦G2532 the¦G2532 Head¦G2776, from¦G1537 whom¦G3739 all¦G3956 the¦G2532 body¦G4983, being¦G2532 supplied¦G2023 and¦G2532 knit¦G4822 together¦G4822 through¦G1223 the¦G2532 joints and¦G2532 ligaments¦G4886, grows with¦G1537 God¦G2316’s growth. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "COL 2:20"
+    },
+    "If¦G1487 you¦G1487 died¦G3588 with¦G1722 Christ¦G5547 from¦G3588 the¦G1722 elemental¦G4747 spirits¦G2889 of¦G1722 the¦G1722 world¦G2889, why¦G5101, as¦G5613 though¦G5613 living¦G2198 in¦G1722 the¦G1722 world¦G2889, do¦G5101 you¦G1487 subject yourselves¦G1722 to¦G1722 ordinances¦G1379, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "COL 2:21"
+    },
+    "“Don’t handle¦G2345, nor¦G3366 taste¦G1089, nor¦G3366 touch¦G2345” ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "COL 2:22"
+    },
+    "( all¦G3956 of¦G2532 which¦G3739 perish¦G5356 with¦G2532 use¦G3588), according¦G2596 to¦G1519 the¦G2532 precepts¦G1778 and¦G2532 doctrines¦G1319 of¦G2532 men¦G3956? ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "COL 2:23"
+    },
+    "These¦G3588 things¦G3588 indeed¦G2532 appear¦G1510 like¦G4314 wisdom¦G4678 in¦G1722 self-imposed worship¦G1479, humility¦G5012, and¦G2532 severity to¦G4314 the¦G1722 body¦G4983, but¦G2532 aren’ t¦G3588 of¦G3056 any¦G5100 value¦G5092 against¦G4314 the¦G1722 indulgence¦G4140 of¦G3056 the¦G1722 flesh¦G4561. "
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "3",
+   "sid": "COL 3"
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "COL 3:1"
+    },
+    "If¦G1487 then¦G3767 you¦G1487 were¦G1510 raised¦G4891 together¦G1722 with¦G1722 Christ¦G5547, seek¦G2212 the¦G1722 things¦G3588 that¦G3588 are¦G1510 above, where¦G3757 Christ¦G5547 is¦G1510, seated¦G2521 on¦G1722 the¦G1722 right¦G1188 hand¦G1188 of¦G2316 God¦G2316. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "COL 3:2"
+    },
+    "Set¦G5426 your¦G1909 mind¦G5426 on¦G1909 the¦G1909 things¦G3588 that¦G3588 are¦G3588 above¦G1909, not¦G3361 on¦G1909 the¦G1909 things¦G3588 that¦G3588 are¦G3588 on¦G1909 the¦G1909 earth¦G1093. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "COL 3:3"
+    },
+    "For¦G1063 you¦G5210 died¦G3588, and¦G2532 your¦G2532 life¦G2222 is¦G3588 hidden¦G2928 with¦G1722 Christ¦G5547 in¦G1722 God¦G2316. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "COL 3:4"
+    },
+    "When¦G3752 Christ¦G5547, our¦G2532 life¦G2222, is¦G3588 revealed¦G5319, then¦G2532 you¦G5210 will¦G2532 also¦G2532 be¦G2532 revealed¦G5319 with¦G1722 him¦G3588 in¦G1722 glory¦G1391. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "COL 3:5"
+    },
+    "Put¦G2532 to¦G2532 death therefore¦G3767 your¦G2532 members¦G3196 which¦G3588 are¦G1510 on¦G1909 the¦G2532 earth¦G1093: sexual¦G4202 immorality¦G4202, uncleanness, depraved passion¦G3806, evil¦G2556 desire¦G1939, and¦G2532 covetousness¦G4124, which¦G3588 is¦G1510 idolatry¦G1495. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "COL 3:6"
+    },
+    "For¦G1223 these¦G3739 things¦G3588’ sake¦G1223 the¦G1909 wrath¦G3709 of¦G5207 God¦G2316 comes¦G2064 on¦G1909 the¦G1909 children¦G5207 of¦G5207 disobedience. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "COL 3:7"
+    },
+    "You¦G5210 also¦G2532 once¦G4218 walked¦G4043 in¦G1722 those¦G3778, when¦G3753 you¦G5210 lived¦G2198 in¦G1722 them¦G1722, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "COL 3:8"
+    },
+    "but¦G1161 now¦G1161 you¦G5210 must¦G3588 put¦G2532 them¦G3588 all¦G3956 away: anger¦G3709, wrath¦G3709, malice¦G2549, slander, and¦G2532 shameful speaking out¦G1537 of¦G1537 your¦G2532 mouth¦G4750. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "COL 3:9"
+    },
+    "Don’ t¦G3588 lie¦G5574 to¦G1519 one¦G3588 another¦G3588, seeing that¦G3588 you¦G3361 have¦G3588 put¦G3361 off the¦G1519 old¦G3820 man¦G3361 with¦G4862 his¦G1519 doings, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "COL 3:10"
+    },
+    "and¦G2532 have¦G2532 put¦G1746 on¦G1519 the¦G2532 new¦G3501 man¦G1519, who¦G3588 is¦G3588 being¦G2532 renewed in¦G1519 knowledge¦G1922 after¦G2596 the¦G2532 image¦G1504 of¦G2532 his¦G1519 Creator¦G2936, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "COL 3:11"
+    },
+    "where¦G3699 there¦G2532 can’ t¦G3588 be¦G2532 Greek¦G1672 and¦G2532 Jew¦G2453, circumcision¦G4061 and¦G2532 uncircumcision, barbarian, Scythian¦G4658, bondservant, or¦G2532 free¦G1658 person; but¦G2532 Christ¦G5547 is¦G3588 all¦G3956, and¦G2532 in¦G1722 all¦G3956. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "COL 3:12"
+    },
+    "Put¦G1746 on¦G1746 therefore¦G3767, as¦G5613 God¦G2316’s chosen¦G1588 ones, holy and¦G2532 beloved, a¦G5613 heart¦G4698 of¦G2316 compassion¦G3628, kindness¦G5544, lowliness¦G5012, humility¦G5012, and¦G2532 perseverance¦G3115; ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "COL 3:13"
+    },
+    "bearing¦G2192 with¦G4314 one¦G5100 another¦G1438, and¦G2532 forgiving¦G5483 each¦G1438 other¦G1438, if¦G1437 any¦G5100 man¦G5100 has¦G2192 a¦G2192 complaint¦G3437 against¦G4314 any¦G5100; even¦G2532 as¦G2531 Christ¦G5547 forgave¦G5483 you¦G5210, so¦G3779 you¦G5210 also¦G2532 do¦G2532. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "COL 3:14"
+    },
+    "Above¦G1909 all¦G3956 these¦G3778 things¦G3956, walk in¦G1909 love, which¦G3739 is¦G1510 the¦G3956 bond¦G4886 of¦G1909 perfection¦G5047. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "COL 3:15"
+    },
+    "And¦G2532 let¦G1096 the¦G1722 peace¦G1515 of¦G2532 God¦G2532 rule¦G1018 in¦G1722 your¦G2532 hearts¦G2588, to¦G1519 which¦G3739 also¦G2532 you¦G5210 were¦G3588 called¦G2564 in¦G1722 one¦G1520 body¦G4983, and¦G2532 be¦G1096 thankful¦G2170. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "COL 3:16"
+    },
+    "Let¦G1774 the¦G1722 word¦G3056 of¦G3056 Christ¦G5547 dwell¦G1774 in¦G1722 you¦G5210 richly¦G4146; in¦G1722 all¦G3956 wisdom¦G4678 teaching¦G1321 and¦G2532 admonishing¦G3560 one¦G3956 another¦G1438 with¦G1722 psalms¦G5568, hymns¦G5215, and¦G2532 spiritual¦G4152 songs¦G5603, singing with¦G1722 grace¦G5485 in¦G1722 your¦G2532 heart¦G2588 to¦G2532 the¦G1722 Lord¦G3588. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "COL 3:17"
+    },
+    "Whatever¦G3739 you¦G3739 do¦G4160, in¦G1722 word¦G3056 or¦G2228 in¦G1722 deed¦G2041, do¦G4160 all¦G3956 in¦G1722 the¦G1722 name¦G3686 of¦G3056 the¦G1722 Lord¦G2962 Jesus¦G2424, giving¦G2168 thanks¦G2168 to¦G2532 God¦G2316 the¦G1722 Father¦G3962 through¦G1223 him¦G3588. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "COL 3:18"
+    },
+    "Wives¦G1135, be¦G3588 in¦G1722 subjection¦G5293 to¦G1722 your¦G2962 husbands, as¦G5613 is¦G3588 fitting in¦G1722 the¦G1722 Lord¦G2962. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "COL 3:19"
+    },
+    "Husbands, love your¦G2532 wives¦G1135, and¦G2532 don’ t¦G3588 be¦G2532 bitter¦G4087 against¦G4314 them¦G3588. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "COL 3:20"
+    },
+    "Children¦G5043, obey¦G5219 your¦G2962 parents¦G1118 in¦G1722 all¦G3956 things¦G3956, for¦G1063 this¦G3778 pleases the¦G1722 Lord¦G2962. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "COL 3:21"
+    },
+    "Fathers¦G3962, don’ t¦G3588 provoke¦G2042 your¦G3588 children¦G5043, so¦G2443 that¦G2443 they¦G3588 won’ t¦G3588 be¦G3361 discouraged. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "COL 3:22"
+    },
+    "Servants¦G1401, obey¦G5219 in¦G1722 all¦G3956 things¦G3956 those¦G3588 who¦G3588 are¦G3588 your¦G2962 masters¦G2962 according¦G2596 to¦G2596 the¦G1722 flesh¦G4561, not¦G3361 just¦G5613 when¦G5613 they¦G3588 are¦G3588 looking, as¦G5613 men¦G3956 pleasers, but¦G3361 in¦G1722 singleness of¦G2962 heart¦G2588, fearing¦G5399 God¦G2962. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "COL 3:23"
+    },
+    "And¦G2532 whatever¦G3739 you¦G3739 do¦G4160, work¦G2038 heartily¦G5590, as¦G5613 for¦G2532 the¦G2532 Lord¦G2962 and¦G2532 not¦G3756 for¦G2532 men¦G3588, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "COL 3:24"
+    },
+    "knowing¦G1492 that¦G3754 from¦G3588 the¦G3588 Lord¦G2962 you¦G3754 will¦G2962 receive the¦G3588 reward of¦G2962 the¦G3588 inheritance¦G2817; for¦G3754 you¦G3754 serve¦G1398 the¦G3588 Lord¦G2962 Christ¦G5547. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "25",
+     "sid": "COL 3:25"
+    },
+    "But¦G2532 he¦G2532 who¦G3739 does¦G1510 wrong¦G2865 will¦G1510 receive¦G2865 again¦G2532 for¦G1063 the¦G2532 wrong¦G2865 that¦G3739 he¦G2532 has¦G3739 done, and¦G2532 there¦G2532 is¦G1510 no¦G3756 partiality¦G4382. "
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "4",
+   "sid": "COL 4"
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "COL 4:1"
+    },
+    "Masters¦G2962, give¦G3930 to¦G2532 your¦G2962 servants¦G1401 that¦G3754 which¦G3588 is¦G3588 just¦G1342 and¦G2532 equal¦G2471, knowing¦G1492 that¦G3754 you¦G5210 also¦G2532 have¦G2192 a¦G2192 Master¦G2962 in¦G1722 heaven¦G3772. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "COL 4:2"
+    },
+    "Continue¦G4342 steadfastly in¦G1722 prayer¦G4335, watching¦G1127 in¦G1722 it¦G3588 with¦G1722 thanksgiving¦G2169, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "COL 4:3"
+    },
+    "praying¦G4336 together¦G2532 for¦G1223 us¦G2249 also¦G2532, that¦G2443 God¦G2316 may¦G2532 open to¦G2443 us¦G2249 a¦G2532 door¦G2374 for¦G1223 the¦G2532 word¦G3056, to¦G2443 speak¦G2980 the¦G2532 mystery¦G3466 of¦G4012 Christ¦G5547, for¦G1223 which¦G3739 I¦G1473 am¦G1473 also¦G2532 in¦G2532 bonds¦G1210, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "COL 4:4"
+    },
+    "that¦G2443 I¦G1473 may¦G2443 reveal¦G5319 it¦G5319 as¦G5613 I¦G1473 ought¦G1163 to¦G2443 speak¦G2980. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "COL 4:5"
+    },
+    "Walk¦G4043 in¦G1722 wisdom¦G4678 toward¦G4314 those¦G3588 who¦G3588 are¦G3588 outside¦G1854, redeeming¦G1805 the¦G1722 time¦G2540. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "COL 4:6"
+    },
+    "Let your¦G1722 speech¦G3056 always¦G3842 be¦G1163 with¦G1722 grace¦G5485, seasoned with¦G1722 salt, that¦G3588 you¦G5210 may¦G5485 know¦G1492 how¦G4459 you¦G5210 ought¦G1163 to¦G1722 answer¦G3056 each¦G1538 one¦G1520. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "COL 4:7"
+    },
+    "All¦G3956 my¦G1722 affairs¦G3588 will¦G2532 be¦G2532 made¦G1107 known¦G1107 to¦G2532 you¦G5210 by¦G1722 Tychicus¦G5190, the¦G1722 beloved brother, faithful¦G4103 servant¦G1249, and¦G2532 fellow¦G4889 bondservant in¦G1722 the¦G1722 Lord¦G2962. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "COL 4:8"
+    },
+    "I¦G1473 am¦G1473 sending¦G3992 him¦G3588 to¦G1519 you¦G5210 for¦G1519 this¦G3778 very¦G2532 purpose¦G3739, that¦G2443 he¦G2532 may¦G2532 know¦G1097 your¦G2532 circumstances¦G3588 and¦G2532 comfort¦G3870 your¦G2532 hearts¦G2588, ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "COL 4:9"
+    },
+    "together¦G4862 with¦G4862 Onesimus¦G3682, the¦G2532 faithful¦G4103 and¦G2532 beloved brother, who¦G3739 is¦G1510 one¦G3739 of¦G1537 you¦G5210. They¦G2532 will¦G1510 make¦G1107 known¦G1107 to¦G2532 you¦G5210 everything¦G3956 that¦G3739 is¦G1510 going¦G2532 on¦G1537 here¦G5602. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "COL 4:10"
+    },
+    "Aristarchus, my¦G1473 fellow¦G4869 prisoner¦G4869, greets you¦G5210, and¦G2532 Mark¦G3138 the¦G2532 cousin of¦G4012 Barnabas ( concerning¦G4012 whom¦G3739 you¦G5210 received¦G2983 instructions¦G1785, “ if¦G1437 he¦G2532 comes¦G2064 to¦G4314 you¦G5210, receive¦G2983 him¦G3588”), ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "COL 4:11"
+    },
+    "and¦G2532 Jesus¦G2424 who¦G3588 is¦G1510 called¦G3004 Justus¦G2459. These¦G3778 are¦G1510 my¦G1473 only¦G3441 fellow¦G4904 workers¦G4904 for¦G1519 God¦G2316’s Kingdom who¦G3588 are¦G1510 of¦G1537 the¦G2532 circumcision¦G4061, men¦G3778 who¦G3588 have¦G2532 been¦G1510 a¦G1096 comfort¦G3931 to¦G1519 me¦G1473. "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "COL 4:12"
+    },
+    "Epaphras¦G1889, who¦G3588 is¦G3588 one¦G3956 of¦G1537 you¦G5210, a¦G2532 servant¦G1401 of¦G1537 Christ¦G5547, salutes you¦G5210, always¦G3842 striving for¦G5228 you¦G5210 in¦G1722 his¦G3956 prayers¦G4335, that¦G2443 you¦G5210 may¦G2532 stand¦G2476 perfect¦G5046 and¦G2532 complete¦G3956 in¦G1722 all¦G3956 the¦G1722 will¦G2307 of¦G1537 God¦G2316. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "COL 4:13"
+    },
+    "For¦G1063 I¦G2532 testify¦G3140 about¦G1722 him¦G3588 that¦G3754 he¦G2532 has¦G2192 great¦G4183 zeal for¦G1063 you¦G5210, and¦G2532 for¦G1063 those¦G3588 in¦G1722 Laodicea¦G2993, and¦G2532 for¦G1063 those¦G3588 in¦G1722 Hierapolis¦G2404. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "COL 4:14"
+    },
+    "Luke¦G3065 the¦G2532 beloved physician¦G2395 and¦G2532 Demas¦G1214 greet you¦G5210. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "COL 4:15"
+    },
+    "Greet the¦G1722 brothers who¦G3588 are¦G3588 in¦G1722 Laodicea¦G2993, with¦G1722 Nymphas¦G3564 and¦G2532 the¦G1722 assembly¦G1577 that¦G3588 is¦G3588 in¦G1722 his¦G1722 house¦G3624. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "COL 4:16"
+    },
+    "When¦G3752 this¦G3588 letter¦G1992 has¦G2532 been¦G2532 read among¦G1722 you¦G5210, cause¦G4160 it¦G2532 to¦G2443 be¦G2532 read also¦G2532 in¦G1722 the¦G1722 assembly¦G1577 of¦G1537 the¦G1722 Laodiceans¦G2994, and¦G2532 that¦G2443 you¦G5210 also¦G2532 read the¦G1722 letter¦G1992 from¦G1537 Laodicea¦G2993. ",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "COL 4:17"
+    },
+    "Tell¦G3004 Archippus, “ Take¦G3880 heed to¦G2443 the¦G1722 ministry¦G1248 which¦G3739 you¦G3739 have¦G2532 received¦G3880 in¦G1722 the¦G1722 Lord¦G2962, that¦G2443 you¦G3739 fulfill¦G4137 it¦G2532.” "
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "COL 4:18"
+    },
+    "I¦G1473, Paul¦G3972, write this¦G3588 greeting with¦G3326 my¦G1699 own¦G1699 hand¦G5495. Remember¦G3421 my¦G1699 chains¦G1199. Grace¦G5485 be¦G3588 with¦G3326 you¦G5210. Amen. "
+   ]
+  }
+ ]
+}
