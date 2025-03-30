@@ -65,7 +65,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
                       controller: viewModel.webviewController,
                     ),
                   ),
-                  if (viewModel.primaryAreaBible != 'KJV' || viewModel.secondaryAreaBible != 'KJV')
+                  if (viewModel.primaryAreaBible.startsWith('OET') || viewModel.secondaryAreaBible.startsWith('OET'))
                     Container(
                       color: context.theme.appColors.background,
                       padding: const EdgeInsets.symmetric(vertical: 4.0, horizontal: 12.0),

@@ -3,6 +3,7 @@ import '../common/enums.dart';
 import '../models/bibles/kjv_bible.dart';
 import '../models/bibles/oet_lv_bible.dart';
 import '../models/bibles/oet_rv_bible.dart';
+import '../models/bibles/web_bible.dart';
 import 'bibles_service.dart';
 
 class ReaderService {
@@ -29,6 +30,9 @@ class ReaderService {
       return await bibleImpl.getBook(area, bookCode, bookmarks, showMarks, showChaptersAndVerses);
     } else if (bibleCode == 'KJV') {
       var bibleImpl = KJVBibleImpl(json);
+      return await bibleImpl.getBook(area, bookCode, bookmarks, showMarks, showChaptersAndVerses);
+    } else if (bibleCode == 'WEB') {
+      var bibleImpl = WEBBibleImpl(json);
       return await bibleImpl.getBook(area, bookCode, bookmarks, showMarks, showChaptersAndVerses);
     } else {
       return 'Invalid bibleCode.';
