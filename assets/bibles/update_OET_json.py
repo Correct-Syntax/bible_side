@@ -53,7 +53,6 @@ RV_FILE_MAPPING = {
   # "OET-RV_OBA.ESFM": "OBA.json",
   # "OET-RV_JNA.ESFM": "JNA.json",
   # "OET-RV_MIC.ESFM": "MIC.json",
-  # "OET-RV_RUT.ESFM": "RUT.json",
   # "OET-RV_NAH.ESFM": "NAH.json",
   # "OET-RV_HAB.ESFM": "HAB.json",
   # "OET-RV_ZEP.ESFM": "ZEP.json",
