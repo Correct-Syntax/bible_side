@@ -1,4 +1,3 @@
-import 'dart:developer';
 import '../../common/enums.dart';
 import '../json_to_bible.dart';
 import '../search_result.dart';

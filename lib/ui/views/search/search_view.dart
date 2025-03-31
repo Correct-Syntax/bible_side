@@ -67,8 +67,11 @@ class SearchView extends StackedView<SearchViewModel> {
                   child: Text(
                     viewModel.isBusy
                         ? ''
-                        : viewModel.getSearchResultMessage(viewModel.searchTerm, viewModel.searchSectionFilter,
-                            'KJV'), // TODO: viewModel.currentBible),
+                        : viewModel.getSearchResultMessage(
+                            viewModel.searchTerm,
+                            viewModel.searchSectionFilter,
+                            viewModel.currentBible,
+                          ),
                     style: TextStyle(
                       color: context.theme.appColors.secondary,
                       fontSize: 12.0,
