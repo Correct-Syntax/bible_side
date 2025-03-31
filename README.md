@@ -18,7 +18,7 @@ Bibleside implements the OET's "Reader's" version in the main area and a toggle 
 - [x] Open English Translation [Literal Version](https://openenglishtranslation.bible/Design/LiteralVersion)
 - [x] King James Version
 - [ ] King James Version with Strongs numbering
-- [ ] WEB (World English Bible)
+- [x] WEB (World English Bible)
 
 Others?
 
