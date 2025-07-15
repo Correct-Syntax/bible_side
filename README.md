@@ -9,7 +9,7 @@ Bibleside implements the OET's "Reader's" version in the main area and a toggle 
 
 ## Try the app
 
-**Bibleside is currently in closed testing on Google Play. [Click here](https://play.google.com/apps/testing/com.bibleside.bibleside) to become a tester and provide early alpha version feedback.** The same alpha version of the Bibleside app can also be found on [F-droid](https://f-droid.org/en/packages/com.bibleside.bibleside/) if you prefer.
+Get Bibleside (alpha version) on [F-droid](https://f-droid.org/en/packages/com.bibleside.bibleside/) or from the GitHub releases page [here](https://github.com/Correct-Syntax/bible_side/releases).
 
 
 ## Bible versions
