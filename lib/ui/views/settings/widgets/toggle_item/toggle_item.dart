@@ -36,7 +36,7 @@ class ToggleItem extends StackedView<ToggleItemModel> {
             ),
           ),
           Switch(
-            activeColor: context.theme.appColors.background,
+            activeThumbColor: context.theme.appColors.background,
             activeTrackColor: context.theme.appColors.switchBackground,
             inactiveThumbColor: context.theme.appColors.primary,
             inactiveTrackColor: context.theme.appColors.background,

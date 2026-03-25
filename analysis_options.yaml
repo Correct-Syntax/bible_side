@@ -1,4 +1,8 @@
-include: package:flutter_lints/flutter.yaml
+analyzer:
+  exclude:
+    - 'stacked_themes/**'
+    - '**/*.g.dart'
+    - 'lib/app/**'
 
 linter:
   # The lint rules applied to this project can be customized in the

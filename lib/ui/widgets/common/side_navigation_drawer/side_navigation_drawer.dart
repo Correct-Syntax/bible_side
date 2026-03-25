@@ -77,7 +77,7 @@ class SideNavigationDrawer extends StackedView<SideNavigationDrawerModel> {
                       children: [
                         PhosphorIcon(
                           PhosphorIcons.bookOpenText(PhosphorIconsStyle.regular),
-                          color: context.theme.appColors.primaryOnDark.withOpacity(0.9),
+                          color: context.theme.appColors.primaryOnDark.withAlpha(220),
                           size: 24.0,
                         ),
                         const SizedBox(width: 12.0),
@@ -106,7 +106,7 @@ class SideNavigationDrawer extends StackedView<SideNavigationDrawerModel> {
                       children: [
                         PhosphorIcon(
                           PhosphorIcons.bookmarksSimple(PhosphorIconsStyle.regular),
-                          color: context.theme.appColors.primaryOnDark.withOpacity(0.8),
+                          color: context.theme.appColors.primaryOnDark.withAlpha(220),
                           size: 24.0,
                         ),
                         const SizedBox(width: 12.0),
@@ -135,7 +135,7 @@ class SideNavigationDrawer extends StackedView<SideNavigationDrawerModel> {
                       children: [
                         PhosphorIcon(
                           PhosphorIcons.magnifyingGlass(PhosphorIconsStyle.regular),
-                          color: context.theme.appColors.primaryOnDark.withOpacity(0.7),
+                          color: context.theme.appColors.primaryOnDark.withAlpha(220),
                           size: 24.0,
                         ),
                         const SizedBox(width: 12.0),
@@ -164,7 +164,7 @@ class SideNavigationDrawer extends StackedView<SideNavigationDrawerModel> {
                       children: [
                         PhosphorIcon(
                           PhosphorIcons.gear(PhosphorIconsStyle.regular),
-                          color: context.theme.appColors.primaryOnDark.withOpacity(0.7),
+                          color: context.theme.appColors.primaryOnDark.withAlpha(220),
                           size: 24.0,
                         ),
                         const SizedBox(width: 12.0),
