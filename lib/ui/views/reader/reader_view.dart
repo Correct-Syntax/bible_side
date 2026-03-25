@@ -117,12 +117,12 @@ class ReaderView extends StackedView<ReaderViewModel> {
         onTapBibleVersion: () => viewModel.onTapBibleVersion(Area.primary),
         onTapMenu: () => _scaffoldKey.currentState?.openEndDrawer(),
       ),
-      floatingActionButton: kDebugMode
-          ? FloatingActionButton.small(
-              backgroundColor: context.theme.appColors.appbarBackground,
-              onPressed: viewModel.onRefreshDebug,
-            )
-          : null,
+      // floatingActionButton: kDebugMode
+      //     ? FloatingActionButton.small(
+      //         backgroundColor: context.theme.appColors.appbarBackground,
+      //         onPressed: viewModel.onRefreshDebug,
+      //       )
+      //     : null,
     );
   }
 
