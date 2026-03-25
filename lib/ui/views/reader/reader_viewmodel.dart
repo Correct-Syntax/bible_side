@@ -125,7 +125,7 @@ class ReaderViewModel extends ReactiveViewModel {
     await AndroidWebViewController.enableDebugging(true);
   }
 
-  /// Initilizes the webview html with everything except for the reader area contents.
+  /// Initializes the webview html with everything except for the reader area contents.
   Future<void> initilizeReaderWebview(
       String primaryAreaHTML, String secondaryAreaHTML, bool showSecondaryArea, bool linkReaderAreaScrolling) async {
     // Load font
@@ -549,7 +549,7 @@ class ReaderViewModel extends ReactiveViewModel {
   }
 
   Future<void> setBookmark(String bookmarkId) async {
-    // Save ids without a specific reader area indentifier.
+    // Save ids without a specific reader area identifier.
     bookmarkId = bookmarkId.replaceAll('primary-', '').replaceAll('secondary-', '');
 
     // Update the icons in both reader areas.
