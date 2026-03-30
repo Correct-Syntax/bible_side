@@ -19,7 +19,22 @@ class SearchViewModel extends ReactiveViewModel {
   String? get searchSectionFilter => _searchService.searchSectionFilter;
   List<SearchResult> get searchResults => _searchService.searchResults;
 
-  String getSearchResultMessage(String searchTerm, String? sectionFilter, String currentBible) {
+  // Book and chapter selection state
+  String? _selectedBookCode;
+  int? _selectedChapter;
+
+  String? get selectedBookCode => _selectedBookCode;
+  int? get selectedChapter => _selectedChapter;
+
+  // Get available chapters for the selected book
+  List<int> get availableChapters {
+    if (_selectedBookCode == null) return [];
+    final totalChapters = bookNumOfChaptersMapping[_selectedBookCode] ?? 0;
+    return List.generate(totalChapters, (index) => index + 1);
+  }
+
+  String getSearchResultMessage(
+      String searchTerm, String? sectionFilter, String currentBible) {
     int numOfResults = searchResults.length;
     if (numOfResults == 0 && searchTerm == '') {
       return 'Search for a word or a passage in the $currentBible';
@@ -51,7 +66,8 @@ class SearchViewModel extends ReactiveViewModel {
   }
 
   void onTapSearchResult(String bookCode, int chapter, int verse) {
-    _biblesService.setBook(BooksMapping.bookNameFromBookCode(bookCode));
+    //_biblesService.setBook(BooksMapping.bookNameFromBookCode(bookCode));
+    _biblesService.setBook(bookCode);
 
     _biblesService.setChapter(chapter);
     _biblesService.setVerse(verse);
@@ -60,6 +76,32 @@ class SearchViewModel extends ReactiveViewModel {
 
   void onPopInvoked(bool didPop, Object? result) async {
     _navigationService.clearStackAndShow(Routes.readerView);
+  }
+
+  // Handle book selection from dropdown
+  void onBookSelected(String bookCode) {
+    if (bookCode.isEmpty) {
+      _selectedBookCode = null;
+      _selectedChapter = null;
+    } else {
+      _selectedBookCode = bookCode;
+      _selectedChapter = 1; // Default to chapter 1 when book changes
+    }
+    rebuildUi();
+  }
+
+  // Handle chapter selection from dropdown
+  void onChapterSelected(int? chapter) {
+    _selectedChapter = chapter;
+    //Modified this function to navigate to the selected chapter imediately when chapter selected.
+    //rebuildUi();
+
+    _biblesService.setBook(_selectedBookCode!);
+
+    _biblesService.setChapter(_selectedChapter!);
+    _biblesService.setVerse(1);
+    //_navigationService.clearStackAndShow(Routes.readerView);
+    _navigationService.navigateTo(Routes.readerView);
   }
 
   @override
