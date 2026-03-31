@@ -9,6 +9,7 @@ import 'search_viewmodel.dart';
 import 'widgets/search_filter_bar/search_filter_bar.dart';
 import 'widgets/search_result_item/search_result_item.dart';
 import 'widgets/searchbar/searchbar.dart';
+import 'widgets/search_auto_complete_dropdown/search_auto_complete_dropdown.dart';
 
 class SearchView extends StackedView<SearchViewModel> {
   const SearchView({super.key});
