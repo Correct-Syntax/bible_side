@@ -57,6 +57,14 @@ class SearchViewModel extends ReactiveViewModel {
     rebuildUi();
   }
 
+  Future<void> onSearchHeaders(String searchTerm) async {
+    setBusy(true);
+    _searchService.setSearchTerm(searchTerm);
+    await _searchService.searchHeaders(searchTerm);
+    setBusy(false);
+    rebuildUi();
+  }
+
   Future<void> onSelectSectionFilter(String? item) async {
     setBusy(true);
     _searchService.setSearchSectionFilter(item);

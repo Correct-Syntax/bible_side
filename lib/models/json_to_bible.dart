@@ -44,7 +44,8 @@ abstract class JsonToBible {
     return '~';
   }
 
-  Future<List<SearchResult>> getSearchResults(String bookCode, String searchTerm) async {
+  Future<List<SearchResult>> getSearchResults(
+      String bookCode, String searchTerm) async {
     return [];
   }
 }

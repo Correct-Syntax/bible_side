@@ -84,7 +84,8 @@ class ReaderViewModel extends ReactiveViewModel {
   }
 
   Future<void> setupWebviewController() async {
-    PlatformWebViewControllerCreationParams params = const PlatformWebViewControllerCreationParams();
+    PlatformWebViewControllerCreationParams params =
+        const PlatformWebViewControllerCreationParams();
     webviewController = WebViewController.fromPlatformCreationParams(params)
       ..setBackgroundColor(context.theme.appColors.background)
       ..enableZoom(false)
@@ -118,6 +119,11 @@ class ReaderViewModel extends ReactiveViewModel {
             if (request.url.startsWith('http')) {
               return NavigationDecision.prevent;
             }
+            final uri = Uri.parse(request.url);
+            if (uri.scheme == 'app') {
+              _handleAppNavigation(uri);
+              return NavigationDecision.prevent;
+            }
             return NavigationDecision.navigate;
           },
         ),
@@ -125,11 +131,28 @@ class ReaderViewModel extends ReactiveViewModel {
     await AndroidWebViewController.enableDebugging(true);
   }
 
+  void _handleAppNavigation(Uri uri) {
+    final path = uri.pathSegments.first;
+
+    switch (path) {
+      case 'WordLinksView':
+        _navigationService.navigateTo(
+          Routes.wordLinksView,
+          //arguments: GreekWordViewArguments(word: uri.queryParameters['word']),
+        );
+        break;
+    }
+  }
+
   /// Initializes the webview html with everything except for the reader area contents.
   Future<void> initilizeReaderWebview(
-      String primaryAreaHTML, String secondaryAreaHTML, bool showSecondaryArea, bool linkReaderAreaScrolling) async {
+      String primaryAreaHTML,
+      String secondaryAreaHTML,
+      bool showSecondaryArea,
+      bool linkReaderAreaScrolling) async {
     // Load font
-    ByteData fontData = await rootBundle.load('assets/fonts/Merriweather/Merriweather-Regular.ttf');
+    ByteData fontData = await rootBundle
+        .load('assets/fonts/Merriweather/Merriweather-Regular.ttf');
     String fontUri = getFontUri(fontData, 'font/truetype').toString();
 
     // Theme
@@ -399,6 +422,7 @@ class ReaderViewModel extends ReactiveViewModel {
 
   <div class="container ${showSecondaryArea == false ? "hidden" : ""}" id="container">
     <div id="secondaryReader" class="scrollable">
+    <a href="app://screen/WordLinksView">WORDLINK TEST</a>
       $secondaryAreaHTML
     </div>
 
@@ -472,39 +496,47 @@ class ReaderViewModel extends ReactiveViewModel {
 
   String getFontUri(ByteData data, String mime) {
     final buffer = data.buffer;
-    return Uri.dataFromBytes(buffer.asUint8List(data.offsetInBytes, data.lengthInBytes), mimeType: mime).toString();
+    return Uri.dataFromBytes(
+            buffer.asUint8List(data.offsetInBytes, data.lengthInBytes),
+            mimeType: mime)
+        .toString();
   }
 
-  Future<void> updateReaderAreaHTMLContent(Area area, String htmlContent) async {
+  Future<void> updateReaderAreaHTMLContent(
+      Area area, String htmlContent) async {
     String areaId;
     if (area == Area.primary) {
       areaId = 'primaryReader';
     } else {
       areaId = 'secondaryReader';
     }
-    await webviewController.runJavaScript('document.getElementById("$areaId").innerHTML = "$htmlContent";');
+    await webviewController.runJavaScript(
+        'document.getElementById("$areaId").innerHTML = "$htmlContent";');
     rebuildUi();
   }
 
   Future<void> jumpToHTMLId(String id) async {
-    await webviewController.runJavaScript('document.getElementById("$id").scrollIntoView();');
+    await webviewController
+        .runJavaScript('document.getElementById("$id").scrollIntoView();');
   }
 
   Future<void> toggleSecondaryAreaHTML(bool showSecondaryArea) async {
     if (showSecondaryArea == false) {
-      await webviewController.runJavaScript('document.getElementById("container").classList.add("hidden");');
+      await webviewController.runJavaScript(
+          'document.getElementById("container").classList.add("hidden");');
     } else {
-      await webviewController.runJavaScript('document.getElementById("container").classList.remove("hidden");');
+      await webviewController.runJavaScript(
+          'document.getElementById("container").classList.remove("hidden");');
     }
   }
 
   Future<void> toggleLinkedScrollingHTML(bool linkScrolling) async {
     if (linkScrolling == true) {
-      await webviewController
-          .runJavaScript('elements.forEach((ele) => {ele.addEventListener("scroll", handleScroll);});');
+      await webviewController.runJavaScript(
+          'elements.forEach((ele) => {ele.addEventListener("scroll", handleScroll);});');
     } else {
-      await webviewController
-          .runJavaScript('elements.forEach((ele) => {ele.removeEventListener("scroll", handleScroll);});');
+      await webviewController.runJavaScript(
+          'elements.forEach((ele) => {ele.removeEventListener("scroll", handleScroll);});');
     }
   }
 
@@ -550,7 +582,8 @@ class ReaderViewModel extends ReactiveViewModel {
 
   Future<void> setBookmark(String bookmarkId) async {
     // Save ids without a specific reader area identifier.
-    bookmarkId = bookmarkId.replaceAll('primary-', '').replaceAll('secondary-', '');
+    bookmarkId =
+        bookmarkId.replaceAll('primary-', '').replaceAll('secondary-', '');
 
     // Update the icons in both reader areas.
     await webviewController.runJavaScript('''
@@ -623,10 +656,13 @@ class ReaderViewModel extends ReactiveViewModel {
   void onToggleLinkedScrolling() async {
     _settingsService.setLinkReaderAreaScrolling(!linkReaderAreaScrolling);
     await toggleLinkedScrollingHTML(linkReaderAreaScrolling);
-    showToastMsg(linkReaderAreaScrolling == true ? 'Scrolling is linked' : 'Scrolling is unlinked');
+    showToastMsg(linkReaderAreaScrolling == true
+        ? 'Scrolling is linked'
+        : 'Scrolling is unlinked');
     rebuildUi();
   }
 
   @override
-  List<ListenableServiceMixin> get listenableServices => [_settingsService, _biblesService];
+  List<ListenableServiceMixin> get listenableServices =>
+      [_settingsService, _biblesService];
 }

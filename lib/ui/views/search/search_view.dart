@@ -106,17 +106,48 @@ class SearchView extends StackedView<SearchViewModel> {
                   ),
                 ),
                 Center(
+                  child: Padding(
+                    padding: const EdgeInsets.only(bottom: 12.0),
+                    child: Text(
+                      'Advanced Search',
+                      style: TextStyle(
+                        color: context.theme.appColors.primary,
+                        fontSize: 18.0,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
+                  ),
+                ),
+                Center(
                   child: Text(
-                    'Advanced Search',
+                    'Header Search',
                     style: TextStyle(
-                      color: context.theme.appColors.primary,
-                      fontSize: 18.0,
+                      color: Colors.grey,
+                      fontSize: 16.0,
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 8.0),
+                  child: Searchbar(
+                    hintText: 'Search Headers…',
+                    onSearch: (value) => viewModel.onSearchHeaders(value),
+                  ),
+                ),
+                Center(
+                  child: Text(
+                    'Full-Text Search',
+                    style: TextStyle(
+                      color: Colors.grey,
+                      fontSize: 16.0,
                       fontWeight: FontWeight.w500,
                     ),
                   ),
                 ),
                 Searchbar(
                   onSearch: (value) => viewModel.onSearch(value),
+                  hintText: 'Full-Text Search…',
                 ),
                 SearchFilterBar(
                   selectedItem: viewModel.searchSectionFilter,
