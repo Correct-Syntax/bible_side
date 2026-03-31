@@ -1,569 +1,724 @@
 {
-  "book": {
-    "bookCode": "JUD",
-    "meta": [
-      {
-        "usfm": "3.0"
-      },
-      {
-        "ide": "UTF-8"
-      },
-      {
-        "rem": "ESFM v0.6 JDE"
-      },
-      {
-        "rem": "WORDTABLE OET-LV_NT_word_table.tsv"
-      },
-      {
-        "rem": "The VLT source table used to create this file is Copyright © 2022 by https://GreekCNTR.org"
-      },
-      {
-        "rem": "ESFM file originally created 2024-09-05 17:48 by Extract_VLT_NT_to_ESFM v0.97"
-      },
-      {
-        "rem": "USFM file edited by ScriptedBibleEditor v0.31"
-      },
-      {
-        "h": "Youdas/(Yəhūdāh)"
-      },
-      {
-        "toc1": "Youdas/(Yəhūdāh)"
-      },
-      {
-        "toc2": "Youdas/(Yəhūdāh)"
-      },
-      {
-        "toc3": "Youdas/(Yəhūdāh)"
-      },
-      {
-        "mt1": "Youdas/(Yəhūdāh)"
-      }
-    ]
+ "type": "USJ",
+ "version": "3.1",
+ "content": [
+  {
+   "type": "book",
+   "marker": "id",
+   "code": "JUD",
+   "content": []
   },
-  "chapters": [
+  {
+   "type": "para",
+   "marker": "ide",
+   "content": [
+    "UTF-8\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "ESFM v0.6 JDE\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "WORDTABLE OET-LV_NT_word_table.tsv\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "The VLT source table used to create this file is Copyright © 2022 by https://GreekCNTR.org\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "ESFM file originally created 2026-03-23 21:37 by Extract_VLT_NT_to_ESFM v0.99\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "USFM file edited by ScriptedBibleEditor v0.35\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "h",
+   "content": [
+    "Youdas/(Yəhūdāh)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc1",
+   "content": [
+    "Youdas/(Yəhūdāh)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc2",
+   "content": [
+    "Youdas/(Yəhūdāh)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc3",
+   "content": [
+    "Youdas/(Yəhūdāh)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt1",
+   "content": [
+    "Youdas/(Yəhūdāh)\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "1",
+   "sid": "JUD 1"
+  },
+  {
+   "type": "para",
+   "marker": "nb",
+   "content": [
     {
-      "chapterNumber": "1",
-      "contents": [
-        {
-          "verseNumber": "1",
-          "contents": [
-            "Youdas/(Yəhūdāh)¦155738, slave¦155741 of¦155739_",
-            {
-              "nd": "Yaʸsous/(Yəhōshūˊa)¦155739 chosen¦155740_one¦155740/messiah¦155740",
-              "closing": "\\nd*"
-            },
-            ", and¦155743 brother¦155742 of¦155744_Yakōbos/(Yaˊₐqoⱱ)¦155744, to¦155745_the¦155745",
-            {
-              "add": ">ones¦155745",
-              "closing": "\\add*"
-            },
-            "called¦155757 having¦155749_been¦155749_loved¦155749 by¦155746",
-            {
-              "nd": "god¦155747",
-              "closing": "\\nd*"
-            },
-            {
-              "add": "+the¦155748",
-              "closing": "\\add*"
-            },
-            "_father¦155748, and¦155751 having¦155756_been¦155756_kept¦155756 in¦155752_",
-            {
-              "nd": "Yaʸsous¦155752 chosen¦155754_one¦155754/messiah¦155754",
-              "closing": "\\nd*"
-            },
-            ":"
-          ],
-          "verseText": "Youdas/(Yəhūdāh)¦155738, slave¦155741 of¦155739_ Yaʸsous/(Yəhōshūˊa)¦155739 chosen¦155740_one¦155740/messiah¦155740, and¦155743 brother¦155742 of¦155744_Yakōbos/(Yaˊₐqoⱱ)¦155744, to¦155745_the¦155745>ones¦155745 called¦155757 having¦155749_been¦155749_loved¦155749 by¦155746 god¦155747 +the¦155748 _father¦155748, and¦155751 having¦155756_been¦155756_kept¦155756 in¦155752_ Yaʸsous¦155752 chosen¦155754_one¦155754/messiah¦155754:"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "mercy¦155758 to¦155759_you¦155759_all¦155759, and¦155760 peace¦155761, and¦155762 might¦155764_have¦155764_multiplied¦155764 love¦155763."
-          ],
-          "verseText": "mercy¦155758 to¦155759_you¦155759_all¦155759, and¦155760 peace¦155761, and¦155762 might¦155764_have¦155764_multiplied¦155764 love¦155763."
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "Beloved¦155765, making¦155768 all¦155766 earnestness¦155767 to¦155771_be¦155771_writing¦155771 to¦155772_you¦155772_all¦155772 concerning¦155773 the¦155774 common¦155775 salvation¦155777 of¦155776_us¦155776, I¦155781_had¦155781 necessity¦155780 to¦155782_write¦155782 to¦155784_you¦155784_all¦155784, exhorting¦155785",
-            {
-              "add": "you¦155785",
-              "closing": "\\add*"
-            },
-            "to¦155786_be¦155786_contending¦155786 for¦155788_the¦155788 faith¦155794 having¦155790_been¦155790_given¦155790_over¦155790 once¦155789 to¦155792_the¦155792 holy¦155793",
-            {
-              "add": ">ones¦155793",
-              "closing": "\\add*"
-            },
-            "."
-          ],
-          "verseText": "Beloved¦155765, making¦155768 all¦155766 earnestness¦155767 to¦155771_be¦155771_writing¦155771 to¦155772_you¦155772_all¦155772 concerning¦155773 the¦155774 common¦155775 salvation¦155777 of¦155776_us¦155776, I¦155781_had¦155781 necessity¦155780 to¦155782_write¦155782 to¦155784_you¦155784_all¦155784, exhorting¦155785 you¦155785 to¦155786_be¦155786_contending¦155786 for¦155788_the¦155788 faith¦155794 having¦155790_been¦155790_given¦155790_over¦155790 once¦155789 to¦155792_the¦155792 holy¦155793>ones¦155793."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "For/Because¦155797 some¦155798 people¦155799 sneaked¦155795_in¦155795",
-            {
-              "untr": "which¦155800",
-              "closing": "\\untr*"
-            },
-            "long¦155802_ago¦155802 having¦155803_been¦155803_previously¦155803_written¦155803 for¦155804 this¦155805",
-            {
-              "untr": "the¦155806",
-              "closing": "\\untr*"
-            },
-            "judgment¦155807, ungodly¦155808",
-            {
-              "add": ">ones¦155808",
-              "closing": "\\add*"
-            },
-            ", replacing¦155816 the¦155809 grace¦155815 of¦155811_the¦155811",
-            {
-              "nd": "god¦155812",
-              "closing": "\\nd*"
-            },
-            "of¦155813_us¦155813 into¦155817 wantonness¦155818, and¦155819 disowning¦155832 the¦155820 only¦155822 master¦155824 and¦155826",
-            {
-              "nd": "master¦155827",
-              "closing": "\\nd*"
-            },
-            "of¦155828_us¦155828,",
-            {
-              "nd": "Yaʸsous¦155829 chosen¦155830_one¦155830/messiah¦155830",
-              "closing": "\\nd*"
-            },
-            "."
-          ],
-          "verseText": "For/Because¦155797 some¦155798 people¦155799 sneaked¦155795_in¦155795 long¦155802_ago¦155802 having¦155803_been¦155803_previously¦155803_written¦155803 for¦155804 this¦155805 judgment¦155807, ungodly¦155808>ones¦155808, replacing¦155816 the¦155809 grace¦155815 of¦155811_the¦155811 god¦155812 of¦155813_us¦155813 into¦155817 wantonness¦155818, and¦155819 disowning¦155832 the¦155820 only¦155822 master¦155824 and¦155826 master¦155827 of¦155828_us¦155828, Yaʸsous¦155829 chosen¦155830_one¦155830/messiah¦155830."
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "And¦155836 to¦155834_remind¦155834 you¦155837_all¦155837 I¦155838_am¦155838_wishing¦155838, having¦155840_perceived¦155840 you¦155841_all¦155841 once¦155842 all¦155843",
-            {
-              "add": ">things¦155843",
-              "closing": "\\add*"
-            },
-            ", that¦155846",
-            {
-              "nd": "Yaʸsous¦155850",
-              "closing": "\\nd*"
-            },
-            "having¦155857_saved¦155857",
-            {
-              "add": "+a¦155853",
-              "closing": "\\add*"
-            },
-            "_people¦155853 out¦155854_of¦155854",
-            {
-              "add": "+the¦155855",
-              "closing": "\\add*"
-            },
-            "_land¦155855 of¦155856_Aiguptos/(Miʦrayim)¦155856, in¦155858_the¦155858 second¦155859",
-            {
-              "add": "place¦155859",
-              "closing": "\\add*"
-            },
-            "destroyed¦155863 the¦155860",
-            {
-              "add": ">ones¦155860",
-              "closing": "\\add*"
-            },
-            "not¦155861 having¦155862_believed¦155862."
-          ],
-          "verseText": "And¦155836 to¦155834_remind¦155834 you¦155837_all¦155837 I¦155838_am¦155838_wishing¦155838, having¦155840_perceived¦155840 you¦155841_all¦155841 once¦155842 all¦155843>things¦155843, that¦155846 Yaʸsous¦155850 having¦155857_saved¦155857 +a¦155853 _people¦155853 out¦155854_of¦155854 +the¦155855 _land¦155855 of¦155856_Aiguptos/(Miʦrayim)¦155856, in¦155858_the¦155858 second¦155859 place¦155859 destroyed¦155863 the¦155860>ones¦155860 not¦155861 having¦155862_believed¦155862."
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "And¦155866",
-            {
-              "add": "+the¦155864",
-              "closing": "\\add*"
-            },
-            "_messengers¦155864",
-            {
-              "untr": "which¦155867",
-              "closing": "\\untr*"
-            },
-            "not¦155868 having¦155869_kept¦155869 the¦155870 rule¦155872 of¦155871_themselves¦155871, but¦155873 having¦155874_left¦155874_behind¦155874 their¦155875 own¦155876 dwelling¦155877, has¦155886_kept¦155886 in¦155882_ eternal¦155883 _bonds¦155882 under¦155884 darkness¦155885 to¦155878",
-            {
-              "add": "+the¦155879",
-              "closing": "\\add*"
-            },
-            "_judgment¦155879 of¦155880_",
-            {
-              "add": "+the¦155880",
-              "closing": "\\add*"
-            },
-            "_great¦155880 day¦155881."
-          ],
-          "verseText": "And¦155866 +the¦155864 _messengers¦155864 not¦155868 having¦155869_kept¦155869 the¦155870 rule¦155872 of¦155871_themselves¦155871, but¦155873 having¦155874_left¦155874_behind¦155874 their¦155875 own¦155876 dwelling¦155877, has¦155886_kept¦155886 in¦155882_ eternal¦155883 _bonds¦155882 under¦155884 darkness¦155885 to¦155878 +the¦155879 _judgment¦155879 of¦155880_ +the¦155880 _great¦155880 day¦155881."
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "As¦155887 Sodoma/(Şədom)¦155888 and¦155889 Gomorra/(ˊAmorāh)¦155890, and¦155891 the¦155892 cities¦155895 around¦155893 them¦155894, having¦155901_fornicated¦155901",
-            {
-              "untr": "the¦155896",
-              "closing": "\\untr*"
-            },
-            "in¦155897_",
-            {
-              "add": "+a¦155897",
-              "closing": "\\add*"
-            },
-            "_similar¦155897 manner¦155899 to¦155900_these¦155900, and¦155903 having¦155904_gone¦155904_away¦155904 after¦155905 different¦155907 flesh¦155906, they¦155908_are¦155908_lying¦155908_before¦155908",
-            {
-              "add": "+an¦155911",
-              "closing": "\\add*"
-            },
-            "_example¦155911 of¦155912_",
-            {
-              "add": "+the¦155914",
-              "closing": "\\add*"
-            },
-            "_justice¦155914 undergoing¦155916 eternal¦155913 _fire¦155912."
-          ],
-          "verseText": "As¦155887 Sodoma/(Şədom)¦155888 and¦155889 Gomorra/(ˊAmorāh)¦155890, and¦155891 the¦155892 cities¦155895 around¦155893 them¦155894, having¦155901_fornicated¦155901 in¦155897_ +a¦155897 _similar¦155897 manner¦155899 to¦155900_these¦155900, and¦155903 having¦155904_gone¦155904_away¦155904 after¦155905 different¦155907 flesh¦155906, they¦155908_are¦155908_lying¦155908_before¦155908 +an¦155911 _example¦155911 of¦155912_ +the¦155914 _justice¦155914 undergoing¦155916 eternal¦155913 _fire¦155912."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "Likewise¦155920 however¦155922 also¦155923 these¦155925 dreaming¦155926",
-            {
-              "add": ">ones¦155926",
-              "closing": "\\add*"
-            },
-            ", are¦155929_defiling¦155929",
-            {
-              "add": "+the¦155927",
-              "closing": "\\add*"
-            },
-            "_flesh¦155927 on¦155928_one¦155928_hand¦155928, on¦155932_the¦155932_other¦155932_hand¦155932 they¦155933_are¦155933_rejecting¦155933 mastership¦155930, on¦155936_the¦155936_other¦155936_hand¦155936 they¦155937_are¦155937_slandering¦155937 glories¦155934."
-          ],
-          "verseText": "Likewise¦155920 however¦155922 also¦155923 these¦155925 dreaming¦155926>ones¦155926, are¦155929_defiling¦155929 +the¦155927 _flesh¦155927 on¦155928_one¦155928_hand¦155928, on¦155932_the¦155932_other¦155932_hand¦155932 they¦155933_are¦155933_rejecting¦155933 mastership¦155930, on¦155936_the¦155936_other¦155936_hand¦155936 they¦155937_are¦155937_slandering¦155937 glories¦155934."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "But¦155940",
-            {
-              "untr": "the¦155939",
-              "closing": "\\untr*"
-            },
-            "Miⱪaaʸl/(Mīkā",
-            {
-              "sup": "ʼēl",
-              "closing": "\\sup*"
-            },
-            ")¦155941 the¦155943 archangel¦155944, when¦155946 disputing¦155949 with¦155947_the¦155947 devil¦155948, was¦155950_discussing¦155950 about¦155951 the¦155952 body¦155954 of¦155953_Mōsaʸs/(Mosheh)¦155953, dared¦155956 not¦155955 to¦155958_bring¦155958_",
-            {
-              "add": "+a¦155957",
-              "closing": "\\add*"
-            },
-            "_judgment¦155957 of¦155959_slander¦155959 _against¦155958, but¦155960 said¦155961,",
-            {
-              "add": "+the¦155967",
-              "closing": "\\add*"
-            },
-            "_",
-            {
-              "nd": "master¦155967",
-              "closing": "\\nd*"
-            },
-            "Might¦155962_give¦155962_rebuke¦155962 to¦155964_you¦155964."
-          ],
-          "verseText": "But¦155940 Miⱪaaʸl/(Mīkā ʼēl)¦155941 the¦155943 archangel¦155944, when¦155946 disputing¦155949 with¦155947_the¦155947 devil¦155948, was¦155950_discussing¦155950 about¦155951 the¦155952 body¦155954 of¦155953_Mōsaʸs/(Mosheh)¦155953, dared¦155956 not¦155955 to¦155958_bring¦155958_ +a¦155957 _judgment¦155957 of¦155959_slander¦155959 _against¦155958, but¦155960 said¦155961, +the¦155967 _ master¦155967 Might¦155962_give¦155962_rebuke¦155962 to¦155964_you¦155964."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "But¦155969 these¦155968 as¦155970_much¦155970_as¦155970 on¦155971_one¦155971_hand¦155971 they¦155973_have¦155973_ not¦155972 _known¦155973 they¦155974_are¦155974_slandering¦155974, on¦155976_the¦155976_other¦155976_hand¦155976 as¦155975_much¦155975_as¦155975 naturally¦155977 as¦155978",
-            {
-              "untr": "the¦155979",
-              "closing": "\\untr*"
-            },
-            "illogical¦155980 animals¦155981 are¦155982_understanding¦155982, they¦155985_are¦155985_being¦155985_corrupted¦155985 in¦155983 these¦155984",
-            {
-              "add": ">things¦155984",
-              "closing": "\\add*"
-            },
-            "."
-          ],
-          "verseText": "But¦155969 these¦155968 as¦155970_much¦155970_as¦155970 on¦155971_one¦155971_hand¦155971 they¦155973_have¦155973_ not¦155972 _known¦155973 they¦155974_are¦155974_slandering¦155974, on¦155976_the¦155976_other¦155976_hand¦155976 as¦155975_much¦155975_as¦155975 naturally¦155977 as¦155978 illogical¦155980 animals¦155981 are¦155982_understanding¦155982, they¦155985_are¦155985_being¦155985_corrupted¦155985 in¦155983 these¦155984>things¦155984."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "Woe¦155986 to¦155987_them¦155987. Because¦155989 they¦155994_were¦155994_gone¦155994 in¦155990_the¦155990 way¦155991 of¦155993_",
-            {
-              "untr": "the¦155992",
-              "closing": "\\untr*"
-            },
-            "_Kain/(Qayin)¦155993, and¦155995 they¦156002_were¦156002_poured¦156002_out¦156002 to¦155996_the¦155996 deception¦155997",
-            {
-              "untr": "the¦155998",
-              "closing": "\\untr*"
-            },
-            "of¦156000_Balaʼam/(Bilˊām)¦156000 for¦156001_reward¦156001, and¦156003 in¦156004_the¦156004 controversy¦156005 of¦156007_",
-            {
-              "untr": "the¦156006",
-              "closing": "\\untr*"
-            },
-            "_Kore/(Qoraḩ)¦156007 they¦156008_perished¦156008."
-          ],
-          "verseText": "Woe¦155986 to¦155987_them¦155987. Because¦155989 they¦155994_were¦155994_gone¦155994 in¦155990_the¦155990 way¦155991 of¦155993_ _Kain/(Qayin)¦155993, and¦155995 they¦156002_were¦156002_poured¦156002_out¦156002 to¦155996_the¦155996 deception¦155997 of¦156000_Balaʼam/(Bilˊām)¦156000 for¦156001_reward¦156001, and¦156003 in¦156004_the¦156004 controversy¦156005 of¦156007_ _Kore/(Qoraḩ)¦156007 they¦156008_perished¦156008."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "These¦156009 are¦156010 the¦156011",
-            {
-              "add": ">ones¦156011",
-              "closing": "\\add*"
-            },
-            "in¦156019 the¦156020 love¦156021_feasts¦156021 of¦156023_you¦156023_all¦156023, stains¦156025 fearlessly¦156029 feasting¦156027_with¦156027, shepherding¦156032 themselves¦156031, waterless¦156034 clouds¦156033 being¦156039_carried¦156039_away¦156039 by¦156036 of¦156037_winds¦156037, unfruitful¦156045 late¦156044_autumn¦156044 trees¦156042 having¦156047_died¦156047_off¦156047 twice¦156046 having¦156048_been¦156048_uprooted¦156048,"
-          ],
-          "verseText": "These¦156009 are¦156010 the¦156011>ones¦156011 in¦156019 the¦156020 love¦156021_feasts¦156021 of¦156023_you¦156023_all¦156023, stains¦156025 fearlessly¦156029 feasting¦156027_with¦156027, shepherding¦156032 themselves¦156031, waterless¦156034 clouds¦156033 being¦156039_carried¦156039_away¦156039 by¦156036 of¦156037_winds¦156037, unfruitful¦156045 late¦156044_autumn¦156044 trees¦156042 having¦156047_died¦156047_off¦156047 twice¦156046 having¦156048_been¦156048_uprooted¦156048,"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "wild¦156051 waves¦156050 of¦156053_",
-            {
-              "add": "+the¦156053",
-              "closing": "\\add*"
-            },
-            "_sea¦156053 foaming¦156055_out¦156055 the¦156056 shame¦156058 of¦156057_themselves¦156057, wandering¦156060 stars¦156059, to¦156062_whom¦156062 the¦156063 darkness¦156064 of¦156066_",
-            {
-              "untr": "the¦156065",
-              "closing": "\\untr*"
-            },
-            "_darkness¦156066 has¦156070_been¦156070_kept¦156070 to¦156067",
-            {
-              "add": "+the¦156069",
-              "closing": "\\add*"
-            },
-            "_age¦156069."
-          ],
-          "verseText": "wild¦156051 waves¦156050 of¦156053_ +the¦156053 _sea¦156053 foaming¦156055_out¦156055 the¦156056 shame¦156058 of¦156057_themselves¦156057, wandering¦156060 stars¦156059, to¦156062_whom¦156062 the¦156063 darkness¦156064 of¦156066_ _darkness¦156066 has¦156070_been¦156070_kept¦156070 to¦156067 +the¦156069 _age¦156069."
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "And¦156074 Enōⱪ/(Ḩₐnōk)¦156080",
-            {
-              "add": "+the¦156077",
-              "closing": "\\add*"
-            },
-            "_seventh¦156077 from¦156078 Adam/(ʼĀdām)¦156079 prophesied¦156073 also¦156075 to¦156076_these¦156076, saying¦156081: Behold¦156082,",
-            {
-              "add": "+the¦156085",
-              "closing": "\\add*"
-            },
-            "_",
-            {
-              "nd": "master¦156085",
-              "closing": "\\nd*"
-            },
-            "came¦156083 among¦156086 holy¦156087 tens¦156090_of¦156090_thousands¦156090 of¦156094_him¦156094,"
-          ],
-          "verseText": "And¦156074 Enōⱪ/(Ḩₐnōk)¦156080 +the¦156077 _seventh¦156077 from¦156078 Adam/(ʼĀdām)¦156079 prophesied¦156073 also¦156075 to¦156076_these¦156076, saying¦156081: Behold¦156082, +the¦156085 _ master¦156085 came¦156083 among¦156086 holy¦156087 tens¦156090_of¦156090_thousands¦156090 of¦156094_him¦156094,"
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "to¦156095_execute¦156095 judgment¦156096 against¦156097 all¦156098, and¦156099 to¦156101_rebuke¦156101 all¦156103 the¦156105 ungodly¦156106 concerning¦156108 all¦156109 their¦156110 works¦156111 of¦156112_ungodliness¦156112 of¦156113_them¦156113, which¦156114 they¦156115_acted¦156115_ungodly¦156115, and¦156116 concerning¦156117 all¦156118 the¦156119 hard¦156120",
-            {
-              "add": ">things¦156120",
-              "closing": "\\add*"
-            },
-            ", of¦156123_which¦156123 ungodly¦156128 sinners¦156127 spoke¦156124 against¦156125 him¦156126."
-          ],
-          "verseText": "to¦156095_execute¦156095 judgment¦156096 against¦156097 all¦156098, and¦156099 to¦156101_rebuke¦156101 all¦156103 the¦156105 ungodly¦156106 concerning¦156108 all¦156109 their¦156110 works¦156111 of¦156112_ungodliness¦156112 of¦156113_them¦156113, which¦156114 they¦156115_acted¦156115_ungodly¦156115, and¦156116 concerning¦156117 all¦156118 the¦156119 hard¦156120>things¦156120, of¦156123_which¦156123 ungodly¦156128 sinners¦156127 spoke¦156124 against¦156125 him¦156126."
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "These¦156129 are¦156130 grumblings¦156131 complaining¦156132, following¦156139 according¦156133_to¦156133 the¦156134 lusts¦156135 of¦156138_them¦156138, and¦156140 the¦156141 mouth¦156142 of¦156143_them¦156143 is¦156145_speaking¦156145 arrogant¦156146",
-            {
-              "add": "messages¦156146",
-              "closing": "\\add*"
-            },
-            ", marvelling¦156147 people¦156148 for¦156150_reason¦156150_of¦156150 benefit¦156149."
-          ],
-          "verseText": "These¦156129 are¦156130 grumblings¦156131 complaining¦156132, following¦156139 according¦156133_to¦156133 the¦156134 lusts¦156135 of¦156138_them¦156138, and¦156140 the¦156141 mouth¦156142 of¦156143_them¦156143 is¦156145_speaking¦156145 arrogant¦156146 messages¦156146, marvelling¦156147 people¦156148 for¦156150_reason¦156150_of¦156150 benefit¦156149."
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "But¦156152 you¦156151_all¦156151, beloved¦156153, be¦156155_reminded¦156155 of¦156156_the¦156156 messages¦156157",
-            {
-              "untr": "which¦156158",
-              "closing": "\\untr*"
-            },
-            "having¦156159_been¦156159_previously¦156159_spoken¦156159 by¦156161 the¦156162 ambassadors¦156163 of¦156164_the¦156164",
-            {
-              "nd": "master¦156165",
-              "closing": "\\nd*"
-            },
-            "of¦156166_us¦156166,",
-            {
-              "nd": "Yaʸsous/(Yəhōshūˊa)¦156167 chosen¦156168_one¦156168/messiah¦156168",
-              "closing": "\\nd*"
-            },
-            ","
-          ],
-          "verseText": "But¦156152 you¦156151_all¦156151, beloved¦156153, be¦156155_reminded¦156155 of¦156156_the¦156156 messages¦156157 having¦156159_been¦156159_previously¦156159_spoken¦156159 by¦156161 the¦156162 ambassadors¦156163 of¦156164_the¦156164 master¦156165 of¦156166_us¦156166, Yaʸsous/(Yəhōshūˊa)¦156167 chosen¦156168_one¦156168/messiah¦156168,"
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "that¦156169 they¦156170_were¦156170_saying¦156170 to¦156171_you¦156171_all¦156171: In¦156173",
-            {
-              "add": "+the¦156175",
-              "closing": "\\add*"
-            },
-            "_last¦156175 time¦156178 will¦156181_be¦156181 mockers¦156182 following¦156189 according¦156183_to¦156183 the¦156184 of¦156191_",
-            {
-              "untr": "the¦156190",
-              "closing": "\\untr*"
-            },
-            "_ungodliness¦156191 lusts¦156187 of¦156185_themselves¦156185."
-          ],
-          "verseText": "that¦156169 they¦156170_were¦156170_saying¦156170 to¦156171_you¦156171_all¦156171: In¦156173 +the¦156175 _last¦156175 time¦156178 will¦156181_be¦156181 mockers¦156182 following¦156189 according¦156183_to¦156183 the¦156184 of¦156191_ _ungodliness¦156191 lusts¦156187 of¦156185_themselves¦156185."
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            "These¦156192 are¦156193 the¦156194",
-            {
-              "add": ">ones¦156194",
-              "closing": "\\add*"
-            },
-            "dividing¦156195, soulish¦156197, not¦156199 having¦156200",
-            {
-              "add": "+the¦156198",
-              "closing": "\\add*"
-            },
-            "_",
-            {
-              "nd": "spirit¦156198",
-              "closing": "\\nd*"
-            },
-            "."
-          ],
-          "verseText": "These¦156192 are¦156193 the¦156194>ones¦156194 dividing¦156195, soulish¦156197, not¦156199 having¦156200 +the¦156198 _ spirit¦156198."
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            "But¦156203 you¦156201_all¦156201 beloved¦156204, building¦156205_ yourselves¦156206 _up¦156205. in¦156207_the¦156207 holiest¦156210 faith¦156213 of¦156212_you¦156212_all¦156212, praying¦156220 in¦156217",
-            {
-              "add": "+the¦156218",
-              "closing": "\\add*"
-            },
-            "_ holy¦156219 _",
-            {
-              "nd": "spirit¦156218",
-              "closing": "\\nd*"
-            },
-            "."
-          ],
-          "verseText": "But¦156203 you¦156201_all¦156201 beloved¦156204, building¦156205_ yourselves¦156206 _up¦156205. in¦156207_the¦156207 holiest¦156210 faith¦156213 of¦156212_you¦156212_all¦156212, praying¦156220 in¦156217 +the¦156218 _ holy¦156219 _ spirit¦156218."
-        },
-        {
-          "verseNumber": "21",
-          "contents": [
-            "Keep¦156227 yourselves¦156223 in¦156224",
-            {
-              "add": "+the¦156225",
-              "closing": "\\add*"
-            },
-            "_love¦156225 of¦156226_",
-            {
-              "nd": "god¦156226",
-              "closing": "\\nd*"
-            },
-            ", waiting¦156229_for¦156229 the¦156230 mercy¦156231 of¦156232_the¦156232",
-            {
-              "nd": "master¦156233",
-              "closing": "\\nd*"
-            },
-            "of¦156236_us¦156236,",
-            {
-              "nd": "Yaʸsous¦156237 chosen¦156238_one¦156238/messiah¦156238",
-              "closing": "\\nd*"
-            },
-            ", to¦156239 eternal¦156241 life¦156240."
-          ],
-          "verseText": "Keep¦156227 yourselves¦156223 in¦156224 +the¦156225 _love¦156225 of¦156226_ god¦156226, waiting¦156229_for¦156229 the¦156230 mercy¦156231 of¦156232_the¦156232 master¦156233 of¦156236_us¦156236, Yaʸsous¦156237 chosen¦156238_one¦156238/messiah¦156238, to¦156239 eternal¦156241 life¦156240."
-        },
-        {
-          "verseNumber": "22",
-          "contents": [
-            "And¦156242 on¦156244_one¦156244_hand¦156244 be¦156245_showing¦156245_mercy¦156245 to¦156243_some¦156243 doubting¦156252,"
-          ],
-          "verseText": "And¦156242 on¦156244_one¦156244_hand¦156244 be¦156245_showing¦156245_mercy¦156245 to¦156243_some¦156243 doubting¦156252,"
-        },
-        {
-          "verseNumber": "23",
-          "contents": [
-            "some¦156253 be¦156257_saving¦156257 on¦156254_the¦156254_other¦156254_hand¦156254 snatching¦156261 out¦156258_of¦156258",
-            {
-              "add": "+the¦156260",
-              "closing": "\\add*"
-            },
-            "_fire¦156260, and¦156263 be¦156264_showing¦156264_mercy¦156264 to¦156262_some¦156262 with¦156266 fear¦156267, hating¦156268 even¦156269 the¦156270 clothes¦156276 having¦156274_been¦156274_stained¦156274 by¦156271 the¦156272 flesh¦156273."
-          ],
-          "verseText": "some¦156253 be¦156257_saving¦156257 on¦156254_the¦156254_other¦156254_hand¦156254 snatching¦156261 out¦156258_of¦156258 +the¦156260 _fire¦156260, and¦156263 be¦156264_showing¦156264_mercy¦156264 to¦156262_some¦156262 with¦156266 fear¦156267, hating¦156268 even¦156269 the¦156270 clothes¦156276 having¦156274_been¦156274_stained¦156274 by¦156271 the¦156272 flesh¦156273."
-        },
-        {
-          "verseNumber": "24",
-          "contents": [
-            "And¦156278 to¦156277_the¦156277_ infallible¦156285 _",
-            {
-              "add": ">one¦156277",
-              "closing": "\\add*"
-            },
-            "being¦156279_able¦156279 to¦156281_keep¦156281 you¦156282_all¦156282, and¦156286 to¦156290_stand¦156290 blameless¦156298 in¦156291_front¦156291_of¦156291 the¦156294 glory¦156295 of¦156296_him¦156296, with¦156299 exultation¦156300,"
-          ],
-          "verseText": "And¦156278 to¦156277_the¦156277_ infallible¦156285 _>one¦156277 being¦156279_able¦156279 to¦156281_keep¦156281 you¦156282_all¦156282, and¦156286 to¦156290_stand¦156290 blameless¦156298 in¦156291_front¦156291_of¦156291 the¦156294 glory¦156295 of¦156296_him¦156296, with¦156299 exultation¦156300,"
-        },
-        {
-          "verseNumber": "25",
-          "contents": [
-            "to¦156301_",
-            {
-              "add": "+the¦156301",
-              "closing": "\\add*"
-            },
-            "_only¦156301",
-            {
-              "nd": "god¦156303",
-              "closing": "\\nd*"
-            },
-            "saviour¦156304 of¦156305_us¦156305, through¦156310",
-            {
-              "nd": "Yaʸsous¦156311 chosen¦156312_one¦156312/messiah¦156312",
-              "closing": "\\nd*"
-            },
-            "the¦156313",
-            {
-              "nd": "master¦156314",
-              "closing": "\\nd*"
-            },
-            "of¦156316_us¦156316, glory¦156319, majesty¦156321, dominion¦156322, and¦156323 authority¦156324, before¦156325 all¦156326 the¦156327 age¦156328, and¦156329 now¦156330, and¦156331 to¦156332 all¦156333 the¦156334 ages¦156336. Truly¦156337."
-          ],
-          "verseText": "to¦156301_ +the¦156301 _only¦156301 god¦156303 saviour¦156304 of¦156305_us¦156305, through¦156310 Yaʸsous¦156311 chosen¦156312_one¦156312/messiah¦156312 the¦156313 master¦156314 of¦156316_us¦156316, glory¦156319, majesty¦156321, dominion¦156322, and¦156323 authority¦156324, before¦156325 all¦156326 the¦156327 age¦156328, and¦156329 now¦156330, and¦156331 to¦156332 all¦156333 the¦156334 ages¦156336. Truly¦156337."
-        }
-      ]
-    }
-  ],
-  "_messages": {
-    "_warnings": [
-      "Trailing spaces present at line end. "
-    ]
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "JUD 1:1"
+    },
+    "Youdas/(Yəhūdāh)¦154731, slave¦154734 of¦154732_",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yaʸsous/(Yəhōshūˊa)¦154732 chosen¦154733_one¦154733/messiah¦154733"
+     ]
+    },
+    ", and¦154736 brother¦154735 of¦154737_Yakōbos/(Yaˊₐqoⱱ)¦154737, to¦154738_the¦154738 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      ">ones¦154738"
+     ]
+    },
+    " called¦154750 having¦154742_been¦154742_loved¦154742 by¦154739 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "god¦154740"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "+the¦154741"
+     ]
+    },
+    "_father¦154741, and¦154744 having¦154749_been¦154749_kept¦154749 in¦154745_",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yaʸsous¦154745 chosen¦154747_one¦154747/messiah¦154747"
+     ]
+    },
+    ":\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "JUD 1:2"
+    },
+    "mercy¦154751 to¦154752_you¦154752_all¦154752, and¦154753 peace¦154754, and¦154755 might¦154757_have¦154757_multiplied¦154757 love¦154756.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "JUD 1:3"
+    },
+    "Beloved¦154758, making¦154761 all¦154759 earnestness¦154760 to¦154764_be¦154764_writing¦154764 to¦154765_you¦154765_all¦154765 concerning¦154766 the¦154767 common¦154768 salvation¦154770 of¦154769_us¦154769, I¦154774_had¦154774 necessity¦154773 to¦154775_write¦154775 to¦154777_you¦154777_all¦154777, exhorting¦154778 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "you¦154778"
+     ]
+    },
+    " to¦154779_be¦154779_contending¦154779 for¦154781_the¦154781 faith¦154787 having¦154783_been¦154783_given¦154783_over¦154783 once¦154782 to¦154785_the¦154785 holy¦154786 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      ">ones¦154786"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "JUD 1:4"
+    },
+    "For/Because¦154790 some¦154791 people¦154792 sneaked¦154788_in¦154788 untr which¦154793untr* long¦154795_ago¦154795 having¦154796_been¦154796_previously¦154796_written¦154796 for¦154797 this¦154798 untr the¦154799untr* judgement¦154800, ungodly¦154801 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      ">ones¦154801"
+     ]
+    },
+    ", replacing¦154808 the¦154802 grace¦154807 of¦154804_the¦154804 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "god¦154805"
+     ]
+    },
+    " of¦154806_us¦154806 into¦154809 wantonness¦154810, and¦154811 disowning¦154824 the¦154812 only¦154814 master¦154816 and¦154818 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦154819"
+     ]
+    },
+    " of¦154820_us¦154820, ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yaʸsous¦154821 chosen¦154822_one¦154822/messiah¦154822"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "JUD 1:5"
+    },
+    "And¦154828 to¦154826_remind¦154826 you¦154829_all¦154829 I¦154830_am¦154830_wishing¦154830, having¦154832_perceived¦154832 you¦154833_all¦154833 once¦154834 all¦154835 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      ">things¦154835"
+     ]
+    },
+    ", that¦154838 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yaʸsous¦154842"
+     ]
+    },
+    " having¦154849_saved¦154849 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "+a¦154845"
+     ]
+    },
+    "_people¦154845 out¦154846_of¦154846 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "+the¦154847"
+     ]
+    },
+    "_land¦154847 of¦154848_Aiguptos/(Miʦrayim)¦154848, in¦154850_the¦154850 second¦154851 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "place¦154851"
+     ]
+    },
+    " destroyed¦154855 the¦154852 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      ">ones¦154852"
+     ]
+    },
+    " not¦154853 having¦154854_believed¦154854.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "JUD 1:6"
+    },
+    "And¦154858 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "+the¦154856"
+     ]
+    },
+    "_messengers¦154856 untr which¦154859untr* not¦154860 having¦154861_kept¦154861 the¦154862 rule¦154864 of¦154863_themselves¦154863, but¦154865 having¦154866_left¦154866_behind¦154866 their¦154868 own¦154869 dwelling¦154870, has¦154879_kept¦154879 in¦154875_ eternal¦154876 _bonds¦154875 under¦154877 darkness¦154878 to¦154871 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "+the¦154872"
+     ]
+    },
+    "_judgement¦154872 of¦154873_",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "+the¦154873"
+     ]
+    },
+    "_great¦154873 day¦154874.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "JUD 1:7"
+    },
+    "As¦154880 Sodoma/(Şədom)¦154881 and¦154882 Gomorra/(ˊAmorāh)¦154883, and¦154884 the¦154885 cities¦154888 around¦154886 them¦154887, having¦154894_fornicated¦154894 untr the¦154889untr* in¦154890_",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "+a¦154890"
+     ]
+    },
+    "_similar¦154890 manner¦154892 to¦154893_these¦154893, and¦154896 having¦154897_gone¦154897_away¦154897 after¦154898 different¦154900 flesh¦154899, they¦154901_are¦154901_lying¦154901_before¦154901 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "+an¦154904"
+     ]
+    },
+    "_example¦154904 of¦154905_ ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "+the¦154907"
+     ]
+    },
+    "_justice¦154907 undergoing¦154909 eternal¦154906 _fire¦154905.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "JUD 1:8"
+    },
+    "Likewise¦154913 however¦154915 also¦154916 these¦154918 dreaming¦154919 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      ">ones¦154919"
+     ]
+    },
+    ", are¦154922_defiling¦154922 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "+the¦154920"
+     ]
+    },
+    "_flesh¦154920 on¦154921_one¦154921_hand¦154921, on¦154925_the¦154925_other¦154925_hand¦154925 they¦154926_are¦154926_rejecting¦154926 mastership¦154923, on¦154929_the¦154929_other¦154929_hand¦154929 they¦154930_are¦154930_slandering¦154930 glories¦154927.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "JUD 1:9"
+    },
+    "But¦154933 untr the¦154932untr* Miⱪaaʸl/(Mīkā",
+    {
+     "type": "char",
+     "marker": "sup",
+     "content": [
+      "ʼēl"
+     ]
+    },
+    ")¦154934 the¦154935 archangel¦154936, when¦154938 disputing¦154941 with¦154939_the¦154939 devil¦154940, was¦154942_discussing¦154942 about¦154943 the¦154944 body¦154946 of¦154945_Mōsaʸs/(Mosheh)¦154945, dared¦154948 not¦154947 to¦154950_bring¦154950_ ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "+a¦154949"
+     ]
+    },
+    "_judgement¦154949 of¦154951_slander¦154951 _against¦154950, but¦154952 said¦154953, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "+the¦154959"
+     ]
+    },
+    "_",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦154959"
+     ]
+    },
+    " Might¦154954_give¦154954_rebuke¦154954 to¦154956_you¦154956.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "JUD 1:10"
+    },
+    "But¦154961 these¦154960 as¦154962_much¦154962_as¦154962 on¦154963_one¦154963_hand¦154963 they¦154965_have¦154965_ not¦154964 _known¦154965 they¦154966_are¦154966_slandering¦154966, on¦154968_the¦154968_other¦154968_hand¦154968 as¦154967_much¦154967_as¦154967 naturally¦154969 as¦154970 untr the¦154971untr* illogical¦154972 animals¦154973 are¦154974_understanding¦154974, they¦154977_are¦154977_being¦154977_corrupted¦154977 in¦154975 these¦154976 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      ">things¦154976"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "JUD 1:11"
+    },
+    "Woe¦154978 to¦154979_them¦154979. Because¦154981 they¦154986_were¦154986_gone¦154986 in¦154982_the¦154982 way¦154983 of¦154985_ untr the¦154984untr* _Kain/(Qayin)¦154985, and¦154987 they¦154994_were¦154994_poured¦154994_out¦154994 to¦154988_the¦154988 deception¦154989 untr the¦154990untr* of¦154992_Balaʼam/(Bilˊām)¦154992 for¦154993_reward¦154993, and¦154995 in¦154996_the¦154996 controversy¦154997 of¦154999_ untr the¦154998untr* _Kore/(Qoraḩ)¦154999 they¦155000_perished¦155000.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "JUD 1:12"
+    },
+    "These¦155001 are¦155002 the¦155003 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      ">ones¦155003"
+     ]
+    },
+    " in¦155011 the¦155012 love¦155013_feasts¦155013 of¦155015_you¦155015_all¦155015, stains¦155017 fearlessly¦155021 feasting¦155019_with¦155019, shepherding¦155024 themselves¦155023, waterless¦155026 clouds¦155025 being¦155031_carried¦155031_away¦155031 by¦155028 of¦155029_winds¦155029, unfruitful¦155037 late¦155036_autumn¦155036 trees¦155034 having¦155039_died¦155039_off¦155039 twice¦155038 having¦155040_been¦155040_uprooted¦155040,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "JUD 1:13"
+    },
+    "wild¦155044 waves¦155042 of¦155046_",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "+the¦155046"
+     ]
+    },
+    "_sea¦155046 foaming¦155048_out¦155048 the¦155049 shame¦155051 of¦155050_themselves¦155050, wandering¦155053 stars¦155052, to¦155054_whom¦155054 the¦155055 darkness¦155056 of¦155058_ untr the¦155057untr* _darkness¦155058 has¦155062_been¦155062_kept¦155062 to¦155059 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "+the¦155061"
+     ]
+    },
+    "_age¦155061.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "JUD 1:14"
+    },
+    "And¦155065 Enōⱪ/(Ḩₐnōk)¦155071 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "+the¦155068"
+     ]
+    },
+    "_seventh¦155068 from¦155069 Adam/(ʼĀdām)¦155070 prophesied¦155064 also¦155066 to¦155067_these¦155067, saying¦155072: Behold¦155073, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "+the¦155076"
+     ]
+    },
+    "_",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦155076"
+     ]
+    },
+    " came¦155074 among¦155077 holy¦155078 tens¦155081_of¦155081_thousands¦155081 of¦155085_him¦155085,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "JUD 1:15"
+    },
+    "to¦155086_execute¦155086 judgement¦155087 against¦155088 all¦155089, and¦155090 to¦155092_rebuke¦155092 all¦155094 the¦155096 ungodly¦155097 concerning¦155099 all¦155100 their¦155101 works¦155102 of¦155103_ungodliness¦155103 of¦155104_them¦155104, which¦155105 they¦155106_acted¦155106_ungodly¦155106, and¦155107 concerning¦155108 all¦155109 the¦155110 hard¦155111 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      ">things¦155111"
+     ]
+    },
+    ", of¦155114_which¦155114 ungodly¦155119 sinners¦155118 spoke¦155115 against¦155116 him¦155117.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "JUD 1:16"
+    },
+    "These¦155120 are¦155121 grumblings¦155122 complaining¦155123, following¦155130 according¦155124_to¦155124 the¦155125 lusts¦155126 of¦155129_them¦155129, and¦155131 the¦155132 mouth¦155133 of¦155134_them¦155134 is¦155136_speaking¦155136 arrogant¦155137 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "messages¦155137"
+     ]
+    },
+    ", marvelling¦155138 people¦155139 for¦155141_reason¦155141_of¦155141 benefit¦155140.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "JUD 1:17"
+    },
+    "But¦155143 you¦155142_all¦155142, beloved¦155144, be¦155146_reminded¦155146 of¦155147_the¦155147 messages¦155148 untr which¦155149untr* having¦155150_been¦155150_previously¦155150_spoken¦155150 by¦155152 the¦155153 ambassadors¦155154 of¦155155_the¦155155 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦155156"
+     ]
+    },
+    " of¦155157_us¦155157, ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yaʸsous/(Yəhōshūˊa)¦155158 chosen¦155159_one¦155159/messiah¦155159"
+     ]
+    },
+    ",\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "JUD 1:18"
+    },
+    "that¦155160 they¦155161_were¦155161_saying¦155161 to¦155162_you¦155162_all¦155162: In¦155164 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "+the¦155166"
+     ]
+    },
+    "_last¦155166 time¦155169 will¦155172_be¦155172 mockers¦155173 following¦155180 according¦155174_to¦155174 the¦155175 of¦155182_ untr the¦155181untr* _ungodliness¦155182 lusts¦155178 of¦155176_themselves¦155176.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "JUD 1:19"
+    },
+    "These¦155183 are¦155184 the¦155185 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      ">ones¦155185"
+     ]
+    },
+    " dividing¦155186, soulish¦155188, not¦155190 having¦155191 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "+the¦155189"
+     ]
+    },
+    "_",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "spirit¦155189"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "JUD 1:20"
+    },
+    "But¦155194 you¦155192_all¦155192 beloved¦155195, building¦155196_ yourselves¦155197 _up¦155196. in¦155198_the¦155198 holiest¦155201 faith¦155204 of¦155203_you¦155203_all¦155203, praying¦155211 in¦155208 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "+the¦155209"
+     ]
+    },
+    "_ holy¦155210 _",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "spirit¦155209"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "JUD 1:21"
+    },
+    "Keep¦155218 yourselves¦155214 in¦155215 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "+the¦155216"
+     ]
+    },
+    "_love¦155216 of¦155217_",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "god¦155217"
+     ]
+    },
+    ", waiting¦155220_for¦155220 the¦155221 mercy¦155222 of¦155223_the¦155223 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦155224"
+     ]
+    },
+    " of¦155227_us¦155227, ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yaʸsous¦155228 chosen¦155229_one¦155229/messiah¦155229"
+     ]
+    },
+    ", to¦155230 eternal¦155232 life¦155231.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "JUD 1:22"
+    },
+    "And¦155233 on¦155235_one¦155235_hand¦155235 be¦155236_showing¦155236_mercy¦155236 to¦155234_some¦155234 doubting¦155242,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "JUD 1:23"
+    },
+    "some¦155243 be¦155247_saving¦155247 on¦155244_the¦155244_other¦155244_hand¦155244 snatching¦155251 out¦155248_of¦155248 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "+the¦155250"
+     ]
+    },
+    "_fire¦155250, and¦155253 be¦155254_showing¦155254_mercy¦155254 to¦155252_some¦155252 with¦155255 fear¦155256, hating¦155257 even¦155258 the¦155259 clothes¦155265 having¦155263_been¦155263_stained¦155263 by¦155260 the¦155261 flesh¦155262.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "JUD 1:24"
+    },
+    "And¦155267 to¦155266_the¦155266_ infallible¦155274 _",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      ">one¦155266"
+     ]
+    },
+    " being¦155268_able¦155268 to¦155270_keep¦155270 you¦155271_all¦155271, and¦155275 to¦155279_stand¦155279 blameless¦155287 in¦155280_front¦155280_of¦155280 the¦155283 glory¦155284 of¦155285_him¦155285, with¦155288 exultation¦155289,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "25",
+     "sid": "JUD 1:25"
+    },
+    "to¦155290_",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "+the¦155290"
+     ]
+    },
+    "_only¦155290 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "god¦155292"
+     ]
+    },
+    " saviour¦155293 of¦155294_us¦155294, through¦155299 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yaʸsous¦155300 chosen¦155301_one¦155301/messiah¦155301"
+     ]
+    },
+    " the¦155302 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦155303"
+     ]
+    },
+    " of¦155305_us¦155305, glory¦155308, majesty¦155310, dominion¦155311, and¦155312 authority¦155313, before¦155314 all¦155315 the¦155316 age¦155317, and¦155318 now¦155319, and¦155320 to¦155321 all¦155322 the¦155323 ages¦155325. Truly¦155326.\n"
+   ]
   }
+ ]
 }

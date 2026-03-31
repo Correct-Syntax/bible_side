@@ -1,6 +1,8 @@
 # Script to automatically update the OET .json files from the ESFM sources on GitHub.
 # Requirements: Python 3.10+, usfm_grammar, and the Requests package.
 
+# Updated 2026-03-31 by RJH to add OET-LV OT (which is in a separate folder on GitHub) and update all OET files
+
 import re
 import os
 import json
@@ -11,7 +13,8 @@ from usfm_grammar import USFMParser, Filter
 
 
 RV_SOURCE_URL = "https://raw.githubusercontent.com/Freely-Given-org/OpenEnglishTranslation--OET/main/translatedTexts/ReadersVersion/"
-LV_SOURCE_URL = "https://raw.githubusercontent.com/Freely-Given-org/OpenEnglishTranslation--OET/main/intermediateTexts/auto_edited_VLT_ESFM/"
+LV_OT_SOURCE_URL = "https://raw.githubusercontent.com/Freely-Given-org/OpenEnglishTranslation--OET/main/derivedTexts/auto_edited_OT_ESFM/"
+LV_NT_SOURCE_URL = "https://raw.githubusercontent.com/Freely-Given-org/OpenEnglishTranslation--OET/main/derivedTexts/auto_edited_VLT_ESFM/"
 
 DOWNLOAD_DIR = "/.temp"
 TEMP_FILEPATH = "/.temp/.temp"
@@ -20,45 +23,49 @@ RV_LOCAL_PATH = "/OET-RV/"
 LV_LOCAL_PATH = "/OET-LV/"
 
 RV_FILE_MAPPING = {
-  # "OET-RV_GEN.ESFM": "GEN.json",
+  # Commented out the ones which are crashing usfm-grammar (which means that they won't be updating!)
+  "OET-RV_GEN.ESFM": "GEN.json",
   # "OET-RV_EXO.ESFM": "EXO.json",
-  # "OET-RV_LEV.ESFM": "LEV.json",
+  "OET-RV_LEV.ESFM": "LEV.json",
   # "OET-RV_NUM.ESFM": "NUM.json",
-  # "OET-RV_DEU.ESFM": "DEU.json",
-  # "OET-RV_JOS.ESFM": "JOS.json",
-  # "OET-RV_JDG.ESFM": "JDG.json",
-  # "OET-RV_RUT.ESFM": "RUT.json",
-  # "OET-RV_SA1.ESFM": "SA1.json",
-  # "OET-RV_SA2.ESFM": "SA2.json",
+  "OET-RV_DEU.ESFM": "DEU.json",
+  "OET-RV_JOS.ESFM": "JOS.json",
+  "OET-RV_JDG.ESFM": "JDG.json",
+  "OET-RV_RUT.ESFM": "RUT.json",
+  "OET-RV_SA1.ESFM": "SA1.json",
+  "OET-RV_SA2.ESFM": "SA2.json",
   # "OET-RV_KI1.ESFM": "KI1.json",
-  # "OET-RV_KI2.ESFM": "KI2.json",
+  "OET-RV_KI2.ESFM": "KI2.json",
   # "OET-RV_CH1.ESFM": "CH1.json",
-  # "OET-RV_CH2.ESFM": "CH2.json",
-  # "OET-RV_EZR.ESFM": "EZR.json",
-  # "OET-RV_NEH.ESFM": "NEH.json",
-  # "OET-RV_EST.ESFM": "EST.json",
+  "OET-RV_CH2.ESFM": "CH2.json",
+  "OET-RV_EZR.ESFM": "EZR.json",
+  "OET-RV_NEH.ESFM": "NEH.json",
+  "OET-RV_EST.ESFM": "EST.json",
   # "OET-RV_JOB.ESFM": "JOB.json",
   # "OET-RV_PSA.ESFM": "PSA.json",
   # "OET-RV_PRO.ESFM": "PRO.json",
-  # "OET-RV_ECC.ESFM": "ECC.json",
-  # "OET-RV_SNG.ESFM": "SNG.json",
-  # "OET-RV_ISA.ESFM": "ISA.json",
-  # "OET-RV_JER.ESFM": "JER.json",
+  "OET-RV_ECC.ESFM": "ECC.json",
+  "OET-RV_SNG.ESFM": "SNG.json",
+  "OET-RV_ISA.ESFM": "ISA.json",
+  "OET-RV_JER.ESFM": "JER.json",
   # "OET-RV_LAM.ESFM": "LAM.json",
-  # "OET-RV_EZE.ESFM": "EZE.json",
-  # "OET-RV_DAN.ESFM": "DAN.json",
-  # "OET-RV_HOS.ESFM": "HOS.json",
-  # "OET-RV_JOL.ESFM": "JOL.json",
-  # "OET-RV_AMO.ESFM": "AMO.json",
-  # "OET-RV_OBA.ESFM": "OBA.json",
-  # "OET-RV_JNA.ESFM": "JNA.json",
-  # "OET-RV_MIC.ESFM": "MIC.json",
-  # "OET-RV_NAH.ESFM": "NAH.json",
-  # "OET-RV_HAB.ESFM": "HAB.json",
-  # "OET-RV_ZEP.ESFM": "ZEP.json",
-  # "OET-RV_HAG.ESFM": "HAG.json",
-  # "OET-RV_ZEC.ESFM": "ZEC.json",
-  # "OET-RV_MAL.ESFM": "MAL.json",
+  "OET-RV_EZE.ESFM": "EZE.json",
+  "OET-RV_DAN.ESFM": "DAN.json",
+  "OET-RV_HOS.ESFM": "HOS.json",
+  "OET-RV_JOL.ESFM": "JOL.json",
+  "OET-RV_AMO.ESFM": "AMO.json",
+  "OET-RV_OBA.ESFM": "OBA.json",
+  "OET-RV_JNA.ESFM": "JNA.json",
+  "OET-RV_MIC.ESFM": "MIC.json",
+  "OET-RV_NAH.ESFM": "NAH.json",
+  "OET-RV_HAB.ESFM": "HAB.json",
+  "OET-RV_ZEP.ESFM": "ZEP.json",
+  "OET-RV_HAG.ESFM": "HAG.json",
+  "OET-RV_ZEC.ESFM": "ZEC.json",
+  "OET-RV_MAL.ESFM": "MAL.json",
+
+  "OET-RV_MA1.ESFM": "MA1.json", # Added the book of 1 Maccabees just to see what happens
+  "OET-RV_MA2.ESFM": "MA2.json", # Added the book of 2 Maccabees just to see what happens
 
   "OET-RV_MAT.ESFM": "MAT.json",
   "OET-RV_MRK.ESFM": "MRK.json",
@@ -89,48 +96,49 @@ RV_FILE_MAPPING = {
   "OET-RV_REV.ESFM": "REV.json",
 }
 
-LV_FILE_MAPPING = {
-  # "OET-LV_GEN.ESFM": "GEN.json",
-  # "OET-LV_EXO.ESFM": "EXO.json",
-  # "OET-LV_LEV.ESFM": "LEV.json",
-  # "OET-LV_NUM.ESFM": "NUM.json",
-  # "OET-LV_DEU.ESFM": "DEU.json",
-  # "OET-LV_JOS.ESFM": "JOS.json",
-  # "OET-LV_JDG.ESFM": "JDG.json",
-  # "OET-LV_RUT.ESFM": "RUT.json",
-  # "OET-LV_SA1.ESFM": "SA1.json",
-  # "OET-LV_SA2.ESFM": "SA2.json",
-  # "OET-LV_KI1.ESFM": "KI1.json",
-  # "OET-LV_KI2.ESFM": "KI2.json",
-  # "OET-LV_CH1.ESFM": "CH1.json",
-  # "OET-LV_CH2.ESFM": "CH2.json",
-  # "OET-LV_EZR.ESFM": "EZR.json",
-  # "OET-LV_NEH.ESFM": "NEH.json",
-  # "OET-LV_EST.ESFM": "EST.json",
-  # "OET-LV_JOB.ESFM": "JOB.json",
-  # "OET-LV_PSA.ESFM": "PSA.json",
-  # "OET-LV_PRO.ESFM": "PRO.json",
-  # "OET-LV_ECC.ESFM": "ECC.json",
-  # "OET-LV_SNG.ESFM": "SNG.json",
-  # "OET-LV_ISA.ESFM": "ISA.json",
-  # "OET-LV_JER.ESFM": "JER.json",
-  # "OET-LV_LAM.ESFM": "LAM.json",
-  # "OET-LV_EZE.ESFM": "EZE.json",
-  # "OET-LV_DAN.ESFM": "DAN.json",
-  # "OET-LV_HOS.ESFM": "HOS.json",
-  # "OET-LV_JOL.ESFM": "JOL.json",
-  # "OET-LV_AMO.ESFM": "AMO.json",
-  # "OET-LV_OBA.ESFM": "OBA.json",
-  # "OET-LV_JNA.ESFM": "JNA.json",
-  # "OET-LV_MIC.ESFM": "MIC.json",
-  # "OET-LV_RUT.ESFM": "RUT.json",
-  # "OET-LV_NAH.ESFM": "NAH.json",
-  # "OET-LV_HAB.ESFM": "HAB.json",
-  # "OET-LV_ZEP.ESFM": "ZEP.json",
-  # "OET-LV_HAG.ESFM": "HAG.json",
-  # "OET-LV_ZEC.ESFM": "ZEC.json",
-  # "OET-LV_MAL.ESFM": "MAL.json",
-
+LV_OT_FILE_MAPPING = {
+  "OET-LV_GEN.ESFM": "GEN.json",
+  "OET-LV_EXO.ESFM": "EXO.json",
+  "OET-LV_LEV.ESFM": "LEV.json",
+  "OET-LV_NUM.ESFM": "NUM.json",
+  "OET-LV_DEU.ESFM": "DEU.json",
+  "OET-LV_JOS.ESFM": "JOS.json",
+  "OET-LV_JDG.ESFM": "JDG.json",
+  "OET-LV_RUT.ESFM": "RUT.json",
+  "OET-LV_SA1.ESFM": "SA1.json",
+  "OET-LV_SA2.ESFM": "SA2.json",
+  "OET-LV_KI1.ESFM": "KI1.json",
+  "OET-LV_KI2.ESFM": "KI2.json",
+  "OET-LV_CH1.ESFM": "CH1.json",
+  "OET-LV_CH2.ESFM": "CH2.json",
+  "OET-LV_EZR.ESFM": "EZR.json",
+  "OET-LV_NEH.ESFM": "NEH.json",
+  "OET-LV_EST.ESFM": "EST.json",
+  "OET-LV_JOB.ESFM": "JOB.json",
+  "OET-LV_PSA.ESFM": "PSA.json",
+  "OET-LV_PRO.ESFM": "PRO.json",
+  "OET-LV_ECC.ESFM": "ECC.json",
+  "OET-LV_SNG.ESFM": "SNG.json",
+  "OET-LV_ISA.ESFM": "ISA.json",
+  "OET-LV_JER.ESFM": "JER.json",
+  "OET-LV_LAM.ESFM": "LAM.json",
+  "OET-LV_EZE.ESFM": "EZE.json",
+  "OET-LV_DAN.ESFM": "DAN.json",
+  "OET-LV_HOS.ESFM": "HOS.json",
+  "OET-LV_JOL.ESFM": "JOL.json",
+  "OET-LV_AMO.ESFM": "AMO.json",
+  "OET-LV_OBA.ESFM": "OBA.json",
+  "OET-LV_JNA.ESFM": "JNA.json",
+  "OET-LV_MIC.ESFM": "MIC.json",
+  "OET-LV_RUT.ESFM": "RUT.json",
+  "OET-LV_NAH.ESFM": "NAH.json",
+  "OET-LV_HAB.ESFM": "HAB.json",
+  "OET-LV_ZEP.ESFM": "ZEP.json",
+  "OET-LV_HAG.ESFM": "HAG.json",
+  "OET-LV_ZEC.ESFM": "ZEC.json",
+  "OET-LV_MAL.ESFM": "MAL.json",
+}
+LV_NT_FILE_MAPPING = {
   "OET-LV_MAT.ESFM": "MAT.json",
   "OET-LV_MRK.ESFM": "MRK.json",
   "OET-LV_LUK.ESFM": "LUK.json",
@@ -188,8 +196,8 @@ def convert_esfm_to_json(filename, esfm_source_url, local_path, FILE_MAPPING, es
   download_url = f"{esfm_source_url}{filename}"
   download_path = download_esfm_file(download_url)
 
-  print(f"Converting {filename} to json...")
   if download_path != "":
+    print(f"Loading and parsing {filename}...")
     with open(download_path, "r", encoding="utf-8") as file:
       input_esfm = file.read()
       file.close()
@@ -200,7 +208,9 @@ def convert_esfm_to_json(filename, esfm_source_url, local_path, FILE_MAPPING, es
     
     # Convert to (USJ) JSON.
     parser = USFMParser(input_esfm)
-    converted_json = parser.to_usj()
+
+    print(f"Converting parsed {filename} to json...")
+    converted_json = parser.to_usj(ignore_errors=True)
 
     errors = parser.errors
     if errors != []:
@@ -244,8 +254,11 @@ if __name__ == "__main__":
   for filename in RV_FILE_MAPPING.keys():
     convert_esfm_to_json(filename, RV_SOURCE_URL, RV_LOCAL_PATH, RV_FILE_MAPPING)
 
-  print("\nConverting the Literal version...")
-  for filename in LV_FILE_MAPPING.keys():
-    convert_esfm_to_json(filename, LV_SOURCE_URL, LV_LOCAL_PATH, LV_FILE_MAPPING, esfm_workaround=True)
+  print("\nConverting the Literal version OT...")
+  for filename in LV_OT_FILE_MAPPING.keys():
+    convert_esfm_to_json(filename, LV_OT_SOURCE_URL, LV_LOCAL_PATH, LV_OT_FILE_MAPPING, esfm_workaround=True)
+  print("\nConverting the Literal version NT...")
+  for filename in LV_NT_FILE_MAPPING.keys():
+    convert_esfm_to_json(filename, LV_NT_SOURCE_URL, LV_LOCAL_PATH, LV_NT_FILE_MAPPING, esfm_workaround=True)
 
   print("\nDone! The converted .json files are in the /RV/ and /LV/ folders.")
