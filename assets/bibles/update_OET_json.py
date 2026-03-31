@@ -2,11 +2,11 @@
 # Requirements: Python 3.10+, usfm_grammar, and the Requests package.
 
 # Updated 2026-03-31 by RJH to add OET-LV OT (which is in a separate folder on GitHub) and update all OET files
+# Updated 2026-04-01 by RJH to preprocess a couple of things in the OET-RV that the usfm_grammar doesn't like
 
 import re
 import os
 import json
-import subprocess
 from pathlib import Path 
 import requests
 from usfm_grammar import USFMParser, Filter
@@ -23,32 +23,31 @@ RV_LOCAL_PATH = "/OET-RV/"
 LV_LOCAL_PATH = "/OET-LV/"
 
 RV_FILE_MAPPING = {
-  # Commented out the ones which are crashing usfm-grammar (which means that they won't be updating!)
   "OET-RV_GEN.ESFM": "GEN.json",
-  # "OET-RV_EXO.ESFM": "EXO.json",
+  "OET-RV_EXO.ESFM": "EXO.json",
   "OET-RV_LEV.ESFM": "LEV.json",
-  # "OET-RV_NUM.ESFM": "NUM.json",
+  "OET-RV_NUM.ESFM": "NUM.json",
   "OET-RV_DEU.ESFM": "DEU.json",
   "OET-RV_JOS.ESFM": "JOS.json",
   "OET-RV_JDG.ESFM": "JDG.json",
   "OET-RV_RUT.ESFM": "RUT.json",
   "OET-RV_SA1.ESFM": "SA1.json",
   "OET-RV_SA2.ESFM": "SA2.json",
-  # "OET-RV_KI1.ESFM": "KI1.json",
+  "OET-RV_KI1.ESFM": "KI1.json",
   "OET-RV_KI2.ESFM": "KI2.json",
-  # "OET-RV_CH1.ESFM": "CH1.json",
+  "OET-RV_CH1.ESFM": "CH1.json",
   "OET-RV_CH2.ESFM": "CH2.json",
   "OET-RV_EZR.ESFM": "EZR.json",
   "OET-RV_NEH.ESFM": "NEH.json",
   "OET-RV_EST.ESFM": "EST.json",
-  # "OET-RV_JOB.ESFM": "JOB.json",
-  # "OET-RV_PSA.ESFM": "PSA.json",
-  # "OET-RV_PRO.ESFM": "PRO.json",
+  "OET-RV_JOB.ESFM": "JOB.json",
+  "OET-RV_PSA.ESFM": "PSA.json",
+  "OET-RV_PRO.ESFM": "PRO.json",
   "OET-RV_ECC.ESFM": "ECC.json",
   "OET-RV_SNG.ESFM": "SNG.json",
   "OET-RV_ISA.ESFM": "ISA.json",
   "OET-RV_JER.ESFM": "JER.json",
-  # "OET-RV_LAM.ESFM": "LAM.json",
+  "OET-RV_LAM.ESFM": "LAM.json",
   "OET-RV_EZE.ESFM": "EZE.json",
   "OET-RV_DAN.ESFM": "DAN.json",
   "OET-RV_HOS.ESFM": "HOS.json",
@@ -189,10 +188,8 @@ def download_esfm_file(download_url) -> str:
 
 
 # Download and convert the ESFM contents to (USJ) json.
-# ESFM for the OET-LV has the \untr marker which is not in USFM, 
-# so we temporarily substitute \untr with \no so that it converts.
-# In the resulting (USJ) json, the \untr is replaced with untr (no backslash).
-def convert_esfm_to_json(filename, esfm_source_url, local_path, FILE_MAPPING, esfm_workaround=False):
+def convert_esfm_to_json(filename, esfm_source_url, local_path, FILE_MAPPING):
+  # Download and pre-process the ESFM files
   download_url = f"{esfm_source_url}{filename}"
   download_path = download_esfm_file(download_url)
 
@@ -202,13 +199,41 @@ def convert_esfm_to_json(filename, esfm_source_url, local_path, FILE_MAPPING, es
       input_esfm = file.read()
       file.close()
 
+    # ESFM for the OET-LV has the \untr marker which is not in USFM, 
+    # so we temporarily substitute \untr with \no so that it converts.
+    # In the resulting (USJ) json, the \untr is replaced with untr (no backslash).
     # Swap \untr with \no so that the USFM parser is happy.
-    if esfm_workaround == True:
+    if 'LV' in filename:
       input_esfm = replace_untr_with_no(str(input_esfm))
-    
-    # Convert to (USJ) JSON.
+
+    # ESFM for the OET-RV has a few character markers in places that
+    #   the strict usfm_grammar doesn't allow for, so we remove them for this app.
+    elif 'RV' in filename:
+      new_lines = []
+      for line in input_esfm.split('\n'):
+        if line: # The files end with a blank line
+          assert line.startswith('\\'), f"Missing initial backslash in {line=} from {filename}" # Every line should start with a usfm backslash marker
+        marker = line.split(' ',1)[0][1:] # Get the USFM marker (with the leading backslash removed)
+        if marker == 'qa':
+          line = line.replace('\\bd ','').replace('\\bd*','') # Remove bold from acronym fields as not yet allowed in the USFM grammar
+        # elif marker in ('h','toc1','toc2','toc3','mt1','mt2','mt3'):
+        #   line = line.replace('\\sup ','').replace('\\sup*','') # These only give warnings so we'll leave them in
+        
+        if 'LAM' in filename and marker == 'ip': # Seems footnotes aren't allowed ???
+          footnote_regex = re.compile('\\\\f .+?\\\\f\\*')
+          line  = footnote_regex.sub('',line)
+
+        new_lines.append(line)
+
+      # Reassemble the complete ESFM text
+      input_esfm = ( '\n'.join(new_lines)
+                    .replace('⇔','') # Not required for a display app
+                    .replace("'",'’') # Convert apostrophes to the correct Unicode character
+      )
+
     parser = USFMParser(input_esfm)
 
+    # Convert to (USJ) JSON.
     print(f"Converting parsed {filename} to json...")
     converted_json = parser.to_usj(ignore_errors=True)
 
@@ -217,7 +242,7 @@ def convert_esfm_to_json(filename, esfm_source_url, local_path, FILE_MAPPING, es
       print(f"The following errors were encountered when converting the ESFM to json:\n {errors}")
 
     # Change all \no markers back to \untr.
-    if esfm_workaround == True:
+    if 'LV' in filename:
       # Save converted json to a temporary file
       path = Path(os.getcwd() + f'/{TEMP_FILEPATH}')
       path.touch() # Create file if it doesn't exist
@@ -256,9 +281,9 @@ if __name__ == "__main__":
 
   print("\nConverting the Literal version OT...")
   for filename in LV_OT_FILE_MAPPING.keys():
-    convert_esfm_to_json(filename, LV_OT_SOURCE_URL, LV_LOCAL_PATH, LV_OT_FILE_MAPPING, esfm_workaround=True)
+    convert_esfm_to_json(filename, LV_OT_SOURCE_URL, LV_LOCAL_PATH, LV_OT_FILE_MAPPING)
   print("\nConverting the Literal version NT...")
   for filename in LV_NT_FILE_MAPPING.keys():
-    convert_esfm_to_json(filename, LV_NT_SOURCE_URL, LV_LOCAL_PATH, LV_NT_FILE_MAPPING, esfm_workaround=True)
+    convert_esfm_to_json(filename, LV_NT_SOURCE_URL, LV_LOCAL_PATH, LV_NT_FILE_MAPPING)
 
   print("\nDone! The converted .json files are in the /RV/ and /LV/ folders.")
