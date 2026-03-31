@@ -19,6 +19,7 @@ class SettingsViewModel extends FutureViewModel<String> {
   double get textScaling => _settingsService.textScaling;
   bool get showMarks => _settingsService.showMarks;
   bool get showChaptersAndVerses => _settingsService.showChaptersAndVerses;
+  bool get showInternetAccess => _settingsService.showInternetAccess;
 
   void changeTextScaling(double value) {
     _settingsService.setTextScaling(value);
@@ -35,6 +36,11 @@ class SettingsViewModel extends FutureViewModel<String> {
     rebuildUi();
   }
 
+  void changeShowInternetAccess(bool value) {
+    _settingsService.setShowInternetAccess(value);
+    rebuildUi();
+  }
+
   void shareFeedback() async {
     try {
       await launchUrl(
@@ -46,7 +52,8 @@ class SettingsViewModel extends FutureViewModel<String> {
       );
     } catch (e) {
       // Likely no email client is setup.
-      showToastMsg('Please email to hi@noahrahm.com to share your feedback. Thank you.');
+      showToastMsg(
+          'Please email to hi@noahrahm.com to share your feedback. Thank you.');
     }
   }
 
