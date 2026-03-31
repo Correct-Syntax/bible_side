@@ -1,894 +1,1432 @@
 {
-  "book": {
-    "bookCode": "OBA",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.01",
-    "meta": [
-      {
-        "usfm": "3.0"
-      },
-      {
-        "ide": "UTF-8"
-      },
-      {
-        "rem": "ESFM v0.6 OBA"
-      },
-      {
-        "rem": "WORDTABLE OET-LV_OT_word_table.tsv"
-      },
-      {
-        "h": "Ovadyah"
-      },
-      {
-        "toc1": "Ovadyah"
-      },
-      {
-        "toc2": "Ovadyah"
-      },
-      {
-        "toc3": "Ova."
-      },
-      {
-        "mt1": "Ovadyah"
-      },
-      {
-        "is1": "Introduction"
-      },
-      {
-        "ip": "This short document was written by the prophet Ovadyah (three syllables, traditionally spelt as ‘Obadiah’) and is about God's judgement and punishment of Edom—the nation made up of Esau's descendants. Esau was Yacob's twin-brother—the sons of Yitsak (‘Isaac’), however the two sets of descendants ended up as enemies. So that's why Edom's people were very glad when the Babylonian army destroyed Yerushalem in 586 B.C., and not just that, they took advantage of the invasion to join in looting the city and help the invaders. Here, God passes on through Ovadyah the declaration that Edom will be punished and defeated and their warriors would be slaughtered without any survivors, thus allowing Israel to recapture their lands."
-      },
-      {
-        "iot": "Main components of this “book”"
-      },
-      {
-        "io1": [
-          "The punishment of Edom",
-          {
-            "ior": "1-14",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The day of the Master God",
-          {
-            "ior": "15-21",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "rem": [
-          "This is still a very early look into the unfinished text of the",
-          {
-            "em": "Open English Translation",
-            "closing": "\\em*"
-          },
-          "of the Bible. Please double-check the text in advance before using in public."
-        ]
-      },
-      {
-        "ie": ""
-      }
-    ]
+ "type": "USJ",
+ "version": "3.1",
+ "content": [
+  {
+   "type": "book",
+   "marker": "id",
+   "code": "OBA",
+   "content": [
+    "- Open English Translation—Readers' Version (OET-RV) v0.1.06"
+   ]
   },
-  "chapters": [
+  {
+   "type": "para",
+   "marker": "ide",
+   "content": [
+    "UTF-8\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "ESFM v0.6 OBA\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "WORDTABLE OET-LV_OT_word_table.tsv\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "h",
+   "content": [
+    "Ovadyah\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc1",
+   "content": [
+    "Ovadyah\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc2",
+   "content": [
+    "Ovadyah\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc3",
+   "content": [
+    "Ova.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt1",
+   "content": [
+    "Ovadyah\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt2",
+   "content": [
+    "(Obadiah)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "is1",
+   "content": [
+    "Introduction\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "This short document was written by the prophet Ovadyah (three syllables, traditionally spelt as ‘Obadiah’) and is about God's judgement and punishment of Edom—the nation made up of Esau's descendants. Esau was Yacob's twin-brother—the sons of Yitshak (‘Isaac’), however the two sets of descendants ended up as enemies. So that's why Edom's people were very glad when the Babylonian army destroyed Yerushalem in 586 before Yeshua/Jesus (B.C.), and not just that, they took advantage of the invasion to join in looting the city and help the invaders. Here, God passes on through Ovadyah the declaration that Edom will be punished and defeated and their warriors would be slaughtered without any survivors, thus allowing Yisrael/Israel to recapture their lands.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "iot",
+   "content": [
+    "Main components of this document\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The punishment of Edom ",
     {
-      "chapterNumber": "1",
-      "contents": [
-        {
-          "rem": "/s1 Proud Edom Will Be Brought Low; Edom's pride and downfall"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            {
-              "add": "This is",
-              "closing": "\\add*"
-            },
-            "the vision¦370208 of Obadiah",
-            {
-              "add": "given",
-              "closing": "\\add*"
-            },
-            "by the master¦370213 Yahweh concerning¦370215",
-            {
-              "add": "≈the Edom region",
-              "closing": "\\add*"
-            },
-            ":",
-            {
-              "s1": "Coming punishment for Edom"
-            },
-            {
-              "rem": "/s1 Edom's Judgment Announced; The Lord Will Punish Edom"
-            },
-            {
-              "q1": [
-                "We have heard¦370217 from Yahweh and a messenger has been sent¦370222 to the nations¦370221,",
-                {
-                  "add": "telling them:",
-                  "closing": "\\add*"
-                }
-              ]
-            },
-            {
-              "q1": [
-                {
-                  "add": "≈Get everything ready",
-                  "closing": "\\add*"
-                },
-                "then go¦370224 into battle¦370229 against",
-                {
-                  "add": "@Edom",
-                  "closing": "\\add*"
-                },
-                "."
-              ]
-            },
-            {
-              "m": ""
-            }
-          ],
-          "verseText": "This is the vision¦370208 of Obadiah given by the master¦370213 Yahweh concerning¦370215 ≈the Edom region: We have heard¦370217 from Yahweh and a messenger has been sent¦370222 to the nations¦370221, telling them: ≈Get everything ready then go¦370224 into battle¦370229 against@Edom."
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            {
-              "add": "And Yahweh says to Edom:",
-              "closing": "\\add*"
-            },
-            {
-              "q1": "Listen,"
-            },
-            {
-              "q1": "I will make you into an insignificant nation¦370234."
-            },
-            {
-              "q1": "≈You'll become utterly despised¦370235."
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "And Yahweh says to Edom: Listen, I will make you into an insignificant nation¦370234. ≈You'll become utterly despised¦370235."
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "Your",
-            {
-              "add": "≈inner",
-              "closing": "\\add*"
-            },
-            "pride has deceived¦370241 you,",
-            {
-              "q2": "you who live on the rocky cliffs,"
-            },
-            {
-              "q2": "≈with your homes up there so high."
-            },
-            {
-              "q1": [
-                "You say",
-                {
-                  "add": "≈to yourselves",
-                  "closing": "\\add*"
-                },
-                {
-                  "add": "that",
-                  "closing": "\\add*"
-                }
-              ]
-            },
-            {
-              "q2": "no one can bring¦370251 you down to the ground¦370252."
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "Your ≈inner pride has deceived¦370241 you, you who live on the rocky cliffs, ≈with your homes up there so high. You say ≈to yourselves that no one can bring¦370251 you down to the ground¦370252."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "If you go up high¦370256 like an eagle¦370257,",
-            {
-              "q1": "≈even if your nest was up between¦370260 the stars¦370261,"
-            },
-            {
-              "q1": [
-                "Yahweh declares that his",
-                {
-                  "add": "≈command",
-                  "closing": "\\add*"
-                },
-                "can bring¦370265 you down from there¦370264."
-              ]
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            },
-            {
-              "rem": "/s1 Pillage and Slaughter Will Repay Edom's Cruelty"
-            }
-          ],
-          "verseText": "If you go up high¦370256 like an eagle¦370257, ≈even if your nest was up between¦370260 the stars¦370261, Yahweh declares that his ≈command can bring¦370265 you down from there¦370264."
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "If",
-            {
-              "add": "it was",
-              "closing": "\\add*"
-            },
-            "thieves¦370272 who came to destroy you in the night¦370279,",
-            {
-              "q2": "(and yes, you're going to be destroyed)"
-            },
-            {
-              "q1": "they would only steal¦370283 what they wanted¦370284."
-            },
-            {
-              "q1": [
-                "Or if",
-                {
-                  "add": "it was",
-                  "closing": "\\add*"
-                },
-                "grape-pickers who came to you,"
-              ]
-            },
-            {
-              "q1": [
-                {
-                  "add": "at least",
-                  "closing": "\\add*"
-                },
-                "they'd leave¦370291 behind",
-                {
-                  "add": "≈the smaller grapes¦370287",
-                  "closing": "\\add*"
-                },
-                "."
-              ]
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "If it was thieves¦370272 who came to destroy you in the night¦370279, (and yes, you're going to be destroyed) they would only steal¦370283 what they wanted¦370284. Or if it was grape-pickers who came to you, at least they'd leave¦370291 behind ≈the smaller grapes¦370287."
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "How Esau's",
-            {
-              "add": "descendants",
-              "closing": "\\add*"
-            },
-            "will be looted.",
-            {
-              "q1": [
-                "≈",
-                {
-                  "add": "#Their",
-                  "closing": "\\add*"
-                },
-                "hidden¦370298 treasures¦370298 will be",
-                {
-                  "add": "≈found",
-                  "closing": "\\add*"
-                },
-                {
-                  "add": "and taken",
-                  "closing": "\\add*"
-                },
-                "."
-              ]
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "How Esau's descendants will be looted. ≈ #Their hidden¦370298 treasures¦370298 will be ≈found and taken."
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            {
-              "add": "≈Those who have treaties¦370306 with you",
-              "closing": "\\add*"
-            },
-            "will force you to the border¦370302.",
-            {
-              "q1": [
-                "≈",
-                {
-                  "add": "≈Those who talk about peace¦370311",
-                  "closing": "\\add*"
-                },
-                "will deceive¦370307 you."
-              ]
-            },
-            {
-              "q1": [
-                "≈",
-                {
-                  "add": "≈Those who eat meals with you",
-                  "closing": "\\add*"
-                },
-                "will set a trap for you."
-              ]
-            },
-            {
-              "q1": [
-                {
-                  "add": "≈You have no idea what's about to hit you",
-                  "closing": "\\add*"
-                },
-                "."
-              ]
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "≈Those who have treaties¦370306 with you will force you to the border¦370302. ≈ ≈Those who talk about peace¦370311 will deceive¦370307 you. ≈ ≈Those who eat meals with you will set a trap for you. ≈You have no idea what's about to hit you."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "Yahweh will make a declaration on that day¦370321.",
-            {
-              "q1": [
-                "The wise",
-                {
-                  "add": "people",
-                  "closing": "\\add*"
-                },
-                "of Edom will be destroyed¦370326."
-              ]
-            },
-            {
-              "q1": "≈Understanding will disappear from Esau's hill."
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "Yahweh will make a declaration on that day¦370321. The wise people of Edom will be destroyed¦370326. ≈Understanding will disappear from Esau's hill."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "And you",
-            {
-              "add": "the city of",
-              "closing": "\\add*"
-            },
-            "Teyman, your¦370334 warriors¦370334 will be shattered¦370333,",
-            {
-              "q1": [
-                "≈so that everyone¦370339 from Esau's hill country",
-                {
-                  "add": "≈will be slaughtered¦370342",
-                  "closing": "\\add*"
-                },
-                "."
-              ]
-            },
-            {
-              "s1": "The charges against Edom"
-            },
-            {
-              "rem": "/s1 Edom Mistreated His Brother; Reasons for Edom's Punishment"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "And you the city of Teyman, your¦370334 warriors¦370334 will be shattered¦370333, ≈so that everyone¦370339 from Esau's hill country ≈will be slaughtered¦370342."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "Because¦370344 of your violence¦370344 against your brother¦370345 Yacob's¦370346",
-            {
-              "add": "descendants",
-              "closing": "\\add*"
-            },
-            ",",
-            {
-              "q1": [
-                "shame¦370348 will",
-                {
-                  "add": "≈overcome",
-                  "closing": "\\add*"
-                },
-                "you¦370347,"
-              ]
-            },
-            {
-              "q1": [
-                "and¦370349 you'll be",
-                {
-                  "add": "≈destroyed",
-                  "closing": "\\add*"
-                },
-                "forever¦370350."
-              ]
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "Because¦370344 of your violence¦370344 against your brother¦370345 Yacob's¦370346 descendants, shame¦370348 will ≈overcome you¦370347, and¦370349 you'll be ≈destroyed forever¦370350."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "You",
-            {
-              "add": "just",
-              "closing": "\\add*"
-            },
-            {
-              "add": "≈stood¦370353 and watched",
-              "closing": "\\add*"
-            },
-            "on that day when strangers¦370357",
-            {
-              "add": "≈carried away their",
-              "closing": "\\add*"
-            },
-            "wealth¦370358.",
-            {
-              "q1": [
-                "≈When foreigners¦370359 entered their gates¦370361 and",
-                {
-                  "add": "≈took possession",
-                  "closing": "\\add*"
-                },
-                "of Yerushalem, you",
-                {
-                  "add": "≈wished it was you doing that",
-                  "closing": "\\add*"
-                },
-                "."
-              ]
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "You just ≈stood¦370353 and watched on that day when strangers¦370357 ≈carried away their wealth¦370358. ≈When foreigners¦370359 entered their gates¦370361 and ≈took possession of Yerushalem, you ≈wished it was you doing that."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "You",
-            {
-              "add": "≈shouldn't have gloated",
-              "closing": "\\add*"
-            },
-            "over your",
-            {
-              "add": "≈cousins",
-              "closing": "\\add*"
-            },
-            "on the day of",
-            {
-              "add": "#their¦370389",
-              "closing": "\\add*"
-            },
-            "misfortune¦370381.",
-            {
-              "q1": [
-                "≈And you",
-                {
-                  "add": "≈shouldn't have celebrated",
-                  "closing": "\\add*"
-                },
-                "about the destruction¦370389 of the people¦370385 of Yehudah."
-              ]
-            },
-            {
-              "q1": [
-                "You shouldn't have",
-                {
-                  "add": "≈bragged",
-                  "closing": "\\add*"
-                },
-                "in",
-                {
-                  "add": "their",
-                  "closing": "\\add*"
-                },
-                "time of distress."
-              ]
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "You ≈shouldn't have gloated over your ≈cousins on the day of #their¦370389 misfortune¦370381. ≈And you ≈shouldn't have celebrated about the destruction¦370389 of the people¦370385 of Yehudah. You shouldn't have ≈bragged in their time of distress."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "You",
-            {
-              "add": "≈shouldn't have",
-              "closing": "\\add*"
-            },
-            "gone into their city at the",
-            {
-              "add": "≈time",
-              "closing": "\\add*"
-            },
-            "of their calamity.",
-            {
-              "q1": [
-                "You",
-                {
-                  "add": "≈shouldn't have gloated",
-                  "closing": "\\add*"
-                },
-                "—yes, you—over their misery¦370411 in their",
-                {
-                  "add": "≈time",
-                  "closing": "\\add*"
-                },
-                "of disaster."
-              ]
-            },
-            {
-              "q1": [
-                "And you",
-                {
-                  "add": "women",
-                  "closing": "\\add*"
-                },
-                {
-                  "add": "≈shouldn't have",
-                  "closing": "\\add*"
-                },
-                "grabbed their wealth¦370417 on the day of their catastrophe."
-              ]
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "You ≈shouldn't have gone into their city at the ≈time of their calamity. You ≈shouldn't have gloated—yes, you—over their misery¦370411 in their ≈time of disaster. And you women ≈shouldn't have grabbed their wealth¦370417 on the day of their catastrophe."
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "You",
-            {
-              "add": "≈shouldn't have",
-              "closing": "\\add*"
-            },
-            "stood at the crossroads¦370426 to",
-            {
-              "add": "≈kill those trying to escape",
-              "closing": "\\add*"
-            },
-            ",",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:1-14:"
-                },
-                {
-                  "xt": "Isa 34:5-17; 63:1-6; Jer 49:7-22; Eze 25:12-14; 35:1-15; Amos 1:11-12; Mal 1:2-5."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            {
-              "q1": [
-                "And you",
-                {
-                  "add": "≈shouldn't have handed-over",
-                  "closing": "\\add*"
-                },
-                "any survivors¦370434 that you'd captured in",
-                {
-                  "add": "their",
-                  "closing": "\\add*"
-                },
-                {
-                  "add": "≈time",
-                  "closing": "\\add*"
-                },
-                "of trouble¦370436."
-              ]
-            },
-            {
-              "s1": "The punishment of nations"
-            },
-            {
-              "rem": "/s1 God Will Judge the Nations; Edom Destroyed, Israel Restored"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "You ≈shouldn't have stood at the crossroads¦370426 to ≈kill those trying to escape, And you ≈shouldn't have handed-over any survivors¦370434 that you'd captured in their ≈time of trouble¦370436."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "For all the nations¦370448, Yahweh's day¦370441 is near,",
-            {
-              "q1": [
-                "Just as you've done,",
-                {
-                  "add": "≈the same",
-                  "closing": "\\add*"
-                },
-                "will be done to you."
-              ]
-            },
-            {
-              "q1": "≈Your actions will return¦370454 onto your own head."
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "For all the nations¦370448, Yahweh's day¦370441 is near, Just as you've done, ≈the same will be done to you. ≈Your actions will return¦370454 onto your own head."
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "Because just like how all you",
-            {
-              "add": "Israelis",
-              "closing": "\\add*"
-            },
-            {
-              "f": [
-                "+",
-                {
-                  "fr": "1:16"
-                },
-                {
-                  "ft": "It's not actually clear from the Hebrew who ‘you all’ refers to, so the addition of ‘Israelis’ is clearly an interpretive decision and other translations might differ."
-                }
-              ],
-              "closing": "\\f*"
-            },
-            "drank",
-            {
-              "add": "suffering",
-              "closing": "\\add*"
-            },
-            "on my holy mountain¦370462,",
-            {
-              "q2": "all the nations¦370467 will drink continually¦370468."
-            },
-            {
-              "q1": "They will drink and swallow it down."
-            },
-            {
-              "q1": [
-                "They'll become as if they'd never¦370472",
-                {
-                  "add": "even",
-                  "closing": "\\add*"
-                },
-                "existed."
-              ]
-            },
-            {
-              "s1": "Israel's victory"
-            },
-            {
-              "rem": "/s1 Israel's Final Triumph; The Victory of Israel"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "Because just like how all you Israelis drank suffering on my holy mountain¦370462, all the nations¦370467 will drink continually¦370468. They will drink and swallow it down. They'll become as if they'd never¦370472 even existed."
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            {
-              "add": "≈But¦370475",
-              "closing": "\\add*"
-            },
-            "on Mt. Tsiyyon¦370476 (‘Zion’), there'll be deliverance¦370478,",
-            {
-              "q2": "and it will be holy,"
-            },
-            {
-              "q1": [
-                "≈",
-                {
-                  "add": "≈Israel's people",
-                  "closing": "\\add*"
-                },
-                "will",
-                {
-                  "add": "≈reclaim",
-                  "closing": "\\add*"
-                },
-                "their possessions¦370481."
-              ]
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "≈But¦370475 on Mt. Tsiyyon¦370476 (‘Zion’), there'll be deliverance¦370478, and it will be holy, ≈ ≈Israel's people will ≈reclaim their possessions¦370481."
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            {
-              "add": "≈Israel's people",
-              "closing": "\\add*"
-            },
-            "will be a fire,",
-            {
-              "q1": [
-                "≈and Yosef's",
-                {
-                  "add": "≈descendants",
-                  "closing": "\\add*"
-                },
-                "will be a flame¦370495."
-              ]
-            },
-            {
-              "q1": [
-                "None of Esau's",
-                {
-                  "add": "≈descendants will survive¦370507",
-                  "closing": "\\add*"
-                },
-                ","
-              ]
-            },
-            {
-              "q1": "because Yahweh has spoken¦370512."
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "≈Israel's people will be a fire, ≈and Yosef's ≈descendants will be a flame¦370495. None of Esau's ≈descendants will survive¦370507, because Yahweh has spoken¦370512."
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            {
-              "add": "The people from",
-              "closing": "\\add*"
-            },
-            "the Negev will",
-            {
-              "add": "≈take ownership",
-              "closing": "\\add*"
-            },
-            "of Esau's mountain¦370518,",
-            {
-              "q1": [
-                "≈and",
-                {
-                  "add": "the people from",
-                  "closing": "\\add*"
-                },
-                "the Shefelah",
-                {
-                  "add": "≡will take ownership of",
-                  "closing": "\\add*"
-                },
-                "the Philistines'",
-                {
-                  "add": "land",
-                  "closing": "\\add*"
-                },
-                "."
-              ]
-            },
-            {
-              "q1": "They will recapture the Efraim¦370528 and Samarian countrysides,"
-            },
-            {
-              "q1": [
-                "≈and",
-                {
-                  "add": "the people of",
-                  "closing": "\\add*"
-                },
-                "Benyamin",
-                {
-                  "add": "≡will recapture",
-                  "closing": "\\add*"
-                },
-                "Gilead¦370535."
-              ]
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "The people from the Negev will ≈take ownership of Esau's mountain¦370518, ≈and the people from the Shefelah ≡will take ownership of the Philistines' land. They will recapture the Efraim¦370528 and Samarian countrysides, ≈and the people of Benyamin ≡will recapture Gilead¦370535."
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            "Israel's exiles",
-            {
-              "add": "≡will take ownership of",
-              "closing": "\\add*"
-            },
-            "the Canaanites'",
-            {
-              "add": "land",
-              "closing": "\\add*"
-            },
-            "as far as Tsarefat,",
-            {
-              "q1": [
-                "≈and the exiles from Yerushalem (who're in Sefarad)",
-                {
-                  "add": "≡will take ownership of",
-                  "closing": "\\add*"
-                },
-                "the cities¦370555 of the Negev."
-              ]
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "Israel's exiles ≡will take ownership of the Canaanites' land as far as Tsarefat, ≈and the exiles from Yerushalem (who're in Sefarad) ≡will take ownership of the cities¦370555 of the Negev."
-        },
-        {
-          "verseNumber": "21",
-          "contents": [
-            "The rescuers will go¦370558 up Mt. Tsiyyon/Zion¦370561 to judge Esau's mountain¦370560.",
-            {
-              "q1": [
-                "and¦370567 Yahweh",
-                {
-                  "add": "≈will be their king",
-                  "closing": "\\add*"
-                },
-                "."
-              ]
-            }
-          ],
-          "verseText": "The rescuers will go¦370558 up Mt. Tsiyyon/Zion¦370561 to judge Esau's mountain¦370560. and¦370567 Yahweh ≈will be their king."
-        }
-      ]
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1-14"
+     ]
     }
-  ],
-  "_messages": {
-    "_warnings": []
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The day of the Master God ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "15-21"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "This is still a very early look into the unfinished text of the Open English Translation of the Bible. Please double-check the text in advance before using in public.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ie",
+   "content": []
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "1",
+   "sid": "OBA 1"
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Proud Edom Will Be Brought Low; Edom's pride and downfall\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "OBA 1:1"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "This is"
+     ]
+    },
+    " the vision¦370208 of Obadiah¦370209 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "given"
+     ]
+    },
+    " by the master¦370213 Yahweh concerning¦370215 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈the Edom¦370215 region"
+     ]
+    },
+    ":\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Coming punishment for Edom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Edom's Judgment Announced; The Lord Will Punish Edom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "We have heard¦370217 from Yahweh and a messenger has been sent¦370222 to the nations¦370221, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "telling them:"
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Get everything ready"
+     ]
+    },
+    " then go¦370224 into battle¦370229 against ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "@Edom"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "m",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "OBA 1:2"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "And Yahweh says to Edom:"
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Listen,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I will make you into an insignificant nation¦370234.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈You'll become utterly despised¦370235.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "OBA 1:3"
+    },
+    "Your¦370249 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈inner"
+     ]
+    },
+    " pride has deceived¦370241 you,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "you who live on¦370243 the rocky cliffs,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "≈with¦370243 your¦370249 homes up there so high.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "You¦370242 say ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈to yourselves"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "that"
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "no one can bring¦370251 you down to the ground¦370252.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "OBA 1:4"
+    },
+    "If¦370265 you go up high¦370256 like an eagle¦370257,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈even if your nest was up between¦370260 the stars¦370261,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Yahweh¦370268 declares that his ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈command"
+     ]
+    },
+    " can bring¦370265 you down from there¦370264.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "OBA 1:5"
+    },
+    "If ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "it was"
+     ]
+    },
+    " thieves¦370272 who came to destroy you in the night¦370279,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Pillage and Slaughter Will Repay Edom's Cruelty\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "(and yes, you're going to be destroyed)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "they would only steal¦370283 what they wanted¦370284.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Or if ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "it was"
+     ]
+    },
+    " grape-pickers who came to you,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "at least"
+     ]
+    },
+    " they'd leave¦370291 behind ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈the smaller grapes¦370287"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "OBA 1:6"
+    },
+    "How Esau's¦370296 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "descendants"
+     ]
+    },
+    " will be looted.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#Their"
+     ]
+    },
+    " hidden¦370298 treasures¦370298 will be ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈found"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "and taken"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "OBA 1:7"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Those who have treaties¦370306 with you"
+     ]
+    },
+    " will force you to the border¦370302.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Those who talk about peace¦370311"
+     ]
+    },
+    " will deceive¦370307 you.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Those who eat meals with you"
+     ]
+    },
+    " will set a trap for you.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈You have no idea what's about to hit you"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "OBA 1:8"
+    },
+    "Yahweh¦370325 will make a declaration on that day¦370321.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The wise ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "people"
+     ]
+    },
+    " of Edom¦370328 will be destroyed¦370326.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Understanding will disappear from Esau's¦370331 hill.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "OBA 1:9"
+    },
+    "And you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "the city of"
+     ]
+    },
+    " Teyman, your¦370334 warriors¦370334 will be shattered¦370333,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈so that everyone¦370339 from Esau's¦370341 hill country ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈will be slaughtered¦370342"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The charges against Edom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Edom Mistreated His Brother; Reasons for Edom's Punishment\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "OBA 1:10"
+    },
+    "Because¦370344 of your violence¦370344 against your brother¦370345 Yacob's¦370346 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "descendants"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "shame¦370348 will ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈overcome"
+     ]
+    },
+    " you¦370347,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦370349 you'll be ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈destroyed"
+     ]
+    },
+    " forever¦370350.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "OBA 1:11"
+    },
+    "You ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "just"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈stood¦370353 and watched"
+     ]
+    },
+    " on that day when strangers¦370357 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈carried away their"
+     ]
+    },
+    " wealth¦370358.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈When foreigners¦370359 entered their gates¦370361 and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈took possession"
+     ]
+    },
+    " of Yerushalem¦370365, you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈wished it was you doing that"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "OBA 1:12"
+    },
+    "You ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈shouldn't have gloated"
+     ]
+    },
+    " over your ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈cousins"
+     ]
+    },
+    " on¦370377 the day of ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#their¦370389"
+     ]
+    },
+    " misfortune¦370381.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈And you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈shouldn't have celebrated"
+     ]
+    },
+    " about the destruction¦370389 of the people¦370385 of Yehudah¦370387.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "You shouldn't have ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈bragged"
+     ]
+    },
+    " in¦370377 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "their"
+     ]
+    },
+    " time of distress.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "OBA 1:13"
+    },
+    "You ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈shouldn't have"
+     ]
+    },
+    " gone into their city at¦370400 the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈time"
+     ]
+    },
+    " of their calamity¦370411.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "You ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈shouldn't have gloated"
+     ]
+    },
+    "—yes, you—over their misery¦370411 in¦370400 their ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈time"
+     ]
+    },
+    " of disaster.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "And you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "women"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈shouldn't have"
+     ]
+    },
+    " grabbed their wealth¦370417 on¦370400 the day of their catastrophe.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "OBA 1:14"
+    },
+    "You ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈shouldn't have"
+     ]
+    },
+    " stood at the crossroads¦370426 to ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈kill those trying to escape"
+     ]
+    },
+    ",",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:1-14: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Isa 34:5-17; 63:1-6; Jer 49:7-22; Eze 25:12-14; 35:1-15; Amos 1:11-12; Mal 1:2-5."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "And you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈shouldn't have handed-over"
+     ]
+    },
+    " any survivors¦370434 that you'd captured in ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "their"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈time"
+     ]
+    },
+    " of trouble¦370436.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The punishment of nations\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 God Will Judge the Nations; Edom Destroyed, Israel Restored\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "OBA 1:15"
+    },
+    "For all the nations¦370448, Yahweh's day¦370441 is near,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Just as you've¦370450 done, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈the same"
+     ]
+    },
+    " will be done to you.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Your actions will return¦370454 onto your own head¦370455.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "OBA 1:16"
+    },
+    "Because just like how all you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Israelis"
+     ]
+    },
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "1:16 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "It's not actually clear from the Hebrew who ‘you all’ refers to, so the addition of ‘Israelis’ is clearly an interpretive decision and other translations might differ."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " drank ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "suffering"
+     ]
+    },
+    " on my holy mountain¦370462,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "all the nations¦370467 will drink continually¦370468.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They will drink and swallow¦370470 it down.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They'll become as if they'd never¦370472 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "even"
+     ]
+    },
+    " existed.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Yisrael's victory\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Israel's Final Triumph; The Victory of Israel\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Both kingdoms\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "OBA 1:17"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈But¦370475"
+     ]
+    },
+    " on¦370475 Mt¦370475. Tsiyyon¦370476 (‘Zion’), there'll be deliverance¦370478,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "and¦370475 it will be holy,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Yisrael's people"
+     ]
+    },
+    " will ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈reclaim"
+     ]
+    },
+    " their¦370485 possessions¦370481.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "OBA 1:18"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Yisrael's people"
+     ]
+    },
+    " will be a fire¦370492,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and Yosef's¦370494 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈descendants"
+     ]
+    },
+    " will be a flame¦370495.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "None of Esau's¦370497 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈descendants will survive¦370507"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because Yahweh¦370511 has spoken¦370512.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "OBA 1:19"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "The people from"
+     ]
+    },
+    " the Negev¦370515 will ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈take ownership"
+     ]
+    },
+    " of Esau's¦370519 mountain¦370518,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "the people from"
+     ]
+    },
+    " the Shefelah ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≡will take ownership of"
+     ]
+    },
+    " the Philistines' ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "land"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They will recapture the Efrayim¦370528 and Samarian countrysides,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "the people of"
+     ]
+    },
+    " Benyamin¦370532 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≡will recapture"
+     ]
+    },
+    " Gilead¦370535.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "OBA 1:20"
+    },
+    "Yisrael's¦370542 exiles ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≡will take ownership of"
+     ]
+    },
+    " the Canaanites' ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "land"
+     ]
+    },
+    " as far as Tsarefat,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and¦370537 the exiles from Yerushalem¦370550 (who are in¦370552 Sefarad¦370552) ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≡will take ownership of"
+     ]
+    },
+    " the cities¦370555 of the Negev¦370556.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "OBA 1:21"
+    },
+    "The rescuers will go¦370558 up Mt¦370565. Tsiyyon¦370561/Zion¦370561 to judge Esau's¦370566 mountain¦370560.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦370567 Yahweh¦370568 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈will be their king"
+     ]
+    },
+    ".\n"
+   ]
   }
+ ]
 }
