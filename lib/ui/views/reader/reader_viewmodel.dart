@@ -616,6 +616,7 @@ class ReaderViewModel extends ReactiveViewModel {
   }
 
   void onTapCloseSecondaryArea() async {
+    log("ON TAP CLOSE SECONDARY AREA");
     onToggleSecondaryArea();
     isPrimaryReaderAreaPopupActive = false;
     isSecondaryReaderAreaPopupActive = false;
