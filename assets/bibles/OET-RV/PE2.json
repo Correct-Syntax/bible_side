@@ -1,862 +1,1291 @@
 {
-  "book": {
-    "bookCode": "2PE",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.02",
-    "meta": [
-      {
-        "usfm": "3.0"
-      },
-      {
-        "ide": "UTF-8"
-      },
-      {
-        "rem": "ESFM v0.6 PE2"
-      },
-      {
-        "rem": "WORDTABLE OET-LV_NT_word_table.tsv"
-      },
-      {
-        "h": "2 Peter"
-      },
-      {
-        "toc1": "2 Peter"
-      },
-      {
-        "toc2": "2 Peter"
-      },
-      {
-        "toc3": "2 Ptr"
-      },
-      {
-        "mt2": "The first letter from"
-      },
-      {
-        "mt1": "Simon ‘the Rock’ (Peter)"
-      },
-      {
-        "is1": "Introduction"
-      },
-      {
-        "ip": [
-          {
-            "bk": "The second letter from Simon ‘Peter’",
-            "closing": "\\bk*"
-          },
-          "was sent to believers in various towns of Asia Minor (also called Anatolia, now part of modern Turkey) (1 Peter 1:1, 2 Peter 3:1). His purpose of writing this was to contradict the work of false teachers, and to scold the people for their bad behaviour as a result of following that teaching. Therefore he encouraged them to not believe that teaching because they should only believe the teaching concerning the messiah. They also need to be adding the following to their faith: good behaviour, wisdom/knowledge, self-control, patience, obeying God, and loving others."
-        ]
-      },
-      {
-        "ip": "Those people taught that the messiah would not return since it had already been quite a while and he hadn't yet returned. But Simon answered by saying that the messiah would certainly return, but God doesn't want to punish everyone, but desires that people would turn away from their sins."
-      },
-      {
-        "iot": "Main components of Peter's letter"
-      },
-      {
-        "io1": [
-          "Introduction",
-          {
-            "ior": "1:1-2",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The calling of Christians",
-          {
-            "ior": "1:3-21",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "False teachers",
-          {
-            "ior": "2:1-22",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The return of Yeshua the messiah",
-          {
-            "ior": "3:1-18",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "rem": [
-          "This is still a very early look into the unfinished text of the",
-          {
-            "em": "Open English Translation",
-            "closing": "\\em*"
-          },
-          "of the Bible. Please double-check the text in advance before using in public."
-        ]
-      },
-      {
-        "ie": ""
-      }
-    ]
+ "type": "USJ",
+ "version": "3.1",
+ "content": [
+  {
+   "type": "book",
+   "marker": "id",
+   "code": "2PE",
+   "content": [
+    "- Open English Translation—Readers' Version (OET-RV) v0.1.53"
+   ]
   },
-  "chapters": [
+  {
+   "type": "para",
+   "marker": "ide",
+   "content": [
+    "UTF-8\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "ESFM v0.6 PE2\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "WORDTABLE OET-LV_NT_word_table.tsv\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "h",
+   "content": [
+    "2 Peter\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc1",
+   "content": [
+    "2 Peter\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc2",
+   "content": [
+    "2 Peter\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc3",
+   "content": [
+    "2 Ptr\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt2",
+   "content": [
+    "The first letter from\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt1",
+   "content": [
+    "Simon ‘the Rock’ (Peter)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "is1",
+   "content": [
+    "Introduction\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
     {
-      "chapterNumber": "1",
-      "contents": [
-        {
-          "rem": "/s1 Salutation; Greetings from Peter"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "This",
-            {
-              "add": "letter is from",
-              "closing": "\\add*"
-            },
-            "Simon¦151463 Peter (Grk: Simeon Petros¦151465), a slave¦151466 and messenger of Yeshua the",
-            {
-              "nd": "messiah¦151470",
-              "closing": "\\nd*"
-            },
-            "(Grk: Yesou Christos), writing to those who have faith in the sinlessness of our",
-            {
-              "nd": "God¦151482",
-              "closing": "\\nd*"
-            },
-            "and saviour¦151485 Yeshua",
-            {
-              "nd": "Messiah¦151470",
-              "closing": "\\nd*"
-            },
-            "that's just as precious as our faith.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "This letter is from Simon¦151463 Peter (Grk: Simeon Petros¦151465), a slave¦151466 and messenger of Yeshua the messiah¦151470 (Grk: Yesou Christos), writing to those who have faith in the sinlessness of our God¦151482 and saviour¦151485 Yeshua Messiah¦151470 that's just as precious as our faith."
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "May you¦151490 experience much grace¦151489 and peace¦151492 through your knowledge¦151495 of",
-            {
-              "nd": "God¦151497",
-              "closing": "\\nd*"
-            },
-            "and",
-            {
-              "nd": "Yeshua¦151499",
-              "closing": "\\nd*"
-            },
-            "our¦151503 Lord.",
-            {
-              "s1": "God's calling"
-            },
-            {
-              "rem": "/s1 Growing in the Knowledge of God; The Christian's Call and Election; Making One's Calling and Election Sure; God's Call and Choice; Living in the last days"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "May you¦151490 experience much grace¦151489 and peace¦151492 through your knowledge¦151495 of God¦151497 and Yeshua¦151499 our¦151503 Lord."
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "He has given us everything necessary for life¦151518 and godliness through¦151522 his divine¦151510 power¦151511 as we know¦151524 the one who called¦151526 us to his own glory¦151530 and moral excellence."
-          ],
-          "verseText": "He has given us everything necessary for life¦151518 and godliness through¦151522 his divine¦151510 power¦151511 as we know¦151524 the one who called¦151526 us to his own glory¦151530 and moral excellence."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "Through these¦151551 things, he has given us precious¦151538 and very great¦151542 promises¦151546 that you will become¦151552 participants of the divine¦151553 nature¦151555 after escaping¦151557 the corruption¦151568 in the world¦151562 of lust."
-          ],
-          "verseText": "Through these¦151551 things, he has given us precious¦151538 and very great¦151542 promises¦151546 that you will become¦151552 participants of the divine¦151553 nature¦151555 after escaping¦151557 the corruption¦151568 in the world¦151562 of lust."
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "For this same¦151571 reason, work hard to apply your¦151584 faith¦151583 adding moral excellence, and to that excellence add knowledge¦151592;"
-          ],
-          "verseText": "For this same¦151571 reason, work hard to apply your¦151584 faith¦151583 adding moral excellence, and to that excellence add knowledge¦151592;"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "to that knowledge¦151596 add self-control; to that self-control add endurance; to that endurance add godliness;"
-          ],
-          "verseText": "to that knowledge¦151596 add self-control; to that self-control add endurance; to that endurance add godliness;"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "to that godliness add brotherly concern; and to the brotherly concern add selfless love."
-          ],
-          "verseText": "to that godliness add brotherly concern; and to the brotherly concern add selfless love."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "Because¦151625 if these¦151624 things are part of you¦151626 and¦151629 continually increasing, your knowledge¦151644 of our¦151641 Lord",
-            {
-              "nd": "Yeshua¦151642 Messiah¦151643",
-              "closing": "\\nd*"
-            },
-            "won't become useless or unproductive."
-          ],
-          "verseText": "Because¦151625 if these¦151624 things are part of you¦151626 and¦151629 continually increasing, your knowledge¦151644 of our¦151641 Lord Yeshua¦151642 Messiah¦151643 won't become useless or unproductive."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "But if these¦151649 things aren't part of someone, that person is shortsighted as if they've forgotten that prior cleansing of their sins¦151661.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "But if these¦151649 things aren't part of someone, that person is shortsighted as if they've forgotten that prior cleansing of their sins¦151661."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "So¦151662 then fellow Christians, work hard to make your¦151673 calling¦151676 and election certain—that way you will never fall away—"
-          ],
-          "verseText": "So¦151662 then fellow Christians, work hard to make your¦151673 calling¦151676 and election certain—that way you will never fall away—"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "and so you¦151692 will be richly¦151690 provided entry into the eternal¦151698 kingdom¦151700 of our¦151703 Lord and saviour¦151705",
-            {
-              "nd": "Yeshua¦151707 Messiah¦151708",
-              "closing": "\\nd*"
-            },
-            ".",
-            {
-              "rem": "/s1 Paying Attention to Scripture; Prophecy of Scripture"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "and so you¦151692 will be richly¦151690 provided entry into the eternal¦151698 kingdom¦151700 of our¦151703 Lord and saviour¦151705 Yeshua¦151707 Messiah¦151708."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "Therefore¦151709 I intend to always¦151715 remind¦151717 you about these¦151719 things, even though you know them and are already established in the truth¦151730 that you know."
-          ],
-          "verseText": "Therefore¦151709 I intend to always¦151715 remind¦151717 you about these¦151719 things, even though you know them and are already established in the truth¦151730 that you know."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "But¦151732 I consider¦151733 it¦151733 right¦151731, as long¦151735 as I live in this tent, to get you¦151742 stirred up with a reminder,"
-          ],
-          "verseText": "But¦151732 I consider¦151733 it¦151733 right¦151731, as long¦151735 as I live in this tent, to get you¦151742 stirred up with a reminder,"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "since I know that this tent of mine will soon be left behind as our¦151760 Lord",
-            {
-              "nd": "Yeshua¦151761 Messiah¦151762",
-              "closing": "\\nd*"
-            },
-            "himself told me."
-          ],
-          "verseText": "since I know that this tent of mine will soon be left behind as our¦151760 Lord Yeshua¦151761 Messiah¦151762 himself told me."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "And I will also make every effort to make sure that you¦151770 will always remember¦151777 these¦151776 things after¦151771 my departure¦151774.",
-            {
-              "rem": "/s1 Eyewitnesses of Christ's Glory"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "And I will also make every effort to make sure that you¦151770 will always remember¦151777 these¦151776 things after¦151771 my departure¦151774."
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "We didn't follow¦151783 cleverly¦151781 crafted fables, but¦151795 rather having been eyewitnesses¦151796 of the majesty of our¦151789 Lord",
-            {
-              "nd": "Yeshua¦151790 Messiah¦151791",
-              "closing": "\\nd*"
-            },
-            ", we¦151784 made his power¦151792 and¦151793 forthcoming return known¦151784 to you¦151785."
-          ],
-          "verseText": "We didn't follow¦151783 cleverly¦151781 crafted fables, but¦151795 rather having been eyewitnesses¦151796 of the majesty of our¦151789 Lord Yeshua¦151790 Messiah¦151791, we¦151784 made his power¦151792 and¦151793 forthcoming return known¦151784 to you¦151785."
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:17-18:"
-                },
-                {
-                  "xt": "Mat 17:1-5; Mrk 9:2-7; Luk 9:28-35."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "Because¦151803 he received¦151802 the honour¦151808 and glory from",
-            {
-              "nd": "God¦151806",
-              "closing": "\\nd*"
-            },
-            "the Father when a voice¦151811 spoke to him with magnificent glory saying, “This is my¦151824 son that I dearly love and who has pleased¦151833 me greatly.”"
-          ],
-          "verseText": "Because¦151803 he received¦151802 the honour¦151808 and glory from God¦151806 the Father when a voice¦151811 spoke to him with magnificent glory saying, “This is my¦151824 son that I dearly love and who has pleased¦151833 me greatly.”"
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "Indeed we heard¦151840 this voice¦151838 from heaven¦151843 ourselves as we had been taken with him¦151847 to the holy mountain¦151854.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Indeed we heard¦151840 this voice¦151838 from heaven¦151843 ourselves as we had been taken with him¦151847 to the holy mountain¦151854."
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            "In addition there are the words of the prophets¦151859 that were fulfilled which you would do well to pay attention to—like a light that shines in the dark places¦151870—until¦151871 the day¦151874 dawns and the one who is the morning¦151877 star¦151877 rises in your¦151882 hearts¦151881."
-          ],
-          "verseText": "In addition there are the words of the prophets¦151859 that were fulfilled which you would do well to pay attention to—like a light that shines in the dark places¦151870—until¦151871 the day¦151874 dawns and the one who is the morning¦151877 star¦151877 rises in your¦151882 hearts¦151881."
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            "And know this foundational truth: all of the prophecy¦151888 in Scripture doesn't just come from our own interpretations¦151893"
-          ],
-          "verseText": "And know this foundational truth: all of the prophecy¦151888 in Scripture doesn't just come from our own interpretations¦151893"
-        },
-        {
-          "verseNumber": "21",
-          "contents": [
-            "or from the ideas of man, but¦151905 from",
-            {
-              "nd": "God¦151915",
-              "closing": "\\nd*"
-            },
-            "speaking via men being¦151909 guided by the Holy Spirit."
-          ],
-          "verseText": "or from the ideas of man, but¦151905 from God¦151915 speaking via men being¦151909 guided by the Holy Spirit."
-        }
-      ]
+     "type": "char",
+     "marker": "bk",
+     "content": [
+      "The second letter from Simon ‘the rock Peter’"
+     ]
     },
+    " was sent to believers in various towns of Asia Minor (also called Anatolia, now part of modern Turkey) (1 Peter 1:1, 2 Peter 3:1). His purpose of writing this was to contradict the work of false teachers, and to scold the people for their bad behaviour as a result of following that teaching. Therefore he encouraged them to not believe that teaching because they should only believe the teaching concerning the messiah. They also need to be adding the following to their faith: good behaviour, wisdom/knowledge, self-control, patience, obeying God, and loving others.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "Those people taught that the messiah would not return since it had already been quite a while and he hadn't yet returned. But Simon answered by saying that the messiah would certainly return, but God doesn't want to punish everyone, but desires that people would turn away from their sins.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "iot",
+   "content": [
+    "Main components of Peter's letter\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Introduction ",
     {
-      "chapterNumber": "2",
-      "contents": [
-        {
-          "s1": "False teachers"
-        },
-        {
-          "rem": "/s1 God's judgement on false teaching; The Danger of False Teachers; False Teachers; False Teachers and Their Destruction; False Prophets and Their Punishment"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "But just like there were also false prophets¦151921 among the people¦151924, so also there will be false teachers¦151930 among you¦151928 who will sneakily¦151932 bring in destructive heresies—even denying the Master¦151939 and thus bringing¦151941 swift destruction upon themselves¦151943."
-          ],
-          "verseText": "But just like there were also false prophets¦151921 among the people¦151924, so also there will be false teachers¦151930 among you¦151928 who will sneakily¦151932 bring in destructive heresies—even denying the Master¦151939 and thus bringing¦151941 swift destruction upon themselves¦151943."
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "Many people will follow¦151948 their¦151949 gross immorality causing evil to be spoken of about the true way¦151957."
-          ],
-          "verseText": "Many people will follow¦151948 their¦151949 gross immorality causing evil to be spoken of about the true way¦151957."
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "They will exploit you¦151966 with greed¦151963 and made-up words but the judgment¦151973 of old won't be idle and their¦151981 destroyer¦151980 won't be sleeping.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "They will exploit you¦151966 with greed¦151963 and made-up words but the judgment¦151973 of old won't be idle and their¦151981 destroyer¦151980 won't be sleeping."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "Because¦151986 if",
-            {
-              "nd": "God¦151988",
-              "closing": "\\nd*"
-            },
-            "didn't spare¦151992 the messengers¦151989 when they sinned¦151990, but¦151993 chained them in darkness¦151996 and kept¦152002 them to be delivered to judgement in due course,"
-          ],
-          "verseText": "Because¦151986 if God¦151988 didn't spare¦151992 the messengers¦151989 when they sinned¦151990, but¦151993 chained them in darkness¦151996 and kept¦152002 them to be delivered to judgement in due course,"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:5:"
-                },
-                {
-                  "xt": "Gen 6:1–7:24."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "and if he didn't spare¦152010 the ancient¦152007 world but only preserved¦152016 the eight¦152012 including",
-            {
-              "nd": "Noah¦152013",
-              "closing": "\\nd*"
-            },
-            "the proclaimer¦152015 of righteousness¦152014 when the flood¦152017 came upon the ungodly¦152020 world,"
-          ],
-          "verseText": "and if he didn't spare¦152010 the ancient¦152007 world but only preserved¦152016 the eight¦152012 including Noah¦152013 the proclaimer¦152015 of righteousness¦152014 when the flood¦152017 came upon the ungodly¦152020 world,"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:6:"
-                },
-                {
-                  "xt": "Gen 19:24."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "and if he reduced¦152028 the cities¦152023 of Sodom¦152024 and Gomorrah¦152026 to ashes¦152028 by a catastrophe which condemned¦152030 them to being an example¦152031 of what the ungodly¦152036 will become,"
-          ],
-          "verseText": "and if he reduced¦152028 the cities¦152023 of Sodom¦152024 and Gomorrah¦152026 to ashes¦152028 by a catastrophe which condemned¦152030 them to being an example¦152031 of what the ungodly¦152036 will become,"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:7:"
-                },
-                {
-                  "xt": "Gen 19:1-16."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "and if he saved the righteous¦152040 man Lot¦152041 who was distressed¦152042 by the gross immorality of the lawless¦152047 people"
-          ],
-          "verseText": "and if he saved the righteous¦152040 man Lot¦152041 who was distressed¦152042 by the gross immorality of the lawless¦152047 people"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "and whose righteous soul was tormented¦152069 by seeing¦152053 and hearing¦152056 their lawlessness¦152067 day after day,"
-          ],
-          "verseText": "and whose righteous soul was tormented¦152069 by seeing¦152053 and hearing¦152056 their lawlessness¦152067 day after day,"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "then the Lord knows how to rescue¦152076 godly¦152072 people from their trials, and knows how to keep the unrighteous¦152078 people to be punished¦152085 at the day¦152083 of judgement,"
-          ],
-          "verseText": "then the Lord knows how to rescue¦152076 godly¦152072 people from their trials, and knows how to keep the unrighteous¦152078 people to be punished¦152085 at the day¦152083 of judgement,"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "especially those who follow their fleshly¦152091 lusts¦152093 that defile¦152096 themselves and despise¦152100 his Lordship.",
-            {
-              "p": "Those bold, self-willed¦152103 people don't¦152106 worry about insulting¦152108 the glorious¦152104 ones,"
-            }
-          ],
-          "verseText": "especially those who follow their fleshly¦152091 lusts¦152093 that defile¦152096 themselves and despise¦152100 his Lordship. Those bold, self-willed¦152103 people don't¦152106 worry about insulting¦152108 the glorious¦152104 ones,"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "whereas¦152109 even messengers¦152110 who are greater¦152115 in both strength¦152111 and¦152112 power¦152113 don't¦152117 slander¦152124 or pass the Lord's judgement on those glorious ones."
-          ],
-          "verseText": "whereas¦152109 even messengers¦152110 who are greater¦152115 in both strength¦152111 and¦152112 power¦152113 don't¦152117 slander¦152124 or pass the Lord's judgement on those glorious ones."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "But these¦152126 men act like unthinking animals¦152131 that are born to be captured¦152137 and destroyed when they slander¦152144 concerning things they know nothing about, and they will bring about their¦152149 own destruction."
-          ],
-          "verseText": "But these¦152126 men act like unthinking animals¦152131 that are born to be captured¦152137 and destroyed when they slander¦152144 concerning things they know nothing about, and they will bring about their¦152149 own destruction."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "The harm they did will lead to their own harm as payment as their indulgence in broad daylight. They've become spots and¦152168 blemishes¦152169 as they feast¦152177 together with you¦152178 yet take joy in their deception."
-          ],
-          "verseText": "The harm they did will lead to their own harm as payment as their indulgence in broad daylight. They've become spots and¦152168 blemishes¦152169 as they feast¦152177 together with you¦152178 yet take joy in their deception."
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "Their eyes¦152179 are full of lust for adultery¦152182 and never cease to sin¦152186, and having trained¦152192 their hearts¦152191 in greed¦152193 they entice¦152188 unstable¦152190 people to become their cursed¦152196 offspring."
-          ],
-          "verseText": "Their eyes¦152179 are full of lust for adultery¦152182 and never cease to sin¦152186, and having trained¦152192 their hearts¦152191 in greed¦152193 they entice¦152188 unstable¦152190 people to become their cursed¦152196 offspring."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:15-16:"
-                },
-                {
-                  "xt": "Num 22:4-35."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "They have left the right path and gone astray, following¦152203 the path of Balaam the son of Bosor¦152209 who loved¦152214 the wages of unrighteousness¦152213,"
-          ],
-          "verseText": "They have left the right path and gone astray, following¦152203 the path of Balaam the son of Bosor¦152209 who loved¦152214 the wages of unrighteousness¦152213,"
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "but he was scolded for his sin when a normally dumb donkey¦152221 spoke¦152227 to him with a man's voice¦152226 to stop his madness.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "but he was scolded for his sin when a normally dumb donkey¦152221 spoke¦152227 to him with a man's voice¦152226 to stop his madness."
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "These¦152233 men are like waterless¦152236 fountains and like mists¦152238 driven¦152242 by storms¦152241, and the gloomy darkness is reserved for them"
-          ],
-          "verseText": "These¦152233 men are like waterless¦152236 fountains and like mists¦152238 driven¦152242 by storms¦152241, and the gloomy darkness is reserved for them"
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "because¦152252 they¦152256 speak¦152255 vane and inflated words to entice¦152256 people to fleshly¦152259 lusts¦152258. Those who have just escaped¦152265 from the errors of their living"
-          ],
-          "verseText": "because¦152252 they¦152256 speak¦152255 vane and inflated words to entice¦152256 people to fleshly¦152259 lusts¦152258. Those who have just escaped¦152265 from the errors of their living"
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            "are promised¦152275 freedom¦152273, but they themselves have become slaves¦152277 to corruption¦152281, because¦152283 whatever a person has been defeated by is what they become a slave to."
-          ],
-          "verseText": "are promised¦152275 freedom¦152273, but they themselves have become slaves¦152277 to corruption¦152281, because¦152283 whatever a person has been defeated by is what they become a slave to."
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            "Because¦152290 if they have escaped¦152291 the defilements¦152293 of the world¦152295 by their knowledge¦152297 of our Lord and saviour¦152302",
-            {
-              "nd": "Yeshua¦152303 Messiah¦152304",
-              "closing": "\\nd*"
-            },
-            "and yet get entangled¦152308 again¦152307, they are defeated and have ended up worse¦152315 off than at the beginning."
-          ],
-          "verseText": "Because¦152290 if they have escaped¦152291 the defilements¦152293 of the world¦152295 by their knowledge¦152297 of our Lord and saviour¦152302 Yeshua¦152303 Messiah¦152304 and yet get entangled¦152308 again¦152307, they are defeated and have ended up worse¦152315 off than at the beginning."
-        },
-        {
-          "verseNumber": "21",
-          "contents": [
-            "It would have been better¦152318 not to have known the way of righteousness¦152330, than having known it and to turn back from the holy instruction that was passed on to them."
-          ],
-          "verseText": "It would have been better¦152318 not to have known the way of righteousness¦152330, than having known it and to turn back from the holy instruction that was passed on to them."
-        },
-        {
-          "verseNumber": "22",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:22:"
-                },
-                {
-                  "xt": "Prv 26:11."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "The proverb¦152353 is correct in what it says and has happened¦152346 to them: “A dog returns¦152355 to its¦152357 own vomit¦152359,” and “A sow that's been washed¦152362 wallows¦152364 in the mud again.”"
-          ],
-          "verseText": "The proverb¦152353 is correct in what it says and has happened¦152346 to them: “A dog returns¦152355 to its¦152357 own vomit¦152359,” and “A sow that's been washed¦152362 wallows¦152364 in the mud again.”"
-        }
-      ]
-    },
-    {
-      "chapterNumber": "3",
-      "contents": [
-        {
-          "s1": "The return of Yeshua the messiah"
-        },
-        {
-          "rem": "/s1 The Day of the Lord; The coming end; The Day of the Lord Is Coming; The Promise of the Lord's Coming"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "This is now my second¦152370 letter¦152373 to you my friends—both of which¦152375 were sent as reminders to stir up your¦152377 minds to sincerely¦152382"
-          ],
-          "verseText": "This is now my second¦152370 letter¦152373 to you my friends—both of which¦152375 were sent as reminders to stir up your¦152377 minds to sincerely¦152382"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "remember the messages¦152387 spoken¦152386 in the past by the holy prophets¦152391 as well as the instruction of the Lord and saviour¦152402 that came via your¦152396 apostles."
-          ],
-          "verseText": "remember the messages¦152387 spoken¦152386 in the past by the holy prophets¦152391 as well as the instruction of the Lord and saviour¦152402 that came via your¦152396 apostles."
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:3:"
-                },
-                {
-                  "xt": "Jude 18."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "Firstly you should know that mockers¦152418 will come during the last days¦152415, scoffing, following their¦152420 own lusts¦152423"
-          ],
-          "verseText": "Firstly you should know that mockers¦152418 will come during the last days¦152415, scoffing, following their¦152420 own lusts¦152423"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "and¦152426 saying¦152427, “What about his¦152434 promised¦152431 return? Everything has just continued¦152443 as usual from the beginning¦152445 of creation¦152446 right past the time¦152436 when the ancestors¦152439 died."
-          ],
-          "verseText": "and¦152426 saying¦152427, “What about his¦152434 promised¦152431 return? Everything has just continued¦152443 as usual from the beginning¦152445 of creation¦152446 right past the time¦152436 when the ancestors¦152439 died."
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:5:"
-                },
-                {
-                  "xt": "Gen 1:6-9."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "But because¦152448 of their desires, the truth is hidden from them that the universe came into being long ago by God's spoken command and the earth¦152458 was formed out of water and through¦152462 water"
-          ],
-          "verseText": "But because¦152448 of their desires, the truth is hidden from them that the universe came into being long ago by God's spoken command and the earth¦152458 was formed out of water and through¦152462 water"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:6:"
-                },
-                {
-                  "xt": "Gen 7:11."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "and these same waters¦152477 deluged the ancient world¦152476 which¦152472 then perished¦152479."
-          ],
-          "verseText": "and these same waters¦152477 deluged the ancient world¦152476 which¦152472 then perished¦152479."
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "But the present universe and the earth¦152486 have been preserved by that same¦152489 command, to be kept¦152495 for fire¦152494 in the day¦152497 of judgement and destruction¦152501 of those who are ungodly¦152503.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "But the present universe and the earth¦152486 have been preserved by that same¦152489 command, to be kept¦152495 for fire¦152494 in the day¦152497 of judgement and destruction¦152501 of those who are ungodly¦152503."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:8:"
-                },
-                {
-                  "xt": "Psa 90:4."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "But don't¦152508 let this one thing escape¦152509 your attention my dear friends, that one day for us is like a thousand years with the Lord, and a thousand years is like one day."
-          ],
-          "verseText": "But don't¦152508 let this one thing escape¦152509 your attention my dear friends, that one day for us is like a thousand years with the Lord, and a thousand years is like one day."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "The Lord isn't slow in fulfilling his promise¦152533 as some consider¦152537 slowness¦152536, but is patient¦152539 toward¦152541 you¦152542—not wanting anyone to perish¦152548 but rather wanting everyone to come to repentance¦152553.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "The Lord isn't slow in fulfilling his promise¦152533 as some consider¦152537 slowness¦152536, but is patient¦152539 toward¦152541 you¦152542—not wanting anyone to perish¦152548 but rather wanting everyone to come to repentance¦152553."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:10:"
-                },
-                {
-                  "xt": "Mat 24:43; Luk 12:39; 1Th 5:2; Rev 16:15."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "But the day¦152558 of the Lord will come like a thief¦152561, when the universe will suddenly pass away, its components will burn up and be destroyed¦152574, and the earth¦152578 and what happened on it¦152582 will be examined."
-          ],
-          "verseText": "But the day¦152558 of the Lord will come like a thief¦152561, when the universe will suddenly pass away, its components will burn up and be destroyed¦152574, and the earth¦152578 and what happened on it¦152582 will be examined."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "Since all these¦152589 things will be destroyed¦152595, what kind of people¦152596 should you¦152599 be? Holy and¦152605 godly in conduct¦152604,"
-          ],
-          "verseText": "Since all these¦152589 things will be destroyed¦152595, what kind of people¦152596 should you¦152599 be? Holy and¦152605 godly in conduct¦152604,"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "waiting for and hastening the coming¦152611 of the day¦152616 of",
-            {
-              "nd": "God¦152614",
-              "closing": "\\nd*"
-            },
-            "when the universe will be set alight and destroyed¦152621 and its components will melt as they burn up."
-          ],
-          "verseText": "waiting for and hastening the coming¦152611 of the day¦152616 of God¦152614 when the universe will be set alight and destroyed¦152621 and its components will melt as they burn up."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:13:"
-                },
-                {
-                  "xt": "Isa 65:17; 66:22; Rev 21:1."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "But we¦152643 await a new universe and¦152631 a new earth¦152633 filled with righteousness¦152646 according¦152637 to his¦152642 promise¦152640.",
-            {
-              "rem": "/s1 Final Exhortation and Doxology"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "But we¦152643 await a new universe and¦152631 a new earth¦152633 filled with righteousness¦152646 according¦152637 to his¦152642 promise¦152640."
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "And so dear friends, while you await these¦152651 events be eager and found¦152660 to be at peace¦152662 with him¦152659—spotless¦152655 and blameless¦152658."
-          ],
-          "verseText": "And so dear friends, while you await these¦152651 events be eager and found¦152660 to be at peace¦152662 with him¦152659—spotless¦152655 and blameless¦152658."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "And consider¦152670 the patience¦152668 of our Lord as leading to salvation¦152669 as our dear brother¦152677 Paul¦152678 wrote¦152685 to you¦152686 using the wisdom¦152684 that has been given¦152682 to him¦152683."
-          ],
-          "verseText": "And consider¦152670 the patience¦152668 of our Lord as leading to salvation¦152669 as our dear brother¦152677 Paul¦152678 wrote¦152685 to you¦152686 using the wisdom¦152684 that has been given¦152682 to him¦152683."
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "He speaks¦152693 in all his letters¦152692 concerning¦152697 these¦152698 things, some of which are hard to understand¦152704 and which ignorant¦152708 and unstable¦152710 people twist just like they twist the other¦152716 scriptures¦152717 to their¦152719 own destruction¦152723.",
-            {
-              "rem": "/s1 Peter's Final Words"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "He speaks¦152693 in all his letters¦152692 concerning¦152697 these¦152698 things, some of which are hard to understand¦152704 and which ignorant¦152708 and unstable¦152710 people twist just like they twist the other¦152716 scriptures¦152717 to their¦152719 own destruction¦152723."
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "So¦152725 knowing¦152727 this in advance dear friends, guard¦152730 yourselves in case you fall from your own stable position with the same errors as the lawless¦152735 ones."
-          ],
-          "verseText": "So¦152725 knowing¦152727 this in advance dear friends, guard¦152730 yourselves in case you fall from your own stable position with the same errors as the lawless¦152735 ones."
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "Rather grow in the grace¦152747 and knowledge¦152749 of our¦152752 Lord and saviour¦152754",
-            {
-              "nd": "Yeshua¦152755 Messiah¦152756",
-              "closing": "\\nd*"
-            },
-            ". May the glory¦152759 be his, both now and through the days of eternity¦152765. Amen."
-          ],
-          "verseText": "Rather grow in the grace¦152747 and knowledge¦152749 of our¦152752 Lord and saviour¦152754 Yeshua¦152755 Messiah¦152756. May the glory¦152759 be his, both now and through the days of eternity¦152765. Amen."
-        }
-      ]
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1:1-2"
+     ]
     }
-  ],
-  "_messages": {
-    "_warnings": []
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The calling of Christians ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1:3-21"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "False teachers ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "2:1-22"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The messiah Yeshua's return ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "3:1-18"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "This is still a very early look into the unfinished text of the Open English Translation of the Bible. Please double-check the text in advance before using in public.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ie",
+   "content": []
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "1",
+   "sid": "2PE 1"
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Salutation; Greetings from Peter\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "2PE 1:1"
+    },
+    "This ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "letter is from"
+     ]
+    },
+    " Simon Peter¦150468 (Grk: Simeon Petros¦150468), a slave¦150469 and messenger of Yeshua the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah"
+     ]
+    },
+    " (Grk: Yesou Christos), writing to those who have faith in the sinlessness of our ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦150485"
+     ]
+    },
+    " and saviour¦150488 Yeshua ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Messiah¦150473"
+     ]
+    },
+    " that's just as precious as our faith.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "2PE 1:2"
+    },
+    "May you¦150493 experience much grace¦150492 and peace¦150495 through your knowledge¦150498 of ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦150500"
+     ]
+    },
+    " and ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " our¦150506 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦150505"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "God's calling\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Growing in the Knowledge of God; The Christian's Call and Election; Making One's Calling and Election Sure; God's Call and Choice; Living in the last days\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "2PE 1:3"
+    },
+    "He has given us everything necessary for life¦150522 and godliness through¦150526 his divine¦150514 power¦150515 as we know¦150528 the one who called¦150530 us to his own glory¦150534 and moral excellence.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "2PE 1:4"
+    },
+    "Through these¦150555 things, he has given us precious¦150542 and very great¦150546 promises¦150550 that¦150540 you will become¦150556 participants of the divine¦150557 nature¦150559 after escaping¦150561 the corruption¦150572 in the world¦150566 of lust.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "2PE 1:5"
+    },
+    "For this same¦150575 reason, work hard to apply your¦150588 faith¦150587 adding moral excellence, and to that excellence add knowledge¦150596;\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "2PE 1:6"
+    },
+    "to that knowledge¦150600 add self-control; to that self-control add endurance; to that endurance add godliness;\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "2PE 1:7"
+    },
+    "to that godliness add brotherly concern; and to the brotherly concern add selfless love.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "2PE 1:8"
+    },
+    "Because¦150629 if these¦150628 things are part of you¦150630 and¦150633 continually increasing, your knowledge¦150648 of our¦150645 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦150644 Yeshua¦150646 Messiah¦150647"
+     ]
+    },
+    " won't become useless or unproductive.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "2PE 1:9"
+    },
+    "But if these¦150653 things aren't¦150651 part of someone, that person is shortsighted as if they've forgotten that prior cleansing of their sins¦150665.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "2PE 1:10"
+    },
+    "So¦150666 then fellow Christians, work hard to make your¦150677 calling¦150680 and election certain—that way you will never fall away—\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "2PE 1:11"
+    },
+    "and so you¦150696 will be richly¦150694 provided entry into the eternal¦150702 kingdom¦150703 of our¦150706 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦150705"
+     ]
+    },
+    " and saviour¦150708 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua¦150710 Messiah¦150711"
+     ]
+    },
+    ".\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Paying Attention to Scripture; Prophecy of Scripture\n"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "2PE 1:12"
+    },
+    "Therefore¦150712 I intend to always¦150718 remind¦150720 you about these¦150722 things, even though you know them and are already established in the truth¦150733 that you know.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "2PE 1:13"
+    },
+    "But¦150735 I consider¦150736 it¦150736 right¦150734, as long¦150738 as I live in this tent¦150743, to get you¦150745 stirred up with a reminder,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "2PE 1:14"
+    },
+    "since I know that this tent¦150757 of mine will soon be left behind as our¦150763 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦150762 Yeshua Messiah¦150765"
+     ]
+    },
+    " himself told me.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "2PE 1:15"
+    },
+    "And I will also make every effort to make sure that¦150779 you¦150774 will always remember¦150781 these¦150780 things after¦150775 my departure¦150778.\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Eyewitnesses of Christ's Glory\n"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "2PE 1:16"
+    },
+    "We didn't¦150783 follow¦150787 cleverly¦150785 crafted fables, but¦150799 rather having been eyewitnesses¦150800 of the majesty of our¦150793 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦150792 Yeshua Messiah¦150795"
+     ]
+    },
+    ", we¦150788 made his power¦150796 and¦150797 forthcoming return known¦150788 to you¦150789.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "2PE 1:17"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:17-18: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Mat 17:1-5; Mrk 9:2-7; Luk 9:28-35."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "Because¦150807 he received¦150806 the honour¦150812 and glory from ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦150810"
+     ]
+    },
+    " the Father when a voice¦150815 spoke to him with magnificent glory saying, “This is my¦150828 son that I dearly love and who has pleased¦150837 me greatly.”\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "2PE 1:18"
+    },
+    "Indeed we heard¦150843 this voice¦150841 from heaven¦150846 ourselves as we had been taken with him¦150850 to the holy mountain¦150857.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "2PE 1:19"
+    },
+    "In addition there are the words of the prophets¦150862 that were fulfilled which you would do well to pay attention to—like a light that shines in the dark places¦150873—until¦150874 the day¦150877 dawns and¦150858 the one who is the morning¦150880 star¦150880 rises in your¦150885 hearts¦150884.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "2PE 1:20"
+    },
+    "And know this foundational truth: all of the prophecy¦150891 in Scripture doesn't just come from our own interpretations¦150896\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "2PE 1:21"
+    },
+    "or from the ideas of man, but¦150908 from ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦150918"
+     ]
+    },
+    " speaking via men being¦150912 guided by the Holy Spirit.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "2",
+   "sid": "2PE 2"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "False teachers\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 God's judgement on false teaching; The Danger of False Teachers; False Teachers; False Teachers and Their Destruction; False Prophets and Their Punishment\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "2PE 2:1"
+    },
+    "But just like there were also false prophets¦150924 among the people¦150927, so also there will be false teachers¦150933 among you¦150931 who will sneakily¦150935 bring in destructive heresies—even denying the master¦150942 who bought¦150940 them and thus bringing¦150944 swift destruction upon themselves¦150946.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "2PE 2:2"
+    },
+    "Many people will follow¦150951 their¦150952 gross immorality causing evil to be spoken of about the true way¦150960.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "2PE 2:3"
+    },
+    "They will exploit you¦150969 with greed¦150966 and made-up words but¦150964 the judgement¦150976 of old won't be idle and their¦150984 destroyer¦150983 won't be sleeping.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "2PE 2:4"
+    },
+    "Because¦150989 if ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦150991"
+     ]
+    },
+    " didn't¦150994 spare¦150995 the messengers¦150992 when they sinned¦150993, but¦150996 chained them in darkness¦150999 and kept¦151005 them to be delivered to judgement¦151004 in due course,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "2PE 2:5"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:5: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Gen 6:1–7:24."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "and if he didn't¦151012 spare¦151013 the ancient¦151010 world but¦151009 only preserved¦151019 the eight¦151015 including¦151009 Noah¦151016 the proclaimer¦151018 of righteousness¦151017 when the flood¦151020 came upon the ungodly¦151023 world,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "2PE 2:6"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:6: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Gen 19:24."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "and if he reduced¦151031 the cities¦151026 of Sodom¦151027 and Amorah ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Gomorrah¦151029)"
+     ]
+    },
+    " to ashes¦151031 by a catastrophe which condemned¦151033 them to being an example¦151034 of what the ungodly¦151039 will become,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "2PE 2:7"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:7: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Gen 19:1-16."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "and if he saved the righteous¦151043 man Lot¦151044 who was distressed¦151045 by the gross immorality of the lawless¦151050 people\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "2PE 2:8"
+    },
+    "and whose righteous soul was tormented¦151072 by seeing¦151056 and hearing¦151059 their lawlessness¦151070 day after day,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "2PE 2:9"
+    },
+    "then the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦151074"
+     ]
+    },
+    " knows how to rescue¦151079 godly¦151075 people from their trials, and knows how to keep the unrighteous¦151081 people to be punished¦151088 at the day¦151086 of judgement¦151087,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "2PE 2:10"
+    },
+    "especially those who follow their fleshly¦151094 lusts¦151096 that defile¦151099 themselves and despise¦151103 his ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈being master¦151102 over us"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    "Those¦151105 bold, self-willed people don't¦151109 worry about insulting¦151111 the glorious¦151107 ones,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "2PE 2:11"
+    },
+    "whereas¦151112 even messengers¦151113 who are greater¦151118 in both strength¦151114 and¦151115 power¦151116 don't¦151120 slander¦151127 or pass the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master's¦151125"
+     ]
+    },
+    " judgement¦151128 on those glorious ones.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "2PE 2:12"
+    },
+    "But¦151141 these¦151129 men act like unthinking animals¦151134 that are born to be captured¦151140 and destroyed when they slander¦151147 concerning things they know nothing about, and they will bring about their¦151152 own destruction.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "2PE 2:13"
+    },
+    "The harm they did will lead to their own harm as payment as their indulgence in broad daylight. They've become spots and¦151171 blemishes¦151172 as they feast¦151180 together with you¦151181 yet take joy in their deception.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "2PE 2:14"
+    },
+    "Their eyes¦151182 are full of lust for adultery¦151185 and never cease to sin¦151188, and having trained¦151194 their hearts¦151193 in greed¦151195 they entice¦151190 unstable¦151192 people to become their cursed¦151198 offspring.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "2PE 2:15"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:15-16: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Num 22:4-35."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "They have left the right path and gone astray, following¦151206 the path of Bosor's¦151212 son Balaam¦151210 who loved¦151216 the wages of unrighteousness¦151215,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "2PE 2:16"
+    },
+    "but he was scolded for his sin when a ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "normally"
+     ]
+    },
+    " dumb donkey¦151223 spoke¦151229 to him with a man's voice¦151228 to stop his madness.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "2PE 2:17"
+    },
+    "These¦151235 men are like waterless¦151238 fountains and like mists¦151240 driven¦151244 by storms¦151243, and the gloomy darkness is reserved for them\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "2PE 2:18"
+    },
+    "because¦151254 they¦151258 speak¦151257 vane and inflated words to entice¦151258 people to fleshly¦151261 lusts¦151260. Those who have just escaped¦151267 from the errors of their living\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "2PE 2:19"
+    },
+    "are promised¦151277 freedom¦151275, but they themselves have become slaves¦151279 to corruption¦151283, because¦151285 whatever a person has been defeated by is what they become a slave to.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "2PE 2:20"
+    },
+    "Because¦151292 if they have escaped¦151293 the defilements¦151295 of the world¦151297 by their knowledge¦151299 of our ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦151301"
+     ]
+    },
+    " and saviour¦151304 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua¦151305 Messiah¦151306"
+     ]
+    },
+    " and yet get entangled¦151310 again¦151309, they are defeated and have ended up worse¦151317 off than at the beginning.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "2PE 2:21"
+    },
+    "It would have been better¦151320 not to have known the way of righteousness¦151331, than having known it and to turn back from the holy instruction that was passed on to them.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "2PE 2:22"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:22: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Prv 26:11."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "The proverb¦151353 is correct in what it says and has happened¦151347 to them: “A dog returns¦151355 to its¦151357 own vomit¦151359,” and “A sow that's been washed¦151362 wallows¦151364 in the mud again.”\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "3",
+   "sid": "2PE 3"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The messiah Yeshua's return\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Day of the Lord; The coming end; The Day of the Lord Is Coming; The Promise of the Lord's Coming\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "2PE 3:1"
+    },
+    "This is now my second¦151370 letter¦151373 to you my friends—both of which¦151375 were sent as reminders to stir up your¦151377 minds to sincerely¦151382\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "2PE 3:2"
+    },
+    "remember the messages¦151387 spoken¦151386 in the past by the holy prophets¦151391 as well as the instruction of the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦151400"
+     ]
+    },
+    " and saviour¦151402 that came via your¦151396 apostles.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "2PE 3:3"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:3: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Jude 18."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "Firstly you should know that mockers¦151417 will come during the last days¦151414, scoffing, following their¦151419 own lusts¦151422\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "2PE 3:4"
+    },
+    "and¦151425 saying¦151426, “What about his¦151433 promised¦151430 return? Everything has just continued¦151442 as usual from the beginning¦151444 of creation¦151445 right past the time¦151435 when the ancestors¦151438 died.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "2PE 3:5"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:5: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Gen 1:6-9."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "But¦151455 because¦151447 of their desires, the truth is hidden from them that the universe came into being long ago by God's spoken command and the earth¦151457 was formed out of water and through¦151461 water\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "2PE 3:6"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:6: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Gen 7:11."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "and these same waters¦151476 deluged the ancient world¦151475 which¦151471 then perished¦151478.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "2PE 3:7"
+    },
+    "But¦151483 the present universe and the earth¦151485 have been preserved by that same¦151488 command, to be kept¦151494 for fire¦151493 in the day¦151496 of judgement¦151497 and destruction¦151500 of those who are ungodly¦151502.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "2PE 3:8"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:8: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Psa 90:4."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "But¦151521 don't¦151507 let this one thing escape¦151508 your attention my dear friends, that one day for us is like a thousand years with the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦151516"
+     ]
+    },
+    ", and a thousand years is like one day.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "2PE 3:9"
+    },
+    "The ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦151530"
+     ]
+    },
+    " isn't¦151527 slow in fulfilling his promise¦151532 as some consider¦151536 slowness¦151535, but is patient¦151538 toward¦151540 you¦151541—not wanting anyone to perish¦151547 but rather wanting everyone to come to repentance¦151552.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "2PE 3:10"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:10: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Mat 24:43; Luk 12:39; 1Th 5:2; Rev 16:15."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "But¦151571 the day¦151557 of the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦151558"
+     ]
+    },
+    " will come like a thief¦151560, when the universe will suddenly pass away, its components will burn up and be destroyed¦151573, and the earth¦151577 and what happened on it¦151581 will be examined.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "2PE 3:11"
+    },
+    "Since all these¦151588 things will be destroyed¦151594, what kind of people¦151595 should you¦151598 be? Holy and¦151604 godly in conduct¦151603,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "2PE 3:12"
+    },
+    "waiting for and hastening the coming¦151610 of the day¦151615 of ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦151613"
+     ]
+    },
+    " when the universe will be set alight and destroyed¦151620 and its components will melt as they burn up.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "2PE 3:13"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:13: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Isa 65:17; 66:22; Rev 21:1."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "But¦151630 we¦151642 await a new universe and¦151630 a new earth¦151632 filled with righteousness¦151645 according¦151636 to his¦151641 promise¦151639.\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Final Exhortation and Doxology\n"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "2PE 3:14"
+    },
+    "And so dear friends, while you await these¦151650 events be eager and found¦151659 to be at peace¦151661 with him¦151658—spotless¦151654 and blameless¦151657.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "2PE 3:15"
+    },
+    "And consider¦151669 the patience¦151667 of our ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦151665"
+     ]
+    },
+    " as leading to salvation¦151668 as our dear brother¦151676 Paul¦151677 wrote¦151684 to you¦151685 using the wisdom¦151683 that has been given¦151681 to him¦151682.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "2PE 3:16"
+    },
+    "He speaks¦151692 in all his letters¦151691 concerning¦151696 these¦151697 things, some of which are hard to understand¦151703 and which ignorant¦151707 and unstable¦151709 people twist just like they twist the other¦151715 scriptures¦151716 to their¦151718 own destruction¦151722.\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Peter's Final Words\n"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "2PE 3:17"
+    },
+    "So¦151724 knowing¦151726 this in advance dear friends, guard¦151728 yourselves in case you fall from your own stable position with the same errors as the lawless¦151733 ones.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "2PE 3:18"
+    },
+    "Rather grow in the grace¦151745 and knowledge¦151747 of our¦151750 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦151749"
+     ]
+    },
+    " and saviour¦151752 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua Messiah¦151754"
+     ]
+    },
+    ". May the glory¦151757 be his, both now and through the days of eternity¦151763. May it¦151764 be so¦151764.\n"
+   ]
   }
+ ]
 }

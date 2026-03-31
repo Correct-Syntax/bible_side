@@ -1,2685 +1,3982 @@
 {
-  "book": {
-    "bookCode": "GAL",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.04",
-    "meta": [
-      {
-        "usfm": "3.0"
-      },
-      {
-        "ide": "UTF-8"
-      },
-      {
-        "rem": "ESFM v0.6 GAL"
-      },
-      {
-        "rem": "WORDTABLE OET-LV_NT_word_table.tsv"
-      },
-      {
-        "h": "Galatians"
-      },
-      {
-        "toc1": "Galatians"
-      },
-      {
-        "toc2": "Galatians"
-      },
-      {
-        "toc3": "Gal."
-      },
-      {
-        "mt2": "Paul's letter to the assemblies in"
-      },
-      {
-        "mt1": "Galatia"
-      },
-      {
-        "is1": "Introduction"
-      },
-      {
-        "ip": "At the time when the preaching of the good message about Yeshua began to spread and it started being accepted by non-Jews, an important question arose: whether or not it's necessary for a person wanting to accept the message to also obey the Law of Mosheh. Paul argues that it's not necessary because it's by faith that we can receive life from the messiah, and it's by faith that a person is considered guiltless in God's eyes. But there among the groups of believers in Galasya (a province of Rome in Asia Minor, now part of modern Turkey), there were people who disagreed with Paul and believed that it's still necessary for a follower of Yeshua to still obey all of Mosheh' laws in order to become righteous in God's sight."
-      },
-      {
-        "ip": [
-          "In",
-          {
-            "bk": "Paul's letter to the assemblies in Galatia",
-            "closing": "\\bk*"
-          },
-          ", he wrote so that people who had started to follow deviant teachings might return to the true faith. He began this by explaining the reasons that he himself became a missionary. He showed that his becoming a missionary wasn't because he was selected by the people, but that God himself spoke to him, and what's more, he was specifically sent by God to the non-Jews. As a result of that, he strove to ensure that people understood that there's only one way to restore our relationship with God, and that's through faith in God's son."
-        ]
-      },
-      {
-        "ip": "Nearer the end of his letter, he answered those who say that it's wrong not to obey Mosheh' law. Paul stated that he would be afraid to leave behind God's goodness and mercy just to become a slave of Mosheh' rules. Again he advised that it's necessary for them to listen to God's spirit so that they're changed and don't follow the sinful desires of their own bodies."
-      },
-      {
-        "iot": "Main components of Paul's letter"
-      },
-      {
-        "io1": [
-          "Introduction",
-          {
-            "ior": "1:1-10",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Paul's calling as an ambassador of the messiah",
-          {
-            "ior": "1:11–2:14",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The good message about the goodness and mercy of God",
-          {
-            "ior": "2:15–4:31",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Christian freedom and living",
-          {
-            "ior": "5:1–6:10",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Ending",
-          {
-            "ior": "6:11-18",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "rem": [
-          "This is still a very early look into the unfinished text of the",
-          {
-            "em": "Open English Translation",
-            "closing": "\\em*"
-          },
-          "of the Bible. Please double-check the text in advance before using in public."
-        ]
-      },
-      {
-        "ie": ""
-      }
-    ]
+ "type": "USJ",
+ "version": "3.1",
+ "content": [
+  {
+   "type": "book",
+   "marker": "id",
+   "code": "GAL",
+   "content": [
+    "- Open English Translation—Readers' Version (OET-RV) v0.1.59"
+   ]
   },
-  "chapters": [
+  {
+   "type": "para",
+   "marker": "ide",
+   "content": [
+    "UTF-8\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "ESFM v0.6 GAL\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "WORDTABLE OET-LV_NT_word_table.tsv\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "h",
+   "content": [
+    "Galatians\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc1",
+   "content": [
+    "Galatians\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc2",
+   "content": [
+    "Galatians\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc3",
+   "content": [
+    "Gal.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt2",
+   "content": [
+    "Paul's letter to the assemblies in\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt1",
+   "content": [
+    "Galatia\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "is1",
+   "content": [
+    "Introduction\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "At the time when the preaching of the good message about Yeshua began to spread and it started being accepted by non-Jews, an important question arose: whether or not it's necessary for a person wanting to accept the message to also obey the Law of Mosheh. Paul argues that it's not necessary because it's by faith that we can receive life from the messiah, and it's by faith that a person is considered guiltless in God's eyes. But there among the groups of believers in Galasya (a province of Rome in Asia Minor, now part of modern Turkey), there were people who disagreed with Paul and believed that it's still necessary for a follower of Yeshua to obey all of Mosheh's laws in order to become righteous in God's sight.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "In ",
     {
-      "chapterNumber": "1",
-      "contents": [
-        {
-          "rem": "/s1 Greetings from Paul"
-        },
-        {
-          "rem": "/s1 Salutation"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            {
-              "add": "This letter is from",
-              "closing": "\\add*"
-            },
-            "Paul¦126511, a missionary",
-            {
-              "add": "of Yeshua",
-              "closing": "\\add*"
-            },
-            ", not chosen by people or any human¦126515 desire, but¦126519 chosen",
-            {
-              "add": "directly",
-              "closing": "\\add*"
-            },
-            "by Yeshua the",
-            {
-              "nd": "messiah¦126522",
-              "closing": "\\nd*"
-            },
-            "and¦126523",
-            {
-              "nd": "God¦126524",
-              "closing": "\\nd*"
-            },
-            "the father¦126525 who raised¦126527 Yeshua from the dead¦126531."
-          ],
-          "verseText": "This letter is from Paul¦126511, a missionary of Yeshua, not chosen by people or any human¦126515 desire, but¦126519 chosen directly by Yeshua the messiah¦126522 and¦126523 God¦126524 the father¦126525 who raised¦126527 Yeshua from the dead¦126531."
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            {
-              "add": "On behalf of",
-              "closing": "\\add*"
-            },
-            "all the believers here,",
-            {
-              "add": "I'm writing",
-              "closing": "\\add*"
-            },
-            "to the assemblies¦126539",
-            {
-              "add": "of believers",
-              "closing": "\\add*"
-            },
-            "in Galatia¦126541.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "On behalf of all the believers here, I'm writing to the assemblies¦126539 of believers in Galatia¦126541."
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "May you¦126543 all experience the grace¦126542 and peace¦126545 that comes from",
-            {
-              "nd": "God¦126547",
-              "closing": "\\nd*"
-            },
-            "the father¦126548 and our¦126552",
-            {
-              "nd": "master¦126551 Yeshua¦126553",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦126554",
-              "closing": "\\nd*"
-            },
-            "—"
-          ],
-          "verseText": "May you¦126543 all experience the grace¦126542 and peace¦126545 that comes from God¦126547 the father¦126548 and our¦126552 master¦126551 Yeshua¦126553 the messiah¦126554—"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "the one who gave¦126556 himself¦126558 for our sins¦126562 and¦126579 to rescue¦126565 us out of this present¦126572, evil¦126573 age according¦126574 to the desire of",
-            {
-              "nd": "God¦126578",
-              "closing": "\\nd*"
-            },
-            "our father¦126580"
-          ],
-          "verseText": "the one who gave¦126556 himself¦126558 for our sins¦126562 and¦126579 to rescue¦126565 us out of this present¦126572, evil¦126573 age according¦126574 to the desire of God¦126578 our father¦126580"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "who will be praised even through future ages. May¦126591 it¦126591 be so¦126591.",
-            {
-              "s1": "There's only one good message"
-            },
-            {
-              "rem": "/s1 The One Gospel"
-            },
-            {
-              "rem": "/s1 No Other Gospel"
-            },
-            {
-              "rem": "/s1 One gospel for all"
-            },
-            {
-              "rem": "/s1 There Is Only One Good News"
-            },
-            {
-              "rem": "/s1 There Is No Other Gospel"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "who will be praised even through future ages. May¦126591 it¦126591 be so¦126591."
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "I'm astounded that you've all so quickly¦126595 replaced the good¦126607 message¦126607",
-            {
-              "add": "that you heard",
-              "closing": "\\add*"
-            },
-            "from the one who called¦126599 you to the grace¦126603 of the",
-            {
-              "nd": "messiah¦126604",
-              "closing": "\\nd*"
-            },
-            ". You've replaced it with another¦126606 narrative"
-          ],
-          "verseText": "I'm astounded that you've all so quickly¦126595 replaced the good¦126607 message¦126607 that you heard from the one who called¦126599 you to the grace¦126603 of the messiah¦126604. You've replaced it with another¦126606 narrative"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "which¦126608 is not at all another¦126611 good message, but rather comes from those who are confusing you and wanting¦126620 to alter¦126621 the",
-            {
-              "add": "actual",
-              "closing": "\\add*"
-            },
-            "good message about the",
-            {
-              "nd": "messiah¦126625",
-              "closing": "\\nd*"
-            },
-            "."
-          ],
-          "verseText": "which¦126608 is not at all another¦126611 good message, but rather comes from those who are confusing you and wanting¦126620 to alter¦126621 the actual good message about the messiah¦126625."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "Even if either we ourselves or",
-            {
-              "add": "even",
-              "closing": "\\add*"
-            },
-            "a messenger¦126632 out of heaven¦126634 were to preach a different ‘good message’ which disagrees with the good message that we",
-            {
-              "add": "first",
-              "closing": "\\add*"
-            },
-            "preached to you, then they should¦126643 be cursed¦126642."
-          ],
-          "verseText": "Even if either we ourselves or even a messenger¦126632 out of heaven¦126634 were to preach a different ‘good message’ which disagrees with the good message that we first preached to you, then they should¦126643 be cursed¦126642."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "As we have previously¦126645 said¦126645, and even now say it again¦126649: if anyone¦126652 preaches¦126654 a ‘good¦126654 message¦126654’ to you that's different from what you already heard, let that person be cursed¦126659.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "As we have previously¦126645 said¦126645, and even now say it again¦126649: if anyone¦126652 preaches¦126654 a ‘good¦126654 message¦126654’ to you that's different from what you already heard, let that person be cursed¦126659."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "Am I trying to please and persuade¦126664 people or",
-            {
-              "nd": "God¦126667",
-              "closing": "\\nd*"
-            },
-            "? If I was still¦126674 trying to please people, I wouldn't be a",
-            {
-              "add": "worthy",
-              "closing": "\\add*"
-            },
-            "slave¦126678 of the",
-            {
-              "nd": "messiah¦126677",
-              "closing": "\\nd*"
-            },
-            ".",
-            {
-              "s1": "Paul was commissioned directly by God"
-            },
-            {
-              "rem": "/s1 Paul's Vindication of His Apostleship"
-            },
-            {
-              "rem": "/s1 Paul Called by God"
-            },
-            {
-              "rem": "/s1 Paul's Message Comes from Christ"
-            },
-            {
-              "rem": "/s1 How Paul Became an Apostle"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Am I trying to please and persuade¦126664 people or God¦126667? If I was still¦126674 trying to please people, I wouldn't be a worthy slave¦126678 of the messiah¦126677."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "I'm letting you all know, brothers¦126686 and¦126686 sisters¦126686, that the good message I proclaimed didn't just come from human¦126698 ideas."
-          ],
-          "verseText": "I'm letting you all know, brothers¦126686 and¦126686 sisters¦126686, that the good message I proclaimed didn't just come from human¦126698 ideas."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "It didn't come from my ideas nor was I taught¦126708 it by some other person, but it was revealed to me by",
-            {
-              "nd": "Yeshua¦126712",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦126713",
-              "closing": "\\nd*"
-            },
-            ".",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "It didn't come from my ideas nor was I taught¦126708 it by some other person, but it was revealed to me by Yeshua¦126712 the messiah¦126713."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "You've all heard¦126714 about my previous behaviour when as a strict Jew, I was extreme in persecuting",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:13:"
-                },
-                {
-                  "xt": "Acts 8:3; 22:4-5; 26:9-11."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "the assembly¦126728 of God's people and¦126731 was trying to destroy them."
-          ],
-          "verseText": "You've all heard¦126714 about my previous behaviour when as a strict Jew, I was extreme in persecuting the assembly¦126728 of God's people and¦126731 was trying to destroy them."
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "I was progressing¦126735 in Judaism¦126738",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:14:"
-                },
-                {
-                  "xt": "Acts 22:3."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "quicker than many of my¦126745 contemporaries¦126741, being¦126750 so much more zealous¦126749 in observing our ancient traditions¦126754.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "I was progressing¦126735 in Judaism¦126738 quicker than many of my¦126745 contemporaries¦126741, being¦126750 so much more zealous¦126749 in observing our ancient traditions¦126754."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "But",
-            {
-              "add": "God",
-              "closing": "\\add*"
-            },
-            "who'd planned this from even before I was born,",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:15-16:"
-                },
-                {
-                  "xt": "Acts 9:3-6; 22:6-10; 26:13-18."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "because of his¦126774 grace¦126773 he called¦126770 me"
-          ],
-          "verseText": "But God who'd planned this from even before I was born, because of his¦126774 grace¦126773 he called¦126770 me"
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "so that he could reveal¦126775 his¦126778 son through me and could preach¦126782 the good¦126782 message¦126782 to non-Jews¦126786. I didn't rush to get advice from others,"
-          ],
-          "verseText": "so that he could reveal¦126775 his¦126778 son through me and could preach¦126782 the good¦126782 message¦126782 to non-Jews¦126786. I didn't rush to get advice from others,"
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "nor did I head to Yerushalem¦126798 to",
-            {
-              "add": "consult with",
-              "closing": "\\add*"
-            },
-            "the ambassadors¦126803 there that preceded me, but I went away to Arabia¦126808 and then later returned¦126811 to Damascus¦126813."
-          ],
-          "verseText": "nor did I head to Yerushalem¦126798 to consult with the ambassadors¦126803 there that preceded me, but I went away to Arabia¦126808 and then later returned¦126811 to Damascus¦126813."
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "Then finally after¦126815 three¦126817 years¦126816 I went¦126819 to Yerushalem¦126822",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:18:"
-                },
-                {
-                  "xt": "Acts 9:26-30."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "to get to know Peter, and¦126826 stayed with him¦126830 for just over two weeks."
-          ],
-          "verseText": "Then finally after¦126815 three¦126817 years¦126816 I went¦126819 to Yerushalem¦126822 to get to know Peter, and¦126826 stayed with him¦126830 for just over two weeks."
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            "I didn't met any of the other ambassadors¦126836 other than Yeshua's brother¦126844, Yacob¦126842,"
-          ],
-          "verseText": "I didn't met any of the other ambassadors¦126836 other than Yeshua's brother¦126844, Yacob¦126842,"
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            "and what I'm writing to you, I'm writing with",
-            {
-              "nd": "God¦126854",
-              "closing": "\\nd*"
-            },
-            "watching, so I'm not lying¦126857.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "and what I'm writing to you, I'm writing with God¦126854 watching, so I'm not lying¦126857."
-        },
-        {
-          "verseNumber": "21",
-          "contents": [
-            "Then I went¦126859 into the regions¦126862 of Syria and¦126865 Cilicia."
-          ],
-          "verseText": "Then I went¦126859 into the regions¦126862 of Syria and¦126865 Cilicia."
-        },
-        {
-          "verseNumber": "22",
-          "contents": [
-            "The assemblies¦126875 back in Yudea¦126878 believing in the",
-            {
-              "nd": "messiah¦126881",
-              "closing": "\\nd*"
-            },
-            "didn't know me by sight"
-          ],
-          "verseText": "The assemblies¦126875 back in Yudea¦126878 believing in the messiah¦126881 didn't know me by sight"
-        },
-        {
-          "verseNumber": "23",
-          "contents": [
-            "but¦126883 had only heard about me—that the person who'd once been persecuting them was now preaching¦126892 the good¦126892 message¦126892 about the faith¦126894 himself,"
-          ],
-          "verseText": "but¦126883 had only heard about me—that the person who'd once been persecuting them was now preaching¦126892 the good¦126892 message¦126892 about the faith¦126894 himself,"
-        },
-        {
-          "verseNumber": "24",
-          "contents": [
-            "and they¦126899 praised¦126899",
-            {
-              "nd": "God¦126903",
-              "closing": "\\nd*"
-            },
-            "because of",
-            {
-              "add": "what had happened to",
-              "closing": "\\add*"
-            },
-            "me."
-          ],
-          "verseText": "and they¦126899 praised¦126899 God¦126903 because of what had happened to me."
-        }
-      ]
+     "type": "char",
+     "marker": "bk",
+     "content": [
+      "Paul's letter to the assemblies in Galatia"
+     ]
     },
+    ", he wrote so that people who had started to follow deviant teachings might return to the true faith. He began this by explaining the reasons that he himself became a missionary. He showed that his becoming a missionary wasn't because he was selected by the people, but that God himself spoke to him, and what's more, he was specifically sent by God to the non-Jews. As a result of that, he strove to ensure that people understood that there's only one way to restore our relationship with God, and that's through faith in God's son.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "Nearer the end of his letter, he answered those who say that it's wrong not to obey Mosheh's law. Paul stated that he would be afraid to leave behind God's goodness and mercy just to become a slave of Mosheh's rules. Again he advised that it's necessary for them to listen to God's spirit so that they're changed and don't follow the sinful desires of their own bodies.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "iot",
+   "content": [
+    "Main components of Paul's letter\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Introduction ",
     {
-      "chapterNumber": "2",
-      "contents": [
-        {
-          "s1": "The ambassadors accept Paul and Barnabas"
-        },
-        {
-          "rem": "/s1 The Apostles Accept Paul"
-        },
-        {
-          "rem": "/s1 Paul Accepted by the Apostles"
-        },
-        {
-          "rem": "/s1 Paul and the Other Apostles"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "It was fourteen¦126906 years¦126907 later that I made the uphill trek to Yerushalem¦126912",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:1:"
-                },
-                {
-                  "xt": "Acts 11:30; 15:2."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "with Barnabas¦126914 and taking Titos¦126918 along¦126916 as well."
-          ],
-          "verseText": "It was fourteen¦126906 years¦126907 later that I made the uphill trek to Yerushalem¦126912 with Barnabas¦126914 and taking Titos¦126918 along¦126916 as well."
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            {
-              "add": "God",
-              "closing": "\\add*"
-            },
-            "had told me to go there and I explained to the",
-            {
-              "add": "leaders there",
-              "closing": "\\add*"
-            },
-            "the good¦126927 message¦126927 that I'd been proclaiming¦126929 to the non-Jews¦126932. I did it privately to double-check that I wasn't somehow¦126939 just acting vainly."
-          ],
-          "verseText": "God had told me to go there and I explained to the leaders there the good¦126927 message¦126927 that I'd been proclaiming¦126929 to the non-Jews¦126932. I did it privately to double-check that I wasn't somehow¦126939 just acting vainly."
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "But not even Titos¦126947 who was with me was compelled¦126953 to be circumcised¦126954 even though he is a Greek."
-          ],
-          "verseText": "But not even Titos¦126947 who was with me was compelled¦126953 to be circumcised¦126954 even though he is a Greek."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "However some false¦126959 brothers¦126959 were sneaked¦126958 in to monitor the freedoms¦126964 that we¦126967 have in the",
-            {
-              "nd": "messiah¦126970",
-              "closing": "\\nd*"
-            },
-            ",",
-            {
-              "nd": "Yeshua¦126971",
-              "closing": "\\nd*"
-            },
-            ", and wanting us to be enslaved¦126974 to their traditions."
-          ],
-          "verseText": "However some false¦126959 brothers¦126959 were sneaked¦126958 in to monitor the freedoms¦126964 that we¦126967 have in the messiah¦126970, Yeshua¦126971, and wanting us to be enslaved¦126974 to their traditions."
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "But we¦126980 didn't even submit¦126982 to them for one hour¦126979, so that the truth¦126985 of the good¦126988 message¦126988 could continue¦126989 amongst you¦126992.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "But we¦126980 didn't even submit¦126982 to them for one hour¦126979, so that the truth¦126985 of the good¦126988 message¦126988 could continue¦126989 amongst you¦126992."
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:6:"
-                },
-                {
-                  "xt": "Deu 10:17."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "And those people who were supposed",
-            {
-              "add": "leaders",
-              "closing": "\\add*"
-            },
-            "(although what they were didn't mean much to me because¦127012",
-            {
-              "nd": "God¦127007",
-              "closing": "\\nd*"
-            },
-            "doesn't go by appearances¦127005) didn't really contribute¦127016 anything useful as far as I could tell."
-          ],
-          "verseText": "And those people who were supposed leaders (although what they were didn't mean much to me because¦127012 God¦127007 doesn't go by appearances¦127005) didn't really contribute¦127016 anything useful as far as I could tell."
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "Instead, they saw that I've been entrusted with taking the good¦127024 message¦127024 to the non-Jews just like Peter was entrusted to take it to the Jews"
-          ],
-          "verseText": "Instead, they saw that I've been entrusted with taking the good¦127024 message¦127024 to the non-Jews just like Peter was entrusted to take it to the Jews"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "because the same",
-            {
-              "add": "God",
-              "closing": "\\add*"
-            },
-            "who worked in Peter to commission him to the Jews also worked in me",
-            {
-              "add": "to commission me",
-              "closing": "\\add*"
-            },
-            "towards¦127043 the non-Jews¦127045."
-          ],
-          "verseText": "because the same God who worked in Peter to commission him to the Jews also worked in me to commission me towards¦127043 the non-Jews¦127045."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "So seeing the grace¦127049 that",
-            {
-              "add": "God",
-              "closing": "\\add*"
-            },
-            "had shown towards me, Yacob¦127053 and Peter and Yohan¦127058, the apparent pillars¦127061",
-            {
-              "add": "of the assemblies",
-              "closing": "\\add*"
-            },
-            "accepted me and Barnabas¦127067 as equals, so that we¦127070 could go¦127070 to the non-Jews¦127074 and them to the Jews."
-          ],
-          "verseText": "So seeing the grace¦127049 that God had shown towards me, Yacob¦127053 and Peter and Yohan¦127058, the apparent pillars¦127061 of the assemblies accepted me and Barnabas¦127067 as equals, so that we¦127070 could go¦127070 to the non-Jews¦127074 and them to the Jews."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "Also",
-            {
-              "add": "they said that",
-              "closing": "\\add*"
-            },
-            "we¦127084 need to keep helping the poor, but I was eager to do that anyway.",
-            {
-              "s1": "Paul scolds Peter"
-            },
-            {
-              "rem": "/s1 Paul Rebukes Peter at Antioch"
-            },
-            {
-              "rem": "/s1 Paul Confronts Peter"
-            },
-            {
-              "rem": "/s1 Paul Opposes Peter"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Also they said that we¦127084 need to keep helping the poor, but I was eager to do that anyway."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "But when Peter came¦127093 to Antioch¦127097, I had to oppose him¦127100 to his face¦127099, because¦127102 he¦127104 had messed up."
-          ],
-          "verseText": "But when Peter came¦127093 to Antioch¦127097, I had to oppose him¦127100 to his face¦127099, because¦127102 he¦127104 had messed up."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "He'd been eating with non-Jews¦127115, but when Yacob¦127112 and companions arrived, he about-faced and started eating separately because¦127107 he was afraid of",
-            {
-              "add": "being criticised by",
-              "closing": "\\add*"
-            },
-            "the strict Jews."
-          ],
-          "verseText": "He'd been eating with non-Jews¦127115, but when Yacob¦127112 and companions arrived, he about-faced and started eating separately because¦127107 he was afraid of being criticised by the strict Jews."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "The other Jews¦127136 with him¦127132 were also being hypocrites, so much so that even Barnabas¦127140 joined their¦127143 hypocrisy,"
-          ],
-          "verseText": "The other Jews¦127136 with him¦127132 were also being hypocrites, so much so that even Barnabas¦127140 joined their¦127143 hypocrisy,"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "but¦127146 when I saw¦127148 that they weren't being¦127166 honest with the truth¦127154 of the good¦127156 message¦127156, I had to say to Peter in front of everybody, “If you Jews are living¦127173 more like non-Jews and not like",
-            {
-              "add": "strict",
-              "closing": "\\add*"
-            },
-            "Jews, how can you force non-Jews to obey all the Jewish traditions?",
-            {
-              "s1": "You can't be saved by obeying rules"
-            },
-            {
-              "rem": "/s1 Jews and Gentiles Are Saved by Faith"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "but¦127146 when I saw¦127148 that they weren't being¦127166 honest with the truth¦127154 of the good¦127156 message¦127156, I had to say to Peter in front of everybody, “If you Jews are living¦127173 more like non-Jews and not like strict Jews, how can you force non-Jews to obey all the Jewish traditions?"
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "We follow Jewish laws and¦127184 not the customs of other nations,"
-          ],
-          "verseText": "We follow Jewish laws and¦127184 not the customs of other nations,"
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "but we know that we're not saved by following rules",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:16: a"
-                },
-                {
-                  "xt": "Psa 143:2; Rom 3:20;"
-                },
-                {
-                  "xo": "b"
-                },
-                {
-                  "xt": "Rom 3:22."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "but only by faith in Yeshua the messiah. So we've believed¦127211 in Yeshua the messiah so that we can be made guiltless by our faith in the messiah, and not by obeying all those rules, because¦127222 all of those rules can never make any person¦127194 guiltless."
-          ],
-          "verseText": "but we know that we're not saved by following rules but only by faith in Yeshua the messiah. So we've believed¦127211 in Yeshua the messiah so that we can be made guiltless by our faith in the messiah, and not by obeying all those rules, because¦127222 all of those rules can never make any person¦127194 guiltless."
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "However if we attempt to be made guiltless through the messiah yet find that we're sinners¦127243, does that mean that the messiah is servant¦127247 to sin¦127246? That could never be so!"
-          ],
-          "verseText": "However if we attempt to be made guiltless through the messiah yet find that we're sinners¦127243, does that mean that the messiah is servant¦127247 to sin¦127246? That could never be so!"
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "If I rebuild what I've already torn down, that would show me to be a law-breaker."
-          ],
-          "verseText": "If I rebuild what I've already torn down, that would show me to be a law-breaker."
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:19:"
-                },
-                {
-                  "xt": "Rom 6:1-11; 7:1-6."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "It was the law that showed me that I needed die to the idea of following the law so that I could live¦127269",
-            {
-              "add": "to serve",
-              "closing": "\\add*"
-            },
-            {
-              "nd": "God¦127268",
-              "closing": "\\nd*"
-            },
-            {
-              "add": "instead",
-              "closing": "\\add*"
-            },
-            ". I was executed on a stake along with the",
-            {
-              "nd": "messiah¦127270",
-              "closing": "\\nd*"
-            }
-          ],
-          "verseText": "It was the law that showed me that I needed die to the idea of following the law so that I could live¦127269 to serve God¦127268 instead. I was executed on a stake along with the messiah¦127270"
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            "and I'm not living any more, but it's the",
-            {
-              "nd": "messiah¦127280",
-              "closing": "\\nd*"
-            },
-            "now living in me. The way that my body¦127286 stays alive now is by living by faith¦127288 in God's son—the one who loved¦127298 me and allowed himself¦127302 to be executed for me."
-          ],
-          "verseText": "and I'm not living any more, but it's the messiah¦127280 now living in me. The way that my body¦127286 stays alive now is by living by faith¦127288 in God's son—the one who loved¦127298 me and allowed himself¦127302 to be executed for me."
-        },
-        {
-          "verseNumber": "21",
-          "contents": [
-            "I'm not rejecting¦127306 God's grace¦127308, because¦127312 if the law could make me guiltless, that would mean that the",
-            {
-              "nd": "messiah¦127317",
-              "closing": "\\nd*"
-            },
-            "died¦127319 unnecessarily."
-          ],
-          "verseText": "I'm not rejecting¦127306 God's grace¦127308, because¦127312 if the law could make me guiltless, that would mean that the messiah¦127317 died¦127319 unnecessarily."
-        }
-      ]
-    },
-    {
-      "chapterNumber": "3",
-      "contents": [
-        {
-          "rem": "/s1 The freedom of faith"
-        },
-        {
-          "rem": "/s1 Faith or Observance of the Law"
-        },
-        {
-          "rem": "/s1 The Law and Faith in Christ"
-        },
-        {
-          "rem": "/s1 Law or Faith"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "You foolish¦127321 Galatians¦127322, who tricked you¦127324 into changing? You know that",
-            {
-              "nd": "Yeshua¦127333",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦127334",
-              "closing": "\\nd*"
-            },
-            "was publicly¦127335 known to have been executed¦127338 on a stake¦127338."
-          ],
-          "verseText": "You foolish¦127321 Galatians¦127322, who tricked you¦127324 into changing? You know that Yeshua¦127333 the messiah¦127334 was publicly¦127335 known to have been executed¦127338 on a stake¦127338."
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "So I just want to ask you one thing: did you receive¦127351 the",
-            {
-              "nd": "spirit¦127350",
-              "closing": "\\nd*"
-            },
-            "from obeying all the rules, or was it by faith¦127355 when you heard?"
-          ],
-          "verseText": "So I just want to ask you one thing: did you receive¦127351 the spirit¦127350 from obeying all the rules, or was it by faith¦127355 when you heard?"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "So aren't you being foolish¦127357? Having¦127359 begun¦127359 in the",
-            {
-              "nd": "spirit¦127360",
-              "closing": "\\nd*"
-            },
-            ", now you're all focussing back on bodily discipline."
-          ],
-          "verseText": "So aren't you being foolish¦127357? Having¦127359 begun¦127359 in the spirit¦127360, now you're all focussing back on bodily discipline."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "You vainly endured so many things—it was vain wasn't it?"
-          ],
-          "verseText": "You vainly endured so many things—it was vain wasn't it?"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "So¦127373 the one who gave the",
-            {
-              "nd": "spirit¦127377",
-              "closing": "\\nd*"
-            },
-            "to you and worked miracles¦127380 among¦127381 you all, did all that come about from obeying the rules or by the faith¦127392 that came from hearing¦127391",
-            {
-              "add": "the good message",
-              "closing": "\\add*"
-            },
-            "?",
-            {
-              "s1": "The spreading of Abraham's blessing"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "So¦127373 the one who gave the spirit¦127377 to you and worked miracles¦127380 among¦127381 you all, did all that come about from obeying the rules or by the faith¦127392 that came from hearing¦127391 the good message?"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "Abraham¦127394",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:6:"
-                },
-                {
-                  "xt": "Gen 15:6; Rom 4:3."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "believed¦127395 in",
-            {
-              "nd": "God¦127397",
-              "closing": "\\nd*"
-            },
-            "and¦127398 was declared guiltless as a result."
-          ],
-          "verseText": "Abraham¦127394 believed¦127395 in God¦127397 and¦127398 was declared guiltless as a result."
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "So now anyone who exercises faith¦127409 is a descendant of Abraham¦127414.",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:7:"
-                },
-                {
-                  "xt": "Rom 4:16."
-                }
-              ],
-              "closing": "\\x*"
-            }
-          ],
-          "verseText": "So now anyone who exercises faith¦127409 is a descendant of Abraham¦127414."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:8:"
-                },
-                {
-                  "xt": "Gen 12:3."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "The",
-            {
-              "add": "writers of the",
-              "closing": "\\add*"
-            },
-            "scriptures¦127418 foresaw¦127415 that",
-            {
-              "nd": "God¦127427",
-              "closing": "\\nd*"
-            },
-            "was going to make non-Jews¦127424 guiltless through faith¦127421 when he promised to Abraham¦127430 that all the nations¦127437 would be blessed¦127432 through him,"
-          ],
-          "verseText": "The writers of the scriptures¦127418 foresaw¦127415 that God¦127427 was going to make non-Jews¦127424 guiltless through faith¦127421 when he promised to Abraham¦127430 that all the nations¦127437 would be blessed¦127432 through him,"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "so those who have faith¦127441",
-            {
-              "add": "that Yeshua is the messiah",
-              "closing": "\\add*"
-            },
-            "will be blessed just as Abraham¦127446 was blessed for believing¦127445",
-            {
-              "add": "God",
-              "closing": "\\add*"
-            },
-            ".",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "so those who have faith¦127441 that Yeshua is the messiah will be blessed just as Abraham¦127446 was blessed for believing¦127445 God."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "All those who strive to be saved by obeying the law are under¦127453 a curse, because¦127457 it's written that ‘everyone is cursed who doesn't live by and fulfil everything that's been written down in the scroll¦127473 of the law’.",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:10:"
-                },
-                {
-                  "xt": "Deu 27:26 (LXX)."
-                }
-              ],
-              "closing": "\\x*"
-            }
-          ],
-          "verseText": "All those who strive to be saved by obeying the law are under¦127453 a curse, because¦127457 it's written that ‘everyone is cursed who doesn't live by and fulfil everything that's been written down in the scroll¦127473 of the law’."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "It's clear that no one can be made guiltless before¦127485",
-            {
-              "nd": "God¦127487",
-              "closing": "\\nd*"
-            },
-            "because¦127489",
-            {
-              "add": "it's written that",
-              "closing": "\\add*"
-            },
-            "‘those who are guiltless will live by faith¦127493’.",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:11:"
-                },
-                {
-                  "xt": "Hab 2:4."
-                }
-              ],
-              "closing": "\\x*"
-            }
-          ],
-          "verseText": "It's clear that no one can be made guiltless before¦127485 God¦127487 because¦127489 it's written that ‘those who are guiltless will live by faith¦127493’."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "And the law doesn't produce faith¦127501, but¦127502 ‘the person who obeys these things is the one who will live’.",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:12:"
-                },
-                {
-                  "xt": "Lev 18:5."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "And the law doesn't produce faith¦127501, but¦127502 ‘the person who obeys these things is the one who will live’."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "The",
-            {
-              "nd": "messiah¦127511",
-              "closing": "\\nd*"
-            },
-            "saved us from the curse of the law by becoming¦127519 the curse for our sake, because¦127523 it's written¦127524, ‘",
-            {
-              "nd": "anyone¦127511",
-              "closing": "\\nd*"
-            },
-            "who is hung on a tree¦127531 is cursed’.",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:13:"
-                },
-                {
-                  "xt": "Deu 21:23."
-                }
-              ],
-              "closing": "\\x*"
-            }
-          ],
-          "verseText": "The messiah¦127511 saved us from the curse of the law by becoming¦127519 the curse for our sake, because¦127523 it's written¦127524, ‘ anyone¦127511 who is hung on a tree¦127531 is cursed’."
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "He",
-            {
-              "add": "paid the price for us",
-              "closing": "\\add*"
-            },
-            "so that the blessing¦127537 for Abraham¦127539 would also reach the non-Jews¦127535 through the",
-            {
-              "nd": "messiah¦127542 Yeshua¦127543",
-              "closing": "\\nd*"
-            },
-            "and we¦127552",
-            {
-              "add": "all",
-              "closing": "\\add*"
-            },
-            "would be able to receive¦127552 the",
-            {
-              "nd": "spirit¦127551",
-              "closing": "\\nd*"
-            },
-            "through faith¦127555.",
-            {
-              "s1": "The law didn't annul the promise"
-            },
-            {
-              "rem": "/s1 The Law and the Promise"
-            },
-            {
-              "rem": "/s1 The Promise to Abraham"
-            },
-            {
-              "rem": "/s1 The Law and God's Promises"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "He paid the price for us so that the blessing¦127537 for Abraham¦127539 would also reach the non-Jews¦127535 through the messiah¦127542 Yeshua¦127543 and we¦127552 all would be able to receive¦127552 the spirit¦127551 through faith¦127555."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "Brothers¦127556 and¦127556 sisters¦127556, consider our human ways: once an agreement has been accepted, one party can't just reject¦127567 it now or add conditions¦127569."
-          ],
-          "verseText": "Brothers¦127556 and¦127556 sisters¦127556, consider our human ways: once an agreement has been accepted, one party can't just reject¦127567 it now or add conditions¦127569."
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "The promises¦127575 were given to Abraham¦127572 and¦127576 to his¦127579 offspring. It doesn't say ‘offsprings (plural)’ but¦127588 only is only referring to the one which¦127596 is the",
-            {
-              "nd": "messiah¦127598",
-              "closing": "\\nd*"
-            },
-            "."
-          ],
-          "verseText": "The promises¦127575 were given to Abraham¦127572 and¦127576 to his¦127579 offspring. It doesn't say ‘offsprings (plural)’ but¦127588 only is only referring to the one which¦127596 is the messiah¦127598."
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "So¦127600 what I'm telling you is that the agreement",
-            {
-              "add": "with Abraham",
-              "closing": "\\add*"
-            },
-            "that was previously¦127603 ratified¦127603 by",
-            {
-              "nd": "God¦127606",
-              "closing": "\\nd*"
-            },
-            ", was not annulled¦127619 430 years¦127615 later",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:17:"
-                },
-                {
-                  "xt": "Exo 12:40."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "when the law was given",
-            {
-              "add": "to Mosheh",
-              "closing": "\\add*"
-            },
-            "and¦127613 nor was the promised¦127624 nullified¦127622."
-          ],
-          "verseText": "So¦127600 what I'm telling you is that the agreement with Abraham that was previously¦127603 ratified¦127603 by God¦127606, was not annulled¦127619 430 years¦127615 later when the law was given to Mosheh and¦127613 nor was the promised¦127624 nullified¦127622."
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:18:"
-                },
-                {
-                  "xt": "Rom 4:14."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "Because¦127626 if the inheritance¦127631 now came by obeying the law, then it could no longer¦127632 be the result of the promise, but",
-            {
-              "nd": "God¦127642",
-              "closing": "\\nd*"
-            },
-            "had already granted¦127640 to Abraham¦127637 via the promise.",
-            {
-              "rem": "/s1 The Purpose of the Law"
-            }
-          ],
-          "verseText": "Because¦127626 if the inheritance¦127631 now came by obeying the law, then it could no longer¦127632 be the result of the promise, but God¦127642 had already granted¦127640 to Abraham¦127637 via the promise."
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            "So¦127644 what was the law for then? Because of sinfulness, it was added¦127651 until¦127652 the promised¦127659 descendant would come¦127655. It was directed¦127660 through¦127661 messengers¦127662 and entrusted to",
-            {
-              "add": "Mosheh as",
-              "closing": "\\add*"
-            },
-            "a mediator¦127666."
-          ],
-          "verseText": "So¦127644 what was the law for then? Because of sinfulness, it was added¦127651 until¦127652 the promised¦127659 descendant would come¦127655. It was directed¦127660 through¦127661 messengers¦127662 and entrusted to Mosheh as a mediator¦127666."
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            "You don't¦127671 need a mediator¦127669 if there's only one party¦127670 involved, and",
-            {
-              "nd": "God¦127675",
-              "closing": "\\nd*"
-            },
-            "is one.",
-            {
-              "s1": "Coming of age for the inheritance"
-            },
-            {
-              "rem": "/s1 The Purpose of the Law"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "You don't¦127671 need a mediator¦127669 if there's only one party¦127670 involved, and God¦127675 is one."
-        },
-        {
-          "verseNumber": "21",
-          "contents": [
-            "So¦127679 does the law oppose God's promises¦127683? Certainly not, because¦127689 if the law was able to give¦127695 life¦127695, you could become¦127687 guiltless by obeying the law."
-          ],
-          "verseText": "So¦127679 does the law oppose God's promises¦127683? Certainly not, because¦127689 if the law was able to give¦127695 life¦127695, you could become¦127687 guiltless by obeying the law."
-        },
-        {
-          "verseNumber": "22",
-          "contents": [
-            "The scriptures¦127711",
-            {
-              "add": "explain that",
-              "closing": "\\add*"
-            },
-            {
-              "nd": "everyone¦127722",
-              "closing": "\\nd*"
-            },
-            "is imprisoned¦127709 by sin¦127715 so that by faith¦127720 in",
-            {
-              "nd": "Yeshua¦127721",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦127722",
-              "closing": "\\nd*"
-            },
-            ", the promise¦127718 could be granted to those who believe¦127725.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "The scriptures¦127711 explain that everyone¦127722 is imprisoned¦127709 by sin¦127715 so that by faith¦127720 in Yeshua¦127721 the messiah¦127722, the promise¦127718 could be granted to those who believe¦127725."
-        },
-        {
-          "verseNumber": "23",
-          "contents": [
-            "Before faith could come, we were guarded¦127734 under¦127732 the law—imprisoned¦127736 so that faith could be revealed¦127741.",
-            {
-              "rem": "/s1 God's Children through Faith"
-            }
-          ],
-          "verseText": "Before faith could come, we were guarded¦127734 under¦127732 the law—imprisoned¦127736 so that faith could be revealed¦127741."
-        },
-        {
-          "verseNumber": "24",
-          "contents": [
-            "So the law was our¦127746 tutor¦127745 until the",
-            {
-              "nd": "messiah¦127750",
-              "closing": "\\nd*"
-            },
-            "came so that we¦127754 could then be made guiltless by faith¦127753,"
-          ],
-          "verseText": "So the law was our¦127746 tutor¦127745 until the messiah¦127750 came so that we¦127754 could then be made guiltless by faith¦127753,"
-        },
-        {
-          "verseNumber": "25",
-          "contents": [
-            "and now that we've come¦127755 to faith¦127758, we're no longer¦127759 under¦127760 our tutor¦127761.",
-            {
-              "rem": "/s1 Sons of God"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "and now that we've come¦127755 to faith¦127758, we're no longer¦127759 under¦127760 our tutor¦127761."
-        },
-        {
-          "verseNumber": "26",
-          "contents": [
-            "So you're all children of",
-            {
-              "nd": "God¦127767",
-              "closing": "\\nd*"
-            },
-            "through¦127769 faith¦127771 in the",
-            {
-              "nd": "messiah¦127773",
-              "closing": "\\nd*"
-            },
-            ",",
-            {
-              "nd": "Yeshua¦127775",
-              "closing": "\\nd*"
-            },
-            ","
-          ],
-          "verseText": "So you're all children of God¦127767 through¦127769 faith¦127771 in the messiah¦127773, Yeshua¦127775,"
-        },
-        {
-          "verseNumber": "27",
-          "contents": [
-            "because¦127777",
-            {
-              "nd": "everyone¦127779",
-              "closing": "\\nd*"
-            },
-            "who's been immersed¦127780",
-            {
-              "add": "to obey",
-              "closing": "\\add*"
-            },
-            "the messiah, is now cloaked in the messiah."
-          ],
-          "verseText": "because¦127777 everyone¦127779 who's been immersed¦127780 to obey the messiah, is now cloaked in the messiah."
-        },
-        {
-          "verseNumber": "28",
-          "contents": [
-            "Then there's no Jew¦127787 or Greek, no slave¦127793 or free person, no male or female¦127801, because¦127804 you're all",
-            {
-              "add": "identified",
-              "closing": "\\add*"
-            },
-            "as being in the",
-            {
-              "nd": "messiah¦127809",
-              "closing": "\\nd*"
-            },
-            ",",
-            {
-              "nd": "Yeshua¦127811",
-              "closing": "\\nd*"
-            },
-            "."
-          ],
-          "verseText": "Then there's no Jew¦127787 or Greek, no slave¦127793 or free person, no male or female¦127801, because¦127804 you're all identified as being in the messiah¦127809, Yeshua¦127811."
-        },
-        {
-          "verseNumber": "29",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:29:"
-                },
-                {
-                  "xt": "Rom 4:13."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "And if you're in the",
-            {
-              "nd": "messiah¦127815",
-              "closing": "\\nd*"
-            },
-            ", then now you're Abraham's descendant and so you're heirs¦127825 of that promise¦127824."
-          ],
-          "verseText": "And if you're in the messiah¦127815, then now you're Abraham's descendant and so you're heirs¦127825 of that promise¦127824."
-        }
-      ]
-    },
-    {
-      "chapterNumber": "4",
-      "contents": [
-        {
-          "rem": "/s1 Life under the law"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "But¦127827 as long¦127829 as the heir is underage, he's no wealthier than a slave¦127837 (even though he'll",
-            {
-              "add": "become",
-              "closing": "\\add*"
-            },
-            "the master¦127838)"
-          ],
-          "verseText": "But¦127827 as long¦127829 as the heir is underage, he's no wealthier than a slave¦127837 (even though he'll become the master¦127838)"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "but he is under¦127842 guardians¦127843 and managers¦127846 until¦127847 he reaches the age that his father¦127852 specified."
-          ],
-          "verseText": "but he is under¦127842 guardians¦127843 and managers¦127846 until¦127847 he reaches the age that his father¦127852 specified."
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "So it is with us—when we were infants¦127858 we were enslaved¦127866 by the principles¦127861 of this world¦127863,"
-          ],
-          "verseText": "So it is with us—when we were infants¦127858 we were enslaved¦127866 by the principles¦127861 of this world¦127863,"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "but¦127868 at the appointed time¦127873,",
-            {
-              "nd": "God¦127876",
-              "closing": "\\nd*"
-            },
-            "sent¦127874 his¦127879 son down to be born from a woman¦127882 and to live under¦127884",
-            {
-              "add": "Mosheh'",
-              "closing": "\\add*"
-            },
-            "law"
-          ],
-          "verseText": "but¦127868 at the appointed time¦127873, God¦127876 sent¦127874 his¦127879 son down to be born from a woman¦127882 and to live under¦127884 Mosheh' law"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "4:5-7:"
-                },
-                {
-                  "xt": "Rom 8:15-17."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "so that he could buy back those enslaved under¦127888 the law and they could now be adopted¦127893 as children",
-            {
-              "add": "with their inheritance",
-              "closing": "\\add*"
-            },
-            ".",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "so that he could buy back those enslaved under¦127888 the law and they could now be adopted¦127893 as children with their inheritance."
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "So¦127896 because¦127895 you are now children,",
-            {
-              "nd": "God¦127901",
-              "closing": "\\nd*"
-            },
-            "sent his¦127906 son's",
-            {
-              "nd": "spirit¦127903",
-              "closing": "\\nd*"
-            },
-            "down into our¦127910 hearts¦127909 as we call out, ‘Father, father.’"
-          ],
-          "verseText": "So¦127896 because¦127895 you are now children, God¦127901 sent his¦127906 son's spirit¦127903 down into our¦127910 hearts¦127909 as we call out, ‘Father, father.’"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "Now you¦127918 are no longer¦127917 slaves¦127919 but¦127920 children",
-            {
-              "add": "with full rights",
-              "closing": "\\add*"
-            },
-            ", and¦127923 as children, heirs of God's",
-            {
-              "add": "promise",
-              "closing": "\\add*"
-            },
-            ".",
-            {
-              "s1": "Paul's concerns about their faith"
-            },
-            {
-              "rem": "/s1 Paul's Concern for the Galatians"
-            },
-            {
-              "rem": "/s1 Paul Reproves the Galatians"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Now you¦127918 are no longer¦127917 slaves¦127919 but¦127920 children with full rights, and¦127923 as children, heirs of God's promise."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "When you didn't know",
-            {
-              "nd": "God¦127936",
-              "closing": "\\nd*"
-            },
-            ", you served¦127937 others who are not really gods¦127943 at all."
-          ],
-          "verseText": "When you didn't know God¦127936, you served¦127937 others who are not really gods¦127943 at all."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "But now that you do know God, or rather¦127948 than God now knows you, why would you turn back again to useless and inferior beliefs and to serve them all over again?"
-          ],
-          "verseText": "But now that you do know God, or rather¦127948 than God now knows you, why would you turn back again to useless and inferior beliefs and to serve them all over again?"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "You all observe¦127970",
-            {
-              "add": "special",
-              "closing": "\\add*"
-            },
-            "holidays and",
-            {
-              "add": "certain",
-              "closing": "\\add*"
-            },
-            "months¦127973 and seasons¦127975 and years¦127977."
-          ],
-          "verseText": "You all observe¦127970 special holidays and certain months¦127973 and seasons¦127975 and years¦127977."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "I worry that maybe I've wasted my time helping you all.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "I worry that maybe I've wasted my time helping you all."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "I implore you all to become¦127987 like me, brothers¦127994 and¦127994 sisters¦127994, because¦127990 I'm also just like you. You haven't wronged¦127999 me in any way"
-          ],
-          "verseText": "I implore you all to become¦127987 like me, brothers¦127994 and¦127994 sisters¦127994, because¦127990 I'm also just like you. You haven't wronged¦127999 me in any way"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "but you know that it was a result of my fleshly¦128006 weakness that I originally preached¦128007 the good¦128007 message¦128007 to you.",
-            {
-              "f": [
-                "+",
-                {
-                  "fr": "4:13"
-                },
-                {
-                  "ft": "Scholars are unclear whether this might mean something like ill health, poor eyesight (see v15), or even a moral weakness, so we've left it as ambiguous in the translation as it is in the original."
-                }
-              ],
-              "closing": "\\f*"
-            }
-          ],
-          "verseText": "but you know that it was a result of my fleshly¦128006 weakness that I originally preached¦128007 the good¦128007 message¦128007 to you."
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "Yet you didn't mock or despise me for this trial¦128013 of my¦128020 flesh¦128019, but rather all of you received me as God's messenger¦128027 like you might have received the",
-            {
-              "nd": "messiah¦128032 Yeshua¦128033",
-              "closing": "\\nd*"
-            },
-            "himself."
-          ],
-          "verseText": "Yet you didn't mock or despise me for this trial¦128013 of my¦128020 flesh¦128019, but rather all of you received me as God's messenger¦128027 like you might have received the messiah¦128032 Yeshua¦128033 himself."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "So¦128036 where¦128035 are your generous attitudes now? I know that back then, you would have almost dug your own eyes¦128048 out to give them to me."
-          ],
-          "verseText": "So¦128036 where¦128035 are your generous attitudes now? I know that back then, you would have almost dug your own eyes¦128048 out to give them to me."
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "Have I now become¦128058 your¦128057 enemy¦128056 just because I told you all the truth¦128059?",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Have I now become¦128058 your¦128057 enemy¦128056 just because I told you all the truth¦128059?"
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "Those",
-            {
-              "add": "others",
-              "closing": "\\add*"
-            },
-            "have worked hard to",
-            {
-              "add": "try to win",
-              "closing": "\\add*"
-            },
-            "you",
-            {
-              "add": "over",
-              "closing": "\\add*"
-            },
-            "but not for good",
-            {
-              "add": "reasons",
-              "closing": "\\add*"
-            },
-            "—they want to cut you off so that you'll be enthusiastic about them."
-          ],
-          "verseText": "Those others have worked hard to try to win you over but not for good reasons—they want to cut you off so that you'll be enthusiastic about them."
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "It's good to be enthusiastic about things that are always¦128079 good, and not only at the times when I'm with you all."
-          ],
-          "verseText": "It's good to be enthusiastic about things that are always¦128079 good, and not only at the times when I'm with you all."
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            "My¦128091 dear ones who I'm again¦128093 labouring¦128094 with in childbirth until¦128095 the",
-            {
-              "nd": "messiah¦128099",
-              "closing": "\\nd*"
-            },
-            "becomes part of you¦128101,"
-          ],
-          "verseText": "My¦128091 dear ones who I'm again¦128093 labouring¦128094 with in childbirth until¦128095 the messiah¦128099 becomes part of you¦128101,"
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            "I wanted to be there with you all now and to speak quite differently than this because¦128113 I'm puzzled about you.",
-            {
-              "s1": "The free line and the slaves"
-            },
-            {
-              "rem": "/s1 Freedom through Christ"
-            },
-            {
-              "rem": "/s1 The Allegory of Hagar and Sarah"
-            },
-            {
-              "rem": "/s1 The Example of Hagar and Sarah"
-            },
-            {
-              "rem": "/s1 Abraham's Two Children"
-            },
-            {
-              "rem": "/s1 Hagar and Sarah"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "I wanted to be there with you all now and to speak quite differently than this because¦128113 I'm puzzled about you."
-        },
-        {
-          "verseNumber": "21",
-          "contents": [
-            "Are you all who are under¦128120 the law, telling¦128117 me that you're not even hearing¦128128 what the law is?"
-          ],
-          "verseText": "Are you all who are under¦128120 the law, telling¦128117 me that you're not even hearing¦128128 what the law is?"
-        },
-        {
-          "verseNumber": "22",
-          "contents": [
-            "It's written¦128129",
-            {
-              "add": "in the scriptures",
-              "closing": "\\add*"
-            },
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "4:22: a"
-                },
-                {
-                  "xt": "Gen 16:15;"
-                },
-                {
-                  "xo": "b"
-                },
-                {
-                  "xt": "Gen 21:2."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "that Abraham¦128132 had two¦128133 sons¦128134: one son of the slave girl¦128139",
-            {
-              "add": "Hagar",
-              "closing": "\\add*"
-            },
-            ", and¦128140 one from the free woman¦128144."
-          ],
-          "verseText": "It's written¦128129 in the scriptures that Abraham¦128132 had two¦128133 sons¦128134: one son of the slave girl¦128139 Hagar, and¦128140 one from the free woman¦128144."
-        },
-        {
-          "verseNumber": "23",
-          "contents": [
-            "The son of the slave girl¦128150 was born from human actions, but¦128145 in contrast, the son of the free woman¦128160 was a result of God's promise¦128163."
-          ],
-          "verseText": "The son of the slave girl¦128150 was born from human actions, but¦128145 in contrast, the son of the free woman¦128160 was a result of God's promise¦128163."
-        },
-        {
-          "verseNumber": "24",
-          "contents": [
-            "So if we use this as an illustration, there are two¦128171 agreements: one from Mt¦128176. Sinai which¦128181 relates to Hagar¦128183 and give birth to enslaved people."
-          ],
-          "verseText": "So if we use this as an illustration, there are two¦128171 agreements: one from Mt¦128176. Sinai which¦128181 relates to Hagar¦128183 and give birth to enslaved people."
-        },
-        {
-          "verseNumber": "25",
-          "contents": [
-            "Hagar's¦128187 Mt¦128189. Sinai¦128188 is in Arabia¦128194 and corresponds¦128195 to the present¦128198",
-            {
-              "add": "earthly",
-              "closing": "\\add*"
-            },
-            "Yerushalem¦128199 in slavery along with her¦128206 children¦128205."
-          ],
-          "verseText": "Hagar's¦128187 Mt¦128189. Sinai¦128188 is in Arabia¦128194 and corresponds¦128195 to the present¦128198 earthly Yerushalem¦128199 in slavery along with her¦128206 children¦128205."
-        },
-        {
-          "verseNumber": "26",
-          "contents": [
-            "However the heavenly Yerushalem¦128210 which¦128207 is our¦128217 mother¦128215 is free"
-          ],
-          "verseText": "However the heavenly Yerushalem¦128210 which¦128207 is our¦128217 mother¦128215 is free"
-        },
-        {
-          "verseNumber": "27",
-          "contents": [
-            "because it's been written¦128218",
-            {
-              "add": "in the scriptures",
-              "closing": "\\add*"
-            },
-            ":",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "4:27:"
-                },
-                {
-                  "xt": "Isa 54:1."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            {
-              "q1": "‘Be glad barren¦128221 woman,"
-            },
-            {
-              "q2": "you who have never born a child."
-            },
-            {
-              "q1": "Be bold and shout¦128227,"
-            },
-            {
-              "q2": "you who have never been in labour¦128230,"
-            },
-            {
-              "q1": [
-                "because the lonely woman",
-                {
-                  "add": "now",
-                  "closing": "\\add*"
-                },
-                "has many children¦128234,"
-              ]
-            },
-            {
-              "q2": "even more than the woman with a husband¦128242.’"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "because it's been written¦128218 in the scriptures: ‘Be glad barren¦128221 woman, you who have never born a child. Be bold and shout¦128227, you who have never been in labour¦128230, because the lonely woman now has many children¦128234, even more than the woman with a husband¦128242.’"
-        },
-        {
-          "verseNumber": "28",
-          "contents": [
-            "And all of you¦128243, brothers¦128246 and¦128246 sisters¦128246, are children¦128250 of the promise¦128249 like Isaac¦128248,"
-          ],
-          "verseText": "And all of you¦128243, brothers¦128246 and¦128246 sisters¦128246, are children¦128250 of the promise¦128249 like Isaac¦128248,"
-        },
-        {
-          "verseNumber": "29",
-          "contents": [
-            "but¦128253 back then the one born from human actions persecuted¦128260",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "4:29:"
-                },
-                {
-                  "xt": "Gen 21:9."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "the one born from the",
-            {
-              "nd": "spirit¦128263",
-              "closing": "\\nd*"
-            },
-            ", and so too it continues now."
-          ],
-          "verseText": "but¦128253 back then the one born from human actions persecuted¦128260 the one born from the spirit¦128263, and so too it continues now."
-        },
-        {
-          "verseNumber": "30",
-          "contents": [
-            "But what do the scriptures¦128271 say? ‘Send away the slave girl and her¦128279 son because¦128281 the son of the slave girl won't be getting the inheritance¦128283 alongside the son of the free woman¦128293.’",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "4:30:"
-                },
-                {
-                  "xt": "Gen 21:10."
-                }
-              ],
-              "closing": "\\x*"
-            }
-          ],
-          "verseText": "But what do the scriptures¦128271 say? ‘Send away the slave girl and her¦128279 son because¦128281 the son of the slave girl won't be getting the inheritance¦128283 alongside the son of the free woman¦128293.’"
-        },
-        {
-          "verseNumber": "31",
-          "contents": [
-            "So¦128296, brothers¦128298 and¦128298 sisters¦128298, we're not",
-            {
-              "add": "descendants",
-              "closing": "\\add*"
-            },
-            "of the slave girl¦128301, but¦128303 of the free woman¦128305."
-          ],
-          "verseText": "So¦128296, brothers¦128298 and¦128298 sisters¦128298, we're not descendants of the slave girl¦128301, but¦128303 of the free woman¦128305."
-        }
-      ]
-    },
-    {
-      "chapterNumber": "5",
-      "contents": [
-        {
-          "s1": "Don't let the law destroy your faith"
-        },
-        {
-          "rem": "/s1 Preserve Your Freedom"
-        },
-        {
-          "rem": "/s1 Freedom in Christ"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "The",
-            {
-              "nd": "messiah¦128312",
-              "closing": "\\nd*"
-            },
-            "has freed us so we can have freedom, so stand¦128314 firm and¦128316 don't¦128317 get entangled¦128321 again¦128318 in the burden of slavery¦128320.",
-            {
-              "rem": "/s1 The Nature of Christian Freedom"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "The messiah¦128312 has freed us so we can have freedom, so stand¦128314 firm and¦128316 don't¦128317 get entangled¦128321 again¦128318 in the burden of slavery¦128320."
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "What's more, I Paul¦128324 would add that even if you all got circumcised¦128329, then the",
-            {
-              "nd": "messiah¦128330",
-              "closing": "\\nd*"
-            },
-            "wouldn't be of any benefit¦128333."
-          ],
-          "verseText": "What's more, I Paul¦128324 would add that even if you all got circumcised¦128329, then the messiah¦128330 wouldn't be of any benefit¦128333."
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "I'll say it again¦128336 clearly, every¦128337 man¦128338 who's circumcised¦128339 has put themselves in debt to obeying all of the law."
-          ],
-          "verseText": "I'll say it again¦128336 clearly, every¦128337 man¦128338 who's circumcised¦128339 has put themselves in debt to obeying all of the law."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "You were released¦128347 from the",
-            {
-              "nd": "messiah¦128350",
-              "closing": "\\nd*"
-            },
-            "when you moved to trusting in the law in order to be right with God—you fell away from grace¦128356 at that point."
-          ],
-          "verseText": "You were released¦128347 from the messiah¦128350 when you moved to trusting in the law in order to be right with God—you fell away from grace¦128356 at that point."
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "Because¦128359 we who are in the",
-            {
-              "nd": "spirit¦128360",
-              "closing": "\\nd*"
-            },
-            "are eagerly¦128366 waiting¦128366 for the righteousness¦128364 that we are expecting to receive by faith¦128362."
-          ],
-          "verseText": "Because¦128359 we who are in the spirit¦128360 are eagerly¦128366 waiting¦128366 for the righteousness¦128364 that we are expecting to receive by faith¦128362."
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "Because¦128368 in the",
-            {
-              "nd": "messiah¦128369 Yeshua¦128370",
-              "closing": "\\nd*"
-            },
-            ", it's not circumcision¦128372 that achieves anything¦128373, nor uncircumcision¦128376, but¦128377 faith¦128378 worked out through¦128379 love¦128380.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Because¦128368 in the messiah¦128369 Yeshua¦128370, it's not circumcision¦128372 that achieves anything¦128373, nor uncircumcision¦128376, but¦128377 faith¦128378 worked out through¦128379 love¦128380."
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "You were all running¦128383 the race so well—who held you¦128386 back from believing the truth¦128390?"
-          ],
-          "verseText": "You were all running¦128383 the race so well—who held you¦128386 back from believing the truth¦128390?"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "It wasn't the one who called you¦128401 all."
-          ],
-          "verseText": "It wasn't the one who called you¦128401 all."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "5:9:"
-                },
-                {
-                  "xt": "1Cor 5:6."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "A little¦128402 bit of yeast can make a whole¦128404 loaf of bread rise."
-          ],
-          "verseText": "A little¦128402 bit of yeast can make a whole¦128404 loaf of bread rise."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "I am trusting¦128410 in the",
-            {
-              "nd": "master¦128414",
-              "closing": "\\nd*"
-            },
-            "that you won't be thinking¦128418 anything different",
-            {
-              "add": "from the truth",
-              "closing": "\\add*"
-            },
-            ". The one who will bear the judgement is the one who has been confusing you, anyone¦128416 who that was.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "I am trusting¦128410 in the master¦128414 that you won't be thinking¦128418 anything different from the truth. The one who will bear the judgement is the one who has been confusing you, anyone¦128416 who that was."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "But, brothers¦128432 and¦128432 sisters¦128432, if I was still preaching the Jewish rules, why would I still be being¦128440 persecuted¦128440. If I was still preaching that, then mentioning about dying on a stake¦128446 wouldn't even be offensive¦128444."
-          ],
-          "verseText": "But, brothers¦128432 and¦128432 sisters¦128432, if I was still preaching the Jewish rules, why would I still be being¦128440 persecuted¦128440. If I was still preaching that, then mentioning about dying on a stake¦128446 wouldn't even be offensive¦128444."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "I wish that the ones upsetting¦128455 you¦128456 all",
-            {
-              "add": "by suggesting cutting¦128452 off bits",
-              "closing": "\\add*"
-            },
-            ", would cut it all off.",
-            {
-              "rem": "/s1 Guidance by the Spirit"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "I wish that the ones upsetting¦128455 you¦128456 all by suggesting cutting¦128452 off bits, would cut it all off."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "Brothers¦128462 and sisters, you were called¦128461 into freedom. That doesn't mean that you should use the freedom to do whatever your minds desire, but rather to be serving¦128475 each other in love¦128474."
-          ],
-          "verseText": "Brothers¦128462 and sisters, you were called¦128461 into freedom. That doesn't mean that you should use the freedom to do whatever your minds desire, but rather to be serving¦128475 each other in love¦128474."
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "5:14:"
-                },
-                {
-                  "xt": "Lev 19:18."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "Because¦128478 the entire law can be fulfilled¦128484 by obeying one rule: Love your¦128492 neighbour¦128491 like yourself¦128494."
-          ],
-          "verseText": "Because¦128478 the entire law can be fulfilled¦128484 by obeying one rule: Love your¦128492 neighbour¦128491 like yourself¦128494."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "But if you're all snapping at and¦128500 bullying each other, watch¦128502 out or else you'll destroy each other's",
-            {
-              "add": "faith",
-              "closing": "\\add*"
-            },
-            ".",
-            {
-              "s1": "Being led by God's spirit"
-            },
-            {
-              "rem": "/s1 Living by the Spirit's Power"
-            },
-            {
-              "rem": "/s1 The Spirit and Human Nature"
-            },
-            {
-              "rem": "/s1 The Works of the Flesh"
-            },
-            {
-              "rem": "/s1 Life by the Spirit"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "But if you're all snapping at and¦128500 bullying each other, watch¦128502 out or else you'll destroy each other's faith."
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "I'll tell you: allow yourselves to be led by the",
-            {
-              "nd": "spirit¦128509",
-              "closing": "\\nd*"
-            },
-            "and¦128512 then your earthly desires¦128513 won't triumph."
-          ],
-          "verseText": "I'll tell you: allow yourselves to be led by the spirit¦128509 and¦128512 then your earthly desires¦128513 won't triumph."
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "5:17:"
-                },
-                {
-                  "xt": "Rom 7:15-23."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "Because¦128519 our earthly desires oppose the spirit, and the spirit opposes our earthly desires—they oppose each other so that's why you end up doing¦128545 things that you didn't really want to do."
-          ],
-          "verseText": "Because¦128519 our earthly desires oppose the spirit, and the spirit opposes our earthly desires—they oppose each other so that's why you end up doing¦128545 things that you didn't really want to do."
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "But if you are being¦128549 led by the",
-            {
-              "nd": "spirit¦128548",
-              "closing": "\\nd*"
-            },
-            "then you're not",
-            {
-              "add": "trying to earn your way to God by",
-              "closing": "\\add*"
-            },
-            "obeying all of Mosheh' rules.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "But if you are being¦128549 led by the spirit¦128548 then you're not trying to earn your way to God by obeying all of Mosheh' rules."
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            "The actions that come from our earthly desires include: sexual¦128566 immorality¦128566, impurity¦128567, sensuality,"
-          ],
-          "verseText": "The actions that come from our earthly desires include: sexual¦128566 immorality¦128566, impurity¦128567, sensuality,"
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            "idolatry¦128569, sorcery¦128570, hostility, strife¦128572, jealousies¦128573, rages¦128575, selfish¦128576 ambitions¦128576, arguing, divisions,"
-          ],
-          "verseText": "idolatry¦128569, sorcery¦128570, hostility, strife¦128572, jealousies¦128573, rages¦128575, selfish¦128576 ambitions¦128576, arguing, divisions,"
-        },
-        {
-          "verseNumber": "21",
-          "contents": [
-            "envy, drunkenness¦128581, carousing¦128582, and other similar¦128586 things which¦128588 I've mentioned previously. And as I",
-            {
-              "add": "also",
-              "closing": "\\add*"
-            },
-            "said previously, the people that do these¦128587 things won't be inheriting¦128603 God's kingdom¦128600.",
-            {
-              "rem": "/s1 The Fruit of the Spirit"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "envy, drunkenness¦128581, carousing¦128582, and other similar¦128586 things which¦128588 I've mentioned previously. And as I also said previously, the people that do these¦128587 things won't be inheriting¦128603 God's kingdom¦128600."
-        },
-        {
-          "verseNumber": "22",
-          "contents": [
-            "But the end result of having",
-            {
-              "add": "God's",
-              "closing": "\\add*"
-            },
-            {
-              "nd": "spirit¦128608",
-              "closing": "\\nd*"
-            },
-            "is",
-            {
-              "add": "to show",
-              "closing": "\\add*"
-            },
-            "love¦128610, joy¦128611, peace¦128612, patience¦128613, kindness¦128614, goodness¦128615, faith¦128616,"
-          ],
-          "verseText": "But the end result of having God's spirit¦128608 is to show love¦128610, joy¦128611, peace¦128612, patience¦128613, kindness¦128614, goodness¦128615, faith¦128616,"
-        },
-        {
-          "verseNumber": "23",
-          "contents": [
-            "gentleness¦128617, and self-control¦128619—there's¦128624 no law",
-            {
-              "add": "of Mosheh",
-              "closing": "\\add*"
-            },
-            "against¦128620 any of these!"
-          ],
-          "verseText": "gentleness¦128617, and self-control¦128619—there's¦128624 no law of Mosheh against¦128620 any of these!"
-        },
-        {
-          "verseNumber": "24",
-          "contents": [
-            "And for the",
-            {
-              "add": "followers",
-              "closing": "\\add*"
-            },
-            "of the",
-            {
-              "nd": "messiah¦128630 Yeshua¦128631",
-              "closing": "\\nd*"
-            },
-            ", earthly desires¦128640 need to be executed¦128634 on a stake¦128634 along with their passions¦128637 and¦128638 lusts."
-          ],
-          "verseText": "And for the followers of the messiah¦128630 Yeshua¦128631, earthly desires¦128640 need to be executed¦128634 on a stake¦128634 along with their passions¦128637 and¦128638 lusts."
-        },
-        {
-          "verseNumber": "25",
-          "contents": [
-            "If we're",
-            {
-              "add": "being led",
-              "closing": "\\add*"
-            },
-            "by",
-            {
-              "add": "God's",
-              "closing": "\\add*"
-            },
-            "spirit in our living¦128642, then we should also be aligning¦128646",
-            {
-              "add": "our values",
-              "closing": "\\add*"
-            },
-            "by the spirit."
-          ],
-          "verseText": "If we're being led by God's spirit in our living¦128642, then we should also be aligning¦128646 our values by the spirit."
-        },
-        {
-          "verseNumber": "26",
-          "contents": [
-            "We have to take care not to become¦128648 conceited¦128649, not to provoke¦128651 each other, and not to envy each other."
-          ],
-          "verseText": "We have to take care not to become¦128648 conceited¦128649, not to provoke¦128651 each other, and not to envy each other."
-        }
-      ]
-    },
-    {
-      "chapterNumber": "6",
-      "contents": [
-        {
-          "s1": "Helping each other"
-        },
-        {
-          "rem": "/s1 Bear One Another's Burdens"
-        },
-        {
-          "rem": "/s1 Doing Good to All"
-        },
-        {
-          "rem": "/s1 We Reap What We Sow"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "Brothers¦128655 and¦128655 sisters¦128655, if a person has been caught¦128658 sinning, all of you spiritual people need to guide the person with a spirit of gentleness¦128671, at the same time looking¦128673 at your own behaviour in case you yourselves¦128674 are also tempted¦128678."
-          ],
-          "verseText": "Brothers¦128655 and¦128655 sisters¦128655, if a person has been caught¦128658 sinning, all of you spiritual people need to guide the person with a spirit of gentleness¦128671, at the same time looking¦128673 at your own behaviour in case you yourselves¦128674 are also tempted¦128678."
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "Help those who are going through difficulties or pain, and¦128683 in doing so you'll fulfil¦128687 the law of the",
-            {
-              "nd": "messiah¦128691",
-              "closing": "\\nd*"
-            },
-            ","
-          ],
-          "verseText": "Help those who are going through difficulties or pain, and¦128683 in doing so you'll fulfil¦128687 the law of the messiah¦128691,"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "because¦128694 anyone¦128696 who supposes¦128695 themselves to be someone special but isn't, is only deceiving¦128702 themself."
-          ],
-          "verseText": "because¦128694 anyone¦128696 who supposes¦128695 themselves to be someone special but isn't, is only deceiving¦128702 themself."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "Evaluate your own actions, but¦128705 keep your boasts¦128717 to yourself and not to tell others,"
-          ],
-          "verseText": "Evaluate your own actions, but¦128705 keep your boasts¦128717 to yourself and not to tell others,"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "because¦128725 each person must face up to their own issues.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "because¦128725 each person must face up to their own issues."
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "Those who are being¦128733 taught should¦128730 share all their blessings with those who are instructing¦128733.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Those who are being¦128733 taught should¦128730 share all their blessings with those who are instructing¦128733."
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "Don't be fooled—you can't",
-            {
-              "add": "get away with",
-              "closing": "\\add*"
-            },
-            "mocking",
-            {
-              "nd": "God¦128743",
-              "closing": "\\nd*"
-            },
-            ", because¦128748 what you sow determines what you'll harvest."
-          ],
-          "verseText": "Don't be fooled—you can't get away with mocking God¦128743, because¦128748 what you sow determines what you'll harvest."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "Anyone who sows",
-            {
-              "add": "seed",
-              "closing": "\\add*"
-            },
-            "to feed their earthly desires will harvest earthly corruption¦128768, but who sews spiritual",
-            {
-              "add": "seeds",
-              "closing": "\\add*"
-            },
-            ", will harvest eternal¦128780 life¦128779 from the spirit."
-          ],
-          "verseText": "Anyone who sows seed to feed their earthly desires will harvest earthly corruption¦128768, but who sews spiritual seeds, will harvest eternal¦128780 life¦128779 from the spirit."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "Don't be discouraged from doing¦128784 good",
-            {
-              "add": "things",
-              "closing": "\\add*"
-            },
-            "because¦128789 we'll have a",
-            {
-              "add": "good",
-              "closing": "\\add*"
-            },
-            "harvest in due course if we don't¦128785 give up."
-          ],
-          "verseText": "Don't be discouraged from doing¦128784 good things because¦128789 we'll have a good harvest in due course if we don't¦128785 give up."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "So¦128796 then as time¦128798 allows it, we should be working¦128801 towards good¦128804 for everybody and especially for fellow believers.",
-            {
-              "s1": "Paul's final advice"
-            },
-            {
-              "rem": "/s1 Paul's Final Advice"
-            },
-            {
-              "rem": "/s1 Final Warning and Greeting"
-            },
-            {
-              "rem": "/s1 Not Circumcision but a New Creation"
-            },
-            {
-              "rem": "/s1 Final Admonitions and Benediction"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "So¦128796 then as time¦128798 allows it, we should be working¦128801 towards good¦128804 for everybody and especially for fellow believers."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            {
-              "sig": "Look how big these letters¦128818 are when it's my own handwriting.",
-              "closing": "\\sig*"
-            }
-          ],
-          "verseText": "Look how big these letters¦128818 are when it's my own handwriting."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            {
-              "sig": [
-                "There's so many people that want to look good¦128825 in earthly terms and they're the ones trying to persuade you that you have to fulfil all of Mosheh' rules—they don't¦128840 want to be persecuted¦128841 concerning the",
-                {
-                  "+nd": "messiah¦128838",
-                  "closing": "\\+nd*"
-                }
-              ]
-            },
-            {
-              "+add": [
-                "dying",
-                {
-                  "+add": "* on a stake¦128836.",
-                  "closing": "\\sig*"
-                }
-              ]
-            }
-          ],
-          "verseText": "There's so many people that want to look good¦128825 in earthly terms and they're the ones trying to persuade you that you have to fulfil all of Mosheh' rules—they don't¦128840 want to be persecuted¦128841 concerning the messiah¦128838 dying * on a stake¦128836."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            {
-              "sig": "Even those who are circumcised don't¦128844 obey all the rules, but they'd still like for your men to be circumcised so that they can claim them as followers.",
-              "closing": "\\sig*"
-            }
-          ],
-          "verseText": "Even those who are circumcised don't¦128844 obey all the rules, but they'd still like for your men to be circumcised so that they can claim them as followers."
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            {
-              "sig": [
-                "As for me, may I never¦128865 boast¦128868 except¦128870 about our¦128877",
-                {
-                  "+nd": "master¦128876",
-                  "closing": "\\+nd*"
-                },
-                ",",
-                {
-                  "+nd": "Yeshua¦128878",
-                  "closing": "\\+nd*"
-                },
-                "the",
-                {
-                  "+nd": "messiah¦128879",
-                  "closing": "\\+nd*"
-                }
-              ]
-            },
-            {
-              "+add": [
-                "whose life was cut off on the",
-                {
-                  "+add": "* stake. Through him, it's like the entire world has been cut off from me, and¦128885 I have been cut off from the world.",
-                  "closing": "\\sig*"
-                }
-              ]
-            }
-          ],
-          "verseText": "As for me, may I never¦128865 boast¦128868 except¦128870 about our¦128877 master¦128876, Yeshua¦128878 the messiah¦128879 whose life was cut off on the * stake. Through him, it's like the entire world has been cut off from me, and¦128885 I have been cut off from the world."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            {
-              "sig": "Because¦128893 obeying Mosheh' law is nothing, and not needing to obey it is nothing, but¦128900 being a new creation¦128902"
-            },
-            {
-              "+add": [
-                "is everything",
-                {
-                  "+add": "*.",
-                  "closing": "\\sig*"
-                }
-              ]
-            }
-          ],
-          "verseText": "Because¦128893 obeying Mosheh' law is nothing, and not needing to obey it is nothing, but¦128900 being a new creation¦128902 is everything *."
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            {
-              "sig": "and as many people as follow that principle¦128906, may peace¦128911 and mercy¦128915 be on them and on God's Israel.",
-              "closing": "\\sig*"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "and as many people as follow that principle¦128906, may peace¦128911 and mercy¦128915 be on them and on God's Israel."
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            {
-              "sig": [
-                "As for the rest of their troubles¦128924, don't bother me with them because¦128929 I carry the marks¦128931 on my¦128939 body¦128938 of",
-                {
-                  "+add": "someone who follows",
-                  "closing": "\\+add*"
-                }
-              ]
-            },
-            {
-              "+nd": [
-                "Yeshua¦128934",
-                {
-                  "+nd": "*.",
-                  "closing": "\\sig*"
-                }
-              ]
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "As for the rest of their troubles¦128924, don't bother me with them because¦128929 I carry the marks¦128931 on my¦128939 body¦128938 of someone who follows Yeshua¦128934 *."
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            {
-              "sig": [
-                "May the grace¦128942 from our¦128945",
-                {
-                  "+nd": "master¦128944",
-                  "closing": "\\+nd*"
-                },
-                {
-                  "+nd": "Yeshua¦128946",
-                  "closing": "\\+nd*"
-                },
-                "the"
-              ]
-            },
-            {
-              "+nd": [
-                "messiah¦128947",
-                {
-                  "+nd": "* be with your¦128951 spirit¦128950, brothers¦128952 and¦128952 sisters¦128952. Let it be so.",
-                  "closing": "\\sig*"
-                }
-              ]
-            }
-          ],
-          "verseText": "May the grace¦128942 from our¦128945 master¦128944 Yeshua¦128946 the messiah¦128947 * be with your¦128951 spirit¦128950, brothers¦128952 and¦128952 sisters¦128952. Let it be so."
-        }
-      ]
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1:1-10"
+     ]
     }
-  ],
-  "_messages": {
-    "_warnings": []
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Paul's calling as an ambassador of the messiah ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1:11–2:14"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The good message about the goodness and mercy of God ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "2:15–4:31"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Christian freedom and living ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "5:1–6:10"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Ending ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "6:11-18"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "This is still a very early look into the unfinished text of the Open English Translation of the Bible. Please double-check the text in advance before using in public.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ie",
+   "content": []
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "1",
+   "sid": "GAL 1"
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Greetings from Paul\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Salutation\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "GAL 1:1"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "This letter is from"
+     ]
+    },
+    " Paul, one ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "of Yeshua's"
+     ]
+    },
+    " ambassadors¦125555, not chosen by people or any human¦125558 desire, but¦125562 chosen ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "directly"
+     ]
+    },
+    " by Yeshua the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦125565"
+     ]
+    },
+    " and¦125566 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦125567"
+     ]
+    },
+    " the father¦125568 who raised¦125570 Yeshua from the dead¦125574.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "GAL 1:2"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "On behalf of"
+     ]
+    },
+    " all the believers here, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "I'm writing"
+     ]
+    },
+    " to the assemblies¦125582 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "of believers"
+     ]
+    },
+    " in Galatia¦125584.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "GAL 1:3"
+    },
+    "May you¦125586 all experience the grace¦125585 and peace¦125588 that comes from ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦125590"
+     ]
+    },
+    " the father¦125591 and our¦125595 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦125594 Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦125597"
+     ]
+    },
+    ",\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "GAL 1:4"
+    },
+    "the one who gave¦125599 himself¦125601 for our sins¦125605 to rescue¦125608 us from this present¦125615, evil¦125616 age, according¦125617 to ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦125621"
+     ]
+    },
+    " our father's¦125623 desire—\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "GAL 1:5"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "our father"
+     ]
+    },
+    " who'll be praised even through future ages. That's how it is.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "There's only one good message\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The One Gospel; One gospel for all; There Is Only One Good News; There Is No Other Gospel\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "GAL 1:6"
+    },
+    "I'm astounded that you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "people"
+     ]
+    },
+    " have so quickly¦125638 replaced the good¦125650 message¦125650 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "that you heard"
+     ]
+    },
+    " from the one who called¦125642 you to the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah"
+     ]
+    },
+    "'s grace¦125646. You've replaced it with another¦125649 narrative\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "GAL 1:7"
+    },
+    "which¦125651 is not at all another¦125654 good message, but¦125662 rather comes from those who are confusing you and wanting¦125663 to alter¦125664 the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "actual"
+     ]
+    },
+    " good message about the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦125668"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "GAL 1:8"
+    },
+    "Even if either we ourselves or ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "even"
+     ]
+    },
+    " a messenger¦125675 from heaven¦125677 were to preach a different ‘good message’ which disagrees with the good message that we ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "first"
+     ]
+    },
+    " preached to you, then they should¦125687 be cursed¦125686.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "GAL 1:9"
+    },
+    "As we've previously¦125689 said¦125689, and even now say it again¦125693: if anyone¦125696 preaches¦125698 a ‘good¦125698 message¦125698’ to you that's different from what you already heard, let that person be cursed¦125703.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "GAL 1:10"
+    },
+    "Am I trying to please and persuade¦125708 people or ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦125712"
+     ]
+    },
+    "? If I was still¦125719 trying to please people, I wouldn't be ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "worthy to be"
+     ]
+    },
+    " one of the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah"
+     ]
+    },
+    "'s slaves¦125723.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Paul was commissioned directly by God\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Paul Called by God; Paul's Message Comes from Christ; How Paul Became an Apostle; Paul's Vindication of His Apostleship\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "GAL 1:11"
+    },
+    "I'm letting you know, brothers¦125731 and¦125731 sisters¦125731, that¦125738 the good message I proclaimed didn't¦125744 just come from human¦125747 ideas.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "GAL 1:12"
+    },
+    "It didn't come from my ideas, nor was I taught¦125757 it by some other person, but it was revealed to me by ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦125762"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "GAL 1:13"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Brothers and sisters,"
+     ]
+    },
+    " you've heard¦125763 about my previous behaviour, when as a strict Jew, I was extreme in persecuting",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:13: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 8:3; 22:4-5; 26:9-11."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " the assembly¦125777 of God's people, and was trying to destroy them.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "GAL 1:14"
+    },
+    "I was progressing¦125784 in Judaism¦125787",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:14: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 22:3."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " quicker than many of my¦125794 contemporaries¦125790, being¦125798 so much more zealous¦125797 in observing our ancient traditions¦125802.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "GAL 1:15"
+    },
+    "But¦125816 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "God"
+     ]
+    },
+    ", who'd planned this from even before I was born,",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:15-16: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 9:3-6; 22:6-10; 26:13-18."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " called¦125817 me, because of his¦125821 grace¦125820,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "GAL 1:16"
+    },
+    "so that he could reveal¦125822 his¦125825 son through me, and I could preach¦125829 the good¦125829 message¦125829 to non-Jews. I didn't¦125836 rush to get advice from others,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "GAL 1:17"
+    },
+    "nor did I head to Yerushalem to ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "consult with"
+     ]
+    },
+    " the ambassadors¦125851 there that preceded me, but¦125856 I went away to Arabia¦125855 and then later returned¦125858 to Damascus¦125860.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "GAL 1:18"
+    },
+    "Then finally, after¦125862 three¦125864 years¦125863, I went¦125866 to Yerushalem",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:18: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 9:26-30."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " to get to know Peter, and¦125873 stayed with him¦125877 for just over two weeks.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "GAL 1:19"
+    },
+    "I didn't¦125884 meet any of the other ambassadors¦125883, other than Yeshua's brother¦125891, Yacob,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "GAL 1:20"
+    },
+    "and¦125895 what I'm writing to you, I'm writing with ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦125901"
+     ]
+    },
+    " watching, so I'm not lying¦125904.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "GAL 1:21"
+    },
+    "Then I went¦125906 into the regions¦125909 of Syria¦125911 and¦125912 Cilicia¦125914.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "GAL 1:22"
+    },
+    "The assemblies¦125922 back in Yudea¦125925 that¦125926 believe in the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦125928"
+     ]
+    },
+    " didn't¦125917 know me by sight,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "GAL 1:23"
+    },
+    "but¦125930 had only heard about me—that¦125942 the person who'd once been persecuting them was now preaching¦125939 the good¦125939 message¦125939 about the faith¦125941 himself,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "GAL 1:24"
+    },
+    "and¦125945 they¦125946 praised¦125946 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦125950"
+     ]
+    },
+    " because of ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "what had happened to"
+     ]
+    },
+    " me.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "2",
+   "sid": "GAL 2"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The ambassadors accept Paul and Barnabas\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Apostles Accept Paul\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Paul Accepted by the Apostles\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Paul and the Other Apostles\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "GAL 2:1"
+    },
+    "It was fourteen¦125953 years¦125954 later that I made the uphill trek to Yerushalem",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:1: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 11:30; 15:2."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " with Barnabas¦125961, taking Titos¦125965 along¦125963 as well.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "GAL 2:2"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "God"
+     ]
+    },
+    " had told me to go there, and I explained to the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "leaders there"
+     ]
+    },
+    " the good¦125974 message¦125974 that I'd been proclaiming¦125976 to the non-Jews. I did it privately, to double-check that I wasn't somehow¦125986 just acting vainly.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "GAL 2:3"
+    },
+    "But not even Titos¦125994, who was with me, was compelled¦126000 to be circumcised¦126001, even though he's a Greek¦125998.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "GAL 2:4"
+    },
+    "However, some false¦126006 brothers¦126006 were sneaked¦126005 in to monitor the freedoms¦126011 that¦126013 we¦126014 have in the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦126017"
+     ]
+    },
+    ", ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    ", and they¦126021 wanted us to be enslaved¦126021 to their traditions.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "GAL 2:5"
+    },
+    "But we¦126027 didn't¦126024 submit¦126029 to them even for one hour¦126026, so that the truth¦126032 of the good¦126035 message¦126035 could continue¦126036 amongst you¦126039.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "GAL 2:6"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:6: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Deu 10:17."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "And those people who were supposed ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "leaders"
+     ]
+    },
+    " (although what they were didn't mean much to me, because¦126059 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦126054"
+     ]
+    },
+    " doesn't go by appearances¦126052) didn't really contribute¦126063 anything useful, as far as I could tell.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "GAL 2:7"
+    },
+    "Instead, they saw that I've¦126069 been entrusted with taking the good¦126071 message¦126071 to the non-Jews, just like Peter¦126075 was entrusted to take it to the Jews,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "GAL 2:8"
+    },
+    "because the same ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "God"
+     ]
+    },
+    " who worked in Peter¦126081 to assign him to the Jews also worked in me ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "to assign me"
+     ]
+    },
+    " to the non-Jews.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "GAL 2:9"
+    },
+    "So, seeing the grace¦126096 that ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "God"
+     ]
+    },
+    " had shown towards me, Yacob and Peter and Yohan, the apparent pillars¦126108 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "of the assemblies"
+     ]
+    },
+    ", accepted me and Barnabas¦126114 as equals, so that we¦126117 could go¦126117 to the non-Jews and them to the Jews.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "GAL 2:10"
+    },
+    "Also, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "they said that"
+     ]
+    },
+    " we¦126131 need to keep helping the poor, but I was eager to do that anyway.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Paul scolds Peter\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Paul Rebukes Peter at Antioch\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Paul Confronts Peter\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Paul Opposes Peter\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "GAL 2:11"
+    },
+    "But when Peter came¦126140 to Antioch¦126144, I had to oppose him¦126147 to his face¦126146, because¦126149 he'd messed up.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "GAL 2:12"
+    },
+    "He'd been eating with non-Jews, but¦126170 when Yacob and his companions arrived, he about-faced and started eating separately, because¦126154 he was afraid of ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "being criticised by"
+     ]
+    },
+    " the strict Jews.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "GAL 2:13"
+    },
+    "The other Jews with him¦126179 were also being hypocrites—so much so that even Barnabas¦126187 joined their¦126190 hypocrisy—\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "GAL 2:14"
+    },
+    "but¦126193 when I saw¦126195 that they weren't being¦126213 honest with the truth¦126201 of the good¦126203 message¦126203, I had to say to Peter in front of everybody, “If you Jews are living¦126220 more like non-Jews, and not like ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "strict"
+     ]
+    },
+    " Jews, how can you force non-Jews to obey all the Jewish traditions?”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "You can't be saved by obeying rules\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Jews and Gentiles Are Saved by Faith\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "GAL 2:15"
+    },
+    "We follow Jewish laws, not other nations' customs,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "GAL 2:16"
+    },
+    "but we know that we're not saved by following rules,",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:16: a "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Psa 143:2; Rom 3:20; "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "b "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Rom 3:22."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " but only by faith in Yeshua the messiah. So we've believed¦126258 in Yeshua the messiah so that we can be made guiltless by our faith in the messiah, and not by obeying all those rules, because¦126269 none of those rules can ever make any person¦126241 guiltless.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "GAL 2:17"
+    },
+    "However, if we attempt to be made guiltless through the messiah, yet find that we're sinners¦126290, does that mean that the messiah is a servant¦126294 to sin¦126293? That could never be so!\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "GAL 2:18"
+    },
+    "If I rebuild what I've already torn down, that would show me to be a law-breaker.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "GAL 2:19"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:19: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Rom 6:1-11; 7:1-6."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "It was the law that showed me that I needed die to the idea of following the law, so that I could live¦126315 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "to serve"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦126314"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "instead"
+     ]
+    },
+    ". I was executed on a post along with the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦126316"
+     ]
+    },
+    ",\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "GAL 2:20"
+    },
+    "and I'm not living any more, but¦126319 it's the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦126326"
+     ]
+    },
+    " now living in me. The way that¦126336 my body¦126332 stays alive now is by living by faith¦126334 in God's son—the one who loved¦126344 me and allowed himself¦126348 to be executed for me.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "GAL 2:21"
+    },
+    "I'm not rejecting¦126352 God's grace¦126354, because¦126358 if the law could make me guiltless, that would mean that the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦126363"
+     ]
+    },
+    " died¦126365 unnecessarily.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "3",
+   "sid": "GAL 3"
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The freedom of faith\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Faith or Observance of the Law\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Law and Faith in Christ\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Law or Faith\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "GAL 3:1"
+    },
+    "You foolish¦126367 Galatians¦126368, who tricked you¦126370 into changing? You know that ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦126380"
+     ]
+    },
+    " was publicly¦126381 known to have been executed¦126384 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "by being nailed to"
+     ]
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:1: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Jhn 20:25."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " a post.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "GAL 3:2"
+    },
+    "So I just want to ask you one thing: did you receive¦126397 the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "spirit¦126396"
+     ]
+    },
+    " by obeying all the rules, or was it by faith¦126401 when you heard?\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "GAL 3:3"
+    },
+    "So aren't you being foolish¦126403? Having¦126405 begun¦126405 in the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "spirit¦126406"
+     ]
+    },
+    ", now you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "people"
+     ]
+    },
+    " are focussing back on bodily discipline.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "GAL 3:4"
+    },
+    "You vainly endured so many things—it was vain wasn't it?\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "GAL 3:5"
+    },
+    "So¦126419 the one who gave the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "spirit¦126423"
+     ]
+    },
+    " to you and worked miracles¦126426 among¦126427 you, did all that come about from obeying the rules or by the faith¦126438 that came from hearing¦126437 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "the good message"
+     ]
+    },
+    "?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The spreading of Abraham's blessing\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "GAL 3:6"
+    },
+    "Abraham¦126440",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:6: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Gen 15:6; Rom 4:3."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " believed¦126441 in ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦126443"
+     ]
+    },
+    " and¦126444 was declared guiltless as a result.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "GAL 3:7"
+    },
+    "So now anyone who exercises faith¦126455 is a descendant of Abraham¦126460.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:7: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Rom 4:16."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "GAL 3:8"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:8: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Gen 12:3."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "The ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "writers of the"
+     ]
+    },
+    " scriptures¦126464 foresaw¦126461 that ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦126473"
+     ]
+    },
+    " was going to make non-Jews guiltless through faith¦126467 when he promised to Abraham¦126476 that all the nations¦126483 would be blessed¦126478 through him,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "GAL 3:9"
+    },
+    "so those who have faith¦126487 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "that Yeshua is the messiah"
+     ]
+    },
+    " will be blessed just as Abraham¦126492 was blessed for believing¦126491 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "God"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "GAL 3:10"
+    },
+    "All those who strive to be saved by obeying the law are under¦126499 a curse, because¦126503 it's written that ‘everyone is cursed who doesn't live by and fulfil everything that's been written down in the law scroll¦126519’.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:10: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Deu 27:26 (LXX)."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "GAL 3:11"
+    },
+    "It's clear that the law can't make anyone¦126529 guiltless ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈in ",
+      {
+       "type": "char",
+       "marker": "nd",
+       "content": [
+        "God"
+       ]
+      },
+      "'s view"
+     ]
+    },
+    ", because¦126535 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "it's written that"
+     ]
+    },
+    " ‘those who are guiltless will live by faith¦126539’.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:11: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Hab 2:4."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "GAL 3:12"
+    },
+    "And the law doesn't produce faith¦126547, but¦126548 ‘the person who obeys these things is the one who will live’.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:12: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Lev 18:5."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "GAL 3:13"
+    },
+    "The ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦126557"
+     ]
+    },
+    " saved us from the law's curse by becoming¦126565 the curse for our sake, because¦126569 it's written¦126570, ‘",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "anyone¦126557"
+     ]
+    },
+    " who's hung on a tree¦126577 is cursed’.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:13: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Deu 21:23."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "GAL 3:14"
+    },
+    "He ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "paid the price for us"
+     ]
+    },
+    " so that the blessing¦126583 for Abraham¦126585 would also reach the non-Jews through the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦126588 Yeshua"
+     ]
+    },
+    " and we'd ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "all"
+     ]
+    },
+    " be able to receive¦126598 the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "spirit¦126597"
+     ]
+    },
+    " through faith¦126601.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The law didn't annul the promise\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Law and the Promise\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Promise to Abraham\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Law and God's Promises\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "GAL 3:15"
+    },
+    "Brothers¦126602 and¦126602 sisters¦126602, consider our human ways: once an agreement has been accepted, one party can't just reject¦126613 it or add conditions¦126615.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "GAL 3:16"
+    },
+    "The promises¦126621 were given to Abraham¦126618 and¦126622 to his¦126625 offspring. It doesn't say ‘offsprings (plural)’ but¦126634 is only referring to the one who's the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦126644"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "GAL 3:17"
+    },
+    "So¦126646 what I'm telling you is that the agreement ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "with Abraham"
+     ]
+    },
+    " that was previously¦126649 ratified¦126649 by ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦126652"
+     ]
+    },
+    " was not annulled¦126665 430 years¦126661 later",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:17: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Exo 12:40."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " when the law was given ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "to Mosheh"
+     ]
+    },
+    ", and¦126659 nor was the promise¦126670 nullified¦126668,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "GAL 3:18"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:18: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Rom 4:14."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "because¦126672 if the inheritance¦126677 now came by obeying the law, then it could no longer¦126678 be the result of the promise, but ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦126688"
+     ]
+    },
+    " had already granted¦126686 it to Abraham¦126683 via the promise.\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 The Purpose of the Law\n"
+     ]
+    },
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "GAL 3:19"
+    },
+    "So¦126690 what was the law for then? Because of sinfulness, it was added¦126697 until¦126698 the promised¦126705 descendant would come¦126701. It was directed¦126706 through¦126707 messengers¦126708 and entrusted to ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Mosheh as"
+     ]
+    },
+    " a mediator¦126712.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "GAL 3:20"
+    },
+    "You don't¦126717 need a mediator¦126715 if there's only one party¦126716 involved, and¦126714 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦126721"
+     ]
+    },
+    " is one.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Coming of age for the inheritance\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Purpose of the Law\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "GAL 3:21"
+    },
+    "So¦126725 does the law oppose God's promises¦126729? Certainly not, because¦126735 if the law was able to give¦126741 life¦126741, you could become¦126733 guiltless by obeying the law.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "GAL 3:22"
+    },
+    "The scriptures¦126757 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "explain that"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "everyone¦126768"
+     ]
+    },
+    " is imprisoned¦126755 by sin¦126761 so that by faith¦126766 in ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦126768"
+     ]
+    },
+    ", the promise¦126764 could be granted to those who believe¦126771.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "GAL 3:23"
+    },
+    "Before faith could come, we were guarded¦126780 under¦126778 the law—imprisoned¦126782 so that faith could be revealed¦126787.\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 God's Children through Faith\n"
+     ]
+    },
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "GAL 3:24"
+    },
+    "So the law was our¦126792 tutor¦126791 until the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦126796"
+     ]
+    },
+    " came so that we¦126800 could then be made guiltless by faith¦126799,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "25",
+     "sid": "GAL 3:25"
+    },
+    "and now that we've come¦126801 to faith¦126804, we're no longer¦126805 under¦126806 our tutor¦126807.\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Sons of God\n"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "26",
+     "sid": "GAL 3:26"
+    },
+    "So you're all ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God"
+     ]
+    },
+    "'s children through¦126815 faith¦126817 in the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦126819"
+     ]
+    },
+    ", ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    ",\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "27",
+     "sid": "GAL 3:27"
+    },
+    "because¦126823 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "everyone¦126825"
+     ]
+    },
+    " who's been immersed¦126826 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "to obey"
+     ]
+    },
+    " the messiah is now cloaked in the messiah.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "28",
+     "sid": "GAL 3:28"
+    },
+    "So there's no Jew or Greek¦126835, no slave¦126839 or free person, no male or female¦126846, because¦126849 you're all ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "identified"
+     ]
+    },
+    " as being in the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦126854"
+     ]
+    },
+    ", ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "29",
+     "sid": "GAL 3:29"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:29: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Rom 4:13."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "And if you're in the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦126860"
+     ]
+    },
+    ", then¦126858 you're now Abraham's descendant, and¦126858 so you're heirs¦126870 of that promise¦126869.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "4",
+   "sid": "GAL 4"
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Life under the law\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "GAL 4:1"
+    },
+    "But¦126872 as long¦126874 as the heir is underage, he's no wealthier than a slave¦126882 (even though he'll ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "become"
+     ]
+    },
+    " the master¦126883),\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "GAL 4:2"
+    },
+    "but¦126890 he's under¦126887 guardians¦126888 and managers¦126891 until¦126892 he reaches the age that his father¦126897 specified.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "GAL 4:3"
+    },
+    "That's how it is with us—when we were infants¦126903 we were enslaved¦126911 by this world's¦126908 principles¦126906,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "GAL 4:4"
+    },
+    "but¦126913 at the appointed time¦126918, ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦126921"
+     ]
+    },
+    " sent¦126919 his¦126924 son down to be given birth to by a woman¦126927 and to live under¦126929 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Mosheh's"
+     ]
+    },
+    " law\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "GAL 4:5"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "4:5-7: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Rom 8:15-17."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "so that he could buy back those enslaved under¦126933 the law and they could now be adopted¦126938 as children ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "with an inheritance"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "GAL 4:6"
+    },
+    "So¦126941 because¦126940 you're now children, ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦126946"
+     ]
+    },
+    " sent his¦126951 son's ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "spirit¦126948"
+     ]
+    },
+    " down into our¦126955 hearts¦126954 as we call out, ‘Father, father.’\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "GAL 4:7"
+    },
+    "Now you're¦126963 no longer¦126962 slaves¦126964, but¦126965 children ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "with full rights"
+     ]
+    },
+    ", and¦126968 as children, heirs of God's ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "promise"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Paul's concerns about their faith\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Paul's Concern for the Galatians\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Paul Reproves the Galatians\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "GAL 4:8"
+    },
+    "When you didn't¦126979 know ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦126981"
+     ]
+    },
+    ", you served¦126982 others who aren't¦126979 really gods¦126988 at all.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "GAL 4:9"
+    },
+    "But¦126994 now that you do know God, or rather¦126993 now that God knows you, why would you turn back again to useless and inferior beliefs, to serve them all over again?\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "GAL 4:10"
+    },
+    "You ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "people"
+     ]
+    },
+    " observe¦127015 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "special"
+     ]
+    },
+    " holidays and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "certain"
+     ]
+    },
+    " months¦127018 and seasons¦127020 and years¦127022.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "GAL 4:11"
+    },
+    "I worry that maybe I've¦127028 wasted my time helping you.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "GAL 4:12"
+    },
+    "I implore you to become¦127032 like me, brothers¦127039 and¦127039 sisters¦127039, because¦127035 I'm also just like you. You haven't wronged¦127044 me in any way,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "GAL 4:13"
+    },
+    "but you know that it was a result of my fleshly¦127051 weakness that I originally preached¦127052 the good¦127052 message¦127052 to you.",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "4:13 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "Scholars are unclear whether this might mean something like ill health, poor eyesight (see v15), or even a moral weakness, so we've left it as ambiguous in the translation as it is in the original."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "GAL 4:14"
+    },
+    "Yet you didn't¦127066 mock or despise me, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "brothers and¦127056 sisters,"
+     ]
+    },
+    " for this trial¦127058 of my¦127065 flesh¦127064, but¦127056 rather you received me as God's messenger¦127072 like you might have received the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦127077 Yeshua"
+     ]
+    },
+    " himself.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "GAL 4:15"
+    },
+    "So¦127081 where¦127080 are your generous attitudes now? I know that back then, you would have almost dug your own eyes¦127093 out to give them to me.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "GAL 4:16"
+    },
+    "Have I now become¦127103 your¦127102 enemy¦127101 just because I told you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "people"
+     ]
+    },
+    " the truth¦127104?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "GAL 4:17"
+    },
+    "Those ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "others"
+     ]
+    },
+    " have worked hard to ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "try to win"
+     ]
+    },
+    " you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "over"
+     ]
+    },
+    ", but not for good ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "reasons"
+     ]
+    },
+    "—they want to cut you off so that you'll be enthusiastic about them.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "GAL 4:18"
+    },
+    "It's good to be enthusiastic about things that are always¦127124 good, and not only at the times when I'm with you, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "brothers and sisters"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "GAL 4:19"
+    },
+    "My¦127136 dear ones, who I'm again¦127138 labouring¦127139 with in childbirth until¦127140 the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦127144"
+     ]
+    },
+    " becomes part of you¦127146,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "GAL 4:20"
+    },
+    "I wanted to be there with you now, and to speak quite differently than this, because¦127158 I'm puzzled about you.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The free line and the slaves\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Freedom through Christ\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Allegory of Hagar and Sarah\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Example of Hagar and Sarah\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Abraham's Two Children\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Hagar and Sarah\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "GAL 4:21"
+    },
+    "Are you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "people"
+     ]
+    },
+    " who are under¦127165 the law telling¦127162 me that you're not even hearing¦127173 what the law is?\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "GAL 4:22"
+    },
+    "It's written¦127174 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "in the scriptures"
+     ]
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "4:22: a "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Gen 16:15; "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "b "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Gen 21:2."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " that Abraham¦127177 had two¦127178 sons¦127179: one son with the slave girl¦127184 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Hagar"
+     ]
+    },
+    ", and¦127185 one with the free woman¦127189.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "GAL 4:23"
+    },
+    "The slave girl's son was born because of human actions, but¦127190 in contrast, the free woman's¦127205 son was a result of God's promise¦127208.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "GAL 4:24"
+    },
+    "So if we use this as an illustration, there are two¦127216 agreements: one is from Mt¦127221. Sinai¦127222 which¦127226 relates to Hagar¦127228 and gives birth to enslaved people.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "25",
+     "sid": "GAL 4:25"
+    },
+    "Hagar's¦127232 Mt¦127234. Sinai¦127233 is in Arabia¦127239 and corresponds¦127240 to the present¦127243 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "earthly"
+     ]
+    },
+    " Yerushalem¦127244 in slavery along with her¦127251 children¦127250.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "26",
+     "sid": "GAL 4:26"
+    },
+    "However, the heavenly Yerushalem, which¦127252 is our¦127262 mother¦127260, is free,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "27",
+     "sid": "GAL 4:27"
+    },
+    "because it's been written¦127263 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "in the scriptures"
+     ]
+    },
+    ":",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "4:27: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Isa 54:1."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "‘Be glad barren¦127266 woman,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "you who have never borne a child.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Be bold and shout¦127272,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "you who have never been in labour¦127275,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because the lonely woman ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "now"
+     ]
+    },
+    " has many children¦127279,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "even more than the woman with a husband¦127287.’\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "28",
+     "sid": "GAL 4:28"
+    },
+    "And you¦127288, brothers¦127291 and¦127290 sisters¦127291, are children¦127295 of the promise¦127294, like Isaac¦127293,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "29",
+     "sid": "GAL 4:29"
+    },
+    "but¦127298 back then the one born because of human actions persecuted¦127305",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "4:29: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Gen 21:9."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " the one born because of the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "spirit¦127308"
+     ]
+    },
+    ", and that's how it continues now.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "30",
+     "sid": "GAL 4:30"
+    },
+    "But¦127321 what do the scriptures¦127316 say? ‘Send away the slave girl and her¦127324 son, because¦127326 the slave girl's son won't¦127327 be getting the inheritance¦127328 alongside the free woman's¦127338 son.’",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "4:30: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Gen 21:10."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "31",
+     "sid": "GAL 4:31"
+    },
+    "So¦127341, brothers¦127343 and¦127343 sisters¦127343, we're not ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "descendants"
+     ]
+    },
+    " of the slave girl¦127346, but¦127348 of the free woman¦127350.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "5",
+   "sid": "GAL 5"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Don't let the law destroy your faith\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Preserve Your Freedom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Freedom in Christ\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "GAL 5:1"
+    },
+    "The ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦127357"
+     ]
+    },
+    " has freed us so we can have freedom, so stand¦127359 firm and¦127361 don't¦127362 get entangled¦127366 again¦127363 in the burden of slavery¦127365.\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 The Nature of Christian Freedom\n"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "GAL 5:2"
+    },
+    "What's more, I, Paul¦127369 would add that if you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "men"
+     ]
+    },
+    " got circumcised¦127374, then the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦127375"
+     ]
+    },
+    " wouldn't be of any benefit¦127378.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "GAL 5:3"
+    },
+    "I'll say it again¦127381 clearly: every¦127382 man¦127383 who ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "gets himself"
+     ]
+    },
+    " circumcised¦127384 has put himself in debt to obeying all of the law.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "GAL 5:4"
+    },
+    "You were released¦127392 from the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦127395"
+     ]
+    },
+    " when you moved to trusting in the law in order to be right with God—you fell away from grace¦127401 at that point.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "GAL 5:5"
+    },
+    "We who are in the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "spirit¦127405"
+     ]
+    },
+    " are eagerly¦127411 waiting¦127411 for the righteousness¦127409 that we're expecting to receive by faith¦127407,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "GAL 5:6"
+    },
+    "because¦127413 in the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦127414 Yeshua¦127415"
+     ]
+    },
+    ", it's not circumcision¦127417 that achieves anything¦127418, nor uncircumcision¦127421, but¦127422 faith¦127423 worked out through¦127424 love¦127425.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "GAL 5:7"
+    },
+    "You ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "people"
+     ]
+    },
+    " were running¦127428 the race so well—who held you¦127431 back from believing the truth¦127435?\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "GAL 5:8"
+    },
+    "It wasn't the one who called you¦127446.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "GAL 5:9"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "5:9: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "1Cor 5:6."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "A little¦127447 bit of yeast can make a whole¦127449 loaf of bread rise.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "GAL 5:10"
+    },
+    "I'm trusting¦127455 in ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yahweh¦127459"
+     ]
+    },
+    " that you won't¦127461 be thinking¦127463 anything different ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "from the truth"
+     ]
+    },
+    ". The one who'll bear the judgement¦127470 is the one who's been confusing you, whoever¦127471 that was.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "GAL 5:11"
+    },
+    "But, brothers¦127477 and¦127477 sisters¦127477, if I was still preaching the Jewish rules, why would I still be being¦127485 persecuted¦127485? If I was still preaching that, then talking about dying on a post wouldn't even be offensive¦127489.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "GAL 5:12"
+    },
+    "I wish that the ones upsetting¦127500 you¦127501 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "people by suggesting cutting¦127497 off bits"
+     ]
+    },
+    " would cut it all off.\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Guidance by the Spirit\n"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "GAL 5:13"
+    },
+    "Brothers¦127507 and sisters, you were called¦127506 into freedom. That doesn't mean that you should use the freedom to do whatever your minds desire, but rather, you should be serving¦127520 each other in love¦127519,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "GAL 5:14"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "5:14: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Lev 19:18."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "because¦127524 the entire law can be fulfilled¦127530 by obeying one rule: Love your¦127538 neighbour¦127537 like yourself¦127540.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "GAL 5:15"
+    },
+    "But¦127546 if you're snapping at and¦127546 bullying each other, watch¦127548 out, or else you'll destroy each other's ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "faith"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Being led by God's spirit\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Living by the Spirit's Power; Life by the Spirit; The Spirit and Human Nature; The Works of the Flesh\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "GAL 5:16"
+    },
+    "I'll tell you: allow yourselves to be led by the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "spirit¦127555"
+     ]
+    },
+    ", and¦127558 then your earthly desires¦127559 won't¦127562 triumph,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "GAL 5:17"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "5:17: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Rom 7:15-23."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "because¦127579 our earthly desires oppose the spirit, and the spirit opposes our earthly desires—they oppose each other, so that's why you end up doing¦127591 things that you didn't¦127585 really want to do.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "GAL 5:18"
+    },
+    "But if you're being¦127595 led by the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "spirit¦127594"
+     ]
+    },
+    " then you're not ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "trying to earn your way to God by"
+     ]
+    },
+    " obeying all of Mosheh's rules.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "GAL 5:19"
+    },
+    "The actions that¦127609 come from our earthly desires include: sexual¦127612 immorality¦127612, impurity¦127613, sensuality,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "GAL 5:20"
+    },
+    "idolatry¦127615, sorcery¦127616, hostility, strife¦127618, jealousies¦127620, rages¦127622, selfish¦127623 ambitions¦127623, arguing, divisions,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "GAL 5:21"
+    },
+    "envy, drunkenness¦127628, carousing¦127629, and other similar¦127633 things which¦127635 I've mentioned previously. And as I ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "also"
+     ]
+    },
+    " said previously, the people that¦127635 do these¦127634 things won't¦127649 be inheriting¦127650 God's kingdom¦127647.\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 The Fruit of the Spirit\n"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "GAL 5:22"
+    },
+    "But the end result of having ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "God's"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "spirit¦127655"
+     ]
+    },
+    " is ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "to show"
+     ]
+    },
+    " love¦127657, joy¦127658, peace¦127659, patience¦127660, kindness¦127661, goodness¦127662, faith¦127663,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "GAL 5:23"
+    },
+    "gentleness¦127664, and self-control—none ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "of Mosheh's laws"
+     ]
+    },
+    " are against¦127666 any of these!\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "GAL 5:24"
+    },
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "And"
+     ]
+    },
+    " for the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦127676 Yeshua"
+     ]
+    },
+    "'s ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "apprentices"
+     ]
+    },
+    ", earthly desires¦127686 need to be executed¦127680 on a post, along with their passions¦127683 and¦127684 lusts.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "25",
+     "sid": "GAL 5:25"
+    },
+    "If we're ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "being led"
+     ]
+    },
+    " by ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "God's"
+     ]
+    },
+    " spirit in our living¦127688, then we should also be aligning¦127692 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "our values"
+     ]
+    },
+    " by the spirit.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "26",
+     "sid": "GAL 5:26"
+    },
+    "We have to take care not to become¦127694 conceited¦127695, not to provoke¦127697 each other, and not to envy each other.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "6",
+   "sid": "GAL 6"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Helping each other\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Bear One Another's Burdens; Doing Good to All; We Reap What We Sow\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "GAL 6:1"
+    },
+    "Brothers¦127701 and¦127701 sisters¦127701, if a person has been caught¦127704 sinning, you spiritual people need to guide the person with a spirit of gentleness¦127717, at the same time looking¦127718 at your own behaviour, in case you yourselves¦127719 are also tempted¦127723.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "GAL 6:2"
+    },
+    "Help those who are going through difficulties or pain, and¦127728 in doing so you'll fulfil¦127732 the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah"
+     ]
+    },
+    "'s law,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "GAL 6:3"
+    },
+    "because¦127739 anyone¦127741 who supposes¦127740 themself to be someone special, but isn't, is only deceiving¦127747 themself.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "GAL 6:4"
+    },
+    "Evaluate your own actions, but¦127750 keep your boasts¦127762 to yourself and don't¦127765 tell others,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "GAL 6:5"
+    },
+    "because¦127770 each person must¦127774 face up to their own issues.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "GAL 6:6"
+    },
+    "Those who are being¦127778 taught should¦127775 share all their blessings with those who are teaching.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "GAL 6:7"
+    },
+    "Don't be fooled—you can't¦127786 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "get away with"
+     ]
+    },
+    " mocking ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦127788"
+     ]
+    },
+    ", because¦127793 what you sow determines what you'll harvest.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "GAL 6:8"
+    },
+    "Anyone who sows ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "seed"
+     ]
+    },
+    " to feed their earthly desires will harvest earthly corruption¦127813, but whoever sows spiritual ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "seeds"
+     ]
+    },
+    " will harvest eternal¦127825 life¦127824 from the spirit.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "GAL 6:9"
+    },
+    "Don't be discouraged from doing¦127829 good ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "things"
+     ]
+    },
+    ", because¦127834 we'll have a ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "good"
+     ]
+    },
+    " harvest in due course if we don't¦127830 give up.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "GAL 6:10"
+    },
+    "So¦127841 then, as time¦127843 allows it, we should be working¦127846 towards good¦127849 for everybody, and especially for fellow believers.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Paul's final advice\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Paul's Final Advice\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Final Warning and Greeting\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Not Circumcision but a New Creation\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Final Admonitions and Benediction\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "GAL 6:11"
+    },
+    {
+     "type": "char",
+     "marker": "sig",
+     "content": [
+      "Look how big these letters¦127863 are when it's my own handwriting."
+     ]
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "GAL 6:12"
+    },
+    {
+     "type": "char",
+     "marker": "sig",
+     "content": [
+      "There's so many people that want to look good¦127870 in earthly terms, and they're the ones trying to persuade you that you have to fulfil all of Mosheh's rules—they don't¦127885 want to be persecuted¦127886 concerning the ",
+      {
+       "type": "char",
+       "marker": "nd",
+       "content": [
+        "messiah¦127883"
+       ]
+      },
+      " ",
+      {
+       "type": "char",
+       "marker": "add",
+       "content": [
+        "dying"
+       ]
+      },
+      " on a post."
+     ]
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "GAL 6:13"
+    },
+    {
+     "type": "char",
+     "marker": "sig",
+     "content": [
+      "Even those who are circumcised don't¦127889 obey all the rules, but¦127889 they'd still like for your men to be circumcised so that they can claim them as followers."
+     ]
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "GAL 6:14"
+    },
+    {
+     "type": "char",
+     "marker": "sig",
+     "content": [
+      "As for me, may I never¦127910 boast¦127913, except¦127915 about our¦127922 ",
+      {
+       "type": "char",
+       "marker": "nd",
+       "content": [
+        "master¦127921 Yeshua"
+       ]
+      },
+      " the ",
+      {
+       "type": "char",
+       "marker": "nd",
+       "content": [
+        "messiah¦127924"
+       ]
+      },
+      ", ",
+      {
+       "type": "char",
+       "marker": "add",
+       "content": [
+        "whose life was cut off on the"
+       ]
+      },
+      " post. Through him, it's like the entire world has been cut off from me, and¦127930 I've been cut off from the world,"
+     ]
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "GAL 6:15"
+    },
+    {
+     "type": "char",
+     "marker": "sig",
+     "content": [
+      "because¦127938 obeying Mosheh's law is nothing, and not needing to obey it is nothing, but¦127945 being a new creation¦127947 ",
+      {
+       "type": "char",
+       "marker": "add",
+       "content": [
+        "is everything"
+       ]
+      },
+      "."
+     ]
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "GAL 6:16"
+    },
+    {
+     "type": "char",
+     "marker": "sig",
+     "content": [
+      "And everyone who follows that principle¦127951, may peace¦127956 and mercy¦127960 be on them and on God's Yisrael ",
+      {
+       "type": "char",
+       "marker": "add",
+       "content": [
+        "(Israel¦127964)"
+       ]
+      },
+      "."
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "GAL 6:17"
+    },
+    {
+     "type": "char",
+     "marker": "sig",
+     "content": [
+      "As for the other troubles¦127969, don't bother me with them, because¦127974 I carry the marks¦127976 on my¦127984 body¦127983 of ",
+      {
+       "type": "char",
+       "marker": "add",
+       "content": [
+        "someone who follows"
+       ]
+      },
+      " ",
+      {
+       "type": "char",
+       "marker": "nd",
+       "content": [
+        "Yeshua"
+       ]
+      },
+      "."
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "GAL 6:18"
+    },
+    {
+     "type": "char",
+     "marker": "sig",
+     "content": [
+      "May the grace¦127987 from our¦127990 ",
+      {
+       "type": "char",
+       "marker": "nd",
+       "content": [
+        "master¦127989"
+       ]
+      },
+      " ",
+      {
+       "type": "char",
+       "marker": "nd",
+       "content": [
+        "Yeshua"
+       ]
+      },
+      " the ",
+      {
+       "type": "char",
+       "marker": "nd",
+       "content": [
+        "messiah¦127992"
+       ]
+      },
+      " be with your¦127996 spirit¦127995, brothers¦127997 and¦127997 sisters¦127997. That's how I want it to be."
+     ]
+    },
+    "\n"
+   ]
   }
+ ]
 }
