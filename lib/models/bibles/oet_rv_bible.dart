@@ -2,6 +2,7 @@ import 'dart:developer';
 
 import '../../common/enums.dart';
 import '../json_to_bible.dart';
+import '../search_result.dart';
 
 /// The OET Reader's Version (OET-RV) implementation
 ///
@@ -82,7 +83,8 @@ class OETReadersBibleImpl extends JsonToBible {
               // Add a new break between paragraphs
               isNewParagraph = false;
               if (verseNumberText == '1') {
-                htmlText += '<p class="c" id="${readerArea.name}-$bookCode-$chapterNumber">';
+                htmlText +=
+                    '<p class="c" id="${readerArea.name}-$bookCode-$chapterNumber">';
               } else {
                 // The end of a paragraph
                 htmlText += '<p/>';
@@ -91,7 +93,8 @@ class OETReadersBibleImpl extends JsonToBible {
             sectionVerseReference = verseNumberText;
 
             if (isSection == false) {
-              String verseId = '${readerArea.name}-$bookCode-$chapterNumber-$verseNumberText';
+              String verseId =
+                  '${readerArea.name}-$bookCode-$chapterNumber-$verseNumberText';
               String bookmarkIcon = bookmarkIconHTML(verseId, bookmarks);
               if (isNewParagraph == false) {
                 htmlText +=
@@ -112,7 +115,8 @@ class OETReadersBibleImpl extends JsonToBible {
                 .replaceAll('=', ' ');
 
             if (isSection == true && isNext == true) {
-              String verseId = '${readerArea.name}-$bookCode-$chapterNumber-$sectionVerseReference';
+              String verseId =
+                  '${readerArea.name}-$bookCode-$chapterNumber-$sectionVerseReference';
               String bookmarkIcon = bookmarkIconHTML(verseId, bookmarks);
               htmlText +=
                   """<p><div class="section-box"><p><sup id="$verseId">$chapterNumber:$sectionVerseReference</sup> ${sectionText.replaceAll("'", "’")}</p></div><span ondblclick=onCreateBookmark("$verseId") class="p">$chapterNumberHtml$bookmarkIcon<sup>${showChaptersAndVerses ? sectionVerseReference : ''}</sup>&nbsp;${verseText.replaceAll("'", "’")}</span>""";
@@ -128,5 +132,54 @@ class OETReadersBibleImpl extends JsonToBible {
     }
     //log(htmlText);
     return htmlText;
+  }
+
+  Future<List<SearchResult>> searchHeaders(
+      String bookCode, String searchTerm) async {
+    List<SearchResult> results = [];
+    String chapterNumber = '';
+    List<dynamic> chapterContents = [];
+    List<dynamic> chaptersData = json['chapters'];
+
+    for (Map<String, dynamic> chapter in chaptersData) {
+      chapterNumber = chapter['chapterNumber'];
+      chapterContents = chapter['contents'];
+
+      String currentVerseNumber = '1';
+
+      for (Map<String, dynamic> item in chapterContents) {
+        if (item.containsKey('verseNumber')) {
+          currentVerseNumber = item['verseNumber'];
+        }
+
+        if (item.containsKey('s1')) {
+          String s1Text = item['s1'];
+          if (s1Text.toLowerCase().contains(searchTerm)) {
+            results.add(SearchResult(
+              bookCode: bookCode,
+              chapter: int.parse(chapterNumber),
+              verse: int.parse(currentVerseNumber),
+              verseText: '[Header] ' + s1Text,
+            ));
+          }
+        }
+        if (item.containsKey('contents')) {
+          for (var innerMap in item['contents']) {
+            if (innerMap is Map && innerMap.containsKey('s1')) {
+              String s1Text = innerMap['s1'];
+              if (s1Text.toLowerCase().contains(searchTerm)) {
+                results.add(SearchResult(
+                  bookCode: bookCode,
+                  chapter: int.parse(chapterNumber),
+                  verse: int.parse(currentVerseNumber),
+                  verseText: '[Header] ' + s1Text,
+                ));
+              }
+            }
+          }
+        }
+      }
+    }
+    return results;
   }
 }
