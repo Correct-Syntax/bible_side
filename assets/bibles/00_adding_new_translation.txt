@@ -8,6 +8,8 @@
 #
 # Bible source ingestion program outside the application. See existing scripts in assets/bibles.
 # These update_{...}_json.py files convert from sources other than json, clean up json as desired,
+#
+# You may find it helpful to reference the USFM format documentation at https://docs.usfm.bible/usfm/3.2/index.html
 #----------------------------------------------------------------------
 
 assets/bibles/update_{VERSION}_json.py
