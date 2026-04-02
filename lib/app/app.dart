@@ -16,6 +16,7 @@ import 'package:bible_side/ui/views/navigation_books/navigation_books_view.dart'
 import 'package:bible_side/ui/views/navigation_sections_chapters/navigation_sections_chapters_view.dart';
 import 'package:bible_side/ui/views/bookmarks/bookmarks_view.dart';
 import 'package:bible_side/services/search_service.dart';
+import 'package:bible_side/ui/views/wordlinks/wordlinks_view.dart';
 // @stacked-import
 
 @StackedApp(
@@ -29,6 +30,7 @@ import 'package:bible_side/services/search_service.dart';
     MaterialRoute(page: NavigationBooksView),
     MaterialRoute(page: NavigationSectionsChaptersView),
     MaterialRoute(page: BookmarksView),
+    MaterialRoute(page: WordLinksView),
 // @stacked-route
   ],
   dependencies: [
