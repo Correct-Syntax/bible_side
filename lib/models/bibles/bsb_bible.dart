@@ -25,7 +25,6 @@ class BSBBibleImpl extends JsonToBible {
     String verseNumber = '1';
     
     for (Map item in json['content']) {
-      debugPrint('item: $item');
       // Chapter 'chapter'
       if (item['type'] == 'chapter') {
         chapterNumber = item['number'];
@@ -44,8 +43,8 @@ class BSBBibleImpl extends JsonToBible {
           if (paraItem is String) {
             // The BSB json has some q1 and q2 markers, in addition to p markers, so we want to include those as well.
             if (item['marker'] == 'p' || item['marker'] == 'q1' || item['marker'] == 'q2' ) {
-              String verseText = paraItem;
               /*
+              // Could do some additional processing on the verse text here if needed, for example to remove leftover usfm markers or Strong's numbers, but for now there don't seem to be any such issues in the BSB json so I'm leaving this as is.
               String verseText = paraItem
                 // Not needed for BSB since there are no leftover usfm markers or Strong's numbers in the BSB json, but leaving this here in case we want to add support for another bible version that does have these issues.
                   .replaceAll('*j', '') // Remove leftover instances of j* from the original usfm
