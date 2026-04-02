@@ -16,8 +16,6 @@ import 'widgets/reader_area_popup/reader_area_popup.dart';
 import 'widgets/secondary_reader_appbar/secondary_reader_appbar.dart';
 import 'widgets/top_reader_appbar/top_reader_appbar.dart';
 
-final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
-
 class ReaderView extends StackedView<ReaderViewModel> {
   const ReaderView({super.key});
 
@@ -45,7 +43,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
         MediaQuery.of(context).orientation == Orientation.landscape;
 
     return Scaffold(
-      key: _scaffoldKey,
+      key: viewModel.scaffoldKey,
       backgroundColor: context.theme.appColors.appbarBackground,
       appBar: PreferredSize(
         preferredSize: Size(
@@ -203,8 +201,9 @@ class ReaderView extends StackedView<ReaderViewModel> {
                               onTapBibleVersion: () =>
                                   viewModel.onTapBibleVersion(Area.secondary),
                               onTapClose: viewModel.onTapCloseSecondaryArea,
-                              onTapMenu: () =>
-                                  _scaffoldKey.currentState?.openEndDrawer(),
+                              onTapMenu: () => viewModel
+                                  .scaffoldKey.currentState
+                                  ?.openEndDrawer(),
                             ),
                           ),
                         ),
@@ -219,7 +218,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
                       onTapBibleVersion: () =>
                           viewModel.onTapBibleVersion(Area.primary),
                       onTapMenu: () =>
-                          _scaffoldKey.currentState?.openEndDrawer(),
+                          viewModel.scaffoldKey.currentState?.openEndDrawer(),
                     )
             else //no secondary appbar, just show the primary appbar regardless of screen size or orientation
               Center(
@@ -230,14 +229,16 @@ class ReaderView extends StackedView<ReaderViewModel> {
                   onTapBook: () => viewModel.onTapBook(Area.primary),
                   onTapBibleVersion: () =>
                       viewModel.onTapBibleVersion(Area.primary),
-                  onTapMenu: () => _scaffoldKey.currentState?.openEndDrawer(),
+                  onTapMenu: () =>
+                      viewModel.scaffoldKey.currentState?.openEndDrawer(),
                 ),
               ),
           ],
         ),
       ),
       endDrawer: SideNavigationDrawer(
-        closeNavigation: () => _scaffoldKey.currentState?.closeEndDrawer(),
+        closeNavigation: () =>
+            viewModel.scaffoldKey.currentState?.closeEndDrawer(),
       ),
       // floatingActionButton: kDebugMode
       //     ? FloatingActionButton.small(

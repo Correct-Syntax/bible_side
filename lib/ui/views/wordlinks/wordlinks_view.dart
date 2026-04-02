@@ -6,14 +6,19 @@ import '../../../common/themes.dart';
 import 'wordlinks_viewmodel.dart';
 
 class WordLinksView extends StackedView<WordLinksViewModel> {
-  final int chapterNumber = 1;
-  final int verseNumber = 2;
-  final int wordNumber = 1;
+  final String bookCode;
+  final int chapterNumber;
+  final int verseNumber;
+  final int wordNumber;
 
-  String get path => 'ACTc${chapterNumber}v${verseNumber}w$wordNumber';
+  String get path => '${bookCode}c${chapterNumber}v${verseNumber}w$wordNumber';
 
   const WordLinksView({
     super.key,
+    required this.bookCode,
+    required this.chapterNumber,
+    required this.verseNumber,
+    required this.wordNumber,
   });
 
   @override
@@ -45,19 +50,43 @@ class WordLinksView extends StackedView<WordLinksViewModel> {
         scrolledUnderElevation: 0.0,
       ),
       body: SafeArea(
-        child: Stack(
-          children: [
-            WebViewWidget(
-              controller: viewModel.webviewController,
-            ),
-            if (viewModel.isBusy)
-              Center(
-                child: CircularProgressIndicator(
-                  color: context.theme.appColors.loadingSpinner,
+        child: viewModel.showInternetAccess
+            ? Stack(
+                children: [
+                  WebViewWidget(
+                    controller: viewModel.webviewController,
+                  ),
+                  if (viewModel.isBusy)
+                    Center(
+                      child: CircularProgressIndicator(
+                        color: context.theme.appColors.loadingSpinner,
+                      ),
+                    ),
+                ],
+              )
+            : Center(
+                child: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        'Internet access is disabled. Please enable it in Settings to view word links.',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          color: context.theme.appColors.primary,
+                          fontSize: 16,
+                        ),
+                      ),
+                      const SizedBox(height: 16),
+                      ElevatedButton(
+                        onPressed: viewModel.navigateToSettings,
+                        child: const Text('Go to Settings'),
+                      ),
+                    ],
+                  ),
                 ),
               ),
-          ],
-        ),
       ),
     );
   }
