@@ -1,7 +1,26 @@
-Files modified when adding a new bible translation: 
-modified:   ../../lib/common/bibles.dart
-modified:   ../../lib/models/bibles/bsb_bible.dart
-modified:   ../../lib/services/reader_service.dart
-modified:   ../../lib/ui/views/reader/reader_viewmodel.dart
-modified:   ../../pubspec.lock
-modified:   ../../pubspec.yaml
+#----------------------------------------------------------------------
+# Below is a listing of files created/modified when adding a new bible translation. 
+# This information is accurate as of 2026-04-03
+#----------------------------------------------------------------------
+
+#----------------------------------------------------------------------
+# Files outside the app
+#
+# Bible source ingestion program outside the application. See existing scripts in assets/bibles.
+# These update_{...}_json.py files convert from sources other than json, clean up json as desired,
+#----------------------------------------------------------------------
+
+assets/bibles/update_{VERSION}_json.py
+
+
+#----------------------------------------------------------------------
+# Files within the app
+#----------------------------------------------------------------------
+
+create:   lib/models/bibles/{VERSION}_bible.dart
+
+modify:   lib/common/bibles.dart
+modify:   lib/services/reader_service.dart
+modify:   lib/ui/views/reader/reader_viewmodel.dart
+modify:   pubspec.yaml
+
