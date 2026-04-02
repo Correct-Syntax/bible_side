@@ -1,3 +1,6 @@
+// import 'dart:nativewrappers/_internal/vm/lib/math_patch.dart';
+import 'dart:developer';
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -11,6 +14,7 @@ import 'reader_viewmodel.dart';
 import 'widgets/primary_reader_appbar/primary_reader_appbar.dart';
 import 'widgets/reader_area_popup/reader_area_popup.dart';
 import 'widgets/secondary_reader_appbar/secondary_reader_appbar.dart';
+import 'widgets/top_reader_appbar/top_reader_appbar.dart';
 
 final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -21,6 +25,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
   void onViewModelReady(ReaderViewModel viewModel) async {
     super.onViewModelReady(viewModel);
     await viewModel.initilize();
+    print('|||||hello from onViewModelReady in ReaderView!');
   }
 
   @override
@@ -38,19 +43,39 @@ class ReaderView extends StackedView<ReaderViewModel> {
     return Scaffold(
       key: _scaffoldKey,
       backgroundColor: context.theme.appColors.appbarBackground,
-      appBar: viewModel.showSecondaryArea
-          ? PreferredSize(
-              preferredSize: const Size(double.infinity, kToolbarHeight),
-              child: SafeArea(
-                child: SecondaryReaderAppbar(
-                  isReaderAreaPopupActive: viewModel.isSecondaryReaderAreaPopupActive,
-                  onTapBook: () => viewModel.onTapBook(Area.secondary),
-                  onTapBibleVersion: () => viewModel.onTapBibleVersion(Area.secondary),
-                  onTapClose: viewModel.onTapCloseSecondaryArea,
-                ),
+      appBar: 
+          PreferredSize(
+            preferredSize: Size(double.infinity, (viewModel.isTopAppBarVisible ? (kToolbarHeight+4) : 0) * (viewModel.showSecondaryArea ? 2 : 1)),
+            child: SafeArea(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  AnimatedContainer(
+                    duration: const Duration(milliseconds: 200),
+                    height: viewModel.isTopAppBarVisible ? kToolbarHeight : 0,
+                    child: ClipRect(
+                      child: SizedBox(
+                        height: kToolbarHeight,
+                        child: TopReaderAppbar(
+                          onTapBook: () => viewModel.onTapBook(Area.primary),
+                          onTapBibleVersion: () => viewModel.onTapBibleVersion(Area.primary),
+                          chapter: viewModel.chapterNumber,
+                          verse: viewModel.verseNumber,
+                        ),
+                      ),
+                    ),
+                  ),
+                  if (viewModel.showSecondaryArea)
+                    SecondaryReaderAppbar(
+                      isReaderAreaPopupActive: viewModel.isSecondaryReaderAreaPopupActive,
+                      onTapBook: () => viewModel.onTapBook(Area.secondary),
+                      onTapBibleVersion: () => viewModel.onTapBibleVersion(Area.secondary),
+                      onTapClose: viewModel.onTapCloseSecondaryArea,
+                    )
+                ],
               ),
-            )
-          : null,
+            ),
+          ),
       body: SafeArea(
         child: Stack(
           children: [
