@@ -184,10 +184,12 @@ class ReaderViewModel extends ReactiveViewModel {
 
     switch (path) {
       case 'WordLinksView':
+      /*
         _navigationService.navigateTo(
           Routes.wordLinksView,
           //arguments: GreekWordViewArguments(word: uri.queryParameters['word']),
         );
+        */
         break;
     }
   }

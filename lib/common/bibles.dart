@@ -4,6 +4,7 @@ const List<String> bibleVersions = [
   'OET-LV',
   'KJV',
   'WEB',
+  'BSB'
 ];
 
 /// Mapping bibleCodes to the full Bible version name
@@ -12,4 +13,5 @@ const Map<String, String> bibleVersionsMapping = {
   'OET-LV': 'Open English Translation Literal Version',
   'KJV': 'King James Version',
   'WEB': 'The World English Bible',
+  'BSB': 'Berean Standard Bible'
 };
