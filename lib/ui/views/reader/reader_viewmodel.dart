@@ -48,6 +48,7 @@ class ReaderViewModel extends ReactiveViewModel {
 
   bool isPrimaryReaderAreaPopupActive = false;
   bool isSecondaryReaderAreaPopupActive = false;
+  bool isTopAppBarVisible = true;
 
   Future<void> initilize() async {
     setBusy(true);
@@ -95,6 +96,53 @@ class ReaderViewModel extends ReactiveViewModel {
         onMessageReceived: (message) async {
           log('<OnDoubleClickVerseEvent> ${message.message}');
           await setBookmark(message.message);
+        },
+      )
+      ..addJavaScriptChannel(
+        'OnScrollEvent',
+        onMessageReceived: (message) async {
+          log('<OnScrollEvent> ${message.message}');
+          try {
+            final data = jsonDecode(message.message);
+            final rawId = data['id'] ?? message.message;
+            final cleaned = rawId.replaceAll('primary-', '').replaceAll('secondary-', '');
+            final parts = cleaned.split('-');
+            if (parts.length >= 3) {
+              final chap = int.tryParse(parts[1]) ?? chapterNumber;
+              final verse = int.tryParse(parts[2]) ?? verseNumber;
+              _biblesService.setChapter(chap);
+              _biblesService.setVerse(verse);
+            } else if (parts.length == 2) {
+              final chap = int.tryParse(parts[1]) ?? chapterNumber;
+              _biblesService.setChapter(chap);
+            }
+          } catch (e) {
+            final rawId = message.message;
+            final cleaned = rawId.replaceAll('primary-', '').replaceAll('secondary-', '');
+            final parts = cleaned.split('-');
+            if (parts.length >= 3) {
+              final chap = int.tryParse(parts[1]) ?? chapterNumber;
+              final verse = int.tryParse(parts[2]) ?? verseNumber;
+              _biblesService.setChapter(chap);
+              _biblesService.setVerse(verse);
+            }
+          }
+          rebuildUi();
+        },
+      )
+      ..addJavaScriptChannel(
+        'OnScrollDirection',
+        onMessageReceived: (message) async {
+          // message.message expected to be 'down' or 'up'
+          // print('||||hello from OnScrollDirection JavaScript channel!');
+          // print('||||scroll direction message received: ' + message.message);
+          if (message.message == 'down') {
+            isTopAppBarVisible = false;
+            rebuildUi();
+          } else if (message.message == 'up') {
+            isTopAppBarVisible = true;
+            rebuildUi();
+          }
         },
       )
       ..setNavigationDelegate(
@@ -435,12 +483,17 @@ class ReaderViewModel extends ReactiveViewModel {
 
   <script>
     document.body.className = 'hidden';
+    // console.log('||||hello from initilizeReaderWebview function (in script) in ReaderViewModel!');
 
     var elements = null;
     var handleScroll = null;
+
     document.addEventListener("DOMContentLoaded", () => {
       const container = document.getElementById("container");
       elements = [...container.querySelectorAll(".scrollable")];
+
+      var lastScrollTop = 0;
+      // console.log('||||last scrollTop variable initialized: ' + lastScrollTop);
 
       const syncScroll = (scrolledEle, ele) => {
         const scrolledPercent = scrolledEle.scrollTop / (scrolledEle.scrollHeight - scrolledEle.clientHeight);
@@ -465,6 +518,67 @@ class ReaderViewModel extends ReactiveViewModel {
             ele.addEventListener("scroll", handleScroll);
           });
         });
+
+        // determine if pass a section header and if so, send a message to Flutter to display the section header in the top app bar
+        // console.log('||||e.target:' + e.target);
+        const sectionHeaders = scrolledEle.getElementsByClassName('section-box');
+
+        // determine scroll direction and notify Flutter
+        try {
+          const cur = scrolledEle.scrollTop || 0;
+          const last = lastScrollTop || 0;
+          const delta = cur - last;
+          lastScrollTop = cur;
+          if (delta > 10) {
+            OnScrollDirection.postMessage('down');
+          } else if (delta < -10) {
+            OnScrollDirection.postMessage('up');
+          }
+        } catch (e) {
+          // ignore
+        }
+
+        // determine the top-visible verse id inside the scrolled reader area and notify Flutter
+        try {
+          // console.log('||||hello from handleScroll function in ReaderViewModel!');
+          // console.log('||||scrolled element id: ' + scrolledEle.id);
+          const areaPrefix = scrolledEle.id === 'primaryReader' ? 'primary-' : 'secondary-';
+          function getTopVisibleId(container, prefix) {
+            const items = container.querySelectorAll('[id^="' + prefix + '"]');
+            let topId = null;
+            let minOffset = Infinity;
+            const cRect = container.getBoundingClientRect();
+            items.forEach((it) => {
+              const r = it.getBoundingClientRect();
+              const offset = r.top - cRect.top;
+              if (offset >= -10 && offset < minOffset) {
+                minOffset = offset;
+                topId = it.id;
+              }
+            });
+            return topId;
+          }
+
+          const topId = getTopVisibleId(scrolledEle, areaPrefix);
+          if (topId) {
+            try {
+              OnScrollEvent.postMessage(JSON.stringify({
+                area: scrolledEle.id === 'primaryReader' ? 'primary' : 'secondary',
+                id: topId
+              }));
+              // console.log('||||topId:' + topId);
+              // console.log('||||message posted to OnScrollEvent channel with topId');
+              // console.log('||||message content: ' + JSON.stringify({
+              //   area: scrolledEle.id === 'primaryReader' ? 'primary' : 'secondary',
+              //   id: topId
+              // }));
+            } catch (err) {
+              // ignore posting errors
+            }
+          }
+        } catch (err) {
+          // ignore any errors computing top id
+        }
       };
       
       ${linkReaderAreaScrolling == true ? """
@@ -620,6 +734,7 @@ class ReaderViewModel extends ReactiveViewModel {
     onToggleSecondaryArea();
     isPrimaryReaderAreaPopupActive = false;
     isSecondaryReaderAreaPopupActive = false;
+    log('close secondary area');
     rebuildUi();
   }
 
