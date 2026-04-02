@@ -16,8 +16,10 @@ import '../../../common/toast.dart';
 import '../../../services/bibles_service.dart';
 import '../../../services/reader_service.dart';
 import '../../../services/settings_service.dart';
+import '../wordlinks/wordlinks_view.dart';
 
 class ReaderViewModel extends ReactiveViewModel {
+  final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
   final _biblesService = locator<BiblesService>();
   final _readerService = locator<ReaderService>();
   final _settingsService = locator<SettingsService>();
@@ -84,6 +86,93 @@ class ReaderViewModel extends ReactiveViewModel {
     setBusy(false);
   }
 
+//JS injected after page load
+  static const String _contextMenuJs = r"""
+    // Disable native context menu
+    document.addEventListener('contextmenu', e => e.preventDefault());
+
+    // Detect long press / selection
+    document.addEventListener('selectionchange', () => {
+      const selection = window.getSelection();
+      const text = selection.toString().trim();
+      if (text.length > 0) {
+        SelectionChannel.postMessage(text);
+      }
+    });
+  """;
+// JS injected after page loads
+  static const String _wordClickJs = r"""
+    (function() {
+      if (window.__wordListenerAttached) return;
+      window.__wordListenerAttached = true;
+
+      function handleWordClick(e) {
+        const touch = e.changedTouches ? e.changedTouches[0] : e;
+        let range;
+
+        if (document.caretPositionFromPoint) {
+          const pos = document.caretPositionFromPoint(touch.clientX, touch.clientY);
+          if (!pos) return;
+          range = document.createRange();
+          range.setStart(pos.offsetNode, pos.offset);
+        } else if (document.caretRangeFromPoint) {
+          range = document.caretRangeFromPoint(touch.clientX, touch.clientY);
+        }
+
+        if (!range || range.startContainer.nodeType !== Node.TEXT_NODE) return;
+
+        let targetElement = range.startContainer.parentElement;
+        if (!targetElement || !targetElement.closest('[data-version="OET-LV"]')) return;
+
+        range.expand('word');
+        const word = range.toString().trim().replace(/[^a-zA-Z0-9']/g, '');
+
+        if (word.length > 0) {
+          let p = range.startContainer.parentElement ? range.startContainer.parentElement.closest('.p') : null;
+          if (!p) return;
+          let sup = p.querySelector('sup');
+          if (!sup || !sup.id) return;
+
+          let idParts = sup.id.split('-');
+          if (idParts.length < 4) return;
+          
+          let book = idParts[1];
+          let chapter = parseInt(idParts[2]);
+          let verse = parseInt(idParts[3]);
+
+          let preRange = document.createRange();
+          try {
+            if (sup.nextSibling) {
+              preRange.setStartBefore(sup.nextSibling);
+            } else {
+              preRange.setStartAfter(sup);
+            }
+            preRange.setEnd(range.startContainer, range.startOffset);
+          } catch (err) {
+            return;
+          }
+          
+          let preText = preRange.toString();
+          let wordMatches = preText.match(/[a-zA-Z0-9']+/g);
+          let wordNumber = (wordMatches ? wordMatches.length : 0) + 1;
+
+          let payload = JSON.stringify({
+             word: word,
+             book: book,
+             chapter: chapter,
+             verse: verse,
+             wordNumber: wordNumber
+          });
+
+          OnClickWordEvent.postMessage(payload);
+        }
+      }
+
+      document.addEventListener('mouseup', handleWordClick);
+      document.addEventListener('touchend', handleWordClick);
+    })();
+  """;
+
   Future<void> setupWebviewController() async {
     PlatformWebViewControllerCreationParams params =
         const PlatformWebViewControllerCreationParams();
@@ -105,7 +194,8 @@ class ReaderViewModel extends ReactiveViewModel {
           try {
             final data = jsonDecode(message.message);
             final rawId = data['id'] ?? message.message;
-            final cleaned = rawId.replaceAll('primary-', '').replaceAll('secondary-', '');
+            final cleaned =
+                rawId.replaceAll('primary-', '').replaceAll('secondary-', '');
             final parts = cleaned.split('-');
             if (parts.length >= 3) {
               final chap = int.tryParse(parts[1]) ?? chapterNumber;
@@ -118,7 +208,8 @@ class ReaderViewModel extends ReactiveViewModel {
             }
           } catch (e) {
             final rawId = message.message;
-            final cleaned = rawId.replaceAll('primary-', '').replaceAll('secondary-', '');
+            final cleaned =
+                rawId.replaceAll('primary-', '').replaceAll('secondary-', '');
             final parts = cleaned.split('-');
             if (parts.length >= 3) {
               final chap = int.tryParse(parts[1]) ?? chapterNumber;
@@ -130,19 +221,24 @@ class ReaderViewModel extends ReactiveViewModel {
           rebuildUi();
         },
       )
+      ..addJavaScriptChannel('OnScrollDirection',
+          onMessageReceived: (message) async {
+        // message.message expected to be 'down' or 'up'
+        // print('||||hello from OnScrollDirection JavaScript channel!');
+        // print('||||scroll direction message received: ' + message.message);
+        if (message.message == 'down') {
+          isTopAppBarVisible = false;
+          rebuildUi();
+        } else if (message.message == 'up') {
+          isTopAppBarVisible = true;
+          rebuildUi();
+        }
+      })
       ..addJavaScriptChannel(
-        'OnScrollDirection',
-        onMessageReceived: (message) async {
-          // message.message expected to be 'down' or 'up'
-          // print('||||hello from OnScrollDirection JavaScript channel!');
-          // print('||||scroll direction message received: ' + message.message);
-          if (message.message == 'down') {
-            isTopAppBarVisible = false;
-            rebuildUi();
-          } else if (message.message == 'up') {
-            isTopAppBarVisible = true;
-            rebuildUi();
-          }
+        'OnClickWordEvent',
+        onMessageReceived: (JavaScriptMessage message) {
+          final word = message.message;
+          _onWordTapped(word);
         },
       )
       ..setNavigationDelegate(
@@ -152,7 +248,11 @@ class ReaderViewModel extends ReactiveViewModel {
             rebuildUi();
           },
           onPageStarted: (String url) {},
-          onPageFinished: (String url) {},
+          onPageFinished: (String url) {
+            //This code is to add wordlinks to every OET-LV word, needs tweaked
+            webviewController.runJavaScript(_wordClickJs);
+            //webviewController.runJavaScript(_contextMenuJs);
+          },
           onHttpError: (HttpResponseError error) {},
           onWebResourceError: (WebResourceError error) {
             log('''
@@ -177,6 +277,82 @@ class ReaderViewModel extends ReactiveViewModel {
         ),
       );
     await AndroidWebViewController.enableDebugging(true);
+
+    webviewController.addJavaScriptChannel(
+      'SelectionChannel',
+      onMessageReceived: (message) {
+        final selectedText = message.message;
+        _showContextMenu(selectedText);
+      },
+    );
+    /*
+    * Conditionally add javascript channels. This is not possible to do inline witht he ..addJavaScriptChannle.
+    * We need to add the channels based on the version. 
+    * E.g. moo
+    */
+    /*
+    if (1==1) {
+  webviewController.addJavaScriptChannel(
+    'WordChannel',
+    onMessageReceived: (message) => _onWordTapped(message.message),
+  );
+  */
+  }
+
+  void _showContextMenu(String text) {
+    showModalBottomSheet(
+      context: context,
+      builder: (_) => SafeArea(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            ListTile(
+              leading: const Icon(Icons.search),
+              title: const Text('Wordlink'),
+              onTap: () {
+                Navigator.pop(context);
+                //_defineWord(text);
+                print('Define: $text');
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.copy),
+              title: const Text('Copy'),
+              onTap: () {
+                Clipboard.setData(ClipboardData(text: text));
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.share),
+              title: const Text('Share'),
+              onTap: () {
+                Navigator.pop(context);
+                //_shareText(text);
+                print("Share $text");
+              },
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  void _onWordTapped(String message) {
+    try {
+      final data = jsonDecode(message);
+      _navigationService.navigateTo(
+        Routes.wordLinksView,
+        arguments: WordLinksViewArguments(
+          bookCode: data['book'],
+          chapterNumber: data['chapter'],
+          verseNumber: data['verse'],
+          wordNumber: data['wordNumber'],
+        ),
+      );
+    } catch (e) {
+      log('Error parsing word click data: $e');
+    }
   }
 
   void _handleAppNavigation(Uri uri) {
@@ -184,10 +360,15 @@ class ReaderViewModel extends ReactiveViewModel {
 
     switch (path) {
       case 'WordLinksView':
-      /*
+        /*
         _navigationService.navigateTo(
           Routes.wordLinksView,
-          //arguments: GreekWordViewArguments(word: uri.queryParameters['word']),
+          arguments: const WordLinksViewArguments(
+            bookCode: 'ACT',
+            chapterNumber: 1,
+            verseNumber: 1,
+            wordNumber: 1,
+          ),
         );
         */
         break;
@@ -471,14 +652,13 @@ class ReaderViewModel extends ReactiveViewModel {
   </style>
 
   <div class="container ${showSecondaryArea == false ? "hidden" : ""}" id="container">
-    <div id="secondaryReader" class="scrollable">
-    <a href="app://screen/WordLinksView">WORDLINK TEST</a>
+    <div id="secondaryReader" class="scrollable" data-version="$secondaryAreaBible" >
       $secondaryAreaHTML
     </div>
 
     <hr class="separator" />
 
-    <div id="primaryReader" class="scrollable">
+    <div id="primaryReader" class="scrollable" data-version="$primaryAreaBible">
       $primaryAreaHTML
     </div>
   </div>
