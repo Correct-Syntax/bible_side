@@ -14,14 +14,14 @@ class PrimaryReaderAppbar extends StackedView<PrimaryReaderAppbarModel> {
     required this.onTapSearch,
     required this.onTapBook,
     required this.onTapBibleVersion,
-    required this.onTapMenu,
+    this.onTapMenu,
   });
 
   final bool isReaderAreaPopupActive;
   final Function() onTapSearch;
   final Function() onTapBook;
   final Function() onTapBibleVersion;
-  final Function() onTapMenu;
+  final Function()? onTapMenu;
 
   @override
   Widget builder(
@@ -53,18 +53,21 @@ class PrimaryReaderAppbar extends StackedView<PrimaryReaderAppbarModel> {
               onTapBook: onTapBook,
               onTapBibleVersion: onTapBibleVersion,
             ),
-            InkWell(
-              onTap: onTapMenu,
-              child: Padding(
-                padding: const EdgeInsets.all(16.0),
-                child: PhosphorIcon(
-                  PhosphorIcons.list(PhosphorIconsStyle.bold),
-                  color: context.theme.appColors.appbarIcon,
-                  size: 20.0,
-                  semanticLabel: 'Menu',
+            if (onTapMenu != null)
+              InkWell(
+                onTap: onTapMenu,
+                child: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: PhosphorIcon(
+                    PhosphorIcons.list(PhosphorIconsStyle.bold),
+                    color: context.theme.appColors.appbarIcon,
+                    size: 20.0,
+                    semanticLabel: 'Menu',
+                  ),
                 ),
-              ),
-            ),
+              )
+            else
+              const SizedBox(width: 52.0),
           ],
         ),
       ),

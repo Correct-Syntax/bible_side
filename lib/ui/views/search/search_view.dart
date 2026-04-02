@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:stacked/stacked.dart';
 
 import '../../../common/books.dart';
@@ -10,7 +9,7 @@ import 'search_viewmodel.dart';
 import 'widgets/search_filter_bar/search_filter_bar.dart';
 import 'widgets/search_result_item/search_result_item.dart';
 import 'widgets/searchbar/searchbar.dart';
-import 'widgets/search_autocomplete_dropdown/search_autocomplete_dropdown.dart';
+import 'widgets/search_auto_complete_dropdown/search_auto_complete_dropdown.dart';
 
 class SearchView extends StackedView<SearchViewModel> {
   const SearchView({super.key});
@@ -34,7 +33,7 @@ class SearchView extends StackedView<SearchViewModel> {
                 scrolledUnderElevation: 0.0,
                 automaticallyImplyLeading: true,
                 title: Text(
-                  'Select Book and Chapter',
+                  'Search',
                   style: TextStyle(
                     color: context.theme.appColors.primary,
                     fontSize: 18.0,
