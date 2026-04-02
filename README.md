@@ -72,7 +72,16 @@ After converting the OET ESFM to json, navigate to the folder with ``cd assets/b
 
 There is a Python script in ``/assets/bibles`` that will update the json files for the WEB. Since the WEB (The World English Translation) is complete, updating would only be to fix typos, etc. See the ``update_WEB_json.py`` file for instructions.
 
+## Recent Contriubions
+### May-April 2026: Taylor University
+* BSB bible version added
+* UI Reader view edited
+  * tablet view side by side while phone view above and below
+  * naviagation bars editied
+* Search page
+  * ability to search by book/chapter added
+  * UI changed
 
 ## License
 
-Bibleside is licensed under the GPL-3.0 license. See LICENSE for more information.
+Bibleside is licensed under the G*PL-3.0 license. See LICENSE for more information.
