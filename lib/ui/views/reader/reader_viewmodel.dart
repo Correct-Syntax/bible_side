@@ -721,17 +721,16 @@ class ReaderViewModel extends ReactiveViewModel {
 
   <script>
     document.body.className = 'hidden';
-    // console.log('||||hello from initilizeReaderWebview function (in script) in ReaderViewModel!');
 
     var elements = null;
     var handleScroll = null;
+    var lastScrollEventTime = Date.now();
 
     document.addEventListener("DOMContentLoaded", () => {
       const container = document.getElementById("container");
       elements = [...container.querySelectorAll(".scrollable")];
 
       var lastScrollTop = 0;
-      // console.log('||||last scrollTop variable initialized: ' + lastScrollTop);
 
       const syncScroll = (scrolledEle, ele) => {
         const scrolledPercent = scrolledEle.scrollTop / (scrolledEle.scrollHeight - scrolledEle.clientHeight);
@@ -748,6 +747,14 @@ class ReaderViewModel extends ReactiveViewModel {
       };
 
       handleScroll = (e) => {
+          console.log("||||", Date.now() - lastScrollEventTime);
+        if (Date.now() - lastScrollEventTime < 1000) {
+          console.log("|||| Throttled scroll event");
+          return;
+        }
+        lastScrollEventTime = Date.now();
+
+
         const scrolledEle = e.target;
         elements.filter((item) => item !== scrolledEle).forEach((ele) => {
           ele.removeEventListener("scroll", handleScroll);
@@ -758,7 +765,6 @@ class ReaderViewModel extends ReactiveViewModel {
         });
 
         // determine if pass a section header and if so, send a message to Flutter to display the section header in the top app bar
-        // console.log('||||e.target:' + e.target);
         const sectionHeaders = scrolledEle.getElementsByClassName('section-box');
 
         // determine scroll direction and notify Flutter
@@ -779,8 +785,6 @@ class ReaderViewModel extends ReactiveViewModel {
         // TODO: optimize by only checking elements near the current scroll position instead of all section headers in the scrolled element or by only checking every 5ish handleScroll calls or by having section headers also send a message when they are scrolled past instead of relying on the reader area to detect when a section header is scrolled past
         // determine the top-visible verse id inside the scrolled reader area and notify Flutter
         try {
-          // console.log('||||hello from handleScroll function in ReaderViewModel!');
-          // console.log('||||scrolled element id: ' + scrolledEle.id);
           const areaPrefix = scrolledEle.id === 'primaryReader' ? 'primary-' : 'secondary-';
           function getTopVisibleId(container, prefix) {
             const items = container.querySelectorAll('[id^="' + prefix + '"]');
@@ -804,12 +808,6 @@ class ReaderViewModel extends ReactiveViewModel {
                 area: scrolledEle.id === 'primaryReader' ? 'primary' : 'secondary',
                 id: topId
               }));
-              // console.log('||||topId:' + topId);
-              // console.log('||||message posted to OnScrollEvent channel with topId');
-              // console.log('||||message content: ' + JSON.stringify({
-              //   area: scrolledEle.id === 'primaryReader' ? 'primary' : 'secondary',
-              //   id: topId
-              // }));
             } catch (err) {
               // ignore posting errors
             }

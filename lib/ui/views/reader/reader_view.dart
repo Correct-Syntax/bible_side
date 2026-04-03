@@ -23,7 +23,6 @@ class ReaderView extends StackedView<ReaderViewModel> {
   void onViewModelReady(ReaderViewModel viewModel) async {
     super.onViewModelReady(viewModel);
     await viewModel.initilize();
-    print('|||||hello from onViewModelReady in ReaderView!');
   }
 
   @override
@@ -61,7 +60,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
     }
 
     Widget sectionHeader = AnimatedContainer(
-      duration: const Duration(milliseconds: 200),
+      duration: const Duration(milliseconds: 1000),
       height: viewModel.scrollUp ? 30 : 0,
       color: context.theme.appColors.appbarBackground,
       child: ClipRect(
@@ -122,7 +121,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
                           ),
                         ),
                         if (viewModel.primaryAreaBible.startsWith('OET') ||
-                            viewModel.secondaryAreaBible.startsWith('OET'))
+                            (viewModel.secondaryAreaBible.startsWith('OET') && viewModel.showSecondaryArea))
                           Container(
                             color: context.theme.appColors.background,
                             padding: const EdgeInsets.symmetric(
