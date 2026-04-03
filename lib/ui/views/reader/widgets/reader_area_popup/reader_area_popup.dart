@@ -49,9 +49,11 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
                 ? viewModel.primaryBible == translation
                 : viewModel.secondaryBible == translation;
 
-            final isSelectedByOther = readerArea == Area.primary
-                ? viewModel.secondaryBible == translation
-                : viewModel.primaryBible == translation;
+            final isSelectedByOther = viewModel.showSecondaryArea &&
+                !isSelected &&
+                (readerArea == Area.primary
+                    ? viewModel.secondaryBible == translation
+                    : viewModel.primaryBible == translation);
 
             return InkWell(
               onTap: () {

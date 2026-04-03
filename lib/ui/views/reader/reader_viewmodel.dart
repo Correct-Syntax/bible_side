@@ -806,8 +806,11 @@ class ReaderViewModel extends ReactiveViewModel {
     } else {
       areaId = 'secondaryReader';
     }
+    // jsonEncode produces a properly escaped JS string literal (quotes, newlines,
+    // backslashes all safely escaped) so we can assign it directly.
+    final encoded = jsonEncode(htmlContent);
     await webviewController.runJavaScript(
-        'document.getElementById("$areaId").innerHTML = "$htmlContent";');
+        'document.getElementById("$areaId").innerHTML = $encoded;');
     rebuildUi();
   }
 
@@ -945,6 +948,14 @@ class ReaderViewModel extends ReactiveViewModel {
     _navigationService.clearStackAndShow(Routes.searchView);
   }
 
+  Future<void> onEnableSecondaryArea() async {
+    await _settingsService.setSecondaryAreaBible('OET-LV');
+    await _settingsService.setShowSecondaryArea(true);
+    await toggleSecondaryAreaHTML(true);
+    // Full reload so the secondary area content renders correctly.
+    await onChangeTranslationInline(Area.secondary, 'OET-LV');
+  }
+
   void onToggleSecondaryArea() async {
     _settingsService.setShowSecondaryArea(!showSecondaryArea);
     await toggleSecondaryAreaHTML(showSecondaryArea);
@@ -966,7 +977,37 @@ class ReaderViewModel extends ReactiveViewModel {
     } else {
       await _settingsService.setSecondaryAreaBible(translation);
     }
-    await updateReaderAreas();
+
+    // Full reload using the same path as initialization — most reliable approach.
+    await _biblesService.reloadBiblesJson();
+
+    String primaryAreaHTML = await _readerService.getReaderBookHTML(
+      Area.primary,
+      viewBy,
+      primaryAreaBible,
+      bookCode,
+      bookmarks,
+      showMarks,
+      showChaptersAndVerses,
+    );
+
+    String secondaryAreaHTML = await _readerService.getReaderBookHTML(
+      Area.secondary,
+      viewBy,
+      secondaryAreaBible,
+      bookCode,
+      bookmarks,
+      showMarks,
+      showChaptersAndVerses,
+    );
+
+    await initilizeReaderWebview(
+      primaryAreaHTML,
+      secondaryAreaHTML,
+      showSecondaryArea,
+      linkReaderAreaScrolling,
+    );
+
     rebuildUi();
   }
 
