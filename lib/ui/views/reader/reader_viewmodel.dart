@@ -232,7 +232,7 @@ class ReaderViewModel extends ReactiveViewModel {
       ..addJavaScriptChannel(
         'OnScrollEvent',
         onMessageReceived: (message) async {
-          log('<OnScrollEvent> ${message.message}');
+          //log('<OnScrollEvent> ${message.message}');
           try {
             final data = jsonDecode(message.message);
             final rawId = data['id'] ?? message.message;
@@ -747,9 +747,9 @@ class ReaderViewModel extends ReactiveViewModel {
       };
 
       handleScroll = (e) => {
-          console.log("||||", Date.now() - lastScrollEventTime);
+          //console.log("||||", Date.now() - lastScrollEventTime);
         if (Date.now() - lastScrollEventTime < 1000) {
-          console.log("|||| Throttled scroll event");
+          //console.log("|||| Throttled scroll event");
           return;
         }
         lastScrollEventTime = Date.now();
