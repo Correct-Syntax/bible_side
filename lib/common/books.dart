@@ -274,6 +274,7 @@ List<String> uncompletedOETBooks = [
   'LEV',
   'ISA',
   'JER',
+  'PSA',
 ];
 
 // Book is either missing the json file or

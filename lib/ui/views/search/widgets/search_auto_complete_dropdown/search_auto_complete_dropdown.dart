@@ -184,7 +184,9 @@ class _AutocompleteDropdownState extends State<AutocompleteDropdown> {
               // Clear button
               if (_controller.text.isNotEmpty)
                 IconButton(
-                  icon: const Icon(Icons.clear, size: 18),
+                  padding: EdgeInsets.zero,
+                  constraints: const BoxConstraints(),
+                  icon: const Icon(Icons.clear, size: 12),
                   onPressed: () {
                     _controller.clear();
                     setState(() {

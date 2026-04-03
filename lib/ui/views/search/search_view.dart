@@ -49,12 +49,11 @@ class SearchView extends StackedView<SearchViewModel> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Padding(
-                  padding: const EdgeInsets.symmetric(
-                      horizontal: 25.0, vertical: 8.0),
+                  padding: const EdgeInsets.only(
+                      left: 25.0, right: 8.0, top: 8.0, bottom: 8.0),
                   child: Row(
                     children: [
                       Expanded(
-                        flex: 5,
                         child: AutocompleteDropdown(
                           label: 'Book',
                           items: booksMapping.entries
@@ -68,26 +67,26 @@ class SearchView extends StackedView<SearchViewModel> {
                         ),
                       ),
                       const SizedBox(width: 8.0),
-                      Expanded(
-                        flex: 4,
-                        child: DropdownMenu<int>(
-                          key: ValueKey(viewModel.selectedBookCode),
-                          enabled: viewModel.selectedBookCode != null,
-                          label: const Text('Ch.'),
-                          initialSelection: viewModel.selectedChapter,
-                          dropdownMenuEntries: viewModel.availableChapters
-                              .map((chapter) => DropdownMenuEntry(
-                                    value: chapter,
-                                    label: chapter.toString(),
-                                  ))
-                              .toList(),
-                          onSelected: (chapter) =>
-                              viewModel.onChapterSelected(chapter),
-                        ),
+                      DropdownMenu<int>(
+                        key: ValueKey(viewModel.selectedBookCode),
+                        enabled: viewModel.selectedBookCode != null,
+                        width: 90,
+                        label: viewModel.selectedBookCode != null
+                            ? const Text('Ch.')
+                            : const Text(''),
+                        initialSelection: viewModel.selectedChapter,
+                        dropdownMenuEntries: viewModel.availableChapters
+                            .map((chapter) => DropdownMenuEntry(
+                                  value: chapter,
+                                  label: chapter.toString(),
+                                ))
+                            .toList(),
+                        onSelected: (chapter) =>
+                            viewModel.onChapterSelected(chapter),
                       ),
                       IconButton(
                         icon: const Icon(Icons.forward_rounded),
-                        iconSize: 56,
+                        iconSize: 40,
                         tooltip: 'Go to book and chapter',
                         color: Colors.green[300],
                         onPressed: viewModel.selectedBookCode != null
