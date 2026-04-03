@@ -259,45 +259,9 @@ Map<String, int> bookNumOfChaptersMapping = {
 // Uncompleted OET books (RV *and* LV are not finished for the book)
 // TODO: update as the OET is drafted more.
 List<String> uncompletedOETBooks = [
-  'GEN',
-  'EXO',
   'LEV',
-  'NUM',
-  'DEU',
-  'JOS',
-  'JDG',
-  'RUT',
-  'SA1',
-  'SA2',
-  'KI1',
-  'KI2',
-  'CH1',
-  'CH2',
-  'EZR',
-  'NEH',
-  'EST',
-  'JOB',
-  'PSA',
-  'PRO',
-  'ECC',
-  'SNG',
   'ISA',
   'JER',
-  'LAM',
-  'EZE',
-  'DAN',
-  'HOS',
-  'JOL',
-  'AMO',
-  'OBA',
-  'JNA',
-  'MIC',
-  'NAH',
-  'HAB',
-  'ZEP',
-  'HAG',
-  'ZEC',
-  'MAL',
 ];
 
 // Book is either missing the json file or
@@ -384,7 +348,8 @@ class BooksMapping {
     return booksInSectionsMapping[bibleDivisionCode]['books'].keys.length;
   }
 
-  static Map<String, String> booksMappingFromBibleDivisionCode(String bibleDivisionCode) {
+  static Map<String, String> booksMappingFromBibleDivisionCode(
+      String bibleDivisionCode) {
     return booksInSectionsMapping[bibleDivisionCode]['books'];
   }
 }

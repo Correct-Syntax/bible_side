@@ -60,91 +60,109 @@ flutter:
     - assets/images/
 
     - assets/bibles/OET-RV/GEN.json
+    - assets/bibles/OET-LV/GEN.json
     - assets/bibles/KJV/GEN.json
     - assets/bibles/WEB/GEN.json
     - assets/bibles/BSB/GEN.json
 
     - assets/bibles/OET-RV/EXO.json
+    - assets/bibles/OET-LV/EXO.json
     - assets/bibles/KJV/EXO.json
     - assets/bibles/WEB/EXO.json
     - assets/bibles/BSB/EXO.json
 
     - assets/bibles/OET-RV/LEV.json
+    - assets/bibles/OET-LV/LEV.json
     - assets/bibles/KJV/LEV.json
     - assets/bibles/WEB/LEV.json
     - assets/bibles/BSB/LEV.json
 
     - assets/bibles/OET-RV/NUM.json
+    - assets/bibles/OET-LV/NUM.json
     - assets/bibles/KJV/NUM.json
     - assets/bibles/WEB/NUM.json
     - assets/bibles/BSB/NUM.json
 
     - assets/bibles/OET-RV/DEU.json
+    - assets/bibles/OET-LV/DEU.json
     - assets/bibles/KJV/DEU.json
     - assets/bibles/WEB/DEU.json
     - assets/bibles/BSB/DEU.json
 
     - assets/bibles/OET-RV/JOS.json
+    - assets/bibles/OET-LV/JOS.json
     - assets/bibles/KJV/JOS.json
     - assets/bibles/WEB/JOS.json
     - assets/bibles/BSB/JOS.json
 
     - assets/bibles/OET-RV/JDG.json
+    - assets/bibles/OET-LV/JDG.json
     - assets/bibles/KJV/JDG.json
     - assets/bibles/WEB/JDG.json
     - assets/bibles/BSB/JDG.json
 
     - assets/bibles/OET-RV/RUT.json
+    - assets/bibles/OET-LV/RUT.json
     - assets/bibles/KJV/RUT.json
     - assets/bibles/WEB/RUT.json
     - assets/bibles/BSB/RUT.json
 
     - assets/bibles/OET-RV/SA1.json
+    - assets/bibles/OET-LV/SA1.json
     - assets/bibles/KJV/SA1.json
     - assets/bibles/WEB/SA1.json
     - assets/bibles/BSB/SA1.json
 
     - assets/bibles/OET-RV/SA2.json
+    - assets/bibles/OET-LV/SA2.json
     - assets/bibles/KJV/SA2.json
     - assets/bibles/WEB/SA2.json
     - assets/bibles/BSB/SA2.json
 
     - assets/bibles/OET-RV/KI1.json
+    - assets/bibles/OET-LV/KI1.json
     - assets/bibles/KJV/KI1.json
     - assets/bibles/WEB/KI1.json
     - assets/bibles/BSB/KI1.json
 
     - assets/bibles/OET-RV/KI2.json
+    - assets/bibles/OET-LV/KI2.json
     - assets/bibles/KJV/KI2.json
     - assets/bibles/WEB/KI2.json
     - assets/bibles/BSB/KI2.json
 
     - assets/bibles/OET-RV/CH1.json
+    - assets/bibles/OET-LV/CH1.json
     - assets/bibles/KJV/CH1.json
     - assets/bibles/WEB/CH1.json
     - assets/bibles/BSB/CH1.json
 
     - assets/bibles/OET-RV/CH2.json
+    - assets/bibles/OET-LV/CH2.json
     - assets/bibles/KJV/CH2.json
     - assets/bibles/WEB/CH2.json
     - assets/bibles/BSB/CH2.json
 
     - assets/bibles/OET-RV/EZR.json
+    - assets/bibles/OET-LV/EZR.json
     - assets/bibles/KJV/EZR.json
     - assets/bibles/WEB/EZR.json
     - assets/bibles/BSB/EZR.json
 
     - assets/bibles/OET-RV/NEH.json
+    - assets/bibles/OET-LV/NEH.json
     - assets/bibles/KJV/NEH.json
     - assets/bibles/WEB/NEH.json
     - assets/bibles/BSB/NEH.json
 
     - assets/bibles/OET-RV/EST.json
+    - assets/bibles/OET-LV/EST.json
     - assets/bibles/KJV/EST.json
     - assets/bibles/WEB/EST.json
     - assets/bibles/BSB/EST.json
 
     - assets/bibles/OET-RV/JOB.json
+    - assets/bibles/OET-LV/JOB.json
     - assets/bibles/KJV/JOB.json
     - assets/bibles/WEB/JOB.json
     - assets/bibles/BSB/JOB.json
@@ -154,26 +172,31 @@ flutter:
     - assets/bibles/BSB/PSA.json
 
     - assets/bibles/OET-RV/PRO.json
+    - assets/bibles/OET-LV/PRO.json
     - assets/bibles/KJV/PRO.json
     - assets/bibles/WEB/PRO.json
     - assets/bibles/BSB/PRO.json
 
     - assets/bibles/OET-RV/ECC.json
+    - assets/bibles/OET-LV/ECC.json
     - assets/bibles/KJV/ECC.json
     - assets/bibles/WEB/ECC.json
     - assets/bibles/BSB/ECC.json
 
     - assets/bibles/OET-RV/SNG.json
+    - assets/bibles/OET-LV/SNG.json
     - assets/bibles/KJV/SNG.json
     - assets/bibles/WEB/SNG.json
     - assets/bibles/BSB/SNG.json
 
     - assets/bibles/OET-RV/ISA.json
+    - assets/bibles/OET-LV/ISA.json
     - assets/bibles/KJV/ISA.json
     - assets/bibles/WEB/ISA.json
     - assets/bibles/BSB/ISA.json
 
     - assets/bibles/OET-RV/JER.json
+    - assets/bibles/OET-LV/JER.json
     - assets/bibles/KJV/JER.json
     - assets/bibles/WEB/JER.json
     - assets/bibles/BSB/JER.json
@@ -183,71 +206,85 @@ flutter:
     - assets/bibles/BSB/LAM.json
 
     - assets/bibles/OET-RV/EZE.json
+    - assets/bibles/OET-LV/EZE.json
     - assets/bibles/KJV/EZE.json
     - assets/bibles/WEB/EZE.json
     - assets/bibles/BSB/EZE.json
 
     - assets/bibles/OET-RV/DAN.json
+    - assets/bibles/OET-LV/DAN.json
     - assets/bibles/KJV/DAN.json
     - assets/bibles/WEB/DAN.json
     - assets/bibles/BSB/DAN.json
 
     - assets/bibles/OET-RV/HOS.json
+    - assets/bibles/OET-LV/HOS.json
     - assets/bibles/KJV/HOS.json
     - assets/bibles/WEB/HOS.json
     - assets/bibles/BSB/HOS.json
 
     - assets/bibles/OET-RV/JOL.json
+    - assets/bibles/OET-LV/JOL.json
     - assets/bibles/KJV/JOL.json
     - assets/bibles/WEB/JOL.json
     - assets/bibles/BSB/JOL.json
 
     - assets/bibles/OET-RV/AMO.json
+    - assets/bibles/OET-LV/AMO.json
     - assets/bibles/KJV/AMO.json
     - assets/bibles/WEB/AMO.json
     - assets/bibles/BSB/AMO.json
 
     - assets/bibles/OET-RV/OBA.json
+    - assets/bibles/OET-LV/OBA.json
     - assets/bibles/KJV/OBA.json
     - assets/bibles/WEB/OBA.json
     - assets/bibles/BSB/OBA.json
 
     - assets/bibles/OET-RV/JNA.json
+    - assets/bibles/OET-LV/JNA.json
     - assets/bibles/KJV/JNA.json
     - assets/bibles/WEB/JNA.json
     - assets/bibles/BSB/JNA.json
 
     - assets/bibles/OET-RV/MIC.json
+    - assets/bibles/OET-LV/MIC.json
     - assets/bibles/KJV/MIC.json
     - assets/bibles/WEB/MIC.json
     - assets/bibles/BSB/MIC.json
 
     - assets/bibles/OET-RV/NAH.json
+    - assets/bibles/OET-LV/NAH.json
     - assets/bibles/KJV/NAH.json
     - assets/bibles/WEB/NAH.json
     - assets/bibles/BSB/NAH.json
 
     - assets/bibles/OET-RV/HAB.json
+    - assets/bibles/OET-LV/HAB.json
     - assets/bibles/KJV/HAB.json
     - assets/bibles/WEB/HAB.json
     - assets/bibles/BSB/HAB.json
 
     - assets/bibles/OET-RV/ZEP.json
+    - assets/bibles/OET-LV/ZEP.json
     - assets/bibles/KJV/ZEP.json
     - assets/bibles/WEB/ZEP.json
     - assets/bibles/BSB/ZEP.json
 
     - assets/bibles/OET-RV/HAG.json
+    - assets/bibles/OET-LV/HAG.json
     - assets/bibles/KJV/HAG.json
     - assets/bibles/WEB/HAG.json
     - assets/bibles/BSB/HAG.json
 
     - assets/bibles/OET-RV/ZEC.json
+    - assets/bibles/OET-LV/ZEC.json
     - assets/bibles/KJV/ZEC.json
     - assets/bibles/WEB/ZEC.json
     - assets/bibles/BSB/ZEC.json
 
     - assets/bibles/OET-RV/MAL.json
+    - assets/bibles/OET-LV/MAL.json
     - assets/bibles/KJV/MAL.json
     - assets/bibles/WEB/MAL.json
     - assets/bibles/BSB/MAL.json
