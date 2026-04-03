@@ -204,6 +204,11 @@ class ReaderView extends StackedView<ReaderViewModel> {
                               onTapMenu: () => viewModel
                                   .scaffoldKey.currentState
                                   ?.openEndDrawer(),
+                              showLinkButton: viewModel.showSecondaryArea,
+                              linkReaderAreaScrolling:
+                                  viewModel.linkReaderAreaScrolling,
+                              onToggleLinkedScrolling:
+                                  viewModel.onToggleLinkedScrolling,
                             ),
                           ),
                         ),
@@ -219,6 +224,11 @@ class ReaderView extends StackedView<ReaderViewModel> {
                           viewModel.onTapBibleVersion(Area.primary),
                       onTapMenu: () =>
                           viewModel.scaffoldKey.currentState?.openEndDrawer(),
+                      showLinkButton: viewModel.showSecondaryArea,
+                      linkReaderAreaScrolling:
+                          viewModel.linkReaderAreaScrolling,
+                      onToggleLinkedScrolling:
+                          viewModel.onToggleLinkedScrolling,
                     )
             else //no secondary appbar, just show the primary appbar regardless of screen size or orientation
               Center(

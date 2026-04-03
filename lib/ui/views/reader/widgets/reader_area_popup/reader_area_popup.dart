@@ -121,20 +121,7 @@ class ReaderAreaPopup extends StackedView<ReaderAreaPopupModel> {
               ),
             ),
           ),
-          InkWell(
-            onTap: onToggleLinkedScrolling,
-            child: Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: PhosphorIcon(
-                viewModel.linkReaderAreaScrolling
-                    ? PhosphorIcons.linkSimpleHorizontal(PhosphorIconsStyle.regular)
-                    : PhosphorIcons.linkSimpleHorizontalBreak(PhosphorIconsStyle.regular),
-                color: context.theme.appColors.primaryOnDark,
-                size: 22.0,
-                semanticLabel: 'Link',
-              ),
-            ),
-          ),
+
           InkWell(
             onTap: readerArea == Area.primary
                 ? viewModel.onChangePrimaryBibleVersion
