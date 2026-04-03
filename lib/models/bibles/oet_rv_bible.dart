@@ -45,7 +45,8 @@ class OETReadersBibleImpl extends JsonToBible {
               .replaceAll("'", "’")
               .replaceAll("≈", "")
               .replaceAll("≡", "")
-              .replaceAll("@", "");
+              .replaceAll("@", "")
+              .replaceAll("→", "");
 
           if (pendingSection) {
             String sectionId =
