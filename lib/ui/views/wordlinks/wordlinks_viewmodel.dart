@@ -162,7 +162,6 @@ class WordLinksViewModel extends BaseViewModel {
               .title { font-size: 26px; font-weight: bold; margin-bottom: 12px; color: $primaryCss; }
               .row { font-size: 16px; line-height: 1.5; }
               .label { font-weight: bold; opacity: 0.8; margin-right: 4px; }
-              .translation-box { margin-top: 20px; padding: 16px; background: rgba(128, 128, 128, 0.1); border-radius: 12px; border-left: 4px solid $primaryCss; font-size: 16px; }
               .morph { margin-top: 16px; font-size: 14px; opacity: 0.9; }
               .glossHelper { font-style: italic; opacity: 0.7; }
               .glossPre { font-style: italic; opacity: 0.7; }
@@ -178,8 +177,9 @@ class WordLinksViewModel extends BaseViewModel {
               document.head.appendChild(style);
               
               function renderData(data) {
-                var title = data.Greek_word || data.actual_word || '';
+                var greek_word = data.Greek_word || data.actual_word || '';
                 var transliteration = data.transliterated_Greek_word || '';
+                var word_role = data.word_role || '';
                 var word_number = data.word_number || '';
                 var gloss = data.OET_gloss_words || data.word_gloss || '';
                 var strongs = data.Strongs_number || data.Strongs || '';
@@ -195,14 +195,16 @@ class WordLinksViewModel extends BaseViewModel {
                 var transHtml = data.translation_html ? decodeHtml(data.translation_html) : '';
                 
                 var html = '<div class="card">';
-                if (title) html += '<div class="title">' + title + '</div>';
-                if (word_number) html += '<div class="row"><span class="label">Wordlink:</span> ' + word_number + '</div>';
-                if (transliteration) html += '<div class="row"><span class="label">Transliteration:</span> ' + transliteration + '</div>';
+                if (greek_word) html += '<div class="title">' + greek_word + '</div>';
+                if (word_number) html += '<div class="row"><span class="label">Wordlink: #</span> ' + word_number + '</div>';
+                if (transliteration) html += '<div class="row"><span class="label">'+greek_word+'</span> ' + transliteration + '</div>';
+                if (transHtml) html += '<div>' + transHtml + '</div>';
+                if (word_role) html += '<div class="row"><span class="label">Word Role:</span> ' + word_role + '</div>';
                 if (gloss) html += '<div class="row"><span class="label">Gloss:</span> ' + gloss + '</div>';
                 if (strongs) html += '<div class="row"><span class="label">Strong\\'s:</span> ' + strongs + '</div>';
                 if (lemma) html += '<div class="row"><span class="label">Lemma:</span> ' + lemma + '</div>';
                 if (morphHtml) html += '<div class="morph">' + morphHtml + '</div>';
-                if (transHtml) html += '<div class="translation-box">' + transHtml + '</div>';
+               
                 html += '</div>';
                 
                 document.body.innerHTML = html;
