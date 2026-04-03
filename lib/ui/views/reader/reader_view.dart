@@ -45,48 +45,47 @@ class ReaderView extends StackedView<ReaderViewModel> {
     return Scaffold(
       key: viewModel.scaffoldKey,
       backgroundColor: context.theme.appColors.appbarBackground,
-      appBar: PreferredSize(
-        preferredSize: Size(
-            double.infinity,
-            (viewModel.isTopAppBarVisible ? (kToolbarHeight + 4) : 0) *
-                (viewModel.showSecondaryArea ? 2 : 1)),
-        child: SafeArea(
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              AnimatedContainer(
-                duration: const Duration(milliseconds: 200),
-                height: viewModel.isTopAppBarVisible ? kToolbarHeight : 0,
-                child: ClipRect(
-                  child: SizedBox(
-                    height: kToolbarHeight,
-                    child: TopReaderAppbar(
-                      onTapBook: () => viewModel.onTapBook(Area.primary),
-                      onTapBibleVersion: () =>
-                          viewModel.onTapBibleVersion(Area.primary),
-                      chapter: viewModel.chapterNumber,
-                      verse: viewModel.verseNumber,
-                    ),
-                  ),
+      appBar: (!isTablet && !isLandscape && viewModel.showSecondaryArea)
+          ? PreferredSize(
+              preferredSize: const Size(double.infinity, 60.0),
+              child: SafeArea(
+                child: SecondaryReaderAppbar(
+                  isReaderAreaPopupActive:
+                      viewModel.isSecondaryReaderAreaPopupActive,
+                  onTapBook: () => viewModel.onTapBook(Area.secondary),
+                  onTapBibleVersion: () =>
+                      viewModel.onTapBibleVersion(Area.secondary),
+                  onTapClose: viewModel.onTapCloseSecondaryArea,
                 ),
               ),
-            ],
-          ),
-        ),
-      ),
+            )
+          : null,
       body: SafeArea(
         child: Column(
           children: [
+            AnimatedContainer(
+              duration: const Duration(milliseconds: 200),
+              height: viewModel.isTopAppBarVisible ? kToolbarHeight : 0,
+              color: context.theme.appColors.appbarBackground,
+              child: ClipRect(
+                child: OverflowBox(
+                  minHeight: 0,
+                  maxHeight: kToolbarHeight,
+                  alignment: Alignment.topCenter,
+                  child: TopReaderAppbar(
+                    onTapBook: () => viewModel.onTapBook(Area.primary),
+                    onTapBibleVersion: () =>
+                        viewModel.onTapBibleVersion(Area.primary),
+                    chapter: viewModel.chapterNumber,
+                    verse: viewModel.verseNumber,
+                  ),
+                ),
+              ),
+            ),
             Expanded(
               child: Stack(
                 children: [
                   Container(
-                    padding: EdgeInsets.only(
-                      top: (!(isTablet || isLandscape) &&
-                              viewModel.showSecondaryArea)
-                          ? 58.0
-                          : 0.0,
-                    ),
                     color: context.theme.appColors.background,
                     child: Column(
                       mainAxisSize: MainAxisSize.max,
@@ -123,18 +122,17 @@ class ReaderView extends StackedView<ReaderViewModel> {
                   if (viewModel.isSecondaryReaderAreaPopupActive &&
                       !(viewModel.isPrimaryReaderAreaPopupActive))
                     Padding(
-                      padding: EdgeInsets.only(
-                        top: (isLandscape || isTablet) ? 0.0 : 58.0,
-                      ),
+                      padding: const EdgeInsets.only(top: 0),
                       child: Align(
-                        alignment:
-                            (isLandscape || isTablet) //TODO CHANGE ARROW BUTTON
-                                ? Alignment.bottomCenter
-                                : Alignment.topCenter,
+                        alignment: (isLandscape || isTablet)
+                            ? Alignment.bottomCenter
+                            : Alignment.topCenter,
                         child: ReaderAreaPopup(
                           readerArea: Area.secondary,
-                          onClosePopup: () => viewModel.onTapBibleVersion(Area.secondary),
-                          onSelectTranslation: (t) => viewModel.onChangeTranslationInline(Area.secondary, t),
+                          onClosePopup: () =>
+                              viewModel.onTapBibleVersion(Area.secondary),
+                          onSelectTranslation: (t) => viewModel
+                              .onChangeTranslationInline(Area.secondary, t),
                         ),
                       ),
                     ),
@@ -144,22 +142,10 @@ class ReaderView extends StackedView<ReaderViewModel> {
                       alignment: Alignment.bottomCenter,
                       child: ReaderAreaPopup(
                         readerArea: Area.primary,
-                        onClosePopup: () => viewModel.onTapBibleVersion(Area.primary),
-                        onSelectTranslation: (t) => viewModel.onChangeTranslationInline(Area.primary, t),
-                      ),
-                    ),
-                  if (!(isTablet || isLandscape) &&
-                      viewModel
-                          .showSecondaryArea) //for portrait phones only, show secondary appbar at the top of the screen
-                    Align(
-                      alignment: Alignment.topCenter,
-                      child: SecondaryReaderAppbar(
-                        isReaderAreaPopupActive:
-                            viewModel.isSecondaryReaderAreaPopupActive,
-                        onTapBook: () => viewModel.onTapBook(Area.secondary),
-                        onTapBibleVersion: () =>
-                            viewModel.onTapBibleVersion(Area.secondary),
-                        onTapClose: viewModel.onTapCloseSecondaryArea,
+                        onClosePopup: () =>
+                            viewModel.onTapBibleVersion(Area.primary),
+                        onSelectTranslation: (t) => viewModel
+                            .onChangeTranslationInline(Area.primary, t),
                       ),
                     ),
                 ],
@@ -228,17 +214,16 @@ class ReaderView extends StackedView<ReaderViewModel> {
                           viewModel.onToggleLinkedScrolling,
                     )
             else //no secondary appbar, just show the primary appbar regardless of screen size or orientation
-              Center(
-                child: PrimaryReaderAppbar(
-                  isReaderAreaPopupActive:
-                      viewModel.isPrimaryReaderAreaPopupActive,
-                  onTapSearch: viewModel.onTapSearch,
-                  onTapBook: () => viewModel.onTapBook(Area.primary),
-                  onTapBibleVersion: () =>
-                      viewModel.onTapBibleVersion(Area.primary),
-                  onTapMenu: () =>
-                      viewModel.scaffoldKey.currentState?.openEndDrawer(),
-                ),
+              PrimaryReaderAppbar(
+                isReaderAreaPopupActive:
+                    viewModel.isPrimaryReaderAreaPopupActive,
+                onTapSearch: viewModel.onTapSearch,
+                onTapBook: () => viewModel.onTapBook(Area.primary),
+                onTapBibleVersion: () =>
+                    viewModel.onTapBibleVersion(Area.primary),
+                onTapMenu: () =>
+                    viewModel.scaffoldKey.currentState?.openEndDrawer(),
+                onTapAddSecondary: viewModel.onEnableSecondaryArea,
               ),
           ],
         ),

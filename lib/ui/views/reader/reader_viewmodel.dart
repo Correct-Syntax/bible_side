@@ -106,8 +106,27 @@ class ReaderViewModel extends ReactiveViewModel {
       if (window.__wordListenerAttached) return;
       window.__wordListenerAttached = true;
 
+      let touchStartX = 0;
+      let touchStartY = 0;
+
+      document.addEventListener('touchstart', function(e) {
+        if (e.touches && e.touches.length > 0) {
+          touchStartX = e.touches[0].clientX;
+          touchStartY = e.touches[0].clientY;
+        }
+      });
+
       function handleWordClick(e) {
         const touch = e.changedTouches ? e.changedTouches[0] : e;
+        
+        if (e.type === 'touchend' && e.changedTouches) {
+          const deltaX = Math.abs(touch.clientX - touchStartX);
+          const deltaY = Math.abs(touch.clientY - touchStartY);
+          if (deltaX > 10 || deltaY > 10) {
+            return; // Abort because user was scrolling
+          }
+        }
+
         let range;
 
         if (document.caretPositionFromPoint) {
@@ -164,7 +183,10 @@ class ReaderViewModel extends ReactiveViewModel {
              wordNumber: wordNumber
           });
 
-          OnClickWordEvent.postMessage(payload);
+          if (window.__wordClickTimeout) clearTimeout(window.__wordClickTimeout);
+          window.__wordClickTimeout = setTimeout(() => {
+            OnClickWordEvent.postMessage(payload);
+          }, 250);
         }
       }
 
@@ -777,6 +799,40 @@ class ReaderViewModel extends ReactiveViewModel {
       document.body.className = '$themeName visible';
     });
 
+    document.addEventListener("dblclick", function(event) {
+      if (window.__wordClickTimeout) {
+        clearTimeout(window.__wordClickTimeout);
+        window.__wordClickTimeout = null;
+      }
+
+      if (window.getSelection().toString().length > 0) return;
+      
+      let target = event.target;
+      let p = target.closest('.p');
+      if (p) {
+        if (p.hasAttribute('ondblclick')) {
+          // Handled by inline attribute for backwards compatibility on other bibles
+          return;
+        }
+        
+        let verseId = null;
+        if (p.id) {
+          // For bibles that place ID directly on the paragraph
+          verseId = p.id;
+        } else {
+          // For OET bibles that place ID on the superscript
+          let sup = p.querySelector('sup[id]');
+          if (sup && sup.id) {
+            verseId = sup.id;
+          }
+        }
+        
+        if (verseId) {
+          onCreateBookmark(verseId);
+        }
+      }
+    });
+
     function onCreateBookmark(bookmark) {
       OnDoubleClickVerseEvent.postMessage(bookmark);
     }
@@ -806,8 +862,11 @@ class ReaderViewModel extends ReactiveViewModel {
     } else {
       areaId = 'secondaryReader';
     }
+    // jsonEncode produces a properly escaped JS string literal (quotes, newlines,
+    // backslashes all safely escaped) so we can assign it directly.
+    final encoded = jsonEncode(htmlContent);
     await webviewController.runJavaScript(
-        'document.getElementById("$areaId").innerHTML = "$htmlContent";');
+        'document.getElementById("$areaId").innerHTML = $encoded;');
     rebuildUi();
   }
 
@@ -837,6 +896,7 @@ class ReaderViewModel extends ReactiveViewModel {
   }
 
   Future<void> updateReaderAreas() async {
+    setBusy(true);
     await _biblesService.reloadBiblesJson();
 
     String primaryAreaHTML = await _readerService.getReaderBookHTML(
@@ -864,6 +924,7 @@ class ReaderViewModel extends ReactiveViewModel {
 
     log('$bookCode$chapterNumber');
     await jumpToHTMLId('$bookCode${chapterNumber.toString()}');
+    setBusy(false);
   }
 
   void onRefreshDebug() async {
@@ -883,11 +944,34 @@ class ReaderViewModel extends ReactiveViewModel {
 
     // Update the icons in both reader areas.
     await webviewController.runJavaScript('''
-      var svgElements = [...document.getElementsByClassName("$bookmarkId-svg")];
+      function textToHslColor(str) {
+        if (!str || str.length === 0) return 'hsl(0, 0%, 0%)';
+        var hash = 0;
+        for (var i = 0; i < str.length; i++) {
+          hash = str.charCodeAt(i) + ((hash << 5) - hash);
+        }
+        return 'hsl(' + (hash % 360) + ', 80%, 54%)';
+      }
 
-      svgElements.forEach((ele) => {
-        ele.classList.toggle("bookmarked");
-      });
+      var svgElements = [...document.getElementsByClassName("$bookmarkId-svg")];
+      if (svgElements.length > 0) {
+        svgElements.forEach(ele => ele.remove());
+      } else {
+        var hsl = textToHslColor("$bookmarkId");
+        var svgStr = `<svg class="svg $bookmarkId-svg bookmarked" style="fill: ` + hsl + ` !important;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 256 256"><path d="M184,32H72A16,16,0,0,0,56,48V224a8,8,0,0,0,12.24,6.78L128,193.43l59.77,37.35A8,8,0,0,0,200,224V48A16,16,0,0,0,184,32Zm0,177.57-51.77-32.35a8,8,0,0,0-8.48,0L72,209.57V48H184Z"></path></svg>`;
+        
+        ['primary', 'secondary'].forEach(area => {
+          var targetId = area + "-$bookmarkId";
+          var el = document.getElementById(targetId);
+          if (el) {
+            if (el.tagName.toLowerCase() === 'sup') {
+              el.insertAdjacentHTML('beforebegin', svgStr);
+            } else {
+              el.insertAdjacentHTML('afterbegin', svgStr);
+            }
+          }
+        });
+      }
     ''');
 
     List<String> existingBookmarks = await _settingsService.getBookmarks();
@@ -945,6 +1029,14 @@ class ReaderViewModel extends ReactiveViewModel {
     _navigationService.clearStackAndShow(Routes.searchView);
   }
 
+  Future<void> onEnableSecondaryArea() async {
+    await _settingsService.setSecondaryAreaBible('OET-LV');
+    await _settingsService.setShowSecondaryArea(true);
+    await toggleSecondaryAreaHTML(true);
+    // Full reload so the secondary area content renders correctly.
+    await onChangeTranslationInline(Area.secondary, 'OET-LV');
+  }
+
   void onToggleSecondaryArea() async {
     _settingsService.setShowSecondaryArea(!showSecondaryArea);
     await toggleSecondaryAreaHTML(showSecondaryArea);
@@ -961,12 +1053,44 @@ class ReaderViewModel extends ReactiveViewModel {
   }
 
   Future<void> onChangeTranslationInline(Area area, String translation) async {
+    setBusy(true);
     if (area == Area.primary) {
       await _settingsService.setPrimaryAreaBible(translation);
     } else {
       await _settingsService.setSecondaryAreaBible(translation);
     }
-    await updateReaderAreas();
+
+    // Full reload using the same path as initialization — most reliable approach.
+    await _biblesService.reloadBiblesJson();
+
+    String primaryAreaHTML = await _readerService.getReaderBookHTML(
+      Area.primary,
+      viewBy,
+      primaryAreaBible,
+      bookCode,
+      bookmarks,
+      showMarks,
+      showChaptersAndVerses,
+    );
+
+    String secondaryAreaHTML = await _readerService.getReaderBookHTML(
+      Area.secondary,
+      viewBy,
+      secondaryAreaBible,
+      bookCode,
+      bookmarks,
+      showMarks,
+      showChaptersAndVerses,
+    );
+
+    await initilizeReaderWebview(
+      primaryAreaHTML,
+      secondaryAreaHTML,
+      showSecondaryArea,
+      linkReaderAreaScrolling,
+    );
+
+    setBusy(false);
     rebuildUi();
   }
 

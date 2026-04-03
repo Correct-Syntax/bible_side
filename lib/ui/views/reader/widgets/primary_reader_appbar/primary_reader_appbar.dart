@@ -18,6 +18,7 @@ class PrimaryReaderAppbar extends StackedView<PrimaryReaderAppbarModel> {
     this.showLinkButton = false,
     this.linkReaderAreaScrolling = false,
     this.onToggleLinkedScrolling,
+    this.onTapAddSecondary,
   });
 
   final bool isReaderAreaPopupActive;
@@ -28,6 +29,7 @@ class PrimaryReaderAppbar extends StackedView<PrimaryReaderAppbarModel> {
   final bool showLinkButton;
   final bool linkReaderAreaScrolling;
   final Function()? onToggleLinkedScrolling;
+  final Function()? onTapAddSecondary;
 
   @override
   Widget builder(
@@ -53,11 +55,29 @@ class PrimaryReaderAppbar extends StackedView<PrimaryReaderAppbarModel> {
                 ),
               ),
             ),
-            ReaderSelectorBtn(
-              readerArea: Area.primary,
-              isActive: isReaderAreaPopupActive,
-              onTapBook: onTapBook,
-              onTapBibleVersion: onTapBibleVersion,
+            Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                ReaderSelectorBtn(
+                  readerArea: Area.primary,
+                  isActive: isReaderAreaPopupActive,
+                  onTapBook: onTapBook,
+                  onTapBibleVersion: onTapBibleVersion,
+                ),
+                if (onTapAddSecondary != null)
+                  InkWell(
+                    onTap: onTapAddSecondary,
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 9.0),
+                      child: PhosphorIcon(
+                        PhosphorIcons.plus(PhosphorIconsStyle.bold),
+                        color: context.theme.appColors.secondaryOnDark,
+                        size: 20.0,
+                        semanticLabel: 'Add secondary',
+                      ),
+                    ),
+                  ),
+              ],
             ),
             Row(
               mainAxisSize: MainAxisSize.min,
