@@ -11,8 +11,6 @@ class WordLinksView extends StackedView<WordLinksViewModel> {
   final int verseNumber;
   final int wordNumber;
 
-  String get path => '${bookCode}c${chapterNumber}v${verseNumber}w$wordNumber';
-
   const WordLinksView({
     super.key,
     required this.bookCode,
@@ -24,7 +22,7 @@ class WordLinksView extends StackedView<WordLinksViewModel> {
   @override
   void onViewModelReady(WordLinksViewModel viewModel) {
     super.onViewModelReady(viewModel);
-    viewModel.initialize('https://freely-given.org/OBD/ref/GrkWrd/$path.htm');
+    viewModel.initialize(bookCode, chapterNumber, verseNumber, wordNumber);
   }
 
   @override

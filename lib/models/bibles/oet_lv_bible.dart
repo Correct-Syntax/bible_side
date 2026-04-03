@@ -32,7 +32,7 @@ class OETLiteralBibleImpl extends JsonToBible {
             .replaceAll(RegExp(r'¦([0-9])*\d+'), '')
             .replaceAll(RegExp(r' +'), ' ')
             .replaceAll('>', '')
-            .replaceAll('=', '')
+            .replaceAll('=', ' ')
             .replaceAll("'", "’");
 
         if (!showSpecialMarks) {

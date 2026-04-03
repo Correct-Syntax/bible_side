@@ -352,4 +352,21 @@ class BooksMapping {
       String bibleDivisionCode) {
     return booksInSectionsMapping[bibleDivisionCode]['books'];
   }
+
+  static bool isOldTestament(String bookCode) {
+    const ntDivisions = [
+      'GOSPELS',
+      'ACTS',
+      'PAULS_EPISTLES',
+      'GENERAL_EPISTLES',
+      'REVELATION'
+    ];
+    for (var division in ntDivisions) {
+      if (booksInSectionsMapping[division]?['books']?.containsKey(bookCode) ==
+          true) {
+        return false;
+      }
+    }
+    return true;
+  }
 }
