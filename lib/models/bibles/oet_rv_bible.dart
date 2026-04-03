@@ -29,33 +29,55 @@ class OETReadersBibleImpl extends JsonToBible {
     String currentVerseNumber = '';
     String currentVerseText = '';
     bool hasPendingVerse = false;
+    bool isVerseContinuing = false;
 
-    void flushVerse() {
+    void flushVerse({bool isEndOfPara = false}) {
       if (hasPendingVerse) {
-        // Note: we remove numbers and markings related to links for now
-        String formattedText = currentVerseText
-            .replaceAll(RegExp(r'¦([0-9])*\d+'), '')
-            .replaceAll(' +', ' ')
-            .replaceAll('>', ' ')
-            .replaceAll('=', ' ')
-            .replaceAll("'", "’");
+        if (isVerseContinuing && currentVerseText.isEmpty) {
+          // Skip empty continuations
+        } else {
+          // Note: we remove numbers and markings related to links for now
+          String formattedText = currentVerseText
+              .replaceAll(RegExp(r'¦([0-9])*\d+'), '')
+              .replaceAll(' +', ' ')
+              .replaceAll('>', ' ')
+              .replaceAll('=', ' ')
+              .replaceAll("'", "’")
+              .replaceAll("≈", "")
+              .replaceAll("≡", "")
+              .replaceAll("@", "");
 
-        if (pendingSection) {
-          String sectionId =
-              '${readerArea.name}-$bookCode-$chapterNumber-$currentVerseNumber';
+          if (pendingSection) {
+            String sectionId =
+                '${readerArea.name}-$bookCode-$chapterNumber-$currentVerseNumber';
+            htmlText +=
+                '''</p><div class="section-box"><p><sup id="$sectionId">$chapterNumber:$currentVerseNumber</sup> ${sectionText.replaceAll('\'', '’')}</p></div><p>''';
+            pendingSection = false;
+          }
+
+          String bookmarkIcon = isVerseContinuing
+              ? ''
+              : bookmarkIconHTML(currentVerseId, bookmarks);
+          String supHtml = isVerseContinuing
+              ? ''
+              : '<sup id="$currentVerseId">${showChaptersAndVerses ? currentVerseNumber : ''}</sup>&nbsp;';
+
           htmlText +=
-              '''</p><div class="section-box"><p><sup id="$sectionId">$chapterNumber:$currentVerseNumber</sup> ${sectionText.replaceAll('\'', '’')}</p></div><p>''';
-          pendingSection = false;
+              '''<span class="p">$chapterNumberHtml$bookmarkIcon$supHtml$formattedText</span>''';
+
+          chapterNumberHtml = '';
+          currentVerseText = '';
         }
 
-        String bookmarkIcon = bookmarkIconHTML(currentVerseId, bookmarks);
-
-        htmlText +=
-            '''<span class="p">$chapterNumberHtml$bookmarkIcon<sup id="$currentVerseId">${showChaptersAndVerses ? currentVerseNumber : ''}</sup>&nbsp;$formattedText</span>''';
-
-        chapterNumberHtml = '';
+        if (isEndOfPara) {
+          isVerseContinuing = true;
+        } else {
+          isVerseContinuing = false;
+          hasPendingVerse = false;
+        }
+      } else if (!isEndOfPara) {
         hasPendingVerse = false;
-        currentVerseText = '';
+        isVerseContinuing = false;
       }
     }
 
@@ -83,13 +105,14 @@ class OETReadersBibleImpl extends JsonToBible {
           pendingSection = true;
         } else if (item['marker'] == 'p' ||
             item['marker'] == 'm' ||
-            item['marker'] == 'q') {
+            item['marker'].toString().startsWith('q') ||
+            item['marker'] == 'sp') {
           htmlText += '<p>';
 
           for (dynamic contentItem in item['content'] ?? []) {
             if (contentItem is Map) {
               if (contentItem['type'] == 'verse') {
-                flushVerse();
+                flushVerse(isEndOfPara: false);
                 currentVerseNumber = contentItem['number'];
                 currentVerseId =
                     '${readerArea.name}-$bookCode-$chapterNumber-$currentVerseNumber';
@@ -108,7 +131,7 @@ class OETReadersBibleImpl extends JsonToBible {
             }
           }
 
-          flushVerse();
+          flushVerse(isEndOfPara: true);
           htmlText += '</p>';
         }
       }
