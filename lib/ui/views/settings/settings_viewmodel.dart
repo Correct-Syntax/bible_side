@@ -46,7 +46,7 @@ class SettingsViewModel extends FutureViewModel<String> {
       await launchUrl(
         Uri(
           scheme: 'mailto',
-          path: 'hi@noahrahm.com',
+          path: 'hi@noahrahm.com,freely.given.org@gmail.com',
           queryParameters: {'subject': 'Bibleside app (alpha) feedback'},
         ),
       );
