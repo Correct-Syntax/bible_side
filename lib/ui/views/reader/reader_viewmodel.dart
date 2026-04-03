@@ -537,7 +537,8 @@ class ReaderViewModel extends ReactiveViewModel {
       letter-spacing: 0.3px;
       line-height: 155%;
       flex: 1;
-      padding-top: 0.3rem;
+      padding-top: 20px;
+      scroll-padding-top: 20px;
       padding-bottom: 100px;
       margin-left: 1rem;
       margin-right: 1rem;
@@ -549,7 +550,8 @@ class ReaderViewModel extends ReactiveViewModel {
       letter-spacing: 0.3px;
       line-height: 155%;
       flex: 1;
-      padding-top: 0.3rem;
+      padding-top: 20px;
+      scroll-padding-top: 20px;
       padding-bottom: 100px;
       margin-left: 1rem;
       margin-right: 1rem;
@@ -683,14 +685,16 @@ class ReaderViewModel extends ReactiveViewModel {
         width: 50vw;
         flex: none;
         height: 100%;
-        padding-top: 0.1rem;
+        padding-top: 20px;
+        scroll-padding-top: 20px;
         padding-bottom: 100px;
       }
       #secondaryReader {
         width: 50vw;
         flex: none;
         height: 100%;
-        padding-top: 0.1rem;
+        padding-top: 20px;
+        scroll-padding-top: 20px;
         padding-bottom: 100px;
       }
       hr {

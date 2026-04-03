@@ -45,9 +45,12 @@ class SearchView extends StackedView<SearchViewModel> {
         body: SafeArea(
           child: Container(
             padding: const EdgeInsets.only(top: 12.0),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
+              child: CustomScrollView(
+              slivers: [
+                SliverToBoxAdapter(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
                 Padding(
                   padding: const EdgeInsets.only(
                       left: 25.0, right: 8.0, top: 8.0, bottom: 8.0),
@@ -179,37 +182,41 @@ class SearchView extends StackedView<SearchViewModel> {
                     ),
                   ),
                 ),
-                viewModel.isBusy
-                    ? Center(
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 20.0),
-                          child: CircularProgressIndicator(
-                            color: context.theme.appColors.loadingSpinner,
-                          ),
+                    ],
+                  ),
+                ),
+                if (viewModel.isBusy)
+                  SliverFillRemaining(
+                    child: Center(
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(vertical: 20.0),
+                        child: CircularProgressIndicator(
+                          color: context.theme.appColors.loadingSpinner,
                         ),
-                      )
-                    : viewModel.searchResults.isNotEmpty
-                        ? Expanded(
-                            child: ListView.builder(
-                              itemCount: viewModel.searchResults.length,
-                              itemBuilder: (BuildContext context, int index) {
-                                SearchResult searchResult =
-                                    viewModel.searchResults[index];
-                                return SearchResultItem(
-                                  bookCode: searchResult.bookCode,
-                                  chapter: searchResult.chapter,
-                                  verse: searchResult.verse,
-                                  verseText: searchResult.verseText,
-                                  onTap: () => viewModel.onTapSearchResult(
-                                    searchResult.bookCode,
-                                    searchResult.chapter,
-                                    searchResult.verse,
-                                  ),
-                                );
-                              },
-                            ),
-                          )
-                        : Container(),
+                      ),
+                    ),
+                  )
+                else if (viewModel.searchResults.isNotEmpty)
+                  SliverList(
+                    delegate: SliverChildBuilderDelegate(
+                      (BuildContext context, int index) {
+                        SearchResult searchResult =
+                            viewModel.searchResults[index];
+                        return SearchResultItem(
+                          bookCode: searchResult.bookCode,
+                          chapter: searchResult.chapter,
+                          verse: searchResult.verse,
+                          verseText: searchResult.verseText,
+                          onTap: () => viewModel.onTapSearchResult(
+                            searchResult.bookCode,
+                            searchResult.chapter,
+                            searchResult.verse,
+                          ),
+                        );
+                      },
+                      childCount: viewModel.searchResults.length,
+                    ),
+                  ),
               ],
             ),
           ),
