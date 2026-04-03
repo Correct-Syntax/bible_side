@@ -65,7 +65,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
           children: [
             AnimatedContainer(
               duration: const Duration(milliseconds: 200),
-              height: viewModel.isTopAppBarVisible ? kToolbarHeight : 0,
+              height: viewModel.scrollUp ? kToolbarHeight : 0,
               color: context.theme.appColors.appbarBackground,
               child: ClipRect(
                 child: OverflowBox(
@@ -76,8 +76,11 @@ class ReaderView extends StackedView<ReaderViewModel> {
                     onTapBook: () => viewModel.onTapBook(Area.primary),
                     onTapBibleVersion: () =>
                         viewModel.onTapBibleVersion(Area.primary),
+                    book: viewModel.bookCode,
                     chapter: viewModel.chapterNumber,
                     verse: viewModel.verseNumber,
+                    primaryVersion: viewModel.primaryAreaBible,
+                    secondaryVersion: viewModel.showSecondaryArea ? viewModel.secondaryAreaBible : null,
                   ),
                 ),
               ),

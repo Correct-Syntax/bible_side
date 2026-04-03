@@ -13,20 +13,21 @@ class TopReaderAppbar extends StackedView<TopReaderAppbarModel> {
     this.isReaderAreaPopupActive = true,
     required this.onTapBook,
     required this.onTapBibleVersion,
-    // required this.onTapClose,
+    required this.book,
     required this.chapter,
     required this.verse,
-    // required this.viewModelReader,
+    required this.primaryVersion,
+    required this.secondaryVersion,
   });
 
   bool isReaderAreaPopupActive;
   final Function() onTapBook;
   final Function() onTapBibleVersion;
-  // final Function() onTapClose;
+  String book;
   int chapter;
   int verse;
-  // ReaderViewModel viewModelReader; 
-  // Function(int chapter, int verse) displaySectionHeader;
+  String primaryVersion;
+  String? secondaryVersion;
 
   @override
   Widget builder(
@@ -54,7 +55,9 @@ class TopReaderAppbar extends StackedView<TopReaderAppbarModel> {
             ),
             child: Center(
               child: Text(
-                '${chapter}:${verse}',  // TODO: make this update when scroll to new chapter/verse
+                viewModel.getSectionPrimaryORSecondary(primaryVersion, secondaryVersion, book, chapter, verse),
+                overflow: TextOverflow.ellipsis,
+                maxLines: 1,
                 style: TextStyle(
                   fontSize: 15.0,
                   color: context.theme.appColors.primaryOnDark,
