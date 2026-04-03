@@ -49,8 +49,7 @@ class OETLiteralBibleImpl extends JsonToBible {
 
         String bookmarkIcon = bookmarkIconHTML(currentVerseId, bookmarks);
 
-        htmlText +=
-            '\n            <p ondblclick="onCreateBookmark(&quot;$currentVerseId&quot;)" class="p">'
+        htmlText += '\n            <p class="p">'
             '$chapterNumberHtml$bookmarkIcon<sup id="$currentVerseId"> ${showChaptersAndVerses ? currentVerseNumber : ''}</sup>&nbsp;${formattedText.trim()}'
             '\n            </p>';
 

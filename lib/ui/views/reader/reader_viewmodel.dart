@@ -777,6 +777,35 @@ class ReaderViewModel extends ReactiveViewModel {
       document.body.className = '$themeName visible';
     });
 
+    document.addEventListener("dblclick", function(event) {
+      if (window.getSelection().toString().length > 0) return;
+      
+      let target = event.target;
+      let p = target.closest('.p');
+      if (p) {
+        if (p.hasAttribute('ondblclick')) {
+          // Handled by inline attribute for backwards compatibility on other bibles
+          return;
+        }
+        
+        let verseId = null;
+        if (p.id) {
+          // For bibles that place ID directly on the paragraph
+          verseId = p.id;
+        } else {
+          // For OET bibles that place ID on the superscript
+          let sup = p.querySelector('sup[id]');
+          if (sup && sup.id) {
+            verseId = sup.id;
+          }
+        }
+        
+        if (verseId) {
+          onCreateBookmark(verseId);
+        }
+      }
+    });
+
     function onCreateBookmark(bookmark) {
       OnDoubleClickVerseEvent.postMessage(bookmark);
     }
@@ -840,6 +869,7 @@ class ReaderViewModel extends ReactiveViewModel {
   }
 
   Future<void> updateReaderAreas() async {
+    setBusy(true);
     await _biblesService.reloadBiblesJson();
 
     String primaryAreaHTML = await _readerService.getReaderBookHTML(
@@ -867,6 +897,7 @@ class ReaderViewModel extends ReactiveViewModel {
 
     log('$bookCode$chapterNumber');
     await jumpToHTMLId('$bookCode${chapterNumber.toString()}');
+    setBusy(false);
   }
 
   void onRefreshDebug() async {
@@ -886,11 +917,34 @@ class ReaderViewModel extends ReactiveViewModel {
 
     // Update the icons in both reader areas.
     await webviewController.runJavaScript('''
-      var svgElements = [...document.getElementsByClassName("$bookmarkId-svg")];
+      function textToHslColor(str) {
+        if (!str || str.length === 0) return 'hsl(0, 0%, 0%)';
+        var hash = 0;
+        for (var i = 0; i < str.length; i++) {
+          hash = str.charCodeAt(i) + ((hash << 5) - hash);
+        }
+        return 'hsl(' + (hash % 360) + ', 80%, 54%)';
+      }
 
-      svgElements.forEach((ele) => {
-        ele.classList.toggle("bookmarked");
-      });
+      var svgElements = [...document.getElementsByClassName("$bookmarkId-svg")];
+      if (svgElements.length > 0) {
+        svgElements.forEach(ele => ele.remove());
+      } else {
+        var hsl = textToHslColor("$bookmarkId");
+        var svgStr = `<svg class="svg $bookmarkId-svg bookmarked" style="fill: ` + hsl + ` !important;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 256 256"><path d="M184,32H72A16,16,0,0,0,56,48V224a8,8,0,0,0,12.24,6.78L128,193.43l59.77,37.35A8,8,0,0,0,200,224V48A16,16,0,0,0,184,32Zm0,177.57-51.77-32.35a8,8,0,0,0-8.48,0L72,209.57V48H184Z"></path></svg>`;
+        
+        ['primary', 'secondary'].forEach(area => {
+          var targetId = area + "-$bookmarkId";
+          var el = document.getElementById(targetId);
+          if (el) {
+            if (el.tagName.toLowerCase() === 'sup') {
+              el.insertAdjacentHTML('beforebegin', svgStr);
+            } else {
+              el.insertAdjacentHTML('afterbegin', svgStr);
+            }
+          }
+        });
+      }
     ''');
 
     List<String> existingBookmarks = await _settingsService.getBookmarks();
@@ -972,6 +1026,7 @@ class ReaderViewModel extends ReactiveViewModel {
   }
 
   Future<void> onChangeTranslationInline(Area area, String translation) async {
+    setBusy(true);
     if (area == Area.primary) {
       await _settingsService.setPrimaryAreaBible(translation);
     } else {
@@ -1008,6 +1063,7 @@ class ReaderViewModel extends ReactiveViewModel {
       linkReaderAreaScrolling,
     );
 
+    setBusy(false);
     rebuildUi();
   }
 

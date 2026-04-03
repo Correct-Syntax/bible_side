@@ -51,7 +51,7 @@ class OETReadersBibleImpl extends JsonToBible {
         String bookmarkIcon = bookmarkIconHTML(currentVerseId, bookmarks);
 
         htmlText +=
-            '''<span ondblclick="onCreateBookmark(&quot;$currentVerseId&quot;)" class="p">$chapterNumberHtml$bookmarkIcon<sup id="$currentVerseId">${showChaptersAndVerses ? currentVerseNumber : ''}</sup>&nbsp;$formattedText</span>''';
+            '''<span class="p">$chapterNumberHtml$bookmarkIcon<sup id="$currentVerseId">${showChaptersAndVerses ? currentVerseNumber : ''}</sup>&nbsp;$formattedText</span>''';
 
         chapterNumberHtml = '';
         hasPendingVerse = false;
