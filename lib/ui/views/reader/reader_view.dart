@@ -133,10 +133,8 @@ class ReaderView extends StackedView<ReaderViewModel> {
                                 : Alignment.topCenter,
                         child: ReaderAreaPopup(
                           readerArea: Area.secondary,
-                          onToggleSecondaryArea:
-                              viewModel.onToggleSecondaryArea,
-                          onToggleLinkedScrolling:
-                              viewModel.onToggleLinkedScrolling,
+                          onClosePopup: () => viewModel.onTapBibleVersion(Area.secondary),
+                          onSelectTranslation: (t) => viewModel.onChangeTranslationInline(Area.secondary, t),
                         ),
                       ),
                     ),
@@ -146,9 +144,8 @@ class ReaderView extends StackedView<ReaderViewModel> {
                       alignment: Alignment.bottomCenter,
                       child: ReaderAreaPopup(
                         readerArea: Area.primary,
-                        onToggleSecondaryArea: viewModel.onToggleSecondaryArea,
-                        onToggleLinkedScrolling:
-                            viewModel.onToggleLinkedScrolling,
+                        onClosePopup: () => viewModel.onTapBibleVersion(Area.primary),
+                        onSelectTranslation: (t) => viewModel.onChangeTranslationInline(Area.primary, t),
                       ),
                     ),
                   if (!(isTablet || isLandscape) &&

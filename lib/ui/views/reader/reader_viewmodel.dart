@@ -960,6 +960,16 @@ class ReaderViewModel extends ReactiveViewModel {
     rebuildUi();
   }
 
+  Future<void> onChangeTranslationInline(Area area, String translation) async {
+    if (area == Area.primary) {
+      await _settingsService.setPrimaryAreaBible(translation);
+    } else {
+      await _settingsService.setSecondaryAreaBible(translation);
+    }
+    await updateReaderAreas();
+    rebuildUi();
+  }
+
   @override
   List<ListenableServiceMixin> get listenableServices =>
       [_settingsService, _biblesService];
