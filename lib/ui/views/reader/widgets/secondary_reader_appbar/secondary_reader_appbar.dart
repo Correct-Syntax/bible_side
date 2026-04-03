@@ -15,6 +15,9 @@ class SecondaryReaderAppbar extends StackedView<SecondaryReaderAppbarModel> {
     required this.onTapBibleVersion,
     required this.onTapClose,
     this.onTapMenu,
+    this.showLinkButton = false,
+    this.linkReaderAreaScrolling = false,
+    this.onToggleLinkedScrolling,
   });
 
   final bool isReaderAreaPopupActive;
@@ -22,6 +25,9 @@ class SecondaryReaderAppbar extends StackedView<SecondaryReaderAppbarModel> {
   final Function() onTapBibleVersion;
   final Function() onTapClose;
   final Function()? onTapMenu;
+  final bool showLinkButton;
+  final bool linkReaderAreaScrolling;
+  final Function()? onToggleLinkedScrolling;
 
   @override
   Widget builder(
@@ -63,21 +69,41 @@ class SecondaryReaderAppbar extends StackedView<SecondaryReaderAppbarModel> {
               ),
             ],
           ),
-          if (onTapMenu != null)
-            InkWell(
-              onTap: onTapMenu,
-              child: Padding(
-                padding: const EdgeInsets.all(16.0),
-                child: PhosphorIcon(
-                  PhosphorIcons.list(PhosphorIconsStyle.bold),
-                  color: context.theme.appColors.appbarIcon,
-                  size: 20.0,
-                  semanticLabel: 'Menu',
+          Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              if (showLinkButton && onToggleLinkedScrolling != null)
+                InkWell(
+                  onTap: onToggleLinkedScrolling,
+                  child: Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: PhosphorIcon(
+                      linkReaderAreaScrolling
+                          ? PhosphorIcons.linkSimpleHorizontal(PhosphorIconsStyle.regular)
+                          : PhosphorIcons.linkSimpleHorizontalBreak(PhosphorIconsStyle.regular),
+                      color: context.theme.appColors.appbarIcon,
+                      size: 22.0,
+                      semanticLabel: 'Link',
+                    ),
+                  ),
                 ),
-              ),
-            )
-          else
-            const SizedBox(width: 52.0),
+              if (onTapMenu != null)
+                InkWell(
+                  onTap: onTapMenu,
+                  child: Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: PhosphorIcon(
+                      PhosphorIcons.list(PhosphorIconsStyle.bold),
+                      color: context.theme.appColors.appbarIcon,
+                      size: 20.0,
+                      semanticLabel: 'Menu',
+                    ),
+                  ),
+                )
+              else
+                const SizedBox(width: 52.0),
+            ],
+          ),
         ],
       ),
     );

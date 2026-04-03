@@ -133,10 +133,8 @@ class ReaderView extends StackedView<ReaderViewModel> {
                                 : Alignment.topCenter,
                         child: ReaderAreaPopup(
                           readerArea: Area.secondary,
-                          onToggleSecondaryArea:
-                              viewModel.onToggleSecondaryArea,
-                          onToggleLinkedScrolling:
-                              viewModel.onToggleLinkedScrolling,
+                          onClosePopup: () => viewModel.onTapBibleVersion(Area.secondary),
+                          onSelectTranslation: (t) => viewModel.onChangeTranslationInline(Area.secondary, t),
                         ),
                       ),
                     ),
@@ -146,9 +144,8 @@ class ReaderView extends StackedView<ReaderViewModel> {
                       alignment: Alignment.bottomCenter,
                       child: ReaderAreaPopup(
                         readerArea: Area.primary,
-                        onToggleSecondaryArea: viewModel.onToggleSecondaryArea,
-                        onToggleLinkedScrolling:
-                            viewModel.onToggleLinkedScrolling,
+                        onClosePopup: () => viewModel.onTapBibleVersion(Area.primary),
+                        onSelectTranslation: (t) => viewModel.onChangeTranslationInline(Area.primary, t),
                       ),
                     ),
                   if (!(isTablet || isLandscape) &&
@@ -204,6 +201,11 @@ class ReaderView extends StackedView<ReaderViewModel> {
                               onTapMenu: () => viewModel
                                   .scaffoldKey.currentState
                                   ?.openEndDrawer(),
+                              showLinkButton: viewModel.showSecondaryArea,
+                              linkReaderAreaScrolling:
+                                  viewModel.linkReaderAreaScrolling,
+                              onToggleLinkedScrolling:
+                                  viewModel.onToggleLinkedScrolling,
                             ),
                           ),
                         ),
@@ -219,6 +221,11 @@ class ReaderView extends StackedView<ReaderViewModel> {
                           viewModel.onTapBibleVersion(Area.primary),
                       onTapMenu: () =>
                           viewModel.scaffoldKey.currentState?.openEndDrawer(),
+                      showLinkButton: viewModel.showSecondaryArea,
+                      linkReaderAreaScrolling:
+                          viewModel.linkReaderAreaScrolling,
+                      onToggleLinkedScrolling:
+                          viewModel.onToggleLinkedScrolling,
                     )
             else //no secondary appbar, just show the primary appbar regardless of screen size or orientation
               Center(

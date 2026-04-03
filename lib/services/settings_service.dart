@@ -16,6 +16,7 @@ class SettingsService with ListenableServiceMixin {
       _recentBooks,
       _viewBy,
       _bookmarks,
+      _recentTranslations,
     ]);
   }
 
@@ -35,6 +36,7 @@ class SettingsService with ListenableServiceMixin {
 
   // Bookmarks
   static const _kBookmarks = 'BOOKMARKS';
+  static const _kRecentTranslations = 'RECENT_TRANSLATIONS';
 
   // Reader view specifics
   static const _kTextScaling = 'TEXT_SCALING';
@@ -66,6 +68,9 @@ class SettingsService with ListenableServiceMixin {
   List<String> _bookmarks = [];
   List<String> get bookmarks => _bookmarks;
 
+  List<String> _recentTranslations = ['OET-RV', 'OET-LV', 'BSB'];
+  List<String> get recentTranslations => _recentTranslations;
+
   double _textScaling = 1.0;
   double get textScaling => _textScaling;
   bool _showMarks = true;
@@ -88,6 +93,7 @@ class SettingsService with ListenableServiceMixin {
     _recentBooks = await getNavRecentBooks();
     _viewBy = await getNavViewBy();
     _bookmarks = await getBookmarks();
+    _recentTranslations = await getRecentTranslations();
     _textScaling = await getTextScaling();
     _showMarks = await getShowMarks();
     _showChaptersAndVerses = await getShowChaptersAndVerses();
@@ -128,6 +134,7 @@ class SettingsService with ListenableServiceMixin {
     _primaryAreaBible = value;
     SharedPreferences prefs = await SharedPreferences.getInstance();
     prefs.setString(_kPrimaryAreaBibleCode, value);
+    await addRecentTranslation(value);
     notifyListeners();
   }
 
@@ -142,6 +149,7 @@ class SettingsService with ListenableServiceMixin {
     _secondaryAreaBible = value;
     SharedPreferences prefs = await SharedPreferences.getInstance();
     prefs.setString(_kSecondaryAreaBibleCode, value);
+    await addRecentTranslation(value);
     notifyListeners();
   }
 
@@ -149,6 +157,24 @@ class SettingsService with ListenableServiceMixin {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     _secondaryAreaBible = prefs.getString(_kSecondaryAreaBibleCode) ?? 'OET-LV';
     return _secondaryAreaBible;
+  }
+
+  // Recent Translations
+  Future<void> addRecentTranslation(String value) async {
+    _recentTranslations.remove(value);
+    _recentTranslations.insert(0, value);
+    if (_recentTranslations.length > 5) {
+      _recentTranslations.removeLast();
+    }
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setStringList(_kRecentTranslations, _recentTranslations);
+    notifyListeners();
+  }
+
+  Future<List<String>> getRecentTranslations() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    _recentTranslations = prefs.getStringList(_kRecentTranslations) ?? ['OET-RV', 'OET-LV', 'BSB'];
+    return _recentTranslations;
   }
 
   // Book code
