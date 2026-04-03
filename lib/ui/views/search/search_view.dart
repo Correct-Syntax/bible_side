@@ -58,6 +58,8 @@ class SearchView extends StackedView<SearchViewModel> {
                         child: AutocompleteDropdown(
                           label: 'Book',
                           items: booksMapping.entries
+                              .where(
+                                  (e) => !uncompletedOETBooks.contains(e.key))
                               .map((e) =>
                                   DropdownItem(value: e.key, label: e.value))
                               .toList(),

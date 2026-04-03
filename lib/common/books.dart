@@ -27,6 +27,18 @@ Map<String, String> booksMapping = {
   'LAM': 'Lamentations',
   'EZE': 'Ezekiel',
   'DAN': 'Daniel',
+  'HOS': 'Hosea',
+  'JOL': 'Joel',
+  'AMO': 'Amos',
+  'OBA': 'Obadiah',
+  'JNA': 'Jonah',
+  'MIC': 'Micah',
+  'NAH': 'Nahum',
+  'HAB': 'Habakkuk',
+  'ZEP': 'Zephaniah',
+  'HAG': 'Haggai',
+  'ZEC': 'Zechariah',
+  'MAL': 'Malachi',
   'JHN': 'John',
   'MRK': 'Mark',
   'MAT': 'Matthew',
@@ -351,5 +363,22 @@ class BooksMapping {
   static Map<String, String> booksMappingFromBibleDivisionCode(
       String bibleDivisionCode) {
     return booksInSectionsMapping[bibleDivisionCode]['books'];
+  }
+
+  static bool isOldTestament(String bookCode) {
+    const ntDivisions = [
+      'GOSPELS',
+      'ACTS',
+      'PAULS_EPISTLES',
+      'GENERAL_EPISTLES',
+      'REVELATION'
+    ];
+    for (var division in ntDivisions) {
+      if (booksInSectionsMapping[division]?['books']?.containsKey(bookCode) ==
+          true) {
+        return false;
+      }
+    }
+    return true;
   }
 }

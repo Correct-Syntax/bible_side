@@ -146,9 +146,9 @@ class ReaderViewModel extends ReactiveViewModel {
         if (!targetElement || !targetElement.closest('[data-version="OET-LV"]')) return;
 
         range.expand('word');
-        const word = range.toString().trim().replace(/[^a-zA-Z0-9']/g, '');
+        const word = range.toString().trim().replace(/[^\p{L}\p{N}'’\-_]/gu, '');
 
-        if (word.length > 0) {
+        if (word) {
           let p = range.startContainer.parentElement ? range.startContainer.parentElement.closest('.p') : null;
           if (!p) return;
           let sup = p.querySelector('sup');
@@ -170,11 +170,11 @@ class ReaderViewModel extends ReactiveViewModel {
             }
             preRange.setEnd(range.startContainer, range.startOffset);
           } catch (err) {
-            return;
+            // handle err
           }
           
           let preText = preRange.toString();
-          let wordMatches = preText.match(/[a-zA-Z0-9']+/g);
+          let wordMatches = preText.match(/[\p{L}\p{N}'’\-_]+/gu);
           let wordNumber = (wordMatches ? wordMatches.length : 0) + 1;
 
           let payload = JSON.stringify({
