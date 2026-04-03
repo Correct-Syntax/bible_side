@@ -37,7 +37,7 @@ class TopReaderAppbarModel extends BaseViewModel {
         lastSectionHeading = section[0].split(' ').sublist(1).join(' '); // ex: 'Jesus did this' in '1:19 Jesus did this'
         continue; // keep looking for the section that matches the current chapter and verse
       }
-      if(ch == chapter && ve == verse) {
+      else if(ch == chapter && ve == verse) {
         return section[0].split(' ').sublist(1).join(' '); // ex: 'Jesus did this' in '1:19 Jesus did this'
       }
       else if(ch > chapter || (ch == chapter && ve > verse)) {
@@ -45,7 +45,8 @@ class TopReaderAppbarModel extends BaseViewModel {
       }
     }
 
-    // if verse does not start new section
-    return '';
+    // if verse very beginning of book & does not start new section will return null
+    // if ran out of sections to check in book will return last section heading in book
+    return lastSectionHeading;
   }
 }
