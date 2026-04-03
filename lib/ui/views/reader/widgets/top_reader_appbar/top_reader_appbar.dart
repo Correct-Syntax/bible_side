@@ -35,44 +35,31 @@ class TopReaderAppbar extends StackedView<TopReaderAppbarModel> {
     TopReaderAppbarModel viewModel,
     Widget? child,
   ) {
-    return Container(
-      padding: const EdgeInsets.symmetric(vertical: 10.0),
-      color: context.theme.appColors.appbarBackground,
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          const SizedBox(
-            width: 36,
-            height: 29,
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Container(
+          height: 30,
+          width: MediaQuery.of(context).size.width,
+          padding: const EdgeInsets.symmetric(horizontal: 8.0),
+          decoration: BoxDecoration(
+            color: context.theme.appColors.appbarBackground,
           ),
-          Container(
-            height: 40,
-            padding: const EdgeInsets.symmetric(horizontal: 8.0),
-            decoration: BoxDecoration(
-              color: context.theme.appColors.readerSelectorBackground,
-              borderRadius: BorderRadius.circular(60.0),
-            ),
-            child: Center(
-              child: Text(
-                viewModel.getSectionPrimaryORSecondary(primaryVersion, secondaryVersion, book, chapter, verse),
-                overflow: TextOverflow.ellipsis,
-                maxLines: 1,
-                style: TextStyle(
-                  fontSize: 15.0,
-                  color: context.theme.appColors.primaryOnDark,
-                  fontWeight: FontWeight.bold,
-                  letterSpacing: -0.1,
-                ),
+          child: Center(
+            child: Text(
+              viewModel.getSectionPrimaryORSecondary(primaryVersion, secondaryVersion, book, chapter, verse),
+              overflow: TextOverflow.ellipsis,
+              maxLines: 1,
+              style: TextStyle(
+                fontSize: 15.0,
+                color: context.theme.appColors.primaryOnDark,
+                fontWeight: FontWeight.bold,
+                letterSpacing: -0.1,
               ),
             ),
           ),
-          const SizedBox(
-            width: 36,
-            height: 29,
-          ),
-        ],
-      ),
+        ),
+      ],
     );
   }
 

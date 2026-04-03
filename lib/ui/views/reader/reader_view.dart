@@ -65,12 +65,12 @@ class ReaderView extends StackedView<ReaderViewModel> {
           children: [
             AnimatedContainer(
               duration: const Duration(milliseconds: 200),
-              height: viewModel.scrollUp ? kToolbarHeight : 0,
+              height: viewModel.scrollUp ? 30 : 0,
               color: context.theme.appColors.appbarBackground,
               child: ClipRect(
                 child: OverflowBox(
                   minHeight: 0,
-                  maxHeight: kToolbarHeight,
+                  maxHeight: 30,
                   alignment: Alignment.topCenter,
                   child: TopReaderAppbar(
                     onTapBook: () => viewModel.onTapBook(Area.primary),
