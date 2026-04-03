@@ -41,22 +41,15 @@ class BSBBibleImpl extends JsonToBible {
       // The BSB json has some 'para' type items that are just empty paragraphs with no inner 'content', and we want to ignore those.
       else if (item['type'] == 'para' && item['content'] != null) {
         if(tempHTML != '') {
+          // Starting a new paragraph, so emit any verse text stored in tempHTML from the previous paragraph before processing the new paragraph.
           htmlText += tempHTML;
           tempHTML = '';
         }
+        
         for (dynamic paraItem in item['content']) {
           if (paraItem is String) {
             // The BSB json has some q1 and q2 markers, in addition to p markers, so we want to include those as well.
-            if (item['marker'] == 'p' || item['marker'] == 'q1' || item['marker'] == 'q2' ) {
-              /*
-              // Could do some additional processing on the verse text here if needed, for example to remove leftover usfm markers or Strong's numbers, but for now there don't seem to be any such issues in the BSB json so I'm leaving this as is.
-              String verseText = paraItem
-                // Not needed for BSB since there are no leftover usfm markers or Strong's numbers in the BSB json, but leaving this here in case we want to add support for another bible version that does have these issues.
-                  .replaceAll('*j', '') // Remove leftover instances of j* from the original usfm
-                  .replaceAll(RegExp(r'¦G([0-9])*\d+'), ''); // For now, remove all Strong's numbers
-                htmlText += '$verseText</p>';
-              */
-
+            if (item['marker'] == 'p' || item['marker'] == 'q1' || item['marker'] == 'q2') {
               tempHTML += '$paraItem ';
             }
           } else if (paraItem is Map) {
@@ -80,6 +73,32 @@ class BSBBibleImpl extends JsonToBible {
                 tempHTML += """<p ondblclick=onCreateBookmark("$verseId") class="p" id="$verseId">
 $bookmarkIcon<sup>${showChaptersAndVerses ? verseNumber : ''}</sup>&nbsp;""";
               }
+            } else if (itemType == 'char') {
+              for (dynamic charItem in paraItem['content']) {
+                if (charItem is String) {
+                  tempHTML += charItem;
+                } else if (charItem is Map) {
+                  // The BSB json has some 'char' type items that have inner 'content' which is a list of strings, and we want to concatenate those strings together.
+                  if (charItem['type'] == 'verse') {
+                    if(tempHTML != '') {
+                      htmlText += '$tempHTML</p>';
+                      tempHTML = '';
+                    }
+                    verseNumber = charItem['number'];
+
+                    String verseId = '${readerArea.name}-$bookCode-$chapterNumber-$verseNumber';
+                    String bookmarkIcon = bookmarkIconHTML(verseId, bookmarks);
+
+                    if (verseNumber == '1') {
+                      tempHTML += """<p ondblclick="onCreateBookmark("$verseId")" class="p" id="$verseId">
+                      $chapterNumberHtml$bookmarkIcon<sup>${showChaptersAndVerses ? verseNumber : ''}</sup>&nbsp;""";
+                    } else {
+                      tempHTML += """<p ondblclick=onCreateBookmark("$verseId") class="p" id="$verseId">
+          $bookmarkIcon<sup>${showChaptersAndVerses ? verseNumber : ''}</sup>&nbsp;""";
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -88,6 +107,7 @@ $bookmarkIcon<sup>${showChaptersAndVerses ? verseNumber : ''}</sup>&nbsp;""";
     if(tempHTML != '') {
       htmlText += tempHTML;
     }
+    
     return htmlText;
   }
 
