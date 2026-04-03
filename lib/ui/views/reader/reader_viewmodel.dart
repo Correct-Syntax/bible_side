@@ -48,7 +48,9 @@ class ReaderViewModel extends ReactiveViewModel {
 
   bool isPrimaryReaderAreaPopupActive = false;
   bool isSecondaryReaderAreaPopupActive = false;
-  bool isTopAppBarVisible = true;
+  bool scrollUp = false;
+  String aboveSectionHeader = ''; // sectionHeader earlier in the Bible (so if current is 1:10, this could be the section header for 1:1-1:9 for example)
+  String currentSectionHeader = '';
 
   Future<void> initilize() async {
     setBusy(true);
@@ -97,6 +99,23 @@ class ReaderViewModel extends ReactiveViewModel {
           await setBookmark(message.message);
         },
       )
+      // ..addJavaScriptChannel(
+      //   'onScrolltoNewSection', 
+      //   onMessageReceived: (message) async {
+      //     log('<onScrolltoNewSection> ${message.message}');
+      //     if (!scrollUp) { // if scroll down, section passed should be new section header
+      //       aboveSectionHeader = currentSectionHeader;
+      //       currentSectionHeader = message.message;
+      //     }
+      //     if (scrollUp && message.message == currentSectionHeader) { // if scroll up one section, section header should be the earlier section header
+      //       currentSectionHeader = aboveSectionHeader;
+      //     }
+      //     else if (scrollUp && message.message != currentSectionHeader) { // if scroll up multiple sections, only have next version's section header // TODO: make it show the right section header. perhaps make aboveSectionHeader a stack? will only work if already scrolled down past the section header
+      //       currentSectionHeader = message.message; // will update to section below section shown
+      //     }
+      //     rebuildUi(); 
+      //   },
+      // )
       ..addJavaScriptChannel(
         'OnScrollEvent',
         onMessageReceived: (message) async {
@@ -136,10 +155,10 @@ class ReaderViewModel extends ReactiveViewModel {
           // print('||||hello from OnScrollDirection JavaScript channel!');
           // print('||||scroll direction message received: ' + message.message);
           if (message.message == 'down') {
-            isTopAppBarVisible = false;
+            scrollUp = false;
             rebuildUi();
           } else if (message.message == 'up') {
-            isTopAppBarVisible = true;
+            scrollUp = true;
             rebuildUi();
           }
         },
@@ -514,6 +533,7 @@ class ReaderViewModel extends ReactiveViewModel {
           // ignore
         }
 
+        // TODO: optimize by only checking elements near the current scroll position instead of all section headers in the scrolled element or by only checking every 5ish handleScroll calls or by having section headers also send a message when they are scrolled past instead of relying on the reader area to detect when a section header is scrolled past
         // determine the top-visible verse id inside the scrolled reader area and notify Flutter
         try {
           // console.log('||||hello from handleScroll function in ReaderViewModel!');
@@ -534,7 +554,6 @@ class ReaderViewModel extends ReactiveViewModel {
             });
             return topId;
           }
-
           const topId = getTopVisibleId(scrolledEle, areaPrefix);
           if (topId) {
             try {
