@@ -5,7 +5,7 @@ import '../json_to_bible.dart';
 import '../search_result.dart';
 
 /// The Berean Standard Bible (BSB) implementation.
-/// This code is based on the web_bible.dart implementation, since the BSB json has mostly the same structure as the WEB json.
+/// This code is based on the web_bible.dart implementation, since the WEB json structure seemed most similar to the WEB json.
 /// The BSB is displayed in chapters verse-by-verse.
 
 class BSBBibleImpl extends JsonToBible {
@@ -38,9 +38,14 @@ class BSBBibleImpl extends JsonToBible {
       }
 
       // Paragraph 'para': only want 'para' type items that have inner 'content'. 
-      // The BSB json has some 'para' type items that are just empty paragraphs with no inner 'content', and we want to ignore those.
+      // The BSB json has some 'para' type items that are just empty paragraphs with no inner 'content'; we want to ignore those.
       else if (item['type'] == 'para' && item['content'] != null) {
         if(tempHTML != '') {
+          // The BSB json contains split-up sentences where a verse is split across multiple 'para' items, so we want to concatenate the text from those 
+          // 'para' items together before adding it to htmlText. The solution is to accumulate verse text,
+          // then emit (add to htmlText, which is returned at the end of the function) that accumulated text when we reach the next paragraph or chapter, 
+          // or the end of the book.
+          
           // Starting a new paragraph, so emit any verse text stored in tempHTML from the previous paragraph before processing the new paragraph.
           htmlText += tempHTML;
           tempHTML = '';
@@ -104,12 +109,21 @@ $bookmarkIcon<sup>${showChaptersAndVerses ? verseNumber : ''}</sup>&nbsp;""";
         }
       }
     }
+
+    // After processing all paragraphs, if there is any verse text left over in tempHTML 
+    // from the last verse, add that to htmlText.
     if(tempHTML != '') {
       htmlText += tempHTML;
     }
     
     return htmlText;
   }
+
+  // Not all json-processing changes from BSBBibleImpl getBook made it into the getSearchResults implementation, 
+  // and it's not obvious whether those changes are necessary for getSearchResults to work correctly.
+  // Someone who better understands getSearchResults and has more time may need to integrate the relevant 
+  // changes, especially those related to embedded json Maps within json Maps.
+  // 2026-04-03 - S. Brandle
 
   @override
   Future<List<SearchResult>> getSearchResults(String bookCode, String searchTerm) async {
@@ -125,17 +139,13 @@ $bookmarkIcon<sup>${showChaptersAndVerses ? verseNumber : ''}</sup>&nbsp;""";
         chapterNumber = item['number'];
       }
 
-      // Paragraph 'para'.
-      // The BSB has some 'para' type items that are just empty paragraphs with no inner 'content', so we want to check for null before iterating over 'content'.
+      // The BSB has some 'para' type items that are just empty paragraphs with no inner 'content', 
+      // so we need to check for null before iterating over 'content'.
        
       if (item['type'] == 'para' && item['content'] != null) {
         for (dynamic paraItem in item['content']) {
           if (paraItem is String) {
             if (item['marker'] == 'p' || item['marker'] == 'q1' || item['marker'] == 'q2' ) {
-              /*verseText = paraItem
-                  .replaceAll('*j', '') // Remove leftover instances of j* from the original usfm
-                  .replaceAll(RegExp(r'¦G([0-9])*\d+'), ''); // For now, remove all Strong's numbers
-                  */
               verseText = paraItem;
             }
           } else if (paraItem is Map) {
