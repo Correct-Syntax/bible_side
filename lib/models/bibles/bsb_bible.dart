@@ -20,6 +20,7 @@ class BSBBibleImpl extends JsonToBible {
     bool showChaptersAndVerses,
   ) async {
     String htmlText = '';
+    String tempHTML = '';
     String chapterNumberHtml = '';
     String chapterNumber = '1';
     String verseNumber = '1';
@@ -39,6 +40,10 @@ class BSBBibleImpl extends JsonToBible {
       // Paragraph 'para': only want 'para' type items that have inner 'content'. 
       // The BSB json has some 'para' type items that are just empty paragraphs with no inner 'content', and we want to ignore those.
       else if (item['type'] == 'para' && item['content'] != null) {
+        if(tempHTML != '') {
+          htmlText += tempHTML;
+          tempHTML = '';
+        }
         for (dynamic paraItem in item['content']) {
           if (paraItem is String) {
             // The BSB json has some q1 and q2 markers, in addition to p markers, so we want to include those as well.
@@ -51,22 +56,28 @@ class BSBBibleImpl extends JsonToBible {
                   .replaceAll(RegExp(r'¦G([0-9])*\d+'), ''); // For now, remove all Strong's numbers
                 htmlText += '$verseText</p>';
               */
-              htmlText += '$paraItem</p>';
+
+              tempHTML += '$paraItem ';
             }
           } else if (paraItem is Map) {
             String itemType = paraItem['type'];
 
             if (itemType == 'verse') {
+              // Before starting a new verse, if there is any verse text stored in tempHTML from the previous verse, we want to add that to htmlText.
+              if(tempHTML != '') {
+                htmlText += '$tempHTML</p>';
+                tempHTML = '';
+              }
               verseNumber = paraItem['number'];
 
               String verseId = '${readerArea.name}-$bookCode-$chapterNumber-$verseNumber';
               String bookmarkIcon = bookmarkIconHTML(verseId, bookmarks);
 
               if (verseNumber == '1') {
-                htmlText += """<p ondblclick="onCreateBookmark("$verseId")" class="p" id="$verseId">
+                tempHTML += """<p ondblclick="onCreateBookmark("$verseId")" class="p" id="$verseId">
                   $chapterNumberHtml$bookmarkIcon<sup>${showChaptersAndVerses ? verseNumber : ''}</sup>&nbsp;""";
               } else {
-                htmlText += """<p ondblclick=onCreateBookmark("$verseId") class="p" id="$verseId">
+                tempHTML += """<p ondblclick=onCreateBookmark("$verseId") class="p" id="$verseId">
 $bookmarkIcon<sup>${showChaptersAndVerses ? verseNumber : ''}</sup>&nbsp;""";
               }
             }
@@ -74,7 +85,9 @@ $bookmarkIcon<sup>${showChaptersAndVerses ? verseNumber : ''}</sup>&nbsp;""";
         }
       }
     }
-
+    if(tempHTML != '') {
+      htmlText += tempHTML;
+    }
     return htmlText;
   }
 
