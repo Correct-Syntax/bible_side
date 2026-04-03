@@ -51,7 +51,8 @@ class ReaderViewModel extends ReactiveViewModel {
   bool isPrimaryReaderAreaPopupActive = false;
   bool isSecondaryReaderAreaPopupActive = false;
   bool scrollUp = false;
-  String aboveSectionHeader = ''; // sectionHeader earlier in the Bible (so if current is 1:10, this could be the section header for 1:1-1:9 for example)
+  String aboveSectionHeader =
+      ''; // sectionHeader earlier in the Bible (so if current is 1:10, this could be the section header for 1:1-1:9 for example)
   String currentSectionHeader = '';
 
   Future<void> initilize() async {
@@ -212,7 +213,7 @@ class ReaderViewModel extends ReactiveViewModel {
         },
       )
       // ..addJavaScriptChannel(
-      //   'onScrolltoNewSection', 
+      //   'onScrolltoNewSection',
       //   onMessageReceived: (message) async {
       //     log('<onScrolltoNewSection> ${message.message}');
       //     if (!scrollUp) { // if scroll down, section passed should be new section header
@@ -225,7 +226,7 @@ class ReaderViewModel extends ReactiveViewModel {
       //     else if (scrollUp && message.message != currentSectionHeader) { // if scroll up multiple sections, only have next version's section header // TODO: make it show the right section header. perhaps make aboveSectionHeader a stack? will only work if already scrolled down past the section header
       //       currentSectionHeader = message.message; // will update to section below section shown
       //     }
-      //     rebuildUi(); 
+      //     rebuildUi();
       //   },
       // )
       ..addJavaScriptChannel(
@@ -526,13 +527,18 @@ class ReaderViewModel extends ReactiveViewModel {
       background-color: var(--contrast-theme-black);
     }
 
+    body {
+      margin: 0;
+    }
+
     #primaryReader {
       font-family: 'Merriweather';
       font-size: ${0.9 * textScaling}rem;
       letter-spacing: 0.3px;
       line-height: 155%;
-      height: 50vh;
+      flex: 1;
       padding-top: 0.3rem;
+      padding-bottom: 100px;
       margin-left: 1rem;
       margin-right: 1rem;
     }
@@ -542,7 +548,9 @@ class ReaderViewModel extends ReactiveViewModel {
       font-size: ${0.9 * textScaling}rem;
       letter-spacing: 0.3px;
       line-height: 155%;
-      height: 50vh;
+      flex: 1;
+      padding-top: 0.3rem;
+      padding-bottom: 100px;
       margin-left: 1rem;
       margin-right: 1rem;
     }
@@ -550,16 +558,16 @@ class ReaderViewModel extends ReactiveViewModel {
     .container {
       display: flex;
       flex-direction: column;
-      max-height: 100vh;
+      height: 100vh;
       margin: 0;
     }
 
     .container.hidden #primaryReader {
-      height: 100vh;
+      flex: 1;
     }
 
     .container.hidden #secondaryReader {
-      height: 0px;
+      flex: 0;
       display: none;
     }
 
@@ -669,19 +677,25 @@ class ReaderViewModel extends ReactiveViewModel {
     @media screen and (min-width: 500px) {
       .container {
         flex-direction: row;
+        align-items: stretch;
       }
       #primaryReader {
         width: 50vw;
-        height: 100vh;
+        flex: none;
+        height: 100%;
         padding-top: 0.1rem;
+        padding-bottom: 100px;
       }
       #secondaryReader {
         width: 50vw;
-        height: 100vh;
+        flex: none;
+        height: 100%;
         padding-top: 0.1rem;
+        padding-bottom: 100px;
       }
       hr {
-        height: 100vh;
+        align-self: stretch;
+        height: auto;
         max-width: 0.5px;
         margin-top: 0px;
         margin-bottom: 0px;

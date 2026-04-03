@@ -42,6 +42,47 @@ class ReaderView extends StackedView<ReaderViewModel> {
     final bool isLandscape =
         MediaQuery.of(context).orientation == Orientation.landscape;
 
+    final bool isPhonePortrait = !isTablet && !isLandscape;
+    final bool primaryHasRV = viewModel.primaryAreaBible == 'OET-RV';
+    final bool secondaryHasRV = viewModel.showSecondaryArea && viewModel.secondaryAreaBible == 'OET-RV';
+
+    bool sectionHeaderAtBottom = false;
+    if (isPhonePortrait) {
+      if (primaryHasRV && secondaryHasRV) {
+        sectionHeaderAtBottom = false;
+      } else if (primaryHasRV) {
+        sectionHeaderAtBottom = true;
+      } else if (secondaryHasRV) {
+        sectionHeaderAtBottom = false;
+      } else {
+        // Default to grouping with the active appbar if neither is RV
+        sectionHeaderAtBottom = !viewModel.showSecondaryArea;
+      }
+    }
+
+    Widget sectionHeader = AnimatedContainer(
+      duration: const Duration(milliseconds: 200),
+      height: viewModel.scrollUp ? 30 : 0,
+      color: context.theme.appColors.appbarBackground,
+      child: ClipRect(
+        child: OverflowBox(
+          minHeight: 0,
+          maxHeight: 30,
+          alignment: Alignment.topCenter,
+          child: TopReaderAppbar(
+            onTapBook: () => viewModel.onTapBook(Area.primary),
+            onTapBibleVersion: () =>
+                viewModel.onTapBibleVersion(Area.primary),
+            book: viewModel.bookCode,
+            chapter: viewModel.chapterNumber,
+            verse: viewModel.verseNumber,
+            primaryVersion: viewModel.primaryAreaBible,
+            secondaryVersion: viewModel.showSecondaryArea ? viewModel.secondaryAreaBible : null,
+          ),
+        ),
+      ),
+    );
+
     return Scaffold(
       key: viewModel.scaffoldKey,
       backgroundColor: context.theme.appColors.appbarBackground,
@@ -61,30 +102,11 @@ class ReaderView extends StackedView<ReaderViewModel> {
             )
           : null,
       body: SafeArea(
+        left: false,
+        right: false,
         child: Column(
           children: [
-            AnimatedContainer(
-              duration: const Duration(milliseconds: 200),
-              height: viewModel.scrollUp ? 30 : 0,
-              color: context.theme.appColors.appbarBackground,
-              child: ClipRect(
-                child: OverflowBox(
-                  minHeight: 0,
-                  maxHeight: 30,
-                  alignment: Alignment.topCenter,
-                  child: TopReaderAppbar(
-                    onTapBook: () => viewModel.onTapBook(Area.primary),
-                    onTapBibleVersion: () =>
-                        viewModel.onTapBibleVersion(Area.primary),
-                    book: viewModel.bookCode,
-                    chapter: viewModel.chapterNumber,
-                    verse: viewModel.verseNumber,
-                    primaryVersion: viewModel.primaryAreaBible,
-                    secondaryVersion: viewModel.showSecondaryArea ? viewModel.secondaryAreaBible : null,
-                  ),
-                ),
-              ),
-            ),
+            if (!sectionHeaderAtBottom) sectionHeader,
             Expanded(
               child: Stack(
                 children: [
@@ -154,6 +176,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
                 ],
               ),
             ),
+            if (sectionHeaderAtBottom) sectionHeader,
             if (viewModel.showSecondaryArea) //is there a secondary appbar?
               // Tablet: side-by-side, Phone: secondary on top via Stack overlay + primary bottom.
               //TODO: allow multiple screens (teriary, quaternary, etc) and make this more dynamic instead of just primary vs secondary
