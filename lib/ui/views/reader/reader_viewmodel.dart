@@ -106,8 +106,27 @@ class ReaderViewModel extends ReactiveViewModel {
       if (window.__wordListenerAttached) return;
       window.__wordListenerAttached = true;
 
+      let touchStartX = 0;
+      let touchStartY = 0;
+
+      document.addEventListener('touchstart', function(e) {
+        if (e.touches && e.touches.length > 0) {
+          touchStartX = e.touches[0].clientX;
+          touchStartY = e.touches[0].clientY;
+        }
+      });
+
       function handleWordClick(e) {
         const touch = e.changedTouches ? e.changedTouches[0] : e;
+        
+        if (e.type === 'touchend' && e.changedTouches) {
+          const deltaX = Math.abs(touch.clientX - touchStartX);
+          const deltaY = Math.abs(touch.clientY - touchStartY);
+          if (deltaX > 10 || deltaY > 10) {
+            return; // Abort because user was scrolling
+          }
+        }
+
         let range;
 
         if (document.caretPositionFromPoint) {
@@ -164,7 +183,10 @@ class ReaderViewModel extends ReactiveViewModel {
              wordNumber: wordNumber
           });
 
-          OnClickWordEvent.postMessage(payload);
+          if (window.__wordClickTimeout) clearTimeout(window.__wordClickTimeout);
+          window.__wordClickTimeout = setTimeout(() => {
+            OnClickWordEvent.postMessage(payload);
+          }, 250);
         }
       }
 
@@ -778,6 +800,11 @@ class ReaderViewModel extends ReactiveViewModel {
     });
 
     document.addEventListener("dblclick", function(event) {
+      if (window.__wordClickTimeout) {
+        clearTimeout(window.__wordClickTimeout);
+        window.__wordClickTimeout = null;
+      }
+
       if (window.getSelection().toString().length > 0) return;
       
       let target = event.target;
