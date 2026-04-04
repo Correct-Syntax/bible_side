@@ -299,7 +299,7 @@ class SettingsView extends StackedView<SettingsViewModel> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Share feedback with the developer',
+                                'Report a bug or translation (OET) error',
                                 style: TextStyle(
                                   color: context.theme.appColors.primary,
                                   fontSize: 15.0,
