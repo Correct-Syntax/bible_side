@@ -48,15 +48,16 @@ class ReaderView extends StackedView<ReaderViewModel> {
 
     bool sectionHeaderAtBottom = false;
     if (isPhonePortrait) {
-      if (primaryHasRV && secondaryHasRV) {
+      if (!viewModel.showSecondaryArea) {
+        sectionHeaderAtBottom = false;
+      } else if (primaryHasRV && secondaryHasRV) {
         sectionHeaderAtBottom = false;
       } else if (primaryHasRV) {
         sectionHeaderAtBottom = true;
       } else if (secondaryHasRV) {
         sectionHeaderAtBottom = false;
       } else {
-        // Default to grouping with the active appbar if neither is RV
-        sectionHeaderAtBottom = !viewModel.showSecondaryArea;
+        sectionHeaderAtBottom = false;
       }
     }
 
