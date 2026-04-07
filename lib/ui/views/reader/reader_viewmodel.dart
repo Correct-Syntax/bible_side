@@ -747,15 +747,8 @@ class ReaderViewModel extends ReactiveViewModel {
       };
 
       handleScroll = (e) => {
-          //console.log("||||", Date.now() - lastScrollEventTime);
-        if (Date.now() - lastScrollEventTime < 1000) {
-          //console.log("|||| Throttled scroll event");
-          return;
-        }
-        lastScrollEventTime = Date.now();
-
-
         const scrolledEle = e.target;
+        
         elements.filter((item) => item !== scrolledEle).forEach((ele) => {
           ele.removeEventListener("scroll", handleScroll);
           syncScroll(scrolledEle, ele);
@@ -763,6 +756,11 @@ class ReaderViewModel extends ReactiveViewModel {
             ele.addEventListener("scroll", handleScroll);
           });
         });
+
+        if (Date.now() - lastScrollEventTime < 1000) {
+          return;
+        }
+        lastScrollEventTime = Date.now();
 
         // determine if pass a section header and if so, send a message to Flutter to display the section header in the top app bar
         const sectionHeaders = scrolledEle.getElementsByClassName('section-box');
@@ -825,7 +823,7 @@ class ReaderViewModel extends ReactiveViewModel {
 
       document.getElementById("$primaryScrollToId").scrollIntoView();
       ${linkReaderAreaScrolling == false ? """
-        document.getElementById("$secondaryScrollToId").scrollIntoView();
+        document.getElementById("$secondaryScrollToId").scrollIntoView({behavior: "smooth"});
       """ : ""}
 
       document.body.className = '$themeName visible';
