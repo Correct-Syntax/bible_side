@@ -7,7 +7,7 @@
    "marker": "id",
    "code": "1PE",
    "content": [
-    "- Open English Translation—Readers’ Version (OET-RV) v0.1.07"
+    "- Open English Translation—Readers’ Version (OET-RV) v0.1.08"
    ]
   },
   {
@@ -1029,7 +1029,15 @@
      "number": "4",
      "sid": "1PE 2:4"
     },
-    "As you all approach¦148962 the living¦148964 building-stone (which was rejected¦148969 by humans¦148967 yet chosen¦148973 and honoured¦148974 by ",
+    "As you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "chosen people"
+     ]
+    },
+    " approach¦148962 the living¦148964 building-stone (which was rejected¦148969 by humans¦148967 yet chosen¦148973 and honoured¦148974 by ",
     {
      "type": "char",
      "marker": "nd",
@@ -1044,7 +1052,7 @@
      "number": "5",
      "sid": "1PE 2:5"
     },
-    "you¦148982 are being¦148982 built¦148982 into a temple and ",
+    "you’re¦148982 being¦148982 built¦148982 into a temple and ",
     {
      "type": "char",
      "marker": "add",
@@ -1223,7 +1231,7 @@
      "type": "char",
      "marker": "add",
      "content": [
-      "he will be"
+      "he’ll be"
      ]
     },
     ":",
@@ -1353,7 +1361,15 @@
      ],
      "caller": "+"
     },
-    "But all of you are a chosen¦149070 tribe, a group of royal¦149071 priests¦149072, a holy nation¦149073, a people¦149075 that God has procured¦149077, so that you can tell others about the virtues¦149080 of the one who called¦149086 you all out of darkness¦149084 and into his¦149090 marvellous¦149089 light¦149091.\n",
+    "But you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "believers"
+     ]
+    },
+    " are a chosen¦149070 tribe, a group of royal¦149071 priests¦149072, a holy nation¦149073, a people¦149075 that God has procured¦149077, so that you can tell others about the virtues¦149080 of the one who called¦149086 you out of darkness¦149084 and into his¦149090 marvellous¦149089 light¦149091.\n",
     {
      "type": "verse",
      "marker": "v",
@@ -1381,15 +1397,15 @@
      ],
      "caller": "+"
     },
-    "Previously you all weren’t a people group, but now you’re the people of ",
+    "Previously you weren’t a people group, but now you’re ",
     {
      "type": "char",
      "marker": "nd",
      "content": [
-      "God¦149100"
+      "God’s¦149100"
      ]
     },
-    "—previously you all hadn’t been shown mercy, but now you have been.\n"
+    " people—previously you hadn’t been shown mercy, but now you have been.\n"
    ]
   },
   {
@@ -1416,14 +1432,30 @@
      "number": "11",
      "sid": "1PE 2:11"
     },
-    "Dear friends, I’m urging you all as travellers and¦149111 foreigners to keep away from worldly temptations which¦149119 are in a battle against¦149121 your¦149122 soul¦149123.\n",
+    "Dear friends, I’m urging you as travellers and¦149111 foreigners to keep away from the world’s temptations, which¦149119 are in a battle against¦149121 your¦149122 soul¦149123.\n",
     {
      "type": "verse",
      "marker": "v",
      "number": "12",
      "sid": "1PE 2:12"
     },
-    "Even as you all live among¦149130 atheists, maintain your good conduct¦149125 so that¦149138 when they slander¦149139 you by calling you ‘evil’, at the time of God’s ",
+    "Even as you, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "friends"
+     ]
+    },
+    ", live among¦149130 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈the world’s people"
+     ]
+    },
+    ", maintain your good conduct¦149125 so that¦149138 when they slander¦149139 you by calling you ‘evil’, at the time of God’s ",
     {
      "type": "char",
      "marker": "add",
@@ -1459,12 +1491,12 @@
      "number": "13",
      "sid": "1PE 2:13"
     },
-    "Submit yourselves to every¦149161 human¦149163 authority because¦149165 ",
+    "Submit yourselves to every¦149161 human¦149163 authority, because¦149165 ",
     {
      "type": "char",
      "marker": "add",
      "content": [
-      "you all follow"
+      "you obey"
      ]
     },
     " the ",
@@ -1475,21 +1507,29 @@
       "master¦149167"
      ]
     },
-    ", whether¦149168 it’s the king¦149169 who rules,\n",
+    ", whether¦149168 it’s to the king¦149169 who rules,\n",
     {
      "type": "verse",
      "marker": "v",
      "number": "14",
      "sid": "1PE 2:14"
     },
-    "or the governors¦149173 that he sends to punish those who do evil and to praise¦149182 those who do good.\n",
+    "or the governors¦149173 he sends to punish those who do evil and to praise¦149182 those who do good.\n",
     {
      "type": "verse",
      "marker": "v",
      "number": "15",
      "sid": "1PE 2:15"
     },
-    "It’s God’s will that you all silence¦149195 the ignorant¦149201 ",
+    "God’s wants you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "chosen people"
+     ]
+    },
+    " to silence¦149195 the ignorant¦149201 ",
     {
      "type": "char",
      "marker": "add",
@@ -1504,7 +1544,15 @@
      "number": "16",
      "sid": "1PE 2:16"
     },
-    "Live as if you’re all free, but¦149214 don’t¦149205 use that freedom¦149213 to cover¦149207 up evil¦149211—use it as God’s slaves¦149218.\n",
+    "Live like free ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "people"
+     ]
+    },
+    ", but¦149214 don’t¦149205 use that freedom¦149213 to cover¦149207 up evil¦149211—use it as God’s slaves¦149218.\n",
     {
      "type": "verse",
      "marker": "v",
@@ -1592,7 +1640,7 @@
       "God¦149293"
      ]
     },
-    " would be pleased ",
+    " will be pleased ",
     {
      "type": "char",
      "marker": "add",
@@ -1600,14 +1648,14 @@
       "with your behaviour"
      ]
     },
-    "\n",
+    ",\n",
     {
      "type": "verse",
      "marker": "v",
      "number": "21",
      "sid": "1PE 2:21"
     },
-    "because that’s what we’re called¦149299 to because the ",
+    "because that’s what we’re called¦149299 to, because the ",
     {
      "type": "char",
      "marker": "nd",
@@ -1615,7 +1663,15 @@
       "messiah¦149303"
      ]
     },
-    " also suffered¦149305 for all of you. He left an example¦149314 for you, so that you all might follow¦149316 in his¦149319 steps¦149318:\n",
+    " also suffered¦149305 for you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "chosen people"
+     ]
+    },
+    ". He left an example¦149314 for you, so that you can follow¦149316 in his¦149319 steps¦149318:\n",
     {
      "type": "verse",
      "marker": "v",
@@ -1671,7 +1727,7 @@
      ],
      "caller": "+"
     },
-    "when he was insulted¦149333 he didn’t retaliate¦149336, when he was persecuted he didn’t threaten¦149339 but put his trust in the one who will judge ",
+    "when he was insulted¦149333 he didn’t retaliate¦149336, when he was persecuted he didn’t threaten¦149339, but put his trust in the one who’ll judge ",
     {
      "type": "char",
      "marker": "add",
@@ -1715,7 +1771,7 @@
      ],
      "caller": "+"
     },
-    "He sacrificed his own body¦149359 on the stake¦149363 for ",
+    "He sacrificed his own body¦149359 on the wooden post¦149363 for ",
     {
      "type": "char",
      "marker": "em",
@@ -1723,7 +1779,15 @@
       "our¦149353"
      ]
     },
-    " sins, so that when we die to sin we can live for righteousness¦149370. By his wounds¦149375, you all were healed¦149377.\n",
+    " sins, so that when we die to sin we can live for righteousness¦149370. By his wounds¦149375, you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "chosen people"
+     ]
+    },
+    " were healed¦149377.\n",
     {
      "type": "verse",
      "marker": "v",
@@ -1737,7 +1801,7 @@
       "He did all that"
      ]
     },
-    " because¦149379 you were like lost sheep¦149381, but¦149391 now you all have returned¦149385 to the shepherd¦149390 and the overseer¦149392 of your¦149395 souls¦149394.\n"
+    " because¦149379 you were like lost sheep¦149381, but¦149391 now you’ve returned¦149385 to your¦149395 souls’¦149394 shepherd¦149390 and overseer¦149392.\n"
    ]
   },
   {

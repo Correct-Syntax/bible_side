@@ -7,7 +7,7 @@
    "marker": "id",
    "code": "1CH",
    "content": [
-    "- Open English Translation—Readers’ Version (OET-RV) v0.1.11"
+    "- Open English Translation—Readers’ Version (OET-RV) v0.1.12"
    ]
   },
   {
@@ -1060,7 +1060,7 @@
       "≈replaced him¦187505 as king"
      ]
     },
-    ". His¦187505 city’s name¦187516 was Avit¦187518. Hadad defeated¦187510 the Midyan people group in¦187514 the Moab¦187515 region¦187514.\n",
+    ". His¦187505 city’s name¦187516 was Avit¦187518. Hadad defeated¦187510 the Midyan people group in¦187514 the Moav¦187515 region¦187514.\n",
     {
      "type": "verse",
      "marker": "v",
@@ -6529,7 +6529,7 @@
       "≈who lived"
      ]
     },
-    " in¦191223 the Moab¦191224 countryside¦191223. He ",
+    " in¦191223 the Moav¦191224 countryside¦191223. He ",
     {
      "type": "char",
      "marker": "add",
@@ -9028,7 +9028,7 @@
      "number": "20",
      "sid": "1CH 11:20"
     },
-    "Yoav’s brother¦192820 Abshai was the head of a group of three. He’d killed three hundred¦192836 people with¦192842 his spear¦192832 and had a reputation among¦192842 the three.",
+    "Yoav’s brother¦192820 Abshai was the head of a group of three. He’d killed three hundred¦192836 people with¦192842 his spear¦192832 and had a reputation¦192841 among¦192842 the three.",
     {
      "type": "note",
      "marker": "f",
@@ -9103,7 +9103,7 @@
       "sons"
      ]
     },
-    " from Moab¦192880. ",
+    " from Moav¦192880. ",
     {
      "type": "char",
      "marker": "add",
@@ -9209,7 +9209,7 @@
      "type": "char",
      "marker": "add",
      "content": [
-      "≈that gave him a reputation"
+      "≈that gave him a reputation¦192929"
      ]
     },
     " among¦192930 the three¦192930 powerful¦192931 warriors.\n",
@@ -11668,7 +11668,7 @@
      "type": "char",
      "marker": "add",
      "content": [
-      "≈So¦194302 David’s¦194305 reputation spread everywhere"
+      "≈So¦194302 David’s¦194305 reputation¦194303 spread everywhere"
      ]
     },
     ", and¦194309 Yahweh¦194309 ",
@@ -12805,7 +12805,7 @@
      "type": "char",
      "marker": "add",
      "content": [
-      "≈Boast¦194905 about his untarnished¦194907 reputation"
+      "≈Boast¦194905 about his untarnished¦194907 reputation¦194906"
      ]
     },
     ".\n"
@@ -13501,7 +13501,7 @@
      "type": "char",
      "marker": "add",
      "content": [
-      "≈Praise Yahweh for his great reputation"
+      "≈Praise Yahweh for his great reputation¦195078"
      ]
     },
     ".\n"
@@ -13790,7 +13790,7 @@
    "type": "para",
    "marker": "q1",
    "content": [
-    "so that we’ll thank¦195153 you for your untarnished¦195155 reputation,\n"
+    "so that we’ll thank¦195153 you for your untarnished¦195155 reputation¦195154,\n"
    ]
   },
   {
@@ -14087,7 +14087,7 @@
      "type": "char",
      "marker": "add",
      "content": [
-      "≈After a while when"
+      "≈After a while, when"
      ]
     },
     " David¦195287 was living in his house, ",
@@ -14166,7 +14166,7 @@
      "type": "char",
      "marker": "add",
      "content": [
-      "≈Go add and¦195307 do what you’re planning"
+      "≈Go and¦195307 do what you’re planning"
      ]
     },
     ",” Natan¦195308 ",
@@ -14265,7 +14265,15 @@
       "≈and ask them"
      ]
     },
-    ", ‘Why haven’t you¦195396 all built¦195396 a house¦195398 of cedar¦195399 for me?’ ”\n"
+    ", ‘Why haven’t you¦195396 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "people"
+     ]
+    },
+    " built¦195396 a house¦195398 out of cedar¦195399 for me?’ ”\n"
    ]
   },
   {
@@ -14286,7 +14294,7 @@
       "≈So¦195401 now you should tell"
      ]
     },
-    " my servant¦195405 David¦195406 that army¦195411 commander¦195411 Yahweh¦195410 says¦195409 this: I¦195412 myself took¦195413 you from the pasture¦195416, from behind the sheep¦195420, to be a leader over my people¦195424 Yisrael¦195425.\n",
+    " my servant¦195405 David¦195406 that Yahweh¦195410, commander¦195411 of hordes¦195411, says¦195409 this: I¦195412 myself took¦195413 you from the pasture¦195416, from behind the sheep¦195420, to be a leader over my people¦195424, Yisrael¦195425.\n",
     {
      "type": "verse",
      "marker": "v",
@@ -14316,7 +14324,7 @@
      "number": "9",
      "sid": "1CH 17:9"
     },
-    "I’ll set a place for my people¦195449 Yisrael¦195450, and I’ll plant¦195451 them, and they’ll settle ",
+    "I’ll choose a place for my people¦195449, Yisrael¦195450, and I’ll plant¦195451 them, and they’ll settle ",
     {
      "type": "char",
      "marker": "add",
@@ -14337,7 +14345,7 @@
      "type": "char",
      "marker": "add",
      "content": [
-      "≈Violent groups won’t¦195454 continue to trouble them like they’ve done before"
+      "≈Violent groups won’t¦195454 continue to trouble them like they did in the past"
      ]
     },
     ",\n",
@@ -14347,15 +14355,14 @@
      "number": "10",
      "sid": "1CH 17:10"
     },
-    "and ",
     {
      "type": "char",
      "marker": "add",
      "content": [
-      "≈ever since the time¦195467 that I put heroes and leaders"
+      "≈ever since I first put heroes and¦195467 leaders"
      ]
     },
-    " over my people¦195473 Yisrael¦195474. Then¦195467 I’ll¦195475 humble all your enemies¦195480. ",
+    " over my people¦195473, Yisrael¦195474. Then¦195467 I’ll¦195475 humble all your enemies¦195480. ",
     {
      "type": "char",
      "marker": "add",
@@ -14382,7 +14389,7 @@
      "type": "char",
      "marker": "add",
      "content": [
-      "≈When¦195489 your time on earth is up and it’s time to join your deceased ancestors¦195497"
+      "≈When¦195489 your time on earth is up, and it’s time to join your deceased ancestors¦195497"
      ]
     },
     ", then¦195489 I’ll¦195498 raise¦195498 up one of your sons¦195505 and establish¦195506 his kingdom¦195509.\n",
@@ -14584,7 +14591,7 @@
      "number": "18",
      "sid": "1CH 17:18"
     },
-    "What more can I, David¦195614 say to you ",
+    "What more can I, David¦195614, say to you ",
     {
      "type": "char",
      "marker": "add",
@@ -14592,7 +14599,7 @@
       "about how"
      ]
     },
-    " you’ve honoured¦195616 your servant, because you ",
+    " you’ve honoured¦195616 your servant? You ",
     {
      "type": "char",
      "marker": "add",
@@ -14652,7 +14659,7 @@
       "≈There’s no other country¦195658"
      ]
     },
-    " like your people Yisrael¦195657—the only nation¦195658 in the world where ",
+    " like your people, Yisrael¦195657—the only nation¦195658 in the world where ",
     {
      "type": "char",
      "marker": "add",
@@ -14660,14 +14667,14 @@
       "you"
      ]
     },
-    " God, rescued the people in order to make them your own. That made you famous and¦195655 also feared, as you drove the people groups out ahead of your people who you ransomed out of Egypt¦195678.\n",
+    ", God, rescued the people in order to make them your own. That made you famous, and¦195655 also feared, as you drove the people groups out ahead of your people who you ransomed out of Egypt¦195678.\n",
     {
      "type": "verse",
      "marker": "v",
      "number": "22",
      "sid": "1CH 17:22"
     },
-    "You took your people Yisrael¦195686 to be your people forever, and¦195681 you, Yahweh¦195694, became our god¦195697.\n"
+    "You took your people, Yisrael¦195686, to be your people forever, and¦195681 you, Yahweh¦195694, became our god¦195697.\n"
    ]
   },
   {
@@ -14711,7 +14718,7 @@
      "number": "24",
      "sid": "1CH 17:24"
     },
-    "May your reputation be established and¦195718 increase forever, as ",
+    "May your reputation¦195720 be established and¦195718 increase forever, as ",
     {
      "type": "char",
      "marker": "add",
@@ -14719,7 +14726,7 @@
       "people"
      ]
     },
-    " say, ‘Army¦195726 commander¦195726 Yahweh¦195725, Yisrael’s god¦195727, is god over Yisrael.’ And your servant¦195734 David’s¦195733 family has been established ",
+    " say, ‘Yahweh¦195725, commander¦195726 of hordes¦195726, Yisrael’s god¦195727, is god over Yisrael.’ And your servant¦195734 David’s¦195733 family has been established ",
     {
      "type": "char",
      "marker": "add",
@@ -14727,7 +14734,7 @@
       "≈as you’ve watched"
      ]
     },
-    "\n",
+    ",\n",
     {
      "type": "verse",
      "marker": "v",
@@ -14739,7 +14746,7 @@
      "type": "char",
      "marker": "add",
      "content": [
-      "≈have revealed to your¦195756 servant that you will give me a dynasty"
+      "≈have revealed to your¦195756 servant that you’ll give me a dynasty"
      ]
     },
     ". That’s why I’m ",
@@ -14779,7 +14786,7 @@
      "number": "27",
      "sid": "1CH 17:27"
     },
-    "Then¦195771 you’ve¦195785 now decided to bless your servant’s¦195777 family to be forever ",
+    "And¦195771 you’ve¦195785 now decided to bless your servant’s¦195777 family to be ",
     {
      "type": "char",
      "marker": "add",
@@ -14787,7 +14794,7 @@
       "≈in front¦195780 of you"
      ]
     },
-    ", because you, Yahweh¦195784, have blessed ",
+    " forever, because you, Yahweh¦195784, have blessed ",
     {
      "type": "char",
      "marker": "add",
@@ -14795,7 +14802,7 @@
       "us"
      ]
     },
-    " and¦195771 so ",
+    ", and¦195771 so ",
     {
      "type": "char",
      "marker": "add",
@@ -14896,7 +14903,7 @@
       "≈attacked and defeated¦195808"
      ]
     },
-    " Moav, and the Moabites became servants to David¦195815—",
+    " Moav, and the Moavites became servants to David¦195815—",
     {
      "type": "char",
      "marker": "add",
@@ -14977,7 +14984,7 @@
      "number": "5",
      "sid": "1CH 18:5"
     },
-    "When¦195859 the Arameans ",
+    "When¦195859 the Arameans¦195868 ",
     {
      "type": "char",
      "marker": "add",
@@ -14985,7 +14992,7 @@
       "(or, Syrians¦195860)"
      ]
     },
-    " came¦195859 from Damascus¦195861 to help¦195862 King¦195864 Hadadezer¦195863, David¦195867 struck¦195866 killed 22,000 of the Arameans.\n",
+    " came¦195859 from Damascus¦195861 to help¦195862 King¦195864 Hadadezer¦195863, David¦195867 killed 22,000 of them.\n",
     {
      "type": "verse",
      "marker": "v",
@@ -15125,10 +15132,10 @@
      "type": "char",
      "marker": "add",
      "content": [
-      "≈defeated¦195935 the entire¦195939"
+      "≈had defeated¦195935"
      ]
     },
-    " the army of King Hadadezer¦195942 from Tsovah,\n",
+    " King Hadadezer’s¦195942 entire¦195939 army from Tsovah,\n",
     {
      "type": "verse",
      "marker": "v",
@@ -15140,7 +15147,7 @@
      "type": "char",
      "marker": "add",
      "content": [
-      "Hadorom went"
+      "Hadoram went"
      ]
     },
     " to ask¦195958 ",
@@ -15174,7 +15181,7 @@
      "number": "11",
      "sid": "1CH 18:11"
     },
-    "King¦195986 David¦195987 consecrated¦195985 that to Yahweh¦195988, along with the gold¦195992 and silver¦195991 that he’d brought¦195994 back from ",
+    "King¦195986 David¦195987 set that apart as holy to Yahweh¦195988, along with the gold¦195992 and silver¦195991 that he’d brought¦195994 back from ",
     {
      "type": "char",
      "marker": "add",
@@ -15272,7 +15279,7 @@
       "@David"
      ]
     },
-    " stationed garrisons¦196021 in Edom, and¦196019 all Edom became his servants. And Yahweh¦196029 saved David in all where¦196034 he¦196035 went¦196035.\n",
+    " stationed garrisons¦196021 in Edom, and¦196019 all of Edom became his servants. And Yahweh¦196029 saved David wherever¦196034 he¦196035 went¦196035.\n",
     {
      "type": "para",
      "marker": "rem",
@@ -15299,7 +15306,7 @@
       "≈So¦196037"
      ]
     },
-    " David¦196038 ruled over all Yisrael¦196043 and administered justice¦196046 and ",
+    " David¦196038 ruled over all of Yisrael¦196043 and administered justice¦196046 and ",
     {
      "type": "char",
      "marker": "add",
@@ -15422,7 +15429,7 @@
       "≈became¦196103 their king¦196099"
      ]
     },
-    "\n",
+    ",\n",
     {
      "type": "verse",
      "marker": "v",
@@ -15530,7 +15537,7 @@
       "King"
      ]
     },
-    " Hanun¦196175 took¦196174 David’s¦196179 servants¦196178, and ",
+    " Hanun¦196175 took¦196174 David’s¦196179 servants¦196178 and ",
     {
      "type": "char",
      "marker": "add",
@@ -15633,7 +15640,7 @@
      "type": "char",
      "marker": "add",
      "content": [
-      "≈realised¦196216 that they had greatly insulted"
+      "≈realised¦196216 that they’d greatly insulted"
      ]
     },
     " ",
@@ -15750,7 +15757,7 @@
      "number": "9",
      "sid": "1CH 19:9"
     },
-    "Then¦196283 the Ammonites¦196285 marched out and¦196283 deployed¦196286 ready for battle¦196287 at¦196295 the entrance¦196288 to their city¦196289, while kings¦196290 who had come¦196293 were over in¦196295 the countryside¦196295 ",
+    "Then¦196283 the Ammonites¦196285 marched out and¦196283 deployed¦196286 ready for battle¦196287 at¦196295 the entrance¦196288 to their city¦196289, while the kings¦196290 who’d come¦196293 were over in¦196295 the countryside¦196295 ",
     {
      "type": "char",
      "marker": "add",
@@ -15787,7 +15794,7 @@
       "≈he’d have to fight on¦196312 two fronts, so"
      ]
     },
-    " he chose¦196308 Yisrael’s best warriors and¦196297 set them out to face¦196302 the Arameans¦196315 ",
+    " he chose¦196308 Yisrael’s best warriors and¦196297 sent them out to face¦196302 the Arameans¦196315 ",
     {
      "type": "char",
      "marker": "add",
@@ -15802,7 +15809,7 @@
      "number": "11",
      "sid": "1CH 19:11"
     },
-    "while he placed the remaining men (under the control of his ",
+    "while he sent the remaining men (under the control of his ",
     {
      "type": "char",
      "marker": "add",
@@ -15980,7 +15987,7 @@
       "≈When¦196415"
      ]
     },
-    " that was reported to David¦196416, he gathered¦196417 all Yisrael¦196422 and¦196415 crossed the Yordan¦196424. They¦196430 positioned themselves against the Arameans¦196432 who then¦196415 fought¦196434 against them.\n",
+    " that was reported to David¦196416, he gathered¦196417 all of Yisrael¦196422 and¦196415 crossed the Yordan¦196424. They¦196430 positioned themselves against the Arameans¦196432, who then¦196415 fought¦196434 against them.\n",
     {
      "type": "verse",
      "marker": "v",
@@ -16002,7 +16009,7 @@
       "drivers"
      ]
     },
-    " and forty¦196447 thousand men on foot¦196450, as well as killing Shofak their army commander¦196453.\n",
+    " and forty¦196447 thousand men on foot¦196450, as well as killing Shofak, their army commander¦196453.\n",
     {
      "type": "verse",
      "marker": "v",
@@ -16092,10 +16099,10 @@
      "type": "char",
      "marker": "add",
      "content": [
-      "≈Then in the spring when kings¦196490 often march out to war"
+      "≈Then, in the spring, when kings¦196490 often march out to war"
      ]
     },
-    ", Yoav led the army out for war and he devastated the land of the Ammonites. Then he reached ",
+    ", Yoav led the army out for war, and he devastated the Ammonites’ land. Then he reached ",
     {
      "type": "char",
      "marker": "add",
@@ -16148,7 +16155,7 @@
      "number": "2",
      "sid": "1CH 20:2"
     },
-    "Then¦196520 David¦196521 took their¦196526 king’s crown off his head—it was gold¦196534 with¦196535 a valuable gemstone set in¦196535 out, and¦196520 ",
+    "Then¦196520 David¦196521 took their¦196526 king’s crown off his head—it was gold¦196534 with¦196535 a valuable gemstone set in¦196535 it, and¦196520 ",
     {
      "type": "char",
      "marker": "add",
@@ -16179,7 +16186,7 @@
       "≈forced them to work"
      ]
     },
-    " with saws and iron picks¦196558, and axes¦196560. David¦196563 did that¦196552 for the people of all the Ammonite cities¦196565, then¦196549 he returned¦196569 to Yerushalem¦196574 with his army.\n"
+    " with saws, iron picks¦196558, and axes¦196560. David¦196563 did that¦196552 to the people from all the Ammonite cities¦196565, then¦196549 he returned¦196569 to Yerushalem¦196574 with his army.\n"
    ]
   },
   {
@@ -16282,7 +16289,7 @@
      "type": "char",
      "marker": "add",
      "content": [
-      "(i.e., from Gat)"
+      "(that is, from Gat)"
      ]
     },
     ", even though his spear¦196618 shaft was ",
@@ -16308,12 +16315,12 @@
      "number": "6",
      "sid": "1CH 20:6"
     },
-    "There was also war at¦196626 Gat¦196626 where there was a ",
+    "There was also war at¦196626 Gat¦196626, where there was a ",
     {
      "type": "char",
      "marker": "add",
      "content": [
-      "≈very tall man¦196629 with¦196626 six fingers¦196631 on each hand and¦196622 six toes on each foot who was also a descendant"
+      "≈very tall man¦196629 with¦196626 six fingers¦196631 on each hand and¦196622 six toes on each foot, who was also a descendant"
      ]
     },
     " of Rafa.\n",
@@ -16351,7 +16358,7 @@
      "number": "8",
      "sid": "1CH 20:8"
     },
-    "Those were the descendants of Rafa from Gat¦196658 who were killed by David¦196662 and he men.\n"
+    "Those were the descendants of Rafa from Gat¦196658 who were killed by David¦196662 and his men.\n"
    ]
   },
   {
@@ -17486,7 +17493,7 @@
      "type": "char",
      "marker": "add",
      "content": [
-      "≈impressive for the sake of his reputation"
+      "≈impressive for the sake of his reputation¦197349"
      ]
     },
     " and for beauty in all the lands¦197353 ",
