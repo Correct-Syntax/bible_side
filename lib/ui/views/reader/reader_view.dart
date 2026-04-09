@@ -43,7 +43,8 @@ class ReaderView extends StackedView<ReaderViewModel> {
 
     final bool isPhonePortrait = !isTablet && !isLandscape;
     final bool primaryHasRV = viewModel.primaryAreaBible == 'OET-RV';
-    final bool secondaryHasRV = viewModel.showSecondaryArea && viewModel.secondaryAreaBible == 'OET-RV';
+    final bool secondaryHasRV =
+        viewModel.showSecondaryArea && viewModel.secondaryAreaBible == 'OET-RV';
 
     bool sectionHeaderAtBottom = false;
     if (isPhonePortrait) {
@@ -61,7 +62,7 @@ class ReaderView extends StackedView<ReaderViewModel> {
     }
 
     Widget sectionHeader = AnimatedContainer(
-      duration: const Duration(milliseconds: 1000),
+      duration: const Duration(milliseconds: 200),
       height: viewModel.scrollUp ? 30 : 0,
       color: context.theme.appColors.appbarBackground,
       child: ClipRect(
@@ -71,13 +72,14 @@ class ReaderView extends StackedView<ReaderViewModel> {
           alignment: Alignment.topCenter,
           child: TopReaderAppbar(
             onTapBook: () => viewModel.onTapBook(Area.primary),
-            onTapBibleVersion: () =>
-                viewModel.onTapBibleVersion(Area.primary),
+            onTapBibleVersion: () => viewModel.onTapBibleVersion(Area.primary),
             book: viewModel.bookCode,
             chapter: viewModel.chapterNumber,
             verse: viewModel.verseNumber,
             primaryVersion: viewModel.primaryAreaBible,
-            secondaryVersion: viewModel.showSecondaryArea ? viewModel.secondaryAreaBible : null,
+            secondaryVersion: viewModel.showSecondaryArea
+                ? viewModel.secondaryAreaBible
+                : null,
           ),
         ),
       ),
@@ -122,7 +124,8 @@ class ReaderView extends StackedView<ReaderViewModel> {
                           ),
                         ),
                         if (viewModel.primaryAreaBible.startsWith('OET') ||
-                            (viewModel.secondaryAreaBible.startsWith('OET') && viewModel.showSecondaryArea))
+                            (viewModel.secondaryAreaBible.startsWith('OET') &&
+                                viewModel.showSecondaryArea))
                           Container(
                             color: context.theme.appColors.background,
                             padding: const EdgeInsets.symmetric(

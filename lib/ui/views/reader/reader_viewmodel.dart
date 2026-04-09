@@ -688,6 +688,7 @@ class ReaderViewModel extends ReactiveViewModel {
         padding-top: 20px;
         scroll-padding-top: 20px;
         padding-bottom: 100px;
+        order: 1;
       }
       #secondaryReader {
         width: 50vw;
@@ -696,6 +697,7 @@ class ReaderViewModel extends ReactiveViewModel {
         padding-top: 20px;
         scroll-padding-top: 20px;
         padding-bottom: 100px;
+        order: 3;
       }
       hr {
         align-self: stretch;
@@ -703,6 +705,7 @@ class ReaderViewModel extends ReactiveViewModel {
         max-width: 0.5px;
         margin-top: 0px;
         margin-bottom: 0px;
+        order: 2;
       }
     }
   </style>
@@ -757,7 +760,7 @@ class ReaderViewModel extends ReactiveViewModel {
           });
         });
 
-        if (Date.now() - lastScrollEventTime < 1000) {
+        if (Date.now() - lastScrollEventTime < 400) {
           return;
         }
         lastScrollEventTime = Date.now();
@@ -771,9 +774,9 @@ class ReaderViewModel extends ReactiveViewModel {
           const last = lastScrollTop || 0;
           const delta = cur - last;
           lastScrollTop = cur;
-          if (delta > 10) {
+          if (delta > 3) {
             OnScrollDirection.postMessage('down');
-          } else if (delta < -10) {
+          } else if (delta < -3) {
             OnScrollDirection.postMessage('up');
           }
         } catch (e) {
