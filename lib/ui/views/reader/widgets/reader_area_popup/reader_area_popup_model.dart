@@ -13,21 +13,24 @@ class ReaderAreaPopupModel extends ReactiveViewModel {
   String get primaryBible => _settingsService.primaryBible;
   String get secondaryBible => _settingsService.secondaryBible;
 
+  List<String> get recentTranslations => _settingsService.recentTranslations;
+
   bool get showSecondaryArea => _settingsService.showSecondaryArea;
   bool get linkReaderAreaScrolling => _settingsService.linkReaderAreaScrolling;
 
-  void onChangePrimaryBibleVersion() {
+  void onChangeBibleVersion(Area area) {
     _navigationService.clearStackAndShow(
       Routes.biblesView,
-      arguments: const BiblesViewArguments(readerArea: Area.primary),
+      arguments: BiblesViewArguments(readerArea: area),
     );
   }
 
-  void onChangeSecondaryBibleVersion() {
-    _navigationService.clearStackAndShow(
-      Routes.biblesView,
-      arguments: const BiblesViewArguments(readerArea: Area.secondary),
-    );
+  void onSelectRecentTranslation(Area area, String translation) {
+    if (area == Area.primary) {
+      _settingsService.setPrimaryAreaBible(translation);
+    } else {
+      _settingsService.setSecondaryAreaBible(translation);
+    }
   }
 
   void onEnableSecondaryArea() {

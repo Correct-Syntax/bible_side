@@ -1,1867 +1,6849 @@
 {
-  "book": {
-    "bookCode": "AMO",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.0.01",
-    "meta": [
-      {
-        "usfm": "3.0"
-      },
-      {
-        "ide": "UTF-8"
-      },
-      {
-        "rem": "ESFM v0.6 AMO"
-      },
-      {
-        "rem": "WORDTABLE OET-LV_OT_word_table.tsv"
-      },
-      {
-        "h": "Amos"
-      },
-      {
-        "toc1": "Amos"
-      },
-      {
-        "toc2": "Amos"
-      },
-      {
-        "toc3": "Amos"
-      },
-      {
-        "mt1": "Amos"
-      },
-      {
-        "is1": "Introduction"
-      },
-      {
-        "ip": "Amus one shepherd of me sheep of not yet he became prophet. Diye he mahinged of Tikuwa sakup of prubinsiya of Yehudah, but commanded he of God going there of Bethel there Israel so that egpawaliyen there. Israel there to ampew of Yehudah. Neyitabu this of me walu hundred (800) year(s) of not yet born the Messiah. Impanengneng din the people curse of God the Sirya, Pilistiya, Pinisiya, Idum, Amun, Moab, even the Yehudah. At that time, migmatubung the people and not/none gubut their of other nations, and migmaluag the land nasakup their. But saw of Amus is just migmatubung the rich people because indeeg-deeg their the not/none egkengeyimu and not correct the judging them there to hukumanan. Not/None their tumana the law of God, and not/none their tumana the commands din. Seeye naa the not/none mig-ulung-ulung Amus telling punished indeed of Master God the their place. Imbanasalan din them follow the correct judging there to hukumanan, because what if egkeyid‑u red the God of nenasame people of their place (5:15)."
-      },
-      {
-        "iot": "Main components of this “book”"
-      },
-      {
-        "io1": [
-          "The punishment of nations near Israel",
-          {
-            "ior": "1:1–2:5",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The punishment of Israel",
-          {
-            "ior": "2:6–6:14",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The five revelation",
-          {
-            "ior": "7:1–9:15",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "rem": [
-          "This is still a very early look into the unfinished text of the",
-          {
-            "em": "Open English Translation",
-            "closing": "\\em*"
-          },
-          "of the Bible. Please double-check the text in advance before using in public."
-        ]
-      },
-      {
-        "ie": ""
-      }
-    ]
+ "type": "USJ",
+ "version": "3.1",
+ "content": [
+  {
+   "type": "book",
+   "marker": "id",
+   "code": "AMO",
+   "content": [
+    "- Open English Translation—Readers’ Version (OET-RV) v0.1.58"
+   ]
   },
-  "chapters": [
+  {
+   "type": "para",
+   "marker": "ide",
+   "content": [
+    "UTF-8\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "ESFM v0.6 AMO\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "WORDTABLE OET-LV_OT_word_table.tsv\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "h",
+   "content": [
+    "Amos\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc1",
+   "content": [
+    "Amos\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc2",
+   "content": [
+    "Amos\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc3",
+   "content": [
+    "Amos\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt1",
+   "content": [
+    "Amos\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt2",
+   "content": [
+    "(Heb. Amots)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "is1",
+   "content": [
+    "Introduction\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "Amos (Heb. Amots) was a shepherd before he became a prophet. There grew up in Tekoa in the province of Yehudah (Judah), but Yahweh commanded him to go to Beyt-El (Bethel) in Yisra’el (Israel) in order to preach there. (Yisra’el is north of Yehudah.) These events happened around 800 before Yeshua/Jesus (B.C.) He proclaimed God’s curses on Syria, Philistia, Pinisia, Edom, Amon, Moab, and even Yehudah. At that time, the people were prospering and there was no famine like in some other nations, and Yisrael had widened their border. But Amos saw how the rich people prospered because they took advantage of the poor and even abused them through the courts. They had stopped obeying Yahweh’ instructions and commands, so Amos didn’t hesitate to tell them how Yahweh would punish them and their country. He encouraged them to maintain true justice in their courts, because what if God might just be gracious towards the people remaining in their country (5:15).\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "iot",
+   "content": [
+    "Main components of this document\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The punishment of nations near Yisrael ",
     {
-      "chapterNumber": "1",
-      "contents": [
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:1: a"
-                },
-                {
-                  "xt": "2Ki 15:1-7; 2Ch 26:1-23;"
-                },
-                {
-                  "xo": "b"
-                },
-                {
-                  "xt": "2Ki 14:23-29."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙",
-            {
-              "q1": ""
-            },
-            {
-              "rem": "/s1 Judgment on Israel's Neighbours"
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:2:"
-                },
-                {
-                  "xt": "Yoel 3:16."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "s1": "The punishment of close place of Israel"
-            },
-            {
-              "rem": "/s1 The sins of Israel and her neighbours; God's Judgment on Israel's Neighbours; Judgment on Israel's Neighbours"
-            },
-            {
-              "rem": "/s2 Syria"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙ … … … …"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:3-5:"
-                },
-                {
-                  "xt": "Isa 17:1-3; Jer 49:23-27; Zech 9:1."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "◙",
-            {
-              "s1": "The punishment of Pilistiya"
-            },
-            {
-              "rem": "/s2 Philistia"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:6-8:"
-                },
-                {
-                  "xt": "Isa 14:29-31; Jer 47:1-7; Eze 25:15-17; Yoel 3:4-8; Zeph 2:4-7; Zech 9:5-7."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "◙",
-            {
-              "s1": "The punishment of Tiru"
-            },
-            {
-              "rem": "/s2 Tyre"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:9-10:"
-                },
-                {
-                  "xt": "Isa 23:1-18; Eze 26:1–28:19; Yoel 3:4-8; Zech 9:1-4; Mat 11:21-22; Luk 10:13-14."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "◙",
-            {
-              "s1": "The punishment of place Idum"
-            },
-            {
-              "rem": "/s2 Edom"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:11-12:"
-                },
-                {
-                  "xt": "Isa 34:5-17; 63:1-6; Jer 49:7-22; Eze 25:12-14; 35:1-15; Oba 1-14; Mal 1:2-5."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "◙",
-            {
-              "s1": "The punishment of Amun"
-            },
-            {
-              "rem": "/s2 Ammon"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:13-15:"
-                },
-                {
-                  "xt": "Jer 49:1-6; Eze 21:28-32; 25:1-7; Zeph 2:8-11."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        }
-      ]
-    },
-    {
-      "chapterNumber": "2",
-      "contents": [
-        {
-          "s1": "The punishment of Moab"
-        },
-        {
-          "rem": "/s2 Moab"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:1-3:"
-                },
-                {
-                  "xt": "Isa 15:1–16:14; 25:10-12; Jer 48:1-47; Eze 25:8-11; Zeph 2:8-11."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "◙",
-            {
-              "s1": "The punishment of Yehudah"
-            },
-            {
-              "rem": "/s1 Judgment on Judah; God's Judgment on Judah and Israel"
-            },
-            {
-              "rem": "/s2 Judah"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "◙",
-            {
-              "s1": "The punishment of God of Israel"
-            },
-            {
-              "rem": "/s1 God's Judgment on Israel; Judgment on Israel"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "◙",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:9:"
-                },
-                {
-                  "xt": "Deu 3:8-11."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:11:"
-                },
-                {
-                  "xt": "Num 6:1-8."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        }
-      ]
-    },
-    {
-      "chapterNumber": "3",
-      "contents": [
-        {
-          "rem": "/s1 Witnesses Summoned Against Israel; Israel's sins and threatened punishment; Israel's Guilt and Punishment"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "◙",
-            {
-              "s1": "The work of prophet"
-            },
-            {
-              "rem": "/s1 Witnesses against Guilty Israel; The Prophet's Task"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "s1": "The punishment of Samarya"
-            },
-            {
-              "rem": "/s1 The Doom of Samaria"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "◙",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "◙",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:14:"
-                },
-                {
-                  "xt": "2Ki 23:15."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        }
-      ]
-    },
-    {
-      "chapterNumber": "4",
-      "contents": [
-        {
-          "rem": "/s1 Israel Has Not Returned to God; Israel's Failure to Learn"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "◙",
-            {
-              "s1": "The arguing of Israelis"
-            },
-            {
-              "rem": "/s1 Israel's Failure to Learn"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "◙",
-            {
-              "rem": "/s1 Israel Rejects Correction"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "◙",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "◙",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "◙",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "4:11:"
-                },
-                {
-                  "xt": "Gen 19:24."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "◙",
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            }
-          ],
-          "verseText": "◙ … … … …"
-        }
-      ]
-    },
-    {
-      "chapterNumber": "5",
-      "contents": [
-        {
-          "s1": "The pegbanasal of repentance from sin"
-        },
-        {
-          "rem": "/s1 A Lament for Israel's Sin; A Lament and Call to Repentance; A Call to Repentance"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "◙",
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "◙",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "◙",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "◙",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … … … …"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "◙",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "◙",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "◙",
-            {
-              "s1": "The pegpatuman of correct judging"
-            },
-            {
-              "rem": "/s1 The Day of the Lord; Warning of Coming Judgment; The Day of the Lord a Dark Day"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            "◙",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "21",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "5:21-22:"
-                },
-                {
-                  "xt": "Isa 1:11-14."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "22",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "23",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "24",
-          "contents": [
-            "◙",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "25",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "5:25-27:"
-                },
-                {
-                  "xt": "Acts 7:42-43."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "26",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "27",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        }
-      ]
-    },
-    {
-      "chapterNumber": "6",
-      "contents": [
-        {
-          "s1": "The destruction of Israel"
-        },
-        {
-          "rem": "/s1 The Destruction of Israel; Woe to the Complacent; Complacent Self-Indulgence Will Be Punished"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "◙",
-            {
-              "rem": "/s1 The Lord Abhors the Pride of Israel"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "◙",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "◙",
-            {
-              "p": "…"
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "◙",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "◙",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        }
-      ]
-    },
-    {
-      "chapterNumber": "7",
-      "contents": [
-        {
-          "s1": "The revelation me talangas"
-        },
-        {
-          "rem": "/s1 Visions foretelling doom upon Israel; Locusts, Fire and a Plumb Line; Locusts, Fire, and a Plumb Line; A Vision of Locusts"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "◙",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "◙",
-            {
-              "s1": "The revelation fire"
-            },
-            {
-              "rem": "/s1 A Vision of Fire"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "◙",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "◙",
-            {
-              "s1": "The revelation tuntun"
-            },
-            {
-              "rem": "/s1 A Vision of a Plumb Line"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "◙",
-            {
-              "p": "…"
-            },
-            {
-              "p": "…"
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "◙",
-            {
-              "s1": "Amus and Amasiyas"
-            },
-            {
-              "rem": "/s1 Amos and Amaziah; Amaziah Complains to the King"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "◙",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "◙",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        }
-      ]
-    },
-    {
-      "chapterNumber": "8",
-      "contents": [
-        {
-          "s1": "The revelation bukag"
-        },
-        {
-          "rem": "/s1 The Basket of Fruit; A Vision of Ripe Fruit; A Basket of Ripe Fruit; A Vision of a Basket of Fruit"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "◙",
-            {
-              "p": "…"
-            },
-            {
-              "p": "…"
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "◙",
-            {
-              "s1": "The pegparusa of Israel"
-            },
-            {
-              "rem": "/s1 Israel's Doom"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "◙",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "◙",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        }
-      ]
-    },
-    {
-      "chapterNumber": "9",
-      "contents": [
-        {
-          "s1": "The judging of God"
-        },
-        {
-          "rem": "/s1 A Vision of God at the Altar; The Lord's Judgments; Israel to Be Destroyed; The Destruction of Israel"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "◙",
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙ … … … …"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "◙",
-            {
-              "rem": "/s1 A remnant spared and restored"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "◙",
-            {
-              "s1": "The standing up again of Israel"
-            },
-            {
-              "rem": "/s1 The Restoration of David's Kingdom; Israel's Restoration; The Future Restoration of Israel; A Promise of Restoration"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "9:11-12:"
-                },
-                {
-                  "xt": "Acts 15:16-18."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "◙",
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … …"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … …"
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            }
-          ],
-          "verseText": "◙ … …"
-        }
-      ]
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1:1–2:5"
+     ]
     }
-  ],
-  "_messages": {
-    "_warnings": []
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The punishment of Yisrael ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "2:6–6:14"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The five revelations ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "7:1–9:15"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "This is still a very early look into the unfinished text of the Open English Translation of the Bible. Please double-check the text in advance before using in public.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ie",
+   "content": []
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "1",
+   "sid": "AMO 1"
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "AMO 1:1"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "This is"
+     ]
+    },
+    " the message¦367691 that¦367698 Amos¦367692 (who was among¦367696 the shepherds¦367696 in Tekoa¦367697) saw concerning Yisra’el ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Israel¦367702)"
+     ]
+    },
+    " in the days of King Uzziyah of Yehudah¦367711 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Judah)"
+     ]
+    },
+    ", and also in the days of Yoash’s¦367716 son King Yaraveam ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Jeroboam)"
+     ]
+    },
+    " of Yisrael¦367702, two years¦367719 before the earthquake¦367721.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:1: a "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "2Ki 15:1-7; 2Ch 26:1-23; "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "b "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "2Ki 14:23-29."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "AMO 1:2"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "@Amos"
+     ]
+    },
+    " said¦367723,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Judgment on Israel’s Neighbours\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“Yahweh¦367725 will ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈shout loudly"
+     ]
+    },
+    " from Tsiyyon¦367726 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Zion¦367726)"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈He will raise his voice¦367733 from Yerushalem¦367731 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Jerusalem)"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The shepherds’ pastures¦367735 will ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈brown off"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈The top of ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Mt."
+     ]
+    },
+    " Carmel¦367739 will dry up.”",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:2: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Yoel 3:16."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Judgement of Yisrael’s neighbours\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The sins of Israel and her neighbours; God’s Judgment on Israel’s Neighbours; Judgment on Israel’s Neighbours\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s2",
+   "content": [
+    "Syria\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "AMO 1:3"
+    },
+    "This is what Yahweh¦367744 says¦367743:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Even if Damascus¦367749 was three¦367747 or four¦367752 sins below the threshold¦367757"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I wouldn’t turn away ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "their"
+     ]
+    },
+    " punishment,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "for ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈the cruel things they¦367757 did to the people of"
+     ]
+    },
+    " Gilead¦367762.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:3-5: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Isa 17:1-3; Jer 49:23-27; Zech 9:1."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "AMO 1:4"
+    },
+    "I’ll¦367764 send¦367764 a fire¦367765 into ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "King"
+     ]
+    },
+    " Hazael’s¦367767 house¦367766,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and¦367768 it¦367768 will devour King Ben¦367772-Hadad’s fortresses¦367769.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "AMO 1:5"
+    },
+    "I’ll¦367774 smash the gate bars of Damascus¦367776\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈eliminate the ruler"
+     ]
+    },
+    " of the Aven Valley¦367779,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and also the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈leader of"
+     ]
+    },
+    " Beyt-Eden.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The people¦367787 of Aram¦367789 will go¦367786 in captivity to Kir¦367790,”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mi",
+   "content": [
+    "says¦367791 Yahweh¦367792.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s2",
+   "content": [
+    "Philistia\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "AMO 1:6"
+    },
+    "This is what Yahweh¦367797 says¦367796:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Even if"
+     ]
+    },
+    " Azzah ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Gaza¦367802)"
+     ]
+    },
+    " was ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈three¦367800 or four¦367805 sins below the threshold"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I wouldn’t turn away ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "their"
+     ]
+    },
+    " punishment,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦367808 they¦367810 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈carried¦367810 a whole people group away as captives"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "to hand them over to Edom¦367814.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:6-8: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Isa 14:29-31; Jer 47:1-7; Eze 25:15-17; Yoel 3:4-8; Zeph 2:4-7; Zech 9:5-7."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "AMO 1:7"
+    },
+    "I’ll¦367816 send¦367816 fire¦367817 onto Azzah’s¦367819 walls,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦367820 it’ll devour her fortresses¦367821.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "AMO 1:8"
+    },
+    "I will cut off those from Ashdod¦367825\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈ruler of"
+     ]
+    },
+    " Ashkelon¦367828.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I’ll¦367823 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈cause problems for"
+     ]
+    },
+    " Ekron¦367833,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and the rest of the Philistines¦367836 will ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈die"
+     ]
+    },
+    ",”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "says¦367837 Yahweh¦367838 the master¦367838.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s2",
+   "content": [
+    "Tsor\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "AMO 1:9"
+    },
+    "This is what Yahweh¦367844 says¦367843:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Even if"
+     ]
+    },
+    " Tsor ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Tyre¦367850)"
+     ]
+    },
+    " was ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈three¦367847 or four¦367853 sins below the threshold"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I wouldn’t turn away ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "their"
+     ]
+    },
+    " punishment,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦367856 they ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈handed a whole people group over"
+     ]
+    },
+    " to Edom¦367861,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and they didn’t¦367854 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈take any notice of"
+     ]
+    },
+    " their brotherhood¦367865 agreement.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:9-10: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Isa 23:1-18; Eze 26:1–28:19; Yoel 3:4-8; Zech 9:1-4; Mat 11:21-22; Luk 10:13-14."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "AMO 1:10"
+    },
+    "I’ll¦367867 send¦367867 fire¦367868 onto Tsor’s¦367870 walls,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦367871 it’ll devour her fortresses¦367872.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s2",
+   "content": [
+    "Edom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "AMO 1:11"
+    },
+    "This is what Yahweh¦367877 says¦367876,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Even if"
+     ]
+    },
+    " Edom¦367882 was ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈three¦367880 or four¦367885 sins below the threshold"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I wouldn’t turn away ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "their"
+     ]
+    },
+    " punishment,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦367888 he pursued¦367890 his brother with¦367891 the sword¦367891 and abandoned all pity.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "His anger¦367897 raged continually¦367896,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and his rage¦367898 lasted forever¦367896.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:11-12: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Isa 34:5-17; 63:1-6; Jer 49:7-22; Eze 25:12-14; 35:1-15; Oba 1-14; Mal 1:2-5."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "AMO 1:12"
+    },
+    "I’ll¦367902 send¦367902 fire¦367903 on¦367904 Teyman,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦367905 it’ll devour Botsrah’s fortresses¦367906.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s2",
+   "content": [
+    "Ammon\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "AMO 1:13"
+    },
+    "This is what Yahweh¦367912 says¦367911,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Even if"
+     ]
+    },
+    " the Ammonites were ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈three¦367915 or four¦367922 sins below the threshold"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I wouldn’t turn away ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "their¦367934"
+     ]
+    },
+    " punishment,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦367925 they¦367927 ripped¦367927 open the pregnant¦367928 women¦367928 of Gilead¦367929,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈in order to grab territory¦367934"
+     ]
+    },
+    ".",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:13-15: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Jer 49:1-6; Eze 21:28-32; 25:1-7; Zeph 2:8-11."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "AMO 1:14"
+    },
+    "I’ll¦367936 light a fire in Rabah’s¦367939 walls,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦367936 it’ll devour its fortresses¦367941,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "with a shout¦367942 in the day of battle¦367944,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "with a storm¦367945 in the day of the whirlwind.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "AMO 1:15"
+    },
+    "Their king¦367952 will go¦367951 into captivity along with¦367953 his officials¦367955,”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mi",
+   "content": [
+    "says¦367957 Yahweh¦367958.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "2",
+   "sid": "AMO 2"
+  },
+  {
+   "type": "para",
+   "marker": "s2",
+   "content": [
+    "Moab\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "AMO 2:1"
+    },
+    "This is what Yahweh¦367963 says¦367962:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Even if"
+     ]
+    },
+    " Moab¦367968 was ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈three¦367966 or four¦367971 sins below the threshold"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I wouldn’t turn away its punishment,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦367974 he ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈completely burnt¦367976 up"
+     ]
+    },
+    " the bones¦367977 of Edom’s¦367980 king¦367978.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:1-3: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Isa 15:1–16:14; 25:10-12; Jer 48:1-47; Eze 25:8-11; Zeph 2:8-11."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "AMO 2:2"
+    },
+    "I’ll¦367983 send¦367983 fire¦367985 on¦367986 Moab¦367986,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and it will devour Keriot’s¦367989 fortresses¦367988.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Moab will die¦367990 in¦367986 an uproar¦367991—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "with¦367986 shouting¦367993 and the sound¦367994 of the horn.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "AMO 2:3"
+    },
+    "I’ll ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈wipe out"
+     ]
+    },
+    " her judge¦367998,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and¦368000 I’ll kill¦368003 all the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈leaders"
+     ]
+    },
+    " along with him,”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mi",
+   "content": [
+    "says¦368005 Yahweh¦368006.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Yehudah’s punishment\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Judgment on Judah; God’s Judgment on Judah and Israel\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s2 Judah\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Southern kingdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "AMO 2:4"
+    },
+    "This is what Yahweh¦368011 says¦368010:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Even if"
+     ]
+    },
+    " Yehudah¦368016 was ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈three¦368014 or four¦368019 sins below the threshold"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I wouldn’t turn away its punishment,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦368022 they rejected¦368024 Yahweh’s instructions\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and didn’t¦368020 keep his regulations¦368029.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Their lies caused them to go astray¦368032,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈just like their ancestors¦368037 had done"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "AMO 2:5"
+    },
+    "I’ll¦368040 send¦368040 fire¦368041 on¦368042 Yehudah¦368042,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦368043 it’ll devour Yerushalem’s¦368045 fortresses¦368044.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Yisrael’s punishment\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 God’s Judgment on Israel; Judgment on Israel\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Northern kingdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "AMO 2:6"
+    },
+    "This is what Yahweh¦368050 says¦368049:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Even if"
+     ]
+    },
+    " Yisrael¦368055 was ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈three¦368053 or four¦368058 sins below the threshold"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I wouldn’t turn away its punishment,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦368061 they¦368063 sold the innocent for silver¦368064\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and the needy¦368066 for a pair of sandals¦368068.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "AMO 2:7"
+    },
+    "They trample¦368070 the heads¦368076 of the poor¦368079 into the dust.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "just"
+     ]
+    },
+    " push the oppressed ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈out of the way¦368078"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "A man¦368081 and his father¦368082 go¦368083 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈lie with¦368076"
+     ]
+    },
+    " the same girl¦368086\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and so profane¦368088 my ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈sinless reputation"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "AMO 2:8"
+    },
+    "They lie down beside¦368099 every¦368100 altar¦368102 on clothes¦368096 taken¦368097 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "from the poor"
+     ]
+    },
+    " as pledges¦368097,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦368094 in the house¦368106 of their¦368107 god¦368107 they drink¦368105 the wine of those who were fined.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "AMO 2:9"
+    },
+    "Yet I destroyed the Amorites¦368113 before them.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈They were as tall as"
+     ]
+    },
+    " of cedars¦368117\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "and"
+     ]
+    },
+    " as strong¦368119 as oaks.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Yet I destroyed ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#their"
+     ]
+    },
+    " fruit¦368123 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "up"
+     ]
+    },
+    " high\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#their"
+     ]
+    },
+    " roots¦368125 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "down"
+     ]
+    },
+    " below¦368126.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:9: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Deu 3:8-11."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "AMO 2:10"
+    },
+    "Also, I brought¦368129 you all out of Egypt¦368132 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Heb. Mitsrayim)"
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦368128 led you forty¦368136 years in¦368135 the wilderness¦368135\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈so you all could"
+     ]
+    },
+    " possess¦368138 the land of the Amorites¦368142.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "AMO 2:11"
+    },
+    "I raised¦368144 prophets¦368146 up from among your sons¦368145\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and¦368147 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "devoted"
+     ]
+    },
+    " Nazirites¦368148 from your young¦368147 men¦368147.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Isn’t ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈that right"
+     ]
+    },
+    ", ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈you Israelis¦368153"
+     ]
+    },
+    "?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mi",
+   "content": [
+    "This is Yahweh’s declaration.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:11: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Num 6:1-8."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "AMO 2:12"
+    },
+    "But¦368159 you all ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈persuaded"
+     ]
+    },
+    " the Nazirites¦368162 to drink¦368159 wine",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:12: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Num 6:2-3."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦368164 ordered¦368167 the prophets not to prophesy.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "AMO 2:13"
+    },
+    "Listen, I’m going to make you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈lose your¦368175 stability"
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "just like a cart wobbles when it’s carrying a ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "heavy"
+     ]
+    },
+    " load of grain¦368181.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "AMO 2:14"
+    },
+    "Even fast ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      ">people"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈won’t be able to reach a safe place¦368184"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈The strong¦368186 won’t have enough strength¦368190 of their own,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and¦368183 the powerful¦368190 won’t be able to save¦368194 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#themselves"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "AMO 2:15"
+    },
+    "The ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "archer"
+     ]
+    },
+    " holding the bow ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈will be forced to retreat"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Even"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈fast runner won’t be able to"
+     ]
+    },
+    " escape.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈horse-rider won’t escape with¦368202"
+     ]
+    },
+    " his life¦368209.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "AMO 2:16"
+    },
+    "Even the bravest warriors¦368213 will flee naked¦368214 that day¦368216.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mi",
+   "content": [
+    "That is Yahweh’s declaration.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "3",
+   "sid": "AMO 3"
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Witnesses Summoned Against Israel; Israel’s sins and threatened punishment; Israel’s Guilt and Punishment\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "AMO 3:1"
+    },
+    "Hear this message¦368227 that Yahweh¦368231 has spoken¦368230 against you¦368232, people¦368233 of Yisrael¦368234, against ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Yakob’s descendants"
+     ]
+    },
+    " that I brought¦368240 out of Egypt¦368242 saying:\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "AMO 3:2"
+    },
+    "“I have chosen only you from all the families of the earth, therefore¦368251 I’ll¦368254 punish you all for all your sins.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Cause and effect\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Witnesses against Guilty Israel; The Prophet’s Task\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Northern kingdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "AMO 3:3"
+    },
+    "Do two¦368262 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      ">people"
+     ]
+    },
+    " walk¦368261 together¦368263, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈without first agreeing to meet"
+     ]
+    },
+    "?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "AMO 3:4"
+    },
+    "Would a lion roar in¦368271 the forest¦368271 when he doesn’t have any prey?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Would a young¦368276 lion growl¦368277 from his¦368277 den if he’s caught¦368282 nothing?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "AMO 3:5"
+    },
+    "Would a bird fall into a trap on the ground when no bait ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈has been put in it"
+     ]
+    },
+    "?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Would a trap ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "just"
+     ]
+    },
+    " spring¦368293 up from the ground when it hasn’t caught anything?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "AMO 3:6"
+    },
+    "If a ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "warning"
+     ]
+    },
+    " trumpet¦368306 sounds in¦368307 a city, won’t¦368309 the people¦368308 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈start to worry"
+     ]
+    },
+    "?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈If disaster comes to a city, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈wouldn’t it be Yahweh¦368316 who"
+     ]
+    },
+    " sent it?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "AMO 3:7"
+    },
+    "Surely¦368324 the master¦368323 Yahweh¦368323 wouldn’t do anything¦368325 unless he ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "first"
+     ]
+    },
+    " reveals¦368329 his plan to his servants¦368333 the prophets¦368334.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "AMO 3:8"
+    },
+    "The lion¦368336 has roared¦368337—who won’t be afraid¦368340?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈The master¦368341 Yahweh¦368341 has spoken¦368343—who won’t prophesy¦368346?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The punishment of Shomron (Samaria)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Doom of Samaria\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Northern kingdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "AMO 3:9"
+    },
+    "Proclaim¦368348 this in the fortresses at¦368352 Ashdod¦368352,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and in the strongholds in Egypt¦368357,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "saying, “Assemble yourselves¦368359 on¦368352 Shomron’s¦368363 mountains¦368362\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and see¦368364 what great¦368366 confusion is in her,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and what oppression¦368368 is in her.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "AMO 3:10"
+    },
+    "Yahweh¦368379 declares that they¦368373 don’t¦368371 know¦368373 how to do right.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They store¦368380 up violence¦368381 and¦368382 destruction¦368382 in¦368383 their¦368383 fortresses¦368383.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "AMO 3:11"
+    },
+    "Therefore, this is what the master¦368389 Yahweh¦368389 says¦368388:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“An enemy will surround¦368392 the land,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and pull down your strongholds¦368396\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and plunder¦368397 your fortresses¦368398.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "AMO 3:12"
+    },
+    "This is what Yahweh¦368402 says¦368401:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Just"
+     ]
+    },
+    " as the shepherd¦368405 rescues out of the lion’s¦368407 mouth¦368406 two¦368408 legs only, or a piece of an ear¦368413,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈so will the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Israelis¦368417"
+     ]
+    },
+    " who live¦368418 in¦368419 Shomron¦368419 be rescued with¦368419 only the corner¦368420 of a couch¦368423 or a piece of a bed.”\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "AMO 3:13"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Take notice"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "of this"
+     ]
+    },
+    " and¦368426 testify¦368426 against Yakob’s descendants.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mi",
+   "content": [
+    "That is the declaration of the master¦368431 Yahweh¦368431, army¦368434 commander¦368434 God¦368433.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "AMO 3:14"
+    },
+    "“On the day¦368437 that I bring punishment for Yisrael’s¦368441 sins to her, I’ll¦368443 also bring punishment on the altars of Beyt-El. The altar’s horns¦368451 will be cut off and fall to the ground¦368454.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:14: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "2Ki 23:15."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "AMO 3:15"
+    },
+    "I’ll¦368456 destroy the winter¦368459 house along with the summer¦368463 house. The houses of ivory¦368466 will perish¦368464, and¦368456 the large houses will vanish.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mi",
+   "content": [
+    "That is Yahweh’s declaration.”\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "4",
+   "sid": "AMO 4"
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Israel Has Not Returned to God; Israel’s Failure to Learn\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "AMO 4:1"
+    },
+    "Listen to this message¦368476, you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "women like the"
+     ]
+    },
+    " cows¦368478 of Bashan¦368479 on¦368481 Shomron’s¦368482 mountain¦368481—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "you who oppress¦368483 the poor,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈you who crush¦368485 the needy¦368486,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "you who say¦368487 to your husbands¦368488,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“Bring us drinks¦368490.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "AMO 4:2"
+    },
+    "My master¦368493 Yahweh¦368493 has sworn¦368492 by his ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "own"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈sinlessness"
+     ]
+    },
+    " saying,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“Listen, the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈time¦368498"
+     ]
+    },
+    " will come\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "when they’ll take¦368501 you all away with hooks¦368505—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈the last of you with fish-hooks.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "AMO 4:3"
+    },
+    "You’ll all ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈be taken"
+     ]
+    },
+    " straight¦368511 out through breaks in the city wall,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦368512 you’ll be thrown¦368512 out toward¦368513 Harmon¦368513.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mi",
+   "content": [
+    "That is Yahweh’s declaration.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The arguing of Israelis\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Israel’s Failure to Learn\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Northern kingdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "AMO 4:4"
+    },
+    "“Go to ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "the worship centre at"
+     ]
+    },
+    " Beyt-El and sin,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈to ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "the one at"
+     ]
+    },
+    " Gilgal¦368523 and multiply sin.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Bring your sacrifices¦368528 every morning¦368527,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈your tithes¦368531 every three¦368529 days¦368530.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "AMO 4:5"
+    },
+    "Offer a thanksgiving¦368535 sacrifice with bread¦368534.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Proclaim freewill¦368537 offerings¦368533.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Announce them,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because that pleases you, you Israelis¦368542.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mi",
+   "content": [
+    "That’s my master¦368545 Yahweh’s declaration.\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Israel Rejects Correction\n"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "AMO 4:6"
+    },
+    "I also gave¦368551 you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈empty stomachs"
+     ]
+    },
+    " in all your cities¦368557\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦368548 lack of bread¦368559 in all your places¦368561.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Yet you all haven’t returned¦368564 to me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mi",
+   "content": [
+    "That is Yahweh’s declaration.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "AMO 4:7"
+    },
+    "I also withheld¦368572 rain from you\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "when there were still¦368577 three¦368578 months¦368579 to the harvest¦368580.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I made it rain on one city,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦368570 didn’t send rain to some another city.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "One piece of land was rained¦368594 on,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈but¦368570"
+     ]
+    },
+    " the piece of land where he didn’t send rain, dried¦368602 up.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "AMO 4:8"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "People from"
+     ]
+    },
+    " two¦368605 or three¦368606 cities¦368607 staggered¦368604 to another city¦368610 to drink¦368612 water¦368613,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "but¦368604 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "still"
+     ]
+    },
+    " weren’t ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈able to get enough"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Yet you¦368618 all haven’t returned¦368618 to me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mi",
+   "content": [
+    "That is Yahweh’s declaration.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "AMO 4:9"
+    },
+    "I ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈ruined your crops"
+     ]
+    },
+    " with¦368626 blight¦368626 and mildew¦368627.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The multitude of your gardens¦368629 and your vineyards¦368630,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "your fig¦368631 trees and your olive¦368632 trees,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "were all devastated by the locusts¦368634.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Yet you all haven’t returned¦368637 to me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mi",
+   "content": [
+    "That is Yahweh’s declaration.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "AMO 4:10"
+    },
+    "I sent¦368644 a plague on¦368645 you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈similar to what I did in¦368645"
+     ]
+    },
+    " Egypt¦368648 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Heb. Mitsrayim)"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I killed¦368649 your young¦368651 men¦368651 with¦368645 the sword¦368650, carried away your horses¦368654,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and made the stench¦368656 of your camp¦368657 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈reach your noses"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Yet you all haven’t returned¦368661 to me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mi",
+   "content": [
+    "That is Yahweh’s declaration.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "AMO 4:11"
+    },
+    "I overthrew cities among¦368668 you, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "just"
+     ]
+    },
+    " like when God¦368670 overthrew Sodom¦368673 and Amorah ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Gomorrah¦368676)"
+     ]
+    },
+    ".",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "4:11: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Gen 19:24."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "You were like a burning¦368678 stick¦368678 snatched out of the fire¦368680.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Yet you all haven’t returned¦368686 to me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mi",
+   "content": [
+    "That is Yahweh’s declaration.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "AMO 4:12"
+    },
+    "Therefore I’ll do something terrible to you, Yisrael,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "and"
+     ]
+    },
+    " because I’ll do something terrible to you,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "prepare¦368706 to meet your god¦368709, Yisrael.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "AMO 4:13"
+    },
+    "Now listen. He who formed¦368714 the mountains¦368715 and created¦368716 the wind¦368717\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "reveals¦368718 his thoughts¦368722 to humanity,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "makes¦368723 the morning darkness¦368725,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈walks around the highest places¦368729 in this world"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Army¦368734 commander¦368734 God¦368732, Yahweh¦368731, is his name¦368735.”\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "5",
+   "sid": "AMO 5"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Encouraging repentance from sin\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 A Lament for Israel’s Sin; A Lament and Call to Repentance; A Call to Repentance\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Northern kingdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "AMO 5:1"
+    },
+    "Hear this message¦368741 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈of mourning"
+     ]
+    },
+    " over you¦368746 that¦368743 I take up, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈people"
+     ]
+    },
+    " of Yisrael¦368749:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "AMO 5:2"
+    },
+    "The virgin¦368756 Yisrael¦368757 has fallen¦368751—she won’t¦368752 rise again.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "She’s¦368751 abandoned¦368758 on her land—there’s¦368762 no one to ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈help"
+     ]
+    },
+    " her up,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "AMO 5:3"
+    },
+    "because this is what the master¦368768 Yahweh¦368768 says¦368767:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“The¦368769 city¦368770 that went out with a thousand¦368772 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "warriors"
+     ]
+    },
+    " will have a hundred left,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and the one that went out with a hundred will have ten¦368778 left belonging to the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈nation"
+     ]
+    },
+    " of Yisrael¦368780.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "AMO 5:4"
+    },
+    "This is what Yahweh¦368786 says¦368785 to the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈people"
+     ]
+    },
+    " of Yisrael¦368788:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“Seek me and¦368790 live¦368790!\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "AMO 5:5"
+    },
+    "Don’t seek Beyt-El ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(which means ‘God’s house’)"
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈or enter Gilgal¦368798;\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Don’t journey ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "down"
+     ]
+    },
+    " to Be’er-Sheva.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Because Gilgal will surely go into captivity,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and¦368792 Beyt-El will become¦368812 nothing¦368813.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "AMO 5:6"
+    },
+    "Seek Yahweh¦368818 and live¦368819,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "or he will break out like fire¦368823 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈among Yosef’s¦368825 descendants"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "It will devour¦368826, and there’ll¦368827 be no one to quench it in Beyt-El.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "AMO 5:7"
+    },
+    "Those people turn¦368834 justice¦368836 into ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈a bitter thing"
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦368837 throw righteousness¦368837 down to the ground¦368838.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "AMO 5:8"
+    },
+    "God made the Pleiades¦368842 and Orion¦368843 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "constellations"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He turns¦368844 darkness¦368846 into the morning¦368845\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and he makes¦368849 the day¦368847 dark with night¦368848\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He calls¦368850 for the waters¦368851 of the sea¦368853\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and pours¦368854 them out on the surface¦368857 of the earth¦368858.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Yahweh¦368859 is his name¦368860.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "AMO 5:9"
+    },
+    "He causes¦368863 devastation¦368864 to land on the strong¦368867,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and¦368868 destruction¦368868 comes down on the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#fortresses"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "AMO 5:10"
+    },
+    "They hate¦368874 anyone who corrects them ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈at¦368875 the community centre"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and¦368877 they¦368879 despise anyone who speaks¦368877 the truth.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "AMO 5:11"
+    },
+    "Therefore, because¦368882 you trample¦368883 down the poor\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and take¦368890 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈a percentage"
+     ]
+    },
+    " of ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "all"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#their¦368907"
+     ]
+    },
+    " grain¦368889—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "although you have built¦368894 houses¦368892 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈from nice stone blocks"
+     ]
+    },
+    ", you won’t ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "get to"
+     ]
+    },
+    " live in¦368898 them.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈You have delightful vineyards¦368899, but¦368887 you won’t drink¦368904 their wine.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "AMO 5:12"
+    },
+    "I know¦368910 how many your offenses are\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and how great¦368913 your sins¦368914 are—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "you¦368917 who ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈make honest people suffer"
+     ]
+    },
+    ", take¦368917 bribes,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and turn¦368921 aside¦368921 the needy¦368919 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈at¦368920 the community centre"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "AMO 5:13"
+    },
+    "Therefore any ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈sensible"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      ">person"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈should be"
+     ]
+    },
+    " silent¦368927 at¦368925 such a time,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because it’s an evil time.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "AMO 5:14"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Strive to do"
+     ]
+    },
+    " good¦368935 and not evil¦368938, so that you may live¦368940.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "So Yahweh¦368944, the god¦368945 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈with armies"
+     ]
+    },
+    ", will really be with you,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "just like you’ve all been saying.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "AMO 5:15"
+    },
+    "Hate evil¦368954, love¦368955 good¦368956, and establish¦368957 justice¦368959 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈at¦368958 the community centre"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Perhaps Yahweh¦368962, the god¦368963 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈with¦368958 armies"
+     ]
+    },
+    ", will be gracious to the remnant¦368966 of Yosef’s¦368967 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "descendants"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "AMO 5:16"
+    },
+    "Therefore, this is what Yahweh¦368977 says¦368973, the god¦368975 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈with armies"
+     ]
+    },
+    ", my master¦368977,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“Wailing will be in all the squares,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and in all the streets¦368984 they’ll ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈complain"
+     ]
+    },
+    ", ‘",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Oh no. Oh no."
+     ]
+    },
+    "’\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They’ll call the farmers¦368990 to mourning\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and the mourners to wail.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "AMO 5:17"
+    },
+    "There’ll be wailing¦369003 in¦369007 all the vineyards¦369002 because I’ll¦369006 pass¦369006 through among you¦369007,”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mi",
+   "content": [
+    "Yahweh¦369009 says¦369008.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Warning about coming judgement\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Day of the Lord; Warning of Coming Judgment; The Day of the Lord a Dark Day\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Northern kingdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "AMO 5:18"
+    },
+    "You who desire¦369013 the day of Yahweh ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈won’t¦369027 end well"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Why do you long for the day of Yahweh?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "It’ll be darkness¦369026 and not light¦369029,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "AMO 5:19"
+    },
+    "like when a person flees¦369032 from a lion¦369035 and then ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈they run into a bear"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈or when a person goes¦369038 in a house¦369039 and puts a hand¦369041 on the wall¦369044 and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈gets bitten by a snake¦369046"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "AMO 5:20"
+    },
+    "Won’t Yahweh’s day¦369051 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈consist of"
+     ]
+    },
+    " darkness¦369050 and not light¦369055?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Gloom and no brightness¦369059?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "AMO 5:21"
+    },
+    "“I hate¦369062, I despise your festivals¦369064,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈I ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈take no delight¦369066 in¦369067"
+     ]
+    },
+    " your formal gatherings.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "5:21-22: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Isa 1:11-14."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "AMO 5:22"
+    },
+    "Even though you¦369072 all offer me your burnt¦369075 offerings and grain¦369076 offerings, I won’t¦369077 accept¦369078 them,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈nor will I ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈take any notice of"
+     ]
+    },
+    " your fellowship¦369079 offerings of fattened¦369080 animals¦369080.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "AMO 5:23"
+    },
+    "Take the noise¦369086 of your songs¦369087 away from me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈I won’t¦369090 listen¦369091 to the sound of your harps¦369089.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "AMO 5:24"
+    },
+    "Instead, let justice¦369095 flow like water¦369094,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and¦369096 righteousness¦369096 like a constantly flowing stream¦369097.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "25",
+     "sid": "AMO 5:25"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈You¦369108 descendants"
+     ]
+    },
+    " of Yisrael¦369109,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "did you¦369102 bring¦369102 me sacrifices¦369100 and¦369101 offerings¦369101 in¦369105 the wilderness¦369105 for forty¦369106 years?",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "5:25-27: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 7:42-43."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "26",
+     "sid": "AMO 5:26"
+    },
+    "You’ve all lifted up the images¦369117 of Sikkut¦369113, your king¦369114,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦369115 Kiyyun¦369116, your star¦369118 god¦369119 that¦369120 you¦369121 made for yourselves¦369122.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "27",
+     "sid": "AMO 5:27"
+    },
+    "Therefore I will exile¦369124 you¦369125 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "far"
+     ]
+    },
+    " beyond¦369126 Damascus¦369127,”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mi",
+   "content": [
+    "says¦369128 Yahweh¦369129, whose name¦369133 is the god¦369130 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈with armies"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "6",
+   "sid": "AMO 6"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Exile for the complacent\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Destruction of Israel; Woe to the Complacent; Complacent Self-Indulgence Will Be Punished\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Northern kingdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "AMO 6:1"
+    },
+    "Those who are at¦369138 ease in Tsiyyon¦369138 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Zion¦369138)"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈won’t end well"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "nor will those¦369139 who feel secure¦369139 in the hill¦369140 country of Shomron¦369141 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Samaria¦369141)"
+     ]
+    },
+    "—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "the notable men of the best of the nations¦369144—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "the ones who ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Israel’s¦369148 descendants"
+     ]
+    },
+    " come¦369145 to for help!\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "AMO 6:2"
+    },
+    "“Go to Kalneh¦369151 and look.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "From there¦369154 go to Hamat¦369155-Rabah.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Then go down to the Philistine ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "city of"
+     ]
+    },
+    " Gat¦369158.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Are they better¦369162 than your two kingdoms¦369165?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Is their¦369170 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈territory"
+     ]
+    },
+    " larger than yours?”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "AMO 6:3"
+    },
+    "Those who ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "?≈refuse to consider"
+     ]
+    },
+    " the day¦369174 of disaster ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈won’t end well"
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦369176 make the seat¦369177 of violence¦369178 come closer.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "AMO 6:4"
+    },
+    "They lie on ivory¦369184 beds\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and lounge¦369185 on their¦369188 couches¦369188.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They eat¦369189 lambs¦369190 from the flock¦369191\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and calves¦369192 from the stall¦369194.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "AMO 6:5"
+    },
+    "They sing fun songs¦369196 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈with the harp as accompaniment"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈improvise¦369196"
+     ]
+    },
+    " on musical instruments¦369204 like David¦369201 did.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "AMO 6:6"
+    },
+    "They drink¦369208 bowls¦369209 of wine\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and anoint themselves with¦369209 the finest¦369211 oils,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "but¦369211 they don’t¦369214 grieve over ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Israel’s"
+     ]
+    },
+    " ruin.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "AMO 6:7"
+    },
+    "Therefore, they’ll go into exile now with¦369226 the first¦369226 exiles,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and the feasts of those¦369227 who lounged about will ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈come¦369228 to an end¦369228"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Lord Abhors the Pride of Israel\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "AMO 6:8"
+    },
+    "This is the declaration of Yahweh, the god¦369240 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈with armies"
+     ]
+    },
+    ":\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“I, the master¦369234 Yahweh, have sworn¦369233 by myself\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "that I detest ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Israel’s"
+     ]
+    },
+    " pride¦369246.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I hate¦369249 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#their"
+     ]
+    },
+    " fortresses¦369248,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "therefore I’ll¦369250 hand the city¦369251",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "6:8 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "Probably Shomron (Samaria)."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " over with everything¦369252 that’s in¦369236 it¦369252.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "AMO 6:9"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈When¦369254 that happens"
+     ]
+    },
+    ", if there’s ten¦369258 people left in¦369260 a house¦369260, they’ll all die¦369262.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "AMO 6:10"
+    },
+    "When¦369264 a person’s relative¦369265 comes to take their bodies out of the house to be burnt outside, if he asks the person in¦369274 the house if there’s anyone¦369277 with¦369274 them and¦369264 if that person says there’s not, then¦369264 he’ll say, “",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Don’t say anything else"
+     ]
+    },
+    " because we mustn’t mention¦369284 Yahweh’s name.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "AMO 6:11"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Yes,"
+     ]
+    },
+    " because, listen, Yahweh¦369291 will give a command¦369292,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and the big house will be smashed¦369293 to pieces,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and the little house ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "turned"
+     ]
+    },
+    " into rubble¦369299.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "AMO 6:12"
+    },
+    "Do horses¦369303 run¦369301 on¦369302 the rocky cliffs?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Would someone plough there with¦369302 oxen?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Yet you’ve all turned¦369310 justice¦369312 into poison¦369311\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦369313 the results of ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈doing what’s right¦369314"
+     ]
+    },
+    ", into bitterness,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "AMO 6:13"
+    },
+    "you who celebrate about ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "capturing"
+     ]
+    },
+    " Lo-Debar—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "who say¦369320, “Didn’t we¦369323 take Karnaim¦369325 by our¦369322 own strength¦369322?”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "AMO 6:14"
+    },
+    "Therefore, listen, I’ll raise¦369329 up a nation¦369338 against¦369330 you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈people"
+     ]
+    },
+    " of Yisrael¦369332.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mi",
+   "content": [
+    "That’s the declaration of Yahweh¦369335, the god¦369336 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈with armies"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They’ll afflict you\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "from Lebo¦369341-Hamat¦369342 to the brook in the Arabah¦369346.”\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "7",
+   "sid": "AMO 7"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The locusts vision\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Visions foretelling doom upon Israel; Locusts, Fire and a Plumb Line; Locusts, Fire, and a Plumb Line; A Vision of Locusts\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Northern kingdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "AMO 7:1"
+    },
+    "This is what my master¦369351 Yahweh¦369351 showed¦369350 me:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "m",
+   "content": [
+    "Listen, he formed a locust¦369355 swarm when the spring¦369358 crop began to come up, and oh no, it was the late crop after¦369362 the king’s¦369364 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "initial"
+     ]
+    },
+    " harvest.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "AMO 7:2"
+    },
+    "When¦369366 they’d finished¦369369 eating¦369370 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈everything green across"
+     ]
+    },
+    " the land, then¦369366 I ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈asked"
+     ]
+    },
+    ", “My master¦369376 Yahweh¦369376, please¦369380 forgive¦369378 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      ">me"
+     ]
+    },
+    ". How will ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Yisrael survive because it’s only a small¦369385"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "country"
+     ]
+    },
+    "?”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "AMO 7:3"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "So"
+     ]
+    },
+    " Yahweh¦369389 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈backed off"
+     ]
+    },
+    " from that and said¦369395 that ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "*he"
+     ]
+    },
+    " wouldn’t do it¦369394.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The wildfire vision\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 A Vision of Fire\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Northern kingdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "AMO 7:4"
+    },
+    "This is what my master Yahweh showed¦369399 me:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "m",
+   "content": [
+    "Listen, my master Yahweh called on¦369405 fire¦369405 to judge¦369404 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      ">the country"
+     ]
+    },
+    ". It ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈dried up"
+     ]
+    },
+    " the vast, deep water under the earth and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "also would have"
+     ]
+    },
+    " devoured¦369413 the land\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "AMO 7:5"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈except"
+     ]
+    },
+    " I said¦369418, “My master¦369419 Yahweh¦369419, please¦369423 stop. How will ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Israel"
+     ]
+    },
+    " survive because it’s so small¦369428?”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "AMO 7:6"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "So"
+     ]
+    },
+    " Yahweh¦369442 also ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈backed off"
+     ]
+    },
+    " from that and said¦369441 that ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "*he"
+     ]
+    },
+    " wouldn’t do it.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The plumb-line vision\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 A Vision of a Plumb Line\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Northern kingdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "AMO 7:7"
+    },
+    "This is what he¦369447 showed¦369447 me:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "m",
+   "content": [
+    "Listen, my master¦369449 stood on¦369455 a wall¦369453 holding a plumb-line\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "AMO 7:8"
+    },
+    "and¦369458 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "*he"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈asked"
+     ]
+    },
+    " me, “Amos¦369465, what do you see?”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    "“A plumb line,” I ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈answered"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    "“Listen, I’ll¦369478 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈drop"
+     ]
+    },
+    " a plumb-line ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "down to check out"
+     ]
+    },
+    " my people¦369474 Yisrael¦369475,” my master¦369469 said. “Never again¦369479 will I spare them.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "AMO 7:9"
+    },
+    "The ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈hilltop shrines"
+     ]
+    },
+    " of Yitsak ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Isaac¦369485)"
+     ]
+    },
+    " will be destroyed.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Yisrael’s sanctuaries¦369486 will be ruined,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦369483 I’ll¦369489 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈take action"
+     ]
+    },
+    " against the house¦369492 of Yaraveam ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Jeroboam)"
+     ]
+    },
+    " with¦369494 the sword¦369494.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Amos and Amasiyas\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Amos and Amaziah; Amaziah Complains to the King\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Both kingdoms\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "AMO 7:10"
+    },
+    "Then Amatsyah, the priest¦369499 at¦369513 Beyt-El ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Bethel)"
+     ]
+    },
+    ", sent¦369497 a message to Yisrael’s King¦369506 Yaraveam, saying: “Amos¦369512 has conspired¦369510 against¦369511 you¦369511 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈right among the Israeli¦369506 people"
+     ]
+    },
+    ". The ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈country can’t¦369516 handle"
+     ]
+    },
+    " all his messages¦369525.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "AMO 7:11"
+    },
+    "Amos¦369531 is saying that ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "you,"
+     ]
+    },
+    " Yaraveam¦369534, will die¦369533 by the sword¦369532 and that Yisrael¦369535 will definitely ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈get taken"
+     ]
+    },
+    " into exile away from this land.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "AMO 7:12"
+    },
+    "Amatsyah ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈ordered"
+     ]
+    },
+    " Amos¦369546, “Hey prophet! Go ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "and"
+     ]
+    },
+    " run yourself¦369551 back to the Yehudah¦369555 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈region¦369554"
+     ]
+    },
+    ", and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈earn your living"
+     ]
+    },
+    " and prophesy there.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "AMO 7:13"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈But¦369563"
+     ]
+    },
+    " you¦369568 must never again¦369569 prophesy¦369570 here at Beyt-El because it’s the king’s sanctuary¦369572, and¦369576 it’s the royal residence.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "AMO 7:14"
+    },
+    "“I’m not a prophet,” Amos¦369582 answered¦369581 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "*the priest"
+     ]
+    },
+    ". “Nor am I a prophet’s son, because I’m a herdsman¦369598, plus¦369581 I take care of ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈an orchard"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "AMO 7:15"
+    },
+    "But¦369603 Yahweh¦369604 took¦369603 me from ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈looking after¦369605"
+     ]
+    },
+    " the flock¦369606 and¦369607 told me, ‘Go¦369609, prophesy¦369611 to my people¦369614 Yisrael¦369615.’\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "AMO 7:16"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈So¦369617"
+     ]
+    },
+    " now listen¦369618 to Yahweh’s message¦369619: You say, ‘Don’t prophesy against Yisrael¦369628, and¦369629 don’t¦369624 speak out against Yitsak’s ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈descendants"
+     ]
+    },
+    ".’\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "AMO 7:17"
+    },
+    "Therefore this is what Yahweh¦369640 says:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Your wife¦369641 will become a prostitute¦369643 in the city¦369642.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Your sons¦369644 and daughters¦369645 will ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈die"
+     ]
+    },
+    " by the sword¦369646.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Your ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈property"
+     ]
+    },
+    " will be measured¦369649 and divided¦369650 up.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "You’ll die in a ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈foreign, heathen country"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and Yisrael¦369657 will certainly¦369658 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈be taken"
+     ]
+    },
+    " into exile from its land.”\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "8",
+   "sid": "AMO 8"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The basket-of-fruit vision\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Basket of Fruit; A Vision of Ripe Fruit; A Basket of Ripe Fruit; A Vision of a Basket of Fruit\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Northern kingdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "AMO 8:1"
+    },
+    "This is what my master¦369666 Yahweh¦369666 showed¦369665 me: See this basketful¦369669 of summer¦369670 fruit¦369670.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "AMO 8:2"
+    },
+    "Then he ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈asked"
+     ]
+    },
+    ", “What do you see, Amos¦369677?”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    "“A basket¦369679 of summer¦369680 fruit¦369680,” I said.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    "Then Yahweh¦369682 told me, “The end¦369685 has come¦369684 for my people¦369688 Yisrael¦369689. I won’t¦369690 spare them any longer.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "AMO 8:3"
+    },
+    "The songs¦369698 of the temple¦369699 will become¦369697 wailings¦369697 on that day¦369700.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mi",
+   "content": [
+    "That’s the declaration of my master¦369703 Yahweh¦369703.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“Many dead¦369706 bodies¦369706—they’re thrown¦369710 everywhere.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Then¦369697"
+     ]
+    },
+    " silence.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Yisrael’s punishment\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Israel’s Doom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Northern kingdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "AMO 8:4"
+    },
+    "Listen¦369717 to this, you who trample¦369717 the needy¦369718\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and take the poor off the land.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "AMO 8:5"
+    },
+    "They say,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“When will the new moon ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "celebrations"
+     ]
+    },
+    " be over, so we can sell grain again?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈When will the Rest Day be over, so we can sell wheat?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "We’ll make the measure small¦369735 and increase the price,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈as we cheat with false scales.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "AMO 8:6"
+    },
+    "This is so we¦369751 can sell low-grade wheat.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≡We can"
+     ]
+    },
+    " buy the poor ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      ">people"
+     ]
+    },
+    " with¦369744 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈cash"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and the needy¦369746 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      ">people"
+     ]
+    },
+    " for a pair of sandals¦369748.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "AMO 8:7"
+    },
+    "Yahweh¦369754 has made an oath on¦369755 Yakob’s pride¦369755,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“I certainly won’t ever forget¦369759 any of their¦369763 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "evil"
+     ]
+    },
+    " actions.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "AMO 8:8"
+    },
+    "Won’t the land ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "itself"
+     ]
+    },
+    " quake due to this ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "behaviour"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and every¦369772 one who lives in¦369775 it mourn¦369771?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "All of ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "@the ground"
+     ]
+    },
+    " will come up like the Nile River¦369782 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "after the rains"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and it will be tossed¦369779 about¦369779 then settle again, like Egypt’s¦369783 river.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "AMO 8:9"
+    },
+    "This is the declaration of my master¦369791 Yahweh¦369791:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“It will come ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈at that time"
+     ]
+    },
+    " that I’ll¦369793 make the sun set at noon,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and I will darken¦369796 the earth¦369797 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈during the day"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "AMO 8:10"
+    },
+    "I’ll turn¦369801 your festivals into mourning\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and all your songs¦369806 into dirges.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I’ll make all of you wear sackcloth¦369814\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and every¦369817 head¦369819 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈to be shaved"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I’ll make it¦369821 like mourning for an only son,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and a bitter¦369826 day¦369825 to its¦369824 end¦369824.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "AMO 8:11"
+    },
+    "This is the declaration of my master¦369833 Yahweh¦369833:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Listen, the days¦369830 are coming¦369831 when I’ll¦369835 send¦369835 a famine to ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "&this"
+     ]
+    },
+    " country.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Not a famine for bread¦369841 or a thirst¦369844 for water¦369845,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "but¦369835 for hearing¦369849 Yahweh’s messages¦369851.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "AMO 8:12"
+    },
+    "They’ll stagger¦369854 from sea to sea.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They’ll rove around from the north¦369859 to the east to seek Yahweh’s message¦369867,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "but¦369854 they won’t¦369870 find it.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "AMO 8:13"
+    },
+    "In that day¦369873 the beautiful¦369877 young women¦369876\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and¦369878 the young men¦369878 will faint¦369875 from ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈dehydration"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "AMO 8:14"
+    },
+    "Those who swear¦369881 by the guilt¦369882 of Shomron¦369883 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Samaria¦369883)"
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and say¦369884, ‘As your¦369886 god¦369886 lives¦369888, Dan¦369887,’\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and, ‘As the road to Beer¦369892-Sheva exists’—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "they¦369896 will ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈die"
+     ]
+    },
+    " and never ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈live"
+     ]
+    },
+    " again¦369897.”\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "9",
+   "sid": "AMO 9"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Yahweh’s judgement on Yisrael\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 A Vision of God at the Altar; The Lord’s Judgments; Israel to Be Destroyed; The Destruction of Israel\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Northern kingdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "AMO 9:1"
+    },
+    "I saw¦369900 my master¦369903 standing¦369904 beside the altar¦369907, and he said¦369908,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“Strike the tops of the pillars so that the foundations will shake¦369911.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Break them in¦369914 pieces onto all their¦369915 heads¦369914,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and I will kill¦369918 the last of them with¦369914 the sword¦369917.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Not one of them will get away.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Not one of them will escape¦369926.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "AMO 9:2"
+    },
+    "Though they dig ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "down"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈towards"
+     ]
+    },
+    " Sheol¦369933, my hand¦369935 will reach in¦369933 there and pluck them out.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Though they climb up to heaven¦369940, I’ll¦369942 bring¦369942 them ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "back"
+     ]
+    },
+    " down from there.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "AMO 9:3"
+    },
+    "Even if they hide on¦369947 the top of ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Mt."
+     ]
+    },
+    " Carmel¦369948, I’ll search¦369950 there and¦369944 take¦369951 them.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Though they’re hidden from my sight¦369956 at¦369947 the bottom¦369957 of the sea¦369958, I’ll give orders to the serpent there ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈to"
+     ]
+    },
+    " bite them.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "AMO 9:4"
+    },
+    "Though they¦369968 go¦369968 into captivity¦369969, driven ahead by their¦369971 enemies¦369971, I’ll give orders there¦369973 to the sword ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈to"
+     ]
+    },
+    " kill¦369978 them.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I’ll keep my eyes¦369980 on¦369969 them for harm and¦369966 not for good¦369984.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "AMO 9:5"
+    },
+    "Master¦369986 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "and"
+     ]
+    },
+    " army¦369988 commander¦369988 Yahweh¦369986 touches¦369989 the land and it melts¦369991.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "All who live in¦369996 it mourn¦369992.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "All of it will rise up like the Nile River,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "then¦369986 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈go down"
+     ]
+    },
+    " again like Egypt’s¦370002 river.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "AMO 9:6"
+    },
+    "He builds¦370006 his steps in the heavens¦370007,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and has established his vault¦370010 over the earth.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He calls¦370015 for the waters¦370016 of the sea¦370018,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and pours¦370019 them out on the earth’s surface¦370022,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Yahweh¦370024 is his name¦370025.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "AMO 9:7"
+    },
+    "This is Yahweh’s declaration:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“Aren’t you all like Ethiopia’s sons¦370028 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Heb. Kush)"
+     ]
+    },
+    " to me, you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Israelis¦370032"
+     ]
+    },
+    "?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Didn’t I bring¦370041 Yisrael¦370033 out of Egypt¦370043,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "the Philistines¦370044 from Crete,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and the Arameans¦370046 from Kir¦370047?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "AMO 9:8"
+    },
+    "Listen, the eyes¦370050 of my master¦370052 Yahweh¦370052 are on¦370054 the sinful¦370055 kingdom¦370054 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "of Yisrael"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦370056 I will destroy it from the face of the earth,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "except that I won’t¦370063 totally¦370064 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈wipe out Yakob’s descendants"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mi",
+   "content": [
+    "That is Yahweh’s declaration.\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 A remnant spared and restored\n"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "AMO 9:9"
+    },
+    "Because, listen, I will give a command¦370078,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and I’ll¦370079 shake¦370079 Yisrael¦370086 among¦370080 all the nations¦370082,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "as one shakes grain in¦370080 a sieve¦370089,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈but¦370079"
+     ]
+    },
+    " not even a pebble¦370093 will fall to the ground¦370094.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "AMO 9:10"
+    },
+    "All my people¦370100 who are sinners¦370099 will die¦370097 by the sword¦370096,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "including¦370105"
+     ]
+    },
+    " those who said, ‘",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈We’re totally immune from any"
+     ]
+    },
+    " disaster¦370107.’\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Yisrael’s future restoration\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Restoration of David’s Kingdom; Israel’s Restoration; The Future Restoration of Israel; A Promise of Restoration\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Full kingdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "AMO 9:11"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈At that time¦370124"
+     ]
+    },
+    ", I’ll raise up David’s¦370115 shelter that collapsed, and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈repair¦370117 where it’s split"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈I’ll raise up its ruins¦370121, and rebuild¦370123 it as in the days¦370124 of old.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "9:11-12: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 15:16-18."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "AMO 9:12"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Consequently"
+     ]
+    },
+    " they¦370128 may ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈take over what’s left"
+     ]
+    },
+    " of Edom¦370132\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦370133 all the nations¦370135 that¦370136 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈have decided to follow me"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mi",
+   "content": [
+    "That is Yahweh’s declaration—he’ll do it¦370138.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "AMO 9:13"
+    },
+    "This is Yahweh’s declaration:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Listen, the days¦370149 will come when the man on¦370156 the plough will overtake the harvester,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and the treader¦370157 of grapes¦370158 will overtake the one planting seed.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The mountains¦370162 will drip sweet¦370163 wine,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and all the hills¦370166 will flow with¦370156 it.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "AMO 9:14"
+    },
+    "I’ll¦370169 bring my people¦370173 Yisrael¦370174 back from captivity¦370172.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They’ll build the ruined cities¦370176 and inhabit¦370178 them.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They’ll plant¦370179 vineyards¦370180 and drink¦370181 their wine,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and they’ll make gardens¦370186 and eat¦370187 their fruit¦370190.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "AMO 9:15"
+    },
+    "I’ll¦370192 plant¦370192 them upon their land,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦370192 they’ll never again¦370198 be uprooted from the land that¦370201 I’ve¦370202 given¦370202 them,”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "says¦370204 your¦370206 god¦370206 Yahweh¦370205.\n"
+   ]
   }
+ ]
 }

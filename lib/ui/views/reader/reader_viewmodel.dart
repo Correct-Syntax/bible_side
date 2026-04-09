@@ -16,8 +16,10 @@ import '../../../common/toast.dart';
 import '../../../services/bibles_service.dart';
 import '../../../services/reader_service.dart';
 import '../../../services/settings_service.dart';
+import '../wordlinks/wordlinks_view.dart';
 
 class ReaderViewModel extends ReactiveViewModel {
+  final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
   final _biblesService = locator<BiblesService>();
   final _readerService = locator<ReaderService>();
   final _settingsService = locator<SettingsService>();
@@ -48,6 +50,10 @@ class ReaderViewModel extends ReactiveViewModel {
 
   bool isPrimaryReaderAreaPopupActive = false;
   bool isSecondaryReaderAreaPopupActive = false;
+  bool scrollUp = false;
+  String aboveSectionHeader =
+      ''; // sectionHeader earlier in the Bible (so if current is 1:10, this could be the section header for 1:1-1:9 for example)
+  String currentSectionHeader = '';
 
   Future<void> initilize() async {
     setBusy(true);
@@ -83,8 +89,118 @@ class ReaderViewModel extends ReactiveViewModel {
     setBusy(false);
   }
 
+//JS injected after page load
+  static const String _contextMenuJs = r"""
+    // Disable native context menu
+    document.addEventListener('contextmenu', e => e.preventDefault());
+
+    // Detect long press / selection
+    document.addEventListener('selectionchange', () => {
+      const selection = window.getSelection();
+      const text = selection.toString().trim();
+      if (text.length > 0) {
+        SelectionChannel.postMessage(text);
+      }
+    });
+  """;
+// JS injected after page loads
+  static const String _wordClickJs = r"""
+    (function() {
+      if (window.__wordListenerAttached) return;
+      window.__wordListenerAttached = true;
+
+      let touchStartX = 0;
+      let touchStartY = 0;
+
+      document.addEventListener('touchstart', function(e) {
+        if (e.touches && e.touches.length > 0) {
+          touchStartX = e.touches[0].clientX;
+          touchStartY = e.touches[0].clientY;
+        }
+      });
+
+      function handleWordClick(e) {
+        const touch = e.changedTouches ? e.changedTouches[0] : e;
+        
+        if (e.type === 'touchend' && e.changedTouches) {
+          const deltaX = Math.abs(touch.clientX - touchStartX);
+          const deltaY = Math.abs(touch.clientY - touchStartY);
+          if (deltaX > 10 || deltaY > 10) {
+            return; // Abort because user was scrolling
+          }
+        }
+
+        let range;
+
+        if (document.caretPositionFromPoint) {
+          const pos = document.caretPositionFromPoint(touch.clientX, touch.clientY);
+          if (!pos) return;
+          range = document.createRange();
+          range.setStart(pos.offsetNode, pos.offset);
+        } else if (document.caretRangeFromPoint) {
+          range = document.caretRangeFromPoint(touch.clientX, touch.clientY);
+        }
+
+        if (!range || range.startContainer.nodeType !== Node.TEXT_NODE) return;
+
+        let targetElement = range.startContainer.parentElement;
+        if (!targetElement || !targetElement.closest('[data-version="OET-LV"]')) return;
+
+        range.expand('word');
+        const word = range.toString().trim().replace(/[^\p{L}\p{N}'’\-_]/gu, '');
+
+        if (word) {
+          let p = range.startContainer.parentElement ? range.startContainer.parentElement.closest('.p') : null;
+          if (!p) return;
+          let sup = p.querySelector('sup');
+          if (!sup || !sup.id) return;
+
+          let idParts = sup.id.split('-');
+          if (idParts.length < 4) return;
+          
+          let book = idParts[1];
+          let chapter = parseInt(idParts[2]);
+          let verse = parseInt(idParts[3]);
+
+          let preRange = document.createRange();
+          try {
+            if (sup.nextSibling) {
+              preRange.setStartBefore(sup.nextSibling);
+            } else {
+              preRange.setStartAfter(sup);
+            }
+            preRange.setEnd(range.startContainer, range.startOffset);
+          } catch (err) {
+            // handle err
+          }
+          
+          let preText = preRange.toString();
+          let wordMatches = preText.match(/[\p{L}\p{N}'’\-_]+/gu);
+          let wordNumber = (wordMatches ? wordMatches.length : 0) + 1;
+
+          let payload = JSON.stringify({
+             word: word,
+             book: book,
+             chapter: chapter,
+             verse: verse,
+             wordNumber: wordNumber
+          });
+
+          if (window.__wordClickTimeout) clearTimeout(window.__wordClickTimeout);
+          window.__wordClickTimeout = setTimeout(() => {
+            OnClickWordEvent.postMessage(payload);
+          }, 250);
+        }
+      }
+
+      document.addEventListener('mouseup', handleWordClick);
+      document.addEventListener('touchend', handleWordClick);
+    })();
+  """;
+
   Future<void> setupWebviewController() async {
-    PlatformWebViewControllerCreationParams params = const PlatformWebViewControllerCreationParams();
+    PlatformWebViewControllerCreationParams params =
+        const PlatformWebViewControllerCreationParams();
     webviewController = WebViewController.fromPlatformCreationParams(params)
       ..setBackgroundColor(context.theme.appColors.background)
       ..enableZoom(false)
@@ -96,6 +212,74 @@ class ReaderViewModel extends ReactiveViewModel {
           await setBookmark(message.message);
         },
       )
+      // ..addJavaScriptChannel(
+      //   'onScrolltoNewSection',
+      //   onMessageReceived: (message) async {
+      //     log('<onScrolltoNewSection> ${message.message}');
+      //     if (!scrollUp) { // if scroll down, section passed should be new section header
+      //       aboveSectionHeader = currentSectionHeader;
+      //       currentSectionHeader = message.message;
+      //     }
+      //     if (scrollUp && message.message == currentSectionHeader) { // if scroll up one section, section header should be the earlier section header
+      //       currentSectionHeader = aboveSectionHeader;
+      //     }
+      //     else if (scrollUp && message.message != currentSectionHeader) { // if scroll up multiple sections, only have next version's section header // TODO: make it show the right section header. perhaps make aboveSectionHeader a stack? will only work if already scrolled down past the section header
+      //       currentSectionHeader = message.message; // will update to section below section shown
+      //     }
+      //     rebuildUi();
+      //   },
+      // )
+      ..addJavaScriptChannel(
+        'OnScrollEvent',
+        onMessageReceived: (message) async {
+          //log('<OnScrollEvent> ${message.message}');
+          try {
+            final data = jsonDecode(message.message);
+            final rawId = data['id'] ?? message.message;
+            final cleaned =
+                rawId.replaceAll('primary-', '').replaceAll('secondary-', '');
+            final parts = cleaned.split('-');
+            if (parts.length >= 3) {
+              final chap = int.tryParse(parts[1]) ?? chapterNumber;
+              final verse = int.tryParse(parts[2]) ?? verseNumber;
+              _biblesService.setChapter(chap);
+              _biblesService.setVerse(verse);
+            } else if (parts.length == 2) {
+              final chap = int.tryParse(parts[1]) ?? chapterNumber;
+              _biblesService.setChapter(chap);
+            }
+          } catch (e) {
+            final rawId = message.message;
+            final cleaned =
+                rawId.replaceAll('primary-', '').replaceAll('secondary-', '');
+            final parts = cleaned.split('-');
+            if (parts.length >= 3) {
+              final chap = int.tryParse(parts[1]) ?? chapterNumber;
+              final verse = int.tryParse(parts[2]) ?? verseNumber;
+              _biblesService.setChapter(chap);
+              _biblesService.setVerse(verse);
+            }
+          }
+          rebuildUi();
+        },
+      )
+      ..addJavaScriptChannel('OnScrollDirection',
+          onMessageReceived: (message) async {
+        if (message.message == 'down') {
+          scrollUp = false;
+          rebuildUi();
+        } else if (message.message == 'up') {
+          scrollUp = true;
+          rebuildUi();
+        }
+      })
+      ..addJavaScriptChannel(
+        'OnClickWordEvent',
+        onMessageReceived: (JavaScriptMessage message) {
+          final word = message.message;
+          _onWordTapped(word);
+        },
+      )
       ..setNavigationDelegate(
         NavigationDelegate(
           onProgress: (int progress) {
@@ -103,7 +287,11 @@ class ReaderViewModel extends ReactiveViewModel {
             rebuildUi();
           },
           onPageStarted: (String url) {},
-          onPageFinished: (String url) {},
+          onPageFinished: (String url) {
+            //This code is to add wordlinks to every OET-LV word, needs tweaked
+            webviewController.runJavaScript(_wordClickJs);
+            //webviewController.runJavaScript(_contextMenuJs);
+          },
           onHttpError: (HttpResponseError error) {},
           onWebResourceError: (WebResourceError error) {
             log('''
@@ -118,18 +306,123 @@ class ReaderViewModel extends ReactiveViewModel {
             if (request.url.startsWith('http')) {
               return NavigationDecision.prevent;
             }
+            final uri = Uri.parse(request.url);
+            if (uri.scheme == 'app') {
+              _handleAppNavigation(uri);
+              return NavigationDecision.prevent;
+            }
             return NavigationDecision.navigate;
           },
         ),
       );
     await AndroidWebViewController.enableDebugging(true);
+
+    webviewController.addJavaScriptChannel(
+      'SelectionChannel',
+      onMessageReceived: (message) {
+        final selectedText = message.message;
+        _showContextMenu(selectedText);
+      },
+    );
+    /*
+    * Conditionally add javascript channels. This is not possible to do inline witht he ..addJavaScriptChannle.
+    * We need to add the channels based on the version. 
+    * E.g. moo
+    */
+    /*
+    if (1==1) {
+  webviewController.addJavaScriptChannel(
+    'WordChannel',
+    onMessageReceived: (message) => _onWordTapped(message.message),
+  );
+  */
+  }
+
+  void _showContextMenu(String text) {
+    showModalBottomSheet(
+      context: context,
+      builder: (_) => SafeArea(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            ListTile(
+              leading: const Icon(Icons.search),
+              title: const Text('Wordlink'),
+              onTap: () {
+                Navigator.pop(context);
+                //_defineWord(text);
+                print('Define: $text');
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.copy),
+              title: const Text('Copy'),
+              onTap: () {
+                Clipboard.setData(ClipboardData(text: text));
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.share),
+              title: const Text('Share'),
+              onTap: () {
+                Navigator.pop(context);
+                //_shareText(text);
+                print("Share $text");
+              },
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  void _onWordTapped(String message) {
+    try {
+      final data = jsonDecode(message);
+      _navigationService.navigateTo(
+        Routes.wordLinksView,
+        arguments: WordLinksViewArguments(
+          bookCode: data['book'],
+          chapterNumber: data['chapter'],
+          verseNumber: data['verse'],
+          wordNumber: data['wordNumber'],
+        ),
+      );
+    } catch (e) {
+      log('Error parsing word click data: $e');
+    }
+  }
+
+  void _handleAppNavigation(Uri uri) {
+    final path = uri.pathSegments.first;
+
+    switch (path) {
+      case 'WordLinksView':
+        /*
+        _navigationService.navigateTo(
+          Routes.wordLinksView,
+          arguments: const WordLinksViewArguments(
+            bookCode: 'ACT',
+            chapterNumber: 1,
+            verseNumber: 1,
+            wordNumber: 1,
+          ),
+        );
+        */
+        break;
+    }
   }
 
   /// Initializes the webview html with everything except for the reader area contents.
   Future<void> initilizeReaderWebview(
-      String primaryAreaHTML, String secondaryAreaHTML, bool showSecondaryArea, bool linkReaderAreaScrolling) async {
+      String primaryAreaHTML,
+      String secondaryAreaHTML,
+      bool showSecondaryArea,
+      bool linkReaderAreaScrolling) async {
     // Load font
-    ByteData fontData = await rootBundle.load('assets/fonts/Merriweather/Merriweather-Regular.ttf');
+    ByteData fontData = await rootBundle
+        .load('assets/fonts/Merriweather/Merriweather-Regular.ttf');
     String fontUri = getFontUri(fontData, 'font/truetype').toString();
 
     // Theme
@@ -234,13 +527,19 @@ class ReaderViewModel extends ReactiveViewModel {
       background-color: var(--contrast-theme-black);
     }
 
+    body {
+      margin: 0;
+    }
+
     #primaryReader {
       font-family: 'Merriweather';
       font-size: ${0.9 * textScaling}rem;
       letter-spacing: 0.3px;
       line-height: 155%;
-      height: 50vh;
-      padding-top: 0.3rem;
+      flex: 1;
+      padding-top: 20px;
+      scroll-padding-top: 20px;
+      padding-bottom: 100px;
       margin-left: 1rem;
       margin-right: 1rem;
     }
@@ -250,7 +549,10 @@ class ReaderViewModel extends ReactiveViewModel {
       font-size: ${0.9 * textScaling}rem;
       letter-spacing: 0.3px;
       line-height: 155%;
-      height: 50vh;
+      flex: 1;
+      padding-top: 20px;
+      scroll-padding-top: 20px;
+      padding-bottom: 100px;
       margin-left: 1rem;
       margin-right: 1rem;
     }
@@ -258,16 +560,16 @@ class ReaderViewModel extends ReactiveViewModel {
     .container {
       display: flex;
       flex-direction: column;
-      max-height: 100vh;
+      height: 100vh;
       margin: 0;
     }
 
     .container.hidden #primaryReader {
-      height: 100vh;
+      flex: 1;
     }
 
     .container.hidden #secondaryReader {
-      height: 0px;
+      flex: 0;
       display: none;
     }
 
@@ -377,34 +679,45 @@ class ReaderViewModel extends ReactiveViewModel {
     @media screen and (min-width: 500px) {
       .container {
         flex-direction: row;
+        align-items: stretch;
       }
       #primaryReader {
         width: 50vw;
-        height: 100vh;
-        padding-top: 0.1rem;
+        flex: none;
+        height: 100%;
+        padding-top: 20px;
+        scroll-padding-top: 20px;
+        padding-bottom: 100px;
+        order: 1;
       }
       #secondaryReader {
         width: 50vw;
-        height: 100vh;
-        padding-top: 0.1rem;
+        flex: none;
+        height: 100%;
+        padding-top: 20px;
+        scroll-padding-top: 20px;
+        padding-bottom: 100px;
+        order: 3;
       }
       hr {
-        height: 100vh;
+        align-self: stretch;
+        height: auto;
         max-width: 0.5px;
         margin-top: 0px;
         margin-bottom: 0px;
+        order: 2;
       }
     }
   </style>
 
   <div class="container ${showSecondaryArea == false ? "hidden" : ""}" id="container">
-    <div id="secondaryReader" class="scrollable">
+    <div id="secondaryReader" class="scrollable" data-version="$secondaryAreaBible" >
       $secondaryAreaHTML
     </div>
 
     <hr class="separator" />
 
-    <div id="primaryReader" class="scrollable">
+    <div id="primaryReader" class="scrollable" data-version="$primaryAreaBible">
       $primaryAreaHTML
     </div>
   </div>
@@ -414,9 +727,13 @@ class ReaderViewModel extends ReactiveViewModel {
 
     var elements = null;
     var handleScroll = null;
+    var lastScrollEventTime = Date.now();
+
     document.addEventListener("DOMContentLoaded", () => {
       const container = document.getElementById("container");
       elements = [...container.querySelectorAll(".scrollable")];
+
+      var lastScrollTop = 0;
 
       const syncScroll = (scrolledEle, ele) => {
         const scrolledPercent = scrolledEle.scrollTop / (scrolledEle.scrollHeight - scrolledEle.clientHeight);
@@ -434,6 +751,7 @@ class ReaderViewModel extends ReactiveViewModel {
 
       handleScroll = (e) => {
         const scrolledEle = e.target;
+        
         elements.filter((item) => item !== scrolledEle).forEach((ele) => {
           ele.removeEventListener("scroll", handleScroll);
           syncScroll(scrolledEle, ele);
@@ -441,6 +759,63 @@ class ReaderViewModel extends ReactiveViewModel {
             ele.addEventListener("scroll", handleScroll);
           });
         });
+
+        if (Date.now() - lastScrollEventTime < 400) {
+          return;
+        }
+        lastScrollEventTime = Date.now();
+
+        // determine if pass a section header and if so, send a message to Flutter to display the section header in the top app bar
+        const sectionHeaders = scrolledEle.getElementsByClassName('section-box');
+
+        // determine scroll direction and notify Flutter
+        try {
+          const cur = scrolledEle.scrollTop || 0;
+          const last = lastScrollTop || 0;
+          const delta = cur - last;
+          lastScrollTop = cur;
+          if (delta > 3) {
+            OnScrollDirection.postMessage('down');
+          } else if (delta < -3) {
+            OnScrollDirection.postMessage('up');
+          }
+        } catch (e) {
+          // ignore
+        }
+
+        // TODO: optimize by only checking elements near the current scroll position instead of all section headers in the scrolled element or by only checking every 5ish handleScroll calls or by having section headers also send a message when they are scrolled past instead of relying on the reader area to detect when a section header is scrolled past
+        // determine the top-visible verse id inside the scrolled reader area and notify Flutter
+        try {
+          const areaPrefix = scrolledEle.id === 'primaryReader' ? 'primary-' : 'secondary-';
+          function getTopVisibleId(container, prefix) {
+            const items = container.querySelectorAll('[id^="' + prefix + '"]');
+            let topId = null;
+            let minOffset = Infinity;
+            const cRect = container.getBoundingClientRect();
+            items.forEach((it) => {
+              const r = it.getBoundingClientRect();
+              const offset = r.top - cRect.top;
+              if (offset >= -10 && offset < minOffset) {
+                minOffset = offset;
+                topId = it.id;
+              }
+            });
+            return topId;
+          }
+          const topId = getTopVisibleId(scrolledEle, areaPrefix);
+          if (topId) {
+            try {
+              OnScrollEvent.postMessage(JSON.stringify({
+                area: scrolledEle.id === 'primaryReader' ? 'primary' : 'secondary',
+                id: topId
+              }));
+            } catch (err) {
+              // ignore posting errors
+            }
+          }
+        } catch (err) {
+          // ignore any errors computing top id
+        }
       };
       
       ${linkReaderAreaScrolling == true ? """
@@ -451,10 +826,44 @@ class ReaderViewModel extends ReactiveViewModel {
 
       document.getElementById("$primaryScrollToId").scrollIntoView();
       ${linkReaderAreaScrolling == false ? """
-        document.getElementById("$secondaryScrollToId").scrollIntoView();
+        document.getElementById("$secondaryScrollToId").scrollIntoView({behavior: "smooth"});
       """ : ""}
 
       document.body.className = '$themeName visible';
+    });
+
+    document.addEventListener("dblclick", function(event) {
+      if (window.__wordClickTimeout) {
+        clearTimeout(window.__wordClickTimeout);
+        window.__wordClickTimeout = null;
+      }
+
+      if (window.getSelection().toString().length > 0) return;
+      
+      let target = event.target;
+      let p = target.closest('.p');
+      if (p) {
+        if (p.hasAttribute('ondblclick')) {
+          // Handled by inline attribute for backwards compatibility on other bibles
+          return;
+        }
+        
+        let verseId = null;
+        if (p.id) {
+          // For bibles that place ID directly on the paragraph
+          verseId = p.id;
+        } else {
+          // For OET bibles that place ID on the superscript
+          let sup = p.querySelector('sup[id]');
+          if (sup && sup.id) {
+            verseId = sup.id;
+          }
+        }
+        
+        if (verseId) {
+          onCreateBookmark(verseId);
+        }
+      }
     });
 
     function onCreateBookmark(bookmark) {
@@ -472,43 +881,55 @@ class ReaderViewModel extends ReactiveViewModel {
 
   String getFontUri(ByteData data, String mime) {
     final buffer = data.buffer;
-    return Uri.dataFromBytes(buffer.asUint8List(data.offsetInBytes, data.lengthInBytes), mimeType: mime).toString();
+    return Uri.dataFromBytes(
+            buffer.asUint8List(data.offsetInBytes, data.lengthInBytes),
+            mimeType: mime)
+        .toString();
   }
 
-  Future<void> updateReaderAreaHTMLContent(Area area, String htmlContent) async {
+  Future<void> updateReaderAreaHTMLContent(
+      Area area, String htmlContent) async {
     String areaId;
     if (area == Area.primary) {
       areaId = 'primaryReader';
     } else {
       areaId = 'secondaryReader';
     }
-    await webviewController.runJavaScript('document.getElementById("$areaId").innerHTML = "$htmlContent";');
+    // jsonEncode produces a properly escaped JS string literal (quotes, newlines,
+    // backslashes all safely escaped) so we can assign it directly.
+    final encoded = jsonEncode(htmlContent);
+    await webviewController.runJavaScript(
+        'document.getElementById("$areaId").innerHTML = $encoded;');
     rebuildUi();
   }
 
   Future<void> jumpToHTMLId(String id) async {
-    await webviewController.runJavaScript('document.getElementById("$id").scrollIntoView();');
+    await webviewController
+        .runJavaScript('document.getElementById("$id").scrollIntoView();');
   }
 
   Future<void> toggleSecondaryAreaHTML(bool showSecondaryArea) async {
     if (showSecondaryArea == false) {
-      await webviewController.runJavaScript('document.getElementById("container").classList.add("hidden");');
+      await webviewController.runJavaScript(
+          'document.getElementById("container").classList.add("hidden");');
     } else {
-      await webviewController.runJavaScript('document.getElementById("container").classList.remove("hidden");');
+      await webviewController.runJavaScript(
+          'document.getElementById("container").classList.remove("hidden");');
     }
   }
 
   Future<void> toggleLinkedScrollingHTML(bool linkScrolling) async {
     if (linkScrolling == true) {
-      await webviewController
-          .runJavaScript('elements.forEach((ele) => {ele.addEventListener("scroll", handleScroll);});');
+      await webviewController.runJavaScript(
+          'elements.forEach((ele) => {ele.addEventListener("scroll", handleScroll);});');
     } else {
-      await webviewController
-          .runJavaScript('elements.forEach((ele) => {ele.removeEventListener("scroll", handleScroll);});');
+      await webviewController.runJavaScript(
+          'elements.forEach((ele) => {ele.removeEventListener("scroll", handleScroll);});');
     }
   }
 
   Future<void> updateReaderAreas() async {
+    setBusy(true);
     await _biblesService.reloadBiblesJson();
 
     String primaryAreaHTML = await _readerService.getReaderBookHTML(
@@ -536,6 +957,7 @@ class ReaderViewModel extends ReactiveViewModel {
 
     log('$bookCode$chapterNumber');
     await jumpToHTMLId('$bookCode${chapterNumber.toString()}');
+    setBusy(false);
   }
 
   void onRefreshDebug() async {
@@ -550,15 +972,39 @@ class ReaderViewModel extends ReactiveViewModel {
 
   Future<void> setBookmark(String bookmarkId) async {
     // Save ids without a specific reader area identifier.
-    bookmarkId = bookmarkId.replaceAll('primary-', '').replaceAll('secondary-', '');
+    bookmarkId =
+        bookmarkId.replaceAll('primary-', '').replaceAll('secondary-', '');
 
     // Update the icons in both reader areas.
     await webviewController.runJavaScript('''
-      var svgElements = [...document.getElementsByClassName("$bookmarkId-svg")];
+      function textToHslColor(str) {
+        if (!str || str.length === 0) return 'hsl(0, 0%, 0%)';
+        var hash = 0;
+        for (var i = 0; i < str.length; i++) {
+          hash = str.charCodeAt(i) + ((hash << 5) - hash);
+        }
+        return 'hsl(' + (hash % 360) + ', 80%, 54%)';
+      }
 
-      svgElements.forEach((ele) => {
-        ele.classList.toggle("bookmarked");
-      });
+      var svgElements = [...document.getElementsByClassName("$bookmarkId-svg")];
+      if (svgElements.length > 0) {
+        svgElements.forEach(ele => ele.remove());
+      } else {
+        var hsl = textToHslColor("$bookmarkId");
+        var svgStr = `<svg class="svg $bookmarkId-svg bookmarked" style="fill: ` + hsl + ` !important;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 256 256"><path d="M184,32H72A16,16,0,0,0,56,48V224a8,8,0,0,0,12.24,6.78L128,193.43l59.77,37.35A8,8,0,0,0,200,224V48A16,16,0,0,0,184,32Zm0,177.57-51.77-32.35a8,8,0,0,0-8.48,0L72,209.57V48H184Z"></path></svg>`;
+        
+        ['primary', 'secondary'].forEach(area => {
+          var targetId = area + "-$bookmarkId";
+          var el = document.getElementById(targetId);
+          if (el) {
+            if (el.tagName.toLowerCase() === 'sup') {
+              el.insertAdjacentHTML('beforebegin', svgStr);
+            } else {
+              el.insertAdjacentHTML('afterbegin', svgStr);
+            }
+          }
+        });
+      }
     ''');
 
     List<String> existingBookmarks = await _settingsService.getBookmarks();
@@ -583,9 +1029,11 @@ class ReaderViewModel extends ReactiveViewModel {
   }
 
   void onTapCloseSecondaryArea() async {
+    log("ON TAP CLOSE SECONDARY AREA");
     onToggleSecondaryArea();
     isPrimaryReaderAreaPopupActive = false;
     isSecondaryReaderAreaPopupActive = false;
+    log('close secondary area');
     rebuildUi();
   }
 
@@ -614,6 +1062,14 @@ class ReaderViewModel extends ReactiveViewModel {
     _navigationService.clearStackAndShow(Routes.searchView);
   }
 
+  Future<void> onEnableSecondaryArea() async {
+    await _settingsService.setSecondaryAreaBible('OET-LV');
+    await _settingsService.setShowSecondaryArea(true);
+    await toggleSecondaryAreaHTML(true);
+    // Full reload so the secondary area content renders correctly.
+    await onChangeTranslationInline(Area.secondary, 'OET-LV');
+  }
+
   void onToggleSecondaryArea() async {
     _settingsService.setShowSecondaryArea(!showSecondaryArea);
     await toggleSecondaryAreaHTML(showSecondaryArea);
@@ -623,10 +1079,55 @@ class ReaderViewModel extends ReactiveViewModel {
   void onToggleLinkedScrolling() async {
     _settingsService.setLinkReaderAreaScrolling(!linkReaderAreaScrolling);
     await toggleLinkedScrollingHTML(linkReaderAreaScrolling);
-    showToastMsg(linkReaderAreaScrolling == true ? 'Scrolling is linked' : 'Scrolling is unlinked');
+    showToastMsg(linkReaderAreaScrolling == true
+        ? 'Scrolling is linked'
+        : 'Scrolling is unlinked');
+    rebuildUi();
+  }
+
+  Future<void> onChangeTranslationInline(Area area, String translation) async {
+    setBusy(true);
+    if (area == Area.primary) {
+      await _settingsService.setPrimaryAreaBible(translation);
+    } else {
+      await _settingsService.setSecondaryAreaBible(translation);
+    }
+
+    // Full reload using the same path as initialization — most reliable approach.
+    await _biblesService.reloadBiblesJson();
+
+    String primaryAreaHTML = await _readerService.getReaderBookHTML(
+      Area.primary,
+      viewBy,
+      primaryAreaBible,
+      bookCode,
+      bookmarks,
+      showMarks,
+      showChaptersAndVerses,
+    );
+
+    String secondaryAreaHTML = await _readerService.getReaderBookHTML(
+      Area.secondary,
+      viewBy,
+      secondaryAreaBible,
+      bookCode,
+      bookmarks,
+      showMarks,
+      showChaptersAndVerses,
+    );
+
+    await initilizeReaderWebview(
+      primaryAreaHTML,
+      secondaryAreaHTML,
+      showSecondaryArea,
+      linkReaderAreaScrolling,
+    );
+
+    setBusy(false);
     rebuildUi();
   }
 
   @override
-  List<ListenableServiceMixin> get listenableServices => [_settingsService, _biblesService];
+  List<ListenableServiceMixin> get listenableServices =>
+      [_settingsService, _biblesService];
 }

@@ -1,699 +1,1050 @@
 {
-  "book": {
-    "bookCode": "PHM",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.02",
-    "meta": [
-      {
-        "usfm": "3.0"
-      },
-      {
-        "ide": "UTF-8"
-      },
-      {
-        "rem": "ESFM v0.6 PHM"
-      },
-      {
-        "rem": "WORDTABLE OET-LV_NT_word_table.tsv"
-      },
-      {
-        "h": "Philemon"
-      },
-      {
-        "toc1": "Philemon"
-      },
-      {
-        "toc2": "Philemon"
-      },
-      {
-        "toc3": "Phm"
-      },
-      {
-        "mt2": "Paul's letter to"
-      },
-      {
-        "mt1": "Philemon"
-      },
-      {
-        "is1": "Introduction"
-      },
-      {
-        "ip": [
-          "Philemon was known to be a follower of Yeshua and he was a member of a group of believers in the city of Colossae. He was the owner of a slave named Onesimus. Onesimus had fled from his master and eventually met Paul the missionary in prison in Rome. It was there that Onesimus became a believer in Yeshua because of Paul's sharing of the good message. Here in",
-          {
-            "bk": "Paul's letter to Philemon",
-            "closing": "\\bk*"
-          },
-          ", Paul requests that the good relationship be restored between Philemon and his slave, Onesimus. Because Paul sent Onesimus back to Philemon, he wanted Philemon to take his slave back in, not just because he'd forgiven his slave, but also because his slave was now a fellow believer and hence his brother."
-        ]
-      },
-      {
-        "iot": "Main components of Paul's letter"
-      },
-      {
-        "io1": [
-          "Introduction",
-          {
-            "ior": "1-3",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Praising Philemon",
-          {
-            "ior": "4-7",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Paul's request to Philemon concerning Onesimus",
-          {
-            "ior": "8-22",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Ending",
-          {
-            "ior": "23-25",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "rem": [
-          "This is still a very early look into the unfinished text of the",
-          {
-            "em": "Open English Translation",
-            "closing": "\\em*"
-          },
-          "of the Bible. Please double-check the text in advance before using in public."
-        ]
-      },
-      {
-        "ie": ""
-      }
-    ]
+ "type": "USJ",
+ "version": "3.1",
+ "content": [
+  {
+   "type": "book",
+   "marker": "id",
+   "code": "PHM",
+   "content": [
+    "- Open English Translation—Readers’ Version (OET-RV) v0.1.51"
+   ]
   },
-  "chapters": [
+  {
+   "type": "para",
+   "marker": "ide",
+   "content": [
+    "UTF-8\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "ESFM v0.6 PHM\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "WORDTABLE OET-LV_NT_word_table.tsv\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "h",
+   "content": [
+    "Philemon\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc1",
+   "content": [
+    "Philemon\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc2",
+   "content": [
+    "Philemon\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc3",
+   "content": [
+    "Phm\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt2",
+   "content": [
+    "Paul’s letter to\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt1",
+   "content": [
+    "Philemon\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "is1",
+   "content": [
+    "Introduction\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "Philemon was known to be a follower of Yeshua and he was a member of a group of believers in the city of Colossae. He was the owner of a slave named Onesimus. Onesimus had fled from his master and eventually met Paul the missionary in prison in Rome. It was there that Onesimus became a believer in Yeshua because of Paul’s sharing of the good message. Here in ",
     {
-      "chapterNumber": "1",
-      "contents": [
-        {
-          "rem": "/s1 Greetings from Paul"
-        },
-        {
-          "rem": "/s1 Salutation"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            {
-              "add": "This letter is from",
-              "closing": "\\add*"
-            },
-            "Paul¦141552 a prisoner¦141553 of",
-            {
-              "nd": "messiah¦141554 Yeshua¦141555",
-              "closing": "\\nd*"
-            },
-            "and our brother¦141559 Timothy¦141557.",
-            {
-              "add": "I'm writing",
-              "closing": "\\add*"
-            },
-            "to our dear co-worker Philemon,"
-          ],
-          "verseText": "This letter is from Paul¦141552 a prisoner¦141553 of messiah¦141554 Yeshua¦141555 and our brother¦141559 Timothy¦141557. I'm writing to our dear co-worker Philemon,"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:"
-                },
-                {
-                  "xt": "Col 4:17."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "as well as",
-            {
-              "add": "our",
-              "closing": "\\add*"
-            },
-            "sister¦141569 Apphia and our fellow-soldier¦141574 Archippus and to the assembly¦141581",
-            {
-              "add": "that meets",
-              "closing": "\\add*"
-            },
-            "in your¦141580 home."
-          ],
-          "verseText": "as well as our sister¦141569 Apphia and our fellow-soldier¦141574 Archippus and to the assembly¦141581 that meets in your¦141580 home."
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            {
-              "add": "May you¦141583 all experience",
-              "closing": "\\add*"
-            },
-            "grace¦141582 and peace¦141585 from our¦141589 father¦141588",
-            {
-              "nd": "God¦141587",
-              "closing": "\\nd*"
-            },
-            "and from the",
-            {
-              "nd": "master¦141591",
-              "closing": "\\nd*"
-            },
-            ",",
-            {
-              "nd": "Yeshua¦141592",
-              "closing": "\\nd*"
-            },
-            {
-              "add": "the",
-              "closing": "\\add*"
-            },
-            {
-              "nd": "messiah¦141593",
-              "closing": "\\nd*"
-            },
-            ".",
-            {
-              "s1": "Paul's prayer and gratefulness"
-            },
-            {
-              "rem": "/s1 Paul's Thanksgiving and Prayer"
-            },
-            {
-              "rem": "/s1 Thanksgiving and Prayer"
-            },
-            {
-              "rem": "/s1 Philemon's Love and Faith"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "May you¦141583 all experience grace¦141582 and peace¦141585 from our¦141589 father¦141588 God¦141587 and from the master¦141591, Yeshua¦141592 the messiah¦141593."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            {
-              "add": "Philemon,",
-              "closing": "\\add*"
-            },
-            "I'm always¦141598 thanking¦141594 my",
-            {
-              "nd": "God¦141596",
-              "closing": "\\nd*"
-            },
-            "and mentioning¦141599 you¦141600 in my prayers¦141604"
-          ],
-          "verseText": "Philemon, I'm always¦141598 thanking¦141594 my God¦141596 and mentioning¦141599 you¦141600 in my prayers¦141604"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            {
-              "add": "after",
-              "closing": "\\add*"
-            },
-            "hearing¦141606 your faith¦141612 and about your love¦141609 for the",
-            {
-              "nd": "master¦141618 Yeshua¦141619",
-              "closing": "\\nd*"
-            },
-            "and for all the believers."
-          ],
-          "verseText": "after hearing¦141606 your faith¦141612 and about your love¦141609 for the master¦141618 Yeshua¦141619 and for all the believers."
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            {
-              "add": "I pray that",
-              "closing": "\\add*"
-            },
-            "the fellowship¦141627 of your¦141630 faith¦141629 may become¦141632 active¦141631 in the knowledge¦141634 of every¦141635 good¦141636 thing in us toward¦141641",
-            {
-              "add": "the",
-              "closing": "\\add*"
-            },
-            {
-              "nd": "messiah¦141642",
-              "closing": "\\nd*"
-            },
-            ". [WHAT DOES THAT MEAN???]"
-          ],
-          "verseText": "I pray that the fellowship¦141627 of your¦141630 faith¦141629 may become¦141632 active¦141631 in the knowledge¦141634 of every¦141635 good¦141636 thing in us toward¦141641 the messiah¦141642. [WHAT DOES THAT MEAN???]"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "Because¦141646 I was very happy and encouraged by your¦141655 love¦141654, because¦141656 the hearts¦141658 of the believers have been refreshed¦141661 by you, brother¦141664.",
-            {
-              "s1": "Paul's request to Philemon concerning Onesimus"
-            },
-            {
-              "rem": "/s1 A Request for Onesimus"
-            },
-            {
-              "rem": "/s1 Paul's Plea for Onesimus"
-            },
-            {
-              "rem": "/s1 Paul's Appeal for Onesimus"
-            },
-            {
-              "rem": "/s1 A runaway slave"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Because¦141646 I was very happy and encouraged by your¦141655 love¦141654, because¦141656 the hearts¦141658 of the believers have been refreshed¦141661 by you, brother¦141664."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "Therefore¦141665, with the help of the",
-            {
-              "nd": "messiah¦141668",
-              "closing": "\\nd*"
-            },
-            ", I would be brave enough to tell you what you need to do,"
-          ],
-          "verseText": "Therefore¦141665, with the help of the messiah¦141668, I would be brave enough to tell you what you need to do,"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "but because¦141675 of love¦141678 as Paul¦141684, an older¦141685 man¦141685 and¦141688 now also a prisoner¦141690 for",
-            {
-              "nd": "Yeshua¦141692",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦141691",
-              "closing": "\\nd*"
-            },
-            ", I'm just going to encourage you¦141680 to do it."
-          ],
-          "verseText": "but because¦141675 of love¦141678 as Paul¦141684, an older¦141685 man¦141685 and¦141688 now also a prisoner¦141690 for Yeshua¦141692 the messiah¦141691, I'm just going to encourage you¦141680 to do it."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "10:"
-                },
-                {
-                  "xt": "Col 4:9."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "So I'm going to encourage you¦141695 concerning Onesimus who became my",
-            {
-              "add": "spiritual",
-              "closing": "\\add*"
-            },
-            "‘son’ since I've been imprisoned."
-          ],
-          "verseText": "So I'm going to encourage you¦141695 concerning Onesimus who became my spiritual ‘son’ since I've been imprisoned."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "Before he was useless¦141711 to you, but now he's useful¦141718 to both of us.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Before he was useless¦141711 to you, but now he's useful¦141718 to both of us."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "I sent¦141720 him¦141724 to you¦141722 (even though in my heart¦141729"
-          ],
-          "verseText": "I sent¦141720 him¦141724 to you¦141722 (even though in my heart¦141729"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "I wanted to keep him",
-            {
-              "add": "here",
-              "closing": "\\add*"
-            },
-            ") so that he might be serving¦141742 me",
-            {
-              "add": "here due to",
-              "closing": "\\add*"
-            },
-            "the bonds¦141746 of the good¦141748 message¦141748"
-          ],
-          "verseText": "I wanted to keep him here) so that he might be serving¦141742 me here due to the bonds¦141746 of the good¦141748 message¦141748"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "but I didn't want to do anything without",
-            {
-              "add": "hearing",
-              "closing": "\\add*"
-            },
-            "your¦141764 opinion¦141753, so that you're not doing good¦141763 because you have to, but rather because you want to.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "but I didn't want to do anything without hearing your¦141764 opinion¦141753, so that you're not doing good¦141763 because you have to, but rather because you want to."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "It was possibly¦141769 because¦141771 of that that he¦141773 was separated¦141773",
-            {
-              "add": "from you",
-              "closing": "\\add*"
-            },
-            "for a while, so that on the eternal¦141777",
-            {
-              "add": "scale",
-              "closing": "\\add*"
-            },
-            "you could fully¦141779 accept him¦141778,"
-          ],
-          "verseText": "It was possibly¦141769 because¦141771 of that that he¦141773 was separated¦141773 from you for a while, so that on the eternal¦141777 scale you could fully¦141779 accept him¦141778,"
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "no longer¦141780 as a slave but better than a slave—a dear brother to me most of you but preferably",
-            {
-              "add": "also",
-              "closing": "\\add*"
-            },
-            "to you—a brother in the body¦141796 and in the",
-            {
-              "nd": "master¦141799",
-              "closing": "\\nd*"
-            },
-            ".",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "no longer¦141780 as a slave but better than a slave—a dear brother to me most of you but preferably also to you—a brother in the body¦141796 and in the master¦141799."
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "Therefore¦141801, if you consider me as your partner¦141805, accept him¦141807 like you'd accept me,"
-          ],
-          "verseText": "Therefore¦141801, if you consider me as your partner¦141805, accept him¦141807 like you'd accept me,"
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "but¦141812 if he¦141814 did anything wrong¦141814 to you or owes you anything, charge it to me."
-          ],
-          "verseText": "but¦141812 if he¦141814 did anything wrong¦141814 to you or owes you anything, charge it to me."
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            {
-              "sig": [
-                "I, Paul¦141824, wrote¦141825 this bit in my own handwriting. I will pay back anything",
-                {
-                  "+add": "he owes you",
-                  "closing": "\\+add*"
-                },
-                ", then I won't need to be reminding you that you"
-              ]
-            },
-            {
-              "add": [
-                "pretty much",
-                {
-                  "add": "* owe yourself¦141837 to me.",
-                  "closing": "\\sig*"
-                }
-              ]
-            }
-          ],
-          "verseText": "I, Paul¦141824, wrote¦141825 this bit in my own handwriting. I will pay back anything he owes you, then I won't need to be reminding you that you pretty much * owe yourself¦141837 to me."
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            {
-              "sig": [
-                "Yes, brother¦141843,",
-                {
-                  "+add": "with both of us being",
-                  "closing": "\\+add*"
-                },
-                "in the",
-                {
-                  "+nd": "master¦141848",
-                  "closing": "\\+nd*"
-                },
-                ", I might¦141846",
-                {
-                  "+add": "hopefully",
-                  "closing": "\\+add*"
-                },
-                "benefit¦141846 from you¦141845—refresh¦141849 my¦141850 heart¦141852 in",
-                {
-                  "+add": "the",
-                  "closing": "\\+add*"
-                }
-              ]
-            },
-            {
-              "+nd": [
-                "messiah¦141854",
-                {
-                  "+nd": "*.",
-                  "closing": "\\sig*"
-                }
-              ]
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Yes, brother¦141843, with both of us being in the master¦141848, I might¦141846 hopefully benefit¦141846 from you¦141845—refresh¦141849 my¦141850 heart¦141852 in the messiah¦141854 *."
-        },
-        {
-          "verseNumber": "21",
-          "contents": [
-            {
-              "sig": "I wrote¦141860 to you because I was sure that you'd obey"
-            },
-            {
-              "+add": [
-                "my request",
-                {
-                  "+add": "*, in fact knowing¦141862 that you'd do even more than what I ask.",
-                  "closing": "\\sig*"
-                }
-              ]
-            },
-            {
-              "s1": "Paul's final greetings"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "I wrote¦141860 to you because I was sure that you'd obey my request *, in fact knowing¦141862 that you'd do even more than what I ask."
-        },
-        {
-          "verseNumber": "22",
-          "contents": [
-            {
-              "sig": [
-                {
-                  "+add": "Go ahead and",
-                  "closing": "\\+add*"
-                },
-                "prepare¦141873 somewhere for me to stay because¦141877 I'm hoping¦141876 that I'll be able to visit",
-                {
-                  "+add": "thanks",
-                  "closing": "\\+add*"
-                },
-                "to you all praying"
-              ]
-            },
-            {
-              "+add": [
-                "for me",
-                {
-                  "+add": "*.",
-                  "closing": "\\sig*"
-                }
-              ]
-            },
-            {
-              "rem": "/s1 Paul's Final Greetings"
-            },
-            {
-              "rem": "/s1 Final Greetings"
-            },
-            {
-              "rem": "/s1 Final Greetings and Benediction"
-            }
-          ],
-          "verseText": "Go ahead and prepare¦141873 somewhere for me to stay because¦141877 I'm hoping¦141876 that I'll be able to visit thanks to you all praying for me *."
-        },
-        {
-          "verseNumber": "23",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "23:"
-                },
-                {
-                  "xt": "Col 1:7; 4:12."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            {
-              "sig": [
-                "Epaphras¦141888, my¦141891 fellow¦141890 prisoner in",
-                {
-                  "+nd": "Yeshua¦141894",
-                  "closing": "\\+nd*"
-                },
-                "the"
-              ]
-            },
-            {
-              "+nd": [
-                "messiah¦141893",
-                {
-                  "+nd": "*, sends his greetings¦141885",
-                  "closing": "\\sig*"
-                }
-              ]
-            }
-          ],
-          "verseText": "Epaphras¦141888, my¦141891 fellow¦141890 prisoner in Yeshua¦141894 the messiah¦141893 *, sends his greetings¦141885"
-        },
-        {
-          "verseNumber": "24",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "24: a"
-                },
-                {
-                  "xt": "Acts 12:12,25; 13:13; 15:37-39; Col 4:10;"
-                },
-                {
-                  "xo": "b"
-                },
-                {
-                  "xt": "Acts 19:29; 27:2; Col 4:10;"
-                },
-                {
-                  "xo": "c"
-                },
-                {
-                  "xt": "Col 4:14; 2Tim 4:10;"
-                },
-                {
-                  "xo": "d"
-                },
-                {
-                  "xt": "Col 4:14; 2Tim 4:11."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            {
-              "sig": "as do my¦141901 fellow-workers¦141900 Mark, Aristarchus¦141896, Demas, and Luke.",
-              "closing": "\\sig*"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "as do my¦141901 fellow-workers¦141900 Mark, Aristarchus¦141896, Demas, and Luke."
-        },
-        {
-          "verseNumber": "25",
-          "contents": [
-            {
-              "sig": [
-                {
-                  "+add": "May",
-                  "closing": "\\+add*"
-                },
-                "the grace¦141903 of our¦141906",
-                {
-                  "+nd": "master¦141905",
-                  "closing": "\\+nd*"
-                },
-                ",",
-                {
-                  "+nd": "Yeshua¦141907",
-                  "closing": "\\+nd*"
-                },
-                "the",
-                {
-                  "+nd": "messiah¦141908",
-                  "closing": "\\+nd*"
-                },
-                ", be with the spirit¦141911 of you¦141912 all"
-              ]
-            },
-            {
-              "+add": [
-                "there",
-                {
-                  "+add": "*. May it¦141913 be so¦141913.",
-                  "closing": "\\sig*"
-                }
-              ]
-            }
-          ],
-          "verseText": "May the grace¦141903 of our¦141906 master¦141905, Yeshua¦141907 the messiah¦141908, be with the spirit¦141911 of you¦141912 all there *. May it¦141913 be so¦141913."
-        }
-      ]
+     "type": "char",
+     "marker": "bk",
+     "content": [
+      "Paul’s letter to Philemon"
+     ]
+    },
+    ", Paul requests that the good relationship be restored between Philemon and his slave, Onesimus. Because Paul sent Onesimus back to Philemon, he wanted Philemon to take his slave back in, not just because he’d forgiven his slave, but also because his slave was now a fellow believer and hence his brother.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "iot",
+   "content": [
+    "Main components of Paul’s letter\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Introduction ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1-3"
+     ]
     }
-  ],
-  "_messages": {
-    "_warnings": []
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Praising Philemon ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "4-7"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Paul’s request to Philemon concerning Onesimus ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "8-22"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Ending ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "23-25"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "This is still a very early look into the unfinished text of the Open English Translation of the Bible. Please double-check the text in advance before using in public.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ie",
+   "content": []
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "1",
+   "sid": "PHM 1"
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Greetings from Paul\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Salutation\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "PHM 1:1"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "This letter is from"
+     ]
+    },
+    " Paul, a prisoner¦140603 of ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦140604 Yeshua"
+     ]
+    },
+    ", and our brother¦140609 Timothy¦140607. ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "I’m writing"
+     ]
+    },
+    " to our dear co-worker Philemon¦140610,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "PHM 1:2"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Col 4:17."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "as well as ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "our"
+     ]
+    },
+    " sister¦140619 Apphia¦140617 and our fellow-soldier Archippus¦140622, and to the assembly¦140631 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "that meets"
+     ]
+    },
+    " in your¦140630 home.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "PHM 1:3"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "May you¦140633 all experience"
+     ]
+    },
+    " grace¦140632 and peace¦140635 from our¦140639 father¦140638 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦140637"
+     ]
+    },
+    " and from the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦140641 Yeshua"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "the"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦140643"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Paul’s prayer and gratefulness\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Paul’s Thanksgiving and Prayer\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Thanksgiving and Prayer\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Philemon’s Love and Faith\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "PHM 1:4"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Philemon,"
+     ]
+    },
+    " I’m always¦140648 thanking¦140644 my ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦140646"
+     ]
+    },
+    " and mentioning¦140649 you¦140650 in my prayers¦140654\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "PHM 1:5"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "after"
+     ]
+    },
+    " hearing¦140656 your faith¦140662 and about your love¦140659 for the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦140668 Yeshua¦140669"
+     ]
+    },
+    " and for all the believers.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "PHM 1:6"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "I pray that¦140687"
+     ]
+    },
+    " the fellowship¦140677 of your¦140680 faith¦140679 may become¦140682 active¦140681 in the knowledge¦140684 of every¦140685 good¦140686 thing in us toward¦140691 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "the"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦140692"
+     ]
+    },
+    ", [WHAT DOES THAT MEAN???]\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "PHM 1:7"
+    },
+    "because I was very happy and encouraged by your¦140705 love¦140704, because the hearts¦140708 of the believers have been refreshed¦140711 by you, brother¦140714.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Paul’s request to Philemon concerning Onesimus\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 A Request for Onesimus\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Paul’s Plea for Onesimus\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Paul’s Appeal for Onesimus\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 A runaway slave\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "PHM 1:8"
+    },
+    "Therefore¦140715, with the help of the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦140718"
+     ]
+    },
+    ", I would be brave enough to tell you what you need to do,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "PHM 1:9"
+    },
+    "but¦140738 because¦140725 of love¦140728 as Paul¦140734, an older¦140735 man¦140735 and¦140738 now also a prisoner¦140740 for ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦140741"
+     ]
+    },
+    ", I’m just going to encourage you¦140730 to do it.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "PHM 1:10"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "10: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Col 4:9."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "So I’m going to encourage you¦140745 concerning Onesimus¦140757 who became my ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "spiritual"
+     ]
+    },
+    " ‘son’ since I’ve been imprisoned.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "PHM 1:11"
+    },
+    "Before, he was useless¦140761 to you, but¦140766 now he’s useful¦140768 to both of us.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "PHM 1:12"
+    },
+    "I sent¦140770 him¦140774 to you¦140772 (even though in my heart¦140779\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "PHM 1:13"
+    },
+    "I wanted to keep him ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "here"
+     ]
+    },
+    ") so that he might be serving¦140791 me ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "here due to"
+     ]
+    },
+    " the bonds¦140795 of the good¦140797 message¦140797,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "PHM 1:14"
+    },
+    "but I didn’t¦140807 want to do anything without ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "hearing"
+     ]
+    },
+    " your¦140813 opinion¦140802, so that you’re not doing good¦140812 because you have to, but rather because you want to.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "PHM 1:15"
+    },
+    "It was possibly¦140818 because¦140820 of that that he¦140822 was separated¦140822 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "from you"
+     ]
+    },
+    " for a while, so that on the eternal¦140826 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "scale"
+     ]
+    },
+    " you could fully¦140828 accept him¦140827,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "PHM 1:16"
+    },
+    "no longer¦140829 as a slave, but better than a slave—a dear brother to me most of all, but preferably ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "also"
+     ]
+    },
+    " to you—a brother in the body¦140845 and in ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yahweh¦140848"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "PHM 1:17"
+    },
+    "Therefore¦140850, if you consider me as your partner¦140853, accept him¦140855 like you’d accept me,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "PHM 1:18"
+    },
+    "but¦140859 if he¦140861 did anything wrong¦140861 to you or owes you anything, charge it to me.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "PHM 1:19"
+    },
+    {
+     "type": "char",
+     "marker": "sig",
+     "content": [
+      "I, Paul¦140870, wrote¦140871 this bit in my own handwriting. I will pay back anything ",
+      {
+       "type": "char",
+       "marker": "add",
+       "content": [
+        "he owes you"
+       ]
+      },
+      ", then I won’t¦140878 need to be reminding you that you ",
+      {
+       "type": "char",
+       "marker": "add",
+       "content": [
+        "pretty much"
+       ]
+      },
+      " owe yourself¦140883 to me."
+     ]
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "PHM 1:20"
+    },
+    {
+     "type": "char",
+     "marker": "sig",
+     "content": [
+      "Yes, brother¦140889, ",
+      {
+       "type": "char",
+       "marker": "add",
+       "content": [
+        "with both of us being"
+       ]
+      },
+      " in ",
+      {
+       "type": "char",
+       "marker": "nd",
+       "content": [
+        "Yahweh¦140894"
+       ]
+      },
+      ", I might¦140892 ",
+      {
+       "type": "char",
+       "marker": "add",
+       "content": [
+        "hopefully"
+       ]
+      },
+      " benefit¦140892 from you¦140891—refresh¦140895 my¦140896 heart¦140898 in ",
+      {
+       "type": "char",
+       "marker": "add",
+       "content": [
+        "the"
+       ]
+      },
+      " ",
+      {
+       "type": "char",
+       "marker": "nd",
+       "content": [
+        "messiah¦140900"
+       ]
+      },
+      "."
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "PHM 1:21"
+    },
+    {
+     "type": "char",
+     "marker": "sig",
+     "content": [
+      "I wrote¦140906 to you because I was sure that you’d obey ",
+      {
+       "type": "char",
+       "marker": "add",
+       "content": [
+        "my request"
+       ]
+      },
+      ", in fact knowing¦140908 that you’d do even more than what I ask."
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Paul’s final greetings\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "PHM 1:22"
+    },
+    {
+     "type": "char",
+     "marker": "sig",
+     "content": [
+      {
+       "type": "char",
+       "marker": "add",
+       "content": [
+        "Go ahead and¦140917"
+       ]
+      },
+      " prepare¦140919 somewhere for me to stay, because¦140923 I’m hoping¦140922 that I’ll¦140929 be able to visit, ",
+      {
+       "type": "char",
+       "marker": "add",
+       "content": [
+        "thanks"
+       ]
+      },
+      " to you all praying ",
+      {
+       "type": "char",
+       "marker": "add",
+       "content": [
+        "for me"
+       ]
+      },
+      "."
+     ]
+    },
+    "\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Paul’s Final Greetings\n"
+     ]
+    },
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Final Greetings\n"
+     ]
+    },
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Final Greetings and Benediction\n"
+     ]
+    },
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "PHM 1:23"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "23: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Col 1:7; 4:12."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    {
+     "type": "char",
+     "marker": "sig",
+     "content": [
+      "Epaphras¦140934, my¦140937 fellow¦140936 prisoner in ",
+      {
+       "type": "char",
+       "marker": "nd",
+       "content": [
+        "Yeshua¦140940"
+       ]
+      },
+      " the ",
+      {
+       "type": "char",
+       "marker": "nd",
+       "content": [
+        "messiah¦140939"
+       ]
+      },
+      ", sends his greetings¦140931"
+     ]
+    },
+    ",\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "PHM 1:24"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "24: a "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 12:12,25; 13:13; 15:37-39; Col 4:10; "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "b "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 19:29; 27:2; Col 4:10; "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "c "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Col 4:14; 2Tim 4:10; "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "d "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Col 4:14; 2Tim 4:11."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    {
+     "type": "char",
+     "marker": "sig",
+     "content": [
+      "as do my¦140947 fellow-workers Mark, Aristarchus¦140942, Demas¦140943, and Luke¦140944."
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "25",
+     "sid": "PHM 1:25"
+    },
+    {
+     "type": "char",
+     "marker": "sig",
+     "content": [
+      {
+       "type": "char",
+       "marker": "add",
+       "content": [
+        "May"
+       ]
+      },
+      " the grace¦140949 of our¦140952 ",
+      {
+       "type": "char",
+       "marker": "nd",
+       "content": [
+        "master¦140951"
+       ]
+      },
+      " ",
+      {
+       "type": "char",
+       "marker": "nd",
+       "content": [
+        "Yeshua"
+       ]
+      },
+      " the ",
+      {
+       "type": "char",
+       "marker": "nd",
+       "content": [
+        "messiah¦140954"
+       ]
+      },
+      " be with the spirit¦140957 of you¦140958 all ",
+      {
+       "type": "char",
+       "marker": "add",
+       "content": [
+        "there"
+       ]
+      },
+      ". May it¦140959 be so¦140959."
+     ]
+    },
+    "\n"
+   ]
   }
+ ]
 }

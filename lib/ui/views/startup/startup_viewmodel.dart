@@ -16,6 +16,8 @@ class StartupViewModel extends BaseViewModel {
 
     await _biblesService.initilize();
 
-    _navigationService.replaceWithReaderView();
+    //_navigationService.replaceWithReaderView();
+    _navigationService.replaceWithSearchView();
+    //_navigationService.replaceWithWordLinksView();
   }
 }

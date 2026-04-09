@@ -1,1516 +1,2270 @@
 {
-  "book": {
-    "bookCode": "2TI",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.02",
-    "meta": [
-      {
-        "usfm": "3.0"
-      },
-      {
-        "ide": "UTF-8"
-      },
-      {
-        "rem": "ESFM v0.6 TI2"
-      },
-      {
-        "rem": "WORDTABLE OET-LV_NT_word_table.tsv"
-      },
-      {
-        "h": "2 Timothy"
-      },
-      {
-        "toc1": "2 Timothy"
-      },
-      {
-        "toc2": "2 Timothy"
-      },
-      {
-        "toc3": "2 Ti."
-      },
-      {
-        "mt2": "Paul's second letter to"
-      },
-      {
-        "mt1": "Timothy"
-      },
-      {
-        "is1": "Introduction"
-      },
-      {
-        "ip": [
-          "This is",
-          {
-            "bk": "the second letter of Paul that we have that's written to Timothy",
-            "closing": "\\bk*"
-          },
-          ". He wrote it from Rome when he was imprisoned there as a result of his preaching about Yeshua the messiah. Timothy was still teaching the believers in Ephesus, so here Paul requests him to come to see him before he gets sentenced to death."
-        ]
-      },
-      {
-        "ip": "In this letter, Paul advised Timothy to be strong so that he can persevere in his preaching and doing God's work even in the middle of suffering and when others oppose him. He also warns Timothy about the coming evil of teachers of false doctrines because these can destroy the faith of the listeners."
-      },
-      {
-        "ip": "Most of all, Paul reminds Timothy about his life so that Paul's faith and endurance would be an example for Timothy to follow: his humility, his love, and his enduring suffering from those who persecuted him."
-      },
-      {
-        "iot": "Main components of Paul's letter"
-      },
-      {
-        "io1": [
-          "Introduction",
-          {
-            "ior": "1:1-2",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Advice and encouragement",
-          {
-            "ior": "1:3–2:13",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The advice and the warning",
-          {
-            "ior": "2:14–4:5",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The living of Paul",
-          {
-            "ior": "4:6-18",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Signing off",
-          {
-            "ior": "4:19-22",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "rem": [
-          "This is still a very early look into the unfinished text of the",
-          {
-            "em": "Open English Translation",
-            "closing": "\\em*"
-          },
-          "of the Bible. Please double-check the text in advance before using in public."
-        ]
-      },
-      {
-        "ie": ""
-      }
-    ]
+ "type": "USJ",
+ "version": "3.1",
+ "content": [
+  {
+   "type": "book",
+   "marker": "id",
+   "code": "2TI",
+   "content": [
+    "- Open English Translation—Readers’ Version (OET-RV) v0.1.55"
+   ]
   },
-  "chapters": [
+  {
+   "type": "para",
+   "marker": "ide",
+   "content": [
+    "UTF-8\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "ESFM v0.6 TI2\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "WORDTABLE OET-LV_NT_word_table.tsv\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "h",
+   "content": [
+    "2 Timothy\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc1",
+   "content": [
+    "2 Timothy\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc2",
+   "content": [
+    "2 Timothy\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc3",
+   "content": [
+    "2 Ti.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt2",
+   "content": [
+    "Paul’s second letter to\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt1",
+   "content": [
+    "Timothy\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "is1",
+   "content": [
+    "Introduction\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "This is ",
     {
-      "chapterNumber": "1",
-      "contents": [
-        {
-          "rem": "/s1 Greetings from Paul"
-        },
-        {
-          "rem": "/s1 Salutation"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            {
-              "add": "This letter is from",
-              "closing": "\\add*"
-            },
-            "Paul¦139487, an missionary of Yeshua the messiah according¦139495 to God's will and with the promise¦139496 of life¦139498 in Yeshua the messiah."
-          ],
-          "verseText": "This letter is from Paul¦139487, an missionary of Yeshua the messiah according¦139495 to God's will and with the promise¦139496 of life¦139498 in Yeshua the messiah."
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            {
-              "add": "It's written",
-              "closing": "\\add*"
-            },
-            "to my dear child¦139505, Timothy¦139503.",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:2:"
-                },
-                {
-                  "xt": "Acts 16:1."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "May you experience grace¦139506, mercy¦139507, and peace¦139508 from",
-            {
-              "nd": "God¦139510",
-              "closing": "\\nd*"
-            },
-            "the father¦139511 and our¦139519",
-            {
-              "nd": "master¦139518 Yeshua¦139515",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦139514",
-              "closing": "\\nd*"
-            },
-            ".",
-            {
-              "s1": "Advice and encouragement"
-            },
-            {
-              "rem": "/s1 Encouragement to Be Faithful"
-            },
-            {
-              "rem": "/s1 Thanksgiving and Encouragement"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "It's written to my dear child¦139505, Timothy¦139503. May you experience grace¦139506, mercy¦139507, and peace¦139508 from God¦139510 the father¦139511 and our¦139519 master¦139518 Yeshua¦139515 the messiah¦139514."
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "I've been serving¦139525",
-            {
-              "nd": "God¦139523",
-              "closing": "\\nd*"
-            },
-            "with a clean conscience¦139531 since my¦139542 childhood and I'm thankful¦139520 to him that night¦139543 and day¦139545 I haven't stopped praying for you¦139537—"
-          ],
-          "verseText": "I've been serving¦139525 God¦139523 with a clean conscience¦139531 since my¦139542 childhood and I'm thankful¦139520 to him that night¦139543 and day¦139545 I haven't stopped praying for you¦139537—"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "remembering¦139549 your¦139550 tears¦139552 and longing¦139546 to see¦139548 you again which will fill me with happiness."
-          ],
-          "verseText": "remembering¦139549 your¦139550 tears¦139552 and longing¦139546 to see¦139548 you again which will fill me with happiness."
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "I recall your faith¦139563 without hypocrisy which I first¦139566 noticed in your grandmother¦139569 Lois and in your mother¦139574 Eunice",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:5:"
-                },
-                {
-                  "xt": "Acts 16:1."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "and which I'm sure is also in you.",
-            {
-              "rem": "/s1 The gospel of Jesus Christ"
-            }
-          ],
-          "verseText": "I recall your faith¦139563 without hypocrisy which I first¦139566 noticed in your grandmother¦139569 Lois and in your mother¦139574 Eunice and which I'm sure is also in you."
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "So that's why I'm reminding¦139586 you to rekindle¦139588 God's gift¦139591 which you received when I placed my¦139604 hands¦139603 on you",
-            {
-              "add": "and prayed for you",
-              "closing": "\\add*"
-            },
-            ","
-          ],
-          "verseText": "So that's why I'm reminding¦139586 you to rekindle¦139588 God's gift¦139591 which you received when I placed my¦139604 hands¦139603 on you and prayed for you,"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "because¦139606",
-            {
-              "nd": "God¦139610",
-              "closing": "\\nd*"
-            },
-            "didn't give us a fearful spirit¦139611, but gave¦139607 us power¦139614, love¦139616, and wisdom.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "because¦139606 God¦139610 didn't give us a fearful spirit¦139611, but gave¦139607 us power¦139614, love¦139616, and wisdom."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "So¦139620 because of that, don't¦139619 be ashamed¦139621 of the our¦139626",
-            {
-              "nd": "master's¦139625",
-              "closing": "\\nd*"
-            },
-            "testimony¦139623, and nor of mine even though I'm a prisoner¦139630 for him¦139631, but¦139632 let the two of us suffer¦139633 together¦139633 for the sake of the good¦139635 message¦139635 with the help of God's power¦139637."
-          ],
-          "verseText": "So¦139620 because of that, don't¦139619 be ashamed¦139621 of the our¦139626 master's¦139625 testimony¦139623, and nor of mine even though I'm a prisoner¦139630 for him¦139631, but¦139632 let the two of us suffer¦139633 together¦139633 for the sake of the good¦139635 message¦139635 with the help of God's power¦139637."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "It's God that saved¦139640 us and called¦139643 us to live a godly life. His selection of us had nothing to do with anything good we might have done, but rather he has his own purposes¦139654 and had given¦139658 us grace¦139656 via",
-            {
-              "nd": "Yeshua¦139662",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦139661",
-              "closing": "\\nd*"
-            },
-            "even before¦139663 time began."
-          ],
-          "verseText": "It's God that saved¦139640 us and called¦139643 us to live a godly life. His selection of us had nothing to do with anything good we might have done, but rather he has his own purposes¦139654 and had given¦139658 us grace¦139656 via Yeshua¦139662 the messiah¦139661 even before¦139663 time began."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "That grace has been revealed¦139667 now that our¦139675 saviour¦139674",
-            {
-              "nd": "Yeshua¦139677",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦139676",
-              "closing": "\\nd*"
-            },
-            "appeared¦139672 and obliterated death¦139682 while at the same time illuminating¦139683 life¦139685 and immortality through¦139688 the good¦139690 message¦139690"
-          ],
-          "verseText": "That grace has been revealed¦139667 now that our¦139675 saviour¦139674 Yeshua¦139677 the messiah¦139676 appeared¦139672 and obliterated death¦139682 while at the same time illuminating¦139683 life¦139685 and immortality through¦139688 the good¦139690 message¦139690"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "that I was appointed¦139693",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:11:"
-                },
-                {
-                  "xt": "1Tim 2:7."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "to proclaim¦139696, as well as being an missionary and teacher¦139700.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "that I was appointed¦139693 to proclaim¦139696, as well as being an missionary and teacher¦139700."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "It for that cause¦139704 that I am suffering¦139707",
-            {
-              "add": "here in prison",
-              "closing": "\\add*"
-            },
-            ", but I'm not ashamed¦139710 because¦139712 I know who it is that I trust and I'm convinced that he is powerful¦139718 enough to guard¦139723 my¦139722 deposit¦139721",
-            {
-              "add": "of hope in him",
-              "closing": "\\add*"
-            },
-            "until the end",
-            {
-              "add": "of this age",
-              "closing": "\\add*"
-            },
-            "."
-          ],
-          "verseText": "It for that cause¦139704 that I am suffering¦139707 here in prison, but I'm not ashamed¦139710 because¦139712 I know who it is that I trust and I'm convinced that he is powerful¦139718 enough to guard¦139723 my¦139722 deposit¦139721 of hope in him until the end of this age."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "The style of sound¦139730 messages¦139731 that you heard¦139735 from me, you need to retain in faith¦139737 in",
-            {
-              "nd": "Yeshua¦139743",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦139742",
-              "closing": "\\nd*"
-            },
-            ", and with your love¦139739 for him."
-          ],
-          "verseText": "The style of sound¦139730 messages¦139731 that you heard¦139735 from me, you need to retain in faith¦139737 in Yeshua¦139743 the messiah¦139742, and with your love¦139739 for him."
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "Keep that good¦139745 deposit¦139747 with the help of the holy",
-            {
-              "nd": "spirit¦139750",
-              "closing": "\\nd*"
-            },
-            "who lives in us.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Keep that good¦139745 deposit¦139747 with the help of the holy spirit¦139750 who lives in us."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "You've already heard that those in Asia",
-            {
-              "add": "Minor",
-              "closing": "\\add*"
-            },
-            "all turned¦139760 their backs on me, including Phygelus and¦139770 Hermogenes¦139771."
-          ],
-          "verseText": "You've already heard that those in Asia Minor all turned¦139760 their backs on me, including Phygelus and¦139770 Hermogenes¦139771."
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "May the",
-            {
-              "nd": "master¦139775",
-              "closing": "\\nd*"
-            },
-            "show mercy¦139773 to Onesiphorus and his family because¦139780 he often¦139781 cheered me up and he wasn't ashamed¦139789 of my¦139787 chains¦139786."
-          ],
-          "verseText": "May the master¦139775 show mercy¦139773 to Onesiphorus and his family because¦139780 he often¦139781 cheered me up and he wasn't ashamed¦139789 of my¦139787 chains¦139786."
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "When he came to Rome he actively searched for me and found¦139802 me."
-          ],
-          "verseText": "When he came to Rome he actively searched for me and found¦139802 me."
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "May the master show him his mercy¦139808 on the",
-            {
-              "add": "judgement",
-              "closing": "\\add*"
-            },
-            "day¦139814, but anyway, you well know how much he helped us in Ephesus¦139818."
-          ],
-          "verseText": "May the master show him his mercy¦139808 on the judgement day¦139814, but anyway, you well know how much he helped us in Ephesus¦139818."
-        }
-      ]
+     "type": "char",
+     "marker": "bk",
+     "content": [
+      "the second letter of Paul that we have that’s written to Timothy"
+     ]
     },
+    ". He wrote it from Rome when he was imprisoned there as a result of his preaching about Yeshua the messiah. Timothy was still teaching the believers in Ephesus, so here Paul requests him to come to see him before he gets sentenced to death.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "In this letter, Paul advised Timothy to be strong so that he can persevere in his preaching and doing God’s work even in the middle of suffering and when others oppose him. He also warns Timothy about the coming evil of teachers of false doctrines because these can destroy the faith of the listeners.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "Most of all, Paul reminds Timothy about his life so that Paul’s faith and endurance would be an example for Timothy to follow: his humility, his love, and his enduring suffering from those who persecuted him.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "iot",
+   "content": [
+    "Main components of Paul’s letter\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Introduction ",
     {
-      "chapterNumber": "2",
-      "contents": [
-        {
-          "s1": "Yeshua's followers obey and endure"
-        },
-        {
-          "rem": "/s1 A Loyal Soldier of Christ Jesus"
-        },
-        {
-          "rem": "/s1 Charge to Timothy"
-        },
-        {
-          "rem": "/s1 A Good Soldier of Christ Jesus"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "So my¦139827 ‘son’, may the grace¦139831 from",
-            {
-              "nd": "Yeshua¦139835",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦139834",
-              "closing": "\\nd*"
-            },
-            "make you strong"
-          ],
-          "verseText": "So my¦139827 ‘son’, may the grace¦139831 from Yeshua¦139835 the messiah¦139834 make you strong"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "along with everything you¦139838 heard¦139838 from me through¦139841 many witnesses¦139843. Entrust those things to faithful¦139846 people¦139847 who will also be capable of teaching¦139853 others¦139852.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "along with everything you¦139838 heard¦139838 from me through¦139841 many witnesses¦139843. Entrust those things to faithful¦139846 people¦139847 who will also be capable of teaching¦139853 others¦139852."
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "Suffer¦139857 together¦139857",
-            {
-              "add": "with me",
-              "closing": "\\add*"
-            },
-            "as a good¦139859 soldier¦139860 of",
-            {
-              "nd": "Yeshua¦139862",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦139861",
-              "closing": "\\nd*"
-            },
-            "."
-          ],
-          "verseText": "Suffer¦139857 together¦139857 with me as a good¦139859 soldier¦139860 of Yeshua¦139862 the messiah¦139861."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "Soldiers stay unentangled from the affairs¦139870 of daily living¦139869 so that they will",
-            {
-              "add": "be dedicated to",
-              "closing": "\\add*"
-            },
-            "pleasing¦139874 their commanding officer."
-          ],
-          "verseText": "Soldiers stay unentangled from the affairs¦139870 of daily living¦139869 so that they will be dedicated to pleasing¦139874 their commanding officer."
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "Similarly",
-            {
-              "add": "the athlete",
-              "closing": "\\add*"
-            },
-            "won't win the competition¦139878 if they don't¦139880 follow the rules."
-          ],
-          "verseText": "Similarly the athlete won't win the competition¦139878 if they don't¦139880 follow the rules."
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "It's fair for the farmer¦139888 working",
-            {
-              "add": "in the orchard",
-              "closing": "\\add*"
-            },
-            "to be allowed to eat the fruit¦139893."
-          ],
-          "verseText": "It's fair for the farmer¦139888 working in the orchard to be allowed to eat the fruit¦139893."
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "You should easily understand¦139895 what I'm saying¦139898 because¦139901 the",
-            {
-              "nd": "master¦139904",
-              "closing": "\\nd*"
-            },
-            "will be giving¦139900 you¦139902 insight¦139905 into everything.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "You should easily understand¦139895 what I'm saying¦139898 because¦139901 the master¦139904 will be giving¦139900 you¦139902 insight¦139905 into everything."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "Always remember¦139908 the",
-            {
-              "add": "promised",
-              "closing": "\\add*"
-            },
-            "descendant of King David¦139916,",
-            {
-              "nd": "Yeshua¦139909",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦139910",
-              "closing": "\\nd*"
-            },
-            "who came back from the dead¦139913, which is what I preach"
-          ],
-          "verseText": "Always remember¦139908 the promised descendant of King David¦139916, Yeshua¦139909 the messiah¦139910 who came back from the dead¦139913, which is what I preach"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "and why I'm here in chains suffering¦139923 hardship¦139923 as a criminal¦139927. But God's message¦139930 hasn't been chained."
-          ],
-          "verseText": "and why I'm here in chains suffering¦139923 hardship¦139923 as a criminal¦139927. But God's message¦139930 hasn't been chained."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "So I will endure¦139938 everything so that the ones that",
-            {
-              "add": "God has",
-              "closing": "\\add*"
-            },
-            "chosen will also be able to receive their salvation¦139945 in",
-            {
-              "nd": "Yeshua¦139950",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦139949",
-              "closing": "\\nd*"
-            },
-            "and live with him forever."
-          ],
-          "verseText": "So I will endure¦139938 everything so that the ones that God has chosen will also be able to receive their salvation¦139945 in Yeshua¦139950 the messiah¦139949 and live with him forever."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "There's a reliable saying¦139956 that goes,",
-            {
-              "q1": "If we died¦139959 along with him,"
-            },
-            {
-              "q2": "we will live together with him."
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "There's a reliable saying¦139956 that goes, If we died¦139959 along with him, we will live together with him."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:12:"
-                },
-                {
-                  "xt": "Mat 10:33; Luk 12:9."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "If we endure¦139963 with him,",
-            {
-              "q2": "we will be able to reign¦139965 with him."
-            },
-            {
-              "q1": "If we disown him,"
-            },
-            {
-              "q2": "he will also disown us."
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "If we endure¦139963 with him, we will be able to reign¦139965 with him. If we disown him, he will also disown us."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "If we refuse to believe him,",
-            {
-              "q2": [
-                "he will remain¦139977 faithful¦139976",
-                {
-                  "add": "to us",
-                  "closing": "\\add*"
-                },
-                ","
-              ]
-            },
-            {
-              "q1": "because¦139979 he isn't able to go against his nature."
-            },
-            {
-              "m": ""
-            },
-            {
-              "rem": "/s1 A Worker Approved by God; A Workman Approved by God; An Approved Worker"
-            }
-          ],
-          "verseText": "If we refuse to believe him, he will remain¦139977 faithful¦139976 to us, because¦139979 he isn't able to go against his nature."
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "Keep reminding¦139984 them of all that. Tell them before¦139987",
-            {
-              "nd": "God¦139989",
-              "closing": "\\nd*"
-            },
-            "not to quibble¦139992",
-            {
-              "f": [
-                "+",
-                {
-                  "fr": "2:14"
-                },
-                {
-                  "ft": "There's a textual issue here and we follow the standard SR (with ‘expert override’) rather than the developmental version."
-                }
-              ],
-              "closing": "\\f*"
-            },
-            "about¦139992",
-            {
-              "add": "the intricacies of",
-              "closing": "\\add*"
-            },
-            "words as it's not helpful and can lead the listeners to ruin.",
-            {
-              "s1": "Being God's honourable slave"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Keep reminding¦139984 them of all that. Tell them before¦139987 God¦139989 not to quibble¦139992 about¦139992 the intricacies of words as it's not helpful and can lead the listeners to ruin."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "Work hard so that",
-            {
-              "nd": "God¦140008",
-              "closing": "\\nd*"
-            },
-            "will see you as someone he approves¦140004 of—not ashamed of the",
-            {
-              "add": "good message¦140013",
-              "closing": "\\add*"
-            },
-            "but straight-talking¦140011 the truth¦140015."
-          ],
-          "verseText": "Work hard so that God¦140008 will see you as someone he approves¦140004 of—not ashamed of the good message¦140013 but straight-talking¦140011 the truth¦140015."
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "Avoid chatter about unimportant or crude topics because¦140023 it will eventually led to godlessness."
-          ],
-          "verseText": "Avoid chatter about unimportant or crude topics because¦140023 it will eventually led to godlessness."
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "Those kinds of talk are like rot that spreads¦140032, as happened when Hymenaeus and Philetus"
-          ],
-          "verseText": "Those kinds of talk are like rot that spreads¦140032, as happened when Hymenaeus and Philetus"
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "deviated¦140043 from the truth¦140042 by claiming that the resurrection¦140046 has already¦140047 happened and¦140049 have drawn some away from the faith¦140053."
-          ],
-          "verseText": "deviated¦140043 from the truth¦140042 by claiming that the resurrection¦140046 has already¦140047 happened and¦140049 have drawn some away from the faith¦140053."
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            "However¦140057 God's solid¦140060 foundation¦140062 has stood¦140066 with this inscription on it: ‘The master knew his¦140076 own ones,’",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:19:"
-                },
-                {
-                  "xt": "Num 16:5."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "and ‘Let everyone¦140081 who claims to follow the master avoid disobedience.’",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "However¦140057 God's solid¦140060 foundation¦140062 has stood¦140066 with this inscription on it: ‘The master knew his¦140076 own ones,’ and ‘Let everyone¦140081 who claims to follow the master avoid disobedience.’"
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            "An expensive home doesn't just have gold and silver¦140099 bowls, but there¦140094 are wooden¦140102 and pottery bowls as well. Some will contain valuable things, but others¦140111 contain dishonourable¦140113 things",
-            {
-              "add": "that we prefer not to display",
-              "closing": "\\add*"
-            },
-            "."
-          ],
-          "verseText": "An expensive home doesn't just have gold and silver¦140099 bowls, but there¦140094 are wooden¦140102 and pottery bowls as well. Some will contain valuable things, but others¦140111 contain dishonourable¦140113 things that we prefer not to display."
-        },
-        {
-          "verseNumber": "21",
-          "contents": [
-            "So¦140115 those people who rid themselves of dishonourable",
-            {
-              "add": "thoughts and actions",
-              "closing": "\\add*"
-            },
-            "will become a container for honourable¦140124 things, being reserved to do the special work that the master¦140129 has prepared¦140134 for them."
-          ],
-          "verseText": "So¦140115 those people who rid themselves of dishonourable thoughts and actions will become a container for honourable¦140124 things, being reserved to do the special work that the master¦140129 has prepared¦140134 for them."
-        },
-        {
-          "verseNumber": "22",
-          "contents": [
-            "And run far from youthful¦140137 lusts¦140138—chase instead after obedience, faith¦140144, love¦140145, and peace¦140146 like all the others who follow the",
-            {
-              "nd": "master¦140153",
-              "closing": "\\nd*"
-            },
-            "with a pure heart¦140156."
-          ],
-          "verseText": "And run far from youthful¦140137 lusts¦140138—chase instead after obedience, faith¦140144, love¦140145, and peace¦140146 like all the others who follow the master¦140153 with a pure heart¦140156."
-        },
-        {
-          "verseNumber": "23",
-          "contents": [
-            "Refuse to enter foolish¦140159 and¦140160 uneducated¦140161 debates¦140162 because they'll just end in an argument."
-          ],
-          "verseText": "Refuse to enter foolish¦140159 and¦140160 uneducated¦140161 debates¦140162 because they'll just end in an argument."
-        },
-        {
-          "verseNumber": "24",
-          "contents": [
-            "It's not fitting¦140172 one of the",
-            {
-              "nd": "master's¦140170",
-              "closing": "\\nd*"
-            },
-            "slaves¦140168 to be argumentative, but¦140174 rather to be polite to everyone and to be teaching¦140179 the truth yet be tolerant of other people's bad behaviour."
-          ],
-          "verseText": "It's not fitting¦140172 one of the master's¦140170 slaves¦140168 to be argumentative, but¦140174 rather to be polite to everyone and to be teaching¦140179 the truth yet be tolerant of other people's bad behaviour."
-        },
-        {
-          "verseNumber": "25",
-          "contents": [
-            "We should politely point out the wrongs of those opposing¦140186 us and perhaps¦140188",
-            {
-              "nd": "God¦140193",
-              "closing": "\\nd*"
-            },
-            "might¦140190 bring them to repentance¦140194 and the knowledge¦140196 of the truth¦140197."
-          ],
-          "verseText": "We should politely point out the wrongs of those opposing¦140186 us and perhaps¦140188 God¦140193 might¦140190 bring them to repentance¦140194 and the knowledge¦140196 of the truth¦140197."
-        },
-        {
-          "verseNumber": "26",
-          "contents": [
-            "After being caught¦140207 in the devil's¦140205 trap just as he wanted, maybe they'll escape and come to their senses."
-          ],
-          "verseText": "After being caught¦140207 in the devil's¦140205 trap just as he wanted, maybe they'll escape and come to their senses."
-        }
-      ]
-    },
-    {
-      "chapterNumber": "3",
-      "contents": [
-        {
-          "s1": "Loss of standards in the end times"
-        },
-        {
-          "rem": "/s1 The Dangers of the Last Days"
-        },
-        {
-          "rem": "/s1 Godlessness in the Last Days"
-        },
-        {
-          "rem": "/s1 The Last Days"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "It's important to know that dangerous¦140224 times¦140223 will be coming in the last days¦140221",
-            {
-              "add": "of this era",
-              "closing": "\\add*"
-            },
-            "."
-          ],
-          "verseText": "It's important to know that dangerous¦140224 times¦140223 will be coming in the last days¦140221 of this era."
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "People will become selfish¦140229, greedy for money¦140230, braggers¦140231, proud¦140232, slanderous¦140233, refusing to listen to sense from their parents¦140234, ungrateful¦140237, ungodly,"
-          ],
-          "verseText": "People will become selfish¦140229, greedy for money¦140230, braggers¦140231, proud¦140232, slanderous¦140233, refusing to listen to sense from their parents¦140234, ungrateful¦140237, ungodly,"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "unloving¦140239, unwilling to reconcile, diabolical¦140241, angry, wild, and without morals."
-          ],
-          "verseText": "unloving¦140239, unwilling to reconcile, diabolical¦140241, angry, wild, and without morals."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "They will be betrayers¦140246, reckless¦140247 and conceited¦140248, loving pleasure¦140252 instead of loving God¦140255,"
-          ],
-          "verseText": "They will be betrayers¦140246, reckless¦140247 and conceited¦140248, loving pleasure¦140252 instead of loving God¦140255,"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "appearing¦140257 to be godly on the surface yet denying that God is real, and¦140264 turning¦140266 from the truth."
-          ],
-          "verseText": "appearing¦140257 to be godly on the surface yet denying that God is real, and¦140264 turning¦140266 from the truth."
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "Some of these¦140268 will quietly enter houses¦140276 and¦140277 captivate¦140278 gullible women¦140281. Despite being¦140285 known for their sins¦140283, they're led by various¦140289 lusts¦140286—"
-          ],
-          "verseText": "Some of these¦140268 will quietly enter houses¦140276 and¦140277 captivate¦140278 gullible women¦140281. Despite being¦140285 known for their sins¦140283, they're led by various¦140289 lusts¦140286—"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "always¦140290 ‘learning¦140291’ yet never¦140293 actually confronting",
-            {
-              "add": "the reality of",
-              "closing": "\\add*"
-            },
-            "the truth¦140296."
-          ],
-          "verseText": "always¦140290 ‘learning¦140291’ yet never¦140293 actually confronting the reality of the truth¦140296."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "This is just like how Jannes and Jambres opposed Mosheh,",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:8:"
-                },
-                {
-                  "xt": "Exo 7:11 (possibly these Egyptian magicians)."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "and similarly these people¦140314, having¦140315 depraved¦140315 minds and who are unqualified¦140318 concerning¦140319 the faith¦140321, oppose the truth¦140313."
-          ],
-          "verseText": "This is just like how Jannes and Jambres opposed Mosheh, and similarly these people¦140314, having¦140315 depraved¦140315 minds and who are unqualified¦140318 concerning¦140319 the faith¦140321, oppose the truth¦140313."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "But they¦140324 won't be advancing",
-            {
-              "add": "in the faith",
-              "closing": "\\add*"
-            },
-            "because¦140328 their¦140331 foolishness will eventually become evident¦140332 to everyone, just as happened with",
-            {
-              "add": "Jannes and Jambres",
-              "closing": "\\add*"
-            },
-            ".",
-            {
-              "s1": "Living your faith even at a cost"
-            },
-            {
-              "rem": "/s1 Paul's Charge to Timothy"
-            },
-            {
-              "rem": "/s1 Last Instructions"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "But they¦140324 won't be advancing in the faith because¦140328 their¦140331 foolishness will eventually become evident¦140332 to everyone, just as happened with Jannes and Jambres."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "However",
-            {
-              "add": "Timothy",
-              "closing": "\\add*"
-            },
-            ", you¦140340 followed¦140343 me in your teaching¦140346, your conduct¦140348, your purpose¦140350 and your faith¦140352, in patience¦140354, love¦140356, endurance¦140358,"
-          ],
-          "verseText": "However Timothy, you¦140340 followed¦140343 me in your teaching¦140346, your conduct¦140348, your purpose¦140350 and your faith¦140352, in patience¦140354, love¦140356, endurance¦140358,"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "and even through persecution and suffering¦140362 like I endured in Antioch¦140368, Iconium, and Lystra",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:11: a"
-                },
-                {
-                  "xt": "Acts 13:14-52;"
-                },
-                {
-                  "xo": "b"
-                },
-                {
-                  "xt": "Acts 14:1-7;"
-                },
-                {
-                  "xo": "c"
-                },
-                {
-                  "xt": "Acts 14:8-20."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "—yet the",
-            {
-              "nd": "master¦140382",
-              "closing": "\\nd*"
-            },
-            "rescued¦140380 me in each case."
-          ],
-          "verseText": "and even through persecution and suffering¦140362 like I endured in Antioch¦140368, Iconium, and Lystra—yet the master¦140382 rescued¦140380 me in each case."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "Anyway,",
-            {
-              "nd": "everyone¦140392",
-              "closing": "\\nd*"
-            },
-            "who wants to seriously follow",
-            {
-              "nd": "Yeshua¦140393",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦140392",
-              "closing": "\\nd*"
-            },
-            "should expect to be persecuted¦140394.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Anyway, everyone¦140392 who wants to seriously follow Yeshua¦140393 the messiah¦140392 should expect to be persecuted¦140394."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "Meanwhile evil¦140395 people¦140397 and scammers will get worse and worse—deceiving¦140404 others and then being¦140406 deceived themselves."
-          ],
-          "verseText": "Meanwhile evil¦140395 people¦140397 and scammers will get worse and worse—deceiving¦140404 others and then being¦140406 deceived themselves."
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "Hold on to the things that you learnt and were convinced¦140414 was true, because you know you can trust those who taught them to you."
-          ],
-          "verseText": "Hold on to the things that you learnt and were convinced¦140414 was true, because you know you can trust those who taught them to you."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "You've known¦140427 the sacred¦140425 scriptures since you were a young child, and the wisdom contained in them is able to lead you to salvation¦140433 through¦140434 faith¦140435 in",
-            {
-              "nd": "Yeshua¦140439",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦140438",
-              "closing": "\\nd*"
-            },
-            "."
-          ],
-          "verseText": "You've known¦140427 the sacred¦140425 scriptures since you were a young child, and the wisdom contained in them is able to lead you to salvation¦140433 through¦140434 faith¦140435 in Yeshua¦140439 the messiah¦140438."
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "All scripture¦140441 is inspired by God and useful for teaching, for scolding and correction¦140451, and for teaching discipline¦140453 and obedience"
-          ],
-          "verseText": "All scripture¦140441 is inspired by God and useful for teaching, for scolding and correction¦140451, and for teaching discipline¦140453 and obedience"
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "so that the person¦140463 following",
-            {
-              "nd": "God¦140462",
-              "closing": "\\nd*"
-            },
-            "can be trained in doing every¦140465 kind of good¦140467 deed."
-          ],
-          "verseText": "so that the person¦140463 following God¦140462 can be trained in doing every¦140465 kind of good¦140467 deed."
-        }
-      ]
-    },
-    {
-      "chapterNumber": "4",
-      "contents": [
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1-2",
-          "contents": [
-            "I am proclaiming these truths before",
-            {
-              "nd": "God¦140474",
-              "closing": "\\nd*"
-            },
-            "and before Yeshua the",
-            {
-              "nd": "messiah¦140478",
-              "closing": "\\nd*"
-            },
-            "who will judge both the living¦140485 and the dead¦140487. Proclaim his appearance¦140491",
-            {
-              "add": "on earth",
-              "closing": "\\add*"
-            },
-            {
-              "f": [
-                "+",
-                {
-                  "fr": "4:1"
-                },
-                {
-                  "ft": "It's not clear if Paul is referring to Yeshua's previous coming to the earth, or to the expected, future coming. (See also 4:8)"
-                }
-              ],
-              "closing": "\\f*"
-            },
-            "and his kingdom¦140495, stand by the message whether it's convenient or seems out of place, rebuke and scold",
-            {
-              "add": "those who need it",
-              "closing": "\\add*"
-            },
-            ", but",
-            {
-              "add": "also",
-              "closing": "\\add*"
-            },
-            "encourage with complete patience and teaching."
-          ],
-          "verseText": "I am proclaiming these truths before God¦140474 and before Yeshua the messiah¦140478 who will judge both the living¦140485 and the dead¦140487. Proclaim his appearance¦140491 on earth and his kingdom¦140495, stand by the message whether it's convenient or seems out of place, rebuke and scold those who need it, but also encourage with complete patience and teaching."
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "A time¦140515 will come when people will no longer be tolerating¦140522 scriptural teaching, but will prefer their own doctrines so they'll find teachers¦140532 to teach what they want to hear,"
-          ],
-          "verseText": "A time¦140515 will come when people will no longer be tolerating¦140522 scriptural teaching, but will prefer their own doctrines so they'll find teachers¦140532 to teach what they want to hear,"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "so not only will they avoid hearing¦140542 the truth¦140540, they'll be following myths¦140548 instead."
-          ],
-          "verseText": "so not only will they avoid hearing¦140542 the truth¦140540, they'll be following myths¦140548 instead."
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "However",
-            {
-              "add": "Timothy",
-              "closing": "\\add*"
-            },
-            ", you stay sensible about everything, endure hardship¦140555, tell people the good¦140563 message¦140563, and do all your¦140566 duties well.",
-            {
-              "rem": "/s1 Paul's Final Words"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "However Timothy, you stay sensible about everything, endure hardship¦140555, tell people the good¦140563 message¦140563, and do all your¦140566 duties well."
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "As for me, I've already¦140570 done all I can and¦140572 the time¦140574 of my¦140578 departure¦140577 is approaching¦140579."
-          ],
-          "verseText": "As for me, I've already¦140570 done all I can and¦140572 the time¦140574 of my¦140578 departure¦140577 is approaching¦140579."
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "I've fought¦140585 the fight¦140584 for goodness. I've finished¦140588 the race. I've kept¦140591 the faith¦140590."
-          ],
-          "verseText": "I've fought¦140585 the fight¦140584 for goodness. I've finished¦140588 the race. I've kept¦140591 the faith¦140590."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "I know that a crown¦140598 has been reserved for me due to my obedience, and the",
-            {
-              "nd": "master¦140603",
-              "closing": "\\nd*"
-            },
-            "serving as the impartial judge¦140610 will award it to me, and not just to me, but will also award them to others who appreciated his¦140622 coming.",
-            {
-              "f": [
-                "+",
-                {
-                  "fr": "4:8"
-                },
-                {
-                  "ft": "Again (see 4:1), it's not totally clear if Paul is referring to Yeshua's previous coming to the earth, or to the expected, future coming."
-                }
-              ],
-              "closing": "\\f*"
-            },
-            {
-              "s1": "Final bits and pieces"
-            },
-            {
-              "rem": "/s1 Personal Instructions"
-            },
-            {
-              "rem": "/s1 Final instructions"
-            },
-            {
-              "rem": "/s1 Personal Words"
-            },
-            {
-              "rem": "/s1 Personal Remarks"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "I know that a crown¦140598 has been reserved for me due to my obedience, and the master¦140603 serving as the impartial judge¦140610 will award it to me, and not just to me, but will also award them to others who appreciated his¦140622 coming."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "Try to come¦140624 to me as soon as possible"
-          ],
-          "verseText": "Try to come¦140624 to me as soon as possible"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "because¦140629 Demas was attracted back to worldly things and so he left me and went to Thessalonica¦140640. Crescens has gone to Galatia¦140644, and Titos¦140645 went to Dalmatia¦140647.",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "4:10: a"
-                },
-                {
-                  "xt": "Col 4:14; Phm 24;"
-                },
-                {
-                  "xo": "b"
-                },
-                {
-                  "xt": "2Cor 8:23; Gal 2:3; Tit 1:4."
-                }
-              ],
-              "closing": "\\x*"
-            }
-          ],
-          "verseText": "because¦140629 Demas was attracted back to worldly things and so he left me and went to Thessalonica¦140640. Crescens has gone to Galatia¦140644, and Titos¦140645 went to Dalmatia¦140647."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "Only Luke stayed with me. Fetch Mark on your way and bring¦140655 him to me also because¦140660 he's always very helpful.",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "4:11: a"
-                },
-                {
-                  "xt": "Col 4:14; Phm 24;"
-                },
-                {
-                  "xo": "b"
-                },
-                {
-                  "xt": "Acts 12:12,25; 13:13; 15:37-39; Col 4:10; Phm 24."
-                }
-              ],
-              "closing": "\\x*"
-            }
-          ],
-          "verseText": "Only Luke stayed with me. Fetch Mark on your way and bring¦140655 him to me also because¦140660 he's always very helpful."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "I sent¦140667 Tychicus to Ephesus¦140669.",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "4:12:"
-                },
-                {
-                  "xt": "Acts 20:4; Eph 6:21-22; Col 4:7-8."
-                }
-              ],
-              "closing": "\\x*"
-            }
-          ],
-          "verseText": "I sent¦140667 Tychicus to Ephesus¦140669."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "When you come, bring¦140679 the coat that I left with Carpas in Troas,",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "4:13:"
-                },
-                {
-                  "xt": "Acts 20:6."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "along with the scrolls and¦140680 most of the parchments.",
-            {
-              "f": [
-                "+",
-                {
-                  "fr": "4:13"
-                },
-                {
-                  "ft": "We get no clues here about what scrolls they were (possibly some Hebrew scriptures), nor what was on the parchments—they may even have been still blank for writing on."
-                }
-              ],
-              "closing": "\\f*"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "When you come, bring¦140679 the coat that I left with Carpas in Troas, along with the scrolls and¦140680 most of the parchments."
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "Alexander¦140686 the coppersmith¦140688 did a lot of harm to me",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "4:14: a"
-                },
-                {
-                  "xt": "1Tim 1:20;"
-                },
-                {
-                  "xo": "b"
-                },
-                {
-                  "xt": "Psa 62:12; Rom 2:6."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "but the",
-            {
-              "nd": "master¦140697",
-              "closing": "\\nd*"
-            },
-            "will ‘reward’ him for what he's done."
-          ],
-          "verseText": "Alexander¦140686 the coppersmith¦140688 did a lot of harm to me but the master¦140697 will ‘reward’ him for what he's done."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "You also should watch out for him, because¦140707 he was very strongly opposed to our teaching.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "You also should watch out for him, because¦140707 he was very strongly opposed to our teaching."
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "At my¦140716 first¦140715 defense¦140717",
-            {
-              "add": "in the courts here in Rome",
-              "closing": "\\add*"
-            },
-            ", no one stood with me. Everyone¦140718 deserted me but¦140722 that shouldn't be held against them."
-          ],
-          "verseText": "At my¦140716 first¦140715 defense¦140717 in the courts here in Rome, no one stood with me. Everyone¦140718 deserted me but¦140722 that shouldn't be held against them."
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "But the",
-            {
-              "nd": "master¦140731",
-              "closing": "\\nd*"
-            },
-            "stood¦140733 by me and strengthened¦140735 me to ensure that the good message was proclaimed¦140741 and all the pagans¦140748 heard it, and I was rescued¦140750 out of the lion's mouth¦140752 so to speak."
-          ],
-          "verseText": "But the master¦140731 stood¦140733 by me and strengthened¦140735 me to ensure that the good message was proclaimed¦140741 and all the pagans¦140748 heard it, and I was rescued¦140750 out of the lion's mouth¦140752 so to speak."
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "The",
-            {
-              "nd": "master¦140758",
-              "closing": "\\nd*"
-            },
-            "will rescue¦140755 me from every¦140760 evil¦140762 plot and he will bring me into his¦140768 heavenly¦140770 kingdom¦140767. He should be praised forever. May¦140780 it¦140780 be so¦140780.",
-            {
-              "s1": "Signing off"
-            },
-            {
-              "rem": "/s1 Paul's Final Greetings"
-            },
-            {
-              "rem": "/s1 Final Greetings"
-            },
-            {
-              "rem": "/s1 Final Greetings and Benediction"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "The master¦140758 will rescue¦140755 me from every¦140760 evil¦140762 plot and he will bring me into his¦140768 heavenly¦140770 kingdom¦140767. He should be praised forever. May¦140780 it¦140780 be so¦140780."
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            "Greet¦140781 Priscilla and Aquila for me, and Onesiphorus' household¦140788.",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "4:19: a"
-                },
-                {
-                  "xt": "Acts 18:2;"
-                },
-                {
-                  "xo": "b"
-                },
-                {
-                  "xt": "2Tim 1:16-17."
-                }
-              ],
-              "closing": "\\x*"
-            }
-          ],
-          "verseText": "Greet¦140781 Priscilla and Aquila for me, and Onesiphorus' household¦140788."
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            "Erastus¦140789 stayed in Corinth, and I left Trophimus in Miletus because he was sick.",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "4:20: a"
-                },
-                {
-                  "xt": "Acts 19:22; Rom 16:23;"
-                },
-                {
-                  "xo": "b"
-                },
-                {
-                  "xt": "Acts 20:4; 21:29."
-                }
-              ],
-              "closing": "\\x*"
-            }
-          ],
-          "verseText": "Erastus¦140789 stayed in Corinth, and I left Trophimus in Miletus because he was sick."
-        },
-        {
-          "verseNumber": "21",
-          "contents": [
-            "Make sure you come¦140802 before¦140800 the winter¦140801. Eubulus greets¦140803 you, as do Pudens, Linus, Claudia, and all the believers¦140814.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Make sure you come¦140802 before¦140800 the winter¦140801. Eubulus greets¦140803 you, as do Pudens, Linus, Claudia, and all the believers¦140814."
-        },
-        {
-          "verseNumber": "22",
-          "contents": [
-            "May you always know inside that the",
-            {
-              "nd": "master¦140817",
-              "closing": "\\nd*"
-            },
-            "is with you, and may all of you there experience God's grace¦140825."
-          ],
-          "verseText": "May you always know inside that the master¦140817 is with you, and may all of you there experience God's grace¦140825."
-        }
-      ]
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1:1-2"
+     ]
     }
-  ],
-  "_messages": {
-    "_warnings": []
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Advice and encouragement ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1:3–2:13"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The advice and the warning ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "2:14–4:5"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The living of Paul ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "4:6-18"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Signing off ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "4:19-22"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "This is still a very early look into the unfinished text of the Open English Translation of the Bible. Please double-check the text in advance before using in public.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ie",
+   "content": []
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "1",
+   "sid": "2TI 1"
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Greetings from Paul\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Salutation\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "2TI 1:1"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "This letter is from"
+     ]
+    },
+    " Paul, a missionary of Yeshua the messiah according¦138548 to God’s will and with the promise¦138549 of life¦138551 in Yeshua the messiah.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "2TI 1:2"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "It’s written"
+     ]
+    },
+    " to my dear child¦138558, Timothy¦138556.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:2: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 16:1."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " May you experience grace¦138559, mercy¦138560, and peace¦138561 from ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦138563"
+     ]
+    },
+    " the father¦138564 and our¦138572 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦138571 Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦138567"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Advice and encouragement\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Encouragement to Be Faithful\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Thanksgiving and Encouragement\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "2TI 1:3"
+    },
+    "I’ve been serving¦138578 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦138576"
+     ]
+    },
+    " with a clean conscience¦138584 since my¦138595 childhood and I’m thankful¦138573 to him that night¦138596 and day¦138598 I haven’t stopped praying for you¦138590—\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "2TI 1:4"
+    },
+    "remembering¦138602 your¦138603 tears¦138605 and longing¦138599 to see¦138601 you again, which will fill me with happiness.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "2TI 1:5"
+    },
+    "I recall your faith¦138616 without hypocrisy, which I first¦138619 noticed in your grandmother¦138622 Lois¦138624 and in your mother¦138627 Eunice¦138629,",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:5: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 16:1."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " and which I’m sure is also in you.\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 The gospel of Jesus Christ\n"
+     ]
+    },
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "2TI 1:6"
+    },
+    "So that’s why I’m reminding¦138640 you to rekindle¦138642 God’s gift¦138645 which¦138649 you received when I placed my¦138658 hands¦138657 on you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "and prayed for you"
+     ]
+    },
+    ",\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "2TI 1:7"
+    },
+    "because¦138660 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦138664"
+     ]
+    },
+    " didn’t¦138659 give us a fearful spirit¦138665, but¦138669 gave¦138661 us power¦138668, love¦138670, and wisdom.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "2TI 1:8"
+    },
+    "So¦138674 because of that, don’t¦138673 be ashamed¦138675 of our¦138680 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master’s¦138679"
+     ]
+    },
+    " testimony¦138677, and nor of mine, even though I’m a prisoner¦138684 for him¦138685, but¦138686 let the two of us suffer¦138687 together¦138687 for the sake of the good¦138689 message¦138689 with the help of God’s power¦138691.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "2TI 1:9"
+    },
+    "It’s God that¦138711 saved¦138694 us and called¦138697 us to live a godly life. His selection of us had nothing to do with anything good we might have done, but¦138696 rather he has his own purposes¦138708 and had given¦138712 us grace¦138710 via ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦138715"
+     ]
+    },
+    " even before¦138717 time began.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "2TI 1:10"
+    },
+    "That grace has been revealed¦138721 now that our¦138729 saviour¦138728 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦138730"
+     ]
+    },
+    " appeared¦138726 and obliterated death¦138736, while at the same time illuminating¦138737 life¦138739 and immortality through¦138742 the good¦138744 message¦138744\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "2TI 1:11"
+    },
+    "that¦138746 I was appointed¦138747",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:11: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "1Tim 2:7."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " to proclaim¦138750, as well as being a missionary and teacher¦138754.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "2TI 1:12"
+    },
+    "It’s for that cause¦138758 that I’m suffering¦138761 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "here in prison"
+     ]
+    },
+    ", but¦138762 I’m not ashamed¦138764, because¦138766 I know who it is that I trust, and¦138769 I’m convinced that he’s powerful¦138772 enough to guard¦138777 my¦138776 deposit¦138775 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "of hope in him"
+     ]
+    },
+    " until the end ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "of this age"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "2TI 1:13"
+    },
+    "The style of sound¦138784 messages¦138785 that¦138786 you heard¦138789 from me, you need to retain in faith¦138791 in ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦138796"
+     ]
+    },
+    ", and with your love¦138793 for him.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "2TI 1:14"
+    },
+    "Keep that¦138806 good¦138799 deposit¦138801 with the help of the holy ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "spirit¦138804"
+     ]
+    },
+    " who lives in us.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "2TI 1:15"
+    },
+    "You’ve already heard that those in Asia¦138820 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Minor"
+     ]
+    },
+    " all turned¦138814 their backs on me, including¦138824 Phygelus¦138823 and¦138824 Hermogenes¦138825.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "2TI 1:16"
+    },
+    "May the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦138829"
+     ]
+    },
+    " show mercy¦138827 to Onesiforus and his family, because¦138834 he often¦138835 cheered me up and he wasn’t ashamed¦138843 of my¦138841 chains¦138840.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "2TI 1:17"
+    },
+    "When he came to Rome¦138847 he actively searched for me and found¦138854 me.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "2TI 1:18"
+    },
+    "May the master help him find mercy¦138860 from ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yahweh¦138858"
+     ]
+    },
+    " on the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "judgement"
+     ]
+    },
+    " day¦138866, but¦138867 anyway, you well know how much ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "*Onesiforus"
+     ]
+    },
+    " helped us in Ephesus¦138870.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "2",
+   "sid": "2TI 2"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Yeshua’s followers obey and endure\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Charge to Timothy; A Loyal Soldier of Christ Jesus; A Good Soldier of Christ Jesus\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "2TI 2:1"
+    },
+    "So my¦138879 ‘son’, may the grace¦138883 from ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦138886"
+     ]
+    },
+    " make you strong\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "2TI 2:2"
+    },
+    "along with everything you¦138890 heard¦138890 from me through¦138893 many witnesses¦138895. Entrust those things to faithful¦138898 people¦138899 who will also be capable of teaching¦138905 others¦138904.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "2TI 2:3"
+    },
+    "Suffer¦138909 together¦138909 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "with me"
+     ]
+    },
+    " as a good¦138911 soldier¦138912 of ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua¦138914"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦138913"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "2TI 2:4"
+    },
+    "Soldiers stay unentangled from the affairs¦138922 of daily living¦138921 so that they will ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "be dedicated to"
+     ]
+    },
+    " pleasing¦138926 their commanding officer.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "2TI 2:5"
+    },
+    "Similarly ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "the athlete"
+     ]
+    },
+    " won’t¦138932 win the competition¦138930 if they don’t¦138932 follow the rules.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "2TI 2:6"
+    },
+    "It’s fair for the farmer¦138940 working ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "in the orchard"
+     ]
+    },
+    " to be allowed to eat the fruit¦138945.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "2TI 2:7"
+    },
+    "You should easily understand¦138947 what I’m saying¦138950, because¦138953 the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦138956"
+     ]
+    },
+    " will be giving¦138952 you¦138954 insight¦138957 into everything.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "2TI 2:8"
+    },
+    "Always remember¦138960 the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "promised"
+     ]
+    },
+    " descendant of ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "King"
+     ]
+    },
+    " David¦138968, ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦138962"
+     ]
+    },
+    " who came back from the dead¦138965, which is what I preach\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "2TI 2:9"
+    },
+    "and why I’m here in chains suffering¦138975 hardship¦138975 as a criminal¦138979. But God’s message¦138982 hasn’t been chained.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "2TI 2:10"
+    },
+    "So I will endure¦138990 everything so that the ones that ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "God has"
+     ]
+    },
+    " chosen will also be able to receive their salvation¦138997 in ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦139001"
+     ]
+    },
+    " and live with him forever.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "2TI 2:11"
+    },
+    "There’s a reliable saying¦139008 that goes,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "If we died¦139011 along with him,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "we will live together with him.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "2TI 2:12"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:12: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Mat 10:33; Luk 12:9."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "If we endure¦139015 with him,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "we will be able to reign¦139017 with him.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "If we disown him,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "he will also disown us.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "2TI 2:13"
+    },
+    "If we refuse to believe him,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "he will remain¦139029 faithful¦139028 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "to us"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦139031 he isn’t¦139033 able to go against his nature.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "m",
+   "content": [
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 A Worker Approved by God; A Workman Approved by God; An Approved Worker\n"
+     ]
+    },
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "2TI 2:14"
+    },
+    "Keep reminding¦139036 them of all that. Tell them in front of ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦139040"
+     ]
+    },
+    " not to quibble¦139043",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "2:14 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "There’s a textual issue here and we follow the standard SR (with ‘expert override’) rather than the developmental version."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " about¦139043 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "the intricacies of"
+     ]
+    },
+    " words, as it’s not helpful and can lead the listeners to ruin.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Being God’s honourable slave\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "2TI 2:15"
+    },
+    "Work hard so that ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦139059"
+     ]
+    },
+    " will see you as someone he approves¦139055 of—not ashamed of the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "good message¦139064"
+     ]
+    },
+    " but straight-talking the truth¦139066.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "2TI 2:16"
+    },
+    "Avoid chatter about unimportant or crude topics because¦139074 it will eventually led to godlessness.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "2TI 2:17"
+    },
+    "Those kinds of talk are like rot that spreads¦139083, as happened when Hymenaeus and Philetus¦139089\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "2TI 2:18"
+    },
+    "deviated¦139094 from the truth¦139093 by claiming that the resurrection¦139097 has already¦139098 happened and¦139100 have drawn some away from the faith¦139104.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "2TI 2:19"
+    },
+    "However¦139108 God’s solid¦139111 foundation¦139113 has stood¦139117 with this inscription on it: ‘Yahweh knew¦139122 his¦139127 own ones,’",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:19: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Num 16:5."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " and¦139128 ‘Let everyone¦139132 who claims to follow Yahweh avoid disobedience.’\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "2TI 2:20"
+    },
+    "An expensive home doesn’t just have gold and silver¦139150 bowls, but there¦139145 are wooden¦139153 and pottery bowls as well. Some will contain valuable things, but others¦139162 contain dishonourable¦139164 things ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "that we prefer not to display"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "2TI 2:21"
+    },
+    "So¦139166 those people who rid themselves of dishonourable ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "thoughts and actions"
+     ]
+    },
+    " will become a container for honourable¦139175 things, being reserved to do the special work¦139183 that the master¦139180 has prepared¦139185 for them.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "2TI 2:22"
+    },
+    "And run far from youthful¦139188 lusts¦139189—chase instead after obedience, faith¦139195, love¦139196, and¦139187 peace¦139197 like all the others who follow the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦139204"
+     ]
+    },
+    " with a pure heart¦139207.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "2TI 2:23"
+    },
+    "Refuse to enter foolish¦139210 and¦139211 uneducated¦139212 debates¦139213, because they’ll just end in an argument.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "2TI 2:24"
+    },
+    "It’s not fitting¦139223 for one of ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yahweh’s"
+     ]
+    },
+    " slaves¦139219 to be argumentative, but¦139225 rather to be polite to everyone and¦139220 to be teaching¦139230 the truth, yet be tolerant of other people’s bad behaviour.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "25",
+     "sid": "2TI 2:25"
+    },
+    "We should politely point out the wrongs of those opposing¦139236 us and perhaps¦139238 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦139243"
+     ]
+    },
+    " might¦139240 bring them to repentance¦139244 and the knowledge¦139246 of the truth¦139247.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "26",
+     "sid": "2TI 2:26"
+    },
+    "After being caught¦139257 in the devil’s¦139255 trap just as he wanted, maybe they’ll escape and come to their senses.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "3",
+   "sid": "2TI 3"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Loss of standards in the end times\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Dangers of the Last Days\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Godlessness in the Last Days\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Last Days\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "2TI 3:1"
+    },
+    "It’s important to know that dangerous¦139274 times¦139273 will be coming in the last days¦139271 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "of this era"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "2TI 3:2"
+    },
+    "People will become selfish¦139279, greedy for money¦139280, braggers¦139281, proud¦139282, slanderous¦139283, refusing to listen to sense from their parents¦139284, ungrateful¦139287, ungodly,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "2TI 3:3"
+    },
+    "unloving¦139289, unwilling to reconcile, diabolical¦139291, angry, wild, and without morals.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "2TI 3:4"
+    },
+    "They will be betrayers¦139296, reckless¦139297 and conceited¦139298, loving pleasure¦139302 instead of loving God¦139305,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "2TI 3:5"
+    },
+    "appearing¦139307 to be godly on the surface yet denying that God is real, and¦139314 turning¦139316 from the truth.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "2TI 3:6"
+    },
+    "Some of these¦139318 will quietly enter houses¦139325 and¦139326 captivate¦139327 gullible women¦139330. Despite being¦139334 known for their sins¦139332, they’re led by various¦139338 lusts¦139335—\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "2TI 3:7"
+    },
+    "always¦139339 ‘learning¦139340’ yet never¦139342 actually confronting ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "the reality of"
+     ]
+    },
+    " the truth¦139345.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "2TI 3:8"
+    },
+    "This is just like how Jannes and Jambres opposed Mosheh,",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:8: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Exo 7:11 (possibly these Egyptian magicians)."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " and similarly these people¦139363, having¦139364 depraved¦139364 minds and who are unqualified¦139367 concerning¦139368 the faith¦139370, oppose the truth¦139362.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "2TI 3:9"
+    },
+    "But they¦139373 won’t¦139372 be advancing ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "in the faith"
+     ]
+    },
+    " because¦139377 their¦139380 foolishness will eventually become evident¦139381 to everyone, just as happened with ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Jannes and Jambres"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Living your faith even at a cost\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Paul’s Charge to Timothy\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Last Instructions\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "2TI 3:10"
+    },
+    "However ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Timothy"
+     ]
+    },
+    ", you¦139389 followed¦139392 me in your teaching¦139395, your conduct¦139397, your purpose¦139399 and¦139390 your faith¦139401, in patience¦139403, love¦139405, endurance¦139407,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "2TI 3:11"
+    },
+    "and even through persecution and suffering¦139411 like I endured in Antioch¦139417, Iconium¦139419, and Lystra¦139421",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:11: a "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 13:14-52; "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "b "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 14:1-7; "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "c "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 14:8-20."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "—yet the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦139431"
+     ]
+    },
+    " rescued¦139429 me in each case.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "2TI 3:12"
+    },
+    "Anyway, ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "everyone¦139441"
+     ]
+    },
+    " who wants to seriously follow ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦139441"
+     ]
+    },
+    " should expect to be persecuted¦139443.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "2TI 3:13"
+    },
+    "Meanwhile evil¦139444 people¦139446 and scammers will get worse and worse—deceiving¦139453 others and then being¦139455 deceived themselves.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "2TI 3:14"
+    },
+    "Hold on to the things that you learnt and¦139457 were convinced¦139463 are true, because you know you can trust those who taught them to you.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "2TI 3:15"
+    },
+    "You’ve known¦139476 the sacred¦139474 scriptures since you were a young child, and the wisdom contained in them is able to lead you to salvation¦139482 through¦139483 faith¦139484 in ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦139487"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "2TI 3:16"
+    },
+    "All scripture¦139490 is inspired by God and useful for teaching, for scolding and correction¦139500, and for teaching discipline¦139502 and obedience\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "2TI 3:17"
+    },
+    "so that the person¦139512 following ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦139511"
+     ]
+    },
+    " can be trained in doing every¦139514 kind of good¦139516 deed.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "4",
+   "sid": "2TI 4"
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1-2",
+     "sid": "2TI 4:1-2"
+    },
+    "I am proclaiming these truths before ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦139523"
+     ]
+    },
+    " and before Yeshua the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦139527"
+     ]
+    },
+    " who will judge both the living¦139534 and the dead¦139536. Proclaim his appearance¦139540 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "on earth"
+     ]
+    },
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "4:1 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "It’s not clear if Paul is referring to Yeshua’s previous coming to the earth, or to the expected, future coming. (See also 4:8)"
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " and his kingdom¦139544, stand by the message whether it’s convenient or seems out of place, rebuke and scold ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "those who need it"
+     ]
+    },
+    ", but¦139524 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "also"
+     ]
+    },
+    " encourage with complete patience and teaching.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "2TI 4:3"
+    },
+    "A time¦139564 will come when people will no longer be tolerating¦139571 scriptural teaching, but will prefer their¦139576 own doctrines, so they’ll find teachers¦139581 to teach what they want to hear,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "2TI 4:4"
+    },
+    "so not only will they avoid hearing¦139591 the truth¦139589, they’ll be following myths¦139597 instead.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "2TI 4:5"
+    },
+    "However ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Timothy"
+     ]
+    },
+    ", you stay sensible about everything, endure hardship¦139604, tell people the good¦139612 message¦139612, and do all your¦139615 duties well.\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Paul’s Final Words\n"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "2TI 4:6"
+    },
+    "As for me, I’ve already¦139619 done all I can, and¦139621 the time¦139623 of my¦139627 departure¦139626 is approaching¦139628.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "2TI 4:7"
+    },
+    "I’ve fought¦139634 the fight¦139633 for goodness. I’ve finished¦139637 the race. I’ve kept¦139640 the faith¦139639.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "2TI 4:8"
+    },
+    "I know that¦139648 a crown¦139647 has been reserved for me due to my obedience, and the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦139652"
+     ]
+    },
+    " serving as the impartial judge¦139659 will award it to me, and not just to me, but¦139662 will also award them to others who appreciated his¦139671 coming.",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "4:8 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "Again (see 4:1), it’s not totally clear if Paul is referring to Yeshua’s previous coming to the earth, or to the expected, future coming."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Final bits and pieces\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Personal Instructions\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Final instructions\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Personal Words\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Personal Remarks\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "2TI 4:9"
+    },
+    "Try to come¦139673 to me as soon as possible,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "2TI 4:10"
+    },
+    "because¦139678 Demas¦139677 was attracted back to worldly things, and so he left me and went to Thessalonica¦139689. Crescens¦139690 has gone to Galatia¦139693, and Titos¦139694 went to Dalmatia¦139696.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "4:10: a "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Col 4:14; Phm 24; "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "b "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "2Cor 8:23; Gal 2:3; Tit 1:4."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "2TI 4:11"
+    },
+    "Only Luke stayed with me. Fetch Mark¦139702 on your way and bring¦139704 him to me also because¦139709 he’s always very helpful.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "4:11: a "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Col 4:14; Phm 24; "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "b "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 12:12,25; 13:13; 15:37-39; Col 4:10; Phm 24."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "2TI 4:12"
+    },
+    "I sent¦139716 Tychicus¦139714 to Ephesus¦139718.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "4:12: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 20:4; Eph 6:21-22; Col 4:7-8."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "2TI 4:13"
+    },
+    "When you come, bring¦139729 the coat that I left with Carpas in Troas¦139725,",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "4:13: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 20:6."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " along with the scrolls and¦139730 most of the parchments.",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "4:13 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "We get no clues here about what scrolls they were (possibly some Hebrew scriptures), nor what was on the parchments—they may even have been still blank for writing on."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "2TI 4:14"
+    },
+    "Alexander¦139736 the coppersmith¦139738 did a lot of harm to me",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "4:14: a "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "1Tim 1:20; "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "b "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Psa 62:12; Rom 2:6."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " but ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yahweh¦139747"
+     ]
+    },
+    " will ‘reward’ him for what he’s done.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "2TI 4:15"
+    },
+    "You also should watch out for him, because¦139757 he was very strongly opposed to our teaching.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "2TI 4:16"
+    },
+    "At my¦139766 first¦139765 defence¦139767 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "in the courts here in Rome"
+     ]
+    },
+    ", no one stood with me. Everyone¦139768 deserted me, but¦139772 that shouldn’t¦139777 be held against them.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "2TI 4:17"
+    },
+    "But¦139785 the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦139782"
+     ]
+    },
+    " stood¦139784 by me and strengthened¦139786 me to ensure that the good message was proclaimed¦139792 and all the pagans¦139799 heard it, and I was rescued¦139801 out of the lion’s mouth¦139803 so to speak.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "2TI 4:18"
+    },
+    "The ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦139809"
+     ]
+    },
+    " will rescue¦139806 me from every¦139811 evil¦139813 plot, and he will bring me into his¦139819 heavenly¦139821 kingdom¦139818. He should be praised forever. May¦139831 it¦139831 be so¦139831.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Signing off\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Paul’s Final Greetings\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Final Greetings\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Final Greetings and Benediction\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "2TI 4:19"
+    },
+    "Greet¦139832 Priscilla and Aquila¦139835 for me, and Onesiforus’ household¦139839.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "4:19: a "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 18:2; "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "b "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "2Tim 1:16-17."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "2TI 4:20"
+    },
+    "Erastus¦139840 stayed in Corinth¦139843, and I left Trophimus¦139844 in Miletus¦139849 because he was sick.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "4:20: a "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 19:22; Rom 16:23; "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "b "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 20:4; 21:29."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "2TI 4:21"
+    },
+    "Make sure you come¦139854 before¦139852 the winter¦139853. Eubulus¦139857 greets¦139855 you, as do Pudens¦139859, Linus¦139861, Claudia¦139863, and all the believers¦139866.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "2TI 4:22"
+    },
+    "May you always know ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈inside"
+     ]
+    },
+    " that the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦139869 Yeshua"
+     ]
+    },
+    " is with you, and may all of you there experience God’s grace¦139877.\n"
+   ]
   }
+ ]
 }

@@ -1,2397 +1,4618 @@
 {
-  "book": {
-    "bookCode": "SNG",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.0.01",
-    "meta": [
-      {
-        "usfm": "3.0"
-      },
-      {
-        "ide": "UTF-8"
-      },
-      {
-        "rem": "ESFM v0.6 SNG"
-      },
-      {
-        "rem": "WORDTABLE OET-LV_OT_word_table.tsv"
-      },
-      {
-        "h": "Song of Songs"
-      },
-      {
-        "toc1": "Song of Songs"
-      },
-      {
-        "toc2": "Song of Songs"
-      },
-      {
-        "toc3": "Sng"
-      },
-      {
-        "mt1": "Song of Songs"
-      },
-      {
-        "is1": "Introduction"
-      },
-      {
-        "ip": "The Ulahingen document, it's written the pegpaalihey, pegpaheyinaweey, and marriage. Written again of this document the happiness of male and of woman due to pegpaheyinaweey ran. The people of this document is the male, the woman, me maiden of Yerushalem, and the young men."
-      },
-      {
-        "ip": "The Ulahingen document, impanunggiling always of Jews of love of God and of his people, and for of believers of Yeshua, impanunggiling this of relation of Yeshua and of simbaan."
-      },
-      {
-        "iot": "Main components of this “book”"
-      },
-      {
-        "io1": [
-          "First song",
-          {
-            "ior": "1:1–2:7",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Second song",
-          {
-            "ior": "2:8–3:5",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Igkatatelu song",
-          {
-            "ior": "3:6–5:1",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Igkeep‑at song",
-          {
-            "ior": "5:2–6:3",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Igkalalimma song",
-          {
-            "ior": "6:4–8:4",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Igkeen‑em song",
-          {
-            "ior": "8:5-14",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "rem": [
-          "This is still a very early look into the unfinished text of the",
-          {
-            "em": "Open English Translation",
-            "closing": "\\em*"
-          },
-          "of the Bible. Please double-check the text in advance before using in public."
-        ]
-      },
-      {
-        "ie": ""
-      }
-    ]
+ "type": "USJ",
+ "version": "3.1",
+ "content": [
+  {
+   "type": "book",
+   "marker": "id",
+   "code": "SNG",
+   "content": [
+    "- Open English Translation—Readers’ Version (OET-RV) v0.1.04"
+   ]
   },
-  "chapters": [
+  {
+   "type": "para",
+   "marker": "ide",
+   "content": [
+    "UTF-8\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "ESFM v0.6 SNG\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "WORDTABLE OET-LV_OT_word_table.tsv\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "h",
+   "content": [
+    "Song of Songs\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc1",
+   "content": [
+    "Song of Songs\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc2",
+   "content": [
+    "Song of Songs\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc3",
+   "content": [
+    "Sng\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt1",
+   "content": [
+    "Song of Songs\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "is1",
+   "content": [
+    "Introduction\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "The ",
     {
-      "chapterNumber": "1",
-      "contents": [
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:1:"
-                },
-                {
-                  "xt": "1Ki 4:32."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙",
-            {
-              "s1": "The first song"
-            },
-            {
-              "rem": "/s1 The First Song; Colloquy of Bride and Friends"
-            },
-            {
-              "sp": "Malitan"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "sp": "Maidens of Yerushalem"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "sp": "Malitan"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … …"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … …"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "sp": "Lukes"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … …"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            },
-            {
-              "rem": "/s1 Colloquy of Bridegroom, Friends, and Bride"
-            }
-          ],
-          "verseText": "◙ … … … …"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "sp": "Maidens of Yerushalem"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "◙",
-            {
-              "sp": "Malitan"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "sp": "Lukes"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "sp": "Malitan"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            }
-          ],
-          "verseText": "◙ …"
-        }
-      ]
+     "type": "char",
+     "marker": "bk",
+     "content": [
+      "Song of Songs"
+     ]
     },
+    " is about courtship, love, and marriage, and tells about the happiness of a man and woman due to their love. The characters in this document are the groom, the bride, and Yerushalem’s young women and young men.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "The story from the Song of Songs can also be seen as an illustration of God’s love for his people, and looking back from the Messianic Update (the New Testament), his love for followers of Yeshua, going even further about Yeshua and his bride, the church.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "iot",
+   "content": [
+    "Main components of this document\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The first song ",
     {
-      "chapterNumber": "2",
-      "contents": [
-        {
-          "q1": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "sp": "Lukes"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "sp": "Malitan"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "s1": "The second song"
-            },
-            {
-              "rem": "/s1 The Second Song; Springtime Rhapsody"
-            },
-            {
-              "sp": "Malitan"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "sp": "Malitan"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            }
-          ],
-          "verseText": "◙ … … … …"
-        }
-      ]
-    },
-    {
-      "chapterNumber": "3",
-      "contents": [
-        {
-          "s1": "The pegpanaheinep of woman"
-        },
-        {
-          "rem": "/s1 Love's Dream"
-        },
-        {
-          "q1": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … … …"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "s1": "The ikatatelu song"
-            },
-            {
-              "rem": "/s1 The Groom and His Party Approach; The Third Song"
-            },
-            {
-              "sp": "Malitan"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            }
-          ],
-          "verseText": "◙ … … … …"
-        }
-      ]
-    },
-    {
-      "chapterNumber": "4",
-      "contents": [
-        {
-          "sp": "Lukes"
-        },
-        {
-          "q1": null
-        },
-        {
-          "rem": "/s1 The Bride's Beauty Extolled"
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … …"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … …"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "sp": "Malitan"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            }
-          ],
-          "verseText": "◙ … … … … …"
-        }
-      ]
-    },
-    {
-      "chapterNumber": "5",
-      "contents": [
-        {
-          "sp": "Lukes"
-        },
-        {
-          "q1": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "sp": "Maidens of Yerushalem"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "s1": "The ikeep‑at song"
-            },
-            {
-              "rem": "/s1 Another Dream; The Fourth Song"
-            },
-            {
-              "sp": "Malitan"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … … … … …"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "sp": "Lukes"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "sp": "Malitan"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … … … …"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … … … …"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "sp": "Maidens of Yerushalem"
-            },
-            {
-              "q1": ""
-            },
-            {
-              "rem": "/s1 Colloquy of Friends and Bride"
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "sp": "Malitan"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            }
-          ],
-          "verseText": "◙ … … …"
-        }
-      ]
-    },
-    {
-      "chapterNumber": "6",
-      "contents": [
-        {
-          "sp": "Maidens of Yerushalem"
-        },
-        {
-          "q1": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "sp": "Malitan"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "s1": "The ikalalimma song"
-            },
-            {
-              "rem": "/s1 The Bride's Matchless Beauty; The Fifth Song"
-            },
-            {
-              "sp": "Lukes"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … …"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … … … … … …"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … … …"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "sp": "Maidens of Yerushalem"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "sp": "Malitan"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            }
-          ],
-          "verseText": "◙ … … …"
-        }
-      ]
-    },
-    {
-      "chapterNumber": "7",
-      "contents": [
-        {
-          "sp": "Lukes"
-        },
-        {
-          "q1": null
-        },
-        {
-          "rem": "/s1 Expressions of Praise"
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "◙",
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … … …"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "sp": "Malitan"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … …"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            }
-          ],
-          "verseText": "◙ … …"
-        }
-      ]
-    },
-    {
-      "chapterNumber": "8",
-      "contents": [
-        {
-          "q1": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "s1": "The ikeen‑em song"
-            },
-            {
-              "rem": "/s1 The Sixth Song; Homecoming"
-            },
-            {
-              "sp": "Maidens of Yerushalem"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "sp": "Malitan"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … … …"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … …"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "sp": "Me maama of woman"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … … … …"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "sp": "Malitan"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … …"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "sp": "Lukes"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "sp": "Malitan"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            }
-          ],
-          "verseText": "◙ … … …"
-        }
-      ]
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1:1–2:7"
+     ]
     }
-  ],
-  "_messages": {
-    "_warnings": []
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The second song ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "2:8–3:5"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The third song ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "3:6–5:1"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The fourth song ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "5:2–6:3"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The fifth song ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "6:4–8:4"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The sixth song ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "8:5-14"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "This is still a very early look into the unfinished text of the Open English Translation of the Bible. Please double-check the text in advance before using in public.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ie",
+   "content": []
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "1",
+   "sid": "SNG 1"
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "SNG 1:1"
+    },
+    "The song ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "to beat all"
+     ]
+    },
+    " songs¦282085 by Shelomoh ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Solomon¦282087)"
+     ]
+    },
+    ".",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:1: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "1Ki 4:32."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The first song\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The First Song; Colloquy of Bride and Friends\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The bride\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "SNG 1:2"
+    },
+    "Let him¦282089 kiss¦282089 me ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈on the lips"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because your¦282095 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈caresses"
+     ]
+    },
+    " are better than wine.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "SNG 1:3"
+    },
+    "As for the fragrance¦282098 of your¦282099 perfumes¦282099—they’re good¦282100.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Your ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈reputation is like fragrant"
+     ]
+    },
+    " oil¦282101\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "so the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "eligible"
+     ]
+    },
+    " young¦282107 women¦282107 love¦282108 you¦282108.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "SNG 1:4"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Take me with"
+     ]
+    },
+    " you—let’s run.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "May the king¦282114 has brought¦282113 me to his bedroom.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "Yerushalem’s young women\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Let’s be happy and celebrate with you.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "We will praise your love more than wine.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The bride\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "It’s right that they love you.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "SNG 1:5"
+    },
+    "I am black¦282126 but¦282128 lovely¦282128, daughters¦282129 of Yerushalem¦282130,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "like the tents¦282131 in Kedar¦282132.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Like Shelomoh’s ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "palace"
+     ]
+    },
+    " curtains¦282133.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "SNG 1:6"
+    },
+    "Don’t look at¦282147 me, that¦282154 I’m black¦282140.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "That the sun¦282142 scorched me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "My ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈brothers"
+     ]
+    },
+    " were angry¦282145 with¦282147 me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈forced me to look after our"
+     ]
+    },
+    " vineyards—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "but"
+     ]
+    },
+    " I haven’t ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈maintained"
+     ]
+    },
+    " my own vineyard.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "SNG 1:7"
+    },
+    "Declare to me, you who my ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈heart"
+     ]
+    },
+    " loves¦282160.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Where do you graze¦282163?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Where do you make ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "@your flocks"
+     ]
+    },
+    " lie down at¦282166 noontime?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Why should I be like a woman who covers herself beside your companions’ flocks?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The groom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "SNG 1:8"
+    },
+    "If¦282179 you¦282177 don’t¦282176 know¦282177, most beautiful¦282179 among¦282180 women¦282180,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈follow"
+     ]
+    },
+    " the footprints¦282184 of the flock¦282185,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦282186 graze your¦282189 young¦282189 goats¦282189 beside the shepherds’ tents.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "SNG 1:9"
+    },
+    "I liken¦282198 you¦282198, my darling¦282199,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Colloquy of Bridegroom, Friends, and Bride\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "to a mare ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "walking"
+     ]
+    },
+    " among¦282196 Far’oh’s ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Pharaoh’s¦282197)"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "stallions hitched to"
+     ]
+    },
+    " chariots¦282196.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "SNG 1:10"
+    },
+    "Your cheeks¦282202 are beautiful with earrings.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Your neck ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≡is beautiful"
+     ]
+    },
+    " with necklaces.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "Yerushalem’s young women\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "SNG 1:11"
+    },
+    "We’ll make gold¦282208 earrings\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈with silver¦282214 studs¦282213.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The bride\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "SNG 1:12"
+    },
+    "While the king¦282218 was on¦282219 his couch¦282219,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "my perfume¦282220 gave¦282221 off its¦282222 fragrance¦282222.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "SNG 1:13"
+    },
+    "My dearest¦282227 is ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "like"
+     ]
+    },
+    " a ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈perfume sachet"
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "that stays between¦282229 my breasts¦282230.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "SNG 1:14"
+    },
+    "My dearest¦282236 is ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "like"
+     ]
+    },
+    " a cluster¦282233 of henna¦282234 blossoms¦282234 to me,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "in¦282238 the Engedi vineyards¦282238.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The groom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "SNG 1:15"
+    },
+    "Wow, you’re¦282243 beautiful, my darling¦282245.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Look at you, beautiful, with your doves’ eyes¦282248.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The bride\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "SNG 1:16"
+    },
+    "Look at you¦282251. You’re handsome, my dearest¦282255, truly pleasant¦282257.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Indeed, our¦282260 couch¦282260 is ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈comfortable"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "SNG 1:17"
+    },
+    "The beams¦282263 of our house¦282264 are cedar¦282265.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Our rafters¦282266 are pine.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "2",
+   "sid": "SNG 2"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "SNG 2:1"
+    },
+    "I’m a wildflower of Sharon¦282272.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈A lily of the valleys¦282274.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The groom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "SNG 2:2"
+    },
+    "My darling¦282280 is among the young women\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "like a lily among the thorns¦282278.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The bride\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "SNG 2:3"
+    },
+    "Like an apple¦282284 tree¦282284 among the trees¦282285 in¦282285 the forest¦282286,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "so is my dearest¦282288 among the young¦282290 men¦282290.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "In his shadow I greatly delighted, and I sat¦282293,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and his fruit¦282294 is sweet¦282295 to my ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈taste¦282296"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "SNG 2:4"
+    },
+    "He brought¦282298 me to the house¦282301 of ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "?food and"
+     ]
+    },
+    " wine\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and his ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈desire for me is to show"
+     ]
+    },
+    " love¦282305.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "SNG 2:5"
+    },
+    "Sustain¦282307 me with raisin¦282308 cakes.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Refresh me with apples¦282310,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because I’m weak with love¦282314.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "SNG 2:6"
+    },
+    "His left hand¦282320 is under¦282318 my head¦282319,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "^and his right¦282320 arm embraces¦282321 me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "SNG 2:7"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Promise me, you young women"
+     ]
+    },
+    " from Yerushalem¦282326\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "by the female gazelles¦282327 or the does in¦282327 the countryside¦282330,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "don’t awaken¦282333 or stir love¦282340 until¦282341 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈it’s the right time"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The second song\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Second Song; Springtime Rhapsody\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The bride\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "SNG 2:8"
+    },
+    "Listen, my dearest¦282346 is coming¦282350,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "leaping¦282351 over the mountains¦282354,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈jumping over the hills¦282358.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "SNG 2:9"
+    },
+    "My dearest¦282361 is being like a gazelle¦282362 or a young¦282364 stag.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Look, that one is standing¦282369 behind¦282370 our¦282371 wall¦282371,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "gazing¦282372 through the windows¦282375—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈looking through the lattices¦282379.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "SNG 2:10"
+    },
+    "My dearest¦282382 answered¦282381 and said to me,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“Stand up, my darling¦282387, my beauty¦282388, and come¦282389,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "SNG 2:11"
+    },
+    "because, look, the winter¦282396 is over.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The rain has passed—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈it went away.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "SNG 2:12"
+    },
+    "Blossoms have appeared¦282405 across the land.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The time¦282407 of ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "birds"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈tweeting"
+     ]
+    },
+    " has arrived¦282409,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and the voice¦282410 of the turtledove¦282411 is heard¦282412 in¦282413 our¦282413 land.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "SNG 2:13"
+    },
+    "The fig¦282415 tree¦282415 ripens¦282416 its¦282417 green figs¦282417,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and the grapevines are in blossom¦282420.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They give off a scent.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Stand up, my beautiful¦282427 darling¦282426 and come¦282428.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "SNG 2:14"
+    },
+    "My dove¦282433, in the holes in the rocks,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈in the hiding¦282436 places of the cliff¦282437,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Show me your appearance,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈make me hear¦282445 your voice,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because your voice is sweet¦282452, and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈you look"
+     ]
+    },
+    " lovely¦282454.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "SNG 2:15"
+    },
+    "Catch the foxes for us—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "the little foxes that¦282463 destroy the vineyards,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦282465 our¦282465 vineyards are in blossom¦282466.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The woman’s dream\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The bride\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "SNG 2:16"
+    },
+    "My dearest belongs to me and¦282470 I belong to him—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "man"
+     ]
+    },
+    " grazing¦282472 among¦282473 the lilies¦282473.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "SNG 2:17"
+    },
+    "Until¦282475 the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈daylight arrives"
+     ]
+    },
+    " and¦282478 the shadows¦282479 flee, turn¦282480.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "My¦282486 dearest¦282486 resembles a gazelle¦282487 or a young¦282489 stag on the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈rugged"
+     ]
+    },
+    " mountains¦282493.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "3",
+   "sid": "SNG 3"
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Love’s Dream\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "SNG 3:1"
+    },
+    "On my bed in¦282500 the night¦282500, I search for the one that my soul¦282504 loves¦282503.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈I searched for him, but¦282506 I didn’t¦282506 find him.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "SNG 3:2"
+    },
+    "I’ll¦282509 get up now and go¦282511 about¦282511 in the city¦282512—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "in the streets¦282513 and in the squares¦282514.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I will search¦282515 for ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "@the man"
+     ]
+    },
+    " who my soul¦282518 loves¦282517.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I looked for him, but¦282511 I didn’t¦282520 find him.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "SNG 3:3"
+    },
+    "The guards going around¦282525 in¦282526 the city¦282526 found¦282523 me:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“Have you¦282530 seen¦282530 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#the man"
+     ]
+    },
+    " whom my soul¦282529 loves¦282528?”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "SNG 3:4"
+    },
+    "I’d hardly passed¦282533 by ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "@the guards"
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "when I found¦282536 him whom my soul¦282539 loves¦282538.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I held him and I wouldn’t let him go¦282542\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "until I’d brought¦282545 him to my mother’s¦282549 house¦282548\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and to the room¦282552 of the woman who conceived¦282553 me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "SNG 3:5"
+    },
+    "I ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈strongly advise"
+     ]
+    },
+    " you, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈young women"
+     ]
+    },
+    " of Yerushalem¦282558,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "by the female gazelles¦282559 or the does in¦282559 the countryside¦282562,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "don’t awaken¦282565 or stir love¦282572 until¦282573 it¦282574 pleases¦282574.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The third song\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Groom and His Party Approach; The Third Song\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The bride\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "SNG 3:6"
+    },
+    "Who’s that coming¦282579 up from the wilderness¦282582 like columns¦282583 of smoke—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "fragrant smoke of myrrh¦282586 and¦282587 frankincense¦282587 from all the merchant’s powders?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "SNG 3:7"
+    },
+    "Look, it’s his¦282593 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈chair carried on poles"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "It belongs¦282594 to Shelomoh ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Solomon¦282594)"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "and"
+     ]
+    },
+    " sixty¦282595 Israeli¦282599 warriors¦282596 surround it.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "SNG 3:8"
+    },
+    "Each of them is studied in war and holding a sword.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Each one has his sword at¦282614 his thigh¦282612 against¦282613 the dangers in the nights¦282614.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "SNG 3:9"
+    },
+    "King¦282623 Shelomoh¦282624 had a ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈chair carried on poles"
+     ]
+    },
+    " made for himself\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "from the trees from Lebanon¦282626.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "SNG 3:10"
+    },
+    "Its posts were made of silver¦282630, its back, gold¦282632, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "and"
+     ]
+    },
+    " its seat¦282633, purple¦282634 cloth.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Its interior¦282635 was decorated with love by Yerushalem’s¦282639 young women.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "SNG 3:11"
+    },
+    "Go out and look, young women of Tsiyyon¦282645, at King¦282646 Shelomoh.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≡Look"
+     ]
+    },
+    " at the crown his mother¦282652 crowned him with\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "on the day of his wedding¦282654—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "on the day ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈that¦282649 his heart¦282657 was filled with happiness"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "4",
+   "sid": "SNG 4"
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Bride’s Beauty Extolled\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The groom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "SNG 4:1"
+    },
+    "Wow, you’re¦282660 beautiful, my darling¦282662.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Look, at you, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "so"
+     ]
+    },
+    " beautiful.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Your eyes¦282665 are doves¦282666 from behind¦282667 your veil.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Your hair¦282669 is like a flock¦282670 of goats¦282671 that¦282672 hop down from the slopes of Gilead¦282674.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "SNG 4:2"
+    },
+    "Your teeth are like a flock¦282677 of shorn¦282678 sheep that¦282683 have come¦282679 up from the washing¦282682,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "all of which ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈have identical pairs"
+     ]
+    },
+    " and¦282685 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈none of them have been lost"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "SNG 4:3"
+    },
+    "Your lips¦282691 are like a scarlet¦282690 thread¦282689 and your mouth¦282692 is lovely¦282693.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Your cheeks¦282696 are like a slice¦282694 of pomegranate¦282695 from behind¦282697 your veil.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "SNG 4:4"
+    },
+    "Your neck is like the tower¦282700 of David¦282701 that’s built¦282703 of layers¦282704—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "a thousand¦282705 shields hanging on it—all the shields of the warriors¦282711.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "SNG 4:5"
+    },
+    "Your two breasts¦282714 are like two fawns¦282716—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "twins¦282717 of a gazelle¦282718 grazing among¦282720 the lilies¦282720.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "SNG 4:6"
+    },
+    "Until¦282722 the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈daylight arrives"
+     ]
+    },
+    " and the shadows¦282726 flee,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I¦282727 myself will go¦282727 to the mountain¦282731 of myrrh¦282732\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and to the hill¦282731 of frankincense¦282736.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "SNG 4:7"
+    },
+    "All¦282740 of you is beautiful¦282739, my darling¦282740,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈you don’t¦282742 have any flaws"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "SNG 4:8"
+    },
+    "Come with me from Lebanon¦282747, my bride¦282748.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Descend from the top of Amana¦282755,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈from the top of Senir¦282757 and¦282758 Hermon¦282758,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "from the hiding places of lions¦282760,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈from the mountains¦282761 of leopards¦282762.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "SNG 4:9"
+    },
+    "You have enchanted my heart, my ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈girlfriend"
+     ]
+    },
+    ", my bride¦282766.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "You’ve enchanted my heart with one look from your eyes¦282770—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "with one jewel from your necklace¦282772.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "SNG 4:10"
+    },
+    "How your love is beautiful¦282777, my ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈girlfriend"
+     ]
+    },
+    ", my bride¦282780.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "How your love is better than wine\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and the smell of your oils is nicer than all spices¦282790.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "SNG 4:11"
+    },
+    "Your¦282795 lips¦282794 drip with nectar, my bride¦282795.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Honey¦282792 and milk are under¦282798 your tongue¦282799,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and your clothes¦282801 smell ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "nice"
+     ]
+    },
+    " like Lebanon’s¦282803 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "forests"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "SNG 4:12"
+    },
+    "My ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈girlfriend"
+     ]
+    },
+    ", my bride¦282810, is a locked garden¦282806,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "a locked spring, a sealed¦282814 fountain.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "SNG 4:13"
+    },
+    "Your shoots are an orchard of pomegranate¦282818 trees with delicious fruits¦282820,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "and"
+     ]
+    },
+    " henna¦282822 and nard ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "spice plants"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "SNG 4:14"
+    },
+    "nard and saffron¦282829, calamus¦282830 and cinnamon¦282831, with all trees¦282835 used for incense,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "myrrh¦282837 and aloes¦282838, with all the best spices¦282843,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "SNG 4:15"
+    },
+    "a fountain of gardens¦282846,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "a well of living¦282849 waters¦282848,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦282850 streams¦282850 flowing¦282850 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "down"
+     ]
+    },
+    " from Lebanon¦282853.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The bride\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "SNG 4:16"
+    },
+    "Wake up, north¦282856 wind, and come, south¦282858 wind.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Blow on my garden and let its spices¦282862 flow.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Let my dearest come to his garden and eat its delicious fruit¦282867.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "5",
+   "sid": "SNG 5"
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The groom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "SNG 5:1"
+    },
+    "I have come¦282870 to my garden¦282871, my ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈girlfriend"
+     ]
+    },
+    ", my bride¦282873.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I’ve plucked my myrrh¦282875 with my spice¦282878.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I’ve eaten¦282879 my honeycomb with my honey¦282883.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I’ve drunk my wine with my milk.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "Yerushalem’s young women\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Eat, friends¦282890,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "drink, and drink freely, dear ones.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The fourth song\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Another Dream; The Fourth Song\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The bride\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "SNG 5:2"
+    },
+    "I’m asleep, but¦282898 my heart¦282898 is awake¦282899.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "A sound¦282900—my dearest is knocking¦282903.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The groom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“Open to me, my ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈girlfriend"
+     ]
+    },
+    ", my darling¦282908, my dove¦282909, my perfect¦282910 one,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because my head¦282911 is full of dew—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "my hair is ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈wet with the night¦282918 dampness"
+     ]
+    },
+    ".”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The bride\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "SNG 5:3"
+    },
+    "“I’ve ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈already undressed—do I have to get dressed again"
+     ]
+    },
+    "?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I’ve washed¦282926 my feet¦282929—",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈won’t I get them dirty¦282931 now"
+     ]
+    },
+    "?”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "SNG 5:4"
+    },
+    "My dearest stretched out his hand¦282935 through the hole\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and my stomach ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈tightened when I saw"
+     ]
+    },
+    " him.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "SNG 5:5"
+    },
+    "I got myself up to open to my dearest and my hands¦282947 dripped with myrrh.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "My fingers¦282951 dripped with flowing¦282953 myrrh on the arm of the bolt.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "SNG 5:6"
+    },
+    "I opened¦282958 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "the door"
+     ]
+    },
+    " to my dearest,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "but my dearest had turned¦282962 and gone.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "My ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈stomach sunk"
+     ]
+    },
+    " because he’d left.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I searched for him, but I couldn’t find him.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈I called¦282970 him, but he didn’t¦282968 answer¦282972 me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "SNG 5:7"
+    },
+    "The guards going about in¦282977 the city¦282977 found¦282974 me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They beat me and wounded¦282979 me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The guards of the walls¦282986 took my shawl¦282983 off me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "SNG 5:8"
+    },
+    "I adjure¦282988 you, young women of Yerushalem¦282991:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "if you find my dearest, what will you tell him?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≡Tell him"
+     ]
+    },
+    " that I’m sick with love¦283003.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "Yerushalem’s young women\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "SNG 5:9"
+    },
+    "Most beautiful¦283010 among¦283011 women¦283011, how is your dearest better than another darling?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Colloquy of Friends and Bride\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "What is your dearest more than another, that you¦283017 adjure¦283017 us like that?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The bride\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "SNG 5:10"
+    },
+    "My dearest is dazzling¦283020 and red—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "→he would stand out among¦283023 ten¦283023 thousand¦283023.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "SNG 5:11"
+    },
+    "His head is gold, refined gold.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈His hair is wavy, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "and"
+     ]
+    },
+    " black¦283031 like the raven¦283032.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "SNG 5:12"
+    },
+    "His eyes are like doves¦283035 beside streams of water¦283039,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈bathing in¦283041 milk, sitting beside the pools.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "SNG 5:13"
+    },
+    "His cheeks are like a bed of spices¦283049—like towers¦283050 where aromatic¦283051 herbs¦283051 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "are hung"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈His lips¦283052 are lilies¦283053—dripping¦283054 with flowing¦283056 myrrh¦283055.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "SNG 5:14"
+    },
+    "His arms are rods of gold¦283060 mounted with topaz ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "stones"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈His belly is a plate¦283064 of ivory¦283065 covered¦283066 with sapphires¦283067.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "SNG 5:15"
+    },
+    "His thighs are pillars¦283070 of alabaster set on bases¦283075 of refined gold¦283077.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈His appearance¦283078 is like Lebanon¦283079—as attractive as the cedar¦283081 trees.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "SNG 5:16"
+    },
+    "His¦283085 mouth is most sweet¦283084,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and all of him¦283085 is most desirable¦283086.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "This¦283094 is my dearest, and this is my friend¦283093,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "young women of Yerushalem¦283095.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "6",
+   "sid": "SNG 6"
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "Yerushalem’s young women\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "SNG 6:1"
+    },
+    "Where did he go, your dearest, most beautiful¦283100 woman among¦283101 women¦283101?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Where did he turn, your dearest—let us ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "join"
+     ]
+    },
+    " you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈in¦283101 looking for him"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The bride\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "SNG 6:2"
+    },
+    "My dearest went down to his garden, to the beds of spices¦283112,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "→in order to graze¦283113 in the gardens and¦283115 in order to gather¦283115 lilies¦283116.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "SNG 6:3"
+    },
+    "I belong to my dearest, and¦283120 my dearest belongs to me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He grazes among¦283123 the lilies¦283123.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The fifth song\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Bride’s Matchless Beauty; The Fifth Song\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The groom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "SNG 6:4"
+    },
+    "You are beautiful¦283129, my darling¦283131, like Tirtsah,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈lovely¦283133 like Yerushalem¦283134,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈awe-inspiring like armies ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "marching"
+     ]
+    },
+    " with banners¦283136.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "SNG 6:5"
+    },
+    "Turn your eyes¦283139 away from me, because they¦283141 excite me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Your hair¦283144 is like a flock¦283145 of goats¦283146 that¦283147 hop down from ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Mt."
+     ]
+    },
+    " Gilead¦283150.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "SNG 6:6"
+    },
+    "Your teeth are like a flock¦283153 of ewes that¦283159 have come¦283155 up from the washing¦283158,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "all of which¦283159 have twin ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "lambs"
+     ]
+    },
+    " and¦283161 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈none of them have died"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "SNG 6:7"
+    },
+    "Your cheeks¦283167 are like a slice¦283165 of a pomegranate¦283166\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "from behind¦283168 your veil.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "SNG 6:8"
+    },
+    "He has sixty¦283171 queens¦283173, and eighty¦283174 concubines¦283175,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and young¦283176 women¦283176 without number¦283178.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "SNG 6:9"
+    },
+    "She’s ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈special"
+     ]
+    },
+    ", my dove¦283182, my perfect one.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈She’s ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈special"
+     ]
+    },
+    " to her mother¦283186—perfect to the woman who bore her.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The young women saw¦283190 her and called¦283192 her blessed¦283192.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈The queens¦283193 and the concubines¦283194 praised¦283195 her:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "SNG 6:10"
+    },
+    "“Who is that, the woman who looks¦283201 down like the dawn,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "beautiful¦283205 like the moon¦283206,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "pure like the sun¦283208,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "awe-inspiring like armies ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "marching"
+     ]
+    },
+    " with banners¦283210?”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "SNG 6:11"
+    },
+    "I went¦283217 down to the nut tree garden¦283215 to look at¦283219 the green¦283219 shoots¦283219 of the valley¦283220\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "to see if the grapevine¦283223 had budded¦283222?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Had the pomegranates¦283225 bloomed¦283224?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "SNG 6:12"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Before I realised it¦283230"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "my ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈desire¦283229"
+     ]
+    },
+    " had put me among my people’s chariots¦283231, a noble.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "Yerushalem’s young women\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "SNG 6:13"
+    },
+    "Return, return, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "woman"
+     ]
+    },
+    " from Shulam.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Return, return and let us look at you.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The bride\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Why do you look at the Shulammite\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "like the dance of two armies?\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "7",
+   "sid": "SNG 7"
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Expressions of Praise\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The groom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "SNG 7:1"
+    },
+    "Your feet are ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈so"
+     ]
+    },
+    " beautiful in¦283249 sandals, daughter of a noble.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The curves of your thighs are like ornaments—the work of a craftsman’s hands.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "SNG 7:2"
+    },
+    "Your navel is ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "like"
+     ]
+    },
+    " a round bowl\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "that never lacks spiced wine.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Your belly is ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "like"
+     ]
+    },
+    " a pile of ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "threshed"
+     ]
+    },
+    " wheat\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "encircled with¦283258 lily ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "flowers"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "SNG 7:3"
+    },
+    "Your two breasts are like two fawns—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "a gazelle’s twins.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "SNG 7:4"
+    },
+    "Your neck is like a tower of ivory.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Your eyes are pools in Heshbon\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "by the gate of Bath Rabbim.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Your nose is like the tower of Lebanon,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "looking to the face of Damascus.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "SNG 7:5"
+    },
+    "Your head ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈crowns"
+     ]
+    },
+    " you like ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Mt."
+     ]
+    },
+    " Carmel,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and the loose hair of your head is like purple ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "robes"
+     ]
+    },
+    "—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "a king is held captive in¦283298 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "&their"
+     ]
+    },
+    " tresses.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "SNG 7:6"
+    },
+    "You’re¦283315 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈so"
+     ]
+    },
+    " beautiful and¦283316 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈so"
+     ]
+    },
+    " lovely—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≡you’re"
+     ]
+    },
+    " love with¦283321 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "added"
+     ]
+    },
+    " delights!\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "SNG 7:7"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈You’re¦283330 tall"
+     ]
+    },
+    " like a palm tree,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦283327 your breasts like its clusters ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "of dates"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "SNG 7:8"
+    },
+    "I said, “I’ll go up the palm¦283337 tree¦283337.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I’ll grab hold of its stalks of fruit.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "And, please, let your breasts¦283338 be like the clusters¦283339 on the grapevine,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and let the fragrance of your nose be like apples,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "SNG 7:9"
+    },
+    "and let your mouth be like the best wine\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "going down smoothly for my dearest—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "gliding over the lips of those who sleep.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The bride\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "SNG 7:10"
+    },
+    "I belong to my dearest\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦283358 his longing is for me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "SNG 7:11"
+    },
+    "Come, my dearest, let’s go out to the countryside.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Let’s spend the night in the villages.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "SNG 7:12"
+    },
+    "Let’s go¦283378 early to the vineyards.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "We’ll see if the grapevine has budded,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "if the blossoms have opened,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "and"
+     ]
+    },
+    " if the pomegranates have bloomed.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "There I’ll give my love to you.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "SNG 7:13"
+    },
+    "The mandrakes give¦283395 off a scent,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and over our doors are all ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "kinds of"
+     ]
+    },
+    " choice ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "dried"
+     ]
+    },
+    " fruits—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "new ones and also old ones.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "My dearest, I’ve stored these up for you.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "8",
+   "sid": "SNG 8"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "SNG 8:1"
+    },
+    "Who will give¦283421 you to me like a brother¦283422,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "who nursed at¦283428 my mother’s¦283426 breasts¦283425?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "If I found¦283427 you outside¦283428, I would kiss¦283429 you.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Yes, they wouldn’t despise¦283436 me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "SNG 8:2"
+    },
+    "I would lead you.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I would bring¦283440 you to my mother’s¦283444 house¦283443—she¦283445 who taught¦283445 me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I would have you drink¦283446 some spiced¦283448 wine,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "and"
+     ]
+    },
+    " some of my pomegranate¦283450 juice¦283449.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "SNG 8:3"
+    },
+    "His left hand is under¦283453 my head\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and his right¦283455 hand embraces¦283456 me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "SNG 8:4"
+    },
+    "I adjure¦283458 you, young women of Yerushalem¦283461,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "don’t¦283466 awaken¦283464 and¦283466 stir up love¦283471 until¦283472 it¦283473 desires.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The sixth song\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Sixth Song; Homecoming\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "Yerushalem’s young women\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "SNG 8:5"
+    },
+    "Who is that coming¦283478 up from the wilderness¦283481,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "leaning¦283482 against her¦283485 dearest?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The bride\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Under the apple¦283487 tree¦283487 I awakened¦283488 you.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Your mother¦283491 was in labour with you there.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "There she was in labour—she gave¦283494 birth¦283494 to you.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "SNG 8:6"
+    },
+    "Place me like the seal on your heart¦283500,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "like the seal on your arm,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because live is strong¦283507 like death¦283508.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Zeal is unyielding like the grave.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Its flashes are flashes of fire¦283515—Yah’s flame¦283514.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "SNG 8:7"
+    },
+    "Many waters¦283520 aren’t¦283522 able to quench¦283524 this love\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and rivers¦283528 can’t¦283522 drown it.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "If a man would give¦283533 all the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈family’s"
+     ]
+    },
+    " wealth¦283539 in¦283541 exchange for love,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈he’d be utterly¦283542 despised"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "Bride’s older brothers\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "SNG 8:8"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈We have a young sister"
+     ]
+    },
+    "—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "small¦283549 and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈without her breasts¦283550 developed"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "What will we do for our sister\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "on¦283560 the day¦283557 when she is spoken¦283558 for?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "SNG 8:9"
+    },
+    "If she’s a wall,",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "8:9 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "Some consider these analogies to refer to her (still young) flat chest, others to a wall/door¦283572 protecting her virginity."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " we’ll build¦283566 a silver¦283569 turret on her.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "And if she is a door, we’ll ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈protect her with"
+     ]
+    },
+    " cedar¦283577 planks.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The bride\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "SNG 8:10"
+    },
+    "I ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "was"
+     ]
+    },
+    " a wall¦283580 and¦283581 my breasts¦283581 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "were"
+     ]
+    },
+    " like towers¦283582.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Then, in¦283585 his eyes¦283585, I was like a person who finds¦283586 peace¦283587.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "SNG 8:11"
+    },
+    "There was a vineyard for Solomon¦283592 at¦283593 Baal-Hamon.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He gave¦283595 the vineyard to keepers¦283599.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Each person brought a thousand¦283603 silver¦283604 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈coins"
+     ]
+    },
+    " in¦283593 exchange for its¦283602 fruit¦283602.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "SNG 8:12"
+    },
+    "My¦283611 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈own"
+     ]
+    },
+    " vineyard is ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈right in front of me"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Those thousand¦283612 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "coins"
+     ]
+    },
+    " belong to you, Shelomoh ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Solomon¦283614)"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and the two¦283615 hundred¦283615 belong to the people who are keepers of its¦283619 fruit¦283619.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The groom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "SNG 8:13"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "You,"
+     ]
+    },
+    " the one residing in¦283625 the gardens¦283625:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "&my"
+     ]
+    },
+    " companions¦283626 are listening¦283627 intently for your¦283628 voice¦283628—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "let me hear¦283629 it.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "sp",
+   "content": [
+    "The bride\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "SNG 8:14"
+    },
+    "Flee¦283633, my dearest, and¦283634 be like a gazelle¦283637\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈or a young¦283639 stag on the mountains¦283642 of spices¦283643.\n"
+   ]
   }
+ ]
 }

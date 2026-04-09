@@ -1,5 +1,6 @@
 import '../app/app.locator.dart';
 import '../common/enums.dart';
+import '../models/bibles/bsb_bible.dart';
 import '../models/bibles/kjv_bible.dart';
 import '../models/bibles/oet_lv_bible.dart';
 import '../models/bibles/oet_rv_bible.dart';
@@ -33,6 +34,9 @@ class ReaderService {
       return await bibleImpl.getBook(area, bookCode, bookmarks, showMarks, showChaptersAndVerses);
     } else if (bibleCode == 'WEB') {
       var bibleImpl = WEBBibleImpl(json);
+      return await bibleImpl.getBook(area, bookCode, bookmarks, showMarks, showChaptersAndVerses);
+    } else if (bibleCode == 'BSB') {
+      var bibleImpl = BSBBibleImpl(json);
       return await bibleImpl.getBook(area, bookCode, bookmarks, showMarks, showChaptersAndVerses);
     } else {
       return 'Invalid bibleCode.';

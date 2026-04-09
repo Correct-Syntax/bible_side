@@ -1,330 +1,513 @@
 {
-  "book": {
-    "bookCode": "3JN",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.01",
-    "meta": [
-      {
-        "usfm": "3.0"
-      },
-      {
-        "ide": "UTF-8"
-      },
-      {
-        "rem": "ESFM v0.6 JN3"
-      },
-      {
-        "rem": "WORDTABLE OET-LV_NT_word_table.tsv"
-      },
-      {
-        "h": "3 Yohan"
-      },
-      {
-        "toc1": "3 Yohan (John)"
-      },
-      {
-        "toc2": "3 Yohan"
-      },
-      {
-        "toc3": "3 Yn"
-      },
-      {
-        "mt2": "The third letter"
-      },
-      {
-        "mt2": "that we have written by"
-      },
-      {
-        "mt1": "Yohan (John)"
-      },
-      {
-        "is1": "Introduction"
-      },
-      {
-        "is2": "The author"
-      },
-      {
-        "ip": "This the third letter we have that was written by Yohan, one of the twelve interns who spent the most time with Yeshua."
-      },
-      {
-        "is2": "This letter"
-      },
-      {
-        "ip": "This letter was sent to one of Yohan's friends named Gaius. Yohan praises Gaius for the way he'd looked after other believers and for his living out God's truth. Yohan also warns Gaius about a person named Diotrephes who was opposing the believers."
-      },
-      {
-        "iot": "Main components of Yohan's letter"
-      },
-      {
-        "io1": [
-          "Greetings",
-          {
-            "ior": "1-4",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Praising Gaius",
-          {
-            "ior": "5-8",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Scolding Diotrephes",
-          {
-            "ior": "9-10",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Boasting about Demetrius",
-          {
-            "ior": "11-12",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The closing",
-          {
-            "ior": "13-15",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "rem": [
-          "This is still a very early look into the unfinished text of the",
-          {
-            "em": "Open English Translation",
-            "closing": "\\em*"
-          },
-          "of the Bible. Please double-check the text in advance before using in public."
-        ]
-      },
-      {
-        "ie": ""
-      }
-    ]
+ "type": "USJ",
+ "version": "3.1",
+ "content": [
+  {
+   "type": "book",
+   "marker": "id",
+   "code": "3JN",
+   "content": [
+    "- Open English Translation—Readers’ Version (OET-RV) v0.1.02"
+   ]
   },
-  "chapters": [
+  {
+   "type": "para",
+   "marker": "ide",
+   "content": [
+    "UTF-8\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "ESFM v0.6 JN3\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "WORDTABLE OET-LV_NT_word_table.tsv\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "h",
+   "content": [
+    "3 Yohan\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc1",
+   "content": [
+    "3 Yohan (John)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc2",
+   "content": [
+    "3 Yohan\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc3",
+   "content": [
+    "3 Yn\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt2",
+   "content": [
+    "The third letter\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt2",
+   "content": [
+    "that we have written by\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt1",
+   "content": [
+    "Yohan (John)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "is1",
+   "content": [
+    "Introduction\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "is2",
+   "content": [
+    "The author\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "This the third letter we have that was written by Yohan, one of the twelve apprentices who spent the most time with Yeshua.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "is2",
+   "content": [
+    "This letter\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "This letter was sent to one of Yohan’s friends named Gaius. Yohan praises Gaius for the way he’d looked after other believers and for his living out God’s truth. Yohan also warns Gaius about a person named Diotrephes who was opposing the believers.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "iot",
+   "content": [
+    "Main components of Yohan’s letter\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Greetings ",
     {
-      "chapterNumber": "1",
-      "contents": [
-        {
-          "rem": "/s1 Salutation"
-        },
-        {
-          "rem": "/s1 Greetings"
-        },
-        {
-          "rem": "/s1 Trouble in the church"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:"
-                },
-                {
-                  "xt": "Acts 19:29; Rom 16:23; 1Cor 1:14."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "This letter is from Yohan the elder¦155485 to my dear friend Gaius¦155486 who I love",
-            {
-              "add": "because we both",
-              "closing": "\\add*"
-            },
-            "follow the truth¦155493.",
-            {
-              "rem": "/s1 Gaius Commended for His Hospitality"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "This letter is from Yohan the elder¦155485 to my dear friend Gaius¦155486 who I love because we both follow the truth¦155493."
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "My dear friend, I trust that you are healthy¦155501 and doing well in everything just as you are also doing well spiritually."
-          ],
-          "verseText": "My dear friend, I trust that you are healthy¦155501 and doing well in everything just as you are also doing well spiritually."
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "I was very happy when some of our",
-            {
-              "add": "spiritual",
-              "closing": "\\add*"
-            },
-            "brothers¦155511 came and told us about your¦155515 faithfulness to the truth and how you are living it out."
-          ],
-          "verseText": "I was very happy when some of our spiritual brothers¦155511 came and told us about your¦155515 faithfulness to the truth and how you are living it out."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "Nothing makes me more happy than hearing¦155532 that other believers that I've helped are living out the truth¦155538.",
-            {
-              "s1": "Praising Gaius"
-            },
-            {
-              "rem": "/s1 Caring for the Lord's Workers"
-            },
-            {
-              "rem": "/s1 Gaius Is Praised"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Nothing makes me more happy than hearing¦155532 that other believers that I've helped are living out the truth¦155538."
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "My dear friend, you are faithful¦155541 in what you do for other believers¦155548. Even strangers¦155553"
-          ],
-          "verseText": "My dear friend, you are faithful¦155541 in what you do for other believers¦155548. Even strangers¦155553"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "have told the assembly¦155560 about your¦155556 caring for them before¦155559 sending them on. Your¦155556 actions will be praised by",
-            {
-              "nd": "God¦155570",
-              "closing": "\\nd*"
-            }
-          ],
-          "verseText": "have told the assembly¦155560 about your¦155556 caring for them before¦155559 sending them on. Your¦155556 actions will be praised by God¦155570"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "because¦155572 they¦155577 went¦155577 out to serve God, not getting any help from the unbelievers."
-          ],
-          "verseText": "because¦155572 they¦155577 went¦155577 out to serve God, not getting any help from the unbelievers."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "We should be supporting¦155587 believers like them so that we may also become¦155593 their workmates in sharing the truth¦155597.",
-            {
-              "s1": "Diotrephes and Demetrius"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "We should be supporting¦155587 believers like them so that we may also become¦155593 their workmates in sharing the truth¦155597."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "I wrote¦155598 something¦155600 to the assembly¦155602, but Diotrephes¦155607 won't listen to us—he always wants the limelight for himself."
-          ],
-          "verseText": "I wrote¦155598 something¦155600 to the assembly¦155602, but Diotrephes¦155607 won't listen to us—he always wants the limelight for himself."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "Because¦155611 of that, if I do end up coming, I will be reminding¦155616 him about what he's been doing¦155621—rambling¦155624 on against¦155624 us with evil¦155623 talks, and then, not being¦155629 happy with that, he doesn't accept other believers¦155636 and expels them from the assembly¦155645 then forbids¦155641 others from accepting¦155634 them either.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Because¦155611 of that, if I do end up coming, I will be reminding¦155616 him about what he's been doing¦155621—rambling¦155624 on against¦155624 us with evil¦155623 talks, and then, not being¦155629 happy with that, he doesn't accept other believers¦155636 and expels them from the assembly¦155645 then forbids¦155641 others from accepting¦155634 them either."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "My dear friend, don't¦155648 copy the evil things",
-            {
-              "add": "that others do",
-              "closing": "\\add*"
-            },
-            ", just the good things. Anyone who does what is good belongs to God—anyone who does evil things has not seen¦155665 God.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "My dear friend, don't¦155648 copy the evil things that others do, just the good things. Anyone who does what is good belongs to God—anyone who does evil things has not seen¦155665 God."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "Demetrius¦155668 has been talked about by everyone and even the truth¦155679 itself¦155674 speaks. We have also spoken about him, and you¦155686 know that what we¦155681 say is true.",
-            {
-              "s1": "Closing"
-            },
-            {
-              "rem": "/s1 Final Greetings"
-            },
-            {
-              "rem": "/s1 Conclusion"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Demetrius¦155668 has been talked about by everyone and even the truth¦155679 itself¦155674 speaks. We have also spoken about him, and you¦155686 know that what we¦155681 say is true."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "I had many things I wanted to write¦155699 about, but¦155701 won't do it by means of ink¦155706 and¦155707 pen¦155708,"
-          ],
-          "verseText": "I had many things I wanted to write¦155699 about, but¦155701 won't do it by means of ink¦155706 and¦155707 pen¦155708,"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "but¦155714 instead I hope to see¦155718 you¦155717 soon and¦155719 then we¦155724 can speak¦155724 face to face.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "but¦155714 instead I hope to see¦155718 you¦155717 soon and¦155719 then we¦155724 can speak¦155724 face to face."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "Wishing all peace and happiness for you.",
-            {
-              "add": "Your",
-              "closing": "\\add*"
-            },
-            "friends here also greet you. Please greet",
-            {
-              "add": "our",
-              "closing": "\\add*"
-            },
-            "friends there by name."
-          ],
-          "verseText": "Wishing all peace and happiness for you. Your friends here also greet you. Please greet our friends there by name."
-        }
-      ]
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1-4"
+     ]
     }
-  ],
-  "_messages": {
-    "_warnings": []
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Praising Gaius ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "5-8"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Scolding Diotrephes ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "9-10"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Boasting about Demetrius ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "11-12"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The closing ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "13-15"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "This is still a very early look into the unfinished text of the Open English Translation of the Bible. Please double-check the text in advance before using in public.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ie",
+   "content": []
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "1",
+   "sid": "3JN 1"
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Salutation\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Greetings\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Trouble in the church\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "3JN 1:1"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 19:29; Rom 16:23; 1Cor 1:14."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "This letter is from Yohan the elder¦154477 to my dear friend Gaius¦154478 who I love ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "because we both"
+     ]
+    },
+    " follow the truth¦154485.\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Gaius Commended for His Hospitality\n"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "3JN 1:2"
+    },
+    "My dear friend, I trust that you are healthy¦154493 and doing well in everything just as you are also doing well spiritually.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "3JN 1:3"
+    },
+    "I was very happy when some of our ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "spiritual"
+     ]
+    },
+    " brothers¦154503 came and told us about your¦154507 faithfulness to the truth and how you are living it out.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "3JN 1:4"
+    },
+    "Nothing makes me more happy than hearing¦154524 that other believers that I’ve helped are living out the truth¦154530.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Praising Gaius\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Caring for the Lord’s Workers\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Gaius Is Praised\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "3JN 1:5"
+    },
+    "My dear friend, you are faithful¦154533 in what you do for other believers¦154541. Even strangers¦154546\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "3JN 1:6"
+    },
+    "have told the assembly¦154553 about your¦154549 caring for them before¦154552 sending them on. Your¦154549 actions will be praised by ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦154563"
+     ]
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "3JN 1:7"
+    },
+    "because¦154565 they¦154570 went¦154570 out to serve God, not getting any help from the unbelievers.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "3JN 1:8"
+    },
+    "We should be supporting¦154580 believers like them so that we may also become¦154586 their workmates in sharing the truth¦154590.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Diotrephes and Demetrius\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "3JN 1:9"
+    },
+    "I wrote¦154591 something¦154593 to the assembly¦154595, but Diotrephes¦154600 won’t¦154601 listen to us—he always wants the limelight for himself.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "3JN 1:10"
+    },
+    "Because¦154604 of that, if I do end up coming, I will be reminding¦154609 him about what he’s been doing¦154614—rambling¦154617 on against¦154617 us with evil¦154616 talks, and then, not being¦154622 happy with that, he doesn’t accept other believers¦154629 and expels them from the assembly¦154638 then forbids¦154634 others from accepting¦154627 them either.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "3JN 1:11"
+    },
+    "My dear friend, don’t¦154641 copy the evil things ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "that others do"
+     ]
+    },
+    ", just the good things. Anyone who does what is good belongs to God—anyone who does evil things has not seen¦154658 God.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "3JN 1:12"
+    },
+    "Demetrius¦154661 has been talked about by everyone and even the truth¦154672 itself¦154667 speaks. We have also spoken about him, and you¦154679 know that what we¦154674 say is true.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Closing\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Final Greetings\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Conclusion\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "3JN 1:13"
+    },
+    "I had many things I wanted to write¦154692 about, but¦154694 won’t¦154695 do it by means of ink¦154699 and¦154700 pen¦154701,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "3JN 1:14"
+    },
+    "but¦154707 instead I hope to see¦154711 you¦154710 soon and¦154712 then we¦154717 can speak¦154717 face to face.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "3JN 1:15"
+    },
+    "Wishing all peace and happiness for you. ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Your"
+     ]
+    },
+    " friends here also greet you. Please greet ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "our"
+     ]
+    },
+    " friends there by name.\n"
+   ]
   }
+ ]
 }

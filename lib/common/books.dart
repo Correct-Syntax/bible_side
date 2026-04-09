@@ -27,6 +27,18 @@ Map<String, String> booksMapping = {
   'LAM': 'Lamentations',
   'EZE': 'Ezekiel',
   'DAN': 'Daniel',
+  'HOS': 'Hosea',
+  'JOL': 'Joel',
+  'AMO': 'Amos',
+  'OBA': 'Obadiah',
+  'JNA': 'Jonah',
+  'MIC': 'Micah',
+  'NAH': 'Nahum',
+  'HAB': 'Habakkuk',
+  'ZEP': 'Zephaniah',
+  'HAG': 'Haggai',
+  'ZEC': 'Zechariah',
+  'MAL': 'Malachi',
   'JHN': 'John',
   'MRK': 'Mark',
   'MAT': 'Matthew',
@@ -259,45 +271,10 @@ Map<String, int> bookNumOfChaptersMapping = {
 // Uncompleted OET books (RV *and* LV are not finished for the book)
 // TODO: update as the OET is drafted more.
 List<String> uncompletedOETBooks = [
-  'GEN',
-  'EXO',
   'LEV',
-  'NUM',
-  'DEU',
-  'JOS',
-  'JDG',
-  'RUT',
-  'SA1',
-  'SA2',
-  'KI1',
-  'KI2',
-  'CH1',
-  'CH2',
-  'EZR',
-  'NEH',
-  'EST',
-  'JOB',
-  'PSA',
-  'PRO',
-  'ECC',
-  'SNG',
   'ISA',
   'JER',
-  'LAM',
-  'EZE',
-  'DAN',
-  'HOS',
-  'JOL',
-  'AMO',
-  'OBA',
-  'JNA',
-  'MIC',
-  'NAH',
-  'HAB',
-  'ZEP',
-  'HAG',
-  'ZEC',
-  'MAL',
+  'PSA',
 ];
 
 // Book is either missing the json file or
@@ -384,7 +361,25 @@ class BooksMapping {
     return booksInSectionsMapping[bibleDivisionCode]['books'].keys.length;
   }
 
-  static Map<String, String> booksMappingFromBibleDivisionCode(String bibleDivisionCode) {
+  static Map<String, String> booksMappingFromBibleDivisionCode(
+      String bibleDivisionCode) {
     return booksInSectionsMapping[bibleDivisionCode]['books'];
+  }
+
+  static bool isOldTestament(String bookCode) {
+    const ntDivisions = [
+      'GOSPELS',
+      'ACTS',
+      'PAULS_EPISTLES',
+      'GENERAL_EPISTLES',
+      'REVELATION'
+    ];
+    for (var division in ntDivisions) {
+      if (booksInSectionsMapping[division]?['books']?.containsKey(bookCode) ==
+          true) {
+        return false;
+      }
+    }
+    return true;
   }
 }

@@ -1,1714 +1,2521 @@
 {
-  "book": {
-    "bookCode": "1JN",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.04",
-    "meta": [
-      {
-        "usfm": "3.0"
-      },
-      {
-        "ide": "UTF-8"
-      },
-      {
-        "rem": "ESFM v0.6 JN1"
-      },
-      {
-        "rem": "WORDTABLE OET-LV_NT_word_table.tsv"
-      },
-      {
-        "h": "1 Yohan"
-      },
-      {
-        "toc1": "1 Yohan (John)"
-      },
-      {
-        "toc2": "1 Yohan"
-      },
-      {
-        "toc3": "1 Yn"
-      },
-      {
-        "mt2": "The first letter"
-      },
-      {
-        "mt2": "that we have written by"
-      },
-      {
-        "mt1": "Yohan (John)"
-      },
-      {
-        "is1": "Introduction"
-      },
-      {
-        "ip": [
-          "This",
-          {
-            "bk": "First letter of Yohan",
-            "closing": "\\bk*"
-          },
-          "had two purposes: 1.) encouraging the readers about God and his son Yeshua the messiah; and 2.) warning them that it's important to not follow false or incorrect teachings that can destroy their unity with the master. These false teachers stated that Yeshua didn't become a person like us. They also taught that salvation doesn't include godly living and the love of others."
-        ]
-      },
-      {
-        "ip": "So in refuting those false doctrines, Yohan carefully explained that Yeshua the messiah came to this world as a real person, and he also explained that all who believe in Yeshua and love God, must also demonstrate their love to each other."
-      },
-      {
-        "iot": "Main components of Yohan's letter"
-      },
-      {
-        "io1": [
-          "Introduction",
-          {
-            "ior": "1:1-4",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The darkness and the light",
-          {
-            "ior": "1:5–2:29",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The children of God and the children of Satan",
-          {
-            "ior": "3:1-24",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The truth and the lies",
-          {
-            "ior": "4:1-6",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "About love",
-          {
-            "ior": "4:7-21",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Faith in Yeshua the messiah",
-          {
-            "ior": "5:1-21",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "rem": [
-          "This is still a very early look into the unfinished text of the",
-          {
-            "em": "Open English Translation",
-            "closing": "\\em*"
-          },
-          "of the Bible. Please double-check the text in advance before using in public."
-        ]
-      },
-      {
-        "ie": ""
-      }
-    ]
+ "type": "USJ",
+ "version": "3.1",
+ "content": [
+  {
+   "type": "book",
+   "marker": "id",
+   "code": "1JN",
+   "content": [
+    "- Open English Translation—Readers’ Version (OET-RV) v0.1.08"
+   ]
   },
-  "chapters": [
+  {
+   "type": "para",
+   "marker": "ide",
+   "content": [
+    "UTF-8\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "ESFM v0.6 JN1\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "WORDTABLE OET-LV_NT_word_table.tsv\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "h",
+   "content": [
+    "1 Yohan\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc1",
+   "content": [
+    "1 Yohan (John)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc2",
+   "content": [
+    "1 Yohan\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc3",
+   "content": [
+    "1 Yn\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt2",
+   "content": [
+    "The first letter\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt2",
+   "content": [
+    "that we have written by\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt1",
+   "content": [
+    "Yohan\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt2",
+   "content": [
+    "(John)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "is1",
+   "content": [
+    "Introduction\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "This ",
     {
-      "chapterNumber": "1",
-      "contents": [
-        {
-          "s1": "The message that is life"
-        },
-        {
-          "rem": "/s1 The Word of Life"
-        },
-        {
-          "rem": "/s1 Introduction"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1-3",
-          "contents": [
-            "We are reporting to you and testifying about what existed from the beginning:",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:1:"
-                },
-                {
-                  "xt": "Yhn 1:1."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            {
-              "bdit": "Yeshua the messiah and son of God",
-              "closing": "\\bdit*"
-            },
-            ". We heard him, we saw him with our own eyes¦152776, and we touched¦152784 him with our own hands¦152782. Concerning the message¦152787 of life, we can also report and testify to you that that life was revealed",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:2:"
-                },
-                {
-                  "xt": "Yhn 1:14."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "—",
-            {
-              "add": "he is",
-              "closing": "\\add*"
-            },
-            "the eternal life that was with the father and was revealed to us. We report what we've seen and what we've heard so that you all also can have fellowship with us, and our fellowship is with the father and with his son."
-          ],
-          "verseText": "We are reporting to you and testifying about what existed from the beginning: Yeshua the messiah and son of God. We heard him, we saw him with our own eyes¦152776, and we touched¦152784 him with our own hands¦152782. Concerning the message¦152787 of life, we can also report and testify to you that that life was revealed—he is the eternal life that was with the father and was revealed to us. We report what we've seen and what we've heard so that you all also can have fellowship with us, and our fellowship is with the father and with his son."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "We're writing¦152851 all this so that our¦152857 joy¦152856 may be extended to you also.",
-            {
-              "s1": "We're all sinners"
-            },
-            {
-              "rem": "/s1 Living in the Light"
-            },
-            {
-              "rem": "/s1 Fellowship, obedience, and forgiveness"
-            },
-            {
-              "rem": "/s1 God Is Light"
-            },
-            {
-              "rem": "/s1 Walking in the light"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "We're writing¦152851 all this so that our¦152857 joy¦152856 may be extended to you also."
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "This is the message¦152871 that we heard¦152873 from him and which¦152872 we are declaring¦152877 to you all:",
-            {
-              "nd": "God¦152882",
-              "closing": "\\nd*"
-            },
-            "is light¦152883 and there is no darkness¦152886 in him—none at all."
-          ],
-          "verseText": "This is the message¦152871 that we heard¦152873 from him and which¦152872 we are declaring¦152877 to you all: God¦152882 is light¦152883 and there is no darkness¦152886 in him—none at all."
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "If we say¦152896 that we and him¦152901 are relating well together and yet we're walking¦152906 in the darkness¦152905, then we're lying¦152907 and not living the truth¦152913."
-          ],
-          "verseText": "If we say¦152896 that we and him¦152901 are relating well together and yet we're walking¦152906 in the darkness¦152905, then we're lying¦152907 and not living the truth¦152913."
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "But if we're walking¦152919 in the light, just like he walks in the light, then we'll get along well with each other, and his¦152937 son",
-            {
-              "nd": "Yeshua's¦152933",
-              "closing": "\\nd*"
-            },
-            "blood¦152932 is removing the consequences of all our sins.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "But if we're walking¦152919 in the light, just like he walks in the light, then we'll get along well with each other, and his¦152937 son Yeshua's¦152933 blood¦152932 is removing the consequences of all our sins."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "If we say¦152944 that we don't¦152947 have any sin¦152946, then we're",
-            {
-              "add": "just",
-              "closing": "\\add*"
-            },
-            "fooling ourselves¦152949 and haven't embraced the truth¦152954."
-          ],
-          "verseText": "If we say¦152944 that we don't¦152947 have any sin¦152946, then we're just fooling ourselves¦152949 and haven't embraced the truth¦152954."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            {
-              "add": "But",
-              "closing": "\\add*"
-            },
-            "if we admit our sins, Yeshua is trustworthy and totally sinless, and he will forgive¦152971 us for our sins and remove all of our guilt and consequences."
-          ],
-          "verseText": "But if we admit our sins, Yeshua is trustworthy and totally sinless, and he will forgive¦152971 us for our sins and remove all of our guilt and consequences."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "If we say¦152984 that we haven't sinned¦152987, then we're making¦152989 a liar out of Yeshua and we haven't internalised his¦152994 message¦152993."
-          ],
-          "verseText": "If we say¦152984 that we haven't sinned¦152987, then we're making¦152989 a liar out of Yeshua and we haven't internalised his¦152994 message¦152993."
-        }
-      ]
+     "type": "char",
+     "marker": "bk",
+     "content": [
+      "First letter of Yohan (John)"
+     ]
     },
+    " had two purposes: 1. encouraging the readers about God and his son Yeshua (Jesus) the messiah, and 2. warning them that it’s important to not follow false or incorrect teachings that can destroy their unity with the messiah. These false teachers stated that Yeshua didn’t become a person like us. They also taught that salvation doesn’t include godly living and the love of others.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "So in refuting those false doctrines, Yohan carefully explained that Yeshua the messiah came to this world as a real person, and he also explained that all who believe in Yeshua and love God, must also demonstrate their love to each other.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "iot",
+   "content": [
+    "Main components of Yohan’s letter\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Introduction ",
     {
-      "chapterNumber": "2",
-      "contents": [
-        {
-          "s1": "The messiah is our advocate"
-        },
-        {
-          "rem": "/s1 Christ Our Advocate"
-        },
-        {
-          "rem": "/s1 Christ Our Helper"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "I am writing¦153002 to you all, my¦153000 treasured new believers, so that you might avoid sinning. If anyone¦153009 should sin, we have an advocate¦153011",
-            {
-              "add": "to help us relate to",
-              "closing": "\\add*"
-            },
-            "the father¦153015:",
-            {
-              "nd": "Yeshua¦153016",
-              "closing": "\\nd*"
-            },
-            "the sinless",
-            {
-              "nd": "messiah¦153017",
-              "closing": "\\nd*"
-            },
-            ","
-          ],
-          "verseText": "I am writing¦153002 to you all, my¦153000 treasured new believers, so that you might avoid sinning. If anyone¦153009 should sin, we have an advocate¦153011 to help us relate to the father¦153015: Yeshua¦153016 the sinless messiah¦153017,"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "and it's him who is the atonement¦153021 for our sins—not just our sins, but also the sins of the entire¦153038 world¦153040.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "and it's him who is the atonement¦153021 for our sins—not just our sins, but also the sins of the entire¦153038 world¦153040."
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "We will know if we",
-            {
-              "add": "really",
-              "closing": "\\add*"
-            },
-            "know Yeshua if we obey his¦153052 teachings."
-          ],
-          "verseText": "We will know if we really know Yeshua if we obey his¦153052 teachings."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "If someone says that they know Yeshua but don't¦153064 do what he taught, that person is a liar and hasn't internalised the truth¦153072."
-          ],
-          "verseText": "If someone says that they know Yeshua but don't¦153064 do what he taught, that person is a liar and hasn't internalised the truth¦153072."
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "However the person who obeys Yeshua's teaching demonstrates that God's love¦153088 has truly¦153084 been planted in them. We know that we are",
-            {
-              "add": "alive",
-              "closing": "\\add*"
-            },
-            "in Yeshua if"
-          ],
-          "verseText": "However the person who obeys Yeshua's teaching demonstrates that God's love¦153088 has truly¦153084 been planted in them. We know that we are alive in Yeshua if"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "we claim to live in him¦153102 and then live our lives like he lived.",
-            {
-              "s1": "Love not hate to be in the light"
-            },
-            {
-              "rem": "/s1 A New Commandment"
-            },
-            {
-              "rem": "/s1 The New Command"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "we claim to live in him¦153102 and then live our lives like he lived."
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:7:"
-                },
-                {
-                  "xt": "Yhn 13:34."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "Dear friends, I'm not writing¦153117 a new rule for you all, but",
-            {
-              "add": "reminding you",
-              "closing": "\\add*"
-            },
-            "of an old rule that you had from the beginning¦153125. This old rule is the message¦153132 that you all heard¦153134."
-          ],
-          "verseText": "Dear friends, I'm not writing¦153117 a new rule for you all, but reminding you of an old rule that you had from the beginning¦153125. This old rule is the message¦153132 that you all heard¦153134."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "Then again I",
-            {
-              "em": "am",
-              "closing": "\\em*"
-            },
-            "writing¦153140 a new rule to you—a rule which¦153142 is true in Yeshua and in you all, because¦153153 the darkness¦153156 is already disappearing and the true light¦153160 is already shining¦153165.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Then again I am writing¦153140 a new rule to you—a rule which¦153142 is true in Yeshua and in you all, because¦153153 the darkness¦153156 is already disappearing and the true light¦153160 is already shining¦153165."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "Anyone who says they're in the light¦153170 but hates a fellow believer,",
-            {
-              "f": [
-                "+",
-                {
-                  "fr": "2:9"
-                },
-                {
-                  "ft": "Literally ‘our brothers’. In this letter that term could refer to ‘siblings’, ‘fellow believers’, or ‘fellow citizens’ (or Yohan could be alternating between two or three of them in his mind as he wrote). After considering all the uses of the term in chapters 2–5, we have taken ‘fellow believers’ as being more likely, i.e., the context would often seem to be focussing on believers (even though most of us would want to apply 3:16–17 to also include ‘fellow citizens’)."
-                }
-              ],
-              "closing": "\\f*"
-            },
-            "is still in the darkness¦153182."
-          ],
-          "verseText": "Anyone who says they're in the light¦153170 but hates a fellow believer, is still in the darkness¦153182."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "It's the person that loves their fellow believers who is living in the light¦153193 and¦153195 doesn't offend¦153196 anyone."
-          ],
-          "verseText": "It's the person that loves their fellow believers who is living in the light¦153193 and¦153195 doesn't offend¦153196 anyone."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "But the person who hates a fellow believer is living and walking¦153217 in the darkness and doesn't know where¦153221 they're going¦153222 because¦153223 they're blinded¦153226.",
-            {
-              "s1": "Don't love the things of this world"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "But the person who hates a fellow believer is living and walking¦153217 in the darkness and doesn't know where¦153221 they're going¦153222 because¦153223 they're blinded¦153226."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "I'm writing¦153231 to you new believers because your sins¦153239 have been forgiven¦153235 because of Yeshua authority."
-          ],
-          "verseText": "I'm writing¦153231 to you new believers because your sins¦153239 have been forgiven¦153235 because of Yeshua authority."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "I'm writing to you fathers¦153246 because you have known¦153248 the messiah from the beginning¦153251.",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:13:"
-                },
-                {
-                  "xt": "Lk 2:25-35."
-                }
-              ],
-              "closing": "\\x*"
-            }
-          ],
-          "verseText": "I'm writing to you fathers¦153246 because you have known¦153248 the messiah from the beginning¦153251."
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "I wrote to you new believers because you have know the father¦153268. I wrote to you fathers¦153271 because you have known the messiah from the beginning¦153277.",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:13:"
-                },
-                {
-                  "xt": "Lk 2:25-35."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "I wrote to you young¦153280 men¦153280 because you are strong¦153282 and God's message¦153286 lives in you and you have overcome¦153293 the evil one.",
-            {
-              "rem": "/s1 Do Not Love the World"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "I wrote to you new believers because you have know the father¦153268. I wrote to you fathers¦153271 because you have known the messiah from the beginning¦153277. I wrote to you young¦153280 men¦153280 because you are strong¦153282 and God's message¦153286 lives in you and you have overcome¦153293 the evil one."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "Don't be loving the world nor the things in the world. The father's¦153316 love does not live in anyone¦153306 who loves the world"
-          ],
-          "verseText": "Don't be loving the world nor the things in the world. The father's¦153316 love does not live in anyone¦153306 who loves the world"
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "because everything that's in the world, bodily desires and lusts and arrogant¦153336 living¦153338, is not from the father¦153343 but from the world."
-          ],
-          "verseText": "because everything that's in the world, bodily desires and lusts and arrogant¦153336 living¦153338, is not from the father¦153343 but from the world."
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "And the world¦153351 will come to an end along with the desire for it¦153356, but¦153358 the person obeying God's desires will continue to live.",
-            {
-              "s1": "Beware of ‘new’ teaching"
-            },
-            {
-              "rem": "/s1 The danger of false teaching"
-            },
-            {
-              "rem": "/s1 Warning against Antichrists"
-            },
-            {
-              "rem": "/s1 The Enemy of Christ"
-            },
-            {
-              "rem": "/s1 Warning Against Antichrists"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "And the world¦153351 will come to an end along with the desire for it¦153356, but¦153358 the person obeying God's desires will continue to live."
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "New believers, it's now the last times and what you¦153377 heard¦153377 about the false messiah coming¦153381 is now happening. Many false messiahs have already been around and that confirms that it's now the last times."
-          ],
-          "verseText": "New believers, it's now the last times and what you¦153377 heard¦153377 about the false messiah coming¦153381 is now happening. Many false messiahs have already been around and that confirms that it's now the last times."
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            "They came¦153396 from our¦153401 group, but they were never truly part of us because¦153404 if they were, they would have stayed with us. But they left¦153396 us so it would be revealed¦153415 that they're not part of us.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "They came¦153396 from our¦153401 group, but they were never truly part of us because¦153404 if they were, they would have stayed with us. But they left¦153396 us so it would be revealed¦153415 that they're not part of us."
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            "But you all have received the spirit",
-            {
-              "f": [
-                "+",
-                {
-                  "fr": "2:20"
-                },
-                {
-                  "ft": "anointing: It's not really clear here what Yohan is referring to that they have received: God's favour? a skill or ability? a blessing? the Holy Spirit? But v27 below seems to be talking about God's holy spirit."
-                }
-              ],
-              "closing": "\\f*"
-            },
-            "from the chosen messiah",
-            {
-              "f": [
-                "+",
-                {
-                  "fr": "2:20"
-                },
-                {
-                  "ft": "holy (one): Yohan seems to be referring to Yeshua here."
-                }
-              ],
-              "closing": "\\f*"
-            },
-            "and you all know all about it.",
-            {
-              "f": [
-                "+",
-                {
-                  "fr": "2:20"
-                },
-                {
-                  "ft": "You all know all: also unclear what Yohan means."
-                }
-              ],
-              "closing": "\\f*"
-            }
-          ],
-          "verseText": "But you all have received the spirit from the chosen messiah and you all know all about it."
-        },
-        {
-          "verseNumber": "21",
-          "contents": [
-            "I didn't write to you all because you don't¦153433 know the truth, but because you have known the truth and any falsehood¦153448 is not part of it.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "I didn't write to you all because you don't¦153433 know the truth, but because you have known the truth and any falsehood¦153448 is not part of it."
-        },
-        {
-          "verseNumber": "22",
-          "contents": [
-            {
-              "nd": "Anyone¦153468",
-              "closing": "\\nd*"
-            },
-            "who teaches that",
-            {
-              "nd": "Yeshua¦153463",
-              "closing": "\\nd*"
-            },
-            "is not the messiah is a liar. And",
-            {
-              "nd": "anyone¦153468",
-              "closing": "\\nd*"
-            },
-            "who disowns the father¦153477 and¦153478 the son is a false messiah."
-          ],
-          "verseText": "Anyone¦153468 who teaches that Yeshua¦153463 is not the messiah is a liar. And anyone¦153468 who disowns the father¦153477 and¦153478 the son is a false messiah."
-        },
-        {
-          "verseNumber": "23",
-          "contents": [
-            "Anyone who disowns¦153483 the son, doesn't know the father either—only those who confess¦153491 the son know the father",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Anyone who disowns¦153483 the son, doesn't know the father either—only those who confess¦153491 the son know the father"
-        },
-        {
-          "verseNumber": "24",
-          "contents": [
-            "What you all heard from the beginning, that's what you should¦153507 hold to. If the message that you heard from the beginning remains in you, then you also will remain in the son and in the father¦153527,"
-          ],
-          "verseText": "What you all heard from the beginning, that's what you should¦153507 hold to. If the message that you heard from the beginning remains in you, then you also will remain in the son and in the father¦153527,"
-        },
-        {
-          "verseNumber": "25",
-          "contents": [
-            "and in that case, what he promised¦153536 us is to live forever.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "and in that case, what he promised¦153536 us is to live forever."
-        },
-        {
-          "verseNumber": "26",
-          "contents": [
-            "I wrote¦153546 these¦153544 things to you all concerning¦153548 those who would mislead¦153550 you."
-          ],
-          "verseText": "I wrote¦153546 these¦153544 things to you all concerning¦153548 those who would mislead¦153550 you."
-        },
-        {
-          "verseNumber": "27",
-          "contents": [
-            "But¦153552 for you, the spirit that you received¦153558 from Yeshua remains in you all and so you don't¦153567 need anyone¦153571 else to teach you because his¦153579 spirit teaches you about everything. The spirit teaches truth and not lies, and since you were taught¦153597 by the spirit then you are remaining in Yeshua.",
-            {
-              "rem": "/s1 Children of God"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "But¦153552 for you, the spirit that you received¦153558 from Yeshua remains in you all and so you don't¦153567 need anyone¦153571 else to teach you because his¦153579 spirit teaches you about everything. The spirit teaches truth and not lies, and since you were taught¦153597 by the spirit then you are remaining in Yeshua."
-        },
-        {
-          "verseNumber": "28",
-          "contents": [
-            "So¦153603 now you new believers, remain¦153606 in him so that when he is revealed¦153612, we can have boldness¦153615 and not be ashamed¦153618 of him when he comes",
-            {
-              "add": "back",
-              "closing": "\\add*"
-            },
-            ".",
-            {
-              "rem": "/s1 Children of God"
-            }
-          ],
-          "verseText": "So¦153603 now you new believers, remain¦153606 in him so that when he is revealed¦153612, we can have boldness¦153615 and not be ashamed¦153618 of him when he comes back."
-        },
-        {
-          "verseNumber": "29",
-          "contents": [
-            "Because you know that he is sinless, you also know that anyone faithfully obeying his¦153641 teaching has been",
-            {
-              "add": "re",
-              "closing": "\\add*"
-            },
-            "born in him."
-          ],
-          "verseText": "Because you know that he is sinless, you also know that anyone faithfully obeying his¦153641 teaching has been re born in him."
-        }
-      ]
-    },
-    {
-      "chapterNumber": "3",
-      "contents": [
-        {
-          "s1": "Living as God's children"
-        },
-        {
-          "rem": "/s1 Children of God"
-        },
-        {
-          "rem": "/s1 How Christians live together"
-        },
-        {
-          "rem": "/s1 Living as Children of God"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:1:"
-                },
-                {
-                  "xt": "Yhn 1:12."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "Consider the amazing live that the father¦153653 has given¦153648 to us in order¦153654 that we can be called¦153657 God's children¦153655, and indeed we are."
-          ],
-          "verseText": "Consider the amazing live that the father¦153653 has given¦153648 to us in order¦153654 that we can be called¦153657 God's children¦153655, and indeed we are."
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "Dear friends we are God's children¦153674 now, but it's not yet revealed what we will become. We know that when Yeshua is revealed, we will be similar¦153687 to him because¦153690 then we'll be seeing¦153691 him exactly as he is."
-          ],
-          "verseText": "Dear friends we are God's children¦153674 now, but it's not yet revealed what we will become. We know that when Yeshua is revealed, we will be similar¦153687 to him because¦153690 then we'll be seeing¦153691 him exactly as he is."
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "Everyone who trusts their future to him¦153703 needs to purify¦153704 themself just like he is pure.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Everyone who trusts their future to him¦153703 needs to purify¦153704 themself just like he is pure."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "Everyone¦153710 who regularly sins is demonstrating lawlessness, and sin is lawlessness."
-          ],
-          "verseText": "Everyone¦153710 who regularly sins is demonstrating lawlessness, and sin is lawlessness."
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:5:"
-                },
-                {
-                  "xt": "Yhn 1:29."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "You all know that Yeshua was revealed¦153731 in order¦153732 to take¦153736 away sins¦153734, and¦153737 there's no sin¦153738 in him¦153740."
-          ],
-          "verseText": "You all know that Yeshua was revealed¦153731 in order¦153732 to take¦153736 away sins¦153734, and¦153737 there's no sin¦153738 in him¦153740."
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "Everyone¦153745 who remains¦153749 in him doesn't sin—everyone¦153752 who keeps sinning has neither¦153755 really seen¦153756 Yeshua nor known¦153759 him.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Everyone¦153745 who remains¦153749 in him doesn't sin—everyone¦153752 who keeps sinning has neither¦153755 really seen¦153756 Yeshua nor known¦153759 him."
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "So new believers, don't let anyone¦153763 deceive¦153766 you: the person faithfully obeying Yeshua's teaching will be declared not guilty just as he is not guilty."
-          ],
-          "verseText": "So new believers, don't let anyone¦153763 deceive¦153766 you: the person faithfully obeying Yeshua's teaching will be declared not guilty just as he is not guilty."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "Anyone who regularly sins belongs to the devil, because¦153787 the devil has been sinning¦153792 from the beginning¦153789.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Anyone who regularly sins belongs to the devil, because¦153787 the devil has been sinning¦153792 from the beginning¦153789."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "Everyone¦153806 who's been",
-            {
-              "add": "re",
-              "closing": "\\add*"
-            },
-            "born in God, doesn't regularly sin because God's seed",
-            {
-              "add": "of life",
-              "closing": "\\add*"
-            },
-            "remains¦153820 in them and that person isn't able to sin because they have been",
-            {
-              "add": "re",
-              "closing": "\\add*"
-            },
-            "born in God."
-          ],
-          "verseText": "Everyone¦153806 who's been re born in God, doesn't regularly sin because God's seed of life remains¦153820 in them and that person isn't able to sin because they have been re born in God."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "You can distinguish God's children and the devil's¦153842 children like this: everyone¦153844 who doesn't faithfully obey Yeshua's teaching or doesn't love their fellow believers, that person doesn't belong to God.",
-            {
-              "s1": "Demonstrate your love for each other"
-            },
-            {
-              "rem": "/s1 Love one another"
-            },
-            {
-              "rem": "/s1 Love One Another"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "You can distinguish God's children and the devil's¦153842 children like this: everyone¦153844 who doesn't faithfully obey Yeshua's teaching or doesn't love their fellow believers, that person doesn't belong to God."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:11:"
-                },
-                {
-                  "xt": "Yhn 13:34."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "Yes, this is the message¦153867 that you¦153869 all heard¦153869 from the beginning¦153871: to be loving¦153873 each other—"
-          ],
-          "verseText": "Yes, this is the message¦153867 that you¦153869 all heard¦153869 from the beginning¦153871: to be loving¦153873 each other—"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "not living like Cain who belonged to the evil one and went on to murder his brother.",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:12:"
-                },
-                {
-                  "xt": "Gen 4:8."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "And why did he kill him? Because¦153892 his own actions were evil, but his brother",
-            {
-              "add": "Abel",
-              "closing": "\\add*"
-            },
-            "followed God's instructions.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "not living like Cain who belonged to the evil one and went on to murder his brother. And why did he kill him? Because¦153892 his own actions were evil, but his brother Abel followed God's instructions."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "And friends, don't be surprised if the world¦153913 hates you¦153911."
-          ],
-          "verseText": "And friends, don't be surprised if the world¦153913 hates you¦153911."
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:14:"
-                },
-                {
-                  "xt": "Yhn 5:24."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "We know that we have transferred from death to life because¦153925 we are loving our fellow¦153928 believers¦153928. Anyone who doesn't love others is stuck in death."
-          ],
-          "verseText": "We know that we have transferred from death to life because¦153925 we are loving our fellow¦153928 believers¦153928. Anyone who doesn't love others is stuck in death."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "Everyone¦153939 who hates another person is a murderer, and¦153948 you¦153949 all know that murderers don't¦153953 have eternal¦153956 life¦153955 in them."
-          ],
-          "verseText": "Everyone¦153939 who hates another person is a murderer, and¦153948 you¦153949 all know that murderers don't¦153953 have eternal¦153956 life¦153955 in them."
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "We know about",
-            {
-              "add": "real",
-              "closing": "\\add*"
-            },
-            "love¦153965 because¦153966 we saw that Yeshua gave up his¦153972 life¦153971 for us, and we should give up our lives¦153981 for our fellow¦153979 believers¦153979."
-          ],
-          "verseText": "We know about real love¦153965 because¦153966 we saw that Yeshua gave up his¦153972 life¦153971 for us, and we should give up our lives¦153981 for our fellow¦153979 believers¦153979."
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "But anyone who's enjoying being alive and notices that a fellow believer is in need yet shuts that other believer's needs out of their conscience, how can God's love¦154008 be living¦153989 in that person?"
-          ],
-          "verseText": "But anyone who's enjoying being alive and notices that a fellow believer is in need yet shuts that other believer's needs out of their conscience, how can God's love¦154008 be living¦153989 in that person?"
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "So you new believers, don't¦154016 just proclaim that you're loving¦154017 people, but¦154023 actually demonstrate it in actions and¦154026 in fact.",
-            {
-              "rem": "/s1 Courage before God"
-            }
-          ],
-          "verseText": "So you new believers, don't¦154016 just proclaim that you're loving¦154017 people, but¦154023 actually demonstrate it in actions and¦154026 in fact."
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            "That's how we'll know that the truth¦154036 really is in us.",
-            {
-              "p": "At the same time, we need to tell ourselves"
-            }
-          ],
-          "verseText": "That's how we'll know that the truth¦154036 really is in us. At the same time, we need to tell ourselves"
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            "that if we are feeling condemned¦154051,",
-            {
-              "nd": "God¦154061",
-              "closing": "\\nd*"
-            },
-            "is greater¦154057 than our¦154053 feelings and he knows everything."
-          ],
-          "verseText": "that if we are feeling condemned¦154051, God¦154061 is greater¦154057 than our¦154053 feelings and he knows everything."
-        },
-        {
-          "verseNumber": "21",
-          "contents": [
-            "Then dear friends, if we're not feeling condemned¦154078, we have confidence¦154082 in",
-            {
-              "nd": "God¦154087",
-              "closing": "\\nd*"
-            }
-          ],
-          "verseText": "Then dear friends, if we're not feeling condemned¦154078, we have confidence¦154082 in God¦154087"
-        },
-        {
-          "verseNumber": "22",
-          "contents": [
-            "and confidence that whatever¦154089 we are requesting¦154092 from him, we will receive¦154094 it because¦154099 we are following his¦154102 instructions and doing the things that please¦154107 him."
-          ],
-          "verseText": "and confidence that whatever¦154089 we are requesting¦154092 from him, we will receive¦154094 it because¦154099 we are following his¦154102 instructions and doing the things that please¦154107 him."
-        },
-        {
-          "verseNumber": "23",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:23:"
-                },
-                {
-                  "xt": "Yhn 13:34; 15:12,17."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "And this is his command: We need to believe¦154119 in the authority of his son, Yeshua the",
-            {
-              "nd": "messiah¦154126",
-              "closing": "\\nd*"
-            },
-            ", and we should love each other as per the command that Yeshua gave to us."
-          ],
-          "verseText": "And this is his command: We need to believe¦154119 in the authority of his son, Yeshua the messiah¦154126, and we should love each other as per the command that Yeshua gave to us."
-        },
-        {
-          "verseNumber": "24",
-          "contents": [
-            "Anyone who follows his¦154140 commands¦154139 is living in him, and he is living in them and we have confirmation that he is living in us, because we have the",
-            {
-              "nd": "spirit¦154158",
-              "closing": "\\nd*"
-            },
-            "that he gave¦154161 to us."
-          ],
-          "verseText": "Anyone who follows his¦154140 commands¦154139 is living in him, and he is living in them and we have confirmation that he is living in us, because we have the spirit¦154158 that he gave¦154161 to us."
-        }
-      ]
-    },
-    {
-      "chapterNumber": "4",
-      "contents": [
-        {
-          "s1": "True and false spirits"
-        },
-        {
-          "rem": "/s1 Testing the Spirits"
-        },
-        {
-          "rem": "/s1 Test the Spirits"
-        },
-        {
-          "rem": "/s1 Discerning False Prophets"
-        },
-        {
-          "rem": "/s1 The True Spirit and the False Spirit"
-        },
-        {
-          "rem": "/s1 Spirits of truth and error"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "Dear friends, don't¦154166 trust every¦154167 spirit¦154168, but¦154171 test them to determine whether¦154175 or not it's from",
-            {
-              "nd": "God¦154178",
-              "closing": "\\nd*"
-            },
-            ", because¦154180 many false¦154182 prophets¦154182 go around the world¦154186."
-          ],
-          "verseText": "Dear friends, don't¦154166 trust every¦154167 spirit¦154168, but¦154171 test them to determine whether¦154175 or not it's from God¦154178, because¦154180 many false¦154182 prophets¦154182 go around the world¦154186."
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "You all can find out whether or not a spirit is from God: If the spirit confesses¦154204 that",
-            {
-              "nd": "Yeshua¦154206",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦154207",
-              "closing": "\\nd*"
-            },
-            "has come as a person, then it's from God"
-          ],
-          "verseText": "You all can find out whether or not a spirit is from God: If the spirit confesses¦154204 that Yeshua¦154206 the messiah¦154207 has come as a person, then it's from God"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "but if the spirit won't confess¦154221",
-            {
-              "nd": "Yeshua¦154223",
-              "closing": "\\nd*"
-            },
-            ", then it's not from",
-            {
-              "nd": "God¦154231",
-              "closing": "\\nd*"
-            },
-            "but rather it's the spirit of the false messiah, whom you've heard¦154242 is coming¦154245, and is now already¦154252 in the world¦154250.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "but if the spirit won't confess¦154221 Yeshua¦154223, then it's not from God¦154231 but rather it's the spirit of the false messiah, whom you've heard¦154242 is coming¦154245, and is now already¦154252 in the world¦154250."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "You new believers are in",
-            {
-              "nd": "God¦154256",
-              "closing": "\\nd*"
-            },
-            "and you have defeated the",
-            {
-              "add": "false prophets",
-              "closing": "\\add*"
-            },
-            ", because¦154262 the one in you is more powerful than the one in the world¦154272."
-          ],
-          "verseText": "You new believers are in God¦154256 and you have defeated the false prophets, because¦154262 the one in you is more powerful than the one in the world¦154272."
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "They belong to the world hence they¦154283 are speaking¦154283 from the world, and¦154284 the world is listening to them."
-          ],
-          "verseText": "They belong to the world hence they¦154283 are speaking¦154283 from the world, and¦154284 the world is listening to them."
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "However we belong to God, and anyone who knows God listens to us, but anyone who doesn't belong to God can't accept what we're saying. That's how we can distinguish the spirit of truth¦154317 from deceptive¦154322 spirits.",
-            {
-              "s1": "Loving God means loving others"
-            },
-            {
-              "rem": "/s1 Love one another"
-            },
-            {
-              "rem": "/s1 God's Love and Ours"
-            },
-            {
-              "rem": "/s1 God Is Love"
-            },
-            {
-              "rem": "/s1 Loving One Another"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "However we belong to God, and anyone who knows God listens to us, but anyone who doesn't belong to God can't accept what we're saying. That's how we can distinguish the spirit of truth¦154317 from deceptive¦154322 spirits."
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "Dear friends, we need to be loving each other, because¦154326 love is from God and everyone¦154334 who",
-            {
-              "add": "truly",
-              "closing": "\\add*"
-            },
-            "loves has been",
-            {
-              "add": "re",
-              "closing": "\\add*"
-            },
-            "born into God and knows God."
-          ],
-          "verseText": "Dear friends, we need to be loving each other, because¦154326 love is from God and everyone¦154334 who truly loves has been re born into God and knows God."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "Those who don't love, don't love God because¦154356 God is love."
-          ],
-          "verseText": "Those who don't love, don't love God because¦154356 God is love."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "God's love¦154365 was revealed¦154363 to us when he sent¦154376 his¦154373 only son to be born into the world¦154381 so that we can live¦154383 through¦154385 him."
-          ],
-          "verseText": "God's love¦154365 was revealed¦154363 to us when he sent¦154376 his¦154373 only son to be born into the world¦154381 so that we can live¦154383 through¦154385 him."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "So this is",
-            {
-              "add": "real",
-              "closing": "\\add*"
-            },
-            "love¦154391, not us loving God, but¦154402 God loving us and¦154408 sending his¦154413 son to be the sacrifice to clear us of the sentence from our¦154418 sins¦154417.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "So this is real love¦154391, not us loving God, but¦154402 God loving us and¦154408 sending his¦154413 son to be the sacrifice to clear us of the sentence from our¦154418 sins¦154417."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "Dear friends, if",
-            {
-              "nd": "God¦154423",
-              "closing": "\\nd*"
-            },
-            "loves us like that, we¦154427 ought¦154428 to be loving¦154430 each other."
-          ],
-          "verseText": "Dear friends, if God¦154423 loves us like that, we¦154427 ought¦154428 to be loving¦154430 each other."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "4:12:"
-                },
-                {
-                  "xt": "Yhn 1:18."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "No one has ever seen¦154434 God, but when we¦154438 are loving¦154438 each other then God is living in us, and¦154445 his¦154448 love¦154447 is being perfected¦154449 in us.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "No one has ever seen¦154434 God, but when we¦154438 are loving¦154438 each other then God is living in us, and¦154445 his¦154448 love¦154447 is being perfected¦154449 in us."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "We can know that we are living in him and him in us because¦154466 he has given¦154471 to us from his¦154470",
-            {
-              "nd": "spirit¦154469",
-              "closing": "\\nd*"
-            },
-            "."
-          ],
-          "verseText": "We can know that we are living in him and him in us because¦154466 he has given¦154471 to us from his¦154470 spirit¦154469."
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "And we¦154475 have seen¦154476 and¦154478 are testifying¦154479 that the father¦154482 sent¦154483 the son—the saviour¦154486 of the world¦154488."
-          ],
-          "verseText": "And we¦154475 have seen¦154476 and¦154478 are testifying¦154479 that the father¦154482 sent¦154483 the son—the saviour¦154486 of the world¦154488."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "Anyone who confesses¦154492 that",
-            {
-              "nd": "Yeshua¦154495",
-              "closing": "\\nd*"
-            },
-            "is God's son, God lives in that person and¦154507 they live in God."
-          ],
-          "verseText": "Anyone who confesses¦154492 that Yeshua¦154495 is God's son, God lives in that person and¦154507 they live in God."
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "We have known¦154516 and experienced the love that God has in us.",
-            {
-              "p": "God is love, and anyone who lives in love, lives in God, and God lives in them."
-            }
-          ],
-          "verseText": "We have known¦154516 and experienced the love that God has in us. God is love, and anyone who lives in love, lives in God, and God lives in them."
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "This is how love¦154553 will be perfected¦154551 in us so that we can live with confidence¦154559 about the",
-            {
-              "add": "coming",
-              "closing": "\\add*"
-            },
-            "judgement day¦154564: we live like Yeshua in this world¦154578."
-          ],
-          "verseText": "This is how love¦154553 will be perfected¦154551 in us so that we can live with confidence¦154559 about the coming judgement day¦154564: we live like Yeshua in this world¦154578."
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "There's no fear in love, but rather perfect love drives away fear, because¦154594 our fear is that of being punished¦154597 but the one fearing¦154601 has not been perfected in love.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "There's no fear in love, but rather perfect love drives away fear, because¦154594 our fear is that of being punished¦154597 but the one fearing¦154601 has not been perfected in love."
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            "We love others because¦154613 he¦154616 loved¦154618 us first¦154617."
-          ],
-          "verseText": "We love others because¦154613 he¦154616 loved¦154618 us first¦154617."
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            "Anyone who says that they are loving God but hates a fellow believer, that person is liar because¦154635 if someone can't love a fellow believer that they've seen, they can't love God who they've never seen."
-          ],
-          "verseText": "Anyone who says that they are loving God but hates a fellow believer, that person is liar because¦154635 if someone can't love a fellow believer that they've seen, they can't love God who they've never seen."
-        },
-        {
-          "verseNumber": "21",
-          "contents": [
-            "So¦154652 we¦154656 have this command¦154655 from Yeshua that anyone who loves",
-            {
-              "nd": "God¦154665",
-              "closing": "\\nd*"
-            },
-            "must also love their fellow believers."
-          ],
-          "verseText": "So¦154652 we¦154656 have this command¦154655 from Yeshua that anyone who loves God¦154665 must also love their fellow believers."
-        }
-      ]
-    },
-    {
-      "chapterNumber": "5",
-      "contents": [
-        {
-          "s1": "Faith and love overcome the world"
-        },
-        {
-          "rem": "/s1 Faith Conquers the World"
-        },
-        {
-          "rem": "/s1 Our Victory over the World"
-        },
-        {
-          "rem": "/s1 Faith in the Son of God"
-        },
-        {
-          "rem": "/s1 Obedience to the truth"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "Everyone¦154671 who believes¦154673 that",
-            {
-              "nd": "Yeshua¦154675",
-              "closing": "\\nd*"
-            },
-            "is the",
-            {
-              "nd": "messiah¦154678",
-              "closing": "\\nd*"
-            },
-            "has been",
-            {
-              "add": "re",
-              "closing": "\\add*"
-            },
-            "born in",
-            {
-              "nd": "God¦154681",
-              "closing": "\\nd*"
-            },
-            ", and everyone¦154684 who loves the father who gave birth to us, also loves the son that he gave birth to."
-          ],
-          "verseText": "Everyone¦154671 who believes¦154673 that Yeshua¦154675 is the messiah¦154678 has been re born in God¦154681, and everyone¦154684 who loves the father who gave birth to us, also loves the son that he gave birth to."
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "We can know when we love God's children¦154702: whenever¦154705 we love God and obey his¦154712 commands¦154711,"
-          ],
-          "verseText": "We can know when we love God's children¦154702: whenever¦154705 we love God and obey his¦154712 commands¦154711,"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "because¦154716 the definition of loving",
-            {
-              "nd": "God¦154721",
-              "closing": "\\nd*"
-            },
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "5:3:"
-                },
-                {
-                  "xt": "Yhn 14:15."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "is obeying his commands and his commands are not a big strain on us"
-          ],
-          "verseText": "because¦154716 the definition of loving God¦154721 is obeying his commands and his commands are not a big strain on us"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "because¦154734 everyone¦154735 who's been",
-            {
-              "add": "re",
-              "closing": "\\add*"
-            },
-            "born in",
-            {
-              "nd": "God¦154740",
-              "closing": "\\nd*"
-            },
-            "is overcoming¦154741 the world."
-          ],
-          "verseText": "because¦154734 everyone¦154735 who's been re born in God¦154740 is overcoming¦154741 the world."
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "So¦154759 who can overcome¦154762 the world¦154764? Only the person who believes¦154768 that",
-            {
-              "nd": "Yeshua¦154770",
-              "closing": "\\nd*"
-            },
-            "is God's son.",
-            {
-              "s1": "God's testimony about Yeshua"
-            },
-            {
-              "rem": "/s1 The Witness about Jesus Christ"
-            },
-            {
-              "rem": "/s1 Testimony concerning the Son of God"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "So¦154759 who can overcome¦154762 the world¦154764? Only the person who believes¦154768 that Yeshua¦154770 is God's son."
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            {
-              "nd": "Yeshua¦154786",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦154788",
-              "closing": "\\nd*"
-            },
-            "is the one who was born by water and blood and spirit—not by water only,",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "5:6:"
-                },
-                {
-                  "xt": "Yhn 3:5-8."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "but by water and by blood"
-          ],
-          "verseText": "Yeshua¦154786 the messiah¦154788 is the one who was born by water and blood and spirit—not by water only, but by water and by blood"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "because there are three¦154818 that testify¦154821:"
-          ],
-          "verseText": "because there are three¦154818 that testify¦154821:"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "the",
-            {
-              "nd": "spirit¦154848",
-              "closing": "\\nd*"
-            },
-            ", the water¦154851, and the blood¦154854, and these three¦154857 come together into one."
-          ],
-          "verseText": "the spirit¦154848, the water¦154851, and the blood¦154854, and these three¦154857 come together into one."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "If we accept testimonies from people, then God's testimony is better, because¦154876 God's testimony is about his¦154889 son."
-          ],
-          "verseText": "If we accept testimonies from people, then God's testimony is better, because¦154876 God's testimony is about his¦154889 son."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "Any person that believes that",
-            {
-              "add": "Yeshua is",
-              "closing": "\\add*"
-            },
-            "God's son has internalised God's testimony, but anyone who doesn't believe in God calls him a liar because¦154914 they have not believed the testimony of God himself¦154903 about his¦154928 son."
-          ],
-          "verseText": "Any person that believes that Yeshua is God's son has internalised God's testimony, but anyone who doesn't believe in God calls him a liar because¦154914 they have not believed the testimony of God himself¦154903 about his¦154928 son."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "And this is the testimony¦154933: that",
-            {
-              "nd": "God¦154940",
-              "closing": "\\nd*"
-            },
-            "gave eternal¦154936 life to us",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "5:11:"
-                },
-                {
-                  "xt": "Yhn 3:36."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "and this life is in his¦154950 son."
-          ],
-          "verseText": "And this is the testimony¦154933: that God¦154940 gave eternal¦154936 life to us and this life is in his¦154950 son."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "Anyone who has the son has life, but anyone who doesn't have the God's son, doesn't have",
-            {
-              "add": "eternal",
-              "closing": "\\add*"
-            },
-            "life.",
-            {
-              "s1": "Living without ending"
-            },
-            {
-              "rem": "/s1 Epilogue"
-            },
-            {
-              "rem": "/s1 Concluding Remarks"
-            },
-            {
-              "rem": "/s1 Conclusion"
-            },
-            {
-              "rem": "/s1 Final instructions and encouragement"
-            },
-            {
-              "rem": "/s1 Eternal Life"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Anyone who has the son has life, but anyone who doesn't have the God's son, doesn't have eternal life."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "I wrote¦154971 these¦154970 things to you so that you all could know that you have eternal¦154978 life¦154976, that is the ones believed¦154982 in the name¦154986 and authority of God's son."
-          ],
-          "verseText": "I wrote¦154971 these¦154970 things to you so that you all could know that you have eternal¦154978 life¦154976, that is the ones believed¦154982 in the name¦154986 and authority of God's son."
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "And so we have confidence¦155012 in God that if we request¦155022 anything¦155021 according¦155023 to his¦155027 will, he hears us"
-          ],
-          "verseText": "And so we have confidence¦155012 in God that if we request¦155022 anything¦155021 according¦155023 to his¦155027 will, he hears us"
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "whatever¦155038 we're requesting¦155041, and we know that we'll receive what we requested¦155050.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "whatever¦155038 we're requesting¦155041, and we know that we'll receive what we requested¦155050."
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "If anyone¦155055 sees a fellow believer committing a forgivable sin, then that person should ask God on their behalf and God will give life to that fellow believer. (But there is a sin that",
-            {
-              "add": "always",
-              "closing": "\\add*"
-            },
-            "results in death and I'm not suggesting that we should ask in that case.)"
-          ],
-          "verseText": "If anyone¦155055 sees a fellow believer committing a forgivable sin, then that person should ask God on their behalf and God will give life to that fellow believer. (But there is a sin that always results in death and I'm not suggesting that we should ask in that case.)"
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "All disobedience is sin, but there¦155094 are sins that don't¦155096",
-            {
-              "add": "necessarily",
-              "closing": "\\add*"
-            },
-            "lead to death¦155098.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "All disobedience is sin, but there¦155094 are sins that don't¦155096 necessarily lead to death¦155098."
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "We know that everyone¦155101 who's been",
-            {
-              "add": "re",
-              "closing": "\\add*"
-            },
-            "born into God doesn't keep sinning¦155108, but¦155109 the",
-            {
-              "add": "messiah",
-              "closing": "\\add*"
-            },
-            "who was born from God watches over them and¦155118 so the evil¦155120 one can't touch¦155122 them.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "We know that everyone¦155101 who's been re born into God doesn't keep sinning¦155108, but¦155109 the messiah who was born from God watches over them and¦155118 so the evil¦155120 one can't touch¦155122 them."
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            "We know that we¦155129 belong to",
-            {
-              "nd": "God¦155128",
-              "closing": "\\nd*"
-            },
-            "and¦155130 that the whole¦155133 word is under the control of the evil¦155136 one.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "We know that we¦155129 belong to God¦155128 and¦155130 that the whole¦155133 word is under the control of the evil¦155136 one."
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            "We know that God's son has come and helped our minds so that we could know the true one, and we are in the true one and",
-            {
-              "add": "also",
-              "closing": "\\add*"
-            },
-            "in his¦155168 son,",
-            {
-              "nd": "Yeshua¦155169",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦155171",
-              "closing": "\\nd*"
-            },
-            "—the true God and eternal¦155181 life¦155180",
-            {
-              "add": "itself",
-              "closing": "\\add*"
-            },
-            ".",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "We know that God's son has come and helped our minds so that we could know the true one, and we are in the true one and also in his¦155168 son, Yeshua¦155169 the messiah¦155171—the true God and eternal¦155181 life¦155180 itself."
-        },
-        {
-          "verseNumber": "21",
-          "contents": [
-            "You new believers, don't honour idols¦155188."
-          ],
-          "verseText": "You new believers, don't honour idols¦155188."
-        }
-      ]
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1:1-4"
+     ]
     }
-  ],
-  "_messages": {
-    "_warnings": []
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The darkness and the light ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1:5–2:29"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The children of God and the children of Satan ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "3:1-24"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The truth and the lies ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "4:1-6"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "About love ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "4:7-21"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Faith in Yeshua the messiah ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "5:1-21"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "This is still a very early look into the unfinished text of the Open English Translation of the Bible. Please double-check the text in advance before using in public.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ie",
+   "content": []
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "1",
+   "sid": "1JN 1"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The message that is life\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Word of Life\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Introduction\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1-3",
+     "sid": "1JN 1:1-3"
+    },
+    "We are reporting to you and testifying about what existed from the beginning¦151768:",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:1: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Yhn 1:1."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "bdit",
+     "content": [
+      "Yeshua the messiah and son of God"
+     ]
+    },
+    ". We heard him, we saw him with our own eyes¦151774, and we touched¦151782 him with our own hands¦151780. Concerning the message¦151785 of life, we can also report and testify to you that that life was revealed",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:2: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Yhn 1:14."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "—",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "he is"
+     ]
+    },
+    " the eternal life that was with the father and was revealed to us. We report what we’ve seen and what we’ve heard so that you all also can have fellowship with us, and our fellowship is with the father and with his son.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "1JN 1:4"
+    },
+    "We’re writing¦151849 all this so that our¦151855 joy¦151854 may be extended to you also.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "We’re all sinners\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Living in the Light\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Fellowship, obedience, and forgiveness\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 God Is Light\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Walking in the light\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "1JN 1:5"
+    },
+    "This is the message¦151869 that¦151870 we heard¦151871 from him and which¦151870 we are declaring¦151875 to you all: ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦151880"
+     ]
+    },
+    " is light¦151881 and there is no darkness¦151884 in him—none at all.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "1JN 1:6"
+    },
+    "If we say¦151894 that we and him¦151899 are relating well together and yet we’re walking¦151904 in the darkness¦151903, then we’re lying¦151905 and not living the truth¦151911.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "1JN 1:7"
+    },
+    "But¦151928 if we’re walking¦151917 in the light, just like he walks in the light, then we’ll get along well with each other, and his¦151935 son ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua’s¦151931"
+     ]
+    },
+    " blood¦151930 is removing the consequences of all our sins.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "1JN 1:8"
+    },
+    "If we say¦151942 that we don’t¦151945 have any sin¦151944, then we’re ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "just"
+     ]
+    },
+    " fooling ourselves¦151947 and haven’t embraced the truth¦151952.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "1JN 1:9"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "But¦151966"
+     ]
+    },
+    " if we admit our sins, Yeshua is trustworthy and totally sinless, and he will forgive¦151969 us for our sins and remove all of our guilt and consequences.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "1JN 1:10"
+    },
+    "If we say¦151982 that we haven’t sinned¦151985, then we’re making¦151987 a liar out of Yeshua and we haven’t internalised his¦151992 message¦151991.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "2",
+   "sid": "1JN 2"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The messiah is our advocate\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Christ Our Advocate\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Christ Our Helper\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "1JN 2:1"
+    },
+    "I am writing¦152000 to you all, my¦151998 treasured new believers, so that you might avoid sinning. If anyone¦152007 should sin, we have an advocate¦152009 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "to help us relate to"
+     ]
+    },
+    " the father¦152013: ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " the sinless ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦152015"
+     ]
+    },
+    ",\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "1JN 2:2"
+    },
+    "and it’s him who is the atonement¦152019 for our sins—not just our sins, but¦152017 also the sins of the entire¦152036 world¦152038.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "1JN 2:3"
+    },
+    "We will know if we ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "really"
+     ]
+    },
+    " know Yeshua if we obey his¦152050 teachings.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "1JN 2:4"
+    },
+    "If someone says that they know Yeshua but¦152058 don’t¦152062 do what he taught, that person is a liar and hasn’t internalised the truth¦152070.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "1JN 2:5"
+    },
+    "However the person who obeys Yeshua’s teaching demonstrates that God’s love¦152086 has truly¦152082 been planted in them. We know that we are ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "alive"
+     ]
+    },
+    " in Yeshua if\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "1JN 2:6"
+    },
+    "we claim to live in him¦152100 and then live our lives like he lived.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Love not hate to be in the light\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 A New Commandment\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The New Command\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "1JN 2:7"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:7: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Yhn 13:34."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "Dear friends, I’m not writing¦152115 a new rule for you all, but ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "reminding you"
+     ]
+    },
+    " of an old rule that you had from the beginning¦152123. This old rule is the message¦152130 that you all heard¦152132.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "1JN 2:8"
+    },
+    "Then again I ",
+    {
+     "type": "char",
+     "marker": "em",
+     "content": [
+      "am"
+     ]
+    },
+    " writing¦152138 a new rule to you—a rule which¦152140 is true in Yeshua and in you all, because¦152151 the darkness¦152154 is already disappearing and the true light¦152158 is already shining¦152163.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "1JN 2:9"
+    },
+    "Anyone who says they’re in the light¦152168 but¦152170 hates a fellow believer,",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "2:9 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "Literally ‘our brothers’. In this letter that term could refer to ‘siblings’, ‘fellow believers’, or ‘fellow citizens’ (or Yohan could be alternating between two or three of them in his mind as he wrote). After considering all the uses of the term in chapters 2–5, we have taken ‘fellow believers’ as being more likely, i.e., the context would often seem to be focussing on believers (even though most of us would want to apply 3:16–17 to also include ‘fellow citizens’)."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " is still in the darkness¦152180.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "1JN 2:10"
+    },
+    "It’s the person that loves their fellow believers who is living in the light¦152191 and¦152193 doesn’t offend¦152194 anyone.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "1JN 2:11"
+    },
+    "But¦152211 the person who hates a fellow believer is living and walking¦152215 in the darkness and doesn’t know where¦152219 they’re going¦152220 because¦152221 they’re blinded¦152224.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Don’t love the things of this world\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "1JN 2:12"
+    },
+    "I’m writing¦152229 to you new believers because your sins¦152237 have been forgiven¦152233 because of Yeshua authority.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "1JN 2:13"
+    },
+    "I’m writing to you fathers¦152244 because you have known¦152246 the messiah from the beginning¦152249.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:13: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Lk 2:25-35."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "1JN 2:14"
+    },
+    "I wrote to you new believers because you have know the father¦152266. I wrote to you fathers¦152269 because you have known the messiah from the beginning¦152275.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:13: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Lk 2:25-35."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " I wrote to you young¦152278 men¦152278 because you are strong¦152280 and God’s message¦152284 lives in you and you have overcome¦152291 the evil one.\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Do Not Love the World\n"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "1JN 2:15"
+    },
+    "Don’t be loving the world nor the things in the world. The father’s¦152314 love does not live in anyone¦152304 who loves the world\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "1JN 2:16"
+    },
+    "because everything that’s in the world, bodily desires and lusts and arrogant¦152334 living¦152336, is not from the father¦152341 but¦152327 from the world.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "1JN 2:17"
+    },
+    "And the world¦152349 will come to an end along with the desire for it¦152354, but¦152356 the person obeying God’s desires will continue to live.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Beware of ‘new’ teaching\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The danger of false teaching\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Warning against Antichrists\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Enemy of Christ\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Warning Against Antichrists\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "1JN 2:18"
+    },
+    "New believers, it’s now the last times and what you¦152375 heard¦152375 about the false messiah coming¦152379 is now happening. Many false messiahs have already been around and that confirms that it’s now the last times.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "1JN 2:19"
+    },
+    "They came¦152394 from our¦152398 group, but they were never truly part of us because¦152401 if they were, they would have stayed with us. But they left¦152394 us so it would be revealed¦152412 that they’re not part of us.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "1JN 2:20"
+    },
+    "But you all have received the spirit",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "2:20 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "anointing: It’s not really clear here what Yohan is referring to that they have received: God’s favour? a skill or ability? a blessing? the Holy Spirit? But v27 below seems to be talking about God’s holy spirit."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " from the chosen messiah",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "2:20 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "holy (one): Yohan seems to be referring to Yeshua here."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " and¦152419 you all know all about it.",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "2:20 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "You all know all: also unclear what Yohan means."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "1JN 2:21"
+    },
+    "I didn’t¦152430 write to you all because you don’t¦152430 know the truth, but¦152442 because you have known the truth and any falsehood¦152445 is not part of it.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "1JN 2:22"
+    },
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Anyone¦152465"
+     ]
+    },
+    " who teaches that ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " is not the messiah is a liar. And ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "anyone¦152465"
+     ]
+    },
+    " who disowns the father¦152474 and¦152475 the son is a false messiah.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "1JN 2:23"
+    },
+    "Anyone who disowns¦152480 the son, doesn’t know the father either—only those who confess¦152488 the son know the father\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "1JN 2:24"
+    },
+    "What you all heard from the beginning, that’s what you should¦152504 hold to. If the message that you heard from the beginning remains in you, then you also will remain in the son and in the father¦152524,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "25",
+     "sid": "1JN 2:25"
+    },
+    "and¦152526 in that¦152531 case, what he promised¦152533 us is to live forever.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "26",
+     "sid": "1JN 2:26"
+    },
+    "I wrote¦152542 these¦152540 things to you all concerning¦152544 those who would mislead¦152546 you.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "27",
+     "sid": "1JN 2:27"
+    },
+    "But¦152548 for you, the spirit that you received¦152554 from Yeshua remains in you all and so you don’t¦152563 need anyone¦152567 else to teach you because his¦152575 spirit teaches you about everything. The spirit teaches truth and not lies, and since you were taught¦152593 by the spirit then¦152548 you are remaining in Yeshua.\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Children of God\n"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "28",
+     "sid": "1JN 2:28"
+    },
+    "So¦152599 now you new believers, remain¦152602 in him so that when he is revealed¦152608, we can have boldness¦152611 and¦152599 not be ashamed¦152614 of him when he comes ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "back"
+     ]
+    },
+    ".\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Children of God\n"
+     ]
+    },
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "29",
+     "sid": "1JN 2:29"
+    },
+    "Because you know that he is sinless, you also know that anyone faithfully obeying his¦152637 teaching has been ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "re"
+     ]
+    },
+    "born in him.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "3",
+   "sid": "1JN 3"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Living as God’s children\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Children of God\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 How Christians live together\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Living as Children of God\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "1JN 3:1"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:1: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Yhn 1:12."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "Consider the amazing live that the father¦152649 has given¦152644 to us in order¦152650 that we can be called¦152653 God’s children¦152651, and indeed we are.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "1JN 3:2"
+    },
+    "Dear friends we are God’s children¦152670 now, but¦152673 it’s not yet revealed what we will become. We know that when Yeshua is revealed, we will be similar¦152683 to him because¦152686 then we’ll be seeing¦152687 him exactly as he is.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "1JN 3:3"
+    },
+    "Everyone who trusts their future to him¦152699 needs to purify¦152700 themself just like he is pure.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "1JN 3:4"
+    },
+    "Everyone¦152706 who regularly sins is demonstrating lawlessness, and sin is lawlessness.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "1JN 3:5"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:5: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Yhn 1:29."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "You all know that Yeshua was revealed¦152727 in order¦152728 to take¦152732 away sins¦152730, and¦152733 there’s no sin¦152734 in him¦152736.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "1JN 3:6"
+    },
+    "Everyone¦152741 who remains¦152745 in him doesn’t sin—everyone¦152748 who keeps sinning has neither¦152751 really seen¦152752 Yeshua nor known¦152755 him.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "1JN 3:7"
+    },
+    "So new believers, don’t let anyone¦152759 deceive¦152762 you: the person faithfully obeying Yeshua’s teaching will be declared not guilty just as he is not guilty.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "1JN 3:8"
+    },
+    "Anyone who regularly sins belongs to the devil, because¦152783 the devil has been sinning¦152788 from the beginning¦152785.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "1JN 3:9"
+    },
+    "Everyone¦152802 who’s been ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "re"
+     ]
+    },
+    "born in God, doesn’t regularly sin because God’s seed ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "of life"
+     ]
+    },
+    " remains¦152816 in them and that¦152803 person isn’t¦152809 able to sin because they have been ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "re"
+     ]
+    },
+    "born in God.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "1JN 3:10"
+    },
+    "You can distinguish God’s children and the devil’s¦152838 children like this: everyone¦152840 who doesn’t faithfully obey Yeshua’s teaching or doesn’t love their fellow believers, that¦152841 person doesn’t belong to God.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Demonstrate your love for each other\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Love one another\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Love One Another\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "1JN 3:11"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:11: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Yhn 13:34."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "Yes, this is the message¦152863 that you¦152865 all heard¦152865 from the beginning¦152867: to be loving¦152869 each other—\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "1JN 3:12"
+    },
+    "not living like Cain¦152873 who belonged to the evil one and¦152883 went on to murder his brother.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:12: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Gen 4:8."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " And why did he kill him? Because¦152888 his own actions were evil, but¦152883 his brother ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Hevel/Abel"
+     ]
+    },
+    " followed God’s instructions.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "1JN 3:13"
+    },
+    "And friends, don’t be surprised if the world¦152909 hates you¦152907.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "1JN 3:14"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:14: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Yhn 5:24."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "We know that we have transferred from death to life because¦152921 we are loving our fellow¦152924 believers¦152924. Anyone who doesn’t love others is stuck in death.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "1JN 3:15"
+    },
+    "Everyone¦152935 who hates another person is a murderer, and¦152944 you¦152945 all know that¦152936 murderers don’t¦152949 have eternal¦152952 life¦152951 in them.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "1JN 3:16"
+    },
+    "We know about ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "real"
+     ]
+    },
+    " love¦152961 because¦152962 we saw that Yeshua gave up his¦152968 life¦152967 for us, and we should give up our lives¦152977 for our fellow¦152975 believers¦152975.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "1JN 3:17"
+    },
+    "But¦152988 anyone who’s enjoying being alive and notices that a fellow believer is in need yet shuts that other believer’s needs out of their conscience, how can God’s love¦153004 be living¦152985 in that person?\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "1JN 3:18"
+    },
+    "So you new believers, don’t¦153012 just proclaim that you’re loving¦153013 people, but¦153019 actually demonstrate it in actions and¦153022 in fact.\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Courage before God\n"
+     ]
+    },
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "1JN 3:19"
+    },
+    "That’s how we’ll know that the truth¦153032 really is in us.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    "At the same time, we need to tell ourselves\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "1JN 3:20"
+    },
+    "that if we are feeling condemned¦153047, ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦153056"
+     ]
+    },
+    " is greater¦153052 than our¦153048 feelings and he knows everything.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "1JN 3:21"
+    },
+    "Then dear friends, if we’re not feeling condemned¦153073, we have confidence¦153077 in ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦153082"
+     ]
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "1JN 3:22"
+    },
+    "and confidence that whatever¦153084 we are requesting¦153087 from him, we will receive¦153089 it because¦153094 we are following his¦153097 instructions and doing the things that please¦153102 him.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "1JN 3:23"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:23: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Yhn 13:34; 15:12,17."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "And this is his command: We need to believe¦153114 in the authority of his son, Yeshua the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦153121"
+     ]
+    },
+    ", and¦153106 we should love each other as per the command that Yeshua gave to us.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "1JN 3:24"
+    },
+    "Anyone who follows his¦153135 commands¦153134 is living in him, and he is living in them and we have confirmation that he is living in us, because we have the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "spirit¦153153"
+     ]
+    },
+    " that he gave¦153156 to us.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "4",
+   "sid": "1JN 4"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "True and false spirits\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Testing the Spirits\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Test the Spirits\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Discerning False Prophets\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The True Spirit and the False Spirit\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Spirits of truth and error\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "1JN 4:1"
+    },
+    "Dear friends, don’t¦153161 trust every¦153162 spirit¦153163, but¦153166 test them to determine whether¦153170 or not it’s from ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦153173"
+     ]
+    },
+    ", because¦153175 many false¦153177 prophets¦153177 go around the world¦153181.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "1JN 4:2"
+    },
+    "You all can find out whether or not a spirit is from God: If the spirit confesses¦153199 that ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦153202"
+     ]
+    },
+    " has come as a person, then it’s from God\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "1JN 4:3"
+    },
+    "but if the spirit won’t¦153215 confess¦153216 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    ", then¦153229 it’s not from ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦153226"
+     ]
+    },
+    " but rather it’s the spirit of the false messiah, whom you’ve heard¦153237 is coming¦153240, and¦153229 is now already¦153247 in the world¦153245.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "1JN 4:4"
+    },
+    "You new believers are in ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦153251"
+     ]
+    },
+    " and you have defeated the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "false prophets"
+     ]
+    },
+    ", because¦153257 the one in you is more powerful than the one in the world¦153267.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "1JN 4:5"
+    },
+    "They belong to the world hence they¦153278 are speaking¦153278 from the world, and¦153279 the world is listening to them.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "1JN 4:6"
+    },
+    "However we belong to God, and anyone who knows God listens to us, but¦153313 anyone who doesn’t belong to God can’t¦153296 accept what we’re saying. That’s how we can distinguish the spirit of truth¦153312 from deceptive¦153317 spirits.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Loving God means loving others\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Love one another\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 God’s Love and Ours\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 God Is Love\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Loving One Another\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "1JN 4:7"
+    },
+    "Dear friends, we need to be loving each other, because¦153321 love is from God and everyone¦153329 who ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "truly"
+     ]
+    },
+    " loves has been ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "re"
+     ]
+    },
+    "born into God and knows God.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "1JN 4:8"
+    },
+    "Those who don’t love, don’t love God because¦153350 God is love.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "1JN 4:9"
+    },
+    "God’s love¦153359 was revealed¦153357 to us when he sent¦153370 his¦153367 only son to be born into the world¦153375 so that we can live¦153377 through¦153379 him.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "1JN 4:10"
+    },
+    "So this is ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "real"
+     ]
+    },
+    " love¦153385, not us loving God, but¦153396 God loving us and¦153402 sending his¦153407 son to be the sacrifice to clear us of the sentence from our¦153412 sins¦153411.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "1JN 4:11"
+    },
+    "Dear friends, if ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦153417"
+     ]
+    },
+    " loves us like that, we¦153421 ought¦153422 to be loving¦153424 each other.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "1JN 4:12"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "4:12: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Yhn 1:18."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "No one has ever seen¦153428 God, but¦153439 when we¦153432 are loving¦153432 each other then God is living in us, and¦153439 his¦153442 love¦153441 is being perfected¦153443 in us.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "1JN 4:13"
+    },
+    "We can know that we are living in him and him in us because¦153460 he has given¦153465 to us from his¦153464 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "spirit¦153463"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "1JN 4:14"
+    },
+    "And we¦153469 have seen¦153470 and¦153472 are testifying¦153473 that the father¦153476 sent¦153477 the son—the saviour¦153480 of the world¦153482.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "1JN 4:15"
+    },
+    "Anyone who confesses¦153486 that ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " is God’s son, God lives in that person and¦153501 they live in God.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "1JN 4:16"
+    },
+    "We have known¦153510 and experienced the love that God has in us.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    "God is love, and anyone who lives in love, lives in God, and God lives in them.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "1JN 4:17"
+    },
+    "This is how love¦153547 will be perfected¦153545 in us so that we can live with confidence¦153553 about the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "coming"
+     ]
+    },
+    " judgement¦153561 day¦153558: we live like Yeshua in this world¦153572.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "1JN 4:18"
+    },
+    "There’s no fear in love, but rather perfect love drives away fear, because¦153588 our fear is that of being punished¦153591 but the one fearing¦153595 has not been perfected in love.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "1JN 4:19"
+    },
+    "We love others because¦153607 he¦153610 loved¦153612 us first¦153611.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "1JN 4:20"
+    },
+    "Anyone who says that they are loving God but¦153621 hates a fellow believer, that person is liar because¦153629 if someone can’t love a fellow believer that they’ve seen, they can’t love God who they’ve never seen.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "1JN 4:21"
+    },
+    "So¦153646 we¦153650 have this command¦153649 from Yeshua that anyone who loves ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦153659"
+     ]
+    },
+    " must also love their fellow believers.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "5",
+   "sid": "1JN 5"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Faith and love overcome the world\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Faith Conquers the World\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Our Victory over the World\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Faith in the Son of God\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Obedience to the truth\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "1JN 5:1"
+    },
+    "Everyone¦153665 who believes¦153667 that ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua¦153669"
+     ]
+    },
+    " is the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦153672"
+     ]
+    },
+    " has been ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "re"
+     ]
+    },
+    "born in ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦153675"
+     ]
+    },
+    ", and everyone¦153678 who loves the father who gave birth to us, also loves the son that he gave birth to.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "1JN 5:2"
+    },
+    "We can know when we love God’s children¦153696: whenever¦153699 we love God and obey his¦153706 commands¦153705,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "1JN 5:3"
+    },
+    "because¦153710 the definition of loving ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦153715"
+     ]
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "5:3: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Yhn 14:15."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " is obeying his commands and his commands are not a big strain on us\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "1JN 5:4"
+    },
+    "because¦153728 everyone¦153729 who’s been ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "re"
+     ]
+    },
+    "born in ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦153734"
+     ]
+    },
+    " is overcoming¦153735 the world.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "1JN 5:5"
+    },
+    "So¦153753 who can overcome¦153756 the world¦153758? Only the person who believes¦153762 that ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " is God’s son.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "God’s testimony about Yeshua\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Witness about Jesus Christ\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Testimony concerning the Son of God\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "1JN 5:6"
+    },
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦153782"
+     ]
+    },
+    " is the one who was born by water and blood and spirit—not by water only,",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "5:6: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Yhn 3:5-8."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " but¦153798 by water and by blood\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "1JN 5:7"
+    },
+    "because there are three¦153812 that testify¦153815:\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "1JN 5:8"
+    },
+    "the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "spirit¦153842"
+     ]
+    },
+    ", the water¦153845, and the blood¦153848, and these three¦153851 come together into one.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "1JN 5:9"
+    },
+    "If we accept testimonies from people, then God’s testimony is better, because¦153870 God’s testimony is about his¦153883 son.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "1JN 5:10"
+    },
+    "Any person that believes that ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Yeshua is"
+     ]
+    },
+    " God’s son has internalised God’s testimony, but anyone who doesn’t believe in God calls him a liar because¦153908 they have not believed the testimony of God himself¦153897 about his¦153922 son.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "1JN 5:11"
+    },
+    "And this is the testimony¦153927: that ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦153934"
+     ]
+    },
+    " gave eternal¦153930 life to us",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "5:11: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Yhn 3:36."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " and¦153923 this life is in his¦153944 son.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "1JN 5:12"
+    },
+    "Anyone who has the son has life, but anyone who doesn’t have the god’s son, doesn’t have ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "eternal"
+     ]
+    },
+    " life.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Living without ending\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Epilogue\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Concluding Remarks\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Conclusion\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Final instructions and encouragement\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Eternal Life\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "1JN 5:13"
+    },
+    "I wrote¦153965 these¦153964 things to you so that you all could know that you have eternal¦153972 life¦153970, that is the ones believed¦153976 in the name¦153980 and authority of God’s son.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "1JN 5:14"
+    },
+    "And so we have confidence¦154006 in God that if we request¦154016 anything¦154015 according¦154017 to his¦154021 will, he hears us\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "1JN 5:15"
+    },
+    "whatever¦154032 we’re requesting¦154035, and¦154025 we know that we’ll receive what we requested¦154044.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "1JN 5:16"
+    },
+    "If anyone¦154049 sees a fellow believer committing a forgivable sin, then that person should ask God on their behalf and God will give life to that fellow believer. (But¦154061 there is a sin that ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "always"
+     ]
+    },
+    " results in death and I’m not suggesting that we should ask in that case.)\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "1JN 5:17"
+    },
+    "All disobedience is sin, but¦154087 there¦154088 are sins that don’t¦154090 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "necessarily"
+     ]
+    },
+    " lead to death¦154092.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "1JN 5:18"
+    },
+    "We know that¦154096 everyone¦154095 who’s been ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "re"
+     ]
+    },
+    "born into God doesn’t keep sinning¦154102, but¦154103 the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "messiah"
+     ]
+    },
+    " who was born from God watches over them and¦154112 so the evil¦154114 one can’t¦154101 touch¦154116 them.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "1JN 5:19"
+    },
+    "We know that we¦154123 belong to ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦154122"
+     ]
+    },
+    " and¦154124 that the whole¦154127 word is under the control of the evil¦154130 one.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "1JN 5:20"
+    },
+    "We know that God’s son has come and helped our minds so that we could know the true one, and we are in the true one and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "also"
+     ]
+    },
+    " in his¦154162 son, ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦154165"
+     ]
+    },
+    "—the true God and eternal¦154175 life¦154174 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "itself"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "1JN 5:21"
+    },
+    "You new believers, don’t honour idols¦154182.\n"
+   ]
   }
+ ]
 }

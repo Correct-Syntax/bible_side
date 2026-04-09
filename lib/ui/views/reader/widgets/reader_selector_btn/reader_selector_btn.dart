@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:phosphor_flutter/phosphor_flutter.dart';
+
 import 'package:stacked/stacked.dart';
 
 import '../../../../../common/books.dart';
@@ -68,34 +68,26 @@ class ReaderSelectorBtn extends StackedView<ReaderSelectorBtnModel> {
               ),
             ),
           ),
+          SizedBox(
+            height: 20.0,
+            child: VerticalDivider(
+              color: context.theme.appColors.primaryOnDark.withAlpha(80),
+              thickness: 1.0,
+              width: 12.0,
+            ),
+          ),
           InkWell(
             onTap: onTapBibleVersion,
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 4.0, vertical: 7.0),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Padding(
-                    padding: const EdgeInsets.only(right: 5.0),
-                    child: Text(
-                      readerArea == Area.primary ? viewModel.primaryBible : viewModel.secondaryBible,
-                      style: TextStyle(
-                        fontSize: 14.0,
-                        color: context.theme.appColors.primaryOnDark,
-                        fontWeight: FontWeight.bold,
-                        letterSpacing: -0.1,
-                      ),
-                    ),
-                  ),
-                  PhosphorIcon(
-                    isActive == true
-                        ? PhosphorIcons.caretUp(PhosphorIconsStyle.bold)
-                        : PhosphorIcons.caretDown(PhosphorIconsStyle.bold),
-                    color: context.theme.appColors.primaryOnDark,
-                    size: 15.0,
-                    semanticLabel: isActive == true ? 'Caret up' : 'Caret down',
-                  ),
-                ],
+              child: Text(
+                readerArea == Area.primary ? viewModel.primaryBible : viewModel.secondaryBible,
+                style: TextStyle(
+                  fontSize: 14.0,
+                  color: context.theme.appColors.primaryOnDark,
+                  fontWeight: FontWeight.bold,
+                  letterSpacing: -0.1,
+                ),
               ),
             ),
           ),

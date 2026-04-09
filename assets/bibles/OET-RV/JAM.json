@@ -1,1689 +1,2499 @@
 {
-  "book": {
-    "bookCode": "JAS",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.04",
-    "meta": [
-      {
-        "usfm": "3.0"
-      },
-      {
-        "ide": "UTF-8"
-      },
-      {
-        "rem": "ESFM v0.6 JAM"
-      },
-      {
-        "rem": "WORDTABLE OET-LV_NT_word_table.tsv"
-      },
-      {
-        "h": "Yacob"
-      },
-      {
-        "toc1": "Yacob (James)"
-      },
-      {
-        "toc2": "Yacob"
-      },
-      {
-        "toc3": "Jac."
-      },
-      {
-        "mt1": "Yacob (James)"
-      },
-      {
-        "is1": "Introduction"
-      },
-      {
-        "is2": "Author"
-      },
-      {
-        "ip": "The author of this letter is commonly known as ‘James’ in English translations, but most people don't realise that his English name should be Jacob (or Yakōbos if you wanted to be closer to the Koine Greek spelling). This translation error can be traced all the way back to John Wycliffe's English translation from the Latin in the 1300's as he didn't have access to Greek New Testament manuscripts (although he did use Yacob in some parts of his New Testament when it referred to the son of Isaac). The confusion was probably due to changes in the way Latin was spoken over the centuries, and then translating the name from the historically-altered Latin instead of from the original Greek—see https://www.biblicalarchaeology.org/daily/biblical-topics/bible-versions-and-translations/james-or-jacob-in-the-bible for more details."
-      },
-      {
-        "ip": "Note from the first sentence in the letter that Yacob addressed the letter to the twelve tribes who originated from the twelve sons of his namesake."
-      },
-      {
-        "is2": "This letter"
-      },
-      {
-        "ip": [
-          "This",
-          {
-            "bk": "Letter from Yacob",
-            "closing": "\\bk*"
-          },
-          "is Yacob's collection of advice to those who believe there is a God in heaven. He wrote this to all people scattered all around the world. Yacob used examples in order to explain his advice, so that their behaviour would improve and also their daily work. He also taught on various topics like: faith, testing, suffering, showing, respect, good behaviour, watching what you say, true wisdom from God, and prayer."
-        ]
-      },
-      {
-        "ip": "He said that our faith is deficient if we don't also demonstrate it by our actions."
-      },
-      {
-        "iot": "Main components of Yacob's letter"
-      },
-      {
-        "io1": [
-          "Introduction",
-          {
-            "ior": "1:1",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The faith and the wisdom/knowledge",
-          {
-            "ior": "1:2-8",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The poor and the rich man",
-          {
-            "ior": "1:9-11",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The testing and the temptation",
-          {
-            "ior": "1:12-18",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The listening and the making",
-          {
-            "ior": "1:19-27",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Respecting all people",
-          {
-            "ior": "2:1-13",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The faith and the good work",
-          {
-            "ior": "2:14-26",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The tongue",
-          {
-            "ior": "3:1-12",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The wisdom/knowledge from heaven",
-          {
-            "ior": "3:13-18",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The Christian and the things/objects",
-          {
-            "ior": "4:1–5:6",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Various teachings",
-          {
-            "ior": "5:7-20",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "rem": [
-          "This is still a very early look into the unfinished text of the",
-          {
-            "em": "Open English Translation",
-            "closing": "\\em*"
-          },
-          "of the Bible. Please double-check the text in advance before using in public."
-        ]
-      },
-      {
-        "ie": ""
-      }
-    ]
+ "type": "USJ",
+ "version": "3.1",
+ "content": [
+  {
+   "type": "book",
+   "marker": "id",
+   "code": "JAS",
+   "content": [
+    "- Open English Translation—Readers’ Version (OET-RV) v0.1.50"
+   ]
   },
-  "chapters": [
+  {
+   "type": "para",
+   "marker": "ide",
+   "content": [
+    "UTF-8\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "ESFM v0.6 JAM\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "WORDTABLE OET-LV_NT_word_table.tsv\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "h",
+   "content": [
+    "Yacob\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc1",
+   "content": [
+    "Yacob (James)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc2",
+   "content": [
+    "Yacob\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc3",
+   "content": [
+    "Jac.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt1",
+   "content": [
+    "Yacob (James)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "is1",
+   "content": [
+    "Introduction\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "is2",
+   "content": [
+    "Author\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "The author of this letter is commonly known as ‘James’ in English translations, but most people don’t realise that his English name should be Jacob (or Yakōbos if you wanted to be closer to the Koine Greek spelling). This translation error can be traced all the way back to John Wycliffe’s English translation from the Latin in the 1300’s as he didn’t have access to Greek New Testament manuscripts (although he did use Yacob in some parts of his New Testament when it referred to the son of Isaac). The confusion was probably due to changes in the way Latin was spoken over the centuries, and then translating the name from the historically-altered Latin instead of from the original Greek—see https://www.biblicalarchaeology.org/daily/biblical-topics/bible-versions-and-translations/james-or-jacob-in-the-bible for more details.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "Note from the first sentence in the letter that Yacob addressed the letter to the twelve tribes who originated from the twelve sons of his namesake.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "is2",
+   "content": [
+    "This letter\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "This ",
     {
-      "chapterNumber": "1",
-      "contents": [
-        {
-          "rem": "/s1 Greetings from James"
-        },
-        {
-          "rem": "/s1 Salutation"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            {
-              "add": "This letter is from",
-              "closing": "\\add*"
-            },
-            "Yacob¦147441, a slave¦147447 for",
-            {
-              "nd": "God¦147442",
-              "closing": "\\nd*"
-            },
-            "and¦147443 for the",
-            {
-              "nd": "master¦147444 Yeshua¦147445",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦147446",
-              "closing": "\\nd*"
-            },
-            ".",
-            {
-              "add": "It's written",
-              "closing": "\\add*"
-            },
-            "to the tribes¦147450 who have ended up dispersed¦147454",
-            {
-              "add": "into many nations",
-              "closing": "\\add*"
-            },
-            ":",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:1:"
-                },
-                {
-                  "xt": "Mat 13:55; Mrk 6:3; Acts 15:13; Gal 1:19."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "Greetings.",
-            {
-              "s1": "Gaining endurance and requesting wisdom"
-            },
-            {
-              "rem": "/s1 Faith and Endurance"
-            },
-            {
-              "rem": "/s1 Trials and Temptations"
-            },
-            {
-              "rem": "/s1 Faith and Wisdom"
-            },
-            {
-              "rem": "/s1 Faith under trial"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "This letter is from Yacob¦147441, a slave¦147447 for God¦147442 and¦147443 for the master¦147444 Yeshua¦147445 the messiah¦147446. It's written to the tribes¦147450 who have ended up dispersed¦147454 into many nations: Greetings."
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "Be cheerful¦147457 my¦147460 fellow¦147459 believers¦147459, when you¦147463 face a range¦147464 of difficult situations,"
-          ],
-          "verseText": "Be cheerful¦147457 my¦147460 fellow¦147459 believers¦147459, when you¦147463 face a range¦147464 of difficult situations,"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "knowing¦147466 that you¦147470 will learn endurance¦147474 as your¦147470 faith¦147472 is tested."
-          ],
-          "verseText": "knowing¦147466 that you¦147470 will learn endurance¦147474 as your¦147470 faith¦147472 is tested."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "Let that endurance¦147477 do its¦147479 perfect work so that you¦147482 all might become perfect and¦147484 mature—not lacking¦147488 anything.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Let that endurance¦147477 do its¦147479 perfect work so that you¦147482 all might become perfect and¦147484 mature—not lacking¦147488 anything."
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "If anyone¦147491 of you is lacking¦147493 wisdom¦147494, then it should¦147495 be requested¦147495 from",
-            {
-              "nd": "God¦147501",
-              "closing": "\\nd*"
-            },
-            "who gives it generously¦147503 and without disparagement, and so it will be given¦147509 to you,"
-          ],
-          "verseText": "If anyone¦147491 of you is lacking¦147493 wisdom¦147494, then it should¦147495 be requested¦147495 from God¦147501 who gives it generously¦147503 and without disparagement, and so it will be given¦147509 to you,"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "but¦147512 the person who's asking should¦147511 demonstrate their faith¦147514 and not be doubting. That's because¦147518 a person who doubts is like a wave on the sea¦147522 that's just blown¦147523 and tossed¦147525 around"
-          ],
-          "verseText": "but¦147512 the person who's asking should¦147511 demonstrate their faith¦147514 and not be doubting. That's because¦147518 a person who doubts is like a wave on the sea¦147522 that's just blown¦147523 and tossed¦147525 around"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "and a person¦147530 like that shouldn't expect to get anything¦147534 from the",
-            {
-              "nd": "master¦147538",
-              "closing": "\\nd*"
-            },
-            {
-              "rem": "/s1 Poverty and Riches"
-            }
-          ],
-          "verseText": "and a person¦147530 like that shouldn't expect to get anything¦147534 from the master¦147538"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "because that person is double-minded¦147540, and everything they attempt ends up in difficulty.",
-            {
-              "s1": "Behaviour of the poor and the wealthy"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "because that person is double-minded¦147540, and everything they attempt ends up in difficulty."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "Those of humbler¦147552 means can boast¦147547 about their greatness"
-          ],
-          "verseText": "Those of humbler¦147552 means can boast¦147547 about their greatness"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "whereas the wealthy¦147559 can boast about their weakness because¦147565 they'll pass away just like the daisies in the grass¦147568.",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:10-11:"
-                },
-                {
-                  "xt": "Isa 40:6-7 (LXX)."
-                }
-              ],
-              "closing": "\\x*"
-            }
-          ],
-          "verseText": "whereas the wealthy¦147559 can boast about their weakness because¦147565 they'll pass away just like the daisies in the grass¦147568."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "When the sun¦147573 rises with its¦147584 scorching¦147576 heat and withers¦147578 the grass¦147580, the flowers¦147583 will drop and lose all their beauty¦147588. So too for rich people who'll fade away right in the middle of all their projects.",
-            {
-              "s1": "Testing and temptation"
-            },
-            {
-              "rem": "/s1 Trial and Temptation"
-            },
-            {
-              "rem": "/s1 Testing and Tempting"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "When the sun¦147573 rises with its¦147584 scorching¦147576 heat and withers¦147578 the grass¦147580, the flowers¦147583 will drop and lose all their beauty¦147588. So too for rich people who'll fade away right in the middle of all their projects."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "Any person who's enduring¦147607 testing circumstances is fortunate, because¦147610 once they've passed the test, they'll receive¦147613 a crown¦147615 of life¦147617 that Yeshua promised¦147619 to those who love him¦147624."
-          ],
-          "verseText": "Any person who's enduring¦147607 testing circumstances is fortunate, because¦147610 once they've passed the test, they'll receive¦147613 a crown¦147615 of life¦147617 that Yeshua promised¦147619 to those who love him¦147624."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "No one should¦147627 say ‘It's God tempting me’ when they're being tempted, because¦147635 God can't be tempted to do evil¦147639 and he doesn't tempt others,"
-          ],
-          "verseText": "No one should¦147627 say ‘It's God tempting me’ when they're being tempted, because¦147635 God can't be tempted to do evil¦147639 and he doesn't tempt others,"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "but¦147645 rather they're being tempted¦147646 by their own lusts. They're being drawn¦147651 away and¦147652 enticed¦147653",
-            {
-              "add": "into what they know is wrong",
-              "closing": "\\add*"
-            },
-            ","
-          ],
-          "verseText": "but¦147645 rather they're being tempted¦147646 by their own lusts. They're being drawn¦147651 away and¦147652 enticed¦147653 into what they know is wrong,"
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "and after the desire¦147656 is conceived¦147657 it leads to sin, and once the sin is concluded it leads to death¦147665.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "and after the desire¦147656 is conceived¦147657 it leads to sin, and once the sin is concluded it leads to death¦147665."
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "Don't be led astray, my¦147669 dear brothers¦147668 and¦147668 sisters¦147668."
-          ],
-          "verseText": "Don't be led astray, my¦147669 dear brothers¦147668 and¦147668 sisters¦147668."
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "Every¦147671 gift¦147676 that's good¦147673 and¦147674 perfect¦147677 comes from heaven. It comes down from the father¦147684 of lights¦147686, none of which are changing or casting moving shadows¦147696."
-          ],
-          "verseText": "Every¦147671 gift¦147676 that's good¦147673 and¦147674 perfect¦147677 comes from heaven. It comes down from the father¦147684 of lights¦147686, none of which are changing or casting moving shadows¦147696."
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "Once he had decided it, he created us by his spoken commands so that we'd become a kind of special first¦147707 ‘harvest’ out of all of his creatures.",
-            {
-              "s1": "Listening then doing"
-            },
-            {
-              "rem": "/s1 Hearing and Doing"
-            },
-            {
-              "rem": "/s1 Hearing and Doing the Word"
-            },
-            {
-              "rem": "/s1 Listening and Doing"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Once he had decided it, he created us by his spoken commands so that we'd become a kind of special first¦147707 ‘harvest’ out of all of his creatures."
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            "So my¦147718 dear brothers¦147717 and sisters¦147717, note this: Everyone should be quick¦147726 to listen¦147729 but¦147723 slow to speak¦147733, and should be slow to get angry"
-          ],
-          "verseText": "So my¦147718 dear brothers¦147717 and sisters¦147717, note this: Everyone should be quick¦147726 to listen¦147729 but¦147723 slow to speak¦147733, and should be slow to get angry"
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            "because¦147738 when people get very angry, it doesn't lead to the good behaviour that",
-            {
-              "nd": "God¦147741",
-              "closing": "\\nd*"
-            },
-            "expects."
-          ],
-          "verseText": "because¦147738 when people get very angry, it doesn't lead to the good behaviour that God¦147741 expects."
-        },
-        {
-          "verseNumber": "21",
-          "contents": [
-            "So¦147745 discard all",
-            {
-              "add": "moral",
-              "closing": "\\add*"
-            },
-            "filth¦147748 and the evil¦147752 that's plentiful, and humbly accept the message¦147759 that's implanted¦147758 in you¦147765 all and which is capable of saving your¦147765 souls¦147764.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "So¦147745 discard all moral filth¦147748 and the evil¦147752 that's plentiful, and humbly accept the message¦147759 that's implanted¦147758 in you¦147765 all and which is capable of saving your¦147765 souls¦147764."
-        },
-        {
-          "verseNumber": "22",
-          "contents": [
-            "Don't delude¦147775 yourselves¦147776 by just listening¦147773 to the message¦147769, but put it into practice",
-            {
-              "add": "in your daily lives",
-              "closing": "\\add*"
-            },
-            "."
-          ],
-          "verseText": "Don't delude¦147775 yourselves¦147776 by just listening¦147773 to the message¦147769, but put it into practice in your daily lives."
-        },
-        {
-          "verseNumber": "23",
-          "contents": [
-            "Anyone who is just a listener¦147780 of the message¦147781 and¦147783 does nothing with it is like someone who looks at their face¦147792 in a mirror¦147797"
-          ],
-          "verseText": "Anyone who is just a listener¦147780 of the message¦147781 and¦147783 does nothing with it is like someone who looks at their face¦147792 in a mirror¦147797"
-        },
-        {
-          "verseNumber": "24",
-          "contents": [
-            "but goes away after having a look and then immediately¦147804 forgets what they looked like."
-          ],
-          "verseText": "but goes away after having a look and then immediately¦147804 forgets what they looked like."
-        },
-        {
-          "verseNumber": "25",
-          "contents": [
-            "However the person who investigates¦147810 the perfect¦147813 law that gives freedom¦147816, and then sticks with it, not being just an observer that forgets¦147822 about it but¦147809 rather a person who puts it into practice, this person will prosper in whatever they do.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "However the person who investigates¦147810 the perfect¦147813 law that gives freedom¦147816, and then sticks with it, not being just an observer that forgets¦147822 about it but¦147809 rather a person who puts it into practice, this person will prosper in whatever they do."
-        },
-        {
-          "verseNumber": "26",
-          "contents": [
-            "If anyone¦147836 supposes¦147837 that they're religious but¦147849 doesn't guard what comes out of their mouth, then that person's religion is only skin deep and hasn't affected their heart¦147851."
-          ],
-          "verseText": "If anyone¦147836 supposes¦147837 that they're religious but¦147849 doesn't guard what comes out of their mouth, then that person's religion is only skin deep and hasn't affected their heart¦147851."
-        },
-        {
-          "verseNumber": "27",
-          "contents": [
-            "A person who wants to truly serve our¦147865",
-            {
-              "nd": "God¦147866",
-              "closing": "\\nd*"
-            },
-            "and father¦147869 with a pure heart would be visiting¦147872 orphans¦147873 and widows¦147875 in their¦147879 difficulties and staying unstained by worldly¦147887 ideas."
-          ],
-          "verseText": "A person who wants to truly serve our¦147865 God¦147866 and father¦147869 with a pure heart would be visiting¦147872 orphans¦147873 and widows¦147875 in their¦147879 difficulties and staying unstained by worldly¦147887 ideas."
-        }
-      ]
+     "type": "char",
+     "marker": "bk",
+     "content": [
+      "Letter from Yacob"
+     ]
     },
+    " is Yacob’s collection of advice to those who believe there is a god in heaven. He wrote this to all people scattered all around the world. Yacob used examples in order to explain his advice, so that their behaviour would improve and also their daily work. He also taught on various topics like: faith, testing, suffering, showing, respect, good behaviour, watching what you say, true wisdom from God, and prayer.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "He said that our faith is deficient if we don’t also demonstrate it by our actions.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "iot",
+   "content": [
+    "Main components of Yacob’s letter\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Introduction ",
     {
-      "chapterNumber": "2",
-      "contents": [
-        {
-          "s1": "Avoiding favouritism"
-        },
-        {
-          "rem": "/s1 Warning against Partiality"
-        },
-        {
-          "rem": "/s1 A Warning against Prejudice"
-        },
-        {
-          "rem": "/s1 Favouritism Forbidden"
-        },
-        {
-          "rem": "/s1 Warning against Prejudice"
-        },
-        {
-          "rem": "/s1 Love your neighbour as yourself"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "My¦147889 dear brothers¦147888 and¦147888 sisters¦147888, as you live out your faith¦147895 in our¦147898 honoured",
-            {
-              "nd": "master¦147897 Yeshua¦147899",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦147900",
-              "closing": "\\nd*"
-            },
-            ", don't¦147890 show favouritism¦147892 to others."
-          ],
-          "verseText": "My¦147889 dear brothers¦147888 and¦147888 sisters¦147888, as you live out your faith¦147895 in our¦147898 honoured master¦147897 Yeshua¦147899 the messiah¦147900, don't¦147890 show favouritism¦147892 to others."
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "For",
-            {
-              "add": "example",
-              "closing": "\\add*"
-            },
-            ", if a man in nicely cut clothes and wearing an expensive gold¦147911 ring came into to your¦147909 meeting as well as a poor man in filthy¦147920 clothes"
-          ],
-          "verseText": "For example, if a man in nicely cut clothes and wearing an expensive gold¦147911 ring came into to your¦147909 meeting as well as a poor man in filthy¦147920 clothes"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "and you told the well-dressed one, ‘You sit here in this good¦147938 chair,’ while telling the poor man, ‘You stand¦147944 over here,’ or ‘You sit here on the mat,’"
-          ],
-          "verseText": "and you told the well-dressed one, ‘You sit here in this good¦147938 chair,’ while telling the poor man, ‘You stand¦147944 over here,’ or ‘You sit here on the mat,’"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "wouldn't that discrimination show that you¦147960 have judged¦147965 them with evil¦147967 motives."
-          ],
-          "verseText": "wouldn't that discrimination show that you¦147960 have judged¦147965 them with evil¦147967 motives."
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "Listen my¦147970 dear brothers¦147969 and sisters¦147969, didn't",
-            {
-              "nd": "God¦147974",
-              "closing": "\\nd*"
-            },
-            "chose¦147975 the poor in this world¦147980 to be rich in faith¦147985 and participants in the kingdom¦147990 which¦147991 he promises¦147992 to those who love him?"
-          ],
-          "verseText": "Listen my¦147970 dear brothers¦147969 and sisters¦147969, didn't God¦147974 chose¦147975 the poor in this world¦147980 to be rich in faith¦147985 and participants in the kingdom¦147990 which¦147991 he promises¦147992 to those who love him?"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "But you dishonour¦147998 the poor, even though it's the wealthier people who oppress¦148005 you and bring court¦148013 cases against you."
-          ],
-          "verseText": "But you dishonour¦147998 the poor, even though it's the wealthier people who oppress¦148005 you and bring court¦148013 cases against you."
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "And aren't they¦148016 the ones who slander¦148017 the very God that you¦148024 pray to?",
-            {
-              "s1": "Judgement and mercy"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "And aren't they¦148016 the ones who slander¦148017 the very God that you¦148024 pray to?"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "However if you are obeying the golden law, then when you love your¦148037 neighbour¦148036 as yourself¦148039,",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:8:"
-                },
-                {
-                  "xt": "Lev 19:18."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "you'll be doing¦148042 well according¦148031 to the scriptures¦148033."
-          ],
-          "verseText": "However if you are obeying the golden law, then when you love your¦148037 neighbour¦148036 as yourself¦148039, you'll be doing¦148042 well according¦148031 to the scriptures¦148033."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "But if you're showing¦148045 favouritism¦148045, then you're all sinning by breaking the law."
-          ],
-          "verseText": "But if you're showing¦148045 favouritism¦148045, then you're all sinning by breaking the law."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "Because¦148056 anyone¦148068 who tries to keep¦148061 the law but¦148066 slips up in one area, they're still guilty of breaking the law."
-          ],
-          "verseText": "Because¦148056 anyone¦148068 who tries to keep¦148061 the law but¦148066 slips up in one area, they're still guilty of breaking the law."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "The same",
-            {
-              "add": "God",
-              "closing": "\\add*"
-            },
-            "who said, ‘Don't commit adultery,’ also said, ‘Don't murder,’",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:11: a"
-                },
-                {
-                  "xt": "Exo 20:14; Deu 5:18;"
-                },
-                {
-                  "xo": "b"
-                },
-                {
-                  "xt": "Exo 20:13; Deu 5:17."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "so if you're¦148089 not committing adultery but you murder someone, then you've broken the law."
-          ],
-          "verseText": "The same God who said, ‘Don't commit adultery,’ also said, ‘Don't murder,’ so if you're¦148089 not committing adultery but you murder someone, then you've broken the law."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "So speak¦148100 and¦148101 live your life knowing that you're going¦148108 to be judged¦148109 by the law that gives freedom¦148107,"
-          ],
-          "verseText": "So speak¦148100 and¦148101 live your life knowing that you're going¦148108 to be judged¦148109 by the law that gives freedom¦148107,"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "because¦148111 judgement will be dispensed without mercy to those who haven't been putting mercy into practice. Yes, mercy wins out over judgement.",
-            {
-              "s1": "Faith in action"
-            },
-            {
-              "rem": "/s1 Faith without Good Deeds Is Dead"
-            },
-            {
-              "rem": "/s1 Faith and Deeds"
-            },
-            {
-              "rem": "/s1 Faith without Works Is Dead"
-            },
-            {
-              "rem": "/s1 Faith and Actions"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "because¦148111 judgement will be dispensed without mercy to those who haven't been putting mercy into practice. Yes, mercy wins out over judgement."
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "My¦148130 fellow¦148129 believers¦148129, what would I gain if I said that someone had faith but it didn't alter how they live their life? Faith like that wouldn't be able to save them."
-          ],
-          "verseText": "My¦148130 fellow¦148129 believers¦148129, what would I gain if I said that someone had faith but it didn't alter how they live their life? Faith like that wouldn't be able to save them."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "If a fellow believer is lacking¦148157 clothes or food,"
-          ],
-          "verseText": "If a fellow believer is lacking¦148157 clothes or food,"
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "and one of you says to them, ‘Go in peace¦148174 and be warm and satisfied¦148178,’ but don't¦148180 help with their¦148186 physical needs, what use would that be?"
-          ],
-          "verseText": "and one of you says to them, ‘Go in peace¦148174 and be warm and satisfied¦148178,’ but don't¦148180 help with their¦148186 physical needs, what use would that be?"
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "In other words, faith¦148194 without the corresponding lifestyle is just dead¦148200.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "In other words, faith¦148194 without the corresponding lifestyle is just dead¦148200."
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "No doubt someone¦148206 will say, ‘Well you have the faith and I do the good deeds.’ So show me your¦148219 faith without¦148220 good deeds and I'll demonstrate my faith",
-            {
-              "em": "by",
-              "closing": "\\em*"
-            },
-            "my good deeds."
-          ],
-          "verseText": "No doubt someone¦148206 will say, ‘Well you have the faith and I do the good deeds.’ So show me your¦148219 faith without¦148220 good deeds and I'll demonstrate my faith by my good deeds."
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            "You believe that there's one",
-            {
-              "nd": "God¦148244",
-              "closing": "\\nd*"
-            },
-            "and you're¦148247 right, but even the demons¦148250 believe that and shudder¦148253."
-          ],
-          "verseText": "You believe that there's one God¦148244 and you're¦148247 right, but even the demons¦148250 believe that and shudder¦148253."
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            "But the vain person¦148259 still wants to know¦148257 if faith¦148263 without good deeds is wasted?"
-          ],
-          "verseText": "But the vain person¦148259 still wants to know¦148257 if faith¦148263 without good deeds is wasted?"
-        },
-        {
-          "verseNumber": "21",
-          "contents": [
-            "Wasn't our¦148273 ancestor Abraham¦148270 considered right with God due to his",
-            {
-              "em": "actions",
-              "closing": "\\em*"
-            },
-            "when he offered¦148278 up his son Isaac¦148279 on the altar¦148285?",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:21:"
-                },
-                {
-                  "xt": "Gen 22:1-14."
-                }
-              ],
-              "closing": "\\x*"
-            }
-          ],
-          "verseText": "Wasn't our¦148273 ancestor Abraham¦148270 considered right with God due to his actions when he offered¦148278 up his son Isaac¦148279 on the altar¦148285?"
-        },
-        {
-          "verseNumber": "22",
-          "contents": [
-            "So his faith was working¦148290 together¦148290 with his actions, and it was by his actions that his faith was perfected¦148301."
-          ],
-          "verseText": "So his faith was working¦148290 together¦148290 with his actions, and it was by his actions that his faith was perfected¦148301."
-        },
-        {
-          "verseNumber": "23",
-          "contents": [
-            "This fulfilled¦148303 the scripture¦148305 that says, ‘Abraham¦148310 believed¦148308 in God and so he was consider to be right¦148317 with God, and was called¦148321 a friend¦148319 of God.’",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:23: a"
-                },
-                {
-                  "xt": "Gen 15:6;"
-                },
-                {
-                  "xo": "b"
-                },
-                {
-                  "xt": "2Ch 20:7; Isa 41:8."
-                }
-              ],
-              "closing": "\\x*"
-            }
-          ],
-          "verseText": "This fulfilled¦148303 the scripture¦148305 that says, ‘Abraham¦148310 believed¦148308 in God and so he was consider to be right¦148317 with God, and was called¦148321 a friend¦148319 of God.’"
-        },
-        {
-          "verseNumber": "24",
-          "contents": [
-            "So you can see that a person¦148329 is considered right with God due to his actions, and¦148330 not just by their ‘faith¦148333’."
-          ],
-          "verseText": "So you can see that a person¦148329 is considered right with God due to his actions, and¦148330 not just by their ‘faith¦148333’."
-        },
-        {
-          "verseNumber": "25",
-          "contents": [
-            "Similarly the prostitute¦148341 Rahab was made right by her actions when she welcomed¦148346 the",
-            {
-              "add": "Hebrew",
-              "closing": "\\add*"
-            },
-            "messengers¦148349 and¦148350 then helped them get away by a different route.",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:25:"
-                },
-                {
-                  "xt": "Josh 2:1-21."
-                }
-              ],
-              "closing": "\\x*"
-            }
-          ],
-          "verseText": "Similarly the prostitute¦148341 Rahab was made right by her actions when she welcomed¦148346 the Hebrew messengers¦148349 and¦148350 then helped them get away by a different route."
-        },
-        {
-          "verseNumber": "26",
-          "contents": [
-            "Just like a body¦148357 is dead once the spirit¦148359 has departed, so too faith¦148365 is dead if it's not demonstrated by good deeds."
-          ],
-          "verseText": "Just like a body¦148357 is dead once the spirit¦148359 has departed, so too faith¦148365 is dead if it's not demonstrated by good deeds."
-        }
-      ]
-    },
-    {
-      "chapterNumber": "3",
-      "contents": [
-        {
-          "s1": "The tongue"
-        },
-        {
-          "rem": "/s1 Controlling the Tongue"
-        },
-        {
-          "rem": "/s1 The Tongue"
-        },
-        {
-          "rem": "/s1 Taming the Tongue"
-        },
-        {
-          "rem": "/s1 Christian speaking"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "My¦148376 brothers¦148375 and¦148375 sisters¦148375, not everyone should desire to be a teacher because we¦148381 know that us teachers¦148373 will be judged more strictly."
-          ],
-          "verseText": "My¦148376 brothers¦148375 and¦148375 sisters¦148375, not everyone should desire to be a teacher because we¦148381 know that us teachers¦148373 will be judged more strictly."
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "We all stumble in many ways¦148382. If there was someone who never said anything wrong, this person would be perfect¦148393 and also able to have self-control over their entire¦148385 body¦148401."
-          ],
-          "verseText": "We all stumble in many ways¦148382. If there was someone who never said anything wrong, this person would be perfect¦148393 and also able to have self-control over their entire¦148385 body¦148401."
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "With horses¦148408, we can put the bridle¦148410 in it's mouth¦148414 so we can make them do what we want, and so we can direct¦148429 the whole animal."
-          ],
-          "verseText": "With horses¦148408, we can put the bridle¦148410 in it's mouth¦148414 so we can make them do what we want, and so we can direct¦148429 the whole animal."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "Similarly, even huge ships¦148434 that are being driven¦148443 on by strong winds¦148441 are controlled by a small rudder¦148447 and¦148438 can be steered wherever¦148448 the captain desires."
-          ],
-          "verseText": "Similarly, even huge ships¦148434 that are being driven¦148443 on by strong winds¦148441 are controlled by a small rudder¦148447 and¦148438 can be steered wherever¦148448 the captain desires."
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "So too the tongue¦148460 is only small¦148461 but can make extensive claims.",
-            {
-              "p": "Yes, a tiny flame can ignite an entire forest¦148473"
-            }
-          ],
-          "verseText": "So too the tongue¦148460 is only small¦148461 but can make extensive claims. Yes, a tiny flame can ignite an entire forest¦148473"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "and the tongue is a fire producing a torrent of depravity. It's a part of our physical body¦148497 but capable of staining¦148494 us all over and setting¦148499 our worlds¦148480 on fire, because the tongue itself is set on fire from hell."
-          ],
-          "verseText": "and the tongue is a fire producing a torrent of depravity. It's a part of our physical body¦148497 but capable of staining¦148494 us all over and setting¦148499 our worlds¦148480 on fire, because the tongue itself is set on fire from hell."
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "Every kind of wild animal and birds¦148516 and reptiles¦148517 and sea¦148520 creature¦148520 can be tamed and has been tamed by humankind¦148529"
-          ],
-          "verseText": "Every kind of wild animal and birds¦148516 and reptiles¦148517 and sea¦148520 creature¦148520 can be tamed and has been tamed by humankind¦148529"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "but¦148532 no one is able to tame the tongue¦148533—it's an erratically evil¦148542 body part that's full of deadly¦148545 poison¦148544."
-          ],
-          "verseText": "but¦148532 no one is able to tame the tongue¦148533—it's an erratically evil¦148542 body part that's full of deadly¦148545 poison¦148544."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "We use it to bless¦148548 our",
-            {
-              "nd": "master¦148550",
-              "closing": "\\nd*"
-            },
-            "and father¦148553, yet we use it to curse our fellow humans who are made in God's image.",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:9:"
-                },
-                {
-                  "xt": "Gen 1:26."
-                }
-              ],
-              "closing": "\\x*"
-            }
-          ],
-          "verseText": "We use it to bless¦148548 our master¦148550 and father¦148553, yet we use it to curse our fellow humans who are made in God's image."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "Both blessings¦148571 and curses¦148573 come out of the same¦148568 mouth¦148569! My¦148577 brothers¦148576 and sisters¦148576, it shouldn't be like that."
-          ],
-          "verseText": "Both blessings¦148571 and curses¦148573 come out of the same¦148568 mouth¦148569! My¦148577 brothers¦148576 and sisters¦148576, it shouldn't be like that."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "Surely¦148581 a spring¦148585 flowing out of a single cavity can't produce both good-tasting and¦148593 bitter¦148595",
-            {
-              "add": "water",
-              "closing": "\\add*"
-            },
-            "."
-          ],
-          "verseText": "Surely¦148581 a spring¦148585 flowing out of a single cavity can't produce both good-tasting and¦148593 bitter¦148595 water."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "A fig¦148600 tree¦148600 can't produce olives¦148602 and a grape vine¦148605 can't produce figs¦148606, my¦148599 brothers¦148598 and sisters¦148598, just like a salty supply can't give fresh water¦148616.",
-            {
-              "s1": "Heavenly wisdom"
-            },
-            {
-              "rem": "/s1 Two Kinds of Wisdom"
-            },
-            {
-              "rem": "/s1 True Wisdom Comes from God"
-            },
-            {
-              "rem": "/s1 The Wisdom from Above"
-            },
-            {
-              "rem": "/s1 The sin of envy"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "A fig¦148600 tree¦148600 can't produce olives¦148602 and a grape vine¦148605 can't produce figs¦148606, my¦148599 brothers¦148598 and sisters¦148598, just like a salty supply can't give fresh water¦148616."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "Any of you¦148622 that are wise and understanding¦148620 should¦148623 demonstrate their good¦148626 deeds and wisdom¦148633 by their godly living."
-          ],
-          "verseText": "Any of you¦148622 that are wise and understanding¦148620 should¦148623 demonstrate their good¦148626 deeds and wisdom¦148633 by their godly living."
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "But if you are full of bitter¦148638 jealousy¦148637 or selfish¦148641 ambition¦148641, don't¦148648 be boasting¦148650 or denying the truth¦148655"
-          ],
-          "verseText": "But if you are full of bitter¦148638 jealousy¦148637 or selfish¦148641 ambition¦148641, don't¦148648 be boasting¦148650 or denying the truth¦148655"
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "because none of that came down to you from heaven, but¦148666 on the contrary it's earthly¦148667 and soulish¦148668 and demonic¦148669."
-          ],
-          "verseText": "because none of that came down to you from heaven, but¦148666 on the contrary it's earthly¦148667 and soulish¦148668 and demonic¦148669."
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "Wherever you find jealousy¦148672 and selfish¦148674 ambition¦148674, you'll also find disharmony and all kinds of evil¦148681."
-          ],
-          "verseText": "Wherever you find jealousy¦148672 and selfish¦148674 ambition¦148674, you'll also find disharmony and all kinds of evil¦148681."
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "In contrast, the wisdom¦148686 that comes from God is pure, peaceable¦148692, gentle¦148693, compliant¦148694, full of mercy¦148696 and good¦148700 behaviour, unceasing¦148701, and not hypocritical."
-          ],
-          "verseText": "In contrast, the wisdom¦148686 that comes from God is pure, peaceable¦148692, gentle¦148693, compliant¦148694, full of mercy¦148696 and good¦148700 behaviour, unceasing¦148701, and not hypocritical."
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "Those who desire peace sow",
-            {
-              "add": "the seeds",
-              "closing": "\\add*"
-            },
-            "that will produce godly behaviour."
-          ],
-          "verseText": "Those who desire peace sow the seeds that will produce godly behaviour."
-        }
-      ]
-    },
-    {
-      "chapterNumber": "4",
-      "contents": [
-        {
-          "s1": "Don't befriend the world"
-        },
-        {
-          "rem": "/s1 Submit Yourselves to God"
-        },
-        {
-          "rem": "/s1 Friendship with the World"
-        },
-        {
-          "rem": "/s1 Drawing Close to God"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "Where do you imagine that the fights and quarrels¦148721 among¦148722 you all originate? Isn't it¦148724 because of the ambitions that surface inside you?"
-          ],
-          "verseText": "Where do you imagine that the fights and quarrels¦148721 among¦148722 you all originate? Isn't it¦148724 because of the ambitions that surface inside you?"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "You all have wants that are not fulfilled so it leads to murder¦148740. You're jealous¦148742 and not able to get everything you want, so you quarrel¦148747 and fight. You don't¦148738 have, because¦148754 you haven't asked",
-            {
-              "add": "God",
-              "closing": "\\add*"
-            },
-            ","
-          ],
-          "verseText": "You all have wants that are not fulfilled so it leads to murder¦148740. You're jealous¦148742 and not able to get everything you want, so you quarrel¦148747 and fight. You don't¦148738 have, because¦148754 you haven't asked God,"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "and when you all do ask, it¦148773 doesn't get answered because¦148763 you ask with wrong¦148764",
-            {
-              "add": "motives",
-              "closing": "\\add*"
-            },
-            "—trying get what you want to spend¦148773 on your¦148771 own wants."
-          ],
-          "verseText": "and when you all do ask, it¦148773 doesn't get answered because¦148763 you ask with wrong¦148764 motives—trying get what you want to spend¦148773 on your¦148771 own wants."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "You're just like prostitutes. Don't you realise that if you befriend the world then you're opposing God, so anyone who befriends the world makes themself an enemy¦148802 of God."
-          ],
-          "verseText": "You're just like prostitutes. Don't you realise that if you befriend the world then you're opposing God, so anyone who befriends the world makes themself an enemy¦148802 of God."
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "Do you¦148807 think that the scripture¦148812 means nothing when it says, ‘",
-            {
-              "add": "God's",
-              "closing": "\\add*"
-            },
-            {
-              "nd": "spirit¦148818",
-              "closing": "\\nd*"
-            },
-            "jealously longs to live in us’?"
-          ],
-          "verseText": "Do you¦148807 think that the scripture¦148812 means nothing when it says, ‘ God's spirit¦148818 jealously longs to live in us’?"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "However, he's good at giving grace so that's why it says, ‘",
-            {
-              "nd": "God¦148831",
-              "closing": "\\nd*"
-            },
-            "opposes¦148833 proud¦148832 people but¦148825 gives grace to humble¦148834 ones.’",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "4:6:"
-                },
-                {
-                  "xt": "Prv 3:34 (LXX)."
-                }
-              ],
-              "closing": "\\x*"
-            }
-          ],
-          "verseText": "However, he's good at giving grace so that's why it says, ‘ God¦148831 opposes¦148833 proud¦148832 people but¦148825 gives grace to humble¦148834 ones.’"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "So¦148839 strive then to do what",
-            {
-              "nd": "God¦148841",
-              "closing": "\\nd*"
-            },
-            "wants of you. Resist the devil¦148845 and he will flee away from you."
-          ],
-          "verseText": "So¦148839 strive then to do what God¦148841 wants of you. Resist the devil¦148845 and he will flee away from you."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "When you all approach God, he will move closer to you. So keep your hands¦148858 clean you sinners¦148859, and keep your hearts¦148862 pure you who can't make up your minds about God."
-          ],
-          "verseText": "When you all approach God, he will move closer to you. So keep your hands¦148858 clean you sinners¦148859, and keep your hearts¦148862 pure you who can't make up your minds about God."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "Be miserable¦148864, and mourn¦148866 and weep. Change your laughing¦148870 into crying and your happiness into sadness"
-          ],
-          "verseText": "Be miserable¦148864, and mourn¦148866 and weep. Change your laughing¦148870 into crying and your happiness into sadness"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "because when you humble¦148881 yourselves towards the",
-            {
-              "nd": "master¦148885",
-              "closing": "\\nd*"
-            },
-            ", he will be the one to lift you up.",
-            {
-              "s1": "Avoid judging others"
-            },
-            {
-              "rem": "/s1 Warning against Judging Others"
-            },
-            {
-              "rem": "/s1 Warning against Judging Another"
-            },
-            {
-              "rem": "/s1 Warning against Judging One Another"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "because when you humble¦148881 yourselves towards the master¦148885, he will be the one to lift you up."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "My fellow believers¦148892, don't¦148914 make false accusations against each other because anyone¦148891 who falsely accuses or judges a fellow believer, is slandering against the law and judging it. But if you're the ones judging the law, then you're not a follower of the law but¦148911 a judge of it."
-          ],
-          "verseText": "My fellow believers¦148892, don't¦148914 make false accusations against each other because anyone¦148891 who falsely accuses or judges a fellow believer, is slandering against the law and judging it. But if you're the ones judging the law, then you're not a follower of the law but¦148911 a judge of it."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "There's only one lawgiver¦148923 and judge and that's the one who is able to save and to destroy¦148930. So who do you think you are to judge your neighbour¦148940!",
-            {
-              "s1": "Avoid boasting and presumption"
-            },
-            {
-              "rem": "/s1 Warning against Boasting"
-            },
-            {
-              "rem": "/s1 The danger of wealth"
-            },
-            {
-              "rem": "/s1 Boasting about Tomorrow"
-            },
-            {
-              "rem": "/s1 Warning about Self-Confidence"
-            },
-            {
-              "rem": "/s1 Boasting About Tomorrow"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "There's only one lawgiver¦148923 and judge and that's the one who is able to save and to destroy¦148930. So who do you think you are to judge your neighbour¦148940!"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "Now you¦148944 all might say, ‘Today¦148946 or tomorrow¦148949 we'll go into the city¦148955 to work there¦148959 for a year¦148960 and do some trading to make some money.’",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "4:13-14:"
-                },
-                {
-                  "xt": "Prv 27:1."
-                }
-              ],
-              "closing": "\\x*"
-            }
-          ],
-          "verseText": "Now you¦148944 all might say, ‘Today¦148946 or tomorrow¦148949 we'll go into the city¦148955 to work there¦148959 for a year¦148960 and do some trading to make some money.’"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "But you don't¦148969 know what tomorrow will bring, because¦148976 what are your¦148979 lives? You're like a vapour¦148980 that appears¦148988 for a brief period and then it's gone."
-          ],
-          "verseText": "But you don't¦148969 know what tomorrow will bring, because¦148976 what are your¦148979 lives? You're like a vapour¦148980 that appears¦148988 for a brief period and then it's gone."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "So instead of saying¦148995 that, you¦148996 should say, ‘If the",
-            {
-              "nd": "master¦148999",
-              "closing": "\\nd*"
-            },
-            "wants it, we will live and we'll do this or that.’"
-          ],
-          "verseText": "So instead of saying¦148995 that, you¦148996 should say, ‘If the master¦148999 wants it, we will live and we'll do this or that.’"
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "But as it is, you've all been boasting in your¦149019 arrogance¦149018 and that's an evil¦149024 attitude."
-          ],
-          "verseText": "But as it is, you've all been boasting in your¦149019 arrogance¦149018 and that's an evil¦149024 attitude."
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "Any person who knows that there's some good¦149028 thing that they should be doing, but doesn't do it, is sinning."
-          ],
-          "verseText": "Any person who knows that there's some good¦149028 thing that they should be doing, but doesn't do it, is sinning."
-        }
-      ]
-    },
-    {
-      "chapterNumber": "5",
-      "contents": [
-        {
-          "s1": "The bad ending of wealthy prigs"
-        },
-        {
-          "rem": "/s1 Warning to Rich Oppressors"
-        },
-        {
-          "rem": "/s1 Warning to the Rich"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "So you wealthy¦149041 people, come¦149037 and cry about the miseries¦149046 that are about to hit you all."
-          ],
-          "verseText": "So you wealthy¦149041 people, come¦149037 and cry about the miseries¦149046 that are about to hit you all."
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "Your¦149053 riches¦149052 have rotted¦149054 and¦149055 your¦149053 clothes¦149057 have become¦149060 moth-eaten¦149059.",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "5:2-3:"
-                },
-                {
-                  "xt": "Mat 6:19."
-                }
-              ],
-              "closing": "\\x*"
-            }
-          ],
-          "verseText": "Your¦149053 riches¦149052 have rotted¦149054 and¦149055 your¦149053 clothes¦149057 have become¦149060 moth-eaten¦149059."
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "Your¦149063 gold¦149062 and silver¦149067 has corroded, and that corrosion will speak out against you and will eat away your¦149063 bodies like fire¦149086 because you stored¦149087 up wealth in this final age."
-          ],
-          "verseText": "Your¦149063 gold¦149062 and silver¦149067 has corroded, and that corrosion will speak out against you and will eat away your¦149063 bodies like fire¦149086 because you stored¦149087 up wealth in this final age."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "The unpaid wages of the workers¦149096 who harvested¦149098 your¦149101 fields¦149100 are crying¦149107 out",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "5:4:"
-                },
-                {
-                  "xt": "Deu 24:14-15."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "and¦149108 the desperate requests of those harvesters have been heard by the",
-            {
-              "nd": "master¦149116",
-              "closing": "\\nd*"
-            },
-            "of platoons of messengers."
-          ],
-          "verseText": "The unpaid wages of the workers¦149096 who harvested¦149098 your¦149101 fields¦149100 are crying¦149107 out and¦149108 the desperate requests of those harvesters have been heard by the master¦149116 of platoons of messengers."
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "You have indulged¦149121 yourselves and lived¦149127 luxuriously¦149127 but you've been fattening yourselves up as the time for your¦149131 slaughter¦149136 approaches."
-          ],
-          "verseText": "You have indulged¦149121 yourselves and lived¦149127 luxuriously¦149127 but you've been fattening yourselves up as the time for your¦149131 slaughter¦149136 approaches."
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "You all convicted¦149137 innocent people and had them executed, even when they weren't doing anything against¦149143 you.",
-            {
-              "s1": "Wait patiently"
-            },
-            {
-              "rem": "/s1 Patience and prayer"
-            },
-            {
-              "rem": "/s1 Patience and Prayer"
-            },
-            {
-              "rem": "/s1 Patience in Suffering"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "You all convicted¦149137 innocent people and had them executed, even when they weren't doing anything against¦149143 you."
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "So¦149145 my fellow¦149146 believers¦149146, be patient until the return of",
-            {
-              "add": "Yeshua our",
-              "closing": "\\add*"
-            },
-            {
-              "nd": "master¦149151",
-              "closing": "\\nd*"
-            },
-            ". You see how farmers¦149154 look forward to the fruit¦149158 to be ready—waiting patiently even while they monitor the early¦149171 and¦149172 the late rains¦149173."
-          ],
-          "verseText": "So¦149145 my fellow¦149146 believers¦149146, be patient until the return of Yeshua our master¦149151. You see how farmers¦149154 look forward to the fruit¦149158 to be ready—waiting patiently even while they monitor the early¦149171 and¦149172 the late rains¦149173."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "All of you should be patient¦149174 too, and encourage each other",
-            {
-              "add": "in your¦149181 faith",
-              "closing": "\\add*"
-            },
-            "because¦149182 the",
-            {
-              "nd": "master's¦149186",
-              "closing": "\\nd*"
-            },
-            "return is closer now.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "All of you should be patient¦149174 too, and encourage each other in your¦149181 faith because¦149182 the master's¦149186 return is closer now."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "And don't¦149196 moan about each other, my fellow¦149190 believers¦149190, so that you¦149197 all won't be judged¦149197 for it, because truly, the judge¦149201 is just outside about to come in the doors¦149204."
-          ],
-          "verseText": "And don't¦149196 moan about each other, my fellow¦149190 believers¦149190, so that you¦149197 all won't be judged¦149197 for it, because truly, the judge¦149201 is just outside about to come in the doors¦149204."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "Look at the prophets¦149220 who spoke¦149222 out the messages from the",
-            {
-              "nd": "master¦149226",
-              "closing": "\\nd*"
-            },
-            "—they're good examples¦149206 of suffering and¦149215 patience¦149217",
-            {
-              "add": "for you to follow",
-              "closing": "\\add*"
-            }
-          ],
-          "verseText": "Look at the prophets¦149220 who spoke¦149222 out the messages from the master¦149226—they're good examples¦149206 of suffering and¦149215 patience¦149217 for you to follow"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "and now we consider them as heroes for their endurance. You all heard¦149235 about Yob's endurance and then you yourselves witnessed what happened to",
-            {
-              "add": "Yeshua our",
-              "closing": "\\add*"
-            },
-            "master,",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "5:11: a"
-                },
-                {
-                  "xt": "Yob 1:21-22; 2:10;"
-                },
-                {
-                  "xo": "b"
-                },
-                {
-                  "xt": "Psa 103:8."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "and you saw his compassion and mercy.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "and now we consider them as heroes for their endurance. You all heard¦149235 about Yob's endurance and then you yourselves witnessed what happened to Yeshua our master, and you saw his compassion and mercy."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "But most importantly, brothers¦149252 and sisters¦149252, don't¦149254 swear¦149255 by heaven¦149258 or earth¦149261 or by any other¦149263 kind of oath but simply be honest so that ‘yes’ means yes and ‘no’ means no,",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "5:12:"
-                },
-                {
-                  "xt": "Mat 5:34-37."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "then you won't end up getting judged.",
-            {
-              "s1": "The power of prayer and restoration"
-            },
-            {
-              "rem": "/s1 The Prayer of Faith"
-            },
-            {
-              "rem": "/s1 The Power of Prayer"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "But most importantly, brothers¦149252 and sisters¦149252, don't¦149254 swear¦149255 by heaven¦149258 or earth¦149261 or by any other¦149263 kind of oath but simply be honest so that ‘yes’ means yes and ‘no’ means no, then you won't end up getting judged."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "Is anyone among¦149287 you¦149288 going through hard times? If so, they should be praying¦149289. Is anyone feeling cheerful¦149290? If so, they should be singing¦149294 praises¦149294."
-          ],
-          "verseText": "Is anyone among¦149287 you¦149288 going through hard times? If so, they should be praying¦149289. Is anyone feeling cheerful¦149290? If so, they should be singing¦149294 praises¦149294."
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "Is anyone¦149296 among¦149298 you¦149299 sick? If so, that person should¦149300 call the leaders",
-            {
-              "add": "of the assembly¦149304",
-              "closing": "\\add*"
-            },
-            "and get them to anoint¦149310 them with oil and to pray for them",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "5:14:"
-                },
-                {
-                  "xt": "Mrk 6:13."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "in the name¦149315 and authority of",
-            {
-              "add": "Yeshua our",
-              "closing": "\\add*"
-            },
-            {
-              "nd": "master¦149317",
-              "closing": "\\nd*"
-            },
-            "."
-          ],
-          "verseText": "Is anyone¦149296 among¦149298 you¦149299 sick? If so, that person should¦149300 call the leaders of the assembly¦149304 and get them to anoint¦149310 them with oil and to pray for them in the name¦149315 and authority of Yeshua our master¦149317."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "Then¦149318 that declaration of faith¦149322 will save the weak person and the",
-            {
-              "nd": "master¦149330",
-              "closing": "\\nd*"
-            },
-            "will lift him/her up, and if they've sinned, then their sins¦149332 will also be forgiven¦149335."
-          ],
-          "verseText": "Then¦149318 that declaration of faith¦149322 will save the weak person and the master¦149330 will lift him/her up, and if they've sinned, then their sins¦149332 will also be forgiven¦149335."
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "So¦149338 confess¦149337 your¦149340 sins¦149342 to each other and¦149344 pray for each other so that all of you¦149350 can be healed¦149350, because when an obedient believer prays, it has a real effect."
-          ],
-          "verseText": "So¦149338 confess¦149337 your¦149340 sins¦149342 to each other and¦149344 pray for each other so that all of you¦149350 can be healed¦149350, because when an obedient believer prays, it has a real effect."
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "Eliyah was a person just similar to us, and when he prayed¦149362 for the rain to stop, it stopped, and it didn't rain again for three¦149375 and a half years¦149373.",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "5:17:"
-                },
-                {
-                  "xt": "1Ki 17:1; 18:1."
-                }
-              ],
-              "closing": "\\x*"
-            }
-          ],
-          "verseText": "Eliyah was a person just similar to us, and when he prayed¦149362 for the rain to stop, it stopped, and it didn't rain again for three¦149375 and a half years¦149373."
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "Then¦149379 he prayed¦149381 again, and the rain came down from the sky¦149384 and the land sprouted¦149392 and started to bear fruit¦149394 again.",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "5:18:"
-                },
-                {
-                  "xt": "1Ki 18:42-45."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            {
-              "rem": "/s1 Restore Wandering Believers"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Then¦149379 he prayed¦149381 again, and the rain came down from the sky¦149384 and the land sprouted¦149392 and started to bear fruit¦149394 again."
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            "My¦149397 fellow¦149396 believers¦149396, if any of you¦149401 have wandered from the truth¦149407 and¦149408 someone¦149410 helps them back,"
-          ],
-          "verseText": "My¦149397 fellow¦149396 believers¦149396, if any of you¦149401 have wandered from the truth¦149407 and¦149408 someone¦149410 helps them back,"
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            "then you should know that someone who helps a sinner¦149418 to come back from their deceitful ways will be saving¦149423 their soul¦149425 from death¦149428,",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "5:20:"
-                },
-                {
-                  "xt": "Prv 10:12; 1Pe 4:8."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "and¦149430 their many sins¦149433 can be forgiven."
-          ],
-          "verseText": "then you should know that someone who helps a sinner¦149418 to come back from their deceitful ways will be saving¦149423 their soul¦149425 from death¦149428, and¦149430 their many sins¦149433 can be forgiven."
-        }
-      ]
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1:1"
+     ]
     }
-  ],
-  "_messages": {
-    "_warnings": []
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The faith and the wisdom/knowledge ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1:2-8"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The poor and the rich man ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1:9-11"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The testing and the temptation ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1:12-18"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The listening and the making ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1:19-27"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Respecting all people ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "2:1-13"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The faith and the good work ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "2:14-26"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The tongue ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "3:1-12"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The wisdom/knowledge from heaven ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "3:13-18"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The Christian and the things/objects ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "4:1–5:6"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Various teachings ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "5:7-20"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "This is still a very early look into the unfinished text of the Open English Translation of the Bible. Please double-check the text in advance before using in public.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ie",
+   "content": []
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "1",
+   "sid": "JAS 1"
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Greetings from James\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Salutation\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "JAS 1:1"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "This letter is from"
+     ]
+    },
+    " Yacob, a slave¦146464 for ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦146459"
+     ]
+    },
+    " and¦146460 for ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "the"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦146461 Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦146463"
+     ]
+    },
+    ". ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "It’s written"
+     ]
+    },
+    " to the tribes¦146467 who have ended up dispersed¦146471 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "into many nations"
+     ]
+    },
+    ":",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:1: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Mat 13:55; Mrk 6:3; Acts 15:13; Gal 1:19."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " Greetings.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Gaining endurance and requesting wisdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Faith and Endurance\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Trials and Temptations\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Faith and Wisdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Faith under trial\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "JAS 1:2"
+    },
+    "Be cheerful¦146474 my¦146477 fellow¦146476 believers¦146476, when you¦146480 face a range¦146481 of difficult situations,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "JAS 1:3"
+    },
+    "knowing¦146483 that you¦146487 will learn endurance¦146491 as your¦146487 faith¦146489 is tested.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "JAS 1:4"
+    },
+    "Let that endurance¦146494 do its¦146496 perfect work¦146495 so that you¦146499 all might become perfect and¦146501 mature—not lacking¦146505 anything.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "JAS 1:5"
+    },
+    "If anyone¦146508 of you is lacking¦146510 wisdom¦146511, then it should¦146512 be requested¦146512 from ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦146518"
+     ]
+    },
+    " who gives it generously¦146520 and without disparagement, and so it will be given¦146526 to you,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "JAS 1:6"
+    },
+    "but¦146529 the person who’s asking should¦146528 demonstrate their faith¦146531 and not be doubting. That’s because¦146535 a person who doubts is like a wave on the sea¦146539 that’s just blown¦146540 and tossed¦146542 around\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "JAS 1:7"
+    },
+    "and a person¦146547 like that shouldn’t¦146543 expect to get anything¦146551 from the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦146555"
+     ]
+    },
+    "\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Poverty and Riches\n"
+     ]
+    },
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "JAS 1:8"
+    },
+    "because that person is double-minded, and everything they attempt ends up in difficulty.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Behaviour of the poor and the wealthy\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "JAS 1:9"
+    },
+    "Those of humbler¦146569 means can boast¦146564 about their greatness\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "JAS 1:10"
+    },
+    "whereas the wealthy¦146576 can boast about their weakness because¦146582 they’ll pass away just like the daisies in the grass¦146585.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:10-11: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Isa 40:6-7 (LXX)."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "JAS 1:11"
+    },
+    "When the sun¦146590 rises with its¦146601 scorching¦146593 heat and withers¦146595 the grass¦146597, the flowers¦146600 will drop and lose all their beauty¦146605. So too for rich people who’ll fade away right in the middle of all their projects.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Testing and temptation\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Trial and Temptation\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Testing and Tempting\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "JAS 1:12"
+    },
+    "Any person who’s enduring¦146624 testing circumstances is fortunate, because¦146627 once they’ve passed the test, they’ll receive¦146630 a crown¦146632 of life¦146634 that Yeshua promised¦146636 to those who love him¦146641.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "JAS 1:13"
+    },
+    "No one should¦146644 say ‘It’s God tempting me’ when they’re being tempted, because¦146652 God can’t be tempted to do evil¦146656 and he doesn’t tempt others,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "JAS 1:14"
+    },
+    "but¦146662 rather they’re being tempted¦146663 by their own lusts. They’re being drawn¦146668 away and¦146669 enticed¦146670 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "into what they know is wrong"
+     ]
+    },
+    ",\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "JAS 1:15"
+    },
+    "and after the desire¦146673 is conceived¦146674 it leads to sin, and once the sin is concluded it leads to death¦146682.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "JAS 1:16"
+    },
+    "Don’t be led astray, my¦146686 dear brothers¦146685 and¦146685 sisters¦146685.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "JAS 1:17"
+    },
+    "Every¦146688 gift¦146693 that’s good¦146690 and¦146691 perfect¦146694 comes from heaven. It comes down from the father¦146701 of lights¦146703, none of which are changing or casting moving shadows¦146713.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "JAS 1:18"
+    },
+    "Once he had decided it, he created us by his spoken commands so that we’d become a kind of special first¦146724 ‘harvest’ out of all of his creatures.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Listening then doing\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Hearing and Doing\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Hearing and Doing the Word\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Listening and Doing\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "JAS 1:19"
+    },
+    "So my¦146735 dear brothers¦146734 and sisters¦146734, note this: Everyone should be quick¦146743 to listen¦146746 but¦146740 slow to speak¦146750, and should be slow to get angry\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "JAS 1:20"
+    },
+    "because¦146755 when people get very angry, it doesn’t lead to the good behaviour that ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦146758"
+     ]
+    },
+    " expects.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "JAS 1:21"
+    },
+    "So¦146762 discard all ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "moral"
+     ]
+    },
+    " filth¦146765 and the evil¦146769 that’s plentiful, and humbly accept the message¦146776 that’s implanted¦146775 in you¦146782 all and which is capable of saving your¦146782 souls¦146781.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "JAS 1:22"
+    },
+    "Don’t delude¦146792 yourselves¦146793 by just listening¦146790 to the message¦146786, but¦146784 put it into practice ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "in your daily lives"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "JAS 1:23"
+    },
+    "Anyone who is just a listener¦146797 of the message¦146798 and¦146800 does nothing with it is like someone who looks at their face¦146809 in a mirror¦146814\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "JAS 1:24"
+    },
+    "but¦146818 goes away after having a look and then immediately¦146821 forgets what they looked like.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "25",
+     "sid": "JAS 1:25"
+    },
+    "However the person who investigates¦146827 the perfect¦146830 law that gives freedom¦146833, and then sticks with it, not being just an observer that forgets¦146839 about it but¦146826 rather a person who puts it into practice, this person will prosper in whatever they do.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "26",
+     "sid": "JAS 1:26"
+    },
+    "If anyone¦146853 supposes¦146854 that they’re religious but¦146865 doesn’t guard what comes out of their mouth, then that person’s religion is only skin deep and hasn’t affected their heart¦146867.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "27",
+     "sid": "JAS 1:27"
+    },
+    "A person who wants to truly serve our¦146881 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦146882"
+     ]
+    },
+    " and father¦146885 with a pure heart would be visiting¦146888 orphans¦146889 and widows¦146891 in their¦146895 difficulties and staying unstained by worldly¦146903 ideas.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "2",
+   "sid": "JAS 2"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Avoiding favouritism\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Warning against Partiality\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 A Warning against Prejudice\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Favouritism Forbidden\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Warning against Prejudice\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Love your neighbour as yourself\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "JAS 2:1"
+    },
+    "My¦146905 dear brothers¦146904 and¦146904 sisters¦146904, as you live out your faith¦146911 in our¦146914 honoured ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦146913 Yeshua¦146915"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦146916"
+     ]
+    },
+    ", don’t¦146906 show favouritism¦146908 to others.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "JAS 2:2"
+    },
+    "For ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "example"
+     ]
+    },
+    ", if a man in nicely cut clothes and wearing an expensive gold¦146927 ring came into to your¦146925 meeting as well as a poor man in filthy¦146936 clothes\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "JAS 2:3"
+    },
+    "and you told the well-dressed one, ‘You sit here in this good¦146954 chair,’ while telling the poor man, ‘You stand¦146960 over here,’ or ‘You sit here on the mat,’\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "JAS 2:4"
+    },
+    "wouldn’t that discrimination show that you¦146976 have judged¦146981 them with evil¦146983 motives.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "JAS 2:5"
+    },
+    "Listen my¦146986 dear brothers¦146985 and sisters¦146985, didn’t¦146988 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦146990"
+     ]
+    },
+    " chose¦146991 the poor in this world¦146996 to be rich in faith¦147001 and participants in the kingdom¦147006 which¦147007 he promises¦147008 to those who love him?\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "JAS 2:6"
+    },
+    "But¦147024 you dishonour¦147014 the poor, even though it’s the wealthier people who oppress¦147021 you and bring court¦147029 cases against you.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "JAS 2:7"
+    },
+    "And aren’t they¦147032 the ones who slander¦147033 the very God that¦147037 you¦147040 pray to?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Judgement and mercy\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "JAS 2:8"
+    },
+    "However if you are obeying the golden law, then when you love your¦147053 neighbour¦147052 as yourself¦147055,",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:8: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Lev 19:18."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " you’ll be doing¦147061 well according¦147047 to the scriptures¦147049.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "JAS 2:9"
+    },
+    "But if you’re showing¦147064 favouritism¦147064, then you’re all sinning by breaking the law.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "JAS 2:10"
+    },
+    "Because¦147075 anyone¦147087 who tries to keep¦147080 the law but¦147085 slips up in one area, they’re still guilty of breaking the law.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "JAS 2:11"
+    },
+    "The same ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "God"
+     ]
+    },
+    " who said, ‘Don’t commit adultery,’ also said, ‘Don’t murder,’",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:11: a "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Exo 20:14; Deu 5:18; "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "b "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Exo 20:13; Deu 5:17."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " so if you’re¦147107 not committing adultery but¦147105 you murder someone, then¦147105 you’ve¦147112 broken the law.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "JAS 2:12"
+    },
+    "So speak¦147118 and¦147119 live your life knowing that you’re going¦147126 to be judged¦147127 by the law that gives freedom¦147125,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "JAS 2:13"
+    },
+    "because¦147129 judgement will be dispensed without mercy to those who haven’t been putting mercy into practice. Yes, mercy wins out over judgement.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Faith in action\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Faith without Good Deeds Is Dead\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Faith and Deeds\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Faith without Works Is Dead\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Faith and Actions\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "JAS 2:14"
+    },
+    "My¦147147 fellow¦147146 believers¦147146, what would I gain if I said that someone had faith but it didn’t¦147156 alter how they live their life? Faith like that wouldn’t be able to save them.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "JAS 2:15"
+    },
+    "If a fellow believer is lacking¦147174 clothes or food,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "JAS 2:16"
+    },
+    "and one of you says to them, ‘Go in peace¦147191 and be warm and satisfied¦147195,’ but¦147182 don’t¦147197 help with their¦147203 physical needs, what use would that be?\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "JAS 2:17"
+    },
+    "In other words, faith¦147211 without the corresponding lifestyle is just dead¦147217.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "JAS 2:18"
+    },
+    "No doubt someone¦147223 will say, ‘Well you have the faith and I do the good deeds.’ So show me your¦147236 faith without¦147237 good deeds and I’ll demonstrate my faith ",
+    {
+     "type": "char",
+     "marker": "em",
+     "content": [
+      "by"
+     ]
+    },
+    " my good deeds.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "JAS 2:19"
+    },
+    "You believe that there’s one ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦147261"
+     ]
+    },
+    " and you’re¦147264 right, but¦147269 even the demons¦147267 believe that and shudder¦147270.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "JAS 2:20"
+    },
+    "But the vain person¦147275 still wants to know¦147273 if faith¦147279 without good deeds is wasted?\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "JAS 2:21"
+    },
+    "Wasn’t our¦147289 ancestor Abraham considered right with God due to his ",
+    {
+     "type": "char",
+     "marker": "em",
+     "content": [
+      "actions"
+     ]
+    },
+    " when he offered¦147294 up his son Isaac¦147295 on the altar¦147301?",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:21: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Gen 22:1-14."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "JAS 2:22"
+    },
+    "So his faith was working¦147306 together¦147306 with his actions, and it was by his actions that his faith was perfected¦147317.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "JAS 2:23"
+    },
+    "This fulfilled¦147319 the scripture¦147321 that¦147322 says, ‘Abraham¦147326 believed¦147324 in God and so he was consider to be right¦147333 with God, and was called¦147337 a friend¦147335 of God.’",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:23: a "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Gen 15:6; "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "b "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "2Ch 20:7; Isa 41:8."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "JAS 2:24"
+    },
+    "So you can see that a person¦147345 is considered right with God due to his actions, and¦147346 not just by their ‘faith¦147349’.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "25",
+     "sid": "JAS 2:25"
+    },
+    "Similarly the prostitute¦147357 Rahab¦147355 was made right by her actions when she welcomed¦147362 the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Hebrew"
+     ]
+    },
+    " messengers¦147365 and¦147366 then¦147353 helped them get away by a different route.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:25: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Josh 2:1-21."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "26",
+     "sid": "JAS 2:26"
+    },
+    "Just like a body¦147373 is dead once the spirit¦147375 has departed, so too faith¦147381 is dead if it’s not demonstrated by good deeds.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "3",
+   "sid": "JAS 3"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The tongue\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Controlling the Tongue\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Tongue\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Taming the Tongue\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Christian speaking\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "JAS 3:1"
+    },
+    "My¦147392 brothers¦147391 and¦147391 sisters¦147391, not everyone should desire to be a teacher because we¦147397 know that us teachers¦147389 will be judged¦147396 more strictly.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "JAS 3:2"
+    },
+    "We all stumble in many ways¦147398. If there was someone who never said anything wrong, this person would be perfect¦147409 and also able to have self-control over their entire¦147401 body¦147417.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "JAS 3:3"
+    },
+    "With horses¦147424, we can put the bridle¦147426 in it’s mouth¦147430 so we can make them do what we want, and¦147421 so we can direct¦147445 the whole animal.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "JAS 3:4"
+    },
+    "Similarly, even huge¦147452 ships¦147450 that are being driven¦147459 on by strong winds¦147457 are controlled by a small rudder¦147463 and¦147454 can be steered wherever¦147464 the captain desires.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "JAS 3:5"
+    },
+    "So too the tongue¦147476 is only small¦147477 but¦147480 can make extensive claims.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    "Yes, a tiny flame can ignite an entire forest¦147489\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "JAS 3:6"
+    },
+    "and the tongue is a fire producing a torrent of depravity. It’s a part of our physical body¦147513 but¦147491 capable of staining¦147510 us all over and setting¦147515 our worlds¦147496 on fire, because the tongue itself is set on fire from hell.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "JAS 3:7"
+    },
+    "Every kind of wild animal and birds¦147532 and reptiles¦147533 and sea¦147536 creature¦147536 can be tamed and has been tamed by humankind¦147545\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "JAS 3:8"
+    },
+    "but¦147548 no one is able to tame the tongue¦147549—it’s an erratically evil¦147558 body part that’s full of deadly¦147561 poison¦147560.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "JAS 3:9"
+    },
+    "We use it to bless¦147564 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "&our"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦147566"
+     ]
+    },
+    " and father¦147569, yet we use it to curse our fellow humans who are made in God’s image.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:9: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Gen 1:26."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "JAS 3:10"
+    },
+    "Both blessings¦147587 and curses¦147589 come out of the same¦147584 mouth¦147585! My¦147593 brothers¦147592 and sisters¦147592, it shouldn’t be like that.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "JAS 3:11"
+    },
+    "Surely¦147597 a spring¦147601 flowing out of a single cavity can’t¦147597 produce both good-tasting and¦147609 bitter¦147611 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "water"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "JAS 3:12"
+    },
+    "A fig¦147616 tree¦147616 can’t produce olives¦147618 and a grape vine¦147621 can’t produce figs¦147622, my¦147615 brothers¦147614 and sisters¦147614, just like a salty supply can’t give fresh water¦147632.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Heavenly wisdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Two Kinds of Wisdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 True Wisdom Comes from God\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Wisdom from Above\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The sin of envy\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "JAS 3:13"
+    },
+    "Any of you¦147638 that are wise and understanding¦147636 should¦147639 demonstrate their good¦147642 deeds and wisdom¦147649 by their godly living.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "JAS 3:14"
+    },
+    "But¦147656 if you are full of bitter¦147654 jealousy¦147653 or selfish¦147657 ambition¦147657, don’t¦147664 be boasting¦147666 or denying the truth¦147671\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "JAS 3:15"
+    },
+    "because none of that came down to you from heaven, but¦147682 on the contrary it’s earthly¦147683 and soulish¦147684 and demonic¦147685.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "JAS 3:16"
+    },
+    "Wherever you find jealousy¦147688 and selfish¦147690 ambition¦147690, you’ll also find disharmony and all kinds of evil¦147697.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "JAS 3:17"
+    },
+    "In contrast, the wisdom¦147702 that comes from God is pure, peaceable¦147708, gentle¦147709, compliant¦147710, full of mercy¦147712 and good¦147716 behaviour, unceasing¦147717, and not hypocritical.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "JAS 3:18"
+    },
+    "Those who desire peace sow ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "the seeds"
+     ]
+    },
+    " that will produce¦147720 godly behaviour.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "4",
+   "sid": "JAS 4"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Don’t befriend the world\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Submit Yourselves to God\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Friendship with the World\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Drawing Close to God\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "JAS 4:1"
+    },
+    "Where do you imagine that the fights and quarrels¦147737 among¦147738 you all originate? Isn’t it¦147740 because of the ambitions that surface inside you?\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "JAS 4:2"
+    },
+    "You all have wants that are not fulfilled so it leads to murder¦147756. You’re jealous¦147758 and not able to get everything you want, so you quarrel¦147763 and fight. You don’t¦147754 have, because¦147770 you haven’t asked ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "God"
+     ]
+    },
+    ",\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "JAS 4:3"
+    },
+    "and when you all do ask, it¦147789 doesn’t get answered because¦147779 you ask with wrong¦147780 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "motives"
+     ]
+    },
+    "—trying get what you want to spend¦147789 on your¦147787 own wants.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "JAS 4:4"
+    },
+    "You’re just like prostitutes. Don’t you realise that if you befriend the world then you’re opposing God, so anyone who befriends the world makes themself an enemy¦147818 of God.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "JAS 4:5"
+    },
+    "Do you¦147823 think that¦147835 the scripture¦147828 means nothing when it says, ‘",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "God’s"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "spirit¦147834"
+     ]
+    },
+    " jealously longs to live in us’?\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "JAS 4:6"
+    },
+    "However, he’s good at giving grace so that’s why it says, ‘",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦147847"
+     ]
+    },
+    " opposes¦147849 proud¦147848 people but¦147841 gives grace to humble¦147850 ones.’",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "4:6: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Prv 3:34 (LXX)."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "JAS 4:7"
+    },
+    "So¦147855 strive then to do what ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦147857"
+     ]
+    },
+    " wants of you. Resist the devil¦147861 and he will flee away from you.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "JAS 4:8"
+    },
+    "When you all approach God, he will move closer to you. So keep your hands¦147873 clean you sinners¦147874, and keep your hearts¦147877 pure you who can’t make up your minds about God.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "JAS 4:9"
+    },
+    "Be miserable¦147879, and mourn¦147881 and weep. Change your laughing¦147885 into crying and your happiness into sadness\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "JAS 4:10"
+    },
+    "because when you humble¦147896 yourselves towards ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yahweh¦147900"
+     ]
+    },
+    ", he will be the one to lift you up.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Avoid judging others\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Warning against Judging Others\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Warning against Judging Another\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Warning against Judging One Another\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "JAS 4:11"
+    },
+    "My fellow believers¦147907, don’t¦147929 make false accusations against each other because anyone¦147906 who falsely accuses or judges a fellow believer, is slandering against the law and judging it. But¦147921 if you’re the ones judging the law, then you’re not a follower of the law but¦147926 a judge of it.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "JAS 4:12"
+    },
+    "There’s only one lawgiver¦147938 and judge and that’s the one who is able to save and to destroy¦147945. So who do you think you are to judge your neighbour¦147955!\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Avoid boasting and presumption\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Warning against Boasting\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The danger of wealth\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Boasting about Tomorrow\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Warning about Self-Confidence\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Boasting About Tomorrow\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "JAS 4:13"
+    },
+    "Now you¦147959 all might say, ‘Today¦147961 or tomorrow¦147964 we’ll go into the city¦147970 to work there¦147974 for a year¦147975 and do some trading to make some money.’",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "4:13-14: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Prv 27:1."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "JAS 4:14"
+    },
+    "But you don’t¦147984 know what tomorrow will bring, because¦147991 what are your¦147994 lives? You’re like a vapour¦147995 that¦148000 appears¦148003 for a brief period and then it’s gone.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "JAS 4:15"
+    },
+    "So instead of saying¦148010 that, you¦148011 should say, ‘If the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦148014"
+     ]
+    },
+    " wants it, we will live and we’ll do this or that.’\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "JAS 4:16"
+    },
+    "But as it is, you’ve all been boasting in your¦148033 arrogance¦148032 and that’s an evil¦148038 attitude.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "JAS 4:17"
+    },
+    "Any person who knows that there’s some good¦148042 thing that they should be doing, but¦148045 doesn’t do it, is sinning.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "5",
+   "sid": "JAS 5"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The bad ending of wealthy prigs\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Warning to Rich Oppressors\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Warning to the Rich\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "JAS 5:1"
+    },
+    "So you wealthy¦148055 people, come¦148051 and cry about the miseries¦148060 that¦148062 are about to hit you all.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "JAS 5:2"
+    },
+    "Your¦148067 riches¦148066 have rotted¦148068 and¦148069 your¦148067 clothes¦148071 have become¦148074 moth-eaten.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "5:2-3: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Mat 6:19."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "JAS 5:3"
+    },
+    "Your¦148077 gold¦148076 and silver¦148081 has corroded, and that corrosion will speak out against you and will eat away your¦148077 bodies like fire¦148100 because you stored¦148101 up wealth in this final age.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "JAS 5:4"
+    },
+    "The unpaid wages of the workers¦148110 who harvested¦148112 your¦148115 fields¦148114 are crying¦148121 out",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "5:4: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Deu 24:14-15."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " and¦148122 the desperate requests of those harvesters have been heard by army commander ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yahweh¦148130"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "JAS 5:5"
+    },
+    "You have indulged¦148134 yourselves and¦148139 lived¦148140 luxuriously¦148140 but¦148139 you’ve been fattening yourselves up as the time for your¦148144 slaughter¦148149 approaches.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "JAS 5:6"
+    },
+    "You all convicted¦148150 innocent people and had them executed, even when they weren’t doing anything against¦148156 you.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Wait patiently\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Patience and prayer\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Patience and Prayer\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Patience in Suffering\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "JAS 5:7"
+    },
+    "So¦148158 my fellow¦148159 believers¦148159, be patient until the return of ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Yeshua our"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦148164"
+     ]
+    },
+    ". You see how farmers¦148167 look¦148165 forward to the fruit¦148171 to be ready—waiting patiently even while they monitor the early¦148184 and¦148185 the late rains¦148186.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "JAS 5:8"
+    },
+    "All of you should be patient¦148187 too, and encourage each other ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "in your¦148194 faith"
+     ]
+    },
+    " because¦148195 the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master’s¦148199"
+     ]
+    },
+    " return is closer now.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "JAS 5:9"
+    },
+    "And don’t¦148209 moan about each other, my fellow¦148203 believers¦148203, so that you¦148210 all won’t¦148209 be judged¦148210 for it, because truly, the judge¦148214 is just outside about to come in the doors¦148217.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "JAS 5:10"
+    },
+    "Look at the prophets¦148233 who spoke¦148235 out the messages from ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yahweh¦148239"
+     ]
+    },
+    "—they’re good examples¦148219 of suffering and¦148228 patience¦148230 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "for you to follow"
+     ]
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "JAS 5:11"
+    },
+    "and now we consider them as heroes for their endurance. You all heard¦148248 about Yob’s endurance and then you yourselves witnessed what happened to ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Yeshua our"
+     ]
+    },
+    " master,",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "5:11: a "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Yob 1:21-22; 2:10; "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "b "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Psa 103:8."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " and you saw his compassion and mercy.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "JAS 5:12"
+    },
+    "But¦148288 most importantly, brothers¦148265 and sisters¦148265, don’t¦148267 swear¦148268 by heaven¦148271 or earth¦148274 or by any other¦148276 kind of oath but¦148288 simply be honest so that ‘yes’ means yes and ‘no’ means no,",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "5:12: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Mat 5:34-37."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " then you won’t¦148267 end up getting judged¦148296.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The power of prayer and restoration\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Prayer of Faith\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Power of Prayer\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "JAS 5:13"
+    },
+    "Is anyone among¦148300 you¦148301 going through hard times? If so, they should be praying¦148302. Is anyone feeling cheerful¦148303? If so, they should be singing¦148307 praises¦148307.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "JAS 5:14"
+    },
+    "Is anyone¦148309 among¦148311 you¦148312 sick? If so, that person should¦148313 call the leaders ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "of the assembly¦148317"
+     ]
+    },
+    " and get them to anoint¦148323 them with oil¦148325 and to pray for them",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "5:14: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Mrk 6:13."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " in the name¦148328 and authority of ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "&our"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦148330"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "JAS 5:15"
+    },
+    "Then¦148331 that declaration of faith¦148335 will save the weak person and the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦148343"
+     ]
+    },
+    " will lift him/her up, and if they’ve sinned, then¦148331 their sins¦148345 will also be forgiven¦148348.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "JAS 5:16"
+    },
+    "So¦148351 confess¦148350 your¦148353 sins¦148355 to each other and¦148357 pray for each other so that all of you¦148363 can be healed¦148363, because when an obedient believer prays, it has a real effect.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "JAS 5:17"
+    },
+    "Eliyah was a person just similar to us, and when he prayed¦148375 for the rain to stop, it stopped, and it didn’t¦148378 rain again for three¦148388 and a half years¦148386.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "5:17: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "1Ki 17:1; 18:1."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "JAS 5:18"
+    },
+    "Then¦148392 he prayed¦148394 again, and the rain came down from the sky¦148397 and the land sprouted¦148405 and started to bear fruit¦148407 again.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "5:18: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "1Ki 18:42-45."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Restore Wandering Believers\n"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "JAS 5:19"
+    },
+    "My¦148410 fellow¦148409 believers¦148409, if any of you¦148414 have wandered from the truth¦148420 and¦148421 someone¦148423 helps them back,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "JAS 5:20"
+    },
+    "then you should know that someone who helps a sinner¦148430 to come back from their deceitful ways will be saving¦148435 their soul¦148437 from death¦148440,",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "5:20: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Prv 10:12; 1Pe 4:8."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    " and¦148442 their many sins¦148445 can be forgiven.\n"
+   ]
   }
+ ]
 }

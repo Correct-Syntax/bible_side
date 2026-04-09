@@ -81,7 +81,8 @@ class SettingsView extends StackedView<SettingsViewModel> {
                   ),
                   // Text scaling
                   Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 3.0),
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 8.0, vertical: 3.0),
                     child: Row(
                       children: [
                         Expanded(
@@ -112,16 +113,20 @@ class SettingsView extends StackedView<SettingsViewModel> {
                           child: Row(
                             children: [
                               PhosphorIcon(
-                                PhosphorIcons.magnifyingGlassMinus(PhosphorIconsStyle.regular),
+                                PhosphorIcons.magnifyingGlassMinus(
+                                    PhosphorIconsStyle.regular),
                                 color: context.theme.appColors.primary,
                                 size: 20.0,
                               ),
                               Expanded(
                                 child: SliderTheme(
                                   data: SliderThemeData(
-                                    thumbColor: context.theme.appColors.sliderAccent,
-                                    activeTrackColor: context.theme.appColors.sliderAccent,
-                                    inactiveTrackColor: context.theme.appColors.divider,
+                                    thumbColor:
+                                        context.theme.appColors.sliderAccent,
+                                    activeTrackColor:
+                                        context.theme.appColors.sliderAccent,
+                                    inactiveTrackColor:
+                                        context.theme.appColors.divider,
                                     overlayColor: Colors.transparent,
                                   ),
                                   child: Slider(
@@ -133,7 +138,8 @@ class SettingsView extends StackedView<SettingsViewModel> {
                                 ),
                               ),
                               PhosphorIcon(
-                                PhosphorIcons.magnifyingGlassPlus(PhosphorIconsStyle.regular),
+                                PhosphorIcons.magnifyingGlassPlus(
+                                    PhosphorIconsStyle.regular),
                                 color: context.theme.appColors.primary,
                                 size: 20.0,
                               ),
@@ -177,7 +183,8 @@ class SettingsView extends StackedView<SettingsViewModel> {
                   ),
                   // Theme
                   Padding(
-                    padding: const EdgeInsets.only(top: 10.0, bottom: 10.0, left: 12.0),
+                    padding: const EdgeInsets.only(
+                        top: 10.0, bottom: 10.0, left: 12.0),
                     child: Text(
                       'Theme',
                       style: TextStyle(
@@ -193,7 +200,8 @@ class SettingsView extends StackedView<SettingsViewModel> {
                     child: Row(
                       children: [
                         SettingsThemeItem(
-                          isSelected: getThemeManager(context).selectedThemeIndex == 0,
+                          isSelected:
+                              getThemeManager(context).selectedThemeIndex == 0,
                           theme: CurrentTheme.light,
                           onTap: () {
                             var themeManger = getThemeManager(context);
@@ -202,7 +210,8 @@ class SettingsView extends StackedView<SettingsViewModel> {
                         ),
                         const SizedBox(width: 7.0),
                         SettingsThemeItem(
-                          isSelected: getThemeManager(context).selectedThemeIndex == 1,
+                          isSelected:
+                              getThemeManager(context).selectedThemeIndex == 1,
                           theme: CurrentTheme.dark,
                           onTap: () {
                             var themeManger = getThemeManager(context);
@@ -211,7 +220,8 @@ class SettingsView extends StackedView<SettingsViewModel> {
                         ),
                         const SizedBox(width: 7.0),
                         SettingsThemeItem(
-                          isSelected: getThemeManager(context).selectedThemeIndex == 2,
+                          isSelected:
+                              getThemeManager(context).selectedThemeIndex == 2,
                           theme: CurrentTheme.sepia,
                           onTap: () {
                             var themeManger = getThemeManager(context);
@@ -220,7 +230,8 @@ class SettingsView extends StackedView<SettingsViewModel> {
                         ),
                         const SizedBox(width: 7.0),
                         SettingsThemeItem(
-                          isSelected: getThemeManager(context).selectedThemeIndex == 3,
+                          isSelected:
+                              getThemeManager(context).selectedThemeIndex == 3,
                           theme: CurrentTheme.contrast,
                           onTap: () {
                             var themeManger = getThemeManager(context);
@@ -229,6 +240,33 @@ class SettingsView extends StackedView<SettingsViewModel> {
                         ),
                       ],
                     ),
+                  ),
+
+                  // ABOUT
+                  const SettingsCategoryTitle(
+                    title: 'PRIVACY',
+                  ),
+                  Divider(
+                    height: 0,
+                    color: context.theme.appColors.divider,
+                  ),
+                  Text(
+                    'WARNING: Privacy features not fully implemented!',
+                    style: TextStyle(
+                      color: context.theme.appColors.primary,
+                      fontSize: 15.0,
+                      fontWeight: FontWeight.w500,
+                      letterSpacing: -0.1,
+                    ),
+                  ),
+                  ToggleItem(
+                    label: 'Allow internet access',
+                    value: viewModel.showInternetAccess,
+                    onChanged: viewModel.changeShowInternetAccess,
+                  ),
+                  Divider(
+                    height: 0,
+                    color: context.theme.appColors.divider,
                   ),
 
                   // ABOUT
@@ -243,13 +281,16 @@ class SettingsView extends StackedView<SettingsViewModel> {
                   InkWell(
                     onTap: viewModel.shareFeedback,
                     child: Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 16.0),
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 8.0, vertical: 16.0),
                       child: Row(
                         children: [
                           Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 5.0),
+                            padding:
+                                const EdgeInsets.symmetric(horizontal: 5.0),
                             child: PhosphorIcon(
-                              PhosphorIcons.envelopeOpen(PhosphorIconsStyle.regular),
+                              PhosphorIcons.envelopeOpen(
+                                  PhosphorIconsStyle.regular),
                               color: context.theme.appColors.primary,
                             ),
                           ),
@@ -258,7 +299,7 @@ class SettingsView extends StackedView<SettingsViewModel> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Share feedback with the developer',
+                                'Report a bug or translation (OET) error',
                                 style: TextStyle(
                                   color: context.theme.appColors.primary,
                                   fontSize: 15.0,
@@ -281,11 +322,13 @@ class SettingsView extends StackedView<SettingsViewModel> {
                   InkWell(
                     onTap: viewModel.visitWebsite,
                     child: Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 16.0),
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 8.0, vertical: 16.0),
                       child: Row(
                         children: [
                           Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 5.0),
+                            padding:
+                                const EdgeInsets.symmetric(horizontal: 5.0),
                             child: PhosphorIcon(
                               PhosphorIcons.globe(PhosphorIconsStyle.regular),
                               color: context.theme.appColors.primary,
@@ -316,7 +359,8 @@ class SettingsView extends StackedView<SettingsViewModel> {
                   ),
                   // App version
                   Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 16.0),
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 8.0, vertical: 16.0),
                     child: Row(
                       children: [
                         Image.asset(

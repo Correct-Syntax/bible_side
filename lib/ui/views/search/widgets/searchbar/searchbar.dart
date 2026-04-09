@@ -9,9 +9,11 @@ class Searchbar extends StackedView<SearchbarModel> {
   const Searchbar({
     super.key,
     required this.onSearch,
+    this.hintText = 'Search…',
   });
 
   final Function(String) onSearch;
+  final String hintText;
 
   @override
   Widget builder(
@@ -43,7 +45,7 @@ class Searchbar extends StackedView<SearchbarModel> {
             borderSide: BorderSide(color: context.theme.appColors.primary),
             borderRadius: BorderRadius.circular(100.00),
           ),
-          hintText: 'Search…',
+          hintText: hintText,
           hintStyle: TextStyle(
             color: context.theme.appColors.secondary,
             fontSize: 15.0,
