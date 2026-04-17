@@ -19,9 +19,12 @@ class SideNavigationDrawer extends StackedView<SideNavigationDrawerModel> {
     SideNavigationDrawerModel viewModel,
     Widget? child,
   ) {
-    return Container(
+    return Drawer(
       width: 270.0,
-      color: context.theme.appColors.appbarBackground,
+      backgroundColor: context.theme.appColors.appbarBackground,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.zero,
+      ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisSize: MainAxisSize.max,
@@ -44,7 +47,8 @@ class SideNavigationDrawer extends StackedView<SideNavigationDrawerModel> {
                 InkWell(
                   onTap: closeNavigation,
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 13.0, vertical: 14.0),
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 13.0, vertical: 14.0),
                     child: PhosphorIcon(
                       PhosphorIcons.x(PhosphorIconsStyle.bold),
                       color: context.theme.appColors.secondaryOnDark,
@@ -70,14 +74,17 @@ class SideNavigationDrawer extends StackedView<SideNavigationDrawerModel> {
                       color: context.theme.appColors.readerSelectorBackground,
                       borderRadius: BorderRadius.circular(70.0),
                     ),
-                    padding: const EdgeInsets.symmetric(vertical: 14.0, horizontal: 14.0),
+                    padding: const EdgeInsets.symmetric(
+                        vertical: 14.0, horizontal: 14.0),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.start,
                       mainAxisSize: MainAxisSize.max,
                       children: [
                         PhosphorIcon(
-                          PhosphorIcons.bookOpenText(PhosphorIconsStyle.regular),
-                          color: context.theme.appColors.primaryOnDark.withAlpha(220),
+                          PhosphorIcons.bookOpenText(
+                              PhosphorIconsStyle.regular),
+                          color: context.theme.appColors.primaryOnDark
+                              .withAlpha(220),
                           size: 24.0,
                         ),
                         const SizedBox(width: 12.0),
@@ -99,14 +106,17 @@ class SideNavigationDrawer extends StackedView<SideNavigationDrawerModel> {
                     viewModel.onTapBookmarks();
                   },
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 14.0),
+                    padding: const EdgeInsets.symmetric(
+                        vertical: 16.0, horizontal: 14.0),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.start,
                       mainAxisSize: MainAxisSize.max,
                       children: [
                         PhosphorIcon(
-                          PhosphorIcons.bookmarksSimple(PhosphorIconsStyle.regular),
-                          color: context.theme.appColors.primaryOnDark.withAlpha(220),
+                          PhosphorIcons.bookmarksSimple(
+                              PhosphorIconsStyle.regular),
+                          color: context.theme.appColors.primaryOnDark
+                              .withAlpha(220),
                           size: 24.0,
                         ),
                         const SizedBox(width: 12.0),
@@ -128,14 +138,17 @@ class SideNavigationDrawer extends StackedView<SideNavigationDrawerModel> {
                     viewModel.onTapSearch();
                   },
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 14.0),
+                    padding: const EdgeInsets.symmetric(
+                        vertical: 16.0, horizontal: 14.0),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.start,
                       mainAxisSize: MainAxisSize.max,
                       children: [
                         PhosphorIcon(
-                          PhosphorIcons.magnifyingGlass(PhosphorIconsStyle.regular),
-                          color: context.theme.appColors.primaryOnDark.withAlpha(220),
+                          PhosphorIcons.magnifyingGlass(
+                              PhosphorIconsStyle.regular),
+                          color: context.theme.appColors.primaryOnDark
+                              .withAlpha(220),
                           size: 24.0,
                         ),
                         const SizedBox(width: 12.0),
@@ -157,14 +170,16 @@ class SideNavigationDrawer extends StackedView<SideNavigationDrawerModel> {
                     viewModel.onTapSettings();
                   },
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 14.0),
+                    padding: const EdgeInsets.symmetric(
+                        vertical: 16.0, horizontal: 14.0),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.start,
                       mainAxisSize: MainAxisSize.max,
                       children: [
                         PhosphorIcon(
                           PhosphorIcons.gear(PhosphorIconsStyle.regular),
-                          color: context.theme.appColors.primaryOnDark.withAlpha(220),
+                          color: context.theme.appColors.primaryOnDark
+                              .withAlpha(220),
                           size: 24.0,
                         ),
                         const SizedBox(width: 12.0),
