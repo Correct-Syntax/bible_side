@@ -1,762 +1,1056 @@
 {
-  "book": {
-    "bookCode": "TIT",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.04",
-    "meta": [
-      {
-        "usfm": "3.0"
-      },
-      {
-        "ide": "UTF-8"
-      },
-      {
-        "rem": "ESFM v0.6 TIT"
-      },
-      {
-        "rem": "WORDTABLE OET-LV_NT_word_table.tsv"
-      },
-      {
-        "h": "Titos"
-      },
-      {
-        "toc1": "Titos (Titus)"
-      },
-      {
-        "toc2": "Titos"
-      },
-      {
-        "toc3": "Tit."
-      },
-      {
-        "mt1": "Titos (Titus)"
-      },
-      {
-        "is1": "Introduction"
-      },
-      {
-        "is2": "The author"
-      },
-      {
-        "ip": "Paul"
-      },
-      {
-        "is2": "The recipient"
-      },
-      {
-        "ip": "Titos, often spelt (wrongly) as ‘Titus’ in English translations, wasn't a Jew and didn't originally believe in God. However, in later times he became a believer and from there, he became a helper in Paul's work. This letter was sent by Paul there to Titos in Crete where he had been left to look after a group of believers. (Crete is an island that was a part of Greece.)"
-      },
-      {
-        "is2": "This letter"
-      },
-      {
-        "ip": "There are three main things contained in this letter: Firstly Titos is reminded about what is appropriate behaviour for teachers of believers. It was important that he understand this because those from Crete had many undesirable customs and there were many teachers of false doctrines that would confuse believers."
-      },
-      {
-        "ip": "Secondly Titos was advised Titos how to teach the various groups of believers there, including young men and slaves, along with older men and women. (Then those older women were to teach the younger women.)"
-      },
-      {
-        "ip": "Finally Paul advised Titos about how believers should live, including avoiding attacking others, arguing, and splitting the believers into opposing groups. Paul reminded Titos again to follow the teachings of Yeshua the messiah and obey what he commanded us."
-      },
-      {
-        "ip": "Paul wanted it to be known that it's very important for believers to behave well (1:6; 2:7,14; 3:1,8-9,14) even though doing good things can't earn their salvation (3:5)."
-      },
-      {
-        "iot": "Main components of Paul's letter"
-      },
-      {
-        "io1": [
-          "Introduction",
-          {
-            "ior": "1:1-4",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The correct behaviour of officials there to group of believers",
-          {
-            "ior": "1:5-16",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The correct behaviour of various people there to group of believers",
-          {
-            "ior": "2:1-15",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Defining good behaviour and the warning",
-          {
-            "ior": "3:1-11",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Ending",
-          {
-            "ior": "3:12-15",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "rem": [
-          "This is still a very early look into the unfinished text of the",
-          {
-            "em": "Open English Translation",
-            "closing": "\\em*"
-          },
-          "of the Bible. Please double-check the text in advance before using in public."
-        ]
-      },
-      {
-        "ie": ""
-      }
-    ]
+ "type": "USJ",
+ "version": "3.1",
+ "content": [
+  {
+   "type": "book",
+   "marker": "id",
+   "code": "TIT",
+   "content": [
+    "- Open English Translation—Readers’ Version (OET-RV) v0.1.07"
+   ]
   },
-  "chapters": [
+  {
+   "type": "para",
+   "marker": "ide",
+   "content": [
+    "UTF-8\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "ESFM v0.6 TIT\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "WORDTABLE OET-LV_NT_word_table.tsv\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "h",
+   "content": [
+    "Titos\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc1",
+   "content": [
+    "Titos (Titus)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc2",
+   "content": [
+    "Titos\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc3",
+   "content": [
+    "Tit.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt1",
+   "content": [
+    "Titos (Titus)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "is1",
+   "content": [
+    "Introduction\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "is2",
+   "content": [
+    "The author\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "Paul\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "is2",
+   "content": [
+    "The recipient\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "Titos, often spelt (wrongly) as ‘Titus’ in English translations, wasn’t a Jew and didn’t originally believe in God. However, in later times he became a believer and from there, he became a helper in Paul’s work. This letter was sent by Paul there to Titos in Crete where he had been left to look after a group of believers. (Crete is an island that was a part of Greece.)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "is2",
+   "content": [
+    "This letter\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "There are three main things contained in this letter: Firstly Titos is reminded about what is appropriate behaviour for teachers of believers. It was important that he understand this because those from Crete had many undesirable customs and there were many teachers of false doctrines that would confuse believers.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "Secondly Titos was advised Titos how to teach the various groups of believers there, including young men and slaves, along with older men and women. (Then those older women were to teach the younger women.)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "Finally Paul advised Titos about how believers should live, including avoiding attacking others, arguing, and splitting the believers into opposing groups. Paul reminded Titos again to follow the teachings of Yeshua the messiah and obey what he commanded us.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "Paul wanted it to be known that it’s very important for believers to behave well (1:6; 2:7,14; 3:1,8-9,14) even though doing good things can’t earn their salvation (3:5).\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "iot",
+   "content": [
+    "Main components of Paul’s letter\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Introduction ",
     {
-      "chapterNumber": "1",
-      "contents": [
-        {
-          "rem": "/s1 Greetings from Paul"
-        },
-        {
-          "rem": "/s1 Salutation"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            {
-              "add": "This letter is from",
-              "closing": "\\add*"
-            },
-            "Paul¦140829, a slave¦140830 of God and a missionary of",
-            {
-              "nd": "Yeshua¦140835",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦140836",
-              "closing": "\\nd*"
-            },
-            "and follower of the faith¦140838 of the ones that God has chosen.",
-            {
-              "p": "I share the knowledge¦140842 of the truth¦140843 which¦140844 leads to godliness"
-            }
-          ],
-          "verseText": "This letter is from Paul¦140829, a slave¦140830 of God and a missionary of Yeshua¦140835 the messiah¦140836 and follower of the faith¦140838 of the ones that God has chosen. I share the knowledge¦140842 of the truth¦140843 which¦140844 leads to godliness"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "and the expectation of living forever which¦140851 God promised¦140852 before¦140856 time began. And God can't lie"
-          ],
-          "verseText": "and the expectation of living forever which¦140851 God promised¦140852 before¦140856 time began. And God can't lie"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "but¦140860 revealed¦140859 his message¦140864 in his own time, and I've been entrusted¦140869 to proclaim¦140867 this by the command¦140872 of",
-            {
-              "nd": "God¦140876",
-              "closing": "\\nd*"
-            },
-            "our¦140875 saviour¦140874.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "but¦140860 revealed¦140859 his message¦140864 in his own time, and I've been entrusted¦140869 to proclaim¦140867 this by the command¦140872 of God¦140876 our¦140875 saviour¦140874."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:4:"
-                },
-                {
-                  "xt": "2Cor 8:23; Gal 2:3; 2Tim 4:10."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "To Titos¦140877, my true son due to our common¦140881 faith¦140882. May",
-            {
-              "nd": "God¦140888",
-              "closing": "\\nd*"
-            },
-            "the father¦140889 and our saviour¦140896",
-            {
-              "nd": "Yeshua¦140893",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦140892",
-              "closing": "\\nd*"
-            },
-            "give you grace¦140883 and peace¦140886.",
-            {
-              "s1": "Qualifications for leaders"
-            },
-            {
-              "rem": "/s1 Christian discipline"
-            },
-            {
-              "rem": "/s1 Titos' Task on Crete"
-            },
-            {
-              "rem": "/s1 Titos' Work in Crete"
-            },
-            {
-              "rem": "/s1 Titos's Work in Crete"
-            },
-            {
-              "rem": "/s1 Titos in Crete"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "To Titos¦140877, my true son due to our common¦140881 faith¦140882. May God¦140888 the father¦140889 and our saviour¦140896 Yeshua¦140893 the messiah¦140892 give you grace¦140883 and peace¦140886."
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "The reason¦140899 that I asked you to stay behind¦140900 in Crete was so that you would find what needed to be reorganised and so that you would appoint¦140911 elders¦140914 in every city¦140913 just as I had directed¦140918 you."
-          ],
-          "verseText": "The reason¦140899 that I asked you to stay behind¦140900 in Crete was so that you would find what needed to be reorganised and so that you would appoint¦140911 elders¦140914 in every city¦140913 just as I had directed¦140918 you."
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:6-9:"
-                },
-                {
-                  "xt": "1Tim 3:2-7."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "Each elder must have a clean record, be the husband¦140925 of one wife¦140924, and have believing¦140928 children¦140926 who are not wild or disobedient."
-          ],
-          "verseText": "Each elder must have a clean record, be the husband¦140925 of one wife¦140924, and have believing¦140928 children¦140926 who are not wild or disobedient."
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "Any overseer¦140938",
-            {
-              "add": "in the assembly",
-              "closing": "\\add*"
-            },
-            "as a manager¦140943 working for",
-            {
-              "nd": "God¦140942",
-              "closing": "\\nd*"
-            },
-            "must have a clean record, not be self-centred¦140945, not be quick to get angry, not addicted to wine, not a bully¦140951, and not greedy¦140953,"
-          ],
-          "verseText": "Any overseer¦140938 in the assembly as a manager¦140943 working for God¦140942 must have a clean record, not be self-centred¦140945, not be quick to get angry, not addicted to wine, not a bully¦140951, and not greedy¦140953,"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "but¦140954 rather hospitable¦140955, someone who loves what is good¦140956, sensible¦140957, honest, loves God, and self-controlled¦140960."
-          ],
-          "verseText": "but¦140954 rather hospitable¦140955, someone who loves what is good¦140956, sensible¦140957, honest, loves God, and self-controlled¦140960."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "He must hold faithfully¦140966 to the message that was taught¦140965, so that he will be effective in encouraging others with sound¦140980 teaching and to be rebuking¦140984 those who speak¦140983 against¦140983 the message.",
-            {
-              "s1": "Handling those who go off the track"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "He must hold faithfully¦140966 to the message that was taught¦140965, so that he will be effective in encouraging others with sound¦140980 teaching and to be rebuking¦140984 those who speak¦140983 against¦140983 the message."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "There's plenty of people who don't want to be told what to do, empty talkers¦140990 and¦140991 outright deceivers¦140992, especially those that push the letter of the law."
-          ],
-          "verseText": "There's plenty of people who don't want to be told what to do, empty talkers¦140990 and¦140991 outright deceivers¦140992, especially those that push the letter of the law."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "These people need to be silenced¦141001 because they mess up whole¦141003 families when they teach¦141006 them things that they shouldn't—all for the sake of shameful¦141011 game."
-          ],
-          "verseText": "These people need to be silenced¦141001 because they mess up whole¦141003 families when they teach¦141006 them things that they shouldn't—all for the sake of shameful¦141011 game."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "One of their¦141017 own prophets¦141021 said¦141014 that the people from Crete are liars¦141024, evil¦141025 beasts¦141026, and lazy gluttons,"
-          ],
-          "verseText": "One of their¦141017 own prophets¦141021 said¦141014 that the people from Crete are liars¦141024, evil¦141025 beasts¦141026, and lazy gluttons,"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "and that's right. For those reasons, you need to sternly tell them they're wrong, so that they can become sound¦141041 in their faith¦141044,"
-          ],
-          "verseText": "and that's right. For those reasons, you need to sternly tell them they're wrong, so that they can become sound¦141041 in their faith¦141044,"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "and¦141049 not pay attention to Jewish myths¦141048 or human¦141051 rules which turn people away from the truth¦141054."
-          ],
-          "verseText": "and¦141049 not pay attention to Jewish myths¦141048 or human¦141051 rules which turn people away from the truth¦141054."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "For someone who's pure in their thinking, everything is pure to them, but for unbelievers¦141066 and those who've strayed from the truth, nothing¦141067 is pure because their minds and consciences¦141077 have already been damaged—"
-          ],
-          "verseText": "For someone who's pure in their thinking, everything is pure to them, but for unbelievers¦141066 and those who've strayed from the truth, nothing¦141067 is pure because their minds and consciences¦141077 have already been damaged—"
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "they say that they know",
-            {
-              "nd": "God¦141078",
-              "closing": "\\nd*"
-            },
-            ", but their¦141081 actions show that they don't, and so they're detestable¦141085. They can no longer accept teaching so they're unsuitable for any good¦141093 work."
-          ],
-          "verseText": "they say that they know God¦141078, but their¦141081 actions show that they don't, and so they're detestable¦141085. They can no longer accept teaching so they're unsuitable for any good¦141093 work."
-        }
-      ]
-    },
-    {
-      "chapterNumber": "2",
-      "contents": [
-        {
-          "s1": "Proper behaviour for believers"
-        },
-        {
-          "rem": "/s1 Sound Doctrine"
-        },
-        {
-          "rem": "/s1 Teach Sound Doctrine"
-        },
-        {
-          "rem": "/s1 Promote Right Teaching"
-        },
-        {
-          "rem": "/s1 What Must Be Taught to Various Groups"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "But you¦141095,",
-            {
-              "add": "Titos",
-              "closing": "\\add*"
-            },
-            "speak¦141098 only what comes from sound¦141102 teaching¦141103."
-          ],
-          "verseText": "But you¦141095, Titos speak¦141098 only what comes from sound¦141102 teaching¦141103."
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "Older men¦141104 need to be sober¦141105, dignified¦141108, sensible¦141109, and sound¦141110 in their faith¦141112, their love¦141114, and their endurance¦141116."
-          ],
-          "verseText": "Older men¦141104 need to be sober¦141105, dignified¦141108, sensible¦141109, and sound¦141110 in their faith¦141112, their love¦141114, and their endurance¦141116."
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "Likewise older¦141117 women¦141117 need to honour God by their behaviour¦141120, not making false accusations, not addicted to a lot of wine. They should teaching¦141130 what is good¦141130"
-          ],
-          "verseText": "Likewise older¦141117 women¦141117 need to honour God by their behaviour¦141120, not making false accusations, not addicted to a lot of wine. They should teaching¦141130 what is good¦141130"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "so that they¦141133 can train the younger women¦141135 to love their husbands¦141136 and children¦141138,"
-          ],
-          "verseText": "so that they¦141133 can train the younger women¦141135 to love their husbands¦141136 and children¦141138,"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "and to be sensible¦141139 and pure, homemakers¦141141 that do good¦141143 for others, living under the authority of their¦141146 husbands¦141148 so that others don't¦141150 speak evil of God's message¦141152 because of them.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "and to be sensible¦141139 and pure, homemakers¦141141 that do good¦141143 for others, living under the authority of their¦141146 husbands¦141148 so that others don't¦141150 speak evil of God's message¦141152 because of them."
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "Also encourage younger¦141160 men¦141160 to be sensible¦141163."
-          ],
-          "verseText": "Also encourage younger¦141160 men¦141160 to be sensible¦141163."
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "Be a good¦141170 example¦141169 in everything you do and in your teaching¦141174. Don't be led astray, maintain your dignity¦141179,"
-          ],
-          "verseText": "Be a good¦141170 example¦141169 in everything you do and in your teaching¦141174. Don't be led astray, maintain your dignity¦141179,"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "watch every word that comes out of your lips, stay above reproach—all this so that those who oppose us can be reached because there's nothing¦141189 bad¦141197 they can say about us.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "watch every word that comes out of your lips, stay above reproach—all this so that those who oppose us can be reached because there's nothing¦141189 bad¦141197 they can say about us."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "Slaves¦141198 need to conform to their master's commands, aiming to please¦141205. They shouldn't speak¦141208 against¦141208 their masters¦141200"
-          ],
-          "verseText": "Slaves¦141198 need to conform to their master's commands, aiming to please¦141205. They shouldn't speak¦141208 against¦141208 their masters¦141200"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "or be pilfering from them, rather they¦141226 should display¦141215 their good¦141216 faith¦141214 so that their actions add to the teachings¦141219 of",
-            {
-              "nd": "God¦141225",
-              "closing": "\\nd*"
-            },
-            "our¦141224 saviour¦141222.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "or be pilfering from them, rather they¦141226 should display¦141215 their good¦141216 faith¦141214 so that their actions add to the teachings¦141219 of God¦141225 our¦141224 saviour¦141222."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "This is because¦141230 God's grace¦141232 which offers salvation¦141236 to all people¦141239 has appeared¦141229"
-          ],
-          "verseText": "This is because¦141230 God's grace¦141232 which offers salvation¦141236 to all people¦141239 has appeared¦141229"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "and teaches us that when we distance ourselves from ungodliness¦141247 and worldly¦141250 lusts¦141251, we can live¦141257 sensibly¦141252 and justly¦141254 and devoutly¦141256 in the present¦141260 age."
-          ],
-          "verseText": "and teaches us that when we distance ourselves from ungodliness¦141247 and worldly¦141250 lusts¦141251, we can live¦141257 sensibly¦141252 and justly¦141254 and devoutly¦141256 in the present¦141260 age."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "Then we can look forward to the blessing¦141264 of the majestic appearance¦141267 of our¦141275 great¦141271",
-            {
-              "nd": "God¦141272",
-              "closing": "\\nd*"
-            },
-            "and saviour¦141274,",
-            {
-              "nd": "Yeshua¦141277",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦141278",
-              "closing": "\\nd*"
-            }
-          ],
-          "verseText": "Then we can look forward to the blessing¦141264 of the majestic appearance¦141267 of our¦141275 great¦141271 God¦141272 and saviour¦141274, Yeshua¦141277 the messiah¦141278"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:14: a"
-                },
-                {
-                  "xt": "Psa 130:8;"
-                },
-                {
-                  "xo": "b"
-                },
-                {
-                  "xt": "Exo 19:5; Deu 4:20; 7:6; 14:2; 1Pe 2:9."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "who gave¦141280 himself for us in order¦141285 to redeem¦141286 us from all lawlessness¦141290 and to purify¦141292 us into his chosen¦141295 people¦141294, eager to do good¦141297 things.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "who gave¦141280 himself for us in order¦141285 to redeem¦141286 us from all lawlessness¦141290 and to purify¦141292 us into his chosen¦141295 people¦141294, eager to do good¦141297 things."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "Teach these¦141299 things as you encourage some and scold others, but don't let anyone¦141309 disrespect¦141311 you."
-          ],
-          "verseText": "Teach these¦141299 things as you encourage some and scold others, but don't let anyone¦141309 disrespect¦141311 you."
-        }
-      ]
-    },
-    {
-      "chapterNumber": "3",
-      "contents": [
-        {
-          "s1": "Expected behaviour"
-        },
-        {
-          "rem": "/s1 Maintain Good Deeds"
-        },
-        {
-          "rem": "/s1 Christian Conduct"
-        },
-        {
-          "rem": "/s1 Doing What is Good"
-        },
-        {
-          "rem": "/s1 Do What Is Good"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "Remind people to conform to their rulers¦141315 and authorities¦141317, being¦141318 obedient and ready¦141326 to do anything that's good¦141324."
-          ],
-          "verseText": "Remind people to conform to their rulers¦141315 and authorities¦141317, being¦141318 obedient and ready¦141326 to do anything that's good¦141324."
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "Don't slander¦141329 others, be peaceable¦141330. Don't be strong-willed, but rather show gentleness¦141332 to all people¦141342."
-          ],
-          "verseText": "Don't slander¦141329 others, be peaceable¦141330. Don't be strong-willed, but rather show gentleness¦141332 to all people¦141342."
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "We were also foolish¦141348 and stubborn at one time, straying¦141350 from the good and giving in to various¦141356 lusts¦141353 and pleasures, being¦141350 mean and envious, even full of hate and hating¦141363 one another¦141364."
-          ],
-          "verseText": "We were also foolish¦141348 and stubborn at one time, straying¦141350 from the good and giving in to various¦141356 lusts¦141353 and pleasures, being¦141350 mean and envious, even full of hate and hating¦141363 one another¦141364."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "But when",
-            {
-              "nd": "God¦141376",
-              "closing": "\\nd*"
-            },
-            "our¦141375 saviour¦141374 revealed his kindness¦141368 and¦141369 love¦141371 for humankind¦141371,"
-          ],
-          "verseText": "But when God¦141376 our¦141375 saviour¦141374 revealed his kindness¦141368 and¦141369 love¦141371 for humankind¦141371,"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "he saved¦141394 us, not because of the ‘good deeds’ that we did, but out of his mercy¦141392. He regenerated¦141399 us through¦141396 washing¦141398 and renewed¦141401 us by",
-            {
-              "add": "his",
-              "closing": "\\add*"
-            },
-            "holy",
-            {
-              "nd": "spirit¦141402",
-              "closing": "\\nd*"
-            }
-          ],
-          "verseText": "he saved¦141394 us, not because of the ‘good deeds’ that we did, but out of his mercy¦141392. He regenerated¦141399 us through¦141396 washing¦141398 and renewed¦141401 us by his holy spirit¦141402"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "which he lavishly poured¦141405 on us through¦141409",
-            {
-              "nd": "Yeshua¦141410",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦141411",
-              "closing": "\\nd*"
-            }
-          ],
-          "verseText": "which he lavishly poured¦141405 on us through¦141409 Yeshua¦141410 the messiah¦141411"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "so that we might become¦141423 heirs¦141421 with the expectation of living forever, having¦141416 been declared that we have no outstanding legal charges thanks to his grace¦141420."
-          ],
-          "verseText": "so that we might become¦141423 heirs¦141421 with the expectation of living forever, having¦141416 been declared that we have no outstanding legal charges thanks to his grace¦141420."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "That statement can be trusted. I want you to confirm¦141436 those things so that those who have believed¦141443 in",
-            {
-              "nd": "God¦141445",
-              "closing": "\\nd*"
-            },
-            "will be leading¦141441 in wanting to do good things. These¦141446 things are good and benefit¦141451 everyone¦141453.",
-            {
-              "rem": "/s1 Final instructions"
-            },
-            {
-              "rem": "/s1 Paul's Final Remarks and Greetings"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "That statement can be trusted. I want you to confirm¦141436 those things so that those who have believed¦141443 in God¦141445 will be leading¦141441 in wanting to do good things. These¦141446 things are good and benefit¦141451 everyone¦141453."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "But avoid¦141465 foolish¦141454 debates¦141456, arguments about ancestry, other strife¦141460, and quarrels¦141463 about the commandments because they¦141466 all achieve nothing and waste time."
-          ],
-          "verseText": "But avoid¦141465 foolish¦141454 debates¦141456, arguments about ancestry, other strife¦141460, and quarrels¦141463 about the commandments because they¦141466 all achieve nothing and waste time."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "Refuse to listen to a divisive person¦141472 after¦141473 you've given them two warnings"
-          ],
-          "verseText": "Refuse to listen to a divisive person¦141472 after¦141473 you've given them two warnings"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "knowing¦141479 that such people condemn themselves by their corruption and¦141484 sinful attitude.",
-            {
-              "s1": "Closing"
-            },
-            {
-              "rem": "/s1 Final Messages and Benediction"
-            },
-            {
-              "rem": "/s1 Final Remarks"
-            },
-            {
-              "rem": "/s1 Final Instructions"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "knowing¦141479 that such people condemn themselves by their corruption and¦141484 sinful attitude."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:12:"
-                },
-                {
-                  "xt": "Acts 20:4; Eph 6:21-22; Col 4:7-8; 2Tim 4:12."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "Whenever¦141488 I send¦141489 Artemas¦141490 or Tychicus to you, you should try to meet me at Nicopolis, because¦141502 I've decided to spend the winter¦141504 there¦141501."
-          ],
-          "verseText": "Whenever¦141488 I send¦141489 Artemas¦141490 or Tychicus to you, you should try to meet me at Nicopolis, because¦141502 I've decided to spend the winter¦141504 there¦141501."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:13:"
-                },
-                {
-                  "xt": "Acts 18:24; 1Cor 16:12."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "Help by sending Zenas the lawyer¦141507 and¦141508 Apollos¦141509 on their way so that they won't be needing anything."
-          ],
-          "verseText": "Help by sending Zenas the lawyer¦141507 and¦141508 Apollos¦141509 on their way so that they won't be needing anything."
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "Our people¦141521 must also be learning¦141517 to be leading¦141524 in doing good¦141522 things to meet the necessary¦141527 needs¦141528 so that they¦141531 won't be unproductive.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Our people¦141521 must also be learning¦141517 to be leading¦141524 in doing good¦141522 things to meet the necessary¦141527 needs¦141528 so that they¦141531 won't be unproductive."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "Everyone here with me sends their greetings to you. And please greet the ones there for us who love us in the faith¦141545.",
-            {
-              "p": [
-                "May",
-                {
-                  "add": "God's",
-                  "closing": "\\add*"
-                },
-                "grace¦141547 be with all of you."
-              ]
-            }
-          ],
-          "verseText": "Everyone here with me sends their greetings to you. And please greet the ones there for us who love us in the faith¦141545. May God's grace¦141547 be with all of you."
-        }
-      ]
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1:1-4"
+     ]
     }
-  ],
-  "_messages": {
-    "_warnings": []
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The correct behaviour of officials there to group of believers ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1:5-16"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The correct behaviour of various people there to group of believers ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "2:1-15"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Defining good behaviour and the warning ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "3:1-11"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Ending ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "3:12-15"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "This is still a very early look into the unfinished text of the Open English Translation of the Bible. Please double-check the text in advance before using in public.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ie",
+   "content": []
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "1",
+   "sid": "TIT 1"
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Salutation; Greetings from Paul\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "TIT 1:1"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "This letter is from"
+     ]
+    },
+    " Paul, a slave¦139882 of God and a missionary of ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦139888"
+     ]
+    },
+    " and follower of the faith¦139890 of the ones that¦139896 God has chosen.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    "I share the knowledge¦139894 of the truth¦139895 which¦139896 leads to godliness\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "TIT 1:2"
+    },
+    "and the expectation of living forever which¦139903 God promised¦139904 before¦139908 time began. And God can’t lie\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "TIT 1:3"
+    },
+    "but¦139912 revealed¦139911 his message¦139916 in his own time, and I’ve been entrusted¦139921 to proclaim¦139919 this by the command¦139924 of ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦139928"
+     ]
+    },
+    " our¦139927 saviour¦139926.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "TIT 1:4"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:4: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "2Cor 8:23; Gal 2:3; 2Tim 4:10."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "To Titos¦139929, my true son due to our common¦139933 faith¦139934. May ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦139940"
+     ]
+    },
+    " the father¦139941 and our saviour¦139948 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦139944"
+     ]
+    },
+    " give you grace¦139935 and peace¦139938.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Qualifications for leaders\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Christian discipline; Titos’ Task on Crete; Titos’ Work in Crete; Titos in Crete\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "TIT 1:5"
+    },
+    "The reason¦139951 that I asked you to stay behind¦139952 in Crete¦139957 was so that you would find what needed to be reorganised and so that you would appoint¦139965 elders¦139968 in every city¦139967 just as I had directed¦139972 you.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "TIT 1:6"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:6-9: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "1Tim 3:2-7."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "Each elder must have a clean record, be the husband¦139979 of one wife¦139978, and have believing¦139982 children¦139980 who are not wild or disobedient.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "TIT 1:7"
+    },
+    "Any overseer¦139992 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "in the assembly"
+     ]
+    },
+    " as a manager¦139997 working for ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦139996"
+     ]
+    },
+    " must have a clean record, not be self-centred, not be quick to get angry, not addicted to wine, not a bully¦140005, and not greedy¦140007,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "TIT 1:8"
+    },
+    "but¦140008 rather hospitable¦140009, someone who loves what is good¦140010, sensible¦140011, honest, loves God, and self-controlled.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "TIT 1:9"
+    },
+    "He must hold faithfully¦140020 to the message that was taught¦140019, so that he will be effective in encouraging others with sound¦140034 teaching and to be rebuking¦140038 those who speak¦140037 against¦140037 the message.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Handling those who go off the track\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "TIT 1:10"
+    },
+    "There’s plenty of people who don’t want to be told what to do, empty talkers¦140044 and¦140045 outright deceivers¦140046, especially those that push the letter of the law.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "TIT 1:11"
+    },
+    "These people need to be silenced¦140055 because they mess up whole¦140057 families when they teach¦140060 them things that they shouldn’t¦140062—all for the sake of shameful¦140065 game.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "TIT 1:12"
+    },
+    "One of their¦140071 own prophets¦140075 said¦140068 that the people from Crete¦140076 are liars¦140078, evil¦140079 beasts¦140080, and lazy gluttons,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "TIT 1:13"
+    },
+    "and that’s right. For those reasons, you need to sternly tell them they’re wrong, so that they can become sound¦140095 in their faith¦140098,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "TIT 1:14"
+    },
+    "and¦140103 not pay attention to Jewish myths¦140102 or human¦140105 rules which turn people away from the truth¦140108.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "TIT 1:15"
+    },
+    "For someone who’s pure in their thinking, everything is pure to them, but¦140117 for unbelievers¦140118 and those who’ve strayed from the truth, nothing¦140119 is pure because their minds and consciences¦140129 have already been damaged—\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "TIT 1:16"
+    },
+    "they say that they know ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦140130"
+     ]
+    },
+    ", but¦140139 their¦140133 actions show that they don’t, and so they’re detestable¦140137. They can no longer accept teaching so they’re unsuitable for any good¦140145 work¦140144.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "2",
+   "sid": "TIT 2"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Proper behaviour for believers\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Teach Sound Doctrine; Promote Right Teaching; What Must Be Taught to Various Groups\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "TIT 2:1"
+    },
+    "But you¦140147, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Titos,"
+     ]
+    },
+    " only ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈teach¦140155 what’s consistent with sound¦140154 doctrine"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "TIT 2:2"
+    },
+    "Older men¦140156 should be sober¦140157, dignified¦140159, sensible¦140160, and sound¦140161 in their faith¦140163, their love¦140165, and their endurance¦140167.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "TIT 2:3"
+    },
+    "Likewise older¦140168 women¦140168 should honour god by their behaviour¦140171, not making false accusations, not addicted to a lot of wine. They should teach¦140181 what is good¦140181\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "TIT 2:4"
+    },
+    "so that they¦140184 can train the younger women¦140186 to love their husbands¦140187 and children¦140189,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "TIT 2:5"
+    },
+    "and to be sensible¦140190 and pure, homemakers¦140192 that do good¦140193 for others, living under the authority of their¦140196 husbands¦140198 so that others don’t¦140200 speak evil of God’s message¦140202 because of them.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "TIT 2:6"
+    },
+    "Also encourage younger¦140210 men¦140210 to be sensible¦140213.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "TIT 2:7"
+    },
+    "Be a good¦140220 example¦140219 in everything you do and in your teaching¦140224. Don’t be led astray, maintain your dignity¦140229,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "TIT 2:8"
+    },
+    "watch every word that comes out of your lips, stay above reproach—all this so that those who oppose us can be reached because there’s nothing¦140239 bad¦140247 they can say about us.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "TIT 2:9"
+    },
+    "Slaves¦140248 need to conform to their master’s commands, aiming to please¦140255. They shouldn’t¦140257 speak¦140258 against¦140258 their masters¦140250\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "TIT 2:10"
+    },
+    "or be pilfering from them, rather they¦140276 should display¦140265 their good¦140266 faith¦140264 so that¦140270 their actions add to the teachings¦140269 of ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦140275"
+     ]
+    },
+    " our¦140274 saviour¦140272.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "TIT 2:11"
+    },
+    "This is because¦140280 God’s grace¦140282 which offers salvation¦140286 to all people¦140289 has appeared¦140279\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "TIT 2:12"
+    },
+    "and teaches us that when we distance ourselves from ungodliness¦140297 and worldly¦140300 lusts¦140301, we can live¦140307 sensibly¦140302 and justly¦140304 and devoutly¦140306 in the present¦140310 age.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "TIT 2:13"
+    },
+    "Then we can look forward to the blessing¦140314 of the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈majestic appearance¦140317"
+     ]
+    },
+    " of our¦140325 great¦140321 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦140322"
+     ]
+    },
+    " and saviour¦140324, ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦140328"
+     ]
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "TIT 2:14"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:14: a "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Psa 130:8; "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "b "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Exo 19:5; Deu 4:20; 7:6; 14:2; 1Pe 2:9."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "who gave¦140330 himself for us in order¦140335 to redeem¦140336 us from all lawlessness¦140340 and to purify¦140342 us into his chosen¦140345 people¦140344, eager to do good¦140347 things.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "TIT 2:15"
+    },
+    "Teach these¦140349 things as you encourage some and scold others, but¦140352 don’t let anyone¦140359 disrespect¦140361 you.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "3",
+   "sid": "TIT 3"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Expected behaviour\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Maintain Good Deeds; Christian Conduct; Doing What is Good; Do What Is Good\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "TIT 3:1"
+    },
+    "Remind people to conform to their rulers¦140365 and authorities¦140367, being¦140368 obedient and ready¦140376 to do anything that’s good¦140374.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "TIT 3:2"
+    },
+    "Don’t slander¦140379 others, be peaceable¦140380. Don’t be strong-willed, but rather show gentleness¦140382 to all people¦140391.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "TIT 3:3"
+    },
+    "We were also foolish¦140397 and stubborn at one time, straying¦140399 from the good and giving in to various¦140405 lusts¦140402 and pleasures, being¦140399 mean and envious, even full of hate and hating¦140412 one another¦140413.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "TIT 3:4"
+    },
+    "But¦140418 when ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦140425"
+     ]
+    },
+    " our¦140424 saviour¦140423 revealed his kindness¦140417 and¦140418 love¦140420 for humankind,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "TIT 3:5"
+    },
+    "he saved¦140443 us, not because of the ‘good deeds’ that¦140429 we did, but¦140449 out of his mercy¦140441. He regenerated¦140448 us through¦140445 washing¦140447 and renewed¦140450 us by ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "his"
+     ]
+    },
+    " holy ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "spirit¦140451"
+     ]
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "TIT 3:6"
+    },
+    "which he lavishly poured¦140454 on us through¦140458 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua¦140459"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦140460"
+     ]
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "TIT 3:7"
+    },
+    "so that we might become¦140472 heirs¦140470 with the expectation of living forever, having¦140465 been declared that we have no outstanding legal charges thanks to his grace¦140469.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "TIT 3:8"
+    },
+    "That statement can be trusted. I want you to confirm¦140485 those things so that those who have believed¦140492 in ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦140494"
+     ]
+    },
+    " will be leading¦140490 in wanting to do good things. These¦140495 things are good and benefit¦140500 everyone¦140502.\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Paul’s Final Remarks and Greetings; Final instructions\n"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "TIT 3:9"
+    },
+    "But¦140506 avoid¦140514 foolish¦140503 debates¦140505, arguments about ancestry, other strife¦140509, and quarrels¦140512 about ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "God’s"
+     ]
+    },
+    " commands because they¦140515 all achieve nothing and waste time.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "TIT 3:10"
+    },
+    "Refuse to listen to a divisive person¦140521 after¦140522 you’ve given them two warnings\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "TIT 3:11"
+    },
+    "knowing¦140528 that such people condemn themselves by their corruption and¦140533 sinful attitude.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Closing\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Final Remarks; Final Instructions; Final Messages and Benediction\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "TIT 3:12"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:12: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 20:4; Eph 6:21-22; Col 4:7-8; 2Tim 4:12."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "Whenever¦140537 I send¦140538 Artemas¦140539 or Tychicus¦140543 to you, you should try to meet me at Nicopolis¦140549, because¦140551 I’ve¦140552 decided to spend the winter¦140553 there¦140550.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "TIT 3:13"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:13: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 18:24; 1Cor 16:12."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "Help by sending Zenas¦140554 the lawyer¦140556 and¦140557 Apollos¦140558 on their way so that they won’t be needing anything.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "TIT 3:14"
+    },
+    "Our people¦140571 must also be learning¦140567 to be leading¦140574 in doing good¦140572 things to meet the necessary¦140577 needs¦140578 so that they¦140581 won’t¦140580 be unproductive.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "TIT 3:15"
+    },
+    "Everyone here with me sends their greetings to you. And please greet the ones there for us who love us in the faith¦140595.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    "May ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "God’s"
+     ]
+    },
+    " grace¦140597 be with all of you.\n"
+   ]
   }
+ ]
 }

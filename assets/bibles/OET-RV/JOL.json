@@ -1,1512 +1,3762 @@
 {
-  "book": {
-    "bookCode": "JOL",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.0.02",
-    "meta": [
-      {
-        "usfm": "3.0"
-      },
-      {
-        "ide": "UTF-8"
-      },
-      {
-        "rem": "ESFM v0.6 JOL"
-      },
-      {
-        "rem": "WORDTABLE OET-LV_OT_word_table.tsv"
-      },
-      {
-        "h": "Yoel"
-      },
-      {
-        "toc1": "Yoel (Joel)"
-      },
-      {
-        "toc2": "Yoel"
-      },
-      {
-        "toc3": "Yoel"
-      },
-      {
-        "mt1": "Yoel (Joel)"
-      },
-      {
-        "is1": "Introduction"
-      },
-      {
-        "ip": "This account was written around 400-500 years before the birth of Yeshua (Jesus) the Messiah, at a time is ruled of other nations the kings of Pirsya. The telling of this story is prophet Huwil child of Pituwil."
-      },
-      {
-        "ip": "Written this document due to because revelation of God to Huwil the concerning the warning of judging and punishment of God of nations. Te phappening here, saw his the one sign of arrival of day of Master God, the time is punishment of God of that disobeyed of desire his good. Impanengneng of prophet the calling of Master God of people so that repent them of sins their. Impanengneng din again the promise of Master God return din the good living of his people and egpanalanginan din them. Written again here of this document the promise of Master God send he of Spirit din there to all his people."
-      },
-      {
-        "iot": "Main components of this “book”"
-      },
-      {
-        "io1": [
-          "The salerep is the pegdalapak of me talangas",
-          {
-            "ior": "1:1–2:17",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The promise of pegpalibed of good living",
-          {
-            "ior": "2:18-27",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The day of Master God",
-          {
-            "ior": "2:28–3:21",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "rem": [
-          "This is still a very early look into the unfinished text of the",
-          {
-            "em": "Open English Translation",
-            "closing": "\\em*"
-          },
-          "of the Bible. Please double-check the text in advance before using in public."
-        ]
-      },
-      {
-        "ie": ""
-      }
-    ]
+ "type": "USJ",
+ "version": "3.1",
+ "content": [
+  {
+   "type": "book",
+   "marker": "id",
+   "code": "JOL",
+   "content": [
+    "- Open English Translation—Readers’ Version (OET-RV) v0.1.10"
+   ]
   },
-  "chapters": [
+  {
+   "type": "para",
+   "marker": "ide",
+   "content": [
+    "UTF-8\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "ESFM v0.6 JOL\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "WORDTABLE OET-LV_OT_word_table.tsv\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "h",
+   "content": [
+    "Yoel\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc1",
+   "content": [
+    "Yoel (Joel)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc2",
+   "content": [
+    "Yoel\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc3",
+   "content": [
+    "Yoel\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt1",
+   "content": [
+    "Yoel\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt2",
+   "content": [
+    "(Joel)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "is1",
+   "content": [
+    "Introduction\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "This account was written around 400-500 before Yeshua/Jesus (B.C.), at a time when other nations were being ruled over by the Persian kings. Yahweh’s message is brought to the people via Petuel’s son, Yoel (Joel).\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "This document was written because God’s revelation to Yoel included warnings about his coming judgement and punishment of the surrounding nations, known as ",
     {
-      "chapterNumber": "1",
-      "contents": [
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "◙",
-            {
-              "s1": "The peglungku due to me talangas"
-            },
-            {
-              "rem": "/s1 Lament over the Ruin of the Country; An Invasion of Locusts; The People Mourn the Destruction of the Crops; The day of the Lord; Mourning over the Locust Plague"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:6:"
-                },
-                {
-                  "xt": "Rev 9:8."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": ""
-            },
-            {
-              "rem": "/s1 A Call to Repentance and Prayer; A Call to Repentance"
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:15:"
-                },
-                {
-                  "xt": "Isa 13:6."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            }
-          ],
-          "verseText": "◙ … …"
-        }
-      ]
+     "type": "char",
+     "marker": "em",
+     "content": [
+      "Yahweh’s day"
+     ]
     },
+    ". When that day arrived, it would be the time for God’s punishment of all those who had disobeyed him. The prophet explained that Yahweh was calling his people to turn away from their sinful lifestyles, and then he followed this up with a promise that his people would again live peaceful and prosperous lives and receive his blessings. It’s also recorded here how Yahweh promised to send his spirit to all people groups.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "iot",
+   "content": [
+    "Main components of this document\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The plague of destruction by locusts ",
     {
-      "chapterNumber": "2",
-      "contents": [
-        {
-          "s1": "The day of Master God"
-        },
-        {
-          "rem": "/s1 An Army of Locusts; Locusts Invade like an Army; The Locusts as a Warning of the Day of the Lord"
-        },
-        {
-          "q1": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … … …"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:4-5:"
-                },
-                {
-                  "xt": "Rev 9:7-9."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:10:"
-                },
-                {
-                  "xt": "Rev 8:12."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:11:"
-                },
-                {
-                  "xt": "Rev 6:17."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "s1": "The pegbanasal of God repent of sin"
-            },
-            {
-              "rem": "/s1 Rend Your Heart; A Call to Repentance"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … … …"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … …"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "s1": "The pegpalibed of kalambeg of land"
-            },
-            {
-              "rem": "/s1 God Restores Fertility to the Land; The Lord's Promise of Restoration; God's Response and Promise; Israel forgiven and restored; The Lord's Answer"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … … …"
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … … …"
-        },
-        {
-          "verseNumber": "21",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "22",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "23",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "24",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "25",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "26",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "27",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "s1": "The giving of God of Spirit din"
-            },
-            {
-              "rem": "/s1 The Lord's Promise of His Spirit; The Day of the Lord; God's Spirit Poured Out"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "28",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … …"
-        },
-        {
-          "verseNumber": "29",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "s1": "The warning concerning the day of Master"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "30",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "31",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:31:"
-                },
-                {
-                  "xt": "Mat 24:29; Mrk 13:24-25; Luk 21:25; Rev 6:12-13."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "32",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:28-32:"
-                },
-                {
-                  "xt": "Acts 2:17-21."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            }
-          ],
-          "verseText": "◙ … … …"
-        }
-      ]
-    },
-    {
-      "chapterNumber": "3",
-      "contents": [
-        {
-          "s1": "The judging of God of nations"
-        },
-        {
-          "rem": "/s1 God Will Judge the Nations; Judgment against Enemy Nations; The Nations Judged"
-        },
-        {
-          "q1": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … … …"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:4-8:"
-                },
-                {
-                  "xt": "Isa 23:1-18; Eze 26:1–28:26; Amos 1:9-10; Zech 9:1-4; Mat 11:21-22; Luk 10:13-14."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "◙"
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "◙",
-            {
-              "q1": ""
-            },
-            {
-              "rem": "/s1 Judgment in the Valley of Jehoshaphat"
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:10:"
-                },
-                {
-                  "xt": "Isa 2:4; Mic 4:3."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            },
-            {
-              "rem": "/s1 God Will Bless His People"
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:16:"
-                },
-                {
-                  "xt": "Amos 1:2."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "s1": "The blessing of God of his people"
-            },
-            {
-              "rem": "/s1 The Glorious Future of Judah; Blessings for God's People"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … … …"
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            "◙",
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "21",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            }
-          ],
-          "verseText": "◙ … …"
-        }
-      ]
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1:1–2:17"
+     ]
     }
-  ],
-  "_messages": {
-    "_warnings": []
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The promise of restoration of a peaceful life ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "2:18-27"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Yahweh’s day of action ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "2:28–3:21"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "This is still a very early look into the unfinished text of the Open English Translation of the Bible. Please double-check the text in advance before using in public.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ie",
+   "content": []
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "1",
+   "sid": "JOL 1"
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "JOL 1:1"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "This is"
+     ]
+    },
+    " Yahweh’s¦366524 message¦366522 that¦366525 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈came¦366526"
+     ]
+    },
+    " to Petuel’s¦366532 son Yoel¦366529 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Joel)"
+     ]
+    },
+    ":\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Destruction by locusts\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Lament over the Ruin of the Country; An Invasion of Locusts; The People Mourn the Destruction of the Crops; The day of the Lord; Mourning over the Locust Plague\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "JOL 1:2"
+    },
+    "Hear this, you elders¦366537,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and listen¦366538, all ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈you people that live in this country"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Has this ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈sort of thing ever happened¦366542 in your lifetime"
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈or in the days of your ancestors¦366547?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "JOL 1:3"
+    },
+    "Tell your children about it,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and your children to their children,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and their children to the following generation¦366555.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "JOL 1:4"
+    },
+    "What the cutting¦366559 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#locusts"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈left behind"
+     ]
+    },
+    ", the swarming ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#locusts"
+     ]
+    },
+    " have eaten,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and what the swarming ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#locusts"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈left behind"
+     ]
+    },
+    ", the hopping ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#locusts"
+     ]
+    },
+    " have eaten,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and what the hopping ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#locusts"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈left behind"
+     ]
+    },
+    ", the destroying¦366569 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#locusts"
+     ]
+    },
+    " have eaten.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "JOL 1:5"
+    },
+    "Wake up, drunkards¦366572, and weep.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Yes,"
+     ]
+    },
+    " wail, all you¦366577 wine drinkers¦366577.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Wail about the sweet¦366581 wine, because¦366582 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈it’s all gone now"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "JOL 1:6"
+    },
+    "Because a powerful nation¦366588 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(of locusts)"
+     ]
+    },
+    " with innumerable ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "soldiers"
+     ]
+    },
+    " has come¦366589 against my land,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Its teeth are like a lion’s teeth,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and the fangs¦366599 are like those of a lioness.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:6: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Rev 9:8."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "JOL 1:7"
+    },
+    "It’s made my grapevine¦366604 into a ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈piece of rubbish"
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and my fig¦366606 tree¦366606 into splinters¦366607.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Stripping ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "everything"
+     ]
+    },
+    ", it’s stripped¦366608 it and thrown¦366610 it away.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Its branches¦366612 have become¦366611 white¦366611 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(without the bark)"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "JOL 1:8"
+    },
+    "Mourn like a ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈young woman"
+     ]
+    },
+    " dressed in sackcloth¦366618 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "after losing"
+     ]
+    },
+    " her¦366622 young husband¦366621.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "JOL 1:9"
+    },
+    "The grain¦366625 offering and¦366626 the drink¦366626 offering have been ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈discontinued"
+     ]
+    },
+    " at Yahweh’s ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈temple"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The priests¦366630 mourn¦366629—Yahweh’s servants.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "JOL 1:10"
+    },
+    "The countryside has been devastated.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The soil mourns, because¦366638 the grain¦366640 has been destroyed.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The new wine dried up,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈The fresh¦366644 oil¦366644 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈isn’t good"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "JOL 1:11"
+    },
+    "Feel shame, farmers¦366647, for the wheat¦366652 and¦366653 for the barley¦366655.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Wail, vinedressers¦366649, because¦366656 the harvest¦366658 from the countryside¦366659 has perished¦366657.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "JOL 1:12"
+    },
+    "The grapevine¦366661 has dried up and the fig¦366663 tree has been made weak.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈The pomegranate¦366665 tree, also the palm¦366668 tree and the apple¦366669 tree, all of the trees¦366672 across the countryside¦366673 have dried up.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "→So humanity’s¦366682 joy¦366678 has dried up.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "JOL 1:13"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Get dressed"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "in sackcloth"
+     ]
+    },
+    " and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈sing dirges"
+     ]
+    },
+    ", you priests¦366687.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 A Call to Repentance and Prayer; A Call to Repentance\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Wail, you servants of the altar¦366690.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Come, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈spend¦366692 the night¦366692"
+     ]
+    },
+    " in sackcloth, servants of my god,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦366696 the grain¦366700 offering and the drink¦366701 offering have been withheld¦366697 from the house¦366698 of your god.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "JOL 1:14"
+    },
+    "Consecrate¦366703 a fast,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈call an assembly¦366707.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Gather the elders¦366709 and all the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈residents of the country"
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "to the house¦366713 of Yahweh your¦366715 god¦366715,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and cry¦366716 out to Yahweh.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "JOL 1:15"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈What a terrible"
+     ]
+    },
+    " day,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦366723 Yahweh’s¦366726 day is near,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and it will come as destruction¦366727 from the powerful one.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:15: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Isa 13:6."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "JOL 1:16"
+    },
+    "Hasn’t our food been cut off ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈right in front of"
+     ]
+    },
+    " our eyes¦366734,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "and"
+     ]
+    },
+    " joy¦366739 and gladness¦366740 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≡cut off"
+     ]
+    },
+    " from God’s house¦366737?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "JOL 1:17"
+    },
+    "The seeds¦366743 have shrivelled¦366742 under¦366744 their¦366745 clods¦366745.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The storehouses¦366747 are ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈in ruins"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The granaries¦366749 have been torn down,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦366750 the grain¦366752 has dried¦366751 up.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "JOL 1:18"
+    },
+    "How the livestock¦366757 groan¦366756.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈The herds¦366759 of cattle¦366760 are perplexed,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦366761 there’s¦366762 no pasture¦366763 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "to graze"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Also the flocks¦366767 of sheep¦366768 have suffered¦366769.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "JOL 1:19"
+    },
+    "I¦366773 call ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "for help"
+     ]
+    },
+    " to you¦366771, Yahweh¦366772,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦366774 fire¦366775 has devoured the pastures¦366777 in the wilderness¦366778,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦366779 the flame¦366779 has burnt all the trees¦366783 in the countryside¦366784.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "JOL 1:20"
+    },
+    "Even the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈wild animals¦366788"
+     ]
+    },
+    " pant for you¦366791,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦366792 the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈streams"
+     ]
+    },
+    " of water¦366795 have dried¦366793 up,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦366796 fire¦366796 has ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈destroyed¦366797"
+     ]
+    },
+    " the pastures¦366798 in the wilderness¦366799.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "2",
+   "sid": "JOL 2"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Yahweh’s day arrives\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 An Army of Locusts; Locusts Invade like an Army; The Locusts as a Warning of the Day of the Lord\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Southern kingdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "JOL 2:1"
+    },
+    "Blow the shofar in¦366804 Tsiyyon¦366804 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Zion¦366804)"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and shout on¦366804 the mountain¦366806 of my holiness¦366807.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Let all of the country’s residents tremble¦366808,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦366812 Yahweh’s¦366817 day¦366815 is coming,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈yes,"
+     ]
+    },
+    " it’s close.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "JOL 2:2"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≡It’ll be"
+     ]
+    },
+    " a day of darkness and gloom¦366823—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "a day of clouds¦366825 and thick¦366826 darkness\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "like the dawn being spread¦366828 out on the mountains¦366831.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "There hasn’t been a great and mighty¦366834 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈army"
+     ]
+    },
+    " like that ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈since¦366838 the beginning of time"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and after¦366841 it there won’t¦366836 be again ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈for many generations"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "JOL 2:3"
+    },
+    "A devouring fire¦366852 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈goes ahead of it"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and behind it a flame¦366855 is burning¦366852.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Ahead of it"
+     ]
+    },
+    ", the land is like the garden¦366856 of Eden¦366858,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "but¦366853 behind it is a wilderness¦366862 of desolation¦366863,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and indeed, there’s no escape¦366866 from it.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "JOL 2:4"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈At first"
+     ]
+    },
+    ", it appears¦366874 like horses,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and they run like war horses.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:4-5: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Rev 9:7-9."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "JOL 2:5"
+    },
+    "Like the sound of chariots¦366880, they¦366885 leap along the tops of the hills—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "like the sound of flames¦366887 devouring stubble¦366890,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "like a mighty¦366892 people¦366891 organised for war.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "JOL 2:6"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈People flinch in horror"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈when they see them coming"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "All of their¦366896 faces¦366901 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈turn dark"
+     ]
+    },
+    ".",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "Joel 2:6b "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "We don’t have a good understanding of an uncommon Hebrew word used here, so other translations might differ."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "JOL 2:7"
+    },
+    "They run¦366906 like warriors¦366905.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Like men¦366907 of war, they climb the wall¦366910.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Then they walk, each man ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈choosing his own way forward"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and they don’t¦366914 veer off their¦366916 paths¦366916.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "JOL 2:8"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈There’s no jostling¦366921 each other"
+     ]
+    },
+    "—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "each man marches¦366924 straight forward.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈handle those who present weapons¦366926 against them"
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦366918 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈their progress isn’t¦366920 interrupted"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "JOL 2:9"
+    },
+    "They rush upon the city¦366931.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They run¦366934 along the wall¦366933.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They climb through¦366937 the windows¦366938 into the houses¦366935 like thieves.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "JOL 2:10"
+    },
+    "The earth¦366944 shakes¦366945 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈as they approach"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈The heavens¦366946 tremble¦366943.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The sun¦366947 and the moon¦366948 become¦366949 dark,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and the stars¦366950 cease their¦366952 shining¦366952.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:10: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Rev 8:12."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "JOL 2:11"
+    },
+    "Yahweh¦366954 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈speaks in front¦366957"
+     ]
+    },
+    " of his army,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈there’s a huge¦366960 number of them"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈those executing his commands¦366966 are very powerful"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Yes¦366972,"
+     ]
+    },
+    " Yahweh’s¦366954 day¦366970 is really terrible,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦366954 who could ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "possibly"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈survive"
+     ]
+    },
+    " it¦366976?",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:11: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Rev 6:17."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "A call for genuine repentance\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Rend Your Heart; A Call to Repentance\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Southern kingdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "JOL 2:12"
+    },
+    "Yahweh¦366983 declares: Even now,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "return¦366984 to me with all of your¦366988 hearts¦366988,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and with fasting¦366989 and weeping¦366990, and with mourning¦366992.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "JOL 2:13"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Yes,"
+     ]
+    },
+    " tear your hearts¦366995 and not your clothes¦366998,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and return¦366999 to your god¦367003 Yahweh¦367002,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦367004 he’s gracious¦367006 and merciful,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈slow to get angry, but¦366994 displaying"
+     ]
+    },
+    " loyal¦367013 commitment,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and relenting¦367014 from sending disaster¦367017.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "JOL 2:14"
+    },
+    "Who knows? He might ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈change his mind"
+     ]
+    },
+    " and relent¦367022\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and leave¦367023 a blessing¦367025 after him¦367024:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "grain¦367026 and wine ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "that you can all use as"
+     ]
+    },
+    " offerings for your¦367029 god¦367029 Yahweh¦367028.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "JOL 2:15"
+    },
+    "Blow the shofar in¦367034 Tsiyyon¦367034,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈declare"
+     ]
+    },
+    " a fast,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈announce"
+     ]
+    },
+    " an assembly¦367039.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "JOL 2:16"
+    },
+    "Gather¦367041 the people¦367043,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈consecrate¦367044 the congregation,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈assemble¦367045 the elders¦367047,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "gather the children¦367049\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and the ones suckling the breasts¦367051.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "May the bridegroom come out from his chamber¦367056\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and the bride from her¦367056 room.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "JOL 2:17"
+    },
+    "Let Yahweh’s¦367064 servants the priests¦367062 weep between the porch¦367059 and the altar¦367060.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "And let them say, “Have pity upon your people, Yahweh,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and don’t¦367071 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈allow others to mock"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈the people that you inherited¦367074"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and then ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "other"
+     ]
+    },
+    " nations to rule over them.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Why should¦367061 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈the other nations ask"
+     ]
+    },
+    ", ‘Where is their¦367084 god¦367084?’ ”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The restoration of the harvests\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 God Restores Fertility to the Land; The Lord’s Promise of Restoration; God’s Response and Promise; Israel forgiven and restored; The Lord’s Answer\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Southern kingdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "JOL 2:18"
+    },
+    "Then¦367086 Yahweh¦367087 was jealous¦367086 for his land,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦367086 he had pity on his people¦367092.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "JOL 2:19"
+    },
+    "Then¦367094 Yahweh¦367095 answered¦367094 and told his people¦367097,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“Listen, I’ll send¦367099 you grain¦367103 and new wine and oil¦367105,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and it’ll be enough for you all,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and I’ll no longer make you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈a country for the other nations¦367114 to mock"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "JOL 2:20"
+    },
+    "And I will distance the northern¦367118 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "army"
+     ]
+    },
+    " from you,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and I will banish ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#them"
+     ]
+    },
+    " into a land of dryness¦367125 and desolation¦367126—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#their"
+     ]
+    },
+    " face into the eastern¦367133 sea\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#their"
+     ]
+    },
+    " back into the western¦367138 sea.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#Their"
+     ]
+    },
+    " stench¦367140 will rise,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#their"
+     ]
+    },
+    " odour will spread,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦367143 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#they’ve"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈made many powerful moves"
+     ]
+    },
+    ".”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "JOL 2:21"
+    },
+    "Don’t¦367147 fear¦367149, land. Be¦367150 glad and celebrate,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦367153 Yahweh¦367156 has been ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈doing¦367157 powerful things"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "JOL 2:22"
+    },
+    "Don’t¦367162 worry, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "you"
+     ]
+    },
+    " animals¦367162 in the countryside¦367163,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦367164 the pastures¦367166 in the wilderness¦367167 have sprouted,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and the tree has borne¦367171 its fruit¦367172—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "the fig¦367173 tree and the grapevine¦367174 have ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈produced their¦367176 best"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "JOL 2:23"
+    },
+    "And be glad, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "you"
+     ]
+    },
+    " descendants of Tsiyyon¦367179 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Zion¦367179)"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and celebrate about your god¦367183 Yahweh¦367182,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦367184 he’s given¦367186 you the early rain as vindication¦367191,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and he’s brought down showers for you—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "the early rains and the late rains ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈like before¦367197"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "JOL 2:24"
+    },
+    "Then¦367199 the threshing¦367200 floors¦367200 will be full of grain¦367201,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and the vats will overflow¦367202 with ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈grape juice"
+     ]
+    },
+    " and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "olive"
+     ]
+    },
+    " oil¦367205.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "25",
+     "sid": "JOL 2:25"
+    },
+    "“And I will restore¦367207 to you the years¦367211 that the swarming¦367214 locust and the hopping locust,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "the destroying¦367216 locust and the cutting locust have eaten¦367213—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "my huge¦367219 army that I sent¦367221 among¦367222 you.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "26",
+     "sid": "JOL 2:26"
+    },
+    "You’ll all eat¦367224 and be full,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and you’ll praise¦367227 the name¦367230 of your¦367232 god¦367232 Yahweh¦367231,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "who’s done ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈miracles among you all"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and my people¦367241 will never feel shamed.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "27",
+     "sid": "JOL 2:27"
+    },
+    "Then¦367244 you’ll all know¦367244 that I’m ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈right there in¦367246"
+     ]
+    },
+    " Yisrael¦367247 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Israel¦367247)"
+     ]
+    },
+    "—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "that I’m your¦367251 god¦367251 Yahweh¦367250 and there isn’t¦367254 any other,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and my people¦367257 will never feel shamed.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Yahweh’s spirit poured out\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Lord’s Promise of His Spirit; The Day of the Lord; God’s Spirit Poured Out\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "28",
+     "sid": "JOL 2:28"
+    },
+    "And it will happen after that,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "that I’ll pour out my spirit onto all ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈peoples"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and your sons and your daughters will prophesy.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Your elderly will dream dreams,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Your young people will see visions.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "29",
+     "sid": "JOL 2:29"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈At that time"
+     ]
+    },
+    " I’ll pour out my spirit\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "even on the male and female slaves.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The warning about Yahweh’s day\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Southern kingdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "30",
+     "sid": "JOL 2:30"
+    },
+    "Then I’ll ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈do miracles"
+     ]
+    },
+    " in the skies and on the earth—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "blood and fire and columns of smoke.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "31",
+     "sid": "JOL 2:31"
+    },
+    "The sun will be turned into darkness\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and the moon into blood,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈ahead"
+     ]
+    },
+    " of the coming of Yahweh’s incredible yet scary day.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:31: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Mat 24:29; Mrk 13:24-25; Luk 21:25; Rev 6:12-13."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "32",
+     "sid": "JOL 2:32"
+    },
+    "Then it will happen that everyone who calls on Yahweh’s name will be saved,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because on Mt. Tsiyyon and in Yerushalem there’ll be ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "a way of"
+     ]
+    },
+    " escape, just as Yahweh has said,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and among the survivors who Yahweh is calling.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:28-32: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 2:17-21."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "3",
+   "sid": "JOL 3"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Yahweh’s judgement of the nations\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 God Will Judge the Nations; Judgment against Enemy Nations; The Nations Judged\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "JOL 3:1"
+    },
+    "Listen, in those days and at that time\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "when I return ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈those who were taken away as captives from"
+     ]
+    },
+    " Yehudah and Yerushalem,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "JOL 3:2"
+    },
+    "then I’ll gather all the nations,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and bring them down to Yehoshafat’s valley.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Then I’ll judge them there\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because they scattered my people—Yisrael my inheritance—among the nations,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and they divided up my land.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "JOL 3:3"
+    },
+    "Then¦367301 they threw ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈dice"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "to decide who’d get"
+     ]
+    },
+    " my people—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "they traded a boy for a prostitute,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and sold a girl for wine ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈so they could drink"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "JOL 3:4"
+    },
+    "Tyre, Sidon, and all of the regions of Philistia, what are you to me?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Are you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈trying to get even with me"
+     ]
+    },
+    "?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "If you are, I’ll ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈very"
+     ]
+    },
+    " quickly ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈deflect your actions back on yourselves"
+     ]
+    },
+    ",",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:4-8: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Isa 23:1-18; Eze 26:1–28:26; Amos 1:9-10; Zech 9:1-4; Mat 11:21-22; Luk 10:13-14."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "JOL 3:5"
+    },
+    "because¦367332 you took my gold and silver,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and you took my precious treasures into your temples.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "JOL 3:6"
+    },
+    "Then you sold the people of Yehudah and Yerushalem to ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈the Greeks"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "so that ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈they’d be taken far away"
+     ]
+    },
+    " from their ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈homeland"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "JOL 3:7"
+    },
+    "Listen, I’ll stir them up there in the place where you sold them,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and I’ll ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈deflect your behaviour back on yourselves"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "JOL 3:8"
+    },
+    "because I’ll sell ",
+    {
+     "type": "char",
+     "marker": "em",
+     "content": [
+      "your"
+     ]
+    },
+    " sons and daughters ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈to the people"
+     ]
+    },
+    " of Yehudah,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and they’ll sell them to the Sabeans—to a faraway nation.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mi",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Yes,"
+     ]
+    },
+    " Yahweh has spoken.\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Judgment in the Valley of Jehoshaphat\n"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "JOL 3:9"
+    },
+    "Proclaim this among the nations:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Prepare for"
+     ]
+    },
+    " war.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Arm"
+     ]
+    },
+    " the warriors!\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Let them approach.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Let all the men of war ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈start coming"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "JOL 3:10"
+    },
+    "Hammer your plough blades into swords\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and your pruning hooks into spears.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Let the weak say, ‘I am strong.’",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:10: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Isa 2:4; Mic 4:3."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "JOL 3:11"
+    },
+    "Hurry and come all you surrounding nations,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and gather yourselves there.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Yahweh, send down your warriors.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "JOL 3:12"
+    },
+    "“Let the nations rouse themselves\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and come to Yehoshafat’s valley,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because I’ll sit there to judge all the surrounding nations.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "JOL 3:13"
+    },
+    "Swing the sickle, because the harvest has ripened.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Come on, go down, because the winepress is full.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The vats overflow, because their wickedness is great.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "JOL 3:14"
+    },
+    "Multitudes, multitudes in the valley of decision,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because Yahweh’s day is near in the valley of decision.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "JOL 3:15"
+    },
+    "The sun and the moon become dark,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and the stars withhold their brightness.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 God Will Bless His People\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "JOL 3:16"
+    },
+    "Yahweh will roar from Tsiyyon ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Zion)"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and from Yerushalem he’ll utter his voice,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and the heavens and the earth will shake.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "But Yahweh will be a shelter for his people\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and a stronghold for the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Israelis"
+     ]
+    },
+    ".",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:16: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Amos 1:2."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The blessing of God of his people\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Glorious Future of Judah; Blessings for God’s People\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Southern kingdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "JOL 3:17"
+    },
+    "“Then you will know that I’m your god Yahweh,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "living in Tsiyyon, on my sacred mountain.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Then Yerushalem will be sacred,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and foreign ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "warriors"
+     ]
+    },
+    " won’t pass through it again.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "JOL 3:18"
+    },
+    "Then ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈at that time"
+     ]
+    },
+    ", the mountains will drip sweet wine,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and the hills will flow with milk,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and all of Yehudah’s streams will flow with water,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and a spring will go forth from Yahweh’s residence and water the Shittim valley.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "JOL 3:19"
+    },
+    "Egypt will become uninhabited,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and Edom will become a ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈lonely"
+     ]
+    },
+    " wilderness\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because of the violence against the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈people"
+     ]
+    },
+    " of Yehudah—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "they shed innocent blood in their ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈country"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "JOL 3:20"
+    },
+    "But Yehudah will remain forever,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and Yerushalem ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≡will continue"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈throughout the generations"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "JOL 3:21"
+    },
+    "and I will ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈declare their blood to be innocent (which I hadn’t done previously)"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because Yahweh resides in Tsiyyon.”\n"
+   ]
   }
+ ]
 }

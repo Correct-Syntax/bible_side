@@ -1,0 +1,6217 @@
+{
+ "type": "USJ",
+ "version": "3.1",
+ "content": [
+  {
+   "type": "book",
+   "marker": "id",
+   "code": "LAM",
+   "content": [
+    "- Open English Translation—Readers’ Version (OET-RV) v0.1.04"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ide",
+   "content": [
+    "UTF-8\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "ESFM v0.6 LAM\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "WORDTABLE OET-LV_OT_word_table.tsv\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "h",
+   "content": [
+    "Sorrows\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc1",
+   "content": [
+    "Sorrows\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc2",
+   "content": [
+    "Sorrows\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc3",
+   "content": [
+    "Sor.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt1",
+   "content": [
+    "Sorrows\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt3",
+   "content": [
+    "commonly called\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt2",
+   "content": [
+    "Lamentations\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "is1",
+   "content": [
+    "Introduction\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "The document named ",
+    {
+     "type": "char",
+     "marker": "bk",
+     "content": [
+      "Sorrows"
+     ]
+    },
+    " (or in older English ",
+    {
+     "type": "char",
+     "marker": "bk",
+     "content": [
+      "Lamentations"
+     ]
+    },
+    ") is this collection of poems or sad songs describing the people’s sorrow at the terrible destruction that had happened to Yerushalem, and the capture of it inhabitants 586 year before Yeshua (B.C.). However, despite the sadness displayed by these compositions, it’s also possible to see hope shown through trusting Yahweh God and the hope of a better future. These poems were used by Jews there in worship at time of fasting and sorrow each year, until today, in order to mourn Yerushalem’s destruction.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "Several of these sorrowful chapters are acrostic poems, i.e., the first verse starts with the first Hebrew letter (alef) and the second with the second Hebrew letter (beyt), etc. We have chosen to display those Hebrew letters to help the English reader understand that there is that acrostic background to the poem.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "iot",
+   "content": [
+    "Main components of this document\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Yerushalem’s sorrows ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1:1-22"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Yerushalem’s punishment ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "2:1-22"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The punishment and the hope ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "3:1-66"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Yerushalem’s demolition ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "4:1-22"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "A prayer requesting help ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "5:1-22"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "This is still a very early look into the unfinished text of the Open English Translation of the Bible. Please double-check the text in advance before using in public.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ie",
+   "content": []
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "1",
+   "sid": "LAM 1"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Yerushalem’s sorrows\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Deserted City; Sorrow in Jerusalem; Sorrows of captive Zion; The Sorrows of Jerusalem\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "א (Alef)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "LAM 1:1"
+    },
+    "Oh dear, how she sits alone¦331464, that city¦331465, a mighty people¦331467.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Once"
+     ]
+    },
+    " powerful among the nations¦331474, she’s become like a widow¦331469.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "From being"
+     ]
+    },
+    " a princess¦331475 among the provinces¦331476, she became a slave.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ב (Beyt)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "LAM 1:2"
+    },
+    "She weeps¦331482 excessively in¦331483 the night¦331483, and¦331484 her tears¦331484 are on¦331483 her cheeks¦331486.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Despite having many"
+     ]
+    },
+    " lovers¦331493, no one brings her comfort¦331490.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈All her friends¦331496 betrayed her—they’ve become¦331499 her enemies¦331501 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "instead"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ג (Gimel)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "LAM 1:3"
+    },
+    "Yehudah¦331505 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Judah)"
+     ]
+    },
+    " is exiled¦331504 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "and made to experience"
+     ]
+    },
+    " suffering and harsh¦331507 slavery.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "She sits among¦331511 the nations¦331511 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "but¦331507"
+     ]
+    },
+    " finds no rest.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "All who pursue¦331517 her, overtake¦331518 her in¦331511 the midst of distress¦331520.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ד (Dalet)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "LAM 1:4"
+    },
+    "The roads¦331523 of Tsiyyon¦331524 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Zion¦331524)"
+     ]
+    },
+    " mourn¦331525—no one’s coming to the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈scheduled festivals"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "All her¦331531 gates¦331531 are desolate¦331532. Her priests¦331533 are groaning¦331534.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Her young¦331535 women¦331535 are grieving¦331536 and¦331539 she¦331539 makes herself bitter¦331540.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ה (He)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "LAM 1:5"
+    },
+    "Her enemies have become¦331545 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈her masters¦331547"
+     ]
+    },
+    "—her enemies prosper\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦331550 Yahweh¦331552 has made her suffer¦331553 due to her ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈frequent disobedience"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Her children¦331558 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈get taken away as captives¦331560 by the enemy"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ו (Vav)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "LAM 1:6"
+    },
+    "All her¦331575 splendour¦331575 was sent out from the daughter that’s Tsiyyon¦331572.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Her¦331575 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈leaders"
+     ]
+    },
+    " have become¦331576 like deer—they can’t¦331579 find a pasture¦331582\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈so"
+     ]
+    },
+    " they ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈have very little strength¦331586 as they flee from"
+     ]
+    },
+    " the pursuer¦331588.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ז (Zayin)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "LAM 1:7"
+    },
+    "Yerushalem¦331592 remembers¦331591 the days of her suffering and her homelessness¦331595,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "all her treasures which¦331598 were from former days.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "When her people¦331603 fell into the hand of the enemy and there¦331607 was no one to help her,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "her enemies saw her—they laughed¦331612 over her destruction.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ח (Het)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "LAM 1:8"
+    },
+    "Yerushalem¦331619 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈disobeyed terribly"
+     ]
+    },
+    ", therefore¦331620, she became filth.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "All her glory is scorned, because¦331629 they’ve seen¦331631 her nakedness¦331632.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Again, she groans¦331636 and¦331637 turns¦331637 away.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ט (Tet)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "LAM 1:9"
+    },
+    "Her¦331641 uncleanness¦331641 is in¦331642 her skirt¦331642.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "She didn’t¦331643 remember¦331644 her end and¦331646 her descent was marvellous.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "There wasn’t any comforter¦331649 for her.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“Oh, Yahweh¦331652, see¦331651 my suffering, because¦331656 the enemy¦331658 is powerful.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "י (Yod)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "LAM 1:10"
+    },
+    "The enemy spread¦331662 his hand¦331661 over all her treasures.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "So, she saw¦331670 the nations¦331671; they entered her sanctuary¦331673—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "those who you¦331675 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈had forbidden to"
+     ]
+    },
+    " enter into your ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈gathering place"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "כ (Kaf)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "LAM 1:11"
+    },
+    "All her¦331685 people¦331685 are groaning¦331686, searching for bread¦331688.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They give their¦331690 treasures¦331690 to restore¦331694 life¦331695 with¦331693 food¦331688.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“O, Yahweh¦331697, look¦331698 and¦331698 see¦331696, for I have become worthless¦331701.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ל (Lamed)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "LAM 1:12"
+    },
+    "Is it¦331718 nothing to you, all those going past on the road¦331709?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Look and¦331711 see¦331711 if there¦331714 is any sorrow like my sorrow, which has been forced on me,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "which Yahweh¦331722 inflicted on the day¦331723 of his fierce anger¦331725.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "מ (Mem)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "LAM 1:13"
+    },
+    "He sent¦331729 fire¦331731 down from on¦331732 high¦331728 into my bones¦331732.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He spread¦331734 a net¦331735 for my feet¦331736 and¦331733 turned¦331737 me away.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He made me desolate¦331740—",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈feeling faint¦331744"
+     ]
+    },
+    " every day¦331743.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "נ (Nun)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "LAM 1:14"
+    },
+    "The yoke of my ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈disobedience"
+     ]
+    },
+    " is bound¦331747.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈With his hand¦331750 it’s assembled together¦331751 and placed"
+     ]
+    },
+    " on¦331760 my neck.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "My strength¦331757 is ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "gone so now I"
+     ]
+    },
+    " stumble.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "My master¦331759 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈arranged for me to be captured and I couldn’t defend myself."
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ס (Samek)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "LAM 1:15"
+    },
+    "My master has rejected all my mighty¦331770 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈warriors¦331778 protecting me"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He has ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈told us exactly when he plans"
+     ]
+    },
+    " to destroy my young¦331778 men¦331778.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "My master has ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈stomped on¦331773 the grapes"
+     ]
+    },
+    " for Yehudah’s¦331785 virgin¦331782 daughter¦331783.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ע (Ayin)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "LAM 1:16"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈As a result"
+     ]
+    },
+    " of those things, I weep.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "My eyes, oh dear, my eyes overflow with water¦331798\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because the comforter¦331803 is far from me—one who restores¦331804 my life¦331805.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "My sons have become desolate¦331808, because the enemy¦331811 is made mighty.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "פ (Pe)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "LAM 1:17"
+    },
+    "Tsiyyon¦331815 has spread¦331814 her hands¦331816 wide—there¦331817 is no comforter¦331818 for her.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Yahweh¦331821 commanded¦331820 that those¦331823 surrounding Yakov¦331822 become his¦331823 enemies.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Yerushalem¦331826 has become filth¦331827 in¦331816 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈the middle of them"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "צ (Tsade)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "LAM 1:18"
+    },
+    "“Yahweh¦331833 is surely righteous¦331831, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈but¦331844"
+     ]
+    },
+    " I disobeyed his command¦331835.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Hear, all peoples, and see my sorrow.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "My young men and women¦331846 have been taken into captivity¦331849.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ק (Qof)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "LAM 1:19"
+    },
+    "I called¦331852 to my lovers¦331853 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "but¦331857"
+     ]
+    },
+    " they deceived¦331855 me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "My priests¦331856 and my elders¦331857 perished¦331859 in¦331858 the city¦331858,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "while they searched for food ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈to stay alive"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ר (Resh)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "LAM 1:20"
+    },
+    "Look, O Yahweh¦331872, because I’m engulfed—my¦331882 stomach¦331878 churns.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "My¦331882 heart¦331881 is undone within¦331882 me, because I’ve¦331885 disobeyed grievously.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Out in¦331882 the street¦331886, the sword¦331889 bereaves¦331887.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Inside the house¦331890, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈there’s"
+     ]
+    },
+    " death¦331891.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ש (Sin/Shin)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "LAM 1:21"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Take notice"
+     ]
+    },
+    " because¦331895 I’m groaning¦331896.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "There’s no comforter¦331899 for me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "All my enemies¦331903 heard my trouble¦331905—they rejoiced¦331906 that you did it.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "You brought¦331910 about the day¦331911 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "of punishment"
+     ]
+    },
+    " that you declared,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "yet may those persecutors"
+     ]
+    },
+    " become¦331914 like me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ת (Tav)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "LAM 1:22"
+    },
+    "May all their¦331921 evil ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈be noticed by"
+     ]
+    },
+    " you,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and deal with them just as you have dealt¦331926 with me because of all my ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈disobedience"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because my groans¦331935 are many and my heart¦331936 is faint¦331937.”\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "2",
+   "sid": "LAM 2"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Yahweh’s punishment of Yerushalem\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Zion’s hope of relief after punishment; The Lord’s Punishment of Jerusalem; God’s Warnings Fulfilled; God’s Anger at Sin\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "א (Alef)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "LAM 2:1"
+    },
+    "Oh dear, how my master¦331944 engulfed the daughter¦331947 that’s Tsiyyon¦331949 in¦331942 his anger.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He’s thrown¦331950 Yisrael’s splendour¦331953 down from heaven¦331951 to earth¦331952.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "And he hasn’t remembered¦331957 the footstool¦331958 of his feet on¦331942 the day of his anger.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ב (Beyt)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "LAM 2:2"
+    },
+    "My master¦331966 devoured—he didn’t show compassion on¦331976 all the pastures of Yakov.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "In his fury, he ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈knocked"
+     ]
+    },
+    " down the fortifications¦331977 of the daughter¦331978 of Yehudah¦331980.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He struck the earth with¦331976 disgrace—the kingdom¦331984 and its ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈leaders"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ג (Gimel)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "LAM 2:3"
+    },
+    "With fierce¦331989 anger¦331993 he cut off ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈all of Yisrael’s power"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈stopped using his strength to protect her from"
+     ]
+    },
+    " the enemy¦332001.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "And he has burned¦332002 Yakov—it consumed¦332006 the surroundings like a fire¦332004.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ד (Dalet)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "LAM 2:4"
+    },
+    "He’s bent his bow like an enemy¦332012.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "His ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈sword"
+     ]
+    },
+    " hand¦332014 is posed like an adversary.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "And he has slain¦332016 all those precious to the eye¦332020 in¦332021 the tent¦332021 of the daughter¦332022 that’s Tsiyyon¦332024.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He has poured¦332025 out his rage¦332027 like fire¦332026.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ה (He)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "LAM 2:5"
+    },
+    "My master¦332031 has become¦332030 like an enemy¦332033—he’s swallowed up Yisrael¦332035.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He has swallowed up all her palaces¦332039—he’s destroyed its fortifications¦332041.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "And he has multiplied¦332042 mourning¦332046 and lamentation¦332047 within the daughter¦332043 of Yehudah¦332045.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ו (Vav)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "LAM 2:6"
+    },
+    "And he was violent¦332050 with¦332058 his garden¦332051 tent—he ruined¦332053 his appointed place¦332054.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Yahweh¦332056 has caused¦332055 the appointed festival and Sabbath to be forgotten¦332055 in Tsiyyon¦332058.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "And he has despised¦332061 the king¦332065 and priest¦332066 in his indignant¦332062 anger¦332064.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ז (Zayin)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "LAM 2:7"
+    },
+    "My master¦332070 has rejected¦332069 his altar¦332072—he abandoned his sanctuary¦332074.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He has ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈allowed the enemy¦332078"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "to enter via"
+     ]
+    },
+    " the walls¦332079 of her¦332080 palaces¦332080.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They raised a shout in¦332076 Yahweh’s¦332085 house¦332083, like on¦332076 an appointed¦332087 festival day¦332086.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ח (Het)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "LAM 2:8"
+    },
+    "Yahweh¦332091 planned¦332090 to destroy¦332093 the wall of the daughter¦332095 that’s Tsiyyon¦332097.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He stretched¦332098 out the measuring¦332099 line.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He didn’t¦332100 withhold his hand¦332103 from devouring,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and he’s brought the ramparts¦332107 and wall to mourning¦332105. Together they¦332110 wasted away.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "י (Yod)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "LAM 2:9"
+    },
+    "Her gates¦332115 sank into the ground.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He has destroyed¦332116 and shattered ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#their"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "locking"
+     ]
+    },
+    " bars.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Her king¦332119 and her ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈leaders"
+     ]
+    },
+    " are among¦332121 the nations¦332121. There’s no law.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Also, her prophets¦332126 don’t¦332122 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈receive any visions¦332130"
+     ]
+    },
+    " from Yahweh¦332131.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "י (Yod)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "LAM 2:10"
+    },
+    "They sit¦332134 on the ground.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The elders¦332137 of the daughter¦332138 that’s Tsiyyon¦332140 are silenced¦332136.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They have thrown up dust on their heads and put on sackcloth¦332147.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Yerushalem’s¦332152 young women have bowed their heads to the ground.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "כ (Kaf)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "LAM 2:11"
+    },
+    "My eyes¦332157 have failed¦332155 with¦332156 tears¦332156.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "My stomach¦332159 churns.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "My inner parts¦332159 are poured¦332160 out to the ground¦332161, because¦332169 of the destruction of the daughter¦332166 of my people¦332168,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "when child¦332170 and¦332171 infant¦332171 faint¦332169 in¦332156 the streets¦332172 of the town¦332173.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ל (Lamed)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "LAM 2:12"
+    },
+    "They ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈ask"
+     ]
+    },
+    " their mothers¦332176, “Where’s ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈our food and drink"
+     ]
+    },
+    "?”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "when they faint¦332181 like the slain in the streets¦332183 of the city¦332184,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "when ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈they die slowly"
+     ]
+    },
+    " in their mothers’ laps.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "מ (Mem)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "LAM 2:13"
+    },
+    "What can I testify¦332195 to you?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "To what can I compare you, daughter of Yerushalem¦332201?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "To what can I liken¦332197 you, that I may comfort¦332206 you, virgin¦332207 daughter that’s Tsiyyon¦332210?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Because your brokenness¦332215 is as great¦332213 as the sea.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Who can heal you?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "נ (Nun)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "LAM 2:14"
+    },
+    "Your prophets¦332222 have ‘seen’ false and worthless¦332226 visions for you,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and they didn’t¦332227 expose your ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈disobedience"
+     ]
+    },
+    ", to restore¦332233 your fortunes¦332234,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "but¦332226 they have ‘received’ false and enticing¦332240 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈messages"
+     ]
+    },
+    " for you.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ס (Samek)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "LAM 2:15"
+    },
+    "All those¦332248 passing on the road¦332249 clap their hands at you¦332244.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They hiss and shake¦332251 their heads¦332252 at the daughter¦332255 of Yerushalem¦332256.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“Is this the city¦332258 that they called¦332259 ‘the fullness of beauty¦332261 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈that makes the whole world happy"
+     ]
+    },
+    "’?”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ע (Ayin)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "LAM 2:16"
+    },
+    "All your enemies¦332273 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈spoke out"
+     ]
+    },
+    " against¦332269 you¦332269.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They hiss and grind their¦332270 teeth.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They say, “We have devoured.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Surely this is the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈time we’d longed"
+     ]
+    },
+    " for.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "We have found¦332284, we have seen¦332285.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "פ (Pe)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "LAM 2:17"
+    },
+    "Yahweh¦332289 has done¦332288 what he planned¦332291.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He’s fulfilled¦332292 the message¦332293 that¦332294 he commanded¦332295 in ancient times.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He has overthrown and shown no compassion,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and the enemy¦332304 rejoiced¦332302 over you.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He has ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈enabled your enemies to get stronger"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "צ (Tsade)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "LAM 2:18"
+    },
+    "Their heart¦332311 cried¦332310 out to my master¦332314,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“You walls of the daughter that’s Tsiyyon¦332318.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Like a tearful river¦332320, let your tears flow down day and night¦332323.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Don’t ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈allow yourself any relief from it"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Don’t rest your eyes ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "from the tears"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ק (Qof)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "LAM 2:19"
+    },
+    "Arise, shout in the night at the beginning¦332342 of the night watches.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Pour out your heart¦332346 like water¦332345 in front¦332347 of my master¦332349.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Lift up your hands¦332352 to him for the life¦332355 of your children¦332356 who are fainting¦332357 with¦332340 hunger¦332358 at the end of every street¦332362.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ר (Resh)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "LAM 2:20"
+    },
+    "Look, Yahweh¦332382, and see¦332365 those you¦332369 have dealt¦332369 with¦332381 in this way.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Should women¦332374 eat¦332373 their¦332375 own newborn children¦332376?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Should ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#priests and prophets¦332384"
+     ]
+    },
+    " be slaughtered in my master’s¦332382 sanctuary¦332381?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ש (Sin/Shin)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "LAM 2:21"
+    },
+    "The young and the old lie down in the dirt in the streets¦332389.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "My young men and women¦332392 have fallen¦332394 by the sword¦332395.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "You’ve ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "had them"
+     ]
+    },
+    " struck down—",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈at¦332395 the time"
+     ]
+    },
+    " of your¦332398 anger¦332398 you slaughtered¦332399.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "You showed no compassion.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ת (Tav)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "LAM 2:22"
+    },
+    "You’ve summoned ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈terrors¦332407 to surround me like summoning people to"
+     ]
+    },
+    " a festival day,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and there wasn’t anyone who escaped¦332415 or survived¦332416 on the day of Yahweh’s¦332414 anger¦332412.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Those who I birthed¦332419 and multiplied, my enemy¦332421 has ended.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "3",
+   "sid": "LAM 3"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Yahweh’s love\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 God’s Steadfast Love Endures; Punishment, Repentance, and Hope; Hope in the Lord’s Faithfulness\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "א (Alef)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "LAM 3:1"
+    },
+    "I¦332425 am the man¦332426 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈made to suffer from"
+     ]
+    },
+    " the rod of his fury.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "LAM 3:2"
+    },
+    "He led me and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈took me into"
+     ]
+    },
+    " darkness¦332435—not light¦332438.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "LAM 3:3"
+    },
+    "He certainly turned¦332443 against me—",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈he put the screws on¦332441 me"
+     ]
+    },
+    " all day¦332447.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ב (Beyt)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "LAM 3:4"
+    },
+    "He made my skin and¦332452 my flesh¦332451 waste¦332450 away.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He shattered my bones¦332454.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "LAM 3:5"
+    },
+    "He built¦332456 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "a ramp"
+     ]
+    },
+    " up against¦332457 me\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and besieged¦332458 me with bitterness and hardship¦332460.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "LAM 3:6"
+    },
+    "He makes me live in darkness¦332462\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "like the dead¦332464 of long ago.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ג (Gimel)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "LAM 3:7"
+    },
+    "He built a wall around¦332469 me ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈so"
+     ]
+    },
+    " I can’t¦332470 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈escape"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He made my¦332473 chains¦332473 heavy¦332472.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "LAM 3:8"
+    },
+    "Even though I call out and cry for help,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "he shuts out my prayer¦332480.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "LAM 3:9"
+    },
+    "He ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈made roadblocks"
+     ]
+    },
+    " with¦332484 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "large"
+     ]
+    },
+    " cut stones¦332484.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈He ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈made it difficult to get anywhere"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ד (Dalet)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "LAM 3:10"
+    },
+    "He’s a bear lying in¦332495 wait for me—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "a lion¦332493 hiding¦332495 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "ready to attack"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "LAM 3:11"
+    },
+    "He ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈obstructed"
+     ]
+    },
+    " my paths and¦332499 tore me apart.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He’s ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈isolated"
+     ]
+    },
+    " me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "LAM 3:12"
+    },
+    "He bent his bow ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "back"
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦332508 set me up like a target¦332509 for an arrow¦332510.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ה (He)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "LAM 3:13"
+    },
+    "He pierced my kidneys¦332514\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "with¦332514 the arrows from his quiver¦332516.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "LAM 3:14"
+    },
+    "I became a joke to all the people¦332523 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "groups"
+     ]
+    },
+    "—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "one"
+     ]
+    },
+    " they mocked all day¦332527 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "long"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "LAM 3:15"
+    },
+    "He filled me with bitterness.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He stuffed me with ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈bitter herbs"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ו (Vav)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "LAM 3:16"
+    },
+    "He made my teeth¦332537 grind with¦332536 gravel¦332536.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He made me cower¦332538 in¦332536 the dust.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "LAM 3:17"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Now"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈I can’t find any inner"
+     ]
+    },
+    " peace¦332542.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I’ve¦332544 forgotten¦332544 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈what prosperity is"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "LAM 3:18"
+    },
+    "Then¦332547 I said¦332547, “My endurance¦332549 has ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈come to an end"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "as has my hope in Yahweh¦332551.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ז (Zayin)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "LAM 3:19"
+    },
+    "Remember my suffering and my wanderings,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "the wormwood¦332558 and bitterness¦332559.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "LAM 3:20"
+    },
+    "It continually remembers¦332561\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦332563 my ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈insides turn to butter"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "LAM 3:21"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈I bring¦332569 that to mind¦332572"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "therefore¦332573 I have hope.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ח (Het)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "LAM 3:22"
+    },
+    "Yahweh’s¦332580 loyal¦332579 commitment doesn’t cease.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "His mercy doesn’t end.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "LAM 3:23"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "@His loyal commitment and his mercy"
+     ]
+    },
+    " are new morning by morning.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈He is very faithful¦332594"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "LAM 3:24"
+    },
+    "“Yahweh¦332597 is my portion,” ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈I told myself"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“therefore¦332600, I’ll¦332603 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "place my"
+     ]
+    },
+    " hope in him.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ט (Tet)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "25",
+     "sid": "LAM 3:25"
+    },
+    "Yahweh¦332608 is good¦332607 to those¦332609 who ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈depend on"
+     ]
+    },
+    " him—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "to ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈anyone sincerely wanting to follow"
+     ]
+    },
+    " him.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "26",
+     "sid": "LAM 3:26"
+    },
+    "It is good¦332615 to be silent¦332617 and wait\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "for Yahweh¦332619 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈to rescue us"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "27",
+     "sid": "LAM 3:27"
+    },
+    "It’s good¦332621 for ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#people"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈to experience hardship while they’re young"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "י (Yod)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "28",
+     "sid": "LAM 3:28"
+    },
+    "A person should¦332630 sit¦332630 alone¦332631 and¦332632 stay quiet\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈when they’ve been disciplined"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "by Yahweh"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "29",
+     "sid": "LAM 3:29"
+    },
+    "Let him¦332637 put his mouth¦332639 in¦332638 the dust—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "perhaps¦332640 there’s¦332641 hope.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "30",
+     "sid": "LAM 3:30"
+    },
+    "Let him offer his¦332645 cheek¦332646 to the person striking¦332645 him.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Let him be filled with¦332648 shame.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "כ (Kaf)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "31",
+     "sid": "LAM 3:31"
+    },
+    "My master¦332655 won’t¦332652 reject¦332653 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "his people"
+     ]
+    },
+    " forever¦332654.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "32",
+     "sid": "LAM 3:32"
+    },
+    "Though he brings grief¦332660,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "he will be merciful ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈due to the strength"
+     ]
+    },
+    " of his loyal¦332663 commitment,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "33",
+     "sid": "LAM 3:33"
+    },
+    "because he doesn’t ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈enjoy making people suffer"
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈or ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≡delight"
+     ]
+    },
+    " in making ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈humanity"
+     ]
+    },
+    " grieve¦332670.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ל (Lamed)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "34",
+     "sid": "LAM 3:34"
+    },
+    "Crushing all the prisoners¦332683 of the earth under¦332680 his feet¦332681,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "35",
+     "sid": "LAM 3:35"
+    },
+    "denying a person justice¦332687 before¦332690 the highest ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      ">one"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "36",
+     "sid": "LAM 3:36"
+    },
+    "subverting¦332694 a person’s lawsuit¦332696—the master¦332697 approves none of those.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "מ (Mem)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "37",
+     "sid": "LAM 3:37"
+    },
+    "Who ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈said that and made it happen¦332705, if it wasn’t"
+     ]
+    },
+    " my master¦332706?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "38",
+     "sid": "LAM 3:38"
+    },
+    "Didn’t ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "both"
+     ]
+    },
+    " trouble¦332714 and¦332715 good¦332715 come from the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈command"
+     ]
+    },
+    " of the highest ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      ">one"
+     ]
+    },
+    "?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "39",
+     "sid": "LAM 3:39"
+    },
+    "How can any living¦332721 person¦332720 complain¦332719 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈when it’s their disobedience that they’re getting punished for"
+     ]
+    },
+    "?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "נ (Nun)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "40",
+     "sid": "LAM 3:40"
+    },
+    "Let’s examine our¦332730 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈behaviour"
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "then"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈strive to"
+     ]
+    },
+    " return¦332732 to Yahweh¦332735.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "41",
+     "sid": "LAM 3:41"
+    },
+    "Let us lift up our hearts¦332738\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "with¦332745 our hands ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≡lifted"
+     ]
+    },
+    " to God¦332744 in¦332745 heaven¦332745.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "42",
+     "sid": "LAM 3:42"
+    },
+    "We’ve¦332747 certainly ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈broken your rules"
+     ]
+    },
+    " and disobeyed you.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "You haven’t forgiven¦332752 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "us"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ס (Samek)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "43",
+     "sid": "LAM 3:43"
+    },
+    "You wrapped yourself¦332755 with¦332756 anger¦332756 and¦332757 chased after us.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "You killed¦332758 without showing any pity.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "44",
+     "sid": "LAM 3:44"
+    },
+    "You enveloped yourself in¦332763 a cloud¦332763,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "so that no prayers¦332766 could get through¦332765.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "45",
+     "sid": "LAM 3:45"
+    },
+    "You cause us to be considered as outcasts\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦332769 as garbage among the nations.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ע (Ayin)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "46",
+     "sid": "LAM 3:46"
+    },
+    "All our¦332780 enemies¦332780 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈spoke out"
+     ]
+    },
+    " against¦332776 us.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "47",
+     "sid": "LAM 3:47"
+    },
+    "Panic and pitfall¦332783 have come for us—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "devastation¦332786 and destruction¦332787.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "48",
+     "sid": "LAM 3:48"
+    },
+    "My eyes¦332793 run with streams of water¦332791\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because my people¦332799 have been destroyed.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "פ (Pe)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "49",
+     "sid": "LAM 3:49"
+    },
+    "My ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈tears flowed continually without any"
+     ]
+    },
+    " relief,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "50",
+     "sid": "LAM 3:50"
+    },
+    "until Yahweh¦332813 looked down from heaven¦332814 and¦332812 saw.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "51",
+     "sid": "LAM 3:51"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈What I see grieves my insides"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because of ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "the suffering"
+     ]
+    },
+    " of the city’s daughters¦332820.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "צ (Tsade)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "52",
+     "sid": "LAM 3:52"
+    },
+    "My enemies¦332827 certainly hunted¦332825 me without¦332828 cause¦332828—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "like ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≡hunting"
+     ]
+    },
+    " a bird.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "53",
+     "sid": "LAM 3:53"
+    },
+    "They ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈shut down my¦332832 life¦332832 by throwing¦332833 me"
+     ]
+    },
+    " into a pit,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦332833 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "then"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈heaving a rock¦332835 onto the top"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "54",
+     "sid": "LAM 3:54"
+    },
+    "They made water¦332840 flow over my head¦332843.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I said¦332844, ‘",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈This must be my end"
+     ]
+    },
+    "!’\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ק (Qof)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "55",
+     "sid": "LAM 3:55"
+    },
+    "I¦332848 called¦332848 out your¦332849 name¦332849, Yahweh¦332850, from the depths of the pit.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "56",
+     "sid": "LAM 3:56"
+    },
+    "You heard¦332855 my voice.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "‘Don’t¦332856 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈ignore my"
+     ]
+    },
+    " cry¦332861 for help¦332861\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "and my need for"
+     ]
+    },
+    " relief¦332860.’\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "57",
+     "sid": "LAM 3:57"
+    },
+    "You approached ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "me"
+     ]
+    },
+    " when I called¦332865 you\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "and"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈told me not to be afraid"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ר (Resh)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "58",
+     "sid": "LAM 3:58"
+    },
+    "My master¦332873, you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈helped with my internal conflict"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "You ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈paid out to save"
+     ]
+    },
+    " my life¦332877.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "59",
+     "sid": "LAM 3:59"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Yes,"
+     ]
+    },
+    " Yahweh¦332880, you saw my suffering.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Judge my case.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "60",
+     "sid": "LAM 3:60"
+    },
+    "You’ve seen¦332885 all their insults—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "all their plots¦332891 against me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ש (Sin/Shin)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "61",
+     "sid": "LAM 3:61"
+    },
+    "You’ve heard¦332895 their scorn, Yahweh¦332897—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "all their plots¦332900 against¦332901 me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "62",
+     "sid": "LAM 3:62"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Those harassing me spend all day¦332909 speaking out"
+     ]
+    },
+    " against me\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦332905 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "singing"
+     ]
+    },
+    " songs against me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "63",
+     "sid": "LAM 3:63"
+    },
+    "See¦332914 how, whether they’re sitting¦332911 or rising¦332912,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "they have"
+     ]
+    },
+    " their mocking¦332915 song.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ת (Tav)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "64",
+     "sid": "LAM 3:64"
+    },
+    "You, Yahweh¦332921, will ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈pay them back for what they’ve done"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "65",
+     "sid": "LAM 3:65"
+    },
+    "Give them ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈over to shamelessness¦332927"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "May your¦332930 curse¦332930 be on them.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "66",
+     "sid": "LAM 3:66"
+    },
+    "Chase after them in¦332934 your anger¦332934,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦332935 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈wipe them off the face of the earth"
+     ]
+    },
+    ", Yahweh¦332938.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "4",
+   "sid": "LAM 4"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Tsiyyon’s punishment\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Punishment of Zion; God’s Anger Satisfied; Jerusalem after Its Fall\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "א (Alef)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "LAM 4:1"
+    },
+    "Wow, how the gold is tarnished—the pure gold has changed¦332944.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The holy stones¦332948 are scattered¦332947 on¦332951 the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#corners"
+     ]
+    },
+    " of every street¦332954.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ב (Beyt)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "LAM 4:2"
+    },
+    "The precious¦332959 sons of Tsiyyon¦332958 were ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈once comparable"
+     ]
+    },
+    " with¦332961 fine gold¦332961.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Now"
+     ]
+    },
+    " they’re regarded as clay jars—the work¦332967 of a potter’s¦332969 hands¦332968.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ג (Gimel)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "LAM 4:3"
+    },
+    "Even the jackals¦332974 offer ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈their teats to"
+     ]
+    },
+    " suckle¦332978 their cubs,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "but"
+     ]
+    },
+    " my people¦332982 are fierce like the ostriches in¦332987 the wilderness¦332987.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ד (Dalet)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "LAM 4:4"
+    },
+    "The tongue¦332991 of the breast-feeding baby sticks to the roof¦332995 of his mouth¦332995 with¦332999 thirst¦332999.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The children¦333000 ask for food¦333002 from those distributing ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "it, but"
+     ]
+    },
+    " there’s¦333004 none for them.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ה (He)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "LAM 4:5"
+    },
+    "Those ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "used to"
+     ]
+    },
+    " eating¦333008 the finest food are ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "now"
+     ]
+    },
+    " desolate¦333010 in¦333011 the streets¦333011.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Those ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "once"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈attended"
+     ]
+    },
+    " by ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "servants wearing"
+     ]
+    },
+    " scarlet ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "now"
+     ]
+    },
+    " embrace¦333015 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈piles of rubbish"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ו (Vav)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "LAM 4:6"
+    },
+    "The guilt of my people¦333023 is greater¦333019 than Sodom’s¦333025 sin¦333024.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "4:6: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Gen 19:24."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "@That city"
+     ]
+    },
+    " was overthrown¦333026 in¦333033 an instant, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈but¦333019 no one shed any tears about¦333032 it"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ז (Zayin)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "LAM 4:7"
+    },
+    "Her¦333038 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "?≈religious leaders"
+     ]
+    },
+    " were purer than snow—whiter than milk¦333041.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Their bones were redder than coral¦333044—their¦333046 parts were sapphire¦333045.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ח (Het)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "LAM 4:8"
+    },
+    "Blackness has darkened their form—they’re not ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "even"
+     ]
+    },
+    " recognised¦333053 in¦333054 the streets¦333054.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Their skin has shrivelled¦333055 on¦333054 their bones¦333059—it’s become¦333061 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈as dry and stiff as bark"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ט (Tet)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "LAM 4:9"
+    },
+    "Those slain by the sword¦333069 were happier than those who died from hunger¦333071—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "those who slowly wasted away as if they were pierced¦333074 through¦333074 by the lack of produce¦333075 from the countryside¦333076.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "י (Yod)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "LAM 4:10"
+    },
+    "The hands¦333079 of compassionate¦333081 women¦333080 boiled¦333082 their¦333083 children¦333083.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They became a meal for them during the destruction¦333087 of my people¦333090.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "4:10: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Deu 28:57; Eze 5:10."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "כ (Kaf)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "LAM 4:11"
+    },
+    "Yahweh¦333094 brought his rage¦333097 to completion¦333093.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He poured¦333098 out his fierce anger¦333100\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and he kindled¦333101 a fire¦333103 in¦333104 Tsiyyon¦333104 that consumed its foundations¦333106.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ל (Lamed)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "LAM 4:12"
+    },
+    "None of the kings¦333111 of the earth¦333113, and none of the world’s¦333117 inhabitants¦333116, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "ever"
+     ]
+    },
+    " believed¦333110\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "that the adversary and enemy¦333121 would ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈get through"
+     ]
+    },
+    " Yerushalem’s¦333123 gates¦333122.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "מ (Mem)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "LAM 4:13"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "However,"
+     ]
+    },
+    " the sins¦333126 of her prophets¦333127 were ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "even"
+     ]
+    },
+    " more than the disobedience of her priests¦333129.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They had poured the blood¦333132 of godly¦333133 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      ">people"
+     ]
+    },
+    " out ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "right¦333133 there"
+     ]
+    },
+    " in¦333131 the middle of ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "@the city"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "נ (Nun)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "LAM 4:14"
+    },
+    "They stumble blind¦333137 in¦333138 the streets¦333138.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They’re defiled¦333139 with¦333138 blood¦333140.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "No one ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "even"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈dares"
+     ]
+    },
+    " to touch¦333143 their¦333144 clothes¦333144.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ס (Samek)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "LAM 4:15"
+    },
+    "“Away! Unclean!” they shouted at¦333162 them. “Away! Away! Don’t¦333153 touch¦333155!”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "So they fled ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Yisrael"
+     ]
+    },
+    ", wandering¦333160 around,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "but"
+     ]
+    },
+    " it was said¦333161 among¦333162 the nations¦333162, “They can’t¦333153 stay¦333165 here any longer.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ע (Ayin)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "LAM 4:16"
+    },
+    "Yahweh’s¦333169 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈presence¦333168"
+     ]
+    },
+    " scattered¦333170 them—he won’t¦333171 continue to watch over them.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "The people"
+     ]
+    },
+    " no longer ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈honoured"
+     ]
+    },
+    " the priests¦333175.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They showed¦333182 no favour¦333182 to the elders.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "פ (Pe)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "LAM 4:17"
+    },
+    "Our eyes¦333188 failed¦333187 as we waited uselessly for ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈help¦333191"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "From our watchtowers¦333193, we ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈expected to see"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "other"
+     ]
+    },
+    " nations¦333197 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈come to rescue us, but no"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "צ (Tsade)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "LAM 4:18"
+    },
+    "They tracked our steps¦333203,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "≈walking¦333204 in¦333205 our paths.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Our end was coming closer.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Our days¦333209 had been ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈numbered"
+     ]
+    },
+    ", because¦333210 our end had come¦333212.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ק (Qof)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "LAM 4:19"
+    },
+    "The ones chasing after us were faster than the eagles¦333219 in the sky.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They chased¦333224 us over the mountains¦333223,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "then"
+     ]
+    },
+    " they ambushed us in the wilderness¦333225.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ר (Resh)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "LAM 4:20"
+    },
+    "A breath¦333230 of our¦333231 nostrils¦333231, Yahweh’s¦333233 anointed¦333232 one was captured¦333234 in¦333235 their¦333235 pits—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "the one we’d spoken¦333237 about, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "saying"
+     ]
+    },
+    ", “We’ll live¦333239 among¦333240 the nations¦333240 under his ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈protection"
+     ]
+    },
+    ".”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ש (Sin/Shin)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "LAM 4:21"
+    },
+    "Celebrate and be glad, Edom¦333247, living there in the Uz¦333251 region¦333250.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The cup ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "of suffering"
+     ]
+    },
+    " will also pass¦333255 to you.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "You’ll get drunk¦333258 and go around naked¦333259.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "qa",
+   "content": [
+    "ת (Tav)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "LAM 4:22"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈People"
+     ]
+    },
+    " of Tsiyyon¦333267, your guilt will finish¦333262—he won’t¦333268 extend your exile¦333270.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "^He’ll ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈deal with"
+     ]
+    },
+    " your guilt, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈people"
+     ]
+    },
+    " of Edom¦333275—he’ll uncover your sins¦333279.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "5",
+   "sid": "LAM 5"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The mercy of Yisrael\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 A Prayer for Mercy; A Plea for Mercy; A prayer for remembrance and restoration; Prayer for Restoration\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "LAM 5:1"
+    },
+    "Yahweh¦333283, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈take notice of"
+     ]
+    },
+    " what’s happened¦333286 to us.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Look and¦333290 see¦333290 our¦333293 disgrace¦333293.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "LAM 5:2"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "The land that was"
+     ]
+    },
+    " our inheritance has been turned¦333296 over to strangers¦333297—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈our houses¦333298 to foreigners¦333299.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "LAM 5:3"
+    },
+    "We have become¦333302 orphans, without a father¦333305,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and our¦333306 mothers¦333306 are like widows¦333307.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "LAM 5:4"
+    },
+    "We ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈pay to"
+     ]
+    },
+    " drink water.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈We bring in¦333310 our¦333312 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "fire"
+     ]
+    },
+    "wood for a price¦333313.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "LAM 5:5"
+    },
+    "We’re ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈driven hard"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "with the yoke"
+     ]
+    },
+    " on our¦333317 necks¦333317.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "We ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈work hard, yet never get any"
+     ]
+    },
+    " rest.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "LAM 5:6"
+    },
+    "We’ve ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈made a treaty with"
+     ]
+    },
+    " Egypt ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Heb. Mitsrayim)"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "and with"
+     ]
+    },
+    " Assyria¦333331 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Heb. Ashshur)"
+     ]
+    },
+    " to ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈get food¦333333"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "LAM 5:7"
+    },
+    "Our ancestors¦333335 sinned¦333336 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈but¦333337 they’re gone now"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "→We ourselves bear ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "the results of"
+     ]
+    },
+    " their¦333341 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈disobedience"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "LAM 5:8"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "?Babylonian"
+     ]
+    },
+    " slaves rule over us.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "There’s no one to rescue ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≡us"
+     ]
+    },
+    " from their¦333349 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈control"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "LAM 5:9"
+    },
+    "We bring¦333352 in our ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈food¦333353 at the cost of"
+     ]
+    },
+    " our lives¦333351,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "due to the sword¦333355 blades ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "out there"
+     ]
+    },
+    " in the wilderness¦333356.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "LAM 5:10"
+    },
+    "Our skin grows as hot as an oven\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "from the burning¦333362 heat of hunger¦333363.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "LAM 5:11"
+    },
+    "Women¦333365 are raped in Tsiyyon¦333366—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈young women in Yehudah’s¦333370 cities¦333369.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "LAM 5:12"
+    },
+    "Princes¦333372 were hung by their¦333373 hands¦333373.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈The ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "city"
+     ]
+    },
+    " elders¦333376 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈were treated with¦333373 no respect"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "LAM 5:13"
+    },
+    "Young¦333380 men¦333380 lift the grind stone\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and¦333383 boys¦333383 stagger¦333385 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "under loads of"
+     ]
+    },
+    " wood.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "LAM 5:14"
+    },
+    "The elders ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈no longer make decisions"
+     ]
+    },
+    " at the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "city¦333388"
+     ]
+    },
+    " gate¦333388,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈The young¦333390 men ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≡have stopped"
+     ]
+    },
+    " their¦333391 music¦333391.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "LAM 5:15"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈We’re no longer happy and contented"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Our dancing¦333398 has turned to mourning¦333397.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "LAM 5:16"
+    },
+    "The crown¦333401 has fallen¦333400 off our¦333402 head¦333402.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈We won’t end well"
+     ]
+    },
+    ", because¦333407 we’ve sinned¦333408.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "LAM 5:17"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈As a result of that, we’ve become¦333413 depressed"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "On account of those things, our eyes¦333420 grow dim.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "LAM 5:18"
+    },
+    "On account of Mt¦333423. Tsiyyon¦333425,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "which¦333426 is desolate¦333426 with jackals roaming over it.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "LAM 5:19"
+    },
+    "You, Yahweh¦333434, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈exist"
+     ]
+    },
+    " forever¦333435.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈You’ll sit upon your throne¦333437 from generation to generation.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "LAM 5:20"
+    },
+    "Why do you forget¦333443 us for so long?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≡Why do"
+     ]
+    },
+    " you abandon¦333444 us for many days¦333446?\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "LAM 5:21"
+    },
+    "Bring us back to yourself¦333451, Yahweh¦333449, and¦333452 we’ll be restored¦333452.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Renew our¦333455 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈life back to what it was before"
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "LAM 5:22"
+    },
+    "unless you’ve¦333462 totally rejected¦333461 us—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≡unless"
+     ]
+    },
+    " you’re¦333463 angry¦333463 with us beyond measure.\n"
+   ]
+  }
+ ]
+}

@@ -1,1255 +1,3350 @@
 {
-  "book": {
-    "bookCode": "ZEP",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.0.01",
-    "meta": [
-      {
-        "usfm": "3.0"
-      },
-      {
-        "ide": "UTF-8"
-      },
-      {
-        "rem": "ESFM v0.6 ZEP"
-      },
-      {
-        "rem": "WORDTABLE OET-LV_OT_word_table.tsv"
-      },
-      {
-        "h": "Zephaniah"
-      },
-      {
-        "toc1": "Zephaniah"
-      },
-      {
-        "toc2": "Zephaniah"
-      },
-      {
-        "toc3": "Zep."
-      },
-      {
-        "mt1": "Zephaniah"
-      },
-      {
-        "is1": "Introduction"
-      },
-      {
-        "ip": "Supuniyas the prophet of time Husiyas the King of Yehudah. Tutubungi them and migpamakey of Master God. But of not/none naluhey, in-engkeran their e the Master and is their e impamakey the false gods. Seeye naa the miglelalis e the Master punished din the me from-Yehudah and the me from-Yerushalem due to maddeet me deeds their. But even pad due, not/none them requested of forgiveness him. Sikan naa, of 586 year(s) of not yet born the Messiah, indereetan of me from-Babylon the Yerushalem. But even pad due, migpahunlibet just he egtalipunen din just them keureme from nations mig-slave them. And/Now return din just them there to Yerushalem and egpanalanginan din."
-      },
-      {
-        "iot": "Main components of this “book”"
-      },
-      {
-        "io1": [
-          "The time of judging of Master God",
-          {
-            "ior": "1:1–2:3",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The destruction of nations near Israel",
-          {
-            "ior": "2:4-15",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The destruction and saving/explaining of Yerushalem",
-          {
-            "ior": "3:1-20",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "rem": [
-          "This is still a very early look into the unfinished text of the",
-          {
-            "em": "Open English Translation",
-            "closing": "\\em*"
-          },
-          "of the Bible. Please double-check the text in advance before using in public."
-        ]
-      },
-      {
-        "ie": ""
-      }
-    ]
+ "type": "USJ",
+ "version": "3.1",
+ "content": [
+  {
+   "type": "book",
+   "marker": "id",
+   "code": "ZEP",
+   "content": [
+    "- Open English Translation—Readers’ Version (OET-RV) v0.1.05"
+   ]
   },
-  "chapters": [
+  {
+   "type": "para",
+   "marker": "ide",
+   "content": [
+    "UTF-8\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "ESFM v0.6 ZEP\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "WORDTABLE OET-LV_OT_word_table.tsv\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "h",
+   "content": [
+    "Tsefanyah\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc1",
+   "content": [
+    "Tsefanyah\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc2",
+   "content": [
+    "Tsefanyah\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc3",
+   "content": [
+    "Tsef.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt1",
+   "content": [
+    "Tsefanyah\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt2",
+   "content": [
+    "(Zephaniah)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "is1",
+   "content": [
+    "Introduction\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "Tsefanyah (commonly known as Zephaniah) was a prophet at the time that Husiyas (Josiah) was king of Yehudah (Judah). The people served the true God, but before long, they abandoned Yahweh and started worshipping false gods. So then Yahweh threatened to punish the people of Yerushalem (Jerusalem) city and the people across all of Yehudah because of their evil deeds. However, even then, they refused to ask him for forgiveness. So in 586 before Yeshua/Jesus (B.C.), Yerushalem was destroyed by the Babylonians (sometimes also called Chaldeans). But even then, he’d planned to punish those other nations in the future for enslaving his people, then he’d allow his people to return there to Yerushalem and receive his blessing.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "iot",
+   "content": [
+    "Main components of this document\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The day of Yahweh’s judgement ",
     {
-      "chapterNumber": "1",
-      "contents": [
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:1:"
-                },
-                {
-                  "xt": "2Ki 22:1–23:30; 2Ch 34:1–35:27."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙",
-            {
-              "s1": "The day punishing the Master"
-            },
-            {
-              "rem": "/s1 The Day of the Lord's Judgment; The Coming Judgment on Judah; Coming Judgment against Judah; Doom on Judah and her neighbours; Warning of Coming Destruction"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            },
-            {
-              "rem": "/s1 Against Judah"
-            }
-          ],
-          "verseText": "◙ … … … …"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            },
-            {
-              "rem": "/s1 The Great Day of the Lord"
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … … …"
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            }
-          ],
-          "verseText": "◙ … … …"
-        }
-      ]
-    },
-    {
-      "chapterNumber": "2",
-      "contents": [
-        {
-          "s1": "The advice of repentance from sin"
-        },
-        {
-          "rem": "/s1 Judgment on Israel's Enemies; A Plea for Repentance; A Call to Repentance"
-        },
-        {
-          "q1": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "s1": "The demolition of me place near Israel"
-            },
-            {
-              "rem": "/s1 Judgment against Philistia; Against Philistia; The Doom of the Nations around Israel"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … …"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:4-7:"
-                },
-                {
-                  "xt": "Isa 14:29-31; Jer 47:1-7; Eze 25:15-17; Yoel 3:4-8; Amos 1:6-8; Zech 9:5-7."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … …"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            },
-            {
-              "rem": "/s1 Judgment against Moab and Ammon; Against Moab and Ammon"
-            }
-          ],
-          "verseText": "◙ … … … … …"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:8-11: a"
-                },
-                {
-                  "xt": "Isa 15:1–16:14; 25:10-12; Jer 48:1-47; Eze 25:8-11; Amos 1:13-15;"
-                },
-                {
-                  "xo": "b"
-                },
-                {
-                  "xt": "Jer 49:1-6; Eze 21:28-32; 25:1-7; Amos 1:13-15."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:9:"
-                },
-                {
-                  "xt": "Gen 19:24."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … … … … …"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            },
-            {
-              "rem": "/s1 Judgment against Ethiopia and Assyria; Against Cush"
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:12:"
-                },
-                {
-                  "xt": "Isa 18:1-7."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            },
-            {
-              "rem": "/s1 Against Assyria"
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:13-15:"
-                },
-                {
-                  "xt": "Isa 10:5-34; 14:24-27; Nah 1:1–3:19."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … … …"
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            }
-          ],
-          "verseText": "◙ … … … …"
-        }
-      ]
-    },
-    {
-      "chapterNumber": "3",
-      "contents": [
-        {
-          "s1": "The sin of Yerushalem"
-        },
-        {
-          "rem": "/s1 Jerusalem's Sin and Redemption; Jerusalem's Rebellion and Redemption; The Wickedness of Jerusalem; The Future of Jerusalem"
-        },
-        {
-          "q1": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … …"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … … …"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            },
-            {
-              "rem": "/s1 Punishment and Conversion of the Nations"
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "b": ""
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "◙",
-            {
-              "q1": ""
-            },
-            {
-              "rem": "/s1 A remnant preserved"
-            }
-          ],
-          "verseText": "◙"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ …"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:13:"
-                },
-                {
-                  "xt": "Rev 14:5."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "s1": "The song of happiness"
-            },
-            {
-              "rem": "/s1 A Song of Joy"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … …"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … …"
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": ""
-            }
-          ],
-          "verseText": "◙ … … … …"
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "◙",
-            {
-              "b": ""
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … …"
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            "◙",
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "◙ … … … …"
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            "◙",
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            },
-            {
-              "q1": "…"
-            },
-            {
-              "q2": "…"
-            }
-          ],
-          "verseText": "◙ … … … … …"
-        }
-      ]
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1:1–2:3"
+     ]
     }
-  ],
-  "_messages": {
-    "_warnings": []
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The destruction of nations near Yisrael ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "2:4-15"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The destruction and future redemption of Yerushalem ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "3:1-20"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "This is still a very early look into the unfinished text of the Open English Translation of the Bible. Please double-check the text in advance before using in public.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ie",
+   "content": []
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "1",
+   "sid": "ZEP 1"
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "ZEP 1:1"
+    },
+    "The message¦374619 from Yahweh¦374621 which¦374623 came¦374624 to Tsefanyah (son of Kush, son of Gedalyah¦374633, son of Amaryah¦374636, son of Hizkiyah) in¦374640 the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈time¦374640"
+     ]
+    },
+    " of Amon’s¦374644 son, King¦374645 Yoshiyah ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Josiah)"
+     ]
+    },
+    " of Yehudah¦374646 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Judah)"
+     ]
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:1: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "2Ki 22:1–23:30; 2Ch 34:1–35:27."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Coming judgement against Yehudah\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Day of the Lord’s Judgment; The Coming Judgment on Judah; Coming Judgment against Judah; Doom on Judah and her neighbours; Warning of Coming Destruction\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Southern kingdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "ZEP 1:2"
+    },
+    "Yahweh¦374656 declares:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "m",
+   "content": [
+    "I¦374649 will exterminate everything¦374650 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "that lives"
+     ]
+    },
+    " on the ground.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "ZEP 1:3"
+    },
+    "Yahweh¦374680 declares:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "m",
+   "content": [
+    "I’ll¦374658 bring humans¦374659 and animals¦374660 to an end, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈along with"
+     ]
+    },
+    " the birds and fish¦374665. Wicked¦374661 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "people"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈will be destroyed along with their idols"
+     ]
+    },
+    " and humankind will be cut-off from the earth.\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Against Judah\n"
+     ]
+    },
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "ZEP 1:4"
+    },
+    "I will ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈punish"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "the people of"
+     ]
+    },
+    " Yehudah¦374686,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and¦374682 those living in Yerushalem¦374691.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I will ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈wipe"
+     ]
+    },
+    " all remnants¦374699 of Baal¦374700 out from this place¦374695.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈No one will even remember"
+     ]
+    },
+    " the names of those priests ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈who served idols"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "ZEP 1:5"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≡I’ll punish"
+     ]
+    },
+    " those who bowed down to the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈stars and planets"
+     ]
+    },
+    " from their¦374723 rooftops,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and those making promises to Yahweh¦374721 but then¦374709 promising to ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "the false god"
+     ]
+    },
+    " Milcom.",
+    {
+     "type": "note",
+     "marker": "f",
+     "content": [
+      " ",
+      {
+       "type": "char",
+       "marker": "fr",
+       "content": [
+        "1:5 "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "ft",
+       "content": [
+        "A variant of the name of the pagan god ‘Molek’ (or ‘Molech’, but also close to the Hebrew word for ‘king’ as found in some other translations)."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "ZEP 1:6"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≡I’ll punish"
+     ]
+    },
+    " those who turn back after¦374728 following¦374728 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "me,"
+     ]
+    },
+    " Yahweh,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "as well as those who haven’t searched for Yahweh or prayed to ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈me"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "ZEP 1:7"
+    },
+    "Be silent in the presence of the master¦374742 Yahweh,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "because¦374744 his day¦374746 is near.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Yahweh has prepared¦374750 a sacrifice¦374752,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "and he’s consecrated¦374753 his guests¦374754.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "ZEP 1:8"
+    },
+    "On the day¦374757 of Yahweh’s¦374759 sacrifice¦374758, I will visit¦374760 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈their officials¦374763"
+     ]
+    },
+    " and the king’s sons¦374766, and all those¦374771 wearing foreign¦374773 clothing¦374772.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "ZEP 1:9"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈At that time"
+     ]
+    },
+    " I will ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈punish¦374775 all the officials who force their way into people’s homes"
+     ]
+    },
+    "—the ones filling their masters’ houses¦374786 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈using"
+     ]
+    },
+    " fraud and¦374775 violence¦374788.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "ZEP 1:10"
+    },
+    "Yahweh¦374797 declares:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "On that day¦374793 a cry¦374799 of distress will come from the Fish Gate,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and wailing¦374802 from the second¦374805 district\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "and a loud crash¦374806 from the hills¦374808.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "ZEP 1:11"
+    },
+    "Wail, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "you"
+     ]
+    },
+    " inhabitants¦374811 of the Maktesh,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦374813 all of the people¦374817 of Canaan¦374818 will be destroyed¦374814.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "All ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈the money-counters will be eliminated"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "ZEP 1:12"
+    },
+    "I will search¦374828 Yerushalem¦374831 with¦374826 lamps¦374832 at¦374826 that time¦374826,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦374825 I will ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈punish¦374833 those who’ve sunk to the bottom"
+     ]
+    },
+    "—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "the ones ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈who tell themselves¦374842"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "‘Yahweh¦374846 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈will never take action—either"
+     ]
+    },
+    " good¦374845 or bad.’\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "ZEP 1:13"
+    },
+    "Their wealth¦374851 will ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈be taken as"
+     ]
+    },
+    " plunder¦374852\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦374850 their houses ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈will be ruined"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They’ll build¦374855 houses, but they ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈won’t get to live in them"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈They’ll plant¦374859 vineyards¦374860, but ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈won’t get to"
+     ]
+    },
+    " drink¦374862 their wine.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "ZEP 1:14"
+    },
+    "Yahweh’s big day ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "of judgement"
+     ]
+    },
+    " is near—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Great Day of the Lord\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "≈close and coming quickly.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The sound¦374875 of Yahweh’s day is bitter¦374878—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "≈",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "even"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#warriors"
+     ]
+    },
+    " will cry out.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "ZEP 1:15"
+    },
+    "That day will be a day of anger,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "a day of distress¦374888 and anguish,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "a day of destruction¦374891 and desolation¦374892,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "a day of darkness and gloom¦374895,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "a day of cloud¦374897 and thick¦374898 darkness,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "ZEP 1:16"
+    },
+    "a day¦374900 of trumpet¦374901 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "blasts"
+     ]
+    },
+    " and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "with the"
+     ]
+    },
+    " battle¦374902 cry¦374902\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "against the fortified¦374905 cities¦374904 and against the high¦374908 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "towers¦374907 on their"
+     ]
+    },
+    " corners¦374907.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "ZEP 1:17"
+    },
+    "I’ll¦374910 bring¦374910 distress¦374910 to ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈the people¦374911"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and they’ll walk¦374912 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈slowly as if they were blind¦374913"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦374914 they’ve sinned¦374916 against Yahweh¦374915.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Their blood¦374918 will be poured¦374917 out like dust,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and their innards like dung.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "ZEP 1:18"
+    },
+    "Their silver¦374925, and even their gold¦374928, won’t¦374929 be able to save¦374932 them\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "on¦374936 the day¦374933 of Yahweh’s¦374935 anger.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The whole earth will be consumed¦374938 in¦374936 the fire¦374936 of his jealousy¦374937\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦374942 he’ll ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈soon destroy¦374944 people from all over the world"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "2",
+   "sid": "ZEP 2"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Do what is right\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Judgment on Israel’s Enemies; A Plea for Repentance; A Call to Repentance\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Southern kingdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "ZEP 2:1"
+    },
+    "Gather¦374958 yourselves¦374956 together,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "yes,"
+     ]
+    },
+    " assemble now you shameless nation¦374958\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "ZEP 2:2"
+    },
+    "before the decree¦374964 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈is made"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "before the day passes¦374966 like chaff¦374965,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "before Yahweh’s ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈anger reaches"
+     ]
+    },
+    " you all,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "yes,"
+     ]
+    },
+    " before that day of Yahweh’s ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈anger hits"
+     ]
+    },
+    " you.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "ZEP 2:3"
+    },
+    "Search for Yahweh¦374991, all ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈you¦375005 humble people"
+     ]
+    },
+    " who do his justice.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Aim to do what is right¦375001 and to stay humble"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Perhaps you’ll be hidden¦375005 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "away"
+     ]
+    },
+    " on the day¦375006 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Yahweh’s¦374991 anger¦375007"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The demolition of places near Yisrael\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Judgment against Philistia; Against Philistia; The Doom of the Nations around Israel\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "ZEP 2:4"
+    },
+    "Because Azzah ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Gaza¦375012)"
+     ]
+    },
+    " will become abandoned¦375013,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "and Ashkelon¦375015 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≡will become"
+     ]
+    },
+    " a ruin.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "The people¦375019 of"
+     ]
+    },
+    " Ashdod¦375017 will be driven¦375019 out by noon,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "and Ekron¦375020 will be ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈overthrown"
+     ]
+    },
+    ".",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:4-7: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Isa 14:29-31; Jer 47:1-7; Eze 25:15-17; Yoel 3:4-8; Amos 1:6-8; Zech 9:5-7."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "ZEP 2:5"
+    },
+    "The inhabitants¦375025 of the coastal region¦375026 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈are to be pitied"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "the nation¦375028 of the Kerethites¦375029.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Yahweh’s¦375032 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈decision"
+     ]
+    },
+    " is against¦375033 you all,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "Canaan¦375034, land of the Philistines¦375036.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈I’ll¦375037 destroy¦375037 you until¦375038 no one remains."
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "ZEP 2:6"
+    },
+    "The coastal region¦375042 will become pastures¦375044 of meadows¦375045 for shepherds¦375046\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "and¦375047 pens¦375047 for flocks.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "ZEP 2:7"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈The remaining survivors from Yehudah¦375054"
+     ]
+    },
+    " will ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "inhabit"
+     ]
+    },
+    " that region¦375051.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They will shepherd ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "their flocks"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈on¦375057 that land"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They’ll lie down in their houses¦375057 in Ashkelon¦375058 in the evening¦375059,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦375061 their god¦375064 Yahweh¦375063 will visit¦375062 them, and¦375050 he’ll restore¦375065 their fortune¦375066.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "ZEP 2:8"
+    },
+    "I’ve¦375069 heard¦375069 Moav’s mocking\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Judgment against Moab and Ammon; Against Moab and Ammon\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Ammonites’"
+     ]
+    },
+    " insults.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "They’ve insulted my people\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈built up their forces"
+     ]
+    },
+    " against their border.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:8-11: a "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Isa 15:1–16:14; 25:10-12; Jer 48:1-47; Eze 25:8-11; Amos 1:13-15; "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "b "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Jer 49:1-6; Eze 21:28-32; 25:1-7; Amos 1:13-15."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "ZEP 2:9"
+    },
+    "Commander-in-chief Yahweh¦375090, Yisrael’s¦375093 god¦375092, declares:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "As certain as I’m alive,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Moab¦375096 will become like Sodom¦375097,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Ammonites"
+     ]
+    },
+    " like Amorah ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Gomorrah¦375101)"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈overrun by"
+     ]
+    },
+    " nettles and salt-pits—in ruins forever.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The remnant¦375111 of my people¦375112 will plunder¦375113 them,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈and the remainder¦375114 of my nation will ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈take¦375117 possession¦375102 of"
+     ]
+    },
+    " them.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:9: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Gen 19:24."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "ZEP 2:10"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈That will be the fruit"
+     ]
+    },
+    " of their¦375122 pride¦375122,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦375123 they¦375124 mocked and¦375125 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈talked themselves¦375125 up"
+     ]
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "against the people¦375128 of Commander-in-chief Yahweh¦375129.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "ZEP 2:11"
+    },
+    "The people of Moab and Ammon will be ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈very scared"
+     ]
+    },
+    " when Yahweh punishes them.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He’ll do that so powerfully that people will stop worshipping all other gods¦375140.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "People in every¦375145 nation¦375149 will worship Yahweh instead—each person in their own country.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "ZEP 2:12"
+    },
+    "Also you¦375153, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Ethiopians"
+     ]
+    },
+    " (Kushites), will be ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈killed"
+     ]
+    },
+    " by my sword¦375156.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:12: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Isa 18:1-7."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Judgment against Ethiopia and Assyria; Against Cush\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "ZEP 2:13"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "@Yahweh"
+     ]
+    },
+    " will ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈punish those in"
+     ]
+    },
+    " the north¦375163.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Against Assyria\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Yes,"
+     ]
+    },
+    " he’ll destroy¦375164 Assyria¦375167.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈He’ll ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈turn"
+     ]
+    },
+    " Nineveh¦375171 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈into ruins"
+     ]
+    },
+    "—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "it’ll become"
+     ]
+    },
+    " a dry place like the desert.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:13-15: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Isa 10:5-34; 14:24-27; Nah 1:1–3:19."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "ZEP 2:14"
+    },
+    "Herds of every¦375179 kind ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "of wild animals¦375181"
+     ]
+    },
+    " will lie down in the middle of it¦375193,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Various kinds of owls"
+     ]
+    },
+    " will sit on¦375177 the pillars ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "still standing"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "A call will hoot in the window¦375194.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Rubble will blocking any doorways"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "still upright"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "because¦375197 the cedar¦375198 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "planks"
+     ]
+    },
+    " will be ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈exposed"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "ZEP 2:15"
+    },
+    "This is the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈proud"
+     ]
+    },
+    " city ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈where"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "people"
+     ]
+    },
+    " lived¦375206 in security¦375207.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The one ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈with a reputation:"
+     ]
+    },
+    " “",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈No other city compares with me"
+     ]
+    },
+    ".”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "How it’s become¦375215 a ruin—",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈a home for the wild animals¦375218"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Every one passing by will hiss at¦375209 it ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "in derision"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "and"
+     ]
+    },
+    " shake¦375223 their fist ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "remembering their hate for it"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "3",
+   "sid": "ZEP 3"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Yerushalem’s sin\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Jerusalem’s Sin and Redemption; Jerusalem’s Rebellion and Redemption; The Wickedness of Jerusalem; The Future of Jerusalem\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Southern kingdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "ZEP 3:1"
+    },
+    "The one rebelling¦375228 and¦375229 being defiled¦375229 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈is to be pited"
+     ]
+    },
+    "—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "the city¦375230 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈of oppressors¦375231"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "ZEP 3:2"
+    },
+    "She doesn’t ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈listen¦375234 to what she’s told"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈She doesn’t take correction¦375238.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "She ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈refuses to"
+     ]
+    },
+    " trust¦375241 in¦375235 Yahweh¦375239.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈She won’t¦375236 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈approach"
+     ]
+    },
+    " her¦375244 god¦375244.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "ZEP 3:3"
+    },
+    "Her ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈leaders"
+     ]
+    },
+    " are roaring¦375251 lions¦375250 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈among the flock"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Her judges¦375252 are wolves¦375253 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "that¦375255 approach in¦375249"
+     ]
+    },
+    " the evening¦375254.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈There’s nothing left to eat by"
+     ]
+    },
+    " the morning¦375257.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "ZEP 3:4"
+    },
+    "Her prophets are insolent¦375260, treacherous¦375262 men¦375261.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Her priests¦375263 profane¦375264 the sanctuary¦375266—they violate ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "God’s"
+     ]
+    },
+    " law.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "ZEP 3:5"
+    },
+    "Yahweh¦375270 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈behaves fairly"
+     ]
+    },
+    " in¦375272 her¦375272 midst¦375272.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈He doesn’t ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈do anything that’s wrong"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈makes fair and just judgements¦375278 every"
+     ]
+    },
+    " morning.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "At ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "every"
+     ]
+    },
+    " dawn, he’s ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈present there"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈yet those who are disobedient have no"
+     ]
+    },
+    " shame¦375287.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "ZEP 3:6"
+    },
+    "I’ve ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈destroyed"
+     ]
+    },
+    " nations¦375290—",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈broken down their walls"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈I’ve destroyed their streets¦375294 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈and now they’re deserted¦375291"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Their cities¦375298 are ruined, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈lifeless"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈without anyone¦375301 living ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "in them"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "ZEP 3:7"
+    },
+    "I said¦375305, ‘Surely you will ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈respect"
+     ]
+    },
+    " me ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈and accept¦375310"
+     ]
+    },
+    " correction¦375311.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈Then ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈she won’t¦375312 die as a city because of my punishing"
+     ]
+    },
+    " her¦375315.’\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Nevertheless¦375321, they ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈got up early¦375322 to do all their¦375325 corrupt¦375323 activities"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Punishment and Conversion of the Nations\n"
+     ]
+    },
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "ZEP 3:8"
+    },
+    "Yahweh¦375333 declares:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Wait for me, for ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈when I pounce on"
+     ]
+    },
+    " the prey,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because my decision¦375338 is to gather¦375339 nations¦375340 and assemble¦375341 kingdoms¦375342,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "to pour my indignation¦375345 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈and all my anger¦375348"
+     ]
+    },
+    " out on them,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because the whole world will be consumed¦375352 by the fire¦375350 of my jealousy¦375351.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "b"
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "ZEP 3:9"
+    },
+    "Then I’ll¦375360 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈be sure to give pure speech"
+     ]
+    },
+    " to the peoples¦375363,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "so all of them can ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈pray to"
+     ]
+    },
+    " Yahweh¦375369,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and¦375370 serve¦375370 him¦375370 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈side-by-side"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "ZEP 3:10"
+    },
+    "From across the rivers¦375375 of ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Ethiopia"
+     ]
+    },
+    " (Cush¦375377), my worshippers¦375378,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "my scattered¦375381 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈children"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "will return and"
+     ]
+    },
+    " bring¦375385 my offering¦375386.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "ZEP 3:11"
+    },
+    "On that day¦375388 you won’t feel ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈ashamed¦375391 about all the times you disobeyed"
+     ]
+    },
+    " me,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 A remnant preserved\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "because¦375397 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈at¦375396 that time"
+     ]
+    },
+    ", I’ll¦375401 remove¦375401 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈those proud people from among you"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and you won’t continue to be arrogant on¦375396 my sacred¦375411 mountain¦375410.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "ZEP 3:12"
+    },
+    "And I’ll¦375413 leave¦375413 the poorer and humble people¦375415 among you¦375414,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and they’ll trust in¦375414 Yahweh’s¦375420 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈authority"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "ZEP 3:13"
+    },
+    "The ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈surviving Israelis¦375422"
+     ]
+    },
+    " won’t ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈do¦375426 what is wrong"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈They won’t tell ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#lies"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈or deceive¦375437 others"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Instead they’ll ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈eat and sleep in¦375435 peace"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈No one will be there¦375443 to terrify¦375444 them.",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:13: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Rev 14:5."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": []
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The song of happiness\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 A Song of Joy\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Both kingdoms\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "ZEP 3:14"
+    },
+    "Tsiyyon’s¦375450 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "(Zion’s¦375450)"
+     ]
+    },
+    " daughter, sing happily.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈All Yisrael¦375452, shout aloud.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "#Daughters"
+     ]
+    },
+    " of Yerushalem¦375459, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈be happy and triumphant will all your being"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "ZEP 3:15"
+    },
+    "Yahweh ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈will stop punishing you"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He’s ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈forced your enemy¦375465 to retreat"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Yisrael’s¦375467 king¦375466, Yahweh, is among you.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈Don’t¦375471 worry any more about being harmed"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "ZEP 3:16"
+    },
+    "In that day¦375477 Yerushalem¦375480 will be told,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“Don’t ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈be afraid¦375483"
+     ]
+    },
+    ", Zion¦375484.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Don’t ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈let your¦375488 hands¦375488 grow weak"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "ZEP 3:17"
+    },
+    "Your god¦375491 Yahweh¦375490 is ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈right there"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "A powerful warrior¦375494, he’ll save you.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He’ll ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈be so happy about you"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He’ll be silent¦375499 in¦375492 his love¦375500.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "He’ll ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "talk"
+     ]
+    },
+    " happily about ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈your rescue"
+     ]
+    },
+    ".”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "ZEP 3:18"
+    },
+    "I will gather¦375507 those¦375505 among you¦375508 who grieve¦375505 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈so they¦375509 can attend the celebrations"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈They were taken as tribute¦375510 and it was a"
+     ]
+    },
+    " reproach¦375512.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "ZEP 3:19"
+    },
+    "Look¦375514, I’ll be dealing with¦375521 all of your oppressors¦375520 at¦375521 that time¦375521.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "I’ll save¦375523 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "your"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈people who are disabled or who’ve been shamed"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "Then I’ll ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈get them praising¦375530"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≡change"
+     ]
+    },
+    " their¦375535 shame¦375535 into a ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈good reputation¦375531"
+     ]
+    },
+    " around the world.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "ZEP 3:20"
+    },
+    "At that time I will bring¦375539 you all in—\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "≈yes, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈I’ll¦375539 gather¦375542 you all together at¦375541 that"
+     ]
+    },
+    " time.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈You’ll have a good reputation¦375548 and people¦375551 all over the world will praise¦375549 you"
+     ]
+    },
+    ",\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "as I restore¦375553 your ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "good"
+     ]
+    },
+    " fortune¦375556 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈right in front of"
+     ]
+    },
+    " your eyes¦375557.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "m",
+   "content": [
+    "Yahweh¦375559 has spoken.\n"
+   ]
   }
+ ]
 }

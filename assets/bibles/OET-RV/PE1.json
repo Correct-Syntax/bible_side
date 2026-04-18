@@ -1,2150 +1,3413 @@
 {
-  "book": {
-    "bookCode": "1PE",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.1.04",
-    "meta": [
-      {
-        "usfm": "3.0"
-      },
-      {
-        "ide": "UTF-8"
-      },
-      {
-        "rem": "ESFM v0.6 PE1"
-      },
-      {
-        "rem": "WORDTABLE OET-LV_NT_word_table.tsv"
-      },
-      {
-        "h": "1 Peter"
-      },
-      {
-        "toc1": "1 Peter"
-      },
-      {
-        "toc2": "1 Peter"
-      },
-      {
-        "toc3": "1 Ptr"
-      },
-      {
-        "mt2": "The first letter from"
-      },
-      {
-        "mt1": "Simon ‘the Rock’ (Peter)"
-      },
-      {
-        "is1": "Introduction"
-      },
-      {
-        "ip": [
-          {
-            "bk": "The first letter from Simon ‘Peter’",
-            "closing": "\\bk*"
-          },
-          "was written to believers scattered throughout Asia Minor (also called Anatolia, now part of modern Turkey). Peter wrote to encourage the believers that it's necessary for them to be strong even in the middle of much persecution that comes because of their faith in the messiah. He reminds them about their salvation, the death of Yeshua the messiah, and of his coming back to life. Because Peter told them that there must always remember their hope in heaven, then they can persevere even through all the difficulties here on earth. He also reminds them that if their faith holds strong through their suffering of difficulties and persecutions, they will receive a gift at “The time when Yeshua the messiah is revealed.” (1:7,13)"
-        ]
-      },
-      {
-        "ip": "He also warns them that it's necessary to watch their behaviour as followers of the messiah and it's necessary that they follow the guidance of their elders."
-      },
-      {
-        "iot": "Main components of Peter's letter"
-      },
-      {
-        "io1": [
-          "Introduction",
-          {
-            "ior": "1:1-2",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "The reminder about the future benefits of salvation",
-          {
-            "ior": "1:3-12",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Encouragement about godly living",
-          {
-            "ior": "1:13–2:10",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Respecting those who have authority over us",
-          {
-            "ior": "2:11–3:7",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Advice concerning the coming persecutions",
-          {
-            "ior": "3:8–4:19",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Advice for teachers and believers",
-          {
-            "ior": "5:1-11",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Farewell",
-          {
-            "ior": "5:12-14",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "rem": [
-          "This is still a very early look into the unfinished text of the",
-          {
-            "em": "Open English Translation",
-            "closing": "\\em*"
-          },
-          "of the Bible. Please double-check the text in advance before using in public."
-        ]
-      },
-      {
-        "ie": ""
-      }
-    ]
+ "type": "USJ",
+ "version": "3.1",
+ "content": [
+  {
+   "type": "book",
+   "marker": "id",
+   "code": "1PE",
+   "content": [
+    "- Open English Translation—Readers’ Version (OET-RV) v0.1.09"
+   ]
   },
-  "chapters": [
+  {
+   "type": "para",
+   "marker": "ide",
+   "content": [
+    "UTF-8\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "ESFM v0.6 PE1\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "WORDTABLE OET-LV_NT_word_table.tsv\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "h",
+   "content": [
+    "1 Peter\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc1",
+   "content": [
+    "1 Peter\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc2",
+   "content": [
+    "1 Peter\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc3",
+   "content": [
+    "1 Ptr\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt2",
+   "content": [
+    "The first letter from\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt1",
+   "content": [
+    "Simon ‘the Rock’ (Peter)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "is1",
+   "content": [
+    "Introduction\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
     {
-      "chapterNumber": "1",
-      "contents": [
-        {
-          "rem": "/s1 Salutation; Greetings from Peter"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            {
-              "add": "This letter is from",
-              "closing": "\\add*"
-            },
-            "Peter, a missionary for",
-            {
-              "nd": "Yeshua¦149436",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦149437",
-              "closing": "\\nd*"
-            },
-            ".",
-            {
-              "p": [
-                {
-                  "add": "It's written",
-                  "closing": "\\add*"
-                },
-                "to those who've been chosen",
-                {
-                  "add": "by God",
-                  "closing": "\\add*"
-                },
-                "and dispersed¦149441",
-                {
-                  "add": "by persecution",
-                  "closing": "\\add*"
-                },
-                "throughout",
-                {
-                  "add": "the provinces of",
-                  "closing": "\\add*"
-                },
-                "Pontus¦149442, Galatia¦149443, Cappadocia¦149444, Asia",
-                {
-                  "add": "Minor",
-                  "closing": "\\add*"
-                },
-                "and Bithynia."
-              ]
-            }
-          ],
-          "verseText": "This letter is from Peter, a missionary for Yeshua¦149436 the messiah¦149437. It's written to those who've been chosen by God and dispersed¦149441 by persecution throughout the provinces of Pontus¦149442, Galatia¦149443, Cappadocia¦149444, Asia Minor and Bithynia."
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            {
-              "add": "They were"
-            },
-            {
-              "nd": [
-                "chosen¦149461",
-                {
-                  "nd": "*",
-                  "closing": "\\add*"
-                },
-                "in advance by God the father¦149451 by his pure",
-                {
-                  "nd": "spirit¦149454",
-                  "closing": "\\nd*"
-                },
-                ", thanks to the obedience¦149456 of",
-                {
-                  "nd": "Yeshua¦149460",
-                  "closing": "\\nd*"
-                },
-                "the",
-                {
-                  "nd": "messiah¦149461",
-                  "closing": "\\nd*"
-                },
-                "and the sprinkling¦149458 of his blood¦149459."
-              ]
-            },
-            {
-              "rem": "/s1 Praise to God for a Living Hope; The Hope of Eternal Life; Peter gives thanks"
-            },
-            {
-              "p": [
-                "May",
-                {
-                  "add": "God give",
-                  "closing": "\\add*"
-                },
-                "you¦149463 all grace¦149462 and multiplied¦149466 peace¦149465."
-              ]
-            },
-            {
-              "s1": "The future hope of life without ending"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "They were chosen¦149461 * in advance by God the father¦149451 by his pure spirit¦149454, thanks to the obedience¦149456 of Yeshua¦149460 the messiah¦149461 and the sprinkling¦149458 of his blood¦149459. May God give you¦149463 all grace¦149462 and multiplied¦149466 peace¦149465."
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "May",
-            {
-              "nd": "God¦149469",
-              "closing": "\\nd*"
-            },
-            ", the father¦149471 of our¦149474",
-            {
-              "nd": "master¦149473",
-              "closing": "\\nd*"
-            },
-            "Yeshua the messiah be blessed. He's the one who, because of his¦149481 incredible mercy¦149482, births us into living¦149489 hope through¦149490 the death and¦149470 coming back to life of Yeshua the messiah."
-          ],
-          "verseText": "May God¦149469, the father¦149471 of our¦149474 master¦149473 Yeshua the messiah be blessed. He's the one who, because of his¦149481 incredible mercy¦149482, births us into living¦149489 hope through¦149490 the death and¦149470 coming back to life of Yeshua the messiah."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            {
-              "add": "Now we have",
-              "closing": "\\add*"
-            },
-            "an inheritance¦149497 that can't be destroyed or ruined and never diminishes. It's kept¦149505 in the heavens¦149508 for you¦149512 all"
-          ],
-          "verseText": "Now we have an inheritance¦149497 that can't be destroyed or ruined and never diminishes. It's kept¦149505 in the heavens¦149508 for you¦149512 all"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "who are guarded¦149517 through¦149518 faith¦149519 by God's power¦149515, because¦149520 salvation¦149521 is ready¦149523 to be revealed¦149524 in the final age.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "who are guarded¦149517 through¦149518 faith¦149519 by God's power¦149515, because¦149520 salvation¦149521 is ready¦149523 to be revealed¦149524 in the final age."
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            {
-              "add": "This salvation",
-              "closing": "\\add*"
-            },
-            "brings some happiness now, although offset by the sorrow¦149537 of various¦149541 trials¦149543",
-            {
-              "add": "that you¦149530 all go through",
-              "closing": "\\add*"
-            }
-          ],
-          "verseText": "This salvation brings some happiness now, although offset by the sorrow¦149537 of various¦149541 trials¦149543 that you¦149530 all go through"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "in order¦149544 that your faith will be purified by fire, like gold but",
-            {
-              "add": "even",
-              "closing": "\\add*"
-            },
-            "more precious¦149552 because gold perishes¦149557. Then your faith will lead to praise¦149565 and glory¦149568 and honour¦149572 when",
-            {
-              "nd": "Yeshua¦149575",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦149576",
-              "closing": "\\nd*"
-            },
-            "is revealed,"
-          ],
-          "verseText": "in order¦149544 that your faith will be purified by fire, like gold but even more precious¦149552 because gold perishes¦149557. Then your faith will lead to praise¦149565 and glory¦149568 and honour¦149572 when Yeshua¦149575 the messiah¦149576 is revealed,"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "the one you all love although you've never seen¦149580 him. Yet you all believe¦149588 and because of that you are more happy than you all can even show AND HAVING BEEN GLORIFIED,"
-          ],
-          "verseText": "the one you all love although you've never seen¦149580 him. Yet you all believe¦149588 and because of that you are more happy than you all can even show AND HAVING BEEN GLORIFIED,"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "you'll receive¦149596 the result of your faith¦149600 which is the salvation¦149602 of your souls¦149603.",
-            {
-              "rem": "/s1 The calling of a Christian"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "you'll receive¦149596 the result of your faith¦149600 which is the salvation¦149602 of your souls¦149603."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "The prophets¦149610 wanted that salvation¦149606 and¦149608 searched¦149609 for it, even while speaking about the grace¦149616 which you¦149615 all would experience."
-          ],
-          "verseText": "The prophets¦149610 wanted that salvation¦149606 and¦149608 searched¦149609 for it, even while speaking about the grace¦149616 which you¦149615 all would experience."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "They tried to discover which person or what time¦149623 that the messiah's",
-            {
-              "nd": "spirit¦149628",
-              "closing": "\\nd*"
-            },
-            "within them was telling them, having previously¦149630 testified¦149630 that the messiah would suffer¦149635 but afterwards¦149638 would be GLORIOUS."
-          ],
-          "verseText": "They tried to discover which person or what time¦149623 that the messiah's spirit¦149628 within them was telling them, having previously¦149630 testified¦149630 that the messiah would suffer¦149635 but afterwards¦149638 would be GLORIOUS."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "It was shown to them that they weren't just serving themselves¦149646 but were serving you as they declared¦149654 all the same things that have been preached¦149658 to you all by the holy",
-            {
-              "nd": "spirit¦149662",
-              "closing": "\\nd*"
-            },
-            "who was sent from heaven. Even",
-            {
-              "add": "God's",
-              "closing": "\\add*"
-            },
-            "messengers¦149670 in heaven wanted to know more about those things.",
-            {
-              "s1": "The holy behaviour of believers"
-            },
-            {
-              "rem": "/s1 A Call to Holy Living; Be Holy"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "It was shown to them that they weren't just serving themselves¦149646 but were serving you as they declared¦149654 all the same things that have been preached¦149658 to you all by the holy spirit¦149662 who was sent from heaven. Even God's messengers¦149670 in heaven wanted to know more about those things."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "So¦149672 take this seriously and get your minds prepared, and putting your full hope on the grace¦149686 that will be brought¦149684 to you all by the revelation¦149688 of",
-            {
-              "nd": "Yeshua¦149689",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦149690",
-              "closing": "\\nd*"
-            },
-            "."
-          ],
-          "verseText": "So¦149672 take this seriously and get your minds prepared, and putting your full hope on the grace¦149686 that will be brought¦149684 to you all by the revelation¦149688 of Yeshua¦149689 the messiah¦149690."
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "As people who want to obey, don't¦149694 conform¦149695 to your earlier¦149697 desires¦149702 that came from your ignorance¦149700,"
-          ],
-          "verseText": "As people who want to obey, don't¦149694 conform¦149695 to your earlier¦149697 desires¦149702 that came from your ignorance¦149700,"
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "but¦149703 just as",
-            {
-              "add": "God",
-              "closing": "\\add*"
-            },
-            "who called¦149706 you¦149707 is holy, your yourselves¦149710 need to be holy in all your conduct¦149714,"
-          ],
-          "verseText": "but¦149703 just as God who called¦149706 you¦149707 is holy, your yourselves¦149710 need to be holy in all your conduct¦149714,"
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:16:"
-                },
-                {
-                  "xt": "Lev 11:44-45; 19:2."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "because it's been written¦149718 that ‘you¦149721 all will be holy because I am holy.’",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "because it's been written¦149718 that ‘you¦149721 all will be holy because I am holy.’"
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "As since you call on the father¦149731 who impartially¦149735 judges each person according¦149738 to their actions, then continue to obey him even as you all live in foreign lands,"
-          ],
-          "verseText": "As since you call on the father¦149731 who impartially¦149735 judges each person according¦149738 to their actions, then continue to obey him even as you all live in foreign lands,"
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "knowing¦149752 that when you all were in slavery due to your poor conduct¦149766 that you inherited¦149767 from your ancestors, you weren't bought out of that by payment of perishable¦149755 things like silver¦149757 or gold¦149760,"
-          ],
-          "verseText": "knowing¦149752 that when you all were in slavery due to your poor conduct¦149766 that you inherited¦149767 from your ancestors, you weren't bought out of that by payment of perishable¦149755 things like silver¦149757 or gold¦149760,"
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            "but¦149769 by the precious¦149771 blood¦149772 of the",
-            {
-              "nd": "messiah¦149778",
-              "closing": "\\nd*"
-            },
-            "—the unblemished¦149775 and¦149776 spotless¦149777 lamb."
-          ],
-          "verseText": "but¦149769 by the precious¦149771 blood¦149772 of the messiah¦149778—the unblemished¦149775 and¦149776 spotless¦149777 lamb."
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            "He had been foreknown¦149780 before¦149783 the creation of the world¦149785, yet he was only revealed¦149786 recently for the sake of all of you"
-          ],
-          "verseText": "He had been foreknown¦149780 before¦149783 the creation of the world¦149785, yet he was only revealed¦149786 recently for the sake of all of you"
-        },
-        {
-          "verseNumber": "21",
-          "contents": [
-            "who believe¦149801 in God through him. God was the one who raised¦149806 him from the dead¦149810 and honoured him, so that your¦149818 faith¦149817 and hope would be in God.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "who believe¦149801 in God through him. God was the one who raised¦149806 him from the dead¦149810 and honoured him, so that your¦149818 faith¦149817 and hope would be in God."
-        },
-        {
-          "verseNumber": "22",
-          "contents": [
-            "Since your souls¦149826 have been purified¦149828 by obeying the truth¦149833,",
-            {
-              "add": "now",
-              "closing": "\\add*"
-            },
-            "you should love each other from your hearts¦149841 and without hypocrisy."
-          ],
-          "verseText": "Since your souls¦149826 have been purified¦149828 by obeying the truth¦149833, now you should love each other from your hearts¦149841 and without hypocrisy."
-        },
-        {
-          "verseNumber": "23",
-          "contents": [
-            "You've been born again¦149846, not by some physical thing that will perish¦149851, but¦149852 of indestructible¦149853 material—God's message¦149855 that's alive and¦149858 lives on"
-          ],
-          "verseText": "You've been born again¦149846, not by some physical thing that will perish¦149851, but¦149852 of indestructible¦149853 material—God's message¦149855 that's alive and¦149858 lives on"
-        },
-        {
-          "verseNumber": "24",
-          "contents": [
-            "because",
-            {
-              "add": "it's written",
-              "closing": "\\add*"
-            },
-            ":",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:24-25:"
-                },
-                {
-                  "xt": "Isa 40:6-8 (LXX)."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            {
-              "q1": "‘All flesh¦149866 is like grass,"
-            },
-            {
-              "q2": "and the beauty of our bodies like its flower."
-            },
-            {
-              "q1": "The grass will wither¦149880 and its flower will drop"
-            },
-            {
-              "q2": ""
-            }
-          ],
-          "verseText": "because it's written: ‘All flesh¦149866 is like grass, and the beauty of our bodies like its flower. The grass will wither¦149880 and its flower will drop"
-        },
-        {
-          "verseNumber": "25",
-          "contents": [
-            "but the",
-            {
-              "nd": "master's¦149891",
-              "closing": "\\nd*"
-            },
-            "message will last till the end of the age.’",
-            {
-              "m": "And that's the good message that has been preached¦149902 to all of you."
-            }
-          ],
-          "verseText": "but the master's¦149891 message will last till the end of the age.’ And that's the good message that has been preached¦149902 to all of you."
-        }
-      ]
+     "type": "char",
+     "marker": "bk",
+     "content": [
+      "The first letter from Simon ‘Peter’"
+     ]
     },
+    " was written to believers scattered throughout Asia Minor (also called Anatolia, now part of modern Turkey). Peter wrote to encourage the believers that it’s necessary for them to be strong even in the middle of much persecution that comes because of their faith in the messiah. He reminds them about their salvation, the death of Yeshua the messiah, and of his coming back to life. Because Peter told them that there must always remember their hope in heaven, then they can persevere even through all the difficulties here on earth. He also reminds them that if their faith holds strong through their suffering of difficulties and persecutions, they will receive a gift at “The time when Yeshua the messiah is revealed.” (1:7,13)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "He also warns them that it’s necessary to watch their behaviour as followers of the messiah and it’s necessary that they follow the guidance of their elders.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "iot",
+   "content": [
+    "Main components of Peter’s letter\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Introduction ",
     {
-      "chapterNumber": "2",
-      "contents": [
-        {
-          "rem": "/s1 The Living Stone and the Holy Nation; The Living Stone and a Chosen People"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "So¦149907 then, get rid of all malice¦149909 and deceit¦149913, and hypocrisy¦149915 and envy, and slander¦149923",
-            {
-              "add": "of others",
-              "closing": "\\add*"
-            },
-            "."
-          ],
-          "verseText": "So¦149907 then, get rid of all malice¦149909 and deceit¦149913, and hypocrisy¦149915 and envy, and slander¦149923 of others."
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            {
-              "add": "Just",
-              "closing": "\\add*"
-            },
-            "like newborn¦149927 babies¦149928 long¦149933 for pure milk so they'll grow, you all should cultivate a thirst for what will help you grow in your salvation¦149941,"
-          ],
-          "verseText": "Just like newborn¦149927 babies¦149928 long¦149933 for pure milk so they'll grow, you all should cultivate a thirst for what will help you grow in your salvation¦149941,"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:3:"
-                },
-                {
-                  "xt": "Psa 34:8."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "since you've all tasted¦149944 that the",
-            {
-              "nd": "master¦149950",
-              "closing": "\\nd*"
-            },
-            "is good¦149948.",
-            {
-              "s1": "The vital building-stone and the believers"
-            },
-            {
-              "rem": "/s1 Living Stones for God's House; The Living Stone and a Chosen People"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "since you've all tasted¦149944 that the master¦149950 is good¦149948."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "As you all approach¦149953 the living¦149955 building-stone (which was rejected¦149960 by humans¦149958 yet chosen¦149964 and honoured¦149965 by",
-            {
-              "nd": "God¦149963",
-              "closing": "\\nd*"
-            },
-            "),"
-          ],
-          "verseText": "As you all approach¦149953 the living¦149955 building-stone (which was rejected¦149960 by humans¦149958 yet chosen¦149964 and honoured¦149965 by God¦149963),"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "you¦149973 are being¦149973 built¦149973 into a temple and",
-            {
-              "add": "joining",
-              "closing": "\\add*"
-            },
-            "a holy group of priests¦149980 to offer¦149982 up",
-            {
-              "em": "spiritual",
-              "closing": "\\em*"
-            },
-            "sacrifices¦149985 that are acceptable¦149986 to",
-            {
-              "nd": "God¦149988",
-              "closing": "\\nd*"
-            },
-            "through¦149989",
-            {
-              "nd": "Yeshua¦149990",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦149991",
-              "closing": "\\nd*"
-            },
-            ","
-          ],
-          "verseText": "you¦149973 are being¦149973 built¦149973 into a temple and joining a holy group of priests¦149980 to offer¦149982 up spiritual sacrifices¦149985 that are acceptable¦149986 to God¦149988 through¦149989 Yeshua¦149990 the messiah¦149991,"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:6:"
-                },
-                {
-                  "xt": "Isa 28:16 (LXX)."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "because it's written in the scriptures¦149999:",
-            {
-              "q1": "‘Look¦150000, I'm placing a building-stone in Tsiyyon/Zion,"
-            },
-            {
-              "q2": [
-                "the",
-                {
-                  "add": "vital",
-                  "closing": "\\add*"
-                },
-                "cornerstone¦150006 that's chosen¦150007 and honoured¦150009,"
-              ]
-            },
-            {
-              "q2": "and anyone who believes¦150012 in him¦150014 certainly won't be disgraced¦150018.’"
-            },
-            {
-              "m": ""
-            }
-          ],
-          "verseText": "because it's written in the scriptures¦149999: ‘Look¦150000, I'm placing a building-stone in Tsiyyon/Zion, the vital cornerstone¦150006 that's chosen¦150007 and honoured¦150009, and anyone who believes¦150012 in him¦150014 certainly won't be disgraced¦150018.’"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:7:"
-                },
-                {
-                  "xt": "Psa 118:22."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "To all of you¦150020 who believe, this",
-            {
-              "add": "cornerstone",
-              "closing": "\\add*"
-            },
-            "is valuable, but¦150028 to those who don't believe:",
-            {
-              "q1": "‘The building-stone which¦150031 the builders¦150034 rejected¦150032"
-            },
-            {
-              "q2": [
-                "ended up becoming¦150036 the",
-                {
-                  "add": "vital",
-                  "closing": "\\add*"
-                },
-                "cornerstone.’"
-              ]
-            },
-            {
-              "m": ""
-            }
-          ],
-          "verseText": "To all of you¦150020 who believe, this cornerstone is valuable, but¦150028 to those who don't believe: ‘The building-stone which¦150031 the builders¦150034 rejected¦150032 ended up becoming¦150036 the vital cornerstone.’"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "and",
-            {
-              "add": "he will be",
-              "closing": "\\add*"
-            },
-            ":",
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:8:"
-                },
-                {
-                  "xt": "Isa 8:14-15."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            {
-              "q1": "‘A stone¦150041 that people stumble over"
-            },
-            {
-              "q2": "and a rock¦150045 that upsets people.’"
-            },
-            {
-              "m": [
-                "They stumble",
-                {
-                  "add": "because",
-                  "closing": "\\add*"
-                },
-                "they¦150058 won't believe in the message¦150052—this is what was appointed¦150058 for them."
-              ]
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "and he will be: ‘A stone¦150041 that people stumble over and a rock¦150045 that upsets people.’ They stumble because they¦150058 won't believe in the message¦150052—this is what was appointed¦150058 for them."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:9: a"
-                },
-                {
-                  "xt": "Exo 19:5-6; Isa 43:20 (LXX);"
-                },
-                {
-                  "xo": "b"
-                },
-                {
-                  "xt": "Exo 19:5; Deu 4:20; 7:6; 14:2; Tit 2:14;"
-                },
-                {
-                  "xo": "c"
-                },
-                {
-                  "xt": "Isa 43:21;"
-                },
-                {
-                  "xo": "d"
-                },
-                {
-                  "xt": "Isa 9:2."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "But all of you are a chosen¦150062 tribe, a group of royal¦150063 priests¦150064, a holy nation¦150065, a people¦150067 that God has procured¦150069, so that you can tell others about the virtues¦150072 of the one who called¦150078 you all out of darkness¦150076 and into his¦150082 marvellous¦150081 light¦150083."
-          ],
-          "verseText": "But all of you are a chosen¦150062 tribe, a group of royal¦150063 priests¦150064, a holy nation¦150065, a people¦150067 that God has procured¦150069, so that you can tell others about the virtues¦150072 of the one who called¦150078 you all out of darkness¦150076 and into his¦150082 marvellous¦150081 light¦150083."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:10:"
-                },
-                {
-                  "xt": "Hos 2:23."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "Previously you all weren't a people group, but now you're the people of",
-            {
-              "nd": "God¦150092",
-              "closing": "\\nd*"
-            },
-            "—previously you all hadn't been shown mercy, but now you have been.",
-            {
-              "s1": "Battling worldly desires"
-            },
-            {
-              "rem": "/s1 The Christian household; Slaves of God; Live as Servants of God"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Previously you all weren't a people group, but now you're the people of God¦150092—previously you all hadn't been shown mercy, but now you have been."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "Dear friends, I'm urging you all as travellers and¦150103 foreigners to keep away from worldly temptations which¦150111 are in a battle against¦150113 your¦150114 soul¦150115."
-          ],
-          "verseText": "Dear friends, I'm urging you all as travellers and¦150103 foreigners to keep away from worldly temptations which¦150111 are in a battle against¦150113 your¦150114 soul¦150115."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "Even as you all live among¦150122 atheists, maintain your good conduct¦150117 so that when they slander¦150131 you by calling you ‘evil’, at the time of God's",
-            {
-              "add": "judgement",
-              "closing": "\\add*"
-            },
-            "they'll have to honour¦150141 God when they see your good behaviour.",
-            {
-              "rem": "/s1 Submission to Rulers and Masters; Respecting People in Authority"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Even as you all live among¦150122 atheists, maintain your good conduct¦150117 so that when they slander¦150131 you by calling you ‘evil’, at the time of God's judgement they'll have to honour¦150141 God when they see your good behaviour."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "Submit yourselves to every¦150153 human¦150155 authority because¦150157",
-            {
-              "add": "you all follow",
-              "closing": "\\add*"
-            },
-            "the",
-            {
-              "nd": "master¦150159",
-              "closing": "\\nd*"
-            },
-            ", whether¦150160 it's the king¦150161 who rules,"
-          ],
-          "verseText": "Submit yourselves to every¦150153 human¦150155 authority because¦150157 you all follow the master¦150159, whether¦150160 it's the king¦150161 who rules,"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "or the governors¦150165 that he sends to punish those who do evil and to praise¦150174 those who do good."
-          ],
-          "verseText": "or the governors¦150165 that he sends to punish those who do evil and to praise¦150174 those who do good."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "It's God's will that you all silence¦150187 the ignorant¦150194",
-            {
-              "add": "talk",
-              "closing": "\\add*"
-            },
-            "of foolish¦150191 people¦150192 by doing¦150184 good¦150184."
-          ],
-          "verseText": "It's God's will that you all silence¦150187 the ignorant¦150194 talk of foolish¦150191 people¦150192 by doing¦150184 good¦150184."
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "Live as if you're all free, but¦150207 don't¦150198 use that freedom¦150206 to cover¦150200 up evil¦150204—use it as God's slaves¦150211."
-          ],
-          "verseText": "Live as if you're all free, but¦150207 don't¦150198 use that freedom¦150206 to cover¦150200 up evil¦150204—use it as God's slaves¦150211."
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "Honour others and be loving¦150217 towards your fellow believers. Revere",
-            {
-              "nd": "God¦150221",
-              "closing": "\\nd*"
-            },
-            "as well as honouring¦150225 the king¦150224.",
-            {
-              "s1": "Doing good despite suffering"
-            },
-            {
-              "rem": "/s1 Slaves; Servants; The Example of Christ's Suffering"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Honour others and be loving¦150217 towards your fellow believers. Revere God¦150221 as well as honouring¦150225 the king¦150224."
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "You who are house-servants¦150227 should respectfully¦150231 obey your¦150233 masters¦150234—not only the good¦150239 and¦150240 gentle¦150241",
-            {
-              "add": "ones",
-              "closing": "\\add*"
-            },
-            ", but¦150242 also the crooked¦150245",
-            {
-              "add": "ones",
-              "closing": "\\add*"
-            },
-            ","
-          ],
-          "verseText": "You who are house-servants¦150227 should respectfully¦150231 obey your¦150233 masters¦150234—not only the good¦150239 and¦150240 gentle¦150241 ones, but¦150242 also the crooked¦150245 ones,"
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            "because",
-            {
-              "add": ""
-            },
-            {
-              "nd": [
-                "God¦150257",
-                {
-                  "nd": "*",
-                  "closing": "\\add*"
-                },
-                "favours¦150248 those who endure unjust¦150263 hardships because of their godly consciences¦150255."
-              ]
-            }
-          ],
-          "verseText": "because God¦150257 * favours¦150248 those who endure unjust¦150263 hardships because of their godly consciences¦150255."
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            "What good would it do if you were enduring being¦150270 beaten¦150270 because¦150265 of doing evil? But if you endure suffering¦150278 for doing good, then",
-            {
-              "nd": "God¦150286",
-              "closing": "\\nd*"
-            },
-            "would be pleased",
-            {
-              "add": "with your behaviour",
-              "closing": "\\add*"
-            }
-          ],
-          "verseText": "What good would it do if you were enduring being¦150270 beaten¦150270 because¦150265 of doing evil? But if you endure suffering¦150278 for doing good, then God¦150286 would be pleased with your behaviour"
-        },
-        {
-          "verseNumber": "21",
-          "contents": [
-            "because that's what we're called¦150292 to because the",
-            {
-              "nd": "messiah¦150296",
-              "closing": "\\nd*"
-            },
-            "also suffered¦150298 for all of you. He left an example¦150307 for you, so that you all might follow¦150309 in his¦150312 steps¦150311:"
-          ],
-          "verseText": "because that's what we're called¦150292 to because the messiah¦150296 also suffered¦150298 for all of you. He left an example¦150307 for you, so that you all might follow¦150309 in his¦150312 steps¦150311:"
-        },
-        {
-          "verseNumber": "22",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:22:"
-                },
-                {
-                  "xt": "Isa 53:9."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "he didn't do evil or say anything that wasn't true,"
-          ],
-          "verseText": "he didn't do evil or say anything that wasn't true,"
-        },
-        {
-          "verseNumber": "23",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:23:"
-                },
-                {
-                  "xt": "Isa 53:7."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "when he was insulted¦150327 he didn't retaliate¦150330, when he was persecuted he didn't threaten¦150333 but put his trust in the one who will judge",
-            {
-              "add": "everyone",
-              "closing": "\\add*"
-            },
-            "with",
-            {
-              "add": "true",
-              "closing": "\\add*"
-            },
-            "justice."
-          ],
-          "verseText": "when he was insulted¦150327 he didn't retaliate¦150330, when he was persecuted he didn't threaten¦150333 but put his trust in the one who will judge everyone with true justice."
-        },
-        {
-          "verseNumber": "24",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "2:24-25:"
-                },
-                {
-                  "xt": "Isa 53:5-6 (LXX)."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "He sacrificed his own body¦150352 on the stake¦150356 for",
-            {
-              "em": "our¦150346",
-              "closing": "\\em*"
-            },
-            "sins, so that when we die to sin we can live for righteousness¦150363. By his wounds¦150368, you all were healed¦150370."
-          ],
-          "verseText": "He sacrificed his own body¦150352 on the stake¦150356 for our¦150346 sins, so that when we die to sin we can live for righteousness¦150363. By his wounds¦150368, you all were healed¦150370."
-        },
-        {
-          "verseNumber": "25",
-          "contents": [
-            {
-              "add": "He did all that",
-              "closing": "\\add*"
-            },
-            "because¦150372 you were like lost sheep¦150374, but now you all have returned¦150378 to the shepherd¦150384 and the overseer¦150386 of your¦150389 souls¦150388."
-          ],
-          "verseText": "He did all that because¦150372 you were like lost sheep¦150374, but now you all have returned¦150378 to the shepherd¦150384 and the overseer¦150386 of your¦150389 souls¦150388."
-        }
-      ]
-    },
-    {
-      "chapterNumber": "3",
-      "contents": [
-        {
-          "s1": "Advice to married couples"
-        },
-        {
-          "rem": "/s1 Wives and Husbands"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:1:"
-                },
-                {
-                  "xt": "Eph 5:22; Col 3:18."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "Similarly¦150390, women¦150392 should be subject¦150393 to their husbands¦150396, so that if any of them don't believe the message, they'll be won by the conduct¦150409 of their wives¦150408 even without",
-            {
-              "add": "hearing",
-              "closing": "\\add*"
-            },
-            "the message,"
-          ],
-          "verseText": "Similarly¦150390, women¦150392 should be subject¦150393 to their husbands¦150396, so that if any of them don't believe the message, they'll be won by the conduct¦150409 of their wives¦150408 even without hearing the message,"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "because they'll be able to observe¦150414 the pure conduct¦150420 of",
-            {
-              "add": "their wives",
-              "closing": "\\add*"
-            },
-            "."
-          ],
-          "verseText": "because they'll be able to observe¦150414 the pure conduct¦150420 of their wives."
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:3:"
-                },
-                {
-                  "xt": "1Tim 2:9."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            {
-              "add": "These women shouldn't focus",
-              "closing": "\\add*"
-            },
-            "on outward¦150426",
-            {
-              "add": "appearances",
-              "closing": "\\add*"
-            },
-            "like the braids¦150427 in their hair¦150428, or gold¦150432",
-            {
-              "add": "jewelry",
-              "closing": "\\add*"
-            },
-            "or",
-            {
-              "add": "expensive",
-              "closing": "\\add*"
-            },
-            "clothes¦150435,"
-          ],
-          "verseText": "These women shouldn't focus on outward¦150426 appearances like the braids¦150427 in their hair¦150428, or gold¦150432 jewelry or expensive clothes¦150435,"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "but on the inner person¦150442 with a gentle¦150448 and quiet¦150451 spirit¦150454 that's indestructible¦150445 and which¦150455",
-            {
-              "nd": "God¦150459",
-              "closing": "\\nd*"
-            },
-            {
-              "add": "considers",
-              "closing": "\\add*"
-            },
-            "precious¦150460."
-          ],
-          "verseText": "but on the inner person¦150442 with a gentle¦150448 and quiet¦150451 spirit¦150454 that's indestructible¦150445 and which¦150455 God¦150459 considers precious¦150460."
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "That was how holy women¦150467",
-            {
-              "add": "in the past",
-              "closing": "\\add*"
-            },
-            "adorned¦150476 themselves¦150477—those whose hope was in",
-            {
-              "nd": "God¦150475",
-              "closing": "\\nd*"
-            }
-          ],
-          "verseText": "That was how holy women¦150467 in the past adorned¦150476 themselves¦150477—those whose hope was in God¦150475"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:6:"
-                },
-                {
-                  "xt": "Gen 18:12."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "like Sarah who submitted¦150484 to Abraham¦150487 who you¦150493 are all descended from. She called him¦150490 ‘master¦150489’, doing¦150496 good¦150496 and¦150497 without any worries.",
-            {
-              "rem": "/s1 Husbands"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "like Sarah who submitted¦150484 to Abraham¦150487 who you¦150493 are all descended from. She called him¦150490 ‘master¦150489’, doing¦150496 good¦150496 and¦150497 without any worries."
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:7:"
-                },
-                {
-                  "xt": "Eph 5:25; Col 3:19."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "Similarly men¦150503 should live with",
-            {
-              "add": "their wives",
-              "closing": "\\add*"
-            },
-            "with understanding like you'd handle something more fragile. They should display honour¦150516 to their fellow¦150521 recipients of life-",
-            {
-              "add": "giving",
-              "closing": "\\add*"
-            },
-            "grace¦150524 so that their prayers¦150534 won't be hindered¦150530.",
-            {
-              "s1": "Suffering for doing good"
-            },
-            {
-              "rem": "/s1 All Christians; Suffering for Doing Right; Suffering for Doing Good"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Similarly men¦150503 should live with their wives with understanding like you'd handle something more fragile. They should display honour¦150516 to their fellow¦150521 recipients of life-giving grace¦150524 so that their prayers¦150534 won't be hindered¦150530."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "Finally, everyone should be agreeable and sympathetic¦150542",
-            {
-              "add": "to others",
-              "closing": "\\add*"
-            },
-            ", kind and caring towards those around you, humble¦150545"
-          ],
-          "verseText": "Finally, everyone should be agreeable and sympathetic¦150542 to others, kind and caring towards those around you, humble¦150545"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "and not repaying evil with evil or insult with insult, but rather be a blessing to others. You were called¦150563 to do that so that you all can receive a blessing."
-          ],
-          "verseText": "and not repaying evil with evil or insult with insult, but rather be a blessing to others. You were called¦150563 to do that so that you all can receive a blessing."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:10-12:"
-                },
-                {
-                  "xt": "Psa 34:12-16 (LXX)."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "because¦150568",
-            {
-              "add": "it's written",
-              "closing": "\\add*"
-            },
-            ":",
-            {
-              "q1": "‘The person wanting¦150569 to enjoy life¦150570 and see¦150573 good¦150576 days¦150574,"
-            },
-            {
-              "q1": "let their tongue¦150581 cease¦150577 from evil¦150584,"
-            },
-            {
-              "q2": "and their lips¦150587 to not speak¦150591 deceit¦150593."
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "because¦150568 it's written: ‘The person wanting¦150569 to enjoy life¦150570 and see¦150573 good¦150576 days¦150574, let their tongue¦150581 cease¦150577 from evil¦150584, and their lips¦150587 to not speak¦150591 deceit¦150593."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "Let them turn¦150594 away from evil¦150597 and do good¦150600,",
-            {
-              "q1": "let them look for peace¦150602 and chase after it¦150605,"
-            },
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "Let them turn¦150594 away from evil¦150597 and do good¦150600, let them look for peace¦150602 and chase after it¦150605,"
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "because the master's eyes¦150608 are on the righteous¦150611,",
-            {
-              "q2": "and his ears¦150613 listen to their¦150618 petition¦150617,"
-            },
-            {
-              "q1": [
-                "but the master",
-                {
-                  "add": "turns",
-                  "closing": "\\add*"
-                },
-                "his face¦150619 away from those¦150623 who do evil.’"
-              ]
-            },
-            {
-              "rem": "/s1 Suffering for Doing Good"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "because the master's eyes¦150608 are on the righteous¦150611, and his ears¦150613 listen to their¦150618 petition¦150617, but the master turns his face¦150619 away from those¦150623 who do evil.’"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "Then¦150625 who would mistreat¦150628 you if you all become¦150636 active at",
-            {
-              "add": "doing",
-              "closing": "\\add*"
-            },
-            "good¦150633,"
-          ],
-          "verseText": "Then¦150625 who would mistreat¦150628 you if you all become¦150636 active at doing good¦150633,"
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:14:"
-                },
-                {
-                  "xt": "Mat 5:10."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "but¦150639 even if some of you do suffer¦150643 because of your godliness,",
-            {
-              "add": "you will be",
-              "closing": "\\add*"
-            },
-            "blessed¦150646. Don't be scared or disturbed¦150655 because of your fear¦150650 of them,"
-          ],
-          "verseText": "but¦150639 even if some of you do suffer¦150643 because of your godliness, you will be blessed¦150646. Don't be scared or disturbed¦150655 because of your fear¦150650 of them,"
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "but¦150657 revere the",
-            {
-              "nd": "messiah¦150659",
-              "closing": "\\nd*"
-            },
-            "as the",
-            {
-              "nd": "master¦150656",
-              "closing": "\\nd*"
-            },
-            "of your¦150666 hearts¦150664. Always be ready¦150667 to explain the hope that you all have if",
-            {
-              "nd": "anyone¦150659",
-              "closing": "\\nd*"
-            },
-            "asks,"
-          ],
-          "verseText": "but¦150657 revere the messiah¦150659 as the master¦150656 of your¦150666 hearts¦150664. Always be ready¦150667 to explain the hope that you all have if anyone¦150659 asks,"
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "but",
-            {
-              "add": "do it",
-              "closing": "\\add*"
-            },
-            "with gentleness¦150685 and respect¦150687, keeping a clear conscience¦150688, so that if you're accused falsely of doing evil, then it'll be the ones who mistreat¦150703 you all",
-            {
-              "add": "because of",
-              "closing": "\\add*"
-            },
-            "your¦150697 good conduct¦150713 in the message who will be disgraced¦150700."
-          ],
-          "verseText": "but do it with gentleness¦150685 and respect¦150687, keeping a clear conscience¦150688, so that if you're accused falsely of doing evil, then it'll be the ones who mistreat¦150703 you all because of your¦150697 good conduct¦150713 in the message who will be disgraced¦150700."
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "Because¦150715 it is better¦150714 to do good¦150716 and then, if",
-            {
-              "nd": "God¦150724",
-              "closing": "\\nd*"
-            },
-            "wills it, to suffer¦150725, than to do evil¦150728."
-          ],
-          "verseText": "Because¦150715 it is better¦150714 to do good¦150716 and then, if God¦150724 wills it, to suffer¦150725, than to do evil¦150728."
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            "Because¦150730 the",
-            {
-              "nd": "messiah¦150733",
-              "closing": "\\nd*"
-            },
-            "also died once for sin, i.e., the sinless one died for sinful people, so that he can bring¦150749 you all",
-            {
-              "add": "past death",
-              "closing": "\\add*"
-            },
-            "onward to",
-            {
-              "nd": "God¦150751",
-              "closing": "\\nd*"
-            },
-            ".",
-            {
-              "add": "Although",
-              "closing": "\\add*"
-            },
-            "he experienced physical death, he had been given¦150755 life in the",
-            {
-              "nd": "spirit¦150759",
-              "closing": "\\nd*"
-            }
-          ],
-          "verseText": "Because¦150730 the messiah¦150733 also died once for sin, i.e., the sinless one died for sinful people, so that he can bring¦150749 you all past death onward to God¦150751. Although he experienced physical death, he had been given¦150755 life in the spirit¦150759"
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            "and with that life he also went to the spirits¦150767 in prison¦150765 and preached to them—"
-          ],
-          "verseText": "and with that life he also went to the spirits¦150767 in prison¦150765 and preached to them—"
-        },
-        {
-          "verseNumber": "20",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:20:"
-                },
-                {
-                  "xt": "Gen 6:1–7:24."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "those who had refused to believe.",
-            {
-              "nd": "God¦150780",
-              "closing": "\\nd*"
-            },
-            "had waited patiently¦150781 in the time of Noah when the barge was being¦150786 built",
-            {
-              "add": "yet",
-              "closing": "\\add*"
-            },
-            "only a few were saved. Eight of them were brought¦150796 safely¦150796 through the waters¦150798"
-          ],
-          "verseText": "those who had refused to believe. God¦150780 had waited patiently¦150781 in the time of Noah when the barge was being¦150786 built yet only a few were saved. Eight of them were brought¦150796 safely¦150796 through the waters¦150798"
-        },
-        {
-          "verseNumber": "21",
-          "contents": [
-            "which also represents¦150804 how being immersed¦150809 saved you all. It doesn't remove¦150812 the filth¦150813 from your bodies, but cleans the conscience¦150815 as you pledge to",
-            {
-              "nd": "God¦150819",
-              "closing": "\\nd*"
-            },
-            "through¦150820 the resurrection¦150821 of",
-            {
-              "nd": "Yeshua¦150822",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦150823",
-              "closing": "\\nd*"
-            },
-            ","
-          ],
-          "verseText": "which also represents¦150804 how being immersed¦150809 saved you all. It doesn't remove¦150812 the filth¦150813 from your bodies, but cleans the conscience¦150815 as you pledge to God¦150819 through¦150820 the resurrection¦150821 of Yeshua¦150822 the messiah¦150823,"
-        },
-        {
-          "verseNumber": "22",
-          "contents": [
-            "who went to heaven¦150833 and",
-            {
-              "add": "sat",
-              "closing": "\\add*"
-            },
-            "on God's right¦150828, with",
-            {
-              "add": "God's",
-              "closing": "\\add*"
-            },
-            "messengers¦150836 and authorities¦150838 and powers¦150840 all under his authority."
-          ],
-          "verseText": "who went to heaven¦150833 and sat on God's right¦150828, with God's messengers¦150836 and authorities¦150838 and powers¦150840 all under his authority."
-        }
-      ]
-    },
-    {
-      "chapterNumber": "4",
-      "contents": [
-        {
-          "s1": "Leaving worldly desires behind"
-        },
-        {
-          "rem": "/s1 Changed Lives; The final testing; Good Stewards of God's Grace; Living for God"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "Since the",
-            {
-              "nd": "messiah¦150841",
-              "closing": "\\nd*"
-            },
-            "suffered physically, you¦150850 all also should cultivate the same¦150852 intention¦150853, because¦150855",
-            {
-              "nd": "anyone¦150841",
-              "closing": "\\nd*"
-            },
-            "who suffers physically stops sinning"
-          ],
-          "verseText": "Since the messiah¦150841 suffered physically, you¦150850 all also should cultivate the same¦150852 intention¦150853, because¦150855 anyone¦150841 who suffers physically stops sinning"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "so that they can live¦150879 their remaining¦150875 physical lives obeying God's will instead of worldly lusts¦150868"
-          ],
-          "verseText": "so that they can live¦150879 their remaining¦150875 physical lives obeying God's will instead of worldly lusts¦150868"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "because¦150882 enough time¦150887 has been spent",
-            {
-              "add": "listening to",
-              "closing": "\\add*"
-            },
-            "worldly advice and having pursued¦150897 immorality, lusts¦150901, drunkenness¦150902, carousing¦150903, drinking¦150904 parties¦150904, and repulsive idolatry¦150907."
-          ],
-          "verseText": "because¦150882 enough time¦150887 has been spent listening to worldly advice and having pursued¦150897 immorality, lusts¦150901, drunkenness¦150902, carousing¦150903, drinking¦150904 parties¦150904, and repulsive idolatry¦150907."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            {
-              "add": "The unbelievers",
-              "closing": "\\add*"
-            },
-            "will be surprised¦150910 that you're all not joining them in that unrestrained, wild living and they'll mock you,"
-          ],
-          "verseText": "The unbelievers will be surprised¦150910 that you're all not joining them in that unrestrained, wild living and they'll mock you,"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "but they will",
-            {
-              "add": "need",
-              "closing": "\\add*"
-            },
-            "to give an account¦150925",
-            {
-              "add": "for their actions",
-              "closing": "\\add*"
-            },
-            "to the one who is ready¦150928 to judge¦150930",
-            {
-              "add": "both",
-              "closing": "\\add*"
-            },
-            "the living¦150932 and¦150933 the dead¦150934."
-          ],
-          "verseText": "but they will need to give an account¦150925 for their actions to the one who is ready¦150928 to judge¦150930 both the living¦150932 and¦150933 the dead¦150934."
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "That's why the good¦150940 message¦150940 was preached¦150940 even to the dead¦150939, so that people might judge¦150942 them by earthly standards",
-            {
-              "rem": "/s1 Good Managers of God's Gifts"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "That's why the good¦150940 message¦150940 was preached¦150940 even to the dead¦150939, so that people might judge¦150942 them by earthly standards"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "The end¦150957 of everything is getting close, so make good decisions and¦150961 be serious in prayer¦150965,"
-          ],
-          "verseText": "The end¦150957 of everything is getting close, so make good decisions and¦150961 be serious in prayer¦150965,"
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "4:8:"
-                },
-                {
-                  "xt": "Prv 10:12."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "and more than anything, display genuine love to each other because¦150976 love triumphs over many sins¦150981."
-          ],
-          "verseText": "and more than anything, display genuine love to each other because¦150976 love triumphs over many sins¦150981."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "Show hospitality¦150982 to each other without grumbling¦150987."
-          ],
-          "verseText": "Show hospitality¦150982 to each other without grumbling¦150987."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "Whatever gift¦150991 that each person has received¦150990, they should use it¦150994 to serve the others as good¦150997 managers¦150998 of the various¦150999",
-            {
-              "add": "forms of",
-              "closing": "\\add*"
-            },
-            "grace¦151000 that",
-            {
-              "nd": "God¦151001",
-              "closing": "\\nd*"
-            },
-            {
-              "add": "has given us",
-              "closing": "\\add*"
-            },
-            "."
-          ],
-          "verseText": "Whatever gift¦150991 that each person has received¦150990, they should use it¦150994 to serve the others as good¦150997 managers¦150998 of the various¦150999 forms of grace¦151000 that God¦151001 has given us."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            {
-              "nd": "Anyone¦151029",
-              "closing": "\\nd*"
-            },
-            "who shares wisdom that came from God or uses the strength¦151015 that God has given them to serve",
-            {
-              "add": "others",
-              "closing": "\\add*"
-            },
-            "needs to be honouring God through",
-            {
-              "nd": "Yeshua¦151028",
-              "closing": "\\nd*"
-            },
-            "the",
-            {
-              "nd": "messiah¦151029",
-              "closing": "\\nd*"
-            },
-            ". He's the one who",
-            {
-              "add": "deserves",
-              "closing": "\\add*"
-            },
-            "the honour and¦151035 the power¦151037 all through the ages.",
-            {
-              "s1": "The suffering of believers"
-            },
-            {
-              "rem": "/s1 Suffering as a Christian; Suffering for Being a Christian"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Anyone¦151029 who shares wisdom that came from God or uses the strength¦151015 that God has given them to serve others needs to be honouring God through Yeshua¦151028 the messiah¦151029. He's the one who deserves the honour and¦151035 the power¦151037 all through the ages."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "Dear friends, don't¦151046 be surprised¦151047 as the fiery¦151052 trials that you all will have to face as a test, as though¦151057 it's something unusual that's happening¦151060 to you,"
-          ],
-          "verseText": "Dear friends, don't¦151046 be surprised¦151047 as the fiery¦151052 trials that you all will have to face as a test, as though¦151057 it's something unusual that's happening¦151060 to you,"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "but rather as you all share in the sufferings¦151067 of the",
-            {
-              "nd": "messiah¦151066",
-              "closing": "\\nd*"
-            },
-            ", stay positive so that you will all be happy as you're also glad to see his¦151076 honour revealed."
-          ],
-          "verseText": "but rather as you all share in the sufferings¦151067 of the messiah¦151066, stay positive so that you will all be happy as you're also glad to see his¦151076 honour revealed."
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "You all",
-            {
-              "add": "will be",
-              "closing": "\\add*"
-            },
-            "blessed¦151084 if you are derided¦151080 in the name¦151082 of the",
-            {
-              "nd": "messiah¦151083",
-              "closing": "\\nd*"
-            },
-            "because¦151085 God's spirit rests on you all—the spirit that honours",
-            {
-              "add": "him",
-              "closing": "\\add*"
-            },
-            "."
-          ],
-          "verseText": "You all will be blessed¦151084 if you are derided¦151080 in the name¦151082 of the messiah¦151083 because¦151085 God's spirit rests on you all—the spirit that honours him."
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "None of you should¦151115 suffer¦151115",
-            {
-              "add": "persecution",
-              "closing": "\\add*"
-            },
-            "because¦151112 you're a murderer¦151117 or a thief¦151121 or a troublemaker or nosey-parker,"
-          ],
-          "verseText": "None of you should¦151115 suffer¦151115 persecution because¦151112 you're a murderer¦151117 or a thief¦151121 or a troublemaker or nosey-parker,"
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "but if you",
-            {
-              "add": "suffer",
-              "closing": "\\add*"
-            },
-            "for being¦151137 a follower¦151135 of the messiah¦151135, then there's no need to feel ashamed¦151137 but",
-            {
-              "add": "instead",
-              "closing": "\\add*"
-            },
-            "be praising",
-            {
-              "nd": "God¦151141",
-              "closing": "\\nd*"
-            },
-            "in that name¦151144.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "but if you suffer for being¦151137 a follower¦151135 of the messiah¦151135, then there's no need to feel ashamed¦151137 but instead be praising God¦151141 in that name¦151144."
-        },
-        {
-          "verseNumber": "17",
-          "contents": [
-            "It's time¦151149 to begin judgement and to begin with God's people, and if we're judged first¦151161, what will the outcome¦151167 be for those who refuse to believe in God's good¦151174 message¦151174?"
-          ],
-          "verseText": "It's time¦151149 to begin judgement and to begin with God's people, and if we're judged first¦151161, what will the outcome¦151167 be for those who refuse to believe in God's good¦151174 message¦151174?"
-        },
-        {
-          "verseNumber": "18",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "4:18:"
-                },
-                {
-                  "xt": "Prv 11:31 (LXX)."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "Yes,",
-            {
-              "q1": "‘if it's difficult¦151180 for godly people to be saved¦151181,"
-            },
-            {
-              "q2": "what will it be like for the ungodly¦151184 and¦151185 for sinners¦151187.’"
-            },
-            {
-              "m": ""
-            }
-          ],
-          "verseText": "Yes, ‘if it's difficult¦151180 for godly people to be saved¦151181, what will it be like for the ungodly¦151184 and¦151185 for sinners¦151187.’"
-        },
-        {
-          "verseNumber": "19",
-          "contents": [
-            "So for anyone who's suffering¦151195 according¦151196 to God's will, let them entrust¦151204 the well-being of their¦151208 souls¦151206 to the faithful¦151202 creator¦151203."
-          ],
-          "verseText": "So for anyone who's suffering¦151195 according¦151196 to God's will, let them entrust¦151204 the well-being of their¦151208 souls¦151206 to the faithful¦151202 creator¦151203."
-        }
-      ]
-    },
-    {
-      "chapterNumber": "5",
-      "contents": [
-        {
-          "s1": "Advice to believers"
-        },
-        {
-          "rem": "/s1 The Christian community; Advice for Elders and Young Men; The Flock of God; To Elders and Young Men; Tending the Flock of God"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "Because of that I am encouraging your elders as a fellow¦151219 elder and witness¦151221 of the sufferings¦151226 of the",
-            {
-              "nd": "messiah¦151225",
-              "closing": "\\nd*"
-            },
-            "and also a partner¦151235 in the GLORY that's going¦151230 to be revealed¦151231:"
-          ],
-          "verseText": "Because of that I am encouraging your elders as a fellow¦151219 elder and witness¦151221 of the sufferings¦151226 of the messiah¦151225 and also a partner¦151235 in the GLORY that's going¦151230 to be revealed¦151231:"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "5:2:"
-                },
-                {
-                  "xt": "Yhn 21:15-17."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "Carefully shepherd¦151236 God's people that you¦151239 care for, not out of compulsion¦151245 but willingly¦151247, listening to God, not greedily¦151252 but enthusiastically,"
-          ],
-          "verseText": "Carefully shepherd¦151236 God's people that you¦151239 care for, not out of compulsion¦151245 but willingly¦151247, listening to God, not greedily¦151252 but enthusiastically,"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "not exercising¦151257 dominance over them, but¦151260 being examples¦151261 for them."
-          ],
-          "verseText": "not exercising¦151257 dominance over them, but¦151260 being examples¦151261 for them."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "Then¦151265 when the chief¦151268 shepherd¦151268",
-            {
-              "add": "returns",
-              "closing": "\\add*"
-            },
-            ", you¦151269 all will receive¦151269 the unfading¦151271 crown¦151274 of honour.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Then¦151265 when the chief¦151268 shepherd¦151268 returns, you¦151269 all will receive¦151269 the unfading¦151271 crown¦151274 of honour."
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "5:5:"
-                },
-                {
-                  "xt": "Prv 3:34 (LXX)."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "Similarly¦151275, you younger¦151277 ones, take the advice of your elders¦151280, and all of you, show humility¦151287 to each other because¦151289 ‘",
-            {
-              "nd": "God¦151291",
-              "closing": "\\nd*"
-            },
-            "opposes¦151293 those who're proud¦151292, but¦151295 displays grace¦151297 to those who're humble¦151294.’"
-          ],
-          "verseText": "Similarly¦151275, you younger¦151277 ones, take the advice of your elders¦151280, and all of you, show humility¦151287 to each other because¦151289 ‘ God¦151291 opposes¦151293 those who're proud¦151292, but¦151295 displays grace¦151297 to those who're humble¦151294.’"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "5:6:"
-                },
-                {
-                  "xt": "Mat 23:12; Luk 14:11; 18:14."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "So¦151299 humble¦151298 yourselves under¦151300 God's might hand¦151303 so that he might honour you at the",
-            {
-              "add": "right",
-              "closing": "\\add*"
-            },
-            "time¦151311."
-          ],
-          "verseText": "So¦151299 humble¦151298 yourselves under¦151300 God's might hand¦151303 so that he might honour you at the right time¦151311."
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "Give all your¦151316 concerns to him because¦151322 he cares about¦151325 you all.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Give all your¦151316 concerns to him because¦151322 he cares about¦151325 you all."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "Stay alert and keep watch¦151329. Your¦151333 opponent¦151332, the devil¦151335, walks around like a roaring¦151339 lion¦151338, wanting to swallow¦151343",
-            {
-              "add": "you¦151333 all",
-              "closing": "\\add*"
-            },
-            "up"
-          ],
-          "verseText": "Stay alert and keep watch¦151329. Your¦151333 opponent¦151332, the devil¦151335, walks around like a roaring¦151339 lion¦151338, wanting to swallow¦151343 you¦151333 all up"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            {
-              "add": "but remain",
-              "closing": "\\add*"
-            },
-            "firmly in the faith¦151350 and resist¦151346 him, knowing¦151351 that fellow believers",
-            {
-              "add": "all around",
-              "closing": "\\add*"
-            },
-            "the world¦151361 experiencing similar sufferings¦151356 are doing the same¦151354."
-          ],
-          "verseText": "but remain firmly in the faith¦151350 and resist¦151346 him, knowing¦151351 that fellow believers all around the world¦151361 experiencing similar sufferings¦151356 are doing the same¦151354."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "Then¦151368",
-            {
-              "nd": "God¦151369",
-              "closing": "\\nd*"
-            },
-            ",",
-            {
-              "add": "the source",
-              "closing": "\\add*"
-            },
-            "of all grace¦151371 and the one who called¦151373 you to his¦151379 eternal¦151378 GLORY in the",
-            {
-              "nd": "messiah¦151383",
-              "closing": "\\nd*"
-            },
-            "will prepare¦151388 you all as you suffer¦151386 a little¦151385, and will then strengthen you as you're established."
-          ],
-          "verseText": "Then¦151368 God¦151369, the source of all grace¦151371 and the one who called¦151373 you to his¦151379 eternal¦151378 GLORY in the messiah¦151383 will prepare¦151388 you all as you suffer¦151386 a little¦151385, and will then strengthen you as you're established."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "May his ruling be powerful throughout all the ages. May it¦151409 be so¦151409.",
-            {
-              "s1": "Farewell"
-            },
-            {
-              "rem": "/s1 Peter's Final Greetings and Benediction"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "May his ruling be powerful throughout all the ages. May it¦151409 be so¦151409."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "5:12:"
-                },
-                {
-                  "xt": "Acts 15:22,40."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "I have written this brief",
-            {
-              "add": "letter",
-              "closing": "\\add*"
-            },
-            "with the",
-            {
-              "add": "help",
-              "closing": "\\add*"
-            },
-            "of the faithful¦151415 brother¦151416, Silvanus to encourage you all and to testify¦151425 that God's grace¦151430 that you all accepted is true.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "I have written this brief letter with the help of the faithful¦151415 brother¦151416, Silvanus to encourage you all and to testify¦151425 that God's grace¦151430 that you all accepted is true."
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "5:13:"
-                },
-                {
-                  "xt": "Acts 12:12,25; 13:13; 15:37-39; Col 4:10; Phm 24."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "The chosen¦151443 one in Babylon¦151441 and¦151444 my¦151448 ‘son’ Mark send their greetings¦151437 to you¦151438 all."
-          ],
-          "verseText": "The chosen¦151443 one in Babylon¦151441 and¦151444 my¦151448 ‘son’ Mark send their greetings¦151437 to you¦151438 all."
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "Greet¦151449 one another¦151450 with a kiss¦151452 of love¦151453.",
-            {
-              "p": [
-                "May all of you¦151456 who are",
-                {
-                  "add": "united with",
-                  "closing": "\\add*"
-                },
-                "the",
-                {
-                  "nd": "messiah¦151460",
-                  "closing": "\\nd*"
-                },
-                "experience",
-                {
-                  "add": "God's",
-                  "closing": "\\add*"
-                },
-                "peace."
-              ]
-            }
-          ],
-          "verseText": "Greet¦151449 one another¦151450 with a kiss¦151452 of love¦151453. May all of you¦151456 who are united with the messiah¦151460 experience God's peace."
-        }
-      ]
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1:1-2"
+     ]
     }
-  ],
-  "_messages": {
-    "_warnings": []
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "The reminder about the future benefits of salvation ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1:3-12"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Encouragement about godly living ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1:13–2:10"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Respecting those who have authority over us ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "2:11–3:7"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Advice concerning the coming persecutions ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "3:8–4:19"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Advice for teachers and believers ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "5:1-11"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Farewell ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "5:12-14"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "This is still a very early look into the unfinished text of the Open English Translation of the Bible. Please double-check the text in advance before using in public.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ie",
+   "content": []
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "1",
+   "sid": "1PE 1"
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Salutation; Greetings from Peter\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "1PE 1:1"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "This letter is from"
+     ]
+    },
+    " Peter¦148446, an ambassador¦148447 for ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦148449"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "It’s written"
+     ]
+    },
+    " to those people who’ve been chosen ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "by God"
+     ]
+    },
+    " and dispersed¦148453 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "by persecution"
+     ]
+    },
+    " throughout ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "the provinces of"
+     ]
+    },
+    " Pontus¦148454, Galatia¦148455, Cappadocia¦148456, Asia¦148457 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Minor"
+     ]
+    },
+    ", and Bithynia¦148459.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "1PE 1:2"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "They were chosen¦148473"
+     ]
+    },
+    " in advance by God the father¦148463 by his pure ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "spirit¦148466"
+     ]
+    },
+    ", thanks to the obedience¦148468 of ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦148473"
+     ]
+    },
+    " and the sprinkling¦148470 of his blood¦148471.\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Praise to God for a Living Hope; The Hope of Eternal Life; Peter gives thanks\n"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    "May ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "God give"
+     ]
+    },
+    " you¦148475 grace¦148474 and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈abundant"
+     ]
+    },
+    " peace¦148477.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The future hope of life without ending\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "1PE 1:3"
+    },
+    "May ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦148481"
+     ]
+    },
+    ", the father¦148483 of our¦148486 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦148485"
+     ]
+    },
+    " Yeshua the messiah be blessed. He’s the one who, because of his¦148493 incredible mercy¦148494, births us into living¦148500 hope through¦148501 the death and¦148482 coming back to life of Yeshua the messiah.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "1PE 1:4"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Now we have"
+     ]
+    },
+    " an inheritance¦148508 that can’t be destroyed or ruined and never diminishes. It’s kept¦148516 in the heavens¦148519 for you¦148523 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "chosen people"
+     ]
+    },
+    ",\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "1PE 1:5"
+    },
+    "who are guarded¦148528 through¦148529 faith¦148530 by God’s power¦148526, because¦148531 the rescue¦148532 is ready¦148534 to be revealed¦148535 in the final age.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "1PE 1:6"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "This rescue"
+     ]
+    },
+    " brings some happiness now, although offset by the sorrow¦148548 of various¦148552 trials¦148554 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "that¦148540 you¦148541 go through"
+     ]
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "1PE 1:7"
+    },
+    "in order¦148555 that¦148566 your faith will be purified by fire, like gold, but¦148576 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "even"
+     ]
+    },
+    " more precious¦148563, because gold corrodes¦148567. Then your faith will lead to praise¦148575 and glory¦148578 and honour¦148582 when ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦148586"
+     ]
+    },
+    " is revealed,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "1PE 1:8"
+    },
+    "the one you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "chosen people"
+     ]
+    },
+    " love, even though you’ve never seen¦148590 him. Yet you believe¦148598, and because of that, you’re happier than you can even show, AND HAVING BEEN GLORIFIED,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "1PE 1:9"
+    },
+    "you’ll receive¦148606 the result of your faith¦148610, which is that your souls¦148613 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈are rescued"
+     ]
+    },
+    ".\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 The calling of a Christian\n"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "1PE 1:10"
+    },
+    "The prophets¦148620 wanted that¦148621 rescue¦148616 and¦148618 searched¦148619 for it, even while speaking about the grace¦148626 which¦148621 you¦148625 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "chosen people"
+     ]
+    },
+    " would experience.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "1PE 1:11"
+    },
+    "They tried to discover which person or what time¦148633 the messiah’s ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "spirit¦148638"
+     ]
+    },
+    " within them was telling them about, having previously¦148640 testified¦148640 that the messiah would suffer¦148644 but¦148645 afterwards¦148647 would be GLORIOUS.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "1PE 1:12"
+    },
+    "It was shown to them that they weren’t just serving themselves¦148655, but were serving you as they declared¦148663 all the same things that have been preached¦148667 to you by the holy ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "spirit¦148671"
+     ]
+    },
+    " who was sent from heaven. Even ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "God’s"
+     ]
+    },
+    " messengers¦148679 in heaven wanted to know more about those things.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The holy behaviour of believers\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 A Call to Holy Living; Be Holy\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "1PE 1:13"
+    },
+    "So¦148681 take this seriously and get your minds prepared, putting your full hope in the grace¦148695 that’ll be brought¦148693 to you by ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua¦148698"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦148699"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈being revealed¦148697"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "1PE 1:14"
+    },
+    "As people who want to obey, don’t¦148703 conform¦148704 to your earlier¦148706 desires¦148711 that came from your ignorance¦148709,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "1PE 1:15"
+    },
+    "but¦148712 just as ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "God"
+     ]
+    },
+    " who called¦148715 you¦148716 is holy, your yourselves¦148719 need to be holy in all your conduct¦148723,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "1PE 1:16"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:16: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Lev 11:44-45; 19:2."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "because it’s been written¦148727 that ‘you’ll¦148730 be holy ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "people"
+     ]
+    },
+    " because I am holy.’\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "1PE 1:17"
+    },
+    "And since you call on the father¦148740 who impartially¦148744 judges each person according¦148747 to their actions, continue to obey him even as you live ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈as foreigners"
+     ]
+    },
+    ",\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "1PE 1:18"
+    },
+    "knowing¦148761 that when you were in slavery due to your poor conduct¦148775 that you inherited¦148776 from your ancestors, you weren’t bought¦148770 out of that by payment of things ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈that decay¦148764"
+     ]
+    },
+    " like silver¦148766 or gold¦148769,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "1PE 1:19"
+    },
+    "but¦148778 by the precious¦148780 blood¦148781 of the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦148787"
+     ]
+    },
+    "—the unblemished¦148784 and¦148785 spotless¦148786 lamb¦148783.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "1PE 1:20"
+    },
+    "He’d been known¦148789 before¦148792 the world¦148794 was created, yet he was only recently revealed¦148795 for the sake of you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "chosen people"
+     ]
+    },
+    "\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "1PE 1:21"
+    },
+    "who believe¦148810 in God through him. God was the one who raised¦148815 him from the dead¦148819 and honoured him, so that your¦148827 faith¦148826 and hope would be in God.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "1PE 1:22"
+    },
+    "Since your souls¦148835 have been purified¦148837 by obeying the truth¦148842, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "now"
+     ]
+    },
+    " you should love each other from your hearts¦148850 and without hypocrisy.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "1PE 1:23"
+    },
+    "You’ve been born again¦148855, not ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "growing"
+     ]
+    },
+    " from some physical thing that’ll decay¦148860, but¦148861 from indestructible¦148862 material—God’s message¦148864 that’s alive and¦148867 lives on,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "1PE 1:24"
+    },
+    "because ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "it’s written"
+     ]
+    },
+    ":",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:24-25: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Isa 40:6-8 (LXX)."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "‘All flesh¦148875 is like grass,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "and the beauty of our bodies like its flower.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "The grass will wither¦148889 and its flower will drop,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "25",
+     "sid": "1PE 1:25"
+    },
+    "but¦148906 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yahweh’s"
+     ]
+    },
+    " message will last till the end of the age.’\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "m",
+   "content": [
+    "And that’s the good message that’s been preached¦148911 to you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "chosen people"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "2",
+   "sid": "1PE 2"
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Living Stone and the Holy Nation; The Living Stone and a Chosen People\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "1PE 2:1"
+    },
+    "So¦148916 then, get rid of all malice¦148918 and deceit¦148922, and hypocrisy¦148924 and envy, and slandering¦148932 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "others"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "1PE 2:2"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Just"
+     ]
+    },
+    " like newborn¦148936 babies¦148937 long¦148942 for pure milk¦148941 so they’ll grow, you should cultivate a thirst for what’ll help you grow ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈as people who are rescued¦148950"
+     ]
+    },
+    ",\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "1PE 2:3"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:3: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Psa 34:8."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "since you’ve tasted¦148953 that ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yahweh¦148959"
+     ]
+    },
+    " is good¦148957.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The vital building-stone and the believers\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Living Stones for God’s House; The Living Stone and a Chosen People\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "1PE 2:4"
+    },
+    "As you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "chosen people"
+     ]
+    },
+    " approach¦148962 the living¦148964 building-stone (which was rejected¦148969 by humans¦148967 yet chosen¦148973 and honoured¦148974 by ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦148972"
+     ]
+    },
+    "),\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "1PE 2:5"
+    },
+    "you’re¦148982 being¦148982 built¦148982 into a temple and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "joining"
+     ]
+    },
+    " a holy group of priests¦148989 to offer¦148991 up ",
+    {
+     "type": "char",
+     "marker": "em",
+     "content": [
+      "spiritual"
+     ]
+    },
+    " sacrifices¦148994 that are acceptable¦148995 to ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦148997"
+     ]
+    },
+    " through¦148998 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua¦148999"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦149000"
+     ]
+    },
+    ",\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "1PE 2:6"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:6: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Isa 28:16 (LXX)."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "because it’s written in the scriptures¦149008:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "‘Look¦149009, I’m placing a building-stone in Tsiyyon/Zion¦149012,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "vital"
+     ]
+    },
+    " cornerstone¦149014 that’s chosen¦149015 and honoured¦149017,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "and anyone who believes¦149020 in him¦149022 certainly won’t¦149025 be disgraced¦149026.’\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "m",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "1PE 2:7"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:7: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Psa 118:22."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "To all of you¦149028 who believe, this ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "cornerstone"
+     ]
+    },
+    " is valuable, but¦149036 to those who don’t believe:\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "‘The building-stone which¦149039 the builders¦149042 rejected¦149040\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "ended up becoming¦149044 the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "vital"
+     ]
+    },
+    " cornerstone.’\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "m",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "1PE 2:8"
+    },
+    "and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "he’ll be"
+     ]
+    },
+    ":",
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:8: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Isa 8:14-15."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "‘A stone¦149049 that people stumble over\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "and a rock¦149053 that upsets people.’\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "m",
+   "content": [
+    "They stumble ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "because"
+     ]
+    },
+    " they¦149066 won’t believe in the message¦149060—this is what was appointed¦149066 for them.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "1PE 2:9"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:9: a "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Exo 19:5-6; Isa 43:20 (LXX); "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "b "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Exo 19:5; Deu 4:20; 7:6; 14:2; Tit 2:14; "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "c "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Isa 43:21; "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "d "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Isa 9:2."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "But you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "believers"
+     ]
+    },
+    " are a chosen¦149070 tribe, a group of royal¦149071 priests¦149072, a holy nation¦149073, a people¦149075 that God has procured¦149077, so that you can tell others about the virtues¦149080 of the one who called¦149086 you out of darkness¦149084 and into his¦149090 marvellous¦149089 light¦149091.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "1PE 2:10"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:10: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Hos 2:23."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "Previously you weren’t a people group, but now you’re ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God’s¦149100"
+     ]
+    },
+    " people—previously you hadn’t been shown mercy, but now you have been.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Battling worldly desires\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Christian household; Slaves of God; Live as Servants of God\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "1PE 2:11"
+    },
+    "Dear friends, I’m urging you as travellers and¦149111 foreigners to keep away from the world’s temptations, which¦149119 are in a battle against¦149121 your¦149122 soul¦149123.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "1PE 2:12"
+    },
+    "Even as you, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "friends"
+     ]
+    },
+    ", live among¦149130 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈the world’s people"
+     ]
+    },
+    ", maintain your good conduct¦149125 so that¦149138 when they slander¦149139 you by calling you ‘evil’, at the time of God’s ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "judgement"
+     ]
+    },
+    " they’ll have to honour¦149149 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "god¦149155"
+     ]
+    },
+    " when they see your good behaviour.\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Submission to Rulers and Masters; Respecting People in Authority\n"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "1PE 2:13"
+    },
+    "Submit yourselves to every¦149161 human¦149163 authority, because¦149165 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "you obey"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦149167"
+     ]
+    },
+    ", whether¦149168 it’s to the king¦149169 who rules,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "1PE 2:14"
+    },
+    "or the governors¦149173 he sends to punish those who do evil and to praise¦149182 those who do good.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "1PE 2:15"
+    },
+    "God’s wants you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "chosen people"
+     ]
+    },
+    " to silence¦149195 the ignorant¦149201 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "talk"
+     ]
+    },
+    " of foolish¦149198 people¦149199 by doing¦149192 good¦149192.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "1PE 2:16"
+    },
+    "Live like free ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "people"
+     ]
+    },
+    ", but¦149214 don’t¦149205 use that freedom¦149213 to cover¦149207 up evil¦149211—use it as God’s slaves¦149218.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "1PE 2:17"
+    },
+    "Honour others and be loving¦149224 towards your fellow believers. Revere ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦149228"
+     ]
+    },
+    " as well as honouring¦149232 the king¦149231.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Doing good despite suffering\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Slaves; Servants; The Example of Christ’s Suffering\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "1PE 2:18"
+    },
+    "You who are house-servants should respectfully¦149238 obey your¦149240 masters¦149241—not only the good¦149246 and¦149247 gentle¦149248 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "ones"
+     ]
+    },
+    ", but¦149249 also the crooked¦149252 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "ones"
+     ]
+    },
+    ",\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "1PE 2:19"
+    },
+    "because ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "God"
+     ]
+    },
+    " favours¦149255 those who endure unjust¦149270 hardships because of their godly consciences¦149262.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "1PE 2:20"
+    },
+    "What good would it do if you were enduring being¦149277 beaten¦149277 because¦149272 of doing evil? But¦149276 if you endure suffering¦149285 for doing good, then ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦149293"
+     ]
+    },
+    " will be pleased ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "with your behaviour"
+     ]
+    },
+    ",\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "1PE 2:21"
+    },
+    "because that’s what we’re called¦149299 to, because the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦149303"
+     ]
+    },
+    " also suffered¦149305 for you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "chosen people"
+     ]
+    },
+    ". He left an example¦149314 for you, so that you can follow¦149316 in his¦149319 steps¦149318:\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "1PE 2:22"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:22: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Isa 53:9."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "he didn’t do evil or say anything that wasn’t true,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "23",
+     "sid": "1PE 2:23"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:23: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Isa 53:7."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "when he was insulted¦149333 he didn’t retaliate¦149336, when he was persecuted he didn’t threaten¦149339, but put his trust in the one who’ll judge ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "everyone"
+     ]
+    },
+    " with ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "true"
+     ]
+    },
+    " justice.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "24",
+     "sid": "1PE 2:24"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "2:24-25: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Isa 53:5-6 (LXX)."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "He sacrificed his own body¦149359 on the wooden post¦149363 for ",
+    {
+     "type": "char",
+     "marker": "em",
+     "content": [
+      "our¦149353"
+     ]
+    },
+    " sins, so that when we die to sin we can live for righteousness¦149370. By his wounds¦149375, you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "chosen people"
+     ]
+    },
+    " were healed¦149377.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "25",
+     "sid": "1PE 2:25"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "He did all that"
+     ]
+    },
+    " because¦149379 you were like lost sheep¦149381, but¦149391 now you’ve returned¦149385 to your¦149395 souls’¦149394 shepherd¦149390 and overseer¦149392.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "3",
+   "sid": "1PE 3"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Advice to married couples\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Wives and Husbands\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "1PE 3:1"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:1: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Eph 5:22; Col 3:18."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "Similarly¦149396, women¦149398 should be subject¦149399 to their husbands¦149402, so that if any of them don’t believe the message, they’ll be won by their wives’¦149414 behaviour¦149415 even without ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "hearing"
+     ]
+    },
+    " the message,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "1PE 3:2"
+    },
+    "because they’ll be able to observe¦149420 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "their wives’"
+     ]
+    },
+    " pure behaviour¦149426.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "1PE 3:3"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:3: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "1Tim 2:9."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "These women shouldn’t¦149430 focus"
+     ]
+    },
+    " on outward¦149432 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "appearances"
+     ]
+    },
+    " like ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈elaborate hairstyles¦149434"
+     ]
+    },
+    ", or gold¦149438 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "jewellery"
+     ]
+    },
+    " or ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "expensive"
+     ]
+    },
+    " clothes¦149441,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "1PE 3:4"
+    },
+    "but¦149456 on the inner person¦149448 with a gentle¦149454 and quiet¦149457 spirit¦149460 that’s indestructible¦149451 and which¦149461 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦149465"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "considers"
+     ]
+    },
+    " precious¦149466.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "1PE 3:5"
+    },
+    "That was how holy women¦149473 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "in the past"
+     ]
+    },
+    " adorned¦149482 themselves¦149483—those whose hope was in ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦149481"
+     ]
+    },
+    ",\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "1PE 3:6"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:6: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Gen 18:12."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "like Sarah¦149489, who submitted¦149490 to Abraham¦149493 who you’ve¦149499 become¦149499 descendants of. She called him¦149496 ‘master¦149495’, doing¦149502 good¦149502 and¦149503 without any worries.\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Husbands\n"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "1PE 3:7"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:7: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Eph 5:25; Col 3:19."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "Similarly, men¦149509 should live with ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "their wives"
+     ]
+    },
+    " with understanding, like how you’d handle something more fragile. They should display honour¦149522 to their fellow¦149527 recipients of life-",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "giving"
+     ]
+    },
+    " grace¦149530 so that their prayers¦149540 won’t¦149535 be hindered¦149536.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Suffering for doing good\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 All Christians; Suffering for Doing Right; Suffering for Doing Good\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "1PE 3:8"
+    },
+    "Finally, everyone should be agreeable and sympathetic¦149548 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "to others"
+     ]
+    },
+    ", kind and caring towards those around you, humble¦149551\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "1PE 3:9"
+    },
+    "and not repaying evil with evil or insult with insult, but rather be a blessing to others. You were called¦149569 to do that so that you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "chosen people"
+     ]
+    },
+    " can receive a blessing,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "1PE 3:10"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:10-12: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Psa 34:12-16 (LXX)."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "because¦149574 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "it’s written"
+     ]
+    },
+    ":\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "‘The person wanting¦149575 to enjoy life¦149576 and see¦149579 good¦149582 days¦149580,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "let their tongue¦149587 cease¦149583 from evil¦149590,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "and their lips¦149593 not speak¦149597 deceit¦149599.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "1PE 3:11"
+    },
+    "Let them turn¦149600 away from evil¦149603 and do¦149605 good¦149606,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "let them look for peace¦149608 and chase after it¦149611,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "1PE 3:12"
+    },
+    "because ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yahweh"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "≈looks kindly"
+     ]
+    },
+    " on the righteous¦149617,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "and¦149618 his ears¦149619 listen to their¦149624 petition¦149623,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "but¦149626 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yahweh"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "turns"
+     ]
+    },
+    " his face¦149625 away from those¦149629 who do evil¦149630.’\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Suffering for Doing Good\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "1PE 3:13"
+    },
+    "Who’s going¦149634 to mistreat¦149634 you if you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "chosen people"
+     ]
+    },
+    " start actively ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "doing"
+     ]
+    },
+    " good¦149639?\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "1PE 3:14"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:14: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Mat 5:10."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "But¦149645 even if some of you do suffer¦149649 because of your godliness, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "you will be"
+     ]
+    },
+    " blessed¦149652. Don’t be scared or disturbed¦149661 because of your fear¦149656 of them,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "1PE 3:15"
+    },
+    "but¦149663 revere the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦149665"
+     ]
+    },
+    " as the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "master¦149662"
+     ]
+    },
+    " of your¦149672 hearts¦149670. Always be ready¦149673 to explain the hope that¦149679 you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "chosen people"
+     ]
+    },
+    " have if anyone¦149665 asks,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "1PE 3:16"
+    },
+    "but¦149692 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "do it"
+     ]
+    },
+    " with gentleness¦149691 and respect¦149693, keeping a clear conscience¦149694, so that¦149699 if you’re falsely accused of doing evil, then the ones who’ll be disgraced¦149706 will be the ones who mistreat¦149709 you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "chosen people, because of"
+     ]
+    },
+    " the good way you live because of the message.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "1PE 3:17"
+    },
+    "After all, it’s better¦149720 to do good¦149722, and then, if ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦149730"
+     ]
+    },
+    " intends it, to suffer¦149731, than to do evil¦149734,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "1PE 3:18"
+    },
+    "because¦149736 the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦149739"
+     ]
+    },
+    " also died once for sin, that is, the sinless one died for sinful people, so that he can bring¦149755 you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "chosen people past death"
+     ]
+    },
+    " onward to ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦149757"
+     ]
+    },
+    ". ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "Although"
+     ]
+    },
+    " he experienced physical death, he’d been given¦149761 life in the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "spirit¦149765"
+     ]
+    },
+    ",\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "1PE 3:19"
+    },
+    "and with that¦149767 life he also went to the spirits¦149773 in prison¦149771 and preached to them—\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "20",
+     "sid": "1PE 3:20"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:20: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Gen 6:1–7:24."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "those who’d refused to believe. ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦149786"
+     ]
+    },
+    " had waited patiently¦149787 in Noah’s¦149791 time¦149790 when the barge was being¦149792 built, ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "yet"
+     ]
+    },
+    " only a few were saved. Eight of them were brought¦149802 safely¦149802 through the waters¦149804,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "21",
+     "sid": "1PE 3:21"
+    },
+    "which also represents¦149810 how being immersed¦149815 saved you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "chosen people"
+     ]
+    },
+    ". It doesn’t remove¦149818 the filth¦149819 from your bodies, but cleans the conscience¦149821 as you make a pledge to ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦149825"
+     ]
+    },
+    " based on the coming back to life of ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦149829"
+     ]
+    },
+    ",\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "22",
+     "sid": "1PE 3:22"
+    },
+    "who went to heaven¦149839 and ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "sat"
+     ]
+    },
+    " at God’s right¦149834, with ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "God’s"
+     ]
+    },
+    " messengers¦149842 and authorities¦149844 and powers¦149846 all under his authority.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "4",
+   "sid": "1PE 4"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Leaving worldly desires behind\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Changed Lives; The final testing; Good Stewards of God’s Grace; Living for God\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "1PE 4:1"
+    },
+    "Since the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦149847"
+     ]
+    },
+    " suffered physically, you¦149856 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "chosen people"
+     ]
+    },
+    " should also cultivate the same¦149858 intention¦149859, because¦149861 anyone who suffers physically stops sinning\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "1PE 4:2"
+    },
+    "so that they can live¦149885 their remaining¦149881 physical lives obeying God’s intentions instead of this world’s lusts¦149874,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "1PE 4:3"
+    },
+    "because¦149888 enough time¦149893 has been spent ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "listening to"
+     ]
+    },
+    " this world’s advice and pursuing¦149903 immorality, lusts¦149907, drunkenness¦149908, carousing¦149909, drinking¦149910 parties¦149910, and repulsive service to false gods.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "1PE 4:4"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "The unbelievers"
+     ]
+    },
+    " will be surprised¦149916 that you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "chosen people"
+     ]
+    },
+    " aren’t¦149917 joining them in that unrestrained, wild living, and they’ll mock you,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "1PE 4:5"
+    },
+    "but¦149939 they’ll ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "need"
+     ]
+    },
+    " to give an account¦149931 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "for their actions"
+     ]
+    },
+    " to the one who’s ready¦149934 to judge¦149936 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "both"
+     ]
+    },
+    " the living¦149938 and¦149939 the dead¦149940.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "1PE 4:6"
+    },
+    "That’s why the good¦149946 message¦149946 was preached¦149946 even to the dead¦149945, so that while people might judge¦149948 them according to this world’s standards, yet they¦149948 might live spiritually¦149959 according to God’s judgement.\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Good Managers of God’s Gifts\n"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "1PE 4:7"
+    },
+    "The end¦149963 of everything is getting close, so make good decisions and¦149967 be serious in prayer¦149971,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "1PE 4:8"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "4:8: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Prv 10:12."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "and more than anything, display genuine love to each other, because¦149982 love triumphs over many sins¦149987.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "1PE 4:9"
+    },
+    "Show hospitality¦149988 to each other without grumbling¦149993.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "1PE 4:10"
+    },
+    "Whatever gift¦149997 each person has received¦149996, they should use it¦150000 to serve the others as good¦150003 managers¦150004 of the various¦150005 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "forms of"
+     ]
+    },
+    " grace¦150006 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God’s¦150007"
+     ]
+    },
+    " ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "given us"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "1PE 4:11"
+    },
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Anyone¦150035"
+     ]
+    },
+    " who shares wisdom that came from God or uses the strength¦150021 that God’s given them to serve ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "others"
+     ]
+    },
+    " needs to be honouring God through ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "Yeshua"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦150035"
+     ]
+    },
+    ". He’s the one who ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "deserves"
+     ]
+    },
+    " the honour and¦150041 power¦150043 throughout all time.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "The suffering of believers\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Suffering as a Christian; Suffering for Being a Christian\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "1PE 4:12"
+    },
+    "Dear friends, don’t¦150052 be surprised¦150053 as the fiery¦150058 trials that you all will have to face as a test, as though¦150063 it’s something unusual that’s happening¦150066 to you,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "1PE 4:13"
+    },
+    "but rather as you all share in the sufferings¦150073 of the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦150072"
+     ]
+    },
+    ", stay positive so that you will all be happy as you’re also glad to see his¦150082 honour revealed.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "1PE 4:14"
+    },
+    "You all ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "will be"
+     ]
+    },
+    " blessed¦150090 if you are derided¦150086 in the name¦150088 of the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦150089"
+     ]
+    },
+    " because¦150091 God’s spirit rests on you all—the spirit that honours ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "him"
+     ]
+    },
+    ".\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "1PE 4:15"
+    },
+    "None of you should¦150121 suffer¦150121 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "persecution"
+     ]
+    },
+    " because¦150118 you’re a murderer¦150123 or a thief¦150127 or a troublemaker or nosey-parker,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "1PE 4:16"
+    },
+    "but if you ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "suffer"
+     ]
+    },
+    " for being¦150142 a follower¦150140 of the messiah¦150140, then there’s no need to feel ashamed¦150142 but ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "instead"
+     ]
+    },
+    " be praising ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦150146"
+     ]
+    },
+    " in that name¦150149.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "17",
+     "sid": "1PE 4:17"
+    },
+    "It’s time¦150154 to begin judgement¦150158 and to begin with God’s people, and if we’re judged first¦150166, what will the outcome¦150172 be for those who refuse to believe in God’s good¦150179 message¦150179?\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "18",
+     "sid": "1PE 4:18"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "4:18: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Prv 11:31 (LXX)."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "Yes,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "‘if it’s difficult¦150185 for godly¦150184 people to be saved¦150186,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q2",
+   "content": [
+    "what will it be like for the ungodly¦150189 and¦150190 for sinners¦150192.’\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "m",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "19",
+     "sid": "1PE 4:19"
+    },
+    "So for anyone who’s suffering¦150200 according¦150201 to God’s will, let them entrust¦150209 the well-being of their¦150213 souls¦150211 to the faithful¦150207 creator¦150208.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "5",
+   "sid": "1PE 5"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Advice to believers\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 The Christian community; Advice for Elders and Young Men; The Flock of God; To Elders and Young Men; Tending the Flock of God\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "1PE 5:1"
+    },
+    "Because of that I am encouraging your elders as a fellow¦150224 elder and witness¦150226 of the sufferings¦150231 of the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦150230"
+     ]
+    },
+    " and also a partner¦150240 in the GLORY that’s going¦150235 to be revealed¦150236:\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "1PE 5:2"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "5:2: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Yhn 21:15-17."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "Carefully shepherd¦150241 God’s people that you¦150244 care for, not out of compulsion¦150250 but willingly¦150252, listening to God, not greedily¦150257 but enthusiastically,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "1PE 5:3"
+    },
+    "not exercising¦150262 dominance over them, but¦150265 being examples¦150266 for them.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "1PE 5:4"
+    },
+    "Then¦150270 when the chief¦150273 shepherd¦150273 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "returns"
+     ]
+    },
+    ", you¦150274 all will receive¦150274 the unfading¦150276 crown¦150279 of honour.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "1PE 5:5"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "5:5: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Prv 3:34 (LXX)."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "Similarly¦150280, you younger¦150282 ones, take the advice of your elders¦150285, and¦150287 all of you, show humility¦150292 to each other because¦150294 ‘",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦150296"
+     ]
+    },
+    " opposes¦150298 those who are proud¦150297, but¦150300 displays grace¦150302 to those who are humble¦150299.’\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "1PE 5:6"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "5:6: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Mat 23:12; Luk 14:11; 18:14."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "So¦150304 humble¦150303 yourselves under¦150305 God’s might hand¦150308 so that he might honour you at the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "right"
+     ]
+    },
+    " time¦150315.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "1PE 5:7"
+    },
+    "Give all your¦150320 concerns to him because¦150326 he cares about¦150329 you all.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "1PE 5:8"
+    },
+    "Stay alert and keep watch¦150333. Your¦150337 opponent¦150336, the devil¦150339, walks around like a roaring¦150343 lion¦150342, wanting to swallow¦150347 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "you¦150337 all"
+     ]
+    },
+    " up\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "1PE 5:9"
+    },
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "but remain"
+     ]
+    },
+    " firmly in the faith¦150354 and resist¦150350 him, knowing¦150355 that fellow believers ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "all around"
+     ]
+    },
+    " the world¦150365 experiencing similar sufferings¦150360 are doing the same¦150358.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "1PE 5:10"
+    },
+    "Then¦150372 ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "God¦150373"
+     ]
+    },
+    ", ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "the source"
+     ]
+    },
+    " of all grace¦150375 and the one who called¦150377 you to his¦150383 eternal¦150382 GLORY in the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦150387"
+     ]
+    },
+    " will prepare¦150392 you all as you suffer¦150390 a little¦150389, and will then¦150372 strengthen you as you’re established.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "1PE 5:11"
+    },
+    "May his ruling be powerful throughout all the ages. May it¦150413 be so¦150413.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Farewell\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Peter’s Final Greetings and Benediction\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "1PE 5:12"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "5:12: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 15:22,40."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "I have written this brief ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "letter"
+     ]
+    },
+    " with the ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "help"
+     ]
+    },
+    " of the faithful¦150418 brother¦150419, Silvanus¦150415 to encourage you all and to testify¦150428 that God’s grace¦150433 that you all accepted is true.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "1PE 5:13"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "5:13: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Acts 12:12,25; 13:13; 15:37-39; Col 4:10; Phm 24."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "The chosen¦150446 one in Babylon and¦150447 my¦150451 ‘son’ Mark¦150448 send their greetings¦150440 to you¦150441 all.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "1PE 5:14"
+    },
+    "Greet¦150452 one another¦150453 with a kiss¦150455 of love¦150456.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    "May all of you¦150459 who are ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "united with"
+     ]
+    },
+    " the ",
+    {
+     "type": "char",
+     "marker": "nd",
+     "content": [
+      "messiah¦150463"
+     ]
+    },
+    " experience ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "God’s"
+     ]
+    },
+    " peace.\n"
+   ]
   }
+ ]
 }

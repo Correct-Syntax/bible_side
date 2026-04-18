@@ -1,652 +1,912 @@
 {
-  "book": {
-    "bookCode": "JON",
-    "description": "- Open English Translation—Readers' Version (OET-RV) v0.3.03",
-    "meta": [
-      {
-        "usfm": "3.0"
-      },
-      {
-        "ide": "UTF-8"
-      },
-      {
-        "rem": "ESFM v0.6 JNA"
-      },
-      {
-        "rem": "WORDTABLE OET-LV_OT_word_table.tsv"
-      },
-      {
-        "h": "Yonah"
-      },
-      {
-        "toc1": "Yonah (Jonah)"
-      },
-      {
-        "toc2": "Yonah"
-      },
-      {
-        "toc3": "Yonah"
-      },
-      {
-        "mt1": "Yonah (Jonah)"
-      },
-      {
-        "is1": "Introduction"
-      },
-      {
-        "ip": [
-          "This account tells about a prophet named Yonah (commonly known as ‘Jonah’) who lived in northern Israel around 250 years after David became king, i.e., in the eighth century BC, perhaps around 785 BC. This account is not like other prophetic accounts because it tells us about the fate of a prophet who",
-          {
-            "em": "didn't",
-            "closing": "\\em*"
-          },
-          "obey God when he was commanded by God to go to the city of Nineveh. He didn't obey because knew that God would be merciful and not carry out his threat of punishing that city if the people decided to turn away from their sins. But due to a miracle when he was swallowed by a large fish after being tossed overboard from a ship in a storm, Yonah was spat out on the beach and forced to go to Nineveh. His missionary work there was very successful as the king led a movement of turning back towards God. This upset Yonah when God indeed didn't punish the people of Nineveh by destroying their city."
-        ]
-      },
-      {
-        "ip": "This account also indicates how the author believes that God is in control of everything he made, including the ocean, fish, the wind, etc. But most of all, we're told here how loving and merciful God is, because even the enemies of his chosen people were forgiven and saved after they turned away from their sins."
-      },
-      {
-        "iot": "Main components of this account"
-      },
-      {
-        "io1": [
-          "Yonah disobeys God's command",
-          {
-            "ior": "1:1-17",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Yonah's prayer",
-          {
-            "ior": "2:1-10",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Yonah goes to Nineveh",
-          {
-            "ior": "3:1-10",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "io1": [
-          "Yonah's anger at God's mercy towards Nineveh",
-          {
-            "ior": "4:1-11",
-            "closing": "\\ior*"
-          }
-        ]
-      },
-      {
-        "rem": [
-          "This is still a very early look into the unfinished text of the",
-          {
-            "em": "Open English Translation",
-            "closing": "\\em*"
-          },
-          "of the Bible. Please double-check the text in advance before using in public."
-        ]
-      },
-      {
-        "ie": ""
-      }
-    ]
+ "type": "USJ",
+ "version": "3.1",
+ "content": [
+  {
+   "type": "book",
+   "marker": "id",
+   "code": "JON",
+   "content": [
+    "- Open English Translation—Readers’ Version (OET-RV) v0.3.04"
+   ]
   },
-  "chapters": [
+  {
+   "type": "para",
+   "marker": "ide",
+   "content": [
+    "UTF-8\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "ESFM v0.6 JNA\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "WORDTABLE OET-LV_OT_word_table.tsv\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "h",
+   "content": [
+    "Yonah\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc1",
+   "content": [
+    "Yonah (Jonah)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc2",
+   "content": [
+    "Yonah\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "toc3",
+   "content": [
+    "Yonah\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "mt1",
+   "content": [
+    "Yonah (Jonah)\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "is1",
+   "content": [
+    "Introduction\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "This account tells about a prophet named Yonah (commonly known as ‘Jonah’) who lived in northern Yisrael/Israel around 250 years after David became king, i.e., in the eighth century BC, perhaps around 785 BC. This account is not like other prophetic accounts because it tells us about the fate of a prophet who ",
     {
-      "chapterNumber": "1",
-      "contents": [
-        {
-          "s1": "Yonah tries to run from God"
-        },
-        {
-          "rem": "/s1 Jonah Disobeys the Lord; Jonah Flees From the Lord; Jonah Tries to Run Away from God; Jonah Runs from the Lord; Jonah's mission to Nineveh"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:1:"
-                },
-                {
-                  "xt": "2Ki 14:25."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "Now Yahweh¦370574 said to Yonah the son of Amittai¦370580,"
-          ],
-          "verseText": "Now Yahweh¦370574 said to Yonah the son of Amittai¦370580,"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "“Go now to the major city¦370588 of Nineveh¦370587, and¦370590 speak out against it¦370594 because I've noticed how evil they are.”",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "“Go now to the major city¦370588 of Nineveh¦370587, and¦370590 speak out against it¦370594 because I've noticed how evil they are.”"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "But¦370598 Yonah decided to run away from Yahweh so he went down to Yoppa and found¦370606 a ship¦370607 about¦370610 to go to Tarshish. He paid the fare and went aboard to go with them to Tarshish to get away from Yahweh.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "But¦370598 Yonah decided to run away from Yahweh so he went down to Yoppa and found¦370606 a ship¦370607 about¦370610 to go to Tarshish. He paid the fare and went aboard to go with them to Tarshish to get away from Yahweh."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "However Yahweh caused a strong wind on the sea and it became a such big storm¦370631 that they all thought¦370636 the ship would disintegrate."
-          ],
-          "verseText": "However Yahweh caused a strong wind on the sea and it became a such big storm¦370631 that they all thought¦370636 the ship would disintegrate."
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "The sailors¦370640 were afraid¦370639 and they each cried¦370641 to their own gods for help, and they threw¦370646 the cargo overboard to make the ship lighter¦370655. But¦370639 Yonah had gone down into the hold where he had laid down and fallen fast asleep¦370664.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "The sailors¦370640 were afraid¦370639 and they each cried¦370641 to their own gods for help, and they threw¦370646 the cargo overboard to make the ship lighter¦370655. But¦370639 Yonah had gone down into the hold where he had laid down and fallen fast asleep¦370664."
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "So¦370666 the ship's captain approached¦370666 him and said¦370670, “Why are you sleeping¦370675? Come on, pray to your God¦370680 and perhaps¦370681 he will take notice of us so we won't die.”",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "So¦370666 the ship's captain approached¦370666 him and said¦370670, “Why are you sleeping¦370675? Come on, pray to your God¦370680 and perhaps¦370681 he will take notice of us so we won't die.”"
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "Then¦370688 the sailors said¦370688 to each other, “Let's draw straws to find out whose¦370697 fault it is that we are in this predicament.” So¦370688 they¦370688 drew straws and Yonah was indicated."
-          ],
-          "verseText": "Then¦370688 the sailors said¦370688 to each other, “Let's draw straws to find out whose¦370697 fault it is that we are in this predicament.” So¦370688 they¦370688 drew straws and Yonah was indicated."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "So¦370709 they said¦370709 to him, “Hey, tell us why this disaster is happening to us. What's your occupation¦370723? Where are you from? What country¦370727? What nationality are you?”",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "So¦370709 they said¦370709 to him, “Hey, tell us why this disaster is happening to us. What's your occupation¦370723? Where are you from? What country¦370727? What nationality are you?”"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "And he said¦370734 to them, “I'm a Hebrew¦370736 and I fear Yahweh¦370740 the God¦370741 of the heavens¦370742 who made the sea¦370750 and the land.”",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "And he said¦370734 to them, “I'm a Hebrew¦370736 and I fear Yahweh¦370740 the God¦370741 of the heavens¦370742 who made the sea¦370750 and the land.”"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "And the men became really scared and asked him what he had done, because he had told them that he was running from Yahweh¦370772.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "And the men became really scared and asked him what he had done, because he had told them that he was running from Yahweh¦370772."
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "So¦370788 they asked him what they should do to him so that the sea would calm, because the storm was getting worse.",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "So¦370788 they asked him what they should do to him so that the sea would calm, because the storm was getting worse."
-        },
-        {
-          "verseNumber": "12",
-          "contents": [
-            "And he said to them, “Pick me up and throw¦370796 me into the sea so that the sea will calm down because I know that this terrible storm¦370808 came because of me.”",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "And he said to them, “Pick me up and throw¦370796 me into the sea so that the sea will calm down because I know that this terrible storm¦370808 came because of me.”"
-        },
-        {
-          "verseNumber": "13",
-          "contents": [
-            "However¦370821, the men¦370814 tried to row but they¦370820 were not able to return to the land because the sea¦370822 was very rough and¦370819 getting worse."
-          ],
-          "verseText": "However¦370821, the men¦370814 tried to row but they¦370820 were not able to return to the land because the sea¦370822 was very rough and¦370819 getting worse."
-        },
-        {
-          "verseNumber": "14",
-          "contents": [
-            "So¦370827 they called to Yahweh and said¦370831, “We beg you Yahweh: please¦370852 don't let us die because of this man¦370839, and don't consider us guilty because you yourself have made this happen.”"
-          ],
-          "verseText": "So¦370827 they called to Yahweh and said¦370831, “We beg you Yahweh: please¦370852 don't let us die because of this man¦370839, and don't consider us guilty because you yourself have made this happen.”"
-        },
-        {
-          "verseNumber": "15",
-          "contents": [
-            "And then they picked¦370855 up Yonah and threw¦370859 him into the sea, and the sea became calm."
-          ],
-          "verseText": "And then they picked¦370855 up Yonah and threw¦370859 him into the sea, and the sea became calm."
-        },
-        {
-          "verseNumber": "16",
-          "contents": [
-            "The men¦370868 felt really scared of Yahweh¦370873 and they¦370867 sacrificed¦370876 to him and made vows.",
-            {
-              "rem": "We renumbered this chapter to match the LV for now"
-            }
-          ],
-          "verseText": "The men¦370868 felt really scared of Yahweh¦370873 and they¦370867 sacrificed¦370876 to him and made vows."
-        }
-      ]
+     "type": "char",
+     "marker": "em",
+     "content": [
+      "didn’t"
+     ]
     },
+    " obey God when he was commanded by God to go to the city of Nineveh (Heb. Ninveh). He didn’t obey because knew that God would be merciful and not carry out his threat of punishing that city if the people decided to turn away from their sins. But due to a miracle when he was swallowed by a large fish after being tossed overboard from a ship in a storm, Yonah was spat out on the beach and forced to go to Nineveh. His missionary work there was very successful as the king led a movement of turning back towards God. This upset Yonah when God indeed didn’t punish the people of Nineveh by destroying their city.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ip",
+   "content": [
+    "This account also indicates how the author believes that God is in control of everything he made, including the ocean, fish, the wind, etc. But most of all, we’re told here how loving and merciful God is, because even the enemies of his chosen people were forgiven and saved after they turned away from their sins.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "iot",
+   "content": [
+    "Main components of this account\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Yonah disobeys Yahweh’s command ",
     {
-      "chapterNumber": "2",
-      "contents": [
-        {
-          "rem": "/s1 Jonah's Prayer; A Psalm of Thanksgiving"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "1:17:"
-                },
-                {
-                  "xt": "Mat 12:40."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "Then Yahweh¦370883 commanded a huge fish to swallow¦370886 Yonah and he stayed in the belly¦370892 of the fish for three days¦370895 and three nights¦370897.",
-            {
-              "s1": "Yonah's prayer"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Then Yahweh¦370883 commanded a huge fish to swallow¦370886 Yonah and he stayed in the belly¦370892 of the fish for three days¦370895 and three nights¦370897."
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "And Yonah prayed¦370900 to Yahweh¦370904 his God¦370905 from the belly¦370906 of the fish¦370907."
-          ],
-          "verseText": "And Yonah prayed¦370900 to Yahweh¦370904 his God¦370905 from the belly¦370906 of the fish¦370907."
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "And he said¦370910,",
-            {
-              "q1": "“I called¦370911 to you Yahweh¦370916 in my distress¦370912 and you answered¦370917 me. I cried¦370920 for help¦370920 from the valley of death and you heard¦370921 my voice."
-            }
-          ],
-          "verseText": "And he said¦370910, “I called¦370911 to you Yahweh¦370916 in my distress¦370912 and you answered¦370917 me. I cried¦370920 for help¦370920 from the valley of death and you heard¦370921 my voice."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "You have thrown¦370925 me right into the deep—the heart¦370927 of the sea; and a flood surrounds¦370930 me. All your waves are crashing over me.",
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "You have thrown¦370925 me right into the deep—the heart¦370927 of the sea; and a flood surrounds¦370930 me. All your waves are crashing over me."
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "And I said¦370940, ‘I have been driven¦370941 out of your sight¦370943 however I will look¦370946 again towards your holy temple¦370949.’",
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "And I said¦370940, ‘I have been driven¦370941 out of your sight¦370943 however I will look¦370946 again towards your holy temple¦370949.’"
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "I was up to my neck in the waters¦370954; it was deep all around me. There were reeds wrapped¦370961 around my head.",
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "I was up to my neck in the waters¦370954; it was deep all around me. There were reeds wrapped¦370961 around my head."
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "I went¦370967 down to the foundations of the mountains¦370966; barred from returning to the land. But you saved my life¦370974 from the grave, Yahweh¦370975 my God¦370976.",
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "I went¦370967 down to the foundations of the mountains¦370966; barred from returning to the land. But you saved my life¦370974 from the grave, Yahweh¦370975 my God¦370976."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "When my life¦370981 was draining away from me, I remembered¦370985 you, Yahweh¦370984, and my prayer¦370988 reached you in your holy temple¦370991.",
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "When my life¦370981 was draining away from me, I remembered¦370985 you, Yahweh¦370984, and my prayer¦370988 reached you in your holy temple¦370991."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "Those who worship lifeless gods abandon¦371000 their¦370999 allegiance to you.",
-            {
-              "q1": ""
-            }
-          ],
-          "verseText": "Those who worship lifeless gods abandon¦371000 their¦370999 allegiance to you."
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "But I'll speak out my gratitude as I sacrifice¦371006 to you¦371008. I've vowed¦371010 this and¦371003 I'll do it, because Yahweh is my rescuer.”",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "But I'll speak out my gratitude as I sacrifice¦371006 to you¦371008. I've vowed¦371010 this and¦371003 I'll do it, because Yahweh is my rescuer.”"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "Then Yahweh¦371018 spoke to the fish¦371019 and¦371017 it vomitted¦371020 Yonah up onto the land."
-          ],
-          "verseText": "Then Yahweh¦371018 spoke to the fish¦371019 and¦371017 it vomitted¦371020 Yonah up onto the land."
-        }
-      ]
-    },
-    {
-      "chapterNumber": "3",
-      "contents": [
-        {
-          "s1": "Yonah goes to Nineveh"
-        },
-        {
-          "rem": "/s1 Jonah Obeys the Lord; Conversion of Nineveh; Jonah Goes to Nineveh"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "And Yahweh¦371032 spoke to Yonah a second¦371036 time saying,"
-          ],
-          "verseText": "And Yahweh¦371032 spoke to Yonah a second¦371036 time saying,"
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            "“Go now to the major city¦371044, Nineveh¦371043, and¦371046 announce this declaration which¦371052 I've told you¦371055.”",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "“Go now to the major city¦371044, Nineveh¦371043, and¦371046 announce this declaration which¦371052 I've told you¦371055.”"
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            "So¦371057 Yonah went¦371059 directly to Nineveh¦371062. It was a large city¦371068, taking three¦371073 days¦371074 to travel across."
-          ],
-          "verseText": "So¦371057 Yonah went¦371059 directly to Nineveh¦371062. It was a large city¦371068, taking three¦371073 days¦371074 to travel across."
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "3:4-5:"
-                },
-                {
-                  "xt": "Mat 12:41; Luk 11:32."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "Yonah¦371077 went one day's travel into the city¦371079 and¦371083 publicly announced, “Nineveh¦371088 is going to be destroyed in forty¦371086 days!”",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "Yonah¦371077 went one day's travel into the city¦371079 and¦371083 publicly announced, “Nineveh¦371088 is going to be destroyed in forty¦371086 days!”"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "The people of Nineveh¦371093 believed¦371091 in God¦371094 and announced a time of fasting, and from the least¦371103 to the most important people, they just wore sackcloth¦371099",
-            {
-              "add": "as a sign of contrition",
-              "closing": "\\add*"
-            },
-            ".",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "The people of Nineveh¦371093 believed¦371091 in God¦371094 and announced a time of fasting, and from the least¦371103 to the most important people, they just wore sackcloth¦371099 as a sign of contrition."
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "The king¦371109 of Nineveh¦371111 also heard about it and he got down from his throne¦371113, took off his robe¦371115 and put on sackcloth¦371118, then sat¦371119 in a pile of ashes¦371122."
-          ],
-          "verseText": "The king¦371109 of Nineveh¦371111 also heard about it and he got down from his throne¦371113, took off his robe¦371115 and put on sackcloth¦371118, then sat¦371119 in a pile of ashes¦371122."
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "And he had a statement written out and publicly read throughout Nineveh¦371126, saying, “The king¦371128 and his advisors declare that people and livestock, be it herds or flocks¦371134, are prohibited from grazing or eating anything¦371138, and even from drinking¦371145 water¦371142."
-          ],
-          "verseText": "And he had a statement written out and publicly read throughout Nineveh¦371126, saying, “The king¦371128 and his advisors declare that people and livestock, be it herds or flocks¦371134, are prohibited from grazing or eating anything¦371138, and even from drinking¦371145 water¦371142."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "Both people and livestock should just wear sacks, and they should use their strength to cry out to God¦371154 and they should turn¦371156 away from the evil¦371159 and violent¦371162 things they have been doing."
-          ],
-          "verseText": "Both people and livestock should just wear sacks, and they should use their strength to cry out to God¦371154 and they should turn¦371156 away from the evil¦371159 and violent¦371162 things they have been doing."
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "And maybe God¦371171 will turn and change his mind and stop his fierce¦371173 anger¦371174, and maybe we won't die.”",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "And maybe God¦371171 will turn and change his mind and stop his fierce¦371173 anger¦371174, and maybe we won't die.”"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "And¦371180 God¦371179 saw¦371178 their actions in turning away from their evil¦371187 ways¦371186 and he changed his mind about the destruction which¦371193 he had said¦371195 he would send to them and he didn't proceed with it."
-          ],
-          "verseText": "And¦371180 God¦371179 saw¦371178 their actions in turning away from their evil¦371187 ways¦371186 and he changed his mind about the destruction which¦371193 he had said¦371195 he would send to them and he didn't proceed with it."
-        }
-      ]
-    },
-    {
-      "chapterNumber": "4",
-      "contents": [
-        {
-          "s1": "Yonah gets upset"
-        },
-        {
-          "rem": "/s1 Jonah's Anger; Jonah's Anger and God's Mercy; Jonah's Anger at the Lord's Compassion; Jonah's Anger at the Lord's Mercy"
-        },
-        {
-          "p": null
-        },
-        {
-          "verseNumber": "1",
-          "contents": [
-            "But¦371202 Yonah¦371205 was very upset and¦371208 the situation made him angry."
-          ],
-          "verseText": "But¦371202 Yonah¦371205 was very upset and¦371208 the situation made him angry."
-        },
-        {
-          "verseNumber": "2",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "4:2:"
-                },
-                {
-                  "xt": "Exo 34:6."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "And he said to Yahweh, “Please Yahweh, wasn't this what I said would happen when I was still in my own country¦371227? That's why I fled to Tarshish¦371233 the first¦371231 time¦371231, because I knew¦371235 that you are a caring forgiving god¦371238, who doesn't get angry quickly; full of kindness and not wanting to cause distress."
-          ],
-          "verseText": "And he said to Yahweh, “Please Yahweh, wasn't this what I said would happen when I was still in my own country¦371227? That's why I fled to Tarshish¦371233 the first¦371231 time¦371231, because I knew¦371235 that you are a caring forgiving god¦371238, who doesn't get angry quickly; full of kindness and not wanting to cause distress."
-        },
-        {
-          "verseNumber": "3",
-          "contents": [
-            {
-              "x": [
-                "+",
-                {
-                  "xo": "4:3:"
-                },
-                {
-                  "xt": "1Ki 19:4."
-                }
-              ],
-              "closing": "\\x*"
-            },
-            "So¦371252 therefore Yahweh¦371253, please¦371256 kill me because I'd¦371257 rather die¦371263 than live¦371264 like this.”",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "So¦371252 therefore Yahweh¦371253, please¦371256 kill me because I'd¦371257 rather die¦371263 than live¦371264 like this.”"
-        },
-        {
-          "verseNumber": "4",
-          "contents": [
-            "But Yahweh¦371268 said¦371267, “Do you think it's right¦371269 to be angry like that?”",
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "But Yahweh¦371268 said¦371267, “Do you think it's right¦371269 to be angry like that?”"
-        },
-        {
-          "verseNumber": "5",
-          "contents": [
-            "And Yonah went outside the city to the east and made himself a shelter¦371284 and sat there¦371283 in the shade¦371287 to see what would happen to the city."
-          ],
-          "verseText": "And Yonah went outside the city to the east and made himself a shelter¦371284 and sat there¦371283 in the shade¦371287 to see what would happen to the city."
-        },
-        {
-          "verseNumber": "6",
-          "contents": [
-            "And Yahweh¦371297 God¦371299 commanded a plant and it grew up over Yonah to shade¦371306 his head and to relieve him from his distress. Yonah was very pleased about the plant."
-          ],
-          "verseText": "And Yahweh¦371297 God¦371299 commanded a plant and it grew up over Yonah to shade¦371306 his head and to relieve him from his distress. Yonah was very pleased about the plant."
-        },
-        {
-          "verseNumber": "7",
-          "contents": [
-            "Then¦371321 at dawn the next day¦371326 God¦371328 commanded a grub and it attacked¦371327 the plant¦371330 which then shrivelled up."
-          ],
-          "verseText": "Then¦371321 at dawn the next day¦371326 God¦371328 commanded a grub and it attacked¦371327 the plant¦371330 which then shrivelled up."
-        },
-        {
-          "verseNumber": "8",
-          "contents": [
-            "And when the sun came up, God¦371338 sent a hot east wind and the sun beat on Yonah's head. He became faint¦371348 and asked¦371349 for his life to end and said, “It's better for me to die than to live.”",
-            {
-              "rem": "/s1 Jonah Is Reproved"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "And when the sun came up, God¦371338 sent a hot east wind and the sun beat on Yonah's head. He became faint¦371348 and asked¦371349 for his life to end and said, “It's better for me to die than to live.”"
-        },
-        {
-          "verseNumber": "9",
-          "contents": [
-            "And God¦371360 said to Yonah, “Do you think it's right¦371372 to be angry about the plant¦371370?”",
-            {
-              "p": "And Yonah replied, “Yes, I'm angry enough to die!”"
-            },
-            {
-              "p": ""
-            }
-          ],
-          "verseText": "And God¦371360 said to Yonah, “Do you think it's right¦371372 to be angry about the plant¦371370?” And Yonah replied, “Yes, I'm angry enough to die!”"
-        },
-        {
-          "verseNumber": "10",
-          "contents": [
-            "Then¦371380 Yahweh¦371381 said¦371380, “You felt sorry for the plant which¦371387 you didn't even plant or work for. It came up in a day and died again in a day"
-          ],
-          "verseText": "Then¦371380 Yahweh¦371381 said¦371380, “You felt sorry for the plant which¦371387 you didn't even plant or work for. It came up in a day and died again in a day"
-        },
-        {
-          "verseNumber": "11",
-          "contents": [
-            "so shouldn't I¦371405 feel sorry for the huge city¦371409 of Nineveh¦371408 which¦371411 has so many people in it who don't¦371404 know right¦371427 from wrong—over 120,000 people, not to mention all the livestock!”"
-          ],
-          "verseText": "so shouldn't I¦371405 feel sorry for the huge city¦371409 of Nineveh¦371408 which¦371411 has so many people in it who don't¦371404 know right¦371427 from wrong—over 120,000 people, not to mention all the livestock!”"
-        }
-      ]
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "1:1-17"
+     ]
     }
-  ],
-  "_messages": {
-    "_warnings": []
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Yonah’s prayer ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "2:1-10"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Yonah goes to Nineveh ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "3:1-10"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "io1",
+   "content": [
+    "Yonah’s anger at God’s mercy towards Nineveh ",
+    {
+     "type": "char",
+     "marker": "ior",
+     "content": [
+      "4:1-11"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "This is still a very early look into the unfinished text of the Open English Translation of the Bible. Please double-check the text in advance before using in public.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "ie",
+   "content": []
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "1",
+   "sid": "JON 1"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Yonah tries to run from God\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Jonah Disobeys the Lord; Jonah Flees From the Lord; Jonah Tries to Run Away from God; Jonah Runs from the Lord; Jonah’s mission to Nineveh\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s4",
+   "content": [
+    "Northern kingdom\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "JON 1:1"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:1: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "2Ki 14:25."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "Now Yahweh¦370574 said to Yonah¦370577 the son of Amittai¦370580,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "JON 1:2"
+    },
+    "“Go now to the major city¦370588 of Nineveh¦370587, and¦370590 speak out against it¦370594 because¦370592 I’ve noticed how evil they are.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "JON 1:3"
+    },
+    "But¦370598 Yonah¦370599 decided to run away from Yahweh so he went down to Yoppa¦370605 and found¦370606 a ship¦370607 about¦370610 to go to Tarshish. He paid the fare and went aboard to go with¦370615 them to Tarshish to get away from Yahweh.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "JON 1:4"
+    },
+    "However Yahweh¦370622 caused a strong wind on¦370634 the sea and¦370622 it became a such big storm¦370631 that they all thought¦370636 the ship would disintegrate.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "JON 1:5"
+    },
+    "The sailors¦370640 were afraid¦370639 and they each cried¦370641 to their own gods for help, and they threw¦370646 the cargo overboard to make the ship lighter¦370655. But¦370639 Yonah¦370657 had gone down into the hold where he had laid down and fallen¦370664 fast asleep¦370664.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "JON 1:6"
+    },
+    "So¦370666 the ship’s captain approached¦370666 him and said¦370670, “Why are you sleeping¦370675? Come on, pray to your god¦370680 and perhaps¦370681 he will take notice of us so we won’t¦370685 die.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "JON 1:7"
+    },
+    "Then¦370688 the sailors said¦370688 to each other, “Let’s draw straws to find out whose¦370697 fault it¦370703 is that¦370697 we¦370696 are in¦370697 this predicament.” So¦370688 they¦370688 drew straws and¦370688 Yonah¦370707 was indicated.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "JON 1:8"
+    },
+    "So¦370709 they said¦370709 to him, “Hey, tell us why this disaster is happening to us. What’s your occupation¦370723? Where are you from? What country¦370727? What nationality are you?”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "JON 1:9"
+    },
+    "And he said¦370734 to them, “I’m a Hebrew¦370736 and I fear Yahweh¦370740 the god¦370741 of the heavens¦370742 who made the sea¦370750 and the land.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "JON 1:10"
+    },
+    "And the men became really scared¦370755 and¦370755 asked him what he had done, because¦370765 he had told them that he was running from Yahweh¦370772.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "JON 1:11"
+    },
+    "So¦370788 they asked him what they should do to him so that the sea would calm, because¦370788 the storm¦370791 was getting worse.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "12",
+     "sid": "JON 1:12"
+    },
+    "And he said to them, “Pick me up and¦370793 throw¦370796 me into the sea so that the sea will calm down because I know that this terrible storm¦370808 came because of me.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "13",
+     "sid": "JON 1:13"
+    },
+    "However¦370821, the men¦370814 tried to row but¦370813 they¦370820 were not able to return to the land because¦370821 the sea¦370822 was very rough and¦370819 getting worse.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "14",
+     "sid": "JON 1:14"
+    },
+    "So¦370827 they called¦370827 to Yahweh and said¦370831, “We beg you Yahweh: please¦370852 don’t let us die because of this man¦370839, and don’t consider us guilty because you yourself have made this happen.”\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "15",
+     "sid": "JON 1:15"
+    },
+    "And then¦370855 they picked¦370855 up Yonah¦370858 and threw¦370859 him into the sea, and the sea became calm.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "16",
+     "sid": "JON 1:16"
+    },
+    "The¦370877 men¦370868 felt really scared¦370867 of Yahweh¦370873 and they¦370867 sacrificed¦370876 to him and made vows.\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "We renumbered this chapter to match the LV for now\n"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "2",
+   "sid": "JON 2"
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Jonah’s Prayer; A Psalm of Thanksgiving\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "JON 2:1"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "1:17: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Mat 12:40."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "Then¦370891 Yahweh¦370883 commanded a huge¦370885 fish to swallow¦370886 Yonah¦370889 and he stayed in¦370892 the belly¦370892 of the fish for three days¦370895 and three nights¦370897.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Yonah’s prayer\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "JON 2:2"
+    },
+    "And Yonah¦370901 prayed¦370900 to Yahweh¦370904 his god¦370905 from the belly¦370906 of the fish¦370907.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "JON 2:3"
+    },
+    "And he said¦370910,\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    "“I called¦370911 to you Yahweh¦370916 in my distress¦370912 and you answered¦370917 me. I cried¦370920 for help¦370920 from the valley of death and you heard¦370921 my voice.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "JON 2:4"
+    },
+    "You have thrown¦370925 me right into the deep—the heart¦370927 of the sea; and a flood surrounds¦370930 me. All your¦370933 waves¦370934 are crashing over me.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "JON 2:5"
+    },
+    "And I said¦370940, ‘I have been driven¦370941 out of your sight¦370943 however I will look¦370946 again towards your holy temple¦370949.’\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "JON 2:6"
+    },
+    "I was up to my neck in the waters¦370954; it¦370959 was deep all around me. There were reeds wrapped¦370961 around my head¦370962.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "JON 2:7"
+    },
+    "I¦370967 went¦370967 down to the foundations of the mountains¦370966; barred from returning to the land. But¦370972 you¦370972 saved my life¦370974 from the grave, Yahweh¦370975 my god¦370976.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "JON 2:8"
+    },
+    "When my life¦370981 was draining away from me, I remembered¦370985 you, Yahweh¦370984, and my prayer¦370988 reached you in¦370979 your holy temple¦370991.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "JON 2:9"
+    },
+    "Those who worship lifeless gods abandon¦371000 their¦370999 allegiance to you.\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "q1",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "JON 2:10"
+    },
+    "But¦371003 I’ll speak out my gratitude as I sacrifice¦371006 to you¦371008. I’ve¦371010 vowed¦371010 this and¦371003 I’ll do it, because Yahweh¦371013 is my rescuer¦371012.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "JON 2:11"
+    },
+    "Then Yahweh¦371018 spoke to the fish¦371019 and¦371017 it vomitted¦371020 Yonah¦371023 up onto the land.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "3",
+   "sid": "JON 3"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Yonah goes to Nineveh\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Jonah Obeys the Lord; Conversion of Nineveh; Jonah Goes to Nineveh\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "JON 3:1"
+    },
+    "And Yahweh¦371032 spoke to Yonah¦371035 a second¦371036 time saying,\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "JON 3:2"
+    },
+    "“Go now to the major city¦371044, Nineveh¦371043, and¦371046 announce this declaration which¦371052 I’ve told you¦371055.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "JON 3:3"
+    },
+    "So¦371057 Yonah¦371058 went¦371059 directly to Nineveh¦371062. It was a large¦371070 city¦371068, taking three¦371073 days¦371074 to travel across.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "JON 3:4"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "3:4-5: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Mat 12:41; Luk 11:32."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "Yonah¦371077 went one day’s travel into the city¦371079 and¦371083 publicly announced, “Nineveh¦371088 is going to be destroyed in¦371079 forty¦371086 days!”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "JON 3:5"
+    },
+    "The people of Nineveh¦371093 believed¦371091 in¦371094 God¦371094 and announced a time of fasting, and from the least¦371103 to the most important people, they just wore sackcloth¦371099 ",
+    {
+     "type": "char",
+     "marker": "add",
+     "content": [
+      "as a sign of contrition"
+     ]
+    },
+    ".\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "JON 3:6"
+    },
+    "The king¦371109 of Nineveh¦371111 also heard about it and he got down from his throne¦371113, took¦371114 off his robe¦371115 and put on sackcloth¦371118, then¦371105 sat¦371119 in a pile of ashes¦371122.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "JON 3:7"
+    },
+    "And he had a statement written out and publicly read throughout Nineveh¦371126, saying, “The king¦371128 and his advisors declare that people and livestock¦371132, be it herds or flocks¦371134, are prohibited from grazing or eating anything¦371138, and even from drinking¦371145 water¦371142.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "JON 3:8"
+    },
+    "Both people and livestock¦371150 should just wear sacks, and they should use their¦371164 strength to cry out to God¦371154 and they should turn¦371156 away from the evil¦371159 and violent¦371162 things they have been doing.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "JON 3:9"
+    },
+    "And maybe God¦371171 will turn and change his mind and stop his fierce¦371173 anger¦371174, and maybe we won’t¦371175 die.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "JON 3:10"
+    },
+    "And¦371180 God¦371179 saw¦371178 their actions in turning away from their evil¦371187 ways¦371186 and he changed his mind about the destruction which¦371193 he had said¦371195 he would send to them and he didn’t¦371199 proceed with it.\n"
+   ]
+  },
+  {
+   "type": "chapter",
+   "marker": "c",
+   "number": "4",
+   "sid": "JON 4"
+  },
+  {
+   "type": "para",
+   "marker": "s1",
+   "content": [
+    "Yonah gets upset\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "rem",
+   "content": [
+    "/s1 Jonah’s Anger; Jonah’s Anger and God’s Mercy; Jonah’s Anger at the Lord’s Compassion; Jonah’s Anger at the Lord’s Mercy\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "1",
+     "sid": "JON 4:1"
+    },
+    "But¦371202 Yonah¦371205 was very upset and¦371208 the situation made him angry.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "2",
+     "sid": "JON 4:2"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "4:2: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "Exo 34:6."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "And he said to Yahweh, “Please Yahweh, wasn’t this what I said would happen when I was still in my own country¦371227? That’s why I fled to Tarshish¦371233 the first¦371231 time¦371231, because¦371234 I knew¦371235 that you are a caring forgiving god¦371238, who doesn’t get angry quickly; full of kindness and¦371211 not wanting to cause distress.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "3",
+     "sid": "JON 4:3"
+    },
+    {
+     "type": "note",
+     "marker": "x",
+     "content": [
+      {
+       "type": "char",
+       "marker": "xo",
+       "content": [
+        "4:3: "
+       ]
+      },
+      {
+       "type": "char",
+       "marker": "xt",
+       "content": [
+        "1Ki 19:4."
+       ]
+      }
+     ],
+     "caller": "+"
+    },
+    "So¦371252 therefore Yahweh¦371253, please¦371256 kill me because¦371261 I’d¦371257 rather die¦371263 than live¦371264 like this.”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "4",
+     "sid": "JON 4:4"
+    },
+    "But¦371267 Yahweh¦371268 said¦371267, “Do you think it’s right¦371269 to be angry like that?”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "5",
+     "sid": "JON 4:5"
+    },
+    "And Yonah¦371274 went outside the city to the east and made himself a shelter¦371284 and sat there¦371283 in¦371287 the shade¦371287 to see what would happen to the city.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "6",
+     "sid": "JON 4:6"
+    },
+    "And Yahweh¦371297 God¦371299 commanded a plant and it grew up over Yonah to shade¦371306 his head¦371309 and to relieve him from his distress¦371312. Yonah was very pleased about the plant.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "7",
+     "sid": "JON 4:7"
+    },
+    "Then¦371321 at¦371324 dawn the next day¦371326 God¦371328 commanded a grub and¦371321 it attacked¦371327 the plant¦371330 which then¦371321 shrivelled up.\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "8",
+     "sid": "JON 4:8"
+    },
+    "And when the sun came up, God¦371338 sent a hot east wind and the sun beat on Yonah’s¦371347 head¦371346. He became¦371348 faint¦371348 and asked¦371349 for his life to end and said, “It’s better for me to die than to live.”\n",
+    {
+     "type": "para",
+     "marker": "rem",
+     "content": [
+      "/s1 Jonah Is Reproved\n"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "9",
+     "sid": "JON 4:9"
+    },
+    "And God¦371360 said to Yonah¦371363, “Do you think it’s right¦371372 to be angry about the plant¦371370?”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    "And Yonah replied, “Yes, I’m angry enough to die!”\n"
+   ]
+  },
+  {
+   "type": "para",
+   "marker": "p",
+   "content": [
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "10",
+     "sid": "JON 4:10"
+    },
+    "Then¦371380 Yahweh¦371381 said¦371380, “You felt sorry for the plant which¦371387 you didn’t¦371388 even plant or work for. It came up in a day and¦371380 died again in a day\n",
+    {
+     "type": "verse",
+     "marker": "v",
+     "number": "11",
+     "sid": "JON 4:11"
+    },
+    "so shouldn’t¦371404 I¦371405 feel sorry for the huge¦371410 city¦371409 of Nineveh¦371408 which¦371411 has so many people in¦371414 it¦371414 who don’t¦371404 know right¦371427 from wrong—over 120,000 people, not to mention all the livestock¦371429!”\n"
+   ]
   }
+ ]
 }
